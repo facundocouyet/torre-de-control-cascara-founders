@@ -3,21 +3,12 @@
 Este repo es la **torre de control de Cáscara Founders**: el tablero interno con la camada de
 clientes, el handicap de cada uno y los documentos de founder. Leé `README.md` antes de tocar nada.
 
-## Lo primero que hay que hacer acá
+## Dónde vive
 
-Crear el repositorio en GitHub y empujar lo que ya está commiteado.
-
-- Nombre: `torre-de-control-cascara-founders`
-- Cuenta: `facundocouyet`
-- Privado
-- Vacío, sin README ni .gitignore de GitHub (este repo ya tiene los suyos)
-
-La rama es `main` y ya tiene los commits hechos. Después de crearlo:
-
-```bash
-git remote add origin https://github.com/facundocouyet/torre-de-control-cascara-founders.git
-git push -u origin main
-```
+`https://github.com/facundocouyet/torre-de-control-cascara-founders`, privado, cuenta
+`facundocouyet`. El remoto `origin` ya está configurado y `main` sigue a `origin/main`.
+Se mantiene actualizado desde Cowork, así que el repo tiene que estar entre las fuentes
+autorizadas de la sesión de Cowork para que pueda empujar sin pasar por Code.
 
 ## Cómo se regenera todo
 
