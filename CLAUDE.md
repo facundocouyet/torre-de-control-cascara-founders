@@ -15,20 +15,32 @@ autorizadas de la sesión de Cowork para que pueda empujar sin pasar por Code.
 Python 3, sin dependencias. El orden importa.
 
 ```bash
-python3 generador/build2.py      # documentos de cliente, desde fichas/  -> out2/<slug>.html
-python3 generador/build_app.py   # datos de la app                       -> contenido/app-data.json
+python3 generador/build2.py      # documentos de cliente, desde fichas/  -> clientes/<slug>.html
+python3 generador/build_app.py   # datos de la app, desde el registro    -> contenido/app-data.json
 python3 generador/app_shell.py   # la app                                -> index.html
-python3 generador/build_site.py  # la versión estática de scroll
+python3 generador/build_site.py  # la versión de scroll -> inicio.html, programa.html,
+                                 #   materiales.html, clientes.html
 ```
 
-Las rutas de los scripts apuntan a la máquina donde se generaron (`/home/claude/...`). Si algo no
-encuentra un archivo, ajustá la ruta al repo y dejá el cambio commiteado.
+Todas las rutas son relativas a la raíz del repo y los cuatro scripts corren desde cualquier
+directorio. `contenido/app-data.json` es intermedio: lo escribe `build_app.py`, lo lee
+`app_shell.py` y no se commitea.
+
+`generador/build.py` es el generador v1, reemplazado por `build2.py`, que lo importa como
+librería para los paneles y los colores. Su cuerpo está detrás de `if __name__ == "__main__"`:
+importarlo no tiene que escribir nada.
+
+`contenido/arranques.json` guarda la primera llamada de cada cliente, por slug. Es lo que antes
+salía del campo `que_paso` de las fichas viejas, que no viajó con el repo. `dias.py` lo lee
+después de `START`.
 
 ## Reglas que no se negocian
 
 **El handicap.** `generador/handicap.py` es la única fuente de verdad de los puntajes. Las fichas
-guardan una copia y `build_app.py` la recalcula desde el registro, así que nunca edites un puntaje
-adentro de una ficha: se edita en `handicap.py` y se regenera.
+y `contenido/panel-data.json` guardan una copia, y tanto `build_app.py` como `build_site.py` la
+recalculan desde el registro, así que nunca edites un puntaje adentro de una ficha: se edita en
+`handicap.py` y se regenera. Si la app y el sitio muestran números distintos, alguno dejó de
+recalcular.
 
 **La escritura.** Español rioplatense, directo, adulto. Se dice lo que la cosa es, sin anteponer lo
 que no es: nada de "no es X, es Y". Nada aspiracional. Los documentos los lee el founder, con su

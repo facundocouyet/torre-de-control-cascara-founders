@@ -3,6 +3,8 @@
 import json, os, glob, re, html as _h
 import build as B
 
+RAIZ=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # la raíz del repo
+
 INK,DEEP,PAPER,PAPER2 = B.INK,B.DEEP,B.PAPER,B.PAPER2
 GREY,LINE,LINEINK,SOFT = B.GREY,B.LINE,B.LINEINK,B.SOFT
 ROJO="#FE1414"
@@ -19,11 +21,9 @@ COMO_SUBE={
 }
 def cien(n): return n*20+10
 
-def SHELL():
-    s=open('/tmp/claude-0/shell.txt',encoding='utf-8').read()
-    ns={}; exec(s,{},ns)
-    return ns['SHELL_HEAD'], ns['SHELL_TAIL']
-SHELL_HEAD, SHELL_TAIL = SHELL()
+# el shell sale de build.py. Antes se leía de un archivo suelto en /tmp de la máquina donde
+# se generó; el módulo ya lo tiene y da el mismo resultado, verificado contra clientes/.
+SHELL_HEAD, SHELL_TAIL = B.SHELL_HEAD, B.SHELL_TAIL
 
 # checklist con memoria + fibrón
 EXTRA = '''
@@ -360,11 +360,12 @@ def build(d):
     return out
 
 if __name__=="__main__":
-    os.makedirs("out2",exist_ok=True)
+    salida=os.path.join(RAIZ,"clientes")
+    os.makedirs(salida,exist_ok=True)
     n=0
-    for f in sorted(glob.glob("v2/fichas/*.json")):
+    for f in sorted(glob.glob(os.path.join(RAIZ,"fichas","*.json"))):
         d=json.load(open(f,encoding="utf-8"))
         tit=f'{d["cliente"]} · {"Informe de cierre" if d["modo"]=="cierre" else "Radiografía y roadmap"}'
-        open(f'out2/{d["slug"]}.html',"w",encoding="utf-8").write(compose(build(d),tit))
+        open(os.path.join(salida,f'{d["slug"]}.html'),"w",encoding="utf-8").write(compose(build(d),tit))
         n+=1
     print("documentos v2:",n)

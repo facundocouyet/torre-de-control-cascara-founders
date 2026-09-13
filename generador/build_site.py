@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 """Genera el sitio de Cáscara Founders. Sin dependencias: python3 build_site.py"""
 import json, html as _h, os, shutil, sys, glob
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+import handicap as HK   # el registro manda sobre la copia guardada en panel-data.json
 def e(s): return _h.escape(str(s or ""))
-BASE=os.path.dirname(os.path.abspath(__file__))
-OUT=os.path.join(BASE,'site')
+BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # la raíz del repo
+OUT=BASE   # el sitio se publica desde la raíz
 FECHA="12 de septiembre de 2026"
 
 NAV=[("index.html","El tablero"),("programa.html","El programa"),
@@ -353,17 +355,19 @@ def build_clientes(panel):
 # ---------------------------------------------------------------- MAIN
 if __name__=="__main__":
     panel=json.load(open(os.path.join(BASE,'contenido','panel-data.json'),encoding='utf-8'))
+    # los puntajes se recalculan desde handicap.py, igual que en build_app.py: la copia que
+    # guarda panel-data.json queda atrás apenas se toca el registro
+    for r in panel:
+        r['handicap']=HK.calcular(r['slug']) or r['handicap']
     prog=json.load(open(os.path.join(BASE,'contenido','programa.json'),encoding='utf-8'))
     mat=json.load(open(os.path.join(BASE,'contenido','materiales.json'),encoding='utf-8'))
     os.makedirs(os.path.join(OUT,'clientes'),exist_ok=True)
     os.makedirs(os.path.join(OUT,'assets'),exist_ok=True)
-    shutil.copy(os.path.join(BASE,'assets','founders.css'), os.path.join(OUT,'assets','founders.css'))
-    open(os.path.join(OUT,'index.html'),'w',encoding='utf-8').write(build_index(panel))
+    # index.html es la app (app_shell.py); la portada de scroll va a inicio.html
+    open(os.path.join(OUT,'inicio.html'),'w',encoding='utf-8').write(build_index(panel))
     open(os.path.join(OUT,'programa.html'),'w',encoding='utf-8').write(build_programa(prog))
     open(os.path.join(OUT,'materiales.html'),'w',encoding='utf-8').write(build_materiales(mat))
     open(os.path.join(OUT,'clientes.html'),'w',encoding='utf-8').write(build_clientes(panel))
-    docs=os.path.join(BASE,'contenido','docs')
-    n=0
-    for f in glob.glob(os.path.join(docs,'*.html')):
-        shutil.copy(f, os.path.join(OUT,'clientes',os.path.basename(f))); n+=1
+    # los documentos ya los escribe build2.py directamente en clientes/
+    n=len(glob.glob(os.path.join(OUT,'clientes','*.html')))
     print("páginas: 4 · documentos de cliente:", n)

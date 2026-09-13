@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import json,os
-B=os.path.dirname(os.path.abspath(__file__))
+B=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # la raíz del repo
 J=open(B+'/contenido/app-data.json',encoding='utf-8').read()
 
 CSS = r'''
@@ -693,5 +693,5 @@ HTML = ('<!doctype html>\n<html lang="es"><head>\n<meta charset="utf-8">\n'
  '<meta name="apple-mobile-web-app-title" content="Founders">\n'
  '<style>' + CSS + '</style>\n</head><body>\n' + BODY +
  '\n<script>\n' + JS.replace('__DATA__', J) + '\n</script>\n</body></html>')
-open(B+'/site/app.html','w',encoding='utf-8').write(HTML)
+open(B+'/index.html','w',encoding='utf-8').write(HTML)
 print("app:",len(HTML))

@@ -3,21 +3,15 @@
 import json, os, collections, sys
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import dias as DI
-sys.path.insert(0,'/home/claude/founders')
 import handicap as HK   # el registro manda sobre cualquier copia guardada
-B=os.path.dirname(os.path.abspath(__file__))
+B=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # la raíz del repo
 panel=json.load(open(B+'/contenido/panel-data.json',encoding='utf-8'))
 prog=json.load(open(B+'/contenido/programa.json',encoding='utf-8'))
 mat=json.load(open(B+'/contenido/materiales.json',encoding='utf-8'))
 # los módulos salen del inventario con las tres capas (pasos, qué completar, qué herramientas),
 # que es lo que distingue un módulo de un SOP
-inv=json.load(open('/home/claude/founders/modulos/inventario.json',encoding='utf-8'))
+inv=json.load(open(B+'/contenido/modulos-inventario.json',encoding='utf-8'))
 import glob
-QP={}
-for g in glob.glob('/home/claude/founders/fichas/*.json'):
-    d=json.load(open(g,encoding='utf-8')); QP[d['slug']]=d['que_paso']
-QP['qualita']=[{'cuando':'20 de agosto de 2026'}]
-QP['cecilia-belotti']=[{'cuando':'2 de septiembre de 2026'}]
 
 FECHA="13 SEP 2026"
 EJES=[("oferta","Oferta"),("contenido","Contenido"),("demanda","Demanda"),("venta","Venta"),("entrega","Entrega")]
@@ -36,7 +30,7 @@ COMO_SUBE={
 # las fichas v2 mandan sobre el panel viejo: de ahí salen el cuello, el titular,
 # la métrica y la etapa, ya escritos sin negaciones
 V2={}
-for g in glob.glob('/home/claude/founders/v2/fichas/*.json'):
+for g in glob.glob(B+'/fichas/*.json'):
     v=json.load(open(g,encoding='utf-8')); V2[v['slug']]=v
 
 clientes=[]
@@ -49,7 +43,7 @@ for r in panel:
         r['metrica']=v.get('metrica') or r['metrica']
         r['etapa']=v.get('etapa','')
     h=HK.calcular(r['slug']) or r['handicap']
-    dd=DI.calcular(r['slug'],QP.get(r['slug'],[]))
+    dd=DI.calcular(r['slug'],[])
     clientes.append({
       "slug":r['slug'],"nombre":r['cliente'],"proyecto":r['proyecto'],
       "ori":r['orientacion'],"modo":r['modo'],"cuello":r['cuello'],

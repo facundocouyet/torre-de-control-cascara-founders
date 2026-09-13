@@ -1,0 +1,9 @@
+# salida del generador v1, reemplazado por build2.py
+out/
+index.json
+
+# intermedio de build_app.py, lo consume app_shell.py en la misma corrida
+contenido/app-data.json
+
+.DS_Store
+__pycache__/
