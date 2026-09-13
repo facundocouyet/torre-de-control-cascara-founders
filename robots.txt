@@ -1,0 +1,4 @@
+# La torre tiene documentos de founders con nombre propio. El repo es público para que
+# GitHub Pages lo sirva gratis, pero esto no se indexa.
+User-agent: *
+Disallow: /
