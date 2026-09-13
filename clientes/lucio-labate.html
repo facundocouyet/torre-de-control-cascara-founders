@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucio Labate · Radiografía y roadmap</title>
+<style>
+  html,body{margin:0;padding:0;background:#0A0A0C;height:100%;overflow:hidden;
+            font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  .it{font-family:"Times New Roman",Georgia,serif;font-style:italic}
+  .num{font-weight:800;letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+  #deck{display:flex;height:100%;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;
+        scroll-behavior:smooth;scrollbar-width:none;-ms-overflow-style:none}
+  #deck::-webkit-scrollbar{display:none}
+  .slot{flex:0 0 auto;scroll-snap-align:center;display:flex;align-items:center;
+        justify-content:center;height:100%;overflow:hidden}
+  .pnl{width:1920px;height:1080px;transform-origin:center center;flex:0 0 auto}
+  #hint{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);font-size:12px;
+        letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.45);
+        background:rgba(0,0,0,.35);padding:7px 14px;pointer-events:none;transition:opacity .6s;z-index:9}
+  #bar{position:fixed;left:0;bottom:0;height:2px;background:rgba(255,255,255,.55);width:0;
+       transition:width .15s linear;z-index:10}
+  @media print{
+    html,body{overflow:visible;height:auto;background:#fff}
+    #deck{display:block;overflow:visible;height:auto}
+    .slot{display:block;height:auto;page-break-after:always;break-after:page}
+    .pnl{transform:none!important;zoom:.52}
+    #hint,#bar{display:none}
+    @page{size:landscape;margin:0}
+  }
+</style>
+</head>
+<body>
+<div id="deck">
+<div class="slot" style="background:#171717;color:#FBFAF8;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #171717; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #3A3A40;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #8C8C90; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #8C8C90;">Cáscara Founders</span>
+    </div>
+
+    <div style="height: 110px;"></div>
+    <div style="font-size: 26px; letter-spacing: 0.24em; text-transform: uppercase; color: #8C8C90; margin-bottom: 32px;">Radiografía y roadmap</div>
+    <div style="font-size: 132px; font-weight: 700; letter-spacing: -0.03em; line-height: 0.99;  margin-bottom: 22px; max-width: 1480px;">Lucio Labate</div>
+    <div style="font-size: 40px; line-height: 1.24; color: #C9C7C3; max-width: 1300px;">Lucio ya trabaja con IA adentro de una empresa y resuelve branding, web y contenido. Lo que no tiene es una oferta escrita que diga qué vende, a quién y a cuánto. Sin ese destino escrito, cada pieza de contenido tiene que resolver qué decir y para qué al mismo tiempo, y ahí se le van las horas. Septiembre es para cerrar la oferta y subir diez piezas. Octubre es para leer qué pasó con esas diez.</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 60px; margin-top: 56px; max-width: 1560px;">
+      <div style="border-top: 1px solid #3A3A40; padding-top: 18px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90; margin-bottom: 10px;">Proyecto</div><div style="font-size: 26px; color: #FBFAF8;">Lucio Labate — marca personal de diseño (@luwel)</div></div>
+      <div style="border-top: 1px solid #3A3A40; padding-top: 18px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90; margin-bottom: 10px;">Arranque</div><div style="font-size: 26px; color: #FBFAF8;">(falta confirmar) — la primera llamada registrada es del 24 de julio de 2026, con Juana</div></div>
+      <div style="border-top: 1px solid #3A3A40; padding-top: 18px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90; margin-bottom: 10px;">Orientación</div><div style="font-size: 26px; color: #FBFAF8;">Conseguir</div></div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #3A3A40;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;">12 de septiembre de 2026 · borrador para revisar</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;" class="num">01 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">01 · Punto A</span>
+    </div>
+
+    <div style="font-size: 74px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 34px; max-width: 1480px;">Instala IA en una empresa todos los días y no la vende. El tramo que viene es cerrar esa oferta y salir a probarla.</div>
+    <div style="font-size: 26px; line-height: 1.5; color: #6A6A66; margin-bottom: 0px; max-width: 1420px;">La métrica que importa: Piezas publicadas contra las diez comprometidas, y cuántas conversaciones y llamadas salen de esas diez.</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 64px; margin-top: 56px;">
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">Funciona</div>
+        <div style="font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.16;">Ya entrega IA adentro de una empresa, todos los días</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Trabaja para Wellmate, una empresa que vende servicios de ciberseguridad a compañías como Mercado Libre y Arcor, y arma simulaciones: deepfakes, guiones, contenido, todo con IA. Facu se lo marcó en la cara: trabaja con IA mucho más de lo que la usa el propio equipo de Cáscara. Además resuelve solo lo que antes necesitaba tres personas. Si le piden una landing, la hace. El branding, el criterio estético, los carruseles y los recursos visuales conviven todos adentro del mismo rol. Eso es el producto que hay que vender, y es exactamente lo que hoy no está a la venta.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">Funciona</div>
+        <div style="font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.16;">El contenido levanta, pero está apuntando al lugar equivocado</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Facu le dijo que lo que sube le gusta, que tiene buenas repercusiones y que abre conversaciones. El problema es la calibración, no la ejecución. Hoy comunica cosas del tipo &quot;no contrates un diseñador gráfico sin saber esto&quot;, y el mercado no está pensando en contratar un diseñador gráfico: está pensando en cómo usar la IA sin que le quede mal. El mismo contenido apuntado al lugar correcto es otra cosa.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">Pendiente</div>
+        <div style="font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.16;">La oferta sin cerrar, el perfil sin ordenar y el volumen sin hacer</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">La oferta está trabajada pero no cerrada: falta definirla con Franco, ponerle precio y salir. El perfil tampoco acompaña: las destacadas sin corregir, la descripción sin acomodar, el feed sin ordenar y publicaciones viejas que habría que archivar. Y el volumen no se hizo. Facu se lo dijo así: de los quince videos que tenía que subir, subió uno. Con un video no hay nada que leer, ni a favor ni en contra.</div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Lucio Labate — marca personal de diseño (@luwel) · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">02 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">02 · El recorrido</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 26px; max-width: 1480px;">Qué pasó hasta hoy (1 de 2)</div>
+    <div style="display: flex; flex-direction: column;">
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">24 de julio de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">El primer bloqueo de contenido, con Juana</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">La indicación de hacer diez videos de branding genéricos lo trabó. Se le fue todo a la ejecución y dejó de avanzar. Juana dio vuelta el proceso: primero hacer un proyecto de diseño real, por ejemplo una portada de disco, y después documentarlo. Así el contenido sale de algo que ya existe en vez de tener que inventarse de cero.</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">6 de agosto de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">Volumen antes que perfección</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Se le bajó el criterio de publicar al menos un video o carrusel por semana y de documentar el proceso, no solo el resultado: grabar el trabajo en vivo y explicarlo con una voz en off. Es más barato de producir y muestra el criterio, que es lo que se vende.</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">18 de agosto de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">Se ordenan los roles</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Lucio estaba desorientado por consejos que venían de distintos lados y no coincidían. Facu reestructuró: él y Franco quedan como los mentores estratégicos que bajan oferta y ventas, y Juana, Fede y Teo quedan en las grupales. Ahí también apareció por primera vez la idea de una oferta integrada, de branding más web más IA, en lugar de vender diseño suelto.</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">1 de septiembre de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">La llamada del push</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Facu dejó de lado el tono cuidadoso porque entendió que Lucio necesitaba que lo empujen fuerte. Le dijo que no puede concluir que no le sale vender si nunca lo probó, que su comunicación está mal calibrada y que está frisado porque le resulta más cómodo que transitar el cambio. Lucio lo tomó, dijo que se compromete al cien por ciento y quedó en devolver por escrito las dudas de la oferta. Facu quedó en pasarle la llamada a Franco y bajarle los accionables del profile funnel y los SOP del perfil. Sobre el cambio de oferta, Facu usó el mismo criterio que están aplicando en 0800: no vendas solamente un branding, vendé el deck creativo completo.</div></div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Lucio Labate — marca personal de diseño (@luwel) · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">03 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">02 · El recorrido</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 26px; max-width: 1480px;">Qué pasó hasta hoy (2 de 2)</div>
+    <div style="display: flex; flex-direction: column;">
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">2 de septiembre de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">El repaso con Teo</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Facu resumió el caso en una línea de trabajo: terminar de bajarle la oferta, marcarle el roadmap de contenido y listo. La regla que queda fija es que menos de diez piezas no permite validar nada. También quedó pendiente, del lado de Cáscara, un template de calendario de contenido con referencias y ejemplos por formato, para que el cliente deposite ahí sus ideas en vez de arrancar de una hoja en blanco.</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">Del 2 al 9 de septiembre de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">Las grupales: el cliente ideal no se redefine, se expande</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Llevó a la grupal del 2 lo que le había marcado Facu, que está vendiendo un auto vintage cuando la gente busca un Tesla. Juana le devolvió lo contrario de redefinir: el cliente ideal ya lo sabe, moda y música, y lo que tiene que hacer es expandir la mirada adentro de música, más allá del artista independiente, hacia empresas de sonido y todo lo que gira alrededor. Le quedó armar para la semana siguiente dos proyectos, uno para un músico y otro para una marca de ropa, aunque sea un flyer y aunque sea ficticio. En la del 4, Fede le revisó el video de Bowen, que hizo ciento cuarenta reproducciones, y le pidió tres reducciones con formatos distintos, un branding de diez segundos, una pantalla dividida scrolleando Canva con su cara explicando y un carrusel de textos orgánicos, más una historia destacada siguiendo la referencia de Romper la Cáscara y trial reels. El próximo video queda entre por qué está mal hacer un rebranding y por qué el diseño cambió en 2026. En la del 9 apareció lo que lo mueve: le indigna la falta de escucha activa. Juana se lo nombró así, que el diseño gráfico es su medio y no su techo.</div></div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Lucio Labate — marca personal de diseño (@luwel) · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">04 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#171717;color:#FBFAF8;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #171717; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #3A3A40;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #8C8C90; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #8C8C90;">03 · La lectura del caso</span>
+    </div>
+
+    <div style="height: 40px;"></div>
+    <div style="font-size: 96px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.04;  margin-bottom: 44px; max-width: 1480px;">El cuello es que la oferta no está escrita, y sin destino escrito cada pieza tiene que resolver qué decir y para qué al mismo tiempo.</div>
+    <div style="display: grid; grid-template-columns: 1.15fr 1fr; gap: 76px; max-width: 1640px;">
+      <div style="font-size: 27px; line-height: 1.5; color: #C9C7C3;">No es habilidad: produce, entrega y maneja las herramientas mejor que el promedio. No es acceso al mercado: le vende a un mercado que viene atrasado con la IA y que por eso lo necesita. Es que no hay un documento que diga qué vende, a quién y a cuánto, y entonces cada contenido arranca de cero. Por eso el trabajo del tramo es método, no charla motivacional.</div>
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="it" style="font-size: 30px; line-height: 1.4; color: #FBFAF8;">“Siento que me capacité, hice muchísimos cursos, ahora estoy con Cáscara, tengo un montón de conocimientos para concretar cosas y proyectos creativos y sé incluso cómo ayudar a alguien a que cree una marca de cero, pero pareciera o que no alcanza o que yo no lo sé vender.”</div>
+        <div style="font-size: 20px; color: #8C8C90;">Lucio Labate · 1 de septiembre de 2026</div>
+      </div>
+    </div>
+    <div style="display: inline-flex; align-self: flex-start; margin-top: 52px; border: 1px solid #FBFAF8; padding: 14px 26px; gap: 18px; align-items: baseline;">
+      <span style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90;">Orientación</span>
+      <span style="font-size: 30px; font-weight: 700; letter-spacing: -0.02em; color: #FBFAF8;">Conseguir</span>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #3A3A40;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;">Lucio Labate — marca personal de diseño (@luwel) · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;" class="num">05 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">04 · El handicap</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 8px; max-width: 1480px;">Handicap</div>
+    <div style="font-size: 25px; line-height: 1.5; color: #6A6A66; margin-bottom: 40px; max-width: 1500px;">Cinco ejes de cero a cuatro sobre el estado del negocio. El eje más bajo es por donde se trabaja, y es el que marca la orientación.</div>
+    <div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 40px;">
+      <div style="border-top: 2px solid #171717; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #171717;">Oferta</div>
+          <div class="num" style="font-size: 30px; color: #171717;">1</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Qué vende, a quién y a qué precio. Escrita, no en la cabeza.</div>
+      </div>
+      <div style="border-top: 2px solid #171717; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #171717;">Contenido</div>
+          <div class="num" style="font-size: 30px; color: #171717;">1</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Volumen y criterio sostenidos, no piezas sueltas.</div>
+      </div>
+      <div style="border-top: 2px solid #DBD7D2; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #6A6A66;">Demanda</div>
+          <div class="num" style="font-size: 30px; color: #6A6A66;">2</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Conversaciones que entran sin que salga a buscarlas.</div>
+      </div>
+      <div style="border-top: 2px solid #171717; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #171717;">Venta</div>
+          <div class="num" style="font-size: 30px; color: #171717;">1</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Lo que convierte esa conversación en plata: embudo, llamada, cierre, precio validado.</div>
+      </div>
+      <div style="border-top: 2px solid #DBD7D2; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #6A6A66;">Entrega</div>
+          <div class="num" style="font-size: 30px; color: #6A6A66;">2</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Puede cumplir lo que vende sin romperse.</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:56px;align-items:flex-start;margin-top:52px;border-top:1px solid #DBD7D2;padding-top:30px;flex-wrap:wrap;">
+      <div><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Total</div>
+        <div class="num" style="font-size: 56px; line-height:1;">7<span style="font-size:26px;color:#6A6A66;font-weight:400;letter-spacing:0;"> / 20</span></div></div>
+      <div><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Tramo</div>
+        <div style="font-size: 30px; font-weight: 700; letter-spacing: -0.02em;">Arranque</div></div>
+      <div><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Ritmo</div>
+        <div style="font-size: 30px; font-weight: 700; letter-spacing: -0.02em; color:#8C3A32;">Rojo</div>
+        <div style="font-size: 19px; color: #6A6A66; margin-top:4px;">Hace tiempo que no mueve.</div></div>
+      <div style="flex:1;min-width:380px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Por dónde se trabaja</div>
+        <div style="font-size: 23px; line-height:1.4;">Se trabaja por oferta, el eje más bajo junto con contenido y venta: sin el documento de oferta con precio, cada pieza tiene que resolver qué decir y para qué al mismo tiempo.</div></div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Lucio Labate — marca personal de diseño (@luwel) · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">06 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">05 · Punto B</span>
+    </div>
+
+    <div style="font-size: 70px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 14px; max-width: 1480px;">Punto B</div>
+    <div style="font-size: 26px; line-height: 1.5; color: #6A6A66; margin-bottom: 48px; max-width: 1180px;">Dos hitos con fecha. Lo demás cuelga de estos dos.</div>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 72px;">
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 2px solid #171717; padding-top: 26px;">
+        <div style="font-size: 19px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">30 de septiembre de 2026</div>
+        <div style="font-size: 50px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.09;">La oferta cerrada y las diez piezas arriba</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">La oferta escrita en un documento, con los dos niveles definidos, el buyer prioritario y el precio de hipótesis puesto. Y diez piezas publicadas apuntando a los dolores de ese buyer, no a los de un diseñador genérico. Recién con esas diez hay material para decir si el ángulo funciona o si hay que corregirlo. El perfil tiene que estar ordenado antes de que salga la primera: destacadas, descripción y feed.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 2px solid #171717; padding-top: 26px;">
+        <div style="font-size: 19px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">31 de octubre de 2026</div>
+        <div style="font-size: 50px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.09;">Cinco llamadas hechas y el precio confirmado</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Cinco conversaciones de venta reales sobre la instalación del sistema de diseño con IA, con el precio puesto sobre la mesa. La hipótesis es dos mil a tres mil dólares la instalación, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Esas cinco llamadas son las que confirman o corrigen ese número. Al lado, la lectura de las diez piezas: cuáles abrieron conversación y cuáles no.</div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Lucio Labate — marca personal de diseño (@luwel) · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">07 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">06 · El roadmap</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 18px; max-width: 1480px;">El roadmap</div>
+    <div style="font-size: 25px; line-height: 1.5; color: #6A6A66; margin-bottom: 30px; max-width: 1180px;">Hasta el 31 de octubre.</div>
+    <div style="display: grid; grid-template-columns: 240px 320px minmax(0, 1fr) 280px; gap: 0;">
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Cuándo</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Objetivo</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Entregable</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Quién</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Semana del 8 de septiembre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Dejar el perfil listo para recibir</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">El profile funnel aplicado: destacadas corregidas, descripción acomodada, feed ordenado y publicaciones viejas archivadas. Cáscara le baja los accionables y los SOP; él los ejecuta. En paralelo, el feedback escrito de la llamada del 1 de septiembre con todas las dudas de la oferta.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Lucio, con los SOP de Facu</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Semana del 15 de septiembre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Cerrar la oferta con precio</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Reunión con Franco, ya con el transcript de la llamada y el feedback escrito arriba, para que sea un flechazo y no una charla abierta. Sale el documento de oferta: los dos niveles, el buyer prioritario, qué incluye cada nivel y el precio de hipótesis.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Lucio con Franco</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 15 al 26 de septiembre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Bajar los ángulos y armar el calendario</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Los ángulos de comunicación que salen de la oferta y del buyer, cada uno con una idea concreta al lado. Cargados en el template de calendario de contenido, con referencias y un ejemplo por formato. Cáscara deja la estrategia, el criterio y un ejemplo de cada cosa; los guiones los escribe él.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Lucio con Facu</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 22 de septiembre al 10 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Subir las diez piezas</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Diez piezas publicadas contra los ángulos definidos, no contra lo que se le ocurra cada día. Formato barato: documentar el trabajo real en vivo, con voz en off explicando el criterio. Menos de diez no permite evaluar nada.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Lucio</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 13 al 17 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Leer las diez y corregir</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Revisión pieza por pieza con Facu: qué ángulo abrió conversación, cuál no, qué se corrige del mensaje y qué se sostiene. De ahí sale la segunda tanda, ya calibrada.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Lucio con Facu</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 13 al 31 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Abrir conversaciones y llegar a cinco llamadas</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Cinco llamadas de venta sobre la instalación del sistema de diseño con IA, con precio sobre la mesa. Salen del contenido y de prospección propia. Nunca gratis: se valida con precio o no se valida.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Lucio, con Franco de apoyo</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">31 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Confirmar el precio y definir el tramo siguiente</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">El precio de la instalación confirmado o corregido con lo que dijeron las cinco llamadas, y la decisión de si el nivel de estrategia creativa ya se puede empezar a ofrecer o si todavía hay que esperar a tener casos.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Lucio con Facu y Franco</div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Lucio Labate — marca personal de diseño (@luwel) · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">08 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">07 · Los accionables</span>
+    </div>
+
+    <div style="font-size: 60px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 14px; max-width: 1480px;">Los accionables</div>
+    <div style="font-size: 24px; line-height: 1.5; color: #6A6A66; margin-bottom: 26px; max-width: 1180px;">Quién hace qué y cuándo.</div>
+    <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr) minmax(0, 1fr); gap: 0;">
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Cuándo</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Lucio</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Cáscara</div>
+      <div style="font-size: 22px; font-weight: 700; line-height: 1.2; padding: 16px 20px 16px 0; border-bottom: 1px solid #DBD7D2;">Septiembre</div>
+      <div style="padding: 16px 28px 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Mandar por escrito el feedback y las dudas de la oferta que quedaron de la llamada del 1 de septiembre</li><li style="margin-bottom: 6px;">Aplicar el profile funnel: destacadas, descripción, feed y archivo de publicaciones viejas</li><li style="margin-bottom: 6px;">Tener la reunión con Franco y salir de ahí con el documento de oferta cerrado y con precio</li><li style="margin-bottom: 6px;">Cargar los ángulos en el calendario y empezar a publicar contra ellos</li><li style="margin-bottom: 6px;">Levantar la mano en las grupales de Fede y de Juana con el objetivo concreto de la semana</li></ul></div>
+      <div style="padding: 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Facu le pasa a Franco el transcript de la llamada del 1 de septiembre para que llegue con contexto</li><li style="margin-bottom: 6px;">Facu le baja el bloque de accionables del profile funnel y los SOP del perfil</li><li style="margin-bottom: 6px;">Franco define con él la oferta en dos niveles, el buyer prioritario y el precio</li><li style="margin-bottom: 6px;">Facu le baja los ángulos de comunicación con una idea concreta por ángulo</li><li style="margin-bottom: 6px;">Cáscara le entrega el template de calendario de contenido con referencias y un ejemplo por formato</li></ul></div>
+      <div style="font-size: 22px; font-weight: 700; line-height: 1.2; padding: 16px 20px 16px 0; border-bottom: 1px solid #DBD7D2;">Octubre</div>
+      <div style="padding: 16px 28px 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Completar las diez piezas publicadas contra los ángulos definidos</li><li style="margin-bottom: 6px;">Abrir conversaciones y llegar a cinco llamadas de venta con precio sobre la mesa</li><li style="margin-bottom: 6px;">Registrar qué respondió cada ángulo, para tener con qué corregir</li></ul></div>
+      <div style="padding: 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Facu revisa las diez piezas y le marca qué corregir y qué sostener</li><li style="margin-bottom: 6px;">Franco lo acompaña en las primeras llamadas de venta y calibra el pricing</li><li style="margin-bottom: 6px;">Facu sostiene el seguimiento semanal para que el volumen no se caiga</li></ul></div>
+      <div style="font-size: 22px; font-weight: 700; line-height: 1.2; padding: 16px 20px 16px 0; border-bottom: 1px solid #DBD7D2;">Cierre, 31 de octubre</div>
+      <div style="padding: 16px 28px 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Presentar las diez piezas con su lectura y el resultado de las cinco llamadas, con el precio confirmado o corregido</li></ul></div>
+      <div style="padding: 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Facu y Franco revisan contra el punto A y definen si se abre el segundo nivel de la oferta</li></ul></div>
+    </div>
+    <div style="margin-top: 26px; border-left: 3px solid #171717; padding-left: 22px; font-size: 22px; line-height: 1.4; max-width: 1560px;">El precio final de la instalación y del acompañamiento mensual, que recién se confirma con las primeras cinco llamadas (falta confirmar).</div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Lucio Labate — marca personal de diseño (@luwel) · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">09 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">08 · El paquete</span>
+    </div>
+
+    <div style="font-size: 70px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 18px; max-width: 1480px;">Qué entregamos</div>
+    <div style="font-size: 26px; line-height: 1.5; color: #6A6A66; margin-bottom: 44px; max-width: 1400px;">Todo esto queda hecho y aplicado a su caso, con sus palabras y sus decisiones adentro.</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 52px;">
+      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">01</div>
+        <div style="font-size: 24px; line-height: 1.42;">El documento de oferta en dos niveles, que son módulos de la misma oferta y se pueden vender juntos o por separado: la instalación de un sistema de diseño con IA a empresas, y la estrategia creativa de la creación de una marca y de su comunicación</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">02</div>
+        <div style="font-size: 24px; line-height: 1.42;">El criterio de empezar por la de IA, porque es la que el mercado está pidiendo hoy, y dejar que la de estrategia creativa se dé sola cuando tenga casos</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">03</div>
+        <div style="font-size: 24px; line-height: 1.42;">El buyer prioritario escrito: empresas B2B con equipo de marketing y sin diseñador propio</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">04</div>
+        <div style="font-size: 24px; line-height: 1.42;">El precio de hipótesis y el método para confirmarlo: dos mil a tres mil dólares la instalación, más cuatrocientos a seiscientos mensuales de acompañamiento opcional, a confirmar en las primeras cinco llamadas</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">05</div>
+        <div style="font-size: 24px; line-height: 1.42;">El profile funnel con los SOP de destacadas, descripción, feed y archivo</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">06</div>
+        <div style="font-size: 24px; line-height: 1.42;">La regla de las diez piezas: menos de diez no permite evaluar nada, ni a favor ni en contra</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">07</div>
+        <div style="font-size: 24px; line-height: 1.42;">Los ángulos de comunicación bajados de la oferta y del buyer, cada uno con una idea concreta al lado</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">08</div>
+        <div style="font-size: 24px; line-height: 1.42;">El template de calendario de contenido con referencias y un ejemplo por formato, para no arrancar de una hoja en blanco</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">09</div>
+        <div style="font-size: 24px; line-height: 1.42;">El formato de documentar el trabajo real en vivo con voz en off, que es el más barato de producir y el que muestra criterio</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">10</div>
+        <div style="font-size: 24px; line-height: 1.42;">El criterio de validar siempre con precio, nunca gratis</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">11</div>
+        <div style="font-size: 24px; line-height: 1.42;">La llamada con Franco para cerrar oferta y pricing, y las tres grupales semanales</div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Lucio Labate — marca personal de diseño (@luwel) · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">10 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#171717;color:#FBFAF8;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #171717; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #3A3A40;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #8C8C90; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #8C8C90;">Cáscara Founders</span>
+    </div>
+
+    <div style="height: 80px;"></div>
+    <div style="font-size: 80px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 44px; max-width: 1480px;">Lo que viene.</div>
+    <div style="font-size: 27px; line-height: 1.52; color: #C9C7C3; max-width: 1500px;">Lucio es el caso donde todo el material está y falta el envase. Entrega IA adentro de una empresa todos los días, resuelve branding, web y contenido, y le vende a un mercado que viene atrasado con estas herramientas y que por eso todavía lo necesita. Lo que no existe es un documento que diga qué vende, a quién y a cuánto. Esa es la razón por la que el contenido se le hace cuesta arriba: sin destino escrito, cada pieza tiene que resolver el mensaje y el objetivo al mismo tiempo. Septiembre es para cerrar la oferta con Franco, ordenar el perfil y subir diez piezas contra ángulos definidos. Octubre es para leer esas diez y llevar cinco llamadas con el precio sobre la mesa. El punto de referencia del tramo es concreto: hoy hay un video subido de quince, y para el 31 de octubre tienen que haber diez piezas y cinco llamadas. Con eso se sabe si la oferta funciona. Sin eso no se sabe nada, y esa es la única conclusión que hoy se puede sostener.</div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #3A3A40;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;">Borrador · revisar con Facu antes de enviar</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;" class="num">11 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+</div>
+<div id="hint">Scrolleá hacia la derecha · o usá las flechas</div>
+<div id="bar"></div>
+<script>
+(function(){
+  var deck=document.getElementById('deck'),hint=document.getElementById('hint'),bar=document.getElementById('bar');
+  var slots=[].slice.call(deck.querySelectorAll('.slot'));
+  function shrink(){
+    slots.forEach(function(sl){
+      var f=sl.querySelector('.fitme'); if(!f||f.dataset.done) return;
+      f.style.zoom=1;
+      var over=f.scrollHeight/f.clientHeight;
+      if(over>1.005){ f.style.zoom=Math.max(0.62,(1/over)*0.985); }
+      f.dataset.done='1';
+    });
+  }
+  function fit(){var vw=innerWidth,vh=innerHeight,s=Math.min(vw/1920,vh/1080);
+    slots.forEach(function(sl){sl.querySelector('.pnl').style.transform='scale('+s+')';sl.style.width=(1920*s)+'px';});
+    shrink();prog();}
+  function prog(){var m=deck.scrollWidth-deck.clientWidth;bar.style.width=(m>0?(deck.scrollLeft/m*100):100)+'%';}
+  var cur=0,busy=0;
+  function go(d){busy=1;clearTimeout(go._t);go._t=setTimeout(function(){busy=0;},520);
+    cur=Math.max(0,Math.min(slots.length-1,cur+d));
+    deck.scrollTo({left:slots[cur].offsetLeft-(deck.clientWidth-slots[cur].offsetWidth)/2,behavior:'smooth'});}
+  function sync(){if(busy)return;var w=slots[0]?slots[0].offsetWidth:1;
+    cur=Math.max(0,Math.min(slots.length-1,Math.round(deck.scrollLeft/w)));}
+  addEventListener('resize',fit);
+  deck.addEventListener('scroll',function(){prog();sync();hint.style.opacity=0;});
+  deck.addEventListener('wheel',function(e){if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){deck.scrollLeft+=e.deltaY;e.preventDefault();}},{passive:false});
+  document.addEventListener('keydown',function(e){
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){go(1);e.preventDefault();}
+    if(e.key==='ArrowLeft'||e.key==='PageUp'){go(-1);e.preventDefault();}
+    if(e.key==='Home'){cur=0;go(0);} if(e.key==='End'){cur=slots.length-1;go(0);}});
+  setTimeout(function(){hint.style.opacity=0;},5000); fit();
+})();
+</script>
+</body></html>

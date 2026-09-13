@@ -1,0 +1,221 @@
+/* ============================================================================
+   CÁSCARA FOUNDERS · DESIGN SYSTEM
+   Un solo archivo. Tokens arriba, componentes abajo.
+   Para cambiar la identidad entera se tocan los tokens y nada más.
+   Sin dependencias, sin build. Funciona abriendo el HTML en el navegador.
+   ========================================================================= */
+
+/* --- 1. TOKENS -------------------------------------------------------- */
+:root{
+  /* Tinta y papel. El sistema es de dos grounds: papel claro y tinta oscura. */
+  --ink:#171717;        /* tinta: texto y fondos oscuros */
+  --deep:#0A0A0C;       /* tinta profunda: mastheads y paneles oscuros */
+  --paper:#ECEAE4;      /* papel: el fondo de todo */
+  --paper2:#FBFAF8;     /* papel claro: tarjetas y superficies levantadas */
+  --grey:#6A6A66;       /* gris de lectura: bajadas y texto secundario */
+  --soft:#9A968E;       /* gris suave: etiquetas y bordes de kicker */
+  --line:#DBD7D2;       /* línea sobre papel */
+  --line-ink:#2C2C31;   /* línea sobre tinta */
+  --grey-ink:#8E8E92;   /* gris de lectura sobre tinta */
+
+  /* Semánticos. Van aparte del sistema: solo marcan estado, nunca decoran. */
+  --ok:#3F6B45;
+  --warn:#8A6A2F;
+  --bad:#8C3A32;
+
+  /* Tipografía. Display para todo; serif en cursiva solo para citas y notas. */
+  --disp:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --serif:"Times New Roman",Times,Georgia,serif;
+
+  /* Escala de tamaño. Los grandes usan clamp: se achican solos en mobile. */
+  --t-display:clamp(38px,7.4vw,86px);
+  --t-h1:clamp(32px,5.4vw,60px);
+  --t-h2:clamp(26px,3.6vw,40px);
+  --t-h3:20px;
+  --t-body:17px;
+  --t-small:14.5px;
+  --t-label:10.5px;
+
+  /* Espacio. Todo el layout sale de esta escala. */
+  --s1:6px; --s2:12px; --s3:20px; --s4:32px; --s5:48px; --s6:72px; --s7:104px;
+
+  --ancho:1180px;       /* ancho máximo del contenido */
+  --gutter:20px;        /* margen lateral mínimo, en cualquier pantalla */
+  --tracking:-.032em;   /* el tracking negativo de los títulos */
+}
+
+/* Tema oscuro. Se redefinen SOLO los tokens: ningún componente sabe del tema. */
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --ink:#ECEAE4; --deep:#08080A; --paper:#0F0F10; --paper2:#17171A;
+  --grey:#8E8E92; --soft:#6E6E74; --line:#2C2C31; --line-ink:#2C2C31; --grey-ink:#8E8E92;
+  --ok:#7FAE86; --warn:#C7A25C; --bad:#D2776C;
+}}
+:root[data-theme="dark"]{
+  --ink:#ECEAE4; --deep:#08080A; --paper:#0F0F10; --paper2:#17171A;
+  --grey:#8E8E92; --soft:#6E6E74; --line:#2C2C31; --line-ink:#2C2C31; --grey-ink:#8E8E92;
+  --ok:#7FAE86; --warn:#C7A25C; --bad:#D2776C;
+}
+
+/* --- 2. BASE ---------------------------------------------------------- */
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--disp);
+  font-size:var(--t-body);line-height:1.55;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* Radio cero en todo el sistema. No hay esquinas redondeadas en Cáscara. */
+.btn,.card,.chip,.kicker,input,button,select{border-radius:0}
+
+/* --- 3. LAYOUT -------------------------------------------------------- */
+.wrap{max-width:var(--ancho);margin:0 auto;padding-inline:var(--gutter)}
+.zona{padding-block:var(--s6)}
+.zona+.zona{border-top:1px solid var(--line)}
+.cols{display:grid;gap:var(--s4)}
+.cols-2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.cols-3{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.cols-4{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.stack{display:flex;flex-direction:column;gap:var(--s3)}
+
+/* --- 4. TIPOGRAFÍA ---------------------------------------------------- */
+.display{font-size:var(--t-display);font-weight:800;letter-spacing:var(--tracking);
+  line-height:.98;margin:0;text-wrap:balance}
+h1,.h1{font-size:var(--t-h1);font-weight:800;letter-spacing:var(--tracking);line-height:1.02;
+  margin:0;text-wrap:balance}
+h2,.h2{font-size:var(--t-h2);font-weight:700;letter-spacing:-.025em;line-height:1.1;
+  margin:0;text-wrap:balance}
+h3,.h3{font-size:var(--t-h3);font-weight:700;letter-spacing:-.02em;line-height:1.25;margin:0}
+p{margin:0}
+.bajada{font-size:clamp(17px,2vw,22px);line-height:1.45;color:var(--grey);max-width:62ch}
+.texto{font-size:var(--t-body);line-height:1.6;max-width:68ch}
+.small{font-size:var(--t-small);color:var(--grey)}
+.nota{font-family:var(--serif);font-style:italic;font-size:var(--t-small);color:var(--soft)}
+.cita{font-family:var(--serif);font-style:italic;font-size:clamp(20px,2.4vw,28px);
+  line-height:1.4;max-width:34ch}
+/* Los números tabulares y apretados son marca del sistema. */
+.num{font-weight:800;letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+
+/* La etiqueta chica en versalitas, con y sin caja. Marca cada sección. */
+.label{font-size:var(--t-label);letter-spacing:.2em;text-transform:uppercase;
+  color:var(--grey);font-weight:400}
+.kicker{display:inline-block;border:1px solid var(--soft);padding:5px 12px;
+  font-size:var(--t-label);letter-spacing:.22em;text-transform:uppercase;color:var(--grey)}
+
+/* Título de sección: etiqueta chica con una línea de tinta abajo. */
+.seccion{font-size:var(--t-label);letter-spacing:.2em;text-transform:uppercase;
+  color:var(--grey);font-weight:400;margin:0 0 var(--s2);
+  padding-bottom:var(--s2);border-bottom:1px solid var(--ink)}
+
+/* --- 5. SUPERFICIES --------------------------------------------------- */
+/* Tinta: mastheads y bloques que cortan la página. */
+.tinta{background:var(--deep);color:#ECEAE4}
+.tinta .bajada,.tinta .small,.tinta .label{color:var(--grey-ink)}
+.tinta .kicker{border-color:#45454C;color:#9A9AA2}
+.tinta .seccion{border-bottom-color:#ECEAE4;color:var(--grey-ink)}
+.tinta a{color:#ECEAE4}
+
+/* Tarjeta: solo cuando hay que separar objetos de verdad. No todo es tarjeta. */
+.card{background:var(--paper2);border:1px solid var(--line);padding:var(--s4);
+  display:flex;flex-direction:column}
+.card > .btn{margin-top:auto;align-self:flex-start}
+/* Fila: la alternativa liviana a la tarjeta. Una línea abajo y nada más. */
+.fila{border-bottom:1px solid var(--line);padding-block:var(--s3)}
+/* Bloque con la línea arriba: para listas de datos en columnas. */
+.dato{border-top:1px solid var(--line);padding-top:var(--s2)}
+.dato.fuerte{border-top-width:2px;border-top-color:var(--ink)}
+
+/* --- 6. CONTROLES ----------------------------------------------------- */
+.btn{display:inline-flex;align-items:center;gap:10px;font:inherit;font-size:12px;
+  letter-spacing:.14em;text-transform:uppercase;padding:11px 18px;
+  border:1px solid var(--ink);background:transparent;color:var(--ink);
+  text-decoration:none;cursor:pointer;transition:background .12s,color .12s}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn.solido{background:var(--ink);color:var(--paper)}
+.btn.solido:hover{background:transparent;color:var(--ink)}
+.btn.chico{padding:7px 13px;font-size:11px}
+.tinta .btn{border-color:#ECEAE4;color:#ECEAE4}
+.tinta .btn:hover{background:#ECEAE4;color:var(--deep)}
+
+.chip{display:inline-block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  padding:3px 9px;border:1px solid var(--line);color:var(--grey)}
+.chip.ok{color:var(--ok);border-color:currentColor}
+.chip.warn{color:var(--warn);border-color:currentColor}
+.chip.bad{color:var(--bad);border-color:currentColor}
+.chip.tinta-chip{border-color:currentColor;color:var(--ink)}
+
+input[type="search"],input[type="text"]{font:inherit;font-size:var(--t-small);
+  padding:9px 12px;border:1px solid var(--line);background:var(--paper2);color:var(--ink)}
+
+/* --- 7. NAVEGACIÓN ---------------------------------------------------- */
+.topbar{background:var(--deep);color:#ECEAE4;position:sticky;top:0;z-index:20}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;
+  gap:var(--s3);padding-block:14px;flex-wrap:wrap}
+.marca{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:#ECEAE4}
+.marca b{font-size:15px;font-weight:800;letter-spacing:-.02em}
+.marca span{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#7A7A82}
+.nav{display:flex;gap:var(--s3);flex-wrap:wrap}
+.nav a{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#9A9AA2;
+  text-decoration:none;padding-block:4px;border-bottom:1px solid transparent}
+.nav a:hover{color:#ECEAE4}
+.nav a[aria-current="page"]{color:#ECEAE4;border-bottom-color:#ECEAE4}
+@media (max-width:620px){
+  .topbar .wrap{padding-block:12px}
+  .nav{gap:14px;width:100%}
+  .nav a{font-size:10.5px}
+}
+
+/* --- 8. MASTHEAD ------------------------------------------------------ */
+.masthead{background:var(--deep);color:#ECEAE4}
+.masthead .wrap{padding-block:var(--s6) var(--s5)}
+.masthead .kicker{margin-bottom:var(--s4)}
+.masthead .display,.masthead h1{margin-bottom:var(--s3)}
+.cifras{display:flex;flex-wrap:wrap;gap:var(--s5);margin-top:var(--s5);
+  border-top:1px solid var(--line-ink);padding-top:var(--s4)}
+@media (max-width:620px){
+  .cifras{display:grid;grid-template-columns:1fr 1fr;gap:var(--s4) var(--s3)}
+  .cifra b{font-size:28px}
+}
+.cifra b{display:block;font-size:34px;line-height:1;color:#FBFAF8;font-weight:800;
+  letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+.cifra span{display:block;font-size:var(--t-label);letter-spacing:.2em;
+  text-transform:uppercase;color:#7A7A82;margin-top:6px}
+
+/* --- 9. HANDICAP ------------------------------------------------------ */
+/* Los cinco ejes en grilla fija, para que las etiquetas se alineen fila a fila. */
+.ejes{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;justify-items:start}
+@media (max-width:620px){.ejes{max-width:320px;gap:8px}.barras i{width:10px}}
+/* Las cuatro barritas de cada eje. El eje más flojo va en .flojo. */
+.eje{display:flex;flex-direction:column;gap:5px}
+.eje .nombre{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--soft)}
+.eje.flojo .nombre{color:var(--ink);font-weight:700}
+.barras{display:flex;gap:3px}
+.barras i{display:block;width:12px;height:7px;background:var(--ink)}
+.barras i.vacia{background:var(--line)}
+
+/* Filas de cliente: en mobile se apilan y los ejes bajan debajo del nombre. */
+@media (max-width:940px){
+  a.fila[style*="grid"],article.fila .head{grid-template-columns:1fr!important;gap:14px!important}
+  article.fila .head > span:last-child{justify-content:flex-start!important;flex-wrap:wrap}
+}
+
+/* --- 10. PIE ---------------------------------------------------------- */
+.pie{border-top:1px solid var(--line);padding-block:var(--s4) var(--s6);
+  font-size:var(--t-small);color:var(--grey);display:flex;justify-content:space-between;
+  gap:var(--s3);flex-wrap:wrap}
+
+/* --- 11. UTILIDADES --------------------------------------------------- */
+.mt1{margin-top:var(--s1)} .mt2{margin-top:var(--s2)} .mt3{margin-top:var(--s3)}
+.mt4{margin-top:var(--s4)} .mt5{margin-top:var(--s5)} .mt6{margin-top:var(--s6)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.scroll-x{overflow-x:auto;-webkit-overflow-scrolling:touch}
+[hidden]{display:none!important}
+
+/* --- 12. IMPRESIÓN ---------------------------------------------------- */
+@media print{
+  .topbar,.btn{display:none}
+  body{background:#fff;color:#000}
+  .card,.fila{break-inside:avoid}
+  .wrap{max-width:none;padding:0 14mm}
+}

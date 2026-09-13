@@ -1,0 +1,229 @@
+{
+ "slug": "antonio-mazzello",
+ "cliente": "Antonio Mazzello",
+ "proyecto": "Marca personal de Antonio Mazzello — Banca Privada, Grupo IEB",
+ "modo": "cierre",
+ "orientacion": "Entregar",
+ "arranque": "(falta confirmar) — la llamada de estrategia con Facu fue el 24 de abril de 2026",
+ "etapa": "Se cierra el acompañamiento: la estrategia de abril quedó escrita y la operación de contenido todavía espera a la persona que la sostenga.",
+ "metrica": "Piezas publicadas con un mismo ángulo. Hacen falta al menos diez para poder evaluar algo.",
+ "titular": "La estrategia de abril sigue en pie y el respaldo de IEB también. El trabajo de este tramo es conseguir un dueño del calendario y llegar a diez piezas con un mismo ángulo.",
+ "bajada": "Antonio tiene el aval de Grupo IEB, una cuenta con 17 mil seguidores y un embudo claro en el papel. La operación de contenido —calendario, guiones y coordinación del editor— quedó sin dueño, y el contenido fue saliendo pieza por pieza, con el ángulo abierto.",
+ "punto_a": [
+  {
+   "label": "Resuelto",
+   "titulo": "El negocio y el cliente",
+   "texto": "Antonio es asesor financiero en la unidad de Banca Privada de Grupo IEB, un holding de unas 400 personas. Su cliente es alguien con más de 50 mil dólares para invertir que busca atención personalizada. Eso estuvo claro desde la primera llamada y se mantuvo igual todo el tramo."
+  },
+  {
+   "label": "Funciona",
+   "titulo": "El respaldo de la empresa",
+   "texto": "Grupo IEB avala el proyecto y le dio libertad operativa para ser la cara visible de Banca Privada. La cuenta personal de Instagram con 17 mil seguidores ya existe y el plan era pasarla a profesional para aprovechar esa audiencia."
+  },
+  {
+   "label": "Pendiente",
+   "titulo": "El estratega creativo",
+   "texto": "Todo el plan de abril dependía de que Antonio consiguiera, adentro de IEB, una persona que manejara calendario, guiones y coordinación del editor. El puesto sigue vacante. Cáscara iba a cubrir ese lugar de forma temporal mientras él la buscaba, y esa transición también quedó a mitad de camino (falta confirmar)."
+  }
+ ],
+ "recorrido": {
+  "titulo": "Una estrategia completa esperando quién la ejecute",
+  "texto": "El 24 de abril quedó bajado el embudo entero, y quedó identificado el cuello el mismo día: la agenda de clientes de Antonio hace imposible que él maneje la producción. Por eso el plan arrancaba por conseguir un estratega creativo y un editor, con el laboratorio mínimo después. Ese puesto nunca se cubrió y ahí se detuvo la secuencia completa. Entre julio y agosto el proyecto que Antonio tenía en mente se pinchó, y el contenido siguió saliendo según lo que cada semana le pedía la cabeza; el equipo le dio feedback pieza por pieza, incluida Azul, y el feedback sobre piezas sueltas no ordena un ángulo. En agosto el hilo se cortó de los dos lados: Facu le había mandado un resumen completo y quedó sin respuesta, y el último mensaje de Antonio también quedó sin contestar del lado de Cáscara. El aprendizaje es del sistema: un caso sostenido por una sola relación personal se queda sin interlocutor cuando esa persona se ocupa de otra cosa. Por eso el sign-off lo hace Teo, para que la decisión quede separada del vínculo. Lo que se pensó en abril sigue siendo válido y está entero.",
+  "hitos": [
+   {
+    "cuando": "24 abr",
+    "que": "facu baja el embudo completo de educación financiera"
+   },
+   {
+    "cuando": "24 abr",
+    "que": "queda identificado el rol de estratega creativo"
+   },
+   {
+    "cuando": "abr–jun",
+    "que": "queda dentro de las grupales de contenido de f3"
+   },
+   {
+    "cuando": "jul–ago",
+    "que": "el proyecto se pincha y el ángulo queda abierto"
+   },
+   {
+    "cuando": "ago",
+    "que": "el hilo queda sin respuesta de los dos lados"
+   },
+   {
+    "cuando": "2 sep",
+    "que": "teo toma el sign-off para separarlo del vínculo personal"
+   }
+  ]
+ },
+ "lectura": {
+  "titular": "La operación de contenido necesita un dueño.",
+  "texto": "La estrategia estaba bajada y el respaldo de IEB también. Lo que falta es estructura: una persona dueña del calendario y un solo ángulo sostenido para poder medir. Con eso puesto, el resto del plan de abril corre tal como está escrito.",
+  "cita": "",
+  "cita_autor": ""
+ },
+ "respuestas": [
+  {
+   "tema": "A quién le habla el contenido",
+   "respuesta": "A alguien con más de 50 mil dólares para invertir que busca atención personalizada. Quedó definido el primer día y se sostuvo."
+  },
+  {
+   "tema": "Cuál es el embudo",
+   "respuesta": "Contenido gratuito de educación financiera para construir autoridad, captación de leads y conversión a cartera administrada."
+  },
+  {
+   "tema": "Qué plataforma manda",
+   "respuesta": "YouTube como base de autoridad y recortes para el resto. La cuenta personal de 17 mil seguidores pasa a profesional para aprovechar la audiencia que ya está."
+  },
+  {
+   "tema": "Qué tipo de tráfico se busca",
+   "respuesta": "Tráfico calificado por encima de tráfico masivo, para que el volumen entre dentro de la capacidad comercial de la firma."
+  },
+  {
+   "tema": "En qué orden se ejecuta",
+   "respuesta": "Primero un laboratorio mínimo con producción barata para validar el mensaje. La inversión en producción entra cuando el mensaje ya está probado."
+  },
+  {
+   "tema": "Quién sostiene la operación",
+   "respuesta": "Un estratega creativo con horas asignadas, dueño del calendario, de los guiones y de la coordinación del editor. Puede venir de adentro de IEB o contratarse afuera."
+  },
+  {
+   "tema": "Cuándo hay algo para leer",
+   "respuesta": "Con diez piezas publicadas sobre el mismo tema, para el mismo cliente y con la misma promesa, sostenidas de punta a punta."
+  },
+  {
+   "tema": "Qué aprendió Cáscara de este caso",
+   "respuesta": "Un caso que depende de una sola relación personal se queda sin interlocutor cuando esa persona se ocupa de otra cosa. El sign-off lo hace Teo por esa razón."
+  }
+ ],
+ "entregables": [
+  {
+   "que": "La estrategia del 24 de abril escrita, con el embudo completo",
+   "para": "Es el plan que retoma el día que el estratega creativo esté confirmado. Sigue vigente tal como está."
+  },
+  {
+   "que": "El resumen que Facu le mandó después de la llamada de abril",
+   "para": "Lo tiene como referencia del criterio: plataformas, orden de ejecución y tipo de tráfico."
+  },
+  {
+   "que": "La descripción del rol de estratega creativo",
+   "para": "La usa para buscar adentro de IEB o contratar afuera: qué tareas cubre, qué horas necesita y qué queda a su cargo."
+  },
+  {
+   "que": "La hoja del norte, para completar",
+   "para": "La llena él: a quién le habla, qué problema le resuelve y qué promete. Una sola versión, y de ahí salen las diez piezas."
+  },
+  {
+   "que": "El acceso a las llamadas grupales hasta la fecha que fije Teo",
+   "para": "Sigue entrando a las grupales de contenido mientras arma el equipo (fecha exacta, falta confirmar)."
+  }
+ ],
+ "punto_b": [
+  {
+   "fecha": "25 de septiembre de 2026",
+   "titulo": "El estratega creativo, con nombre",
+   "texto": "Una persona concreta, de adentro de IEB o contratada por afuera, con horas asignadas y dueña del calendario, los guiones y el editor. El resto del plan arranca cuando esa persona esté; mientras tanto conviene dejarlo en pausa."
+  },
+  {
+   "fecha": "6 de noviembre de 2026",
+   "titulo": "Diez piezas con un solo ángulo",
+   "texto": "Diez piezas publicadas sobre el mismo tema, para el mismo cliente y con la misma promesa, sosteniendo el rumbo de punta a punta. Recién ahí hay datos para decidir si el mensaje funciona o si se mueve."
+  }
+ ],
+ "roadmap": [
+  {
+   "cuando": "14 al 18 de septiembre",
+   "objetivo": "Un solo norte y la búsqueda abierta",
+   "entregable": "Una hoja con tres cosas: a quién le habla, qué problema le resuelve y qué promete. Una sola versión. En la misma semana pasa la cuenta de Instagram a profesional y abre la búsqueda del estratega creativo adentro de IEB.",
+   "quien": "Antonio"
+  },
+  {
+   "cuando": "25 de septiembre",
+   "objetivo": "La decisión del estratega creativo",
+   "entregable": "Fecha dura. Una persona confirmada con horas semanales asignadas, dueña del calendario, los guiones y el editor. O la decisión escrita de dejar el proyecto en pausa hasta tenerla. Las dos son decisiones sanas, y las dos cierran el tema ese día.",
+   "quien": "Antonio, con Recursos Humanos de Grupo IEB"
+  },
+  {
+   "cuando": "28 de septiembre al 16 de octubre",
+   "objetivo": "Laboratorio mínimo",
+   "entregable": "Un video largo por semana sobre educación financiera, grabado simple, con los recortes que salgan de cada uno. Producción barata, porque lo que se valida es el mensaje. Cada pieza se lee el día que sale: qué tema mueve y qué tipo de gente comenta.",
+   "quien": "Antonio y el estratega creativo"
+  },
+  {
+   "cuando": "5 al 16 de octubre",
+   "objetivo": "Captación mínima, en paralelo",
+   "entregable": "Un solo mecanismo para capturar contactos desde los recortes, andando mientras el laboratorio sigue publicando. Y una planilla donde se anota cada contacto el día que llega, con fecha y tema que lo trajo.",
+   "quien": "Antonio y el estratega creativo"
+  },
+  {
+   "cuando": "19 de octubre al 6 de noviembre",
+   "objetivo": "Completar las diez piezas",
+   "entregable": "Diez piezas publicadas con el mismo ángulo, el mismo cliente y la misma promesa, sostenidas de punta a punta, y la planilla de contactos cargada al día.",
+   "quien": "Antonio y el estratega creativo"
+  },
+  {
+   "cuando": "9 al 13 de noviembre",
+   "objetivo": "Leer y decidir",
+   "entregable": "Una lectura de una carilla: qué piezas trajeron contactos, de qué tipo, y si el ángulo se sostiene o se cambia. Recién acá se discute invertir en producción.",
+   "quien": "Antonio"
+  }
+ ],
+ "accionables": [
+  {
+   "cuando": "Septiembre",
+   "cliente": [
+    "Escribir el norte en una hoja: cliente, problema, promesa",
+    "Definir quién va a ser el dueño del calendario de contenido",
+    "Pasar la cuenta de Instagram a profesional"
+   ],
+   "cascara": [
+    "Teo hace el sign-off y entrega este documento",
+    "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo en el sign-off (falta confirmar)"
+   ]
+  },
+  {
+   "cuando": "Octubre",
+   "cliente": [
+    "Grabar un video largo por semana con el mismo ángulo",
+    "Sacar los recortes de cada video largo",
+    "Anotar cada contacto que llega, con fecha y tema"
+   ],
+   "cascara": [
+    "Sin llamadas uno a uno"
+   ]
+  },
+  {
+   "cuando": "Noviembre",
+   "cliente": [
+    "Llegar a diez piezas con el mismo ángulo",
+    "Hacer la lectura de una carilla y decidir si sigue o mueve el ángulo"
+   ],
+   "cascara": [
+    "Sin llamadas uno a uno"
+   ]
+  }
+ ],
+ "conclusion": "El contenido de autoridad es una palanca real para Banca Privada: el cliente de ticket alto llega por confianza, y la educación financiera construye esa confianza a bajo costo. La condición para que funcione es que sea una operación con dueño, con calendario y con un ángulo sostenido, porque la agenda de Antonio ya está tomada por sus clientes. Entonces la decisión que ordena todo lo demás es una sola: conseguir al estratega creativo, o dejar el proyecto en pausa escrito hasta poder conseguirlo. La recomendación es offboarding, con el plan de abril entero en sus manos y la lectura de las diez piezas como próximo hito medible.\n\nEl acompañamiento se cierra, así que el plan que queda lo ejecuta él y las fechas son suyas. Por eso la decisión del estratega tiene día propio, el 25 de septiembre, y esa es la fecha dura del tramo: lo que se resuelva ese día vale igual si es un nombre o una pausa escrita. El norte y la búsqueda arrancan juntos en la primera semana, y después el laboratorio y la captación corren solapados, con las diez piezas completas el 6 de noviembre. La razón del apriete es la historia de este caso: cinco meses esperando que apareciera esa persona, con contenido saliendo pieza por pieza. Una fecha con nombre es lo que evita que sean cinco más, y decidir con la información que hay, el día que uno se puso, es parte del oficio.\n\nEl frente que queda abierto es hasta qué fecha exacta mantiene el acceso a las llamadas grupales, y eso lo fija Teo en el sign-off.",
+ "carta": "Antonio, de este tramo queda una cosa firme: la estrategia está pensada, escrita y sigue siendo buena, y tenés algo que muy poca gente tiene, que es una empresa de 400 personas que te avala y te deja ser la cara visible. También queda claro dónde se frenó: la operación quedó sin dueño y, del lado nuestro, el seguimiento se cortó en agosto. Eso es responsabilidad compartida y preferimos decirlo así antes de cerrar. Nos vamos con la sensación de un caso que quedó a medio camino de arrancar, y con el plan intacto para cuando tengas a la persona. El día que aparezca y publiques diez piezas con un mismo ángulo, escribinos: ahí hay un caso con qué trabajar y nos volvemos a sentar con gusto. La puerta queda abierta y las grupales también, hasta la fecha que fije Teo.",
+ "abierto": "Hasta qué fecha exacta mantiene el acceso a las llamadas grupales.",
+ "handicap": {
+  "ejes": {
+   "oferta": 3,
+   "contenido": 2,
+   "demanda": 1,
+   "venta": 3,
+   "entrega": 2
+  },
+  "total": 11,
+  "tramo": "Andando",
+  "ritmo": "rojo",
+  "ritmo_texto": "Hace tiempo que no mueve.",
+  "eje_flojo": [
+   "demanda"
+  ],
+  "sugiere": [
+   "Sostener"
+  ],
+  "nota": "Se trabaja por demanda, el eje más bajo: el embudo de captación quedó en el papel desde abril y sin dueño del calendario no hay diez piezas con un mismo ángulo que traigan contactos."
+ }
+}

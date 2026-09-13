@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scarlett Montilla · Informe de cierre</title>
+<style>
+  html,body{margin:0;padding:0;background:#0A0A0C;height:100%;overflow:hidden;
+            font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  .it{font-family:"Times New Roman",Georgia,serif;font-style:italic}
+  .num{font-weight:800;letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+  #deck{display:flex;height:100%;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;
+        scroll-behavior:smooth;scrollbar-width:none;-ms-overflow-style:none}
+  #deck::-webkit-scrollbar{display:none}
+  .slot{flex:0 0 auto;scroll-snap-align:center;display:flex;align-items:center;
+        justify-content:center;height:100%;overflow:hidden}
+  .pnl{width:1920px;height:1080px;transform-origin:center center;flex:0 0 auto}
+  #hint{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);font-size:12px;
+        letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.45);
+        background:rgba(0,0,0,.35);padding:7px 14px;pointer-events:none;transition:opacity .6s;z-index:9}
+  #bar{position:fixed;left:0;bottom:0;height:2px;background:rgba(255,255,255,.55);width:0;
+       transition:width .15s linear;z-index:10}
+  @media print{
+    html,body{overflow:visible;height:auto;background:#fff}
+    #deck{display:block;overflow:visible;height:auto}
+    .slot{display:block;height:auto;page-break-after:always;break-after:page}
+    .pnl{transform:none!important;zoom:.52}
+    #hint,#bar{display:none}
+    @page{size:landscape;margin:0}
+  }
+</style>
+</head>
+<body>
+<div id="deck">
+<div class="slot" style="background:#171717;color:#FBFAF8;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #171717; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #3A3A40;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #8C8C90; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #8C8C90;">Cáscara Founders</span>
+    </div>
+
+    <div style="height: 110px;"></div>
+    <div style="font-size: 26px; letter-spacing: 0.24em; text-transform: uppercase; color: #8C8C90; margin-bottom: 32px;">Informe de cierre</div>
+    <div style="font-size: 132px; font-weight: 700; letter-spacing: -0.03em; line-height: 0.99;  margin-bottom: 22px; max-width: 1480px;">Scarlett Montilla</div>
+    <div style="font-size: 40px; line-height: 1.24; color: #C9C7C3; max-width: 1300px;">Scarlett usó la aceleradora para darse cuenta de algo que ya sabía al principio y se le había desviado. No quiere usar su marca personal para hablar de marketing. Quiere hablar de su proceso y acompañar a otros en el suyo. Lo que falta es que esa mentoría tenga forma vendible.</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 60px; margin-top: 56px; max-width: 1560px;">
+      <div style="border-top: 1px solid #3A3A40; padding-top: 18px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90; margin-bottom: 10px;">Proyecto</div><div style="font-size: 26px; color: #FBFAF8;">Scarlett Montilla — mentoría de procesos</div></div>
+      <div style="border-top: 1px solid #3A3A40; padding-top: 18px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90; margin-bottom: 10px;">Arranque</div><div style="font-size: 26px; color: #FBFAF8;">(falta confirmar) — la primera reunión con Facu quedó grabada el 4 de junio de 2026</div></div>
+      <div style="border-top: 1px solid #3A3A40; padding-top: 18px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90; margin-bottom: 10px;">Orientación</div><div style="font-size: 26px; color: #FBFAF8;">Conseguir</div></div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #3A3A40;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;">12 de septiembre de 2026 · borrador para revisar</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;" class="num">01 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">01 · Punto A</span>
+    </div>
+
+    <div style="font-size: 74px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 34px; max-width: 1480px;">El proceso terminó en un pivote. De vender servicios técnicos de marketing a vender el proceso.</div>
+    <div style="font-size: 26px; line-height: 1.5; color: #6A6A66; margin-bottom: 0px; max-width: 1420px;">La métrica que importa: Dos o tres clientes fijos por mes. Es el piso que ella misma puso para poder sostener el camino largo.</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 64px; margin-top: 56px;">
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">Resuelto</div>
+        <div style="font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.16;">La decisión</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Está tomada y ella la nombró sola en la llamada del 1 de septiembre. Se desvió en el medio hacia contenido técnico, marcas y marketing, y volvió al objetivo con el que había entrado. La aceleradora le sirvió para eso: para recalcular el ritmo y para reconectar con lo que había dicho al principio. Facu lo devolvió así: intentamos ir por el camino de los clientes, la estrategia creativa, el marketing, las llamadas de venta, y en esa búsqueda apareció la conclusión.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">Empezado</div>
+        <div style="font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.16;">La mentoría, en borrador</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Ya entendió que es una mentoría y no una asesoría: un acompañamiento más largo, con llamadas. Parte de una teoría propia que llama el triángulo de la sinergia, tres pilares para sostener balance entre lo profesional y la vida. Lo está documentando en el one thing y lo va enriqueciendo. El 9 de septiembre, con Juana, apareció el otro pedazo: lo que la indigna es que se glorifique el burnout como señal de mérito, y eso conecta derecho con construir a tu propio ritmo.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">Pendiente</div>
+        <div style="font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.16;">La vía de clientes mientras construye lo largo</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Tiene una clienta de Estados Unidos que no termina de cerrar: empezaron por branding, el presupuesto no dio y la reconvirtió a asesoría estratégica y creativa, pero la propuesta no salió. Con Tito pasó lo mismo y eligió a otra persona que le sumaba pauta, porque el resultado era más tangible. Hoy no tiene clientes que le sostengan el camino largo, y esa es la parte sin resolver.</div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Scarlett Montilla — mentoría de procesos · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">02 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">02 · El recorrido</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 26px; max-width: 1480px;">Qué pasó hasta hoy (1 de 3)</div>
+    <div style="display: flex; flex-direction: column;">
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">4 de junio de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">Primera reunión con Facu</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Es la reunión más vieja que quedó registrada con ella. Ahí ya aparece lo que después se recupera: que quiere enfocarse en acompañamientos de procesos. La fecha formal de arranque del programa falta confirmar.</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">Julio y agosto de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">Las sesiones con Franco y la traba de la oferta</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">La traba más grande para cerrar la oferta de estrategia creativa fue una sola y ella la nombró recapitulando esas sesiones: no entendía la transformación. Sin saber qué transformación deja el servicio, no hay forma de ponerle precio ni de defenderlo frente a algo más tangible como la pauta.</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">6 de agosto de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">La identidad visual, con Juana</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Una identidad de marca maximalista y que cambiaba todo el tiempo estaba alejando clientes. Se trabajó pasar a una estética más neutra y profesional para ampliar el alcance. Fue el primer ajuste hacia afuera del pivote que después se explicitó.</div></div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Scarlett Montilla — mentoría de procesos · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">03 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">02 · El recorrido</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 26px; max-width: 1480px;">Qué pasó hasta hoy (2 de 3)</div>
+    <div style="display: flex; flex-direction: column;">
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">1 de septiembre de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">La llamada donde se nombra el pivote</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Scarlett planteó dos vías en paralelo: por un lado la marca personal y la mentoría, que necesitan tiempo y proceso, y por otro los servicios de las capacidades que ya tiene, que puede vender pero a los que no les daría protagonismo. Facu no discutió el ritmo, discutió la herramienta: si no comunicás la oferta, el riesgo no es perder clientes, es perder la capacidad de conseguir clientes nuevos. Y le marcó la creencia: con dos clientes llegás a la estabilidad que estás buscando. Quedó acordado revisitar los Founder Insights con Juana para armar la narrativa y de ahí bajar oferta, cliente ideal y ángulos.</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">2 de septiembre de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">El repaso con Teo</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Se definió el punto final: que termine de completar el one-sheeter de la oferta y el cliente ideal de eso, que siga en las grupales y que se haga el sign-off. Con una llamada más con Franco para avanzar sobre la oferta. Facu quedó en mandarle a Franco las conclusiones de la Clarity Call antes de esa llamada.</div></div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Scarlett Montilla — mentoría de procesos · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">04 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">02 · El recorrido</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 26px; max-width: 1480px;">Qué pasó hasta hoy (3 de 3)</div>
+    <div style="display: flex; flex-direction: column;">
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">9 de septiembre de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">El mapa de presencia, con Juana</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Lo que sé, lo que me importa y lo que estoy construyendo, y la perspectiva propia que sale del cruce de los tres. En el ejercicio de escritura automática apareció su indignación central: la glorificación del burnout como señal de mérito. Es la materia prima de la narrativa comercial y encaja exactamente con la mentoría que quiere vender.</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">Del 2 al 9 de septiembre de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">Las grupales: separar las dos narrativas</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">En la de creatividad del 2 contó que está en un embudo de ideas sin ejecutar y en pleno pivot hacia una mentoría de energía creativa, con movimiento, nutrición y descanso, y con el conflicto entre los servicios que necesita vender y el posicionamiento que quiere. Juana le marcó el camino: separar las dos narrativas y documentar cada una por su lado, y si todavía no tiene mentoreados, grabar hablándole igual a esa persona, porque ya conoce sus dolores. La frase que quedó fue que crear responde mucho más que pensar. En la de contenido del 4, Fede le revisó el video de YouTube, que hizo ciento sesenta reproducciones con siete suscriptores, buen número para un canal nuevo: le pidió probar una reducción del video largo contra una pieza nativa de Instagram y comparar, grabar en 4K más cerca de la ventana en vez de forzar luz artificial de los dos lados, subtítulos con tipografía más legible y portada con su cara o su cuaderno. Y le marcó el criterio de fondo: ir a pescar un tema que ya funciona en los canales de referentes, en lugar de inventar uno cada vez. En la del 9, del ejercicio de escritura le salió la frase de que le indigna que se glorifique el desgaste como criterio de mérito, que es exactamente el proyecto que está construyendo.</div></div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Scarlett Montilla — mentoría de procesos · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">05 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#171717;color:#FBFAF8;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #171717; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #3A3A40;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #8C8C90; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #8C8C90;">03 · La lectura del caso</span>
+    </div>
+
+    <div style="height: 40px;"></div>
+    <div style="font-size: 96px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.04;  margin-bottom: 44px; max-width: 1480px;">El cuello es la oferta sin forma, no el ritmo.</div>
+    <div style="display: grid; grid-template-columns: 1.15fr 1fr; gap: 76px; max-width: 1640px;">
+      <div style="font-size: 27px; line-height: 1.5; color: #C9C7C3;">Scarlett cree que le falta tiempo, y lo que le falta es que la mentoría esté escrita: qué transformación deja, para quién y a qué precio. Es la misma traba que ya había aparecido con Franco, que no entendía la transformación. Con eso escrito, el ritmo pasa a ser una decisión suya y deja de ser un límite. Cuando decida vender, el mecanismo siempre va a ser el mismo.</div>
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="it" style="font-size: 30px; line-height: 1.4; color: #FBFAF8;">“Prefiero trabajar en mi posicionamiento primero y empezar a compartir cómo es mi proceso, en vez de enfocarme en contenido más técnico, en hablar de marcas, en hablar de marketing.”</div>
+        <div style="font-size: 20px; color: #8C8C90;">Scarlett Montilla · 1 de septiembre de 2026</div>
+      </div>
+    </div>
+    <div style="display: inline-flex; align-self: flex-start; margin-top: 52px; border: 1px solid #FBFAF8; padding: 14px 26px; gap: 18px; align-items: baseline;">
+      <span style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90;">Orientación</span>
+      <span style="font-size: 30px; font-weight: 700; letter-spacing: -0.02em; color: #FBFAF8;">Conseguir</span>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #3A3A40;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;">Scarlett Montilla — mentoría de procesos · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;" class="num">06 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">04 · El handicap</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 8px; max-width: 1480px;">Handicap</div>
+    <div style="font-size: 25px; line-height: 1.5; color: #6A6A66; margin-bottom: 40px; max-width: 1500px;">Cinco ejes de cero a cuatro sobre el estado del negocio. El eje más bajo es por donde se trabaja, y es el que marca la orientación.</div>
+    <div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 40px;">
+      <div style="border-top: 2px solid #171717; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #171717;">Oferta</div>
+          <div class="num" style="font-size: 30px; color: #171717;">1</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Qué vende, a quién y a qué precio. Escrita, no en la cabeza.</div>
+      </div>
+      <div style="border-top: 2px solid #DBD7D2; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #6A6A66;">Contenido</div>
+          <div class="num" style="font-size: 30px; color: #6A6A66;">2</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Volumen y criterio sostenidos, no piezas sueltas.</div>
+      </div>
+      <div style="border-top: 2px solid #171717; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #171717;">Demanda</div>
+          <div class="num" style="font-size: 30px; color: #171717;">1</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Conversaciones que entran sin que salga a buscarlas.</div>
+      </div>
+      <div style="border-top: 2px solid #171717; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #171717;">Venta</div>
+          <div class="num" style="font-size: 30px; color: #171717;">1</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Lo que convierte esa conversación en plata: embudo, llamada, cierre, precio validado.</div>
+      </div>
+      <div style="border-top: 2px solid #171717; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #171717;">Entrega</div>
+          <div class="num" style="font-size: 30px; color: #171717;">1</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Puede cumplir lo que vende sin romperse.</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:56px;align-items:flex-start;margin-top:52px;border-top:1px solid #DBD7D2;padding-top:30px;flex-wrap:wrap;">
+      <div><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Total</div>
+        <div class="num" style="font-size: 56px; line-height:1;">6<span style="font-size:26px;color:#6A6A66;font-weight:400;letter-spacing:0;"> / 20</span></div></div>
+      <div><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Tramo</div>
+        <div style="font-size: 30px; font-weight: 700; letter-spacing: -0.02em;">Arranque</div></div>
+      <div><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Ritmo</div>
+        <div style="font-size: 30px; font-weight: 700; letter-spacing: -0.02em; color:#8A6A2F;">Amarillo</div>
+        <div style="font-size: 19px; color: #6A6A66; margin-top:4px;">Avanza a los tirones.</div></div>
+      <div style="flex:1;min-width:380px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Por dónde se trabaja</div>
+        <div style="font-size: 23px; line-height:1.4;">Se trabaja por oferta, que es el eje más bajo: hasta que la mentoría no tenga una hoja con transformación, cliente ideal y precio, la demanda y la venta no tienen de qué agarrarse.</div></div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Scarlett Montilla — mentoría de procesos · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">07 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">05 · Punto B</span>
+    </div>
+
+    <div style="font-size: 70px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 14px; max-width: 1480px;">Punto B</div>
+    <div style="font-size: 26px; line-height: 1.5; color: #6A6A66; margin-bottom: 48px; max-width: 1180px;">Los dos hitos que quedan por delante, ya sin acompañamiento.</div>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 72px;">
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 2px solid #171717; padding-top: 26px;">
+        <div style="font-size: 19px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">30 de septiembre de 2026</div>
+        <div style="font-size: 50px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.09;">El one-sheeter y el cliente ideal</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Una hoja con la mentoría: qué transformación deja, cuánto dura, cuántas llamadas, qué incluye y qué no. Y al lado, el cliente ideal con sus dolores escritos con las palabras que esa persona usa. Sin las dos cosas la llamada con Franco no tiene de qué agarrarse.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 2px solid #171717; padding-top: 26px;">
+        <div style="font-size: 19px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">15 de octubre de 2026</div>
+        <div style="font-size: 50px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.09;">La llamada con Franco y el precio puesto</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Facu le pasa a Franco las conclusiones de la Clarity Call y Franco avanza sobre la oferta. De esa llamada sale el precio y la narrativa comercial. Una vez que hay número, la mentoría deja de ser una idea larga y se puede ofrecer.</div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Scarlett Montilla — mentoría de procesos · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">08 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">06 · El roadmap</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 18px; max-width: 1480px;">Los próximos 60 días</div>
+    <div style="font-size: 25px; line-height: 1.5; color: #6A6A66; margin-bottom: 30px; max-width: 1180px;">Lo que sigue, para ejecutar solo.</div>
+    <div style="display: grid; grid-template-columns: 240px 320px minmax(0, 1fr) 280px; gap: 0;">
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Cuándo</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Objetivo</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Entregable</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Quién</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Semana del 15 de septiembre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Cerrar la narrativa con Juana</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Los Founder Insights revisitados cruzados con lo que viene bajando de la mentoría y con el mapa de presencia del 9 de septiembre. Sale de ahí la narrativa escrita, con el burnout glorificado como el enemigo y construir a tu propio ritmo como la posición.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Scarlett con Juana</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Semana del 22 de septiembre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Escribir el one-sheeter</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Una hoja: nombre de la mentoría, transformación, duración, cantidad de llamadas, qué incluye y qué queda afuera. El triángulo de la sinergia como el método, escrito en tres pasos.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Scarlett</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 29 de septiembre al 10 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Definir el cliente ideal y los ángulos</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Quién es, qué le duele y con qué frases lo dice. De cada dolor sale un ángulo de comunicación. Oferta, narrativa y cliente ideal con sus dolores son los tres puntos que generan una venta.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Scarlett</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Semana del 13 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">La llamada con Franco</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Precio y narrativa comercial definidos. Facu le manda a Franco las conclusiones de la Clarity Call antes, para que llegue con contexto.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Scarlett y Franco, con Facu de puente</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 20 al 31 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Conseguir los dos clientes que sostienen</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Plantearlo en la comunidad, que es de donde puede salir sin depender de Instagram: contar la decisión, decir que busca uno o dos proyectos y ofrecer propuestas. Las personas con las que ya habló nunca vinieron de Instagram.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Scarlett</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 3 al 21 de noviembre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Comunicar la mentoría con los ángulos</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Dos carruseles y dos reels por semana más historias, sobre los ángulos que salieron de los dolores. Si el objetivo es vender, la actividad tiene que ser esa. Diez piezas mínimo antes de sacar cualquier conclusión.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Scarlett</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Semana del 24 de noviembre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Validar con precio</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Abrir dos o tres cupos de la mentoría con el precio de la llamada con Franco. Sin descuento y sin regalar el proceso. Sea sí o sea no, ahí se lee si la oferta está parada donde tiene que estar.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Scarlett</div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Scarlett Montilla — mentoría de procesos · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">09 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">07 · Los accionables</span>
+    </div>
+
+    <div style="font-size: 60px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 14px; max-width: 1480px;">Los accionables</div>
+    <div style="font-size: 24px; line-height: 1.5; color: #6A6A66; margin-bottom: 26px; max-width: 1180px;">Quién hace qué y cuándo.</div>
+    <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr) minmax(0, 1fr); gap: 0;">
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Cuándo</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Scarlett</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Cáscara</div>
+      <div style="font-size: 22px; font-weight: 700; line-height: 1.2; padding: 16px 20px 16px 0; border-bottom: 1px solid #DBD7D2;">Septiembre</div>
+      <div style="padding: 16px 28px 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Compartir con Cáscara todo lo que viene bajando sobre este cambio</li><li style="margin-bottom: 6px;">Cerrar la narrativa en la sesión con Juana</li><li style="margin-bottom: 6px;">Terminar el one-sheeter de la mentoría</li></ul></div>
+      <div style="padding: 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Facu le manda a Franco las conclusiones de la Clarity Call</li><li style="margin-bottom: 6px;">Juana toma la sesión de narrativa con los Founder Insights revisitados</li><li style="margin-bottom: 6px;">Grupales de Founders abiertas: martes con Teo, jueves con Juana, viernes con Fede</li></ul></div>
+      <div style="font-size: 22px; font-weight: 700; line-height: 1.2; padding: 16px 20px 16px 0; border-bottom: 1px solid #DBD7D2;">Octubre</div>
+      <div style="padding: 16px 28px 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Escribir el cliente ideal con sus dolores y sacar los ángulos</li><li style="margin-bottom: 6px;">Tener la llamada con Franco y salir con precio</li><li style="margin-bottom: 6px;">Plantear en la comunidad que busca uno o dos proyectos</li></ul></div>
+      <div style="padding: 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Franco toma la llamada de oferta y pricing</li><li style="margin-bottom: 6px;">Teo hace el sign-off con este documento después de esa llamada</li></ul></div>
+      <div style="font-size: 22px; font-weight: 700; line-height: 1.2; padding: 16px 20px 16px 0; border-bottom: 1px solid #DBD7D2;">Noviembre</div>
+      <div style="padding: 16px 28px 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Cuatro piezas por semana sobre los ángulos de la mentoría</li><li style="margin-bottom: 6px;">Abrir dos o tres cupos con precio, sin descuento</li><li style="margin-bottom: 6px;">Leer qué ángulo trajo las conversaciones</li></ul></div>
+      <div style="padding: 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Sin llamadas uno a uno</li></ul></div>
+    </div>
+    <div style="margin-top: 26px; border-left: 3px solid #171717; padding-left: 22px; font-size: 22px; line-height: 1.4; max-width: 1560px;">El precio de la mentoría, que sale de la llamada con Franco (falta confirmar).</div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Scarlett Montilla — mentoría de procesos · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">10 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">08 · El paquete</span>
+    </div>
+
+    <div style="font-size: 70px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 18px; max-width: 1480px;">Qué se lleva</div>
+    <div style="font-size: 26px; line-height: 1.5; color: #6A6A66; margin-bottom: 44px; max-width: 1400px;">Todo esto queda hecho y aplicado a su caso, con sus palabras y sus decisiones adentro.</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 52px;">
+      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">01</div>
+        <div style="font-size: 24px; line-height: 1.42;">El mecanismo de venta en tres partes: la oferta, la narrativa que se relaciona con esa oferta, y el cliente ideal con sus dolores y sus ángulos de comunicación</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">02</div>
+        <div style="font-size: 24px; line-height: 1.42;">El mapa de presencia: lo que sé, lo que me importa y lo que estoy construyendo, y la perspectiva que sale del cruce</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">03</div>
+        <div style="font-size: 24px; line-height: 1.42;">El camino de construcción de identidad: identidad, posicionamiento, oferta, narrativa comercial y sistema de comunicación</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">04</div>
+        <div style="font-size: 24px; line-height: 1.42;">Los Founder Insights revisitados, que es la materia prima con la que se arma la narrativa de la mentoría</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">05</div>
+        <div style="font-size: 24px; line-height: 1.42;">El ajuste de identidad visual del 6 de agosto: estética más neutra y profesional en lugar de maximalista y cambiante</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">06</div>
+        <div style="font-size: 24px; line-height: 1.42;">El hallazgo del 9 de septiembre: el burnout glorificado como enemigo y construir a tu propio ritmo como posición</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">07</div>
+        <div style="font-size: 24px; line-height: 1.42;">El criterio de actividad: si el objetivo es vender, son dos carruseles, dos reels e historias todos los días, no una pieza cada quince</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">08</div>
+        <div style="font-size: 24px; line-height: 1.42;">Las reglas del sistema: menos de diez piezas no permite evaluar nada, primero autoridad y experiencia y después infoproducto, y se valida con precio, nunca gratis</div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Scarlett Montilla — mentoría de procesos · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">11 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#171717;color:#FBFAF8;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #171717; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #3A3A40;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #8C8C90; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #8C8C90;">Cáscara Founders</span>
+    </div>
+
+    <div style="height: 80px;"></div>
+    <div style="font-size: 80px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 44px; max-width: 1480px;">Hasta acá llega el acompañamiento.</div>
+    <div style="font-size: 27px; line-height: 1.52; color: #C9C7C3; max-width: 1500px;">Scarlett se lleva la decisión tomada y el mecanismo para ejecutarla. El proceso no terminó donde arrancó y está bien que así sea: probamos el camino de estrategia creativa, marketing y llamadas de venta, y en esa búsqueda apareció la conclusión de que lo que ella quiere vender es el acompañamiento. Lo que queda por delante es hacerlo tangible, que es justo lo que ella siente que no está. Los pasos son tres y son cortos: la narrativa con Juana, el one-sheeter con el cliente ideal, y la llamada con Franco para el precio. La recomendación es offboarding con una llamada más con Franco y las grupales abiertas hasta que las quiera usar. El único riesgo acá no es el ritmo, es quedarse sin la herramienta de conseguir clientes mientras construye lo largo. Por eso los dos clientes fijos son parte del punto B y no un detalle.</div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #3A3A40;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;">Borrador · revisar con Facu antes de enviar</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;" class="num">12 / 12</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+</div>
+<div id="hint">Scrolleá hacia la derecha · o usá las flechas</div>
+<div id="bar"></div>
+<script>
+(function(){
+  var deck=document.getElementById('deck'),hint=document.getElementById('hint'),bar=document.getElementById('bar');
+  var slots=[].slice.call(deck.querySelectorAll('.slot'));
+  function shrink(){
+    slots.forEach(function(sl){
+      var f=sl.querySelector('.fitme'); if(!f||f.dataset.done) return;
+      f.style.zoom=1;
+      var over=f.scrollHeight/f.clientHeight;
+      if(over>1.005){ f.style.zoom=Math.max(0.62,(1/over)*0.985); }
+      f.dataset.done='1';
+    });
+  }
+  function fit(){var vw=innerWidth,vh=innerHeight,s=Math.min(vw/1920,vh/1080);
+    slots.forEach(function(sl){sl.querySelector('.pnl').style.transform='scale('+s+')';sl.style.width=(1920*s)+'px';});
+    shrink();prog();}
+  function prog(){var m=deck.scrollWidth-deck.clientWidth;bar.style.width=(m>0?(deck.scrollLeft/m*100):100)+'%';}
+  var cur=0,busy=0;
+  function go(d){busy=1;clearTimeout(go._t);go._t=setTimeout(function(){busy=0;},520);
+    cur=Math.max(0,Math.min(slots.length-1,cur+d));
+    deck.scrollTo({left:slots[cur].offsetLeft-(deck.clientWidth-slots[cur].offsetWidth)/2,behavior:'smooth'});}
+  function sync(){if(busy)return;var w=slots[0]?slots[0].offsetWidth:1;
+    cur=Math.max(0,Math.min(slots.length-1,Math.round(deck.scrollLeft/w)));}
+  addEventListener('resize',fit);
+  deck.addEventListener('scroll',function(){prog();sync();hint.style.opacity=0;});
+  deck.addEventListener('wheel',function(e){if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){deck.scrollLeft+=e.deltaY;e.preventDefault();}},{passive:false});
+  document.addEventListener('keydown',function(e){
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){go(1);e.preventDefault();}
+    if(e.key==='ArrowLeft'||e.key==='PageUp'){go(-1);e.preventDefault();}
+    if(e.key==='Home'){cur=0;go(0);} if(e.key==='End'){cur=slots.length-1;go(0);}});
+  setTimeout(function(){hint.style.opacity=0;},5000); fit();
+})();
+</script>
+</body></html>

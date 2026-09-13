@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matías Morales · Radiografía y roadmap</title>
+<style>
+  html,body{margin:0;padding:0;background:#0A0A0C;height:100%;overflow:hidden;
+            font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  .it{font-family:"Times New Roman",Georgia,serif;font-style:italic}
+  .num{font-weight:800;letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+  #deck{display:flex;height:100%;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;
+        scroll-behavior:smooth;scrollbar-width:none;-ms-overflow-style:none}
+  #deck::-webkit-scrollbar{display:none}
+  .slot{flex:0 0 auto;scroll-snap-align:center;display:flex;align-items:center;
+        justify-content:center;height:100%;overflow:hidden}
+  .pnl{width:1920px;height:1080px;transform-origin:center center;flex:0 0 auto}
+  #hint{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);font-size:12px;
+        letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.45);
+        background:rgba(0,0,0,.35);padding:7px 14px;pointer-events:none;transition:opacity .6s;z-index:9}
+  #bar{position:fixed;left:0;bottom:0;height:2px;background:rgba(255,255,255,.55);width:0;
+       transition:width .15s linear;z-index:10}
+  @media print{
+    html,body{overflow:visible;height:auto;background:#fff}
+    #deck{display:block;overflow:visible;height:auto}
+    .slot{display:block;height:auto;page-break-after:always;break-after:page}
+    .pnl{transform:none!important;zoom:.52}
+    #hint,#bar{display:none}
+    @page{size:landscape;margin:0}
+  }
+</style>
+</head>
+<body>
+<div id="deck">
+<div class="slot" style="background:#171717;color:#FBFAF8;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #171717; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #3A3A40;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #8C8C90; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #8C8C90;">Cáscara Founders</span>
+    </div>
+
+    <div style="height: 110px;"></div>
+    <div style="font-size: 26px; letter-spacing: 0.24em; text-transform: uppercase; color: #8C8C90; margin-bottom: 32px;">Radiografía y roadmap</div>
+    <div style="font-size: 132px; font-weight: 700; letter-spacing: -0.03em; line-height: 0.99;  margin-bottom: 22px; max-width: 1480px;">Matías Morales</div>
+    <div style="font-size: 40px; line-height: 1.24; color: #C9C7C3; max-width: 1300px;">Matías cerró todas las propuestas que armó, y las cerró a casi el doble de lo que pensaba cobrar. Después de eso quedó sin sistema. No hay proceso de entrega, no hay roadmap para mostrarle al cliente y no hay una mecánica de lanzamiento que pueda repetir. Septiembre es para escribir la entrega. Octubre es para lanzar una oferta con base de datos e historias.</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 60px; margin-top: 56px; max-width: 1560px;">
+      <div style="border-top: 1px solid #3A3A40; padding-top: 18px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90; margin-bottom: 10px;">Proyecto</div><div style="font-size: 26px; color: #FBFAF8;">9669 — estudio creativo</div></div>
+      <div style="border-top: 1px solid #3A3A40; padding-top: 18px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90; margin-bottom: 10px;">Arranque</div><div style="font-size: 26px; color: #FBFAF8;">(falta confirmar) — entró alrededor de mediados de julio de 2026; la primera llamada registrada es del 23 de julio de 2026, con Juana</div></div>
+      <div style="border-top: 1px solid #3A3A40; padding-top: 18px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90; margin-bottom: 10px;">Orientación</div><div style="font-size: 26px; color: #FBFAF8;">Entregar</div></div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #3A3A40;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;">12 de septiembre de 2026 · borrador para revisar</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;" class="num">01 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">01 · Punto A</span>
+    </div>
+
+    <div style="font-size: 74px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 34px; max-width: 1480px;">Le pusimos el precio al doble y vendió igual. Lo que falta no es vender: es tener con qué entregar.</div>
+    <div style="font-size: 26px; line-height: 1.5; color: #6A6A66; margin-bottom: 0px; max-width: 1420px;">La métrica que importa: Que las ventas ya cerradas se entreguen con onboarding a las 48 horas y roadmap presentado, y cuántos handraisers junta el lanzamiento de octubre.</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 64px; margin-top: 56px;">
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">Funciona</div>
+        <div style="font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.16;">Vende, y ahora vende más caro</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Facu lo ayudó a armar las propuestas y le dijo a todas lo mismo: que estaba barato. Matías subió los precios casi al doble y las vendió igual, todas. Tiene dos ventas cerradas y quedó contento. Eso deja una cosa probada que no se puede perder de vista en el tramo que viene: el problema de este caso no está del lado de la demanda ni del precio.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">Funciona</div>
+        <div style="font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.16;">La oferta y la marca ya están definidas</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">El 23 de julio cerró con Juana la identidad de 9669: qué construye, cómo se comunica y cómo se ve. La promesa es armar universos de marca completos que empujen la venta, con comunicación indirecta para generar confianza en un mercado saturado. El modelo de negocio también está decidido: campañas de duración definida, por ejemplo tres meses para un lanzamiento, en lugar de retainers mensuales, para sostener el foco. Trabaja con un compañero de facultad. Teo lo resume corto: tiene ofertas validadas y contenido.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">Pendiente</div>
+        <div style="font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.16;">El proceso de entrega, que no existe</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Teo lo vio en el chat y lo dijo sin vueltas: llegó al punto de que vendió, pero ahora está medio en bolas. No hay onboarding, no hay un roadmap que presentarle al cliente en los primeros días, no hay hitos ni fechas de entregable. Facu lo explicó desde el lado de Cáscara: como venía bien, nunca le presentó un roadmap, y ahora que está en servicio le falta el camino. Vender sin proceso de entrega es la manera más rápida de arruinar una venta buena.</div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">9669 — estudio creativo · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">02 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">02 · El recorrido</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 26px; max-width: 1480px;">Qué pasó hasta hoy (1 de 2)</div>
+    <div style="display: flex; flex-direction: column;">
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">Mediados de julio de 2026 (falta confirmar la fecha exacta)</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">Entra a Cáscara Founders</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Entró hace alrededor de un mes y medio. Llegó con el proyecto 9669 armándose y con la duda de qué vender y a cuánto.</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">23 de julio de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">Se define la identidad de 9669, con Juana</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Quedó la promesa y la personalidad de la marca: joven, activa, audaz y premium, con responsabilidad y experimentación como valores. Quedó la estética, la paleta de fríos con un acento cálido saturado, la tipografía condensada y el logo en tres dimensiones. Y quedó la decisión de modelo de negocio: campañas con fecha de inicio y de final, no retainers. Juana también le marcó un riesgo, que su ritmo alto puede leerse desde el cliente como saturación o como falta de presencia. Ese riesgo es exactamente el que vuelve a aparecer ahora que hay clientes entregando.</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">Agosto de 2026 (falta confirmar las fechas)</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">Las propuestas y las ventas</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Facu lo ayudó a armar las propuestas. A todas le dijo que estaba barato. Matías las subió casi al doble y las vendió igual. Quedaron dos ventas cerradas. Cuáles son los clientes y por qué montos, falta confirmar.</div></div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">9669 — estudio creativo · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">03 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">02 · El recorrido</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 26px; max-width: 1480px;">Qué pasó hasta hoy (2 de 2)</div>
+    <div style="display: flex; flex-direction: column;">
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">2 de septiembre de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">El repaso con Teo</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">Se movió el foco del caso: deja de ser oferta y ventas y pasa a ser entrega y estructura. Teo ya lo viene ayudando con la entrega del servicio. Facu le pidió que en su llamada con él le baje el proceso completo: cómo se hace un onboarding a las 48 horas, cómo se presenta un roadmap y cómo se arma una entrega de servicio. Y marcó lo que viene después: un roadmap para lanzar una oferta y venderla practicando historias, handraisers y una base de datos. Sabiendo que él puede vender, lo que hay que armarle es la estructura.</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 34px; padding: 20px 0; border-bottom: 1px solid #DBD7D2; align-items: start;">
+        <div style="font-size: 19px; letter-spacing: 0.12em; text-transform: uppercase; color: #6A6A66; padding-top: 5px;">Del 2 al 4 de septiembre de 2026</div>
+        <div><div style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px;">Las grupales: cerró un cliente y no grabó</div>
+        <div style="font-size: 22px; line-height: 1.45; color: #6A6A66; max-width: 1380px;">En la del 2 contó que no llegó a aplicar nada porque estuvo vendiendo y armando Notion y automatizaciones. Cerró un cliente de estrategia creativa y rebranding, le hizo un onboarding mezclando los Founder Insights con lo de la clase, y preguntó cómo procesar toda esa información. Juana le dejó el método: le manda el video de su clase de auditoría creativa, él lo transcribe, lo pasa al chat junto con los datos del cliente, pide dos o tres respuestas y filtra con criterio propio. Los entregables que salen de ahí son fortalezas, debilidades, intervenciones, pilares, formatos, cadencia y calendario de contenido a tres meses. En la del 4, Fede fue directo porque no había grabado: el contenido es el oxígeno del negocio y va primero en el día y en la semana. Le quedó hacerlo y publicar los avances en el grupo de WhatsApp.</div></div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">9669 — estudio creativo · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">04 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#171717;color:#FBFAF8;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #171717; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #3A3A40;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #8C8C90; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #8C8C90;">03 · La lectura del caso</span>
+    </div>
+
+    <div style="height: 40px;"></div>
+    <div style="font-size: 96px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.04;  margin-bottom: 44px; max-width: 1480px;">El cuello es que después de vender quedó sin sistema: hay clientes adentro y no hay proceso que los sostenga.</div>
+    <div style="display: grid; grid-template-columns: 1.15fr 1fr; gap: 76px; max-width: 1640px;">
+      <div style="font-size: 27px; line-height: 1.5; color: #C9C7C3;">No es la oferta, que está validada. No es el precio, que ya probó que puede duplicarlo. No es el contenido, que está. Es que la venta cae y a partir de ahí improvisa: no hay onboarding, no hay roadmap para el cliente, no hay hitos. Este es el caso opuesto al de los founders que no venden, y por eso el trabajo del tramo es de estructura y no de demanda.</div>
+<div></div>
+    </div>
+    <div style="display: inline-flex; align-self: flex-start; margin-top: 52px; border: 1px solid #FBFAF8; padding: 14px 26px; gap: 18px; align-items: baseline;">
+      <span style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #8C8C90;">Orientación</span>
+      <span style="font-size: 30px; font-weight: 700; letter-spacing: -0.02em; color: #FBFAF8;">Entregar</span>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #3A3A40;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;">9669 — estudio creativo · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;" class="num">05 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">04 · El handicap</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 8px; max-width: 1480px;">Handicap</div>
+    <div style="font-size: 25px; line-height: 1.5; color: #6A6A66; margin-bottom: 40px; max-width: 1500px;">Cinco ejes de cero a cuatro sobre el estado del negocio. El eje más bajo es por donde se trabaja, y es el que marca la orientación.</div>
+    <div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 40px;">
+      <div style="border-top: 2px solid #DBD7D2; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #6A6A66;">Oferta</div>
+          <div class="num" style="font-size: 30px; color: #6A6A66;">4</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#171717;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Qué vende, a quién y a qué precio. Escrita, no en la cabeza.</div>
+      </div>
+      <div style="border-top: 2px solid #DBD7D2; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #6A6A66;">Contenido</div>
+          <div class="num" style="font-size: 30px; color: #6A6A66;">2</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Volumen y criterio sostenidos, no piezas sueltas.</div>
+      </div>
+      <div style="border-top: 2px solid #DBD7D2; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #6A6A66;">Demanda</div>
+          <div class="num" style="font-size: 30px; color: #6A6A66;">2</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Conversaciones que entran sin que salga a buscarlas.</div>
+      </div>
+      <div style="border-top: 2px solid #DBD7D2; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #6A6A66;">Venta</div>
+          <div class="num" style="font-size: 30px; color: #6A6A66;">3</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Lo que convierte esa conversación en plata: embudo, llamada, cierre, precio validado.</div>
+      </div>
+      <div style="border-top: 2px solid #171717; padding-top: 18px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+          <div style="font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: #171717;">Entrega</div>
+          <div class="num" style="font-size: 30px; color: #171717;">1</div>
+        </div>
+        <div style="display:flex;gap:4px;margin-bottom:14px;"><div style="flex:1;height:10px;background:#171717;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div><div style="flex:1;height:10px;background:#D7D3CE;"></div></div>
+        <div style="font-size: 19px; line-height: 1.38; color: #6A6A66;">Puede cumplir lo que vende sin romperse.</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:56px;align-items:flex-start;margin-top:52px;border-top:1px solid #DBD7D2;padding-top:30px;flex-wrap:wrap;">
+      <div><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Total</div>
+        <div class="num" style="font-size: 56px; line-height:1;">12<span style="font-size:26px;color:#6A6A66;font-weight:400;letter-spacing:0;"> / 20</span></div></div>
+      <div><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Tramo</div>
+        <div style="font-size: 30px; font-weight: 700; letter-spacing: -0.02em;">Andando</div></div>
+      <div><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Ritmo</div>
+        <div style="font-size: 30px; font-weight: 700; letter-spacing: -0.02em; color:#8A6A2F;">Amarillo</div>
+        <div style="font-size: 19px; color: #6A6A66; margin-top:4px;">Avanza a los tirones.</div></div>
+      <div style="flex:1;min-width:380px;"><div style="font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; margin-bottom: 8px;">Por dónde se trabaja</div>
+        <div style="font-size: 23px; line-height:1.4;">Entrega en uno es el piso: vende y vende caro, y lo que falta es escribir el proceso una sola vez y aplicarlo a las dos entregas en curso antes de que entre el tercer cliente.</div></div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">9669 — estudio creativo · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">06 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">05 · Punto B</span>
+    </div>
+
+    <div style="font-size: 70px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 14px; max-width: 1480px;">Punto B</div>
+    <div style="font-size: 26px; line-height: 1.5; color: #6A6A66; margin-bottom: 48px; max-width: 1180px;">Dos hitos con fecha. Lo demás cuelga de estos dos.</div>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 72px;">
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 2px solid #171717; padding-top: 26px;">
+        <div style="font-size: 19px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">30 de septiembre de 2026</div>
+        <div style="font-size: 50px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.09;">Las dos entregas corriendo con proceso escrito</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Los clientes que ya compró entregados con un proceso, no de memoria: onboarding dentro de las 48 horas de la venta, roadmap presentado al cliente con hitos y fechas, y entregables con responsable y fecha de cada uno. El proceso escrito una sola vez y aplicado a los dos, para que el tercero no vuelva a arrancar de cero.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 18px; border-top: 2px solid #171717; padding-top: 26px;">
+        <div style="font-size: 19px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66;">31 de octubre de 2026</div>
+        <div style="font-size: 50px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.09;">Una oferta lanzada con base de datos e historias</div>
+        <div style="font-size: 23px; line-height: 1.5; color: #6A6A66;">Un lanzamiento corrido de punta a punta con la mecánica completa: base de datos armada, historias trabajadas para levantar la mano y handraisers derivados a conversación. Los números a presentar son cuántos handraisers juntó, cuántas conversaciones abrió y cuántas ventas salieron. Es la primera vez que vende por sistema y no porque le llegó la oportunidad.</div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">9669 — estudio creativo · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">07 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">06 · El roadmap</span>
+    </div>
+
+    <div style="font-size: 66px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 18px; max-width: 1480px;">El roadmap</div>
+    <div style="font-size: 25px; line-height: 1.5; color: #6A6A66; margin-bottom: 30px; max-width: 1180px;">Hasta el 31 de octubre.</div>
+    <div style="display: grid; grid-template-columns: 240px 320px minmax(0, 1fr) 280px; gap: 0;">
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Cuándo</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Objetivo</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Entregable</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Quién</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Semana del 15 de septiembre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Mapear cómo está entregando hoy</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Las dos ventas puestas sobre la mesa: qué se prometió en cada propuesta, en qué estado está cada entrega, qué hitos hay y qué se está resolviendo sobre la marcha. Sin ese mapa no se puede escribir un proceso, se escribe una idea de proceso.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Matías con Teo</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 15 al 26 de septiembre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Bajar el proceso de entrega de servicio</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">El módulo de entrega que baja Teo: onboarding a las 48 horas de la venta, presentación del roadmap al cliente, hitos con fecha, quién responde qué y cada cuánto se reporta. Cáscara deja la estructura y un ejemplo de cada pieza; él lo adapta a 9669 y lo escribe.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Matías con Teo</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 22 de septiembre al 3 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Aplicar el proceso a las dos entregas en curso</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Roadmap presentado a cada uno de los dos clientes y entregables con fecha. Lo que se rompa en la aplicación se corrige en el documento, así el proceso queda probado y no queda teórico.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Matías</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 29 de septiembre al 10 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Empaquetar la oferta que se va a lanzar</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Una sola oferta elegida y empaquetada con lo que ya está validado: qué incluye, a quién le habla, precio y qué pasa después de la compra. Se empaqueta antes de salir, no durante. El modelo de campaña con fecha de inicio y de final sigue siendo el formato.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Matías con Facu</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 6 al 17 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Armar la base de datos</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">La base de contactos ordenada en un solo lugar: clientes anteriores, conversaciones abiertas, gente que preguntó y nunca cerró, y contactos del entorno. Con el motivo del contacto y el estado de cada uno. Esa base es la que recibe el lanzamiento.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Matías</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 13 al 24 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Practicar historias y handraisers</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Secuencia de historias trabajada para levantar la mano, con los ángulos definidos y el criterio de a qué conversación deriva cada una. Cáscara le deja la estructura de la secuencia y un ejemplo; los guiones los escribe él.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Matías con Facu y Fede</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Del 20 al 31 de octubre</div>
+      <div style="font-size: 20px; font-weight: 700; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">Correr el lanzamiento y leer los números</div>
+      <div style="font-size: 19px; line-height: 1.42; color: #6A6A66; padding: 13px 22px 13px 0; border-bottom: 1px solid #DBD7D2;">El lanzamiento completo sobre la base de datos, y al lado la lectura: handraisers, conversaciones abiertas y ventas cerradas. Eso es lo que se presenta el 31.</div>
+      <div style="font-size: 19px; color: #6A6A66; padding: 13px 0; border-bottom: 1px solid #DBD7D2;">Matías con Facu</div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">9669 — estudio creativo · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">08 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">07 · Los accionables</span>
+    </div>
+
+    <div style="font-size: 60px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 14px; max-width: 1480px;">Los accionables</div>
+    <div style="font-size: 24px; line-height: 1.5; color: #6A6A66; margin-bottom: 26px; max-width: 1180px;">Quién hace qué y cuándo.</div>
+    <div style="display: grid; grid-template-columns: 250px minmax(0, 1fr) minmax(0, 1fr); gap: 0;">
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Cuándo</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Matías</div>
+      <div style="font-size: 17px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6A66; padding-bottom: 14px; border-bottom: 1px solid #171717;">Cáscara</div>
+      <div style="font-size: 22px; font-weight: 700; line-height: 1.2; padding: 16px 20px 16px 0; border-bottom: 1px solid #DBD7D2;">Septiembre</div>
+      <div style="padding: 16px 28px 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Mapear las dos entregas en curso: qué se prometió, en qué estado está y qué se está resolviendo sobre la marcha</li><li style="margin-bottom: 6px;">Escribir el proceso de entrega de 9669 sobre el módulo que baja Teo</li><li style="margin-bottom: 6px;">Presentarle el roadmap a cada uno de los dos clientes, con hitos y fechas</li><li style="margin-bottom: 6px;">Corregir el documento con lo que se rompa al aplicarlo</li></ul></div>
+      <div style="padding: 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Teo le baja en su llamada el proceso completo de entrega: onboarding a 48 horas, presentación de roadmap y armado de la entrega de servicio</li><li style="margin-bottom: 6px;">Facu le presenta el análisis y le marca el camino, que es lo que no se le había presentado porque venía bien</li><li style="margin-bottom: 6px;">Cáscara le deja la estructura y un ejemplo de cada pieza de la entrega, no los documentos del cliente</li></ul></div>
+      <div style="font-size: 22px; font-weight: 700; line-height: 1.2; padding: 16px 20px 16px 0; border-bottom: 1px solid #DBD7D2;">Octubre</div>
+      <div style="padding: 16px 28px 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Empaquetar la oferta que se va a lanzar, con precio y con qué pasa después de la compra</li><li style="margin-bottom: 6px;">Armar la base de datos de contactos con motivo y estado de cada uno</li><li style="margin-bottom: 6px;">Practicar la secuencia de historias con handraisers y derivar cada mano levantada a conversación</li><li style="margin-bottom: 6px;">Correr el lanzamiento sobre la base</li></ul></div>
+      <div style="padding: 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Facu le arma el roadmap de lanzamiento y le calibra la oferta empaquetada</li><li style="margin-bottom: 6px;">Fede y Facu le dejan la estructura de la secuencia de historias y un ejemplo de handraiser</li><li style="margin-bottom: 6px;">Teo sostiene el seguimiento de que la entrega no se caiga mientras corre el lanzamiento</li></ul></div>
+      <div style="font-size: 22px; font-weight: 700; line-height: 1.2; padding: 16px 20px 16px 0; border-bottom: 1px solid #DBD7D2;">Cierre, 31 de octubre</div>
+      <div style="padding: 16px 28px 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Presentar los números del lanzamiento: handraisers, conversaciones abiertas y ventas, y el estado de las dos entregas con el proceso aplicado</li></ul></div>
+      <div style="padding: 16px 0; border-bottom: 1px solid #DBD7D2;"><ul style="margin: 0; padding-left: 20px; font-size: 20px; line-height: 1.38; color: #6A6A66;"><li style="margin-bottom: 6px;">Facu y Teo revisan el resultado contra el punto A y definen el tramo siguiente</li></ul></div>
+    </div>
+    <div style="margin-top: 26px; border-left: 3px solid #171717; padding-left: 22px; font-size: 22px; line-height: 1.4; max-width: 1560px;">Cuáles son los dos clientes que cerró, por qué montos y con qué alcance prometido en cada propuesta (falta confirmar).</div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">9669 — estudio creativo · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">09 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#ECEAE4;color:#171717;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">08 · El paquete</span>
+    </div>
+
+    <div style="font-size: 70px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 18px; max-width: 1480px;">Qué entregamos</div>
+    <div style="font-size: 26px; line-height: 1.5; color: #6A6A66; margin-bottom: 44px; max-width: 1400px;">Todo esto queda hecho y aplicado a su caso, con sus palabras y sus decisiones adentro.</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 52px;">
+      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">01</div>
+        <div style="font-size: 24px; line-height: 1.42;">El módulo de entrega de servicio de Teo: onboarding dentro de las 48 horas de la venta, presentación del roadmap al cliente, hitos con fecha y quién responde qué</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">02</div>
+        <div style="font-size: 24px; line-height: 1.42;">El criterio de que la entrega se escribe una vez y se aplica a todos, para que cada cliente nuevo no vuelva a arrancar de cero</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">03</div>
+        <div style="font-size: 24px; line-height: 1.42;">El análisis y el camino marcado que no se le había presentado antes, porque venía vendiendo bien</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">04</div>
+        <div style="font-size: 24px; line-height: 1.42;">El roadmap de lanzamiento de una oferta: empaquetar primero, después base de datos, después historias y handraisers</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">05</div>
+        <div style="font-size: 24px; line-height: 1.42;">El criterio de precio que ya le sirvió una vez: si lo vendés fácil, está barato</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">06</div>
+        <div style="font-size: 24px; line-height: 1.42;">La mecánica de handraisers en historias, con la estructura de la secuencia y un ejemplo</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">07</div>
+        <div style="font-size: 24px; line-height: 1.42;">El criterio de empaquetar antes de delegar y antes de salir a vender</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">08</div>
+        <div style="font-size: 24px; line-height: 1.42;">La identidad de 9669 trabajada con Juana: promesa, personalidad, estética y el modelo de campañas con fecha de inicio y de final en vez de retainers</div>
+      </div>      <div style="border-top: 1px solid #DBD7D2; padding-top: 22px;">
+        <div class="num" style="font-size: 34px; color: #6A6A66; line-height: 1; margin-bottom: 14px;">09</div>
+        <div style="font-size: 24px; line-height: 1.42;">Las tres grupales semanales: operaciones y comunidad con Teo, creatividad con Juana, contenido y estrategia con Fede</div>
+      </div>
+    </div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">9669 — estudio creativo · Cáscara Founders</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">10 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+<div class="slot" style="background:#171717;color:#FBFAF8;">
+<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #171717; display: flex; padding: 34px;">
+  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #3A3A40;">
+<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
+
+    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #8C8C90; padding: 7px 14px; margin-bottom: 56px;">
+      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #8C8C90;">Cáscara Founders</span>
+    </div>
+
+    <div style="height: 80px;"></div>
+    <div style="font-size: 80px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.06;  margin-bottom: 44px; max-width: 1480px;">Lo que viene.</div>
+    <div style="font-size: 27px; line-height: 1.52; color: #C9C7C3; max-width: 1500px;">Matías es el caso inverso al de la mayoría. No hay que enseñarle a vender: vendió todo lo que armó, y lo vendió a casi el doble de lo que pensaba cobrar. El problema apareció justo después de la venta, cuando quedó adentro del servicio sin un proceso que lo sostenga. Por eso el tramo es de estructura. Septiembre es para bajar el proceso de entrega con Teo y aplicarlo a las dos ventas que ya están corriendo, para que el tercer cliente no lo encuentre improvisando de nuevo. Octubre es para usar lo que ya sabe hacer, pero por sistema: una oferta empaquetada, una base de datos armada y una secuencia de historias con handraisers, corriendo como lanzamiento. El 31 de octubre se mide con dos cosas, las entregas con proceso aplicado y los números del lanzamiento. Lo que hay que cuidar en el medio es el riesgo que ya le marcó Juana: con el ritmo alto que tiene, el cliente puede leer saturación o ausencia. Un proceso de entrega escrito es justamente lo que evita que eso pase.</div>
+
+
+    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #3A3A40;">
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;">Borrador · revisar con Facu antes de enviar</span>
+      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;" class="num">11 / 11</span>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+</div>
+<div id="hint">Scrolleá hacia la derecha · o usá las flechas</div>
+<div id="bar"></div>
+<script>
+(function(){
+  var deck=document.getElementById('deck'),hint=document.getElementById('hint'),bar=document.getElementById('bar');
+  var slots=[].slice.call(deck.querySelectorAll('.slot'));
+  function shrink(){
+    slots.forEach(function(sl){
+      var f=sl.querySelector('.fitme'); if(!f||f.dataset.done) return;
+      f.style.zoom=1;
+      var over=f.scrollHeight/f.clientHeight;
+      if(over>1.005){ f.style.zoom=Math.max(0.62,(1/over)*0.985); }
+      f.dataset.done='1';
+    });
+  }
+  function fit(){var vw=innerWidth,vh=innerHeight,s=Math.min(vw/1920,vh/1080);
+    slots.forEach(function(sl){sl.querySelector('.pnl').style.transform='scale('+s+')';sl.style.width=(1920*s)+'px';});
+    shrink();prog();}
+  function prog(){var m=deck.scrollWidth-deck.clientWidth;bar.style.width=(m>0?(deck.scrollLeft/m*100):100)+'%';}
+  var cur=0,busy=0;
+  function go(d){busy=1;clearTimeout(go._t);go._t=setTimeout(function(){busy=0;},520);
+    cur=Math.max(0,Math.min(slots.length-1,cur+d));
+    deck.scrollTo({left:slots[cur].offsetLeft-(deck.clientWidth-slots[cur].offsetWidth)/2,behavior:'smooth'});}
+  function sync(){if(busy)return;var w=slots[0]?slots[0].offsetWidth:1;
+    cur=Math.max(0,Math.min(slots.length-1,Math.round(deck.scrollLeft/w)));}
+  addEventListener('resize',fit);
+  deck.addEventListener('scroll',function(){prog();sync();hint.style.opacity=0;});
+  deck.addEventListener('wheel',function(e){if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){deck.scrollLeft+=e.deltaY;e.preventDefault();}},{passive:false});
+  document.addEventListener('keydown',function(e){
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){go(1);e.preventDefault();}
+    if(e.key==='ArrowLeft'||e.key==='PageUp'){go(-1);e.preventDefault();}
+    if(e.key==='Home'){cur=0;go(0);} if(e.key==='End'){cur=slots.length-1;go(0);}});
+  setTimeout(function(){hint.style.opacity=0;},5000); fit();
+})();
+</script>
+</body></html>
