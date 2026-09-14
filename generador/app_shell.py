@@ -314,6 +314,32 @@ h2.bl em{font-style:italic;font-family:var(--edit);text-transform:none;letter-sp
   color:var(--gris2);font-weight:400;margin-bottom:3px}
 .duen .mas{font-family:var(--edit);font-style:italic;font-size:14.5px;color:var(--gris2)}
 
+/* ---------- el mapa de cartas ---------- */
+.porque{font-size:19px;line-height:1.5;color:var(--gris);max-width:60ch;margin:16px 0 6px}
+.ac .cuerpo .res{font-size:22px;line-height:1.45;color:var(--tinta);margin:0 0 4px;max-width:56ch}
+.cbl{margin-top:24px}
+.cbl .ct{display:block;font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gris2);margin-bottom:10px}
+.cbl p{margin:0;font-size:19px;line-height:1.5;color:var(--gris);max-width:60ch}
+.cbl ol,.cbl ul{margin:0;padding-left:22px}
+.cbl li{font-size:19px;line-height:1.5;color:var(--gris);margin-bottom:9px}
+.acc{display:flex;gap:14px;flex-wrap:wrap;margin-top:6px}
+.acc .boton{margin-top:26px}
+.envio{margin-top:26px;border-top:1px solid var(--tinta);padding-top:24px}
+.envio .eh{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris);margin-bottom:18px}
+.envio label{display:block;margin-bottom:20px}
+.envio label span{display:block;font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--gris2);margin-bottom:8px}
+.envio select,.envio textarea{width:100%;font:inherit;font-size:18px;line-height:1.45;color:inherit;
+  background:var(--papel2);border:1px solid var(--tiza);padding:12px 14px;border-radius:0}
+.envio textarea{min-height:78px;resize:vertical}
+.envio select:focus,.envio textarea:focus{outline:none;border-color:var(--tinta)}
+.envio .fila{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+.envio .nota{font-family:var(--edit);font-style:italic;font-size:15px;color:var(--gris2);margin:4px 0 0}
+.envio .aviso{font-size:16px;color:var(--gris);margin-top:14px}
+.envio .aviso.mal{color:var(--rojo)}
+@media (max-width:720px){.envio .fila{grid-template-columns:1fr}}
+
 .vacio{padding:60px 0;font-family:var(--edit);font-style:italic;font-size:19px;color:var(--gris2)}
 .vista{display:none}.vista.on{display:block}
 .topmov{display:none}
@@ -553,10 +579,11 @@ function verDetalle(t){
 }
 
 /* ---------------- PROGRAMA ---------------- */
-function ac(n,pre,tit,cuenta,cuerpo){
+function ac(n,pre,tit,cuenta,cuerpo,est){
+  var sello = est ? '<span class="est'+(est==='falta'||est==='propuesta'?' falta':'')+'">'+esc(ESTL[est]||est)+'</span>' : '';
   return '<details class="ac"><summary><span class="an num">'+(n||'')+'</span>'+
     '<span class="at">'+(pre?'<small>'+esc(pre)+'</small>':'')+'<b>'+esc(tit)+'</b></span>'+
-    '<span class="c">'+(cuenta!=null?cuenta:'')+'</span><span class="mas"></span></summary>'+
+    '<span class="c">'+(sello||(cuenta!=null?cuenta:''))+'</span><span class="mas"></span></summary>'+
     '<div class="cuerpo">'+cuerpo+'</div></details>';
 }
 function capas(i){
@@ -592,30 +619,162 @@ function vPrograma(){
 /* ---------------- MATERIAL ---------------- */
 function vMaterial(){
   var tot=D.modulos.reduce(function(a,m){return a+m.items.length},0);
-  var h='<div class="hoja">'+encab('La biblioteca','Todo lo que está escrito','',
-    'La oferta, los documentos<br>los contratos y los procesos');
-  h+='<h2 class="bl">Las familias</h2><div>';
+  var esc_=D.modulos.reduce(function(a,m){return a+m.items.filter(function(i){return i.e==='existe'||i.e==='escrito'}).length},0);
+  var par=D.modulos.reduce(function(a,m){return a+m.items.filter(function(i){return i.e==='parcial'}).length},0);
+  var fal=tot-esc_-par;
+  var h='<div class="hoja">'+encab('El material','El mapa de cartas',
+    'Cada carta es un módulo: qué resuelve, cuándo se asigna, los pasos, qué hay que completar y qué herramientas implementar. Se abre, se lee y se manda.',
+    'Cáscara diseña<br>el founder ejecuta');
+  h+='<div class="banda">'+
+    '<div><b class="num">'+tot+'</b><span>Cartas</span></div>'+
+    '<div><b class="num">'+esc_+'</b><span>Escritas</span></div>'+
+    '<div><b class="num">'+par+'</b><span>En criterio</span></div>'+
+    '<div><b class="num'+(fal?' alerta':'')+'">'+fal+'</b><span>Por escribir</span></div>'+
+    '</div>';
+  h+='<div class="barra"><div class="busca"><input id="bcarta" placeholder="Buscar una carta" value="'+esc(bcarta)+'"></div>'+
+     '<div class="filtros" id="fejes">'+
+     ['todas','oferta','contenido','demanda','venta','entrega'].map(function(x){
+        return '<button data-e="'+x+'" aria-pressed="'+(feje===x||(x==='todas'&&!feje))+'">'+(x==='todas'?'Todas':x)+'</button>'}).join('')+
+     '</div></div>';
+  h+='<div id="mapa"></div>';
+  h+='<h2 class="bl">El archivo del equipo <em>lo que existe escrito, fuera de las cartas</em></h2><div>';
   D.bloques.forEach(function(b){
     var cu=''; b.piezas.forEach(function(p){
       cu+='<div class="pieza"><div class="ph"><b>'+esc(p.t)+'</b>'+
         (p.e?'<span class="est'+(p.e==='falta escribir'?' falta':'')+'">'+esc(p.e)+'</span>':'')+'</div>'+
         '<p>'+esc(p.q)+'</p>'+(p.u?'<a class="boton" style="margin-top:14px;padding:10px 15px;font-size:10px" href="'+esc(p.u)+'">Abrir<span class="fl"></span></a>':'')+'</div>';});
     h+=ac('','',b.n,b.piezas.length,cu);});
-  var nmod=D.modulos.reduce(function(a,m){return a+m.items.length},0);
-  h+='</div><h2 class="bl">Los módulos <em>'+nmod+', cada uno con sus pasos, qué completar y qué herramientas</em></h2><div>';
-  D.modulos.forEach(function(m){
-    var cu = m.porque?'<p>'+esc(m.porque)+'</p>':'';
-    m.items.forEach(function(i){
-      cu+='<div class="pieza"><div class="ph"><b>'+esc(i.t)+'</b>'+
-        (i.e?'<span class="est'+(i.e==='falta'?' falta':'')+'">'+esc(i.e)+'</span>':'')+'</div><p>'+esc(i.x)+'</p>'+
-        (i.q?'<p class="pq">'+esc(i.q)+'</p>':'')+capas(i)+'</div>';});
-    h+=ac('',m.c,m.c,m.items.length,cu);});
   h+='</div><h2 class="bl">Decisiones tomadas <em>'+D.decisiones.length+'</em></h2><div>';
   D.decisiones.forEach(function(d,i){h+=ac(('0'+(i+1)).slice(-2),'',d.t,null,'<p>'+esc(d.x)+'</p>')});
   h+='</div><h2 class="bl">Lo que falta decidir o escribir <em>'+D.falta.length+'</em></h2><ul class="check">';
   D.falta.forEach(function(f){h+='<li><span>'+esc(f)+'</span></li>'});
   h+='</ul><a class="boton" href="materiales.html">Versión larga<span class="fl"></span></a></div>';
   $('#v-material').innerHTML=h;
+  pintaMapa();
+  $('#bcarta').addEventListener('input',function(e){bcarta=e.target.value;pintaMapa()});
+  $('#fejes').addEventListener('click',function(e){
+    var b=e.target.closest('button'); if(!b)return;
+    feje = b.dataset.e==='todas'?null:b.dataset.e;
+    document.querySelectorAll('#fejes button').forEach(function(x){
+      x.setAttribute('aria-pressed',String(x.dataset.e===(feje||'todas')))});
+    pintaMapa();});
+}
+
+/* ---- el mapa de cartas ---- */
+var bcarta='',feje=null;
+var ESTL={existe:'escrita',escrito:'escrita',parcial:'en criterio',falta:'por escribir',propuesta:'propuesta'};
+function pintaMapa(){
+  var t=bcarta.trim().toLowerCase(), h='', n=0;
+  D.modulos.forEach(function(m){
+    var items=m.items.filter(function(i){
+      if(feje && (i.ej||[]).indexOf(feje)<0) return false;
+      if(t && (i.t+' '+i.x+' '+i.q).toLowerCase().indexOf(t)<0) return false;
+      return true;});
+    if(!items.length) return;
+    n+=items.length;
+    h+='<h2 class="bl">'+esc(m.c)+' <em>'+items.length+(items.length===1?' carta':' cartas')+'</em></h2>';
+    if(m.porque) h+='<p class="porque">'+esc(m.porque)+'</p>';
+    h+='<div>'+items.map(carta).join('')+'</div>';});
+  $('#mapa').innerHTML = n? h : '<p class="vacio">Ninguna carta con ese filtro.</p>';
+}
+function carta(i){
+  var cu='<p class="res">'+esc(i.x)+'</p>'+
+    (i.q?'<div class="cbl"><span class="ct">Cuándo se usa</span><p>'+esc(i.q)+'</p></div>':'')+
+    lista('Los pasos',i.p,'ol')+lista('Qué hay que completar',i.cc,'ul')+lista('Qué herramientas implementar',i.hh,'ul')+
+    '<div class="acc">'+
+      '<a class="boton tinta" href="cartas/'+esc(i.id)+'.html" target="_blank" rel="noopener">Abrir la carta<span class="fl"></span></a>'+
+      '<button class="boton" onclick="abrirEnvio(\''+esc(i.id)+'\')">Preparar el envío<span class="fl"></span></button>'+
+    '</div>'+
+    '<div class="envio" id="env-'+esc(i.id)+'" hidden></div>';
+  return ac('',null,i.t,null,cu,i.e);
+}
+function lista(t,xs,tag){
+  if(!xs||!xs.length) return '';
+  return '<div class="cbl"><span class="ct">'+t+'</span><'+tag+'>'+
+    xs.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</'+tag+'></div>';
+}
+
+/* ---------------- preparar el envío de una carta ---------------- */
+function kEnvio(id,slug){return 'cf-env-'+id+'-'+(slug||'')}
+function leerEnvio(id,slug){
+  try{ return JSON.parse(localStorage.getItem(kEnvio(id,slug))||'{}') }catch(e){ return {} }
+}
+function guardarEnvio(id,slug,v){
+  try{ localStorage.setItem(kEnvio(id,slug),JSON.stringify(v)) }catch(e){}
+}
+function abrirEnvio(id){
+  var caja=$('#env-'+id); if(!caja) return;
+  if(!caja.hidden){ caja.hidden=true; return; }
+  var ops=C.slice().sort(function(a,b){return a.nombre.localeCompare(b.nombre)})
+    .map(function(c){return '<option value="'+esc(c.slug)+'">'+esc(c.nombre)+'</option>'}).join('');
+  caja.innerHTML=
+    '<div class="eh">Preparar el envío</div>'+
+    '<label><span>Para quién</span><select data-f="founder"><option value="">Elegí un founder</option>'+ops+'</select></label>'+
+    '<div class="fila">'+
+      '<label><span>Por qué le toca ahora</span><textarea data-f="porque" placeholder="Qué viste en su caso que hace que esta carta sea la que sigue."></textarea></label>'+
+      '<label><span>El objetivo concreto</span><textarea data-f="objetivo" placeholder="Qué tiene que quedar hecho, con número y con fecha si corresponde."></textarea></label>'+
+    '</div>'+
+    '<label><span>Con qué cabeza encararla</span><textarea data-f="mindset" placeholder="El mindset con el que la tiene que agarrar: qué priorizar, qué soltar, qué esperar."></textarea></label>'+
+    '<p class="nota">La carta del módulo se manda igual para todos. Esto se le suma adelante, escrito para él.</p>'+
+    '<div class="acc"><button class="boton tinta" data-f="bajar">Descargar la carta<span class="fl"></span></button></div>'+
+    '<p class="aviso" data-f="aviso" hidden></p>';
+  caja.hidden=false;
+  var sel=caja.querySelector('[data-f="founder"]');
+  var campos=['porque','objetivo','mindset'];
+  function cargar(){
+    var v=leerEnvio(id,sel.value);
+    campos.forEach(function(k){caja.querySelector('[data-f="'+k+'"]').value=v[k]||''});
+  }
+  sel.addEventListener('change',cargar);
+  caja.addEventListener('input',function(e){
+    if(!e.target.dataset.f||e.target.dataset.f==='founder')return;
+    var v={}; campos.forEach(function(k){v[k]=caja.querySelector('[data-f="'+k+'"]').value});
+    guardarEnvio(id,sel.value,v);});
+  caja.querySelector('[data-f="bajar"]').addEventListener('click',function(){bajarCarta(id,caja,sel)});
+  cargar();
+}
+function avisar(caja,txt,mal){
+  var a=caja.querySelector('[data-f="aviso"]');
+  a.textContent=txt; a.hidden=!txt; a.className='aviso'+(mal?' mal':'');
+}
+async function bajarCarta(id,caja,sel){
+  var slug=sel.value;
+  var nombre=slug?nombreDe(slug):'';
+  var v={}; ['porque','objetivo','mindset'].forEach(function(k){v[k]=caja.querySelector('[data-f="'+k+'"]').value.trim()});
+  var hay=v.porque||v.objetivo||v.mindset;
+  avisar(caja,'Armando la carta…');
+  var html;
+  try{ var r=await fetch('cartas/'+id+'.html'); if(!r.ok) throw 0; html=await r.text(); }
+  catch(e){ avisar(caja,'No pude leer la carta. Abrila con el botón de arriba y guardala desde el navegador.',true); return; }
+  if(hay){
+    var doc=new DOMParser().parseFromString(html,'text/html');
+    var tpl=doc.querySelector('#tpl-bajada');
+    if(tpl){
+      var nodo=tpl.content.firstElementChild.cloneNode(true);
+      nodo.querySelector('[data-b="titulo"]').textContent = nombre? ('Por qué esta carta, '+nombre.split(' ')[0]) : 'Por qué esta carta';
+      var vivas=0;
+      ['porque','objetivo','mindset'].forEach(function(k){
+        var fila=nodo.querySelector('[data-b="fila-'+k+'"]');
+        if(v[k]){ nodo.querySelector('[data-b="'+k+'"]').textContent=v[k]; vivas++; }
+        else fila.remove();});
+      nodo.querySelector('[data-b="grilla"]').style.gridTemplateColumns='repeat('+vivas+',minmax(0,1fr))';
+      var deck=doc.querySelector('#deck')||doc.body;
+      var primera=deck.querySelector('.slot');
+      if(primera&&primera.nextSibling) deck.insertBefore(nodo,primera.nextSibling); else deck.appendChild(nodo);
+      tpl.remove();
+      if(nombre){ var t=doc.querySelector('title'); if(t) t.textContent=t.textContent+' · '+nombre; }
+      html='<!doctype html>\n'+doc.documentElement.outerHTML;
+    }
+  }
+  var arch='carta-'+id+(slug?'-'+slug:'')+'.html';
+  var dl=null;
+  try{ dl=await claude.use('downloads'); }catch(e){}
+  if(!dl){ avisar(caja,'Acá no puedo bajarte el archivo. Abrí la carta con el botón de arriba y guardala desde el navegador.',true); return; }
+  try{ await dl.save({filename:arch,data:html}); avisar(caja,'Listo, la carta quedó descargada como '+arch+'.'); }
+  catch(e){
+    var c=(e&&e.code)||'';
+    avisar(caja, c==='declined' ? 'Cancelaste la descarga.' : 'No se pudo descargar la carta.', c!=='declined');
+  }
 }
 
 /* ---------------- router ---------------- */
@@ -659,6 +818,8 @@ if(location.hash.indexOf('#c/')===0) abrir(location.hash.slice(3));
 else if(location.hash&&TIT[location.hash.slice(1)]) ir(location.hash.slice(1));
 '''
 
+FECHA = json.loads(J)["fecha"]
+
 NAV="".join(
  '<button role="tab" data-t="%s" aria-selected="%s"><span class="n num">%s</span><span class="t">%s</span></button>'
  % (k, "true" if i==0 else "false", "0%d"%(i+1), n)
@@ -668,7 +829,7 @@ BODY = f'''<aside class="riel">
   <div class="marca"><span class="sello-f" aria-hidden="true">F</span><span class="txt"><b>Cáscara Founders</b><span>Torre de control</span></span></div>
   <nav role="tablist" aria-label="Secciones">{NAV}</nav>
   <button class="plegar" id="plegar" aria-label="Esconder el menú" title="Esconder el menú"><i></i></button>
-  <div class="pie"><div class="f">{ "12 SEP 2026" }</div>
+  <div class="pie"><div class="f">{FECHA}</div>
     <div class="s">Se actualiza solo todas las mañanas con lo que salió de las llamadas del día anterior.</div></div>
 </aside>
 

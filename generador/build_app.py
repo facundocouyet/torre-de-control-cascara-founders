@@ -19,7 +19,7 @@ for g in glob.glob('/home/claude/founders/fichas/*.json'):
 QP['qualita']=[{'cuando':'20 de agosto de 2026'}]
 QP['cecilia-belotti']=[{'cuando':'2 de septiembre de 2026'}]
 
-FECHA="13 SEP 2026"
+FECHA="14 SEP 2026"
 EJES=[("oferta","Oferta"),("contenido","Contenido"),("demanda","Demanda"),("venta","Venta"),("entrega","Entrega")]
 DUENOS=["Facu","Franco","Teo","Juana","Fede"]
 RITMO={"verde":"al día","amarillo":"a los tirones","rojo":"frenado"}
@@ -83,10 +83,11 @@ DATA={"fecha":FECHA,"ejes":[n for _,n in EJES],
  "bloques":[{"n":b['nombre'],"piezas":[{"t":p['titulo'],"q":p['que_es'],"e":p.get('estado',''),
              "f":p.get('formatos',[]),"u":p.get('url','')} for p in b['piezas']]} for b in mat['bloques']],
  "modulos":[{"c":c['nombre'],"porque":c.get('porque',''),
-     "items":[{"t":i['nombre'],"x":i['resultado'],"e":i.get('estado',''),
-               "q":i.get('para_quien',''),
+     "items":[{"id":i['id'],"t":i['nombre'],"x":i['resultado'],"e":i.get('estado',''),
+               "q":i.get('para_quien',''),"ej":i.get('eje',[]),
                "p":i.get('pasos',[]),"cc":i.get('completar',[]),"hh":i.get('herramientas',[])}
               for i in c['modulos']]} for c in inv['categorias']],
+ "orden_cartas":inv.get('orden_sugerido',[]),
  "decisiones":[{"t":x['titulo'],"x":x['texto']} for x in mat['decisiones']],
  "falta":mat['falta']}
 J=json.dumps(DATA,ensure_ascii=False,separators=(',',':'))
