@@ -314,6 +314,23 @@ h2.bl em{font-style:italic;font-family:var(--edit);text-transform:none;letter-sp
   color:var(--gris2);font-weight:400;margin-bottom:3px}
 .duen .mas{font-family:var(--edit);font-style:italic;font-size:14.5px;color:var(--gris2)}
 
+/* ---------- el visor de cartas ---------- */
+#visor{position:fixed;inset:0;z-index:60;background:var(--papel);display:flex;flex-direction:column}
+#visor .vbar{display:flex;align-items:center;gap:18px;padding:14px 22px;background:#0A0A0C;color:#FBFAF8;
+  border-bottom:1px solid rgba(236,234,228,.14)}
+#visor .vbar *{color:inherit}
+#visor .vsello{flex:0 0 auto;width:26px;height:26px;border:1.5px solid #FBFAF8;display:flex;
+  align-items:center;justify-content:center;font-size:15px;font-weight:800;letter-spacing:-.04em;line-height:1}
+#visor .vtit{flex:1;min-width:0;font-size:16px;font-weight:700;letter-spacing:-.02em;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#visor .vbar a,#visor .vbar button{font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+  color:rgba(236,234,228,.62);padding:8px 12px;border:1px solid rgba(236,234,228,.22);white-space:nowrap}
+#visor .vbar a:hover,#visor .vbar button:hover{color:#FBFAF8;border-color:#FBFAF8}
+#visor iframe{flex:1;width:100%;border:0;background:var(--papel)}
+body.viendo{overflow:hidden}
+@media (max-width:720px){#visor .vbar{padding:10px 14px;gap:10px} #visor .vtit{font-size:14px}
+  #visor .vbar a,#visor .vbar button{padding:7px 9px;letter-spacing:.12em}}
+
 /* ---------- el mapa de cartas ---------- */
 .porque{font-size:19px;line-height:1.5;color:var(--gris);max-width:60ch;margin:16px 0 6px}
 .ac .cuerpo .res{font-size:22px;line-height:1.45;color:var(--tinta);margin:0 0 4px;max-width:56ch}
@@ -682,7 +699,7 @@ function carta(i){
     (i.q?'<div class="cbl"><span class="ct">Cuándo se usa</span><p>'+esc(i.q)+'</p></div>':'')+
     lista('Los pasos',i.p,'ol')+lista('Qué hay que completar',i.cc,'ul')+lista('Qué herramientas implementar',i.hh,'ul')+
     '<div class="acc">'+
-      '<a class="boton tinta" href="cartas/'+esc(i.id)+'.html" target="_blank" rel="noopener">Abrir la carta<span class="fl"></span></a>'+
+      '<button class="boton tinta" onclick="verCarta(\''+esc(i.id)+'\',\''+esc(i.t).replace(/'/g,"&#39;")+'\')">Abrir la carta<span class="fl"></span></button>'+
       '<button class="boton" onclick="abrirEnvio(\''+esc(i.id)+'\')">Preparar el envío<span class="fl"></span></button>'+
     '</div>'+
     '<div class="envio" id="env-'+esc(i.id)+'" hidden></div>';
@@ -692,6 +709,34 @@ function lista(t,xs,tag){
   if(!xs||!xs.length) return '';
   return '<div class="cbl"><span class="ct">'+t+'</span><'+tag+'>'+
     xs.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</'+tag+'></div>';
+}
+
+/* ---------------- el visor de cartas ---------------- */
+function verCarta(id,titulo){
+  var v=$('#visor');
+  v.querySelector('.vtit').textContent=titulo||'';
+  v.querySelector('.vbaja').onclick=function(){guardarCarta(id,titulo)};
+  v.querySelector('iframe').src='cartas/'+id+'.html';
+  v.hidden=false; document.body.classList.add('viendo');
+}
+async function guardarCarta(id,titulo){
+  var bt=$('#visor .vbaja'), antes=bt.textContent;
+  bt.textContent='Guardando…';
+  try{
+    var r=await fetch('cartas/'+id+'.html'); if(!r.ok) throw 0;
+    var html=await r.text();
+    var dl=null; try{ dl=await claude.use('downloads'); }catch(e){}
+    if(!dl){ bt.textContent='Acá no se puede bajar'; setTimeout(function(){bt.textContent=antes},2600); return; }
+    await dl.save({filename:'carta-'+id+'.html',data:html});
+    bt.textContent='Listo';
+  }catch(e){
+    bt.textContent=(e&&e.code==='declined')?'Cancelado':'No se pudo';
+  }
+  setTimeout(function(){bt.textContent=antes},2600);
+}
+function cerrarCarta(){
+  var v=$('#visor'); v.hidden=true; v.querySelector('iframe').src='about:blank';
+  document.body.classList.remove('viendo');
 }
 
 /* ---------------- preparar el envío de una carta ---------------- */
@@ -807,6 +852,7 @@ window.addEventListener('hashchange',function(){
   if(document.body.classList.contains('detalle')) ir(TIT[hs]?hs:tab);});
 /* teclado: flechas para moverse entre clientes, escape para volver */
 document.addEventListener('keydown',function(e){
+  if(e.key==='Escape'&&!$('#visor').hidden){e.preventDefault();cerrarCarta();return}
   if(!document.body.classList.contains('detalle')) return;
   var t=e.target.tagName; if(t==='INPUT'||t==='TEXTAREA') return;
   if(e.key==='ArrowRight'){e.preventDefault();saltar(1)}
@@ -843,7 +889,17 @@ BODY = f'''<aside class="riel">
   <div class="vista" id="v-programa"></div>
   <div class="vista" id="v-material"></div>
   <div class="vista" id="v-detalle"></div>
-</main>'''
+</main>
+
+<div id="visor" hidden>
+  <div class="vbar">
+    <span class="vsello" aria-hidden="true">F</span>
+    <span class="vtit"></span>
+    <button class="vbaja">Guardar</button>
+    <button onclick="cerrarCarta()">Cerrar</button>
+  </div>
+  <iframe title="La carta" src="about:blank"></iframe>
+</div>'''
 
 HTML = ('<!doctype html>\n<html lang="es"><head>\n<meta charset="utf-8">\n'
  '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
