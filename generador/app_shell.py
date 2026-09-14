@@ -53,7 +53,7 @@ a{color:inherit;text-decoration:none}
   transition:width .18s ease}
 .riel *{color:inherit}
 .riel .marca{padding:0 22px 28px;border-bottom:1px solid rgba(236,234,228,.14);
-  display:flex;align-items:center;gap:14px}
+  display:flex;align-items:center;gap:14px;position:relative}
 /* el sello: la caja de radio 0 con la F de Founders, el mismo motivo que la etiqueta de los documentos */
 .riel .marca .sello-f{flex:0 0 auto;width:34px;height:34px;border:1.5px solid var(--papel2);
   display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:800;
@@ -75,8 +75,8 @@ a{color:inherit;text-decoration:none}
   height:22px;background:#FBFAF8;margin-top:2px}
 .riel nav button{position:relative}
 
-/* plegar el riel */
-.plegar{position:absolute;top:24px;right:-13px;width:26px;height:26px;background:#0A0A0C;
+/* plegar el riel: el botón vive en el bloque del logo y se centra con él, abierto o plegado */
+.plegar{position:absolute;top:calc((100% - 28px) / 2 - 13px);right:-13px;width:26px;height:26px;background:#0A0A0C;
   border:1px solid #2A2A30;display:flex;align-items:center;justify-content:center;z-index:2}
 .plegar i{width:7px;height:7px;border-left:1.5px solid #FBFAF8;border-bottom:1.5px solid #FBFAF8;
   transform:rotate(45deg);margin-left:3px;transition:transform .18s}
@@ -85,6 +85,7 @@ body.plegado .riel{width:58px}
 body.plegado .riel .marca .txt,body.plegado .riel nav button .t{display:none}
 /* plegado, el sello se corre a la izquierda para dejarle lugar al botón, que no se mueve */
 body.plegado .riel .marca{padding:0 0 22px 8px;justify-content:flex-start;gap:0}
+body.plegado .plegar{top:calc((100% - 22px) / 2 - 13px)}
 body.plegado .riel nav button{grid-template-columns:1fr;justify-items:center;padding:16px 0}
 body.plegado .plegar i{transform:rotate(-135deg);margin-left:0;margin-right:3px}
 /* al esconder la barra, el contenido queda centrado en la pantalla entera:
@@ -700,9 +701,9 @@ NAV="".join(
  for i,(k,n) in enumerate([('hoy','Hoy'),('clientes','Clientes'),('programa','Programa'),('material','Material')]))
 
 BODY = f'''<aside class="riel">
-  <div class="marca"><span class="sello-f" aria-hidden="true">F</span><span class="txt"><b>Cáscara Founders</b><span>Torre de control</span></span></div>
+  <div class="marca"><span class="sello-f" aria-hidden="true">F</span><span class="txt"><b>Cáscara Founders</b><span>Torre de control</span></span>
+    <button class="plegar" id="plegar" aria-label="Esconder el menú" title="Esconder el menú"><i></i></button></div>
   <nav role="tablist" aria-label="Secciones">{NAV}</nav>
-  <button class="plegar" id="plegar" aria-label="Esconder el menú" title="Esconder el menú"><i></i></button>
 </aside>
 
 <main>
