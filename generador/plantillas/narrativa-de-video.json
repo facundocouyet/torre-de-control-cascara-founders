@@ -1,0 +1,56 @@
+{
+ "modulo": "narrativa-de-video",
+ "titulo": "La hoja del video propio",
+ "bajada": "Un video largo tuyo publicado con el proceso completo encima: la narrativa en cinco tramos, el brief con los planos, la grabación con condiciones fijas, la campaña alrededor y la lectura de números a los siete días.",
+ "lista_cuando": "El video largo está publicado en tu canal, los recortes salieron, y a los siete días tenés escrito cuántas conversaciones abrió y si el formato se repite.",
+ "secciones": [
+  {"titulo": "El tema y la fecha",
+   "consigna": "Empezá por la fecha, porque es lo que hace que el video exista. Elegí un tema del que ya tengas material propio y poné día de grabación y día de publicación con la palabra escrita, no un mes entero. Si algo se interpone, la fecha se corre una sola vez y se avisa.",
+   "ejemplo": {"quien": "Andrea Saturno", "texto": "Las Bonfire Sessions tienen formato, tienen cambios encima y tienen el marco de narrativa para producirlas. Lo que nunca hubo es un día en el calendario, y mientras no hay fecha no hay nada que medir."},
+   "campo": "lineas",
+   "lineas": ["El tema en una frase", "A quién le habla", "Día de grabación", "Día de publicación", "Dónde se publica"]},
+
+  {"titulo": "La narrativa en cinco tramos",
+   "consigna": "Los cinco tramos son cultura, oportunidad, prueba, producto y llamado a la acción, en ese orden. Escribí qué se dice en cada uno y cuántos minutos ocupa, y que la suma dé el largo real que vas a grabar. El tramo de prueba va en el medio y es el más largo: es el que hace que lo anterior se sostenga.",
+   "ejemplo": {"quien": "Nicolás Lozada", "texto": "Publicó el video largo de su historia y de ahí salieron ocho recortes, un carrusel y el breakdown. Las dos piezas que multiplicaron sus números cuentan experiencia vivida: los diez días encerrado en la oficina y la de subir los precios."},
+   "campo": "tabla",
+   "columnas": ["Tramo", "Qué se dice", "Cuántos minutos"],
+   "filas": 5},
+
+  {"titulo": "La prueba que sostiene el video",
+   "consigna": "Escribí el hecho o el número que sostiene lo que decís, y cómo va a entrar en pantalla: una captura, un cuadro comparado, un cliente contándolo. Tiene que ser algo que hiciste vos y que se pueda mostrar. Sin eso en pantalla, el video queda dependiendo de lo bien que hables ese día.",
+   "ejemplo": {"quien": "Lucca Sorgoni", "texto": "Cobra el diez por ciento del bruto y compara la facturación mes contra mes con un software. Ese cuadro en pantalla es la prueba del video de B2B, y hoy no hay ninguna pieza publicada que lo muestre."},
+   "campo": "texto", "alto": 3,
+   "placeholder": "La prueba es… y en pantalla se ve así…"},
+
+  {"titulo": "El brief de escenas y planos",
+   "consigna": "Una fila por escena, con qué pasa, los tres planos que se graban y dónde. Tres planos por escena: general, medio y detalle. La escena que queda con un solo plano no se puede cortar en la edición, así que se completa antes de ir a grabar. Este brief es el que le pasás a quien graba y a quien edita.",
+   "campo": "tabla",
+   "columnas": ["Escena", "Qué pasa", "Los tres planos", "Dónde se graba"],
+   "filas": 8},
+
+  {"titulo": "Las condiciones de grabación",
+   "consigna": "Se graba a la mañana y con luz lateral, siempre igual, para que las piezas de distintos días se parezcan entre sí. Definí quién sostiene la cámara, quién te hace las preguntas y cuánto dura la jornada, con hora de arranque y de cierre. Hablar contestando preguntas de alguien sale mejor que hablarle a un guion.",
+   "ejemplo": {"quien": "Lola Berutti", "texto": "El criterio que le bajó Facu fue sacarle el guion de encima: un video horizontal de quince o veinte minutos contestando cuatro o cinco preguntas sobre su recorrido, en un lugar real y con alguien enfrente preguntando. Dos semanas después el primer video estaba arriba y dijo que ya no le pesa grabar."},
+   "campo": "lineas",
+   "lineas": ["Hora de arranque", "De dónde entra la luz", "Quién graba", "Quién hace las preguntas", "Cuánto dura la jornada"]},
+
+  {"titulo": "El nivel de edición",
+   "consigna": "Definilo antes de grabar y escribilo con números: cuántas horas de edición lleva el largo, cuántos días pasan entre grabar y publicar, y quién edita. El nivel uno es clipeo, subtítulos y color, y con eso la pieza sale la misma semana. Cuando la edición empuja la publicación más de siete días, el nivel baja.",
+   "ejemplo": {"quien": "Sharon Palacio", "texto": "Dejó el podcast porque quería grabarlo con b-rolls encima y el material nunca salió. El nivel de edición fue lo que frenó la publicación, con la editora esperando material que no llegaba."},
+   "campo": "texto", "alto": 3,
+   "placeholder": "Nivel…, horas de edición…, sale el día…, edita…"},
+
+  {"titulo": "La campaña alrededor del largo",
+   "consigna": "El largo solo no se ve: hay que darle motivo a la gente para entrar. Armá como mínimo seis piezas alrededor, con historias antes que cuenten que se está grabando y por qué conviene verlo, recortes después, y un carrusel de detrás de escena. Cada pieza lleva fecha y dice adónde manda a la persona.",
+   "campo": "tabla",
+   "columnas": ["Pieza", "Cuándo sale", "Qué hace", "Adónde manda"],
+   "filas": 8},
+
+  {"titulo": "Publicalo y leelo a los siete días",
+   "consigna": "Publicá el largo el día que pusiste y a los siete días completá estas líneas con los números en la mano. La lectura se hace por conversaciones abiertas y llamadas: las vistas son el contexto. Si el formato se repite, la fecha del próximo se escribe en la última línea el mismo día que hacés esta lectura.",
+   "ejemplo": {"quien": "Sebastián Martínez", "texto": "El reel del miedo a grabarse en público hizo un millón cuatrocientas mil vistas, y lo que lo hizo valer fueron los mil ochocientos comentarios de gente diciendo que era el empujón que necesitaba, más los siete mil seguidores nuevos con los que después se abren conversaciones."},
+   "campo": "lineas",
+   "lineas": ["Vistas del largo", "Cuántos lo vieron hasta la mitad", "Conversaciones que abrió", "Llamadas o ventas", "Fecha del próximo, si se repite"]}
+ ]
+}

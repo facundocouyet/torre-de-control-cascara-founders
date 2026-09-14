@@ -1,0 +1,55 @@
+{
+ "modulo": "sociedad-y-roles",
+ "titulo": "La hoja del acuerdo entre socios",
+ "bajada": "Una hoja con quién resuelve qué, cómo se reparte la plata, con qué aviso se sale y cuándo se revisa. Conversada con la otra parte y confirmada por escrito.",
+ "lista_cuando": "Las dos partes tienen el mismo documento a mano, con el reparto y el aviso de salida escritos, y ya tuvieron la conversación donde eso quedó dicho.",
+ "secciones": [
+  {"titulo": "Quién resuelve qué hoy, tal como pasa",
+   "consigna": "Listá los clientes y las tareas de la semana y anotá quién las resuelve hoy, con las horas reales. Escribilo como ocurre, incluso cuando la respuesta sea los dos o nadie. Si no te salen diez líneas, mirá la semana pasada en el calendario y en los chats de clientes.",
+   "ejemplo": {"quien": "Custom Lab", "texto": "Piero lleva la parte creativa y Juan la comercial y administrativa. El reparto de tareas está claro en la práctica desde que arrancaron, y nunca quedó escrito en ningún lado."},
+   "campo": "tabla",
+   "columnas": ["Cliente o tarea", "Quién lo resuelve hoy", "Horas por semana", "Quién queda a cargo desde ahora"],
+   "filas": 10},
+
+  {"titulo": "Lo que hacen los dos y lo que no hace nadie",
+   "consigna": "De la tabla de arriba, sacá las tareas donde aparecen los dos nombres y las que quedaron sin nombre. Las primeras son horas pagadas dos veces; las segundas son las que se caen todos los meses. Cada una tiene que salir de acá con un solo dueño, y el que queda afuera deja de tocarla.",
+   "ejemplo": {"quien": "Sol Boutmy", "texto": "Con Fede tienen roles casi idénticos y lo saben: las dos arman propuestas, las dos van a producir y las dos editan. Con ese calendario no queda hora para definir oferta, precio ni comunicación."},
+   "campo": "texto", "alto": 5,
+   "placeholder": "Lo hacemos los dos… lo dejamos de hacer los dos… no lo hace nadie…"},
+
+  {"titulo": "Los números de los últimos tres meses",
+   "consigna": "Qué entró, qué salió y cuánto retiró cada uno, mes por mes, sacado de las facturas y de los movimientos de la cuenta. Sin estos tres meses arriba de la mesa la conversación del reparto se discute con sensaciones. Si el registro está repartido en chats y planillas, pasalo a esta tabla antes de seguir.",
+   "campo": "tabla",
+   "columnas": ["Mes", "Qué entró", "Qué salió", "Retiro de uno", "Retiro del otro"],
+   "filas": 6},
+
+  {"titulo": "Hacia dónde va cada uno",
+   "consigna": "Escribí en dos o tres frases qué quiere construir cada uno en los próximos doce meses, con el tipo de cliente que busca cada uno. Cuando los dos destinos no caben adentro de la misma estructura, se dice acá y con esa frase se abre la conversación. Este es el punto que define si el acuerdo es de reparto o de separación.",
+   "ejemplo": {"quien": "Agostina Marchesini", "texto": "Ella apunta a clientes que la contraten por su criterio, los que quieren algo sofisticado, y su socia va hacia la neuroarquitectura. Ella lo nombró como caminos divididos después de ocho años de estudio compartido."},
+   "campo": "texto", "alto": 5,
+   "placeholder": "Yo quiero… con clientes… Mi socio quiere… con clientes…"},
+
+  {"titulo": "El reparto, el aviso y la revisión",
+   "consigna": "Un dato por línea, con números y con fechas. El aviso de salida es un plazo con días contados, treinta o sesenta, y dice qué se lleva cada uno de los clientes y de las cuentas. La revisión trimestral lleva una fecha puesta en el calendario de los dos, y la primera cae dentro de los próximos noventa días.",
+   "campo": "lineas",
+   "lineas": ["Cómo se reparte lo que entra", "Qué decide cada uno sin consultar", "Aviso para salir, en días", "Qué se lleva cada uno si se sale", "Fecha de la primera revisión"]},
+
+  {"titulo": "Los frentes desde ahora, con dueño y fecha",
+   "consigna": "Los cuatro o cinco frentes que siguen adelante, cada uno con un solo dueño, con lo que entrega y con la fecha. Responsabilidad mitad y mitad quiere decir que los dos lados tienen líneas en esta tabla. El frente sin fecha vuelve a la conversación hasta que la tenga.",
+   "ejemplo": {"quien": "Aaron Aiello", "texto": "Cami quedó a cargo de operaciones y métricas, y él de la voz y las piezas. La entrevista cruda la hacen los dos: ella pregunta sin guion y él contesta."},
+   "campo": "tabla",
+   "columnas": ["Frente", "Dueño", "Qué entrega", "Fecha"],
+   "filas": 8},
+
+  {"titulo": "La conversación de fondo",
+   "consigna": "Poné día y hora para hablarlo esta semana, en persona o en llamada, y llevá esta hoja impresa o abierta en pantalla. Entrás a informar la decisión que ya tomaste y a acordar el reparto, con los números adelante. Anotá después qué pidió cambiar la otra parte y qué quedó acordado, con las palabras que usó.",
+   "campo": "texto", "alto": 5,
+   "placeholder": "Día, hora, qué le dije, qué pidió cambiar, qué quedó acordado."},
+
+  {"titulo": "El acuerdo confirmado por escrito",
+   "consigna": "Pasá lo acordado a un documento, mandalo y esperá la respuesta que diga de acuerdo con nombre y fecha. Guardalo donde los dos entren sin pedir permiso. Mientras la confirmación de la otra parte no esté escrita, el acuerdo sigue siendo una charla.",
+   "ejemplo": {"quien": "Cáscara", "texto": "En los contratos cada obligación lleva dueño y fecha de los dos lados, y lo que queda afuera se escribe igual de claro que lo que entra. Eso es lo que evita la mitad de los problemas."},
+   "campo": "texto", "alto": 3,
+   "placeholder": "Dónde quedó guardado, quién confirmó y en qué fecha."}
+ ]
+}

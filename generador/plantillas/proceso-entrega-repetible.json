@@ -1,0 +1,56 @@
+{
+ "modulo": "proceso-entrega-repetible",
+ "titulo": "La hoja del proceso de entrega",
+ "bajada": "El trabajo escrito etapa por etapa, con las horas reales de cada una, el responsable de cada entregable y el número de clientes que entran con el equipo de hoy.",
+ "lista_cuando": "Un cliente nuevo se entrega siguiendo el documento y nadie te pregunta qué sigue.",
+ "secciones": [
+  {"titulo": "Lo que estás entregando hoy, cliente por cliente",
+   "consigna": "Una fila por cliente activo, con lo que le prometiste, en qué estado está y qué parte se resuelve sobre la marcha cada semana. La última columna es la que importa: eso es el proceso que todavía no está escrito. Si son menos de tres clientes, sumá los dos últimos que terminaste.",
+   "ejemplo": {"quien": "Matías Morales", "texto": "Tiene dos ventas cerradas al doble del precio anterior y la entrega salió de memoria: sin onboarding, sin hitos y sin fechas de entregable."},
+   "campo": "tabla",
+   "columnas": ["Cliente", "Qué se prometió", "En qué estado está", "Qué se resuelve sobre la marcha"],
+   "filas": 8},
+
+  {"titulo": "Las horas reales de cada etapa",
+   "consigna": "Medí una semana con el reloj y anotá el día, contando tus propias horas al mismo precio que las del resto del equipo. La estimación de memoria da siempre alrededor de la mitad de lo que es. Si una etapa se lleva más del treinta por ciento del total, ahí está el cuello de la entrega.",
+   "ejemplo": {"quien": "Sol Boutmy", "texto": "Producen mucho y no lo tienen contabilizado: en la llamada se estimaron unos treinta reels por semana y quedó sin confirmar. Sin ese número no se sabe cuánto cuesta cada cliente."},
+   "campo": "tabla",
+   "columnas": ["Etapa", "Quién la hace", "Horas por cliente", "Cuántas de esas son tuyas"],
+   "filas": 8},
+
+  {"titulo": "El proceso paso por paso",
+   "consigna": "Escribí el trabajo en el orden en que ocurre, con el entregable que queda al final de cada paso y el nombre de quien lo hace. Un paso sin entregable que se pueda mostrar se junta con el siguiente. El documento se escribe para que lo pueda seguir alguien que entró ayer.",
+   "campo": "tabla",
+   "columnas": ["Paso", "Qué queda hecho", "Responsable", "Plazo"],
+   "filas": 10},
+
+  {"titulo": "Las decisiones que hoy pasan por vos",
+   "consigna": "Anotá qué decisiones tomás solamente vos durante la entrega y con qué criterio las tomás: qué se aprueba, qué se rehace, qué se le contesta al cliente cuando pide un cambio. El criterio escrito es lo que después permite delegar. Cada uno entra en dos líneas.",
+   "ejemplo": {"quien": "Sharon Palacio", "texto": "Deja tarjetas con objetivo, formato y referencias, y el cliente guiona sobre eso. El criterio vive en la tarjeta, y por eso puede llevar cuatro cuentas a la vez."},
+   "campo": "texto", "alto": 5,
+   "placeholder": "Cuando el cliente pide…, la regla es…"},
+
+  {"titulo": "Cuántos clientes entran con el equipo de hoy",
+   "consigna": "Dividí las horas disponibles del equipo por las horas que lleva un cliente y escribí el número. Ese número es el tope hasta que entre alguien más, y conviene decirlo en voz alta antes de vender el que sobra. Si el tope ya está pasado, la decisión de esta semana es contratar o frenar la entrada.",
+   "ejemplo": {"quien": "Sofía Galvis", "texto": "El sistema de noventa días funciona y la tiene adentro de cada cuenta: a cinco clientes necesita mano derecha y a diez, un equipo. Por eso frenó la entrada de clientes nuevos hasta ordenar la estructura."},
+   "campo": "lineas",
+   "lineas": ["Horas por cliente al mes", "Horas disponibles del equipo", "Clientes que entran hoy", "Clientes activos ahora", "Qué se hace con la diferencia"]},
+
+  {"titulo": "El cliente de prueba",
+   "consigna": "Elegí un cliente activo y entregale el próximo mes siguiendo el documento a la letra, sin arreglar nada por afuera. Cada vez que tengas que salirte del proceso, anotá la fecha y el motivo. Cada salida anotada es una línea que le falta al documento.",
+   "campo": "texto", "alto": 4,
+   "placeholder": "Cliente elegido: … Me salí del proceso el… porque…"},
+
+  {"titulo": "Dónde vive el proceso y quién lo mira",
+   "consigna": "El documento vive donde el equipo ya trabaja todos los días, con los estados del trabajo a la vista y un responsable por tarjeta. Poné una revisión con día fijo al mes para corregirlo con lo que pasó. Un proceso guardado en una carpeta que nadie abre vuelve a ser memoria en dos semanas.",
+   "ejemplo": {"quien": "Cáscara", "texto": "Los calendarios y las entregas corren en Notion con los estados del template del sistema operativo: cada pieza tiene estado y responsable, y el equipo entra ahí todos los días."},
+   "campo": "lineas",
+   "lineas": ["Dónde vive", "Quién lo actualiza", "Día de la revisión mensual", "Quién entra a la revisión"]},
+
+  {"titulo": "La prueba del mes siguiente",
+   "consigna": "Entregá un mes completo con el proceso puesto y medí dos números: cuántas horas tuyas se fueron en la entrega y cuántas tareas las hizo alguien que no sos vos. Comparalos con el mes anterior. Si tus horas bajaron y la entrega salió en fecha, el proceso aguantó.",
+   "campo": "tabla",
+   "columnas": ["Mes", "Tus horas en la entrega", "Tareas hechas por otros", "Qué se rompió"],
+   "filas": 5}
+ ]
+}

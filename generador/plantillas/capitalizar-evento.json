@@ -1,0 +1,55 @@
+{
+ "modulo": "capitalizar-evento",
+ "titulo": "La hoja del evento",
+ "bajada": "Lo que queda del evento después del día: la charla publicada, la lista de los que fueron y las conversaciones abiertas. Se empieza a llenar antes del evento y se termina dentro de las 48 horas siguientes.",
+ "lista_cuando": "La charla está arriba de tu canal, cada asistente está cargado con de dónde vino y qué le interesa, y ya hablaste con todos los que dejaron el dato.",
+ "secciones": [
+  {"titulo": "Qué te llevás del evento, decidido antes",
+   "consigna": "Escribí antes del evento las tres cosas que te vas a llevar: el video de la charla, la lista de asistentes y los extractos. Al lado de cada una, quién la hace y con qué se hace. Esto se completa el día anterior, porque el evento pasa una sola vez.",
+   "ejemplo": {"quien": "Andrea", "texto": "La primera Bonfire Session tiene que quedar registrada en video y en foto. De ese registro sale la prueba para convocar la segunda, así que la grabación se define antes de la sesión."},
+   "campo": "lineas",
+   "lineas": ["Evento y fecha", "Quién graba la charla", "Con qué se graba", "Quién junta los datos", "Cuántos extractos salen"]},
+
+  {"titulo": "Cómo se pide el dato en la sala",
+   "consigna": "Definí el momento exacto en que pedís el contacto y con qué lo pedís: un código en pantalla, un papel en la mesa, un grupo de WhatsApp que se abre ahí mismo. El piso es la mitad de la sala, y se dice dos veces, al principio y al final. Si de cincuenta personas te llevás diez datos, el mecanismo se cambia para la próxima.",
+   "ejemplo": {"quien": "Sebastián", "texto": "El workshop presencial que hizo con otro creativo llevó cincuenta y cinco personas. La charla del 28 de octubre en el Hub Providencia va con registro de asistentes y con los extractos definidos de antemano."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "En qué minuto lo pido, con qué, y qué digo."},
+
+  {"titulo": "La charla completa, arriba de tu canal",
+   "consigna": "El video entero sube crudo, con corte de principio y de final, dentro de las 72 horas. Va a tu canal propio y el título dice el problema del que habla la charla. Esperar la versión con inserts es lo que deja las charlas guardadas en el disco para siempre.",
+   "campo": "lineas",
+   "lineas": ["Dónde se sube", "Título", "Fecha de subida", "Quién lo sube"]},
+
+  {"titulo": "Las piezas del mismo día",
+   "consigna": "Historias y un carrusel que salgan el mismo día y manden a ese video. Una fila por pieza, con la hora en que sale y a dónde lleva. Las que funcionan son las que cuentan lo que pasó en la sala, con la escena y la gente adentro.",
+   "ejemplo": {"quien": "Nico", "texto": "Del video largo de su historia sacó ocho recortes más un carrusel. Las dos piezas que triplicaron sus números cuentan experiencia vivida: los diez días encerrado en la oficina y subir los precios es un error."},
+   "campo": "tabla",
+   "columnas": ["Pieza", "Dónde sale", "Qué cuenta", "A dónde manda", "Hora"],
+   "filas": 6},
+
+  {"titulo": "El posteo del día siguiente, con lo que te escribieron",
+   "consigna": "Al día siguiente sale un posteo con los mensajes que recibiste, tal como los recibiste. El link se reparte desde los comentarios, con una palabra que la gente escribe para pedirlo, y así el alcance del posteo se sostiene. El mecanismo tiene que estar probado antes de publicar, porque ese es el día de más tráfico del evento.",
+   "ejemplo": {"quien": "Agostina", "texto": "Después de la charla de dieciocho minutos mucha gente le escribió por Instagram para decirle que les había gustado. ManyChat andando para repartir el link desde los comentarios es parte de su punto B de septiembre, junto con la charla arriba de YouTube."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "Qué mensajes uso, qué palabra pido en comentarios, a dónde los manda."},
+
+  {"titulo": "La base de los que fueron",
+   "consigna": "Cada asistente cargado con nombre, contacto, de dónde vino y qué le interesa. Se carga dentro de las 24 horas, mientras te acordás de las caras y de las charlas. La columna que más sirve después es qué le interesa, porque es la que te dice con qué abrís la conversación.",
+   "ejemplo": {"quien": "Custom Lab", "texto": "Juan armó la base histórica de los últimos dos años en Notion con cliente, fecha, de qué proyecto se trató, cuánto se produjo, quién los contactó y quién toma la decisión de compra. Con esa lista salieron a recontactar y vendieron."},
+   "campo": "tabla",
+   "columnas": ["Nombre", "Contacto", "De dónde vino", "Qué le interesa", "Próxima acción"],
+   "filas": 10},
+
+  {"titulo": "Las primeras 48 horas",
+   "consigna": "A todos los que dejaron el dato les escribís dentro de las 48 horas, uno por uno, arrancando por algo que dijeron o preguntaron en la sala. Cinco por día hasta terminar la lista. El mensaje pide una sola cosa concreta: una charla con día y hora.",
+   "campo": "texto", "alto": 4,
+   "placeholder": "Cómo abro, qué pido, a quiénes ya les escribí."},
+
+  {"titulo": "Lo que el evento dejó, contado",
+   "consigna": "A los siete días cerrá el evento con los números arriba de la mesa. Cuántos estuvieron, cuántos datos te llevaste, cuánto se vio el video, cuántas conversaciones se abrieron y cuántas llamadas salieron. Ese número decide si el próximo evento se repite igual o se cambia el mecanismo de captura.",
+   "ejemplo": {"quien": "Matías Morales", "texto": "Los números que va a presentar del lanzamiento son cuántos handraisers juntó, cuántas conversaciones abrió y cuántas ventas salieron. Es la primera vez que vende por sistema y no porque le llegó la oportunidad."},
+   "campo": "lineas",
+   "lineas": ["Asistentes", "Datos capturados", "Vistas del video", "Conversaciones abiertas", "Llamadas agendadas"]}
+ ]
+}

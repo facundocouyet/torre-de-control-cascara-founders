@@ -1,0 +1,57 @@
+{
+ "modulo": "cadencia-y-duenos",
+ "titulo": "La hoja de dueños y cadencia",
+ "bajada": "Un cuadro con un solo nombre al lado de cada frente y las reuniones fijas cargadas en el calendario de todos, con la primera ronda ya corrida y su acta.",
+ "lista_cuando": "Corriste la primera planificación mensual con el equipo completo y quedó el acta con una decisión, un dueño y una fecha por línea.",
+ "secciones": [
+  {"titulo": "Los frentes que tienen que pasar igual todas las semanas",
+   "consigna": "Listá lo que ocurre sí o sí cada semana y cada mes: calendario de contenido, grabación, edición, publicación, historias, pauta, seguimiento de clientes, cobranza y números. Al lado de cada uno, quién lo hace hoy, con nombre. Si tu nombre aparece más de cuatro veces, ese cuadro ya te dice el orden en que hay que mover las cosas.",
+   "ejemplo": {"quien": "Sol Boutmy", "texto": "Los roles entre las dos socias son casi idénticos y lo saben: las dos arman propuestas, las dos van a producir y las dos editan. Con ese calendario no queda hora para lo de arriba."},
+   "campo": "tabla",
+   "columnas": ["Frente", "Cada cuánto", "Qué queda hecho", "Quién lo hace hoy"],
+   "filas": 10},
+
+  {"titulo": "Un solo nombre por frente",
+   "consigna": "Un dueño por fila, y el primero que se define es el dueño del calendario de contenido. Dos nombres en la misma fila funcionan igual que ninguno. El dueño puede no ser quien ejecuta: es el que contesta cuando algo no salió, el que decide sin consultarte y el que trae el reporte a la reunión.",
+   "ejemplo": {"quien": "Antonio Mazzello", "texto": "Todo el plan dependía de una persona adentro de IEB que manejara calendario, guiones y coordinación del editor. Nunca apareció, y sin dueño del calendario el proyecto quedó sin norte."},
+   "campo": "tabla",
+   "columnas": ["Frente", "Dueño", "Qué decide sin consultar", "Qué reporta y cuándo"],
+   "filas": 8},
+
+  {"titulo": "La cadencia, con día y hora",
+   "consigna": "La planificación mensual es de dos horas, el último lunes del mes, con el equipo completo. La revisión de medio mes es de treinta minutos por persona, uno a uno. Escribí día y hora reales, no fin de mes: una fecha sin hora no se cumple.",
+   "ejemplo": {"quien": "Manuel Bruzzone", "texto": "Tres planificaciones seguidas: último lunes de septiembre, de octubre y de noviembre, dos horas cada una, con la revisión de medio mes hecha con cada agente. Tres seguidas es lo que convierte una reunión en costumbre."},
+   "campo": "lineas",
+   "lineas": ["Planificación mensual (día y hora)", "Revisión de medio mes (día y duración por persona)", "Reunión semanal (día y hora)", "Quién arma la agenda", "Dónde queda el acta"]},
+
+  {"titulo": "El número que se mira en cada reunión",
+   "consigna": "Cada reunión entra con un número arriba de la mesa y con la persona que lo trae ya cargado. Un número por reunión, no cinco. Cuando una reunión no tiene número, se convierte en una ronda de estados y dura el doble.",
+   "campo": "tabla",
+   "columnas": ["Reunión", "El número", "Quién lo trae", "De dónde sale"],
+   "filas": 5},
+
+  {"titulo": "Los estándares de cada rol y la consecuencia",
+   "consigna": "Dos o tres estándares por rol, medibles: cantidad por semana, día de entrega, tiempo de respuesta, cuántas piezas dedicadas entran por mes. Al lado de cada uno, la consecuencia si no se cumple. La consecuencia se escribe la primera vez que se define el estándar y se aplica la primera vez que se incumple.",
+   "ejemplo": {"quien": "Sofía Galvis", "texto": "El scope quedó con un límite de tres contenidos dedicados y el rodaje lo produce el cliente. Ese límite escrito es lo que evita que el servicio se desborde a mitad de mes."},
+   "campo": "texto", "alto": 5,
+   "placeholder": "Edición: entrega los jueves, hasta dos rondas por pieza. Si no llega…"},
+
+  {"titulo": "Lo que llega cargado antes de cada reunión",
+   "consigna": "Qué tiene que estar arriba antes de que la reunión arranque: el calendario del mes cargado, las piezas entregadas, el material crudo en la carpeta y el número actualizado. Poné la fecha de corte con un día concreto, por ejemplo el material entra el jueves y la reunión es el lunes. Lo que llega después entra en la reunión siguiente.",
+   "ejemplo": {"quien": "Sharon Palacio", "texto": "Tiene una editora disponible, Ale, esperando material que nunca salió. El calendario propio lo arrancó y quedó por la mitad, así que la editora quedó sin con qué trabajar."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "Antes del lunes tiene que estar…"},
+
+  {"titulo": "Las fechas puestas en el calendario de todos",
+   "consigna": "Cargá hoy las tres próximas planificaciones mensuales y la ronda de revisiones de medio mes, con invitación a cada persona que entra. Tres fechas cargadas de una sola vez, porque la que se agenda mes a mes se cae en el segundo mes. Anotá el día en que mandaste las invitaciones.",
+   "ejemplo": {"quien": "Andrea Saturno", "texto": "Las Bonfire Sessions tienen forma, cambios encima y un marco de narrativa para producirlas. Lo que nunca hubo es un día en el calendario, y mientras no hay fecha no hay nada que medir."},
+   "campo": "lineas",
+   "lineas": ["Próxima planificación mensual", "Las dos siguientes", "Ronda de revisiones de medio mes", "A quiénes se invitó", "Cuándo se mandaron las invitaciones"]},
+
+  {"titulo": "La primera planificación corrida y el acta",
+   "consigna": "Corré la reunión completa con el equipo y dejá el acta en la misma página donde van a ir las próximas. Una decisión por fila, con un nombre y una fecha: la decisión sin dueño vuelve a la lista el mes que viene igual que estaba. Antes de cortar, leé el acta en voz alta y que cada uno confirme su fila.",
+   "campo": "tabla",
+   "columnas": ["Decisión", "Dueño", "Fecha", "Cómo se sabe que está hecho"],
+   "filas": 8}
+ ]
+}

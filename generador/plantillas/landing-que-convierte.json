@@ -1,0 +1,114 @@
+{
+ "modulo": "landing-que-convierte",
+ "titulo": "La hoja de tu landing",
+ "bajada": "Una página publicada con tu dominio, pensada para el celular, con la promesa que ya funcionó arriba y el formulario antes de cualquier explicación. Es donde cae el tráfico del contenido y donde queda registrado quién entró.",
+ "lista_cuando": "Alguien entra desde el celular, entiende en quince segundos qué le ofrecés y deja sus datos sin scrollear.",
+ "secciones": [
+  {
+   "titulo": "La frase que ya funcionó",
+   "consigna": "El título sale de una pieza que ya trajo gente, con las palabras de esa pieza y sin retoque. Buscá la que más conversaciones abrió y copiá la pregunta o la frase con la que arranca. Si todavía no hay una pieza con movimiento, el trabajo previo es el contenido y la página espera.",
+   "ejemplo": {
+    "quien": "Seba",
+    "texto": "El reel sobre el miedo a grabarse en público hizo un millón cuatrocientas mil vistas y mil ochocientos comentarios, y casi todos dicen lo mismo: era el empujón que necesitaba. Esa frase es el título."
+   },
+   "campo": "texto",
+   "alto": 3,
+   "placeholder": "El título, tal cual apareció en la pieza."
+  },
+  {
+   "titulo": "Lo primero que se ve en el celular",
+   "consigna": "Se diseña para el celular y se revisa en un celular. El botón queda visible sin scrollear, con poco aire alrededor, el texto de un lado y la imagen del otro. El botón dice la acción concreta: pedir presupuesto, reservar lugar, escribir por WhatsApp.",
+   "ejemplo": {
+    "quien": "Bianca",
+    "texto": "Landing pensada para el celular primero, con el formulario arriba de todo, el dato de contacto pedido en dos lugares de la página y el WhatsApp siempre visible."
+   },
+   "campo": "lineas",
+   "lineas": [
+    "Título",
+    "Una línea abajo del título",
+    "Texto del botón",
+    "Qué va al lado del texto",
+    "Qué queda visible sin scrollear"
+   ]
+  },
+  {
+   "titulo": "El formulario, arriba de todo",
+   "consigna": "El formulario va antes de cualquier explicación. Cinco campos como máximo, y uno de ellos obligatorio: el que te permite cotizar o filtrar sin volver a preguntar nada. El campo que no usás para decidir algo, sacalo.",
+   "ejemplo": {
+    "quien": "Custom Lab",
+    "texto": "El campo del proyecto queda obligatorio, porque la landing que tenían antes no pedía lo mínimo para cotizar y cada consulta arrancaba con tres preguntas de ida y vuelta."
+   },
+   "campo": "tabla",
+   "columnas": [
+    "Campo",
+    "Obligatorio",
+    "Para qué lo necesitás",
+    "Qué hacés con el dato"
+   ],
+   "filas": 6
+  },
+  {
+   "titulo": "Las secciones, en orden",
+   "consigna": "Después del formulario el orden que funciona es problema, qué hacés, pruebas, precio o rango, preguntas frecuentes y cierre con el mismo botón del principio. Cada sección entra en una pantalla de celular. La página completa se lee en menos de dos minutos.",
+   "campo": "tabla",
+   "columnas": [
+    "Orden",
+    "Sección",
+    "Qué dice",
+    "Qué acción ofrece"
+   ],
+   "filas": 7
+  },
+  {
+   "titulo": "Las pruebas",
+   "consigna": "Tres casos alcanzan si cada uno tiene un número adentro. Cuando todavía no hay número sirve la captura de un mensaje de un cliente, con su permiso, y el trabajo a la vista. El caso sin nombre y sin número ocupa lugar y no convence a nadie.",
+   "ejemplo": {
+    "quien": "Sharon",
+    "texto": "La marca de ropa técnica outdoor le dio ventas orgánicas que le ganaron a la pauta paga, y llega gente nueva al local diciendo que los vio en Instagram. Ese es el caso que va primero."
+   },
+   "campo": "tabla",
+   "columnas": [
+    "Cliente o caso",
+    "Qué se hizo",
+    "Resultado con número",
+    "Imagen, video o link"
+   ],
+   "filas": 5
+  },
+  {
+   "titulo": "Dónde se pide el mail y cómo se ve el WhatsApp",
+   "consigna": "El mail se pide en dos lugares de la página: arriba con el formulario y abajo del todo. El WhatsApp queda fijo y visible, con el mensaje ya escrito para que la persona solamente apriete enviar. Definí quién contesta y en cuánto tiempo, porque un WhatsApp que tarda dos días quema la visita y la plata del contenido que la trajo.",
+   "campo": "lineas",
+   "lineas": [
+    "Primer lugar donde se pide el mail",
+    "Segundo lugar",
+    "Número de WhatsApp",
+    "Mensaje que viene escrito",
+    "Quién contesta y en cuánto"
+   ]
+  },
+  {
+   "titulo": "El dominio y con qué está armada",
+   "consigna": "Dominio propio y corto, el nombre del proyecto sin guiones. Anotá dónde se compró, con qué está armada la página y quién tiene el acceso, porque un dominio que vence sin dueño se lleva la página puesta. El costo mensual va escrito acá para que la decisión de sostenerlo esté tomada de antemano.",
+   "campo": "lineas",
+   "lineas": [
+    "Dominio",
+    "Dónde se compró",
+    "Con qué está armada",
+    "Cuánto cuesta por mes",
+    "Quién puede editarla"
+   ]
+  },
+  {
+   "titulo": "Publicala y mandá el link a cinco personas",
+   "consigna": "Mandásela a cinco personas que entren en tu cliente ideal y miralas entrar desde el celular. Anotá dónde se detuvieron, qué no entendieron y cuántas completaron el formulario. Si de cinco no completó ninguna, el primer cambio es el título y el segundo es el botón. Desde ahí en adelante, visitas y formularios anotados todos los lunes.",
+   "ejemplo": {
+    "quien": "José David",
+    "texto": "Con dos cambios en el perfil le entraron cinco consultas. El cambio se midió por las consultas que entraron esa semana."
+   },
+   "campo": "texto",
+   "alto": 4,
+   "placeholder": "A quién se la mandaste, dónde se trabó, cuántos formularios entraron."
+  }
+ ]
+}
