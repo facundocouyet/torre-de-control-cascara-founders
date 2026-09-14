@@ -169,7 +169,7 @@ def build(d):
     </div>\n'''
     add("02 · La lectura",b,True)
 
-    # 04 · EL HANDICAP, escala 1-100
+    # 04 · EL PUNTAJE, escala 1-100
     if H_:
         gen=round(sum(cien(v) for v in [H_["ejes"][k] for k,_ in EJES])/5)
         filas=""
@@ -203,7 +203,7 @@ def build(d):
           <div style="font-size:28px;line-height:1.46;">{esc(COMO_SUBE.get(floj,""))}</div>
         </div>
       </div>\n    </div>\n'''
-        add("03 · El handicap",b)
+        add("03 · El puntaje",b)
 
     # 05 · LO QUE PASÓ
     R=d.get("recorrido") or {}

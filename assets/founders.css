@@ -182,7 +182,7 @@ input[type="search"],input[type="text"]{font:inherit;font-size:var(--t-small);
 .cifra span{display:block;font-size:var(--t-label);letter-spacing:.2em;
   text-transform:uppercase;color:#7A7A82;margin-top:6px}
 
-/* --- 9. HANDICAP ------------------------------------------------------ */
+/* --- 9. PUNTAJE ------------------------------------------------------- */
 /* Los cinco ejes en grilla fija, para que las etiquetas se alineen fila a fila. */
 .ejes{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;justify-items:start}
 @media (max-width:620px){.ejes{max-width:320px;gap:8px}.barras i{width:10px}}

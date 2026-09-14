@@ -55,7 +55,7 @@
       "n": "06",
       "cuando": "Mes 2 · cuatro sesiones 1:1",
       "titulo": "El servicio",
-      "texto": "Cuatro uno a uno alternadas: oferta y pricing con Franco, estructura de entrega con Facu, adquisición y ventas con Franco, y cierre de mes 2 con Facu. Las tres grupales siguen corriendo; lo que termina acá es la presencia de Facu y Franco en grupales, que pasan a atender solo uno a uno."
+      "texto": "Cuatro uno a uno alternadas: oferta y pricing con Franco, estructura de entrega con Facu, adquisición y ventas con Franco, y cierre de mes 2 con Facu. Las tres grupales siguen corriendo."
     },
     {
       "n": "07",
@@ -73,9 +73,9 @@
   "orientaciones": [
     {
       "nombre": "Conseguir",
-      "lider": "Franco",
+      "lider": "Facu",
       "cuando_se_elige": "No llegan consultas, o llegan y se caen antes de cerrar.",
-      "texto": "Se trabaja la oferta, el pricing y el proceso de ventas. El resultado a 60 días son los primeros cierres con el sistema nuevo. En el handicap es la ruta que marcan los ejes de Oferta y de Venta cuando alguno de los dos es el más bajo.",
+      "texto": "Se trabaja la oferta, el pricing y el proceso de ventas. El resultado a 60 días son los primeros cierres con el sistema nuevo. En el puntaje es la ruta que marcan los ejes de Oferta y de Venta cuando alguno de los dos es el más bajo.",
       "modulos": [
         "Lista de 50 prospectos",
         "Guion de outreach probado",
@@ -86,9 +86,9 @@
     },
     {
       "nombre": "Sostener",
-      "lider": "Fede",
+      "lider": "Facu",
       "cuando_se_elige": "Cierra, pero la demanda depende de su energía.",
-      "texto": "Se trabaja contenido, audiencia y delegación de la producción. El resultado a 60 días es un ritmo de publicación que se sostiene solo. En el handicap es la ruta que marcan los ejes de Contenido y de Demanda.",
+      "texto": "Se trabaja contenido, audiencia y delegación de la producción. El resultado a 60 días es un ritmo de publicación que se sostiene solo. En el puntaje es la ruta que marcan los ejes de Contenido y de Demanda.",
       "modulos": [
         "Línea editorial escrita",
         "3 ángulos definidos",
@@ -101,7 +101,7 @@
       "nombre": "Entregar",
       "lider": "Facu",
       "cuando_se_elige": "Consigue y cierra, pero la entrega lo consume.",
-      "texto": "Se trabaja el proceso de servicio, la capacidad y el equipo. El resultado a 60 días es la misma entrega con menos horas propias. En el handicap es la ruta que marca el eje de Entrega.",
+      "texto": "Se trabaja el proceso de servicio, la capacidad y el equipo. El resultado a 60 días es la misma entrega con menos horas propias. En el puntaje es la ruta que marca el eje de Entrega.",
       "modulos": [
         "Mapa de servicio con horas reales",
         "Proceso de entrega documentado",
@@ -127,7 +127,7 @@
     },
     {
       "nombre": "Fede",
-      "rol": "Contenido. Lleva la grupal de contenido y es el dueño de la orientación Sostener junto a la línea editorial y los ángulos.",
+      "rol": "Contenido. Lleva la grupal de contenido: línea editorial, ángulos, formatos y ritmo.",
       "que_traerle": "Narrativa, ángulos, calendario y mensaje.",
       "que_no": "Pricing y estructura societaria."
     },
@@ -171,7 +171,7 @@
     }
   ],
   "handicap": {
-    "texto": "Cada caso de la camada se puntúa con el handicap: cinco ejes de cero a cuatro sobre el estado del negocio, veinte en total. El eje más bajo es por donde se trabaja y es el que marca la orientación: Oferta o Venta van a Conseguir, Contenido o Demanda van a Sostener, Entrega va a Entregar. Cuando el eje más bajo no coincide con la orientación asignada, queda marcado como discrepancia para revisar a mano: no se corrige sola. El handicap se recalcula cuando una llamada cambia el estado de algún eje.",
+    "texto": "Cada caso de la camada tiene un puntaje: cinco ejes de cero a cuatro sobre el estado del negocio, veinte en total. El eje más bajo es por donde se trabaja y es el que marca la orientación: Oferta o Venta van a Conseguir, Contenido o Demanda van a Sostener, Entrega va a Entregar. Cuando el eje más bajo no coincide con la orientación asignada, queda marcado como discrepancia para revisar a mano: no se corrige sola. El puntaje se recalcula cuando una llamada cambia el estado de algún eje.",
     "ejes": [
       {
         "nombre": "Oferta",

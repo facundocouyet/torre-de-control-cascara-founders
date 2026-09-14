@@ -1,6 +1,6 @@
 # Torre de control · Cáscara Founders
 
-El tablero interno de Cáscara Founders: los clientes de la camada, el handicap de cada uno,
+El tablero interno de Cáscara Founders: los clientes de la camada, el puntaje de cada uno,
 los días de programa, los documentos completos y el material del programa.
 
 Abrí `index.html` en el navegador y ya funciona. No necesita servidor ni build para verse.
@@ -27,7 +27,7 @@ Necesita Python 3, sin dependencias externas.
 # 1. los documentos de cliente, desde las fichas
 python3 generador/build2.py          # escribe out2/<slug>.html
 
-# 2. los datos de la app, desde las fichas y el registro de handicap
+# 2. los datos de la app, desde las fichas y el registro de puntajes
 python3 generador/build_app.py       # escribe contenido/app-data.json
 
 # 3. la app
@@ -40,7 +40,7 @@ python3 generador/build_site.py
 El orden importa: las fichas mandan sobre todo lo demás, y `handicap.py` manda sobre cualquier
 puntaje guardado en una ficha.
 
-## El handicap
+## El puntaje
 
 Cinco habilidades —oferta, contenido, demanda, venta y entrega— que el founder mejora durante el
 programa. Cada una se muestra del 1 al 100 y el general es el promedio de las cinco.

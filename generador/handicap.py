@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Handicap Cáscara Founders — cinco ejes de 0 a 4 sobre el estado del negocio,
+"""Puntaje de Cáscara Founders — cinco ejes de 0 a 4 sobre el estado del negocio,
 más el ritmo, que mide cómo viene ejecutando la persona (eso no puntúa el negocio)."""
 import json
 
@@ -110,7 +110,7 @@ if __name__ == "__main__":
     for f in sorted(glob.glob('fichas/*.json')):
         d=json.load(open(f,encoding='utf-8'))
         h=calcular(d['slug'])
-        if not h: print('SIN HANDICAP:', d['slug']); continue
+        if not h: print('SIN PUNTAJE:', d['slug']); continue
         d['handicap']=h
         json.dump(d, open(f,'w',encoding='utf-8'), ensure_ascii=False, indent=2)
         coincide = d['orientacion'] in h['sugiere']
@@ -118,4 +118,4 @@ if __name__ == "__main__":
         print(f"{d['slug']:24} {h['total']:2}/20  {h['tramo']:18} {h['ritmo']:9} "
               f"flojo={'+'.join(h['eje_flojo']):20} sugiere={'/'.join(h['sugiere']):20} "
               f"asignada={d['orientacion']:10} {'ok' if coincide else '← no coincide'}")
-    print("fichas con handicap:", n)
+    print("fichas con puntaje:", n)

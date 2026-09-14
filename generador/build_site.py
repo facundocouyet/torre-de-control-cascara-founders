@@ -60,7 +60,7 @@ def build_index(panel):
       ("02","Los materiales","materiales.html",
        "La biblioteca entera: la oferta y lo comercial, los documentos de cliente, los contratos y los procesos internos. Con los módulos por categoría y lo que todavía falta escribir."),
       ("03","Los clientes","clientes.html",
-       "Los veintiún casos con su handicap, ordenados por quién necesita más atención. Cada fila abre el documento completo del founder."),
+       "Los veintiún casos con su puntaje, ordenados por quién necesita más atención. Cada fila abre el documento completo del founder."),
     ]
     zh="".join(f'''<a class="card" href="{u}" style="text-decoration:none;display:block">
       <span class="label">{n}</span>
@@ -91,7 +91,7 @@ def build_index(panel):
     cuerpo = masthead("Cáscara Founders · tablero de control",
       "Todo Cáscara Founders, en un solo lugar",
       "El programa, los materiales y los clientes. Se actualiza solo todas las mañanas con lo que salió de las llamadas del día anterior.",
-      [(str(len(panel)),"Clientes"),("%.1f"%prom,"Handicap promedio"),
+      [(str(len(panel)),"Clientes"),("%.1f"%prom,"Puntaje promedio"),
        (str(len(cierre)),"En cierre"),(str(len(rojo)),"Ritmo en rojo")], display=True)
 
     cuerpo += f'''<section class="zona"><div class="wrap">
@@ -101,7 +101,7 @@ def build_index(panel):
 
 <section class="zona"><div class="wrap">
   <h2 class="seccion">Quién necesita atención esta semana</h2>
-  <p class="small mt3" style="max-width:70ch">Los cinco handicaps más bajos de la camada. El eje en negrita es el más flojo y es por donde se trabaja.</p>
+  <p class="small mt3" style="max-width:70ch">Los cinco puntajes más bajos de la camada. El eje en negrita es el más flojo y es por donde se trabaja.</p>
   <div class="mt4">{"".join(mini(r) for r in atencion)}</div>
   <a class="btn mt4" href="clientes.html">Ver los veintiuno</a>
 </div></section>
@@ -110,7 +110,7 @@ def build_index(panel):
   <h2 class="seccion">Cómo se mantiene</h2>
   <div class="cols cols-3 mt4">
     <div class="dato"><span class="label">Todas las mañanas</span>
-      <p class="texto mt2">Una tarea barre las llamadas nuevas de Fathom, actualiza la ficha de cada cliente que aparece, recalcula el handicap si algún eje se movió y vuelve a publicar. Si no hubo llamadas nuevas, no toca nada.</p></div>
+      <p class="texto mt2">Una tarea barre las llamadas nuevas de Fathom, actualiza la ficha de cada cliente que aparece, recalcula el puntaje si algún eje se movió y vuelve a publicar. Si no hubo llamadas nuevas, no toca nada.</p></div>
     <div class="dato"><span class="label">Dónde vive el dato</span>
       <p class="texto mt2">Las fichas de los clientes están en el Project de Cáscara, en un solo JSON. Los estados y las fechas viven en la base Cuentas de Notion. El sitio se genera desde ahí, no al revés.</p></div>
     <div class="dato"><span class="label">Quién lo toca</span>
@@ -185,7 +185,7 @@ def build_programa(d):
       <p class="texto mt2" style="color:var(--grey)">{e(x['que_mide'])}</p></div>''' for x in h['ejes'])
     tr="".join('<span class="chip">%s</span>'%e(t) for t in h['tramos'])
     c += f'''<section class="zona"><div class="wrap">
-  <h2 class="seccion">El handicap</h2>
+  <h2 class="seccion">El puntaje</h2>
   <p class="bajada mt3">{e(h['texto'])}</p>
   <div class="cols cols-5 mt5" style="grid-template-columns:repeat(auto-fit,minmax(190px,1fr))">{ejes}</div>
   <div class="mt5" style="display:flex;gap:var(--s4);flex-wrap:wrap;align-items:flex-start">
@@ -272,7 +272,7 @@ def build_clientes(panel):
             disc = ('<p class="texto mt3" style="color:var(--warn);border-left:2px solid var(--warn);padding-left:12px;font-size:var(--t-small)">El eje más flojo apunta a <b>%s</b> y la orientación asignada es <b>%s</b>. Vale revisarlo.</p>'
                     % (e("/".join(h['sugiere'])), e(r['orientacion']))) if r['orientacion'] not in h['sugiere'] else ''
         else:
-            barras='<span class="nota">Sin handicap</span>'; meta=''; nota=e(r['cuello']); disc=''
+            barras='<span class="nota">Sin puntaje</span>'; meta=''; nota=e(r['cuello']); disc=''
         det=[]
         if r['metrica']: det.append('<div class="dato"><span class="label">La métrica</span><p class="texto mt2">%s</p></div>'%e(r['metrica']))
         if r['cliente_tareas']: det.append('<div class="dato"><span class="label">Septiembre · lo que hace él o ella</span><ul class="mt2" style="padding-left:18px;margin:0">%s</ul></div>'%"".join('<li class="small" style="margin-bottom:6px">%s</li>'%e(x) for x in r['cliente_tareas']))
@@ -296,9 +296,9 @@ def build_clientes(panel):
     </article>'''
 
     filas="\n".join(fila(r,i) for i,r in enumerate(panel))
-    c = masthead("Los clientes","La camada, de menor a mayor handicap",
+    c = masthead("Los clientes","La camada, de menor a mayor puntaje",
       "Arriba está quien más atención necesita. El eje en negrita es el más flojo y es por donde se trabaja. Tocá cualquier fila para ver la métrica, los accionables de septiembre y lo que queda sin definir.",
-      [(str(len(panel)),"Clientes"),("%.1f"%prom,"Handicap promedio"),
+      [(str(len(panel)),"Clientes"),("%.1f"%prom,"Puntaje promedio"),
        (str(len(cierre)),"En cierre"),(str(len(rojo)),"Ritmo en rojo")])
     c += f'''<div class="wrap">
   <div class="mt5" style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;position:sticky;top:56px;z-index:10;background:var(--paper);padding-block:14px;border-bottom:1px solid var(--line)">

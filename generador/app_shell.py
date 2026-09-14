@@ -74,10 +74,6 @@ a{color:inherit;text-decoration:none}
 .riel nav button[aria-selected="true"]::before{content:"";position:absolute;left:0;width:3px;
   height:22px;background:#FBFAF8;margin-top:2px}
 .riel nav button{position:relative}
-.riel .pie{margin-top:auto;padding:22px 26px 0;border-top:1px solid rgba(236,234,228,.14)}
-.riel .pie .f{font-size:10.5px;letter-spacing:.2em;color:rgba(236,234,228,.42)}
-.riel .pie .s{font-family:var(--edit);font-style:italic;font-size:14px;
-  color:rgba(236,234,228,.42);margin-top:8px;line-height:1.4}
 
 /* plegar el riel */
 .plegar{position:absolute;top:24px;right:-13px;width:26px;height:26px;background:#0A0A0C;
@@ -86,10 +82,9 @@ a{color:inherit;text-decoration:none}
   transform:rotate(45deg);margin-left:3px;transition:transform .18s}
 .plegar:hover{background:#17171A}
 body.plegado .riel{width:58px}
-body.plegado .riel .marca .txt,body.plegado .riel .pie,body.plegado .riel nav button .t{display:none}
-body.plegado .riel .marca{padding:0 0 22px;justify-content:center;gap:0}
-/* plegado, el botón baja para dejar respirar el sello */
-body.plegado .plegar{top:auto;bottom:22px;right:-13px}
+body.plegado .riel .marca .txt,body.plegado .riel nav button .t{display:none}
+/* plegado, el sello se corre a la izquierda para dejarle lugar al botón, que no se mueve */
+body.plegado .riel .marca{padding:0 0 22px 8px;justify-content:flex-start;gap:0}
 body.plegado .riel nav button{grid-template-columns:1fr;justify-items:center;padding:16px 0}
 body.plegado .plegar i{transform:rotate(-135deg);margin-left:0;margin-right:3px}
 /* al esconder la barra, el contenido queda centrado en la pantalla entera:
@@ -186,7 +181,7 @@ h2.bl em{font-style:italic;font-family:var(--edit);text-transform:none;letter-sp
 .bloque .grande{font-size:clamp(24px,2.4vw,32px);font-weight:700;letter-spacing:-.028em;
   line-height:1.22;max-width:26ch;margin-top:14px}
 
-/* lateral del detalle: el handicap y los días */
+/* lateral del detalle: el puntaje y los días */
 .aside{position:sticky;top:0;padding-top:120px}
 .hcard{border-top:1px solid var(--tinta);padding-top:22px}
 .hcard .t{display:flex;align-items:baseline;gap:12px}
@@ -259,6 +254,17 @@ h2.bl em{font-style:italic;font-family:var(--edit);text-transform:none;letter-sp
   color:var(--gris);border-right:1px solid var(--tiza)}
 .filtros button:last-child{border-right:0}
 .filtros button[aria-pressed="true"]{background:var(--tinta);color:var(--papel)}
+/* ordenar: qué variable y en qué sentido; un solo botón invierte el sentido */
+.orden{display:flex;align-items:stretch;border:1px solid var(--tiza)}
+.orden label,.orden select,.orden button{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase}
+.orden label{display:flex;align-items:center;padding:0 10px 0 15px;color:var(--gris)}
+.orden select{font-family:inherit;border:0;border-radius:0;background:none;color:var(--tinta);cursor:pointer;
+  -webkit-appearance:none;appearance:none;padding:11px 26px 11px 4px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5'%3E%3Cpath d='M0 0l4 5 4-5z' fill='%23171717'/%3E%3C/svg%3E") no-repeat right 10px center}
+.orden button{padding:11px 15px;border-left:1px solid var(--tiza);white-space:nowrap;color:var(--tinta)}
+.orden button:hover{background:var(--papel2)}
+@media (max-width:720px){.orden{width:100%}.orden label{display:none}
+  .orden select{flex:1;min-width:0;padding-left:15px}}
 
 /* ---------- acordeón ---------- */
 .ac{border-bottom:1px solid var(--tiza)}
@@ -333,7 +339,7 @@ h2.bl em{font-style:italic;font-family:var(--edit);text-transform:none;letter-sp
   body{font-size:17px}
   .riel{left:0;right:0;top:auto;bottom:0;width:auto;height:calc(var(--tabh) + env(safe-area-inset-bottom,0px));
     padding:0 0 env(safe-area-inset-bottom,0px);flex-direction:row}
-  .riel .marca,.riel .pie{display:none}
+  .riel .marca{display:none}
   .riel nav{flex-direction:row;flex:1;padding:0}
   .riel nav button{flex:1;grid-template-columns:1fr;gap:0;justify-items:center;
     align-content:center;padding:0;height:var(--tabh)}
@@ -401,6 +407,28 @@ var vencidos=C.filter(function(c){return c.dia&&c.dia>90});
 var promDias=Math.round(C.filter(function(c){return c.dia}).reduce(function(a,c){return a+c.dia},0)/C.filter(function(c){return c.dia}).length);
 var filtro=null,busca='',tab='hoy';
 var ORD=[];   // el orden que se está viendo, para moverse con las flechas
+/* el orden de la lista: por el general, por cada habilidad, por días o por nombre, en los dos sentidos */
+var CRIT=[['g','Puntaje general']].concat(D.ejes.map(function(n,i){return ['e'+i,n]}))
+  .concat([['dia','Días con nosotros'],['nombre','Nombre']]);
+var ORDEN={k:'g',dir:1};   // dir 1: de menor a mayor
+function valor(c,k){
+  if(k==='nombre') return c.nombre;
+  if(k==='dia') return c.dia||null;
+  if(!c.h) return null;
+  return k==='g'?c.h.g:c.h.e1[+k.slice(1)];
+}
+function ordenar(l){
+  return l.sort(function(a,b){
+    var x=valor(a,ORDEN.k), y=valor(b,ORDEN.k);
+    if(x===null||y===null) return x===y?0:(x===null?1:-1);   // sin dato, siempre al final
+    if(ORDEN.k==='nombre') return x.localeCompare(y,'es')*ORDEN.dir;
+    if(x!==y) return (x<y?-1:1)*ORDEN.dir;
+    return a.nombre.localeCompare(b.nombre,'es');
+  });
+}
+function sentido(){
+  return ORDEN.k==='nombre'?(ORDEN.dir>0?'A a Z':'Z a A'):(ORDEN.dir>0?'Menor a mayor':'Mayor a menor');
+}
 
 function ritmo(h){return '<span class="ritmo '+h.ri+'"><i></i>'+esc(h.rt)+'</span>'}
 function encab(et,tit,entrada,sello){
@@ -414,7 +442,7 @@ function fila(c,i){
    '<span class="idx num">'+('0'+(i+1)).slice(-2)+'</span>'+
    '<span><span class="nm">'+esc(c.nombre)+'</span><span class="sub">'+esc(c.cuello)+'</span></span>'+
    '<span class="dia'+(venc?' vencido':'')+'">'+(c.dia?'<b>'+c.dia+'</b> de 90 días':'<b>—</b>sin fecha')+'</span>'+
-   '<span class="hc"><b class="num">'+(h?h.g:'—')+'</b>handicap</span>'+
+   '<span class="hc"><b class="num">'+(h?h.g:'—')+'</b>puntaje</span>'+
    (h?ritmo(h):'<span class="ritmo"><i style="border-style:dotted"></i>sin dato</span>')+
    '<span class="fl"></span></button>';
 }
@@ -423,16 +451,16 @@ function fila(c,i){
 function vHoy(){
   var at=con.slice().sort(function(a,b){return a.h.g-b.h.g}).slice(0,6);
   var h='<div class="hoja">'+encab('Cáscara Founders · '+D.fecha,
-    'La camada, de menor a mayor handicap',
+    'La camada, de menor a mayor puntaje',
     'Arriba está quien más atención necesita. El día de cada uno dice dónde está parado en los noventa.',
     'Torre de control<br>'+C.length+' clientes<br>'+D.fecha);
   h+='<div class="banda">'+
     '<button onclick="ir(\'clientes\')"><b class="num">'+C.length+'</b><span>Clientes</span></button>'+
-    '<div><b class="num">'+prom+'</b><span>Handicap promedio</span></div>'+
+    '<div><b class="num">'+prom+'</b><span>Puntaje promedio</span></div>'+
     '<button onclick="ir(\'clientes\',\'vencido\')"><b class="num'+(vencidos.length?' alerta':'')+'">'+vencidos.length+'</b><span>Pasaron los 90 días</span></button>'+
     '<button onclick="ir(\'clientes\',\'rojo\')"><b class="num'+(frenados.length?' alerta':'')+'">'+frenados.length+'</b><span>Frenados</span></button>'+
   '</div>';
-  h+='<h2 class="bl">Necesita atención <em>los seis handicaps más bajos</em></h2><div>';
+  h+='<h2 class="bl">Necesita atención <em>los seis puntajes más bajos</em></h2><div>';
   at.forEach(function(c,i){h+=fila(c,i)});
   h+='</div><a class="boton" onclick="ir(\'clientes\')">Ver los '+C.length+'<span class="fl"></span></a>';
   h+='<h2 class="bl">Le toca a <em>los accionables de septiembre de nuestro lado</em></h2><div class="duenos">';
@@ -459,10 +487,13 @@ var F=[['todos','Todos'],['Conseguir','Conseguir'],['Sostener','Sostener'],['Ent
        ['cierre','En cierre'],['vencido','Pasaron 90'],['rojo','Frenados']];
 function vClientes(){
   var h='<div class="hoja">'+encab('La camada','Los '+C.length+' clientes','',
-    'Ordenados por handicap<br>día promedio: '+promDias);
+    C.length+' clientes<br>día promedio: '+promDias);
   h+='<div class="barra"><span class="busca"><input id="q" type="search" placeholder="Buscar cliente o proyecto" value="'+esc(busca)+'" aria-label="Buscar"></span><span class="filtros">';
   F.forEach(function(f){h+='<button data-f="'+f[0]+'" aria-pressed="'+((filtro||'todos')===f[0])+'">'+f[1]+'</button>'});
-  h+='</span></div><div id="lista" style="margin-top:30px;border-top:1px solid var(--tinta)"></div>'+
+  h+='</span><span class="orden"><label for="ord">Ordenar por</label><select id="ord">'+
+     CRIT.map(function(o){return '<option value="'+o[0]+'"'+(o[0]===ORDEN.k?' selected':'')+'>'+esc(o[1])+'</option>'}).join('')+
+     '</select><button id="dir" type="button"></button></span></div>'+
+     '<div id="lista" style="margin-top:30px;border-top:1px solid var(--tinta)"></div>'+
      '<p class="vacio" id="vacio" hidden>Nada con ese filtro.</p></div>';
   $('#v-clientes').innerHTML=h;
   $('#q').addEventListener('input',function(){busca=this.value;pinta()});
@@ -471,6 +502,8 @@ function vClientes(){
       filtro=b.dataset.f==='todos'?null:b.dataset.f;
       $('#v-clientes').querySelectorAll('.filtros button').forEach(function(o){o.setAttribute('aria-pressed',String(o===b))});
       pinta();});});
+  $('#ord').addEventListener('change',function(){ORDEN.k=this.value;pinta()});
+  $('#dir').addEventListener('click',function(){ORDEN.dir=-ORDEN.dir;pinta()});
   pinta();
 }
 function pinta(){
@@ -482,10 +515,12 @@ function pinta(){
     if(filtro&&['Conseguir','Sostener','Entregar'].indexOf(filtro)>-1&&c.ori!==filtro)return false;
     if(t&&(c.nombre+' '+c.proyecto).toLowerCase().indexOf(t)<0)return false;
     return true;});
-  l.sort(function(a,b){return (a.h?a.h.g:999)-(b.h?b.h.g:999)});
+  ordenar(l);
   ORD=l.map(function(c){return c.slug});
   $('#lista').innerHTML=l.map(fila).join('');
   $('#vacio').hidden=l.length>0;
+  $('#dir').textContent=sentido();
+  $('#dir').setAttribute('aria-label','Orden: '+sentido().toLowerCase()+'. Tocá para invertirlo');
 }
 
 /* ---------------- DETALLE ---------------- */
@@ -498,7 +533,7 @@ function saltar(d){
 function abrir(slug){
   var c=null; C.forEach(function(x){if(x.slug===slug)c=x}); if(!c)return;
   var venc=c.dia&&c.dia>90, pct=c.dia?Math.min(100,Math.round(c.dia/90*100)):0;
-  if(ORD.indexOf(slug)<0) ORD=C.slice().sort(function(a,b){return (a.h?a.h.g:999)-(b.h?b.h.g:999)}).map(function(x){return x.slug});
+  if(ORD.indexOf(slug)<0) ORD=ordenar(C.slice()).map(function(x){return x.slug});
   var pos=ORD.indexOf(slug);
   var ant=pos>0?nombreDe(ORD[pos-1]):null, sig=pos>-1&&pos<ORD.length-1?nombreDe(ORD[pos+1]):null;
   var h='<div class="hoja">'+
@@ -529,7 +564,7 @@ function abrir(slug){
   h+='<p class="vacio" style="padding:26px 0 0;font-size:15px">Última llamada tomada: '+esc(c.ultima)+'</p>';
   h+='</div><aside class="aside">';
   if(c.h){
-    h+='<div class="hcard"><span class="et">Handicap general</span><div class="t"><b class="num">'+c.h.g+'</b><span>de 100</span></div>'+
+    h+='<div class="hcard"><span class="et">Puntaje general</span><div class="t"><b class="num">'+c.h.g+'</b><span>de 100</span></div>'+
       '<div class="tr">'+esc(c.h.tr)+' · '+esc(c.h.rt)+'</div><div class="ejes">';
     for(var i=0;i<5;i++){
       h+='<div class="ej'+(i===c.h.flo[0]?' f':(c.h.flo.indexOf(i)>-1?' e':''))+'"><span class="n">'+esc(D.ejes[i])+'</span>'+
@@ -574,7 +609,7 @@ function vPrograma(){
   D.orientaciones.forEach(function(o){
     var n=C.filter(function(c){return c.ori===o.n}).length;
     h+=ac('','lo lidera '+o.l,o.n,n,'<p>'+esc(o.x)+'</p><ul>'+o.m.map(function(m){return '<li>'+esc(m)+'</li>'}).join('')+'</ul>');});
-  h+='</div><h2 class="bl">El handicap <em>cinco habilidades del 1 al 100; el general es el promedio</em></h2><div>';
+  h+='</div><h2 class="bl">El puntaje <em>cinco habilidades del 1 al 100; el general es el promedio</em></h2><div>';
   D.ejes_def.forEach(function(x,i){
     var p=Math.round(con.reduce(function(a,c){return a+c.h.e1[i]},0)/con.length);
     h+='<div class="ejeprom"><span class="n">'+esc(x.n)+'</span>'+
@@ -668,8 +703,6 @@ BODY = f'''<aside class="riel">
   <div class="marca"><span class="sello-f" aria-hidden="true">F</span><span class="txt"><b>Cáscara Founders</b><span>Torre de control</span></span></div>
   <nav role="tablist" aria-label="Secciones">{NAV}</nav>
   <button class="plegar" id="plegar" aria-label="Esconder el menú" title="Esconder el menú"><i></i></button>
-  <div class="pie"><div class="f">{ "12 SEP 2026" }</div>
-    <div class="s">Se actualiza solo todas las mañanas con lo que salió de las llamadas del día anterior.</div></div>
 </aside>
 
 <main>

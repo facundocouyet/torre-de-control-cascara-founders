@@ -1,12 +1,14 @@
 # Contexto para Claude Code
 
 Este repo es la **torre de control de Cáscara Founders**: el tablero interno con la camada de
-clientes, el handicap de cada uno y los documentos de founder. Leé `README.md` antes de tocar nada.
+clientes, el puntaje de cada uno y los documentos de founder. Leé `README.md` antes de tocar nada.
 
 ## Dónde vive
 
-`https://github.com/facundocouyet/torre-de-control-cascara-founders`, privado, cuenta
-`facundocouyet`. El remoto `origin` ya está configurado y `main` sigue a `origin/main`.
+`https://github.com/facundocouyet/torre-de-control-cascara-founders`, público, cuenta
+`facundocouyet`. GitHub Pages lo sirve desde `main` en
+`https://facundocouyet.github.io/torre-de-control-cascara-founders/`, y `robots.txt` lo deja fuera
+de los buscadores. El remoto `origin` ya está configurado y `main` sigue a `origin/main`.
 Se mantiene actualizado desde Cowork, así que el repo tiene que estar entre las fuentes
 autorizadas de la sesión de Cowork para que pueda empujar sin pasar por Code.
 
@@ -36,10 +38,11 @@ después de `START`.
 
 ## Reglas que no se negocian
 
-**El handicap.** `generador/handicap.py` es la única fuente de verdad de los puntajes. Las fichas
+**El puntaje.** `generador/handicap.py` es la única fuente de verdad de los puntajes. Las fichas
 y `contenido/panel-data.json` guardan una copia, y tanto `build_app.py` como `build_site.py` la
 recalculan desde el registro, así que nunca edites un puntaje adentro de una ficha: se edita en
-`handicap.py` y se regenera. Si la app y el sitio muestran números distintos, alguno dejó de
+`handicap.py` y se regenera. En todo texto que se lea se dice puntaje, nunca handicap; el nombre
+del archivo quedó por historia. Si la app y el sitio muestran números distintos, alguno dejó de
 recalcular.
 
 **La escritura.** Español rioplatense, directo, adulto. Se dice lo que la cosa es, sin anteponer lo

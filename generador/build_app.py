@@ -17,7 +17,7 @@ FECHA="13 SEP 2026"
 EJES=[("oferta","Oferta"),("contenido","Contenido"),("demanda","Demanda"),("venta","Venta"),("entrega","Entrega")]
 DUENOS=["Facu","Franco","Teo","Juana","Fede"]
 RITMO={"verde":"al día","amarillo":"a los tirones","rojo":"frenado"}
-# escala del handicap: cada eje se muestra del 1 al 100, como las habilidades de un piloto
+# escala del puntaje: cada eje se muestra del 1 al 100, como las habilidades de un piloto
 def cien(n): return n*20+10
 COMO_SUBE={
  "oferta":"Sube cuando la oferta queda escrita con precio y avatar, y salta cuando alguien la compra a ese precio.",
