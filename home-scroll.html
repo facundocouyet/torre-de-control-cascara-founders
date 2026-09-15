@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cáscara Founders</title>
+<meta name="description" content="Torre de control de Cáscara Founders: el estado de la camada, el programa de noventa días y la biblioteca entera.">
+<meta name="theme-color" content="#0A0A0C">
+<style>
+:root{
+  --ink:#171717;--deep:#0A0A0C;--paper:#ECEAE4;--paper2:#FBFAF8;--grey:#6A6A66;
+  --soft:#9A968E;--line:#DBD7D2;--line-ink:#2C2C31;--grey-ink:#8E8E92;
+  --ok:#3F6B45;--warn:#8A6A2F;--bad:#8C3A32;
+  --disp:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --serif:"Times New Roman",Times,Georgia,serif;
+  --gut:20px;--ancho:1120px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ink:#ECEAE4;--deep:#08080A;--paper:#0F0F10;--paper2:#17171A;--grey:#8E8E92;
+  --soft:#6E6E74;--line:#2C2C31;--ok:#7FAE86;--warn:#C7A25C;--bad:#D2776C;
+}}
+:root[data-theme="dark"]{
+  --ink:#ECEAE4;--deep:#08080A;--paper:#0F0F10;--paper2:#17171A;--grey:#8E8E92;
+  --soft:#6E6E74;--line:#2C2C31;--ok:#7FAE86;--warn:#C7A25C;--bad:#D2776C;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--disp);
+  font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.w{max-width:var(--ancho);margin:0 auto;padding-inline:var(--gut)}
+.num{font-weight:800;letter-spacing:-.05em;font-variant-numeric:tabular-nums}
+.lab{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--grey)}
+.chip{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;padding:3px 8px;
+  border:1px solid currentColor;white-space:nowrap}
+.chip.ok{color:var(--ok)}.chip.warn{color:var(--warn)}.chip.bad{color:var(--bad)}
+.btn{display:inline-flex;align-items:center;gap:9px;font-size:11.5px;letter-spacing:.14em;
+  text-transform:uppercase;padding:13px 18px;border:1px solid currentColor;min-height:44px}
+.btn:hover{background:var(--ink);color:var(--paper)}
+section{padding-block:64px;border-top:1px solid var(--line)}
+h2.tit{font-size:clamp(27px,5.6vw,42px);font-weight:800;letter-spacing:-.032em;line-height:1.05;
+  margin:14px 0 0;text-wrap:balance;max-width:20ch}
+.baja{font-size:clamp(15.5px,3.4vw,18px);line-height:1.5;color:var(--grey);max-width:58ch;margin:16px 0 0}
+
+/* ---- barra superior ---- */
+.top{position:sticky;top:0;z-index:30;background:var(--deep);color:#ECEAE4}
+.top-in{display:flex;align-items:center;gap:14px;padding-block:12px;max-width:var(--ancho);
+  margin:0 auto;padding-inline:var(--gut)}
+.top b{font-size:14px;font-weight:800;letter-spacing:-.02em;white-space:nowrap}
+.top .est{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#7A7A82;
+  margin-left:auto;white-space:nowrap}
+@media (max-width:560px){.top .est{display:none} .top-in{justify-content:space-between}}
+.top .ir{border:1px solid #45454C;padding:8px 11px;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:#ECEAE4;min-height:36px;display:inline-flex;align-items:center}
+.subnav{background:var(--deep);border-top:1px solid var(--line-ink);overflow-x:auto;max-width:100vw;
+  -webkit-overflow-scrolling:touch;scrollbar-width:none}
+.subnav::-webkit-scrollbar{display:none}
+.subnav-in{display:flex;gap:20px;padding-block:11px;max-width:var(--ancho);margin:0 auto;
+  padding-inline:var(--gut);white-space:nowrap}
+.subnav a{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:#8C8C94;padding-block:3px}
+.subnav a:hover{color:#ECEAE4}
+
+/* ---- 01 estado ---- */
+.hero{background:var(--deep);color:#ECEAE4;border:0;padding-block:52px 44px}
+.kick{display:inline-block;border:1px solid #45454C;padding:5px 11px;font-size:10px;
+  letter-spacing:.22em;text-transform:uppercase;color:#9A9AA2}
+.hero h1{font-size:clamp(36px,8.6vw,74px);font-weight:800;letter-spacing:-.038em;line-height:.98;
+  margin:24px 0 0;text-wrap:balance}
+.hero .baja{color:#A8A8AE;max-width:52ch}
+.tablero{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;margin-top:36px;
+  background:var(--line-ink);border:1px solid var(--line-ink)}
+.tablero div{background:var(--deep);padding:18px 16px}
+.tablero b{display:block;font-size:clamp(30px,8vw,42px);line-height:1;color:#FBFAF8;
+  font-weight:800;letter-spacing:-.05em;font-variant-numeric:tabular-nums}
+.tablero span{display:block;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;
+  color:#7A7A82;margin-top:8px}
+.tablero b.alerta{color:var(--bad)}
+.sello{margin-top:22px;font-family:var(--serif);font-style:italic;font-size:14px;color:#7A7A82}
+.hero .btn{margin-top:28px;border-color:#ECEAE4;color:#ECEAE4}
+.hero .btn:hover{background:#ECEAE4;color:var(--deep)}
+
+/* ---- 02 hoy ---- */
+.caso{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 16px;
+  padding-block:18px;border-bottom:1px solid var(--line);align-items:center}
+.caso-id b{display:block;font-size:18px;font-weight:700;letter-spacing:-.02em;line-height:1.2}
+.caso-id small{display:block;font-size:14px;color:var(--grey);margin-top:3px;line-height:1.4}
+.caso-n{display:flex;align-items:center;gap:10px;grid-row:1;grid-column:2;justify-self:end}
+.caso-n .num{font-size:23px}
+.ejes{display:grid;grid-template-columns:repeat(5,minmax(0,42px));gap:8px;grid-column:1/-1;grid-row:2}
+.eje{display:flex;flex-direction:column;gap:5px}
+.eje .n{font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}
+.eje.f .n{color:var(--ink);font-weight:700}
+.eje .b{display:flex;gap:2px}
+.eje i{display:block;width:8px;height:7px;background:var(--ink)}
+.eje i.v{background:var(--line)}
+.duenos{display:grid;grid-template-columns:1fr;gap:0;margin-top:12px}
+.duen{border-top:1px solid var(--line);padding-block:18px;display:grid;
+  grid-template-columns:auto 1fr;gap:4px 14px;align-items:baseline}
+.duen h3{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--grey);
+  font-weight:400;margin:0;grid-column:1}
+.duen .cuenta{font-size:18px;color:var(--ink);grid-column:2;justify-self:start}
+.duen ul{grid-column:1/-1;margin:10px 0 0;padding:0;list-style:none}
+.duen li{font-size:14.5px;margin-bottom:9px;line-height:1.45}
+.duen li b{display:block;font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--soft);font-weight:400;margin-bottom:1px}
+.mas{grid-column:1/-1;margin:2px 0 0;font-family:var(--serif);font-style:italic;
+  font-size:13.5px;color:var(--soft)}
+
+/* ---- 03 qué es ---- */
+.regla{font-size:clamp(21px,5vw,32px);font-weight:700;letter-spacing:-.028em;line-height:1.2;
+  margin:0;max-width:22ch;text-wrap:balance}
+.dos{display:grid;grid-template-columns:1fr;gap:28px;margin-top:30px}
+.dos p{margin:0;font-size:16.5px;line-height:1.6;color:var(--grey);max-width:56ch}
+
+/* ---- 04 recorrido ---- */
+.pasos{list-style:none;margin:32px 0 0;padding:0;position:relative}
+.pasos::before{content:"";position:absolute;left:15px;top:10px;bottom:34px;width:1px;background:var(--line)}
+.paso{display:grid;grid-template-columns:32px minmax(0,1fr);gap:16px;padding-bottom:30px;position:relative}
+.paso-n{font-size:13px;color:var(--grey);background:var(--paper);padding-block:2px;
+  text-align:center;position:relative;z-index:1}
+.paso-cuando{display:block;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--soft)}
+.paso-c h3{font-size:19px;font-weight:700;letter-spacing:-.022em;margin:6px 0 0;line-height:1.25}
+.paso-c p{margin:8px 0 0;font-size:15.5px;line-height:1.55;color:var(--grey);max-width:60ch}
+.oris{display:grid;grid-template-columns:1fr;gap:0;margin-top:34px}
+.ori{border-top:1px solid var(--line-ink);padding-block:22px}
+.ori-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.ori h3{font-size:23px;font-weight:800;letter-spacing:-.028em;margin:0}
+.ori .cuenta{font-size:23px;color:var(--grey-ink)}
+.ori-lider{margin:4px 0 0;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--grey-ink)}
+.ori p:last-child{margin:12px 0 0;font-size:15.5px;line-height:1.55;color:#A8A8AE;max-width:58ch}
+
+/* ---- 05 puntaje ---- */
+.defs{display:grid;grid-template-columns:1fr;gap:0;margin-top:30px}
+.def{border-top:1px solid var(--line);padding-block:16px}
+.def-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.def-p{font-size:17px;color:var(--grey)}
+.med{height:6px;background:var(--line);margin-top:9px}
+.med span{display:block;height:100%;background:var(--ink)}
+.med.alt span{background:var(--grey)}
+.def p{margin:9px 0 0;font-size:14.5px;line-height:1.5;color:var(--grey);max-width:56ch}
+
+/* ---- 06 camada ---- */
+.tramos{display:grid;grid-template-columns:1fr;gap:18px;margin-top:30px}
+.tramo-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.tramo-h .num{font-size:19px}
+
+/* ---- 07 materiales ---- */
+.biblios{display:grid;grid-template-columns:1fr;gap:0;margin-top:28px}
+.biblio{border-top:1px solid var(--line);padding-block:20px;display:grid;
+  grid-template-columns:1fr auto;gap:6px 14px;align-items:baseline}
+.biblio-n{font-size:21px;color:var(--grey)}
+.biblio p{grid-column:1/-1;margin:6px 0 0;font-size:15px;line-height:1.5;color:var(--grey);max-width:58ch}
+
+/* ---- 08 cómo se mantiene + pie ---- */
+.mant{background:var(--deep);color:#ECEAE4;border:0}
+.mant .baja{color:#A8A8AE}
+.mant .tres{display:grid;grid-template-columns:1fr;gap:0;margin-top:30px}
+.mant .tres div{border-top:1px solid var(--line-ink);padding-block:20px}
+.mant .tres .lab{color:#7A7A82}
+.mant .tres p{margin:10px 0 0;font-size:15.5px;line-height:1.55;color:#A8A8AE;max-width:56ch}
+.salidas{display:grid;grid-template-columns:1fr;gap:2px;margin-top:36px;background:var(--line-ink);
+  border:1px solid var(--line-ink)}
+.salida{background:var(--deep);padding:22px 18px;display:flex;justify-content:space-between;
+  align-items:baseline;gap:14px;min-height:60px}
+.salida b{font-size:20px;font-weight:800;letter-spacing:-.028em}
+.salida span{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#7A7A82}
+.salida:hover{background:#111114}
+footer{background:var(--deep);color:#7A7A82;font-size:13px;padding-block:0 44px}
+footer .w{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
+  border-top:1px solid var(--line-ink);padding-top:22px}
+
+/* ================= ESCRITORIO ================= */
+@media (min-width:760px){
+  body{font-size:17px}
+  section{padding-block:92px}
+  .hero{padding-block:84px 72px}
+  .tablero{grid-template-columns:repeat(4,1fr)}
+  .caso{grid-template-columns:minmax(0,1fr) 250px 150px;align-items:center}
+  .ejes{grid-column:2;grid-row:1;grid-template-columns:repeat(5,1fr)}
+  .caso-n{grid-column:3;grid-row:1}
+  .eje i{width:10px}
+  .caso-n{justify-content:flex-end}
+  .duenos{grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:0 32px}
+  .dos{grid-template-columns:1fr 1fr;gap:48px}
+  .pasos{margin-top:44px}
+  .pasos::before{left:23px}
+  .paso{grid-template-columns:48px 200px minmax(0,1fr);gap:24px;padding-bottom:36px}
+  .paso-n{font-size:15px}
+  .paso-cuando{padding-top:4px}
+  .oris{grid-template-columns:repeat(3,1fr);gap:32px}
+  .defs{grid-template-columns:repeat(5,1fr);gap:24px}
+  .tramos{grid-template-columns:repeat(4,1fr);gap:28px}
+  .biblios{grid-template-columns:repeat(2,1fr);gap:0 40px}
+  .mant .tres{grid-template-columns:repeat(3,1fr);gap:0 32px}
+  .salidas{grid-template-columns:repeat(3,1fr)}
+}
+@media print{.top,.subnav,.btn{display:none}body{background:#fff;color:#000}}
+</style>
+</head><body>
+
+<header class="top"><div class="top-in">
+  <b>Cáscara Founders</b>
+  <span class="est">21 clientes · 9.9 de puntaje</span>
+  <a class="ir" href="clientes.html">Los clientes</a>
+</div></header>
+<nav class="subnav" aria-label="Secciones de la página"><div class="subnav-in"><a href="#estado">El estado</a><a href="#hoy">Hoy</a><a href="#que-es">Qué es</a><a href="#recorrido">El recorrido</a><a href="#puntaje">El puntaje</a><a href="#camada">La camada</a><a href="#materiales">Los materiales</a></div></nav>
+
+<!-- 01 · EN QUÉ ESTADO ESTÁ -->
+<section class="hero" id="estado"><div class="w">
+  <span class="kick">Torre de control · 12 de septiembre de 2026</span>
+  <h1>La camada, el programa y todo lo que está escrito</h1>
+  <p class="baja">Cáscara Founders en un solo lugar. Arriba, cómo viene cada uno. Abajo, cómo funciona el programa y dónde está cada documento.</p>
+  <div class="tablero">
+    <div><b>21</b><span>Clientes</span></div>
+    <div><b>9.9</b><span>Puntaje promedio</span></div>
+    <div><b>9</b><span>En cierre</span></div>
+    <div><b class="alerta">2</b><span>Ritmo en rojo</span></div>
+  </div>
+  <p class="sello">Se actualiza solo todas las mañanas con lo que salió de las llamadas del día anterior.</p>
+  <a class="btn" href="#hoy">Qué necesita atención</a>
+</div></section>
+
+<!-- 02 · QUÉ HAY QUE HACER HOY -->
+<section id="hoy"><div class="w">
+  <span class="lab">Lo primero</span>
+  <h2 class="tit">Quién necesita atención</h2>
+  <p class="baja">Los cinco puntajes más bajos de la camada. El eje en negrita es el más flojo: es por donde se trabaja. Tocá cualquiera para abrir su documento completo.</p>
+  <div style="margin-top:26px"><a class="caso" href="clientes/scarlett-montilla.html">
+  <span class="caso-id"><b>Scarlett Montilla</b><small>El cuello es la oferta sin forma, no el ritmo.</small></span>
+  <span class="ejes"><span class="eje f"><span class="n">Ofe</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje"><span class="n">Con</span><span class="b"><i></i><i></i><i class="v"></i><i class="v"></i></span></span><span class="eje f"><span class="n">Dem</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje f"><span class="n">Ven</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje"><span class="n">Ent</span><span class="b"><i></i><i></i><i class="v"></i><i class="v"></i></span></span></span>
+  <span class="caso-n"><span class="num">7</span><span class="chip warn">amarillo</span></span>
+</a><a class="caso" href="clientes/ayelen-cerqueira.html">
+  <span class="caso-id"><b>Ayelén Cerqueira</b><small>El cuello es el nombre de la oferta.</small></span>
+  <span class="ejes"><span class="eje f"><span class="n">Ofe</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje f"><span class="n">Con</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje"><span class="n">Dem</span><span class="b"><i></i><i></i><i class="v"></i><i class="v"></i></span></span><span class="eje f"><span class="n">Ven</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje"><span class="n">Ent</span><span class="b"><i></i><i></i><i></i><i class="v"></i></span></span></span>
+  <span class="caso-n"><span class="num">8</span><span class="chip ok">verde</span></span>
+</a><a class="caso" href="clientes/lucio-labate.html">
+  <span class="caso-id"><b>Lucio Labate</b><small>El cuello es que la oferta no está escrita, y sin destino escrito cada pieza tiene que resolver qué decir y para qué al mismo tiempo.</small></span>
+  <span class="ejes"><span class="eje f"><span class="n">Ofe</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje"><span class="n">Con</span><span class="b"><i></i><i></i><i class="v"></i><i class="v"></i></span></span><span class="eje f"><span class="n">Dem</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje f"><span class="n">Ven</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje"><span class="n">Ent</span><span class="b"><i></i><i></i><i></i><i class="v"></i></span></span></span>
+  <span class="caso-n"><span class="num">8</span><span class="chip warn">amarillo</span></span>
+</a><a class="caso" href="clientes/aaron-aiello.html">
+  <span class="caso-id"><b>Aaron Aiello</b><small>El cuello es que no definió qué quiere hacer con su exposición, y sin eso la oferta y el contenido no tienen de dónde agarrarse.</small></span>
+  <span class="ejes"><span class="eje f"><span class="n">Ofe</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje"><span class="n">Con</span><span class="b"><i></i><i></i><i class="v"></i><i class="v"></i></span></span><span class="eje f"><span class="n">Dem</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje"><span class="n">Ven</span><span class="b"><i></i><i></i><i class="v"></i><i class="v"></i></span></span><span class="eje"><span class="n">Ent</span><span class="b"><i></i><i></i><i></i><i class="v"></i></span></span></span>
+  <span class="caso-n"><span class="num">9</span><span class="chip ok">verde</span></span>
+</a><a class="caso" href="clientes/antonio-mazzello.html">
+  <span class="caso-id"><b>Antonio Mazzello</b><small>No hay quien sostenga la operación de contenido.</small></span>
+  <span class="ejes"><span class="eje"><span class="n">Ofe</span><span class="b"><i></i><i></i><i></i><i class="v"></i></span></span><span class="eje f"><span class="n">Con</span><span class="b"><i class="v"></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span><span class="eje"><span class="n">Dem</span><span class="b"><i></i><i></i><i></i><i class="v"></i></span></span><span class="eje"><span class="n">Ven</span><span class="b"><i></i><i></i><i class="v"></i><i class="v"></i></span></span><span class="eje"><span class="n">Ent</span><span class="b"><i></i><i class="v"></i><i class="v"></i><i class="v"></i></span></span></span>
+  <span class="caso-n"><span class="num">9</span><span class="chip bad">rojo</span></span>
+</a></div>
+  <a class="btn" style="margin-top:26px" href="clientes.html">Ver los 21</a>
+
+  <div style="margin-top:64px">
+    <span class="lab">Del lado de Cáscara</span>
+    <h2 class="tit">Qué le toca a cada uno en septiembre</h2>
+    <p class="baja">Sale de las fichas de los clientes, agrupado por quién lo tiene.</p>
+    <div class="duenos"><div class="duen">
+  <h3>Facu</h3><span class="cuenta num">24</span>
+  <ul><li><b>Scarlett Montilla</b>Facu le manda a Franco las conclusiones de la Clarity Call</li><li><b>Ayelén Cerqueira</b>Facu agenda la reunión de Aye con Franco</li><li><b>Lucio Labate</b>Facu le pasa a Franco el transcript de la llamada del 1 de septiembre para que llegue con contexto</li><li><b>Lucio Labate</b>Facu le baja el bloque de accionables del profile funnel y los SOP del perfil</li></ul>
+  <p class="mas">y 20 más</p>
+</div><div class="duen">
+  <h3>Franco</h3><span class="cuenta num">8</span>
+  <ul><li><b>Lucio Labate</b>Franco define con él la oferta en dos niveles, el buyer prioritario y el precio</li><li><b>Aaron Aiello</b>Franco trabaja con ellos los cinco puntos: ICP y avatar, promesa central, escalera de valor, la cohorte de cuatro semanas y el posicionamiento en subcategoría</li><li><b>Piero Medina y Juan — Custom Lab</b>Franco cierra con ellos la oferta y el pricing en la llamada que tienen agendada</li><li><b>José David Fajardo Guaqueta</b>Franco define con él la promesa, la métrica, el plazo y el precio de la oferta nueva</li></ul>
+  <p class="mas">y 4 más</p>
+</div><div class="duen">
+  <h3>Teo</h3><span class="cuenta num">10</span>
+  <ul><li><b>Ayelén Cerqueira</b>Teo hace el sign-off de Cáscara Founders con este documento</li><li><b>Aaron Aiello</b>Teo le pasa la plantilla del formulario de feedback para auditar a los clientes actuales</li><li><b>Antonio Mazzello</b>Teo hace el sign-off y entrega este documento</li><li><b>Manuel Bruzzone</b>Teo hace el sign-off y entrega este documento</li></ul>
+  <p class="mas">y 6 más</p>
+</div><div class="duen">
+  <h3>Juana</h3><span class="cuenta num">4</span>
+  <ul><li><b>Scarlett Montilla</b>Juana toma la sesión de narrativa con los Founder Insights revisitados</li><li><b>Aaron Aiello</b>Juana trabaja en la grupal cómo mostrar la calidez sin perder la estructura que a él le gusta</li><li><b>Sebastián Martínez</b>Juana trabaja con él en la grupal los formatos creativos, porque lo que vende es creatividad</li><li><b>Lola Berutti</b>Juana la acompaña en la construcción del arco narrativo en las grupales de los jueves</li></ul>
+  
+</div><div class="duen">
+  <h3>Fede</h3><span class="cuenta num">5</span>
+  <ul><li><b>Aaron Aiello</b>Fede sostiene el seguimiento de la marca personal y del volumen de contenido</li><li><b>José David Fajardo Guaqueta</b>Fede sostiene el seguimiento del perfil y del contenido en la grupal de los viernes</li><li><b>Sebastián Martínez</b>Fede le baja los criterios del profile funnel y del volumen de contenido</li><li><b>Sofía Galvis Montoya</b>Fede convierte el calendario de Franco en formatos y le marca cómo comunicar</li></ul>
+  <p class="mas">y 1 más</p>
+</div></div>
+  </div>
+</div></section>
+
+<!-- 03 · QUÉ ES -->
+<section id="que-es"><div class="w">
+  <span class="lab">Qué es</span>
+  <p class="regla" style="margin-top:14px">Cáscara diseña el sistema, baja la estrategia y acompaña. El founder ejecuta.</p>
+  <div class="dos">
+    <p>Cáscara Founders es la aceleradora unificada de Cáscara y F3: noventa días, camada cerrada de 16 cupos, USD 3.500 al contado o 4.000 en cuotas. Diez sesiones uno a uno con los founders, tres grupales por semana y un roadmap que se actualiza los tres meses. Nosotros diseñamos el sistema y bajamos la estrategia; el founder ejecuta.</p>
+    <p>El perfil que busca la oferta: gente que ya tiene un negocio andando y quiere operar con criterio de founder y decidir más rápido. No es para alguien que arranca de cero ni para quien viene a que le ejecutemos la operación: el trabajo del founder dentro del programa es ejecutar.</p>
+  </div>
+  <a class="btn" style="margin-top:30px" href="programa.html">Cómo funciona en detalle</a>
+</div></section>
+
+<!-- 04 · EL RECORRIDO -->
+<section id="recorrido"><div class="w">
+  <span class="lab">Noventa días</span>
+  <h2 class="tit">El recorrido de un founder</h2>
+  <p class="baja">Desde el onboarding hasta el cierre, en el orden real en que pasa. Diez sesiones uno a uno y trece semanas de grupales.</p>
+  <ol class="pasos"><li class="paso">
+  <span class="paso-n num">01</span>
+  <div class="paso-c">
+    <span class="paso-cuando">Día 0 · ventana de 48 horas</span>
+    <h3>Onboarding con Teo</h3>
+    <p>Se dispara con la confirmación de pago: contrato, alta, entrega de materiales y recordatorio de formularios a las 48 y 96 horas. Teo crea la ficha en Cuentas, el OS del cliente, el grupo de WhatsApp y el acceso a la app. El founder completa diagnóstico, números, oferta y Founder Insights. Se le explica cómo consumir el programa, el mapa de mentores y el modelo de conducta.</p>
+  </div>
+</li><li class="paso">
+  <span class="paso-n num">02</span>
+  <div class="paso-c">
+    <span class="paso-cuando">Semana 1</span>
+    <h3>Las tres grupales y la Clarity Call con Facu</h3>
+    <p>Arranca con la grupal de Teo (bienvenida, setup y calendario), sigue la de Juana (definición de audiencia) y la de Fede (línea editorial y ángulos). Cierra con la Clarity Call de Facu: diagnóstico, cuello de botella y prioridad de ataque. Facu lee antes todos los Founder Insights y formularios. Sin formularios completos no hay Clarity Call: el día 5 escala Teo y el día 7 se corre la llamada. De ahí salen las conclusiones que van a Franco.</p>
+  </div>
+</li><li class="paso">
+  <span class="paso-n num">03</span>
+  <div class="paso-c">
+    <span class="paso-cuando">Semana 2</span>
+    <h3>Producto, oferta y lanzamiento con Franco</h3>
+    <p>El founder llega con el formulario de construcción de oferta respondido: 40 preguntas en 8 bloques sobre resultado, paso a paso, módulos, cliente y precio. Sale el one-pager de oferta con el ICP. La arquitectura que se baja es asesoría paga única y diagnóstica que se acredita a la consultoría, la consultoría de 90 días como oferta principal y única pública, y el DFY arriba como upsell. Se valida con precio, nunca gratis.</p>
+  </div>
+</li><li class="paso">
+  <span class="paso-n num">04</span>
+  <div class="paso-c">
+    <span class="paso-cuando">Semana 3</span>
+    <h3>Selección de foco con Facu</h3>
+    <p>Se elige una sola orientación con tres preguntas en orden de prioridad: ¿llegan y cierran consultas?, ¿la demanda depende de su energía?, ¿la entrega le come el tiempo? La primera negativa define la ruta y ante empate se va hacia lo más cerca del dinero. La decisión es de Facu.</p>
+  </div>
+</li><li class="paso">
+  <span class="paso-n num">05</span>
+  <div class="paso-c">
+    <span class="paso-cuando">Fin del mes 1</span>
+    <h3>Radiografía y roadmap</h3>
+    <p>Se junta todo lo que hubo con esa persona (llamadas, propuestas enviadas, Founder Insights, updates de WhatsApp) y se escribe un solo documento: punto A con hechos, lectura del caso con un único cuello de botella, punto B medible con fecha, qué pasó hasta hoy, qué salió bien y qué no contra la métrica declarada, y el roadmap de 8 semanas de esa orientación con objetivo y entregable por semana. Los compromisos quedan de los dos lados, con fecha y responsabilidad 50/50 explícita. Crear contenido es condición para entrar al mes 2.</p>
+  </div>
+</li><li class="paso">
+  <span class="paso-n num">06</span>
+  <div class="paso-c">
+    <span class="paso-cuando">Mes 2 · cuatro sesiones 1:1</span>
+    <h3>El servicio</h3>
+    <p>Cuatro uno a uno alternadas: oferta y pricing con Franco, estructura de entrega con Facu, adquisición y ventas con Franco, y cierre de mes 2 con Facu. Las tres grupales siguen corriendo; lo que termina acá es la presencia de Facu y Franco en grupales, que pasan a atender solo uno a uno.</p>
+  </div>
+</li><li class="paso">
+  <span class="paso-n num">07</span>
+  <div class="paso-c">
+    <span class="paso-cuando">Mes 3 · tres sesiones 1:1</span>
+    <h3>El cierre</h3>
+    <p>Apertura del mes 3 con Franco, ejecución sobre el foco con Facu, y cierre, sign-off y roadmap a 6 meses con Teo. En el cierre se suma el paquete de entregables que el founder ejecuta solo y la recomendación: renovar con módulo, pasar a growth partner u offboarding como caso de éxito con testimonio.</p>
+  </div>
+</li><li class="paso">
+  <span class="paso-n num">08</span>
+  <div class="paso-c">
+    <span class="paso-cuando">Los 90 días · transversal</span>
+    <h3>Diez uno a uno y trece semanas de grupales</h3>
+    <p>En total son 10 sesiones uno a uno por founder: tres en el mes 1, cuatro en el mes 2 y tres en el mes 3, con tema, fecha y mentor definidos desde el día 1. Cinco de esas diez son de Facu. Las tres grupales corren las trece semanas sin interrupción y hay un encargado del equipo siguiendo la evolución de forma continua. Con 16 cupos son 80 sesiones por camada.</p>
+  </div>
+</li></ol>
+</div></section>
+
+<section class="mant" style="border-top:0"><div class="w">
+  <span class="lab" style="color:#7A7A82">Terminado el primer mes</span>
+  <h2 class="tit" style="color:#FBFAF8">Se elige una sola orientación</h2>
+  <p class="baja">No son caminos exactos: son conjuntos de módulos. El cliente tiene que saber en cuál está, y el número al lado es cuántos hay hoy en cada una.</p>
+  <div class="oris"><div class="ori">
+  <div class="ori-h"><h3>Conseguir</h3><span class="cuenta num">11</span></div>
+  <p class="ori-lider">oferta y ventas · lo lidera Franco</p>
+  <p>Se trabaja la oferta, el pricing y el proceso de ventas. El resultado a 60 días son los primeros cierres con el sistema nuevo. En el puntaje es la ruta que marcan los ejes de Oferta y de Venta cuando alguno de los dos es el más bajo.</p>
+</div><div class="ori">
+  <div class="ori-h"><h3>Sostener</h3><span class="cuenta num">6</span></div>
+  <p class="ori-lider">demanda y contenido · lo lidera Fede</p>
+  <p>Se trabaja contenido, audiencia y delegación de la producción. El resultado a 60 días es un ritmo de publicación que se sostiene solo. En el puntaje es la ruta que marcan los ejes de Contenido y de Demanda.</p>
+</div><div class="ori">
+  <div class="ori-h"><h3>Entregar</h3><span class="cuenta num">4</span></div>
+  <p class="ori-lider">estructura y servicio · lo lidera Facu</p>
+  <p>Se trabaja el proceso de servicio, la capacidad y el equipo. El resultado a 60 días es la misma entrega con menos horas propias. En el puntaje es la ruta que marca el eje de Entrega.</p>
+</div></div>
+</div></section>
+
+<!-- 05 · CÓMO SE MIDE -->
+<section id="puntaje"><div class="w">
+  <span class="lab">Cómo se mide</span>
+  <h2 class="tit">El puntaje</h2>
+  <p class="baja">Cinco ejes de cero a cuatro sobre el estado del negocio, veinte en total. El número de cada eje es el promedio de la camada entera: muestra dónde estamos flojos todos juntos.</p>
+  <div class="defs"><div class="def">
+  <div class="def-h"><span class="lab">Oferta</span><span class="def-p num">2.1</span></div>
+  <div class="med"><span style="width:53.8%"></span></div>
+  <p>Qué vende, a quién y a qué precio. Escrita, no en la cabeza.</p>
+</div><div class="def">
+  <div class="def-h"><span class="lab">Contenido</span><span class="def-p num">1.7</span></div>
+  <div class="med"><span style="width:42.5%"></span></div>
+  <p>Volumen y criterio sostenidos, no piezas sueltas.</p>
+</div><div class="def">
+  <div class="def-h"><span class="lab">Demanda</span><span class="def-p num">1.9</span></div>
+  <div class="med"><span style="width:47.5%"></span></div>
+  <p>Conversaciones que entran sin que salga a buscarlas.</p>
+</div><div class="def">
+  <div class="def-h"><span class="lab">Venta</span><span class="def-p num">1.7</span></div>
+  <div class="med"><span style="width:42.5%"></span></div>
+  <p>Lo que convierte esa conversación en plata: embudo, llamada, cierre, precio validado.</p>
+</div><div class="def">
+  <div class="def-h"><span class="lab">Entrega</span><span class="def-p num">2.5</span></div>
+  <div class="med"><span style="width:62.5%"></span></div>
+  <p>Puede cumplir lo que vende sin romperse.</p>
+</div></div>
+  <p class="baja" style="margin-top:34px">El ritmo va aparte y mide a la persona, no al negocio. Verde: hace lo que queda de cada llamada. Amarillo: avanza a los tirones. Rojo: hace tiempo que no mueve.</p>
+</div></section>
+
+<!-- 06 · LA CAMADA -->
+<section id="camada"><div class="w">
+  <span class="lab">Dónde está parada</span>
+  <h2 class="tit">La camada, por tramo</h2>
+  <p class="baja">Cuántos hay en cada tramo del puntaje. Es la foto de la operación: si el grueso está en construcción, el trabajo del mes es empujar hacia andando.</p>
+  <div class="tramos"><div class="tramo">
+  <div class="tramo-h"><span class="lab">Arranque</span><span class="num">1</span></div>
+  <div class="med alt"><span style="width:6%"></span></div>
+</div><div class="tramo">
+  <div class="tramo-h"><span class="lab">En construcción</span><span class="num">18</span></div>
+  <div class="med alt"><span style="width:100%"></span></div>
+</div><div class="tramo">
+  <div class="tramo-h"><span class="lab">Andando</span><span class="num">1</span></div>
+  <div class="med alt"><span style="width:6%"></span></div>
+</div><div class="tramo">
+  <div class="tramo-h"><span class="lab">Listo para cerrar</span><span class="num">0</span></div>
+  <div class="med alt"><span style="width:0%"></span></div>
+</div></div>
+</div></section>
+
+<!-- 07 · LOS MATERIALES -->
+<section id="materiales"><div class="w">
+  <span class="lab">La biblioteca</span>
+  <h2 class="tit">Todo lo que está escrito</h2>
+  <p class="baja">Todo lo que está escrito de Cáscara Founders, en un solo lugar: lo que se le muestra al cliente, lo que sale de cada cliente, los contratos y los documentos con los que trabaja el equipo. Cada pieza dice en qué estado está y en qué formato se abre. Lo que todavía no existe también figura, para no buscarlo dos veces.</p>
+  <div class="biblios"><a class="biblio" href="materiales.html">
+  <span class="lab">La oferta y lo comercial</span>
+  <span class="biblio-n num">6</span>
+  <p>Es lo que se muestra afuera y lo que manda adentro. La plataforma de la aceleradora es la fuente de verdad: si algo contradice al informe maestro, gana el informe maestro.</p>
+</a><a class="biblio" href="materiales.html">
+  <span class="lab">Los documentos de cliente</span>
+  <span class="biblio-n num">8</span>
+  <p>Todo lo que sale del proceso de un founder. La radiografía es siempre el mismo documento: al final del mes 1, al final de cada mes y al cierre. Punto A con hechos, un solo cuello de botella, punto B con fecha y el roadmap de ocho semanas.</p>
+</a><a class="biblio" href="materiales.html">
+  <span class="lab">Los contratos</span>
+  <span class="biblio-n num">6</span>
+  <p>El único hueco grande de la biblioteca. La aceleradora todavía no tiene contrato propio y hay que escribirlo antes de vender la primera camada.</p>
+</a><a class="biblio" href="materiales.html">
+  <span class="lab">Los procesos internos</span>
+  <span class="biblio-n num">10</span>
+  <p>Los documentos con los que trabaja el equipo. No se muestran afuera. Se revisan, no se rehacen.</p>
+</a></div>
+  <a class="btn" style="margin-top:28px" href="materiales.html">Entrar a la biblioteca</a>
+</div></section>
+
+<!-- 08 · CÓMO SE MANTIENE -->
+<section class="mant"><div class="w">
+  <span class="lab" style="color:#7A7A82">Cómo se mantiene</span>
+  <h2 class="tit" style="color:#FBFAF8">Nadie lo actualiza a mano</h2>
+  <div class="tres">
+    <div><span class="lab">Todas las mañanas</span>
+      <p>Una tarea barre las llamadas nuevas, actualiza la ficha de cada cliente que aparece, recalcula el puntaje si un eje se movió y vuelve a publicar. Si no hubo llamadas nuevas, no toca nada.</p></div>
+    <div><span class="lab">Dónde vive el dato</span>
+      <p>Las fichas viven en el Project de Cáscara, en un solo archivo. Los estados y las fechas, en la base Cuentas de Notion. El sitio se genera desde ahí, nunca al revés.</p></div>
+    <div><span class="lab">Quién lo toca</span>
+      <p>Facu desarrolla los informes y los cierres. Teo hace las llamadas de sign-off y los onboardings. El sitio se regenera con un comando.</p></div>
+  </div>
+  <div class="salidas">
+    <a class="salida" href="programa.html"><b>El programa</b><span>01</span></a>
+    <a class="salida" href="materiales.html"><b>Los materiales</b><span>02</span></a>
+    <a class="salida" href="clientes.html"><b>Los clientes</b><span>03</span></a>
+  </div>
+</div></section>
+
+<footer><div class="w">
+  <span>Cáscara Founders · Cáscara Collective</span>
+  <span>Actualizado el 12 de septiembre de 2026</span>
+</div></footer>
+
+</body></html>

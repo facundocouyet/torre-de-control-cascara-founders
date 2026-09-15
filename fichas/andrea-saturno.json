@@ -5,9 +5,9 @@
  "modo": "cierre",
  "orientacion": "Sostener",
  "arranque": "(falta confirmar) — ya estaba en las llamadas de Network F3 el 21 de mayo de 2026",
- "etapa": "Se cierra el acompañamiento: la agencia está entregando y las Bonfire Sessions llegan a este final armadas y todavía sin fecha de salida.",
- "metrica": "Las Bonfire Sessions con fecha de salida. Al 2 de septiembre, sin fecha.",
- "titular": "Andrea cierra con la agencia entregando y las Bonfire Sessions armadas. El trabajo de este tramo es ponerles fecha de salida.",
+ "etapa": "Se cierra el acompañamiento: la agencia está entregando y las Onfire Sessions llegan a este final armadas y todavía sin fecha de salida.",
+ "metrica": "Las Onfire Sessions con fecha de salida. Al 2 de septiembre, sin fecha.",
+ "titular": "Andrea cierra con la agencia entregando y las Onfire Sessions armadas. El trabajo de este tramo es ponerles fecha de salida.",
  "bajada": "La agencia está llena de trabajo y ella está adentro de la producción. El formato propio quedó detrás de los clientes. El cierre es un sprint corto hasta fin de septiembre para dejar la fecha puesta antes del viaje.",
  "punto_a": [
   {
@@ -22,13 +22,13 @@
   },
   {
    "label": "Pendiente",
-   "titulo": "Las Bonfire Sessions",
+   "titulo": "Las Onfire Sessions",
    "texto": "Es el objetivo con el que Andrea entró y sigue sin fecha. Hizo bastantes cambios en el camino y el formato se movió, pero nunca se fijó un día de salida. Facu está esperando que ella le pase la fecha. La medición empieza el día que haya fecha."
   }
  ],
  "recorrido": {
   "titulo": "Cuatro meses que ordenaron la agencia por dentro",
-  "texto": "Andrea entró por la red de F3, con el vínculo comercial mezclado con Franco, y eso condiciona cómo se cierra. El trabajo más productivo del tramo fue el de procesos con Teo: documentar las operaciones desde el día uno, el sistema mínimo de cuatro partes y un solo pipeline en Notion que va del lead a la venta. Esa parte queda escrita y la agencia la puede usar mañana. Del lado de contenido, el marco de narrativa de Fede le dio una estructura de producción que antes resolvía a ojo, y el ejercicio con Juana dejó dos definiciones suyas: prefiere el carrusel por flexibilidad y por cómo la posiciona, y para aparecer frente a cámara propuso el formato reunión de equipo. El vlog documental quedó elegido como la pieza a sacar, con el compromiso del grupo de grabar el sábado y publicar el lunes. Las Bonfire Sessions cambiaron de forma varias veces en estos meses y nunca llegaron al calendario. Andrea sale con la operación de la agencia mucho más ordenada que su propio canal.",
+  "texto": "Andrea entró por la red de F3, con el vínculo comercial mezclado con Franco, y eso condiciona cómo se cierra. El trabajo más productivo del tramo fue el de procesos con Teo: documentar las operaciones desde el día uno, el sistema mínimo de cuatro partes y un solo pipeline en Notion que va del lead a la venta. Esa parte queda escrita y la agencia la puede usar mañana. Del lado de contenido, el marco de narrativa de Fede le dio una estructura de producción que antes resolvía a ojo, y el ejercicio con Juana dejó dos definiciones suyas: prefiere el carrusel por flexibilidad y por cómo la posiciona, y para aparecer frente a cámara propuso el formato reunión de equipo. El vlog documental quedó elegido como la pieza a sacar, con el compromiso del grupo de grabar el sábado y publicar el lunes. Las Onfire Sessions cambiaron de forma varias veces en estos meses y nunca llegaron al calendario. Andrea sale con la operación de la agencia mucho más ordenada que su propio canal.",
   "hitos": [
    {
     "cuando": "21 may",
@@ -58,7 +58,7 @@
  },
  "lectura": {
   "titular": "El cuello es la fecha.",
-  "texto": "Las Bonfire Sessions tienen forma, tienen cambios encima y tienen un marco de narrativa para producirlas. Lo que falta es un día en el calendario. Mientras el avance se mida por la producción de clientes, el formato propio se sigue corriendo. Una fecha resuelve más que otra vuelta de definición.",
+  "texto": "Las Onfire Sessions tienen forma, tienen cambios encima y tienen un marco de narrativa para producirlas. Lo que falta es un día en el calendario. Mientras el avance se mida por la producción de clientes, el formato propio se sigue corriendo. Una fecha resuelve más que otra vuelta de definición.",
   "cita": "",
   "cita_autor": ""
  },
@@ -103,10 +103,10 @@
   },
   {
    "que": "El pipeline de siete campos armado en Notion",
-   "para": "Carga ahí cada lead de la agencia y los contactos que salgan de la primera Bonfire Session."
+   "para": "Carga ahí cada lead de la agencia y los contactos que salgan de la primera Onfire Session."
   },
   {
-   "que": "La hoja de las Bonfire Sessions, para completar",
+   "que": "La hoja de las Onfire Sessions, para completar",
    "para": "La llena ella: qué es, para quién, cada cuánto, dónde y qué se lleva el que va. De esa hoja sale la fecha."
   },
   {
@@ -118,25 +118,25 @@
   {
    "fecha": "18 de septiembre de 2026",
    "titulo": "La fecha puesta, antes del viaje",
-   "texto": "Un día concreto para la primera Bonfire Session, con hora y comunicado. Si el viaje se interpone, la fecha se corre una sola vez y se avisa. El viaje entra al plan como una variable conocida, con la fecha ya escrita."
+   "texto": "Un día concreto para la primera Onfire Session, con hora y comunicado. Si el viaje se interpone, la fecha se corre una sola vez y se avisa. El viaje entra al plan como una variable conocida, con la fecha ya escrita."
   },
   {
    "fecha": "6 de noviembre de 2026",
    "titulo": "La primera sesión hecha y documentada",
-   "texto": "Una Bonfire Session ocurrida, con registro. El vlog documental de la agencia usado como el contenido que la antecede y la cuenta, con el marco de Fede: cultura, oportunidad, prueba, producto y llamado a la acción. De ahí sale la prueba para la segunda."
+   "texto": "Una Onfire Session ocurrida, con registro. El vlog documental de la agencia usado como el contenido que la antecede y la cuenta, con el marco de Fede: cultura, oportunidad, prueba, producto y llamado a la acción. De ahí sale la prueba para la segunda."
   }
  ],
  "roadmap": [
   {
    "cuando": "14 al 16 de septiembre",
-   "objetivo": "Cerrar qué son las Bonfire Sessions en una hoja",
+   "objetivo": "Cerrar qué son las Onfire Sessions en una hoja",
    "entregable": "Una página: qué es, para quién, cada cuánto, dónde y qué se lleva el que va. Sale en tres días, porque la fecha depende de saber qué se está convocando. Si queda una duda, se resuelve en la grupal del martes con Teo.",
    "quien": "Andrea"
   },
   {
    "cuando": "18 de septiembre",
    "objetivo": "La fecha de la primera sesión, publicada",
-   "entregable": "Fecha dura. Día y hora de la primera Bonfire Session, pasados a Facu y anunciados en el canal donde ya hay gente escuchando. Queda escrita antes del viaje: si el viaje se interpone, se corre una sola vez y se avisa.",
+   "entregable": "Fecha dura. Día y hora de la primera Onfire Session, pasados a Facu y anunciados en el canal donde ya hay gente escuchando. Queda escrita antes del viaje: si el viaje se interpone, se corre una sola vez y se avisa.",
    "quien": "Andrea"
   },
   {
@@ -168,7 +168,7 @@
   {
    "cuando": "Septiembre",
    "cliente": [
-    "Escribir la hoja de qué son las Bonfire Sessions",
+    "Escribir la hoja de qué son las Onfire Sessions",
     "Pasarle la fecha a Facu y publicarla",
     "Grabar y publicar el vlog documental de la agencia con Sophie"
    ],
@@ -191,7 +191,7 @@
   {
    "cuando": "Noviembre",
    "cliente": [
-    "Hacer la primera Bonfire Session",
+    "Hacer la primera Onfire Session",
     "Registrarla en video y foto",
     "Leer los números y decidir la segunda"
    ],
@@ -200,9 +200,9 @@
    ]
   }
  ],
- "conclusion": "La agencia tiene demanda y capacidad de entrega, y ahora tiene la parte operativa escrita: un pipeline único y un proceso de producción de contenido que antes se resolvía de memoria. La dirección del negocio es que la agencia tenga una entrada propia, con gente que pasa por una sesión y queda cargada en el pipeline, en lugar de depender del trabajo que llega por conocidos. Las Bonfire Sessions son la forma que Andrea eligió para abrir ese canal, y si en noviembre la primera ocurre y deja contactos adentro, la conversación de Cáscara Growth tiene de dónde agarrarse.\n\nEl acompañamiento cierra acá, así que las fechas que se aprietan son las suyas y son pocas. La hoja sale en tres días y el día y la hora de la primera sesión quedan publicados el 18 de septiembre: esa es la fecha dura, y se pone ahora para que la escriba ella y no el viaje. El vlog se graba y se publica en la misma ventana, porque los dos frentes se alimentan: la pieza es lo que le da motivo a la convocatoria. Y la sesión se corre a la primera semana de noviembre, apenas vuelve. La razón para apurar es concreta en este caso: el formato lleva meses cambiando de forma y una fecha publicada es lo que lo saca del terreno de la definición. Anunciar algo antes de sentirlo terminado es parte del trabajo de founder, y acá es el único movimiento que falta.\n\nEl frente que queda abierto es la fecha del viaje y, con eso, el margen real de la primera sesión (falta confirmar). Se administra con la fecha ya escrita y una sola corrida avisada.",
- "carta": "Andrea, en estos meses ordenaste por dentro una agencia que ya estaba funcionando por fuera, y eso es más difícil de lo que parece: se hace con la producción encima. Te llevás un pipeline, un proceso de producción y un criterio de grabación que antes vivían en tu cabeza y ahora están escritos. Lo que te espera es más simple que todo eso: un día en el calendario. Cuando la primera Bonfire Session exista, vas a tener algo que hoy no tenés, que es una puerta de entrada propia a la agencia. Te va a hacer llegar la misma cosa que te trajo hasta acá: elegir una y sostenerla, aunque no salga perfecta. Acá estamos si querés una llamada más antes de cerrar, y las grupales quedan abiertas hasta fin de mes.",
- "abierto": "La fecha del viaje de Andrea y, con eso, la fecha real de la primera Bonfire Session (falta confirmar).",
+ "conclusion": "La agencia tiene demanda y capacidad de entrega, y ahora tiene la parte operativa escrita: un pipeline único y un proceso de producción de contenido que antes se resolvía de memoria. La dirección del negocio es que la agencia tenga una entrada propia, con gente que pasa por una sesión y queda cargada en el pipeline, en lugar de depender del trabajo que llega por conocidos. Las Onfire Sessions son la forma que Andrea eligió para abrir ese canal, y si en noviembre la primera ocurre y deja contactos adentro, la conversación de Cáscara Growth tiene de dónde agarrarse.\n\nEl acompañamiento cierra acá, así que las fechas que se aprietan son las suyas y son pocas. La hoja sale en tres días y el día y la hora de la primera sesión quedan publicados el 18 de septiembre: esa es la fecha dura, y se pone ahora para que la escriba ella y no el viaje. El vlog se graba y se publica en la misma ventana, porque los dos frentes se alimentan: la pieza es lo que le da motivo a la convocatoria. Y la sesión se corre a la primera semana de noviembre, apenas vuelve. La razón para apurar es concreta en este caso: el formato lleva meses cambiando de forma y una fecha publicada es lo que lo saca del terreno de la definición. Anunciar algo antes de sentirlo terminado es parte del trabajo de founder, y acá es el único movimiento que falta.\n\nEl frente que queda abierto es la fecha del viaje y, con eso, el margen real de la primera sesión (falta confirmar). Se administra con la fecha ya escrita y una sola corrida avisada.",
+ "carta": "Andrea, en estos meses ordenaste por dentro una agencia que ya estaba funcionando por fuera, y eso es más difícil de lo que parece: se hace con la producción encima. Te llevás un pipeline, un proceso de producción y un criterio de grabación que antes vivían en tu cabeza y ahora están escritos. Lo que te espera es más simple que todo eso: un día en el calendario. Cuando la primera Onfire Session exista, vas a tener algo que hoy no tenés, que es una puerta de entrada propia a la agencia. Te va a hacer llegar la misma cosa que te trajo hasta acá: elegir una y sostenerla, aunque no salga perfecta. Acá estamos si querés una llamada más antes de cerrar, y las grupales quedan abiertas hasta fin de mes.",
+ "abierto": "La fecha del viaje de Andrea y, con eso, la fecha real de la primera Onfire Session (falta confirmar).",
  "handicap": {
   "ejes": {
    "oferta": 1,
@@ -225,6 +225,6 @@
    "Conseguir",
    "Sostener"
   ],
-  "nota": "Se puntúan las Bonfire Sessions, que es lo que trabaja el roadmap; la agencia con Sophie factura y entrega, y eso queda afuera del puntaje. Cuatro empatan abajo y manda contenido: sin una pieza publicada, la fecha de la primera sesión es lo único que empieza a mover algo."
+  "nota": "Se puntúan las Onfire Sessions, que es lo que trabaja el roadmap; la agencia con Sophie factura y entrega, y eso queda afuera del puntaje. Cuatro empatan abajo y manda contenido: sin una pieza publicada, la fecha de la primera sesión es lo único que empieza a mover algo."
  }
 }

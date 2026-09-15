@@ -1,63 +1,111 @@
-# Contexto para Claude Code
+# Torre de control de Cáscara Founders
 
-Este repo es la **torre de control de Cáscara Founders**: el tablero interno con la camada de
-clientes, el puntaje de cada uno y los documentos de founder. Leé `README.md` antes de tocar nada.
+Este repo genera todo lo que Cáscara Founders publica: los documentos de cada founder, la torre de
+control, las cuarenta cartas con sus plantillas, el handoff para el equipo y el documento del rol.
+Leé `README.md` antes de tocar nada.
 
 ## Dónde vive
 
 `https://github.com/facundocouyet/torre-de-control-cascara-founders`, público, cuenta
 `facundocouyet`. GitHub Pages lo sirve desde `main` en
 `https://facundocouyet.github.io/torre-de-control-cascara-founders/`, y `robots.txt` lo deja fuera
-de los buscadores. El remoto `origin` ya está configurado y `main` sigue a `origin/main`.
-Se mantiene actualizado desde Cowork, así que el repo tiene que estar entre las fuentes
-autorizadas de la sesión de Cowork para que pueda empujar sin pasar por Code.
+de los buscadores. Se mantiene desde Cowork y desde la tarea programada de `agente/`, así que el
+repo tiene que estar entre las fuentes autorizadas de esas sesiones para que puedan empujar.
+
+## Cómo está armado
+
+```
+fichas/                 la fuente de verdad
+  <slug>.json           una ficha por founder, 22 claves (esquema v2)
+  inventario.json       las 40 cartas: categoría, pasos, qué completa el founder, herramientas
+  plantillas/*.json     la hoja que completa el founder para cada carta
+contenido/              lo que no es de un founder: panel, programa, materiales y arranques
+generador/              los scripts que convierten las fichas en HTML
+sistema/                el rol de líder y las reglas de redacción
+agente/                 el prompt de la tarea programada diaria
+assets/                 founders.css, los logos y el favicon
+clientes/               los documentos generados, uno por founder
+cartas/ plantillas/     las cartas y sus hojas, generadas
+index.html              la torre de control
+```
 
 ## Cómo se regenera todo
 
-Python 3, sin dependencias. El orden importa.
+Python 3, sin dependencias. Todas las rutas son relativas a la raíz del repo y los scripts corren
+desde cualquier directorio. Los cuatro primeros van en ese orden; el resto es independiente.
 
 ```bash
-python3 generador/build2.py      # documentos de cliente, desde fichas/  -> clientes/<slug>.html
-python3 generador/build_app.py   # datos de la app, desde el registro    -> contenido/app-data.json
-python3 generador/app_shell.py   # la app                                -> index.html
-python3 generador/build_site.py  # la versión de scroll -> inicio.html, programa.html,
-                                 #   materiales.html, clientes.html
+python3 generador/build2.py            # documentos de cliente, desde fichas/   -> clientes/<slug>.html
+python3 generador/build_app.py         # datos de la app, desde el registro     -> contenido/app-data.json
+python3 generador/app_shell.py         # la torre de control                    -> index.html
+python3 generador/build_site.py        # la versión de scroll -> inicio.html, programa.html,
+                                       #   materiales.html, clientes.html
+python3 generador/build_cartas.py      # las cartas, desde fichas/inventario.json -> cartas/
+python3 generador/build_plantillas.py  # las hojas, desde fichas/plantillas/    -> plantillas/
+python3 generador/build_cards.py       # el reparto de cartas por dueño         -> cards-por-dueno.html
+python3 generador/build_rol.py         # el documento del rol                   -> rol-lider-founders.html
+python3 generador/build_ally.py        # el handoff del equipo                  -> founders-handoff-aye.html
 ```
 
-Todas las rutas son relativas a la raíz del repo y los cuatro scripts corren desde cualquier
-directorio. `contenido/app-data.json` es intermedio: lo escribe `build_app.py`, lo lee
-`app_shell.py` y no se commitea.
+- `contenido/app-data.json` es intermedio: lo escribe `build_app.py`, lo lee `app_shell.py` y no se
+  commitea.
+- `fichas/` guarda también `inventario.json`. Los scripts que recorren las fichas de founder lo
+  saltean; si agregás uno que las recorra, tiene que saltearlo también.
+- `generador/build.py` es el generador v1. `build2.py` y `build_cartas.py` lo importan como librería
+  para los paneles, los colores y el shell, así que su cuerpo va detrás de `if __name__ == "__main__"`.
+- `build_plantillas.py` exporta la paleta (INK, PAPER, GREY, LINE, DISP, SERIF) que reusan `_base.py`,
+  `build_cards.py`, `build_rol.py` y `build_ally.py`.
+- `contenido/arranques.json` guarda la primera llamada de cada cliente, por slug. `dias.py` lo lee
+  después de `START`.
+- `tablero.html` y `home-scroll.html` son páginas sueltas: no tienen generador y nada las linkea.
 
-`generador/build.py` es el generador v1, reemplazado por `build2.py`, que lo importa como
-librería para los paneles y los colores. Su cuerpo está detrás de `if __name__ == "__main__"`:
-importarlo no tiene que escribir nada.
+## El esquema de una ficha
 
-`contenido/arranques.json` guarda la primera llamada de cada cliente, por slug. Es lo que antes
-salía del campo `que_paso` de las fichas viejas, que no viajó con el repo. `dias.py` lo lee
-después de `START`.
+22 claves, en este orden: `slug`, `cliente`, `proyecto`, `modo` ("cierre" o "radiografia"),
+`orientacion`, `arranque`, `etapa`, `metrica`, `titular`, `bajada`, `punto_a`, `recorrido`,
+`lectura`, `respuestas`, `entregables`, `punto_b`, `roadmap`, `accionables`, `conclusion`,
+`carta`, `abierto`, `handicap`.
+
+El puntaje se renderiza **solo cuando `modo` es "radiografia"**. En los informes de cierre no va,
+porque esos son los que se le mandan al cliente.
+
+## Reglas de redacción
+
+Están completas en `sistema/brief-redaccion-v2.md`. Español rioplatense, directo, adulto, nada
+aspiracional. Las que más se rompen:
+
+- Se dice lo que la cosa es, directo. Nunca explicar algo anteponiendo lo que no es.
+- Un solo cuello de botella por caso.
+- Nada inventado: lo que la llamada no dijo va "(falta confirmar)".
+- Sin ironía a costa del founder.
+- Los paneles que se parten en dos no llevan "1 de 2".
+- La autocrítica de Cáscara va en la versión interna, no en el documento del cliente.
 
 ## Reglas que no se negocian
 
-**El puntaje.** `generador/handicap.py` es la única fuente de verdad de los puntajes. Las fichas
-y `contenido/panel-data.json` guardan una copia, y tanto `build_app.py` como `build_site.py` la
-recalculan desde el registro, así que nunca edites un puntaje adentro de una ficha: se edita en
-`handicap.py` y se regenera. En todo texto que se lea se dice puntaje, nunca handicap; el nombre
-del archivo quedó por historia. Si la app y el sitio muestran números distintos, alguno dejó de
-recalcular.
+**El puntaje.** `generador/handicap.py` es la única fuente de verdad de los puntajes. Las fichas y
+`contenido/panel-data.json` guardan una copia: `build_app.py` y `build_site.py` recalculan desde el
+registro, y `build2.py` lee la copia de la ficha. Nunca edites un puntaje adentro de una ficha: se
+edita en `handicap.py`, se corre `python3 generador/handicap.py` parado en la raíz para actualizar
+las copias, y se regenera. Si la app, el sitio y un documento muestran números distintos, alguna
+copia quedó atrás.
 
-**La escritura.** Español rioplatense, directo, adulto. Se dice lo que la cosa es, sin anteponer lo
-que no es: nada de "no es X, es Y". Nada aspiracional. Los documentos los lee el founder, con su
-nombre en la portada, así que no hay ironía ni frases ingeniosas a costa de él.
+**La palabra.** En todo texto que se lea se dice puntaje, nunca handicap. Quedaron con su nombre
+el archivo `handicap.py`, la clave `handicap` de las fichas y el documento de anclajes del Project.
 
 **El diseño.** Monocromo. Tinta `#171717`, papel `#ECEAE4`, radio 0. El rojo `#FE1414` va racionado:
 solo lo frenado, lo vencido y la habilidad que manda. Todo está comentado en `assets/founders.css`.
+Los logos están en `assets/`: `cascara-founders-blanco.png` con el menú abierto,
+`founders-f-blanco.png` con el menú plegado y en el visor de cartas, y `favicon.png`. Salen de los
+PNG de marca con el fondo pasado a transparente.
 
-**Verificar antes de dar algo por hecho.** Cada documento son paneles de 1920×1080 fijos: si el
-contenido crece, desborda en silencio. Después de tocar tamaños o textos hay que abrir los
-diecinueve documentos en un navegador y chequear que ningún `.pnl` tenga `scrollHeight > 1080`.
-Lo mismo con la app: no puede haber scroll horizontal ni a 1512px ni a 390px.
+**Verificar antes de dar algo por hecho.** Cada documento y cada carta son paneles de 1920×1080
+fijos: si el contenido crece, desborda en silencio. Después de tocar tamaños o textos hay que abrir
+en un navegador lo que se tocó —los diecinueve documentos, las cartas— y chequear que ningún `.pnl`
+tenga `scrollHeight > 1080`. Lo mismo con la app: no puede haber scroll horizontal ni a 1512px ni a
+390px.
 
 ## Estado
 
-Datos al 13 de septiembre de 2026. Veintiún clientes, diecinueve con documento. Los documentos son
-primeras versiones y se revisan antes de mandarlos.
+Datos al 14 de septiembre de 2026. Veintiún clientes, diecinueve con documento, cuarenta cartas y
+treinta y tres plantillas. Los documentos son primeras versiones y se revisan antes de mandarlos.

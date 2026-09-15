@@ -1,0 +1,55 @@
+{
+ "modulo": "calendario-lanzamiento",
+ "titulo": "La hoja del lanzamiento",
+ "bajada": "Cuarenta y cinco días con fecha de apertura y de cierre, el contenido de cada día cargado y el tramo comercial al final. Cuando está completa, el lanzamiento se corre leyendo la hoja.",
+ "lista_cuando": "Cualquiera del equipo abre el calendario, ve qué pieza sale hoy y qué pasa el día del cierre, sin preguntarte nada.",
+ "secciones": [
+  {"titulo": "Las dos fechas duras",
+   "consigna": "Escribí el día de apertura y el día de cierre, con hora. Si el lanzamiento puede abrir el 15, la fecha es el 15 y no fin de mes. Las dos fechas se avisan al equipo el mismo día que se ponen, y se corren una sola vez como máximo.",
+   "ejemplo": {"quien": "Andrea", "texto": "Las Onfire Sessions tienen formato, tienen cambios encima y tienen un marco de narrativa para producirlas. Lo que nunca hubo fue un día en el calendario, y mientras no hay fecha no hay nada que medir."},
+   "campo": "lineas",
+   "lineas": ["Abre (día y hora)", "Cierra (día y hora)", "Día del encuentro en vivo", "A quién del equipo se le avisó", "Fecha en que se avisó"]},
+
+  {"titulo": "Qué se vende y cuántos lugares",
+   "consigna": "El producto de este lanzamiento con precio de lista, cuántos lugares abrís y con cuánto se reserva. El precio se dice desde arriba y queda escrito acá antes de que salga la primera pieza. Los lugares son un número cerrado y ese número se repite igual en todas las piezas del tramo comercial.",
+   "campo": "lineas",
+   "lineas": ["Qué se vende", "Precio de lista", "Cuántos lugares", "Seña para reservar", "Link de pago"]},
+
+  {"titulo": "Los primeros quince días: tu historia y el calentamiento",
+   "consigna": "Quince días donde aparecés vos: de dónde venís, qué te pasó con esto y por qué armaste lo que vas a vender. Sacalo de una charla larga grabada de una sola vez, con alguien enfrente haciéndote preguntas, y de ahí cortás las piezas. En este tramo el único pedido es que te contesten; el precio aparece después.",
+   "ejemplo": {"quien": "Aaron", "texto": "El pasaporte digital completo es lo primero del tramo: de dónde viene, qué cambió este año y por qué se quiere correr del mundo del infoproducto. De ahí salen los ángulos, incluida una entrevista cruda con Cami haciéndole preguntas, sin guion."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "La historia que voy a contar y en cuántas piezas la corto."},
+
+  {"titulo": "El calendario día por día",
+   "consigna": "Una fila por día, de la apertura al cierre. Cada día lleva el bloque al que pertenece, la pieza concreta, dónde sale y qué tiene que provocar. Un día sin pieza cargada es un día que se cae, así que los cuarenta y cinco se completan antes de arrancar.",
+   "ejemplo": {"quien": "Agostina", "texto": "El calendario de historias día por día lo baja Franco junto con el embudo y los ángulos. Las cuatro semanas arrancan entre el 12 y el 15 de septiembre para llegar con la oferta armada al evento de Kaipi del 10 de octubre."},
+   "campo": "tabla",
+   "columnas": ["Día y fecha", "Bloque", "Pieza", "Dónde sale", "Qué tiene que provocar"],
+   "filas": 10},
+
+  {"titulo": "El bloque de problema y el bloque de solución",
+   "consigna": "Escribí qué problema instalás primero y con qué mecanismo lo resolvés después, una pieza por día. El problema se cuenta con las palabras de tus clientes; la solución se cuenta con un caso tuyo con número adelante. Dos piezas del mismo día que empujan para lados distintos se chocan entre ellas: queda una.",
+   "ejemplo": {"quien": "Bianca", "texto": "En el drop del miedo la comunicación instaló el concepto durante semanas y el producto llegó al final, con un carrusel de conversión publicado sin stock disponible. Ella lo detectó sola y para el próximo drop achica la ventana y mete producto al mismo tiempo."},
+   "campo": "texto", "alto": 5,
+   "placeholder": "Problema que instalo / mecanismo que muestro."},
+
+  {"titulo": "El encuentro en vivo y la lista de los que se anotan",
+   "consigna": "Una fecha en vivo adentro del tramo, dando algo que sirva por sí solo, con registro para entrar. Ponele una meta de anotados y definí quién carga la lista el mismo día. De esa lista sale el tramo comercial, porque al que asistió se le habla distinto que al que se anotó y faltó.",
+   "ejemplo": {"quien": "Sebastián", "texto": "Hizo un workshop presencial gratuito con otro creativo y llevó cincuenta y cinco personas. El tráfico para llenarlo ya lo tiene: un reel sobre el miedo a grabarse le trajo unos siete mil seguidores y mil ochocientos comentarios."},
+   "campo": "lineas",
+   "lineas": ["Día y hora", "Tema", "Dónde se hace", "Meta de anotados", "Quién carga la lista"]},
+
+  {"titulo": "El tramo comercial, al final",
+   "consigna": "Los últimos días, escritos ahora y con la cabeza fría: cupos, fecha de cierre, seña y qué pasa cuando se termina. Son las piezas que más cuesta improvisar, así que van cargadas antes de abrir. Cuántos lugares quedan se publica todos los días hasta el cierre.",
+   "ejemplo": {"quien": "Lola", "texto": "Tuvo tres llamadas de gente que le escribió y una iba a comprar. Las tres se cayeron en el mismo lugar, al final, con el programa terminado y sin fecha, sin escasez y sin seña para reservar el lugar."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "Qué sale cada día del tramo comercial."},
+
+  {"titulo": "Correlo y leelo el mismo día",
+   "consigna": "Corré el calendario tal como está escrito y cargá cada día lo que trajo: conversaciones abiertas, manos levantadas, llamadas agendadas y ventas. La lectura se hace en vivo, el día que sale la pieza, para corregir el mensaje en el medio del lanzamiento. Al cierre el número que se presenta es cuántas manos se levantaron y cuántas terminaron en venta.",
+   "campo": "tabla",
+   "columnas": ["Día", "Qué salió", "Conversaciones", "Manos levantadas", "Ventas"],
+   "filas": 10}
+ ]
+}

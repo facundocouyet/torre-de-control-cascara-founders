@@ -1,0 +1,56 @@
+{
+ "modulo": "caso-documentado",
+ "titulo": "La hoja del caso documentado",
+ "bajada": "Dos o tres fichas de caso con los números antes y después, la frase del cliente y el registro del proceso. Es lo que va adelante en la prospección cuando el cliente nuevo te pregunta qué resultados tenés.",
+ "lista_cuando": "Le mandás una ficha a alguien que no te conoce y entiende qué cambió en el negocio de ese cliente, cuánto tardó y quién lo dice.",
+ "secciones": [
+  {"titulo": "Los clientes con resultado medible",
+   "consigna": "Listá los clientes a los que ya les entregaste algo y anotá qué resultado tienen medido y dónde está ese número. Mirá los últimos dos años, no los últimos dos meses. De esta lista salen dos o tres casos: los que tengan el número cargado en algún lado y no en tu memoria.",
+   "ejemplo": {"quien": "Sharon", "texto": "La marca de ropa técnica outdoor le dio ventas orgánicas que le ganaron a la pauta paga, y llega gente nueva al local diciendo que los vio en Instagram. Es el caso más fuerte que tiene y todavía no lo contó."},
+   "campo": "tabla",
+   "columnas": ["Cliente", "Qué le entregaste", "Qué resultado tiene medido", "Dónde está el número"],
+   "filas": 8},
+
+  {"titulo": "El permiso, por escrito",
+   "consigna": "Pedile permiso a cada cliente antes de escribir la ficha, por mensaje y con la respuesta guardada. Decí exactamente qué vas a mostrar: nombre de la marca o solo el rubro, números exactos o porcentajes, capturas de pantalla o ninguna. La versión más fácil de aprobar es porcentajes con el rubro, y el nombre se pide aparte.",
+   "campo": "texto", "alto": 4,
+   "placeholder": "Te escribo por…, quiero mostrar…, ¿puedo usar…?"},
+
+  {"titulo": "Los números, con fecha de cada medición",
+   "consigna": "Para cada caso, el número de entrada y el de salida, cada uno con la fecha en que lo mediste y de dónde lo sacaste. Si el número de entrada no existe porque nadie lo midió, poné el más bajo que puedas justificar y aclará de dónde sale. Sin fecha al lado, el número no se puede defender en una llamada.",
+   "ejemplo": {"quien": "Sofía", "texto": "Facturaba diez millones de pesos colombianos por mes y pasó a veinte, después de sacar los clientes de UGC y repreciar al de edición. El antes y el después están medidos igual y en el mismo período."},
+   "campo": "tabla",
+   "columnas": ["Qué se mide", "Antes y cuándo", "Después y cuándo", "De dónde sale"],
+   "filas": 6},
+
+  {"titulo": "El registro del proceso, mientras pasa",
+   "consigna": "Definí qué se graba del trabajo real y quién lo graba, y arrancá esta semana con el cliente que ya tenés adentro. El material se junta mientras el trabajo pasa: al cierre del proyecto lo que queda son capturas viejas y memoria.",
+   "ejemplo": {"quien": "Aaron", "texto": "Franco le puso el atajo arriba de la mesa: documentar el trabajo que ya está haciendo con el cliente de consultoría que tiene, y sacar el material de ahí."},
+   "campo": "lineas",
+   "lineas": ["Qué se graba", "Quién lo graba", "Cada cuánto", "Dónde queda guardado"]},
+
+  {"titulo": "La ficha escrita",
+   "consigna": "Cuatro párrafos cortos: cómo estaba el negocio cuando llegaste, qué hiciste, qué cambió con el número adelante y en cuánto tiempo. Una página por caso. Lo que hiciste se cuenta en pasos, así se entiende que atrás hay un método que se repite con el próximo cliente.",
+   "ejemplo": {"quien": "Lucca", "texto": "El B2B de Airbnb es el más fácil de documentar que tiene: entra como co-anfitrión, sube la facturación con estrategia de precios y el resultado se compara mes contra mes con un software. Le faltan las tres fichas escritas."},
+   "campo": "texto", "alto": 6,
+   "placeholder": "Cuando llegué… / Hicimos… / Hoy… / En X semanas."},
+
+  {"titulo": "La frase del cliente",
+   "consigna": "Pedile dos o tres renglones sobre qué cambió, con dos preguntas concretas: qué estabas haciendo antes de esto, y qué podés hacer ahora que antes no. Va textual, sin retocar. Si te contesta con un elogio general, volvé a preguntar por el cambio.",
+   "campo": "texto", "alto": 3,
+   "placeholder": "La frase, tal cual la mandó."},
+
+  {"titulo": "Dónde vive la ficha",
+   "consigna": "Una base con los casos, en un solo lugar, con dueño y día de revisión. Definí en qué formato sale para afuera: la hoja para mandar por mensaje y una placa para el contenido. Cada vez que un caso suma un número nuevo, se actualiza ahí y no en un chat.",
+   "ejemplo": {"quien": "José David", "texto": "Tiene las tres ventas de tres mil dólares documentadas en Notion, con qué las hizo cerrar y qué resultado dejó cada una. De esa base salen las propuestas nuevas."},
+   "campo": "lineas",
+   "lineas": ["Dónde está la base", "Quién la actualiza", "Formato para mandar", "Cada cuánto se revisa"]},
+
+  {"titulo": "Mandá las fichas y anotá qué contestaron",
+   "consigna": "Mandá las fichas a diez personas: clientes viejos, gente que pidió presupuesto y no cerró, referidos. La ficha va adelante, antes de explicar qué hacés. Anotá qué contestó cada uno y cuál es la próxima acción con fecha; de ahí sale qué parte de la ficha hay que reescribir.",
+   "ejemplo": {"quien": "Nicolás", "texto": "Tiene el pipeline entero sin tocar: los que pasaron por Calendly y no cerraron, los que comentaron y los referidos. El objetivo son veinte conversaciones con respuesta del otro lado."},
+   "campo": "tabla",
+   "columnas": ["A quién", "Fecha", "Qué contestó", "Próxima acción"],
+   "filas": 10}
+ ]
+}

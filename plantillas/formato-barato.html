@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La hoja de tu formato · plantilla de Cáscara Founders</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#ECEAE4;color:#171717;font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.hoja{max-width:880px;margin:0 auto;padding:64px 32px 120px}
+.caja{display:inline-block;border:1px solid #8E8B85;padding:6px 13px;font-size:10.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:#6A6A66}
+h1{font-size:clamp(38px,6vw,58px);font-weight:800;letter-spacing:-.038em;line-height:1.02;
+  margin:28px 0 0;text-wrap:balance}
+.bajada{font-size:21px;line-height:1.5;color:#6A6A66;margin:18px 0 0;max-width:60ch}
+.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:flex;
+  justify-content:space-between;gap:20px;align-items:baseline;flex-wrap:wrap}
+.lista .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.lista .tx{font-size:17px;color:#6A6A66;max-width:60ch}
+.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;white-space:nowrap}
+
+section{margin-top:62px}
+section .n{font-size:11px;letter-spacing:.2em;color:#8E8B85;font-variant-numeric:tabular-nums}
+section h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 0;max-width:62ch}
+.ejemplo{margin-top:22px;border-left:2px solid #DBD7D2;padding:4px 0 4px 20px}
+.ejemplo .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.ejemplo .tx{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;font-style:italic;font-size:18px;line-height:1.5;
+  color:#6A6A66;margin-top:8px;max-width:62ch}
+
+.campo{margin-top:24px}
+textarea,input[type=text]{width:100%;font:inherit;font-size:18px;line-height:1.55;color:#171717;
+  background:#FBFAF8;border:1px solid #DBD7D2;padding:14px 16px;border-radius:0;
+  transition:border-color .15s}
+textarea{resize:vertical}
+textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
+.lin{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px 18px;align-items:center;
+  border-top:1px solid #DBD7D2;padding:14px 0}
+.lin .rot{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.tabla{width:100%;border-collapse:collapse;margin-top:6px}
+.tabla th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:#6A6A66;font-weight:400;padding:0 10px 10px 0;border-bottom:2px solid #171717}
+.tabla td{padding:0;border-bottom:1px solid #DBD7D2}
+.tabla input{border:0;background:transparent;padding:12px 10px 12px 0}
+.tabla input:focus{background:#FBFAF8}
+.envoltorio{overflow-x:auto}
+
+.pie{margin-top:86px;border-top:1px solid #171717;padding-top:22px;display:flex;
+  justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6A6A66}
+.acc{position:sticky;bottom:0;background:#ECEAE4;border-top:1px solid #DBD7D2;
+  padding:14px 0;margin-top:48px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.acc button{font:inherit;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  border:1px solid #171717;background:transparent;color:#171717;padding:13px 18px;cursor:pointer}
+.acc button.tinta{background:#171717;color:#ECEAE4}
+.acc button:hover{background:#171717;color:#ECEAE4}
+.acc button.tinta:hover{background:transparent;color:#171717}
+.acc .dicho{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;font-style:italic;font-size:15px;color:#6A6A66}
+
+@media (max-width:640px){
+  .hoja{padding:40px 20px 90px} .lin{grid-template-columns:1fr;gap:8px}
+  .tabla{min-width:560px}
+}
+@media print{
+  .acc{display:none} body{background:#fff}
+  textarea,input{border-color:#bbb;background:#fff}
+  section{break-inside:avoid;margin-top:40px}
+}
+</style>
+</head>
+<body data-mod="formato-barato">
+<div class="hoja">
+  <span class="caja">Plantilla · Contenido y marca</span>
+  <h1>La hoja de tu formato</h1>
+  <p class="bajada">El formato propio definido en una hoja: qué se graba, con qué, cuánto dura, quién pregunta y cuánto cuesta cada pieza. Con esa hoja adelante, las próximas diez salen sin volver a discutir nada.</p>
+  <div class="lista">
+    <div><div class="et">Está lista cuando</div><div class="tx">Dos piezas publicadas con ese formato y el costo real de cada una escrito al lado.</div></div>
+    <div class="avance">0 de 8 empezadas</div>
+  </div>
+
+  <section>
+    <div class="n">01</div>
+    <h2>Las piezas propias que ya funcionaron</h2>
+    <p class="consigna">Anotá las piezas tuyas que devolvieron algo y con qué nivel de producción salieron. Mirá ocho, no dos, y para cada una escribí qué costó: tus horas, la plata de edición y los días que pasaron entre la grabación y la publicación. Lo que buscás es la relación entre lo que gastaste y lo que volvió, y casi siempre la mejor relación está en la pieza más cruda.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Sebastián</div><div class="tx">El reel del miedo a grabarse en público lo hizo con el celular, orgánico y sin planos: un millón cuatrocientas mil vistas, mil ochocientos comentarios y unos siete mil seguidores nuevos. Es el formato más barato que tiene.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Pieza</th><th>Cómo se produjo</th><th>Qué costó</th><th>Qué devolvió</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s0f0c0"></td><td><input type="text" data-c="s0f0c1"></td><td><input type="text" data-c="s0f0c2"></td><td><input type="text" data-c="s0f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s0f1c0"></td><td><input type="text" data-c="s0f1c1"></td><td><input type="text" data-c="s0f1c2"></td><td><input type="text" data-c="s0f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s0f2c0"></td><td><input type="text" data-c="s0f2c1"></td><td><input type="text" data-c="s0f2c2"></td><td><input type="text" data-c="s0f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s0f3c0"></td><td><input type="text" data-c="s0f3c1"></td><td><input type="text" data-c="s0f3c2"></td><td><input type="text" data-c="s0f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s0f4c0"></td><td><input type="text" data-c="s0f4c1"></td><td><input type="text" data-c="s0f4c2"></td><td><input type="text" data-c="s0f4c3"></td></tr>
+        <tr><td><input type="text" data-c="s0f5c0"></td><td><input type="text" data-c="s0f5c1"></td><td><input type="text" data-c="s0f5c2"></td><td><input type="text" data-c="s0f5c3"></td></tr>
+        <tr><td><input type="text" data-c="s0f6c0"></td><td><input type="text" data-c="s0f6c1"></td><td><input type="text" data-c="s0f6c2"></td><td><input type="text" data-c="s0f6c3"></td></tr>
+        <tr><td><input type="text" data-c="s0f7c0"></td><td><input type="text" data-c="s0f7c1"></td><td><input type="text" data-c="s0f7c2"></td><td><input type="text" data-c="s0f7c3"></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section>
+    <div class="n">02</div>
+    <h2>El formato que vas a repetir diez veces</h2>
+    <p class="consigna">Elegí uno y escribilo en tres renglones: entrevista cruda con alguien preguntando, video largo sin guion, o el trabajo real filmado mientras pasa con voz en off encima. La prueba de que el formato sirve es que lo puedas grabar esta semana con lo que ya tenés a mano. Uno solo: dos formatos en paralelo se caen los dos.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Lucio</div><div class="tx">El material más barato que tiene es el trabajo que hace todos los días: instala IA adentro de una empresa, arma simulaciones y resuelve solo lo que antes pedía tres personas. Se graba mientras pasa y lleva voz en off arriba.</div></div>
+    <div class="campo"><textarea data-c="s1" rows="3" placeholder="Se graba… con… dura… y pregunta…"></textarea></div>
+  </section>
+  <section>
+    <div class="n">03</div>
+    <h2>El setup fijo</h2>
+    <p class="consigna">Los cinco datos que quedan iguales en todas las piezas, para que el día de grabación no se decida nada. Si el lugar depende de reservar algo o la luz depende de una hora puntual, cambialos por la versión que funciona cualquier día a cualquier hora.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Aaron</div><div class="tx">Su formato es la entrevista cruda con Cami haciéndole las preguntas desde atrás de cámara, sin guion. Ella ya está adentro del negocio, así que grabar depende de los dos y de nadie más.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">Lugar</span><input type="text" data-c="s2l0" placeholder=""></div>      <div class="lin"><span class="rot">Cámara y luz</span><input type="text" data-c="s2l1" placeholder=""></div>      <div class="lin"><span class="rot">Cuánto dura la grabación</span><input type="text" data-c="s2l2" placeholder=""></div>      <div class="lin"><span class="rot">Quién pregunta</span><input type="text" data-c="s2l3" placeholder=""></div>      <div class="lin"><span class="rot">Cuántas piezas salen de una grabación</span><input type="text" data-c="s2l4" placeholder=""></div>
+    </div>
+  </section>
+  <section>
+    <div class="n">04</div>
+    <h2>Las preguntas que te van a hacer</h2>
+    <p class="consigna">Escribí cuatro o cinco preguntas y pasáselas a quien te pregunta. Que sean sobre lo que ya viviste: de dónde venís, qué cambió este año, el error que te costó plata, qué le contestás al cliente que te dice tal cosa. Con eso se llenan quince o veinte minutos de charla, y de ahí se cortan las piezas.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Lola</div><div class="tx">Se destrabó con un video horizontal largo de quince o veinte minutos, en un lugar real y con alguien enfrente haciéndole cuatro o cinco preguntas sobre su recorrido. Dos semanas después dijo que ya se organiza el set y graba.</div></div>
+    <div class="campo"><textarea data-c="s3" rows="5" placeholder="Una pregunta por renglón."></textarea></div>
+  </section>
+  <section>
+    <div class="n">05</div>
+    <h2>El nivel de edición y el techo por pieza</h2>
+    <p class="consigna">Fijá qué incluye la edición y cuánto pagás por pieza, con un número. Nivel uno es clipeo, subtítulos y color, y con eso sale. Lo que queda afuera se escribe igual de claro, porque es lo que después aparece como excusa para frenar una publicación.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Sharon</div><div class="tx">Su regla es edición nivel uno y hasta veinte dólares por pieza. El podcast lo había dejado por querer sumarle b-rolls encima, y ese fue el costo de subir la vara.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">Qué incluye la edición</span><input type="text" data-c="s4l0" placeholder=""></div>      <div class="lin"><span class="rot">Qué queda afuera</span><input type="text" data-c="s4l1" placeholder=""></div>      <div class="lin"><span class="rot">Quién edita</span><input type="text" data-c="s4l2" placeholder=""></div>      <div class="lin"><span class="rot">Costo por pieza</span><input type="text" data-c="s4l3" placeholder=""></div>      <div class="lin"><span class="rot">Costo de las próximas diez</span><input type="text" data-c="s4l4" placeholder=""></div>
+    </div>
+  </section>
+  <section>
+    <div class="n">06</div>
+    <h2>Lo que queda decidido antes de prender la cámara</h2>
+    <p class="consigna">Tres decisiones escritas de antemano: si se regraba o no, qué se hace si la pieza no te gusta, y quién aprueba antes de publicar. Para las dos primeras dejá una sola regla y cumplila: se publica igual. La pieza que se guarda para mejorarla después no vuelve a salir.</p>
+    <div class="campo"><textarea data-c="s5" rows="4" placeholder="Si pasa… hacemos…"></textarea></div>
+  </section>
+  <section>
+    <div class="n">07</div>
+    <h2>Las próximas diez, con fecha</h2>
+    <p class="consigna">Cargá las diez piezas que salen de este formato, con día de grabación y día de publicación. Una sola fecha dura por semana, y si algo se corre, se corre una vez y se avisa. Menos de diez piezas no alcanza para saber si el formato camina.</p>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Pieza</th><th>De qué habla</th><th>Se graba</th><th>Se publica</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s6f0c0"></td><td><input type="text" data-c="s6f0c1"></td><td><input type="text" data-c="s6f0c2"></td><td><input type="text" data-c="s6f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s6f1c0"></td><td><input type="text" data-c="s6f1c1"></td><td><input type="text" data-c="s6f1c2"></td><td><input type="text" data-c="s6f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s6f2c0"></td><td><input type="text" data-c="s6f2c1"></td><td><input type="text" data-c="s6f2c2"></td><td><input type="text" data-c="s6f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s6f3c0"></td><td><input type="text" data-c="s6f3c1"></td><td><input type="text" data-c="s6f3c2"></td><td><input type="text" data-c="s6f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s6f4c0"></td><td><input type="text" data-c="s6f4c1"></td><td><input type="text" data-c="s6f4c2"></td><td><input type="text" data-c="s6f4c3"></td></tr>
+        <tr><td><input type="text" data-c="s6f5c0"></td><td><input type="text" data-c="s6f5c1"></td><td><input type="text" data-c="s6f5c2"></td><td><input type="text" data-c="s6f5c3"></td></tr>
+        <tr><td><input type="text" data-c="s6f6c0"></td><td><input type="text" data-c="s6f6c1"></td><td><input type="text" data-c="s6f6c2"></td><td><input type="text" data-c="s6f6c3"></td></tr>
+        <tr><td><input type="text" data-c="s6f7c0"></td><td><input type="text" data-c="s6f7c1"></td><td><input type="text" data-c="s6f7c2"></td><td><input type="text" data-c="s6f7c3"></td></tr>
+        <tr><td><input type="text" data-c="s6f8c0"></td><td><input type="text" data-c="s6f8c1"></td><td><input type="text" data-c="s6f8c2"></td><td><input type="text" data-c="s6f8c3"></td></tr>
+        <tr><td><input type="text" data-c="s6f9c0"></td><td><input type="text" data-c="s6f9c1"></td><td><input type="text" data-c="s6f9c2"></td><td><input type="text" data-c="s6f9c3"></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section>
+    <div class="n">08</div>
+    <h2>Las dos primeras, publicadas y leídas</h2>
+    <p class="consigna">Grabá y publicá las dos primeras piezas con el formato tal como quedó escrito. El día que sale cada una, anotá qué costó de verdad, qué conversación abrió y sobre qué te escribieron. Con eso decidís si el formato queda como estándar para las diez o si corregís una cosa, una sola, antes de la tercera.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Bianca</div><div class="tx">Lee lo que su comunidad le devuelve pieza por pieza: en TikTok la empezaron a llamar la chica de los anillos, lanzó un anillo y le fue muy bien.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Pieza</th><th>Fecha</th><th>Costo real</th><th>Qué te escribieron</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s7f0c0"></td><td><input type="text" data-c="s7f0c1"></td><td><input type="text" data-c="s7f0c2"></td><td><input type="text" data-c="s7f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s7f1c0"></td><td><input type="text" data-c="s7f1c1"></td><td><input type="text" data-c="s7f1c2"></td><td><input type="text" data-c="s7f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s7f2c0"></td><td><input type="text" data-c="s7f2c1"></td><td><input type="text" data-c="s7f2c2"></td><td><input type="text" data-c="s7f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s7f3c0"></td><td><input type="text" data-c="s7f3c1"></td><td><input type="text" data-c="s7f3c2"></td><td><input type="text" data-c="s7f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s7f4c0"></td><td><input type="text" data-c="s7f4c1"></td><td><input type="text" data-c="s7f4c2"></td><td><input type="text" data-c="s7f4c3"></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <div class="acc">
+    <button class="tinta" data-a="bajar">Descargar completada</button>
+    <button data-a="imprimir">Imprimir</button>
+    <button data-a="limpiar">Vaciar la hoja</button>
+    <span class="dicho">Lo que escribís se guarda solo en este navegador.</span>
+  </div>
+
+  <div class="pie">
+    <span>El formato barato que se sostiene · Cáscara Founders</span>
+    <span>Cáscara diseña, vos ejecutás</span>
+  </div>
+</div>
+<script>
+(function(){
+  var K='cf-pl-'+document.body.dataset.mod;
+  function todos(){return Array.prototype.slice.call(document.querySelectorAll('[data-c]'))}
+  function cargar(){
+    var v={}; try{v=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){}
+    todos().forEach(function(el){ if(v[el.dataset.c]!=null) el.value=v[el.dataset.c]; auto(el); });
+    contar();
+  }
+  function guardar(){
+    var v={}; todos().forEach(function(el){ if(el.value) v[el.dataset.c]=el.value; });
+    try{localStorage.setItem(K,JSON.stringify(v))}catch(e){}
+    contar();
+  }
+  function auto(el){ if(el.tagName==='TEXTAREA'){ el.style.height='auto'; el.style.height=(el.scrollHeight+2)+'px'; } }
+  function contar(){
+    var s=document.querySelectorAll('section'), n=0;
+    s.forEach(function(sec){
+      var c=sec.querySelectorAll('[data-c]'), lleno=false;
+      c.forEach(function(el){ if(el.value && el.value.trim()) lleno=true; });
+      if(lleno) n++;
+    });
+    var a=document.querySelector('.avance');
+    if(a) a.textContent = n+' de '+s.length+' empezadas';
+  }
+  document.addEventListener('input',function(e){
+    if(!e.target.dataset || !e.target.dataset.c) return; auto(e.target); guardar();
+  });
+  var bl=document.querySelector('[data-a="limpiar"]');
+  if(bl) bl.addEventListener('click',function(){
+    if(!confirm('Esto borra todo lo que escribiste en esta hoja. ¿Seguimos?')) return;
+    todos().forEach(function(el){el.value='';auto(el)}); guardar();
+  });
+  var bi=document.querySelector('[data-a="imprimir"]');
+  if(bi) bi.addEventListener('click',function(){window.print()});
+  var bd=document.querySelector('[data-a="bajar"]');
+  if(bd) bd.addEventListener('click',async function(){
+    todos().forEach(function(el){
+      if(el.tagName==='TEXTAREA') el.textContent=el.value; else el.setAttribute('value',el.value||'');
+    });
+    var html='<!doctype html>\n'+document.documentElement.outerHTML;
+    var nom='plantilla-'+document.body.dataset.mod+'.html';
+    var dl=null; try{ dl=await claude.use('downloads'); }catch(e){}
+    if(dl){ try{ await dl.save({filename:nom,data:html}); return; }catch(e){ if(e&&e.code==='declined')return; } }
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([html],{type:'text/html'})); a.download=nom;
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+  cargar();
+  window.addEventListener('resize',function(){todos().forEach(auto)});
+})();
+</script>
+</body>
+</html>

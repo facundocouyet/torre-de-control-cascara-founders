@@ -1,0 +1,55 @@
+{
+ "modulo": "foco-y-ventana",
+ "titulo": "La hoja de la ventana",
+ "bajada": "Una ventana elegida con fecha de inicio y de cierre, y la lista de todo lo que queda en pausa hasta ese día, con el aviso ya mandado a cada persona involucrada.",
+ "lista_cuando": "Podés decir en una frase qué estás haciendo hasta qué fecha, y las personas de los frentes que quedaron en pausa ya lo saben porque se lo dijiste vos.",
+ "secciones": [
+  {"titulo": "Todos los frentes abiertos hoy",
+   "consigna": "Escribí cada cosa que hoy te pide cabeza, horas o plata, incluidos los proyectos personales y los eventos que ya pagaste o ya comprometiste. Contá las horas reales de la última semana, no las que te gustaría poner. Si la lista queda en menos de cinco líneas, faltan las cosas chicas que igual te ocupan la semana.",
+   "ejemplo": {"quien": "Agostina Marchesini", "texto": "En la misma semana tenía el estudio con su socia, la consultoría para arquitectos sin escribir, el acuerdo con Ibi por cerrar, la charla del evento sin subir y el evento de Kaipi del 10 de octubre ya pagado."},
+   "campo": "tabla",
+   "columnas": ["Frente", "Fecha real que tiene", "Qué deja si sale bien", "Horas por semana hoy"],
+   "filas": 10},
+
+  {"titulo": "Cuál está más cerca del dinero",
+   "consigna": "De esa lista, marcá el frente que puede dejar plata cobrada antes que los demás, y escribí por qué. Lo que ya tiene demanda probada gana contra lo que todavía hay que construir de cero. Si dos empatan, gana el que tiene la fecha más cerca y el producto disponible.",
+   "ejemplo": {"quien": "Bianca Antonini", "texto": "Los anillos son el producto más fácil de vender que tiene: la demanda ya quedó probada en TikTok cuando la llamaban la chica de los anillos, y hay material viejo para recopilar."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "El frente que elijo es… porque puede dejar cobrado… antes del…"},
+
+  {"titulo": "La ventana elegida",
+   "consigna": "Una sola ventana, con nombre, con día de arranque y con día de cierre. El día del cierre tiene que haber algo cobrado, publicado o entregado que se pueda mostrar. Si el cierre cae a más de seis semanas, partila en dos y quedate con la primera mitad.",
+   "ejemplo": {"quien": "Aaron Aiello", "texto": "Eligió la voz primero y la oferta después: al 30 de septiembre el pasaporte digital completo y diez piezas publicadas, y al 31 de octubre la oferta B2C escrita con precio, leída con lo que contestó la audiencia en esas diez."},
+   "campo": "lineas",
+   "lineas": ["Nombre de la ventana", "Arranca el", "Cierra el", "Qué queda cobrado o publicado el día del cierre", "Horas por semana que le pongo"]},
+
+  {"titulo": "Lo que queda en pausa, con nombre y apellido",
+   "consigna": "Cada frente distinto de la ventana elegida, escrito con el nombre que tiene en tu cabeza y con la fecha hasta la que queda quieto. Al lado, quién se va a enterar de que eso frena: un cliente, un socio, un editor, tu familia. La pausa se avisa, no se deja pasar.",
+   "ejemplo": {"quien": "Sofía Galvis", "texto": "Frenó la entrada de clientes nuevos al sistema de 90 días hasta tener el producto de educación escrito, porque a cinco clientes necesita mano derecha y a diez, un equipo."},
+   "campo": "tabla",
+   "columnas": ["Qué queda en pausa", "Hasta cuándo", "A quién le afecta", "Aviso mandado el"],
+   "filas": 8},
+
+  {"titulo": "El mínimo que igual se sigue haciendo",
+   "consigna": "Hay cosas que no pueden frenar: los clientes que ya pagan, las historias, una entrega firmada. Escribí ese mínimo con las horas exactas que se lleva y quién lo hace. Si ese mínimo se come más de la mitad de tu semana, la ventana que elegiste no entra y hay que achicarla.",
+   "ejemplo": {"quien": "Sharon Palacio", "texto": "Maneja cuatro cuentas a la vez con tarjetas de objetivo, formato y referencias, y el cliente guiona. Ese es el mínimo que sigue corriendo mientras ella publica sus diez piezas propias con edición nivel uno."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "Sigue corriendo… lo hace… y se lleva… horas por semana."},
+
+  {"titulo": "Las horas bloqueadas en el calendario",
+   "consigna": "Poné los bloques en el calendario ahora, con día y hora, y escribí acá lo que quedó puesto. Bloques de dos horas o más, porque en cuarenta minutos no se avanza en nada de esto. Si el bloque no está en el calendario con invitación y recordatorio, no existe.",
+   "campo": "lineas",
+   "lineas": ["Días y horarios bloqueados", "Total de horas por semana", "Dónde trabajo esas horas", "Con quién", "Qué se hace adentro del bloque"]},
+
+  {"titulo": "La fecha dura y qué se mira ese día",
+   "consigna": "Una sola fecha dura en toda la ventana, dicha con la palabra y con el día. Escribí también los dos o tres números que vas a mirar ese día para saber si salió: ventas, conversaciones abiertas, piezas publicadas, lugares vendidos. La fecha se puede correr una sola vez y se avisa cuando se corre.",
+   "ejemplo": {"quien": "Andrea Saturno", "texto": "Las Onfire Sessions tenían formato, cambios encima y un marco de narrativa para producirlas. Lo que faltaba era un día con hora en el calendario, y hasta que ese día no estuvo, no había nada que medir."},
+   "campo": "texto", "alto": 3,
+   "placeholder": "La fecha dura es el… y ese día mido…"},
+
+  {"titulo": "Los avisos, mandados",
+   "consigna": "Mandá los avisos de las pausas esta semana, por el canal donde esa persona te contesta, y pegá acá lo que escribiste y lo que te contestaron. Al que le toca una decisión de fondo se le avisa hablando, no por mensaje. La ventana empieza a contar el día que el último aviso está mandado.",
+   "campo": "texto", "alto": 5,
+   "placeholder": "A quién le avisé, qué le dije y qué me contestó."}
+ ]
+}

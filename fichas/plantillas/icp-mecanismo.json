@@ -1,0 +1,103 @@
+{
+ "modulo": "icp-mecanismo",
+ "titulo": "La hoja de tu cliente ideal",
+ "bajada": "Una hoja con quién te compra, en qué momento del negocio está, qué problema le resuelve tu mecanismo y con qué palabras lo cuenta él. Es la base del contenido, de la propuesta y del precio.",
+ "lista_cuando": "Le mandás la frase del cliente ideal a tres personas que ya te compraron y las tres se reconocen sin que tengas que explicarla.",
+ "secciones": [
+  {
+   "titulo": "Los últimos diez que compraron o preguntaron",
+   "consigna": "Diez clientes o consultas reales de los últimos dos años, con lo que compró cada uno, cuánto pagó y por qué te buscó. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Media hora buscando acá vale más que una hora escribiendo un cliente ideal inventado.",
+   "ejemplo": {
+    "quien": "Custom Lab",
+    "texto": "Juan armó en Notion la base histórica de dos años: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién contactó, quién decide la compra y si repitió. Con esa lista salieron a recontactar y vendieron."
+   },
+   "campo": "tabla",
+   "columnas": [
+    "Quién",
+    "Qué compró",
+    "Cuánto pagó",
+    "Por qué te buscó",
+    "Resultado que dejó"
+   ],
+   "filas": 10
+  },
+  {
+   "titulo": "Los tres mejores y qué tienen en común",
+   "consigna": "Quedate con los tres que dejaron mejor resultado, contando lo que pagaron, lo que te costó entregarlo y si volvieron. Buscá qué tienen en común por el problema que traían y por el momento del negocio en el que estaban. Cuando el parecido que aparece es el rubro, seguí mirando: el rubro se ve de afuera y el problema es el que hace comprar.",
+   "ejemplo": {
+    "quien": "José David Fajardo",
+    "texto": "Mirando juntas sus tres ventas de tres mil dólares apareció el patrón: marcas con e-commerce y con creativos rotando por la fatiga de anuncios. De ahí salió el mecanismo que hoy vende."
+   },
+   "campo": "texto",
+   "alto": 5,
+   "placeholder": "Los tres fueron… y los tres tenían…"
+  },
+  {
+   "titulo": "Qué hace tu mecanismo, en una frase",
+   "consigna": "Escribí lo que vos hacés cuando entrás, contado por el movimiento concreto que le hacés al negocio del cliente y por el número que se mueve. Tiene que poder verificarse adentro del plazo de tu contrato y con una herramienta que el cliente pueda abrir. Si el resultado depende de algo que maneja otro, corregí la frase hasta que quede lo que vos sí controlás.",
+   "ejemplo": {
+    "quien": "Lucca Sorgoni",
+    "texto": "Entra como co-anfitrión a la cuenta de Airbnb del dueño y le sube la facturación con estrategia de precios. Se compara mes contra mes con un software y el dueño lo ve a los dos meses. Objeciones, cero."
+   },
+   "campo": "texto",
+   "alto": 4,
+   "placeholder": "Entro a… muevo… y eso se ve en…"
+  },
+  {
+   "titulo": "El cliente ideal, en una frase",
+   "consigna": "Una sola frase con el momento del negocio, el problema que tiene hoy y con cuánto cuenta para resolverlo. El momento es algo que se puede verificar de afuera: cuánto factura, cuánta gente tiene, qué equipo ya armó. Si la frase le sirve igual a alguien que arranca y a alguien que factura cien mil por mes, todavía es ancha.",
+   "ejemplo": {
+    "quien": "Lucio Labate",
+    "texto": "Empresas B2B que ya tienen equipo de marketing y no tienen diseñador adentro, que necesitan usar la inteligencia artificial sin que el resultado les quede mal."
+   },
+   "campo": "texto",
+   "alto": 4,
+   "placeholder": "Alguien que está en… tiene el problema de… y puede poner…"
+  },
+  {
+   "titulo": "Cómo lo dice él, textual",
+   "consigna": "Cuatro o cinco frases copiadas tal cual de mensajes, comentarios y llamadas, sin arreglarle la gramática. Estas frases después son el título de las piezas y son el copy de la propuesta, así que la fidelidad importa más que la prolijidad. Si no tenés cuatro, pasá media hora en los comentarios de tus últimos diez posteos y en los mensajes sin responder.",
+   "ejemplo": {
+    "quien": "Sebastián Martínez",
+    "texto": "Los mil ochocientos comentarios del reel del miedo a grabarse decían todos lo mismo: gracias, me empujaste, era el empujón que necesitaba. Ahí estaba el dolor escrito con las palabras del cliente."
+   },
+   "campo": "texto",
+   "alto": 5,
+   "placeholder": "Una frase por línea, tal cual la dijeron."
+  },
+  {
+   "titulo": "La subcategoría donde te paras",
+   "consigna": "Cómo se llama lo que vendés, en qué cajón te mete el cliente cuando te conoce y en qué subcategoría elegís pararte de acá en adelante. La subcategoría se elige por el problema que nadie está cubriendo en tu mercado, y es la que saca la conversación del precio. Dejá escrito con quién te compara el cliente hoy, porque contra eso vas a tener que diferenciarte en la llamada.",
+   "ejemplo": {
+    "quien": "Ayelén Cerqueira",
+    "texto": "Eligió estrategia creativa para la construcción de comunidades, y ahí atiende algo que el mercado tiene descubierto: marcas con muchos seguidores y ninguna comunidad atrás."
+   },
+   "campo": "lineas",
+   "lineas": [
+    "Cómo se llama lo que vendés",
+    "En qué cajón te mete el cliente hoy",
+    "La subcategoría que elegís",
+    "Con quién te compara",
+    "Por qué te elige a vos"
+   ]
+  },
+  {
+   "titulo": "Los nichos que quedan afuera del tramo",
+   "consigna": "Escribí los nichos y tipos de cliente que dejás de perseguir hasta el cierre del tramo, con el motivo en una línea. Afuera van los que te ponen techo de precio, los que te obligan a estar presente y los que no tienen presupuesto ni fechas que se repitan. Al que ya está adentro se le define qué pasa: se lo reprecia, se lo termina en fecha o se lo deriva.",
+   "campo": "tabla",
+   "columnas": [
+    "Nicho o tipo de cliente",
+    "Por qué queda afuera",
+    "Qué pasa con los que ya están"
+   ],
+   "filas": 6
+  },
+  {
+   "titulo": "Probala con tres que ya te compraron",
+   "consigna": "Mandale la frase del cliente ideal y las frases textuales a tres clientes o consultas de la tabla, y preguntales si se reconocen y qué cambiarían. Anotá la respuesta con sus palabras. Si dos de los tres te corrigen la misma parte, esa parte se reescribe antes de usar la hoja para vender.",
+   "campo": "texto",
+   "alto": 5,
+   "placeholder": "A quiénes se la mandé, qué contestaron y qué reescribo."
+  }
+ ]
+}

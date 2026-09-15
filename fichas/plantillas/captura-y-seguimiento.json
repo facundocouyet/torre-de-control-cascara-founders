@@ -1,0 +1,117 @@
+{
+ "modulo": "captura-y-seguimiento",
+ "titulo": "La hoja de tu captura y tu seguimiento",
+ "bajada": "El contenido que ya trae gente queda conectado a una palabra clave, un recurso y una base, y esa gente recibe mails escritos según lo que compró. Lo que antes pasaba y se perdía, ahora queda registrado y contestado.",
+ "lista_cuando": "Alguien comenta la palabra desde una cuenta que no es tuya, recibe el recurso en menos de un minuto, queda en la base con su origen y arranca la secuencia de su segmento.",
+ "secciones": [
+  {
+   "titulo": "Las piezas que ya traen gente",
+   "consigna": "La captura se cuelga de lo que ya funciona, así que arrancá listando las piezas de los últimos tres meses que trajeron movimiento, con el número al lado. En la última columna anotá la pregunta que más se repitió en los comentarios, porque de ahí salen la palabra clave y el recurso. Con menos de tres piezas con movimiento, el trabajo de este mes es volumen de contenido y esta hoja espera.",
+   "ejemplo": {
+    "quien": "Nico",
+    "texto": "Dos piezas le triplicaron o cuadruplicaron los números: la de los diez días encerrado en la oficina y la de que subir los precios es un error. Las dos funcionan por lo mismo, cuentan experiencia vivida."
+   },
+   "campo": "tabla",
+   "columnas": [
+    "Pieza",
+    "Cuándo salió",
+    "Cuánta gente llegó",
+    "Qué preguntaron en comentarios"
+   ],
+   "filas": 6
+  },
+  {
+   "titulo": "La palabra y dónde se pide",
+   "consigna": "Una sola palabra, corta y fácil de escribir, pedida en un lugar fijo: al final del video, en el comentario fijado o en la descripción. El recurso llega en menos de un minuto y llega automático. El dato que pedís a cambio es uno solo, el mail, y se pide después de entregar el valor, nunca antes de que la persona entienda qué va a recibir.",
+   "ejemplo": {
+    "quien": "Agostina",
+    "texto": "Tiene ManyChat configurado repartiendo el link desde los comentarios, y la charla de dieciocho minutos grabada con la Osmo como material para mandar."
+   },
+   "campo": "lineas",
+   "lineas": [
+    "La palabra",
+    "Dónde se pide",
+    "Qué recibe",
+    "En cuánto tiempo le llega",
+    "Qué dato pedís"
+   ]
+  },
+  {
+   "titulo": "El recurso de entrada",
+   "consigna": "Elegí algo que ya exista grabado o escrito y que resuelva una sola cosa. Se entrega en un link y se consume en menos de veinte minutos. Antes de producir material nuevo revisá lo que ya dictaste, grabaste o mandaste por privado: casi siempre el recurso está hecho y solamente hay que subirlo.",
+   "ejemplo": {
+    "quien": "Seba",
+    "texto": "Dictó una mentoría de cinco sesiones donde bajó la estrategia con la que pasó de dos mil a once mil seguidores, y quedó grabada. Ese es el recurso de entrada para colgar de los videos que ya le traen tráfico."
+   },
+   "campo": "texto",
+   "alto": 3,
+   "placeholder": "Qué es, qué resuelve, dónde está el link."
+  },
+  {
+   "titulo": "La automatización, probada desde afuera",
+   "consigna": "Una fila por cada camino de entrada: comentario, mensaje directo, formulario de la landing. En la última columna va la cuenta con la que lo probaste, porque una automatización que nunca se probó desde afuera está cortada más veces de las que uno cree. Probala desde una cuenta que no sea tuya y cronometrá cuánto tarda en llegar.",
+   "campo": "tabla",
+   "columnas": [
+    "Disparador",
+    "Qué manda",
+    "Dónde guarda el contacto",
+    "Probado con qué cuenta"
+   ],
+   "filas": 5
+  },
+  {
+   "titulo": "Los tres segmentos",
+   "consigna": "Nunca compró, compró una vez, recompró. El número de hoy va aunque sea chico, porque es el punto de partida contra el que se mide el mes que viene. Si no podés contar cuántos hay en cada segmento, el trabajo previo está en la base y no en los mails.",
+   "ejemplo": {
+    "quien": "Bianca",
+    "texto": "Cruzó la recompra con el tamaño de la comunidad y le dio el mismo número, doscientas treinta y seis personas. Ese cruce es lo que le mostró de dónde tiene que salir la venta del próximo drop."
+   },
+   "campo": "tabla",
+   "columnas": [
+    "Segmento",
+    "Cómo se reconoce en la base",
+    "Cuántos hay hoy",
+    "Qué necesita escuchar"
+   ],
+   "filas": 5
+  },
+  {
+   "titulo": "La secuencia por segmento, un objetivo por mail",
+   "consigna": "Tres o cuatro mails por segmento, cada uno con un objetivo único: que conteste, que mire algo, que compre. El que nunca compró recibe la historia y el problema; el que compró una vez recibe el paso siguiente; el que recompró recibe la novedad antes que el resto y con algo reservado. Un mail con dos pedidos adentro se lee como si no tuviera ninguno.",
+   "ejemplo": {
+    "quien": "Cáscara",
+    "texto": "Las automatizaciones de mail de Bianca quedaron segmentadas por nivel de compra, armadas con Risen y Claude. Cáscara baja la estructura y el texto de cada mail lo escribe el founder."
+   },
+   "campo": "tabla",
+   "columnas": [
+    "Segmento",
+    "Mail",
+    "Día en que sale",
+    "Objetivo único"
+   ],
+   "filas": 9
+  },
+  {
+   "titulo": "Lo que se mira cada semana",
+   "consigna": "Dos números y su origen, mirados el mismo día de cada semana. Con menos de diez contactos nuevos por semana el trabajo está en el contenido antes que en la secuencia. Si entran contactos y ninguno contesta, el trabajo está en el recurso y en el primer mail.",
+   "campo": "lineas",
+   "lineas": [
+    "Contactos nuevos en la semana",
+    "Cuántos abrieron conversación",
+    "De qué pieza vinieron",
+    "Día en que se mira"
+   ]
+  },
+  {
+   "titulo": "Mandá la primera secuencia de verdad",
+   "consigna": "Probá el circuito completo desde una cuenta ajena y después mandá el primer mail a la lista que tengas hoy, aunque sean treinta contactos. Anotá cuántos abrieron, cuántos contestaron y qué contestaron, porque esas respuestas son el material del mail siguiente. Una secuencia escrita y sin mandar cuenta igual que una secuencia sin escribir.",
+   "ejemplo": {
+    "quien": "Manu",
+    "texto": "Las automatizaciones de captación quedaron definidas en abril y todavía no hay confirmación de que estén corriendo. Lo que confirma que el sistema existe es el primer mail que sale."
+   },
+   "campo": "texto",
+   "alto": 4,
+   "placeholder": "A cuántos les mandaste, cuántos abrieron, qué contestaron."
+  }
+ ]
+}

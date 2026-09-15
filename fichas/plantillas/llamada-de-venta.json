@@ -1,0 +1,60 @@
+{
+ "modulo": "llamada-de-venta",
+ "titulo": "La hoja de la llamada de venta",
+ "bajada": "El guion en cuatro tramos, el mecanismo de cierre definido y cinco llamadas grabadas con su objeción anotada. Con esto escrito, la venta deja de depender de cómo te salió la charla.",
+ "lista_cuando": "Hay cinco llamadas grabadas con el precio dicho en voz alta, cada una con su objeción textual escrita, y el guion ya corregido con las objeciones que se repitieron.",
+ "secciones": [
+  {"titulo": "El guion en cuatro tramos",
+   "consigna": "Una fila por tramo: contexto, dolor, costo de no avanzar y propuesta con precio. En cada uno escribí qué tiene que quedar claro, qué preguntás y cuántos minutos le das. Con los cuatro tramos escritos alcanza media hora; una hora sin guion termina siempre en te mando la info.",
+   "ejemplo": {"quien": "Lola", "texto": "Ella lo dijo así: es buena encontrando el dolor y diciendo cómo atacarlo, y el final, el che, lo vas a comprar, le cuesta. Las tres llamadas que tuvo se cayeron todas en el mismo lugar, al final."},
+   "campo": "tabla",
+   "columnas": ["Tramo", "Qué tiene que quedar claro", "Qué preguntás", "Minutos"],
+   "filas": 5},
+
+  {"titulo": "Las preguntas que encuentran el dolor",
+   "consigna": "Cinco preguntas escritas que hacen que la persona te cuente su problema con sus palabras. Van de lo general a lo concreto y terminan en un número: cuánto le cuesta hoy eso que le pasa. Mientras habla, anotá las frases textuales, porque son el copy de tu próxima propuesta y de tu próximo contenido.",
+   "campo": "texto", "alto": 5,
+   "placeholder": "Una pregunta por renglón."},
+
+  {"titulo": "El costo de no avanzar, con número",
+   "consigna": "Después del dolor va la cuenta: qué le cuesta seguir como está, en plata o en tiempo, armada con el número que la persona te dio dos minutos antes. Se dice una vez, tranquilo, y se deja el silencio. Si con lo que te contó no podés armar esa cuenta, volvé al tramo del dolor porque falta información.",
+   "ejemplo": {"quien": "Lucca", "texto": "Entra como co-anfitrión a la cuenta de Airbnb del dueño, cobra el diez por ciento del bruto y el resultado se compara mes contra mes con un software. El dueño lo ve a los dos meses, y por eso las objeciones son cero."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "Hoy esto te cuesta … por mes, y en tres meses son …"},
+
+  {"titulo": "La propuesta: una sola opción, con precio",
+   "consigna": "Una sola opción arriba de la mesa, con el precio dicho en voz alta y el silencio después. Escribí acá el precio de lista, el de pago adelantado y en cuántas cuotas, con más de la mitad cobrada al arrancar. Tres opciones llevan a la persona a comparar en lugar de decidir.",
+   "ejemplo": {"quien": "Lucio", "texto": "La hipótesis de precio es dos mil a tres mil dólares la instalación del sistema de diseño con IA, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Las cinco llamadas del tramo son las que confirman o corrigen ese número."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "Precio de lista, precio adelantado, cuotas, cuánto entra al arrancar."},
+
+  {"titulo": "El cierre: cupos, fecha y seña",
+   "consigna": "Qué reserva el lugar y hasta cuándo: cuántos cupos quedan, la fecha de cierre y el monto de la seña, con el link listo para mandar durante la llamada. La seña se cobra adentro de la llamada o ese mismo día. Con fecha y cupo escritos, la respuesta deja de ser lo pienso y te escribo.",
+   "ejemplo": {"quien": "Nico", "texto": "Cinco cupos y ticket de mil dólares, con la primera venta puesta al 10 de noviembre. Una sola venta, sin descuento y sin regalar el proceso, es lo que convierte la oferta en oferta."},
+   "campo": "lineas",
+   "lineas": ["Cuántos cupos", "Fecha de cierre", "Monto de la seña", "Link de pago", "Plazo para el resto"]},
+
+  {"titulo": "El downsell, guardado para adentro de la llamada",
+   "consigna": "Escribí la versión chica de tu oferta y dejala guardada para un solo momento: adentro de la llamada, cuando la persona dijo con esas palabras que el freno es la plata. Afuera se comunica una sola oferta, la de arriba. Se ofrece una vez, y con el mismo precio para todos.",
+   "ejemplo": {"quien": "Cáscara", "texto": "La Cascarita es el programa de ocho semanas que funciona como downsell de La Cáscara. Vive adentro de la conversación de venta, y la comunicación de afuera habla del programa de dieciséis semanas."},
+   "campo": "texto", "alto": 3,
+   "placeholder": "Qué incluye la versión chica y a cuánto sale."},
+
+  {"titulo": "Las grabaciones y quién las revisa",
+   "consigna": "Todas las llamadas se graban y se suben al mismo lugar el día que pasan, con el nombre y la fecha en el archivo. Definí con quién las revisás y qué día de la semana lo hacen. Revisar tus propias llamadas solo dura dos semanas y se abandona.",
+   "campo": "lineas",
+   "lineas": ["Dónde se graba", "Dónde se suben", "Quién las revisa", "Qué día de la semana"]},
+
+  {"titulo": "La planilla de objeciones",
+   "consigna": "Una fila por llamada que no cerró, con la objeción escrita tal como la dijo y el tramo donde se cayó. Cuando la misma objeción aparece tres veces, se corrige el guion y se hace contenido sobre ese tema. La frase textual sirve mucho más que tu interpretación de la frase.",
+   "campo": "tabla",
+   "columnas": ["Quién", "Fecha", "Objeción textual", "Tramo donde se cayó", "Qué corregís"],
+   "filas": 10},
+
+  {"titulo": "Cinco llamadas con el precio arriba de la mesa",
+   "consigna": "Agendá y hacé cinco llamadas con el número dicho en voz alta, grabadas y revisadas con tu mentor. Cinco es el piso para saber si el precio resiste o si lo que falla es un tramo del guion. Al final de cada una anotá qué pregunta te hizo dudar.",
+   "ejemplo": {"quien": "Sebastián", "texto": "La mentoría de cinco sesiones la dictó gratis, con cuatro personas, y el propio resultado le mostró el problema: no se comprometieron. Hasta que hay un precio sobre la mesa, lo que vuelve es feedback simpático."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "Llamada 1: con quién, qué objetó, qué corrijo."}
+ ]
+}

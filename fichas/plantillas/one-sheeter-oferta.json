@@ -1,0 +1,60 @@
+{
+ "modulo": "one-sheeter-oferta",
+ "titulo": "La hoja de tu oferta",
+ "bajada": "Una sola página con qué vendés, a quién, qué promete y a cuánto. Es el documento que después se usa para vender, para escribir contenido y para armar la entrega.",
+ "lista_cuando": "Se la podés mandar a alguien que no te conoce y entiende qué comprar, qué se lleva y cuánto sale.",
+ "secciones": [
+  {"titulo": "Los últimos diez que compraron o preguntaron",
+   "consigna": "Antes de escribir la oferta nueva, mirá la vieja. Diez clientes o consultas reales, qué compró cada uno y por qué te eligió. De acá salen el cliente ideal y el precio, así que vale más media hora buscando en el chat que una hora inventando.",
+   "ejemplo": {"quien": "José David", "texto": "Tres ventas de tres mil dólares antes de la Clarity Call. Al mirarlas juntas apareció que las tres eran e-commerce con equipo creativo rotando, y eso definió el mecanismo."},
+   "campo": "tabla",
+   "columnas": ["Quién", "Qué compró", "Cuánto pagó", "Por qué te eligió"],
+   "filas": 10},
+
+  {"titulo": "Tu cliente ideal, en una frase",
+   "consigna": "Escribilo por el problema que le resolvés, no por el rubro ni por el tamaño. Tiene que entrar el momento del negocio en el que está, el problema concreto y con cuánto cuenta para resolverlo.",
+   "ejemplo": {"quien": "Custom Lab", "texto": "Empresas de treinta a cincuenta empleados, startups y oficinas que quieren regalar algo que la gente use, y hoy resuelven ese regalo a último momento y sin criterio."},
+   "campo": "texto", "alto": 3,
+   "placeholder": "Alguien que está en… y tiene el problema de… y puede poner…"},
+
+  {"titulo": "Cómo lo dice él, con sus palabras",
+   "consigna": "Tres o cuatro frases textuales de tus clientes describiendo el problema. Sacadas de mensajes y de llamadas, sin retocar. Estas frases después son el contenido y son el copy de la propuesta.",
+   "ejemplo": {"quien": "Sebastián", "texto": "El reel que explotó tenía comentarios que decían la misma frase una y otra vez. Esa frase terminó siendo el título de la mentoría."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "Una frase por línea, tal cual la dijeron."},
+
+  {"titulo": "La promesa, con número y con plazo",
+   "consigna": "Qué cambia en el negocio del cliente si esto funciona, escrito con una cifra y un tiempo. Tiene que poder atribuirse a tu trabajo dentro del plazo del contrato: si el resultado depende de algo que vos no controlás, corregí la promesa.",
+   "ejemplo": {"quien": "Matías Morales", "texto": "Pasó de vender “campañas” a vender una campaña con fecha de inicio y de final y un entregable contado. Con eso pudo subir el precio al doble y lo vendió igual."},
+   "campo": "texto", "alto": 3,
+   "placeholder": "En X semanas, vas a tener…"},
+
+  {"titulo": "Cómo se mide",
+   "consigna": "De dónde sale el número de la promesa. Qué herramienta, quién lo carga y cada cuánto se mira. Si no se puede medir, la promesa se cambia por una que sí.",
+   "campo": "lineas",
+   "lineas": ["El número que se mira", "De dónde sale", "Quién lo carga", "Cada cuánto"]},
+
+  {"titulo": "El paso a paso de la entrega",
+   "consigna": "Las etapas del trabajo, con lo que queda hecho al final de cada una. Sirve para que el cliente sepa qué va a pasar, y para que vos sepas cuándo cumpliste.",
+   "campo": "tabla",
+   "columnas": ["Etapa", "Qué pasa", "Qué queda hecho", "Cuándo"],
+   "filas": 6},
+
+  {"titulo": "Qué incluye, qué queda afuera y qué necesitás de él",
+   "consigna": "Las tres listas que evitan la mitad de los problemas. Lo que queda afuera se escribe igual de claro que lo que entra, y lo que necesitás del cliente lleva la consecuencia si no llega a tiempo.",
+   "ejemplo": {"quien": "Cáscara", "texto": "En los contratos: el guion aprobado es entregable cumplido, la producción es responsabilidad del cliente, y si el cliente no cumple los plazos, la demora no es nuestra."},
+   "campo": "lineas",
+   "lineas": ["Incluye", "Queda afuera", "Necesito del cliente", "Si no llega a tiempo"]},
+
+  {"titulo": "El precio y la forma de pago",
+   "consigna": "Calculá primero cuánto te cuesta entregarlo una vez, contando tus horas. El piso del precio es ese costo por dos. Después definí el precio de lista, el de pago adelantado y en cuántas cuotas, con más de la mitad cobrada al principio.",
+   "ejemplo": {"quien": "Sofía Galvis", "texto": "Rearmó el paquete de tres meses en cuatro mil de lista y tres mil quinientos pagando adelantado. El adelanto es lo que le permitió frenar la entrada de clientes nuevos sin quedarse sin caja."},
+   "campo": "lineas",
+   "lineas": ["Costo de entregar una vez", "Precio de lista", "Precio pagando adelantado", "En cuotas", "Cuánto se cobra al arrancar"]},
+
+  {"titulo": "Probala en una conversación real",
+   "consigna": "Contásela a alguien que entre en el cliente ideal, con el precio arriba de la mesa. Anotá qué preguntó, dónde dudó y qué parte tuviste que explicar dos veces. Eso es lo que hay que reescribir.",
+   "campo": "texto", "alto": 4,
+   "placeholder": "Con quién la probaste, qué objetó, qué cambiarías."}
+ ]
+}

@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La hoja de las primeras cinco llamadas con precio · plantilla de Cáscara Founders</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#ECEAE4;color:#171717;font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.hoja{max-width:880px;margin:0 auto;padding:64px 32px 120px}
+.caja{display:inline-block;border:1px solid #8E8B85;padding:6px 13px;font-size:10.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:#6A6A66}
+h1{font-size:clamp(38px,6vw,58px);font-weight:800;letter-spacing:-.038em;line-height:1.02;
+  margin:28px 0 0;text-wrap:balance}
+.bajada{font-size:21px;line-height:1.5;color:#6A6A66;margin:18px 0 0;max-width:60ch}
+.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:flex;
+  justify-content:space-between;gap:20px;align-items:baseline;flex-wrap:wrap}
+.lista .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.lista .tx{font-size:17px;color:#6A6A66;max-width:60ch}
+.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;white-space:nowrap}
+
+section{margin-top:62px}
+section .n{font-size:11px;letter-spacing:.2em;color:#8E8B85;font-variant-numeric:tabular-nums}
+section h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 0;max-width:62ch}
+.ejemplo{margin-top:22px;border-left:2px solid #DBD7D2;padding:4px 0 4px 20px}
+.ejemplo .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.ejemplo .tx{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;font-style:italic;font-size:18px;line-height:1.5;
+  color:#6A6A66;margin-top:8px;max-width:62ch}
+
+.campo{margin-top:24px}
+textarea,input[type=text]{width:100%;font:inherit;font-size:18px;line-height:1.55;color:#171717;
+  background:#FBFAF8;border:1px solid #DBD7D2;padding:14px 16px;border-radius:0;
+  transition:border-color .15s}
+textarea{resize:vertical}
+textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
+.lin{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px 18px;align-items:center;
+  border-top:1px solid #DBD7D2;padding:14px 0}
+.lin .rot{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.tabla{width:100%;border-collapse:collapse;margin-top:6px}
+.tabla th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:#6A6A66;font-weight:400;padding:0 10px 10px 0;border-bottom:2px solid #171717}
+.tabla td{padding:0;border-bottom:1px solid #DBD7D2}
+.tabla input{border:0;background:transparent;padding:12px 10px 12px 0}
+.tabla input:focus{background:#FBFAF8}
+.envoltorio{overflow-x:auto}
+
+.pie{margin-top:86px;border-top:1px solid #171717;padding-top:22px;display:flex;
+  justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6A6A66}
+.acc{position:sticky;bottom:0;background:#ECEAE4;border-top:1px solid #DBD7D2;
+  padding:14px 0;margin-top:48px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.acc button{font:inherit;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  border:1px solid #171717;background:transparent;color:#171717;padding:13px 18px;cursor:pointer}
+.acc button.tinta{background:#171717;color:#ECEAE4}
+.acc button:hover{background:#171717;color:#ECEAE4}
+.acc button.tinta:hover{background:transparent;color:#171717}
+.acc .dicho{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;font-style:italic;font-size:15px;color:#6A6A66}
+
+@media (max-width:640px){
+  .hoja{padding:40px 20px 90px} .lin{grid-template-columns:1fr;gap:8px}
+  .tabla{min-width:560px}
+}
+@media print{
+  .acc{display:none} body{background:#fff}
+  textarea,input{border-color:#bbb;background:#fff}
+  section{break-inside:avoid;margin-top:40px}
+}
+</style>
+</head>
+<body data-mod="cinco-llamadas-con-precio">
+<div class="hoja">
+  <span class="caja">Plantilla · Oferta y precio</span>
+  <h1>La hoja de las primeras cinco llamadas con precio</h1>
+  <p class="bajada">Cinco conversaciones de venta hechas con el número arriba de la mesa, cada una con la objeción textual anotada y una sola corrección de la oferta al final. Es el módulo que convierte una oferta escrita en una oferta probada.</p>
+  <div class="lista">
+    <div><div class="et">Está lista cuando</div><div class="tx">Están las cinco llamadas hechas con fecha, las cinco objeciones textuales cargadas, y abajo el precio con el que sales a la sexta.</div></div>
+    <div class="avance">0 de 8 empezadas</div>
+  </div>
+
+  <section>
+    <div class="n">01</div>
+    <h2>La hipótesis de precio con la que arrancás</h2>
+    <p class="consigna">Escribí el número antes de la primera llamada, para no improvisarlo cuando te lo pregunten. Calculá cuánto te cuesta entregarlo una vez contando tus horas: el piso es ese costo por dos. Y definí cuánto se cobra al arrancar, que tiene que ser más de la mitad.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Lucio</div><div class="tx">Salió con dos mil a tres mil dólares por la instalación del sistema de diseño con IA, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Ese número entró a las cinco llamadas como hipótesis, para que las llamadas lo confirmen o lo corrijan.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">Costo de entregar una vez</span><input type="text" data-c="s0l0" placeholder=""></div>      <div class="lin"><span class="rot">Precio de lista</span><input type="text" data-c="s0l1" placeholder=""></div>      <div class="lin"><span class="rot">Precio pagando adelantado</span><input type="text" data-c="s0l2" placeholder=""></div>      <div class="lin"><span class="rot">Cuánto se cobra al arrancar</span><input type="text" data-c="s0l3" placeholder=""></div>      <div class="lin"><span class="rot">La frase exacta con la que decís el número</span><input type="text" data-c="s0l4" placeholder=""></div>
+    </div>
+  </section>
+  <section>
+    <div class="n">02</div>
+    <h2>Las cinco personas, con nombre y con fecha</h2>
+    <p class="consigna">Cinco personas del entorno que entren en el cliente ideal que ya escribiste. Cada una con la fecha de la llamada puesta en el calendario antes de cerrar esta hoja: cinco llamadas en dos semanas, no cinco intenciones. Si una persona no entra en el cliente ideal, sacala y buscá otra, porque su objeción te va a mandar a corregir lo que está bien.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Ayelén</div><div class="tx">Cósmico, la yerba, es el caso de prueba desde julio y la propuesta seguía sin presentarse con precio. Esa es la primera de las cinco: el que ya está adentro y todavía no vio el número.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Quién</th><th>Por qué entra en el cliente ideal</th><th>Cómo lo invitás</th><th>Fecha y hora de la llamada</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s1f0c0"></td><td><input type="text" data-c="s1f0c1"></td><td><input type="text" data-c="s1f0c2"></td><td><input type="text" data-c="s1f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f1c0"></td><td><input type="text" data-c="s1f1c1"></td><td><input type="text" data-c="s1f1c2"></td><td><input type="text" data-c="s1f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f2c0"></td><td><input type="text" data-c="s1f2c1"></td><td><input type="text" data-c="s1f2c2"></td><td><input type="text" data-c="s1f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f3c0"></td><td><input type="text" data-c="s1f3c1"></td><td><input type="text" data-c="s1f3c2"></td><td><input type="text" data-c="s1f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f4c0"></td><td><input type="text" data-c="s1f4c1"></td><td><input type="text" data-c="s1f4c2"></td><td><input type="text" data-c="s1f4c3"></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section>
+    <div class="n">03</div>
+    <h2>Cómo presentás la oferta y en qué momento aparece el número</h2>
+    <p class="consigna">Escribí el orden en el que vas a contar la oferta y en qué minuto decís el precio. La oferta se presenta completa: promesa con número y plazo, qué incluye, qué queda afuera, qué necesitás de él y cuánto sale. El precio se dice de arriba hacia abajo, empezando por el de lista, y la llamada se graba entera.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Lola</div><div class="tx">Tuvo tres llamadas con gente que le escribió y a la que le mostró el programa. Las tres se cayeron en el mismo lugar: al final, donde había que preguntar si lo compraba. Escribir de antemano la frase del precio es lo que resuelve ese punto.</div></div>
+    <div class="campo"><textarea data-c="s2" rows="4" placeholder="Arranco con… muestro… el precio lo digo cuando…"></textarea></div>
+  </section>
+  <section>
+    <div class="n">04</div>
+    <h2>La planilla de objeciones, llamada por llamada</h2>
+    <p class="consigna">Una fila por llamada, cargada el mismo día, con la objeción copiada tal cual la dijo. La objeción textual vale mucho más que tu resumen de la objeción, porque esa frase después es el copy de la propuesta. Anotá también el minuto en el que frenó: si las cinco frenan en el mismo lugar, ahí está el arreglo.</p>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Llamada y fecha</th><th>Minuto donde frenó</th><th>La objeción, textual</th><th>Qué contestaste</th><th>Cómo terminó</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s3f0c0"></td><td><input type="text" data-c="s3f0c1"></td><td><input type="text" data-c="s3f0c2"></td><td><input type="text" data-c="s3f0c3"></td><td><input type="text" data-c="s3f0c4"></td></tr>
+        <tr><td><input type="text" data-c="s3f1c0"></td><td><input type="text" data-c="s3f1c1"></td><td><input type="text" data-c="s3f1c2"></td><td><input type="text" data-c="s3f1c3"></td><td><input type="text" data-c="s3f1c4"></td></tr>
+        <tr><td><input type="text" data-c="s3f2c0"></td><td><input type="text" data-c="s3f2c1"></td><td><input type="text" data-c="s3f2c2"></td><td><input type="text" data-c="s3f2c3"></td><td><input type="text" data-c="s3f2c4"></td></tr>
+        <tr><td><input type="text" data-c="s3f3c0"></td><td><input type="text" data-c="s3f3c1"></td><td><input type="text" data-c="s3f3c2"></td><td><input type="text" data-c="s3f3c3"></td><td><input type="text" data-c="s3f3c4"></td></tr>
+        <tr><td><input type="text" data-c="s3f4c0"></td><td><input type="text" data-c="s3f4c1"></td><td><input type="text" data-c="s3f4c2"></td><td><input type="text" data-c="s3f4c3"></td><td><input type="text" data-c="s3f4c4"></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section>
+    <div class="n">05</div>
+    <h2>Lo que se repitió en las cinco</h2>
+    <p class="consigna">Leé las cinco filas juntas y escribí qué apareció más de dos veces. Sirve el patrón que se repite: la misma duda, el mismo precio nombrado, la misma parte que tuviste que explicar dos veces. Lo que dijo una sola persona queda anotado y se guarda para más adelante.</p>
+    <div class="campo"><textarea data-c="s4" rows="4" placeholder="Tres de cinco preguntaron por… Dos frenaron cuando…"></textarea></div>
+  </section>
+  <section>
+    <div class="n">06</div>
+    <h2>La corrección: promesa, precio o cliente ideal</h2>
+    <p class="consigna">Se corrige una sola de las tres, la que las cinco llamadas señalaron. Si te frenaron por el resultado, se corrige la promesa. Si te frenaron por el número, se corrige el precio o la forma de pago. Si te dijeron que esto le sirve a otro, se corrige el cliente ideal. Escribí la versión nueva de esa parte completa, para poder pegarla en la hoja de tu oferta.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Sebastián</div><div class="tx">Dictó la mentoría de cinco sesiones gratis con cuatro personas y se quedó sin nada que leer: al no pagar, nadie se comprometió y el feedback salió simpático. Ese es el motivo por el que la corrección sale de llamadas con precio.</div></div>
+    <div class="campo"><textarea data-c="s5" rows="5" placeholder="Lo que cambio es… y queda escrito así:"></textarea></div>
+  </section>
+  <section>
+    <div class="n">07</div>
+    <h2>El número que queda cerrado</h2>
+    <p class="consigna">El precio que sostuvo más conversaciones, con la forma de pago que menos fricción hizo. Este número es el que se usa de acá en adelante y se comunica igual en todos los canales. Anotá también el piso: debajo de qué cifra no vendés, aunque te lo pidan.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Matías Morales</div><div class="tx">Armó las propuestas con Facu, subió los precios casi al doble y las vendió todas igual. Quedó probado que el techo lo tenía puesto él y que el mercado pagaba más.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">Precio de lista que queda</span><input type="text" data-c="s6l0" placeholder=""></div>      <div class="lin"><span class="rot">Precio pagando adelantado</span><input type="text" data-c="s6l1" placeholder=""></div>      <div class="lin"><span class="rot">Forma de pago que mejor funcionó</span><input type="text" data-c="s6l2" placeholder=""></div>      <div class="lin"><span class="rot">El piso: debajo de esto no vendés</span><input type="text" data-c="s6l3" placeholder=""></div>
+    </div>
+  </section>
+  <section>
+    <div class="n">08</div>
+    <h2>La sexta llamada, con la corrección puesta</h2>
+    <p class="consigna">Agendá una llamada más dentro de los siete días siguientes, con la oferta ya corregida y el número nuevo. Es la que dice si la corrección funcionó o si el problema estaba en otra parte. Anotá qué preguntó, si apareció la misma objeción de las cinco anteriores y cómo terminó.</p>
+    <div class="ejemplo"><div class="et">Cómo lo resolvió Nicolás Lozada</div><div class="tx">El objetivo del tramo es una sola venta, a mil dólares, sin descuento y sin regalar el proceso. Una venta cerrada con precio es lo que le da sentido al resto del sistema que ya tiene armado.</div></div>
+    <div class="campo"><textarea data-c="s7" rows="4" placeholder="Con quién, qué día, qué preguntó, cómo terminó."></textarea></div>
+  </section>
+
+  <div class="acc">
+    <button class="tinta" data-a="bajar">Descargar completada</button>
+    <button data-a="imprimir">Imprimir</button>
+    <button data-a="limpiar">Vaciar la hoja</button>
+    <span class="dicho">Lo que escribís se guarda solo en este navegador.</span>
+  </div>
+
+  <div class="pie">
+    <span>Las primeras cinco llamadas con precio · Cáscara Founders</span>
+    <span>Cáscara diseña, vos ejecutás</span>
+  </div>
+</div>
+<script>
+(function(){
+  var K='cf-pl-'+document.body.dataset.mod;
+  function todos(){return Array.prototype.slice.call(document.querySelectorAll('[data-c]'))}
+  function cargar(){
+    var v={}; try{v=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){}
+    todos().forEach(function(el){ if(v[el.dataset.c]!=null) el.value=v[el.dataset.c]; auto(el); });
+    contar();
+  }
+  function guardar(){
+    var v={}; todos().forEach(function(el){ if(el.value) v[el.dataset.c]=el.value; });
+    try{localStorage.setItem(K,JSON.stringify(v))}catch(e){}
+    contar();
+  }
+  function auto(el){ if(el.tagName==='TEXTAREA'){ el.style.height='auto'; el.style.height=(el.scrollHeight+2)+'px'; } }
+  function contar(){
+    var s=document.querySelectorAll('section'), n=0;
+    s.forEach(function(sec){
+      var c=sec.querySelectorAll('[data-c]'), lleno=false;
+      c.forEach(function(el){ if(el.value && el.value.trim()) lleno=true; });
+      if(lleno) n++;
+    });
+    var a=document.querySelector('.avance');
+    if(a) a.textContent = n+' de '+s.length+' empezadas';
+  }
+  document.addEventListener('input',function(e){
+    if(!e.target.dataset || !e.target.dataset.c) return; auto(e.target); guardar();
+  });
+  var bl=document.querySelector('[data-a="limpiar"]');
+  if(bl) bl.addEventListener('click',function(){
+    if(!confirm('Esto borra todo lo que escribiste en esta hoja. ¿Seguimos?')) return;
+    todos().forEach(function(el){el.value='';auto(el)}); guardar();
+  });
+  var bi=document.querySelector('[data-a="imprimir"]');
+  if(bi) bi.addEventListener('click',function(){window.print()});
+  var bd=document.querySelector('[data-a="bajar"]');
+  if(bd) bd.addEventListener('click',async function(){
+    todos().forEach(function(el){
+      if(el.tagName==='TEXTAREA') el.textContent=el.value; else el.setAttribute('value',el.value||'');
+    });
+    var html='<!doctype html>\n'+document.documentElement.outerHTML;
+    var nom='plantilla-'+document.body.dataset.mod+'.html';
+    var dl=null; try{ dl=await claude.use('downloads'); }catch(e){}
+    if(dl){ try{ await dl.save({filename:nom,data:html}); return; }catch(e){ if(e&&e.code==='declined')return; } }
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([html],{type:'text/html'})); a.download=nom;
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+  cargar();
+  window.addEventListener('resize',function(){todos().forEach(auto)});
+})();
+</script>
+</body>
+</html>
