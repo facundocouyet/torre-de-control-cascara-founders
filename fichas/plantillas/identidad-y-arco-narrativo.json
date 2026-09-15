@@ -1,0 +1,61 @@
+{
+ "modulo": "identidad-y-arco-narrativo",
+ "titulo": "La hoja de tu posición y tu arco narrativo",
+ "bajada": "Queda escrito qué sabés, qué te importa y qué estás construyendo, qué perspectiva propia sale de ese cruce, cuál es el enemigo y cómo se cuenta tu arco. Después cada pieza y cada oferta se miden contra esta hoja.",
+ "lista_cuando": "Le contaste la frase de tu posición a tres personas, la entendieron sin que expliques tu rubro, y las tres últimas piezas que publicaste salen del mismo arco.",
+ "secciones": [
+  {"titulo": "Las tres columnas",
+   "consigna": "Llenala de corrido, sin buscar la frase linda. En la primera van cosas que sabés hacer con horas encima, en la segunda lo que te importa aunque no te pague, y en la tercera lo que estás construyendo hoy. Mínimo cinco filas por columna y todo con hechos: años, clientes, trabajos, proyectos. Los adjetivos se sacan al final.",
+   "ejemplo": {"quien": "Sharon Palacio", "texto": "Al ponerlo en columnas apareció que su recorrido de moda a diseño a tatuaje es un solo viaje, y desde ahí el contenido propio deja de tener que elegir entre tres carreras."},
+   "campo": "tabla",
+   "columnas": ["Lo que sé", "Lo que me importa", "Lo que estoy construyendo"],
+   "filas": 8},
+
+  {"titulo": "Tu criterio: cómo trabajás cuando decidís vos",
+   "consigna": "Escribí tres decisiones que tomás siempre igual en tu trabajo, con lo que dejás afuera en cada una. Sacalas de proyectos reales, de cosas que ya defendiste frente a un cliente. El criterio se reconoce porque incomoda a alguien: si las tres decisiones las firmaría cualquiera de tu rubro, todavía es descripción.",
+   "campo": "texto", "alto": 4,
+   "placeholder": "Cuando pasa…, yo siempre…, y dejo afuera…"},
+
+  {"titulo": "El carácter: cómo se siente trabajar con vos",
+   "consigna": "Esto no lo escribís vos solo. Pedile a dos personas que trabajaron con vos que lo digan en una frase y copiá las frases tal cual, sin retocarlas. Después marcá la palabra que las dos usaron: ahí está el carácter, y eso es lo que después se entrega en la oferta.",
+   "ejemplo": {"quien": "Aaron Aiello", "texto": "Cami lo dijo sin vueltas: él trata de amigos a sus clientes, está ahí ayudándolos y los empuja. Facu lo nombró igual en la llamada, y de ese acompañamiento cercano salió que la oferta B2C tenga un pie fuerte en mentalidad antes de enseñar negocios."},
+   "campo": "texto", "alto": 3,
+   "placeholder": "Dos frases textuales, con el nombre de quien la dijo."},
+
+  {"titulo": "Qué ves que otros no ven",
+   "consigna": "Cruzá las tres columnas y escribí la perspectiva propia: la lectura del mercado que a vos te resulta obvia y a los demás les suena discutible. Una frase, en presente, sobre cómo funcionan las cosas en tu rubro. La prueba de que sirve es que alguien de tu industria la discutiría en una mesa.",
+   "ejemplo": {"quien": "Custom Lab", "texto": "El merch funciona como el medio publicitario de otra marca. Esa lectura cambió a quién le venden y a qué precio: apuntan a empresas de treinta a cincuenta empleados y a oficinas, donde el presupuesto existe y las fechas se repiten."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "En mi rubro, lo que en realidad pasa es que…"},
+
+  {"titulo": "El enemigo",
+   "consigna": "Nombrá la idea instalada que tu trabajo viene a discutir. Una sola frase, y tiene que ser una idea, una costumbre del mercado o una creencia, nunca una persona ni un competidor. Si al leerla en voz alta no te sube nada, seguí buscando hasta que te suba.",
+   "ejemplo": {"quien": "Scarlett Montilla", "texto": "Lo que la indigna es que se glorifique el burnout como señal de mérito. Apareció trabajando con Juana el 9 de septiembre y conecta derecho con construir a tu propio ritmo, que es lo que enseña su mentoría."},
+   "campo": "texto", "alto": 3,
+   "placeholder": "Me molesta que en mi mercado se dé por cierto que…"},
+
+  {"titulo": "Las cuatro frases fijas",
+   "consigna": "Bajá acá lo de arriba, corregido hasta que lo puedas decir de memoria en una conversación. La posición entra en doce palabras y se entiende sin que tengas que explicar tu rubro. Estas cuatro frases son las que después van al perfil, a la propuesta y a la primera línea de cada pieza.",
+   "campo": "lineas",
+   "lineas": ["La obsesión, en tres palabras", "El enemigo, en una frase", "La posición, en una frase", "El título del arco"]},
+
+  {"titulo": "El arco narrativo, tramo por tramo",
+   "consigna": "Armá el arco desde la obsesión, con cinco tramos: de dónde venís, qué se rompió, qué encontraste, qué estás construyendo y hacia dónde va. Cada tramo lleva un hecho tuyo verificable en la última columna, con fecha o con número. El tramo sin hecho se cae, porque es el que después no vas a poder contar dos veces igual.",
+   "ejemplo": {"quien": "Sebastián Martínez", "texto": "Viene del mundo corporativo y de la venta, se pasó a filmmaker, armó Estudio Gama 21 con Titi y terminó dirigiendo el contenido de Emilio Axis. El tramo con la prueba más fuerte es el del miedo a grabarse en público: un reel orgánico con un millón cuatrocientas mil vistas y mil ochocientos comentarios."},
+   "campo": "tabla",
+   "columnas": ["Tramo", "Qué cuenta", "El hecho tuyo que lo prueba"],
+   "filas": 5},
+
+  {"titulo": "La hoja usada como filtro",
+   "consigna": "Pasá por el filtro las tres últimas piezas que publicaste y la oferta que estás vendiendo hoy: contra qué parte de la hoja se mide cada una y si entra o se cae. Si entra todo, el filtro está flojo y hay que apretar la posición. De acá sale también qué se archiva del perfil.",
+   "ejemplo": {"quien": "Bianca Antonini", "texto": "En medio del drop del miedo subió un carrusel de venta de un producto viejo y se chocó con la narrativa nueva. Con la hoja adelante, esa pieza se caía antes de publicarse."},
+   "campo": "tabla",
+   "columnas": ["Pieza u oferta", "Contra qué parte de la hoja se mide", "Entra o se cae"],
+   "filas": 6},
+
+  {"titulo": "Decila en voz alta tres veces",
+   "consigna": "Contale la posición y el arco a tres personas esta semana, y que una sea un cliente o alguien que te podría comprar. Sin pantalla, en una charla. Anotá en qué parte te pidieron que expliques más, qué tramo del arco tuviste que repetir y qué palabra usaron ellos para devolvértelo. Esa palabra entra a la hoja y reemplaza a la tuya.",
+   "campo": "texto", "alto": 4,
+   "placeholder": "Con quién la probé, dónde tuve que explicar de nuevo, qué palabra me devolvieron."}
+ ]
+}

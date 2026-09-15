@@ -1,0 +1,57 @@
+{
+ "modulo": "onboarding-y-roadmap-cliente",
+ "titulo": "La hoja del arranque del cliente",
+ "bajada": "Las primeras cuarenta y ocho horas después de cada venta escritas paso por paso, y un roadmap con hitos y fechas presentado al cliente en una reunión.",
+ "lista_cuando": "Entra una venta hoy y pasado mañana el cliente ya tuvo su reunión de arranque y tiene el roadmap a la vista, sin que vos improvises nada.",
+ "secciones": [
+  {"titulo": "Cómo arrancó el último cliente que te compró",
+   "consigna": "Reconstruí con fechas lo que pasó desde que pagó hasta la primera entrega: qué le mandaste, qué le pediste, cuándo fue la primera reunión. Buscalo en el chat, no de memoria. Si tardás más de diez minutos en reconstruirlo, el arranque está viviendo en tu cabeza y ahí está el trabajo.",
+   "ejemplo": {"quien": "Sol Boutmy", "texto": "En Be Motion las dos socias arman las propuestas, van a producir y editan. El arranque de cada proceso de tres meses todavía no está escrito, así que cada cliente entra de una manera distinta."},
+   "campo": "texto", "alto": 4,
+   "placeholder": "Pagó el… Le escribí el… La primera reunión fue el…"},
+
+  {"titulo": "Las primeras cuarenta y ocho horas, momento por momento",
+   "consigna": "Escribí la secuencia completa desde el pago hasta la reunión de arranque, con quién manda cada cosa y por qué canal. Todo tiene que entrar en cuarenta y ocho horas: lo que cae fuera de esa ventana se acomoda adentro o se saca del arranque. Cada fila lleva un dueño con nombre.",
+   "ejemplo": {"quien": "Cáscara", "texto": "El proceso de entrega tiene el onboarding corriendo dentro de las cuarenta y ocho horas de la venta, con la presentación del roadmap y los hitos con responsable ya adentro de esa ventana."},
+   "campo": "tabla",
+   "columnas": ["Momento", "Qué pasa", "Quién lo hace", "Por dónde"],
+   "filas": 8},
+
+  {"titulo": "El mensaje de bienvenida",
+   "consigna": "Un solo mensaje con tres cosas: qué va a pasar esta semana, el día y la hora de la reunión de arranque, y qué tiene que traer el cliente a esa reunión. Una sola fecha, con hora. Escribilo para mandarlo tal cual la próxima vez que entre una venta.",
+   "campo": "texto", "alto": 5,
+   "placeholder": "Bienvenido. Esta semana… La reunión es el… a las… Traé…"},
+
+  {"titulo": "El formulario de arranque",
+   "consigna": "Las preguntas que necesitás contestadas antes de producir la primera pieza. Cada pregunta tiene que cambiar algo de lo que vas a hacer: la que no cambia nada se saca. Con diez preguntas alcanza, y el formulario va en el mismo mensaje de bienvenida con fecha de devolución.",
+   "ejemplo": {"quien": "Sofía Galvis", "texto": "Su sistema de noventa días arranca con formulario de onboarding, documento con fechas y canal de comunicación definido, antes de que se produzca la primera pieza."},
+   "campo": "tabla",
+   "columnas": ["Pregunta", "Para qué la usás", "Obligatoria"],
+   "filas": 8},
+
+  {"titulo": "Los hitos del roadmap",
+   "consigna": "Dividí el trabajo en hitos, con lo que queda hecho al final de cada uno, una fecha dura y un responsable de cada lado. Cinco o seis hitos alcanzan para tres meses; más que eso se vuelve un calendario y el cliente lo deja de mirar. Donde el hito depende de él, el responsable es él y se escribe con su nombre.",
+   "ejemplo": {"quien": "Sharon Palacio", "texto": "Vende bloques de tres meses con un objetivo macro y cierra cada bloque con una reunión donde presenta todo lo entregado y propone lo que sigue."},
+   "campo": "tabla",
+   "columnas": ["Hito", "Qué queda hecho", "Fecha", "Quién responde"],
+   "filas": 8},
+
+  {"titulo": "La reunión donde se lo presentás",
+   "consigna": "El roadmap se presenta en llamada, con la pantalla compartida y el documento abierto. De esa reunión sale la fecha del primer hito confirmada por el cliente en voz alta. Dejá escrito dónde queda el documento y quién lo actualiza cada semana.",
+   "campo": "lineas",
+   "lineas": ["Fecha de la reunión", "Cuánto dura", "Quién entra del lado del cliente", "Dónde queda el roadmap", "Quién lo actualiza y cada cuánto"]},
+
+  {"titulo": "Lo que necesitás del cliente para cumplir",
+   "consigna": "Listá lo que tiene que llegar de su lado y para cuándo: accesos, material, aprobaciones, producción. Al lado de cada cosa, qué pasa con la fecha si llega tarde, que es correrla los mismos días de la demora. Todo esto se dice en la reunión de arranque, con el roadmap adelante.",
+   "ejemplo": {"quien": "Agostina Marchesini", "texto": "En el acuerdo con Ibi quedó fijado qué sigue siendo suyo: ella escribe los guiones y ella sube las historias. Eso queda de su lado y el resto se delega."},
+   "campo": "lineas",
+   "lineas": ["Qué necesito", "Para cuándo", "Quién lo manda de su lado", "Si llega tarde, qué pasa con la fecha"]},
+
+  {"titulo": "Corrélo con los clientes que ya están adentro",
+   "consigna": "Aplicá el proceso a cada cliente activo esta semana, con reunión y roadmap, aunque lleve meses trabajando con vos. Anotá qué preguntó cada uno y qué parte del proceso se rompió al usarlo. Con dos clientes ya tenés lo suficiente para que el tercero arranque solo.",
+   "ejemplo": {"quien": "Matías Morales", "texto": "Vendió dos proyectos al doble del precio anterior y a partir de ahí improvisó. El trabajo es presentarles el roadmap a los dos con el proceso escrito una sola vez, para que el tercero no arranque de cero."},
+   "campo": "tabla",
+   "columnas": ["Cliente", "Fecha de la reunión", "Qué preguntó", "Qué hubo que corregir"],
+   "filas": 6}
+ ]
+}

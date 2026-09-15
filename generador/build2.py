@@ -150,7 +150,7 @@ def build(d):
         <div style="font-size:28px;line-height:1.48;color:{GREY};">{esc(x["texto"])}</div>
       </div>''' for x in d["punto_a"])
     b += f'    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:64px;margin-top:62px;">\n{cols}\n    </div>\n'
-    add("01 · Dónde estás hoy",b)
+    add("Dónde estás hoy",b)
 
     # 03 · LA LECTURA
     L=d["lectura"]
@@ -167,10 +167,11 @@ def build(d):
       <span style="font-size:18px;letter-spacing:.2em;text-transform:uppercase;color:#8C8C90;">Orientación</span>
       <span style="font-size:34px;font-weight:800;letter-spacing:-.02em;color:{PAPER2};">{esc(d["orientacion"])}</span>
     </div>\n'''
-    add("02 · La lectura",b,True)
+    add("La lectura",b,True)
 
-    # 04 · EL HANDICAP, escala 1-100
-    if H_:
+    # 04 · EL HANDICAP, escala 1-100 — interno.
+    # No va en los informes de cierre: son los que se le mandan al cliente.
+    if H_ and d.get("modo") != "cierre":
         gen=round(sum(cien(v) for v in [H_["ejes"][k] for k,_ in EJES])/5)
         filas=""
         for k,nom in EJES:
@@ -203,7 +204,7 @@ def build(d):
           <div style="font-size:28px;line-height:1.46;">{esc(COMO_SUBE.get(floj,""))}</div>
         </div>
       </div>\n    </div>\n'''
-        add("03 · El handicap",b)
+        add("El handicap",b)
 
     # 05 · LO QUE PASÓ
     R=d.get("recorrido") or {}
@@ -221,7 +222,7 @@ def build(d):
 {hitos}
       </div>
     </div>\n'''
-        add("04 · Lo que pasó",b)
+        add("Lo que pasó",b)
 
     # 06 · LAS RESPUESTAS
     RS=d.get("respuestas") or []
@@ -236,7 +237,7 @@ def build(d):
         b += H("Los temas que ya quedaron resueltos",72,mb=22)
         b += P("Cada uno se discutió y tiene una respuesta. De acá sale el roadmap.",28,GREY,mb=48,mw=1300)
         b += f'    <div style="display:grid;grid-template-columns:repeat({cols},minmax(0,1fr));gap:56px;">\n{cells}\n    </div>\n'
-        add("05 · Las respuestas",b)
+        add("Las respuestas",b)
 
     # 07 · LO QUE TE ENTREGAMOS
     EN=d.get("entregables") or []
@@ -249,7 +250,7 @@ def build(d):
         b += H("Lo que sale de Cáscara hacia tu negocio",72,mb=22)
         b += P("A la izquierda lo que te damos. A la derecha lo que hacés con eso.",28,GREY,mb=42,mw=1300)
         b += f'    <div>\n{filas}\n    </div>\n'
-        add("06 · Lo que te entregamos",b)
+        add("Lo que te entregamos",b)
 
     # 08 · CONCLUSIÓN ESTRATÉGICA
     if d.get("conclusion"):
@@ -271,7 +272,7 @@ def build(d):
       <div style="font-size:19px;letter-spacing:.2em;text-transform:uppercase;color:#8C8C90;margin-bottom:12px;">Lo que queda sin definir</div>
       <div style="font-size:28px;line-height:1.46;color:#C9C7C3;">{esc(d["abierto"])}</div>
     </div>\n'''
-            add("07 · La conclusión",b,True)
+            add("La conclusión",b,True)
 
     # 09 · A DÓNDE VAMOS
     cells="".join(f'''      <div style="border-top:2px solid {INK};padding-top:26px;">
@@ -282,7 +283,7 @@ def build(d):
     b  = ""
     b += H("El objetivo del tramo",76,mb=48)
     b += f'    <div style="display:grid;grid-template-columns:1fr 1fr;gap:72px;">\n{cells}\n    </div>\n'
-    add("08 · A dónde vamos",b)
+    add("A dónde vamos",b)
 
     # 10 · EL ROADMAP, línea de tiempo horizontal
     RM=d["roadmap"]
@@ -309,7 +310,7 @@ def build(d):
 {"".join(paso(x) for x in tr)}
       </div>
     </div>\n'''
-        add("09 · El roadmap",b)
+        add("El roadmap",b)
 
     # 11 · LOS ACCIONABLES, checklist
     AC=d["accionables"]
@@ -345,7 +346,7 @@ def build(d):
         b += P("Tocá cada uno cuando lo termines. El documento se acuerda de lo que ya tachaste.",28,GREY,mb=44,mw=1400)
         cols = 1 if len(g)==1 else 2
         b += f'    <div style="display:grid;grid-template-columns:repeat({cols},minmax(0,1fr));gap:56px 72px;align-items:start;">\n' + "\n".join(g) + '\n    </div>\n'
-        add("10 · Los accionables",b)
+        add("Los accionables",b)
 
     # 12 · LA CARTA — hoja desnuda: solo el párrafo, centrado
     PN.append(("carta",esc(d.get("carta","")),False,None))

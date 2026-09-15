@@ -1,0 +1,62 @@
+{
+ "modulo": "ciclo-y-continuidad",
+ "titulo": "La hoja de cierre de ciclo y continuidad",
+ "bajada": "Cada cliente con una fecha de cierre, un informe con los números del bloque y la propuesta de los tres meses que siguen, con precio y forma de pago.",
+ "lista_cuando": "Tenés la reunión de cierre hecha con cada cliente y anotado quién sigue, con qué objetivo y a qué precio.",
+ "secciones": [
+  {"titulo": "Tus clientes y en qué mes de trabajo están",
+   "consigna": "Todos los que te pagan hoy, desde cuándo, cuánto pagan por mes y la fecha en la que cierra su bloque de tres meses. Al que está en mensualidad abierta contale los meses desde el primero que trabajaron juntos y ponele fecha de cierre igual, aunque él todavía no la sepa. Mientras la fecha no esté escrita, la conversación de continuidad se corre sola todos los meses.",
+   "ejemplo": {"quien": "Sol Boutmy", "texto": "Seis clientes fijos, cobro mensual y contra entrega, con un promedio de seiscientos a setecientos dólares, alguno de mil y alguno menos. Ninguno tiene fecha de cierre."},
+   "campo": "tabla",
+   "columnas": ["Cliente", "Desde cuándo", "Cuánto paga por mes", "Fecha de cierre del bloque"],
+   "filas": 8},
+
+  {"titulo": "El bloque de tres meses, mes por mes",
+   "consigna": "Un objetivo macro para los tres meses y un objetivo por mes, con lo que queda entregado al final de cada uno. El macro es del negocio del cliente, el mensual es tuyo y tiene que poder verse sin que vos lo expliques. Armalo para el bloque que estás cerrando y para el que vas a proponer, así la reunión de cierre muestra las dos columnas juntas.",
+   "campo": "tabla",
+   "columnas": ["Mes", "Objetivo del mes", "Qué queda entregado", "El número que se mira"],
+   "filas": 6},
+
+  {"titulo": "El informe de cierre: qué se hizo",
+   "consigna": "En prosa, lo que pasó en estos tres meses: qué se entregó, qué se probó, qué funcionó y qué se corrigió en el camino. Va con cantidades adelante, piezas publicadas, campañas, reuniones, y escrito para que lo entienda el cliente sin tu explicación al lado. Este es el texto que leés en voz alta en la reunión.",
+   "campo": "texto", "alto": 5,
+   "placeholder": "En estos tres meses entregamos… probamos… y corregimos…"},
+
+  {"titulo": "Los números del bloque",
+   "consigna": "El número de la promesa, cómo arrancó, cómo cerró y de dónde sale el dato. Si hoy no lo podés sacar de una herramienta, poné el más bajo que puedas probar y dejá anotado de dónde va a salir el mes que viene. Un informe de cierre sin números es una charla.",
+   "ejemplo": {"quien": "Bianca Antonini", "texto": "Para cerrar el drop tiene que poder contestar tres cosas: cuánta gente hay en la comunidad de WhatsApp, qué parte de las ventas salió de ahí y cuántas de esas clientas eran recompra."},
+   "campo": "lineas",
+   "lineas": ["El número de la promesa", "Cómo arrancó", "Cómo cerró", "De dónde sale el dato", "Qué lo movió"]},
+
+  {"titulo": "Lo que queda abierto",
+   "consigna": "Dos o tres cosas del bloque que quedaron a mitad de camino, con el motivo al lado. Escribirlas vos antes de la reunión es lo que evita que las traiga él. Cada una entra después en el objetivo del bloque siguiente o queda cerrada con una fecha en esta misma hoja.",
+   "campo": "texto", "alto": 3,
+   "placeholder": "Quedó abierto… porque… y se resuelve el…"},
+
+  {"titulo": "La propuesta del bloque que sigue",
+   "consigna": "Objetivo macro, qué incluye, qué queda afuera, precio del bloque y forma de pago. El precio se dice desde arriba: primero el bloque completo, después las cuotas. Más de la mitad cobrada al arrancar, y el precio de pago adelantado siempre por debajo del precio de lista.",
+   "ejemplo": {"quien": "Sofía Galvis", "texto": "Rearmó el paquete de tres meses: cuatro mil dólares de lista, tres mil quinientos pagando por adelantado y tres mil ochocientos en dos cuotas, con más de la mitad cobrada al principio."},
+   "campo": "lineas",
+   "lineas": ["Objetivo macro del bloque", "Qué incluye", "Qué queda afuera", "Precio del bloque", "Cómo se cobra"]},
+
+  {"titulo": "El criterio de salida, escrito",
+   "consigna": "Dos frases: el bloque se entrega completo y el aviso de baja entra con un mes de anticipación. Van en la propuesta y en el contrato con la misma redacción. Escribilo ahora, en frío, que sale mejor que el día que el cliente lo pregunta.",
+   "ejemplo": {"quien": "Cáscara", "texto": "El contrato se replica igual para todos los clientes. Las condiciones de cierre y de salida están escritas con la misma redacción en todos, así la conversación nunca se improvisa."},
+   "campo": "texto", "alto": 3,
+   "placeholder": "El bloque se entrega completo. El aviso entra con…"},
+
+  {"titulo": "Las reuniones de cierre, agendadas",
+   "consigna": "Una reunión por cliente, con día y hora, antes de que termine el bloque. Mandá la invitación hoy con el asunto puesto: cierre de ciclo y plan de los próximos tres meses. Una sola fecha dura por cliente, y si se corre, se corre una vez y se avisa.",
+   "ejemplo": {"quien": "Matías Morales", "texto": "Vende campañas con fecha de inicio y de final, con hitos y fechas presentados al cliente en el roadmap. Con eso la fecha de cierre queda puesta el día que se firma."},
+   "campo": "tabla",
+   "columnas": ["Cliente", "Día y hora", "Quién entra", "Qué se presenta"],
+   "filas": 8},
+
+  {"titulo": "Lo que contestó cada uno",
+   "consigna": "Después de cada reunión, anotá si siguió, con qué objetivo, a qué precio y qué objetó. Las objeciones de los que no siguen valen igual que las firmas: son lo que corrige la propuesta del próximo. Con tres bloques firmados la continuidad deja de ser una intención.",
+   "ejemplo": {"quien": "Sharon Palacio", "texto": "El tramo cierra con tres retainers de tres meses firmados, cada uno con su reunión de cierre donde se presenta todo lo entregado y se propone lo que sigue."},
+   "campo": "tabla",
+   "columnas": ["Cliente", "Siguió", "Objetivo del bloque nuevo", "Precio y forma de pago", "Qué objetó"],
+   "filas": 8}
+ ]
+}

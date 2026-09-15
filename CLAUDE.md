@@ -1,57 +1,64 @@
-# Contexto para Claude Code
+# Torre de control de Cáscara Founders
 
-Este repo es la **torre de control de Cáscara Founders**: el tablero interno con la camada de
-clientes, el handicap de cada uno y los documentos de founder. Leé `README.md` antes de tocar nada.
+Este repo genera todo lo que Cáscara Founders publica: los documentos de cada founder, la torre de
+control, las cuarenta cards con sus plantillas, el handoff para el equipo y el documento del rol.
 
-## Lo primero que hay que hacer acá
+## Cómo está armado
 
-Crear el repositorio en GitHub y empujar lo que ya está commiteado.
-
-- Nombre: `torre-de-control-cascara-founders`
-- Cuenta: `facundocouyet`
-- Privado
-- Vacío, sin README ni .gitignore de GitHub (este repo ya tiene los suyos)
-
-La rama es `main` y ya tiene los commits hechos. Después de crearlo:
-
-```bash
-git remote add origin https://github.com/facundocouyet/torre-de-control-cascara-founders.git
-git push -u origin main
+```
+fichas/                 la fuente de verdad
+  <slug>.json           una ficha por founder, 22 claves (esquema v2)
+  inventario.json       las 40 cards: categoría, pasos, qué completa el founder, herramientas
+  plantillas/*.json     la hoja que completa el founder para cada card
+generador/              los scripts que convierten las fichas en HTML
+sistema/                el rol de líder y las reglas de redacción
+agente/                 el prompt de la tarea programada diaria
+clientes/               los documentos generados, uno por founder
+cartas/ plantillas/     las cards y sus hojas, generadas
+index.html              la torre de control
 ```
 
-## Cómo se regenera todo
+## Los scripts
 
-Python 3, sin dependencias. El orden importa.
+| Script | Qué hace | Salida |
+|---|---|---|
+| `build2.py` | Documentos de cliente desde `fichas/*.json` | `out2/<slug>.html` → se copia a `clientes/` |
+| `build_cartas.py` | Las 40 cards | `cartas/` |
+| `build_plantillas.py` | Las hojas del founder | `plantillas/` |
+| `build_app.py` + `app_shell.py` | La torre de control | `index.html` |
+| `build_cards.py` | El handoff de cards por dueño | `cards-por-dueno.html` |
+| `build_rol.py` | El documento del rol | `rol-lider-founders.html` |
+| `build_ally.py` | El handoff del equipo | `founders-handoff-aye.html` |
+| `handicap.py` | Calcula los cinco ejes y el tramo | lo usan los builds |
+
+`build_plantillas.py` exporta la paleta (INK, PAPER, GREY, LINE, DISP, SERIF) que reusan todos los demás.
+
+## El esquema de una ficha
+
+22 claves, en este orden: `slug`, `cliente`, `proyecto`, `modo` ("cierre" o "radiografia"),
+`orientacion`, `arranque`, `etapa`, `metrica`, `titular`, `bajada`, `punto_a`, `recorrido`,
+`lectura`, `respuestas`, `entregables`, `punto_b`, `roadmap`, `accionables`, `conclusion`,
+`carta`, `abierto`, `handicap`.
+
+El handicap se renderiza **solo cuando `modo` es "radiografia"**. En los informes de cierre no va,
+porque esos son los que se le mandan al cliente.
+
+## Reglas de redacción
+
+Están completas en `sistema/brief-redaccion-v2.md`. Las que más se rompen:
+
+- Se dice lo que la cosa es, directo. Nunca explicar algo anteponiendo lo que no es.
+- Un solo cuello de botella por caso.
+- Nada inventado: lo que la llamada no dijo va "(falta confirmar)".
+- Sin ironía a costa del founder.
+- Los paneles que se parten en dos no llevan "1 de 2".
+- La autocrítica de Cáscara va en la versión interna, no en el documento del cliente.
+
+## Cómo correr todo
 
 ```bash
-python3 generador/build2.py      # documentos de cliente, desde fichas/  -> out2/<slug>.html
-python3 generador/build_app.py   # datos de la app                       -> contenido/app-data.json
-python3 generador/app_shell.py   # la app                                -> index.html
-python3 generador/build_site.py  # la versión estática de scroll
+cd generador
+python3 build2.py && cp out2/*.html ../clientes/
+python3 build_cartas.py && python3 build_plantillas.py
+python3 build_app.py
 ```
-
-Las rutas de los scripts apuntan a la máquina donde se generaron (`/home/claude/...`). Si algo no
-encuentra un archivo, ajustá la ruta al repo y dejá el cambio commiteado.
-
-## Reglas que no se negocian
-
-**El handicap.** `generador/handicap.py` es la única fuente de verdad de los puntajes. Las fichas
-guardan una copia y `build_app.py` la recalcula desde el registro, así que nunca edites un puntaje
-adentro de una ficha: se edita en `handicap.py` y se regenera.
-
-**La escritura.** Español rioplatense, directo, adulto. Se dice lo que la cosa es, sin anteponer lo
-que no es: nada de "no es X, es Y". Nada aspiracional. Los documentos los lee el founder, con su
-nombre en la portada, así que no hay ironía ni frases ingeniosas a costa de él.
-
-**El diseño.** Monocromo. Tinta `#171717`, papel `#ECEAE4`, radio 0. El rojo `#FE1414` va racionado:
-solo lo frenado, lo vencido y la habilidad que manda. Todo está comentado en `assets/founders.css`.
-
-**Verificar antes de dar algo por hecho.** Cada documento son paneles de 1920×1080 fijos: si el
-contenido crece, desborda en silencio. Después de tocar tamaños o textos hay que abrir los
-diecinueve documentos en un navegador y chequear que ningún `.pnl` tenga `scrollHeight > 1080`.
-Lo mismo con la app: no puede haber scroll horizontal ni a 1512px ni a 390px.
-
-## Estado
-
-Datos al 13 de septiembre de 2026. Veintiún clientes, diecinueve con documento. Los documentos son
-primeras versiones y se revisan antes de mandarlos.

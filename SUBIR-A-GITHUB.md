@@ -1,35 +1,30 @@
-# Cómo subir esto a GitHub
+# Cómo subir y actualizar este repo
 
-El repo ya está armado y con el primer commit hecho. Falta crearlo en GitHub y empujarlo.
+## La primera vez
 
-## 1. Crear el repositorio vacío
+Crear el repo vacío en https://github.com/new:
 
-En https://github.com/new:
+- **Nombre:** `torre-de-control-cascara-founders`
+- **Privado**
+- Sin README, sin .gitignore, sin licencia. Tiene que quedar vacío.
 
-- **Repository name:** `torre-de-control-cascara-founders`
-- **Description:** Torre de control de Cáscara Founders — la camada, el handicap del 1 al 100 y los documentos de cada founder.
-- **Private**
-- Dejar destildado "Add a README file", "Add .gitignore" y "Choose a license". El repo tiene que quedar vacío.
-
-## 2. Empujar
-
-Desde la carpeta que descomprimiste, en la terminal:
+Después, desde esta carpeta:
 
 ```bash
-cd torre-de-control-cascara-founders
 git remote add origin https://github.com/facundocouyet/torre-de-control-cascara-founders.git
 git push -u origin main
 ```
 
-## 3. Si querés que se vea como web (opcional)
+Si pide autenticación, `gh auth login` primero.
 
-En el repo, Settings → Pages → Source: Deploy from a branch → Branch `main`, carpeta `/ (root)`.
-Queda publicado en `https://facundocouyet.github.io/torre-de-control-cascara-founders/`.
-Ojo: con Pages, un repo privado necesita plan de equipo; si el repo es público, la torre de control
-queda visible para cualquiera que tenga el link.
+## De ahí en adelante
 
-## Para que lo actualice yo desde acá
+```bash
+git add -A && git commit -m "<qué cambió>" && git push
+```
 
-Una vez creado el repo, agregalo como fuente de esta sesión (en la configuración del proyecto,
-donde se listan los repositorios autorizados). Con eso puedo empujar los cambios directamente y no
-hace falta repetir estos pasos.
+## Por qué importa
+
+La tarea programada diaria de Founders clona este repo para actualizar las fichas y republicar la
+torre. Mientras el repo no exista en GitHub, esa tarea no puede correr sola y los scripts tienen
+que vivir adentro del prompt.
