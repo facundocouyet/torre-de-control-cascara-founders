@@ -2,7 +2,7 @@
  "categorias": [
   {
    "nombre": "Mirada de negocio",
-   "porque": "La camada llega con muchos frentes abiertos y sin un punto A escrito, y sin eso cada llamada arranca discutiendo qué hay que hacer.",
+   "porque": "Los clientes llegan con muchos frentes abiertos y sin un punto A escrito, y sin eso cada llamada arranca discutiendo qué hay que hacer.",
    "modulos": [
     {
      "id": "radiografia-360",
@@ -19,7 +19,7 @@
      "pasos": [
       "Juntar en una carpeta todo lo que existe: ventas de los últimos 90 días, precios cobrados, piezas publicadas, clientes activos y horas propias por semana.",
       "Escribir el punto A con hechos: qué vendió, a qué precio, qué produce y qué tiene armado.",
-      "Puntuar los cinco ejes de cero a cuatro con la escalera del puntaje, apoyando cada número en una evidencia concreta.",
+      "Puntuar los cinco ejes de cero a cuatro con la escalera del handicap, apoyando cada número en una evidencia concreta.",
       "Marcar el eje más bajo y escribir el cuello de botella en una sola frase.",
       "Fijar el punto B: un número, una fecha y cómo se va a medir.",
       "Elegir la métrica del trimestre y dejarla en el encabezado del documento, a la vista."
@@ -34,7 +34,7 @@
       "Google Sheets para el punto A"
      ],
      "estado": "existe",
-     "evidencia": "Es el documento que Facu ya hizo a mano para Aye, Sharon, Scarlett, Lucio, Custom Lab, Nico y Ceci, y la escalera de los cinco ejes está escrita en el doc de puntaje. Bianca lo pide de manera explicita: contrató para mejorar contenido y lo que faltaba era punto A y punto B."
+     "evidencia": "Es el documento que Facu ya hizo a mano para Aye, Sharon, Scarlett, Lucio, Custom Lab, Nico y Ceci, y la escalera de los cinco ejes está escrita en el doc de handicap. Bianca lo pide de manera explicita: contrató para mejorar contenido y lo que faltaba era punto A y punto B."
     },
     {
      "id": "foco-y-ventana",
@@ -98,7 +98,7 @@
   },
   {
    "nombre": "Oferta y precio",
-   "porque": "Casi toda la camada sabe explicar lo que hace y no lo tiene escrito con cliente, promesa y precio, y ese es el eje más bajo del puntaje en la mayoría de los casos.",
+   "porque": "Casi todos saben explicar lo que hace y no lo tiene escrito con cliente, promesa y precio, y ese es el eje más bajo del handicap en la mayoría de los casos.",
    "modulos": [
     {
      "id": "icp-mecanismo",
@@ -221,7 +221,7 @@
   },
   {
    "nombre": "Contenido y marca",
-   "porque": "La mitad de la camada publica sin criterio que una las piezas, y la otra mitad tiene el criterio y no sostiene el volumen.",
+   "porque": "La mitad de los clientes publica sin criterio que una las piezas, y la otra mitad tiene el criterio y no sostiene el volumen.",
    "modulos": [
     {
      "id": "profile-funnel",
@@ -1110,7 +1110,7 @@
   },
   {
    "nombre": "Identidad, narrativa y dirección creativa",
-   "porque": "Buena parte de la camada sabe hacer el trabajo y no sabe contar quién es, y sin eso el contenido y la oferta no tienen de dónde agarrarse.",
+   "porque": "Buena parte de los clientes sabe hacer el trabajo y no sabe contar quién es, y sin eso el contenido y la oferta no tienen de dónde agarrarse.",
    "modulos": [
     {
      "id": "pasaporte-digital",
@@ -1271,11 +1271,11 @@
   "direccion-visual",
   "narrativa-de-video",
   "setter-closer",
-  "El criterio del orden: primero el diagnóstico y el foco, porque sin punto A escrito cada llamada arranca discutiendo qué hacer; después oferta, porque es el eje más bajo de la camada y todo lo de abajo se apoya en la oferta escrita; después perfil, ángulos y calendario, que es la infraestructura de contenido que permite medir; recién ahí volumen y precio sobre la mesa, que es donde aparece la primera evidencia real; después lo comercial, que convierte esa evidencia en plata; después lanzamiento y comunidad, que necesitan audiencia calentada de antes; y al final entrega, operaciones y datos, que se asignan cuando ya hay clientes adentro que los justifiquen. El mentor mueve el orden según el eje más bajo del puntaje: a Conseguir se le adelanta todo el bloque comercial, a Sostener el bloque de contenido, y a Entregar se le arranca por entrega y operaciones antes de tocar la oferta."
+  "El criterio del orden: primero el diagnóstico y el foco, porque sin punto A escrito cada llamada arranca discutiendo qué hacer; después oferta, porque es el eje más bajo de los clientes y todo lo de abajo se apoya en la oferta escrita; después perfil, ángulos y calendario, que es la infraestructura de contenido que permite medir; recién ahí volumen y precio sobre la mesa, que es donde aparece la primera evidencia real; después lo comercial, que convierte esa evidencia en plata; después lanzamiento y comunidad, que necesitan audiencia calentada de antes; y al final entrega, operaciones y datos, que se asignan cuando ya hay clientes adentro que los justifiquen. El mentor mueve el orden según el eje más bajo del handicap: a Conseguir se le adelanta todo el bloque comercial, a Sostener el bloque de contenido, y a Entregar se le arranca por entrega y operaciones antes de tocar la oferta."
  ],
  "notas": [
-  "Los cuarenta módulos están escritos: cada uno tiene su carta con los pasos, qué completar y qué herramientas, y su plantilla con las consignas y un ejemplo real de la camada en cada bloque. Lo que antes se bajaba caso por caso en una llamada ahora se asigna y queda igual para todos.",
-  "Las siete cartas que ya existían de antes son radiografía, profile funnel, pipeline de siete campos, OS en Notion, diario administrativo, propuesta comercial y pasaporte digital. Las otras treinta y tres se escribieron el 14 de septiembre con los casos de esta camada adentro, y por eso los ejemplos hablan de Sofía, de Custom Lab, de Sharon y de los demás por su nombre.",
+  "Los cuarenta módulos están escritos: cada uno tiene su carta con los pasos, qué completar y qué herramientas, y su plantilla con las consignas y un ejemplo real de los clientes en cada bloque. Lo que antes se bajaba caso por caso en una llamada ahora se asigna y queda igual para todos.",
+  "Las siete cartas que ya existían de antes son radiografía, profile funnel, pipeline de siete campos, OS en Notion, diario administrativo, propuesta comercial y pasaporte digital. Las otras treinta y tres se escribieron el 14 de septiembre con los casos de esta grupo de clientes adentro, y por eso los ejemplos hablan de Sofía, de Custom Lab, de Sharon y de los demás por su nombre.",
   "Hay tres superposiciones para vigilar: ángulos desde el ICP con calendario de contenido, que se pueden asignar juntos y se escriben separados; prospección y recontacto con pipeline de siete campos, donde el pipeline es condición previa y conviene asignarlo antes; y base de datos única con dashboard del embudo, donde el dashboard es la lectura de la base y se asigna después.",
   "El dashboard del embudo está prometido en la oferta para el mes 3. La carta y la plantilla ya dicen qué mide, de dónde sale cada número y quién lo carga; lo que queda es que Bianca, Lucca, Nico y Sofía lo armen con sus propios datos para llegar al cierre con números y no con impresiones.",
   "Los módulos de estructura que nadie pide en la venta son los que más aparecen en los casos: sociedad y roles, foco y ventana, dueños y cadencia. Agostina, Sol, Manu y Antonio se frenaron ahí antes que en la oferta o en el contenido, y ahora se asignan como cualquier otra carta.",

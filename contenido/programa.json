@@ -1,7 +1,7 @@
 {
   "kicker": "Cáscara Founders · el programa",
   "titulo": "Noventa días sobre el negocio que ya estás construyendo",
-  "bajada": "Cáscara Founders es la aceleradora unificada de Cáscara y F3: noventa días, camada cerrada de 16 cupos, USD 3.500 al contado o 4.000 en cuotas. Diez sesiones uno a uno con los founders, tres grupales por semana y un roadmap que se actualiza los tres meses. Nosotros diseñamos el sistema y bajamos la estrategia; el founder ejecuta.",
+  "bajada": "Cáscara Founders es la aceleradora unificada de Cáscara y F3: noventa días por founder, con ingreso abierto todo el año, USD 3.500 al contado o 4.000 en cuotas. Diez sesiones uno a uno con los founders, tres grupales por semana y un roadmap que se actualiza los tres meses. Nosotros diseñamos el sistema y bajamos la estrategia; el founder ejecuta.",
   "que_es": {
     "titulo": "Qué es y qué no es",
     "texto": "Es un espacio cerrado y chico donde durante 90 días caminamos al lado del founder sobre el negocio que ya está construyendo. Lo que se abre es el acceso directo a cómo piensa, decide y construye el equipo de Cáscara, aplicado sobre su caso real y no sobre un ejemplo. Se trabaja sobre cinco frentes con dueño: contenido y audiencia con Fede y Juana, oferta y pricing con Franco, adquisición y ventas con Franco, entrega del servicio con Facu, y estructura, capacidad y números con Facu. La regla madre se repite en cada propuesta y en cada cierre: Cáscara diseña el sistema, baja la estrategia y acompaña; el founder ejecuta. No hay pauta, no hay producción de contenido como servicio central, no hay landing, no hay CRM y no entregamos el servicio del cliente. Es un solo servicio con tres profundidades, un solo calendario y un solo foco por founder."
@@ -13,7 +13,7 @@
     },
     {
       "titulo": "El que hace el trabajo bien y no lo tiene escrito",
-      "texto": "Entrega, cumple y tiene clientes contentos, y la oferta sigue viviendo en su cabeza: sin promesa, sin cliente ideal y sin precio defendible. Es el caso más repetido de la camada y es el que entra por Conseguir."
+      "texto": "Entrega, cumple y tiene clientes contentos, y la oferta sigue viviendo en su cabeza: sin promesa, sin cliente ideal y sin precio defendible. Es el caso más repetido de los clientes y es el que entra por Conseguir."
     },
     {
       "titulo": "El que ya vende y no puede sostener el ritmo",
@@ -55,7 +55,7 @@
       "n": "06",
       "cuando": "Mes 2 · cuatro sesiones 1:1",
       "titulo": "El servicio",
-      "texto": "Cuatro uno a uno alternadas: oferta y pricing con Franco, estructura de entrega con Facu, adquisición y ventas con Franco, y cierre de mes 2 con Facu. Las tres grupales siguen corriendo."
+      "texto": "Cuatro uno a uno alternadas: oferta y pricing con Franco, estructura de entrega con Facu, adquisición y ventas con Franco, y cierre de mes 2 con Facu. Las tres grupales siguen corriendo; lo que termina acá es la presencia de Facu y Franco en grupales, que pasan a atender solo uno a uno."
     },
     {
       "n": "07",
@@ -67,15 +67,15 @@
       "n": "08",
       "cuando": "Los 90 días · transversal",
       "titulo": "Diez uno a uno y trece semanas de grupales",
-      "texto": "En total son 10 sesiones uno a uno por founder: tres en el mes 1, cuatro en el mes 2 y tres en el mes 3, con tema, fecha y mentor definidos desde el día 1. Cinco de esas diez son de Facu. Las tres grupales corren las trece semanas sin interrupción y hay un encargado del equipo siguiendo la evolución de forma continua. Con 16 cupos son 80 sesiones por camada."
+      "texto": "En total son 10 sesiones uno a uno por founder: tres en el mes 1, cuatro en el mes 2 y tres en el mes 3, con tema, fecha y mentor definidos desde el día 1. Cinco de esas diez son de Facu. Las tres grupales corren las trece semanas sin interrupción y hay un encargado del equipo siguiendo la evolución de forma continua. Con quince clientes a la vez son setenta y cinco sesiones en el trimestre."
     }
   ],
   "orientaciones": [
     {
       "nombre": "Conseguir",
-      "lider": "Facu",
+      "lider": "Franco",
       "cuando_se_elige": "No llegan consultas, o llegan y se caen antes de cerrar.",
-      "texto": "Se trabaja la oferta, el pricing y el proceso de ventas. El resultado a 60 días son los primeros cierres con el sistema nuevo. En el puntaje es la ruta que marcan los ejes de Oferta y de Venta cuando alguno de los dos es el más bajo.",
+      "texto": "Se trabaja la oferta, el pricing y el proceso de ventas. El resultado a 60 días son los primeros cierres con el sistema nuevo. En el handicap es la ruta que marcan los ejes de Oferta y de Venta cuando alguno de los dos es el más bajo.",
       "modulos": [
         "Lista de 50 prospectos",
         "Guion de outreach probado",
@@ -86,9 +86,9 @@
     },
     {
       "nombre": "Sostener",
-      "lider": "Facu",
+      "lider": "Fede",
       "cuando_se_elige": "Cierra, pero la demanda depende de su energía.",
-      "texto": "Se trabaja contenido, audiencia y delegación de la producción. El resultado a 60 días es un ritmo de publicación que se sostiene solo. En el puntaje es la ruta que marcan los ejes de Contenido y de Demanda.",
+      "texto": "Se trabaja contenido, audiencia y delegación de la producción. El resultado a 60 días es un ritmo de publicación que se sostiene solo. En el handicap es la ruta que marcan los ejes de Contenido y de Demanda.",
       "modulos": [
         "Línea editorial escrita",
         "3 ángulos definidos",
@@ -101,7 +101,7 @@
       "nombre": "Entregar",
       "lider": "Facu",
       "cuando_se_elige": "Consigue y cierra, pero la entrega lo consume.",
-      "texto": "Se trabaja el proceso de servicio, la capacidad y el equipo. El resultado a 60 días es la misma entrega con menos horas propias. En el puntaje es la ruta que marca el eje de Entrega.",
+      "texto": "Se trabaja el proceso de servicio, la capacidad y el equipo. El resultado a 60 días es la misma entrega con menos horas propias. En el handicap es la ruta que marca el eje de Entrega.",
       "modulos": [
         "Mapa de servicio con horas reales",
         "Proceso de entrega documentado",
@@ -127,7 +127,7 @@
     },
     {
       "nombre": "Fede",
-      "rol": "Contenido. Lleva la grupal de contenido: línea editorial, ángulos, formatos y ritmo.",
+      "rol": "Contenido. Lleva la grupal de contenido y es el dueño de la orientación Sostener junto a la línea editorial y los ángulos.",
       "que_traerle": "Narrativa, ángulos, calendario y mensaje.",
       "que_no": "Pricing y estructura societaria."
     },
@@ -171,7 +171,7 @@
     }
   ],
   "handicap": {
-    "texto": "Cada caso de la camada tiene un puntaje: cinco ejes de cero a cuatro sobre el estado del negocio, veinte en total. El eje más bajo es por donde se trabaja y es el que marca la orientación: Oferta o Venta van a Conseguir, Contenido o Demanda van a Sostener, Entrega va a Entregar. Cuando el eje más bajo no coincide con la orientación asignada, queda marcado como discrepancia para revisar a mano: no se corrige sola. El puntaje se recalcula cuando una llamada cambia el estado de algún eje.",
+    "texto": "Cada cliente se puntúa con el handicap: cinco ejes de cero a cuatro sobre el estado del negocio, veinte en total. El eje más bajo es por donde se trabaja y es el que marca la orientación: Oferta o Venta van a Conseguir, Contenido o Demanda van a Sostener, Entrega va a Entregar. Cuando el eje más bajo no coincide con la orientación asignada, queda marcado como discrepancia para revisar a mano: no se corrige sola. El handicap se recalcula cuando una llamada cambia el estado de algún eje.",
     "ejes": [
       {
         "nombre": "Oferta",
@@ -207,7 +207,7 @@
     "texto": "El día 90 se corre la radiografía final y el sign-off con Teo, y el founder se va con el roadmap a 6 meses y el paquete de entregables para ejecutar solo: el roadmap personal con diagnóstico y plan, el checklist semanal de tareas, los templates de oferta con promesa, mecanismo, entregables, niveles y planes de pago, el one-pager de la oferta propia escrito con Franco, el proceso de ventas documentado de prospección a seguimiento, la estructura de entrega con onboarding de cliente e informes, y el dashboard de métricas del embudo completo. Suman la app de Cáscara, el Connect Wall para armar equipo y la comunidad. El piso común a las tres orientaciones al día 90 es el mismo: calendario corriendo tres semanas o más, contenido semanal, oferta escrita, proceso documentado, métricas trackeadas y capacidad de equipo evaluada. Del cierre sale una de tres recomendaciones: renovar con módulo, pasar a growth partner (nivel 3) u offboarding como caso de éxito con testimonio. El criterio propuesto para habilitar la candidatura a nivel 3 es one-pager ejecutado, ventas repitiéndose y facturación medida en los últimos 30 días; el criterio definitivo de graduación (falta confirmar)."
   },
   "principios": [
-    "Una sola aceleradora, un solo calendario. El Founder System se discontinúa cuando arranca la primera camada unificada.",
+    "Una sola aceleradora, un solo calendario. El Founder System se discontinúa: queda una sola aceleradora.",
     "Los founders entregan, una sola marca vende: cinco cabezas disponibles, una sola cuenta comunica.",
     "El acceso a los founders escala con el nivel: grabado en nivel 1, en vivo y uno a uno en nivel 2, partners en nivel 3.",
     "Cáscara diseña el sistema, baja la estrategia y acompaña. El founder ejecuta.",

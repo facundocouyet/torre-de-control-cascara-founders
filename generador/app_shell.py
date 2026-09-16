@@ -302,7 +302,7 @@ h2.bl em{font-style:italic;font-family:var(--edit);text-transform:none;letter-sp
 .hcard .sube{font-family:var(--edit);font-style:italic;font-size:16px;line-height:1.5;
   color:var(--gris);margin-top:20px;border-top:1px solid var(--tiza);padding-top:16px}
 
-/* promedio de la camada por eje, en la vista del programa */
+/* promedio de los clientes por eje, en la vista del programa */
 .ejeprom{display:grid;grid-template-columns:210px 64px minmax(0,1fr);gap:16px;align-items:baseline;
   border-top:1px solid var(--tiza);padding:18px 0}
 .ejeprom .n{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--tinta);font-weight:700}
@@ -622,7 +622,7 @@ function vHome(){
   '</div>';
   h+='<div class="cards">'+
    tarjeta('01','Clientes','Uno por uno: en qué está parado, cuál es su cuello, qué mide y en qué día de los noventa va. Adentro de cada uno está su documento.',
-     [[C.length,'En la camada'],[cierre.length,'En cierre'],[frenados.length,'Frenados',frenados.length>0]],'Ver la camada',"ir('clientes')")+
+     [[C.length,'Clientes'],[cierre.length,'En cierre'],[frenados.length,'Frenados',frenados.length>0]],'Ver los clientes',"ir('clientes')")+
    tarjeta('02','Accionables','Lo que hay que hacer esta semana: qué documento sale para cada cliente, qué le toca ejecutar a cada founder y qué queda de nuestro lado.',
      [[nEnt,'Entregas'],[nAcc,'Del founder'],[nCas,'De Cáscara']],'Ver los accionables',"ir('accionables')")+
    tarjeta('03','Biblioteca','El programa entero explicado —el recorrido, las orientaciones, las grupales y los mentores— y el mapa de cartas con su plantilla.',
@@ -651,7 +651,7 @@ function verDueno(d){
 var F=[['todos','Todos'],['Conseguir','Conseguir'],['Sostener','Sostener'],['Entregar','Entregar'],
        ['cierre','En cierre'],['vencido','Pasaron 90'],['rojo','Frenados']];
 function vClientes(){
-  var h='<div class="hoja">'+migas(['Clientes'])+encab('La camada','Los '+C.length+' clientes','',
+  var h='<div class="hoja">'+migas(['Clientes'])+encab('Clientes','Los '+C.length+' clientes','',
     C.length+' clientes<br>día promedio: '+promDias);
   h+='<div class="barra"><span class="busca"><input id="q" type="search" placeholder="Buscar cliente o proyecto" value="'+esc(busca)+'" aria-label="Buscar"></span><span class="filtros">';
   F.forEach(function(f){h+='<button data-f="'+f[0]+'" aria-pressed="'+((filtro||'todos')===f[0])+'">'+f[1]+'</button>'});
@@ -1201,7 +1201,7 @@ HTML = ('<!doctype html>\n<html lang="es"><head>\n<meta charset="utf-8">\n'
  '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
  '<title>Cáscara Founders</title>\n'
  '<link rel="icon" type="image/png" href="assets/favicon.png">\n'
- '<meta name="description" content="Torre de control de Cáscara Founders: la camada, el programa y la biblioteca.">\n'
+ '<meta name="description" content="Torre de control de Cáscara Founders: los clientes, los accionables y la biblioteca.">\n'
  '<meta name="theme-color" content="#0A0A0C">\n'
  '<meta name="apple-mobile-web-app-capable" content="yes">\n'
  '<meta name="apple-mobile-web-app-title" content="Founders">\n'
