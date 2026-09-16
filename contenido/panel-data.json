@@ -38,7 +38,8 @@
   },
   "cascara": [],
   "cliente_tareas": [],
-  "ultima": "10 de septiembre de 2026"
+  "ultima": "10 de septiembre de 2026",
+  "reparto": []
  },
  {
   "slug": "scarlett-montilla",
@@ -76,17 +77,27 @@
    ],
    "nota": "Se trabaja por oferta, que es el eje más bajo: hasta que la mentoría no tenga una hoja con transformación, cliente ideal y precio, la demanda y la venta no tienen de qué agarrarse."
   },
-  "cascara": [
-   "Facu le manda a Franco las conclusiones de la Clarity Call",
-   "Juana toma la sesión de narrativa con los Founder Insights revisitados",
-   "Grupales de Founders abiertas: martes con Teo, jueves con Juana, viernes con Fede"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Compartir con Cáscara todo lo que viene bajando sobre este cambio",
    "Cerrar la narrativa en la sesión con Juana",
    "Terminar el one-sheeter de la mentoría"
   ],
-  "ultima": "Del 2 al 9 de septiembre de 2026"
+  "ultima": "Del 2 al 9 de septiembre de 2026",
+  "reparto": [
+   [
+    "Franco",
+    "Cierra la oferta y el precio."
+   ],
+   [
+    "Juana",
+    "Toma la sesión de narrativa con los Founder Insights revisitados."
+   ],
+   [
+    "Equipo",
+    "Grupales abiertas: martes con Teo, jueves con Juana, viernes con Fede."
+   ]
+  ]
  },
  {
   "slug": "ayelen-cerqueira",
@@ -122,17 +133,23 @@
    ],
    "nota": "Se trabaja por oferta, el eje más bajo junto con contenido: el rol ya funciona, lo que falta es la hoja con nombre, cliente ideal y precio para poder presentar Cósmico con número."
   },
-  "cascara": [
-   "Facu agenda la reunión de Aye con Franco",
-   "Teo hace el sign-off de Cáscara Founders con este documento",
-   "Acceso a las grupales y a Founders se mantiene por ser parte del equipo"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Tener la reunión con Franco y salir con nombre, alcance y precio",
    "Escribir la hoja de oferta y el cliente ideal",
    "Crear contenido sobre lo que ve adentro de Cáscara, todas las semanas"
   ],
-  "ultima": "2 de septiembre de 2026"
+  "ultima": "2 de septiembre de 2026",
+  "reparto": [
+   [
+    "Teo",
+    "Hace el sign-off con este documento."
+   ],
+   [
+    "Equipo",
+    "El acceso a las grupales se mantiene por ser parte del equipo."
+   ]
+  ]
  },
  {
   "slug": "lucio-labate",
@@ -168,13 +185,7 @@
    ],
    "nota": "Se trabaja por oferta, el eje más bajo junto con contenido y venta: sin el documento de oferta con precio, cada pieza tiene que resolver qué decir y para qué al mismo tiempo."
   },
-  "cascara": [
-   "Facu le pasa a Franco el transcript de la llamada del 1 de septiembre para que llegue con contexto",
-   "Facu le baja el bloque de accionables del profile funnel y los SOP del perfil",
-   "Franco define con él la oferta en dos niveles, el buyer prioritario y el precio",
-   "Facu le baja los ángulos de comunicación con una idea concreta por ángulo",
-   "Cáscara le entrega el template de calendario de contenido con referencias y un ejemplo por formato"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Mandar por escrito el feedback y las dudas de la oferta que quedaron de la llamada del 1 de septiembre",
    "Aplicar el profile funnel: destacadas, descripción, feed y archivo de publicaciones viejas",
@@ -182,7 +193,13 @@
    "Cargar los ángulos en el calendario y empezar a publicar contra ellos",
    "Levantar la mano en las grupales de Fede y de Juana con el objetivo concreto de la semana"
   ],
-  "ultima": "Del 2 al 9 de septiembre de 2026"
+  "ultima": "Del 2 al 9 de septiembre de 2026",
+  "reparto": [
+   [
+    "Franco",
+    "Define con él la oferta en dos niveles, el buyer prioritario y el precio."
+   ]
+  ]
  },
  {
   "slug": "andrea-saturno",
@@ -216,17 +233,23 @@
    ],
    "nota": "Se trabaja por contenido y demanda, los dos ejes más bajos: sin una pieza publicada y sin canal propio, poner la fecha de la primera Onfire es lo único que empieza a mover algo medible."
   },
-  "cascara": [
-   "Facu queda disponible para una llamada más en la semana del 15, si Andrea la agenda",
-   "Grupales abiertas hasta fin de septiembre: martes con Teo, jueves con Juana, viernes con Fede",
-   "Teo hace el sign-off con este documento y avisa a Franco antes de cerrarlo"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Escribir la hoja de qué son las Onfire Sessions",
    "Pasarle la fecha a Facu y publicarla",
    "Grabar y publicar el vlog documental de la agencia con Sophie"
   ],
-  "ultima": "10 de septiembre de 2026"
+  "ultima": "10 de septiembre de 2026",
+  "reparto": [
+   [
+    "Teo",
+    "Hace el sign-off con este documento."
+   ],
+   [
+    "Equipo",
+    "Grupales abiertas hasta fin de septiembre: martes con Teo, jueves con Juana, viernes con Fede."
+   ]
+  ]
  },
  {
   "slug": "custom-lab",
@@ -260,10 +283,9 @@
    "nota": "Se trabaja por contenido, el eje más bajo y el único cero del lote: sin la cuenta activa no hay ángulo con chispazo para pautar, y la demanda sigue dependiendo de que ellos empujen uno por uno."
   },
   "cascara": [
-   "Franco cierra con ellos la oferta y el pricing en la llamada que tienen agendada",
-   "Facu baja el roadmap con punto de llegada sobre lo que salga de esa llamada",
-   "Facu les da feedback sobre el copy de la landing y sobre los kits",
-   "Cáscara les deja la estrategia de pauta y los guiones de los anuncios"
+   "Facu escribe el roadmap con punto de llegada sobre lo que salga de la llamada de Franco.",
+   "Facu les devuelve feedback del copy de la landing y de los kits.",
+   "Excepción declarada. Cáscara les deja la estrategia de pauta y los guiones de los anuncios."
   ],
   "cliente_tareas": [
    "Levantar el Shopify con los productos de entrada a precio mayorista competitivo",
@@ -274,7 +296,13 @@
    "Empezar a publicar una pieza por semana contra los ángulos ya bajados",
    "Definir qué presupuesto mensual pueden poner en pauta y quién la va a operar"
   ],
-  "ultima": "Del 2 al 4 de septiembre de 2026"
+  "ultima": "Del 2 al 4 de septiembre de 2026",
+  "reparto": [
+   [
+    "Franco",
+    "Cierra la oferta y el pricing en la llamada agendada."
+   ]
+  ]
  },
  {
   "slug": "sol-boutmy",
@@ -309,12 +337,7 @@
    "nota": "Los pisos son contenido y demanda, las dos en uno: la cuenta de Be Motion no cuenta qué hacen y los seis clientes entraron por boca a boca, así que el trabajo de fondo es sostener, en paralelo a sacarse la edición de encima."
   },
   "cascara": [
-   "Facu manda el resumen de la llamada con los accionables ordenados por departamento: contenido, servicio y clientes, oferta con Franco, y operaciones",
-   "Facu devuelve feedback concreto sobre la lista de clientes sin esperar a la llamada siguiente",
-   "Facu manda la plantilla de diario administrativo de Cáscara",
-   "Facu manda la lista de tareas y el SOP del profile funnel de Instagram",
-   "Facu les pasa un formulario de postulación de editores como referencia, y el tarifario de edición",
-   "La llamada siguiente es con Franco, para abrir la auditoría de oferta"
+   "Facu les devuelve feedback de la lista de clientes antes de la llamada siguiente."
   ],
   "cliente_tareas": [
    "Pasarle a Facu la lista de clientes con qué se le vendió a cada uno, en qué estado está y cuál es el problema interno",
@@ -325,7 +348,13 @@
    "Adoptar la plantilla de diario administrativo y hacer el cierre de septiembre con ese formato",
    "Aplicar el SOP del profile funnel y publicar la pieza con la historia de Be Motion"
   ],
-  "ultima": "8 de septiembre de 2026"
+  "ultima": "8 de septiembre de 2026",
+  "reparto": [
+   [
+    "Franco",
+    "Toma la llamada siguiente y abre la auditoría de oferta."
+   ]
+  ]
  },
  {
   "slug": "jose-david-fajardo",
@@ -361,10 +390,7 @@
    "nota": "Los pisos son contenido y entrega, las dos en uno: el canal todavía no existe y la entrega floja es la que le saca seguridad al vender, así que primero la oferta con número y de ahí los ángulos y las diez piezas."
   },
   "cascara": [
-   "Facu le pasa a Franco el transcript de la Clarity Call del 1 de septiembre para que llegue con contexto",
-   "Franco define con él la promesa, la métrica, el plazo y el precio de la oferta nueva",
-   "Facu se cruza después de Franco y le marca el camino de los próximos sesenta días",
-   "Fede sostiene el seguimiento del perfil y del contenido en la grupal de los viernes"
+   "Facu se cruza después de Franco y le marca el camino de los próximos sesenta días."
   ],
   "cliente_tareas": [
    "Documentar en Notion las tres ventas anteriores de tres mil dólares: qué compró cada uno, por qué cerró y qué resultado dejó",
@@ -373,7 +399,17 @@
    "Seguir aplicando las correcciones de perfil y contenido que le bajó Fede",
    "Empezar a publicar contra los ángulos nuevos, con el mecanismo de captura adelante"
   ],
-  "ultima": "2 de septiembre de 2026"
+  "ultima": "2 de septiembre de 2026",
+  "reparto": [
+   [
+    "Franco",
+    "Define con él la promesa, la métrica, el plazo y el precio de la oferta nueva."
+   ],
+   [
+    "Fede",
+    "Sostiene el seguimiento del perfil y del contenido en la grupal de los viernes."
+   ]
+  ]
  },
  {
   "slug": "sebastian",
@@ -406,14 +442,7 @@
    ],
    "nota": "Venta en cero es el piso: tiene tráfico, autoridad y ángulos validados, y lo que falta es un precio sobre la mesa y la primera llamada de venta con ese número."
   },
-  "cascara": [
-   "Facu le manda el formulario de ICP y dolores para que lo complete",
-   "Facu le manda lo que Franco necesita de oferta y marketing",
-   "Facu habla con Franco y agenda la sesión de oferta con Seba para la semana siguiente, y le pasa el contexto de la Clarity Call",
-   "Franco cierra con él la oferta, la escalera y el precio del nivel uno",
-   "Fede le baja los criterios del profile funnel y del volumen de contenido",
-   "Juana trabaja con él en la grupal los formatos creativos, porque lo que vende es creatividad"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Completar el formulario de ICP y dolores con los dolores del creativo al que le va a vender",
    "Escribir el guion de la historia de origen",
@@ -423,7 +452,21 @@
    "Calibrar el profile funnel: destacadas con su historia y archivo de las publicaciones repetidas",
    "Instalar la pregunta y la automatización en los videos que traen tráfico, con la mentoría grabada de recurso"
   ],
-  "ultima": "4 de septiembre de 2026"
+  "ultima": "4 de septiembre de 2026",
+  "reparto": [
+   [
+    "Franco",
+    "Cierra con él la oferta, la escalera y el precio del nivel uno."
+   ],
+   [
+    "Fede",
+    "Le baja los criterios del profile funnel y del volumen de contenido."
+   ],
+   [
+    "Juana",
+    "Trabaja con él los formatos creativos en la grupal, porque lo que vende es creatividad."
+   ]
+  ]
  },
  {
   "slug": "sofia-galvis",
@@ -456,11 +499,7 @@
    ],
    "nota": "Se trabaja por contenido, que es el eje más bajo y está en cero: hasta que su marca personal no comunique lo que ella sabe enseñar, el producto de educación no tiene por dónde salir."
   },
-  "cascara": [
-   "Franco baja producto, oferta y roadmap de lanzamiento en la llamada de la semana del 15",
-   "Facu ordena el proceso y sostiene el seguimiento hasta el lanzamiento",
-   "Fede convierte el calendario de Franco en formatos y le marca cómo comunicar"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Mandarle a Franco la bajada documentada de las clases, las consultas repetidas y las estadísticas de Instagram, y agendar la sesión con él para la semana que viene",
    "Grabar la próxima clase grupal del high ticket como contenido del programa",
@@ -469,7 +508,21 @@
    "Frenar la entrada de clientes nuevos de 90 días hasta tener equipo",
    "Terminar de delegar un cliente al editor que ya contrató, con brief incluido"
   ],
-  "ultima": "5 de septiembre de 2026"
+  "ultima": "5 de septiembre de 2026",
+  "reparto": [
+   [
+    "Franco",
+    "Baja producto, oferta y roadmap de lanzamiento en la llamada de la semana del 15."
+   ],
+   [
+    "Facu",
+    "Ordena el proceso y sostiene el seguimiento hasta el lanzamiento."
+   ],
+   [
+    "Fede",
+    "Convierte el calendario de Franco en formatos y le marca cómo comunicar."
+   ]
+  ]
  },
  {
   "slug": "aaron-aiello",
@@ -503,14 +556,7 @@
    ],
    "nota": "Se trabaja por contenido, el eje más bajo junto con demanda: la oferta B2C se escribe con lo que conteste la audiencia, y hoy hay un video y unas historias."
   },
-  "cascara": [
-   "Facu le manda el formulario del pasaporte digital, que es el entregable distintivo del caso y va en la primera semana",
-   "Teo le pasa la plantilla del formulario de feedback para auditar a los clientes actuales",
-   "Franco trabaja con ellos los cinco puntos: ICP y avatar, promesa central, escalera de valor, la cohorte de cuatro semanas y el posicionamiento en subcategoría",
-   "Facu le baja los ángulos de comunicación que salen del pasaporte, con una idea concreta por ángulo",
-   "Juana trabaja en la grupal cómo mostrar la calidez sin perder la estructura que a él le gusta",
-   "Fede sostiene el seguimiento de la marca personal y del volumen de contenido"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Llegar al uno a uno del viernes con todas las decisiones del deck resueltas",
    "Completar y devolver el formulario del pasaporte digital",
@@ -520,7 +566,21 @@
    "Llevar el tema de ICP y oferta a las grupales, y llevarle a Juana la pregunta de cómo mostrar la calidez sin perder la estructura",
    "Grabar la primera entrevista con Cami haciendo las preguntas, sin guión, y publicarla"
   ],
-  "ultima": "11 de septiembre de 2026"
+  "ultima": "11 de septiembre de 2026",
+  "reparto": [
+   [
+    "Franco",
+    "Trabaja con ellos los cinco puntos: ICP y avatar, promesa central, escalera de valor, la cohorte de cuatro semanas y el posicionamiento en subcategoría."
+   ],
+   [
+    "Juana",
+    "Trabaja en la grupal cómo mostrar la calidez sosteniendo la estructura que a él le gusta."
+   ],
+   [
+    "Fede",
+    "Sostiene el seguimiento de la marca personal y del volumen de contenido."
+   ]
+  ]
  },
  {
   "slug": "nicolas-lozada",
@@ -557,16 +617,23 @@
    ],
    "nota": "Venta en uno es el piso y el cuello del caso: hay oferta, pilares y 41 contenidos cargados, y lo único que nunca pasó fue salir a buscar la venta, así que se arranca por recontacto y prospección."
   },
-  "cascara": [
-   "Teo hace el sign-off y entrega este documento con la orientación al lanzamiento",
-   "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo en el sign-off (falta confirmar)"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Abrir el Calendly y cargar todo el pipeline en una planilla",
    "Recontactar cinco personas por día de las que no cerraron",
    "Publicar los recortes del breakdown que quedaron sin salir"
   ],
-  "ultima": "2 de septiembre de 2026"
+  "ultima": "2 de septiembre de 2026",
+  "reparto": [
+   [
+    "Teo",
+    "Hace el sign-off y entrega este documento con la orientación al lanzamiento."
+   ],
+   [
+    "Equipo",
+    "El acceso a las grupales queda abierto hasta la fecha que fije Teo en el sign-off (falta confirmar)."
+   ]
+  ]
  },
  {
   "slug": "qualita",
@@ -602,7 +669,8 @@
   },
   "cascara": [],
   "cliente_tareas": [],
-  "ultima": "11 de septiembre de 2026"
+  "ultima": "11 de septiembre de 2026",
+  "reparto": []
  },
  {
   "slug": "antonio-mazzello",
@@ -635,16 +703,23 @@
    ],
    "nota": "Se trabaja por demanda, el eje más bajo: el embudo de captación quedó en el papel desde abril y sin dueño del calendario no hay diez piezas con un mismo ángulo que traigan contactos."
   },
-  "cascara": [
-   "Teo hace el sign-off y entrega este documento",
-   "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo en el sign-off (falta confirmar)"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Escribir el norte en una hoja: cliente, problema, promesa",
    "Definir quién va a ser el dueño del calendario de contenido",
    "Pasar la cuenta de Instagram a profesional"
   ],
-  "ultima": "2 de septiembre de 2026"
+  "ultima": "2 de septiembre de 2026",
+  "reparto": [
+   [
+    "Teo",
+    "Hace el sign-off y entrega este documento."
+   ],
+   [
+    "Equipo",
+    "El acceso a las grupales queda abierto hasta la fecha que fije Teo en el sign-off (falta confirmar)."
+   ]
+  ]
  },
  {
   "slug": "lola-berutti",
@@ -677,12 +752,7 @@
    ],
    "nota": "Se trabaja por venta, que es el eje más bajo: el tráfico ya está juntado y entre la conversación y la plata no hay embudo, fecha, escasez ni seña, y por eso las tres llamadas se cayeron todas en el mismo punto."
   },
-  "cascara": [
-   "Franco baja el documento de lanzamiento: embudo, fecha, ángulos, calendario y la definición de cohorte cerrada o abierta",
-   "Juana la acompaña en la construcción del arco narrativo en las grupales de los jueves",
-   "Fede la trabaja en las grupales de los viernes sobre formato y guion",
-   "Facu sostiene el seguimiento para que la fecha no se vuelva a correr"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Tener la reunión con Franco y salir con el documento de lanzamiento cerrado, con fecha adentro",
    "Escribir el arco narrativo de la obsesión por la ineficiencia y llevarlo a la grupal de Juana",
@@ -690,7 +760,25 @@
    "Producir y publicar la tanda de contenido de lanzamiento en el formato de video largo que ya le funciona",
    "Empezar a bajar tráfico a la comunidad de WhatsApp"
   ],
-  "ultima": "9 de septiembre de 2026"
+  "ultima": "9 de septiembre de 2026",
+  "reparto": [
+   [
+    "Franco",
+    "Baja el documento de lanzamiento: embudo, fecha, ángulos, calendario y la definición de cohorte cerrada o abierta."
+   ],
+   [
+    "Juana",
+    "La acompaña en la construcción del arco narrativo en las grupales de los jueves."
+   ],
+   [
+    "Fede",
+    "La trabaja en las grupales de los viernes sobre formato y guion."
+   ],
+   [
+    "Facu",
+    "Sostiene el seguimiento para que la fecha se sostenga."
+   ]
+  ]
  },
  {
   "slug": "manu-bruzzone",
@@ -723,16 +811,23 @@
    ],
    "nota": "Se trabaja por demanda, el eje más bajo: la campaña de captación y la base de datos son lo único que mueve la cartera de veintidós a treinta y cinco, y eso se resuelve repitiendo la cadencia mensual."
   },
-  "cascara": [
-   "Teo hace el sign-off y entrega este documento",
-   "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo en el sign-off (falta confirmar)"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Poner la campaña de captación de ticket medio en la calle",
    "Hacer la planificación mensual del último lunes con el equipo completo",
    "Confirmar si la base de datos de leads quedó implementada y, si no, dejarla armada con una herramienta sola"
   ],
-  "ultima": "Del 12 de junio al 2 de septiembre de 2026"
+  "ultima": "Del 12 de junio al 2 de septiembre de 2026",
+  "reparto": [
+   [
+    "Teo",
+    "Hace el sign-off y entrega este documento."
+   ],
+   [
+    "Equipo",
+    "El acceso a las grupales queda abierto hasta la fecha que fije Teo en el sign-off (falta confirmar)."
+   ]
+  ]
  },
  {
   "slug": "matias-morales",
@@ -765,18 +860,20 @@
    ],
    "nota": "Entrega en uno es el piso: vende y vende caro, y lo que falta es escribir el proceso una sola vez y aplicarlo a las dos entregas en curso antes de que entre el tercer cliente."
   },
-  "cascara": [
-   "Teo le baja en su llamada el proceso completo de entrega: onboarding a 48 horas, presentación de roadmap y armado de la entrega de servicio",
-   "Facu le presenta el análisis y le marca el camino, que es lo que no se le había presentado porque venía bien",
-   "Cáscara le deja la estructura y un ejemplo de cada pieza de la entrega, no los documentos del cliente"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Mapear las dos entregas en curso: qué se prometió, en qué estado está y qué se está resolviendo sobre la marcha",
    "Escribir el proceso de entrega de 9669 sobre el módulo que baja Teo",
    "Presentarle el roadmap a cada uno de los dos clientes, con hitos y fechas",
    "Corregir el documento con lo que se rompa al aplicarlo"
   ],
-  "ultima": "Del 2 al 4 de septiembre de 2026"
+  "ultima": "Del 2 al 4 de septiembre de 2026",
+  "reparto": [
+   [
+    "Teo",
+    "Le baja en su llamada el proceso completo de entrega: onboarding a 48 horas, presentación de roadmap y armado de la entrega de servicio."
+   ]
+  ]
  },
  {
   "slug": "sharon-palacio",
@@ -809,17 +906,23 @@
    ],
    "nota": "Se trabaja por contenido, que es el eje más bajo y está en cero: el negocio y la entrega ya funcionan, y lo único que nunca arrancó es contar los casos de éxito que ella misma genera."
   },
-  "cascara": [
-   "Teo hace la llamada de sign-off planteada como caso de éxito: en qué punto está hoy y qué logró",
-   "Quedan un par de llamadas uno a uno con Facu antes del cierre (falta confirmar cuántas exactamente)",
-   "Grupales hasta fin de septiembre, y después acceso abierto como caso de éxito para que los demás se rodeen de lo que viene logrando"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Resolver la editora y no volver a editar contenido propio",
    "Cerrar ciclo con cada cliente y presentar la continuidad por bloques de tres meses",
    "Publicar diez piezas propias con edición nivel uno"
   ],
-  "ultima": "2 de septiembre de 2026"
+  "ultima": "2 de septiembre de 2026",
+  "reparto": [
+   [
+    "Teo",
+    "Hace la llamada de sign-off planteada como caso de éxito: en qué punto está hoy y qué logró."
+   ],
+   [
+    "Equipo",
+    "Grupales hasta fin de septiembre, y después acceso abierto como caso de éxito."
+   ]
+  ]
  },
  {
   "slug": "bianca-antonini",
@@ -855,11 +958,8 @@
    "nota": "Se trabaja por venta y entrega, los dos ejes más bajos: el mecanismo de lanzamiento —preventa a la comunidad, ventana corta y producto disponible cuando sale la conversión— es lo que convierte el contenido que ya funciona en ventas medibles."
   },
   "cascara": [
-   "Teo le baja el módulo de dinámicas de comunidad sobre la arquitectura mínima que ya tiene escrita",
-   "Cáscara le configura las automatizaciones de mail con Risen y Claude, segmentadas por nivel de compra",
-   "Franco audita la estrategia de lanzamiento y le marca los lineamientos",
-   "Facu le pasa el ejemplo de la serie de contenido de Delfi Ferro",
-   "Cáscara le edita los contenidos que grabó en el cowork, de regalo"
+   "Excepción declarada. Cáscara le configura las automatizaciones de mail con Risen y Claude, segmentadas por nivel de compra.",
+   "Excepción declarada. Cáscara le edita los contenidos que grabó en el cowork, de regalo."
   ],
   "cliente_tareas": [
    "Mandar el documento único con narrativa, calendario, productos, contenidos y beneficios para la comunidad",
@@ -870,7 +970,17 @@
    "Correr la preventa del pantalón dentro de la comunidad antes de abrirla afuera",
    "Grabar el primer capítulo de la serie Tengo Miedo en su marca personal, sin colaboración con Kie"
   ],
-  "ultima": "11 de septiembre de 2026"
+  "ultima": "11 de septiembre de 2026",
+  "reparto": [
+   [
+    "Teo",
+    "Le baja el módulo de dinámicas de comunidad sobre la arquitectura mínima que ya tiene escrita."
+   ],
+   [
+    "Franco",
+    "Audita la estrategia de lanzamiento y le marca los lineamientos."
+   ]
+  ]
  },
  {
   "slug": "lucca-sorgoni",
@@ -904,16 +1014,23 @@
    ],
    "nota": "Los pisos son contenido y demanda, las dos en dos: tiene la oferta más demostrable de todas y nunca la mostró, así que el trabajo es sostener, diez piezas de B2B con los números en pantalla y prospección con lista armada antes de escribir."
   },
-  "cascara": [
-   "Teo hace el sign-off y entrega este documento",
-   "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo en el sign-off (falta confirmar)"
-  ],
+  "cascara": [],
   "cliente_tareas": [
    "Armar las tres fichas de casos con números antes y después",
    "Grabar el video largo del modelo de B2B",
    "Sostener el B2C como está, sin tocarlo durante el bloque"
   ],
-  "ultima": "2 de septiembre de 2026"
+  "ultima": "2 de septiembre de 2026",
+  "reparto": [
+   [
+    "Teo",
+    "Hace el sign-off y entrega este documento."
+   ],
+   [
+    "Equipo",
+    "El acceso a las grupales queda abierto hasta la fecha que fije Teo en el sign-off (falta confirmar)."
+   ]
+  ]
  },
  {
   "slug": "cecilia-belotti",
@@ -923,7 +1040,7 @@
   "orientacion": "Conseguir",
   "metrica": "Clientes de la mentoría cerrados. Al 16 de septiembre: una propuesta enviada, ninguna cerrada.",
   "titular": "Ceci cierra con el vehículo resuelto y la primera propuesta en la calle, hecha con cuatro mensajes.",
-  "cuello": "El cuello ya no es el vehículo: es el volumen.",
+  "cuello": "El cuello pasó a ser el volumen: el vehículo ya está encontrado.",
   "abierto": "La respuesta de Tantasiña antes del viernes 19. La fecha del workshop grande con su compañera, corrido a noviembre. La fecha hasta la que quedan abiertas las grupales (falta confirmar).",
   "doc": "cecilia-belotti.html",
   "handicap": null,
@@ -938,7 +1055,8 @@
   "cas": [
    "Teo hace el sign-off y entrega este documento",
    "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo (falta confirmar)"
-  ]
+  ],
+  "reparto": []
  },
  {
   "slug": "the-momentum-club",
@@ -953,14 +1071,19 @@
   "doc": "",
   "handicap": null,
   "cascara": [
-   "Aye coordina la Clarity Call de Facu apenas estén los Founder Insights",
-   "Después de esa llamada se escribe la ficha y entra al circuito como los demás"
+   "Facu escribe la ficha después de la Clarity Call, y ahí entra al circuito como los demás."
   ],
   "cliente_tareas": [
    "Completar los Founder Insights",
    "Tomar la Clarity Call con Facu"
   ],
   "ultima": "16 de septiembre de 2026",
-  "etapa": "Recién ingresado. El onboarding con Teo está hecho; falta que completen los Founder Insights y que se agende la Clarity Call, que es donde sale la lectura del caso."
+  "etapa": "Recién ingresado. El onboarding con Teo está hecho; falta que completen los Founder Insights y que se agende la Clarity Call, que es donde sale la lectura del caso.",
+  "reparto": [
+   [
+    "Facu",
+    "Toma la Clarity Call apenas estén los Founder Insights."
+   ]
+  ]
  }
 ]

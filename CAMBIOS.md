@@ -5,6 +5,33 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 16 de septiembre de 2026 · noche · los accionables
+
+Los accionables de nuestro lado estaban mezclando cinco cosas distintas. Quedaron repartidos
+en tres lugares y de 68 líneas pasaron a 8.
+
+- **Accionables CSM.** Lo que antes se llamaba "la entrega" es la lista de Aye: el documento
+  que le corresponde a cada cliente, qué hacer con él y qué coordinar. Ahí entraron 18
+  líneas que figuraban como tareas de Facu y son operativas: agendar, mandar una carta,
+  mandarle a Franco el resumen antes de su llamada.
+- **Arriba de cada cliente, el resumen de su radiografía.** El cuello, la métrica y en qué
+  día está, para ubicarse sin abrir el documento. Va en la torre y en el documento de Aye.
+- **Quién toma cada caso.** "Franco define la oferta", "Juana toma la narrativa", "grupales
+  martes, jueves y viernes" dejó de ser checklist: es un rótulo, aparece en la ficha de cada
+  cliente y junto en la sección Adentro de Cáscara.
+- **Salió todo lo que ya está escrito en el documento del founder.** Los ángulos de
+  comunicación, el bloque del profile funnel, el roadmap con punto de llegada: eso es el
+  contenido del informe.
+- **Salieron los traspasos de contexto a Franco.** En vez de pasarle transcripts, queda un
+  mensaje corto antes de su llamada. El paso siguiente es la tabla de llamadas con su link
+  adentro de cada cliente, que todavía falta.
+- **Quedaron marcadas tres excepciones declaradas**, que van contra el criterio done with
+  you y se sostienen igual: la pauta y los guiones de Custom Lab, y las automatizaciones de
+  mail y la edición de regalo de Bianca.
+- Cecilia: se corrigió el cuello, que estaba escrito explicando lo que no es.
+
+---
+
 ## 16 de septiembre de 2026 · noche
 
 - **Iñaki Efe sale de Founders.** Es cliente de 0800, así que no va en el circuito: se fue del

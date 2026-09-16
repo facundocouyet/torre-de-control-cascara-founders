@@ -1,7 +1,7 @@
 {
  "fecha": "16 de septiembre de 2026",
- "titulo": "Entregas",
- "bajada": "Qué documento le corresponde a cada cliente y qué hay que hacer con él. Es la lista de trabajo de Aye y se actualiza con los clientes.",
+ "titulo": "Accionables CSM",
+ "bajada": "Lo que ejecuta Aye con cada cliente: qué documento le corresponde, qué hacer con él y qué coordinar. Arriba de cada lista va el resumen de su radiografía. Se actualiza con los clientes.",
  "intro": [
   "Cada cliente tiene su documento y su accionable de entrega. <b>Ver</b> lo abre acá adentro; <b>Descargar</b> baja el archivo que se le manda.",
   "El orden de trabajo cambia según el grupo. En los <b>sign off</b>, el documento se muestra en la llamada y se manda después: la llamada es de informe y de cierre. En los que siguen <b>en curso</b>, el documento se manda antes y la llamada se usa para decidir sobre lo que ya leyeron."
@@ -103,7 +103,9 @@
     "Mandar el informe de cierre.",
     "Ofrecerle el sprint hasta fin de septiembre: grupales más <b>una llamada extra con Facu</b>. Agendar esa llamada.",
     "Pedirle la fecha del viaje y, con eso, la fecha de la primera Onfire Session.",
-    "Tener presente que está mezclada con Franco: acá se da un poco de más."
+    "Tener presente que está mezclada con Franco: acá se da un poco de más.",
+    "Si Andrea pide la llamada extra de la semana del 15, coordinarla con Facu.",
+    "Avisarle a Franco antes de que Teo cierre el caso."
    ],
    "doc": "andrea-saturno.html",
    "docn": "andrea-saturno-cierre.html",
@@ -136,7 +138,8 @@
     "Mandar el informe de cierre.",
     "Coordinar con Teo la llamada <b>en formato caso de éxito</b>, que es como se decidió cerrarla.",
     "Capturar el testimonio en esa misma llamada.",
-    "Ofrecerle seguir entrando a las grupales como referente."
+    "Ofrecerle seguir entrando a las grupales como referente.",
+    "Confirmar con Facu cuántas llamadas uno a uno quedan antes del cierre y agendarlas (falta confirmar)."
    ],
    "doc": "sharon-palacio.html",
    "docn": "sharon-palacio-cierre.html",
@@ -153,7 +156,8 @@
     "Mandar el informe de cierre.",
     "Agendar <b>una llamada más con Franco</b>: de ahí sale el precio de la mentoría, que es lo único que falta.",
     "Recién después de esa llamada, coordinar el offboarding con Teo.",
-    "Recordarle que de su lado queda terminar el one-sheeter y el ICP."
+    "Recordarle que de su lado queda terminar el one-sheeter y el ICP.",
+    "Antes de la llamada con Franco, mandarle el resumen de la Clarity Call en dos líneas."
    ],
    "doc": "scarlett-montilla.html",
    "docn": "scarlett-montilla-cierre.html",
@@ -185,7 +189,8 @@
    "accionables": [
     "Mandar el informe de cierre.",
     "Agendar la reunión con <b>Franco</b>: es la que cierra la oferta, nombre y precio. Esa llamada la toma Franco siempre.",
-    "Recién después de esa llamada, coordinar el offboarding con Teo."
+    "Recién después de esa llamada, coordinar el offboarding con Teo.",
+    "Aye agenda ella misma la reunión con Franco."
    ],
    "doc": "ayelen-cerqueira.html",
    "docn": "ayelen-cerqueira-cierre.html",
@@ -217,7 +222,8 @@
     "Mandar los dos documentos: la radiografía y el de Eclipse y los anillos.",
     "Agendar la <b>1:1 de Franco con Bianca esta semana</b>: es donde se cierra el pricing del anillo llave.",
     "Pedirle a Teo los contenidos del Cowork editados para regalárselos.",
-    "Pedirle a Bianca cuánta gente hay hoy en la comunidad de WhatsApp."
+    "Pedirle a Bianca cuánta gente hay hoy en la comunidad de WhatsApp.",
+    "Pasarle el ejemplo de la serie de contenido de Delfi Ferro."
    ],
    "doc": "bianca-antonini.html",
    "docn": "bianca-antonini-radiografia.html",
@@ -269,7 +275,9 @@
    "accionables": [
     "Mandar la radiografía con el roadmap.",
     "El foco del tramo es cerrar la oferta y sacar <b>un mínimo de diez piezas</b>: con menos de diez no se evalúa nada.",
-    "El precio final de la instalación y del acompañamiento se confirma con las primeras cinco llamadas."
+    "El precio final de la instalación y del acompañamiento se confirma con las primeras cinco llamadas.",
+    "Mandarle la carta <b>Calendario de contenido</b>, con referencias y un ejemplo por formato.",
+    "Antes de la llamada con Franco, mandarle el resumen de la llamada del 1 de septiembre en dos líneas."
    ],
    "doc": "lucio-labate.html",
    "docn": "lucio-labate-radiografia.html",
@@ -285,7 +293,8 @@
    "accionables": [
     "Mandar la radiografía con el roadmap.",
     "<b>Agendar la llamada con Franco</b>: quedó pendiente desde la semana del 1 de septiembre y todavía no tiene fecha.",
-    "Empezar a documentarlo como caso de éxito: es uno de los cuatro que quedaron marcados."
+    "Empezar a documentarlo como caso de éxito: es uno de los cuatro que quedaron marcados.",
+    "Antes de la llamada con Franco, mandarle el resumen de la Clarity Call del 1 de septiembre en dos líneas."
    ],
    "doc": "jose-david-fajardo.html",
    "docn": "jose-david-fajardo-radiografia.html",
@@ -301,7 +310,9 @@
    "accionables": [
     "Mandar la radiografía con el roadmap.",
     "Mandarle el <b>Pasaporte Digital</b>: es el accionable que quedó de Facu.",
-    "Coordinar con Fede el seguimiento de contenido, que acá va con Aaron como personaje."
+    "Coordinar con Fede el seguimiento de contenido, que acá va con Aaron como personaje.",
+    "Mandarle la carta <b>Pasaporte digital</b> en la primera semana: es el entregable distintivo del caso.",
+    "Mandarle la plantilla del formulario de feedback para auditar a los clientes actuales."
    ],
    "doc": "aaron-aiello.html",
    "docn": "aaron-aiello-radiografia.html",
@@ -334,7 +345,10 @@
    "accionables": [
     "Mandar la radiografía con el roadmap.",
     "Pasarle a Franco las conclusiones de la Clarity Call y agendar la llamada.",
-    "De ahí sale la <b>fecha de lanzamiento del programa</b>, que hoy no está."
+    "De ahí sale la <b>fecha de lanzamiento del programa</b>, que hoy no está.",
+    "Mandarle la carta <b>ICP y mecanismo</b>, con el formulario de ICP y dolores.",
+    "Agendar la sesión de oferta con Franco para la semana siguiente y mandarle el resumen de la Clarity Call.",
+    "Pasarle lo que Franco necesita de oferta y marketing para llegar a esa sesión."
    ],
    "doc": "sebastian.html",
    "docn": "sebastian-radiografia.html",
@@ -349,7 +363,10 @@
    "proyecto": "Be Motion, agencia de contenido orgánico en Montevideo. Seis clientes fijos y las dos socias todavía editando.",
    "accionables": [
     "Mandar la radiografía con el roadmap.",
-    "<b>Agendar la primera llamada con Franco: todavía no la tuvo.</b> De ahí salen el nicho y el precio para poder venderse fuera de Uruguay."
+    "<b>Agendar la primera llamada con Franco: todavía no la tuvo.</b> De ahí salen el nicho y el precio para poder venderse fuera de Uruguay.",
+    "Mandarle la carta <b>Diario administrativo</b>.",
+    "Mandarle la carta <b>Profile funnel</b>, con la lista de tareas del perfil de Instagram.",
+    "Mandarle la carta <b>Contratar el primer rol</b>, con el formulario de postulación de editores y el tarifario de edición."
    ],
    "doc": "sol-boutmy.html",
    "docn": "sol-boutmy-radiografia.html",
@@ -401,7 +418,8 @@
     "Chequear que hayan completado los <b>Founder Insights</b>. Es lo único que falta para que entre la Clarity Call.",
     "Con los Insights hechos, <b>coordinar la Clarity Call con Facu</b>. Esa llamada es la que define la lectura del caso y la orientación.",
     "Después de la Clarity se escribe la ficha y entra al circuito como el resto: documento, roadmap y accionables.",
-    "Cargar START en Cuentas con el 16 de septiembre, para que el conteo de los noventa días arranque bien."
+    "Cargar START en Cuentas con el 16 de septiembre, para que el conteo de los noventa días arranque bien.",
+    "Coordinar la Clarity Call de Facu apenas estén los Founder Insights."
    ],
    "doc": null,
    "docn": null,

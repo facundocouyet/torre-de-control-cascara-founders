@@ -59,7 +59,7 @@ for r in panel:
       "metrica":r['metrica'],"abierto":r['abierto'],"doc":r['doc'],
       "etapa":r.get('etapa',''),
       "ultima":r['ultima'],"titular":r['titular'],
-      "ct":r['cliente_tareas'],"cas":r['cascara'],
+      "ct":r['cliente_tareas'],"cas":r['cascara'],"rep":r.get('reparto',[]),
       "dia":dd['d'],"desde":dd['desde'],"fuente":dd['fuente'],
       "corridos":dd.get('corridos'),"frenado":dd.get('frenado',0),"tramos":dd.get('tramos',[]),
       "h": None if not h else {"t":h['total'],"tr":h['tramo'],"ri":h['ritmo'],

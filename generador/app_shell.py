@@ -118,6 +118,16 @@ a{color:inherit;text-decoration:none}
 .eng ul li{font-size:16.5px;line-height:1.52;padding:6px 0 6px 25px;position:relative;max-width:70ch}
 .eng ul li:before{content:"";position:absolute;left:2px;top:14px;width:9px;height:1.5px;background:var(--tinta)}
 .eng ul li b{font-weight:700}
+.eng .rad{margin-top:13px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:1px;background:var(--tiza);border:1px solid var(--tiza)}
+.eng .rad > div{background:var(--papel);padding:11px 13px}
+.eng .rad .k{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2)}
+.eng .rad .v{font-size:14.5px;line-height:1.42;margin-top:6px}
+@media (max-width:760px){ .eng .rad{grid-template-columns:1fr} }
+.rpt{margin:14px 0 0;padding:0;list-style:none}
+.rpt li{font-size:16px;line-height:1.5;padding:7px 0;border-top:1px solid var(--tiza);max-width:70ch}
+.rpt li b{font-weight:700;letter-spacing:-.01em}
+.rpt li span{color:var(--gris)}
 .eng .bt{margin-top:16px;display:flex;gap:9px;flex-wrap:wrap}
 .eng .bt button{appearance:none;border:1px solid var(--tinta);background:transparent;color:var(--tinta);
   font-family:inherit;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
@@ -627,7 +637,7 @@ function vHome(){
    tarjeta('01','Clientes','Uno por uno: en qué está parado, cuál es su cuello, qué mide y en qué día de los noventa va. Adentro de cada uno está su documento.',
      [[C.length,'Clientes'],[cierre.length,'En cierre'],[frenados.length,'Frenados',frenados.length>0]],'Ver los clientes',"ir('clientes')")+
    tarjeta('02','Accionables','Lo que hay que hacer esta semana: qué documento sale para cada cliente, qué le toca ejecutar a cada founder y qué queda de nuestro lado.',
-     [[nEnt,'Entregas'],[nAcc,'Del founder'],[nCas,'De Cáscara']],'Ver los accionables',"ir('accionables')")+
+     [[nEnt,'Del CSM'],[nAcc,'Del founder'],[nCas,'De Cáscara']],'Ver los accionables',"ir('accionables')")+
    tarjeta('03','Biblioteca','El programa entero explicado —el recorrido, las orientaciones, las grupales y los mentores— y el mapa de cartas con su plantilla.',
      [[D.proceso.length,'Etapas'],[D.orientaciones.length,'Orientaciones'],[nCartas,'Cartas']],'Abrir la biblioteca',"ir('biblioteca')")+
   '</div></div>';
@@ -726,6 +736,8 @@ function abrir(slug){
   if(c.metrica) h+='<div class="bloque"><span class="et">La métrica que importa</span><p>'+esc(c.metrica)+'</p></div>';
   if(c.ct&&c.ct.length) h+='<div class="bloque"><span class="et">Septiembre · lo hace él o ella</span><ul class="check">'+
     c.ct.map(function(x){return '<li><span>'+esc(x)+'</span></li>'}).join('')+'</ul></div>';
+  if(c.rep&&c.rep.length) h+='<div class="bloque"><span class="et">Quién lo toma en este tramo</span><ul class="rpt">'+
+    c.rep.map(function(r){return '<li><b>'+esc(r[0])+'</b> <span>'+esc(r[1])+'</span></li>'}).join('')+'</ul></div>';
   if(c.cas&&c.cas.length) h+='<div class="bloque"><span class="et">Septiembre · lo hace Cáscara</span><ul class="check">'+
     c.cas.map(function(x){return '<li><span>'+esc(x)+'</span></li>'}).join('')+'</ul></div>';
   if(c.abierto) h+='<div class="bloque"><span class="et">Sin definir</span><p>'+esc(c.abierto)+'</p></div>';
@@ -1008,6 +1020,16 @@ async function bajarCarta(id,caja,sel){
 }
 
 /* ---------------- entregas: el handoff, adentro de la torre ---------------- */
+function porSlug(s){ for(var i=0;i<C.length;i++){ if(C[i].slug===s) return C[i]; } return null; }
+/* el resumen de la radiografía: con qué se ubica Aye antes de leer los accionables */
+function radResumen(f){
+  var c=f.slug?porSlug(f.slug):null; if(!c) return '';
+  var tramo=c.h?(c.h.tr+' · puntaje '+c.h.t+'/100'):(c.modo==='cierre'?'Informe de cierre':'Sin puntaje todavía');
+  var dia=c.dia?('Día '+c.dia+' de los noventa'):'Sin fecha cargada';
+  return '<div class="rad"><div><div class="k">El cuello</div><div class="v">'+esc(c.cuello||'—')+'</div></div>'+
+    '<div><div class="k">La métrica</div><div class="v">'+esc(c.metrica||'—')+'</div></div>'+
+    '<div><div class="k">Dónde está</div><div class="v">'+esc(tramo)+'. '+esc(dia)+'.</div></div></div>';
+}
 function engFila(f){
   var b='';
   if(f.doc){
@@ -1020,7 +1042,7 @@ function engFila(f){
   var li=f.accionables.map(function(a){return '<li>'+a+'</li>'}).join('');
   return '<div class="f"><div class="top"><div class="nm">'+esc(f.nombre)+'</div>'+
     '<div class="es">'+esc(f.estado)+'</div></div>'+
-    '<div class="pr">'+f.proyecto+'</div><ul>'+li+'</ul>'+b+'</div>';
+    '<div class="pr">'+f.proyecto+'</div>'+radResumen(f)+'<ul>'+li+'</ul>'+b+'</div>';
 }
 function verDoc(ruta,titulo,bajar){
   var r='clientes/'+ruta;
@@ -1032,8 +1054,9 @@ function paneEntrega(){
   var sign=F.filter(function(f){return /Sign off|Upselling/.test(f.estado)});
   var curso=F.filter(function(f){return sign.indexOf(f)<0});
   var h='<div class="hoja">'+
-    '<p class="entrada" style="margin-top:34px">Qué documento le corresponde a cada cliente y qué hay que hacer '+
-    'con él. Se actualiza con los clientes: cuando cambia un caso, cambia acá.</p>';
+    '<p class="entrada" style="margin-top:34px">Lo que ejecuta Aye con cada cliente: el documento que le '+
+    'corresponde, qué hay que hacer con él y qué coordinar. Arriba de cada uno va el resumen de su '+
+    'radiografía, para ubicarse antes de leer la lista.</p>';
   h+='<div class="regla">'+E.intro.map(function(x,i){
       return '<div><span class="k">'+('0'+(i+1)).slice(-2)+'</span>'+x+'</div>'}).join('')+'</div>';
 
@@ -1074,13 +1097,23 @@ function paneFounders(){
 }
 function paneCascara(){
   var h='<div class="hoja">'+
-    '<p class="entrada" style="margin-top:34px">Lo que queda de nuestro lado, por dueño. Sale de las fichas de los '+
-    'clientes: cada línea es un compromiso que tomamos con alguien.</p><div class="duenos" style="margin-top:34px">';
+    '<p class="entrada" style="margin-top:34px">Dos cosas distintas. Arriba, lo que alguien de Cáscara todavía '+
+    'tiene que hacer y no está escrito adentro del documento del founder. Abajo, quién toma cada caso en este '+
+    'tramo, que es un rótulo y se lee de un vistazo.</p><div class="duenos" style="margin-top:34px">';
   D.tareas.forEach(function(t){
     h+='<div class="duen"><div class="dh"><b>'+esc(t.d)+'</b><span class="num">'+t.items.length+'</span></div><ul>';
     t.items.forEach(function(i){h+='<li><b>'+esc(i.c)+'</b>'+esc(i.t)+'</li>'});
     h+='</ul></div>';});
-  return h+'</div></div>';
+  h+='</div><div class="eng" style="margin-top:8px">';
+  var conRep=C.filter(function(c){return c.rep&&c.rep.length});
+  h+='<div class="gr"><div class="et"><span>Quién toma cada caso</span><span class="num">'+conRep.length+'</span></div>';
+  ordenar(conRep);
+  conRep.forEach(function(c){
+    h+='<div class="f"><div class="top"><div class="nm">'+esc(c.nombre)+'</div>'+
+       '<div class="es">'+esc(c.ori)+(c.modo==='cierre'?' · cierre':'')+'</div></div>'+
+       '<ul class="rpt">'+c.rep.map(function(r){
+          return '<li><b>'+esc(r[0])+'</b> <span>'+esc(r[1])+'</span></li>'}).join('')+'</ul></div>';});
+  return h+'</div></div></div>';
 }
 var PANE_ACC='entrega';
 function vAccionables(){
@@ -1088,12 +1121,13 @@ function vAccionables(){
   var nEnt=E.filas.length;
   var nAcc=C.reduce(function(a,c){return a+(c.ct?c.ct.length:0)},0);
   var nCas=D.tareas.reduce(function(a,t){return a+t.items.length},0);
+  var nRep=C.reduce(function(a,c){return a+(c.rep?c.rep.length:0)},0);
   var h='<div class="hoja">'+migas(['Accionables'])+encab('Accionables','Lo que hay que hacer','',
     'Se actualiza con los clientes');
   h+='<div class="conm" role="group" aria-label="Qué accionables">'+
-    '<button data-p="entrega">La entrega · '+nEnt+'</button>'+
+    '<button data-p="entrega">Accionables CSM · '+nEnt+'</button>'+
     '<button data-p="founders">Cada founder · '+nAcc+'</button>'+
-    '<button data-p="cascara">De nuestro lado · '+nCas+'</button></div>';
+    '<button data-p="cascara">Adentro de Cáscara · '+(nCas+nRep)+'</button></div>';
   h+='<div class="pane" id="p-entrega">'+paneEntrega()+'</div>'+
      '<div class="pane" id="p-founders">'+paneFounders()+'</div>'+
      '<div class="pane" id="p-cascara">'+paneCascara()+'</div>';

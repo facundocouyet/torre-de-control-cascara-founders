@@ -39,6 +39,12 @@ CSS += """
 #visor .boton{border-color:#ECEAE4;color:#ECEAE4}
 #visor .boton:hover{background:#ECEAE4;color:#171717}
 #visor iframe{flex:1;width:100%;border:0;background:#0A0A0C}
+.cli .rad{margin-top:14px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:1px;background:#DBD7D2;border:1px solid #DBD7D2}
+.cli .rad > div{background:#ECEAE4;padding:12px 14px}
+.cli .rad .k{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.cli .rad .v{font-size:15px;line-height:1.42;margin-top:6px}
+@media (max-width:760px){ .cli .rad{grid-template-columns:1fr} }
 @media (max-width:640px){ .cli .nom{font-size:21px} }
 @media print{ #visor{display:none!important} .cli .btns{display:none} }
 """
@@ -46,8 +52,27 @@ CSS += """
 import json as _json
 # la fuente única del handoff: se edita en web/contenido/entregas.json y sale acá y en la torre
 ENT = _json.load(open('/home/claude/web/contenido/entregas.json', encoding='utf-8'))
+# el resumen de la radiografía sale del panel: con eso Aye se ubica antes de leer los accionables
+_PAN = {r['slug']: r for r in
+        _json.load(open('/home/claude/web/contenido/panel-data.json', encoding='utf-8'))}
+import sys as _sys; _sys.path.insert(0,'/home/claude/web')
+import dias as _DI
 
-def FILA(nom, est, pro, accs, doc=None, docn=None, extra=None, nota=None):
+def RAD(slug):
+    r = _PAN.get(slug)
+    if not r: return ""
+    h = r.get('handicap')
+    tramo = (("%s · puntaje %s/100" % (h['tramo'], h['total'])) if h
+             else ("Informe de cierre" if r.get('modo') == 'cierre' else "Sin puntaje todavía"))
+    d = _DI.calcular(slug, [])
+    donde = tramo + (". Día %d de los noventa." % d['d'] if d.get('d') else ". Sin fecha cargada.")
+    return ('<div class="rad">'
+            f'<div><div class="k">El cuello</div><div class="v">{esc(r.get("cuello") or "—")}</div></div>'
+            f'<div><div class="k">La métrica</div><div class="v">{esc(r.get("metrica") or "—")}</div></div>'
+            f'<div><div class="k">Dónde está</div><div class="v">{esc(donde)}</div></div></div>')
+
+def FILA(nom, est, pro, accs, doc=None, docn=None, extra=None, nota=None, slug=None):
+    rad = RAD(slug) if slug else ""
     b = ""
     if doc and doc.endswith(".pdf"):
         b = ('<div class="btns">'
@@ -56,7 +81,7 @@ def FILA(nom, est, pro, accs, doc=None, docn=None, extra=None, nota=None):
         li = "".join(f'<li>{a}</li>' for a in accs)
         return (f'<div class="fila"><div class="top"><div class="nom">{esc(nom)}</div>'
                 f'<div class="est">{est}</div></div>'
-                f'<div class="pro">{pro}</div><ul class="acc">{li}</ul>{b}</div>')
+                f'<div class="pro">{pro}</div>{rad}<ul class="acc">{li}</ul>{b}</div>')
     if doc:
         b = ('<div class="btns">'
              f'<button class="boton lleno" onclick="ver(\'{doc}\',\'{esc(nom)}\')">Ver el documento</button>'
@@ -71,7 +96,7 @@ def FILA(nom, est, pro, accs, doc=None, docn=None, extra=None, nota=None):
     li = "".join(f'<li>{a}</li>' for a in accs)
     return (f'<div class="fila"><div class="top"><div class="nom">{esc(nom)}</div>'
             f'<div class="est">{est}</div></div>'
-            f'<div class="pro">{pro}</div><ul class="acc">{li}</ul>{b}</div>')
+            f'<div class="pro">{pro}</div>{rad}<ul class="acc">{li}</ul>{b}</div>')
 
 def LISTA(filas): return '<div class="cli">' + "".join(filas) + '</div>'
 
@@ -82,7 +107,7 @@ def _fila(f):
     ex  = f.get('extra')
     if ex: ex = ['docs/'+ex[0], ex[1], ex[2]]
     return FILA(f['nombre'], f['estado'], f['proyecto'], f['accionables'],
-                doc, f.get('docn'), ex, f.get('nota'))
+                doc, f.get('docn'), ex, f.get('nota'), f.get('slug'))
 
 _S = [f for f in ENT['filas'] if ('Sign off' in f['estado'] or 'Upselling' in f['estado'])]
 _C = [f for f in ENT['filas'] if f not in _S]
@@ -93,8 +118,9 @@ CURSO   = [_fila(f) for f in _C]
 
 partes = []
 partes.append(S("00","Qué es esta página",
-  P("Acá está el repaso de los veintidós clientes de Founders con el documento que le corresponde a cada uno "
-    "y lo que hay que hacer con él. Sale de la revisión del 2 de septiembre y está actualizada con todo lo que "
+  P("Acá está lo que ejecuta el CSM con cada uno de los veintidós clientes de Founders: el documento que le "
+    "corresponde, qué hacer con él y qué coordinar. Arriba de cada lista va el resumen de su radiografía —el cuello, "
+    "la métrica y dónde está— para ubicarse sin abrir el documento. Sale de la revisión del 2 de septiembre y está actualizada con todo lo que "
     "pasó hasta hoy: los uno a uno de Facu, las grupales de Juana y de Fede, y las llamadas de la semana pasada.") +
   P("Cada cliente tiene dos botones. <b>Ver el documento</b> lo abre acá adentro para leerlo. "
     "<b>Descargar</b> baja el archivo a la computadora: es un HTML que se abre en el navegador, se scrollea "
@@ -130,7 +156,7 @@ HTML = f"""<title>Handoff para Aye</title>
 <style>{CSS}</style>
 <div class="hoja">
 <div class="caja">Cáscara Founders · para Aye</div>
-<h1>Los veintidós clientes,<br>con su documento y su accionable</h1>
+<h1>Accionables CSM:<br>los veintidós clientes, uno por uno</h1>
 <p class="bajada">Repaso completo del programa: quién cierra, quién sigue, qué documento le corresponde a cada uno
 y qué hay que hacer con él esta semana.</p>
 <div class="tira">
