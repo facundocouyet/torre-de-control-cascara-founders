@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import json,os
-B=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # la raíz del repo
+B=os.path.dirname(os.path.abspath(__file__))
 J=open(B+'/contenido/app-data.json',encoding='utf-8').read()
 
 CSS = r'''
@@ -46,6 +46,106 @@ a{color:inherit;text-decoration:none}
 .caja{display:inline-block;border:1px solid var(--gris2);padding:6px 13px;
   font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--gris)}
 .et{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gris)}
+
+/* ---------- migas: siempre se puede volver ---------- */
+.migas{display:flex;align-items:center;gap:12px;padding:26px 0 0;flex-wrap:wrap;
+  font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gris2)}
+.migas button{display:inline-flex;align-items:center;gap:10px;color:var(--gris);
+  border:1px solid var(--tiza);padding:9px 14px;line-height:1}
+.migas button:hover{color:var(--tinta);border-color:var(--tinta)}
+.migas .aca{color:var(--tinta)}
+.migas .sep{color:var(--gris2)}
+@media (max-width:720px){ .migas{padding-top:16px;gap:8px} .migas button{padding:8px 11px;letter-spacing:.12em} }
+
+/* ---------- home de tarjetas ---------- */
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--tiza);
+  border:1px solid var(--tiza);margin-top:48px}
+.cards > button{background:var(--papel);padding:34px 30px 30px;display:flex;flex-direction:column;
+  min-height:290px;text-align:left;transition:background .12s}
+.cards > button:hover{background:var(--papel2)}
+.cards .cn{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);
+  font-variant-numeric:tabular-nums}
+.cards .ct{font-size:34px;font-weight:800;letter-spacing:-.036em;line-height:1.04;margin-top:16px}
+.cards .cx{font-size:17px;line-height:1.5;color:var(--gris);margin-top:14px;max-width:34ch;flex:1}
+.cards .cd{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:22px;
+  padding-top:18px;border-top:1px solid var(--tiza)}
+.cards .cd div b{display:block;font-size:27px;font-weight:800;letter-spacing:-.045em;line-height:1;
+  font-variant-numeric:tabular-nums}
+.cards .cd div b.alerta{color:var(--rojo)}
+.cards .cd div span{display:block;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gris2);margin-top:8px}
+.cards .cf{margin-top:20px;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--gris);display:flex;align-items:center;gap:11px}
+.cards > button:hover .cf{color:var(--tinta)}
+@media (max-width:980px){ .cards{grid-template-columns:1fr} .cards > button{min-height:0} }
+
+/* conmutador interno de una sección */
+.conm{display:flex;border:1px solid var(--tiza);margin-top:34px;width:fit-content;max-width:100%;
+  flex-wrap:wrap}
+.conm button{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;padding:12px 18px;
+  color:var(--gris);border-right:1px solid var(--tiza);white-space:nowrap}
+.conm button:last-child{border-right:0}
+.conm button[aria-pressed="true"]{background:var(--tinta);color:var(--papel)}
+.pane{display:none}.pane.on{display:block}
+.pane > .hoja{padding:0;max-width:none}
+.pane > .hoja .encab{padding-top:34px}
+
+/* accionables del founder */
+.fdr{border-bottom:1px solid var(--tiza);padding:22px 0;display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:20px 40px;align-items:start}
+.fdr .iz .nm{font-size:22px;font-weight:700;letter-spacing:-.024em;line-height:1.14}
+.fdr .iz .mt{font-size:15px;color:var(--gris);margin-top:8px;line-height:1.45;max-width:38ch}
+.fdr .iz .or{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gris2);
+  margin-top:10px;display:inline-block;border:1px solid var(--tiza);padding:4px 9px}
+.fdr ul{margin:0;padding:0;list-style:none}
+.fdr li{font-size:17px;line-height:1.5;padding:7px 0 7px 25px;position:relative}
+.fdr li:before{content:"";position:absolute;left:2px;top:15px;width:9px;height:1.5px;background:var(--tinta)}
+@media (max-width:820px){ .fdr{grid-template-columns:1fr;gap:12px} }
+
+/* ---------- entregas: el handoff, adentro de la torre ---------- */
+.eng{margin-top:34px}
+.eng .gr{margin-top:46px}
+.eng .gr > .et{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);
+  border-bottom:2px solid var(--tinta);padding-bottom:12px;display:flex;
+  justify-content:space-between;align-items:baseline;gap:16px}
+.eng .f{border-bottom:1px solid var(--tiza);padding:24px 0}
+.eng .top{display:flex;justify-content:space-between;align-items:baseline;gap:18px;flex-wrap:wrap}
+.eng .nm{font-size:23px;font-weight:700;letter-spacing:-.024em;line-height:1.12}
+.eng .es{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--gris2);
+  white-space:nowrap;font-variant-numeric:tabular-nums}
+.eng .pr{font-size:15.5px;color:var(--gris);margin-top:7px;max-width:70ch;line-height:1.5}
+.eng ul{margin:15px 0 0;padding:0;list-style:none}
+.eng ul li{font-size:16.5px;line-height:1.52;padding:6px 0 6px 25px;position:relative;max-width:70ch}
+.eng ul li:before{content:"";position:absolute;left:2px;top:14px;width:9px;height:1.5px;background:var(--tinta)}
+.eng ul li b{font-weight:700}
+.eng .bt{margin-top:16px;display:flex;gap:9px;flex-wrap:wrap}
+.eng .bt button{appearance:none;border:1px solid var(--tinta);background:transparent;color:var(--tinta);
+  font-family:inherit;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  padding:10px 15px;cursor:pointer;line-height:1}
+.eng .bt button:hover{background:var(--tinta);color:var(--papel)}
+.eng .bt button.ll{background:var(--tinta);color:var(--papel)}
+.eng .bt button.ll:hover{opacity:.86}
+.eng .sd{font-size:13.5px;color:var(--gris2);margin-top:14px;font-style:italic}
+.eng .ups{margin-top:16px;border:1px solid var(--tinta);padding:13px 16px;font-size:15.5px;
+  line-height:1.5;max-width:66ch}
+.eng .ups .k{display:block;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gris2);margin-bottom:7px}
+.eng .nota{font-size:15.5px;line-height:1.55;color:var(--gris);margin-top:16px;max-width:72ch}
+.eng .nota b{color:var(--tinta);font-weight:700}
+.regla{margin-top:30px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;
+  background:var(--tiza);border:1px solid var(--tiza)}
+.regla > div{background:var(--papel);padding:19px 18px;font-size:15.5px;line-height:1.5}
+.regla > div b{font-weight:700}
+.regla .k{font-size:10px;letter-spacing:.2em;color:var(--gris2);display:block;margin-bottom:9px;
+  font-variant-numeric:tabular-nums}
+@media (max-width:820px){ .regla{grid-template-columns:1fr} }
+.aye{margin-top:30px}
+.aye .q{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);
+  border-top:1px solid var(--tiza);padding-top:15px;margin-top:20px}
+.aye .a{font-size:16.5px;line-height:1.55;margin-top:9px;max-width:72ch;color:var(--gris)}
+.crit{margin-top:34px;background:var(--tinta-deep);color:var(--papel2);padding:30px 28px}
+.crit .k{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--gris2)}
+.crit p{margin:12px 0 0;font-size:17.5px;line-height:1.56;max-width:74ch;color:var(--papel2)}
 
 /* ---------- riel de navegación (escritorio) ---------- */
 .riel{position:fixed;left:0;top:0;bottom:0;width:var(--rail);background:#0A0A0C;
@@ -182,7 +282,7 @@ h2.bl em{font-style:italic;font-family:var(--edit);text-transform:none;letter-sp
 .bloque .grande{font-size:clamp(24px,2.4vw,32px);font-weight:700;letter-spacing:-.028em;
   line-height:1.22;max-width:26ch;margin-top:14px}
 
-/* lateral del detalle: el puntaje y los días */
+/* lateral del detalle: el handicap y los días */
 .aside{position:sticky;top:0;padding-top:120px}
 .hcard{border-top:1px solid var(--tinta);padding-top:22px}
 .hcard .t{display:flex;align-items:baseline;gap:12px}
@@ -323,6 +423,7 @@ h2.bl em{font-style:italic;font-family:var(--edit);text-transform:none;letter-sp
 
 /* ---------- el visor de cartas ---------- */
 #visor{position:fixed;inset:0;z-index:60;background:var(--papel);display:flex;flex-direction:column}
+#visor[hidden]{display:none}
 #visor .vbar{display:flex;align-items:center;gap:18px;padding:14px 22px;background:#0A0A0C;color:#FBFAF8;
   border-bottom:1px solid rgba(236,234,228,.14)}
 #visor .vbar *{color:inherit}
@@ -403,7 +504,7 @@ body.viendo{overflow:hidden}
     justify-content:center}
   .topmov .atras i{width:9px;height:9px;border-left:1.5px solid var(--tinta);
     border-bottom:1.5px solid var(--tinta);transform:rotate(45deg);display:block}
-  body.detalle .topmov .atras{display:flex}
+  body.detalle .topmov .atras,body.dentro .topmov .atras{display:flex}
   .encab{padding-top:30px;flex-direction:column;gap:14px}
   .sello{display:none}
   h1.tit{font-size:clamp(30px,8vw,40px);margin-top:16px}
@@ -443,15 +544,7 @@ var D=__DATA__;
 var $=function(s){return document.querySelector(s)};
 var esc=function(s){var d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML};
 var SEC=[['hoy','Hoy'],['clientes','Clientes'],['programa','Programa'],['material','Material']];
-var TIT={hoy:'Hoy',clientes:'Los clientes',programa:'El programa',material:'El material'};
-var C=D.clientes, con=C.filter(function(c){return c.h});
-var prom=Math.round(con.reduce(function(a,c){return a+c.h.g},0)/con.length);
-var frenados=con.filter(function(c){return c.h.ri==='rojo'});
-var cierre=C.filter(function(c){return c.modo==='cierre'});
-var vencidos=C.filter(function(c){return c.dia&&c.dia>90});
-var promDias=Math.round(C.filter(function(c){return c.dia}).reduce(function(a,c){return a+c.dia},0)/C.filter(function(c){return c.dia}).length);
-var filtro=null,busca='',tab='hoy';
-var ORD=[];   // el orden que se está viendo, para moverse con las flechas
+var TIT={home:'Home',clientes:'Los clientes',accionables:'Los accionables',biblioteca:'La biblioteca'};
 /* el orden de la lista: por el general, por cada habilidad, por días o por nombre, en los dos sentidos */
 var CRIT=[['g','Puntaje general']].concat(D.ejes.map(function(n,i){return ['e'+i,n]}))
   .concat([['dia','Días con nosotros'],['nombre','Nombre']]);
@@ -474,10 +567,29 @@ function ordenar(l){
 function sentido(){
   return ORDEN.k==='nombre'?(ORDEN.dir>0?'A a Z':'Z a A'):(ORDEN.dir>0?'Menor a mayor':'Mayor a menor');
 }
+var C=D.clientes, con=C.filter(function(c){return c.h});
+var prom=Math.round(con.reduce(function(a,c){return a+c.h.g},0)/con.length);
+var frenados=con.filter(function(c){return c.h.ri==='rojo'});
+var cierre=C.filter(function(c){return c.modo==='cierre'});
+var vencidos=C.filter(function(c){return c.dia&&c.dia>90});
+var promDias=Math.round(C.filter(function(c){return c.dia}).reduce(function(a,c){return a+c.dia},0)/C.filter(function(c){return c.dia}).length);
+var filtro=null,busca='',tab='home';
+var ORD=[];   // el orden que se está viendo, para moverse con las flechas
 
 function ritmo(h){return '<span class="ritmo '+h.ri+'"><i></i>'+esc(h.rt)+'</span>'}
+function migas(){
+  var ps=[].slice.call(arguments);
+  var h='<nav class="migas" aria-label="Dónde estás">'+
+    '<button onclick="ir(\'home\')"><span class="pf izq"></span>Home</button>';
+  ps.forEach(function(p,i){
+    h+='<span class="sep">/</span>';
+    h+=(p[1]? '<button onclick="'+p[1]+'">'+esc(p[0])+'</button>'
+             : '<span class="aca">'+esc(p[0])+'</span>');
+  });
+  return h+'</nav>';
+}
 function encab(et,tit,entrada,sello){
-  return '<div class="encab"><div><span class="caja">'+esc(et)+'</span></div>'+
+  return '<div class="encab"><div>'+(et?'<span class="caja">'+esc(et)+'</span>':'')+'</div>'+
     (sello?'<div class="sello">'+sello+'</div>':'')+'</div>'+
     '<h1 class="tit">'+esc(tit)+'</h1>'+(entrada?'<p class="entrada">'+esc(entrada)+'</p>':'');
 }
@@ -493,11 +605,14 @@ function fila(c,i){
 }
 
 /* ---------------- HOY ---------------- */
-function vHoy(){
-  var at=con.slice().sort(function(a,b){return a.h.g-b.h.g}).slice(0,6);
+function vHome(){
+  var E=D.entregas, nEnt=E.filas.length;
+  var nAcc=C.reduce(function(a,c){return a+(c.ct?c.ct.length:0)},0);
+  var nCas=D.tareas.reduce(function(a,t){return a+t.items.length},0);
+  var nCartas=D.modulos.reduce(function(a,m){return a+m.items.length},0);
   var h='<div class="hoja">'+encab('Cáscara Founders · '+D.fecha,
-    'La camada, de menor a mayor puntaje',
-    'Arriba está quien más atención necesita. El día de cada uno dice dónde está parado en los noventa.',
+    'La torre de control',
+    'Tres lugares: en quién está parado cada cliente, qué hay que hacer esta semana, y todo el programa para repasarlo.',
     'Torre de control<br>'+C.length+' clientes<br>'+D.fecha);
   h+='<div class="banda">'+
     '<button onclick="ir(\'clientes\')"><b class="num">'+C.length+'</b><span>Clientes</span></button>'+
@@ -505,33 +620,38 @@ function vHoy(){
     '<button onclick="ir(\'clientes\',\'vencido\')"><b class="num'+(vencidos.length?' alerta':'')+'">'+vencidos.length+'</b><span>Pasaron los 90 días</span></button>'+
     '<button onclick="ir(\'clientes\',\'rojo\')"><b class="num'+(frenados.length?' alerta':'')+'">'+frenados.length+'</b><span>Frenados</span></button>'+
   '</div>';
-  h+='<h2 class="bl">Necesita atención <em>los seis puntajes más bajos</em></h2><div>';
-  at.forEach(function(c,i){h+=fila(c,i)});
-  h+='</div><a class="boton" onclick="ir(\'clientes\')">Ver los '+C.length+'<span class="fl"></span></a>';
-  h+='<h2 class="bl">Le toca a <em>los accionables de septiembre de nuestro lado</em></h2><div class="duenos">';
-  D.tareas.forEach(function(t){
-    h+='<div class="duen"><div class="dh"><b>'+esc(t.d)+'</b><span class="num">'+t.items.length+'</span></div><ul>';
-    t.items.slice(0,3).forEach(function(i){h+='<li><b>'+esc(i.c)+'</b>'+esc(i.t)+'</li>'});
-    h+='</ul>'+(t.items.length>3?'<span class="mas">y '+(t.items.length-3)+' más</span>':'')+
-      '<div><button class="boton" style="margin-top:16px;padding:10px 15px;font-size:10px" onclick="verDueno(\''+esc(t.d)+'\')">Ver todos<span class="fl"></span></button></div></div>';});
-  h+='</div></div>';
-  $('#v-hoy').innerHTML=h;
+  h+='<div class="cards">'+
+   tarjeta('01','Clientes','Uno por uno: en qué está parado, cuál es su cuello, qué mide y en qué día de los noventa va. Adentro de cada uno está su documento.',
+     [[C.length,'En la camada'],[cierre.length,'En cierre'],[frenados.length,'Frenados',frenados.length>0]],'Ver la camada',"ir('clientes')")+
+   tarjeta('02','Accionables','Lo que hay que hacer esta semana: qué documento sale para cada cliente, qué le toca ejecutar a cada founder y qué queda de nuestro lado.',
+     [[nEnt,'Entregas'],[nAcc,'Del founder'],[nCas,'De Cáscara']],'Ver los accionables',"ir('accionables')")+
+   tarjeta('03','Biblioteca','El programa entero explicado —el recorrido, las orientaciones, las grupales y los mentores— y el mapa de cartas con su plantilla.',
+     [[D.proceso.length,'Etapas'],[D.orientaciones.length,'Orientaciones'],[nCartas,'Cartas']],'Abrir la biblioteca',"ir('biblioteca')")+
+  '</div></div>';
+  $('#v-home').innerHTML=h;
+}
+function tarjeta(n,tit,txt,datos,pie,accion){
+  return '<button onclick="'+accion+'"><span class="cn num">'+n+'</span>'+
+    '<span class="ct">'+esc(tit)+'</span><span class="cx">'+esc(txt)+'</span>'+
+    '<span class="cd">'+datos.map(function(d){
+       return '<div><b class="num'+(d[2]?' alerta':'')+'">'+d[0]+'</b><span>'+esc(d[1])+'</span></div>'}).join('')+
+    '</span><span class="cf">'+esc(pie)+'<i class="fl"></i></span></button>';
 }
 function verDueno(d){
   var t=null; D.tareas.forEach(function(x){if(x.d===d)t=x}); if(!t)return;
-  var h='<div class="hoja">'+encab('Accionables de Cáscara · septiembre',d,
+  var h='<div class="hoja">'+migas(['Accionables',"ir('accionables')"],[d])+encab('Accionables de Cáscara · septiembre',d,
     t.items.length+' accionables de su lado, sacados de las fichas de los clientes.','');
   h+='<ul class="check" style="margin-top:40px">';
   t.items.forEach(function(i){h+='<li><span><b>'+esc(i.c)+'</b>'+esc(i.t)+'</span></li>'});
   h+='</ul></div>';
-  $('#v-detalle').innerHTML=h; verDetalle(d);
+  $('#v-detalle').innerHTML=h; verDetalle(d,'accionables');
 }
 
 /* ---------------- CLIENTES ---------------- */
 var F=[['todos','Todos'],['Conseguir','Conseguir'],['Sostener','Sostener'],['Entregar','Entregar'],
        ['cierre','En cierre'],['vencido','Pasaron 90'],['rojo','Frenados']];
 function vClientes(){
-  var h='<div class="hoja">'+encab('La camada','Los '+C.length+' clientes','',
+  var h='<div class="hoja">'+migas(['Clientes'])+encab('La camada','Los '+C.length+' clientes','',
     C.length+' clientes<br>día promedio: '+promDias);
   h+='<div class="barra"><span class="busca"><input id="q" type="search" placeholder="Buscar cliente o proyecto" value="'+esc(busca)+'" aria-label="Buscar"></span><span class="filtros">';
   F.forEach(function(f){h+='<button data-f="'+f[0]+'" aria-pressed="'+((filtro||'todos')===f[0])+'">'+f[1]+'</button>'});
@@ -542,13 +662,13 @@ function vClientes(){
      '<p class="vacio" id="vacio" hidden>Nada con ese filtro.</p></div>';
   $('#v-clientes').innerHTML=h;
   $('#q').addEventListener('input',function(){busca=this.value;pinta()});
+  $('#ord').addEventListener('change',function(){ORDEN.k=this.value;pinta()});
+  $('#dir').addEventListener('click',function(){ORDEN.dir=-ORDEN.dir;pinta()});
   $('#v-clientes').querySelectorAll('.filtros button').forEach(function(b){
     b.addEventListener('click',function(){
       filtro=b.dataset.f==='todos'?null:b.dataset.f;
       $('#v-clientes').querySelectorAll('.filtros button').forEach(function(o){o.setAttribute('aria-pressed',String(o===b))});
       pinta();});});
-  $('#ord').addEventListener('change',function(){ORDEN.k=this.value;pinta()});
-  $('#dir').addEventListener('click',function(){ORDEN.dir=-ORDEN.dir;pinta()});
   pinta();
 }
 function pinta(){
@@ -582,8 +702,9 @@ function abrir(slug){
   var pos=ORD.indexOf(slug);
   var ant=pos>0?nombreDe(ORD[pos-1]):null, sig=pos>-1&&pos<ORD.length-1?nombreDe(ORD[pos+1]):null;
   var h='<div class="hoja">'+
+    migas(['Clientes',"ir('clientes')"],[c.nombre])+
     '<div class="dtnav">'+
-      '<button onclick="ir(\'clientes\')"><span class="pf izq"></span>Volver a clientes</button>'+
+      '<span></span>'+
       '<div class="lados">'+
         '<button '+(ant?'onclick="saltar(-1)"':'disabled')+'><span class="pf izq"></span>'+
           '<span class="nom">'+(ant?esc(ant):'')+'</span></button>'+
@@ -626,10 +747,14 @@ function abrir(slug){
   h+='</aside></div></div>';
   $('#v-detalle').innerHTML=h; verDetalle(c.nombre); location.hash='#c/'+slug;
 }
-function verDetalle(t){
+function verDetalle(t,seccion){
   document.querySelectorAll('.vista').forEach(function(v){v.classList.remove('on')});
   $('#v-detalle').classList.add('on'); $('#tmov').textContent=t;
   document.body.classList.add('detalle'); window.scrollTo(0,0);
+  /* el riel marca de dónde viene lo que estás mirando */
+  var sec=seccion||'clientes';
+  document.querySelectorAll('.riel nav button').forEach(function(b){
+    b.setAttribute('aria-selected',String(b.dataset.t===sec))});
 }
 
 /* ---------------- PROGRAMA ---------------- */
@@ -647,7 +772,7 @@ function capas(i){
   return h?'<details class="capas"><summary>Ver el módulo completo</summary>'+h+'</details>':'';
 }
 function vPrograma(){
-  var h='<div class="hoja">'+encab('El programa','Noventa días, diez uno a uno y trece semanas de grupales','',
+  var h='<div class="hoja">'+encab('','Noventa días, diez uno a uno y trece semanas de grupales','',
     'Cáscara diseña<br>el founder ejecuta');
   h+='<h2 class="bl">El recorrido <em>'+D.proceso.length+' etapas, en el orden real</em></h2><div>';
   D.proceso.forEach(function(p){h+=ac(p.n,p.c,p.t,null,'<p>'+esc(p.x)+'</p>')});
@@ -667,7 +792,7 @@ function vPrograma(){
   h+='</div><h2 class="bl">Los mentores <em>qué traerle y qué no</em></h2><div>';
   D.mentores.forEach(function(m){h+=ac('',m.r,m.n,null,'<p><b>Sí:</b> '+esc(m.si)+'</p><p><b>No:</b> '+esc(m.no)+'</p>')});
   h+='</div><a class="boton" href="programa.html">Versión larga, para compartir<span class="fl"></span></a></div>';
-  $('#v-programa').innerHTML=h;
+  $('#p-programa').innerHTML=h;
 }
 
 /* ---------------- MATERIAL ---------------- */
@@ -676,7 +801,7 @@ function vMaterial(){
   var esc_=D.modulos.reduce(function(a,m){return a+m.items.filter(function(i){return i.e==='existe'||i.e==='escrito'}).length},0);
   var par=D.modulos.reduce(function(a,m){return a+m.items.filter(function(i){return i.e==='parcial'}).length},0);
   var fal=tot-esc_-par;
-  var h='<div class="hoja">'+encab('El material','El mapa de cartas',
+  var h='<div class="hoja">'+encab('','El mapa de cartas',
     'Cada carta es un módulo: qué resuelve, cuándo se asigna, los pasos, qué hay que completar y qué herramientas implementar. Se abre, se lee y se manda.',
     'Cáscara diseña<br>el founder ejecuta');
   h+='<div class="banda">'+
@@ -703,7 +828,7 @@ function vMaterial(){
   h+='</div><h2 class="bl">Lo que falta decidir o escribir <em>'+D.falta.length+'</em></h2><ul class="check">';
   D.falta.forEach(function(f){h+='<li><span>'+esc(f)+'</span></li>'});
   h+='</ul><a class="boton" href="materiales.html">Versión larga<span class="fl"></span></a></div>';
-  $('#v-material').innerHTML=h;
+  $('#p-material').innerHTML=h;
   pintaMapa();
   $('#bcarta').addEventListener('input',function(e){bcarta=e.target.value;pintaMapa()});
   $('#fejes').addEventListener('click',function(e){
@@ -737,6 +862,7 @@ function carta(i){
     lista('Los pasos',i.p,'ol')+lista('Qué hay que completar',i.cc,'ul')+lista('Qué herramientas implementar',i.hh,'ul')+
     '<div class="acc">'+
       '<button class="boton tinta" onclick="verCarta(\''+esc(i.id)+'\',\''+esc(i.t).replace(/'/g,"&#39;")+'\')">Abrir la carta<span class="fl"></span></button>'+
+      (i.pl?'<button class="boton" onclick="verPlantilla(\''+esc(i.id)+'\',\''+esc(i.t).replace(/'/g,"&#39;")+'\')">Abrir la plantilla<span class="fl"></span></button>':'')+
       '<button class="boton" onclick="abrirEnvio(\''+esc(i.id)+'\')">Preparar el envío<span class="fl"></span></button>'+
     '</div>'+
     '<div class="envio" id="env-'+esc(i.id)+'" hidden></div>';
@@ -749,22 +875,29 @@ function lista(t,xs,tag){
 }
 
 /* ---------------- el visor de cartas ---------------- */
-function verCarta(id,titulo){
+function verCarta(id,titulo){ abrirVisor('cartas/'+id+'.html', titulo, 'carta-'+id+'.html') }
+function verPlantilla(id,titulo){ abrirVisor('plantillas/'+id+'.html', 'Plantilla · '+(titulo||''), 'plantilla-'+id+'.html') }
+function abrirVisor(ruta,titulo,nombre){
   var v=$('#visor');
   v.querySelector('.vtit').textContent=titulo||'';
-  v.querySelector('.vbaja').onclick=function(){guardarCarta(id,titulo)};
-  v.querySelector('iframe').src='cartas/'+id+'.html';
+  v.querySelector('.vbaja').onclick=function(){guardarCarta(ruta,nombre)};
+  v.querySelector('iframe').src=ruta;
   v.hidden=false; document.body.classList.add('viendo');
 }
-async function guardarCarta(id,titulo){
+async function guardarCarta(ruta,nombre){
   var bt=$('#visor .vbaja'), antes=bt.textContent;
   bt.textContent='Guardando…';
   try{
-    var r=await fetch('cartas/'+id+'.html'); if(!r.ok) throw 0;
-    var html=await r.text();
-    var dl=null; try{ dl=await claude.use('downloads'); }catch(e){}
-    if(!dl){ bt.textContent='Acá no se puede bajar'; setTimeout(function(){bt.textContent=antes},2600); return; }
-    await dl.save({filename:'carta-'+id+'.html',data:html});
+    var r=await fetch(ruta); if(!r.ok) throw 0;
+    var html=await r.blob();
+    /* adentro del artifact la descarga pasa por la capability; en un sitio normal, por el navegador */
+    var dl=null; try{ if(window.claude&&claude.use) dl=await claude.use('downloads'); }catch(e){}
+    if(dl){ await dl.save({filename:nombre,data:html}); }
+    else{
+      var u=URL.createObjectURL(html), a=document.createElement('a');
+      a.href=u; a.download=nombre; document.body.appendChild(a); a.click();
+      a.remove(); setTimeout(function(){URL.revokeObjectURL(u)},4000);
+    }
     bt.textContent='Listo';
   }catch(e){
     bt.textContent=(e&&e.code==='declined')?'Cancelado':'No se pudo';
@@ -859,6 +992,132 @@ async function bajarCarta(id,caja,sel){
   }
 }
 
+/* ---------------- entregas: el handoff, adentro de la torre ---------------- */
+function engFila(f){
+  var b='';
+  if(f.doc){
+    b='<div class="bt"><button class="ll" onclick="verDoc(\''+f.doc+'\',\''+esc(f.nombre).replace(/'/g,"")+'\')">Ver el documento</button>'+
+      '<button onclick="verDoc(\''+f.doc+'\',\''+esc(f.nombre).replace(/'/g,"")+'\',1)">Descargar</button>';
+    if(f.extra) b+='<button class="ll" onclick="verDoc(\''+f.extra[0]+'\',\''+esc(f.extra[2]).replace(/'/g,"")+'\')">'+esc(f.extra[2])+'</button>';
+    b+='</div>';
+  } else if(f.nota){ b='<div class="sd">'+f.nota+'</div>' }
+  if(f.upselling) b+='<div class="ups"><span class="k">Upselling</span>'+f.upselling+'</div>';
+  var li=f.accionables.map(function(a){return '<li>'+a+'</li>'}).join('');
+  return '<div class="f"><div class="top"><div class="nm">'+esc(f.nombre)+'</div>'+
+    '<div class="es">'+esc(f.estado)+'</div></div>'+
+    '<div class="pr">'+f.proyecto+'</div><ul>'+li+'</ul>'+b+'</div>';
+}
+function verDoc(ruta,titulo,bajar){
+  var r='clientes/'+ruta;
+  if(bajar) return guardarCarta(r, ruta);
+  abrirVisor(r, titulo, ruta);
+}
+function paneEntrega(){
+  var E=D.entregas, F=E.filas;
+  var sign=F.filter(function(f){return /Sign off|Upselling/.test(f.estado)});
+  var curso=F.filter(function(f){return sign.indexOf(f)<0});
+  var h='<div class="hoja">'+
+    '<p class="entrada" style="margin-top:34px">Qué documento le corresponde a cada cliente y qué hay que hacer '+
+    'con él. Se actualiza con los clientes: cuando cambia un caso, cambia acá.</p>';
+  h+='<div class="regla">'+E.intro.map(function(x,i){
+      return '<div><span class="k">'+('0'+(i+1)).slice(-2)+'</span>'+x+'</div>'}).join('')+'</div>';
+
+  h+='<div class="eng"><div class="gr"><div class="et"><span>Cómo funciona un sign off</span>'+
+     '<span class="num">'+sign.length+' clientes</span></div>'+
+     '<ul>'+E.regla_signoff.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></div>';
+
+  h+='<div class="gr"><div class="et"><span>Sign off</span><span class="num">'+sign.length+'</span></div>'+
+     sign.map(engFila).join('')+'</div>';
+  h+='<div class="gr"><div class="et"><span>En curso</span><span class="num">'+curso.length+'</span></div>'+
+     curso.map(engFila).join('')+'</div>';
+
+  h+='<div class="gr"><div class="et"><span>Lo que falta cargar</span><span class="num">'+E.falta.length+'</span></div>'+
+     '<ul>'+E.falta.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></div>';
+
+  h+='<div class="gr"><div class="et"><span>Lo que le toca a Aye</span><span class="num">'+E.aye.length+'</span></div>'+
+     '<div class="aye">'+E.aye.map(function(x){
+        return '<div class="q">'+esc(x[0])+'</div><div class="a">'+x[1]+'</div>'}).join('')+'</div></div>';
+
+  h+='</div><div class="crit"><div class="k">Un solo criterio</div><p>'+E.criterio+'</p></div>';
+  return h+'</div>';
+}
+
+function paneFounders(){
+  var l=C.filter(function(c){return c.ct&&c.ct.length});
+  var h='<div class="hoja">'+
+    '<p class="entrada" style="margin-top:34px">Lo que cada founder tiene que ejecutar. Sale del roadmap de su '+
+    'propio documento, así que es lo mismo que él está leyendo.</p>'+
+    '<div style="margin-top:34px;border-top:2px solid var(--tinta)">';
+  ordenar(l);
+  l.forEach(function(c){
+    h+='<div class="fdr"><div class="iz"><div class="nm">'+esc(c.nombre)+'</div>'+
+       '<div class="mt">'+esc(c.metrica||'')+'</div>'+
+       '<span class="or">'+esc(c.ori)+(c.modo==='cierre'?' · cierre':'')+'</span></div>'+
+       '<ul>'+c.ct.map(function(t){return '<li>'+esc(t)+'</li>'}).join('')+'</ul></div>';
+  });
+  return h+'</div></div>';
+}
+function paneCascara(){
+  var h='<div class="hoja">'+
+    '<p class="entrada" style="margin-top:34px">Lo que queda de nuestro lado, por dueño. Sale de las fichas de los '+
+    'clientes: cada línea es un compromiso que tomamos con alguien.</p><div class="duenos" style="margin-top:34px">';
+  D.tareas.forEach(function(t){
+    h+='<div class="duen"><div class="dh"><b>'+esc(t.d)+'</b><span class="num">'+t.items.length+'</span></div><ul>';
+    t.items.forEach(function(i){h+='<li><b>'+esc(i.c)+'</b>'+esc(i.t)+'</li>'});
+    h+='</ul></div>';});
+  return h+'</div></div>';
+}
+var PANE_ACC='entrega';
+function vAccionables(){
+  var E=D.entregas;
+  var nEnt=E.filas.length;
+  var nAcc=C.reduce(function(a,c){return a+(c.ct?c.ct.length:0)},0);
+  var nCas=D.tareas.reduce(function(a,t){return a+t.items.length},0);
+  var h='<div class="hoja">'+migas(['Accionables'])+encab('Accionables','Lo que hay que hacer','',
+    'Se actualiza con los clientes');
+  h+='<div class="conm" role="group" aria-label="Qué accionables">'+
+    '<button data-p="entrega">La entrega · '+nEnt+'</button>'+
+    '<button data-p="founders">Cada founder · '+nAcc+'</button>'+
+    '<button data-p="cascara">De nuestro lado · '+nCas+'</button></div>';
+  h+='<div class="pane" id="p-entrega">'+paneEntrega()+'</div>'+
+     '<div class="pane" id="p-founders">'+paneFounders()+'</div>'+
+     '<div class="pane" id="p-cascara">'+paneCascara()+'</div>';
+  h+='</div>';
+  $('#v-accionables').innerHTML=h;
+  $('#v-accionables').querySelectorAll('.conm button').forEach(function(b){
+    b.addEventListener('click',function(){PANE_ACC=b.dataset.p;pintaAcc()})});
+  pintaAcc();
+}
+function pintaAcc(){
+  ['entrega','founders','cascara'].forEach(function(k){
+    var el=document.getElementById('p-'+k); if(el) el.classList.toggle('on',k===PANE_ACC)});
+  $('#v-accionables').querySelectorAll('.conm button').forEach(function(b){
+    b.setAttribute('aria-pressed',String(b.dataset.p===PANE_ACC))});
+}
+
+/* ---------------- BIBLIOTECA ---------------- */
+var PANE_BIB='programa';
+function vBiblioteca(){
+  var nCartas=D.modulos.reduce(function(a,m){return a+m.items.length},0);
+  var h='<div class="hoja">'+migas(['Biblioteca'])+encab('Biblioteca','El programa y el material','',
+    'Para repasarlo cuando haga falta');
+  h+='<div class="conm" role="group" aria-label="Qué parte de la biblioteca">'+
+    '<button data-p="programa">El programa</button>'+
+    '<button data-p="material">El material · '+nCartas+' cartas</button></div>';
+  h+='<div class="pane" id="p-programa"></div><div class="pane" id="p-material"></div></div>';
+  $('#v-biblioteca').innerHTML=h;
+  vPrograma(); vMaterial();
+  $('#v-biblioteca').querySelectorAll('.conm button').forEach(function(b){
+    b.addEventListener('click',function(){PANE_BIB=b.dataset.p;pintaBib()})});
+  pintaBib();
+}
+function pintaBib(){
+  ['programa','material'].forEach(function(k){
+    var el=document.getElementById('p-'+k); if(el) el.classList.toggle('on',k===PANE_BIB)});
+  $('#v-biblioteca').querySelectorAll('.conm button').forEach(function(b){
+    b.setAttribute('aria-pressed',String(b.dataset.p===PANE_BIB))});
+}
+
 /* ---------------- router ---------------- */
 function ir(t,f){
   tab=t;
@@ -867,12 +1126,14 @@ function ir(t,f){
   $('#v-'+t).classList.add('on');
   document.querySelectorAll('.riel nav button').forEach(function(b){b.setAttribute('aria-selected',String(b.dataset.t===t))});
   $('#tmov').textContent=TIT[t]; document.body.classList.remove('detalle');
+  document.body.classList.toggle('dentro', t!=='home');
   window.scrollTo(0,0);
   if(location.hash.indexOf('#c/')===0) history.replaceState(null,'','#'+t); else location.hash='#'+t;
 }
 document.querySelectorAll('.riel nav button').forEach(function(b){
   b.addEventListener('click',function(){ir(b.dataset.t)})});
-$('#atras').addEventListener('click',function(){ir(tab)});
+$('#atras').addEventListener('click',function(){
+  if(document.body.classList.contains('detalle')) ir(tab); else ir('home');});
 (function(){
   var b=$('#plegar');
   try{ if(localStorage.getItem('cf-riel')==='1') document.body.classList.add('plegado'); }catch(e){}
@@ -896,7 +1157,7 @@ document.addEventListener('keydown',function(e){
   else if(e.key==='ArrowLeft'){e.preventDefault();saltar(-1)}
   else if(e.key==='Escape'){e.preventDefault();ir(tab)}});
 $('#fmov').textContent=D.fecha;
-vHoy();vClientes();vPrograma();vMaterial();
+vHome();vClientes();vAccionables();vBiblioteca();
 if(location.hash.indexOf('#c/')===0) abrir(location.hash.slice(3));
 else if(location.hash&&TIT[location.hash.slice(1)]) ir(location.hash.slice(1));
 '''
@@ -906,7 +1167,7 @@ FECHA = json.loads(J)["fecha"]
 NAV="".join(
  '<button role="tab" data-t="%s" aria-selected="%s"><span class="n num">%s</span><span class="t">%s</span></button>'
  % (k, "true" if i==0 else "false", "0%d"%(i+1), n)
- for i,(k,n) in enumerate([('hoy','Hoy'),('clientes','Clientes'),('programa','Programa'),('material','Material')]))
+ for i,(k,n) in enumerate([('home','Home'),('clientes','Clientes'),('accionables','Accionables'),('biblioteca','Biblioteca')]))
 
 BODY = f'''<aside class="riel">
   <div class="marca"><span class="logo"><img class="abierto" src="assets/cascara-founders-blanco.png" alt="Cáscara Founders" width="121" height="50"><img class="plegado" src="assets/founders-f-blanco.png" alt="Cáscara Founders" width="28" height="34"><span class="bajada">Torre de control</span></span>
@@ -917,12 +1178,12 @@ BODY = f'''<aside class="riel">
 <main>
   <div class="topmov">
     <button class="atras" id="atras" aria-label="Volver"><i></i></button>
-    <b id="tmov">Hoy</b><span class="f" id="fmov"></span>
+    <b id="tmov">Home</b><span class="f" id="fmov"></span>
   </div>
-  <div class="vista on" id="v-hoy"></div>
+  <div class="vista on" id="v-home"></div>
   <div class="vista" id="v-clientes"></div>
-  <div class="vista" id="v-programa"></div>
-  <div class="vista" id="v-material"></div>
+  <div class="vista" id="v-accionables"></div>
+  <div class="vista" id="v-biblioteca"></div>
   <div class="vista" id="v-detalle"></div>
 </main>
 
@@ -946,5 +1207,5 @@ HTML = ('<!doctype html>\n<html lang="es"><head>\n<meta charset="utf-8">\n'
  '<meta name="apple-mobile-web-app-title" content="Founders">\n'
  '<style>' + CSS + '</style>\n</head><body>\n' + BODY +
  '\n<script>\n' + JS.replace('__DATA__', J) + '\n</script>\n</body></html>')
-open(B+'/index.html','w',encoding='utf-8').write(HTML)
+open(B+'/site/app.html','w',encoding='utf-8').write(HTML)
 print("app:",len(HTML))

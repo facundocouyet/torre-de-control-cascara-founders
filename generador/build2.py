@@ -3,8 +3,6 @@
 import json, os, glob, re, html as _h
 import build as B
 
-RAIZ=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # la raíz del repo
-
 INK,DEEP,PAPER,PAPER2 = B.INK,B.DEEP,B.PAPER,B.PAPER2
 GREY,LINE,LINEINK,SOFT = B.GREY,B.LINE,B.LINEINK,B.SOFT
 ROJO="#FE1414"
@@ -21,9 +19,11 @@ COMO_SUBE={
 }
 def cien(n): return n*20+10
 
-# el shell sale de build.py. Antes se leía de un archivo suelto en /tmp de la máquina donde
-# se generó; el módulo ya lo tiene y da el mismo resultado, verificado contra clientes/.
-SHELL_HEAD, SHELL_TAIL = B.SHELL_HEAD, B.SHELL_TAIL
+def SHELL():
+    s=open('/tmp/claude-0/shell.txt',encoding='utf-8').read()
+    ns={}; exec(s,{},ns)
+    return ns['SHELL_HEAD'], ns['SHELL_TAIL']
+SHELL_HEAD, SHELL_TAIL = SHELL()
 
 # checklist con memoria + fibrón
 EXTRA = '''
@@ -138,7 +138,7 @@ def build(d):
       <div style="font-size:17px;letter-spacing:.2em;text-transform:uppercase;color:#8C8C90;margin-bottom:12px;">En qué etapa estás</div>
       <div style="font-size:30px;line-height:1.4;color:{PAPER2};">{esc(d.get("etapa",""))}</div>
     </div>\n'''
-    add("Cáscara Founders",b,True,"13 de septiembre de 2026")
+    add("Cáscara Founders",b,True,d.get("fecha","13 de septiembre de 2026"))
 
     # 02 · DÓNDE ESTÁS HOY
     b  = ""
@@ -169,7 +169,7 @@ def build(d):
     </div>\n'''
     add("La lectura",b,True)
 
-    # 04 · EL PUNTAJE, escala 1-100 — interno.
+    # 04 · EL HANDICAP, escala 1-100 — interno.
     # No va en los informes de cierre: son los que se le mandan al cliente.
     if H_ and d.get("modo") != "cierre":
         gen=round(sum(cien(v) for v in [H_["ejes"][k] for k,_ in EJES])/5)
@@ -204,7 +204,7 @@ def build(d):
           <div style="font-size:28px;line-height:1.46;">{esc(COMO_SUBE.get(floj,""))}</div>
         </div>
       </div>\n    </div>\n'''
-        add("El puntaje",b)
+        add("El handicap",b)
 
     # 05 · LO QUE PASÓ
     R=d.get("recorrido") or {}
@@ -317,7 +317,8 @@ def build(d):
     BQ=[]
     ci=0
     for bl in AC:
-        for lado,tit in (("cliente","Lo hacés vos"),("cascara","Lo hace Cáscara")):
+        # Solo los accionables del cliente: lo que hace Cáscara queda interno.
+        for lado,tit in (("cliente","Lo hacés vos"),):
             items=bl.get(lado) or []
             if not items: continue
             g=f'{esc(bl["cuando"])}-{lado}'.replace(' ','_')
@@ -361,13 +362,11 @@ def build(d):
     return out
 
 if __name__=="__main__":
-    salida=os.path.join(RAIZ,"clientes")
-    os.makedirs(salida,exist_ok=True)
+    os.makedirs("out2",exist_ok=True)
     n=0
-    for f in sorted(glob.glob(os.path.join(RAIZ,"fichas","*.json"))):
-        if f.endswith("inventario.json"): continue   # las cartas, no un founder
+    for f in sorted(glob.glob("v2/fichas/*.json")):
         d=json.load(open(f,encoding="utf-8"))
         tit=f'{d["cliente"]} · {"Informe de cierre" if d["modo"]=="cierre" else "Radiografía y roadmap"}'
-        open(os.path.join(salida,f'{d["slug"]}.html'),"w",encoding="utf-8").write(compose(build(d),tit))
+        open(f'out2/{d["slug"]}.html',"w",encoding="utf-8").write(compose(build(d),tit))
         n+=1
     print("documentos v2:",n)

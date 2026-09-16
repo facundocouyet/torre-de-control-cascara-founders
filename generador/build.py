@@ -363,16 +363,13 @@ def build(d):
     return [panel(f"{i+1:02d}", f"{T:02d}", "", k, bb, dark=dk, foot=ft)
             for i,(k,bb,dk,ft) in enumerate(PN)]
 
-# Generador v1, reemplazado por build2.py. build2 lo importa como librería (paneles, colores),
-# así que el cuerpo va detrás de la guarda: importarlo no tiene que escribir nada.
-if __name__ == "__main__":
-    os.makedirs("out", exist_ok=True)
-    fichas=sorted(glob.glob("fichas/*.json"))
-    idx=[]
-    for f in fichas:
-        d=json.load(open(f,encoding="utf-8"))
-        tit=f'{d["cliente"]} · {"Informe de cierre" if d["modo"]=="cierre" else "Radiografía y roadmap"}'
-        open(f'out/{d["slug"]}.html',"w",encoding="utf-8").write(compose(build(d), tit))
-        idx.append((d["slug"], d["cliente"], d["proyecto"], d["modo"], d["orientacion"], d["titular"], d.get("abierto","")))
-    print("documentos:", len(idx))
-    json.dump(idx, open("index.json","w"), ensure_ascii=False, indent=1)
+os.makedirs("out", exist_ok=True)
+fichas=sorted(glob.glob("fichas/*.json"))
+idx=[]
+for f in fichas:
+    d=json.load(open(f,encoding="utf-8"))
+    tit=f'{d["cliente"]} · {"Informe de cierre" if d["modo"]=="cierre" else "Radiografía y roadmap"}'
+    open(f'out/{d["slug"]}.html',"w",encoding="utf-8").write(compose(build(d), tit))
+    idx.append((d["slug"], d["cliente"], d["proyecto"], d["modo"], d["orientacion"], d["titular"], d.get("abierto","")))
+print("documentos:", len(idx))
+json.dump(idx, open("index.json","w"), ensure_ascii=False, indent=1)

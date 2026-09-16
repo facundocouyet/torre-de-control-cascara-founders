@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Qualita · Las cartas del tramo</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#ECEAE4;color:#171717;font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.hoja{max-width:880px;margin:0 auto;padding:64px 32px 110px}
+.caja{display:inline-block;border:1px solid #8E8B85;padding:6px 13px;font-size:10.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:#6A6A66}
+h1{font-size:clamp(38px,6vw,58px);font-weight:800;letter-spacing:-.038em;line-height:1.02;
+  margin:28px 0 0;text-wrap:balance}
+.bajada{font-size:21px;line-height:1.5;color:#6A6A66;margin:18px 0 0;max-width:60ch}
+.tira{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:flex;
+  gap:44px;flex-wrap:wrap}
+.tira div .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.tira div .tx{font-size:17px;color:#171717;margin-top:5px}
+
+section{margin-top:64px}
+section .n{font-size:11px;letter-spacing:.2em;color:#8E8B85;font-variant-numeric:tabular-nums}
+section h2{font-size:32px;font-weight:800;letter-spacing:-.03em;line-height:1.14;
+  margin:10px 0 0;max-width:24ch}
+p{font-size:19px;line-height:1.58;margin:18px 0 0;max-width:64ch}
+p.sub{color:#6A6A66}
+.cita{margin-top:24px;border-left:2px solid #DBD7D2;padding:4px 0 4px 20px}
+.cita .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.cita .tx{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;font-style:italic;font-size:19px;line-height:1.5;
+  color:#6A6A66;margin-top:8px;max-width:62ch}
+
+.nums{margin-top:30px;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:1px;background:#DBD7D2;border:1px solid #DBD7D2}
+.nums div{background:#ECEAE4;padding:20px 18px}
+.nums .v{font-size:40px;font-weight:800;letter-spacing:-.04em;line-height:1;
+  font-variant-numeric:tabular-nums}
+.nums .k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66;margin-top:10px}
+
+ol.pasos{margin:26px 0 0;padding:0;list-style:none;counter-reset:p}
+ol.pasos li{counter-increment:p;border-top:1px solid #DBD7D2;padding:20px 0 20px 52px;
+  position:relative;font-size:19px;line-height:1.55;max-width:66ch}
+ol.pasos li:before{content:counter(p,decimal-leading-zero);position:absolute;left:0;top:22px;
+  font-size:11px;letter-spacing:.16em;color:#8E8B85;font-variant-numeric:tabular-nums}
+ol.pasos li b{font-weight:800}
+
+.qa{margin-top:26px}
+.qa .q{border-top:1px solid #171717;padding-top:18px;margin-top:26px;font-size:21px;
+  font-weight:800;letter-spacing:-.02em;max-width:52ch}
+.qa .a{font-size:19px;line-height:1.58;color:#6A6A66;margin-top:12px;max-width:64ch}
+.qa .a b{color:#171717;font-weight:800}
+
+.marco{margin-top:30px;background:#0A0A0C;color:#FBFAF8;padding:34px 32px}
+.marco .et{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:#8E8B85}
+.marco p{color:#FBFAF8;margin-top:14px}
+.marco b{font-weight:800}
+
+.pie{margin-top:90px;border-top:1px solid #171717;padding-top:22px;display:flex;
+  justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6A6A66}
+.sello{width:30px;height:30px;border:1.5px solid #171717;display:inline-flex;
+  align-items:center;justify-content:center;font-size:14px;font-weight:800}
+
+@media (max-width:640px){
+  .hoja{padding:40px 20px 80px} .tira{gap:24px}
+  .nums .v{font-size:32px} ol.pasos li{padding-left:40px}
+}
+@media print{ body{background:#fff} section{break-inside:avoid} }
+
+.envoltorio{overflow-x:auto;margin-top:28px}
+.tb{width:100%;border-collapse:collapse;font-size:17px;line-height:1.45}
+.tb th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:#6A6A66;font-weight:400;padding:0 16px 12px 0;border-bottom:2px solid #171717;white-space:nowrap}
+.tb td{padding:16px 16px 16px 0;border-bottom:1px solid #DBD7D2;vertical-align:top}
+.tb td:first-child{white-space:nowrap;font-weight:800;font-variant-numeric:tabular-nums}
+.tb b{font-weight:800}
+@media (max-width:640px){ .tb{min-width:620px} }
+
+.meta{margin-top:26px;border-top:1px solid #171717;border-bottom:1px solid #DBD7D2;
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:#DBD7D2}
+.meta > div{background:#ECEAE4;padding:16px 16px 16px 0}
+.meta .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.meta .tx{font-size:17px;line-height:1.4;margin-top:7px;max-width:30ch}
+.bloq{margin-top:26px}
+.bloq .q{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85;
+  border-top:1px solid #DBD7D2;padding-top:16px;margin-top:22px}
+.bloq .a{font-size:18.5px;line-height:1.58;margin-top:10px;max-width:64ch}
+.bloq .a b{font-weight:800}
+.carril{margin-top:30px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:#DBD7D2;border:1px solid #DBD7D2}
+.carril > div{background:#ECEAE4;padding:22px 20px}
+.carril .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.carril .tt{font-size:22px;font-weight:800;letter-spacing:-.02em;margin-top:8px}
+.carril .tx{font-size:17px;line-height:1.5;color:#6A6A66;margin-top:10px}
+@media (max-width:640px){ .meta,.carril{grid-template-columns:1fr} .meta > div{padding-right:16px} }
+
+.puntos{margin:24px 0 0;padding:0;list-style:none}
+.puntos li{border-top:1px solid #DBD7D2;padding:16px 0 16px 26px;position:relative;
+  font-size:18.5px;line-height:1.55;max-width:66ch}
+.puntos li:before{content:"";position:absolute;left:0;top:27px;width:12px;height:1.5px;background:#171717}
+.puntos li b{font-weight:800}
+</style></head><body>
+<div class="hoja">
+  <span class="caja">Cáscara Founders · Accionables</span>
+  <h1>Comunicar el método</h1>
+  <p class="bajada">Las cinco cartas del tramo, en orden, con la lista exacta de lo que tiene que quedar escrito en cada una.</p>
+  <div class="tira">
+    <div><div class="et">Para</div><div class="tx">Qualita Studio</div></div>
+    <div><div class="et">Tramo</div><div class="tx">15.09 — 31.10</div></div>
+    <div><div class="et">Fecha</div><div class="tx">15.09.2026</div></div>
+  </div>
+  <section><div class="n">00</div><h2>Qué son estas cartas</h2>
+<p>Una carta es un módulo del programa: un cuello de botella concreto con la manera de resolverlo escrita de antemano. Hay cuarenta y son las mismas para todos los founders. Lo que cambia de un caso a otro es cuáles tocan y en qué orden.</p><p>Existen por una razón práctica. Cuando la solución se inventa de nuevo en cada llamada, cada founder recibe una versión distinta de lo mismo y después no queda nada escrito. La carta se escribe una vez y de ahí en adelante se asigna, se ejecuta y se revisa igual todas las veces.</p><p><b>Adentro de cada una hay seis cosas:</b></p><ul class="puntos"><li><b>Qué resuelve</b> y cuál de las cinco habilidades mueve: oferta, contenido, demanda, venta o entrega.</li><li><b>Cuándo se usa</b>, que es la situación en la que corresponde asignarla.</li><li><b>Los pasos</b>, numerados y en orden.</li><li><b>El ask:</b> la lista de lo que tiene que quedar escrito para darla por cerrada.</li><li><b>Las herramientas</b> que hay que implementar.</li><li><b>Una hoja para completarla</b>, con la consigna de cada punto y un ejemplo de cómo lo resolvió otro founder de la camada.</li></ul><p>La carta dice qué hacer y la hoja es donde se hace. Una carta queda cerrada cuando el ask está completo: leerla y entenderla todavía la deja abierta.</p><p>Se asigna de a una y la siguiente entra cuando la anterior está ejecutada. Por eso el orden del roadmap que sigue importa — los ángulos se bajan del cliente ideal, y los casos son lo que termina de llenar el perfil.</p><div class="marco"><div class="et">El reparto, en las cuarenta</div><p><b>Cáscara diseña y ustedes ejecutan.</b> De nuestro lado va el criterio, la carta, el ejemplo y la hoja. Los textos, las piezas y las llamadas las hacen ustedes. Es lo que hace que lo que quede al final del tramo sea de Qualita.</p></div>
+</section>
+<section><div class="n">01</div><h2>El roadmap del tramo</h2>
+<p>Cinco cartas, en este orden y con estas fechas. Las de la izquierda dependen una de la otra: los ángulos se bajan del cliente ideal, así que al revés se escriben en el aire. Las de la derecha corren en paralelo y no necesitan esperar a nada.</p><div class="envoltorio"><table class="tb"><thead><tr><th>Cuándo</th><th>La carta</th><th>Quién</th></tr></thead><tbody><tr><td>Jue 18.09</td><td>El reparto — quién hace cada carta</td><td>Los socios</td></tr><tr><td>Vie 19.09</td><td>El cliente ideal del mecanismo</td><td>Rafa</td></tr><tr><td>Vie 19.09</td><td>Profile funnel</td><td>Contenido</td></tr><tr><td>Vie 26.09</td><td>Los ángulos bajados del cliente ideal</td><td>Rafa y contenido</td></tr><tr><td>Mar 30.09</td><td>Los casos documentados</td><td>Contenido</td></tr><tr><td>Octubre</td><td>Las diez piezas y su lectura · El video del método</td><td>Contenido</td></tr><tr><td>Vie 31.10</td><td>La lectura del tramo: qué ángulo sostener y qué corregir</td><td>Todos</td></tr></tbody></table></div><div class="carril"><div><div class="et">Carril uno · el método</div><div class="tt">Rafa</div><div class="tx">El cliente ideal y los ángulos. Es la materia prima de todo lo demás y sale de la cabeza de quien diseñó el método.</div></div><div><div class="et">Carril dos · la vidriera</div><div class="tt">Contenido</div><div class="tx">El perfil y los casos. Es trabajo de recopilación y orden, y puede arrancar hoy mismo sin esperar al carril uno.</div></div></div>
+</section>
+<section><div class="n">02</div><h2>Dónde se trabaja cada carta</h2>
+<p>Las cartas se asignan en el uno a uno y se trabajan en las grupales. Hay tres por semana y cada una tiene su foco fijo: <b>creatividad con Juana los miércoles, procesos con Teo los jueves, estrategia y contenido con Fede los viernes.</b> Los horarios están en el calendario.</p><div class="envoltorio"><table class="tb"><thead><tr><th>La carta</th><th>Dónde se trabaja</th></tr></thead><tbody><tr><td>El cliente ideal</td><td>En el uno a uno con Franco. Es la llamada donde se define a quién se le vende, con qué promesa y a qué precio.</td></tr><tr><td>Los ángulos</td><td>Arrancan con Franco —de qué hay que hablarle a ese cliente para que compre— y se bajan a piezas concretas en la grupal de contenido con Fede y en la de creatividad con Juana.</td></tr><tr><td>Profile funnel</td><td>En la grupal de contenido con Fede. Se abre el perfil en pantalla y se corrige en vivo: bio, destacadas, qué va anclado y a dónde lleva el link.</td></tr><tr><td>Los casos</td><td>Con Juana, para cómo contarlos sin que parezcan un currículum. Y con Teo, para dónde vive la ficha y cómo se actualiza.</td></tr><tr><td>El reparto</td><td>Entre ustedes, y se revisa en el uno a uno.</td></tr></tbody></table></div><p><b>Cómo se aprovechan.</b> La diferencia entre una hora de clase y una hora de trabajo es llegar con la carta abierta y una pregunta concreta. Traer el borrador —aunque esté a medias— y pedir que se corrija ahí mismo vale más que escuchar la llamada entera y llevarse ideas.</p><p>Las tres corren todas las semanas y la que no conviene perderse es la que toca la carta que tienen abierta. Y lo que se resuelve en una grupal queda resuelto: no hace falta esperar al uno a uno para avanzar.</p><div class="marco"><div class="et">La secuencia de la semana</div><p>La carta se asigna en el uno a uno, se trabaja en la grupal que le corresponde, se ejecuta en el estudio y se cierra cuando el ask está completo. Ese ciclo es el programa.</p></div>
+</section>
+<section><div class="n">03</div><h2>El cliente ideal del mecanismo</h2>
+<div class="meta"><div><div class="et">Qué queda hecho</div><div class="tx">Una hoja con el cliente ideal escrito por el problema que le resuelve el método, con sus palabras.</div></div><div><div class="et">Cuándo</div><div class="tx">Viernes 19 de septiembre</div></div><div><div class="et">Quién</div><div class="tx">Rafa</div></div></div><p><b>El ask</b></p><ol class="pasos"><li><b>La planilla de los últimos diez clientes.</b> Una fila por cliente y estas columnas: quién es y a qué se dedica · qué se le vendió exactamente · qué ticket pagó y en qué forma · cuánto duró y si sigue activo · por dónde llegó · qué problema traía cuando llegó · qué se le resolvió, con el número si lo hay · si fue buen cliente y por qué. <b>Esta planilla es el corazón de la carta:</b> de acá salen los cuatro puntos que siguen.</li><li><b>Los tres mejores de esa lista y qué tienen en común.</b> Tres líneas.</li><li><b>Qué hace el método, en una frase</b>, sin usar la palabra método.</li><li><b>El cliente ideal en una frase</b>, escrito por el problema y por el momento del negocio en el que está. Sin rubro y sin tamaño de empresa.</li><li><b>Tres o cuatro frases textuales</b> de clientes contando ese problema con sus palabras, sacadas de mensajes y de llamadas viejas, sin retocar.</li><li><b>Los tipos de cliente que quedan afuera</b> del tramo, y qué pasa con los que ya están adentro.</li></ol><div class="bloq"><div class="q">Por qué esta carta ahora</div><div class="a">Porque elegir mejor los leads es tener escrito de antemano a quién se quiere adentro, y hoy ese filtro vive en la conversación de venta. Todo lo que viene después —los ángulos, el perfil, los casos— se escribe apuntando a esta hoja.</div><div class="q">Con qué cabeza encararla</div><div class="a">Media hora buscando en el historial vale más que una hora escribiendo un cliente ideal inventado. Esto se busca antes de pensarse: los diez últimos que compraron ya dicen quién es.</div></div>
+</section>
+<section><div class="n">04</div><h2>Los ángulos bajados del cliente ideal</h2>
+<div class="meta"><div><div class="et">Qué queda hecho</div><div class="tx">De ocho a doce ángulos, cada uno con la idea concreta y el guion de ejemplo al lado.</div></div><div><div class="et">Cuándo</div><div class="tx">Viernes 26 de septiembre</div></div><div><div class="et">Quién</div><div class="tx">Rafa, con contenido</div></div></div><p><b>El ask</b></p><ol class="pasos"><li><b>De cada frase textual de la carta anterior</b>, el dolor que hay debajo y la pregunta que ese cliente ya se está haciendo solo.</li><li><b>El giro propio:</b> qué dice Qualita sobre ese dolor que el resto del rubro no dice.</li><li><b>Las frases propias que ya funcionaron</b> — las que se dijeron en una llamada o en una reunión y provocaron una reacción — con dónde se dijeron y qué pasó después.</li><li><b>La tabla de ángulos.</b> De ocho a doce filas con estas columnas: el ángulo · el dolor del que sale · qué se muestra · en qué formato · con qué cierre.</li><li><b>Marcar cuál de esos ángulos es el método completo.</b> Ese es el video de YouTube de octubre.</li><li><b>Los tres ángulos del primer mes</b>, cuántas piezas lleva cada uno y la fecha de la primera.</li><li><b>El guion completo del ángulo más fuerte</b>, escrito entero.</li></ol><div class="bloq"><div class="q">Por qué esta carta ahora</div><div class="a">Porque el método nunca se comunicó y la razón de fondo es que no hay de qué hablar escrito. Cada vez que hay que publicar, alguien tiene que inventar el tema, y ahí la producción propia siempre pierde contra el trabajo de cliente.</div><div class="q">Con qué cabeza encararla</div><div class="a">Los ángulos son la materia prima de dos meses. La tentación es escribir tres y arrancar a publicar; el valor aparece al llegar a doce, porque recién ahí salen los que nadie más está diciendo.</div></div>
+</section>
+<section><div class="n">05</div><h2>Profile funnel</h2>
+<div class="meta"><div><div class="et">Qué queda hecho</div><div class="tx">El perfil acomodado: en quince segundos se entiende quién es Qualita y qué vende.</div></div><div><div class="et">Cuándo</div><div class="tx">Viernes 19 de septiembre</div></div><div><div class="et">Quién</div><div class="tx">Contenido — arranca hoy, en paralelo</div></div></div><p><b>El ask</b></p><ol class="pasos"><li><b>La bio en una línea:</b> qué hace Qualita y para quién, con las palabras del cliente ideal.</li><li><b>El nombre de usuario y el nombre visible</b>, que se entiendan sin conocerlos de antes.</li><li><b>La destacada <em>empezá acá</em></b> con el método explicado en cinco placas.</li><li><b>La destacada de casos</b>, creada ahora y llenada cuando salgan las fichas del 30.</li><li><b>Tres posteos fijados arriba:</b> uno que explique, uno que muestre el trabajo y uno que pruebe un resultado.</li><li><b>Un solo link, a un solo destino.</b> Si hoy hay varios, elegir cuál queda.</li><li><b>La prueba del cronómetro:</b> mostrárselo quince segundos a alguien que no los conoce y anotar qué entendió que venden. Si hay que explicarle, falta.</li></ol><div class="bloq"><div class="q">Por qué esta carta ahora</div><div class="a">Porque el embudo que queremos armar arranca en Instagram y sigue en YouTube, y el perfil es la primera pantalla de ese recorrido. Todo lo que se publique de acá en adelante va a mandar gente ahí.</div><div class="q">Con qué cabeza encararla</div><div class="a">Es la carta más barata del tramo: una tarde de trabajo. Y es la que más se nota, porque cambia lo primero que ve alguien que llega.</div></div>
+</section>
+<section><div class="n">06</div><h2>Los casos documentados</h2>
+<div class="meta"><div><div class="et">Qué queda hecho</div><div class="tx">Dos o tres fichas de caso con números antes y después, y el registro del proceso.</div></div><div><div class="et">Cuándo</div><div class="tx">Martes 30 de septiembre</div></div><div><div class="et">Quién</div><div class="tx">Contenido, con los números de administración</div></div></div><p><b>El ask</b></p><ol class="pasos"><li><b>Los clientes con resultado medible:</b> cliente · qué se le entregó · qué resultado tiene medido · dónde está el número.</li><li><b>El permiso por escrito</b> de cada uno para publicar su caso con nombre.</li><li><b>Los números con fecha:</b> qué se mide · cuánto era antes y cuándo · cuánto es ahora y cuándo · de dónde sale el dato.</li><li><b>Qué se hizo en el medio</b>, en cinco pasos.</li><li><b>Una frase textual del cliente</b> sobre el resultado.</li><li><b>Una captura o una foto</b> que lo pruebe.</li><li><b>Dónde vive la ficha y quién la actualiza</b>, para que sirva también en la próxima llamada de venta.</li></ol><div class="bloq"><div class="q">Por qué esta carta ahora</div><div class="a">Porque los casos ya existen: son clientes que entraron, se atendieron bien y salieron con resultados. Esto se documenta, no se crea. Y es lo que hace que el perfil pase de decir que el método funciona a mostrarlo.</div><div class="q">Con qué cabeza encararla</div><div class="a">Un caso sin número es un testimonio lindo. El trabajo está en conseguir las dos cifras, aunque haya que pedírselas al cliente. Ese pedido, además, es una conversación que reactiva la relación.</div></div>
+</section>
+<section><div class="n">07</div><h2>El reparto</h2>
+<div class="meta"><div><div class="et">Qué queda hecho</div><div class="tx">Una tabla con las cuatro cartas repartidas y la revisión semanal agendada.</div></div><div><div class="et">Cuándo</div><div class="tx">Jueves 18 de septiembre</div></div><div><div class="et">Quién</div><div class="tx">Los socios, en la misma reunión</div></div></div><p>Esta es la carta que reparte las otras cuatro. Se resuelve en diez minutos, en la reunión donde las leen, y es lo primero que pasa del tramo.</p><p><b>El ask</b></p><ol class="pasos"><li><b>Completar la tabla de abajo:</b> quién hace cada carta y qué necesita de otra persona para poder arrancar.</li><li><b>Elegir el día y la hora de la revisión semanal</b> de treinta minutos y agendarla recurrente en el calendario de todos.</li><li><b>Si alguna carta hoy no tiene quién la haga, decirlo ahora</b> y la resolvemos en la llamada. Es mejor saberlo el 18 que el 30.</li></ol><div class="envoltorio"><table class="tb"><thead><tr><th>La carta</th><th>Quién la hace</th><th>Para cuándo</th><th>Qué necesita para arrancar</th></tr></thead><tbody><tr><td>El cliente ideal</td><td>—</td><td>Vie 19.09</td><td>—</td></tr><tr><td>Profile funnel</td><td>—</td><td>Vie 19.09</td><td>—</td></tr><tr><td>Los ángulos</td><td>—</td><td>Vie 26.09</td><td>—</td></tr><tr><td>Los casos</td><td>—</td><td>Mar 30.09</td><td>—</td></tr></tbody></table></div><div class="bloq"><div class="q">Con qué cabeza encararla</div><div class="a">Un solo nombre por carta, aunque después trabajen dos. El dueño es quien avisa si no va a llegar, y eso es lo que hace que una fecha valga algo. La revisión de treinta minutos se hace igual las semanas en que no hubo avance: el valor está en que la falta se vea el jueves y no a fin de mes.</div></div>
+</section>
+<section><div class="n">08</div><h2>Qué llevar a la próxima reunión</h2>
+<p>Cuatro cosas, aunque alguna venga a medias.</p><ol class="pasos"><li>La planilla de los diez clientes completa, con el ticket de cada uno.</li><li>El perfil ya cambiado, para mirarlo juntos en pantalla.</li><li>La lista de ángulos, aunque esté sucia y sin los guiones.</li><li>El día y la hora de la reunión semanal, ya elegidos y agendados.</li></ol><p>Y una quinta que vale igual que las otras: <b>qué de esto no llegó y por qué.</b> Eso también es información del tramo y se trabaja en la llamada.</p>
+</section>
+<section><div class="n">09</div><h2>Lo que viene después</h2>
+<p>En octubre entran dos cartas más, y entran cuando lo de arriba esté hecho. <b>Las diez piezas y su lectura</b>, porque con menos de diez publicadas no se puede evaluar ningún ángulo. Y <b>narrativa y producción de video</b>, que es el video del método en YouTube: va después de los ángulos y de los casos, porque necesita saber qué contar y con qué prueba.</p><p>La landing con el VSL y la captura automática de contactos quedan para el tramo siguiente. Las dos hacen falta, y un embudo armado antes de tener ángulos, perfil y casos manda tráfico a un lugar que todavía no tiene qué mostrar.</p><div class="marco"><div class="et">Lo que sí empieza a anotarse desde esta semana</div><p>De dónde viene cada persona que escribe. Alcanza una planilla a mano: nombre, por dónde llegó y qué preguntó. El 31 de octubre esa planilla es la que dice si el canal propio empezó a traer gente o si sigue entrando todo por recomendación.</p></div>
+</section>
+
+  <div class="pie">
+    <span class="sello">F</span>
+    <span>Cáscara Founders</span>
+    <span>Qualita Studio</span>
+  </div>
+</div>
+</body></html>
