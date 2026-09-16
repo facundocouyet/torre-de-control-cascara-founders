@@ -5,6 +5,26 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 16 de septiembre de 2026 · tarde
+
+Entró un cliente nuevo y Qualita quedó contada como corresponde.
+
+- **The Momentum Club es cliente desde hoy.** Israel Barranco y Natalia Zabaleta arrancaron
+  el 16 de septiembre. Están completando los Founder Insights y después va la Clarity Call,
+  que Aye puede coordinar. Ya aparece en la torre, en los accionables y en el handoff: son
+  veintidós clientes.
+- **Qualita se cuenta desde abril, no desde agosto.** El caso arrancó el 24 de abril como
+  Rafael Lizarraga, se frenó por viaje y retomó el 20 de agosto. El freno no consume días
+  del programa, así que ahora la ficha dice lo que pasó: lleva 146 días con nosotros y va
+  por el día 77 de los noventa. (El 12 de junio como fecha de corte del freno sale de la
+  última actualización cargada en Notion: falta confirmar.)
+- **El contador dejó de estar clavado.** Estaba fijo en el 12 de septiembre, así que todos
+  los clientes venían cuatro días atrasados y el que entraba hoy daba negativo.
+- **Se fue "handicap" y "camada" de las páginas de scroll.** Inicio, Clientes, Programa y
+  Materiales decían handicap promedio y "la camada": ahora dicen puntaje y clientes.
+
+---
+
 ## 16 de septiembre de 2026
 
 La torre se reordenó entera y Cecilia quedó con su informe de cierre.

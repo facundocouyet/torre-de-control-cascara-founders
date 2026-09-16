@@ -20,6 +20,7 @@ for g in glob.glob('/home/claude/founders/fichas/*.json'):
     d=json.load(open(g,encoding='utf-8')); QP[d['slug']]=d['que_paso']
 QP['qualita']=[{'cuando':'20 de agosto de 2026'}]
 QP['cecilia-belotti']=[{'cuando':'23 de marzo de 2026'}]   # onboarding con Teo
+QP['the-momentum-club']=[{'cuando':'16 de septiembre de 2026'}]   # onboarding con Teo
 
 FECHA="16 SEP 2026"
 EJES=[("oferta","Oferta"),("contenido","Contenido"),("demanda","Demanda"),("venta","Venta"),("entrega","Entrega")]
@@ -60,6 +61,7 @@ for r in panel:
       "ultima":r['ultima'],"titular":r['titular'],
       "ct":r['cliente_tareas'],"cas":r['cascara'],
       "dia":dd['d'],"desde":dd['desde'],"fuente":dd['fuente'],
+      "corridos":dd.get('corridos'),"frenado":dd.get('frenado',0),"tramos":dd.get('tramos',[]),
       "h": None if not h else {"t":h['total'],"tr":h['tramo'],"ri":h['ritmo'],
              "rt":RITMO[h['ritmo']],
              "ej":[h['ejes'][k] for k,_ in EJES],

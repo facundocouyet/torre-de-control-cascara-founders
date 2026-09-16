@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 """Genera el sitio de Cáscara Founders. Sin dependencias: python3 build_site.py"""
 import json, html as _h, os, shutil, sys, glob
-sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
-import handicap as HK   # el registro manda sobre la copia guardada en panel-data.json
 def e(s): return _h.escape(str(s or ""))
-BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # la raíz del repo
-OUT=BASE   # el sitio se publica desde la raíz
+BASE=os.path.dirname(os.path.abspath(__file__))
+OUT=os.path.join(BASE,'site')
 FECHA="12 de septiembre de 2026"
 
 NAV=[("index.html","El tablero"),("programa.html","El programa"),
@@ -60,7 +58,7 @@ def build_index(panel):
       ("02","Los materiales","materiales.html",
        "La biblioteca entera: la oferta y lo comercial, los documentos de cliente, los contratos y los procesos internos. Con los módulos por categoría y lo que todavía falta escribir."),
       ("03","Los clientes","clientes.html",
-       "Los veintiún casos con su puntaje, ordenados por quién necesita más atención. Cada fila abre el documento completo del founder."),
+       "Los casos con su puntaje, ordenados por quién necesita más atención. Cada fila abre el documento completo del founder."),
     ]
     zh="".join(f'''<a class="card" href="{u}" style="text-decoration:none;display:block">
       <span class="label">{n}</span>
@@ -101,7 +99,7 @@ def build_index(panel):
 
 <section class="zona"><div class="wrap">
   <h2 class="seccion">Quién necesita atención esta semana</h2>
-  <p class="small mt3" style="max-width:70ch">Los cinco puntajes más bajos de la camada. El eje en negrita es el más flojo y es por donde se trabaja.</p>
+  <p class="small mt3" style="max-width:70ch">Los cinco puntajes más bajos. El eje en negrita es el más flojo y es por donde se trabaja.</p>
   <div class="mt4">{"".join(mini(r) for r in atencion)}</div>
   <a class="btn mt4" href="clientes.html">Ver los veintiuno</a>
 </div></section>
@@ -296,7 +294,7 @@ def build_clientes(panel):
     </article>'''
 
     filas="\n".join(fila(r,i) for i,r in enumerate(panel))
-    c = masthead("Los clientes","La camada, de menor a mayor puntaje",
+    c = masthead("Los clientes","De menor a mayor puntaje",
       "Arriba está quien más atención necesita. El eje en negrita es el más flojo y es por donde se trabaja. Tocá cualquier fila para ver la métrica, los accionables de septiembre y lo que queda sin definir.",
       [(str(len(panel)),"Clientes"),("%.1f"%prom,"Puntaje promedio"),
        (str(len(cierre)),"En cierre"),(str(len(rojo)),"Ritmo en rojo")])
@@ -355,19 +353,17 @@ def build_clientes(panel):
 # ---------------------------------------------------------------- MAIN
 if __name__=="__main__":
     panel=json.load(open(os.path.join(BASE,'contenido','panel-data.json'),encoding='utf-8'))
-    # los puntajes se recalculan desde handicap.py, igual que en build_app.py: la copia que
-    # guarda panel-data.json queda atrás apenas se toca el registro
-    for r in panel:
-        r['handicap']=HK.calcular(r['slug']) or r['handicap']
     prog=json.load(open(os.path.join(BASE,'contenido','programa.json'),encoding='utf-8'))
     mat=json.load(open(os.path.join(BASE,'contenido','materiales.json'),encoding='utf-8'))
     os.makedirs(os.path.join(OUT,'clientes'),exist_ok=True)
     os.makedirs(os.path.join(OUT,'assets'),exist_ok=True)
-    # index.html es la app (app_shell.py); la portada de scroll va a inicio.html
-    open(os.path.join(OUT,'inicio.html'),'w',encoding='utf-8').write(build_index(panel))
+    shutil.copy(os.path.join(BASE,'assets','founders.css'), os.path.join(OUT,'assets','founders.css'))
+    open(os.path.join(OUT,'index.html'),'w',encoding='utf-8').write(build_index(panel))
     open(os.path.join(OUT,'programa.html'),'w',encoding='utf-8').write(build_programa(prog))
     open(os.path.join(OUT,'materiales.html'),'w',encoding='utf-8').write(build_materiales(mat))
     open(os.path.join(OUT,'clientes.html'),'w',encoding='utf-8').write(build_clientes(panel))
-    # los documentos ya los escribe build2.py directamente en clientes/
-    n=len(glob.glob(os.path.join(OUT,'clientes','*.html')))
+    docs=os.path.join(BASE,'contenido','docs')
+    n=0
+    for f in glob.glob(os.path.join(docs,'*.html')):
+        shutil.copy(f, os.path.join(OUT,'clientes',os.path.basename(f))); n+=1
     print("páginas: 4 · documentos de cliente:", n)

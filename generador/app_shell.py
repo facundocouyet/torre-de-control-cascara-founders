@@ -543,6 +543,9 @@ JS = r'''
 var D=__DATA__;
 var $=function(s){return document.querySelector(s)};
 var esc=function(s){var d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML};
+var MESES=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+function fechaLarga(iso){ if(!iso) return ''; var p=iso.split('-'); return (+p[2])+' de '+MESES[(+p[1])-1]; }
+function fechaCorta(iso){ if(!iso) return ''; var p=iso.split('-'); return (+p[2])+'/'+p[1]; }
 var SEC=[['hoy','Hoy'],['clientes','Clientes'],['programa','Programa'],['material','Material']];
 var TIT={home:'Home',clientes:'Los clientes',accionables:'Los accionables',biblioteca:'La biblioteca'};
 /* el orden de la lista: por el general, por cada habilidad, por días o por nombre, en los dos sentidos */
@@ -738,12 +741,24 @@ function abrir(slug){
          '<span class="b"><i style="width:'+c.h.e1[i]+'%"></i></span></div>';}
     h+='</div>'+(c.h.sube?'<p class="sube">La más baja es '+esc(D.ejes[c.h.flo[0]]).toLowerCase()+'. '+esc(c.h.sube)+'</p>':'')+'</div>';
   }
+  /* el número grande son los días que lleva con nosotros; la regla mide los noventa
+     del programa, que no corren mientras el cliente está frenado */
+  var conNos=c.corridos||c.dia, frena=c.frenado||0;
+  var nota;
+  if(!c.dia){ nota='Falta cargar el START en Cuentas.'; }
+  else if(frena){
+    nota='Arrancó el '+fechaLarga(c.desde)+' y estuvo frenado '+frena+' días'+
+         (c.tramos&&c.tramos.length?' ('+c.tramos.map(function(t){return fechaCorta(t[0])+' a '+fechaCorta(t[1])}).join(', ')+')':'')+
+         ', así que lleva '+conNos+' días con nosotros y '+c.dia+' de los noventa del programa. '+
+         (venc?'Ya pasó los noventa: por eso el tramo es de cierre.':'Los días frenados no cuentan contra el programa.');
+  }
+  else { nota=(venc?'Pasó los noventa días: por eso el tramo es de cierre.':'Está en el día '+c.dia+' de los noventa.')+
+         (c.fuente==='llamada'?' Contado desde la primera llamada registrada, porque el START no está cargado.':''); }
   h+='<div class="dias"><span class="et">Con nosotros</span><div class="g"><b class="num'+(venc?' vencido':'')+'">'+
-     (c.dia||'—')+'</b><span>'+(c.dia?'días':'sin fecha cargada')+'</span></div>'+
+     (conNos||'—')+'</b><span>'+(c.dia?'días':'sin fecha cargada')+'</span></div>'+
      '<div class="regla"><i class="'+(venc?'vencido':'')+'" style="width:'+pct+'%"></i></div>'+
      '<div class="marcas"><span>día 1</span><span>día 90</span></div>'+
-     '<p class="nota">'+(c.dia?(venc?'Pasó los noventa días: por eso el tramo es de cierre.':'Está en el día '+c.dia+' de los noventa.'):'Falta cargar el START en Cuentas.')+
-     (c.fuente==='llamada'?' Contado desde la primera llamada registrada, porque el START no está cargado.':'')+'</p></div>';
+     '<p class="nota">'+esc(nota)+'</p></div>';
   h+='</aside></div></div>';
   $('#v-detalle').innerHTML=h; verDetalle(c.nombre); location.hash='#c/'+slug;
 }

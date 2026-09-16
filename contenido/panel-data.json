@@ -939,5 +939,28 @@
    "Teo hace el sign-off y entrega este documento",
    "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo (falta confirmar)"
   ]
+ },
+ {
+  "slug": "the-momentum-club",
+  "cliente": "Israel Barranco y Natalia Zabaleta",
+  "proyecto": "The Momentum Club — acompañamiento a artistas en cuatro pilares",
+  "modo": "radiografia",
+  "orientacion": "A definir",
+  "metrica": "Sale de la Clarity Call.",
+  "titular": "Entró el 16 de septiembre. Está completando los Founder Insights, y con eso hecho entra la Clarity Call con Facu.",
+  "cuello": "Todavía sin lectura: la Clarity Call es la que la define.",
+  "abierto": "La fecha de la Clarity Call, que la coordina Aye apenas estén los Founder Insights.",
+  "doc": "",
+  "handicap": null,
+  "cascara": [
+   "Aye coordina la Clarity Call de Facu apenas estén los Founder Insights",
+   "Después de esa llamada se escribe la ficha y entra al circuito como los demás"
+  ],
+  "cliente_tareas": [
+   "Completar los Founder Insights",
+   "Tomar la Clarity Call con Facu"
+  ],
+  "ultima": "16 de septiembre de 2026",
+  "etapa": "Recién ingresado. El onboarding con Teo está hecho; falta que completen los Founder Insights y que se agende la Clarity Call, que es donde sale la lectura del caso."
  }
 ]

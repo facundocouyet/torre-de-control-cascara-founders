@@ -407,6 +407,23 @@
    "nota": "Sin documento: no corresponde radiografía de Founders hasta confirmar la etiqueta.",
    "slug": null,
    "upselling": false
+  },
+  {
+   "nombre": "The Momentum Club",
+   "estado": "Ingresó 16/09 · sin ficha",
+   "proyecto": "Israel Barranco y Natalia Zabaleta. Acompañan artistas en cuatro pilares; vienen de un programa de 9 meses que están pasando a 6 más renovaciones. El onboarding con Teo ya está hecho.",
+   "accionables": [
+    "Chequear que hayan completado los <b>Founder Insights</b>. Es lo único que falta para que entre la Clarity Call.",
+    "Con los Insights hechos, <b>coordinar la Clarity Call con Facu</b>. Esa llamada es la que define la lectura del caso y la orientación.",
+    "Después de la Clarity se escribe la ficha y entra al circuito como el resto: documento, roadmap y accionables.",
+    "Cargar START en Cuentas con el 16 de septiembre, para que el conteo de los noventa días arranque bien."
+   ],
+   "doc": null,
+   "docn": null,
+   "extra": null,
+   "nota": "Sin documento todavía: la ficha se escribe después de la Clarity Call.",
+   "slug": "the-momentum-club",
+   "upselling": false
   }
  ]
 }
