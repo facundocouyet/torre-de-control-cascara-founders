@@ -5,6 +5,14 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 16 de septiembre de 2026 · noche
+
+- **Iñaki Efe sale de Founders.** Es cliente de 0800, así que no va en el circuito: se fue del
+  handoff y de los accionables. En la lista de limpieza de Notion queda la línea para sacarle
+  la etiqueta de Founders en la base.
+
+---
+
 ## 16 de septiembre de 2026 · tarde
 
 Entró un cliente nuevo y Qualita quedó contada como corresponde.
