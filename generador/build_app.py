@@ -3,9 +3,8 @@
 import os, json, os, collections, sys
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import dias as DI
-sys.path.insert(0,'/home/claude/founders')
 import handicap as HK   # el registro manda sobre cualquier copia guardada
-B=os.path.dirname(os.path.abspath(__file__))
+B=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 panel=json.load(open(B+'/contenido/panel-data.json',encoding='utf-8'))
 prog=json.load(open(B+'/contenido/programa.json',encoding='utf-8'))
 mat=json.load(open(B+'/contenido/materiales.json',encoding='utf-8'))
@@ -13,16 +12,23 @@ mat=json.load(open(B+'/contenido/materiales.json',encoding='utf-8'))
 entregas=json.load(open(B+'/contenido/entregas.json',encoding='utf-8'))
 # los módulos salen del inventario con las tres capas (pasos, qué completar, qué herramientas),
 # que es lo que distingue un módulo de un SOP
-inv=json.load(open('/home/claude/founders/modulos/inventario.json',encoding='utf-8'))
+inv=json.load(open(B+'/fichas/inventario.json',encoding='utf-8'))
 import glob
+# la primera llamada de cada cliente, para los que no tienen START cargado en Cuentas
+_MESES=["enero","febrero","marzo","abril","mayo","junio","julio","agosto",
+        "septiembre","octubre","noviembre","diciembre"]
 QP={}
-for g in glob.glob('/home/claude/founders/fichas/*.json'):
-    d=json.load(open(g,encoding='utf-8')); QP[d['slug']]=d['que_paso']
+for _slug,_iso in json.load(open(B+'/contenido/arranques.json',encoding='utf-8')).items():
+    _a,_m,_d=(int(x) for x in _iso.split('-'))
+    QP[_slug]=[{'cuando':'%d de %s de %d'%(_d,_MESES[_m-1],_a)}]
 QP['qualita']=[{'cuando':'20 de agosto de 2026'}]
 QP['cecilia-belotti']=[{'cuando':'23 de marzo de 2026'}]   # onboarding con Teo
 QP['the-momentum-club']=[{'cuando':'16 de septiembre de 2026'}]   # onboarding con Teo
 
-FECHA="16 SEP 2026"
+_M=["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"]
+import datetime as _dt
+_h=_dt.date.today()
+FECHA=f"{_h.day:02d} {_M[_h.month-1]} {_h.year}"
 EJES=[("oferta","Oferta"),("contenido","Contenido"),("demanda","Demanda"),("venta","Venta"),("entrega","Entrega")]
 DUENOS=["Facu","Franco","Teo","Juana","Fede"]
 RITMO={"verde":"al día","amarillo":"a los tirones","rojo":"frenado"}
@@ -39,7 +45,8 @@ COMO_SUBE={
 # las fichas v2 mandan sobre el panel viejo: de ahí salen el cuello, el titular,
 # la métrica y la etapa, ya escritos sin negaciones
 V2={}
-for g in glob.glob('/home/claude/founders/v2/fichas/*.json'):
+for g in glob.glob(B+'/fichas/*.json'):
+    if os.path.basename(g)=='inventario.json': continue   # el inventario no es una ficha de founder
     v=json.load(open(g,encoding='utf-8')); V2[v['slug']]=v
 
 clientes=[]
@@ -90,7 +97,7 @@ DATA={"fecha":FECHA,"ejes":[n for _,n in EJES],
      "items":[{"id":i['id'],"t":i['nombre'],"x":i['resultado'],"e":i.get('estado',''),
                "q":i.get('para_quien',''),"ej":i.get('eje',[]),
                "p":i.get('pasos',[]),"cc":i.get('completar',[]),"hh":i.get('herramientas',[]),
-               "pl":os.path.exists('/home/claude/founders/plantillas/out/%s.html'%i['id'])}
+               "pl":os.path.exists(B+'/plantillas/%s.html'%i['id'])}
               for i in c['modulos']]} for c in inv['categorias']],
  "orden_cartas":inv.get('orden_sugerido',[]),
  "entregas":entregas,

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Handoff para Aye: repaso de clientes, accionables y documentos."""
 import sys, io, os
-sys.path.insert(0,'/home/claude/qualita')
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from _base import CSS, S, P, CITA, PASOS, MARCO, TABLA, BLOQ, esc
 from _base import INK, DEEP, PAPER, PAPER2, GREY, GREY2, LINE, ROJO, DISP, SERIF
 
@@ -49,13 +49,14 @@ CSS += """
 @media print{ #visor{display:none!important} .cli .btns{display:none} }
 """
 
-import json as _json
+import json as _json, os as _os
+_RAIZ=_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 # la fuente única del handoff: se edita en web/contenido/entregas.json y sale acá y en la torre
-ENT = _json.load(open('/home/claude/web/contenido/entregas.json', encoding='utf-8'))
+ENT = _json.load(open(_os.path.join(_RAIZ,'contenido','entregas.json'), encoding='utf-8'))
 # el resumen de la radiografía sale del panel: con eso Aye se ubica antes de leer los accionables
 _PAN = {r['slug']: r for r in
-        _json.load(open('/home/claude/web/contenido/panel-data.json', encoding='utf-8'))}
-import sys as _sys; _sys.path.insert(0,'/home/claude/web')
+        _json.load(open(_os.path.join(_RAIZ,'contenido','panel-data.json'), encoding='utf-8'))}
+import sys as _sys; _sys.path.insert(0,_os.path.join(_RAIZ,'generador'))
 import dias as _DI
 
 def RAD(slug):
@@ -201,5 +202,5 @@ async function bajar(ruta,nombre){{
 }}
 </script>"""
 
-open('/home/claude/ally/founders-handoff-aye.html','w',encoding='utf-8').write(HTML)
+open(_os.path.join(_RAIZ,'founders-handoff-aye.html'),'w',encoding='utf-8').write(HTML)
 print("ok", len(HTML))

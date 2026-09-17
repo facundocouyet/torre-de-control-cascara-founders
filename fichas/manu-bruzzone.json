@@ -1,246 +1,250 @@
 {
- "slug": "manu-bruzzone",
- "cliente": "Manuel Bruzzone",
- "proyecto": "Manuel Bruzzone y Team Bruzzone",
- "modo": "cierre",
- "orientacion": "Sostener",
- "arranque": "(falta confirmar) — la llamada de estrategia con Facu fue el 7 de abril de 2026",
- "etapa": "Se cierra el acompañamiento: el sistema está escrito hasta el último detalle y la rutina mensual que lo hace funcionar está por instalarse.",
- "metrica": "Propiedades en cartera: 22 sobre un objetivo de 35.",
- "titular": "El sistema de Manu está diseñado completo. El trabajo de este tramo es la rutina: tres planificaciones seguidas y la cartera de 22 a 35.",
- "bajada": "En abril se bajó el ecosistema entero: marca personal premium, base de datos de leads y proceso comercial. En junio se sumó el equipo y una cadencia mensual. Desde entonces pasaron tres meses sin llamadas y la cartera sigue en 22.",
- "punto_a": [
-  {
-   "label": "Resuelto",
-   "titulo": "La estrategia de marca",
-   "texto": "Manu se posiciona como marca personal premium de ticket alto. El contenido habla de problemas del cliente: una separación, una familia que se muda, alguien que necesita liquidez. Los leads que no dan ticket alto bajan a Team Bruzzone. Eso quedó definido en abril y se mantuvo igual."
-  },
-  {
-   "label": "Funciona",
-   "titulo": "El servicio y la decisión de equipo",
-   "texto": "El activo real es el servicio proactivo de Manu, resolverle el problema al cliente antes de que lo pida. En junio se definió que Ramiro entra como estratega creativo, el nexo entre los datos comerciales, la estrategia y la ejecución de contenido, para que Juana se libere y pueda ocuparse de estrategia creativa y edición."
-  },
-  {
-   "label": "Pendiente",
-   "titulo": "La rutina",
-   "texto": "La producción de contenido del equipo es despareja y todavía no se mide. Los procesos comerciales siguen siendo artesanales, con los datos por un lado y el marketing por el otro. La base de datos de leads y las automatizaciones de captación quedaron definidas en abril; si llegaron a implementarse, falta confirmar."
-  }
- ],
- "recorrido": {
-  "titulo": "Cinco meses de diseño y un trimestre sin cadencia",
-  "texto": "El 7 de abril Facu le marcó el diagnóstico de frente: la publicidad de recorridos de propiedades es una carrera hacia abajo, donde se compite por estética y por precio. La salida quedó escrita completa: contenido que resuelva problemas, una base de datos central donde entre cada lead, automatizaciones para capturar comentarios y un lanzamiento con producción profesional junto a Fede para fijar el estándar. Ese mismo día quedaron dos reglas duras, la llamada de precalificación obligatoria antes de cualquier visita y el orden de la pauta, que entra después de que el proceso comercial y la base de datos funcionen. En junio el reset con el equipo fue el momento más fuerte del tramo: entró Ramiro, se definió la campaña de captación de ticket medio sobre el perfil de cliente ideal que armó Franco, se fijaron estándares no negociables con consecuencias claras y se puso la cartera sobre la mesa, 22 propiedades contra un umbral de 35. También quedó definida la cadencia: planificación mensual de dos horas el último lunes y revisión de medio mes de treinta minutos entre Manu y cada agente. Desde el 12 de junio no hubo más llamadas uno a uno, y en el repaso del 2 de septiembre Teo planteó el sign-off y Facu coincidió. El diseño llegó al final completo y la repetición mensual quedó como la pieza que falta instalar.",
-  "hitos": [
-   {
-    "cuando": "7 abr",
-    "que": "se baja el ecosistema digital completo con facu"
-   },
-   {
-    "cuando": "7 abr",
-    "que": "quedan escritas la precalificación y el orden de la pauta"
-   },
-   {
-    "cuando": "abr–jun",
-    "que": "queda dentro de las grupales de contenido de f3"
-   },
-   {
-    "cuando": "12 jun",
-    "que": "reset con el equipo: entra ramiro y se fijan estándares"
-   },
-   {
-    "cuando": "12 jun",
-    "que": "la cartera sobre la mesa: 22 propiedades contra 35"
-   },
-   {
-    "cuando": "2 sep",
-    "que": "teo plantea el sign-off y facu coincide"
-   }
-  ]
- },
- "lectura": {
-  "titular": "Lo que sostiene el sistema es un dueño y una fecha.",
-  "texto": "El diseño está completo y es bueno. Lo que falta es la repetición: el contenido del equipo sale cuando sale, los seguimientos post venta se pierden y la planificación mensual todavía no se instaló. El cuello está en quién revisa el plan cada mes y con qué número adelante.",
-  "cita": "",
-  "cita_autor": ""
- },
- "respuestas": [
-  {
-   "tema": "Cómo se posiciona Manu",
-   "respuesta": "Como marca personal premium de ticket alto. El contenido habla de problemas del cliente: una separación, una familia que se muda, alguien que necesita liquidez."
-  },
-  {
-   "tema": "Qué se hace con cada lead",
-   "respuesta": "Los de ticket alto quedan con Manu y el resto baja a Team Bruzzone. Todos entran a una sola base de datos central."
-  },
-  {
-   "tema": "Cuál es el activo real del negocio",
-   "respuesta": "El servicio proactivo de Manu: resolverle el problema al cliente antes de que lo pida. Todo el contenido cuenta eso."
-  },
-  {
-   "tema": "Qué pasa antes de cada visita",
-   "respuesta": "Una llamada de precalificación obligatoria, para entender qué necesita el cliente y presentar las propiedades como solución a eso."
-  },
-  {
-   "tema": "En qué orden entra la pauta",
-   "respuesta": "Primero se validan los ángulos en orgánico. La pauta y la inteligencia artificial entran cuando el proceso comercial y la base de datos ya funcionan."
-  },
-  {
-   "tema": "Cuál es la cadencia del equipo",
-   "respuesta": "Planificación mensual de dos horas el último lunes de cada mes y revisión de medio mes de treinta minutos entre Manu y cada agente."
-  },
-  {
-   "tema": "Cuáles son los estándares",
-   "respuesta": "Contenido, actividad y pauta no negociables, con consecuencias claras. Cada agente invierte en su propia producción o paga un editor de cien a ciento cincuenta dólares por mes."
-  },
-  {
-   "tema": "Cuál es el umbral de la cartera",
-   "respuesta": "Treinta y cinco propiedades. Debajo de ese número el trabajo del equipo es la captación de ticket medio; arriba se habilita salir a clientes de ticket alto."
-  },
-  {
-   "tema": "Qué cubre Ramiro",
-   "respuesta": "El nexo entre los datos comerciales, la estrategia y la ejecución de contenido, con Juana liberada para estrategia creativa y edición."
-  }
- ],
- "entregables": [
-  {
-   "que": "El ecosistema digital escrito: marca, base de datos central y automatizaciones de captación",
-   "para": "Es el plan de implementación del trimestre, con las herramientas y el flujo de cada lead definidos."
-  },
-  {
-   "que": "El proceso comercial con la llamada de precalificación",
-   "para": "Lo bajan Manu y cada agente antes de toda visita, para que la propiedad se presente como solución a un problema concreto."
-  },
-  {
-   "que": "La cadencia armada: planificación mensual y revisión de medio mes",
-   "para": "La corre Manu con el equipo. Tres meses seguidos la convierten en costumbre."
-  },
-  {
-   "que": "La estrategia de la campaña de captación sobre el perfil de cliente ideal de Franco",
-   "para": "La ejecuta Ramiro, con los videos directos a cámara grabados para los anuncios."
-  },
-  {
-   "que": "La descripción del rol de estratega creativo",
-   "para": "Ordena qué cubre Ramiro y qué queda del lado de Juana, sin zonas grises."
-  }
- ],
- "punto_b": [
-  {
-   "fecha": "31 de octubre de 2026",
-   "titulo": "La cartera en 35 propiedades",
-   "texto": "El umbral que puso el propio equipo para poder salir a clientes de ticket alto. Hoy hay 22. Trece más es el trabajo del bimestre y salen de la campaña de captación de ticket medio."
-  },
-  {
-   "fecha": "30 de noviembre de 2026",
-   "titulo": "Tres planificaciones mensuales seguidas",
-   "texto": "Último lunes de septiembre, de octubre y de noviembre. Dos horas cada una, con contenido, actividad y pauta cargados, y con la revisión de medio mes hecha con cada agente. Tres seguidas es lo que convierte una reunión en costumbre."
-  }
- ],
- "roadmap": [
-  {
-   "cuando": "14 al 18 de septiembre",
-   "objetivo": "La campaña de captación en la calle",
-   "entregable": "La estrategia escrita sobre el perfil de cliente ideal de Franco, con los videos directos a cámara ya grabados para los anuncios. Cada ángulo se lee el día que sale: qué trae consultas y qué queda quieto.",
-   "quien": "Ramiro, con el visto bueno de Manu"
-  },
-  {
-   "cuando": "14 al 18 de septiembre",
-   "objetivo": "Los puntos de contacto auditados",
-   "entregable": "Destacadas, historias y perfil revisados para que alguien que llega por un anuncio sepa en diez segundos qué hacer. Va en la misma semana que la campaña, porque de eso depende que la pauta se aproveche.",
-   "quien": "Ramiro"
-  },
-  {
-   "cuando": "14 al 25 de septiembre",
-   "objetivo": "La base de datos de leads confirmada",
-   "entregable": "Confirmar si la base y las automatizaciones de captación quedaron implementadas y, si falta, dejarlas armadas con una sola herramienta. Corre en paralelo a la campaña: cada lead que entra por los anuncios tiene que caer ahí.",
-   "quien": "Manu"
-  },
-  {
-   "cuando": "Lunes 28 de septiembre",
-   "objetivo": "Primera planificación mensual",
-   "entregable": "Dos horas con el plan de octubre cargado en una sola planilla: contenido por agente, actividad esperada y pauta. Entra con la lectura de las dos primeras semanas de campaña arriba de la mesa.",
-   "quien": "Manu y el equipo"
-  },
-  {
-   "cuando": "13 al 16 de octubre",
-   "objetivo": "Revisión de medio mes",
-   "entregable": "Treinta minutos con cada agente, uno por uno, contra lo que se planificó. Es la reunión que hace que el plan exista.",
-   "quien": "Manu"
-  },
-  {
-   "cuando": "Lunes 26 de octubre",
-   "objetivo": "Segunda planificación mensual",
-   "entregable": "Plan de noviembre con la lectura de octubre adelante: qué ángulos trajeron consultas y cuántas propiedades entraron. Es la última semana para corregir la campaña antes del cierre de mes.",
-   "quien": "Manu y el equipo"
-  },
-  {
-   "cuando": "31 de octubre",
-   "objetivo": "La cartera en 35 propiedades",
-   "entregable": "Fecha dura. Trece propiedades más que hoy, contadas el día que entran. Con el número puesto se habilita la conversación de ticket alto; si viene corto, se revisa la campaña y el objetivo queda donde está.",
-   "quien": "Manu y el equipo"
-  },
-  {
-   "cuando": "Lunes 30 de noviembre",
-   "objetivo": "Tercera planificación mensual",
-   "entregable": "Plan de diciembre. Con tres seguidas, la rutina queda instalada y deja de depender de que alguien se acuerde.",
-   "quien": "Manu y el equipo"
-  }
- ],
- "accionables": [
-  {
-   "cuando": "Septiembre",
-   "cliente": [
-    "Poner la campaña de captación de ticket medio en la calle",
-    "Hacer la planificación mensual del último lunes con el equipo completo",
-    "Confirmar si la base de datos de leads quedó implementada y, si no, dejarla armada con una herramienta sola"
-   ],
-   "cascara": [
-    "Teo hace el sign-off y entrega este documento",
-    "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo en el sign-off (falta confirmar)"
-   ]
-  },
-  {
-   "cuando": "Octubre",
-   "cliente": [
-    "Revisión de medio mes de treinta minutos con cada agente",
-    "Auditar destacadas, historias y perfil antes de sumar pauta",
-    "Segunda planificación mensual con la lectura de octubre adelante"
-   ],
-   "cascara": [
-    "Sin llamadas uno a uno"
-   ]
-  },
-  {
-   "cuando": "Noviembre",
-   "cliente": [
-    "Medir la cartera contra el umbral de 35",
-    "Tercera planificación mensual",
-    "Decidir si se abre la conversación de ticket alto o se insiste con captación"
-   ],
-   "cascara": [
-    "Sin llamadas uno a uno"
-   ]
-  }
- ],
- "conclusion": "El negocio tiene una definición clara de a quién le vende y un servicio que lo sostiene, y el cuadro completo ya está escrito: marca, flujo de leads, proceso comercial y cadencia. La dirección del trimestre es una sola y es numérica: llevar la cartera de 22 a 35 con la campaña de captación de ticket medio, porque ese número es el que habilita todo el juego de ticket alto. Eso se consigue repitiendo, con Ramiro a cargo de la ejecución de contenido y Manu revisando cada mes con la planilla adelante.\n\nEl calendario está apretado a propósito. La campaña y la auditoría de los puntos de contacto entran en la misma semana, la base de datos se confirma mientras los anuncios ya corren, y la cartera se mide el 31 de octubre con las propiedades contadas el día que entran: esa es la fecha dura, un mes antes de la tercera planificación. El diseño llegó completo al final del tramo y el trimestre pasado se fue sin cadencia, así que de acá en adelante el resultado depende de las fechas que Manu se ponga y sostenga sin que nadie las pida de afuera. Esa presión es parte de lo que se entrena acá: un founder cumple el calendario que escribió él.\n\nEl frente que queda abierto es la base de datos de leads: si quedó implementada con las automatizaciones de captación o si hay que armarla de nuevo con una sola herramienta. Se confirma en la primera semana, porque de ahí en adelante cada lead de la campaña tiene que caer en un solo lugar.",
- "carta": "Manu, tenés armado un sistema que muchos equipos de tu rubro no tienen ni pensado: sabés a quién le vendés, qué contás, cómo precalificás y qué mide cada agente. Este tramo dejó ese diseño terminado y el equipo alineado en junio con estándares que ustedes mismos escribieron. También es cierto que el trimestre pasó sin cadencia y que la cartera está donde estaba, y por eso lo que sigue no necesita más dirección nuestra. Lo que te espera es lo más simple y lo más difícil a la vez: el último lunes de cada mes, dos horas, con el equipo y la planilla adelante. Tres seguidas y la rutina ya no depende de vos. Si a fin de noviembre la cartera llegó a 35, esa conversación de ticket alto nos la debemos, y la vamos a tener con números arriba de la mesa.",
- "abierto": "Si la base de datos de leads y las automatizaciones de captación llegaron a implementarse.",
- "handicap": {
-  "ejes": {
-   "oferta": 3,
-   "contenido": 2,
-   "demanda": 1,
-   "venta": 2,
-   "entrega": 3
-  },
-  "total": 11,
-  "tramo": "Andando",
-  "ritmo": "rojo",
-  "ritmo_texto": "Hace tiempo que no mueve.",
-  "eje_flojo": [
-   "demanda"
+  "slug": "manu-bruzzone",
+  "cliente": "Manuel Bruzzone",
+  "proyecto": "Manuel Bruzzone y Team Bruzzone",
+  "modo": "cierre",
+  "orientacion": "Sostener",
+  "arranque": "(falta confirmar) — la llamada de estrategia con Facu fue el 7 de abril de 2026",
+  "etapa": "Se cierra el acompañamiento: el sistema está escrito hasta el último detalle y la rutina mensual que lo hace funcionar está por instalarse.",
+  "metrica": "Propiedades en cartera: 22 sobre un objetivo de 35.",
+  "titular": "El sistema de Manu está diseñado completo. El trabajo de este tramo es la rutina: tres planificaciones seguidas y la cartera de 22 a 35.",
+  "bajada": "En abril se bajó el ecosistema entero: marca personal premium, base de datos de leads y proceso comercial. En junio se sumó el equipo y una cadencia mensual. Desde entonces pasaron tres meses sin llamadas y la cartera sigue en 22.",
+  "punto_a": [
+    {
+      "label": "Resuelto",
+      "titulo": "La estrategia de marca",
+      "texto": "Manu se posiciona como marca personal premium de ticket alto. El contenido habla de problemas del cliente: una separación, una familia que se muda, alguien que necesita liquidez. Los leads que no dan ticket alto bajan a Team Bruzzone. Eso quedó definido en abril y se mantuvo igual."
+    },
+    {
+      "label": "Funciona",
+      "titulo": "El servicio y la decisión de equipo",
+      "texto": "El activo real es el servicio proactivo de Manu, resolverle el problema al cliente antes de que lo pida. En junio se definió que Ramiro entra como estratega creativo, el nexo entre los datos comerciales, la estrategia y la ejecución de contenido, para que Juana se libere y pueda ocuparse de estrategia creativa y edición."
+    },
+    {
+      "label": "Pendiente",
+      "titulo": "La rutina",
+      "texto": "La producción de contenido del equipo es despareja y todavía no se mide. Los procesos comerciales siguen siendo artesanales, con los datos por un lado y el marketing por el otro. La base de datos de leads y las automatizaciones de captación quedaron definidas en abril; si llegaron a implementarse, falta confirmar."
+    }
   ],
-  "sugiere": [
-   "Sostener"
+  "recorrido": {
+    "titulo": "Cinco meses de diseño y un trimestre sin cadencia",
+    "texto": "El 7 de abril Facu le marcó el diagnóstico de frente: la publicidad de recorridos de propiedades es una carrera hacia abajo, donde se compite por estética y por precio. La salida quedó escrita completa: contenido que resuelva problemas, una base de datos central donde entre cada lead, automatizaciones para capturar comentarios y un lanzamiento con producción profesional junto a Fede para fijar el estándar. Ese mismo día quedaron dos reglas duras, la llamada de precalificación obligatoria antes de cualquier visita y el orden de la pauta, que entra después de que el proceso comercial y la base de datos funcionen. En junio el reset con el equipo fue el momento más fuerte del tramo: entró Ramiro, se definió la campaña de captación de ticket medio sobre el perfil de cliente ideal que armó Franco, se fijaron estándares no negociables con consecuencias claras y se puso la cartera sobre la mesa, 22 propiedades contra un umbral de 35. También quedó definida la cadencia: planificación mensual de dos horas el último lunes y revisión de medio mes de treinta minutos entre Manu y cada agente. Desde el 12 de junio no hubo más llamadas uno a uno, y en el repaso del 2 de septiembre Teo planteó el sign-off y Facu coincidió. El diseño llegó al final completo y la repetición mensual quedó como la pieza que falta instalar.",
+    "hitos": [
+      {
+        "cuando": "7 abr",
+        "que": "se baja el ecosistema digital completo con facu"
+      },
+      {
+        "cuando": "7 abr",
+        "que": "quedan escritas la precalificación y el orden de la pauta"
+      },
+      {
+        "cuando": "abr–jun",
+        "que": "queda dentro de las grupales de contenido de f3"
+      },
+      {
+        "cuando": "12 jun",
+        "que": "reset con el equipo: entra ramiro y se fijan estándares"
+      },
+      {
+        "cuando": "12 jun",
+        "que": "la cartera sobre la mesa: 22 propiedades contra 35"
+      },
+      {
+        "cuando": "2 sep",
+        "que": "teo plantea el sign-off y facu coincide"
+      },
+      {
+        "cuando": "16 sep",
+        "que": "entra al circuito de cierre: entró a capacitarse y el objetivo está cumplido"
+      }
+    ]
+  },
+  "lectura": {
+    "titular": "Lo que sostiene el sistema es un dueño y una fecha.",
+    "texto": "El diseño está completo y es bueno. Lo que falta es la repetición: el contenido del equipo sale cuando sale, los seguimientos post venta se pierden y la planificación mensual todavía no se instaló. El cuello está en quién revisa el plan cada mes y con qué número adelante.",
+    "cita": "",
+    "cita_autor": ""
+  },
+  "respuestas": [
+    {
+      "tema": "Cómo se posiciona Manu",
+      "respuesta": "Como marca personal premium de ticket alto. El contenido habla de problemas del cliente: una separación, una familia que se muda, alguien que necesita liquidez."
+    },
+    {
+      "tema": "Qué se hace con cada lead",
+      "respuesta": "Los de ticket alto quedan con Manu y el resto baja a Team Bruzzone. Todos entran a una sola base de datos central."
+    },
+    {
+      "tema": "Cuál es el activo real del negocio",
+      "respuesta": "El servicio proactivo de Manu: resolverle el problema al cliente antes de que lo pida. Todo el contenido cuenta eso."
+    },
+    {
+      "tema": "Qué pasa antes de cada visita",
+      "respuesta": "Una llamada de precalificación obligatoria, para entender qué necesita el cliente y presentar las propiedades como solución a eso."
+    },
+    {
+      "tema": "En qué orden entra la pauta",
+      "respuesta": "Primero se validan los ángulos en orgánico. La pauta y la inteligencia artificial entran cuando el proceso comercial y la base de datos ya funcionan."
+    },
+    {
+      "tema": "Cuál es la cadencia del equipo",
+      "respuesta": "Planificación mensual de dos horas el último lunes de cada mes y revisión de medio mes de treinta minutos entre Manu y cada agente."
+    },
+    {
+      "tema": "Cuáles son los estándares",
+      "respuesta": "Contenido, actividad y pauta no negociables, con consecuencias claras. Cada agente invierte en su propia producción o paga un editor de cien a ciento cincuenta dólares por mes."
+    },
+    {
+      "tema": "Cuál es el umbral de la cartera",
+      "respuesta": "Treinta y cinco propiedades. Debajo de ese número el trabajo del equipo es la captación de ticket medio; arriba se habilita salir a clientes de ticket alto."
+    },
+    {
+      "tema": "Qué cubre Ramiro",
+      "respuesta": "El nexo entre los datos comerciales, la estrategia y la ejecución de contenido, con Juana liberada para estrategia creativa y edición."
+    }
   ],
-  "nota": "Se trabaja por demanda, el eje más bajo: la campaña de captación y la base de datos son lo único que mueve la cartera de veintidós a treinta y cinco, y eso se resuelve repitiendo la cadencia mensual."
- }
+  "entregables": [
+    {
+      "que": "El ecosistema digital escrito: marca, base de datos central y automatizaciones de captación",
+      "para": "Es el plan de implementación del trimestre, con las herramientas y el flujo de cada lead definidos."
+    },
+    {
+      "que": "El proceso comercial con la llamada de precalificación",
+      "para": "Lo bajan Manu y cada agente antes de toda visita, para que la propiedad se presente como solución a un problema concreto."
+    },
+    {
+      "que": "La cadencia armada: planificación mensual y revisión de medio mes",
+      "para": "La corre Manu con el equipo. Tres meses seguidos la convierten en costumbre."
+    },
+    {
+      "que": "La estrategia de la campaña de captación sobre el perfil de cliente ideal de Franco",
+      "para": "La ejecuta Ramiro, con los videos directos a cámara grabados para los anuncios."
+    },
+    {
+      "que": "La descripción del rol de estratega creativo",
+      "para": "Ordena qué cubre Ramiro y qué queda del lado de Juana, sin zonas grises."
+    }
+  ],
+  "punto_b": [
+    {
+      "fecha": "31 de octubre de 2026",
+      "titulo": "La cartera en 35 propiedades",
+      "texto": "El umbral que puso el propio equipo para poder salir a clientes de ticket alto. Hoy hay 22. Trece más es el trabajo del bimestre y salen de la campaña de captación de ticket medio."
+    },
+    {
+      "fecha": "30 de noviembre de 2026",
+      "titulo": "Tres planificaciones mensuales seguidas",
+      "texto": "Último lunes de septiembre, de octubre y de noviembre. Dos horas cada una, con contenido, actividad y pauta cargados, y con la revisión de medio mes hecha con cada agente. Tres seguidas es lo que convierte una reunión en costumbre."
+    }
+  ],
+  "roadmap": [
+    {
+      "cuando": "14 al 18 de septiembre",
+      "objetivo": "La campaña de captación en la calle",
+      "entregable": "La estrategia escrita sobre el perfil de cliente ideal de Franco, con los videos directos a cámara ya grabados para los anuncios. Cada ángulo se lee el día que sale: qué trae consultas y qué queda quieto.",
+      "quien": "Ramiro, con el visto bueno de Manu"
+    },
+    {
+      "cuando": "14 al 18 de septiembre",
+      "objetivo": "Los puntos de contacto auditados",
+      "entregable": "Destacadas, historias y perfil revisados para que alguien que llega por un anuncio sepa en diez segundos qué hacer. Va en la misma semana que la campaña, porque de eso depende que la pauta se aproveche.",
+      "quien": "Ramiro"
+    },
+    {
+      "cuando": "14 al 25 de septiembre",
+      "objetivo": "La base de datos de leads confirmada",
+      "entregable": "Confirmar si la base y las automatizaciones de captación quedaron implementadas y, si falta, dejarlas armadas con una sola herramienta. Corre en paralelo a la campaña: cada lead que entra por los anuncios tiene que caer ahí.",
+      "quien": "Manu"
+    },
+    {
+      "cuando": "Lunes 28 de septiembre",
+      "objetivo": "Primera planificación mensual",
+      "entregable": "Dos horas con el plan de octubre cargado en una sola planilla: contenido por agente, actividad esperada y pauta. Entra con la lectura de las dos primeras semanas de campaña arriba de la mesa.",
+      "quien": "Manu y el equipo"
+    },
+    {
+      "cuando": "13 al 16 de octubre",
+      "objetivo": "Revisión de medio mes",
+      "entregable": "Treinta minutos con cada agente, uno por uno, contra lo que se planificó. Es la reunión que hace que el plan exista.",
+      "quien": "Manu"
+    },
+    {
+      "cuando": "Lunes 26 de octubre",
+      "objetivo": "Segunda planificación mensual",
+      "entregable": "Plan de noviembre con la lectura de octubre adelante: qué ángulos trajeron consultas y cuántas propiedades entraron. Es la última semana para corregir la campaña antes del cierre de mes.",
+      "quien": "Manu y el equipo"
+    },
+    {
+      "cuando": "31 de octubre",
+      "objetivo": "La cartera en 35 propiedades",
+      "entregable": "Fecha dura. Trece propiedades más que hoy, contadas el día que entran. Con el número puesto se habilita la conversación de ticket alto; si viene corto, se revisa la campaña y el objetivo queda donde está.",
+      "quien": "Manu y el equipo"
+    },
+    {
+      "cuando": "Lunes 30 de noviembre",
+      "objetivo": "Tercera planificación mensual",
+      "entregable": "Plan de diciembre. Con tres seguidas, la rutina queda instalada y deja de depender de que alguien se acuerde.",
+      "quien": "Manu y el equipo"
+    }
+  ],
+  "accionables": [
+    {
+      "cuando": "Septiembre",
+      "cliente": [
+        "Poner la campaña de captación de ticket medio en la calle",
+        "Hacer la planificación mensual del último lunes con el equipo completo",
+        "Confirmar si la base de datos de leads quedó implementada y, si no, dejarla armada con una herramienta sola"
+      ],
+      "cascara": [
+        "Teo hace el sign-off y entrega este documento",
+        "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo en el sign-off (falta confirmar)"
+      ]
+    },
+    {
+      "cuando": "Octubre",
+      "cliente": [
+        "Revisión de medio mes de treinta minutos con cada agente",
+        "Auditar destacadas, historias y perfil antes de sumar pauta",
+        "Segunda planificación mensual con la lectura de octubre adelante"
+      ],
+      "cascara": [
+        "Sin llamadas uno a uno"
+      ]
+    },
+    {
+      "cuando": "Noviembre",
+      "cliente": [
+        "Medir la cartera contra el umbral de 35",
+        "Tercera planificación mensual",
+        "Decidir si se abre la conversación de ticket alto o se insiste con captación"
+      ],
+      "cascara": [
+        "Sin llamadas uno a uno"
+      ]
+    }
+  ],
+  "conclusion": "El negocio tiene una definición clara de a quién le vende y un servicio que lo sostiene, y el cuadro completo ya está escrito: marca, flujo de leads, proceso comercial y cadencia. La dirección del trimestre es una sola y es numérica: llevar la cartera de 22 a 35 con la campaña de captación de ticket medio, porque ese número es el que habilita todo el juego de ticket alto. Eso se consigue repitiendo, con Ramiro a cargo de la ejecución de contenido y Manu revisando cada mes con la planilla adelante.\n\nEl calendario está apretado a propósito. La campaña y la auditoría de los puntos de contacto entran en la misma semana, la base de datos se confirma mientras los anuncios ya corren, y la cartera se mide el 31 de octubre con las propiedades contadas el día que entran: esa es la fecha dura, un mes antes de la tercera planificación. El diseño llegó completo al final del tramo y el trimestre pasado se fue sin cadencia, así que de acá en adelante el resultado depende de las fechas que Manu se ponga y sostenga sin que nadie las pida de afuera. Esa presión es parte de lo que se entrena acá: un founder cumple el calendario que escribió él.\n\nEl frente que queda abierto es la base de datos de leads: si quedó implementada con las automatizaciones de captación o si hay que armarla de nuevo con una sola herramienta. Se confirma en la primera semana, porque de ahí en adelante cada lead de la campaña tiene que caer en un solo lugar.",
+  "carta": "Manu, tenés armado un sistema que muchos equipos de tu rubro no tienen ni pensado: sabés a quién le vendés, qué contás, cómo precalificás y qué mide cada agente. Este tramo dejó ese diseño terminado y el equipo alineado en junio con estándares que ustedes mismos escribieron. También es cierto que el trimestre pasó sin cadencia y que la cartera está donde estaba, y por eso lo que sigue no necesita más dirección nuestra. Lo que te espera es lo más simple y lo más difícil a la vez: el último lunes de cada mes, dos horas, con el equipo y la planilla adelante. Tres seguidas y la rutina ya no depende de vos. Si a fin de noviembre la cartera llegó a 35, esa conversación de ticket alto nos la debemos, y la vamos a tener con números arriba de la mesa.",
+  "abierto": "Si la base de datos de leads y las automatizaciones de captación llegaron a implementarse. La fecha de la llamada de cierre con Teo, que depende de que Teo pase su agenda (falta confirmar).",
+  "handicap": {
+    "ejes": {
+      "oferta": 3,
+      "contenido": 2,
+      "demanda": 1,
+      "venta": 2,
+      "entrega": 3
+    },
+    "total": 11,
+    "tramo": "Andando",
+    "ritmo": "rojo",
+    "ritmo_texto": "Hace tiempo que no mueve.",
+    "eje_flojo": [
+      "demanda"
+    ],
+    "sugiere": [
+      "Sostener"
+    ],
+    "nota": "Se trabaja por demanda, el eje más bajo: la campaña de captación y la base de datos son lo único que mueve la cartera de veintidós a treinta y cinco, y eso se resuelve repitiendo la cadencia mensual."
+  }
 }

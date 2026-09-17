@@ -19,11 +19,8 @@ COMO_SUBE={
 }
 def cien(n): return n*20+10
 
-def SHELL():
-    s=open('/tmp/claude-0/shell.txt',encoding='utf-8').read()
-    ns={}; exec(s,{},ns)
-    return ns['SHELL_HEAD'], ns['SHELL_TAIL']
-SHELL_HEAD, SHELL_TAIL = SHELL()
+# el shell lo define build.py, que ya se importa como B
+SHELL_HEAD, SHELL_TAIL = B.SHELL_HEAD, B.SHELL_TAIL
 
 # checklist con memoria + fibrón
 EXTRA = '''
@@ -362,11 +359,14 @@ def build(d):
     return out
 
 if __name__=="__main__":
-    os.makedirs("out2",exist_ok=True)
+    RAIZ=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    SAL=os.path.join(RAIZ,"clientes")
+    os.makedirs(SAL,exist_ok=True)
     n=0
-    for f in sorted(glob.glob("v2/fichas/*.json")):
+    for f in sorted(glob.glob(os.path.join(RAIZ,"fichas","*.json"))):
+        if os.path.basename(f)=="inventario.json": continue   # el inventario no es una ficha de founder
         d=json.load(open(f,encoding="utf-8"))
         tit=f'{d["cliente"]} · {"Informe de cierre" if d["modo"]=="cierre" else "Radiografía y roadmap"}'
-        open(f'out2/{d["slug"]}.html',"w",encoding="utf-8").write(compose(build(d),tit))
+        open(os.path.join(SAL,d["slug"]+".html"),"w",encoding="utf-8").write(compose(build(d),tit))
         n+=1
-    print("documentos v2:",n)
+    print("documentos:",n)

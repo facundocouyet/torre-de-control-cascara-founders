@@ -1,251 +1,255 @@
 {
- "slug": "custom-lab",
- "cliente": "Piero Medina y Juan — Custom Lab",
- "proyecto": "Custom Lab — producción textil y merch. Piero lleva la parte creativa y Juan la comercial y administrativa",
- "modo": "radiografia",
- "orientacion": "Conseguir",
- "arranque": "(falta confirmar) — para el 25 de agosto de 2026 ya habían pasado por una primera llamada con Facu y por la llamada comercial con Franco",
- "etapa": "Cierra el primer tramo con los accionables de Franco cumplidos y el recontacto ya vendiendo: falta el roadmap con punto de llegada, que baja Facu después de la próxima llamada con Franco.",
- "metrica": "Cuántos presupuestos entran por semana por WhatsApp y por el e-commerce, y cuántos de esos vienen de un nicho que no sea el de la iglesia.",
- "titular": "El merch es el medio publicitario de otra marca. Con esa definición cambian el cliente, el precio y el canal que hay que construir.",
- "bajada": "Hoy producen para el nicho cristiano, que dominan y que compra sin fechas fijas y con presupuesto chico. El tramo mueve la oferta de producción textil a publicidad hecha con merch, apuntada a nichos que pagan. El Shopify y la landing son la infraestructura, y el recontacto, que ya les vendió, es el motor de ventas mientras lo otro levanta.",
- "punto_a": [
-  {
-   "label": "Funciona",
-   "titulo": "El recontacto vendió",
-   "texto": "Sobre los accionables que les dejó Franco, Juan armó la base histórica de clientes de los últimos dos años y la dejó en Notion: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién los contactó, quién toma la decisión de compra, si repitió y qué respondió en el recontacto. Con esa lista salieron a recontactar y vendieron. Teo lo confirmó en el repaso. Es el único motor de ventas que hoy tienen probado y hay que seguir usándolo mientras se construye el resto."
-  },
-  {
-   "label": "Funciona",
-   "titulo": "Producen bien y dominan el nicho cristiano",
-   "texto": "Tienen buena capacidad de producción y resuelven. Y en el nicho cristiano están desde que arrancaron: conocidos que hacen conciertos, eventos y de todo. Juan lo plantea como su ventaja principal y quiere seguir aprovechándola. Facu le aceptó la ventaja y le marcó el techo: ese nicho ya lo tienen dominado, van a seguir vendiendo ahí igual, y es cuestión de tiempo y de networking persona a persona. Las iglesias compran sin fechas recurrentes y los artistas compran con presupuesto chico, así que ese nicho funciona como paracaídas: sostiene, y el piso del negocio hay que construirlo en otro lado."
-  },
-  {
-   "label": "Pendiente",
-   "titulo": "El canal que recibe la demanda está por construirse",
-   "texto": "La cuenta de Instagram está dormida hace tiempo y el algoritmo hay que entrenarlo de nuevo. La cuenta de anuncios está armada, linkeada y autorizada, y todavía sin pautar: hoy no tienen con qué pagarle a alguien que la opere. El e-commerce está por armarse y la landing que hay pierde al que entra: demasiado aire, el llamado a la acción escondido y un formulario que pide menos de lo que hace falta para cotizar. Todo lo que venden hoy sale de que ellos salgan a empujar uno por uno."
-  }
- ],
- "recorrido": {
-  "titulo": "El mes en que cambió la definición del negocio",
-  "texto": "La primera llamada con Facu arrancó directo en el negocio, porque él conoce el rubro desde adentro con una fábrica textil propia, y ahí quedó planteado lo primero: clasificar el cliente ideal y apuntar la oferta a un nicho con más plata. Los accionables de Franco se cumplieron, y eso es el dato más importante del tramo: armaron la base histórica de dos años, salieron a recontactar y de ahí salieron ventas, con tres kits en camino. El 25 de agosto Juan defendió el nicho cristiano como su ventaja, Facu le aceptó la ventaja y le marcó el techo, y de ahí salió el giro: dejan de venderse como productores textiles, que es un commodity, y pasan a vender publicidad hecha con merch. Con ese movimiento se descartaron cosas concretas: el kit de construcción quedó pausado porque el rubro está fundido y se compra por LinkedIn a largo plazo, y el apunte pasó a empresas de 30 a 50 empleados, startups, negocios digitales y oficinas. El 1 de septiembre Facu les bajó los ángulos de comunicación, con la expectativa marcada de que el orgánico va a tardar en levantar porque la cuenta está dormida y que sirve sobre todo para validar qué ángulo funciona. En las grupales se presentó Piero, que entró hace poco del lado creativo mientras Juan lleva lo comercial y administrativo, y Fede les auditó la cuenta en vivo dejando los arreglos concretos: simplificar el nombre a Custom Lab, la bio con diseño y producción de merch para empresas argentinas más un pedí tu cotización y el link a la web, una sola historia destacada con la referencia de Romper la Cáscara, y la palabra merch con una promesa concreta en cada pieza, del tipo merch en setenta y dos horas. La llamada del 10 de septiembre resolvió lo técnico: la landing se rediseña con imagen a la izquierda y texto a la derecha, captura de mail en dos lugares y campo de proyecto obligatorio, y la visualización de los datos se mueve de Supabase a Notion o Airtable. Facu lo resumió como un cliente difícil y marcó lo que falta, que es un roadmap con punto de llegada, porque hasta ahora vienen ejecutando accionables sueltos.",
-  "hitos": [
-   {
-    "cuando": "primera llamada (falta confirmar)",
-    "que": "diagnóstico con facu: apuntar la oferta a un nicho con más plata"
-   },
-   {
-    "cuando": "ago",
-    "que": "accionables de franco: base histórica, recontacto y kits por rubro"
-   },
-   {
-    "cuando": "25 ago",
-    "que": "la oferta pasa a publicidad hecha con merch"
-   },
-   {
-    "cuando": "2 y 4 sep",
-    "que": "grupales: se presenta piero y fede audita la cuenta en vivo"
-   },
-   {
-    "cuando": "1 sep",
-    "que": "facu baja los ángulos de comunicación"
-   },
-   {
-    "cuando": "2 sep",
-    "que": "repaso con teo: falta el roadmap con punto de llegada"
-   },
-   {
-    "cuando": "10 sep",
-    "que": "llamada de procesos: landing nueva y datos a notion o airtable"
-   }
-  ]
- },
- "lectura": {
-  "titular": "El cuello es la demanda: hoy la venta depende de que ellos salgan a buscar uno por uno.",
-  "texto": "La producción la resuelven y en su nicho tienen los contactos. El único motor que funciona es el empuje propio, y el nicho donde son fuertes compra sin fechas recurrentes y con presupuesto chico. Por eso el trabajo del tramo es doble: mover la oferta a un nicho que paga y levantar la infraestructura que recibe la demanda. Una cosa sin la otra deja el mismo resultado que hoy.",
-  "cita": "Tenemos mucha ventaja en el nicho cristiano, porque nosotros estamos ahí desde que nacimos, tenemos muchos conocidos ahí, que hacen conciertos, hacen eventos, hacen de todo, y creo que ahí tenemos una ventaja muy grande, que no podemos dejar de aprovechar.",
-  "cita_autor": "Juan Aguirre · 25 de agosto de 2026"
- },
- "respuestas": [
-  {
-   "tema": "Qué venden",
-   "respuesta": "Publicidad hecha con merch. La producción textil pasa a ser el cómo, y la venta se arma sobre el resultado publicitario que el merch le da a otra marca."
-  },
-  {
-   "tema": "El disparador de comunicación",
-   "respuesta": "«Si tu mejor publicidad fuera un regalo, ¿qué sería?». Con esa pregunta abre la landing y sobre esa pregunta se arma el contenido."
-  },
-  {
-   "tema": "A quién le venden",
-   "respuesta": "Empresas de 30 a 50 empleados, startups, negocios digitales y oficinas, con kits de onboarding, de oficina y de freelance, cada uno atado a un problema de cultura de equipo o de marca."
-  },
-  {
-   "tema": "La lectura del mercado",
-   "respuesta": "El nicho cristiano se sostiene por networking persona a persona y sigue facturando. La construcción queda pausada porque el rubro está fundido y se compra por LinkedIn a largo plazo, y el local comercial conectado a importación sigue creciendo y entra en la pauta."
-  },
-  {
-   "tema": "El rol del e-commerce",
-   "respuesta": "Shopify es infraestructura: producto simple de entrada a precio mayorista competitivo, margen chico y volumen para que gire la rueda. El personalizado siempre pasa por WhatsApp o por llamada."
-  },
-  {
-   "tema": "Las reglas de producción",
-   "respuesta": "Nunca menos de diez unidades en cualquier trabajo de personalización. Si quieren limitar los pedidos chicos, se hace con precio."
-  },
-  {
-   "tema": "La táctica de entrada",
-   "respuesta": "Ofrecer una auditoría de publicidad gratis: diagnostica al cliente y deja el merch puesto como la solución."
-  },
-  {
-   "tema": "Dónde viven los datos",
-   "respuesta": "Supabase guarda y Notion o Airtable muestran. Ellos tienen que poder filtrar y leer la base de clientes y presupuestos sin depender de alguien técnico, y sacar informes con IA para decidir con datos en lugar de decidir de memoria."
-  },
-  {
-   "tema": "El orden de la pauta",
-   "respuesta": "Primero orgánico para ver qué ángulo hace chispazo y después pauta sobre ese ángulo. La cuenta está dormida, así que el orgánico va a tardar y sirve sobre todo para validar y mantenerla activa."
-  }
- ],
- "entregables": [
-  {
-   "que": "El roadmap con punto de llegada",
-   "para": "Lo baja Facu después de la llamada con Franco, y es el documento contra el cual Custom Lab mide el tramo."
-  },
-  {
-   "que": "Los ángulos de comunicación",
-   "para": "Ya bajados: dolores, diferencial, historia propia y casos. Sobre esos ángulos escriben y graban la pieza semanal."
-  },
-  {
-   "que": "La estrategia de pauta y los guiones de los anuncios",
-   "para": "Los escribe Cáscara calibrados al cliente pyme y al local comercial; ellos configuran y operan la cuenta que ya tienen linkeada."
-  },
-  {
-   "que": "El feedback sobre el copy de la landing y sobre los kits",
-   "para": "Ellos escriben y mandan, y Facu devuelve las correcciones antes de publicar."
-  },
-  {
-   "que": "La auditoría de la cuenta que hizo Fede en vivo",
-   "para": "Quedó la lista de arreglos concretos —nombre, bio, destacada y promesa en cada pieza— para aplicarla al perfil."
-  }
- ],
- "punto_b": [
-  {
-   "fecha": "26 de septiembre de 2026",
-   "titulo": "El e-commerce arriba y la landing publicada",
-   "texto": "Shopify armado y funcionando con los productos simples cargados a precio mayorista competitivo: remeras, buzos, gorras, tote bags y los accesorios que ya tienen proveedor. La landing de servicios publicada, abriendo con la pregunta del regalo, contando quiénes son, qué resuelven y con un formulario que capture la mayor cantidad posible de información de quien entra. Los kits redefinidos para oficinas, startups y freelance. Y la primera tanda de contenido publicada contra los ángulos que ya les bajó Facu."
-  },
-  {
-   "fecha": "31 de octubre de 2026",
-   "titulo": "Ventas fuera del nicho iglesia, con la pauta corriendo",
-   "texto": "La pauta corriendo con los guiones y la estrategia que baja Cáscara, apuntada a empresas de 30 a 50 empleados y a locales comerciales. El número a presentar es cuántos presupuestos entraron por semana, cuántos vinieron de nichos nuevos y cuántas ventas salieron del e-commerce. En paralelo, el recontacto sostenido como motor de ventas mientras esto levanta."
-  }
- ],
- "roadmap": [
-  {
-   "cuando": "15 al 17 de septiembre",
-   "objetivo": "Cerrar la oferta, el precio y el punto de llegada",
-   "entregable": "Llamada con Franco y bajada de Facu en la misma semana. Queda escrito qué venden ahora, publicidad hecha con merch, a quién, con qué kits y a qué precio. De ahí sale el punto de llegada del tramo, que es la pieza que hoy falta.",
-   "quien": "Custom Lab con Franco y Facu"
-  },
-  {
-   "cuando": "Del 15 al 22 de septiembre",
-   "objetivo": "La tienda y la landing publicadas",
-   "entregable": "Shopify brandeado con los productos de entrada a precio mayorista competitivo, con margen chico y volumen. En paralelo la landing rehecha: CTA visible sin scrollear, mail en dos lugares y campo de proyecto obligatorio. Fecha dura: 22 de septiembre, las dos arriba.",
-   "quien": "Custom Lab, con feedback de Facu"
-  },
-  {
-   "cuando": "Del 15 al 25 de septiembre",
-   "objetivo": "Los kits redefinidos para nichos que pagan",
-   "entregable": "Kit de onboarding, de oficina y de freelance, para empresas de 30 a 50 empleados, startups y negocios digitales, cada uno atado a un problema de cultura de equipo o de marca. El de construcción queda pausado. Se escriben mientras se arma la tienda.",
-   "quien": "Custom Lab con Facu"
-  },
-  {
-   "cuando": "Del 17 al 26 de septiembre",
-   "objetivo": "Los datos donde se puedan mirar",
-   "entregable": "La base de clientes y presupuestos visible en Notion o Airtable, con Supabase solo como almacenamiento. El criterio es que puedan filtrar y leer sin depender de alguien técnico, porque de ahí sale a qué nicho apuntar.",
-   "quien": "Custom Lab con Cáscara"
-  },
-  {
-   "cuando": "Del 18 de septiembre al 17 de octubre",
-   "objetivo": "El hábito de contenido instalado",
-   "entregable": "Una pieza por semana como mínimo, con día fijo de grabación, edición y publicación, contra los ángulos que ya bajó Facu. Cada pieza se lee el día que sale: qué mensaje y qué consulta trajo. Los roles y los horarios quedan repartidos entre los dos socios.",
-   "quien": "Custom Lab"
-  },
-  {
-   "cuando": "Del 29 de septiembre al 24 de octubre",
-   "objetivo": "La pauta corriendo",
-   "entregable": "Estrategia y guiones que baja Cáscara, calibrados al cliente pyme y al local comercial. Ellos configuran y operan sobre la cuenta que ya tienen linkeada. Se pauta en cuanto un ángulo hace chispazo en orgánico, sin esperar a que cierre el mes.",
-   "quien": "Custom Lab, con la estrategia de Facu"
-  },
-  {
-   "cuando": "Del 15 de septiembre al 31 de octubre",
-   "objetivo": "El recontacto sosteniendo la caja",
-   "entregable": "El recontacto sigue corriendo sobre la base histórica, que es el único motor probado. Los presupuestos se anotan la semana que entran, con el nicho del que vinieron, y se repasan con Facu semana a semana, mientras entran.",
-   "quien": "Custom Lab con Facu"
-  }
- ],
- "accionables": [
-  {
-   "cuando": "Septiembre",
-   "cliente": [
-    "Levantar el Shopify con los productos de entrada a precio mayorista competitivo",
-    "Rehacer la landing: menos aire, CTA visible, imagen a la izquierda y texto a la derecha, mail en dos lugares y campo de proyecto obligatorio",
-    "Escribir el copy de la landing con la pregunta del regalo y mandarlo para feedback",
-    "Mover la visualización de los datos a Notion o Airtable y dejar Supabase solo como almacenamiento",
-    "Redefinir los kits para oficinas, startups y freelance, y pausar el de construcción",
-    "Empezar a publicar una pieza por semana contra los ángulos ya bajados",
-    "Definir qué presupuesto mensual pueden poner en pauta y quién la va a operar"
-   ],
-   "cascara": [
-    "Franco cierra con ellos la oferta y el pricing en la llamada que tienen agendada",
-    "Facu baja el roadmap con punto de llegada sobre lo que salga de esa llamada",
-    "Facu les da feedback sobre el copy de la landing y sobre los kits",
-    "Cáscara les deja la estrategia de pauta y los guiones de los anuncios"
-   ]
-  },
-  {
-   "cuando": "Octubre",
-   "cliente": [
-    "Poner la pauta a correr sobre los ángulos que hicieron chispazo en orgánico",
-    "Sostener el recontacto sobre la base histórica como motor de ventas del mes",
-    "Registrar cuántos presupuestos entran por semana y de qué nicho vienen",
-    "Mantener el mínimo de diez unidades en cualquier trabajo de personalización"
-   ],
-   "cascara": [
-    "Facu calibra los anuncios y los ángulos según lo que vaya entrando",
-    "Facu los ayuda a leer qué producto del e-commerce vende y cuál no",
-    "Cáscara sostiene el seguimiento semanal para que el contenido no se corte"
-   ]
-  },
-  {
-   "cuando": "Cierre, 31 de octubre",
-   "cliente": [
-    "Presentar los números: presupuestos por semana, de qué nicho vinieron, ventas del e-commerce y ventas del recontacto"
-   ],
-   "cascara": [
-    "Facu y Franco revisan contra el punto A y definen el tramo siguiente"
-   ]
-  }
- ],
- "conclusion": "El negocio se direcciona a vender publicidad hecha con merch a empresas que tienen presupuesto de marketing, y la producción textil pasa a ser el cómo. Eso cambia el precio, el canal y el contenido, y el catálogo se ordena en kits de onboarding, de oficina y de freelance. El e-commerce de producto simple hace volumen y sostiene la caja, y el personalizado se cotiza por WhatsApp o por llamada con diez unidades de mínimo. Mientras el orgánico y la pauta levantan, el recontacto sobre la base histórica es el motor de ventas del mes, porque es lo único probado.\n\nEl calendario del tramo se aprieta. La tienda y la landing se publican el 22 de septiembre, que es la fecha dura, y los kits y la base de datos en Notion se trabajan en la misma ventana en que se arma la tienda, sin hacer fila. El contenido arranca el 18 de septiembre contra los ángulos que ya están bajados, y cada pieza y cada presupuesto se leen el día que aparecen, con el nicho anotado al lado. La razón es de caja: hasta que la infraestructura reciba demanda sola, todo lo que entra sale de que ellos empujen uno por uno, y cuanto más corta sea esa ventana, menos depende el mes de eso. Vienen ejecutando accionables sueltos, y a partir del 17 de septiembre hay un punto de llegada escrito contra el cual medirse. Eso es parte de lo que se entrena acá: bancar una fecha propia sin que nadie la venga a recordar.\n\nQueda abierto cuánto pueden poner por mes en pauta y quién la va a operar, porque hoy no tienen con qué pagarle a alguien que la maneje. Esa definición marca la velocidad de octubre y conviene cerrarla antes de que la pauta tenga que arrancar.",
- "carta": "Piero, Juan: hicieron lo que se les pidió. Armaron la base histórica de dos años, salieron a recontactar y vendieron, y eso ya dice qué clase de socios son cuando la tarea está clara. Lo que viene les pide otra cosa, que es aguantar unas semanas construyendo algo que todavía no factura: una tienda, una landing, un catálogo de kits y una cuenta que vuelva a moverse. El nicho donde son fuertes va a seguir estando y ahí van a seguir vendiendo mientras esto se levanta. La definición que apareció el 25 de agosto es lo más valioso del mes, porque cambia a quién pueden mirar a los ojos y con qué precio. Ténganla presente cada vez que escriban una pieza o contesten un presupuesto.",
- "abierto": "Cuánto pueden poner por mes en pauta y quién la opera, porque hoy no tienen con qué pagarle a nadie (falta confirmar).",
- "handicap": {
-  "ejes": {
-   "oferta": 1,
-   "contenido": 0,
-   "demanda": 1,
-   "venta": 3,
-   "entrega": 2
-  },
-  "total": 7,
-  "tramo": "Arranque",
-  "ritmo": "verde",
-  "ritmo_texto": "Hace lo que queda de cada llamada.",
-  "eje_flojo": [
-   "contenido"
+  "slug": "custom-lab",
+  "cliente": "Piero Medina y Juan — Custom Lab",
+  "proyecto": "Custom Lab — producción textil y merch. Piero lleva la parte creativa y Juan la comercial y administrativa",
+  "modo": "radiografia",
+  "orientacion": "Conseguir",
+  "arranque": "(falta confirmar) — para el 25 de agosto de 2026 ya habían pasado por una primera llamada con Facu y por la llamada comercial con Franco",
+  "etapa": "Cierra el primer tramo con el público objetivo cambiado a startups y pymes, la página en rehechura y el contenido frenado hace dos semanas: falta el roadmap con punto de llegada, que baja Facu después de la próxima llamada con Franco.",
+  "metrica": "Cuántos presupuestos entran por semana por WhatsApp y por el e-commerce, y cuántos de esos vienen de un nicho que no sea el de la iglesia.",
+  "titular": "El merch es el medio publicitario de otra marca. Con esa definición cambian el cliente, el precio y el canal que hay que construir.",
+  "bajada": "Hoy producen para el nicho cristiano, que dominan y que compra sin fechas fijas y con presupuesto chico. El tramo mueve la oferta de producción textil a publicidad hecha con merch, apuntada a nichos que pagan. El Shopify y la landing son la infraestructura, y el recontacto, que ya les vendió, es el motor de ventas mientras lo otro levanta.",
+  "punto_a": [
+    {
+      "label": "Funciona",
+      "titulo": "El recontacto vendió",
+      "texto": "Sobre los accionables que les dejó Franco, Juan armó la base histórica de clientes de los últimos dos años y la dejó en Notion: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién los contactó, quién toma la decisión de compra, si repitió y qué respondió en el recontacto. Con esa lista salieron a recontactar y vendieron. Teo lo confirmó en el repaso. Es el único motor de ventas que hoy tienen probado y hay que seguir usándolo mientras se construye el resto."
+    },
+    {
+      "label": "Funciona",
+      "titulo": "Producen bien y dominan el nicho cristiano",
+      "texto": "Tienen buena capacidad de producción y resuelven. Y en el nicho cristiano están desde que arrancaron: conocidos que hacen conciertos, eventos y de todo. Juan lo plantea como su ventaja principal y quiere seguir aprovechándola. Facu le aceptó la ventaja y le marcó el techo: ese nicho ya lo tienen dominado, van a seguir vendiendo ahí igual, y es cuestión de tiempo y de networking persona a persona. Las iglesias compran sin fechas recurrentes y los artistas compran con presupuesto chico, así que ese nicho funciona como paracaídas: sostiene, y el piso del negocio hay que construirlo en otro lado."
+    },
+    {
+      "label": "Pendiente",
+      "titulo": "El canal que recibe la demanda está por construirse",
+      "texto": "La cuenta de Instagram está dormida hace tiempo y el algoritmo hay que entrenarlo de nuevo. La cuenta de anuncios está armada, linkeada y autorizada, y todavía sin pautar: hoy no tienen con qué pagarle a alguien que la opere. El e-commerce está por armarse y la landing que hay pierde al que entra: demasiado aire, el llamado a la acción escondido y un formulario que pide menos de lo que hace falta para cotizar. Todo lo que venden hoy sale de que ellos salgan a empujar uno por uno."
+    }
   ],
-  "sugiere": [
-   "Sostener"
+  "recorrido": {
+    "titulo": "El mes en que cambió la definición del negocio",
+    "texto": "La primera llamada con Facu arrancó directo en el negocio, porque él conoce el rubro desde adentro con una fábrica textil propia, y ahí quedó planteado lo primero: clasificar el cliente ideal y apuntar la oferta a un nicho con más plata. Los accionables de Franco se cumplieron, y eso es el dato más importante del tramo: armaron la base histórica de dos años, salieron a recontactar y de ahí salieron ventas, con tres kits en camino. El 25 de agosto Juan defendió el nicho cristiano como su ventaja, Facu le aceptó la ventaja y le marcó el techo, y de ahí salió el giro: dejan de venderse como productores textiles, que es un commodity, y pasan a vender publicidad hecha con merch. Con ese movimiento se descartaron cosas concretas: el kit de construcción quedó pausado porque el rubro está fundido y se compra por LinkedIn a largo plazo, y el apunte pasó a empresas de 30 a 50 empleados, startups, negocios digitales y oficinas. El 1 de septiembre Facu les bajó los ángulos de comunicación, con la expectativa marcada de que el orgánico va a tardar en levantar porque la cuenta está dormida y que sirve sobre todo para validar qué ángulo funciona. En las grupales se presentó Piero, que entró hace poco del lado creativo mientras Juan lleva lo comercial y administrativo, y Fede les auditó la cuenta en vivo dejando los arreglos concretos: simplificar el nombre a Custom Lab, la bio con diseño y producción de merch para empresas argentinas más un pedí tu cotización y el link a la web, una sola historia destacada con la referencia de Romper la Cáscara, y la palabra merch con una promesa concreta en cada pieza, del tipo merch en setenta y dos horas. La llamada del 10 de septiembre resolvió lo técnico: la landing se rediseña con imagen a la izquierda y texto a la derecha, captura de mail en dos lugares y campo de proyecto obligatorio, y la visualización de los datos se mueve de Supabase a Notion o Airtable. Facu lo resumió como un cliente difícil y marcó lo que falta, que es un roadmap con punto de llegada, porque hasta ahora vienen ejecutando accionables sueltos. El 16 de septiembre Piero contó el cambio que venían trabajando con Franco y con Facu: el merch deja de apuntar a artistas y eventos y pasa a startups y pymes chicas de contenido digital. Están rehaciendo la página, aprendiendo qué necesita ese público y buscando proveedores nuevos, y por eso hace dos semanas que el contenido dejó de ser lo principal. Juana le corrigió el diagnóstico de frente: el problema no es la falta de organización, es que no tiene definidos sus territorios de contenido, y si un territorio no le da ganas de sentarse a grabar es porque está puesto para agradar y no porque sea suyo.",
+    "hitos": [
+      {
+        "cuando": "primera llamada (falta confirmar)",
+        "que": "diagnóstico con facu: apuntar la oferta a un nicho con más plata"
+      },
+      {
+        "cuando": "ago",
+        "que": "accionables de franco: base histórica, recontacto y kits por rubro"
+      },
+      {
+        "cuando": "25 ago",
+        "que": "la oferta pasa a publicidad hecha con merch"
+      },
+      {
+        "cuando": "2 y 4 sep",
+        "que": "grupales: se presenta piero y fede audita la cuenta en vivo"
+      },
+      {
+        "cuando": "1 sep",
+        "que": "facu baja los ángulos de comunicación"
+      },
+      {
+        "cuando": "2 sep",
+        "que": "repaso con teo: falta el roadmap con punto de llegada"
+      },
+      {
+        "cuando": "10 sep",
+        "que": "llamada de procesos: landing nueva y datos a notion o airtable"
+      },
+      {
+        "cuando": "16 sep",
+        "que": "grupal con juana: cambia el público a startups y pymes, dos semanas sin contenido"
+      }
+    ]
+  },
+  "lectura": {
+    "titular": "El cuello es la demanda: hoy la venta depende de que ellos salgan a buscar uno por uno.",
+    "texto": "La producción la resuelven y en su nicho tienen los contactos. El único motor que funciona es el empuje propio, y el nicho donde son fuertes compra sin fechas recurrentes y con presupuesto chico. Por eso el trabajo del tramo es doble: mover la oferta a un nicho que paga y levantar la infraestructura que recibe la demanda. Una cosa sin la otra deja el mismo resultado que hoy.",
+    "cita": "Tenemos mucha ventaja en el nicho cristiano, porque nosotros estamos ahí desde que nacimos, tenemos muchos conocidos ahí, que hacen conciertos, hacen eventos, hacen de todo, y creo que ahí tenemos una ventaja muy grande, que no podemos dejar de aprovechar.",
+    "cita_autor": "Juan Aguirre · 25 de agosto de 2026"
+  },
+  "respuestas": [
+    {
+      "tema": "Qué venden",
+      "respuesta": "Publicidad hecha con merch. La producción textil pasa a ser el cómo, y la venta se arma sobre el resultado publicitario que el merch le da a otra marca."
+    },
+    {
+      "tema": "El disparador de comunicación",
+      "respuesta": "«Si tu mejor publicidad fuera un regalo, ¿qué sería?». Con esa pregunta abre la landing y sobre esa pregunta se arma el contenido."
+    },
+    {
+      "tema": "A quién le venden",
+      "respuesta": "Empresas de 30 a 50 empleados, startups, negocios digitales y oficinas, con kits de onboarding, de oficina y de freelance, cada uno atado a un problema de cultura de equipo o de marca."
+    },
+    {
+      "tema": "La lectura del mercado",
+      "respuesta": "El nicho cristiano se sostiene por networking persona a persona y sigue facturando. La construcción queda pausada porque el rubro está fundido y se compra por LinkedIn a largo plazo, y el local comercial conectado a importación sigue creciendo y entra en la pauta."
+    },
+    {
+      "tema": "El rol del e-commerce",
+      "respuesta": "Shopify es infraestructura: producto simple de entrada a precio mayorista competitivo, margen chico y volumen para que gire la rueda. El personalizado siempre pasa por WhatsApp o por llamada."
+    },
+    {
+      "tema": "Las reglas de producción",
+      "respuesta": "Nunca menos de diez unidades en cualquier trabajo de personalización. Si quieren limitar los pedidos chicos, se hace con precio."
+    },
+    {
+      "tema": "La táctica de entrada",
+      "respuesta": "Ofrecer una auditoría de publicidad gratis: diagnostica al cliente y deja el merch puesto como la solución."
+    },
+    {
+      "tema": "Dónde viven los datos",
+      "respuesta": "Supabase guarda y Notion o Airtable muestran. Ellos tienen que poder filtrar y leer la base de clientes y presupuestos sin depender de alguien técnico, y sacar informes con IA para decidir con datos en lugar de decidir de memoria."
+    },
+    {
+      "tema": "El orden de la pauta",
+      "respuesta": "Primero orgánico para ver qué ángulo hace chispazo y después pauta sobre ese ángulo. La cuenta está dormida, así que el orgánico va a tardar y sirve sobre todo para validar y mantenerla activa."
+    }
   ],
-  "nota": "Contenido está en cero y es el piso: la cuenta está parada, y sin ángulo con chispazo no hay nada que pautar. La oferta baja a uno porque los kits se están redefiniendo y el precio recién sale de la llamada con Franco."
- }
+  "entregables": [
+    {
+      "que": "El roadmap con punto de llegada",
+      "para": "Lo baja Facu después de la llamada con Franco, y es el documento contra el cual Custom Lab mide el tramo."
+    },
+    {
+      "que": "Los ángulos de comunicación",
+      "para": "Ya bajados: dolores, diferencial, historia propia y casos. Sobre esos ángulos escriben y graban la pieza semanal."
+    },
+    {
+      "que": "La estrategia de pauta y los guiones de los anuncios",
+      "para": "Los escribe Cáscara calibrados al cliente pyme y al local comercial; ellos configuran y operan la cuenta que ya tienen linkeada."
+    },
+    {
+      "que": "El feedback sobre el copy de la landing y sobre los kits",
+      "para": "Ellos escriben y mandan, y Facu devuelve las correcciones antes de publicar."
+    },
+    {
+      "que": "La auditoría de la cuenta que hizo Fede en vivo",
+      "para": "Quedó la lista de arreglos concretos —nombre, bio, destacada y promesa en cada pieza— para aplicarla al perfil."
+    }
+  ],
+  "punto_b": [
+    {
+      "fecha": "26 de septiembre de 2026",
+      "titulo": "El e-commerce arriba y la landing publicada",
+      "texto": "Shopify armado y funcionando con los productos simples cargados a precio mayorista competitivo: remeras, buzos, gorras, tote bags y los accesorios que ya tienen proveedor. La landing de servicios publicada, abriendo con la pregunta del regalo, contando quiénes son, qué resuelven y con un formulario que capture la mayor cantidad posible de información de quien entra. Los kits redefinidos para oficinas, startups y freelance. Y la primera tanda de contenido publicada contra los ángulos que ya les bajó Facu."
+    },
+    {
+      "fecha": "31 de octubre de 2026",
+      "titulo": "Ventas fuera del nicho iglesia, con la pauta corriendo",
+      "texto": "La pauta corriendo con los guiones y la estrategia que baja Cáscara, apuntada a empresas de 30 a 50 empleados y a locales comerciales. El número a presentar es cuántos presupuestos entraron por semana, cuántos vinieron de nichos nuevos y cuántas ventas salieron del e-commerce. En paralelo, el recontacto sostenido como motor de ventas mientras esto levanta."
+    }
+  ],
+  "roadmap": [
+    {
+      "cuando": "15 al 17 de septiembre",
+      "objetivo": "Cerrar la oferta, el precio y el punto de llegada",
+      "entregable": "Llamada con Franco y bajada de Facu en la misma semana. Queda escrito qué venden ahora, publicidad hecha con merch, a quién, con qué kits y a qué precio. De ahí sale el punto de llegada del tramo, que es la pieza que hoy falta.",
+      "quien": "Custom Lab con Franco y Facu"
+    },
+    {
+      "cuando": "Del 15 al 22 de septiembre",
+      "objetivo": "La tienda y la landing publicadas",
+      "entregable": "Shopify brandeado con los productos de entrada a precio mayorista competitivo, con margen chico y volumen. En paralelo la landing rehecha: CTA visible sin scrollear, mail en dos lugares y campo de proyecto obligatorio. Fecha dura: 22 de septiembre, las dos arriba.",
+      "quien": "Custom Lab, con feedback de Facu"
+    },
+    {
+      "cuando": "Del 15 al 25 de septiembre",
+      "objetivo": "Los kits redefinidos para nichos que pagan",
+      "entregable": "Kit de onboarding, de oficina y de freelance, para empresas de 30 a 50 empleados, startups y negocios digitales, cada uno atado a un problema de cultura de equipo o de marca. El de construcción queda pausado. Se escriben mientras se arma la tienda.",
+      "quien": "Custom Lab con Facu"
+    },
+    {
+      "cuando": "Del 17 al 26 de septiembre",
+      "objetivo": "Los datos donde se puedan mirar",
+      "entregable": "La base de clientes y presupuestos visible en Notion o Airtable, con Supabase solo como almacenamiento. El criterio es que puedan filtrar y leer sin depender de alguien técnico, porque de ahí sale a qué nicho apuntar.",
+      "quien": "Custom Lab con Cáscara"
+    },
+    {
+      "cuando": "Del 18 de septiembre al 17 de octubre",
+      "objetivo": "El hábito de contenido instalado",
+      "entregable": "Una pieza por semana como mínimo, con día fijo de grabación, edición y publicación, contra los ángulos que ya bajó Facu. Cada pieza se lee el día que sale: qué mensaje y qué consulta trajo. Los roles y los horarios quedan repartidos entre los dos socios.",
+      "quien": "Custom Lab"
+    },
+    {
+      "cuando": "Del 29 de septiembre al 24 de octubre",
+      "objetivo": "La pauta corriendo",
+      "entregable": "Estrategia y guiones que baja Cáscara, calibrados al cliente pyme y al local comercial. Ellos configuran y operan sobre la cuenta que ya tienen linkeada. Se pauta en cuanto un ángulo hace chispazo en orgánico, sin esperar a que cierre el mes.",
+      "quien": "Custom Lab, con la estrategia de Facu"
+    },
+    {
+      "cuando": "Del 15 de septiembre al 31 de octubre",
+      "objetivo": "El recontacto sosteniendo la caja",
+      "entregable": "El recontacto sigue corriendo sobre la base histórica, que es el único motor probado. Los presupuestos se anotan la semana que entran, con el nicho del que vinieron, y se repasan con Facu semana a semana, mientras entran.",
+      "quien": "Custom Lab con Facu"
+    }
+  ],
+  "accionables": [
+    {
+      "cuando": "Septiembre",
+      "cliente": [
+        "Levantar el Shopify con los productos de entrada a precio mayorista competitivo",
+        "Rehacer la landing: menos aire, CTA visible, imagen a la izquierda y texto a la derecha, mail en dos lugares y campo de proyecto obligatorio",
+        "Escribir el copy de la landing con la pregunta del regalo y mandarlo para feedback",
+        "Mover la visualización de los datos a Notion o Airtable y dejar Supabase solo como almacenamiento",
+        "Redefinir los kits para oficinas, startups y freelance, y pausar el de construcción",
+        "Empezar a publicar una pieza por semana contra los ángulos ya bajados",
+        "Definir qué presupuesto mensual pueden poner en pauta y quién la va a operar"
+      ],
+      "cascara": [
+        "Franco cierra con ellos la oferta y el pricing en la llamada que tienen agendada",
+        "Facu baja el roadmap con punto de llegada sobre lo que salga de esa llamada",
+        "Facu les da feedback sobre el copy de la landing y sobre los kits",
+        "Cáscara les deja la estrategia de pauta y los guiones de los anuncios"
+      ]
+    },
+    {
+      "cuando": "Octubre",
+      "cliente": [
+        "Poner la pauta a correr sobre los ángulos que hicieron chispazo en orgánico",
+        "Sostener el recontacto sobre la base histórica como motor de ventas del mes",
+        "Registrar cuántos presupuestos entran por semana y de qué nicho vienen",
+        "Mantener el mínimo de diez unidades en cualquier trabajo de personalización"
+      ],
+      "cascara": [
+        "Facu calibra los anuncios y los ángulos según lo que vaya entrando",
+        "Facu los ayuda a leer qué producto del e-commerce vende y cuál no",
+        "Cáscara sostiene el seguimiento semanal para que el contenido no se corte"
+      ]
+    },
+    {
+      "cuando": "Cierre, 31 de octubre",
+      "cliente": [
+        "Presentar los números: presupuestos por semana, de qué nicho vinieron, ventas del e-commerce y ventas del recontacto"
+      ],
+      "cascara": [
+        "Facu y Franco revisan contra el punto A y definen el tramo siguiente"
+      ]
+    }
+  ],
+  "conclusion": "El negocio se direcciona a vender publicidad hecha con merch a empresas que tienen presupuesto de marketing, y la producción textil pasa a ser el cómo. Eso cambia el precio, el canal y el contenido, y el catálogo se ordena en kits de onboarding, de oficina y de freelance. El e-commerce de producto simple hace volumen y sostiene la caja, y el personalizado se cotiza por WhatsApp o por llamada con diez unidades de mínimo. Mientras el orgánico y la pauta levantan, el recontacto sobre la base histórica es el motor de ventas del mes, porque es lo único probado.\n\nEl calendario del tramo se aprieta. La tienda y la landing se publican el 22 de septiembre, que es la fecha dura, y los kits y la base de datos en Notion se trabajan en la misma ventana en que se arma la tienda, sin hacer fila. El contenido arranca el 18 de septiembre contra los ángulos que ya están bajados, y cada pieza y cada presupuesto se leen el día que aparecen, con el nicho anotado al lado. La razón es de caja: hasta que la infraestructura reciba demanda sola, todo lo que entra sale de que ellos empujen uno por uno, y cuanto más corta sea esa ventana, menos depende el mes de eso. Vienen ejecutando accionables sueltos, y a partir del 17 de septiembre hay un punto de llegada escrito contra el cual medirse. Eso es parte de lo que se entrena acá: bancar una fecha propia sin que nadie la venga a recordar.\n\nQueda abierto cuánto pueden poner por mes en pauta y quién la va a operar, porque hoy no tienen con qué pagarle a alguien que la maneje. Esa definición marca la velocidad de octubre y conviene cerrarla antes de que la pauta tenga que arrancar.",
+  "carta": "Piero, Juan: hicieron lo que se les pidió. Armaron la base histórica de dos años, salieron a recontactar y vendieron, y eso ya dice qué clase de socios son cuando la tarea está clara. Lo que viene les pide otra cosa, que es aguantar unas semanas construyendo algo que todavía no factura: una tienda, una landing, un catálogo de kits y una cuenta que vuelva a moverse. El nicho donde son fuertes va a seguir estando y ahí van a seguir vendiendo mientras esto se levanta. La definición que apareció el 25 de agosto es lo más valioso del mes, porque cambia a quién pueden mirar a los ojos y con qué precio. Ténganla presente cada vez que escriban una pieza o contesten un presupuesto.",
+  "abierto": "Cuánto pueden poner por mes en pauta y quién la opera, porque hoy no tienen con qué pagarle a nadie (falta confirmar). Y cuáles son sus territorios de contenido sobre los tres pilares, que Juana le dejó como la única organización que necesita y todavía no están escritos (falta confirmar).",
+  "handicap": {
+    "ejes": {
+      "oferta": 1,
+      "contenido": 0,
+      "demanda": 1,
+      "venta": 3,
+      "entrega": 2
+    },
+    "total": 7,
+    "tramo": "Arranque",
+    "ritmo": "verde",
+    "ritmo_texto": "Hace lo que queda de cada llamada.",
+    "eje_flojo": [
+      "contenido"
+    ],
+    "sugiere": [
+      "Sostener"
+    ],
+    "nota": "Contenido está en cero y es el piso: la cuenta está parada, y sin ángulo con chispazo no hay nada que pautar. La oferta baja a uno porque los kits se están redefiniendo y el precio recién sale de la llamada con Franco."
+  }
 }

@@ -1,259 +1,263 @@
 {
- "slug": "lola-berutti",
- "cliente": "Lola Berutti",
- "proyecto": "Workflow — programa y bolsa de Project Managers para agencias creativas",
- "modo": "radiografia",
- "orientacion": "Conseguir",
- "arranque": "(falta confirmar) — la primera llamada registrada es del 14 de agosto de 2026, con Facu. Entró por F3.",
- "etapa": "Arranca el segundo mes: el programa está terminado, el contenido ya sale y el lanzamiento todavía está sin fecha y sin embudo armado.",
- "metrica": "Cupos vendidos del programa en el lanzamiento. El objetivo que se fijó es entre cinco y diez. Hoy son cero, con tres llamadas hechas.",
- "titular": "Con el programa terminado y ciento sesenta PMs esperando, el tramo es armar el lanzamiento y cerrar los primeros cupos.",
- "bajada": "Tres llamadas de venta hechas y ninguna cerrada. Un grupo de WhatsApp con ciento sesenta PMs esperando y un programa terminado al que le falta fecha y embudo. Septiembre es para dejar el lanzamiento armado con Franco. Octubre es para leer qué dio.",
- "punto_a": [
-  {
-   "label": "Resuelto",
-   "titulo": "El bloqueo frente a la cámara",
-   "texto": "El 14 de agosto el problema era que no se animaba a grabar. Ella misma lo nombró como un bloqueo que había que romper. El criterio que bajó Facu fue sacarle el guion de encima: un video horizontal largo, de quince o veinte minutos, contestando cuatro o cinco preguntas sobre su recorrido, grabado en un lugar propio y real, con alguien enfrente haciéndole las preguntas para que sea una charla y no una actuación. De ahí se cortan las piezas. Cáscara le asignó un editor de nivel uno o dos a través de Azu para que no cargue costo. Dos semanas después la cosa estaba dada vuelta: dijo que ya no siente el dolor de tener que grabar, que se organiza el set y lo graba. El primer video salió y Facu le marcó que le gustó cómo quedó editado."
-  },
-  {
-   "label": "Funciona",
-   "titulo": "Ya vendió, y la demanda se le acumula sola",
-   "texto": "Le vendió a una agencia una PM insertada y una mentoría grupal para dos PMs más, con la oferta que había armado con Franco: alrededor de novecientos dólares por la PM, una mentoría de tres meses aparte, y otro rate si ella entra a hacer seguimiento adentro del Notion del cliente (falta confirmar los números exactos). Además armó desde LinkedIn un grupo de WhatsApp con ciento sesenta Project Managers, la mayoría del mundo PMP, más estructurados que el promedio de una agencia creativa. Y tres personas llegaron desde el lado de Enzo (falta confirmar el detalle). Ella lo dijo en la grupal del 2 de septiembre: los PMs no tienen una comunidad donde hablar de lo que les gusta hablar. Esa es la puerta abierta."
-  },
-  {
-   "label": "Pendiente",
-   "titulo": "El cierre, el embudo y la fecha",
-   "texto": "Tuvo tres llamadas de gente que le escribió y a la que le mostró el programa. Uno iba a comprar y no compró. Falta el embudo, falta la fecha de lanzamiento y falta el mecanismo de escasez con seña para reservar lugar. Tampoco está definido si la cohorte abre y cierra o si queda siempre abierta, que es lo que cambia por completo qué se le comunica al que compra. El programa en sí está terminado: lo que queda por armar es todo lo que va entre el interés y el pago."
-  }
- ],
- "recorrido": {
-  "titulo": "Se destrabó la cámara y quedó a la vista el trabajo comercial",
-  "texto": "En agosto el freno estaba en la cámara y ella misma lo nombró como un bloqueo que había que romper. El criterio que la destrabó fue sacarle el guion de encima: un video horizontal largo de quince o veinte minutos, en un lugar propio, con alguien enfrente haciéndole cuatro o cinco preguntas sobre su recorrido, y de ahí se cortan las piezas; Cáscara le asignó por Azu un editor de nivel uno o dos para que el contenido no le cargue costo. Dos semanas después la cosa estaba dada vuelta: dijo que ya no siente el dolor de grabar, que se organiza el set sola, y el primer video salió con una edición que a Facu le gustó. Con el contenido corriendo, la llamada del 28 de agosto dejó a la vista el trabajo que sigue: tres personas le escribieron, les mostró el programa, una iba a comprar y ninguna cerró. En la misma llamada se corrigió Workflow con el caso anterior arriba de la mesa, donde facturó alrededor de mil novecientos por mes y le pagó alrededor de mil quinientos a la PM: el proyecto no siguió y quedó claro que el ticket de entrada y la exposición al resultado eran demasiado altos. En las grupales apareció lo que faltaba del lado de la identidad, primero su definición más limpia, encontrar Project Managers para agencias creativas, y después su obsesión, la ineficiencia de las cosas y de las personas. Hoy su contenido explica el mundo del PM y todavía le falta contar de dónde le viene ese tema, y ese arco narrativo es lo que queda por escribir. Se descartó que la PM que tiene hoy entregue el programa y se inserte en proyectos de terceros al mismo tiempo: es una cosa o la otra, y hay que decírselo.",
-  "hitos": [
-   {
-    "cuando": "14 ago",
-    "que": "facu le saca el guion: video largo en lugar propio"
-   },
-   {
-    "cuando": "fines de ago",
-    "que": "sale su primer video y deja de dolerle grabar"
-   },
-   {
-    "cuando": "28 ago",
-    "que": "tres llamadas sin cierre: el cuello es comercial"
-   },
-   {
-    "cuando": "28 ago",
-    "que": "se corrige el pricing y el posicionamiento de workflow"
-   },
-   {
-    "cuando": "2 sep",
-    "que": "se presenta al grupo como la abeja negra"
-   },
-   {
-    "cuando": "9 sep",
-    "que": "encuentra su obsesión: la ineficiencia"
-   }
-  ]
- },
- "lectura": {
-  "titular": "El cuello es comercial: el tráfico ya existe y falta el camino que lo lleve de la conversación a la venta.",
-  "texto": "El programa está terminado, hay ciento sesenta PMs juntos en un grupo, gente que le escribe y clientes que ya le compraron el servicio de Workflow. Entre ese interés y una venta faltan cuatro piezas: embudo, fecha, escasez y seña. Por eso las tres llamadas se cayeron todas en el mismo lugar, al final. Ella lo tiene identificado con precisión: se le hace fácil todo hasta el momento de pedir la compra.",
-  "cita": "Soy buena en todo lo primero, en encontrar tu dolor y saber cómo decirte, cómo atacar el dolor y el remedio, pero el final, como, che, ¿lo vas a comprar? Uf, no.",
-  "cita_autor": "Lola Berutti · 28 de agosto de 2026"
- },
- "respuestas": [
-  {
-   "tema": "El cuello del negocio",
-   "respuesta": "La conversación de cierre. El tráfico ya está juntado y el trabajo del tramo es todo lo que va entre el interés y el pago."
-  },
-  {
-   "tema": "El criterio de la llamada de venta",
-   "respuesta": "Encontrar el dolor, mostrar el costo de no avanzar, cupos limitados y una seña para reservar el lugar. Todas las llamadas se graban."
-  },
-  {
-   "tema": "La regla de vender una sola opción",
-   "respuesta": "El downsell sin acompañamiento se ofrece adentro de la llamada, cuando el freno es el precio. En la comunicación sale una sola oferta: juntas compiten y la gente compra la más barata."
-  },
-  {
-   "tema": "El mecanismo del lanzamiento",
-   "respuesta": "Contenido que habla del problema, tráfico bajando a una comunidad de WhatsApp, workshop o bootcamp en vivo dando valor primero, y la parte comercial al final."
-  },
-  {
-   "tema": "Quién hace de setter",
-   "respuesta": "Ella, en esta primera tanda, para escuchar de primera mano con qué problema llega cada persona y corregir la comunicación sobre eso."
-  },
-  {
-   "tema": "El pricing de Workflow",
-   "respuesta": "Entrada alrededor de mil doscientos con scope acotado y hasta ochocientos para la PM. Cualquier ampliación de scope la arregla el cliente directo con ella."
-  },
-  {
-   "tema": "El posicionamiento de Workflow",
-   "respuesta": "Distribuidora de PMs con certificación propia: el cliente elige la propuesta que le gusta y la capacitación al PM y al equipo se vende aparte. Y la PM que tiene hoy elige un carril, entregar el programa o insertarse en proyectos de terceros."
-  },
-  {
-   "tema": "La separación de B2B y B2C",
-   "respuesta": "Workflow con su cuenta y su landing de casos y servicios, y el perfil personal apuntado solo al lanzamiento del programa. El Instagram es el primer embudo y se nutre con destacadas, descripción y contenido anclado; la landing con VSL viene después, cuando las redes ya estén calientes."
-  },
-  {
-   "tema": "El formato de contenido que le funciona",
-   "respuesta": "Video horizontal largo en un lugar propio, sin guion, con alguien preguntando, y de ahí se cortan las piezas. Edición simple."
-  }
- ],
- "entregables": [
-  {
-   "que": "El documento de lanzamiento que baja Franco",
-   "para": "Le deja embudo, fecha, ángulos, calendario y la definición de si la cohorte abre y cierra o queda siempre abierta."
-  },
-  {
-   "que": "La revisión de sus llamadas de venta grabadas, que hace Franco",
-   "para": "Ella las sube al Notion y recibe marcado en qué parte se cae cada una."
-  },
-  {
-   "que": "El editor de nivel uno o dos asignado por Azu",
-   "para": "Le edita los videos largos y los recortes sin que el contenido le cargue costo."
-  },
-  {
-   "que": "El marco de identidad de Juana: experiencia, criterio, carácter, visión y obsesiones",
-   "para": "Con eso escribe el arco narrativo de la ineficiencia, que después ordena todo su contenido."
-  },
-  {
-   "que": "La llamada comercial con Franco y las tres grupales semanales",
-   "para": "Trabaja el cierre con Franco, la identidad con Juana los jueves y el formato y el guion con Fede los viernes."
-  }
- ],
- "punto_b": [
-  {
-   "fecha": "30 de septiembre de 2026",
-   "titulo": "El lanzamiento armado y corriendo",
-   "texto": "El documento de lanzamiento de Franco cerrado: embudo, fecha, ángulos y calendario, más la definición de si la cohorte abre y cierra o queda siempre abierta. El Instagram funcionando como primer embudo, con destacadas, descripción y contenido anclado. La comunidad de WhatsApp llena con el tráfico del contenido y el workshop o bootcamp anunciado adentro. Y el arco narrativo de la ineficiencia escrito, para que el contenido deje de explicar qué hace un PM y empiece a contar por qué le importa a ella."
-  },
-  {
-   "fecha": "31 de octubre de 2026",
-   "titulo": "Entre cinco y diez cupos vendidos y el pricing de Workflow corregido",
-   "texto": "Los primeros cupos del programa vendidos contra el objetivo de cinco a diez, con todas las llamadas grabadas y revisadas por Franco para saber dónde se cae cada una. Y el ticket de Workflow ya reordenado en el mercado: entrada más baja, scope acotado y la PM cobrando aparte lo que el cliente quiera sumarle, en lugar del esquema que dejó el caso anterior."
-  }
- ],
- "roadmap": [
-  {
-   "cuando": "15 al 17 de septiembre",
-   "objetivo": "La estrategia de lanzamiento cerrada con Franco",
-   "entregable": "Llega con las tres llamadas de venta grabadas y subidas al Notion y con el mapa de puertas abiertas: el grupo de ciento sesenta PMs, la gente que llega por Enzo y los clientes de Workflow. Sale el documento: embudo, fecha, formato del workshop y cohorte cerrada o abierta.",
-   "quien": "Lola con Franco"
-  },
-  {
-   "cuando": "Del 15 al 18 de septiembre",
-   "objetivo": "El Instagram listo para recibir",
-   "entregable": "El perfil es el primer embudo: destacadas, descripción y contenido anclado, para que quien llega entienda rápido quién es y qué vende. Workflow queda con su cuenta y su landing de casos y servicios, y el perfil personal apunta al lanzamiento del programa.",
-   "quien": "Lola"
-  },
-  {
-   "cuando": "Del 15 al 24 de septiembre",
-   "objetivo": "El arco narrativo y el contenido del lanzamiento",
-   "entregable": "El arco de la obsesión por la ineficiencia, con la primera que recuerda y cómo la trajo hasta acá, aplicado a cómo cuenta su trabajo. Con eso y los ángulos de Franco produce la tanda en el formato que ya le funciona: video largo sin guion, y de ahí se cortan las piezas.",
-   "quien": "Lola, con Fede y Juana en las grupales"
-  },
-  {
-   "cuando": "Del 17 al 30 de septiembre",
-   "objetivo": "La comunidad de WhatsApp llena",
-   "entregable": "Publicación sostenida sobre el problema, con el tráfico bajando al grupo de WhatsApp, donde se anuncian las fechas del workshop. Cada pieza se mide el día que sale por la gente que entró al grupo, y con eso se decide qué se repite la semana siguiente.",
-   "quien": "Lola"
-  },
-  {
-   "cuando": "2 de octubre",
-   "objetivo": "El workshop dictado y las llamadas abiertas",
-   "entregable": "El workshop en vivo, con valor primero y la parte comercial al final. Ella hace de setter de las llamadas que salgan, para escuchar de primera mano con qué problema llega cada persona. Fecha dura: 2 de octubre, anunciada de entrada para que no se pueda mover.",
-   "quien": "Lola con Franco"
-  },
-  {
-   "cuando": "Del 5 al 24 de octubre",
-   "objetivo": "Los primeros cupos cerrados",
-   "entregable": "Llamadas con cupos limitados y seña para reservar el lugar, todas grabadas y subidas el mismo día para que Franco marque dónde se cae cada una. El downsell sin acompañamiento se ofrece adentro de la llamada, cuando el freno es el precio.",
-   "quien": "Lola con Franco"
-  },
-  {
-   "cuando": "31 de octubre",
-   "objetivo": "Leer el ciclo y definir el tramo siguiente",
-   "entregable": "Cuántos cupos se vendieron contra el objetivo de cinco a diez, qué contenido trajo a cada uno y en qué parte de la llamada se cae la venta. Con eso se decide si la cohorte pasa a formato abierto y si se abre la consultoría de noventa días de Workflow.",
-   "quien": "Lola con Facu y Franco"
-  }
- ],
- "accionables": [
-  {
-   "cuando": "Registrados el 28 de agosto",
-   "cliente": [
-    "Subir las tres llamadas de venta grabadas al Notion y pasárselas a Franco para que las revise",
-    "Agendar la reunión con Franco para bajar la estrategia de lanzamiento",
-    "Hablar con la PM que tiene hoy y definir con ella que entrega el programa o se inserta en proyectos de terceros, no las dos cosas",
-    "Dejar la landing de Workflow con casos y servicios, y no mezclar esa comunicación con el lanzamiento del B2C"
-   ],
-   "cascara": [
-    "Facu le bajó el criterio de llamada de venta: encontrar el dolor, mostrar el costo de no avanzar, cupos limitados y seña para reservar",
-    "Facu le bajó el mecanismo del lanzamiento: contenido, comunidad de WhatsApp, workshop en vivo y llamadas al final",
-    "Facu le ajustó el pricing de Workflow: entrada más baja, scope acotado y la PM arreglando aparte cualquier extra",
-    "Azu le asignó un editor simple para que el contenido no le cargue costo"
-   ]
-  },
-  {
-   "cuando": "Septiembre",
-   "cliente": [
-    "Tener la reunión con Franco y salir con el documento de lanzamiento cerrado, con fecha adentro",
-    "Escribir el arco narrativo de la obsesión por la ineficiencia y llevarlo a la grupal de Juana",
-    "Dejar el perfil de Instagram armado antes de que salga la primera pieza del lanzamiento",
-    "Producir y publicar la tanda de contenido de lanzamiento en el formato de video largo que ya le funciona",
-    "Empezar a bajar tráfico a la comunidad de WhatsApp"
-   ],
-   "cascara": [
-    "Franco baja el documento de lanzamiento: embudo, fecha, ángulos, calendario y la definición de cohorte cerrada o abierta",
-    "Juana la acompaña en la construcción del arco narrativo en las grupales de los jueves",
-    "Fede la trabaja en las grupales de los viernes sobre formato y guion",
-    "Facu sostiene el seguimiento para que la fecha no se vuelva a correr"
-   ]
-  },
-  {
-   "cuando": "Octubre",
-   "cliente": [
-    "Dar el workshop o bootcamp y hacer de setter de las llamadas que salgan",
-    "Grabar todas las llamadas de venta y cerrar los primeros cupos",
-    "Registrar con qué problema llega cada persona, para corregir la comunicación con datos en la mano"
-   ],
-   "cascara": [
-    "Franco revisa las llamadas grabadas y le marca dónde se cae cada una",
-    "Franco define si entra un closer del equipo para esta primera tanda",
-    "Facu revisa el resultado contra el objetivo de cinco a diez cupos"
-   ]
-  },
-  {
-   "cuando": "Cierre, 31 de octubre",
-   "cliente": [
-    "Presentar cuántos cupos se vendieron, qué contenido trajo a cada uno y dónde se cae la venta"
-   ],
-   "cascara": [
-    "Facu y Franco definen si la cohorte pasa a formato abierto y si se abre la consultoría de noventa días de Workflow"
-   ]
-  }
- ],
- "conclusion": "El negocio se direcciona a dos carriles separados que se alimentan de la misma reputación. Workflow queda como bolsa de PMs certificados, con ticket de entrada más bajo, scope acotado y la capacitación vendida aparte, para bajar la exposición al resultado del proyecto del cliente. El programa B2C queda como la línea que escala, y se corre una vez completo para saber qué pieza trae a cada persona.\n\nEl calendario se aprieta porque su activo tiene vencimiento: ciento sesenta PMs juntos en un grupo se enfrían cada semana que pasa sin fecha, y la fecha ya se corrió una vez desde fines de agosto. El documento de lanzamiento sale el 17 de septiembre y el workshop se dicta el 2 de octubre, que es la fecha dura del tramo. El perfil, el arco narrativo y la tanda de contenido se hacen en la misma ventana, y el tráfico empieza a bajar al grupo el 17, con la producción todavía abierta. Cada pieza se mide el día que sale por la gente que entró al grupo, y cada llamada de venta se sube grabada el mismo día para que Franco marque dónde se cayó. La presión acá entrena exactamente lo que le cuesta: pedir la compra con una fecha anunciada, que ya no se puede correr.\n\nQueda abierta la consultoría de noventa días de Workflow, que hoy es una idea, y la decisión de si la cohorte pasa a formato abierto. Las dos se definen con lo que devuelva este primer ciclo.",
- "carta": "Lola, en dos semanas te sacaste de encima lo que más te costaba: pasaste de no querer grabar a organizarte el set sola y publicar. Eso dice bastante de cómo trabajás. Llegás a este tramo con lo más difícil ya conseguido: gente que quiere lo que vos hacés, junta en un mismo lugar y esperando que abras. Lo que viene es la parte que todavía te incomoda, pedir la compra, y se aprende igual que se aprendió la cámara, haciéndola, grabándola y mirándola con alguien al lado. Tu obsesión por la ineficiencia es exactamente la razón por la que un PM te va a escuchar, y falta que la cuentes. Octubre te va a dar la información que hoy te falta: escuchar, una por una, con qué problema llega cada persona.",
- "abierto": "La fecha exacta del lanzamiento y si sale como workshop o como bootcamp, que lo define Franco en la reunión que todavía no consta hecha (falta confirmar). Una aclaración sobre este documento: el material disponible son dos llamadas 1:1 con Facu, del 14 y del 28 de agosto, y dos grupales con Juana, del 2 y del 9 de septiembre. Falta el registro de la llamada comercial con Franco y de una Clarity Call, y el caso tampoco figura en el repaso del 2 de septiembre, así que todo lo que no está anclado en esas cuatro llamadas quedó marcado como pendiente de confirmar.",
- "handicap": {
-  "ejes": {
-   "oferta": 2,
-   "contenido": 2,
-   "demanda": 3,
-   "venta": 1,
-   "entrega": 2
-  },
-  "total": 10,
-  "tramo": "En construcción",
-  "ritmo": "verde",
-  "ritmo_texto": "Hace lo que queda de cada llamada.",
-  "eje_flojo": [
-   "venta"
+  "slug": "lola-berutti",
+  "cliente": "Lola Berutti",
+  "proyecto": "Workflow — programa y bolsa de Project Managers para agencias creativas",
+  "modo": "radiografia",
+  "orientacion": "Conseguir",
+  "arranque": "(falta confirmar) — la primera llamada registrada es del 14 de agosto de 2026, con Facu. Entró por F3.",
+  "etapa": "Arranca el segundo mes con el programa terminado, el contenido saliendo y el lanzamiento ya con puerta de entrada: un workshop de Project Management la semana del 22 de septiembre, desde donde empieza a vender.",
+  "metrica": "Cupos vendidos del programa en el lanzamiento. El objetivo que se fijó es entre cinco y diez. Hoy son cero, con tres llamadas hechas.",
+  "titular": "Con el programa terminado y ciento sesenta PMs esperando, el tramo es armar el lanzamiento y cerrar los primeros cupos.",
+  "bajada": "Tres llamadas de venta hechas y ninguna cerrada. Un grupo de WhatsApp con ciento sesenta PMs esperando y un programa terminado al que le falta fecha y embudo. Septiembre es para dejar el lanzamiento armado con Franco. Octubre es para leer qué dio.",
+  "punto_a": [
+    {
+      "label": "Resuelto",
+      "titulo": "El bloqueo frente a la cámara",
+      "texto": "El 14 de agosto el problema era que no se animaba a grabar. Ella misma lo nombró como un bloqueo que había que romper. El criterio que bajó Facu fue sacarle el guion de encima: un video horizontal largo, de quince o veinte minutos, contestando cuatro o cinco preguntas sobre su recorrido, grabado en un lugar propio y real, con alguien enfrente haciéndole las preguntas para que sea una charla y no una actuación. De ahí se cortan las piezas. Cáscara le asignó un editor de nivel uno o dos a través de Azu para que no cargue costo. Dos semanas después la cosa estaba dada vuelta: dijo que ya no siente el dolor de tener que grabar, que se organiza el set y lo graba. El primer video salió y Facu le marcó que le gustó cómo quedó editado."
+    },
+    {
+      "label": "Funciona",
+      "titulo": "Ya vendió, y la demanda se le acumula sola",
+      "texto": "Le vendió a una agencia una PM insertada y una mentoría grupal para dos PMs más, con la oferta que había armado con Franco: alrededor de novecientos dólares por la PM, una mentoría de tres meses aparte, y otro rate si ella entra a hacer seguimiento adentro del Notion del cliente (falta confirmar los números exactos). Además armó desde LinkedIn un grupo de WhatsApp con ciento sesenta Project Managers, la mayoría del mundo PMP, más estructurados que el promedio de una agencia creativa. Y tres personas llegaron desde el lado de Enzo (falta confirmar el detalle). Ella lo dijo en la grupal del 2 de septiembre: los PMs no tienen una comunidad donde hablar de lo que les gusta hablar. Esa es la puerta abierta."
+    },
+    {
+      "label": "Pendiente",
+      "titulo": "El cierre, el embudo y la fecha",
+      "texto": "Tuvo tres llamadas de gente que le escribió y a la que le mostró el programa. Uno iba a comprar y no compró. Falta el embudo, falta la fecha de lanzamiento y falta el mecanismo de escasez con seña para reservar lugar. Tampoco está definido si la cohorte abre y cierra o si queda siempre abierta, que es lo que cambia por completo qué se le comunica al que compra. El programa en sí está terminado: lo que queda por armar es todo lo que va entre el interés y el pago."
+    }
   ],
-  "sugiere": [
-   "Conseguir"
+  "recorrido": {
+    "titulo": "Se destrabó la cámara y quedó a la vista el trabajo comercial",
+    "texto": "En agosto el freno estaba en la cámara y ella misma lo nombró como un bloqueo que había que romper. El criterio que la destrabó fue sacarle el guion de encima: un video horizontal largo de quince o veinte minutos, en un lugar propio, con alguien enfrente haciéndole cuatro o cinco preguntas sobre su recorrido, y de ahí se cortan las piezas; Cáscara le asignó por Azu un editor de nivel uno o dos para que el contenido no le cargue costo. Dos semanas después la cosa estaba dada vuelta: dijo que ya no siente el dolor de grabar, que se organiza el set sola, y el primer video salió con una edición que a Facu le gustó. Con el contenido corriendo, la llamada del 28 de agosto dejó a la vista el trabajo que sigue: tres personas le escribieron, les mostró el programa, una iba a comprar y ninguna cerró. En la misma llamada se corrigió Workflow con el caso anterior arriba de la mesa, donde facturó alrededor de mil novecientos por mes y le pagó alrededor de mil quinientos a la PM: el proyecto no siguió y quedó claro que el ticket de entrada y la exposición al resultado eran demasiado altos. En las grupales apareció lo que faltaba del lado de la identidad, primero su definición más limpia, encontrar Project Managers para agencias creativas, y después su obsesión, la ineficiencia de las cosas y de las personas. Hoy su contenido explica el mundo del PM y todavía le falta contar de dónde le viene ese tema, y ese arco narrativo es lo que queda por escribir. Se descartó que la PM que tiene hoy entregue el programa y se inserte en proyectos de terceros al mismo tiempo: es una cosa o la otra, y hay que decírselo. El 16 de septiembre apareció la fecha que faltaba: el jueves siguiente hace un workshop para contar el mundo del Project Manager, y desde ahí arranca a vender el programa. Está trabajando con Carlota, que la ayuda a bajar las ideas a tierra.",
+    "hitos": [
+      {
+        "cuando": "14 ago",
+        "que": "facu le saca el guion: video largo en lugar propio"
+      },
+      {
+        "cuando": "fines de ago",
+        "que": "sale su primer video y deja de dolerle grabar"
+      },
+      {
+        "cuando": "28 ago",
+        "que": "tres llamadas sin cierre: el cuello es comercial"
+      },
+      {
+        "cuando": "28 ago",
+        "que": "se corrige el pricing y el posicionamiento de workflow"
+      },
+      {
+        "cuando": "2 sep",
+        "que": "se presenta al grupo como la abeja negra"
+      },
+      {
+        "cuando": "9 sep",
+        "que": "encuentra su obsesión: la ineficiencia"
+      },
+      {
+        "cuando": "16 sep",
+        "que": "grupal con juana: el workshop de pms queda para el jueves siguiente"
+      }
+    ]
+  },
+  "lectura": {
+    "titular": "El cuello es comercial: el tráfico ya existe y falta el camino que lo lleve de la conversación a la venta.",
+    "texto": "El programa está terminado, hay ciento sesenta PMs juntos en un grupo, gente que le escribe y clientes que ya le compraron el servicio de Workflow. Entre ese interés y una venta faltan cuatro piezas: embudo, fecha, escasez y seña. Por eso las tres llamadas se cayeron todas en el mismo lugar, al final. Ella lo tiene identificado con precisión: se le hace fácil todo hasta el momento de pedir la compra.",
+    "cita": "Soy buena en todo lo primero, en encontrar tu dolor y saber cómo decirte, cómo atacar el dolor y el remedio, pero el final, como, che, ¿lo vas a comprar? Uf, no.",
+    "cita_autor": "Lola Berutti · 28 de agosto de 2026"
+  },
+  "respuestas": [
+    {
+      "tema": "El cuello del negocio",
+      "respuesta": "La conversación de cierre. El tráfico ya está juntado y el trabajo del tramo es todo lo que va entre el interés y el pago."
+    },
+    {
+      "tema": "El criterio de la llamada de venta",
+      "respuesta": "Encontrar el dolor, mostrar el costo de no avanzar, cupos limitados y una seña para reservar el lugar. Todas las llamadas se graban."
+    },
+    {
+      "tema": "La regla de vender una sola opción",
+      "respuesta": "El downsell sin acompañamiento se ofrece adentro de la llamada, cuando el freno es el precio. En la comunicación sale una sola oferta: juntas compiten y la gente compra la más barata."
+    },
+    {
+      "tema": "El mecanismo del lanzamiento",
+      "respuesta": "Contenido que habla del problema, tráfico bajando a una comunidad de WhatsApp, workshop o bootcamp en vivo dando valor primero, y la parte comercial al final."
+    },
+    {
+      "tema": "Quién hace de setter",
+      "respuesta": "Ella, en esta primera tanda, para escuchar de primera mano con qué problema llega cada persona y corregir la comunicación sobre eso."
+    },
+    {
+      "tema": "El pricing de Workflow",
+      "respuesta": "Entrada alrededor de mil doscientos con scope acotado y hasta ochocientos para la PM. Cualquier ampliación de scope la arregla el cliente directo con ella."
+    },
+    {
+      "tema": "El posicionamiento de Workflow",
+      "respuesta": "Distribuidora de PMs con certificación propia: el cliente elige la propuesta que le gusta y la capacitación al PM y al equipo se vende aparte. Y la PM que tiene hoy elige un carril, entregar el programa o insertarse en proyectos de terceros."
+    },
+    {
+      "tema": "La separación de B2B y B2C",
+      "respuesta": "Workflow con su cuenta y su landing de casos y servicios, y el perfil personal apuntado solo al lanzamiento del programa. El Instagram es el primer embudo y se nutre con destacadas, descripción y contenido anclado; la landing con VSL viene después, cuando las redes ya estén calientes."
+    },
+    {
+      "tema": "El formato de contenido que le funciona",
+      "respuesta": "Video horizontal largo en un lugar propio, sin guion, con alguien preguntando, y de ahí se cortan las piezas. Edición simple."
+    }
   ],
-  "nota": "Venta es el piso y el cuello del caso: el tráfico ya está juntado y entre la conversación y la plata no hay embudo, fecha, escasez ni seña. La oferta baja a dos porque el programa todavía no registra precio ni fecha de lanzamiento."
- }
+  "entregables": [
+    {
+      "que": "El documento de lanzamiento que baja Franco",
+      "para": "Le deja embudo, fecha, ángulos, calendario y la definición de si la cohorte abre y cierra o queda siempre abierta."
+    },
+    {
+      "que": "La revisión de sus llamadas de venta grabadas, que hace Franco",
+      "para": "Ella las sube al Notion y recibe marcado en qué parte se cae cada una."
+    },
+    {
+      "que": "El editor de nivel uno o dos asignado por Azu",
+      "para": "Le edita los videos largos y los recortes sin que el contenido le cargue costo."
+    },
+    {
+      "que": "El marco de identidad de Juana: experiencia, criterio, carácter, visión y obsesiones",
+      "para": "Con eso escribe el arco narrativo de la ineficiencia, que después ordena todo su contenido."
+    },
+    {
+      "que": "La llamada comercial con Franco y las tres grupales semanales",
+      "para": "Trabaja el cierre con Franco, la identidad con Juana los jueves y el formato y el guion con Fede los viernes."
+    }
+  ],
+  "punto_b": [
+    {
+      "fecha": "30 de septiembre de 2026",
+      "titulo": "El lanzamiento armado y corriendo",
+      "texto": "El documento de lanzamiento de Franco cerrado: embudo, fecha, ángulos y calendario, más la definición de si la cohorte abre y cierra o queda siempre abierta. El Instagram funcionando como primer embudo, con destacadas, descripción y contenido anclado. La comunidad de WhatsApp llena con el tráfico del contenido y el workshop o bootcamp anunciado adentro. Y el arco narrativo de la ineficiencia escrito, para que el contenido deje de explicar qué hace un PM y empiece a contar por qué le importa a ella."
+    },
+    {
+      "fecha": "31 de octubre de 2026",
+      "titulo": "Entre cinco y diez cupos vendidos y el pricing de Workflow corregido",
+      "texto": "Los primeros cupos del programa vendidos contra el objetivo de cinco a diez, con todas las llamadas grabadas y revisadas por Franco para saber dónde se cae cada una. Y el ticket de Workflow ya reordenado en el mercado: entrada más baja, scope acotado y la PM cobrando aparte lo que el cliente quiera sumarle, en lugar del esquema que dejó el caso anterior."
+    }
+  ],
+  "roadmap": [
+    {
+      "cuando": "15 al 17 de septiembre",
+      "objetivo": "La estrategia de lanzamiento cerrada con Franco",
+      "entregable": "Llega con las tres llamadas de venta grabadas y subidas al Notion y con el mapa de puertas abiertas: el grupo de ciento sesenta PMs, la gente que llega por Enzo y los clientes de Workflow. Sale el documento: embudo, fecha, formato del workshop y cohorte cerrada o abierta.",
+      "quien": "Lola con Franco"
+    },
+    {
+      "cuando": "Del 15 al 18 de septiembre",
+      "objetivo": "El Instagram listo para recibir",
+      "entregable": "El perfil es el primer embudo: destacadas, descripción y contenido anclado, para que quien llega entienda rápido quién es y qué vende. Workflow queda con su cuenta y su landing de casos y servicios, y el perfil personal apunta al lanzamiento del programa.",
+      "quien": "Lola"
+    },
+    {
+      "cuando": "Del 15 al 24 de septiembre",
+      "objetivo": "El arco narrativo y el contenido del lanzamiento",
+      "entregable": "El arco de la obsesión por la ineficiencia, con la primera que recuerda y cómo la trajo hasta acá, aplicado a cómo cuenta su trabajo. Con eso y los ángulos de Franco produce la tanda en el formato que ya le funciona: video largo sin guion, y de ahí se cortan las piezas.",
+      "quien": "Lola, con Fede y Juana en las grupales"
+    },
+    {
+      "cuando": "Del 17 al 30 de septiembre",
+      "objetivo": "La comunidad de WhatsApp llena",
+      "entregable": "Publicación sostenida sobre el problema, con el tráfico bajando al grupo de WhatsApp, donde se anuncian las fechas del workshop. Cada pieza se mide el día que sale por la gente que entró al grupo, y con eso se decide qué se repite la semana siguiente.",
+      "quien": "Lola"
+    },
+    {
+      "cuando": "2 de octubre",
+      "objetivo": "El workshop dictado y las llamadas abiertas",
+      "entregable": "El workshop en vivo, con valor primero y la parte comercial al final. Ella hace de setter de las llamadas que salgan, para escuchar de primera mano con qué problema llega cada persona. Fecha dura: 2 de octubre, anunciada de entrada para que no se pueda mover.",
+      "quien": "Lola con Franco"
+    },
+    {
+      "cuando": "Del 5 al 24 de octubre",
+      "objetivo": "Los primeros cupos cerrados",
+      "entregable": "Llamadas con cupos limitados y seña para reservar el lugar, todas grabadas y subidas el mismo día para que Franco marque dónde se cae cada una. El downsell sin acompañamiento se ofrece adentro de la llamada, cuando el freno es el precio.",
+      "quien": "Lola con Franco"
+    },
+    {
+      "cuando": "31 de octubre",
+      "objetivo": "Leer el ciclo y definir el tramo siguiente",
+      "entregable": "Cuántos cupos se vendieron contra el objetivo de cinco a diez, qué contenido trajo a cada uno y en qué parte de la llamada se cae la venta. Con eso se decide si la cohorte pasa a formato abierto y si se abre la consultoría de noventa días de Workflow.",
+      "quien": "Lola con Facu y Franco"
+    }
+  ],
+  "accionables": [
+    {
+      "cuando": "Registrados el 28 de agosto",
+      "cliente": [
+        "Subir las tres llamadas de venta grabadas al Notion y pasárselas a Franco para que las revise",
+        "Agendar la reunión con Franco para bajar la estrategia de lanzamiento",
+        "Hablar con la PM que tiene hoy y definir con ella que entrega el programa o se inserta en proyectos de terceros, no las dos cosas",
+        "Dejar la landing de Workflow con casos y servicios, y no mezclar esa comunicación con el lanzamiento del B2C"
+      ],
+      "cascara": [
+        "Facu le bajó el criterio de llamada de venta: encontrar el dolor, mostrar el costo de no avanzar, cupos limitados y seña para reservar",
+        "Facu le bajó el mecanismo del lanzamiento: contenido, comunidad de WhatsApp, workshop en vivo y llamadas al final",
+        "Facu le ajustó el pricing de Workflow: entrada más baja, scope acotado y la PM arreglando aparte cualquier extra",
+        "Azu le asignó un editor simple para que el contenido no le cargue costo"
+      ]
+    },
+    {
+      "cuando": "Septiembre",
+      "cliente": [
+        "Tener la reunión con Franco y salir con el documento de lanzamiento cerrado, con fecha adentro",
+        "Escribir el arco narrativo de la obsesión por la ineficiencia y llevarlo a la grupal de Juana",
+        "Dejar el perfil de Instagram armado antes de que salga la primera pieza del lanzamiento",
+        "Producir y publicar la tanda de contenido de lanzamiento en el formato de video largo que ya le funciona",
+        "Empezar a bajar tráfico a la comunidad de WhatsApp"
+      ],
+      "cascara": [
+        "Franco baja el documento de lanzamiento: embudo, fecha, ángulos, calendario y la definición de cohorte cerrada o abierta",
+        "Juana la acompaña en la construcción del arco narrativo en las grupales de los jueves",
+        "Fede la trabaja en las grupales de los viernes sobre formato y guion",
+        "Facu sostiene el seguimiento para que la fecha no se vuelva a correr"
+      ]
+    },
+    {
+      "cuando": "Octubre",
+      "cliente": [
+        "Dar el workshop o bootcamp y hacer de setter de las llamadas que salgan",
+        "Grabar todas las llamadas de venta y cerrar los primeros cupos",
+        "Registrar con qué problema llega cada persona, para corregir la comunicación con datos en la mano"
+      ],
+      "cascara": [
+        "Franco revisa las llamadas grabadas y le marca dónde se cae cada una",
+        "Franco define si entra un closer del equipo para esta primera tanda",
+        "Facu revisa el resultado contra el objetivo de cinco a diez cupos"
+      ]
+    },
+    {
+      "cuando": "Cierre, 31 de octubre",
+      "cliente": [
+        "Presentar cuántos cupos se vendieron, qué contenido trajo a cada uno y dónde se cae la venta"
+      ],
+      "cascara": [
+        "Facu y Franco definen si la cohorte pasa a formato abierto y si se abre la consultoría de noventa días de Workflow"
+      ]
+    }
+  ],
+  "conclusion": "El negocio se direcciona a dos carriles separados que se alimentan de la misma reputación. Workflow queda como bolsa de PMs certificados, con ticket de entrada más bajo, scope acotado y la capacitación vendida aparte, para bajar la exposición al resultado del proyecto del cliente. El programa B2C queda como la línea que escala, y se corre una vez completo para saber qué pieza trae a cada persona.\n\nEl calendario se aprieta porque su activo tiene vencimiento: ciento sesenta PMs juntos en un grupo se enfrían cada semana que pasa sin fecha, y la fecha ya se corrió una vez desde fines de agosto. El documento de lanzamiento sale el 17 de septiembre y el workshop se dicta el 2 de octubre, que es la fecha dura del tramo. El perfil, el arco narrativo y la tanda de contenido se hacen en la misma ventana, y el tráfico empieza a bajar al grupo el 17, con la producción todavía abierta. Cada pieza se mide el día que sale por la gente que entró al grupo, y cada llamada de venta se sube grabada el mismo día para que Franco marque dónde se cayó. La presión acá entrena exactamente lo que le cuesta: pedir la compra con una fecha anunciada, que ya no se puede correr.\n\nQueda abierta la consultoría de noventa días de Workflow, que hoy es una idea, y la decisión de si la cohorte pasa a formato abierto. Las dos se definen con lo que devuelva este primer ciclo.",
+  "carta": "Lola, en dos semanas te sacaste de encima lo que más te costaba: pasaste de no querer grabar a organizarte el set sola y publicar. Eso dice bastante de cómo trabajás. Llegás a este tramo con lo más difícil ya conseguido: gente que quiere lo que vos hacés, junta en un mismo lugar y esperando que abras. Lo que viene es la parte que todavía te incomoda, pedir la compra, y se aprende igual que se aprendió la cámara, haciéndola, grabándola y mirándola con alguien al lado. Tu obsesión por la ineficiencia es exactamente la razón por la que un PM te va a escuchar, y falta que la cuentes. Octubre te va a dar la información que hoy te falta: escuchar, una por una, con qué problema llega cada persona.",
+  "abierto": "El día exacto del workshop, que en la grupal quedó como \"el jueves que viene\" y sale el 24 de septiembre por calendario (falta confirmar). Si el lanzamiento del programa sale como workshop o como bootcamp y con qué precio, que lo define Franco en la reunión que todavía no consta hecha (falta confirmar). Una aclaración sobre este documento: el material disponible son dos llamadas 1:1 con Facu, del 14 y del 28 de agosto, y tres grupales con Juana, del 2 y 9 de septiembre y del 16. Falta el registro de la llamada comercial con Franco y de una Clarity Call, así que todo lo que no está anclado en esas llamadas quedó marcado como pendiente de confirmar.",
+  "handicap": {
+    "ejes": {
+      "oferta": 2,
+      "contenido": 2,
+      "demanda": 3,
+      "venta": 1,
+      "entrega": 2
+    },
+    "total": 10,
+    "tramo": "En construcción",
+    "ritmo": "verde",
+    "ritmo_texto": "Hace lo que queda de cada llamada.",
+    "eje_flojo": [
+      "venta"
+    ],
+    "sugiere": [
+      "Conseguir"
+    ],
+    "nota": "Venta es el piso y el cuello del caso: el tráfico ya está juntado y entre la conversación y la plata no hay embudo, fecha, escasez ni seña. La oferta baja a dos porque el programa todavía no registra precio ni fecha de lanzamiento."
+  }
 }

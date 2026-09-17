@@ -2,7 +2,7 @@
 """Genera el sitio de Cáscara Founders. Sin dependencias: python3 build_site.py"""
 import json, html as _h, os, shutil, sys, glob
 def e(s): return _h.escape(str(s or ""))
-BASE=os.path.dirname(os.path.abspath(__file__))
+BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT=os.path.join(BASE,'site')
 FECHA="12 de septiembre de 2026"
 
@@ -362,7 +362,7 @@ if __name__=="__main__":
     open(os.path.join(OUT,'programa.html'),'w',encoding='utf-8').write(build_programa(prog))
     open(os.path.join(OUT,'materiales.html'),'w',encoding='utf-8').write(build_materiales(mat))
     open(os.path.join(OUT,'clientes.html'),'w',encoding='utf-8').write(build_clientes(panel))
-    docs=os.path.join(BASE,'contenido','docs')
+    docs=os.path.join(BASE,'clientes')
     n=0
     for f in glob.glob(os.path.join(docs,'*.html')):
         shutil.copy(f, os.path.join(OUT,'clientes',os.path.basename(f))); n+=1

@@ -1,257 +1,261 @@
 {
- "slug": "lucio-labate",
- "cliente": "Lucio Labate",
- "proyecto": "Lucio Labate — marca personal de diseño (@luwel)",
- "modo": "radiografia",
- "orientacion": "Conseguir",
- "arranque": "(falta confirmar) — la primera llamada registrada es del 24 de julio de 2026, con Juana",
- "etapa": "Arranca el tramo de ejecución con la oferta trabajada y un video subido de quince: septiembre es cerrar el documento con precio junto a Franco y poner las diez piezas arriba, y octubre es leerlas y llegar a cinco llamadas.",
- "metrica": "Piezas publicadas contra las diez comprometidas, y cuántas conversaciones y llamadas salen de esas diez.",
- "titular": "Instala IA adentro de una empresa todos los días. El tramo que viene es empaquetar eso como oferta con precio y salir a probarla.",
- "bajada": "Lucio ya trabaja con IA adentro de una empresa y resuelve branding, web y contenido. Le falta una oferta escrita que diga qué vende, a quién y a cuánto. Con ese destino en el aire, cada pieza de contenido tiene que resolver qué decir y para qué al mismo tiempo, y ahí se le van las horas. Septiembre es para cerrar la oferta y subir diez piezas. Octubre es para leer qué pasó con esas diez.",
- "punto_a": [
-  {
-   "label": "Funciona",
-   "titulo": "Ya entrega IA adentro de una empresa, todos los días",
-   "texto": "Trabaja para Wellmate, una empresa que vende servicios de ciberseguridad a compañías como Mercado Libre y Arcor, y arma simulaciones: deepfakes, guiones, contenido, todo con IA. Facu se lo marcó en la cara: trabaja con IA mucho más de lo que la usa el propio equipo de Cáscara. Además resuelve solo lo que antes necesitaba tres personas. Si le piden una landing, la hace. El branding, el criterio estético, los carruseles y los recursos visuales conviven todos adentro del mismo rol. Eso es el producto que hay que vender, y es exactamente lo que todavía está por empaquetarse."
-  },
-  {
-   "label": "Funciona",
-   "titulo": "El contenido levanta y está apuntando un poco al costado",
-   "texto": "Facu le dijo que lo que sube le gusta, que tiene buenas repercusiones y que abre conversaciones. Lo que hay que ajustar es la calibración: la ejecución ya está. Hoy comunica cosas del tipo \"no contrates un diseñador gráfico sin saber esto\", y el mercado está pensando en cómo usar la IA sin que le quede mal. Facu se lo graficó así: está vendiendo un auto vintage cuando la gente busca un Tesla. El mismo contenido apuntado al lugar correcto es otra cosa."
-  },
-  {
-   "label": "Pendiente",
-   "titulo": "La oferta por cerrar, el perfil por ordenar y el volumen por hacer",
-   "texto": "La oferta está trabajada y falta cerrarla: definirla con Franco, ponerle precio y salir. El perfil también pide lo suyo: destacadas por corregir, descripción por acomodar, feed por ordenar y publicaciones viejas para archivar. Y el volumen sigue pendiente. Facu se lo dijo así: de los quince videos que tenía que subir, subió uno. Con un video hay poco para leer, a favor o en contra."
-  }
- ],
- "recorrido": {
-  "titulo": "De los diez videos genéricos a un tramo con método",
-  "texto": "El recorrido de Lucio muestra un patrón que se repite: cuando la tarea sale de algo que ya existe avanza, y cuando sale de una hoja en blanco se traba. En julio la indicación de hacer diez videos de branding genéricos lo dejó parado, y Juana dio vuelta el proceso: primero un proyecto de diseño real, una portada de disco por ejemplo, y después documentarlo. En agosto se bajó el criterio de volumen antes que perfección, con una pieza por semana y el foco puesto en documentar el proceso en vivo con voz en off, que es más barato de producir y muestra el criterio, que es lo que se vende. El 18 de agosto se ordenaron los roles, porque estaba recibiendo consejos de distintos lados que no coincidían: Facu y Franco quedaron como mentores estratégicos de oferta y ventas, y Juana, Fede y Teo en las grupales, y ahí apareció por primera vez la oferta integrada de branding más web más IA, con el mismo criterio que están aplicando en 0800, que es vender el deck creativo completo. La llamada del 1 de septiembre fue un push directo: Facu le marcó que la conclusión de que no le sale vender necesita una prueba antes, que su comunicación está mal calibrada y que quedarse frisado le resulta más cómodo que transitar el cambio; él lo tomó, se comprometió al cien por ciento y quedó en devolver las dudas de la oferta por escrito. En las grupales se corrigió un supuesto importante: el cliente ideal ya lo sabe, moda y música, y el trabajo es expandir la mirada adentro de música hacia empresas de sonido y todo lo que gira alrededor. Y el 9 apareció lo que lo mueve, la falta de escucha activa, con la frase de Juana que le ordena el posicionamiento: el diseño gráfico es su medio y su techo está bastante más arriba.",
-  "hitos": [
-   {
-    "cuando": "24 jul",
-    "que": "con juana: primero el proyecto real, después el contenido"
-   },
-   {
-    "cuando": "6 ago",
-    "que": "volumen antes que perfección: una pieza por semana"
-   },
-   {
-    "cuando": "18 ago",
-    "que": "se ordenan los roles y aparece la oferta integrada"
-   },
-   {
-    "cuando": "1 sep",
-    "que": "la llamada del push: se compromete al cien por ciento"
-   },
-   {
-    "cuando": "2 sep",
-    "que": "con teo: bajar la oferta y el roadmap de contenido"
-   },
-   {
-    "cuando": "2 sep",
-    "que": "juana: el cliente ideal se expande, no se redefine"
-   },
-   {
-    "cuando": "4 sep",
-    "que": "fede revisa el video de bowen: 140 reproducciones"
-   },
-   {
-    "cuando": "9 sep",
-    "que": "aparece lo que lo mueve: la falta de escucha activa"
-   }
-  ]
- },
- "lectura": {
-  "titular": "El cuello es la oferta escrita: falta el documento que fija qué vende, a quién y a cuánto.",
-  "texto": "Produce, entrega y maneja las herramientas mejor que el promedio, y le vende a un mercado que viene atrasado con la IA y que por eso lo necesita. Lo que falta es el documento que diga qué vende, a quién y a cuánto, y por eso cada contenido arranca de cero. Con ese documento arriba, el contenido deja de ser una decisión diaria y pasa a ser ejecución contra ángulos. Por eso el trabajo del tramo es método: perfil ordenado, oferta con precio, diez piezas y cinco llamadas.",
-  "cita": "Siento que me capacité, hice muchísimos cursos, ahora estoy con Cáscara, tengo un montón de conocimientos para concretar cosas y proyectos creativos y sé incluso cómo ayudar a alguien a que cree una marca de cero, pero pareciera o que no alcanza o que yo no lo sé vender.",
-  "cita_autor": "Lucio Labate · 1 de septiembre de 2026"
- },
- "respuestas": [
-  {
-   "tema": "La oferta en dos niveles",
-   "respuesta": "Son módulos de la misma oferta y se pueden vender juntos o por separado: la instalación de un sistema de diseño con IA en empresas, y la estrategia creativa de la creación de una marca y de su comunicación."
-  },
-  {
-   "tema": "Por dónde se empieza",
-   "respuesta": "Por la de IA, que es la que el mercado está pidiendo hoy. La de estrategia creativa se abre sola cuando tenga casos."
-  },
-  {
-   "tema": "El buyer prioritario",
-   "respuesta": "Empresas B2B con equipo de marketing y sin diseñador propio."
-  },
-  {
-   "tema": "El precio de hipótesis",
-   "respuesta": "Dos mil a tres mil dólares la instalación, más cuatrocientos a seiscientos mensuales de acompañamiento opcional, a confirmar en las primeras cinco llamadas."
-  },
-  {
-   "tema": "El cliente ideal creativo",
-   "respuesta": "Moda y música siguen siendo el terreno, y la mirada se expande adentro de música hacia empresas de sonido y todo lo que gira alrededor. Quedaron dos proyectos para armar, uno para un músico y otro para una marca de ropa, aunque sean un flyer y aunque sean ficticios."
-  },
-  {
-   "tema": "La forma de producir",
-   "respuesta": "Primero el proyecto real y después el contenido, documentando el trabajo en vivo con voz en off: es el formato más barato y el que muestra criterio."
-  },
-  {
-   "tema": "Los ajustes de formato de Fede",
-   "respuesta": "Tres reducciones del video de Bowen con formatos distintos: un branding de diez segundos, una pantalla dividida scrolleando Canva con su cara explicando y un carrusel de textos orgánicos. Más una historia destacada siguiendo la referencia de Romper la Cáscara y trial reels. El próximo video queda entre por qué está mal hacer un rebranding y por qué el diseño cambió en 2026."
-  },
-  {
-   "tema": "El posicionamiento",
-   "respuesta": "El diseño gráfico es su medio y su techo está bastante más arriba: lo que instala es un sistema de diseño con IA. Lo que lo mueve, y sirve de ángulo, es la falta de escucha activa."
-  },
-  {
-   "tema": "Las reglas del sistema",
-   "respuesta": "Diez piezas como mínimo antes de evaluar, y validación siempre con precio."
-  }
- ],
- "entregables": [
-  {
-   "que": "Los accionables del profile funnel y los SOP del perfil, que le baja Facu",
-   "para": "Los ejecuta él: destacadas, descripción, feed y archivo de publicaciones viejas, antes de que salga la primera pieza."
-  },
-  {
-   "que": "La reunión de oferta y pricing con Franco, con el transcript de la llamada del 1 de septiembre que le pasa Facu",
-   "para": "Sale el documento de oferta: los dos niveles, el buyer prioritario, qué incluye cada nivel y el precio de hipótesis."
-  },
-  {
-   "que": "Los ángulos de comunicación que le baja Facu, con una idea concreta por ángulo",
-   "para": "Son el destino de las diez piezas. Cáscara deja la estrategia, el criterio y un ejemplo; los guiones los escribe él."
-  },
-  {
-   "que": "El template de calendario de contenido con referencias y un ejemplo por formato",
-   "para": "Deposita ahí sus ideas y las carga contra los ángulos, en lugar de arrancar de una hoja en blanco."
-  },
-  {
-   "que": "Las tres grupales semanales con Juana, Fede y Teo",
-   "para": "Lleva el objetivo concreto de la semana y sale con los ajustes de guion y de formato."
-  }
- ],
- "punto_b": [
-  {
-   "fecha": "30 de septiembre de 2026",
-   "titulo": "La oferta cerrada y las diez piezas arriba",
-   "texto": "La oferta escrita en un documento, con los dos niveles definidos, el buyer prioritario y el precio de hipótesis puesto. Y diez piezas publicadas apuntando a los dolores de ese buyer. Recién con esas diez hay material para decir si el ángulo funciona o si hay que corregirlo. El perfil tiene que estar ordenado antes de que salga la primera: destacadas, descripción y feed."
-  },
-  {
-   "fecha": "31 de octubre de 2026",
-   "titulo": "Cinco llamadas hechas y el precio confirmado",
-   "texto": "Cinco conversaciones de venta reales sobre la instalación del sistema de diseño con IA, con el precio puesto sobre la mesa. La hipótesis es dos mil a tres mil dólares la instalación, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Esas cinco llamadas son las que confirman o corrigen ese número. Al lado, la lectura de las diez piezas: cuáles abrieron conversación y cuáles no."
-  }
- ],
- "roadmap": [
-  {
-   "cuando": "15 y 16 de septiembre",
-   "objetivo": "El perfil listo para recibir",
-   "entregable": "El profile funnel aplicado: destacadas corregidas, descripción acomodada, feed ordenado y publicaciones viejas archivadas. Cáscara baja los accionables y los SOP; él los ejecuta. En las mismas dos jornadas manda por escrito las dudas de la oferta que quedaron del 1 de septiembre.",
-   "quien": "Lucio, con los SOP de Facu"
-  },
-  {
-   "cuando": "17 de septiembre",
-   "objetivo": "La oferta cerrada con precio",
-   "entregable": "Reunión con Franco, ya con el transcript y el feedback escrito arriba, para que sea un flechazo. Sale el documento de oferta: los dos niveles, el buyer prioritario, qué incluye cada nivel y el precio de hipótesis. Fecha dura: 17 de septiembre.",
-   "quien": "Lucio con Franco"
-  },
-  {
-   "cuando": "17 y 18 de septiembre",
-   "objetivo": "Los ángulos cargados en el calendario",
-   "entregable": "Los ángulos que salen de la oferta y del buyer, cada uno con una idea concreta al lado, cargados en el template de calendario con referencias y un ejemplo por formato. Se cargan el mismo día que cierra la oferta, para que el contenido no espere.",
-   "quien": "Lucio con Facu"
-  },
-  {
-   "cuando": "Del 18 al 30 de septiembre",
-   "objetivo": "Las diez piezas arriba",
-   "entregable": "Diez piezas publicadas contra los ángulos, en formato barato: el trabajo real documentado en vivo, con voz en off explicando el criterio. Cada pieza se lee el día que sale y la siguiente se corrige con eso, sin esperar a tener las diez completas.",
-   "quien": "Lucio"
-  },
-  {
-   "cuando": "Del 1 al 8 de octubre",
-   "objetivo": "La lectura de las diez y la corrección",
-   "entregable": "Revisión pieza por pieza con Facu: qué ángulo abrió conversación, cuál quedó en silencio, qué se corrige del mensaje y qué se sostiene. De ahí sale la segunda tanda, ya calibrada.",
-   "quien": "Lucio con Facu"
-  },
-  {
-   "cuando": "Del 1 al 24 de octubre",
-   "objetivo": "Cinco llamadas con precio sobre la mesa",
-   "entregable": "Cinco llamadas de venta sobre la instalación del sistema de diseño con IA, con el precio dicho en voz alta. Salen del contenido y de prospección propia, y arrancan mientras todavía se lee la primera tanda. Se valida siempre con precio.",
-   "quien": "Lucio, con Franco de apoyo"
-  },
-  {
-   "cuando": "31 de octubre",
-   "objetivo": "Confirmar el precio y definir el tramo siguiente",
-   "entregable": "El precio de la instalación confirmado o corregido con lo que dijeron las cinco llamadas, y la decisión de si el nivel de estrategia creativa ya se puede empezar a ofrecer o si hay que esperar a tener casos.",
-   "quien": "Lucio con Facu y Franco"
-  }
- ],
- "accionables": [
-  {
-   "cuando": "Septiembre",
-   "cliente": [
-    "Mandar por escrito el feedback y las dudas de la oferta que quedaron de la llamada del 1 de septiembre",
-    "Aplicar el profile funnel: destacadas, descripción, feed y archivo de publicaciones viejas",
-    "Tener la reunión con Franco y salir de ahí con el documento de oferta cerrado y con precio",
-    "Cargar los ángulos en el calendario y empezar a publicar contra ellos",
-    "Levantar la mano en las grupales de Fede y de Juana con el objetivo concreto de la semana"
-   ],
-   "cascara": [
-    "Facu le pasa a Franco el transcript de la llamada del 1 de septiembre para que llegue con contexto",
-    "Facu le baja el bloque de accionables del profile funnel y los SOP del perfil",
-    "Franco define con él la oferta en dos niveles, el buyer prioritario y el precio",
-    "Facu le baja los ángulos de comunicación con una idea concreta por ángulo",
-    "Cáscara le entrega el template de calendario de contenido con referencias y un ejemplo por formato"
-   ]
-  },
-  {
-   "cuando": "Octubre",
-   "cliente": [
-    "Completar las diez piezas publicadas contra los ángulos definidos",
-    "Abrir conversaciones y llegar a cinco llamadas de venta con precio sobre la mesa",
-    "Registrar qué respondió cada ángulo, para tener con qué corregir"
-   ],
-   "cascara": [
-    "Facu revisa las diez piezas y le marca qué corregir y qué sostener",
-    "Franco lo acompaña en las primeras llamadas de venta y calibra el pricing",
-    "Facu sostiene el seguimiento semanal para que el volumen no se caiga"
-   ]
-  },
-  {
-   "cuando": "Cierre, 31 de octubre",
-   "cliente": [
-    "Presentar las diez piezas con su lectura y el resultado de las cinco llamadas, con el precio confirmado o corregido"
-   ],
-   "cascara": [
-    "Facu y Franco revisan contra el punto A y definen si se abre el segundo nivel de la oferta"
-   ]
-  }
- ],
- "conclusion": "El negocio se direcciona a vender la instalación de un sistema de diseño con IA a empresas B2B con equipo de marketing y sin diseñador propio, que es el nivel que el mercado está pidiendo hoy. El segundo nivel, la estrategia creativa de creación de marca y comunicación, queda listo para abrirse cuando tenga casos que lo respalden. La ventaja competitiva ya está instalada y es difícil de copiar: hace todos los días adentro de Wellmate lo que va a vender afuera, y resuelve solo lo que antes pedía tres personas.\n\nEl calendario se aprieta al máximo en su caso, porque el freno está en el arranque. La oferta se cierra con Franco el 17 de septiembre, que es la fecha dura, y los ángulos se cargan en el calendario ese mismo día. Las diez piezas suben entre el 18 y el 30 de septiembre, y las cinco llamadas arrancan el 1 de octubre, en paralelo con la lectura de esas piezas, que se hace sobre la marcha: cada una se mide el día que se publica y corrige la siguiente. De quince videos subió uno, y el patrón ya está a la vista: cuando la tarea sale de algo que ya existe avanza, y cuando arranca de una hoja en blanco se traba. Por eso las fechas son cortas y encadenadas, con un entregable en la mano cada semana y presión de afuera hasta que la tenga adentro.\n\nQueda abierto el precio final de la instalación y del acompañamiento mensual, que se confirma con las primeras cinco llamadas, y con eso la decisión de abrir el segundo nivel de la oferta.",
- "carta": "Lucio, tenés algo que el mercado está buscando ahora mismo y lo tenés probado adentro de una empresa que le vende a Mercado Libre y a Arcor: armás con IA lo que antes pedía un equipo entero. Lo que te faltó hasta acá es el envase, y eso se resuelve en una reunión con Franco. Para septiembre te pedimos algo incómodo: publicar antes de estar conforme, diez veces, contra ángulos que ya van a estar definidos. La calibración se corrige sobre lo que está arriba, y con un video no hay con qué corregir. El diseño gráfico es tu medio y tu techo está bastante más arriba; la escucha activa que reclamás de los demás es justo lo que vas a vender. Ponelo a prueba con precio y hablemos con los números de las cinco llamadas adelante.",
- "abierto": "El precio final de la instalación y del acompañamiento mensual, que recién se confirma con las primeras cinco llamadas (falta confirmar).",
- "handicap": {
-  "ejes": {
-   "oferta": 1,
-   "contenido": 1,
-   "demanda": 1,
-   "venta": 1,
-   "entrega": 2
-  },
-  "total": 6,
-  "tramo": "Arranque",
-  "ritmo": "rojo",
-  "ritmo_texto": "Hace tiempo que no mueve.",
-  "eje_flojo": [
-   "oferta",
-   "contenido",
-   "demanda",
-   "venta"
+  "slug": "lucio-labate",
+  "cliente": "Lucio Labate",
+  "proyecto": "Lucio Labate — marca personal de diseño (@luwel)",
+  "modo": "radiografia",
+  "orientacion": "Conseguir",
+  "arranque": "(falta confirmar) — la primera llamada registrada es del 24 de julio de 2026, con Juana",
+  "etapa": "Frenado en el arranque del tramo de ejecución: la oferta está trabajada y bajada por escrito, y entre eso y la publicación no pasó nada. Lo primero es restablecer el contacto, que hoy no funciona por el grupo.",
+  "metrica": "Piezas publicadas contra las diez comprometidas, y cuántas conversaciones y llamadas salen de esas diez.",
+  "titular": "Instala IA adentro de una empresa todos los días. El tramo que viene es empaquetar eso como oferta con precio y salir a probarla.",
+  "bajada": "Lucio ya trabaja con IA adentro de una empresa y resuelve branding, web y contenido. Le falta una oferta escrita que diga qué vende, a quién y a cuánto. Con ese destino en el aire, cada pieza de contenido tiene que resolver qué decir y para qué al mismo tiempo, y ahí se le van las horas. Septiembre es para cerrar la oferta y subir diez piezas. Octubre es para leer qué pasó con esas diez.",
+  "punto_a": [
+    {
+      "label": "Funciona",
+      "titulo": "Ya entrega IA adentro de una empresa, todos los días",
+      "texto": "Trabaja para Wellmate, una empresa que vende servicios de ciberseguridad a compañías como Mercado Libre y Arcor, y arma simulaciones: deepfakes, guiones, contenido, todo con IA. Facu se lo marcó en la cara: trabaja con IA mucho más de lo que la usa el propio equipo de Cáscara. Además resuelve solo lo que antes necesitaba tres personas. Si le piden una landing, la hace. El branding, el criterio estético, los carruseles y los recursos visuales conviven todos adentro del mismo rol. Eso es el producto que hay que vender, y es exactamente lo que todavía está por empaquetarse."
+    },
+    {
+      "label": "Funciona",
+      "titulo": "El contenido levanta y está apuntando un poco al costado",
+      "texto": "Facu le dijo que lo que sube le gusta, que tiene buenas repercusiones y que abre conversaciones. Lo que hay que ajustar es la calibración: la ejecución ya está. Hoy comunica cosas del tipo \"no contrates un diseñador gráfico sin saber esto\", y el mercado está pensando en cómo usar la IA sin que le quede mal. Facu se lo graficó así: está vendiendo un auto vintage cuando la gente busca un Tesla. El mismo contenido apuntado al lugar correcto es otra cosa."
+    },
+    {
+      "label": "Pendiente",
+      "titulo": "La oferta por cerrar, el perfil por ordenar y el volumen por hacer",
+      "texto": "La oferta está trabajada y falta cerrarla: definirla con Franco, ponerle precio y salir. El perfil también pide lo suyo: destacadas por corregir, descripción por acomodar, feed por ordenar y publicaciones viejas para archivar. Y el volumen sigue pendiente. Facu se lo dijo así: de los quince videos que tenía que subir, subió uno. Con un video hay poco para leer, a favor o en contra."
+    }
   ],
-  "sugiere": [
-   "Conseguir",
-   "Sostener"
+  "recorrido": {
+    "titulo": "De los diez videos genéricos a un tramo con método",
+    "texto": "El recorrido de Lucio muestra un patrón que se repite: cuando la tarea sale de algo que ya existe avanza, y cuando sale de una hoja en blanco se traba. En julio la indicación de hacer diez videos de branding genéricos lo dejó parado, y Juana dio vuelta el proceso: primero un proyecto de diseño real, una portada de disco por ejemplo, y después documentarlo. En agosto se bajó el criterio de volumen antes que perfección, con una pieza por semana y el foco puesto en documentar el proceso en vivo con voz en off, que es más barato de producir y muestra el criterio, que es lo que se vende. El 18 de agosto se ordenaron los roles, porque estaba recibiendo consejos de distintos lados que no coincidían: Facu y Franco quedaron como mentores estratégicos de oferta y ventas, y Juana, Fede y Teo en las grupales, y ahí apareció por primera vez la oferta integrada de branding más web más IA, con el mismo criterio que están aplicando en 0800, que es vender el deck creativo completo. La llamada del 1 de septiembre fue un push directo: Facu le marcó que la conclusión de que no le sale vender necesita una prueba antes, que su comunicación está mal calibrada y que quedarse frisado le resulta más cómodo que transitar el cambio; él lo tomó, se comprometió al cien por ciento y quedó en devolver las dudas de la oferta por escrito. En las grupales se corrigió un supuesto importante: el cliente ideal ya lo sabe, moda y música, y el trabajo es expandir la mirada adentro de música hacia empresas de sonido y todo lo que gira alrededor. Y el 9 apareció lo que lo mueve, la falta de escucha activa, con la frase de Juana que le ordena el posicionamiento: el diseño gráfico es su medio y su techo está bastante más arriba. El 16 de septiembre quedó marcado como frenado. Hay una causa mecánica y una de fondo. La mecánica es que no le llegan los mensajes del grupo, así que el contacto pasa a ser por privado y lo toma Aye, que tiene su teléfono. La de fondo la trajo Aye de la llamada del viernes con Fede y de lo que sondeó después: no tiene clara su oferta ni el proceso que quiere dar, se está frustrando y se compara con los otros del grupo que ya están ejecutando. Facu ya le pasó la radiografía completa con la oferta bajada y el 5 de septiembre Lucio le dio la razón; después subió un video por indicación de Fede y hasta ahí llegó. La propuesta que queda sobre la mesa es que ofrezca diseño más IA, que es lo que ya hace para la empresa donde trabaja.",
+    "hitos": [
+      {
+        "cuando": "24 jul",
+        "que": "con juana: primero el proyecto real, después el contenido"
+      },
+      {
+        "cuando": "6 ago",
+        "que": "volumen antes que perfección: una pieza por semana"
+      },
+      {
+        "cuando": "18 ago",
+        "que": "se ordenan los roles y aparece la oferta integrada"
+      },
+      {
+        "cuando": "1 sep",
+        "que": "la llamada del push: se compromete al cien por ciento"
+      },
+      {
+        "cuando": "2 sep",
+        "que": "con teo: bajar la oferta y el roadmap de contenido"
+      },
+      {
+        "cuando": "2 sep",
+        "que": "juana: el cliente ideal se expande, no se redefine"
+      },
+      {
+        "cuando": "4 sep",
+        "que": "fede revisa el video de bowen: 140 reproducciones"
+      },
+      {
+        "cuando": "9 sep",
+        "que": "aparece lo que lo mueve: la falta de escucha activa"
+      },
+      {
+        "cuando": "16 sep",
+        "que": "queda marcado como frenado: no le llegan los mensajes y aye lo contacta por privado"
+      }
+    ]
+  },
+  "lectura": {
+    "titular": "El cuello es la oferta escrita: falta el documento que fija qué vende, a quién y a cuánto.",
+    "texto": "Produce, entrega y maneja las herramientas mejor que el promedio, y le vende a un mercado que viene atrasado con la IA y que por eso lo necesita. Lo que falta es el documento que diga qué vende, a quién y a cuánto, y por eso cada contenido arranca de cero. Con ese documento arriba, el contenido deja de ser una decisión diaria y pasa a ser ejecución contra ángulos. Por eso el trabajo del tramo es método: perfil ordenado, oferta con precio, diez piezas y cinco llamadas.",
+    "cita": "Siento que me capacité, hice muchísimos cursos, ahora estoy con Cáscara, tengo un montón de conocimientos para concretar cosas y proyectos creativos y sé incluso cómo ayudar a alguien a que cree una marca de cero, pero pareciera o que no alcanza o que yo no lo sé vender.",
+    "cita_autor": "Lucio Labate · 1 de septiembre de 2026"
+  },
+  "respuestas": [
+    {
+      "tema": "La oferta en dos niveles",
+      "respuesta": "Son módulos de la misma oferta y se pueden vender juntos o por separado: la instalación de un sistema de diseño con IA en empresas, y la estrategia creativa de la creación de una marca y de su comunicación."
+    },
+    {
+      "tema": "Por dónde se empieza",
+      "respuesta": "Por la de IA, que es la que el mercado está pidiendo hoy. La de estrategia creativa se abre sola cuando tenga casos."
+    },
+    {
+      "tema": "El buyer prioritario",
+      "respuesta": "Empresas B2B con equipo de marketing y sin diseñador propio."
+    },
+    {
+      "tema": "El precio de hipótesis",
+      "respuesta": "Dos mil a tres mil dólares la instalación, más cuatrocientos a seiscientos mensuales de acompañamiento opcional, a confirmar en las primeras cinco llamadas."
+    },
+    {
+      "tema": "El cliente ideal creativo",
+      "respuesta": "Moda y música siguen siendo el terreno, y la mirada se expande adentro de música hacia empresas de sonido y todo lo que gira alrededor. Quedaron dos proyectos para armar, uno para un músico y otro para una marca de ropa, aunque sean un flyer y aunque sean ficticios."
+    },
+    {
+      "tema": "La forma de producir",
+      "respuesta": "Primero el proyecto real y después el contenido, documentando el trabajo en vivo con voz en off: es el formato más barato y el que muestra criterio."
+    },
+    {
+      "tema": "Los ajustes de formato de Fede",
+      "respuesta": "Tres reducciones del video de Bowen con formatos distintos: un branding de diez segundos, una pantalla dividida scrolleando Canva con su cara explicando y un carrusel de textos orgánicos. Más una historia destacada siguiendo la referencia de Romper la Cáscara y trial reels. El próximo video queda entre por qué está mal hacer un rebranding y por qué el diseño cambió en 2026."
+    },
+    {
+      "tema": "El posicionamiento",
+      "respuesta": "El diseño gráfico es su medio y su techo está bastante más arriba: lo que instala es un sistema de diseño con IA. Lo que lo mueve, y sirve de ángulo, es la falta de escucha activa."
+    },
+    {
+      "tema": "Las reglas del sistema",
+      "respuesta": "Diez piezas como mínimo antes de evaluar, y validación siempre con precio."
+    }
   ],
-  "nota": "Se puntúa su propia oferta de IA, que es sobre la que corre el roadmap. Cuatro habilidades empatan abajo y manda oferta: sin el documento con precio, cada pieza tiene que resolver qué decir y para qué al mismo tiempo."
- }
+  "entregables": [
+    {
+      "que": "Los accionables del profile funnel y los SOP del perfil, que le baja Facu",
+      "para": "Los ejecuta él: destacadas, descripción, feed y archivo de publicaciones viejas, antes de que salga la primera pieza."
+    },
+    {
+      "que": "La reunión de oferta y pricing con Franco, con el transcript de la llamada del 1 de septiembre que le pasa Facu",
+      "para": "Sale el documento de oferta: los dos niveles, el buyer prioritario, qué incluye cada nivel y el precio de hipótesis."
+    },
+    {
+      "que": "Los ángulos de comunicación que le baja Facu, con una idea concreta por ángulo",
+      "para": "Son el destino de las diez piezas. Cáscara deja la estrategia, el criterio y un ejemplo; los guiones los escribe él."
+    },
+    {
+      "que": "El template de calendario de contenido con referencias y un ejemplo por formato",
+      "para": "Deposita ahí sus ideas y las carga contra los ángulos, en lugar de arrancar de una hoja en blanco."
+    },
+    {
+      "que": "Las tres grupales semanales con Juana, Fede y Teo",
+      "para": "Lleva el objetivo concreto de la semana y sale con los ajustes de guion y de formato."
+    }
+  ],
+  "punto_b": [
+    {
+      "fecha": "30 de septiembre de 2026",
+      "titulo": "La oferta cerrada y las diez piezas arriba",
+      "texto": "La oferta escrita en un documento, con los dos niveles definidos, el buyer prioritario y el precio de hipótesis puesto. Y diez piezas publicadas apuntando a los dolores de ese buyer. Recién con esas diez hay material para decir si el ángulo funciona o si hay que corregirlo. El perfil tiene que estar ordenado antes de que salga la primera: destacadas, descripción y feed."
+    },
+    {
+      "fecha": "31 de octubre de 2026",
+      "titulo": "Cinco llamadas hechas y el precio confirmado",
+      "texto": "Cinco conversaciones de venta reales sobre la instalación del sistema de diseño con IA, con el precio puesto sobre la mesa. La hipótesis es dos mil a tres mil dólares la instalación, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Esas cinco llamadas son las que confirman o corrigen ese número. Al lado, la lectura de las diez piezas: cuáles abrieron conversación y cuáles no."
+    }
+  ],
+  "roadmap": [
+    {
+      "cuando": "15 y 16 de septiembre",
+      "objetivo": "El perfil listo para recibir",
+      "entregable": "El profile funnel aplicado: destacadas corregidas, descripción acomodada, feed ordenado y publicaciones viejas archivadas. Cáscara baja los accionables y los SOP; él los ejecuta. En las mismas dos jornadas manda por escrito las dudas de la oferta que quedaron del 1 de septiembre.",
+      "quien": "Lucio, con los SOP de Facu"
+    },
+    {
+      "cuando": "17 de septiembre",
+      "objetivo": "La oferta cerrada con precio",
+      "entregable": "Reunión con Franco, ya con el transcript y el feedback escrito arriba, para que sea un flechazo. Sale el documento de oferta: los dos niveles, el buyer prioritario, qué incluye cada nivel y el precio de hipótesis. Fecha dura: 17 de septiembre.",
+      "quien": "Lucio con Franco"
+    },
+    {
+      "cuando": "17 y 18 de septiembre",
+      "objetivo": "Los ángulos cargados en el calendario",
+      "entregable": "Los ángulos que salen de la oferta y del buyer, cada uno con una idea concreta al lado, cargados en el template de calendario con referencias y un ejemplo por formato. Se cargan el mismo día que cierra la oferta, para que el contenido no espere.",
+      "quien": "Lucio con Facu"
+    },
+    {
+      "cuando": "Del 18 al 30 de septiembre",
+      "objetivo": "Las diez piezas arriba",
+      "entregable": "Diez piezas publicadas contra los ángulos, en formato barato: el trabajo real documentado en vivo, con voz en off explicando el criterio. Cada pieza se lee el día que sale y la siguiente se corrige con eso, sin esperar a tener las diez completas.",
+      "quien": "Lucio"
+    },
+    {
+      "cuando": "Del 1 al 8 de octubre",
+      "objetivo": "La lectura de las diez y la corrección",
+      "entregable": "Revisión pieza por pieza con Facu: qué ángulo abrió conversación, cuál quedó en silencio, qué se corrige del mensaje y qué se sostiene. De ahí sale la segunda tanda, ya calibrada.",
+      "quien": "Lucio con Facu"
+    },
+    {
+      "cuando": "Del 1 al 24 de octubre",
+      "objetivo": "Cinco llamadas con precio sobre la mesa",
+      "entregable": "Cinco llamadas de venta sobre la instalación del sistema de diseño con IA, con el precio dicho en voz alta. Salen del contenido y de prospección propia, y arrancan mientras todavía se lee la primera tanda. Se valida siempre con precio.",
+      "quien": "Lucio, con Franco de apoyo"
+    },
+    {
+      "cuando": "31 de octubre",
+      "objetivo": "Confirmar el precio y definir el tramo siguiente",
+      "entregable": "El precio de la instalación confirmado o corregido con lo que dijeron las cinco llamadas, y la decisión de si el nivel de estrategia creativa ya se puede empezar a ofrecer o si hay que esperar a tener casos.",
+      "quien": "Lucio con Facu y Franco"
+    }
+  ],
+  "accionables": [
+    {
+      "cuando": "Septiembre",
+      "cliente": [
+        "Mandar por escrito el feedback y las dudas de la oferta que quedaron de la llamada del 1 de septiembre",
+        "Aplicar el profile funnel: destacadas, descripción, feed y archivo de publicaciones viejas",
+        "Tener la reunión con Franco y salir de ahí con el documento de oferta cerrado y con precio",
+        "Cargar los ángulos en el calendario y empezar a publicar contra ellos",
+        "Levantar la mano en las grupales de Fede y de Juana con el objetivo concreto de la semana"
+      ],
+      "cascara": [
+        "Facu le pasa a Franco el transcript de la llamada del 1 de septiembre para que llegue con contexto",
+        "Facu le baja el bloque de accionables del profile funnel y los SOP del perfil",
+        "Franco define con él la oferta en dos niveles, el buyer prioritario y el precio",
+        "Facu le baja los ángulos de comunicación con una idea concreta por ángulo",
+        "Cáscara le entrega el template de calendario de contenido con referencias y un ejemplo por formato"
+      ]
+    },
+    {
+      "cuando": "Octubre",
+      "cliente": [
+        "Completar las diez piezas publicadas contra los ángulos definidos",
+        "Abrir conversaciones y llegar a cinco llamadas de venta con precio sobre la mesa",
+        "Registrar qué respondió cada ángulo, para tener con qué corregir"
+      ],
+      "cascara": [
+        "Facu revisa las diez piezas y le marca qué corregir y qué sostener",
+        "Franco lo acompaña en las primeras llamadas de venta y calibra el pricing",
+        "Facu sostiene el seguimiento semanal para que el volumen no se caiga"
+      ]
+    },
+    {
+      "cuando": "Cierre, 31 de octubre",
+      "cliente": [
+        "Presentar las diez piezas con su lectura y el resultado de las cinco llamadas, con el precio confirmado o corregido"
+      ],
+      "cascara": [
+        "Facu y Franco revisan contra el punto A y definen si se abre el segundo nivel de la oferta"
+      ]
+    }
+  ],
+  "conclusion": "El negocio se direcciona a vender la instalación de un sistema de diseño con IA a empresas B2B con equipo de marketing y sin diseñador propio, que es el nivel que el mercado está pidiendo hoy. El segundo nivel, la estrategia creativa de creación de marca y comunicación, queda listo para abrirse cuando tenga casos que lo respalden. La ventaja competitiva ya está instalada y es difícil de copiar: hace todos los días adentro de Wellmate lo que va a vender afuera, y resuelve solo lo que antes pedía tres personas.\n\nEl calendario se aprieta al máximo en su caso, porque el freno está en el arranque. La oferta se cierra con Franco el 17 de septiembre, que es la fecha dura, y los ángulos se cargan en el calendario ese mismo día. Las diez piezas suben entre el 18 y el 30 de septiembre, y las cinco llamadas arrancan el 1 de octubre, en paralelo con la lectura de esas piezas, que se hace sobre la marcha: cada una se mide el día que se publica y corrige la siguiente. De quince videos subió uno, y el patrón ya está a la vista: cuando la tarea sale de algo que ya existe avanza, y cuando arranca de una hoja en blanco se traba. Por eso las fechas son cortas y encadenadas, con un entregable en la mano cada semana y presión de afuera hasta que la tenga adentro.\n\nQueda abierto el precio final de la instalación y del acompañamiento mensual, que se confirma con las primeras cinco llamadas, y con eso la decisión de abrir el segundo nivel de la oferta.",
+  "carta": "Lucio, tenés algo que el mercado está buscando ahora mismo y lo tenés probado adentro de una empresa que le vende a Mercado Libre y a Arcor: armás con IA lo que antes pedía un equipo entero. Lo que te faltó hasta acá es el envase, y eso se resuelve en una reunión con Franco. Para septiembre te pedimos algo incómodo: publicar antes de estar conforme, diez veces, contra ángulos que ya van a estar definidos. La calibración se corrige sobre lo que está arriba, y con un video no hay con qué corregir. El diseño gráfico es tu medio y tu techo está bastante más arriba; la escucha activa que reclamás de los demás es justo lo que vas a vender. Ponelo a prueba con precio y hablemos con los números de las cinco llamadas adelante.",
+  "abierto": "El precio final de la instalación y del acompañamiento mensual, que recién se confirma con las primeras cinco llamadas (falta confirmar). Y si la llamada con Franco para cerrar la oferta llegó a hacerse: la fecha del roadmap era el 17 de septiembre y no consta agendada (falta confirmar).",
+  "handicap": {
+    "ejes": {
+      "oferta": 1,
+      "contenido": 1,
+      "demanda": 1,
+      "venta": 1,
+      "entrega": 2
+    },
+    "total": 6,
+    "tramo": "Arranque",
+    "ritmo": "rojo",
+    "ritmo_texto": "Hace tiempo que no mueve.",
+    "eje_flojo": [
+      "oferta",
+      "contenido",
+      "demanda",
+      "venta"
+    ],
+    "sugiere": [
+      "Conseguir",
+      "Sostener"
+    ],
+    "nota": "Se puntúa su propia oferta de IA, que es sobre la que corre el roadmap. Cuatro habilidades empatan abajo y manda oferta: sin el documento con precio, cada pieza tiene que resolver qué decir y para qué al mismo tiempo."
+  }
 }

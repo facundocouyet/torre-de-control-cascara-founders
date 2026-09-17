@@ -7,3 +7,6 @@ contenido/app-data.json
 
 .DS_Store
 __pycache__/
+
+# salida de build_site.py: copia autocontenida del sitio de scroll
+site/

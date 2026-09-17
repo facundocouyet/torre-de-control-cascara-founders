@@ -5,6 +5,44 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 17 de septiembre de 2026 · el repo ya se construye solo, y el barrido del 16
+
+Dos cosas. La primera es que el repo, tal como está en GitHub, no se podía regenerar desde
+una clonación limpia: los scripts tenían rutas de cuatro carpetas de sesiones viejas
+metidas adentro. Eso está arreglado. La segunda es el barrido de las llamadas del 16, que
+fue un día cargado.
+
+- **Los nueve builds corren desde cero.** Antes fallaban siete de nueve. `build.py` ejecutaba
+  el generador v1 al ser importado, y eso volteaba a `build2.py` y a `build_cartas.py`; ahora
+  su cuerpo está detrás de `if __name__ == "__main__"`, que es lo que el propio CLAUDE.md pedía.
+  `build_app.py`, `app_shell.py` y `build_site.py` buscaban `contenido/` adentro de `generador/`.
+  Y había rutas absolutas a `/home/claude/web`, `/home/claude/founders`, `/home/claude/qualita`,
+  `/home/claude/ally` y hasta un `/tmp/claude-0/shell.txt`. Todas salen ahora de la raíz del repo.
+- **`build2.py` leía `v2/fichas/` y escribía en `out2/`**, carpetas que en este repo no existen.
+  Ahora lee `fichas/` y escribe en `clientes/`, que es lo que dice CLAUDE.md. Por eso hasta hoy
+  no regeneraba ningún documento. `app_shell.py` escribía `site/app.html` y ahora escribe
+  `index.html`, que es la torre.
+- **La fecha del tablero estaba clavada en "16 SEP 2026".** Sale del día en que corre el build,
+  como ya pasaba con los días de programa.
+- **Seba Martínez es lo que más cambió.** El 16 tuvo la llamada con Franco y salió con la oferta
+  parametrizada: ocho semanas, tres pilares, doce a quince cupos, entrada de 997 a 1.200 dólares.
+  Lo que queda abierto es el producto, y eso se arma en su 1:1 del viernes 18 a las 9:30.
+- **Lucio Labate pasa a frenado, y por un motivo que se arregla.** No le llegan los mensajes del
+  grupo. El contacto pasa a privado y lo toma Aye.
+- **Quince fichas con el hito del 16 adentro.** De la grupal de Juana salieron Nico, Aaron,
+  Bianca, Scarlett, Custom Lab, Lola y Seba; de la revisión del servicio, los ocho que cierran
+  más Sofía y Lucio.
+- **El handoff de Aye dejó de mandar a agendar llamadas que ya pasaron.** Se reescribieron los
+  accionables de Seba, Sofía, Lucio, Lucca, Cecilia, Nico, Lola, Scarlett y Qualita.
+- Catorce Updates escritos en Cuentas, y la ficha de Israel Barranco pasó a On Going como
+  The Momentum Club, con START el 16/09.
+
+**Para mirar antes de subir:** los arreglos del generador, que son nueve archivos de `generador/`
+y es lo más sensible de esta tanda — conviene correr los nueve builds una vez en tu clon y ver que
+den lo mismo. Y el documento de Seba, que es con el que entrás a la llamada de mañana.
+
+---
+
 ## 16 de septiembre de 2026 · noche · los accionables
 
 Los accionables de nuestro lado estaban mezclando cinco cosas distintas. Quedaron repartidos
