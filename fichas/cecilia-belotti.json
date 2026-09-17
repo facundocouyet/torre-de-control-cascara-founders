@@ -1,242 +1,237 @@
 {
-  "slug": "cecilia-belotti",
-  "cliente": "Cecilia Belotti",
-  "proyecto": "Connect Turismo — diseño y comunicación de la experiencia turística",
-  "modo": "cierre",
-  "orientacion": "Conseguir",
-  "arranque": "23 de marzo de 2026 — onboarding con Teo",
-  "etapa": "Se cierra el acompañamiento en el día 177, con la primera propuesta de la mentoría enviada a precio completo y reservada hasta el viernes 19 de septiembre.",
-  "metrica": "Clientes de la mentoría cerrados. Al 16 de septiembre: una propuesta enviada, ninguna cerrada.",
-  "titular": "Ceci cierra con el vehículo resuelto y la primera propuesta en la calle, hecha con cuatro mensajes.",
-  "bajada": "El conocimiento estuvo desde el día uno. Lo que faltaba era el formato en el que se vende y el camino por el que llegan los clientes. El giro de julio cambió el vehículo, el de agosto cambió el motor de demanda, y en septiembre el outreach produjo su primera propuesta real a la primera semana de intentarlo.",
-  "punto_a": [
-    {
-      "label": "Resuelto",
-      "titulo": "El vehículo",
-      "texto": "Mentoría uno a uno de ocho semanas, ocho encuentros de noventa minutos, con los módulos grabados como activo de respaldo y no como producto. Precio de lista USD 1.000, con pago único o en dos partes. La oferta tiene bordes escritos: no maneja redes, no produce contenido, no toca identidad visual, no automatiza la conversación con los huéspedes. Eso es lo que la separa del DFY que la dejaba cobrando poco y entregando infinito."
-    },
-    {
-      "label": "Funciona",
-      "titulo": "El outreach en frío",
-      "texto": "El proceso que quedó diseñado en el paquete de cierre se probó en septiembre y funcionó a la primera. Cuatro mensajes salieron, uno abrió una conversación de diagnóstico y esa conversación terminó en una propuesta enviada. No hizo falta tráfico, ni audiencia, ni volumen de contenido: hizo falta escribirle a cuatro lugares."
-    },
-    {
-      "label": "Funciona",
-      "titulo": "La propuesta como pieza",
-      "texto": "La propuesta de Tantasiña —un alojamiento de San Javier, Traslasierra— es el molde para todas las que siguen. Abre con lo que vio del lugar, sigue con el punto de partida ordenado en cinco frentes, muestra tres cosas que se resuelven en las dos primeras semanas, detalla los ocho encuentros, cierra con qué se lleva, qué no incluye y el precio. Está escrita con el criterio de Ceci y con veinte años de oficio adentro."
-    },
-    {
-      "label": "Empezado",
-      "titulo": "El workshop",
-      "texto": "La activación de marketing que quedó marcada como objetivo final del acompañamiento. El grande, con su compañera docente, se corrió a noviembre. En el medio armó uno más corto para septiembre y estuvo grabando las charlas. Es el mecanismo que le va a dar base de datos: un evento pago, con landing propia y formulario, del que salen las llamadas."
-    },
-    {
-      "label": "Pendiente",
-      "titulo": "Los módulos en Skool y la landing propia",
-      "texto": "Los nueve módulos están construidos y falta terminar de grabarlos con el reencuadre y subirlos. La landing de la mentoría la armó ella misma aprendiendo Claude Code, y falta terminar de publicarla con dominio. Ninguna de las dos frena una venta: la propuesta de Tantasiña salió sin ellas."
-    }
-  ],
-  "recorrido": {
-    "titulo": "Seis meses, dos giros y una salida comercial que funcionó",
-    "texto": "Ceci entró el 23 de marzo con el Notion OS y el primer ejercicio de cliente ideal. En los primeros meses se trabajó lo que parecía el camino evidente: achicar el uno a uno, armar la escalera de valor, el posicionamiento y el calendario de contenido con Fede, el método para grabar orgánico con Facu y la productización con Teo. El 6 de julio, en el día 105, apareció la lectura que cambió todo: el freno no era el conocimiento ni el producto, era el tráfico. Un curso auto-servicio necesita un volumen de contenido diario que era, justamente, su mayor fricción. Así que se cambió el vehículo: de curso auto-servicio a mentoría híbrida uno a uno, con los módulos como respaldo y la venta apalancada en su expertise. El 13 de agosto se cambió también el motor de demanda: el contenido dejó de ser la estrategia de leads y pasó a ser práctica sostenida, y el lugar del contenido lo tomó el workshop como activación para juntar base de datos. En paralelo quedó el outreach en frío como el camino más rápido al primer cliente. En septiembre Ceci lo ejecutó, y a la primera semana tenía una propuesta afuera. En el mismo tramo se volvió una usuaria real de herramientas: armó su landing con Claude Code, hace sus carruseles con Claude Design y tiene Calendly, Gmail y Notion conectados. El 16 de septiembre entró al circuito de cierre. El documento de sign-off estaba vacío y lo completa Facu. La lectura que quedó dicha es que el encaje no era este: llegó sin tracción, sin audiencia y sin creación de contenido, que es el piso desde el que trabaja Founders. No hay oferta nueva para ofrecerle: Aye coordina la llamada de cierre con Teo y ahí se cierra el acompañamiento.",
-    "hitos": [
-      {
-        "cuando": "16 sep",
-        "que": "entra al circuito de cierre: facu completa el documento de sign-off, sin oferta nueva"
-      }
-    ]
+ "slug": "cecilia-belotti",
+ "cliente": "Cecilia Belotti",
+ "proyecto": "Connect Turismo — diseño y comunicación de la experiencia turística",
+ "modo": "cierre",
+ "orientacion": "Conseguir",
+ "arranque": "23 de marzo de 2026 — onboarding con Teo",
+ "etapa": "Se cierra el acompañamiento en el día 177, con la primera propuesta de la mentoría enviada a precio completo y reservada hasta el viernes 19 de septiembre.",
+ "metrica": "Clientes de la mentoría cerrados. Al 16 de septiembre: una propuesta enviada, ninguna cerrada.",
+ "titular": "Ceci cierra con el vehículo resuelto y la primera propuesta en la calle, hecha con cuatro mensajes.",
+ "bajada": "El conocimiento estuvo desde el día uno. Lo que faltaba era el formato en el que se vende y el camino por el que llegan los clientes. El giro de julio cambió el vehículo, el de agosto cambió el motor de demanda, y en septiembre el outreach produjo su primera propuesta real a la primera semana de intentarlo.",
+ "punto_a": [
+  {
+   "label": "Resuelto",
+   "titulo": "El vehículo",
+   "texto": "Mentoría uno a uno de ocho semanas, ocho encuentros de noventa minutos, con los módulos grabados como activo de respaldo y no como producto. Precio de lista USD 1.000, con pago único o en dos partes. La oferta tiene bordes escritos: no maneja redes, no produce contenido, no toca identidad visual, no automatiza la conversación con los huéspedes. Eso es lo que la separa del DFY que la dejaba cobrando poco y entregando infinito."
   },
-  "lectura": {
-    "titular": "El cuello pasó a ser el volumen: el vehículo ya está encontrado.",
-    "texto": "Con cuatro mensajes salió una propuesta. Ese número dice dos cosas al mismo tiempo: que el proceso funciona, y que lo que falta es repetirlo todas las semanas. La ejecución fue el freno de todo el recorrido, y es también la única variable que queda. Cinco a diez cuentas nuevas por semana, sostenidas, es lo que convierte una propuesta suelta en un flujo.",
-    "cita": "Conozco todo esto, manejo los mismos términos, manejo todo, pero la ejecución es lo que a mí me pudo.",
-    "cita_autor": "Cecilia Belotti · 13 de agosto de 2026"
+  {
+   "label": "Funciona",
+   "titulo": "El outreach en frío",
+   "texto": "El proceso que quedó diseñado en el paquete de cierre se probó en septiembre y funcionó a la primera. Cuatro mensajes salieron, uno abrió una conversación de diagnóstico y esa conversación terminó en una propuesta enviada. No hizo falta tráfico, ni audiencia, ni volumen de contenido: hizo falta escribirle a cuatro lugares."
   },
-  "respuestas": [
-    {
-      "tema": "Cuál era el cuello del caso",
-      "respuesta": "El tráfico, no el conocimiento. Un curso auto-servicio se sostiene con contenido diario, y producirlo era la mayor fricción. Por eso se cambió el vehículo en vez de forzarlo."
-    },
-    {
-      "tema": "Qué se vende",
-      "respuesta": "Una mentoría uno a uno de ocho semanas sobre el negocio real del cliente. Los nueve módulos grabados son pre-work en Skool: el video enseña, la llamada construye. La llamada nunca se usa para reexplicar el video."
-    },
-    {
-      "tema": "A quién",
-      "respuesta": "Un solo avatar: el dueño de negocio turístico. Complejos, hoteles boutique, cabañas, lodges y agencias receptivas, sobre todo en destinos secundarios o rurales. Criterio: negocio armado, comunicación floja y capacidad de pagar."
-    },
-    {
-      "tema": "Cómo llegan los clientes",
-      "respuesta": "Por dos vías. El outreach en frío es el camino más rápido: lista, primer contacto con una mini auditoría gratis, llamada de diagnóstico grabada, propuesta corta y personalizada, seguimiento. El workshop es el que junta base de datos a escala."
-    },
-    {
-      "tema": "Qué rol tiene el contenido",
-      "respuesta": "Práctica sostenida, no estrategia de leads. Se sigue publicando para no perder el oficio y para posicionar, con el calendario repetible de cuatro semanas. Los clientes de este tramo no vienen de ahí."
-    },
-    {
-      "tema": "Qué la hace distinta",
-      "respuesta": "IMPACTO, su método propio, más veinte años en territorio. Es el único activo no copiable y por eso va adelante de todo: en la promesa, en la landing y como módulo estrella."
-    },
-    {
-      "tema": "Qué mata el DFY",
-      "respuesta": "Los límites escritos. Ocho llamadas, noventa minutos, WhatsApp para consultas puntuales y un esto hago / esto no hago por escrito. Ya está aplicado en la propuesta de Tantasiña."
-    },
-    {
-      "tema": "Cómo se construye la prueba social que falta",
-      "respuesta": "Cada asesoría deja un caso: se graba la llamada, se entrega la propuesta, se documenta el resultado. Con dos o tres clientes ya hay con qué mostrar."
-    },
-    {
-      "tema": "Por dónde se cobra y se registra",
-      "respuesta": "Skool maneja los pagos del programa, sin meterse en Stripe ni Hotmart. El registro del workshop va por una landing propia con formulario, no por un Linktree con un PDF: lo que importa es que quede la base de datos."
-    }
-  ],
-  "entregables": [
-    {
-      "que": "La auditoría de producto y la instrumentación en Skool",
-      "para": "Reencuadra los nueve módulos de cátedra a transformación —de el alumno comprende X a salís con X hecho— y los ubica en su rol de respaldo de la mentoría."
-    },
-    {
-      "que": "La estructura y el copy de la landing de la mentoría",
-      "para": "Scroll único, un solo CTA repetido, precio fuera de la página. Sobre esa estructura armó la suya."
-    },
-    {
-      "que": "El calendario de contenido repetible",
-      "para": "Cuatro pilares, ritmo semanal fijo y rotación mensual de ángulos, para dejar de decidir día a día. Se repite mes a mes."
-    },
-    {
-      "que": "El proceso de outreach en frío, con templates de mensaje y de llamada",
-      "para": "Es el que ejecutó en septiembre y el que produjo la propuesta de Tantasiña."
-    },
-    {
-      "que": "La propuesta de Tantasiña como molde",
-      "para": "Se reusa entera para cada prospecto nuevo: cambia lo que vio del lugar y el punto de partida, el resto queda igual."
-    },
-    {
-      "que": "Este documento de cierre, con el roadmap de sesenta días",
-      "para": "Lo ejecuta sola: cerrar la primera, sostener el volumen semanal y dejar el workshop con fecha."
-    }
-  ],
-  "punto_b": [
-    {
-      "fecha": "19 de septiembre de 2026",
-      "titulo": "Tantasiña cerrada, o cerrada que no",
-      "texto": "La propuesta está reservada hasta ese viernes y el arranque propuesto es la semana del 22. Un sí o un no, con respuesta escrita. Un no también sirve: dice qué hay que ajustar antes de mandar la siguiente."
-    },
-    {
-      "fecha": "17 de octubre de 2026",
-      "titulo": "El primer cliente pago, y cinco propuestas afuera",
-      "texto": "Una mentoría cobrada a precio de lista, sin descuento, y cinco propuestas enviadas en el mes. Cinco es el número que permite leer algo: cuántas contestan, cuántas llegan a llamada, cuántas cierran."
-    },
-    {
-      "fecha": "14 de noviembre de 2026",
-      "titulo": "El workshop con fecha y la base de datos corriendo",
-      "texto": "El workshop grande con su compañera, con landing propia, formulario y registro en una base. De ahí salen las llamadas del ciclo siguiente, y con eso la demanda deja de depender de escribir uno por uno."
-    }
-  ],
-  "roadmap": [
-    {
-      "cuando": "16 al 19 de septiembre",
-      "objetivo": "Cerrar Tantasiña",
-      "entregable": "Un seguimiento corto antes del viernes, con la fecha del primer encuentro ya propuesta. Si confirma, se fija día y horario fijo para los ocho y salen las ocho invitaciones de una vez.",
-      "quien": "Ceci"
-    },
-    {
-      "cuando": "16 al 30 de septiembre",
-      "objetivo": "La lista de prospectos armada",
-      "entregable": "Entre veinte y treinta cuentas de complejos, hoteles boutique, cabañas, lodges y agencias receptivas de destinos secundarios, con nombre, canal y estado. Se arma una vez y se trabaja de ahí en adelante.",
-      "quien": "Ceci"
-    },
-    {
-      "cuando": "22 de septiembre al 17 de octubre",
-      "objetivo": "Cinco a diez cuentas nuevas por semana",
-      "entregable": "Mensajes enviados con una observación puntual del lugar adelante, no un mensaje de venta. Cada respuesta anotada el día que llega, incluidas las que no contestan.",
-      "quien": "Ceci"
-    },
-    {
-      "cuando": "22 de septiembre al 17 de octubre",
-      "objetivo": "Las llamadas de diagnóstico grabadas",
-      "entregable": "Treinta a cuarenta minutos, escuchando el setenta por ciento, detectando uno o dos problemas concretos. Grabadas siempre: de ahí sale el caso y el testimonio.",
-      "quien": "Ceci"
-    },
-    {
-      "cuando": "Octubre",
-      "objetivo": "Los módulos cerrados y subidos",
-      "entregable": "Terminar de grabar con el reencuadre y subirlos a Skool con los workbooks. Grabar con lo que hay: terminado gana a perfecto. Corre en paralelo, sin frenar el outreach.",
-      "quien": "Ceci"
-    },
-    {
-      "cuando": "Octubre a noviembre",
-      "objetivo": "El workshop armado y con fecha",
-      "entregable": "Nombre, fecha, precio, programa con su compañera, landing propia con video corto y formulario, y la base de datos donde caen los registros. El registro no va por Linktree.",
-      "quien": "Ceci"
-    },
-    {
-      "cuando": "14 de noviembre",
-      "objetivo": "La lectura del ciclo",
-      "entregable": "Cuántas cuentas se tocaron, cuántas contestaron, cuántas llegaron a llamada y cuántas cerraron. Con ese número se decide si el paso siguiente es más volumen de outreach o poner pauta sobre el workshop.",
-      "quien": "Ceci"
-    }
-  ],
-  "accionables": [
-    {
-      "cuando": "Septiembre",
-      "cliente": [
-        "Hacer el seguimiento de Tantasiña antes del viernes 19 y cerrar sí o no",
-        "Armar la lista de veinte a treinta cuentas de destinos secundarios",
-        "Mandar los primeros cinco a diez mensajes de la semana"
-      ],
-      "cascara": [
-        "Teo hace el sign-off y entrega este documento",
-        "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo (falta confirmar)"
-      ]
-    },
-    {
-      "cuando": "Octubre",
-      "cliente": [
-        "Cinco a diez cuentas nuevas por semana, sostenido",
-        "Cinco propuestas enviadas en el mes, con el molde de Tantasiña",
-        "Terminar de grabar los módulos y subirlos a Skool"
-      ],
-      "cascara": [
-        "Sin llamadas uno a uno"
-      ]
-    },
-    {
-      "cuando": "Noviembre",
-      "cliente": [
-        "Dejar el workshop con fecha, landing propia y formulario",
-        "Documentar el primer caso con permiso: grabación, propuesta y resultado",
-        "Hacer la lectura del ciclo y decidir el paso siguiente"
-      ],
-      "cascara": [
-        "Sin llamadas uno a uno"
-      ]
-    }
-  ],
-  "conclusion": "El recorrido de Ceci se explica en una sola línea: el conocimiento nunca estuvo en duda y el problema fue siempre encontrar el vehículo y el camino por el que llegan los clientes. El primer giro cambió el vehículo, de curso auto-servicio a mentoría uno a uno; el segundo cambió el motor, del contenido al workshop y al outreach. En septiembre eso dejó de ser una hipótesis: cuatro mensajes produjeron una conversación de diagnóstico y una propuesta enviada a precio completo, con los bordes del servicio escritos adentro. Lo que queda es de una sola naturaleza y no requiere nada nuevo: repetir el movimiento todas las semanas hasta que el primer cliente esté cobrado y el segundo esté en conversación.",
-  "carta": "Ceci, lo que cambió en estos meses no fue lo que sabés, porque eso ya lo tenías: cambió el formato en el que lo vendés y el camino por el que te llegan los clientes. Y en septiembre hiciste lo más difícil de todo el proceso, que fue salir a escribirle a gente que no te conocía. Cuatro mensajes y una propuesta afuera, a precio completo, con lo que no hacés escrito adentro. Eso es exactamente el sistema funcionando. Lo que sigue no es más estrategia ni más producto: es volver a hacer esa misma semana, una y otra vez, hasta que sean cinco propuestas por mes en vez de una. Los módulos y la landing van a terminar de salir, y cuando salgan van a ser el respaldo de algo que ya está vendiendo. Ejecutar le gana a perfeccionar, y esta vez lo probaste vos.",
-  "abierto": "La respuesta de Tantasiña antes del viernes 19. La fecha del workshop grande con su compañera, corrido a noviembre. La fecha de la llamada de cierre con Teo, que depende de que Teo pase su agenda (falta confirmar).",
-  "handicap": {
-    "ejes": {
-      "oferta": 3,
-      "contenido": 1,
-      "demanda": 2,
-      "venta": 2,
-      "entrega": 2
-    },
-    "total": 10,
-    "tramo": "Construcción",
-    "ritmo": "verde",
-    "ritmo_texto": "Se movió cuando se le sacó el freno.",
-    "eje_flojo": [
-      "contenido",
-      "demanda",
-      "venta"
-    ],
-    "sugiere": [
-      "Conseguir"
-    ],
-    "nota": "Interno. La oferta está resuelta y con bordes; lo que falta es volumen de demanda y cierres."
+  {
+   "label": "Funciona",
+   "titulo": "La propuesta como pieza",
+   "texto": "La propuesta de Tantasiña —un alojamiento de San Javier, Traslasierra— es el molde para todas las que siguen. Abre con lo que vio del lugar, sigue con el punto de partida ordenado en cinco frentes, muestra tres cosas que se resuelven en las dos primeras semanas, detalla los ocho encuentros, cierra con qué se lleva, qué no incluye y el precio. Está escrita con el criterio de Ceci y con veinte años de oficio adentro."
   },
-  "fecha": "16 de septiembre de 2026"
+  {
+   "label": "Empezado",
+   "titulo": "El workshop",
+   "texto": "La activación de marketing que quedó marcada como objetivo final del acompañamiento. El grande, con su compañera docente, se corrió a noviembre. En el medio armó uno más corto para septiembre y estuvo grabando las charlas. Es el mecanismo que le va a dar base de datos: un evento pago, con landing propia y formulario, del que salen las llamadas."
+  },
+  {
+   "label": "Pendiente",
+   "titulo": "Los módulos en Skool y la landing propia",
+   "texto": "Los nueve módulos están construidos y falta terminar de grabarlos con el reencuadre y subirlos. La landing de la mentoría la armó ella misma aprendiendo Claude Code, y falta terminar de publicarla con dominio. Ninguna de las dos frena una venta: la propuesta de Tantasiña salió sin ellas."
+  }
+ ],
+ "recorrido": {
+  "titulo": "Seis meses, dos giros y una salida comercial que funcionó",
+  "texto": "Ceci entró el 23 de marzo con el Notion OS y el primer ejercicio de cliente ideal. En los primeros meses se trabajó lo que parecía el camino evidente: achicar el uno a uno, armar la escalera de valor, el posicionamiento y el calendario de contenido con Fede, el método para grabar orgánico con Facu y la productización con Teo. El 6 de julio, en el día 105, apareció la lectura que cambió todo: el freno no era el conocimiento ni el producto, era el tráfico. Un curso auto-servicio necesita un volumen de contenido diario que era, justamente, su mayor fricción. Así que se cambió el vehículo: de curso auto-servicio a mentoría híbrida uno a uno, con los módulos como respaldo y la venta apalancada en su expertise. El 13 de agosto se cambió también el motor de demanda: el contenido dejó de ser la estrategia de leads y pasó a ser práctica sostenida, y el lugar del contenido lo tomó el workshop como activación para juntar base de datos. En paralelo quedó el outreach en frío como el camino más rápido al primer cliente. En septiembre Ceci lo ejecutó, y a la primera semana tenía una propuesta afuera. En el mismo tramo se volvió una usuaria real de herramientas: armó su landing con Claude Code, hace sus carruseles con Claude Design y tiene Calendly, Gmail y Notion conectados.",
+  "hitos": []
+ },
+ "lectura": {
+  "titular": "El cuello pasó a ser el volumen: el vehículo ya está encontrado.",
+  "texto": "Con cuatro mensajes salió una propuesta. Ese número dice dos cosas al mismo tiempo: que el proceso funciona, y que lo que falta es repetirlo todas las semanas. La ejecución fue el freno de todo el recorrido, y es también la única variable que queda. Cinco a diez cuentas nuevas por semana, sostenidas, es lo que convierte una propuesta suelta en un flujo.",
+  "cita": "Conozco todo esto, manejo los mismos términos, manejo todo, pero la ejecución es lo que a mí me pudo.",
+  "cita_autor": "Cecilia Belotti · 13 de agosto de 2026"
+ },
+ "respuestas": [
+  {
+   "tema": "Cuál era el cuello del caso",
+   "respuesta": "El tráfico, no el conocimiento. Un curso auto-servicio se sostiene con contenido diario, y producirlo era la mayor fricción. Por eso se cambió el vehículo en vez de forzarlo."
+  },
+  {
+   "tema": "Qué se vende",
+   "respuesta": "Una mentoría uno a uno de ocho semanas sobre el negocio real del cliente. Los nueve módulos grabados son pre-work en Skool: el video enseña, la llamada construye. La llamada nunca se usa para reexplicar el video."
+  },
+  {
+   "tema": "A quién",
+   "respuesta": "Un solo avatar: el dueño de negocio turístico. Complejos, hoteles boutique, cabañas, lodges y agencias receptivas, sobre todo en destinos secundarios o rurales. Criterio: negocio armado, comunicación floja y capacidad de pagar."
+  },
+  {
+   "tema": "Cómo llegan los clientes",
+   "respuesta": "Por dos vías. El outreach en frío es el camino más rápido: lista, primer contacto con una mini auditoría gratis, llamada de diagnóstico grabada, propuesta corta y personalizada, seguimiento. El workshop es el que junta base de datos a escala."
+  },
+  {
+   "tema": "Qué rol tiene el contenido",
+   "respuesta": "Práctica sostenida, no estrategia de leads. Se sigue publicando para no perder el oficio y para posicionar, con el calendario repetible de cuatro semanas. Los clientes de este tramo no vienen de ahí."
+  },
+  {
+   "tema": "Qué la hace distinta",
+   "respuesta": "IMPACTO, su método propio, más veinte años en territorio. Es el único activo no copiable y por eso va adelante de todo: en la promesa, en la landing y como módulo estrella."
+  },
+  {
+   "tema": "Qué mata el DFY",
+   "respuesta": "Los límites escritos. Ocho llamadas, noventa minutos, WhatsApp para consultas puntuales y un esto hago / esto no hago por escrito. Ya está aplicado en la propuesta de Tantasiña."
+  },
+  {
+   "tema": "Cómo se construye la prueba social que falta",
+   "respuesta": "Cada asesoría deja un caso: se graba la llamada, se entrega la propuesta, se documenta el resultado. Con dos o tres clientes ya hay con qué mostrar."
+  },
+  {
+   "tema": "Por dónde se cobra y se registra",
+   "respuesta": "Skool maneja los pagos del programa, sin meterse en Stripe ni Hotmart. El registro del workshop va por una landing propia con formulario, no por un Linktree con un PDF: lo que importa es que quede la base de datos."
+  }
+ ],
+ "entregables": [
+  {
+   "que": "La auditoría de producto y la instrumentación en Skool",
+   "para": "Reencuadra los nueve módulos de cátedra a transformación —de el alumno comprende X a salís con X hecho— y los ubica en su rol de respaldo de la mentoría."
+  },
+  {
+   "que": "La estructura y el copy de la landing de la mentoría",
+   "para": "Scroll único, un solo CTA repetido, precio fuera de la página. Sobre esa estructura armó la suya."
+  },
+  {
+   "que": "El calendario de contenido repetible",
+   "para": "Cuatro pilares, ritmo semanal fijo y rotación mensual de ángulos, para dejar de decidir día a día. Se repite mes a mes."
+  },
+  {
+   "que": "El proceso de outreach en frío, con templates de mensaje y de llamada",
+   "para": "Es el que ejecutó en septiembre y el que produjo la propuesta de Tantasiña."
+  },
+  {
+   "que": "La propuesta de Tantasiña como molde",
+   "para": "Se reusa entera para cada prospecto nuevo: cambia lo que vio del lugar y el punto de partida, el resto queda igual."
+  },
+  {
+   "que": "Este documento de cierre, con el roadmap de sesenta días",
+   "para": "Lo ejecuta sola: cerrar la primera, sostener el volumen semanal y dejar el workshop con fecha."
+  }
+ ],
+ "punto_b": [
+  {
+   "fecha": "19 de septiembre de 2026",
+   "titulo": "Tantasiña cerrada, o cerrada que no",
+   "texto": "La propuesta está reservada hasta ese viernes y el arranque propuesto es la semana del 22. Un sí o un no, con respuesta escrita. Un no también sirve: dice qué hay que ajustar antes de mandar la siguiente."
+  },
+  {
+   "fecha": "17 de octubre de 2026",
+   "titulo": "El primer cliente pago, y cinco propuestas afuera",
+   "texto": "Una mentoría cobrada a precio de lista, sin descuento, y cinco propuestas enviadas en el mes. Cinco es el número que permite leer algo: cuántas contestan, cuántas llegan a llamada, cuántas cierran."
+  },
+  {
+   "fecha": "14 de noviembre de 2026",
+   "titulo": "El workshop con fecha y la base de datos corriendo",
+   "texto": "El workshop grande con su compañera, con landing propia, formulario y registro en una base. De ahí salen las llamadas del ciclo siguiente, y con eso la demanda deja de depender de escribir uno por uno."
+  }
+ ],
+ "roadmap": [
+  {
+   "cuando": "16 al 19 de septiembre",
+   "objetivo": "Cerrar Tantasiña",
+   "entregable": "Un seguimiento corto antes del viernes, con la fecha del primer encuentro ya propuesta. Si confirma, se fija día y horario fijo para los ocho y salen las ocho invitaciones de una vez.",
+   "quien": "Ceci"
+  },
+  {
+   "cuando": "16 al 30 de septiembre",
+   "objetivo": "La lista de prospectos armada",
+   "entregable": "Entre veinte y treinta cuentas de complejos, hoteles boutique, cabañas, lodges y agencias receptivas de destinos secundarios, con nombre, canal y estado. Se arma una vez y se trabaja de ahí en adelante.",
+   "quien": "Ceci"
+  },
+  {
+   "cuando": "22 de septiembre al 17 de octubre",
+   "objetivo": "Cinco a diez cuentas nuevas por semana",
+   "entregable": "Mensajes enviados con una observación puntual del lugar adelante, no un mensaje de venta. Cada respuesta anotada el día que llega, incluidas las que no contestan.",
+   "quien": "Ceci"
+  },
+  {
+   "cuando": "22 de septiembre al 17 de octubre",
+   "objetivo": "Las llamadas de diagnóstico grabadas",
+   "entregable": "Treinta a cuarenta minutos, escuchando el setenta por ciento, detectando uno o dos problemas concretos. Grabadas siempre: de ahí sale el caso y el testimonio.",
+   "quien": "Ceci"
+  },
+  {
+   "cuando": "Octubre",
+   "objetivo": "Los módulos cerrados y subidos",
+   "entregable": "Terminar de grabar con el reencuadre y subirlos a Skool con los workbooks. Grabar con lo que hay: terminado gana a perfecto. Corre en paralelo, sin frenar el outreach.",
+   "quien": "Ceci"
+  },
+  {
+   "cuando": "Octubre a noviembre",
+   "objetivo": "El workshop armado y con fecha",
+   "entregable": "Nombre, fecha, precio, programa con su compañera, landing propia con video corto y formulario, y la base de datos donde caen los registros. El registro no va por Linktree.",
+   "quien": "Ceci"
+  },
+  {
+   "cuando": "14 de noviembre",
+   "objetivo": "La lectura del ciclo",
+   "entregable": "Cuántas cuentas se tocaron, cuántas contestaron, cuántas llegaron a llamada y cuántas cerraron. Con ese número se decide si el paso siguiente es más volumen de outreach o poner pauta sobre el workshop.",
+   "quien": "Ceci"
+  }
+ ],
+ "accionables": [
+  {
+   "cuando": "Septiembre",
+   "cliente": [
+    "Hacer el seguimiento de Tantasiña antes del viernes 19 y cerrar sí o no",
+    "Armar la lista de veinte a treinta cuentas de destinos secundarios",
+    "Mandar los primeros cinco a diez mensajes de la semana"
+   ],
+   "cascara": [
+    "Teo hace el sign-off y entrega este documento",
+    "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo (falta confirmar)"
+   ]
+  },
+  {
+   "cuando": "Octubre",
+   "cliente": [
+    "Cinco a diez cuentas nuevas por semana, sostenido",
+    "Cinco propuestas enviadas en el mes, con el molde de Tantasiña",
+    "Terminar de grabar los módulos y subirlos a Skool"
+   ],
+   "cascara": [
+    "Sin llamadas uno a uno"
+   ]
+  },
+  {
+   "cuando": "Noviembre",
+   "cliente": [
+    "Dejar el workshop con fecha, landing propia y formulario",
+    "Documentar el primer caso con permiso: grabación, propuesta y resultado",
+    "Hacer la lectura del ciclo y decidir el paso siguiente"
+   ],
+   "cascara": [
+    "Sin llamadas uno a uno"
+   ]
+  }
+ ],
+ "conclusion": "El recorrido de Ceci se explica en una sola línea: el conocimiento nunca estuvo en duda y el problema fue siempre encontrar el vehículo y el camino por el que llegan los clientes. El primer giro cambió el vehículo, de curso auto-servicio a mentoría uno a uno; el segundo cambió el motor, del contenido al workshop y al outreach. En septiembre eso dejó de ser una hipótesis: cuatro mensajes produjeron una conversación de diagnóstico y una propuesta enviada a precio completo, con los bordes del servicio escritos adentro. Lo que queda es de una sola naturaleza y no requiere nada nuevo: repetir el movimiento todas las semanas hasta que el primer cliente esté cobrado y el segundo esté en conversación.",
+ "carta": "Ceci, lo que cambió en estos meses no fue lo que sabés, porque eso ya lo tenías: cambió el formato en el que lo vendés y el camino por el que te llegan los clientes. Y en septiembre hiciste lo más difícil de todo el proceso, que fue salir a escribirle a gente que no te conocía. Cuatro mensajes y una propuesta afuera, a precio completo, con lo que no hacés escrito adentro. Eso es exactamente el sistema funcionando. Lo que sigue no es más estrategia ni más producto: es volver a hacer esa misma semana, una y otra vez, hasta que sean cinco propuestas por mes en vez de una. Los módulos y la landing van a terminar de salir, y cuando salgan van a ser el respaldo de algo que ya está vendiendo. Ejecutar le gana a perfeccionar, y esta vez lo probaste vos.",
+ "abierto": "La respuesta de Tantasiña antes del viernes 19. La fecha del workshop grande con su compañera, corrido a noviembre.",
+ "handicap": {
+  "ejes": {
+   "oferta": 3,
+   "contenido": 1,
+   "demanda": 2,
+   "venta": 2,
+   "entrega": 2
+  },
+  "total": 10,
+  "tramo": "Construcción",
+  "ritmo": "verde",
+  "ritmo_texto": "Se movió cuando se le sacó el freno.",
+  "eje_flojo": [
+   "contenido",
+   "demanda",
+   "venta"
+  ],
+  "sugiere": [
+   "Conseguir"
+  ],
+  "nota": "Interno. La oferta está resuelta y con bordes; lo que falta es volumen de demanda y cierres."
+ },
+ "fecha": "16 de septiembre de 2026"
 }

@@ -1,258 +1,258 @@
 {
-  "slug": "nicolas-lozada",
-  "cliente": "Nicolás Lozada",
-  "proyecto": "Nicolás Lozada — @fffbrands",
-  "modo": "cierre",
-  "orientacion": "Conseguir",
-  "arranque": "(falta confirmar) — fue el primero que compró el Founder System; el 6 de agosto Nico habló de tres meses de proceso",
-  "etapa": "Se termina el acompañamiento con la marca ya lanzada: el primer video salió el 15 de septiembre y los próximos treinta días los documenta solo, hasta abrir cupos de acompañamiento.",
-  "metrica": "Ventas cerradas. Al 2 de septiembre, ninguna.",
-  "titular": "El sistema quedó armado entero y el trabajo de los próximos sesenta días es salir a buscar la venta.",
-  "bajada": "Nico tiene la oferta definida, los pilares de contenido, un calendario de 41 piezas y videos propios publicados. La salida a vender es lo que queda pendiente desde el primer día. El cierre entrega un roadmap de sesenta días de recontacto y prospección sobre el pipeline que ya tiene.",
-  "punto_a": [
-    {
-      "label": "Resuelto",
-      "titulo": "La oferta",
-      "texto": "Marca personal más su experiencia de trafficker. El servicio acompaña a una persona desde el cliente ideal y la marca personal hasta el embudo, la oferta, la estrategia de contenido y la estrategia de anuncios. En la llamada del 6 de agosto Facu se lo enumeró y Nico lo cerró: 'Eso es básicamente una oferta'. Cinco cupos, ticket de mil dólares, acompañamiento real."
-    },
-    {
-      "label": "Funciona",
-      "titulo": "La producción de contenido",
-      "texto": "Producir ya le sale fácil. Publicó el video largo de su historia con ocho recortes, un carrusel y el breakdown de Felipe Vergara. Dos piezas triplicaron o cuadruplicaron sus números: la de los diez días encerrado en la oficina y la de subir los precios es un error. Las dos funcionan por lo mismo: cuentan experiencia vivida."
-    },
-    {
-      "label": "Pendiente",
-      "titulo": "La venta",
-      "texto": "La salida a vender es lo que queda pendiente. Falta el recontacto, faltan las llamadas agendadas y falta la primera venta. El Calendly, los leads viejos que no cerraron y el pipeline que ya existe están sin tocar. Sus dos únicos clientes llegaron por referido."
-    }
-  ],
-  "recorrido": {
-    "titulo": "Tres meses de sistema armado y una salida comercial pendiente",
-    "texto": "Franco llevó la primera sesión y la entregó como documento: el cuello que marcó fue distribución y ciclo de confianza, porque el contenido llega a unas 150 personas que todavía no lo conocen lo suficiente para comprar un ticket de mil dólares. Ahí apareció el punto que a Nico le pegó fuerte, que su contenido estaba centrado en la oferta y no en el cliente. En julio se bajó el mix del primer mes, con videos largos de breakdown sobre Felipe Vergara, Guille Collado y Caleb Ralston, recortes de cada uno y carruseles, y el tono quedó definido: contar las duras, hablar desde la experiencia propia y dejar afuera los hooks que huelen a venta. El 16 de julio quedaron las cuatro fases del calendario, historia, problemas sin solución, soluciones y lanzamiento, con un volumen de 15 a 18 reels, 4 o 5 videos de YouTube y 10 o 12 carruseles en 45 a 60 días. Sobre esa base se cargaron en Notion 41 contenidos con ángulo y sin guion, porque los guiones los escribe él, más la hoja Ya lo dijiste con sus frases textuales para que use su propia voz. La producción se resolvió sola: a fines de agosto Facu lo vio publicando sin consultar nada, y dos piezas triplicaron o cuadruplicaron sus números, la de los diez días encerrado en la oficina y la de subir los precios es un error, las dos contando experiencia vivida. Lo que quedó pendiente en estos tres meses fue el movimiento comercial, y en la llamada del 6 de agosto Nico puso en palabras lo que eso genera: se sentía lejos del primer cliente. En el medio pasó el terremoto en Colombia y la región entera quedó en otra cosa durante semanas. El 16 de septiembre llegó a la grupal ya lanzado: subió el primer video de contexto de la marca y tenía el segundo para ese mismo día. Lo que armó es un camino documentado de treinta días —cómo un freelance pasa de salir a buscar clientes a que los clientes lleguen— y al cierre de esos treinta días abre cupos de acompañamiento. Lo que le trababa no era el sistema sino el tono: no quiere hablar desde la autoridad y Juana se lo validó de frente, porque las comunidades armadas desde el lugar de par crecen más rápido.",
-    "hitos": [
-      {
-        "cuando": "jun",
-        "que": "franco marca distribución y ciclo de confianza"
-      },
-      {
-        "cuando": "3 jul",
-        "que": "queda el mix del primer mes y el tono"
-      },
-      {
-        "cuando": "16 jul",
-        "que": "cuatro fases del calendario y volumen del ciclo"
-      },
-      {
-        "cuando": "20 jul al 2 sep",
-        "que": "41 contenidos cargados y la hoja ya lo dijiste"
-      },
-      {
-        "cuando": "6 ago",
-        "que": "tres pilares definidos; dice que está lejos del primer cliente"
-      },
-      {
-        "cuando": "fines de ago",
-        "que": "publica solo y dos piezas rompen sus números"
-      },
-      {
-        "cuando": "2 sep",
-        "que": "con juana sale el formato de pantalla dividida"
-      },
-      {
-        "cuando": "16 sep",
-        "que": "grupal con juana: lanza la marca y arranca a documentar treinta días"
-      },
-      {
-        "cuando": "16 sep",
-        "que": "entra al circuito de cierre: llamada de sign-off con teo, sin oferta nueva"
-      }
-    ]
+ "slug": "nicolas-lozada",
+ "cliente": "Nicolás Lozada",
+ "proyecto": "Nicolás Lozada — @fffbrands",
+ "modo": "cierre",
+ "orientacion": "Conseguir",
+ "arranque": "(falta confirmar) — fue el primero que compró el Founder System; el 6 de agosto Nico habló de tres meses de proceso",
+ "etapa": "Se termina el acompañamiento con la marca ya lanzada: el primer video salió el 15 de septiembre y los próximos treinta días los documenta solo, hasta abrir cupos de acompañamiento.",
+ "metrica": "Ventas cerradas. Al 2 de septiembre, ninguna.",
+ "titular": "El sistema quedó armado entero y el trabajo de los próximos sesenta días es salir a buscar la venta.",
+ "bajada": "Nico tiene la oferta definida, los pilares de contenido, un calendario de 41 piezas y videos propios publicados. La salida a vender es lo que queda pendiente desde el primer día. El cierre entrega un roadmap de sesenta días de recontacto y prospección sobre el pipeline que ya tiene.",
+ "punto_a": [
+  {
+   "label": "Resuelto",
+   "titulo": "La oferta",
+   "texto": "Marca personal más su experiencia de trafficker. El servicio acompaña a una persona desde el cliente ideal y la marca personal hasta el embudo, la oferta, la estrategia de contenido y la estrategia de anuncios. En la llamada del 6 de agosto Facu se lo enumeró y Nico lo cerró: 'Eso es básicamente una oferta'. Cinco cupos, ticket de mil dólares, acompañamiento real."
   },
-  "lectura": {
-    "titular": "El cuello es la venta.",
-    "texto": "Hay oferta, pilares, calendario y piezas publicadas, y la producción ya corre sola. Lo que queda pendiente es salir a buscarla: recontacto, prospección y llamadas agendadas. Ese movimiento es el que produce el resultado con el que se lee todo lo demás. El contenido por sí solo trabaja en un plazo más largo del que Nico necesita hoy.",
-    "cita": "Yo siento que estoy muy lejos de un primer cliente.",
-    "cita_autor": "Nicolás Lozada · 6 de agosto de 2026"
+  {
+   "label": "Funciona",
+   "titulo": "La producción de contenido",
+   "texto": "Producir ya le sale fácil. Publicó el video largo de su historia con ocho recortes, un carrusel y el breakdown de Felipe Vergara. Dos piezas triplicaron o cuadruplicaron sus números: la de los diez días encerrado en la oficina y la de subir los precios es un error. Las dos funcionan por lo mismo: cuentan experiencia vivida."
   },
-  "respuestas": [
-    {
-      "tema": "El cuello del caso",
-      "respuesta": "La salida comercial. El sistema está armado y el resultado depende de recontacto, prospección y llamadas."
-    },
-    {
-      "tema": "La oferta",
-      "respuesta": "Marca personal más su experiencia de trafficker: cliente ideal, marca personal, embudo, oferta, estrategia de contenido y estrategia de anuncios. Cinco cupos, mil dólares, acompañamiento real."
-    },
-    {
-      "tema": "El tono",
-      "respuesta": "Contar las duras y hablar desde la experiencia propia. Los hooks tipo nadie te lo muestra son de alguien que está tratando de venderte algo."
-    },
-    {
-      "tema": "Los pilares",
-      "respuesta": "Marca personal, breakdowns y negocio, hablando del problema sin cerrar siempre con la solución, para que se abra conversación."
-    },
-    {
-      "tema": "El volumen mínimo para evaluar",
-      "respuesta": "Menos de diez piezas deja el ciclo sin conclusión posible. Y la pauta entra recién cuando algo orgánico hace chispazo."
-    },
-    {
-      "tema": "Cómo se valida la oferta",
-      "respuesta": "Con precio. Los cinco cupos salen a mil dólares, sin descuento y sin regalar el proceso."
-    },
-    {
-      "tema": "A quién le habla",
-      "respuesta": "A su yo de hace dos años. La memoria emocional de ese avatar le alcanza, y de ahí salió el formato de pantalla dividida donde conversa con él, mismo plano y cambio de ropa, con la máscara resuelta en edición."
-    },
-    {
-      "tema": "De dónde puede salir la primera venta",
-      "respuesta": "Del pipeline que ya existe: los que pasaron por el Calendly, los que comentaron y los referidos. Es lo primero que se toca, porque está construido."
-    }
-  ],
-  "entregables": [
-    {
-      "que": "El calendario en Notion con las cuatro fases y los 41 contenidos, cada uno con su ángulo",
-      "para": "Escribe él los guiones y publica siguiendo el orden de las fases hasta el lanzamiento."
-    },
-    {
-      "que": "La hoja Ya lo dijiste, con sus frases textuales contrastadas con lo que escribe cuando trabaja solo",
-      "para": "La usa como base de voz cada vez que redacta una pieza."
-    },
-    {
-      "que": "El documento de diagnóstico de distribución y ciclo de confianza que hizo Franco",
-      "para": "Le explica por qué 150 personas no alcanzan para un ticket de mil dólares y qué necesita del lado de la distribución."
-    },
-    {
-      "que": "Este documento de cierre, con la orientación al lanzamiento y el roadmap de sesenta días",
-      "para": "Lo ejecuta solo: pipeline en planilla, recontacto, prospección, llamadas grabadas y mini lanzamiento de los cinco cupos."
-    },
-    {
-      "que": "El acceso a las llamadas grupales hasta la fecha que fije Teo en el sign-off (falta confirmar)",
-      "para": "Sigue trabajando formato y creatividad mientras corre el roadmap."
-    }
-  ],
-  "punto_b": [
-    {
-      "fecha": "9 de octubre de 2026",
-      "titulo": "Veinte conversaciones abiertas",
-      "texto": "Todo el pipeline que ya existe, tocado una vez: los que pasaron por Calendly y no cerraron, los que comentaron, los referidos. Veinte conversaciones reales, con respuesta del otro lado: se cuenta la que contesta."
-    },
-    {
-      "fecha": "31 de octubre de 2026",
-      "titulo": "La primera venta",
-      "texto": "Una sola, a mil dólares, sin descuento y sin regalar el proceso. Validar con precio es lo que convierte una oferta en oferta. Con una venta cerrada, el resto del sistema pasa a tener sentido y se puede leer qué funcionó."
-    }
-  ],
-  "roadmap": [
-    {
-      "cuando": "14 al 16 de septiembre",
-      "objetivo": "El pipeline completo en una planilla",
-      "entregable": "Cada persona que pasó por el Calendly, cada lead de comentarios y cada referido, con nombre, canal, fecha del último contacto y estado. Tres días alcanzan: es abrir lo que ya existe y ordenarlo.",
-      "quien": "Nico"
-    },
-    {
-      "cuando": "16 de septiembre al 9 de octubre",
-      "objetivo": "Recontactar a los que no cerraron",
-      "entregable": "Cinco mensajes por día, uno a uno, con el mismo mensaje base adaptado. Arranca el mismo día que se cierra la planilla. La respuesta se anota en la planilla el día que llega, incluso cuando no hay respuesta.",
-      "quien": "Nico"
-    },
-    {
-      "cuando": "21 de septiembre al 16 de octubre",
-      "objetivo": "Prospección en paralelo",
-      "entregable": "Veinte contactos nuevos por semana a traffickers, editores y creadores con una habilidad desarrollada. La lista se arma antes de escribir. Corre encima del recontacto, las dos campañas a la vez.",
-      "quien": "Nico"
-    },
-    {
-      "cuando": "28 de septiembre al 9 de octubre",
-      "objetivo": "Llamadas en la agenda",
-      "entregable": "Tres llamadas de venta agendadas y grabadas. Grabadas porque después sirven para ajustar la oferta y como material de contenido.",
-      "quien": "Nico"
-    },
-    {
-      "cuando": "12 al 16 de octubre",
-      "objetivo": "La oferta ajustada con lo que salió de las llamadas",
-      "entregable": "Una página de oferta reescrita con las objeciones que aparecieron de verdad en las llamadas, mientras la prospección sigue corriendo.",
-      "quien": "Nico"
-    },
-    {
-      "cuando": "19 al 23 de octubre",
-      "objetivo": "Mini lanzamiento",
-      "entregable": "Fase cuatro del calendario: abrir los cinco cupos a la audiencia con fecha de cierre. Es el final del ciclo que ya estaba planificado, adelantado dos semanas para que entre dentro de octubre.",
-      "quien": "Nico"
-    },
-    {
-      "cuando": "31 de octubre",
-      "objetivo": "La primera venta",
-      "entregable": "Fecha dura. Una venta cerrada a mil dólares, sin descuento. Con eso la oferta queda validada con precio y el contenido gana el caso propio que hoy le falta.",
-      "quien": "Nico"
-    },
-    {
-      "cuando": "2 al 6 de noviembre",
-      "objetivo": "Cerrar y leer",
-      "entregable": "Cuántas conversaciones, cuántas llamadas, cuántas ventas y de qué canal vino cada una. Con eso se decide qué se repite en el ciclo siguiente.",
-      "quien": "Nico"
-    }
-  ],
-  "accionables": [
-    {
-      "cuando": "Septiembre",
-      "cliente": [
-        "Abrir el Calendly y cargar todo el pipeline en una planilla",
-        "Recontactar cinco personas por día de las que no cerraron",
-        "Publicar los recortes del breakdown que quedaron sin salir"
-      ],
-      "cascara": [
-        "Teo hace el sign-off y entrega este documento con la orientación al lanzamiento",
-        "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo en el sign-off (falta confirmar)"
-      ]
-    },
-    {
-      "cuando": "Octubre",
-      "cliente": [
-        "Veinte contactos nuevos por semana de prospección directa",
-        "Tres llamadas de venta agendadas y grabadas",
-        "Reescribir la página de oferta con las objeciones reales"
-      ],
-      "cascara": [
-        "Sin llamadas uno a uno"
-      ]
-    },
-    {
-      "cuando": "Noviembre",
-      "cliente": [
-        "Abrir los cinco cupos con fecha de cierre",
-        "Sostener el contenido de los tres pilares durante el lanzamiento",
-        "Hacer la lectura final del ciclo"
-      ],
-      "cascara": [
-        "Sin llamadas uno a uno"
-      ]
-    }
-  ],
-  "conclusion": "Nico cierra con el sistema completo y con el resultado todavía por delante, así que lo que viene se define con una sola variable: la actividad comercial. El roadmap apunta al pipeline que ya existe, porque es el lugar donde una venta puede aparecer rápido sobre algo ya construido. Con la primera venta a mil dólares, la oferta queda validada con precio y el contenido gana un caso propio para contar, que es justo lo que le falta hoy para el ciclo de confianza que marcó Franco. De este caso Cáscara también se lleva un aprendizaje: armar sistema sin poner una fecha de venta deja al founder midiendo el tiempo en lugar de medir avances. Por eso el cierre es una orientación al lanzamiento con fechas puestas y un offboarding, y si en estas semanas cierra la primera venta, la conversación de Cáscara Growth tiene sobre qué apoyarse.\n\nEl calendario se aprieta, y acá se aprieta justo donde nunca se movió. La planilla del pipeline se cierra en tres días y el recontacto arranca el 16 de septiembre; la prospección se le suma encima, así que las dos campañas corren juntas y cada respuesta se anota el día que llega. Las llamadas entran en la primera semana de octubre, el mini lanzamiento se adelanta al 19 y la primera venta queda puesta el 31 de octubre: esa es la fecha dura, diez días antes de lo que estaba. Trabajar con una fecha de venta encima es la parte del oficio que le queda por hacer propia, porque es la que ordena todo lo demás.\n\nEl frente que queda abierto es de nuestro lado: si la orientación al lanzamiento queda en este documento o suma una llamada de Franco. Eso lo define Teo en el sign-off, junto con hasta cuándo siguen abiertas las grupales. El roadmap corre igual.",
-  "carta": "Nico, te vas con algo que cuando arrancaste no tenías: una oferta clara, tres pilares, un calendario de 41 piezas y la costumbre de publicar sin preguntarle a nadie. Esa última parte es la que más cuesta y la resolviste solo, en tres meses. Te llevás también la prueba de qué funciona en tu contenido: las dos piezas que rompieron tus números fueron las que contaban lo que te pasó a vos. Lo que te espera ahora es la parte más simple de todas y la única que todavía no probaste: abrir el Calendly, escribirle a los que ya te conocen y pedir la llamada. Cinco mensajes por día durante un mes es una rutina, y las rutinas se sostienen con decisión. Tenés el sistema, la voz y el material; lo que sigue se mide en conversaciones abiertas. Cuando cierres la primera, escribinos.",
-  "abierto": "La fecha exacta en la que abre los cupos, que cae a los treinta días del primer video (falta confirmar). Si la mini orientación al lanzamiento se entrega solo en este documento o suma una llamada de Franco.",
-  "handicap": {
-    "ejes": {
-      "oferta": 3,
-      "contenido": 4,
-      "demanda": 1,
-      "venta": 1,
-      "entrega": 1
-    },
-    "total": 10,
-    "tramo": "En construcción",
-    "ritmo": "rojo",
-    "ritmo_texto": "Hace tiempo que no mueve.",
-    "eje_flojo": [
-      "venta",
-      "demanda",
-      "entrega"
-    ],
-    "sugiere": [
-      "Conseguir",
-      "Entregar",
-      "Sostener"
-    ],
-    "nota": "Demanda, venta y entrega empatan abajo y manda venta, que es el cuello del caso y el cuello del caso: hay oferta, pilares y 41 contenidos cargados, y lo único que nunca pasó fue salir a buscar la venta, así que se arranca por recontacto y prospección."
+  {
+   "label": "Pendiente",
+   "titulo": "La venta",
+   "texto": "La salida a vender es lo que queda pendiente. Falta el recontacto, faltan las llamadas agendadas y falta la primera venta. El Calendly, los leads viejos que no cerraron y el pipeline que ya existe están sin tocar. Sus dos únicos clientes llegaron por referido."
   }
+ ],
+ "recorrido": {
+  "titulo": "Tres meses de sistema armado y una salida comercial pendiente",
+  "texto": "Franco llevó la primera sesión y la entregó como documento: el cuello que marcó fue distribución y ciclo de confianza, porque el contenido llega a unas 150 personas que todavía no lo conocen lo suficiente para comprar un ticket de mil dólares. Ahí apareció el punto que a Nico le pegó fuerte, que su contenido estaba centrado en la oferta y no en el cliente. En julio se bajó el mix del primer mes, con videos largos de breakdown sobre Felipe Vergara, Guille Collado y Caleb Ralston, recortes de cada uno y carruseles, y el tono quedó definido: contar las duras, hablar desde la experiencia propia y dejar afuera los hooks que huelen a venta. El 16 de julio quedaron las cuatro fases del calendario, historia, problemas sin solución, soluciones y lanzamiento, con un volumen de 15 a 18 reels, 4 o 5 videos de YouTube y 10 o 12 carruseles en 45 a 60 días. Sobre esa base se cargaron en Notion 41 contenidos con ángulo y sin guion, porque los guiones los escribe él, más la hoja Ya lo dijiste con sus frases textuales para que use su propia voz. La producción se resolvió sola: a fines de agosto Facu lo vio publicando sin consultar nada, y dos piezas triplicaron o cuadruplicaron sus números, la de los diez días encerrado en la oficina y la de subir los precios es un error, las dos contando experiencia vivida. Lo que quedó pendiente en estos tres meses fue el movimiento comercial, y en la llamada del 6 de agosto Nico puso en palabras lo que eso genera: se sentía lejos del primer cliente. En el medio pasó el terremoto en Colombia y la región entera quedó en otra cosa durante semanas. El 16 de septiembre llegó a la grupal ya lanzado: subió el primer video de contexto de la marca y tenía el segundo para ese mismo día. Lo que armó es un camino documentado de treinta días —cómo un freelance pasa de salir a buscar clientes a que los clientes lleguen— y al cierre de esos treinta días abre cupos de acompañamiento. Lo que le trababa no era el sistema sino el tono: no quiere hablar desde la autoridad y Juana se lo validó de frente, porque las comunidades armadas desde el lugar de par crecen más rápido.",
+  "hitos": [
+   {
+    "cuando": "jun",
+    "que": "franco marca distribución y ciclo de confianza"
+   },
+   {
+    "cuando": "3 jul",
+    "que": "queda el mix del primer mes y el tono"
+   },
+   {
+    "cuando": "16 jul",
+    "que": "cuatro fases del calendario y volumen del ciclo"
+   },
+   {
+    "cuando": "20 jul al 2 sep",
+    "que": "41 contenidos cargados y la hoja ya lo dijiste"
+   },
+   {
+    "cuando": "6 ago",
+    "que": "tres pilares definidos; dice que está lejos del primer cliente"
+   },
+   {
+    "cuando": "fines de ago",
+    "que": "publica solo y dos piezas rompen sus números"
+   },
+   {
+    "cuando": "2 sep",
+    "que": "con juana sale el formato de pantalla dividida"
+   },
+   {
+    "cuando": "16 sep",
+    "que": "grupal con juana: lanza la marca y arranca a documentar treinta días"
+   },
+   {
+    "cuando": "16 sep",
+    "que": "cierra el acompañamiento con la llamada de sign-off"
+   }
+  ]
+ },
+ "lectura": {
+  "titular": "El cuello es la venta.",
+  "texto": "Hay oferta, pilares, calendario y piezas publicadas, y la producción ya corre sola. Lo que queda pendiente es salir a buscarla: recontacto, prospección y llamadas agendadas. Ese movimiento es el que produce el resultado con el que se lee todo lo demás. El contenido por sí solo trabaja en un plazo más largo del que Nico necesita hoy.",
+  "cita": "Yo siento que estoy muy lejos de un primer cliente.",
+  "cita_autor": "Nicolás Lozada · 6 de agosto de 2026"
+ },
+ "respuestas": [
+  {
+   "tema": "El cuello del caso",
+   "respuesta": "La salida comercial. El sistema está armado y el resultado depende de recontacto, prospección y llamadas."
+  },
+  {
+   "tema": "La oferta",
+   "respuesta": "Marca personal más su experiencia de trafficker: cliente ideal, marca personal, embudo, oferta, estrategia de contenido y estrategia de anuncios. Cinco cupos, mil dólares, acompañamiento real."
+  },
+  {
+   "tema": "El tono",
+   "respuesta": "Contar las duras y hablar desde la experiencia propia. Los hooks tipo nadie te lo muestra son de alguien que está tratando de venderte algo."
+  },
+  {
+   "tema": "Los pilares",
+   "respuesta": "Marca personal, breakdowns y negocio, hablando del problema sin cerrar siempre con la solución, para que se abra conversación."
+  },
+  {
+   "tema": "El volumen mínimo para evaluar",
+   "respuesta": "Menos de diez piezas deja el ciclo sin conclusión posible. Y la pauta entra recién cuando algo orgánico hace chispazo."
+  },
+  {
+   "tema": "Cómo se valida la oferta",
+   "respuesta": "Con precio. Los cinco cupos salen a mil dólares, sin descuento y sin regalar el proceso."
+  },
+  {
+   "tema": "A quién le habla",
+   "respuesta": "A su yo de hace dos años. La memoria emocional de ese avatar le alcanza, y de ahí salió el formato de pantalla dividida donde conversa con él, mismo plano y cambio de ropa, con la máscara resuelta en edición."
+  },
+  {
+   "tema": "De dónde puede salir la primera venta",
+   "respuesta": "Del pipeline que ya existe: los que pasaron por el Calendly, los que comentaron y los referidos. Es lo primero que se toca, porque está construido."
+  }
+ ],
+ "entregables": [
+  {
+   "que": "El calendario en Notion con las cuatro fases y los 41 contenidos, cada uno con su ángulo",
+   "para": "Escribe él los guiones y publica siguiendo el orden de las fases hasta el lanzamiento."
+  },
+  {
+   "que": "La hoja Ya lo dijiste, con sus frases textuales contrastadas con lo que escribe cuando trabaja solo",
+   "para": "La usa como base de voz cada vez que redacta una pieza."
+  },
+  {
+   "que": "El documento de diagnóstico de distribución y ciclo de confianza que hizo Franco",
+   "para": "Le explica por qué 150 personas no alcanzan para un ticket de mil dólares y qué necesita del lado de la distribución."
+  },
+  {
+   "que": "Este documento de cierre, con la orientación al lanzamiento y el roadmap de sesenta días",
+   "para": "Lo ejecuta solo: pipeline en planilla, recontacto, prospección, llamadas grabadas y mini lanzamiento de los cinco cupos."
+  },
+  {
+   "que": "El acceso a las llamadas grupales hasta la fecha que fije Teo en el sign-off (falta confirmar)",
+   "para": "Sigue trabajando formato y creatividad mientras corre el roadmap."
+  }
+ ],
+ "punto_b": [
+  {
+   "fecha": "9 de octubre de 2026",
+   "titulo": "Veinte conversaciones abiertas",
+   "texto": "Todo el pipeline que ya existe, tocado una vez: los que pasaron por Calendly y no cerraron, los que comentaron, los referidos. Veinte conversaciones reales, con respuesta del otro lado: se cuenta la que contesta."
+  },
+  {
+   "fecha": "31 de octubre de 2026",
+   "titulo": "La primera venta",
+   "texto": "Una sola, a mil dólares, sin descuento y sin regalar el proceso. Validar con precio es lo que convierte una oferta en oferta. Con una venta cerrada, el resto del sistema pasa a tener sentido y se puede leer qué funcionó."
+  }
+ ],
+ "roadmap": [
+  {
+   "cuando": "14 al 16 de septiembre",
+   "objetivo": "El pipeline completo en una planilla",
+   "entregable": "Cada persona que pasó por el Calendly, cada lead de comentarios y cada referido, con nombre, canal, fecha del último contacto y estado. Tres días alcanzan: es abrir lo que ya existe y ordenarlo.",
+   "quien": "Nico"
+  },
+  {
+   "cuando": "16 de septiembre al 9 de octubre",
+   "objetivo": "Recontactar a los que no cerraron",
+   "entregable": "Cinco mensajes por día, uno a uno, con el mismo mensaje base adaptado. Arranca el mismo día que se cierra la planilla. La respuesta se anota en la planilla el día que llega, incluso cuando no hay respuesta.",
+   "quien": "Nico"
+  },
+  {
+   "cuando": "21 de septiembre al 16 de octubre",
+   "objetivo": "Prospección en paralelo",
+   "entregable": "Veinte contactos nuevos por semana a traffickers, editores y creadores con una habilidad desarrollada. La lista se arma antes de escribir. Corre encima del recontacto, las dos campañas a la vez.",
+   "quien": "Nico"
+  },
+  {
+   "cuando": "28 de septiembre al 9 de octubre",
+   "objetivo": "Llamadas en la agenda",
+   "entregable": "Tres llamadas de venta agendadas y grabadas. Grabadas porque después sirven para ajustar la oferta y como material de contenido.",
+   "quien": "Nico"
+  },
+  {
+   "cuando": "12 al 16 de octubre",
+   "objetivo": "La oferta ajustada con lo que salió de las llamadas",
+   "entregable": "Una página de oferta reescrita con las objeciones que aparecieron de verdad en las llamadas, mientras la prospección sigue corriendo.",
+   "quien": "Nico"
+  },
+  {
+   "cuando": "19 al 23 de octubre",
+   "objetivo": "Mini lanzamiento",
+   "entregable": "Fase cuatro del calendario: abrir los cinco cupos a la audiencia con fecha de cierre. Es el final del ciclo que ya estaba planificado, adelantado dos semanas para que entre dentro de octubre.",
+   "quien": "Nico"
+  },
+  {
+   "cuando": "31 de octubre",
+   "objetivo": "La primera venta",
+   "entregable": "Fecha dura. Una venta cerrada a mil dólares, sin descuento. Con eso la oferta queda validada con precio y el contenido gana el caso propio que hoy le falta.",
+   "quien": "Nico"
+  },
+  {
+   "cuando": "2 al 6 de noviembre",
+   "objetivo": "Cerrar y leer",
+   "entregable": "Cuántas conversaciones, cuántas llamadas, cuántas ventas y de qué canal vino cada una. Con eso se decide qué se repite en el ciclo siguiente.",
+   "quien": "Nico"
+  }
+ ],
+ "accionables": [
+  {
+   "cuando": "Septiembre",
+   "cliente": [
+    "Abrir el Calendly y cargar todo el pipeline en una planilla",
+    "Recontactar cinco personas por día de las que no cerraron",
+    "Publicar los recortes del breakdown que quedaron sin salir"
+   ],
+   "cascara": [
+    "Teo hace el sign-off y entrega este documento con la orientación al lanzamiento",
+    "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo en el sign-off (falta confirmar)"
+   ]
+  },
+  {
+   "cuando": "Octubre",
+   "cliente": [
+    "Veinte contactos nuevos por semana de prospección directa",
+    "Tres llamadas de venta agendadas y grabadas",
+    "Reescribir la página de oferta con las objeciones reales"
+   ],
+   "cascara": [
+    "Sin llamadas uno a uno"
+   ]
+  },
+  {
+   "cuando": "Noviembre",
+   "cliente": [
+    "Abrir los cinco cupos con fecha de cierre",
+    "Sostener el contenido de los tres pilares durante el lanzamiento",
+    "Hacer la lectura final del ciclo"
+   ],
+   "cascara": [
+    "Sin llamadas uno a uno"
+   ]
+  }
+ ],
+ "conclusion": "Nico cierra con el sistema completo y con el resultado todavía por delante, así que lo que viene se define con una sola variable: la actividad comercial. El roadmap apunta al pipeline que ya existe, porque es el lugar donde una venta puede aparecer rápido sobre algo ya construido. Con la primera venta a mil dólares, la oferta queda validada con precio y el contenido gana un caso propio para contar, que es justo lo que le falta hoy para el ciclo de confianza que marcó Franco. De este caso Cáscara también se lleva un aprendizaje: armar sistema sin poner una fecha de venta deja al founder midiendo el tiempo en lugar de medir avances. Por eso el cierre es una orientación al lanzamiento con fechas puestas y un offboarding, y si en estas semanas cierra la primera venta, la conversación de Cáscara Growth tiene sobre qué apoyarse.\n\nEl calendario se aprieta, y acá se aprieta justo donde nunca se movió. La planilla del pipeline se cierra en tres días y el recontacto arranca el 16 de septiembre; la prospección se le suma encima, así que las dos campañas corren juntas y cada respuesta se anota el día que llega. Las llamadas entran en la primera semana de octubre, el mini lanzamiento se adelanta al 19 y la primera venta queda puesta el 31 de octubre: esa es la fecha dura, diez días antes de lo que estaba. Trabajar con una fecha de venta encima es la parte del oficio que le queda por hacer propia, porque es la que ordena todo lo demás.\n\nEl frente que queda abierto es de nuestro lado: si la orientación al lanzamiento queda en este documento o suma una llamada de Franco. Eso lo define Teo en el sign-off, junto con hasta cuándo siguen abiertas las grupales. El roadmap corre igual.",
+ "carta": "Nico, te vas con algo que cuando arrancaste no tenías: una oferta clara, tres pilares, un calendario de 41 piezas y la costumbre de publicar sin preguntarle a nadie. Esa última parte es la que más cuesta y la resolviste solo, en tres meses. Te llevás también la prueba de qué funciona en tu contenido: las dos piezas que rompieron tus números fueron las que contaban lo que te pasó a vos. Lo que te espera ahora es la parte más simple de todas y la única que todavía no probaste: abrir el Calendly, escribirle a los que ya te conocen y pedir la llamada. Cinco mensajes por día durante un mes es una rutina, y las rutinas se sostienen con decisión. Tenés el sistema, la voz y el material; lo que sigue se mide en conversaciones abiertas. Cuando cierres la primera, escribinos.",
+ "abierto": "La fecha exacta en la que abre los cupos, que cae a los treinta días del primer video (falta confirmar). Si la mini orientación al lanzamiento se entrega solo en este documento o suma una llamada de Franco.",
+ "handicap": {
+  "ejes": {
+   "oferta": 3,
+   "contenido": 4,
+   "demanda": 1,
+   "venta": 1,
+   "entrega": 1
+  },
+  "total": 10,
+  "tramo": "En construcción",
+  "ritmo": "rojo",
+  "ritmo_texto": "Hace tiempo que no mueve.",
+  "eje_flojo": [
+   "venta",
+   "demanda",
+   "entrega"
+  ],
+  "sugiere": [
+   "Conseguir",
+   "Entregar",
+   "Sostener"
+  ],
+  "nota": "Demanda, venta y entrega empatan abajo y manda venta, que es el cuello del caso y el cuello del caso: hay oferta, pilares y 41 contenidos cargados, y lo único que nunca pasó fue salir a buscar la venta, así que se arranca por recontacto y prospección."
+ }
 }

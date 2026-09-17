@@ -5,6 +5,26 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 17 de septiembre de 2026
+
+Lo operativo nuestro salió de los documentos que lee el cliente.
+
+- **El caso de Ceci.** Su informe decía que entró al circuito de cierre, que el documento de sign-off
+  estaba vacío y lo completa Facu, que el encaje no era este, y que Aye coordina la llamada con Teo.
+  Todo eso es operación nuestra y ahora vive donde corresponde, en los accionables CSM.
+- **Lo mismo en otros seis.** Andrea, Manu, Sharon, Nico, Scarlett y Lucca tenían hitos escritos en
+  lenguaje interno ("entra al circuito de cierre", "teo plantea el sign-off y facu coincide",
+  "sin oferta nueva"). Quedaron en criollo y de cara al founder.
+- **La fecha que depende de la agenda de Teo salió de "Sin definir"** en los cuatro casos donde
+  estaba. Es una tarea nuestra, no una incógnita del caso.
+- **El agente tiene la regla nueva.** El circuito de cierre, quién completa el sign-off, de quién
+  depende la agenda, si hay oferta nueva y el juicio sobre el encaje van a `entregas.json`, nunca a
+  `etapa`, `abierto`, `recorrido.texto` ni `recorrido.hitos`.
+- **El generador:** cuando un caso no tiene hitos, el panel deja de mostrar el rótulo "Los hitos"
+  vacío y el texto toma todo el ancho.
+
+---
+
 ## 17 de septiembre de 2026 · el repo ya se construye solo, y el barrido del 16
 
 Dos cosas. La primera es que el repo, tal como está en GitHub, no se podía regenerar desde

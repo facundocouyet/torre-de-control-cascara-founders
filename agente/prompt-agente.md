@@ -70,6 +70,11 @@ Tres líneas: qué quedó resuelto en el sistema, qué tiene que mirar hoy, y la
 - **Sin ironía a costa del founder.** Los titulares nombran el trabajo que viene, no el defecto de la persona.
 - **Cada founder ubicado en su etapa.** Uno que recién empieza y uno que cierra no leen lo mismo.
 - **El puntaje es interno.** Va en las radiografías y sale de los informes de cierre.
+- **Lo interno no entra en la ficha.** El circuito de cierre, quién completa el documento de sign-off,
+  de quién depende la agenda, si hay o no oferta nueva para ofrecerle y el juicio sobre el encaje del
+  cliente son operación nuestra: van en `contenido/entregas.json` como accionable CSM, nunca en `etapa`,
+  `abierto`, `recorrido.texto` ni `recorrido.hitos`, porque esos cuatro campos los lee el founder en su
+  documento.
 - **La autocrítica de Cáscara no va en el documento del cliente.** Lo que hay que corregir de nuestro lado va en la versión interna, separada.
 - **Los paneles que se parten en dos no llevan "1 de 2".**
 - **Cáscara diseña y baja la estrategia, el founder ejecuta.** Los guiones los escribe el founder: Cáscara deja el criterio y un ejemplo.

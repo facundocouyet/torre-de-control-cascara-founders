@@ -212,13 +212,15 @@ def build(d):
         </div>''' for x in R.get("hitos",[]))
         b  = ""
         b += H(esc(R.get("titulo","")),72,mb=40,mw=1500)
-        b += f'''    <div style="display:grid;grid-template-columns:1.15fr 1fr;gap:76px;align-items:start;">
-      <div style="font-size:29px;line-height:1.5;">{esc(R.get("texto",""))}</div>
-      <div>
+        # sin hitos el texto toma todo el ancho, para que no quede una columna vacía al lado
+        cols = "1.15fr 1fr" if hitos else "1fr"
+        col2 = (f'''      <div>
         <div style="font-size:17px;letter-spacing:.2em;text-transform:uppercase;color:{GREY};margin-bottom:8px;">Los hitos</div>
 {hitos}
-      </div>
-    </div>\n'''
+      </div>\n''' if hitos else "")
+        b += f'''    <div style="display:grid;grid-template-columns:{cols};gap:76px;align-items:start;">
+      <div style="font-size:29px;line-height:1.5;max-width:110ch;">{esc(R.get("texto",""))}</div>
+{col2}    </div>\n'''
         add("Lo que pasó",b)
 
     # 06 · LAS RESPUESTAS
