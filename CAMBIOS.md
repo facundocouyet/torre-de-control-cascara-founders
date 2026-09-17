@@ -5,6 +5,23 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 17 de septiembre de 2026 · tarde
+
+Segunda pasada por lo mismo: el reparto interno salió de tres informes más.
+
+- **Antonio.** La conclusión cerraba diciendo que la fecha de las grupales la fija Teo en el
+  sign-off, y "Lo que queda sin definir" repetía lo mismo. Ahora la conclusión termina en el
+  negocio y lo único sin definir es qué responde la dirección de marketing de IEB. El
+  entregable dice "El acceso a las llamadas grupales", sin la fecha que dependa de nadie.
+- **Nico.** Igual: la conclusión decía "el frente que queda abierto es de nuestro lado" y
+  seguía con quién define qué. Eso vive en la torre, no en su informe.
+- **Lucca.** Salió de "Sin definir" si hubo llamadas que no quedaron registradas en Fathom, y
+  del recorrido quién agenda la llamada de cierre.
+- **Nada se perdió:** los tres frentes internos siguen en la torre, en el campo "Sin definir"
+  de cada cliente, que es interno.
+
+---
+
 ## 17 de septiembre de 2026
 
 Lo operativo nuestro salió de los documentos que lee el cliente.

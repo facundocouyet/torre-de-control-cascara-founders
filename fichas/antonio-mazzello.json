@@ -1,238 +1,238 @@
 {
-  "slug": "antonio-mazzello",
-  "cliente": "Antonio Mazzello",
-  "proyecto": "Marca personal de Antonio Mazzello — Banca Privada, Grupo IEB",
-  "modo": "cierre",
-  "orientacion": "Entregar",
-  "arranque": "(falta confirmar) — la semana de onboarding fue del 13 al 17 de abril y la llamada de estrategia con Facu fue el 24 de abril de 2026",
-  "etapa": "Se cierra el acompañamiento el 30 de septiembre, después de un cambio de rumbo que Antonio decidió en junio: la marca deja de apoyarse en su figura personal y pasa a apoyarse en un producto de IEB.",
-  "metrica": "Llamadas agendadas por el formulario de FAL. Es lo que mide este modelo, y reemplaza a las visualizaciones.",
-  "titular": "En junio Antonio cambió el objetivo. El plan que queda va detrás del nuevo: la marca se apoya en IEB, él es la cara, y lo que se mide son clientes, no visualizaciones.",
-  "bajada": "El programa arrancó con un objetivo: construir autoridad pública para traer clientes de ticket alto. En junio Antonio revisó ese objetivo con su mentor de banca privada y llegó a la conclusión de que en su mundo la exposición personal juega en contra. Desde esa decisión, el plan de abril dejó de ser el plan que él quería ejecutar. Lo que se entrega ahora va detrás del objetivo nuevo.",
-  "punto_a": [
-    {
-      "label": "Resuelto",
-      "titulo": "El negocio y el cliente",
-      "texto": "Antonio es asesor financiero en la unidad de Banca Privada de Grupo IEB, un holding con entre 50 y 60 mil comitentes. Su cliente tiene más de 50 mil dólares para invertir y busca un asesor dedicado. Cobra sobre el patrimonio que administra, así que cada cliente nuevo suma de manera compuesta. Eso quedó claro el primer día y se mantuvo igual todo el tramo."
-    },
-    {
-      "label": "Funciona",
-      "titulo": "El respaldo de la empresa",
-      "texto": "IEB tiene quince años en el mercado, equipo propio y material de research permanente, y le dio libertad operativa para ser la cara visible de Banca Privada. En sus palabras del 24 de abril: tiene total libertad para operar porque lo que genera vuelve a la empresa. Esa espalda es la palanca del proyecto y sigue intacta."
-    },
-    {
-      "label": "Definido en junio",
-      "titulo": "El cambio de rumbo",
-      "texto": "El 11 de junio Antonio habló con su mentor, alguien que se mueve con clientes de patrimonio alto, y sacó una conclusión sobre su propia carrera: en banca privada la plata no llega por videos, llega por trabajar bien, y en un ambiente chico quedar expuesto se paga caro. Ya había entrado al programa diciendo que no quería ser ni gurú ni promesero. La conversación le confirmó lo que traía y decidió cambiar el rumbo."
-    }
-  ],
-  "recorrido": {
-    "titulo": "El objetivo cambió y el plan quedó atrás del objetivo viejo",
-    "texto": "El 24 de abril quedó bajado el embudo entero: autoridad de ticket alto apoyada en los quince años de IEB, tráfico filtrado antes que masivo, educación gratuita para nutrir y segmentar, y una base de datos segmentada detrás. El plan arrancaba por dos condiciones de producción —un editor contratado y una persona de IEB dueña del calendario— que no llegaron a ponerse en marcha. Entre mayo y junio el contenido salió pieza por pieza, sin un ángulo sostenido. El 11 de junio llegó la conversación con su mentor y ahí el eje del proyecto se movió: la pregunta dejó de ser cómo se produce y pasó a ser si la marca tiene que estar puesta sobre su persona. Antonio decidió que no, y esa decisión es suya y está bien tomada: conoce su mercado mejor que nadie. Lo que quedó pendiente fue reemplazar el objetivo viejo por uno nuevo, y sin objetivo el plan no tenía a dónde empujar. En julio Cáscara escribió la salida: resetear el perfil hacia IEB, dejar de comunicar como creador solista y armar un producto de empresa, porque IEB financia lo que es suyo. Es la misma dirección que le marcó su mentor. Eso es lo que se entrega hoy, con el paso a paso adelante.",
-    "hitos": [
-      {
-        "cuando": "24 abr",
-        "que": "facu baja el embudo de autoridad de ticket alto"
-      },
-      {
-        "cuando": "abr–jun",
-        "que": "entra a siete grupales de contenido de f3"
-      },
-      {
-        "cuando": "may",
-        "que": "el contenido sale pieza por pieza, sin un ángulo sostenido"
-      },
-      {
-        "cuando": "11 jun",
-        "que": "antonio revisa el objetivo con su mentor y cambia el rumbo"
-      },
-      {
-        "cuando": "jul",
-        "que": "cáscara escribe la salida: la marca se mueve hacia iEB"
-      },
-      {
-        "cuando": "2 sep",
-        "que": "se cierra el acompañamiento con ese plan entregado"
-      },
-      {
-        "cuando": "16 sep",
-        "que": "salida fijada para el 30 de septiembre, con llamada de cierre de teo"
-      }
-    ]
+ "slug": "antonio-mazzello",
+ "cliente": "Antonio Mazzello",
+ "proyecto": "Marca personal de Antonio Mazzello — Banca Privada, Grupo IEB",
+ "modo": "cierre",
+ "orientacion": "Entregar",
+ "arranque": "(falta confirmar) — la semana de onboarding fue del 13 al 17 de abril y la llamada de estrategia con Facu fue el 24 de abril de 2026",
+ "etapa": "Se cierra el acompañamiento el 30 de septiembre, después de un cambio de rumbo que Antonio decidió en junio: la marca deja de apoyarse en su figura personal y pasa a apoyarse en un producto de IEB.",
+ "metrica": "Llamadas agendadas por el formulario de FAL. Es lo que mide este modelo, y reemplaza a las visualizaciones.",
+ "titular": "En junio Antonio cambió el objetivo. El plan que queda va detrás del nuevo: la marca se apoya en IEB, él es la cara, y lo que se mide son clientes, no visualizaciones.",
+ "bajada": "El programa arrancó con un objetivo: construir autoridad pública para traer clientes de ticket alto. En junio Antonio revisó ese objetivo con su mentor de banca privada y llegó a la conclusión de que en su mundo la exposición personal juega en contra. Desde esa decisión, el plan de abril dejó de ser el plan que él quería ejecutar. Lo que se entrega ahora va detrás del objetivo nuevo.",
+ "punto_a": [
+  {
+   "label": "Resuelto",
+   "titulo": "El negocio y el cliente",
+   "texto": "Antonio es asesor financiero en la unidad de Banca Privada de Grupo IEB, un holding con entre 50 y 60 mil comitentes. Su cliente tiene más de 50 mil dólares para invertir y busca un asesor dedicado. Cobra sobre el patrimonio que administra, así que cada cliente nuevo suma de manera compuesta. Eso quedó claro el primer día y se mantuvo igual todo el tramo."
   },
-  "lectura": {
-    "titular": "El objetivo tiene que tocar la inversión.",
-    "texto": "El objetivo que estaba sobre la mesa era construir audiencia, y para Antonio eso no se conectaba de forma directa con lo que quería mover, que es el patrimonio que administra. Cuando su mentor le puso en duda el camino, no quedó nada tirando del plan. Un founder con la agenda tomada por sus clientes ejecuta cuando ve la línea entre lo que hace y lo que cobra. Por eso el plan que sigue cambia de métrica: deja de medir visualizaciones y pasa a medir llamadas agendadas de empleadores por FAL, que es un producto de IEB con ventana abierta. Cada llamada agendada es patrimonio potencial bajo administración, y eso sí toca su número.",
-    "cita": "La gente grande de verdad no te va a dar la guita porque vos hagas videos en Instagram. Tengo que apuntar por otro lado: laburar bien, hacer bien mi trabajo en el privado, y que eso derive gente.",
-    "cita_autor": "Antonio, 11 de junio de 2026"
+  {
+   "label": "Funciona",
+   "titulo": "El respaldo de la empresa",
+   "texto": "IEB tiene quince años en el mercado, equipo propio y material de research permanente, y le dio libertad operativa para ser la cara visible de Banca Privada. En sus palabras del 24 de abril: tiene total libertad para operar porque lo que genera vuelve a la empresa. Esa espalda es la palanca del proyecto y sigue intacta."
   },
-  "respuestas": [
-    {
-      "tema": "Sobre qué se apoya la marca",
-      "respuesta": "Sobre IEB. Antonio es la cara y la empresa es la palanca: quince años de mercado contestan la pregunta de por qué escucharlo, que con un año en el rol no se contesta sola."
-    },
-    {
-      "tema": "Qué producto se comunica",
-      "respuesta": "FAL, el Fondo de Asistencia Laboral, que le habla a empleadores y tiene una ventana regulatoria abierta. Es de la empresa, tiene material propio y da una razón concreta para agendar una llamada."
-    },
-    {
-      "tema": "Qué formato sostiene Antonio",
-      "respuesta": "Uno o dos posteos escritos por semana sobre material que IEB ya produce. Adaptar research propio le lleva minutos; guionar y grabar video le lleva jornadas que su agenda no tiene."
-    },
-    {
-      "tema": "Qué se mide",
-      "respuesta": "Llamadas agendadas por el formulario de FAL. Las visualizaciones dejan de ser el número del proyecto."
-    },
-    {
-      "tema": "Qué pasa con el perfil personal",
-      "respuesta": "Se resetea hacia lo profesional: bio y LinkedIn con foco en IEB y en el rol, no en la persona. Lo personal vive en historias, que se van solas."
-    },
-    {
-      "tema": "Qué condición necesita la producción",
-      "respuesta": "Presupuesto de la empresa. Producir contenido de IEB lo paga IEB; producir marca personal salía del bolsillo de Antonio y por eso nunca se puso en marcha."
-    },
-    {
-      "tema": "Quién paga la producción",
-      "respuesta": "IEB, si lo que se produce es de IEB. Ese es el cambio que destraba el editor y la persona de contenido, que como marca personal nunca iban a tener presupuesto."
-    },
-    {
-      "tema": "Qué queda del plan de abril",
-      "respuesta": "El criterio entero: cliente de ticket alto, tráfico filtrado antes que masivo, educación gratuita para nutrir y segmentar, y una base de datos detrás. Cambia dónde se apoya la marca, no la lógica comercial."
-    },
-    {
-      "tema": "Por qué el plan de abril no llegó a ejecutarse",
-      "respuesta": "Porque a mitad de camino cambió el objetivo que lo sostenía. Un plan sin un objetivo que tire no se ejecuta, por bien escrito que esté."
-    }
-  ],
-  "entregables": [
-    {
-      "que": "La estrategia creativa de abril, completa",
-      "para": "El criterio comercial que sigue vigente: a quién le habla, con qué tono, qué se mide y en qué orden se ejecuta."
-    },
-    {
-      "que": "El plan operativo de julio, con los dos escenarios",
-      "para": "El que hay que ejecutar. Tiene el reseteo del perfil paso por paso y los dos caminos posibles con sus riesgos escritos."
-    },
-    {
-      "que": "El guion de FAL para YouTube, escrito entero",
-      "para": "Está listo con estructura, cifras y llamado a la acción. Sirve tal cual como base del posteo escrito o del video, el día que haya con qué producirlo."
-    },
-    {
-      "que": "La descripción del rol de contenido, con tareas y horas",
-      "para": "La lleva a la conversación con IEB: es lo que convierte el pedido en un puesto presupuestado en vez de un favor."
-    },
-    {
-      "que": "El acceso a las llamadas grupales hasta la fecha que fije Teo",
-      "para": "Sigue entrando a las grupales de contenido mientras ordena esto (fecha exacta, falta confirmar)."
-    }
-  ],
-  "punto_b": [
-    {
-      "fecha": "15 de octubre de 2026",
-      "titulo": "La marca reencuadrada y la conversación con IEB hecha",
-      "texto": "El perfil reseteado hacia lo profesional, y una respuesta de IEB sobre presupuesto para producir contenido de producto. Sí o no, las dos sirven: una abre la producción y la otra deja el formato escrito como el único camino."
-    },
-    {
-      "fecha": "14 de noviembre de 2026",
-      "titulo": "Las primeras llamadas de FAL agendadas",
-      "texto": "El formulario abierto, los posteos corriendo y llamadas en la agenda que vinieron de ahí. Ese número es el que dice si el modelo funciona, y se consigue sin exponerse más de lo que su mundo tolera."
-    }
-  ],
-  "roadmap": [
-    {
-      "cuando": "16 al 24 de septiembre",
-      "objetivo": "La decisión de fondo, escrita",
-      "entregable": "Media carilla que diga sobre qué se apoya la marca: el producto de IEB o su figura personal. Es la decisión que ordena todo lo demás y conviene tomarla antes que cualquier otra cosa.",
-      "quien": "Antonio"
-    },
-    {
-      "cuando": "25 de septiembre al 3 de octubre",
-      "objetivo": "El perfil reseteado",
-      "entregable": "Bio de Instagram y 'Acerca de' de LinkedIn con foco en el rol y en IEB. Sesión de fotos profesional y destacadas ordenadas. Lo personal pasa a historias. Está todo escrito paso por paso en el plan de julio.",
-      "quien": "Antonio"
-    },
-    {
-      "cuando": "6 al 15 de octubre",
-      "objetivo": "La conversación con IEB",
-      "entregable": "Reunión con la dirección de marketing de IEB con una propuesta de una carilla: qué contenido de producto se hace, qué trae y qué necesita en personas y presupuesto. La descripción del rol de contenido va adjunta.",
-      "quien": "Antonio, con la dirección de marketing de Grupo IEB"
-    },
-    {
-      "cuando": "6 de octubre al 14 de noviembre",
-      "objetivo": "El formato que sí entra en su semana",
-      "entregable": "Uno o dos posteos escritos por semana adaptados del research y del material de FAL que IEB ya tiene. Adaptar, no inventar. Cada uno cierra invitando a agendar quince minutos.",
-      "quien": "Antonio"
-    },
-    {
-      "cuando": "13 de octubre al 14 de noviembre",
-      "objetivo": "El mecanismo comercial andando",
-      "entregable": "Un Calendly público de quince minutos para empleadores, con las tres preguntas de calificación adelante, y una planilla donde se anota cada llamada agendada con la fecha y el posteo que la trajo.",
-      "quien": "Antonio"
-    },
-    {
-      "cuando": "17 al 21 de noviembre",
-      "objetivo": "Leer y decidir",
-      "entregable": "Una carilla: cuántas llamadas se agendaron, de qué tipo de empresa, y qué contenido las trajo. Con eso se decide si se pide producción o si el formato escrito alcanza.",
-      "quien": "Antonio"
-    }
-  ],
-  "accionables": [
-    {
-      "cuando": "Septiembre",
-      "cliente": [
-        "Escribir en media carilla sobre qué se apoya la marca: el producto de IEB o su figura personal",
-        "Resetear la bio de Instagram y el 'Acerca de' de LinkedIn con foco en el rol y en IEB",
-        "Pedir la reunión con la dirección de marketing de IEB"
-      ],
-      "cascara": [
-        "Teo hace el sign-off y entrega este documento",
-        "Responder el último mensaje de Antonio que quedó pendiente, antes de la llamada",
-        "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo (falta confirmar)"
-      ]
-    },
-    {
-      "cuando": "Octubre",
-      "cliente": [
-        "Llevar la propuesta de una carilla a la reunión con IEB, con la descripción del rol adjunta",
-        "Publicar uno o dos posteos escritos por semana adaptados del material de IEB",
-        "Abrir el Calendly de quince minutos para empleadores y anotar cada llamada que entra"
-      ],
-      "cascara": [
-        "Sin llamadas uno a uno"
-      ]
-    },
-    {
-      "cuando": "Noviembre",
-      "cliente": [
-        "Sostener el ritmo de posteos hasta el 14",
-        "Escribir la carilla de lectura y decidir si pide producción o sigue con el formato escrito"
-      ],
-      "cascara": [
-        "Sin llamadas uno a uno"
-      ]
-    }
-  ],
-  "conclusion": "El contenido es una palanca real para Banca Privada, porque el cliente de ticket alto llega por confianza y la confianza se construye mostrando criterio. Lo que este tramo dejó claro es que el objetivo tiene que tocar la inversión de forma directa. Construir audiencia es un objetivo lejano para alguien que cobra sobre el patrimonio que administra y tiene la agenda llena de clientes. Llamadas agendadas de empleadores por FAL es un objetivo cercano: cada una es patrimonio potencial bajo administración, y se consigue sin exponerse más de lo que su mercado tolera.\n\nEl cambio de rumbo lo decidió Antonio en junio y fue la decisión correcta para su carrera. Lo que se entrega ahora es el plan que va detrás de esa decisión, y que Cáscara ya había escrito en julio: la marca se apoya en IEB, él es la cara, la empresa financia lo que es suyo, y el formato pasa a ser material escrito adaptado del research que IEB produce todos los días. La recomendación es offboarding, con la conversación con la dirección de marketing de IEB como próximo hito.\n\nEl frente que queda abierto es hasta qué fecha exacta mantiene el acceso a las llamadas grupales, y eso lo fija Teo en el sign-off.",
-  "carta": "Antonio, lo primero que quiero decirte es que la decisión que tomaste en junio fue la correcta. Frenar un camino cuando ves que no es el tuyo requiere más criterio que seguirlo por inercia, y vos conocés tu mercado mejor que cualquiera de nosotros. Lo que faltó no fue voluntad tuya: faltó poner un objetivo nuevo en el lugar del que sacaste, y sin eso ningún plan empuja solo. Eso es lo que te llevás resuelto. La marca se apoya en IEB, vos sos la cara, y la empresa paga lo que es suyo, así que la producción deja de salir de tu bolsillo y de tus fines de semana. El número que vas a mirar son llamadas agendadas, que es lo único que mueve el patrimonio que administrás. Cuando tengas la respuesta de marketing, escribinos: ahí hay un proyecto para volver a sentarnos con gusto.",
-  "abierto": "Qué responde la dirección de marketing de IEB sobre presupuesto de producción. Hasta qué fecha exacta mantiene el acceso a las llamadas grupales después del 30 de septiembre (falta confirmar).",
-  "handicap": {
-    "ejes": {
-      "oferta": 3,
-      "contenido": 2,
-      "demanda": 1,
-      "venta": 3,
-      "entrega": 2
-    },
-    "total": 11,
-    "tramo": "Andando",
-    "ritmo": "rojo",
-    "ritmo_texto": "Hace tiempo que no mueve.",
-    "eje_flojo": [
-      "demanda"
-    ],
-    "sugiere": [
-      "Sostener"
-    ],
-    "nota": "Se trabaja por demanda, el eje más bajo: el embudo de captación quedó en el papel desde abril y sin dueño del calendario no hay diez piezas con un mismo ángulo que traigan contactos."
+  {
+   "label": "Definido en junio",
+   "titulo": "El cambio de rumbo",
+   "texto": "El 11 de junio Antonio habló con su mentor, alguien que se mueve con clientes de patrimonio alto, y sacó una conclusión sobre su propia carrera: en banca privada la plata no llega por videos, llega por trabajar bien, y en un ambiente chico quedar expuesto se paga caro. Ya había entrado al programa diciendo que no quería ser ni gurú ni promesero. La conversación le confirmó lo que traía y decidió cambiar el rumbo."
   }
+ ],
+ "recorrido": {
+  "titulo": "El objetivo cambió y el plan quedó atrás del objetivo viejo",
+  "texto": "El 24 de abril quedó bajado el embudo entero: autoridad de ticket alto apoyada en los quince años de IEB, tráfico filtrado antes que masivo, educación gratuita para nutrir y segmentar, y una base de datos segmentada detrás. El plan arrancaba por dos condiciones de producción —un editor contratado y una persona de IEB dueña del calendario— que no llegaron a ponerse en marcha. Entre mayo y junio el contenido salió pieza por pieza, sin un ángulo sostenido. El 11 de junio llegó la conversación con su mentor y ahí el eje del proyecto se movió: la pregunta dejó de ser cómo se produce y pasó a ser si la marca tiene que estar puesta sobre su persona. Antonio decidió que no, y esa decisión es suya y está bien tomada: conoce su mercado mejor que nadie. Lo que quedó pendiente fue reemplazar el objetivo viejo por uno nuevo, y sin objetivo el plan no tenía a dónde empujar. En julio Cáscara escribió la salida: resetear el perfil hacia IEB, dejar de comunicar como creador solista y armar un producto de empresa, porque IEB financia lo que es suyo. Es la misma dirección que le marcó su mentor. Eso es lo que se entrega hoy, con el paso a paso adelante.",
+  "hitos": [
+   {
+    "cuando": "24 abr",
+    "que": "facu baja el embudo de autoridad de ticket alto"
+   },
+   {
+    "cuando": "abr–jun",
+    "que": "entra a siete grupales de contenido de f3"
+   },
+   {
+    "cuando": "may",
+    "que": "el contenido sale pieza por pieza, sin un ángulo sostenido"
+   },
+   {
+    "cuando": "11 jun",
+    "que": "antonio revisa el objetivo con su mentor y cambia el rumbo"
+   },
+   {
+    "cuando": "jul",
+    "que": "cáscara escribe la salida: la marca se mueve hacia iEB"
+   },
+   {
+    "cuando": "2 sep",
+    "que": "se cierra el acompañamiento con ese plan entregado"
+   },
+   {
+    "cuando": "16 sep",
+    "que": "salida fijada para el 30 de septiembre, con llamada de cierre de teo"
+   }
+  ]
+ },
+ "lectura": {
+  "titular": "El objetivo tiene que tocar la inversión.",
+  "texto": "El objetivo que estaba sobre la mesa era construir audiencia, y para Antonio eso no se conectaba de forma directa con lo que quería mover, que es el patrimonio que administra. Cuando su mentor le puso en duda el camino, no quedó nada tirando del plan. Un founder con la agenda tomada por sus clientes ejecuta cuando ve la línea entre lo que hace y lo que cobra. Por eso el plan que sigue cambia de métrica: deja de medir visualizaciones y pasa a medir llamadas agendadas de empleadores por FAL, que es un producto de IEB con ventana abierta. Cada llamada agendada es patrimonio potencial bajo administración, y eso sí toca su número.",
+  "cita": "La gente grande de verdad no te va a dar la guita porque vos hagas videos en Instagram. Tengo que apuntar por otro lado: laburar bien, hacer bien mi trabajo en el privado, y que eso derive gente.",
+  "cita_autor": "Antonio, 11 de junio de 2026"
+ },
+ "respuestas": [
+  {
+   "tema": "Sobre qué se apoya la marca",
+   "respuesta": "Sobre IEB. Antonio es la cara y la empresa es la palanca: quince años de mercado contestan la pregunta de por qué escucharlo, que con un año en el rol no se contesta sola."
+  },
+  {
+   "tema": "Qué producto se comunica",
+   "respuesta": "FAL, el Fondo de Asistencia Laboral, que le habla a empleadores y tiene una ventana regulatoria abierta. Es de la empresa, tiene material propio y da una razón concreta para agendar una llamada."
+  },
+  {
+   "tema": "Qué formato sostiene Antonio",
+   "respuesta": "Uno o dos posteos escritos por semana sobre material que IEB ya produce. Adaptar research propio le lleva minutos; guionar y grabar video le lleva jornadas que su agenda no tiene."
+  },
+  {
+   "tema": "Qué se mide",
+   "respuesta": "Llamadas agendadas por el formulario de FAL. Las visualizaciones dejan de ser el número del proyecto."
+  },
+  {
+   "tema": "Qué pasa con el perfil personal",
+   "respuesta": "Se resetea hacia lo profesional: bio y LinkedIn con foco en IEB y en el rol, no en la persona. Lo personal vive en historias, que se van solas."
+  },
+  {
+   "tema": "Qué condición necesita la producción",
+   "respuesta": "Presupuesto de la empresa. Producir contenido de IEB lo paga IEB; producir marca personal salía del bolsillo de Antonio y por eso nunca se puso en marcha."
+  },
+  {
+   "tema": "Quién paga la producción",
+   "respuesta": "IEB, si lo que se produce es de IEB. Ese es el cambio que destraba el editor y la persona de contenido, que como marca personal nunca iban a tener presupuesto."
+  },
+  {
+   "tema": "Qué queda del plan de abril",
+   "respuesta": "El criterio entero: cliente de ticket alto, tráfico filtrado antes que masivo, educación gratuita para nutrir y segmentar, y una base de datos detrás. Cambia dónde se apoya la marca, no la lógica comercial."
+  },
+  {
+   "tema": "Por qué el plan de abril no llegó a ejecutarse",
+   "respuesta": "Porque a mitad de camino cambió el objetivo que lo sostenía. Un plan sin un objetivo que tire no se ejecuta, por bien escrito que esté."
+  }
+ ],
+ "entregables": [
+  {
+   "que": "La estrategia creativa de abril, completa",
+   "para": "El criterio comercial que sigue vigente: a quién le habla, con qué tono, qué se mide y en qué orden se ejecuta."
+  },
+  {
+   "que": "El plan operativo de julio, con los dos escenarios",
+   "para": "El que hay que ejecutar. Tiene el reseteo del perfil paso por paso y los dos caminos posibles con sus riesgos escritos."
+  },
+  {
+   "que": "El guion de FAL para YouTube, escrito entero",
+   "para": "Está listo con estructura, cifras y llamado a la acción. Sirve tal cual como base del posteo escrito o del video, el día que haya con qué producirlo."
+  },
+  {
+   "que": "La descripción del rol de contenido, con tareas y horas",
+   "para": "La lleva a la conversación con IEB: es lo que convierte el pedido en un puesto presupuestado en vez de un favor."
+  },
+  {
+   "que": "El acceso a las llamadas grupales",
+   "para": "Sigue entrando a las grupales de contenido mientras ordena esto."
+  }
+ ],
+ "punto_b": [
+  {
+   "fecha": "15 de octubre de 2026",
+   "titulo": "La marca reencuadrada y la conversación con IEB hecha",
+   "texto": "El perfil reseteado hacia lo profesional, y una respuesta de IEB sobre presupuesto para producir contenido de producto. Sí o no, las dos sirven: una abre la producción y la otra deja el formato escrito como el único camino."
+  },
+  {
+   "fecha": "14 de noviembre de 2026",
+   "titulo": "Las primeras llamadas de FAL agendadas",
+   "texto": "El formulario abierto, los posteos corriendo y llamadas en la agenda que vinieron de ahí. Ese número es el que dice si el modelo funciona, y se consigue sin exponerse más de lo que su mundo tolera."
+  }
+ ],
+ "roadmap": [
+  {
+   "cuando": "16 al 24 de septiembre",
+   "objetivo": "La decisión de fondo, escrita",
+   "entregable": "Media carilla que diga sobre qué se apoya la marca: el producto de IEB o su figura personal. Es la decisión que ordena todo lo demás y conviene tomarla antes que cualquier otra cosa.",
+   "quien": "Antonio"
+  },
+  {
+   "cuando": "25 de septiembre al 3 de octubre",
+   "objetivo": "El perfil reseteado",
+   "entregable": "Bio de Instagram y 'Acerca de' de LinkedIn con foco en el rol y en IEB. Sesión de fotos profesional y destacadas ordenadas. Lo personal pasa a historias. Está todo escrito paso por paso en el plan de julio.",
+   "quien": "Antonio"
+  },
+  {
+   "cuando": "6 al 15 de octubre",
+   "objetivo": "La conversación con IEB",
+   "entregable": "Reunión con la dirección de marketing de IEB con una propuesta de una carilla: qué contenido de producto se hace, qué trae y qué necesita en personas y presupuesto. La descripción del rol de contenido va adjunta.",
+   "quien": "Antonio, con la dirección de marketing de Grupo IEB"
+  },
+  {
+   "cuando": "6 de octubre al 14 de noviembre",
+   "objetivo": "El formato que sí entra en su semana",
+   "entregable": "Uno o dos posteos escritos por semana adaptados del research y del material de FAL que IEB ya tiene. Adaptar, no inventar. Cada uno cierra invitando a agendar quince minutos.",
+   "quien": "Antonio"
+  },
+  {
+   "cuando": "13 de octubre al 14 de noviembre",
+   "objetivo": "El mecanismo comercial andando",
+   "entregable": "Un Calendly público de quince minutos para empleadores, con las tres preguntas de calificación adelante, y una planilla donde se anota cada llamada agendada con la fecha y el posteo que la trajo.",
+   "quien": "Antonio"
+  },
+  {
+   "cuando": "17 al 21 de noviembre",
+   "objetivo": "Leer y decidir",
+   "entregable": "Una carilla: cuántas llamadas se agendaron, de qué tipo de empresa, y qué contenido las trajo. Con eso se decide si se pide producción o si el formato escrito alcanza.",
+   "quien": "Antonio"
+  }
+ ],
+ "accionables": [
+  {
+   "cuando": "Septiembre",
+   "cliente": [
+    "Escribir en media carilla sobre qué se apoya la marca: el producto de IEB o su figura personal",
+    "Resetear la bio de Instagram y el 'Acerca de' de LinkedIn con foco en el rol y en IEB",
+    "Pedir la reunión con la dirección de marketing de IEB"
+   ],
+   "cascara": [
+    "Teo hace el sign-off y entrega este documento",
+    "Responder el último mensaje de Antonio que quedó pendiente, antes de la llamada",
+    "Queda abierto el acceso a las llamadas grupales hasta la fecha que fije Teo (falta confirmar)"
+   ]
+  },
+  {
+   "cuando": "Octubre",
+   "cliente": [
+    "Llevar la propuesta de una carilla a la reunión con IEB, con la descripción del rol adjunta",
+    "Publicar uno o dos posteos escritos por semana adaptados del material de IEB",
+    "Abrir el Calendly de quince minutos para empleadores y anotar cada llamada que entra"
+   ],
+   "cascara": [
+    "Sin llamadas uno a uno"
+   ]
+  },
+  {
+   "cuando": "Noviembre",
+   "cliente": [
+    "Sostener el ritmo de posteos hasta el 14",
+    "Escribir la carilla de lectura y decidir si pide producción o sigue con el formato escrito"
+   ],
+   "cascara": [
+    "Sin llamadas uno a uno"
+   ]
+  }
+ ],
+ "conclusion": "El contenido es una palanca real para Banca Privada, porque el cliente de ticket alto llega por confianza y la confianza se construye mostrando criterio. Lo que este tramo dejó claro es que el objetivo tiene que tocar la inversión de forma directa. Construir audiencia es un objetivo lejano para alguien que cobra sobre el patrimonio que administra y tiene la agenda llena de clientes. Llamadas agendadas de empleadores por FAL es un objetivo cercano: cada una es patrimonio potencial bajo administración, y se consigue sin exponerse más de lo que su mercado tolera.\n\nEl cambio de rumbo lo decidió Antonio en junio y fue la decisión correcta para su carrera. Lo que se entrega ahora es el plan que va detrás de esa decisión, y que Cáscara ya había escrito en julio: la marca se apoya en IEB, él es la cara, la empresa financia lo que es suyo, y el formato pasa a ser material escrito adaptado del research que IEB produce todos los días. La recomendación es offboarding, con la conversación con la dirección de marketing de IEB como próximo hito.",
+ "carta": "Antonio, lo primero que quiero decirte es que la decisión que tomaste en junio fue la correcta. Frenar un camino cuando ves que no es el tuyo requiere más criterio que seguirlo por inercia, y vos conocés tu mercado mejor que cualquiera de nosotros. Lo que faltó no fue voluntad tuya: faltó poner un objetivo nuevo en el lugar del que sacaste, y sin eso ningún plan empuja solo. Eso es lo que te llevás resuelto. La marca se apoya en IEB, vos sos la cara, y la empresa paga lo que es suyo, así que la producción deja de salir de tu bolsillo y de tus fines de semana. El número que vas a mirar son llamadas agendadas, que es lo único que mueve el patrimonio que administrás. Cuando tengas la respuesta de marketing, escribinos: ahí hay un proyecto para volver a sentarnos con gusto.",
+ "abierto": "Qué responde la dirección de marketing de IEB sobre presupuesto de producción.",
+ "handicap": {
+  "ejes": {
+   "oferta": 3,
+   "contenido": 2,
+   "demanda": 1,
+   "venta": 3,
+   "entrega": 2
+  },
+  "total": 11,
+  "tramo": "Andando",
+  "ritmo": "rojo",
+  "ritmo_texto": "Hace tiempo que no mueve.",
+  "eje_flojo": [
+   "demanda"
+  ],
+  "sugiere": [
+   "Sostener"
+  ],
+  "nota": "Se trabaja por demanda, el eje más bajo: el embudo de captación quedó en el papel desde abril y sin dueño del calendario no hay diez piezas con un mismo ángulo que traigan contactos."
+ }
 }
