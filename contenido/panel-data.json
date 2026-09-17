@@ -34,7 +34,7 @@
     "Entregar",
     "Sostener"
    ],
-   "nota": "Los cinco ejes empatan en uno y el que manda es oferta: sin la consultoría escrita con precio y fecha, el 10 de octubre en Kaipi no hay nada que vender."
+   "nota": "Los 5 ejes empatan en uno y el que manda es oferta: sin la consultoría escrita con precio y fecha, el 10 de octubre en Kaipi no hay nada que vender."
   },
   "cascara": [],
   "cliente_tareas": [],
@@ -47,7 +47,7 @@
   "proyecto": "Scarlett Montilla — mentoría de procesos",
   "modo": "cierre",
   "orientacion": "Conseguir",
-  "metrica": "Dos o tres clientes fijos por mes. Es el piso que ella misma puso para poder sostener el camino largo.",
+  "metrica": "Dos o 3 clientes fijos por mes. Es el piso que ella misma puso para poder sostener el camino largo.",
   "titular": "El proceso terminó en un pivote. De vender servicios técnicos de marketing a vender el proceso.",
   "cuello": "El cuello es la oferta sin forma, no el ritmo.",
   "abierto": "El precio de la mentoría, que sale de la llamada con Franco (falta confirmar).",
@@ -160,7 +160,7 @@
   "metrica": "Piezas publicadas contra las diez comprometidas, y cuántas conversaciones y llamadas salen de esas diez.",
   "titular": "Instala IA en una empresa todos los días y no la vende. El tramo que viene es cerrar esa oferta y salir a probarla.",
   "cuello": "El cuello es que la oferta no está escrita, y sin destino escrito cada pieza tiene que resolver qué decir y para qué al mismo tiempo.",
-  "abierto": "El precio final de la instalación y del acompañamiento mensual, que recién se confirma con las primeras cinco llamadas (falta confirmar).",
+  "abierto": "El precio final de la instalación y del acompañamiento mensual, que recién se confirma con las primeras 5 llamadas (falta confirmar).",
   "doc": "lucio-labate.html",
   "handicap": {
    "ejes": {
@@ -197,7 +197,7 @@
   "reparto": [
    [
     "Franco",
-    "Define con él la oferta en dos niveles, el buyer prioritario y el precio."
+    "Define con él la oferta en 2 niveles, el buyer prioritario y el precio."
    ]
   ]
  },
@@ -231,7 +231,7 @@
    "sugiere": [
     "Sostener"
    ],
-   "nota": "Se trabaja por contenido y demanda, los dos ejes más bajos: sin una pieza publicada y sin canal propio, poner la fecha de la primera Onfire es lo único que empieza a mover algo medible."
+   "nota": "Se trabaja por contenido y demanda, los 2 ejes más bajos: sin una pieza publicada y sin canal propio, poner la fecha de la primera Onfire es lo único que empieza a mover algo medible."
   },
   "cascara": [],
   "cliente_tareas": [
@@ -289,7 +289,7 @@
   ],
   "cliente_tareas": [
    "Levantar el Shopify con los productos de entrada a precio mayorista competitivo",
-   "Rehacer la landing: menos aire, CTA visible, imagen a la izquierda y texto a la derecha, mail en dos lugares y campo de proyecto obligatorio",
+   "Rehacer la landing: menos aire, CTA visible, imagen a la izquierda y texto a la derecha, mail en 2 lugares y campo de proyecto obligatorio",
    "Escribir el copy de la landing con la pregunta del regalo y mandarlo para feedback",
    "Mover la visualización de los datos a Notion o Airtable y dejar Supabase solo como almacenamiento",
    "Redefinir los kits para oficinas, startups y freelance, y pausar el de construcción",
@@ -311,7 +311,7 @@
   "modo": "radiografia",
   "orientacion": "Entregar",
   "metrica": "Cuántos contenidos por mes los edita alguien que no sean Sol ni Fede, y qué pasa con el ticket promedio, que hoy está entre 600 y 700 dólares por mes.",
-  "titular": "Tienen seis clientes fijos y las dos socias todavía editan. El tramo que viene es sacarse la edición de encima y ponerle precio a lo que saben.",
+  "titular": "Tienen 6 clientes fijos y las dos socias todavía editan. El tramo que viene es sacarse la edición de encima y ponerle precio a lo que saben.",
   "cuello": "El cuello es que las dos socias siguen adentro de la ejecución, y desde ahí no se puede ordenar nada de lo que está arriba.",
   "abierto": "Hacia qué nicho vira el servicio para poder venderse fuera de Uruguay, y con qué precio, que se define en la auditoría de oferta con Franco (falta confirmar).",
   "doc": "sol-boutmy.html",
@@ -334,7 +334,7 @@
    "sugiere": [
     "Sostener"
    ],
-   "nota": "Los pisos son contenido y demanda, las dos en uno: la cuenta de Be Motion no cuenta qué hacen y los seis clientes entraron por boca a boca, así que el trabajo de fondo es sostener, en paralelo a sacarse la edición de encima."
+   "nota": "Los pisos son contenido y demanda, las dos en uno: la cuenta de Be Motion no cuenta qué hacen y los 6 clientes entraron por boca a boca, así que el trabajo de fondo es sostener, en paralelo a sacarse la edición de encima."
   },
   "cascara": [
    "Facu les devuelve feedback de la lista de clientes antes de la llamada siguiente."
@@ -362,7 +362,7 @@
   "proyecto": "José David Fajardo — marca personal y servicio de crecimiento de marca para e-commerce (concepto «Universo de Marca»)",
   "modo": "radiografia",
   "orientacion": "Conseguir",
-  "metrica": "Propuestas presentadas con un resultado escrito en número, y cuántas de esas cierran a tres mil dólares o más.",
+  "metrica": "Propuestas presentadas con un resultado escrito en número, y cuántas de esas cierran a 3.000 dólares o más.",
   "titular": "Es el caso que siguió la secuencia y funcionó. Lo que falta ahora es pasar de una buena conversación a una oferta con un número medible.",
   "cuello": "El cuello no es un problema: es el paso siguiente. Hay una oferta entendida y falta que tenga un número.",
   "abierto": "La fecha exacta de la llamada con Franco, que Facu quedó en agendar para la semana siguiente al 1 de septiembre (falta confirmar).",
@@ -387,13 +387,13 @@
     "Entregar",
     "Sostener"
    ],
-   "nota": "Los pisos son contenido y entrega, las dos en uno: el canal todavía no existe y la entrega floja es la que le saca seguridad al vender, así que primero la oferta con número y de ahí los ángulos y las diez piezas."
+   "nota": "Los pisos son contenido y entrega, las dos en uno: el canal todavía no existe y la entrega floja es la que le saca seguridad al vender, así que primero la oferta con número y de ahí los ángulos y las 10 piezas."
   },
   "cascara": [
-   "Facu se cruza después de Franco y le marca el camino de los próximos sesenta días."
+   "Facu se cruza después de Franco y le marca el camino de los próximos 60 días."
   ],
   "cliente_tareas": [
-   "Documentar en Notion las tres ventas anteriores de tres mil dólares: qué compró cada uno, por qué cerró y qué resultado dejó",
+   "Documentar en Notion las 3 ventas anteriores de 3.000 dólares: qué compró cada uno, por qué cerró y qué resultado dejó",
    "Tener la llamada con Franco y salir con el documento de oferta cerrado, con métrica y precio",
    "Juntar y ordenar la base de leads viejos para reactivarla",
    "Seguir aplicando las correcciones de perfil y contenido que le bajó Fede",
@@ -417,7 +417,7 @@
   "proyecto": "Seba Martínez — marca personal y programa de marca personal para creativos, con Estudio Gama 21 como productora",
   "modo": "radiografia",
   "orientacion": "Conseguir",
-  "metrica": "La primera venta del programa con precio puesto: cuántas conversaciones abre el contenido, cuántas llegan a llamada y cuántas cierran entre mil y mil quinientos dólares.",
+  "metrica": "La primera venta del programa con precio puesto: cuántas conversaciones abre el contenido, cuántas llegan a llamada y cuántas cierran entre 1.000 y 1.500 dólares.",
   "titular": "Tiene el tráfico, los ángulos validados y una mentoría ya dictada. Lo único que nunca hizo fue cobrarla.",
   "cuello": "El cuello es que nunca cobró. Tiene tráfico, ángulos validados y una mentoría dictada, pero ninguna de esas cosas está empaquetada ni tiene precio.",
   "abierto": "La fecha de lanzamiento del programa: la forma quedó definida el 4 de septiembre y Titi entra en algunas clases, pero cuándo abre la ventana se cierra con Franco (falta confirmar).",
@@ -446,8 +446,8 @@
   "cliente_tareas": [
    "Completar el formulario de ICP y dolores con los dolores del creativo al que le va a vender",
    "Escribir el guion de la historia de origen",
-   "Regrabar desde el celular, en formato orgánico, los dos videos que ya funcionaron",
-   "Grabar el café con Titi: cinco o seis preguntas profundas, sin guion y sin premeditar",
+   "Regrabar desde el celular, en formato orgánico, los 2 videos que ya funcionaron",
+   "Grabar el café con Titi: cinco o 6 preguntas profundas, sin guion y sin premeditar",
    "Tener la llamada con Franco y salir con el documento de oferta escrito, con precio y fecha",
    "Calibrar el profile funnel: destacadas con su historia y archivo de las publicaciones repetidas",
    "Instalar la pregunta y la automatización en los videos que traen tráfico, con la mentoría grabada de recurso"
@@ -503,8 +503,8 @@
   "cliente_tareas": [
    "Mandarle a Franco la bajada documentada de las clases, las consultas repetidas y las estadísticas de Instagram, y agendar la sesión con él para la semana que viene",
    "Grabar la próxima clase grupal del high ticket como contenido del programa",
-   "Actualizar la oferta de 90 días: paquete de tres meses, precio en dos cuotas y más del 50% cobrado por adelantado",
-   "Pasar el discovery a llamadas de treinta minutos en Miro o Canva y dejar de hacer auditorías en PDF",
+   "Actualizar la oferta de 90 días: paquete de 3 meses, precio en dos cuotas y más del 50% cobrado por adelantado",
+   "Pasar el discovery a llamadas de 30 minutos en Miro o Canva y dejar de hacer auditorías en PDF",
    "Frenar la entrada de clientes nuevos de 90 días hasta tener equipo",
    "Terminar de delegar un cliente al editor que ya contrató, con brief incluido"
   ],
@@ -562,7 +562,7 @@
    "Completar y devolver el formulario del pasaporte digital",
    "Subir al Notion todo lo que tengan armado de ICP y de oferta, aunque esté a medio hacer",
    "Documentar el proceso con el cliente de consultoría: es el mayor activo y el caso que después sostiene la oferta",
-   "Pedirle a Teo en el grupo la plantilla del formulario de feedback y mandársela a los cuatro clientes actuales",
+   "Pedirle a Teo en el grupo la plantilla del formulario de feedback y mandársela a los 4 clientes actuales",
    "Llevar el tema de ICP y oferta a las grupales, y llevarle a Juana la pregunta de cómo mostrar la calidez sin perder la estructura",
    "Grabar la primera entrevista con Cami haciendo las preguntas, sin guión, y publicarla"
   ],
@@ -570,7 +570,7 @@
   "reparto": [
    [
     "Franco",
-    "Trabaja con ellos los cinco puntos: ICP y avatar, promesa central, escalera de valor, la cohorte de cuatro semanas y el posicionamiento en subcategoría."
+    "Trabaja con ellos los cinco puntos: ICP y avatar, promesa central, escalera de valor, la cohorte de 4 semanas y el posicionamiento en subcategoría."
    ],
    [
     "Juana",
@@ -620,7 +620,7 @@
   "cascara": [],
   "cliente_tareas": [
    "Abrir el Calendly y cargar todo el pipeline en una planilla",
-   "Recontactar cinco personas por día de las que no cerraron",
+   "Recontactar 5 personas por día de las que no cerraron",
    "Publicar los recortes del breakdown que quedaron sin salir"
   ],
   "ultima": "2 de septiembre de 2026",
@@ -665,7 +665,7 @@
    "sugiere": [
     "Sostener"
    ],
-   "nota": "Se trabaja por contenido y demanda, los dos ejes más bajos: el método ya está probado y lo que no existe es el canal propio que lo comunique, que es la única forma de elegir mejor los leads y subir el ticket."
+   "nota": "Se trabaja por contenido y demanda, los 2 ejes más bajos: el método ya está probado y lo que no existe es el canal propio que lo comunique, que es la única forma de elegir mejor los leads y subir el ticket."
   },
   "cascara": [],
   "cliente_tareas": [],
@@ -701,7 +701,7 @@
    "sugiere": [
     "Sostener"
    ],
-   "nota": "Se trabaja por demanda, el eje más bajo: el embudo de captación quedó en el papel desde abril y sin dueño del calendario no hay diez piezas con un mismo ángulo que traigan contactos."
+   "nota": "Se trabaja por demanda, el eje más bajo: el embudo de captación quedó en el papel desde abril y sin dueño del calendario no hay 10 piezas con un mismo ángulo que traigan contactos."
   },
   "cascara": [],
   "cliente_tareas": [
@@ -727,7 +727,7 @@
   "proyecto": "Workflow — programa y bolsa de Project Managers para agencias creativas",
   "modo": "radiografia",
   "orientacion": "Conseguir",
-  "metrica": "Cupos vendidos del programa en el lanzamiento. El objetivo que se fijó es entre cinco y diez. Hoy son cero, con tres llamadas hechas.",
+  "metrica": "Cupos vendidos del programa en el lanzamiento. El objetivo que se fijó es entre cinco y diez. Hoy son cero, con 3 llamadas hechas.",
   "titular": "El programa está listo, la demanda ya está juntada y el contenido se destrabó. Lo que falta es con qué cerrar.",
   "cuello": "El cuello es comercial: el tráfico ya existe y no hay nada armado que lo lleve de la conversación a la venta.",
   "abierto": "La fecha exacta del lanzamiento y si sale como workshop o como bootcamp, que lo define Franco en la reunión que todavía no consta hecha (falta confirmar).",
@@ -750,7 +750,7 @@
    "sugiere": [
     "Conseguir"
    ],
-   "nota": "Se trabaja por venta, que es el eje más bajo: el tráfico ya está juntado y entre la conversación y la plata no hay embudo, fecha, escasez ni seña, y por eso las tres llamadas se cayeron todas en el mismo punto."
+   "nota": "Se trabaja por venta, que es el eje más bajo: el tráfico ya está juntado y entre la conversación y la plata no hay embudo, fecha, escasez ni seña, y por eso las 3 llamadas se cayeron todas en el mismo punto."
   },
   "cascara": [],
   "cliente_tareas": [
@@ -838,7 +838,7 @@
   "metrica": "Que las ventas ya cerradas se entreguen con onboarding a las 48 horas y roadmap presentado, y cuántos handraisers junta el lanzamiento de octubre.",
   "titular": "Le pusimos el precio al doble y vendió igual. Lo que falta no es vender: es tener con qué entregar.",
   "cuello": "El cuello es que después de vender quedó sin sistema: hay clientes adentro y no hay proceso que los sostenga.",
-  "abierto": "Cuáles son los dos clientes que cerró, por qué montos y con qué alcance prometido en cada propuesta (falta confirmar).",
+  "abierto": "Cuáles son los 2 clientes que cerró, por qué montos y con qué alcance prometido en cada propuesta (falta confirmar).",
   "doc": "matias-morales.html",
   "handicap": {
    "ejes": {
@@ -858,13 +858,13 @@
    "sugiere": [
     "Entregar"
    ],
-   "nota": "Entrega en uno es el piso: vende y vende caro, y lo que falta es escribir el proceso una sola vez y aplicarlo a las dos entregas en curso antes de que entre el tercer cliente."
+   "nota": "Entrega en uno es el piso: vende y vende caro, y lo que falta es escribir el proceso una sola vez y aplicarlo a las 2 entregas en curso antes de que entre el tercer cliente."
   },
   "cascara": [],
   "cliente_tareas": [
-   "Mapear las dos entregas en curso: qué se prometió, en qué estado está y qué se está resolviendo sobre la marcha",
+   "Mapear las 2 entregas en curso: qué se prometió, en qué estado está y qué se está resolviendo sobre la marcha",
    "Escribir el proceso de entrega de 9669 sobre el módulo que baja Teo",
-   "Presentarle el roadmap a cada uno de los dos clientes, con hitos y fechas",
+   "Presentarle el roadmap a cada uno de los 2 clientes, con hitos y fechas",
    "Corregir el documento con lo que se rompa al aplicarlo"
   ],
   "ultima": "Del 2 al 4 de septiembre de 2026",
@@ -909,8 +909,8 @@
   "cascara": [],
   "cliente_tareas": [
    "Resolver la editora y no volver a editar contenido propio",
-   "Cerrar ciclo con cada cliente y presentar la continuidad por bloques de tres meses",
-   "Publicar diez piezas propias con edición nivel uno"
+   "Cerrar ciclo con cada cliente y presentar la continuidad por bloques de 3 meses",
+   "Publicar 10 piezas propias con edición nivel uno"
   ],
   "ultima": "2 de septiembre de 2026",
   "reparto": [
@@ -955,7 +955,7 @@
     "Conseguir",
     "Entregar"
    ],
-   "nota": "Se trabaja por venta y entrega, los dos ejes más bajos: el mecanismo de lanzamiento —preventa a la comunidad, ventana corta y producto disponible cuando sale la conversión— es lo que convierte el contenido que ya funciona en ventas medibles."
+   "nota": "Se trabaja por venta y entrega, los 2 ejes más bajos: el mecanismo de lanzamiento —preventa a la comunidad, ventana corta y producto disponible cuando sale la conversión— es lo que convierte el contenido que ya funciona en ventas medibles."
   },
   "cascara": [
    "Excepción declarada. Cáscara le configura las automatizaciones de mail con Risen y Claude, segmentadas por nivel de compra.",
@@ -965,7 +965,7 @@
    "Mandar el documento único con narrativa, calendario, productos, contenidos y beneficios para la comunidad",
    "Agendar y tener la reunión con Franco por estrategia de lanzamiento y pauta",
    "Unificar el pipeline en una sola base de Notion con origen del contacto, compras y productos",
-   "Rehacer la landing mobile first: formulario arriba, captura de mail en dos lugares y WhatsApp visible",
+   "Rehacer la landing mobile first: formulario arriba, captura de mail en 2 lugares y WhatsApp visible",
    "Comprar el dominio en Hostinger y conectarlo a Logoable",
    "Correr la preventa del pantalón dentro de la comunidad antes de abrirla afuera",
    "Grabar el primer capítulo de la serie Tengo Miedo en su marca personal, sin colaboración con Kie"
@@ -989,7 +989,7 @@
   "modo": "cierre",
   "orientacion": "Sostener",
   "metrica": "Propiedades nuevas que no vengan de un referido. Hoy, ninguna.",
-  "titular": "El B2C ya le da diez mil dólares por mes. El B2B, que es el que Lucca quiere hacer crecer, sigue viviendo de referidos.",
+  "titular": "El B2C ya le da 10.000 dólares por mes. El B2B, que es el que Lucca quiere hacer crecer, sigue viviendo de referidos.",
   "cuello": "El B2B no tiene canal.",
   "abierto": "Si hubo llamadas uno a uno después del 2 de abril que no quedaron registradas en Fathom.",
   "doc": "lucca-sorgoni.html",
@@ -1012,7 +1012,7 @@
    "sugiere": [
     "Sostener"
    ],
-   "nota": "Los pisos son contenido y demanda, las dos en dos: tiene la oferta más demostrable de todas y nunca la mostró, así que el trabajo es sostener, diez piezas de B2B con los números en pantalla y prospección con lista armada antes de escribir."
+   "nota": "Los pisos son contenido y demanda, las dos en dos: tiene la oferta más demostrable de todas y nunca la mostró, así que el trabajo es sostener, 10 piezas de B2B con los números en pantalla y prospección con lista armada antes de escribir."
   },
   "cascara": [],
   "cliente_tareas": [
@@ -1039,7 +1039,7 @@
   "modo": "cierre",
   "orientacion": "Conseguir",
   "metrica": "Clientes de la mentoría cerrados. Al 16 de septiembre: una propuesta enviada, ninguna cerrada.",
-  "titular": "Ceci cierra con el vehículo resuelto y la primera propuesta en la calle, hecha con cuatro mensajes.",
+  "titular": "Ceci cierra con el vehículo resuelto y la primera propuesta en la calle, hecha con 4 mensajes.",
   "cuello": "El cuello pasó a ser el volumen: el vehículo ya está encontrado.",
   "abierto": "La respuesta de Tantasiña antes del viernes 19. La fecha del workshop grande con su compañera, corrido a noviembre. La fecha hasta la que quedan abiertas las grupales (falta confirmar).",
   "doc": "cecilia-belotti.html",
@@ -1049,8 +1049,8 @@
   "ultima": "16 de septiembre de 2026",
   "ct": [
    "Hacer el seguimiento de Tantasiña antes del viernes 19 y cerrar sí o no",
-   "Armar la lista de veinte a treinta cuentas de destinos secundarios",
-   "Mandar los primeros cinco a diez mensajes de la semana"
+   "Armar la lista de 20 a 30 cuentas de destinos secundarios",
+   "Mandar los primeros 5 a 10 mensajes de la semana"
   ],
   "cas": [
    "Teo hace el sign-off y entrega este documento",
@@ -1061,7 +1061,7 @@
  {
   "slug": "the-momentum-club",
   "cliente": "Israel Barranco y Natalia Zabaleta",
-  "proyecto": "The Momentum Club — acompañamiento a artistas en cuatro pilares",
+  "proyecto": "The Momentum Club — acompañamiento a artistas en 4 pilares",
   "modo": "radiografia",
   "orientacion": "A definir",
   "metrica": "Sale de la Clarity Call.",

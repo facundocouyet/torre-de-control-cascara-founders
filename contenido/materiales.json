@@ -65,10 +65,10 @@
   },
   {
    "nombre": "Los documentos de cliente",
-   "texto": "Todo lo que sale del proceso de un founder. La radiografía es siempre el mismo documento: al final del mes 1, al final de cada mes y al cierre. Punto A con hechos, un solo cuello de botella, punto B con fecha y el roadmap de ocho semanas.",
+   "texto": "Todo lo que sale del proceso de un founder. La radiografía es siempre el mismo documento: al final del mes 1, al final de cada mes y al cierre. Punto A con hechos, un solo cuello de botella, punto B con fecha y el roadmap de 8 semanas.",
    "piezas": [
     {
-     "titulo": "Radiografías con roadmap · once clientes",
+     "titulo": "Radiografías con roadmap · 11 clientes",
      "que_es": "Aaron, Agostina, Bianca, Custom Lab, José David, Lola, Lucio, Matías, Sebastián, Sofía y Sol. Siguen en el programa: septiembre para dejar todo armado, octubre para ver la evolución, cierre el 31 de octubre. Falta revisarlos antes de mandarlos.",
      "estado": "en borrador",
      "formatos": [
@@ -78,8 +78,8 @@
      "url": ""
     },
     {
-     "titulo": "Informes de cierre · ocho clientes",
-     "que_es": "Andrea, Antonio, Ayelén, Lucca, Manu, Nicolás, Scarlett y Sharon. Cierra el proceso y deja los próximos sesenta días escritos para que los ejecuten solos. Las llamadas de sign-off las hace Teo. Falta revisarlos antes de mandarlos.",
+     "titulo": "Informes de cierre · 8 clientes",
+     "que_es": "Andrea, Antonio, Ayelén, Lucca, Manu, Nicolás, Scarlett y Sharon. Cierra el proceso y deja los próximos 60 días escritos para que los ejecuten solos. Las llamadas de sign-off las hace Teo. Falta revisarlos antes de mandarlos.",
      "estado": "en borrador",
      "formatos": [
       "HTML",
@@ -108,7 +108,7 @@
     },
     {
      "titulo": "Formulario de construcción de oferta",
-     "que_es": "Cuarenta preguntas en ocho bloques: resultado, paso a paso, módulos, cliente y precio. Se le manda al founder antes del 1:1 con Franco. Activo reutilizable para todos los clientes.",
+     "que_es": "40 preguntas en 8 bloques: resultado, paso a paso, módulos, cliente y precio. Se le manda al founder antes del 1:1 con Franco. Activo reutilizable para todos los clientes.",
      "estado": "listo",
      "formatos": [
       "Markdown"
@@ -207,7 +207,7 @@
    "piezas": [
     {
      "titulo": "Proceso de consultoría de founders",
-     "que_es": "Cómo se atiende a un founder de punta a punta: el día 0 de onboarding, la cadena de accionables semana por semana, las diez llamadas 1:1, las tres orientaciones, la radiografía, la anatomía de una grupal y la cuenta de capacidad. Es el documento que hay que leer primero.",
+     "que_es": "Cómo se atiende a un founder de punta a punta: el día 0 de onboarding, la cadena de accionables semana por semana, las 10 llamadas 1:1, las tres orientaciones, la radiografía, la anatomía de una grupal y la cuenta de capacidad. Es el documento que hay que leer primero.",
      "estado": "listo",
      "formatos": [
       "Markdown"
@@ -338,7 +338,7 @@
     },
     {
      "titulo": "Calendario de lanzamiento de 45 días",
-     "texto": "Quince días de historia para calentar la audiencia, después el problema, después la solución, y recién ahí el lanzamiento.",
+     "texto": "15 días de historia para calentar la audiencia, después el problema, después la solución, y recién ahí el lanzamiento.",
      "estado": "falta escribir"
     },
     {
@@ -378,7 +378,7 @@
    "items": [
     {
      "titulo": "Onboarding del cliente en 48 horas",
-     "texto": "Qué pasa en las primeras cuarenta y ocho horas después de que el cliente paga.",
+     "texto": "Qué pasa en las primeras 48 horas después de que el cliente paga.",
      "estado": "falta escribir"
     },
     {
@@ -445,7 +445,7 @@
   },
   {
    "titulo": "Dos formas después del primer mes",
-   "texto": "O dos meses de A a B, o A a B a B con una revisión en el medio. Depende del cliente."
+   "texto": "O 2 meses de A a B, o A a B a B con una revisión en el medio. Depende del cliente."
   },
   {
    "titulo": "Las orientaciones son conjuntos de módulos",
@@ -465,7 +465,7 @@
   },
   {
    "titulo": "Una sola orientación, y la elige Facu",
-   "texto": "Se define en la semana 3 con tres preguntas en orden: si llegan y cierran consultas, si la demanda depende de su energía, si la entrega le come el tiempo. La primera negativa marca la ruta; ante empate se va hacia lo más cerca del dinero."
+   "texto": "Se define en la semana 3 con 3 preguntas en orden: si llegan y cierran consultas, si la demanda depende de su energía, si la entrega le come el tiempo. La primera negativa marca la ruta; ante empate se va hacia lo más cerca del dinero."
   },
   {
    "titulo": "Nosotros diseñamos, el founder ejecuta",
@@ -473,7 +473,7 @@
   }
  ],
  "falta": [
-  "Las cuarenta cartas de módulo ya existen como HTML y se mandan desde el mapa. Lo que falta es el material de apoyo de las veintinueve que hoy tienen el criterio bajado caso por caso: el ejemplo real de los clientes y el template, que produce Teo.",
+  "Las 40 cartas de módulo ya existen como HTML y se mandan desde el mapa. Lo que falta es el material de apoyo de las veintinueve que hoy tienen el criterio bajado caso por caso: el ejemplo real de los clientes y el template, que produce Teo.",
   "El contrato propio de Cáscara Founders. Hoy se firma con el template del B2C y hay que escribirlo ya.",
   "Revisar los diecinueve documentos de cliente antes de mandarlos. Están calibrados con el mismo criterio y nadie los leyó uno por uno todavía.",
   "La fecha de arranque en Cuentas: de veintidós fichas de Founders, solo cinco la tienen cargada (Lucca, Qualita, Sebastián, Sharon y Sol). Las otras diecisiete cuentan los días desde la primera llamada registrada.",

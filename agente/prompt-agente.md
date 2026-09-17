@@ -70,6 +70,9 @@ Tres líneas: qué quedó resuelto en el sistema, qué tiene que mirar hoy, y la
 - **Sin ironía a costa del founder.** Los titulares nombran el trabajo que viene, no el defecto de la persona.
 - **Cada founder ubicado en su etapa.** Uno que recién empieza y uno que cierra no leen lo mismo.
 - **El puntaje es interno.** Va en las radiografías y sale de los informes de cierre.
+- **Las cantidades van en número, no en letra.** 40 minutos, 70%, 20 a 30 cuentas, 1.000 dólares,
+  90 días. Impacta más y se lee de un vistazo. La prosa sin unidad queda en letra: "las dos cosas",
+  "un solo comentario".
 - **Lo interno no entra en la ficha.** El circuito de cierre, quién completa el documento de sign-off,
   de quién depende la agenda, si hay o no oferta nueva para ofrecerle y el juicio sobre el encaje del
   cliente son operación nuestra: van en `contenido/entregas.json` como accionable CSM, nunca en `etapa`,

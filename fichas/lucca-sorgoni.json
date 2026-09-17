@@ -7,23 +7,23 @@
  "arranque": "6 de abril de 2026",
  "etapa": "Se termina el acompañamiento con un sign-off: el B2C queda funcionando y el primer bloque de contenido y prospección del B2B lo corre Lucca solo, hasta fin de noviembre.",
  "metrica": "Propiedades nuevas que no vengan de un referido. Hoy, ninguna.",
- "titular": "El B2C le da diez mil dólares por mes y el trabajo que sigue es abrirle un canal propio al B2B.",
- "bajada": "Cuarenta propiedades, diez por ciento de la facturación de cada una y resultados medibles a los dos meses. La prospección y el contenido de ese lado están por empezar. Lo que le falta al B2B es un canal.",
+ "titular": "El B2C le da 10.000 dólares por mes y el trabajo que sigue es abrirle un canal propio al B2B.",
+ "bajada": "40 propiedades, 10% de la facturación de cada una y resultados medibles a los 2 meses. La prospección y el contenido de ese lado están por empezar. Lo que le falta al B2B es un canal.",
  "punto_a": [
   {
    "label": "Funciona",
    "titulo": "El B2C",
-   "texto": "Un programa que enseña el modelo de Airbnb sin la parte operativa. Arrancó hace poco más de un año, los primeros seis meses no anduvo y los últimos sí. Ticket de 1.200 dólares que Lucca subió a 1.500 porque alargó el programa, entre diez y quince alumnos activos y un promedio de diez mil dólares mensuales de facturación. Lo vende él solo desde su marca personal, sin setter ni closer."
+   "texto": "Un programa que enseña el modelo de Airbnb sin la parte operativa. Arrancó hace poco más de un año, los primeros 6 meses no anduvo y los últimos sí. Ticket de 1.200 dólares que Lucca subió a 1.500 porque alargó el programa, entre 10 y 15 alumnos activos y un promedio de 10.000 dólares mensuales de facturación. Lo vende él solo desde su marca personal, sin setter ni closer."
   },
   {
    "label": "Resuelto",
    "titulo": "La oferta del B2B",
-   "texto": "Entra como co-anfitrión a la cuenta de Airbnb del dueño y le sube la facturación con estrategia de precios. Cobra el diez por ciento del bruto, se descuenta automático en cada reserva y el resultado se compara mes contra mes con un software. Lucca lo dice sin vueltas: objeciones, cero. Se mide rápido y el dueño lo ve."
+   "texto": "Entra como co-anfitrión a la cuenta de Airbnb del dueño y le sube la facturación con estrategia de precios. Cobra el 10% del bruto, se descuenta automático en cada reserva y el resultado se compara mes contra mes con un software. Lucca lo dice sin vueltas: objeciones, cero. Se mide rápido y el dueño lo ve."
   },
   {
    "label": "Pendiente",
    "titulo": "El canal del B2B",
-   "texto": "Las cuarenta propiedades llegaron por lo orgánico: una propia, una de la familia, amigas de la madre y referidos. Invirtió en anuncios una sola vez. La prospección está por arrancar, el contenido de B2B está por salir y la marca personal apunta cien por ciento al B2C. Cuando le llegan dueños de propiedades, los deriva a otros porque no los puede atender."
+   "texto": "Las 40 propiedades llegaron por lo orgánico: una propia, una de la familia, amigas de la madre y referidos. Invirtió en anuncios una sola vez. La prospección está por arrancar, el contenido de B2B está por salir y la marca personal apunta 100% al B2C. Cuando le llegan dueños de propiedades, los deriva a otros porque no los puede atender."
   }
  ],
  "recorrido": {
@@ -58,14 +58,14 @@
  },
  "lectura": {
   "titular": "El B2B no tiene canal.",
-  "texto": "La oferta está probada y es de las más fáciles de demostrar que existen: se mide con números a los dos meses. Lo que falta es una vía para que un dueño de propiedad que todavía no lo conoce llegue hasta él. Toda la comunicación apunta al B2C, y los resultados del B2B, que están medidos mes contra mes en un software, todavía no salieron de ahí.",
+  "texto": "La oferta está probada y es de las más fáciles de demostrar que existen: se mide con números a los 2 meses. Lo que falta es una vía para que un dueño de propiedad que todavía no lo conoce llegue hasta él. Toda la comunicación apunta al B2C, y los resultados del B2B, que están medidos mes contra mes en un software, todavía no salieron de ahí.",
   "cita": "Me faltan leads, me faltan cantidad de prospectos.",
   "cita_autor": "Lucca Sorgoni · 2 de abril de 2026"
  },
  "respuestas": [
   {
    "tema": "El cuello del B2B",
-   "respuesta": "El canal. Las cuarenta propiedades llegaron por lo orgánico y por referidos, y falta una vía de entrada para el dueño que todavía no lo conoce."
+   "respuesta": "El canal. Las 40 propiedades llegaron por lo orgánico y por referidos, y falta una vía de entrada para el dueño que todavía no lo conoce."
   },
   {
    "tema": "La economía circular",
@@ -93,17 +93,17 @@
   },
   {
    "tema": "El volumen mínimo para concluir",
-   "respuesta": "Diez piezas de B2B publicadas. Por debajo de eso, el silencio todavía no dice nada sobre el canal."
+   "respuesta": "10 piezas de B2B publicadas. Por debajo de eso, el silencio todavía no dice nada sobre el canal."
   },
   {
    "tema": "El pricing del B2B",
-   "respuesta": "Hoy es diez por ciento fijo del bruto, descontado automático en cada reserva. Queda abierta la posibilidad de una escalera."
+   "respuesta": "Hoy es 10% fijo del bruto, descontado automático en cada reserva. Queda abierta la posibilidad de una escalera."
   }
  ],
  "entregables": [
   {
-   "que": "Este documento de cierre con el roadmap de sesenta días",
-   "para": "Lo corre solo: tres fichas de casos, video largo del modelo, diez piezas publicadas, perfil reescrito y prospección con lista."
+   "que": "Este documento de cierre con el roadmap de 60 días",
+   "para": "Lo corre solo: tres fichas de casos, video largo del modelo, 10 piezas publicadas, perfil reescrito y prospección con lista."
   },
   {
    "que": "El marco de la economía circular escrito, con la regla de auditoría antes de delegar",
@@ -121,13 +121,13 @@
  "punto_b": [
   {
    "fecha": "10 de octubre de 2026",
-   "titulo": "Diez piezas de B2B publicadas",
-   "texto": "Diez piezas que muestren resultados de propiedades reales: mes contra mes, con el número adelante y el software en pantalla. Hoy todavía no salió ninguna. Diez es el volumen mínimo para saber si el canal funciona: antes de esa marca falta información para concluir."
+   "titulo": "10 piezas de B2B publicadas",
+   "texto": "10 piezas que muestren resultados de propiedades reales: mes contra mes, con el número adelante y el software en pantalla. Hoy todavía no salió ninguna. Diez es el volumen mínimo para saber si el canal funciona: antes de esa marca falta información para concluir."
   },
   {
    "fecha": "30 de noviembre de 2026",
-   "titulo": "Cinco propiedades que no vengan de un referido",
-   "texto": "Cinco dueños que hayan llegado por el contenido de B2B o por prospección directa. Ese número es lo que separa un canal de una racha. Si a fin de noviembre está en cero y las diez piezas salieron, el problema es el mensaje. Si las diez piezas no salieron, el problema es que no hubo volumen y eso ya lo sabe."
+   "titulo": "5 propiedades que no vengan de un referido",
+   "texto": "Cinco dueños que hayan llegado por el contenido de B2B o por prospección directa. Ese número es lo que separa un canal de una racha. Si a fin de noviembre está en cero y las 10 piezas salieron, el problema es el mensaje. Si las 10 piezas no salieron, el problema es que no hubo volumen y eso ya lo sabe."
   }
  ],
  "roadmap": [
@@ -140,7 +140,7 @@
   {
    "cuando": "Del 21 al 25 de septiembre",
    "objetivo": "El video largo que explica el modelo",
-   "entregable": "Un video de YouTube contando cómo funciona el servicio de B2B con esos tres casos y los números en pantalla. Grabado simple. Funciona como prueba: los números van adelante del pitch.",
+   "entregable": "Un video de YouTube contando cómo funciona el servicio de B2B con esos 3 casos y los números en pantalla. Grabado simple. Funciona como prueba: los números van adelante del pitch.",
    "quien": "Lucca"
   },
   {
@@ -151,8 +151,8 @@
   },
   {
    "cuando": "Del 28 de septiembre al 10 de octubre",
-   "objetivo": "Diez piezas de B2B publicadas",
-   "entregable": "Recortes del video y carruseles de resultados hasta llegar a diez piezas de B2B. El objetivo del bloque es el volumen publicado. Cada pieza se lee el día que sale, con las consultas de dueños anotadas y el canal por el que llegaron. Fecha dura: 10 de octubre.",
+   "objetivo": "10 piezas de B2B publicadas",
+   "entregable": "Recortes del video y carruseles de resultados hasta llegar a 10 piezas de B2B. El objetivo del bloque es el volumen publicado. Cada pieza se lee el día que sale, con las consultas de dueños anotadas y el canal por el que llegaron. Fecha dura: 10 de octubre.",
    "quien": "Lucca"
   },
   {
@@ -184,7 +184,7 @@
   {
    "cuando": "Octubre",
    "cliente": [
-    "Publicar los recortes y los carruseles hasta llegar a diez piezas de B2B",
+    "Publicar los recortes y los carruseles hasta llegar a 10 piezas de B2B",
     "Rehacer destacadas y bio para que el B2B se entienda",
     "Anotar cada consulta de dueños que llegue, con el canal por el que llegó"
    ],
@@ -204,8 +204,8 @@
    ]
   }
  ],
- "conclusion": "El negocio se direcciona a dos líneas que se sostienen entre sí, con el B2C generando la caja y el B2B creciendo con margen. El B2C queda como está, con ticket de 1.500 y entre diez y quince alumnos activos, y se sostiene sin tocarlo durante el bloque. El B2B se juega en una sola decisión: mostrar en público los resultados que ya tiene medidos, porque es la oferta más demostrable de todo el grupo y se prueba con números a los dos meses.\n\nEl apriete corre entero del lado del B2B. Las tres fichas de casos quedan el 18 de septiembre, el video largo la semana siguiente y las diez piezas cierran el 10 de octubre, que es la fecha dura del bloque, tres semanas antes de lo que estaba planteado. La prospección arranca el 28 de septiembre, junto con los recortes, porque para escribirle a un dueño con un caso adelante ya alcanza con las fichas. Cada pieza que sale y cada respuesta que recibe se anotan el día que pasan, con el canal por el que llegó. Este bloque lo corre solo, sin llamada semanal que lo empuje, así que la fecha es lo único que le marca el ritmo, y sostenerla con nadie encima es la parte que queda por entrenar.\n\nQueda abierto si el B2B crece con él solo o si necesita un equipo comercial con manual, y eso se decide a fin de noviembre con las conversaciones contadas. La economía circular se activa recién cuando el proceso de auditoría de alumnos está escrito, porque cada casa delegada lleva su nombre.",
- "carta": "Lucca, cerrás este tramo con un negocio que funciona y que armaste vos: diez mil dólares por mes vendiendo solo, sin setter y sin closer. Y con cuarenta propiedades que llegaron por la confianza de la gente que te conoce, que es la manera más lenta de crecer y también la más sólida. Te llevás la oferta más fácil de demostrar que vimos en todo el grupo: le subís la facturación a una casa y el dueño lo ve en el software a los dos meses. Lo que te espera es mostrar eso, que es justo la parte que te cuesta, porque grabar no te divierte y lo dijiste desde el primer día. Diez piezas con los números adelante y veinte mensajes por semana no te van a cambiar el carácter, y alcanzan para saber si el canal existe. Si en noviembre llegaron cinco dueños que no te conocían, lo resolviste solo; si las diez piezas no salieron, ya sabés dónde estuvo el freno y la puerta queda abierta.",
+ "conclusion": "El negocio se direcciona a dos líneas que se sostienen entre sí, con el B2C generando la caja y el B2B creciendo con margen. El B2C queda como está, con ticket de 1.500 y entre 10 y 15 alumnos activos, y se sostiene sin tocarlo durante el bloque. El B2B se juega en una sola decisión: mostrar en público los resultados que ya tiene medidos, porque es la oferta más demostrable de todo el grupo y se prueba con números a los 2 meses.\n\nEl apriete corre entero del lado del B2B. Las tres fichas de casos quedan el 18 de septiembre, el video largo la semana siguiente y las 10 piezas cierran el 10 de octubre, que es la fecha dura del bloque, 3 semanas antes de lo que estaba planteado. La prospección arranca el 28 de septiembre, junto con los recortes, porque para escribirle a un dueño con un caso adelante ya alcanza con las fichas. Cada pieza que sale y cada respuesta que recibe se anotan el día que pasan, con el canal por el que llegó. Este bloque lo corre solo, sin llamada semanal que lo empuje, así que la fecha es lo único que le marca el ritmo, y sostenerla con nadie encima es la parte que queda por entrenar.\n\nQueda abierto si el B2B crece con él solo o si necesita un equipo comercial con manual, y eso se decide a fin de noviembre con las conversaciones contadas. La economía circular se activa recién cuando el proceso de auditoría de alumnos está escrito, porque cada casa delegada lleva su nombre.",
+ "carta": "Lucca, cerrás este tramo con un negocio que funciona y que armaste vos: 10.000 dólares por mes vendiendo solo, sin setter y sin closer. Y con 40 propiedades que llegaron por la confianza de la gente que te conoce, que es la manera más lenta de crecer y también la más sólida. Te llevás la oferta más fácil de demostrar que vimos en todo el grupo: le subís la facturación a una casa y el dueño lo ve en el software a los 2 meses. Lo que te espera es mostrar eso, que es justo la parte que te cuesta, porque grabar no te divierte y lo dijiste desde el primer día. Diez piezas con los números adelante y 20 mensajes por semana no te van a cambiar el carácter, y alcanzan para saber si el canal existe. Si en noviembre llegaron cinco dueños que no te conocían, lo resolviste solo; si las 10 piezas no salieron, ya sabés dónde estuvo el freno y la puerta queda abierta.",
  "abierto": "La corrección de la oferta con Franco, que va antes de la llamada de cierre y todavía no está agendada (falta confirmar).",
  "handicap": {
   "ejes": {
@@ -226,6 +226,6 @@
   "sugiere": [
    "Sostener"
   ],
-  "nota": "Se puntúa el B2B, que es sobre el que corre el roadmap; el B2C que le da diez mil por mes queda afuera. Ahí la oferta y la venta están probadas y el piso son contenido y demanda: del B2B no hay una sola pieza y las cuarenta propiedades entraron todas por red y referidos."
+  "nota": "Se puntúa el B2B, que es sobre el que corre el roadmap; el B2C que le da diez mil por mes queda afuera. Ahí la oferta y la venta están probadas y el piso son contenido y demanda: del B2B no hay una sola pieza y las 40 propiedades entraron todas por red y referidos."
  }
 }

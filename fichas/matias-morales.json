@@ -5,7 +5,7 @@
  "modo": "radiografia",
  "orientacion": "Entregar",
  "arranque": "(falta confirmar) — entró alrededor de mediados de julio de 2026; la primera llamada registrada es del 23 de julio de 2026, con Juana",
- "etapa": "Arranca el tercer mes: las dos ventas ya están cerradas y corriendo, y el proceso de entrega está por escribirse.",
+ "etapa": "Arranca el tercer mes: las 2 ventas ya están cerradas y corriendo, y el proceso de entrega está por escribirse.",
  "metrica": "Que las ventas ya cerradas se entreguen con onboarding a las 48 horas y roadmap presentado, y cuántos handraisers junta el lanzamiento de octubre.",
  "titular": "Vendió todas las propuestas a casi el doble, y el tramo es escribir la entrega que las sostiene.",
  "bajada": "Matías cerró todas las propuestas que armó, y las cerró a casi el doble de lo que pensaba cobrar. Quedó adentro del servicio con el proceso por armar: el onboarding, el roadmap para mostrarle al cliente y una mecánica de lanzamiento que pueda repetir. Septiembre es para escribir la entrega. Octubre es para lanzar una oferta con base de datos e historias.",
@@ -13,12 +13,12 @@
   {
    "label": "Funciona",
    "titulo": "Vende, y ahora vende más caro",
-   "texto": "Facu lo ayudó a armar las propuestas y le dijo a todas lo mismo: que estaba barato. Matías subió los precios casi al doble y las vendió igual, todas. Tiene dos ventas cerradas y quedó contento. Eso deja algo probado que conviene tener presente todo el tramo: cuando arma una propuesta y la presenta, la cierra, y el precio la soporta."
+   "texto": "Facu lo ayudó a armar las propuestas y le dijo a todas lo mismo: que estaba barato. Matías subió los precios casi al doble y las vendió igual, todas. Tiene 2 ventas cerradas y quedó contento. Eso deja algo probado que conviene tener presente todo el tramo: cuando arma una propuesta y la presenta, la cierra, y el precio la soporta."
   },
   {
    "label": "Funciona",
    "titulo": "La oferta y la marca ya están definidas",
-   "texto": "El 23 de julio cerró con Juana la identidad de 9669: qué construye, cómo se comunica y cómo se ve. La promesa es armar universos de marca completos que empujen la venta, con comunicación indirecta para generar confianza en un mercado saturado. El modelo de negocio también está decidido: campañas de duración definida, por ejemplo tres meses para un lanzamiento, en lugar de retainers mensuales, para sostener el foco. Trabaja con un compañero de facultad. Teo lo resume corto: tiene ofertas validadas y contenido."
+   "texto": "El 23 de julio cerró con Juana la identidad de 9669: qué construye, cómo se comunica y cómo se ve. La promesa es armar universos de marca completos que empujen la venta, con comunicación indirecta para generar confianza en un mercado saturado. El modelo de negocio también está decidido: campañas de duración definida, por ejemplo 3 meses para un lanzamiento, en lugar de retainers mensuales, para sostener el foco. Trabaja con un compañero de facultad. Teo lo resume corto: tiene ofertas validadas y contenido."
   },
   {
    "label": "Pendiente",
@@ -28,7 +28,7 @@
  ],
  "recorrido": {
   "titulo": "Vendió más caro de lo que pensaba y el trabajo se corrió a la entrega",
-  "texto": "Entró a mediados de julio con 9669 armándose y con la duda de qué vender y a cuánto. El 23 de julio cerró la identidad con Juana: la promesa de armar universos de marca completos que empujen la venta, con comunicación indirecta para generar confianza en un mercado saturado, una personalidad joven, activa, audaz y premium, la estética de fríos con un acento cálido saturado, tipografía condensada y logo en tres dimensiones, y la decisión de trabajar por campañas con fecha de inicio y de final en lugar de retainers. Juana le marcó ahí un riesgo que después volvió a aparecer: su ritmo alto puede leerse desde el cliente como saturación o como falta de presencia. En agosto armó las propuestas con Facu, que a todas les dijo lo mismo, que estaban baratas, y Matías las subió casi al doble y las cerró igual: quedaron dos ventas cerradas. Con clientes adentro, el foco del caso se corrió de la oferta y las ventas a la entrega y la estructura, y Teo lo dijo en el chat sin vueltas, que vendió y quedó medio en bolas. En la grupal del 2 de septiembre contó que no llegó a aplicar nada porque estuvo vendiendo y armando Notion y automatizaciones, y que a un cliente de estrategia creativa y rebranding le hizo el onboarding mezclando los Founder Insights con lo de la clase. En la del 4, Fede le marcó que el contenido es el oxígeno del negocio y va primero en el día y en la semana, porque esa semana no había grabado. Lo que quedó probado en estas semanas es el precio; lo que queda por escribir es el camino que empieza después de la firma.",
+  "texto": "Entró a mediados de julio con 9669 armándose y con la duda de qué vender y a cuánto. El 23 de julio cerró la identidad con Juana: la promesa de armar universos de marca completos que empujen la venta, con comunicación indirecta para generar confianza en un mercado saturado, una personalidad joven, activa, audaz y premium, la estética de fríos con un acento cálido saturado, tipografía condensada y logo en tres dimensiones, y la decisión de trabajar por campañas con fecha de inicio y de final en lugar de retainers. Juana le marcó ahí un riesgo que después volvió a aparecer: su ritmo alto puede leerse desde el cliente como saturación o como falta de presencia. En agosto armó las propuestas con Facu, que a todas les dijo lo mismo, que estaban baratas, y Matías las subió casi al doble y las cerró igual: quedaron 2 ventas cerradas. Con clientes adentro, el foco del caso se corrió de la oferta y las ventas a la entrega y la estructura, y Teo lo dijo en el chat sin vueltas, que vendió y quedó medio en bolas. En la grupal del 2 de septiembre contó que no llegó a aplicar nada porque estuvo vendiendo y armando Notion y automatizaciones, y que a un cliente de estrategia creativa y rebranding le hizo el onboarding mezclando los Founder Insights con lo de la clase. En la del 4, Fede le marcó que el contenido es el oxígeno del negocio y va primero en el día y en la semana, porque esa semana no había grabado. Lo que quedó probado en estas semanas es el precio; lo que queda por escribir es el camino que empieza después de la firma.",
   "hitos": [
    {
     "cuando": "med. jul",
@@ -40,7 +40,7 @@
    },
    {
     "cuando": "ago",
-    "que": "sube los precios casi al doble y cierra dos ventas"
+    "que": "sube los precios casi al doble y cierra 2 ventas"
    },
    {
     "cuando": "2 sep",
@@ -58,7 +58,7 @@
  },
  "lectura": {
   "titular": "El cuello es la entrega: hay clientes adentro y el proceso que los sostiene está por escribirse.",
-  "texto": "La oferta está validada, el precio ya probó que soporta el doble y el contenido existe. Lo que pasa después de la venta lo resuelve sobre la marcha: falta el onboarding, falta el roadmap para el cliente y faltan los hitos con fecha. Con dos entregas corriendo al mismo tiempo, improvisar sale caro y se nota del otro lado. El trabajo del tramo es de estructura, y se escribe una sola vez para todos los clientes que vengan.",
+  "texto": "La oferta está validada, el precio ya probó que soporta el doble y el contenido existe. Lo que pasa después de la venta lo resuelve sobre la marcha: falta el onboarding, falta el roadmap para el cliente y faltan los hitos con fecha. Con 2 entregas corriendo al mismo tiempo, improvisar sale caro y se nota del otro lado. El trabajo del tramo es de estructura, y se escribe una sola vez para todos los clientes que vengan.",
   "cita": "",
   "cita_autor": ""
  },
@@ -69,7 +69,7 @@
   },
   {
    "tema": "El modelo de negocio",
-   "respuesta": "Campañas con fecha de inicio y de final, por ejemplo tres meses para un lanzamiento, en lugar de retainers mensuales, para sostener el foco."
+   "respuesta": "Campañas con fecha de inicio y de final, por ejemplo 3 meses para un lanzamiento, en lugar de retainers mensuales, para sostener el foco."
   },
   {
    "tema": "Cuándo empieza la entrega",
@@ -93,7 +93,7 @@
   },
   {
    "tema": "Cómo procesa la información de un cliente nuevo",
-   "respuesta": "Transcribe la clase de auditoría creativa de Juana, la pasa al chat junto con los datos del cliente, pide dos o tres respuestas y filtra con criterio propio."
+   "respuesta": "Transcribe la clase de auditoría creativa de Juana, la pasa al chat junto con los datos del cliente, pide dos o 3 respuestas y filtra con criterio propio."
   }
  ],
  "entregables": [
@@ -103,7 +103,7 @@
   },
   {
    "que": "Un ejemplo de cada pieza de la entrega",
-   "para": "Lo adapta a sus dos clientes en curso, en lugar de armar cada documento desde cero."
+   "para": "Lo adapta a sus 2 clientes en curso, en lugar de armar cada documento desde cero."
   },
   {
    "que": "El análisis y el roadmap de lanzamiento que le arma Facu",
@@ -115,13 +115,13 @@
   },
   {
    "que": "El video de la clase de auditoría creativa de Juana",
-   "para": "Lo transcribe y de ahí saca los entregables del cliente: fortalezas, debilidades, intervenciones, pilares, formatos, cadencia y calendario de contenido a tres meses."
+   "para": "Lo transcribe y de ahí saca los entregables del cliente: fortalezas, debilidades, intervenciones, pilares, formatos, cadencia y calendario de contenido a 3 meses."
   }
  ],
  "punto_b": [
   {
    "fecha": "25 de septiembre de 2026",
-   "titulo": "Las dos entregas corriendo con proceso escrito",
+   "titulo": "Las 2 entregas corriendo con proceso escrito",
    "texto": "Los clientes que ya compró entregados con un proceso escrito a la vista: onboarding dentro de las 48 horas de la venta, roadmap presentado al cliente con hitos y fechas, y entregables con responsable y fecha de cada uno. El proceso escrito una sola vez y aplicado a los dos, para que el tercero no vuelva a arrancar de cero."
   },
   {
@@ -133,7 +133,7 @@
  "roadmap": [
   {
    "cuando": "14 al 18 de septiembre",
-   "objetivo": "Las dos entregas sobre la mesa y el módulo bajado",
+   "objetivo": "Las 2 entregas sobre la mesa y el módulo bajado",
    "entregable": "Qué prometió cada propuesta, en qué estado está cada entrega y qué se está resolviendo sobre la marcha. En la misma semana Teo le baja el módulo de entrega: onboarding a 48 horas, roadmap al cliente, hitos con fecha y reporte.",
    "quien": "Matías con Teo"
   },
@@ -145,7 +145,7 @@
   },
   {
    "cuando": "25 de septiembre",
-   "objetivo": "El proceso aplicado a los dos clientes",
+   "objetivo": "El proceso aplicado a los 2 clientes",
    "entregable": "Fecha dura. Roadmap presentado a cada cliente con hitos, fechas y responsable, y el onboarding corriendo. Se aplica desde el 18 y lo que se rompe se corrige en el documento el mismo día, así el tercer cliente entra sobre un camino probado.",
    "quien": "Matías"
   },
@@ -178,9 +178,9 @@
   {
    "cuando": "Septiembre",
    "cliente": [
-    "Mapear las dos entregas en curso: qué se prometió, en qué estado está y qué se está resolviendo sobre la marcha",
+    "Mapear las 2 entregas en curso: qué se prometió, en qué estado está y qué se está resolviendo sobre la marcha",
     "Escribir el proceso de entrega de 9669 sobre el módulo que baja Teo",
-    "Presentarle el roadmap a cada uno de los dos clientes, con hitos y fechas",
+    "Presentarle el roadmap a cada uno de los 2 clientes, con hitos y fechas",
     "Corregir el documento con lo que se rompa al aplicarlo"
    ],
    "cascara": [
@@ -206,16 +206,16 @@
   {
    "cuando": "Cierre, 31 de octubre",
    "cliente": [
-    "Presentar los números del lanzamiento: handraisers, conversaciones abiertas y ventas, y el estado de las dos entregas con el proceso aplicado"
+    "Presentar los números del lanzamiento: handraisers, conversaciones abiertas y ventas, y el estado de las 2 entregas con el proceso aplicado"
    ],
    "cascara": [
     "Facu y Teo revisan el resultado contra el punto A y definen el tramo siguiente"
    ]
   }
  ],
- "conclusion": "El negocio se direcciona a un estudio que entrega por proceso y vende por sistema. El precio ya está calibrado y el modelo de campañas con fecha de inicio y de final sostiene el foco, así que la facturación depende de cuántas campañas puede correr en paralelo con la misma calidad. Con el proceso de entrega escrito, cada cliente nuevo entra sobre un camino probado y él queda libre para vender. El riesgo que marcó Juana en julio es el que hay que cuidar en esta etapa: con el ritmo alto que tiene, el cliente puede leer saturación o ausencia, y un roadmap presentado con hitos y fechas ordena esa percepción.\n\nEl ritmo de este tramo se aprieta por una razón concreta: hay dos clientes adentro que se están entregando sobre la marcha, y cada semana sin proceso escrito es una semana en la que una venta buena se puede arruinar. Por eso el proceso queda escrito y aplicado a los dos el 25 de septiembre, cinco días antes de lo que estaba: esa es la fecha dura. Mientras eso corre, la oferta del lanzamiento se empaqueta con Facu y la base de datos se arma, así octubre entra directo a las historias y al lanzamiento, con los números leídos el día que salen. Ponerse la fecha antes de sentirse listo es parte del oficio, y él ya lo probó con el precio: subió al doble y cerró todo igual.\n\nQueda un frente por confirmar: cuáles son los dos clientes que cerró, por qué montos y con qué alcance prometido en cada propuesta. El mapa de la primera semana lo resuelve, y de ahí sale la materia prima del proceso escrito.",
+ "conclusion": "El negocio se direcciona a un estudio que entrega por proceso y vende por sistema. El precio ya está calibrado y el modelo de campañas con fecha de inicio y de final sostiene el foco, así que la facturación depende de cuántas campañas puede correr en paralelo con la misma calidad. Con el proceso de entrega escrito, cada cliente nuevo entra sobre un camino probado y él queda libre para vender. El riesgo que marcó Juana en julio es el que hay que cuidar en esta etapa: con el ritmo alto que tiene, el cliente puede leer saturación o ausencia, y un roadmap presentado con hitos y fechas ordena esa percepción.\n\nEl ritmo de este tramo se aprieta por una razón concreta: hay 2 clientes adentro que se están entregando sobre la marcha, y cada semana sin proceso escrito es una semana en la que una venta buena se puede arruinar. Por eso el proceso queda escrito y aplicado a los dos el 25 de septiembre, 5 días antes de lo que estaba: esa es la fecha dura. Mientras eso corre, la oferta del lanzamiento se empaqueta con Facu y la base de datos se arma, así octubre entra directo a las historias y al lanzamiento, con los números leídos el día que salen. Ponerse la fecha antes de sentirse listo es parte del oficio, y él ya lo probó con el precio: subió al doble y cerró todo igual.\n\nQueda un frente por confirmar: cuáles son los 2 clientes que cerró, por qué montos y con qué alcance prometido en cada propuesta. El mapa de la primera semana lo resuelve, y de ahí sale la materia prima del proceso escrito.",
  "carta": "Matías, en un mes y medio armaste la marca, subiste tus precios casi al doble y cerraste todo lo que presentaste. Muy poca gente hace eso en su primer tramo. Lo que te toca ahora es menos vistoso y vale lo mismo: escribir una vez cómo entregás, para que el cliente sienta adentro del servicio el mismo orden que sintió cuando le vendiste. Con eso hecho vas a poder tomar el tercero y el cuarto sin que se te mueva el piso. El lanzamiento de octubre es tu primera venta por decisión propia, con una fecha que ponés vos y no el que te escribe. Grabá, publicá y anotá los números: la parte de vender ya sabemos que la tenés.",
- "abierto": "Cuáles son los dos clientes que cerró, por qué montos y con qué alcance prometido en cada propuesta (falta confirmar).",
+ "abierto": "Cuáles son los 2 clientes que cerró, por qué montos y con qué alcance prometido en cada propuesta (falta confirmar).",
  "handicap": {
   "ejes": {
    "oferta": 4,
@@ -234,6 +234,6 @@
   "sugiere": [
    "Entregar"
   ],
-  "nota": "Entrega en uno es el piso: vende y vende caro, y lo que falta es escribir el proceso una sola vez y aplicarlo a las dos entregas en curso antes de que entre el tercer cliente."
+  "nota": "Entrega en uno es el piso: vende y vende caro, y lo que falta es escribir el proceso una sola vez y aplicarlo a las 2 entregas en curso antes de que entre el tercer cliente."
  }
 }

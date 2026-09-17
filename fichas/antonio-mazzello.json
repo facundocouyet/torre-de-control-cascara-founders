@@ -13,12 +13,12 @@
   {
    "label": "Resuelto",
    "titulo": "El negocio y el cliente",
-   "texto": "Antonio es asesor financiero en la unidad de Banca Privada de Grupo IEB, un holding con entre 50 y 60 mil comitentes. Su cliente tiene más de 50 mil dólares para invertir y busca un asesor dedicado. Cobra sobre el patrimonio que administra, así que cada cliente nuevo suma de manera compuesta. Eso quedó claro el primer día y se mantuvo igual todo el tramo."
+   "texto": "Antonio es asesor financiero en la unidad de Banca Privada de Grupo IEB, un holding con entre 50.000 y 60.000 comitentes. Su cliente tiene más de 50.000 dólares para invertir y busca un asesor dedicado. Cobra sobre el patrimonio que administra, así que cada cliente nuevo suma de manera compuesta. Eso quedó claro el primer día y se mantuvo igual todo el tramo."
   },
   {
    "label": "Funciona",
    "titulo": "El respaldo de la empresa",
-   "texto": "IEB tiene quince años en el mercado, equipo propio y material de research permanente, y le dio libertad operativa para ser la cara visible de Banca Privada. En sus palabras del 24 de abril: tiene total libertad para operar porque lo que genera vuelve a la empresa. Esa espalda es la palanca del proyecto y sigue intacta."
+   "texto": "IEB tiene 15 años en el mercado, equipo propio y material de research permanente, y le dio libertad operativa para ser la cara visible de Banca Privada. En sus palabras del 24 de abril: tiene total libertad para operar porque lo que genera vuelve a la empresa. Esa espalda es la palanca del proyecto y sigue intacta."
   },
   {
    "label": "Definido en junio",
@@ -28,7 +28,7 @@
  ],
  "recorrido": {
   "titulo": "El objetivo cambió y el plan quedó atrás del objetivo viejo",
-  "texto": "El 24 de abril quedó bajado el embudo entero: autoridad de ticket alto apoyada en los quince años de IEB, tráfico filtrado antes que masivo, educación gratuita para nutrir y segmentar, y una base de datos segmentada detrás. El plan arrancaba por dos condiciones de producción —un editor contratado y una persona de IEB dueña del calendario— que no llegaron a ponerse en marcha. Entre mayo y junio el contenido salió pieza por pieza, sin un ángulo sostenido. El 11 de junio llegó la conversación con su mentor y ahí el eje del proyecto se movió: la pregunta dejó de ser cómo se produce y pasó a ser si la marca tiene que estar puesta sobre su persona. Antonio decidió que no, y esa decisión es suya y está bien tomada: conoce su mercado mejor que nadie. Lo que quedó pendiente fue reemplazar el objetivo viejo por uno nuevo, y sin objetivo el plan no tenía a dónde empujar. En julio Cáscara escribió la salida: resetear el perfil hacia IEB, dejar de comunicar como creador solista y armar un producto de empresa, porque IEB financia lo que es suyo. Es la misma dirección que le marcó su mentor. Eso es lo que se entrega hoy, con el paso a paso adelante.",
+  "texto": "El 24 de abril quedó bajado el embudo entero: autoridad de ticket alto apoyada en los 15 años de IEB, tráfico filtrado antes que masivo, educación gratuita para nutrir y segmentar, y una base de datos segmentada detrás. El plan arrancaba por dos condiciones de producción —un editor contratado y una persona de IEB dueña del calendario— que no llegaron a ponerse en marcha. Entre mayo y junio el contenido salió pieza por pieza, sin un ángulo sostenido. El 11 de junio llegó la conversación con su mentor y ahí el eje del proyecto se movió: la pregunta dejó de ser cómo se produce y pasó a ser si la marca tiene que estar puesta sobre su persona. Antonio decidió que no, y esa decisión es suya y está bien tomada: conoce su mercado mejor que nadie. Lo que quedó pendiente fue reemplazar el objetivo viejo por uno nuevo, y sin objetivo el plan no tenía a dónde empujar. En julio Cáscara escribió la salida: resetear el perfil hacia IEB, dejar de comunicar como creador solista y armar un producto de empresa, porque IEB financia lo que es suyo. Es la misma dirección que le marcó su mentor. Eso es lo que se entrega hoy, con el paso a paso adelante.",
   "hitos": [
    {
     "cuando": "24 abr",
@@ -69,7 +69,7 @@
  "respuestas": [
   {
    "tema": "Sobre qué se apoya la marca",
-   "respuesta": "Sobre IEB. Antonio es la cara y la empresa es la palanca: quince años de mercado contestan la pregunta de por qué escucharlo, que con un año en el rol no se contesta sola."
+   "respuesta": "Sobre IEB. Antonio es la cara y la empresa es la palanca: 15 años de mercado contestan la pregunta de por qué escucharlo, que con un año en el rol no se contesta sola."
   },
   {
    "tema": "Qué producto se comunica",
@@ -77,7 +77,7 @@
   },
   {
    "tema": "Qué formato sostiene Antonio",
-   "respuesta": "Uno o dos posteos escritos por semana sobre material que IEB ya produce. Adaptar research propio le lleva minutos; guionar y grabar video le lleva jornadas que su agenda no tiene."
+   "respuesta": "Uno o 2 posteos escritos por semana sobre material que IEB ya produce. Adaptar research propio le lleva minutos; guionar y grabar video le lleva jornadas que su agenda no tiene."
   },
   {
    "tema": "Qué se mide",
@@ -160,13 +160,13 @@
   {
    "cuando": "6 de octubre al 14 de noviembre",
    "objetivo": "El formato que sí entra en su semana",
-   "entregable": "Uno o dos posteos escritos por semana adaptados del research y del material de FAL que IEB ya tiene. Adaptar, no inventar. Cada uno cierra invitando a agendar quince minutos.",
+   "entregable": "Uno o 2 posteos escritos por semana adaptados del research y del material de FAL que IEB ya tiene. Adaptar, no inventar. Cada uno cierra invitando a agendar 15 minutos.",
    "quien": "Antonio"
   },
   {
    "cuando": "13 de octubre al 14 de noviembre",
    "objetivo": "El mecanismo comercial andando",
-   "entregable": "Un Calendly público de quince minutos para empleadores, con las tres preguntas de calificación adelante, y una planilla donde se anota cada llamada agendada con la fecha y el posteo que la trajo.",
+   "entregable": "Un Calendly público de 15 minutos para empleadores, con las 3 preguntas de calificación adelante, y una planilla donde se anota cada llamada agendada con la fecha y el posteo que la trajo.",
    "quien": "Antonio"
   },
   {
@@ -194,8 +194,8 @@
    "cuando": "Octubre",
    "cliente": [
     "Llevar la propuesta de una carilla a la reunión con IEB, con la descripción del rol adjunta",
-    "Publicar uno o dos posteos escritos por semana adaptados del material de IEB",
-    "Abrir el Calendly de quince minutos para empleadores y anotar cada llamada que entra"
+    "Publicar uno o 2 posteos escritos por semana adaptados del material de IEB",
+    "Abrir el Calendly de 15 minutos para empleadores y anotar cada llamada que entra"
    ],
    "cascara": [
     "Sin llamadas uno a uno"
@@ -233,6 +233,6 @@
   "sugiere": [
    "Sostener"
   ],
-  "nota": "Se trabaja por demanda, el eje más bajo: el embudo de captación quedó en el papel desde abril y sin dueño del calendario no hay diez piezas con un mismo ángulo que traigan contactos."
+  "nota": "Se trabaja por demanda, el eje más bajo: el embudo de captación quedó en el papel desde abril y sin dueño del calendario no hay 10 piezas con un mismo ángulo que traigan contactos."
  }
 }

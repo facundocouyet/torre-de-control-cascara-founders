@@ -5,6 +5,22 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 17 de septiembre de 2026 · las cifras
+
+**Las cantidades ahora van en número, en los veinte documentos y en la torre.** 40 minutos en vez
+de cuarenta minutos, 70% en vez de setenta por ciento, 20 a 30 cuentas, 1.000 dólares, 90 días.
+Son 598 reemplazos.
+
+- **La prosa sin unidad queda en letra.** "Las dos cosas difíciles", "un solo comentario en
+  contra": ahí el número no es un dato, es una manera de hablar.
+- **Se arreglaron de paso dos que estaban a mano y quedaban mezcladas**: en el caso de Antonio,
+  "50 mil" y "entre 50 y 60 mil" pasaron a 50.000 y a entre 50.000 y 60.000.
+- **El agente escribe así de ahora en más**: la regla está en su prompt.
+- Las cuatro páginas de scroll (Inicio, Clientes, Programa, Materiales) se regeneraron con lo
+  mismo.
+
+---
+
 ## 17 de septiembre de 2026 · tarde
 
 Segunda pasada por lo mismo: el reparto interno salió de tres informes más.

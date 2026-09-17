@@ -1,441 +1,441 @@
 {
-  "fecha": "17 de septiembre de 2026",
-  "titulo": "Accionables CSM",
-  "bajada": "Lo que ejecuta Aye con cada cliente: qué documento le corresponde, qué hacer con él y qué coordinar. Arriba de cada lista va el resumen de su radiografía. Se actualiza con los clientes.",
-  "intro": [
-    "Cada cliente tiene su documento y su accionable de entrega. <b>Ver</b> lo abre acá adentro; <b>Descargar</b> baja el archivo que se le manda.",
-    "El orden de trabajo cambia según el grupo. En los <b>sign off</b>, el documento se muestra en la llamada y se manda después: la llamada es de informe y de cierre. En los que siguen <b>en curso</b>, el documento se manda antes y la llamada se usa para decidir sobre lo que ya leyeron."
+ "fecha": "17 de septiembre de 2026",
+ "titulo": "Accionables CSM",
+ "bajada": "Lo que ejecuta Aye con cada cliente: qué documento le corresponde, qué hacer con él y qué coordinar. Arriba de cada lista va el resumen de su radiografía. Se actualiza con los clientes.",
+ "intro": [
+  "Cada cliente tiene su documento y su accionable de entrega. <b>Ver</b> lo abre acá adentro; <b>Descargar</b> baja el archivo que se le manda.",
+  "El orden de trabajo cambia según el grupo. En los <b>sign off</b>, el documento se muestra en la llamada y se manda después: la llamada es de informe y de cierre. En los que siguen <b>en curso</b>, el documento se manda antes y la llamada se usa para decidir sobre lo que ya leyeron."
+ ],
+ "regla_signoff": [
+  "<b>No hay más llamadas uno a uno.</b> Lo que queda es la llamada de cierre.",
+  "<b>El grupo de WhatsApp se cierra.</b> Dejarlo abierto habilita que sigan escribiendo y que no haya respuesta del otro lado, que es peor que cerrarlo.",
+  "<b>El seguimiento de los accionables va por el grupo, mientras está abierto.</b> Un accionable que solo vive en un documento no se ejecuta.",
+  "<b>Facu desarrolla el informe, Teo hace la llamada de offboarding.</b>",
+  "<b>El documento se presenta en la llamada.</b> En los casos sin tracción ni siquiera se manda antes: se lo cuenta Teo.",
+  "<b>Se aclara de antemano de qué se trata la llamada</b>: es de informe y de cierre del programa, no una llamada más.",
+  "<b>Si alguien se queja, resuelve Teo</b> y decide sobre la marcha.",
+  "<b>Upselling: solo Lucca.</b> Sharon queda condicionada a que decida lanzar su B2C. Al resto no hay nada para ofrecerle hoy, y conviene cerrarlo limpio."
+ ],
+ "falta": [
+  "<b>Juanjo</b>, que viene de La Cáscara por upselling: falta crear la ficha. Recién entra, así que le corresponde el roadmap normal de los primeros 90 días y no una radiografía.",
+  "<b>La segunda persona de Custom Lab</b>: falta la ficha y falta el apellido de Juan.",
+  "<b>La fecha de inicio de casi todos.</b> Solo Sharon (13 de mayo), Lucca (6 de abril), Qualita (24 de abril), Sebastián (1 de septiembre), Sol (2 de septiembre) y The Momentum Club (16 de septiembre) la tienen cargada. Faltan las otras dieciséis, que están propuestas en el doc 17 esperando que Teo las confirme.",
+  "<b>El noveno cliente de la lista de salida.</b> En la revisión del 16/9 se contaron nueve y se nombraron ocho: Cecilia, Antonio, Manuel, Lucca, Nico, Scarlett, Sharon y Andrea. Falta saber quién es el noveno."
+ ],
+ "aye": [
+  [
+   "El acercamiento a los que se cierran",
+   "Armar el proceso de cómo se contacta a cada uno de los nueve: qué se le dice, en qué orden y con cuánta anticipación, para que lleguen a la llamada sabiendo que es de cierre."
   ],
-  "regla_signoff": [
-    "<b>No hay más llamadas uno a uno.</b> Lo que queda es la llamada de cierre.",
-    "<b>El grupo de WhatsApp se cierra.</b> Dejarlo abierto habilita que sigan escribiendo y que no haya respuesta del otro lado, que es peor que cerrarlo.",
-    "<b>El seguimiento de los accionables va por el grupo, mientras está abierto.</b> Un accionable que solo vive en un documento no se ejecuta.",
-    "<b>Facu desarrolla el informe, Teo hace la llamada de offboarding.</b>",
-    "<b>El documento se presenta en la llamada.</b> En los casos sin tracción ni siquiera se manda antes: se lo cuenta Teo.",
-    "<b>Se aclara de antemano de qué se trata la llamada</b>: es de informe y de cierre del programa, no una llamada más.",
-    "<b>Si alguien se queja, resuelve Teo</b> y decide sobre la marcha.",
-    "<b>Upselling: solo Lucca.</b> Sharon queda condicionada a que decida lanzar su B2C. Al resto no hay nada para ofrecerle hoy, y conviene cerrarlo limpio."
+  [
+   "El roadmap del servicio",
+   "El recorrido general del programa por fechas: onboarding, Clarity Call con Facu, llamada con Franco, y las grupales de creatividad, contenido y operaciones desde la semana uno."
   ],
-  "falta": [
-    "<b>Juanjo</b>, que viene de La Cáscara por upselling: falta crear la ficha. Recién entra, así que le corresponde el roadmap normal de los primeros noventa días y no una radiografía.",
-    "<b>La segunda persona de Custom Lab</b>: falta la ficha y falta el apellido de Juan.",
-    "<b>La fecha de inicio de casi todos.</b> Solo Sharon (13 de mayo), Lucca (6 de abril), Qualita (24 de abril), Sebastián (1 de septiembre), Sol (2 de septiembre) y The Momentum Club (16 de septiembre) la tienen cargada. Faltan las otras dieciséis, que están propuestas en el doc 17 esperando que Teo las confirme.",
-    "<b>El noveno cliente de la lista de salida.</b> En la revisión del 16/9 se contaron nueve y se nombraron ocho: Cecilia, Antonio, Manuel, Lucca, Nico, Scarlett, Sharon y Andrea. Falta saber quién es el noveno."
+  [
+   "El roadmap de cada cliente",
+   "Cada cliente tiene que poder ver el suyo. Los documentos ya tienen el roadmap escrito adentro: de ahí sale el individual."
   ],
-  "aye": [
-    [
-      "El acercamiento a los que se cierran",
-      "Armar el proceso de cómo se contacta a cada uno de los nueve: qué se le dice, en qué orden y con cuánta anticipación, para que lleguen a la llamada sabiendo que es de cierre."
-    ],
-    [
-      "El roadmap del servicio",
-      "El recorrido general del programa por fechas: onboarding, Clarity Call con Facu, llamada con Franco, y las grupales de creatividad, contenido y operaciones desde la semana uno."
-    ],
-    [
-      "El roadmap de cada cliente",
-      "Cada cliente tiene que poder ver el suyo. Los documentos ya tienen el roadmap escrito adentro: de ahí sale el individual."
-    ],
-    [
-      "Los kick-offs de las grupales",
-      "Un video o documento por grupal — uno de Teo, uno de Juana, uno de Fede — que diga qué se trabaja ahí y con qué hay que llegar."
-    ],
-    [
-      "Operaciones y oferta",
-      "Dentro de Founders, el frente que queda de su lado es operaciones y productividad, y la oferta, más el seguimiento de las tarjetas asignadas."
-    ]
+  [
+   "Los kick-offs de las grupales",
+   "Un video o documento por grupal — uno de Teo, uno de Juana, uno de Fede — que diga qué se trabaja ahí y con qué hay que llegar."
   ],
-  "criterio": "Founders es <b>done with you</b>: se baja un paso a paso sobre el caso puntual y se acompaña la ejecución, pero la ejecución es del founder. No producimos contenido, no armamos el calendario, no escribimos los guiones. Lo que hay que calibrar antes de que entre alguien es una sola pregunta: qué expectativa tiene. Ahí se despeja el gris de la palabra personalizado.",
-  "filas": [
-    {
-      "nombre": "Cecilia Belotti",
-      "estado": "Sign off · cierra 16/09",
-      "proyecto": "Connect Turismo. Viene de los primeros clientes de F3 y entró sin audiencia ni contenido, así que el trabajo fue encontrar el vehículo. En septiembre el outreach produjo su primera propuesta: Tantasiña, USD 1.000, reservada hasta el viernes 19.",
-      "accionables": [
-        "<b>No se le manda el documento.</b> Lo presenta Teo en la llamada: es un informe para que se lo cuenten, no para que lo lea sola y saque conclusiones.",
-        "El documento de sign off lo completa Facu, que lo tomó el 16/9.",
-        "Coordinar la llamada de cierre con Teo. Es lo único que hay que hacer con este caso.",
-        "Preguntarle en qué quedó Tantasiña: la propuesta vence el <b>viernes 19</b> y el arranque propuesto es la semana del 22. Es el dato con el que Teo llega a la llamada.",
-        "Teo marcó que a Ceci <b>no</b> le pide el formulario de feedback: su perfil no es el que nutre al programa."
-      ],
-      "doc": "cecilia-belotti.html",
-      "docn": "cecilia-belotti-cierre.html",
-      "extra": null,
-      "nota": null,
-      "slug": "cecilia-belotti",
-      "upselling": false
-    },
-    {
-      "nombre": "Antonio Mazzello",
-      "estado": "Sign off · cierra 30/09",
-      "proyecto": "Marca personal — Banca Privada, Grupo IEB. El informe se reescribió entero: la marca pasa a apoyarse en un producto de IEB y no en su figura personal.",
-      "accionables": [
-        "Mandar el informe de cierre. <b>Es una versión nueva</b>, distinta de la que se armó en septiembre.",
-        "Coordinar el offboarding <b>con Teo</b>. Esta llamada no la hace Facu.",
-        "Antes de la llamada: responder el mensaje de Antonio que quedó sin contestar. Es lo primero.",
-        "Confirmar con Teo hasta qué fecha exacta mantiene el acceso a las grupales."
-      ],
-      "doc": "antonio-mazzello.html",
-      "docn": "antonio-mazzello-cierre.html",
-      "extra": null,
-      "nota": null,
-      "slug": "antonio-mazzello",
-      "upselling": false
-    },
-    {
-      "nombre": "Manuel Bruzzone",
-      "estado": "Sign off · cierra 30/09",
-      "proyecto": "Team Bruzzone. El sistema está diseñado hasta el último detalle; lo que nunca arrancó es la rutina que lo hace funcionar.",
-      "accionables": [
-        "Mandar el informe de cierre.",
-        "Coordinar la llamada de sign off con Teo y decirle en el mismo mensaje hasta cuándo tiene las grupales.",
-        "Preguntarle si la base de leads y las automatizaciones llegaron a implementarse: es el único dato que falta para cerrar el informe."
-      ],
-      "doc": "manu-bruzzone.html",
-      "docn": "manu-bruzzone-cierre.html",
-      "extra": null,
-      "nota": null,
-      "slug": "manu-bruzzone",
-      "upselling": false
-    },
-    {
-      "nombre": "Andrea Saturno",
-      "estado": "Sign off · cierra 30/09",
-      "proyecto": "Candela, la agencia que lleva con Sophie. Sale con las Onfire Sessions armadas y sin fecha.",
-      "accionables": [
-        "Mandar el informe de cierre.",
-        "Ofrecerle el sprint hasta fin de septiembre: grupales más <b>una llamada extra con Facu</b>. Agendar esa llamada.",
-        "Pedirle la fecha del viaje y, con eso, la fecha de la primera Onfire Session.",
-        "Tener presente que está mezclada con Franco: acá se da un poco de más.",
-        "Si Andrea pide la llamada extra de la semana del 15, coordinarla con Facu.",
-        "Avisarle a Franco antes de que Teo cierre el caso."
-      ],
-      "doc": "andrea-saturno.html",
-      "docn": "andrea-saturno-cierre.html",
-      "extra": null,
-      "nota": null,
-      "slug": "andrea-saturno",
-      "upselling": false
-    },
-    {
-      "nombre": "Lucca Sorgoni",
-      "estado": "Upselling · cierra 30/09",
-      "proyecto": "Su programa B2C, que ya le da diez mil dólares por mes, y su agencia de Airbnb, que sigue viviendo de referidos.",
-      "accionables": [
-        "Mandar el informe de cierre.",
-        "<b>Agendar primero la llamada con Franco para corregir la oferta.</b> Va antes del cierre, y es el único de los nueve con upsell abierto.",
-        "Recién después, coordinar con Teo la llamada: acá el sign off puede convertirse en upselling o en continuación.",
-        "Coordinar con <b>Franco</b> el testimonio y los próximos pasos como growth partner."
-      ],
-      "doc": "lucca-sorgoni.html",
-      "docn": "lucca-sorgoni-cierre.html",
-      "extra": null,
-      "nota": null,
-      "slug": "lucca-sorgoni",
-      "upselling": "Sí. Es el único de los nueve. Cuando hable con Teo, ver de qué manera se gestiona."
-    },
-    {
-      "nombre": "Sharon Palacio",
-      "estado": "Sign off · cierra 30/09",
-      "proyecto": "Estrategia creativa, y Sharon Tatt como proyecto aparte. Consiguió los clientes y entrega bien; lo único que nunca arrancó es su propio contenido.",
-      "accionables": [
-        "Mandar el informe de cierre.",
-        "Coordinar con Teo la llamada <b>en formato caso de éxito</b>, que es como se decidió cerrarla.",
-        "Capturar el testimonio en esa misma llamada.",
-        "Ofrecerle seguir entrando a las grupales como referente.",
-        "Confirmar con Facu cuántas llamadas uno a uno quedan antes del cierre y agendarlas (falta confirmar)."
-      ],
-      "doc": "sharon-palacio.html",
-      "docn": "sharon-palacio-cierre.html",
-      "extra": null,
-      "nota": null,
-      "slug": "sharon-palacio",
-      "upselling": "Solo si decide lanzar su B2C: ahí entra cómo se arma y se estructura ese programa."
-    },
-    {
-      "nombre": "Scarlett Montilla",
-      "estado": "Sign off · cierra 30/09",
-      "proyecto": "Mentoría de procesos. El proceso terminó en un pivote: de vender servicios técnicos de marketing a vender el proceso.",
-      "accionables": [
-        "Mandar el informe de cierre.",
-        "<b>El lanzamiento ya está bajado a tres etapas</b>: workshop presencial en un mes, apertura de postulaciones a una mentoría grupal de cuatro a seis semanas, y uno a uno de validación. Está consiguiendo locación.",
-        "Agendar <b>una llamada más con Franco</b>: de ahí sale el precio de la mentoría, que es lo único que falta.",
-        "Recién después de esa llamada, coordinar el offboarding con Teo.",
-        "Bajó el ritmo de publicación por el rebranding. La salida que le dio Juana es documentar el propio rebranding."
-      ],
-      "doc": "scarlett-montilla.html",
-      "docn": "scarlett-montilla-cierre.html",
-      "extra": null,
-      "nota": null,
-      "slug": "scarlett-montilla",
-      "upselling": false
-    },
-    {
-      "nombre": "Nicolás Lozada",
-      "estado": "Sign off · cierra 30/09",
-      "proyecto": "@fffbrands. Primer comprador del Founder System. El sistema quedó armado entero; lo único que falta es vender.",
-      "accionables": [
-        "Mandar el informe, que incluye la mini orientación al lanzamiento y el sprint comercial.",
-        "<b>Ya lanzó.</b> El 15/9 subió el primer video de contexto de la marca y arrancó a documentar treinta días; al cierre de esos treinta abre cupos de acompañamiento.",
-        "Pedirle a Teo que hable con él <b>ahora</b>, antes de cualquier otra cosa.",
-        "El sign off va <b>después</b> del sprint comercial, no antes. Agendarlo recién cuando el sprint termine."
-      ],
-      "doc": "nicolas-lozada.html",
-      "docn": "nicolas-lozada-cierre.html",
-      "extra": null,
-      "nota": null,
-      "slug": "nicolas-lozada",
-      "upselling": false
-    },
-    {
-      "nombre": "Ayelén Cerqueira",
-      "estado": "Sign off · cierra 30/09",
-      "proyecto": "Estrategia creativa para construir comunidades. Sigue adentro de Cáscara: su sign off es cerrar su propia oferta como Community Success Manager.",
-      "accionables": [
-        "Mandar el informe de cierre.",
-        "Agendar la reunión con <b>Franco</b>: es la que cierra la oferta, nombre y precio. Esa llamada la toma Franco siempre.",
-        "Recién después de esa llamada, coordinar el offboarding con Teo.",
-        "Aye agenda ella misma la reunión con Franco."
-      ],
-      "doc": "ayelen-cerqueira.html",
-      "docn": "ayelen-cerqueira-cierre.html",
-      "extra": null,
-      "nota": null,
-      "slug": "ayelen-cerqueira",
-      "upselling": false
-    },
-    {
-      "nombre": "Sofía Galvis Montoya",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "Estrategia creativa y contenido, desde Colombia. Sacó a los clientes que la tenían de techo y facturó el doble; ahora le falta el producto que escala.",
-      "accionables": [
-        "Mandar la radiografía con el roadmap. <b>Va por el día 82 de los 90</b>, así que esto no se puede correr más.",
-        "Agendar la llamada con <b>Franco</b>: ahí se define la oferta y la fecha del lanzamiento del programa de educación. Esta llamada es la de ella, no el sign off con Teo.",
-        "Resolver el desfasaje de fechas: los noventa días caen alrededor del 20 de septiembre y en Cuentas tiene FINISH el 31 de octubre. O el 31 se dice como extensión, o las dos fechas coinciden."
-      ],
-      "doc": "sofia-galvis.html",
-      "docn": "sofia-galvis-radiografia.html",
-      "extra": null,
-      "nota": null,
-      "slug": "sofia-galvis",
-      "upselling": false
-    },
-    {
-      "nombre": "Bianca Antonini",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "Kie, marca de ropa. Contrató Founders para mejorar el contenido; el contenido ya está bien y lo que falta es un punto A y un punto B.",
-      "accionables": [
-        "Mandar los dos documentos: la radiografía y el de Eclipse y los anillos.",
-        "Agendar la <b>1:1 de Franco con Bianca esta semana</b>: es donde se cierra el pricing del anillo llave.",
-        "Pedirle a Teo los contenidos del Cowork editados para regalárselos.",
-        "Pedirle a Bianca cuánta gente hay hoy en la comunidad de WhatsApp.",
-        "Pasarle el ejemplo de la serie de contenido de Delfi Ferro."
-      ],
-      "doc": "bianca-antonini.html",
-      "docn": "bianca-antonini-radiografia.html",
-      "extra": [
-        "bianca-eclipse-y-anillos.html",
-        "bianca-eclipse-y-anillos.html",
-        "Eclipse y anillos"
-      ],
-      "nota": null,
-      "slug": "bianca-antonini",
-      "upselling": false
-    },
-    {
-      "nombre": "Matías Morales",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "9669, estudio creativo. Le pusimos el precio al doble y vendió igual. Lo que falta no es vender: es tener con qué entregar.",
-      "accionables": [
-        "Mandar la radiografía con el roadmap.",
-        "Pedirle <b>cuáles son los dos clientes que cerró</b>, por qué montos y con qué alcance prometido: sin eso el roadmap de entrega no se puede cerrar.",
-        "Agendar con Facu el roadmap de lanzamiento y con Teo el de entrega de servicio."
-      ],
-      "doc": "matias-morales.html",
-      "docn": "matias-morales-radiografia.html",
-      "extra": null,
-      "nota": null,
-      "slug": "matias-morales",
-      "upselling": false
-    },
-    {
-      "nombre": "Agostina Marchesini Merayo",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "Arquitecta, estudio propio y consultoría para arquitectos. Se destrabó con el contenido y sabe cuál es su cliente ideal; le falta la oferta.",
-      "accionables": [
-        "Mandar la radiografía con el roadmap.",
-        "<b>Agendar la llamada donde Facu le presenta el roadmap.</b> Es el accionable principal de este cliente.",
-        "Preguntarle si toma el rol de project manager de contenido con Delfina y cuántas horas le come: compite directo con el lanzamiento de octubre."
-      ],
-      "doc": "agostina-marchesini.html",
-      "docn": "agostina-marchesini-radiografia.html",
-      "extra": null,
-      "nota": null,
-      "slug": "agostina-marchesini",
-      "upselling": false
-    },
-    {
-      "nombre": "Lucio Labate",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "@luwel, marca personal de diseño. Instala IA en una empresa todos los días y no la vende.",
-      "accionables": [
-        "<b>Escribirle por privado, no por el grupo: no le llegan los mensajes.</b> Es lo primero y lo bloquea todo lo demás.",
-        "Está frenado y lo dijo él: no tiene clara la oferta ni el proceso que quiere dar, y se compara con los que ya están ejecutando. El tono del acercamiento importa acá.",
-        "Mandar la radiografía con el roadmap.",
-        "La fecha de cerrar oferta con Franco era el 17 de septiembre y esa llamada no consta agendada. Agendarla.",
-        "El foco del tramo es cerrar la oferta y sacar <b>un mínimo de diez piezas</b>: con menos de diez no se evalúa nada.",
-        "Mandarle la carta <b>Calendario de contenido</b>, con referencias y un ejemplo por formato."
-      ],
-      "doc": "lucio-labate.html",
-      "docn": "lucio-labate-radiografia.html",
-      "extra": null,
-      "nota": null,
-      "slug": "lucio-labate",
-      "upselling": false
-    },
-    {
-      "nombre": "José David Fajardo Guaqueta",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "Marca personal y servicio de crecimiento para e-commerce, con el concepto Universo de Marca. Es el caso que siguió la secuencia y funcionó.",
-      "accionables": [
-        "Mandar la radiografía con el roadmap.",
-        "<b>Agendar la llamada con Franco</b>: quedó pendiente desde la semana del 1 de septiembre y todavía no tiene fecha.",
-        "Empezar a documentarlo como caso de éxito: es uno de los cuatro que quedaron marcados.",
-        "Antes de la llamada con Franco, mandarle el resumen de la Clarity Call del 1 de septiembre en dos líneas."
-      ],
-      "doc": "jose-david-fajardo.html",
-      "docn": "jose-david-fajardo-radiografia.html",
-      "extra": null,
-      "nota": null,
-      "slug": "jose-david-fajardo",
-      "upselling": false
-    },
-    {
-      "nombre": "Aaron Aiello",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "Marca personal y nueva oferta B2C, con Cami en operaciones y métricas. Le baja el marketing a cinco infoproductores y no se lo sabe bajar a sí mismo.",
-      "accionables": [
-        "Mandar la radiografía con el roadmap.",
-        "Mandarle el <b>Pasaporte Digital</b>: es el accionable que quedó de Facu.",
-        "Coordinar con Fede el seguimiento de contenido, que acá va con Aaron como personaje.",
-        "Mandarle la carta <b>Pasaporte digital</b> en la primera semana: es el entregable distintivo del caso.",
-        "Mandarle la plantilla del formulario de feedback para auditar a los clientes actuales."
-      ],
-      "doc": "aaron-aiello.html",
-      "docn": "aaron-aiello-radiografia.html",
-      "extra": null,
-      "nota": null,
-      "slug": "aaron-aiello",
-      "upselling": false
-    },
-    {
-      "nombre": "Piero Medina y Juan — Custom Lab",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "Producción textil y merch. Piero lleva lo creativo y Juan lo comercial. El merch no es ropa: es el medio publicitario de otra marca.",
-      "accionables": [
-        "Mandar la radiografía con el roadmap.",
-        "Agendar la llamada con <b>Franco</b>; el roadmap y el punto B salen después de esa llamada.",
-        "Cargar la ficha de la segunda persona y conseguir el apellido de Juan, que falta en la base.",
-        "Preguntar cuánto pueden poner por mes en pauta y quién la opera."
-      ],
-      "doc": "custom-lab.html",
-      "docn": "custom-lab-radiografia.html",
-      "extra": null,
-      "nota": null,
-      "slug": "custom-lab",
-      "upselling": false
-    },
-    {
-      "nombre": "Sebastián Martínez",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "Marca personal y programa de marca personal para creativos, con Estudio Gama 21 como productora. Tiene el tráfico y los ángulos validados; nunca cobró la mentoría.",
-      "accionables": [
-        "Mandar la radiografía con el roadmap.",
-        "<b>La llamada con Franco ya se hizo el 16/9</b> y de ahí salieron los parámetros: ocho semanas, tres pilares, doce a quince cupos y precio de entrada entre 997 y 1.200 dólares.",
-        "<b>1:1 con Facu el viernes 18 a las 9:30.</b> Ahí se arma el producto: onboarding, recorrido del cliente semana a semana, seguimiento y el resultado mínimo que el programa garantiza.",
-        "Chequear que haya mandado al grupo las cinco clases que ya tiene grabadas, con presentación y guía: es con lo que tiene que llegar a esa llamada.",
-        "Agendar la <b>segunda llamada con Franco para la semana del 29</b>: ahí se cierran la fecha de lanzamiento, el precio exacto y los entregables.",
-        "Mandarle la carta <b>ICP y mecanismo</b>, con el formulario de ICP y dolores."
-      ],
-      "doc": "sebastian.html",
-      "docn": "sebastian-radiografia.html",
-      "extra": null,
-      "nota": null,
-      "slug": "sebastian",
-      "upselling": false
-    },
-    {
-      "nombre": "Sol Boutmy",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "Be Motion, agencia de contenido orgánico en Montevideo. Seis clientes fijos y las dos socias todavía editando.",
-      "accionables": [
-        "Mandar la radiografía con el roadmap.",
-        "<b>Agendar la primera llamada con Franco: todavía no la tuvo.</b> De ahí salen el nicho y el precio para poder venderse fuera de Uruguay.",
-        "Mandarle la carta <b>Diario administrativo</b>.",
-        "Mandarle la carta <b>Profile funnel</b>, con la lista de tareas del perfil de Instagram.",
-        "Mandarle la carta <b>Contratar el primer rol</b>, con el formulario de postulación de editores y el tarifario de edición."
-      ],
-      "doc": "sol-boutmy.html",
-      "docn": "sol-boutmy-radiografia.html",
-      "extra": null,
-      "nota": null,
-      "slug": "sol-boutmy",
-      "upselling": false
-    },
-    {
-      "nombre": "Lola Berutti",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "Workflow, programa y bolsa de Project Managers para agencias creativas. El programa está listo y la demanda ya está juntada.",
-      "accionables": [
-        "Mandar la radiografía con el roadmap. Avisarle que se armó con material más acotado que el resto.",
-        "<b>Hace un workshop de Project Management el jueves 24</b> y desde ahí arranca a vender el programa. Confirmarle el día.",
-        "<b>Agendar la llamada con Franco: todavía no la tuvo.</b> Ahí se define si sale como workshop o como bootcamp, y con qué precio."
-      ],
-      "doc": "lola-berutti.html",
-      "docn": "lola-berutti-radiografia.html",
-      "extra": null,
-      "nota": null,
-      "slug": "lola-berutti",
-      "upselling": false
-    },
-    {
-      "nombre": "Qualita Studio",
-      "estado": "En curso · cierra 31/10",
-      "proyecto": "Rafa Lizarraga. Estudio que estuvo frenado y retoma. Tiene la radiografía y además el paquete de cartas del tramo.",
-      "accionables": [
-        "<b>Rafa tiene 1:1 con Facu el viernes 18 a las 9:00.</b> Confirmar asistencia y con qué llega.",
-        "Mandar los dos documentos: la radiografía y las cartas del tramo.",
-        "Las cartas son los accionables que ejecutan antes de esa reunión.",
-        "Avisar que el documento de Qualita tiene un panel que desborda y hay que rehacerlo antes de mandarlo.",
-        "Borrar las dos fichas duplicadas de Rafael Lizarraga que quedaron en la base."
-      ],
-      "doc": "qualita.html",
-      "docn": "qualita-radiografia.html",
-      "extra": [
-        "qualita-cartas.html",
-        "qualita-cartas-del-tramo.html",
-        "Las cartas del tramo"
-      ],
-      "nota": null,
-      "slug": "qualita",
-      "upselling": false
-    },
-    {
-      "nombre": "The Momentum Club",
-      "estado": "Ingresó 16/09 · sin ficha",
-      "proyecto": "Israel Barranco y Natalia Zabaleta. Acompañan artistas en cuatro pilares; vienen de un programa de 9 meses que están pasando a 6 más renovaciones. El onboarding con Teo ya está hecho.",
-      "accionables": [
-        "Chequear que hayan completado los <b>Founder Insights</b>. Es lo único que falta para que entre la Clarity Call.",
-        "Con los Insights hechos, <b>coordinar la Clarity Call con Facu</b>. Esa llamada es la que define la lectura del caso y la orientación.",
-        "Después de la Clarity se escribe la ficha y entra al circuito como el resto: documento, roadmap y accionables.",
-        "Cargar START en Cuentas con el 16 de septiembre, para que el conteo de los noventa días arranque bien.",
-        "Coordinar la Clarity Call de Facu apenas estén los Founder Insights."
-      ],
-      "doc": null,
-      "docn": null,
-      "extra": null,
-      "nota": "Sin documento todavía: la ficha se escribe después de la Clarity Call.",
-      "slug": "the-momentum-club",
-      "upselling": false
-    }
+  [
+   "Operaciones y oferta",
+   "Dentro de Founders, el frente que queda de su lado es operaciones y productividad, y la oferta, más el seguimiento de las tarjetas asignadas."
   ]
+ ],
+ "criterio": "Founders es <b>done with you</b>: se baja un paso a paso sobre el caso puntual y se acompaña la ejecución, pero la ejecución es del founder. No producimos contenido, no armamos el calendario, no escribimos los guiones. Lo que hay que calibrar antes de que entre alguien es una sola pregunta: qué expectativa tiene. Ahí se despeja el gris de la palabra personalizado.",
+ "filas": [
+  {
+   "nombre": "Cecilia Belotti",
+   "estado": "Sign off · cierra 16/09",
+   "proyecto": "Connect Turismo. Viene de los primeros clientes de F3 y entró sin audiencia ni contenido, así que el trabajo fue encontrar el vehículo. En septiembre el outreach produjo su primera propuesta: Tantasiña, USD 1.000, reservada hasta el viernes 19.",
+   "accionables": [
+    "<b>No se le manda el documento.</b> Lo presenta Teo en la llamada: es un informe para que se lo cuenten, no para que lo lea sola y saque conclusiones.",
+    "El documento de sign off lo completa Facu, que lo tomó el 16/9.",
+    "Coordinar la llamada de cierre con Teo. Es lo único que hay que hacer con este caso.",
+    "Preguntarle en qué quedó Tantasiña: la propuesta vence el <b>viernes 19</b> y el arranque propuesto es la semana del 22. Es el dato con el que Teo llega a la llamada.",
+    "Teo marcó que a Ceci <b>no</b> le pide el formulario de feedback: su perfil no es el que nutre al programa."
+   ],
+   "doc": "cecilia-belotti.html",
+   "docn": "cecilia-belotti-cierre.html",
+   "extra": null,
+   "nota": null,
+   "slug": "cecilia-belotti",
+   "upselling": false
+  },
+  {
+   "nombre": "Antonio Mazzello",
+   "estado": "Sign off · cierra 30/09",
+   "proyecto": "Marca personal — Banca Privada, Grupo IEB. El informe se reescribió entero: la marca pasa a apoyarse en un producto de IEB y no en su figura personal.",
+   "accionables": [
+    "Mandar el informe de cierre. <b>Es una versión nueva</b>, distinta de la que se armó en septiembre.",
+    "Coordinar el offboarding <b>con Teo</b>. Esta llamada no la hace Facu.",
+    "Antes de la llamada: responder el mensaje de Antonio que quedó sin contestar. Es lo primero.",
+    "Confirmar con Teo hasta qué fecha exacta mantiene el acceso a las grupales."
+   ],
+   "doc": "antonio-mazzello.html",
+   "docn": "antonio-mazzello-cierre.html",
+   "extra": null,
+   "nota": null,
+   "slug": "antonio-mazzello",
+   "upselling": false
+  },
+  {
+   "nombre": "Manuel Bruzzone",
+   "estado": "Sign off · cierra 30/09",
+   "proyecto": "Team Bruzzone. El sistema está diseñado hasta el último detalle; lo que nunca arrancó es la rutina que lo hace funcionar.",
+   "accionables": [
+    "Mandar el informe de cierre.",
+    "Coordinar la llamada de sign off con Teo y decirle en el mismo mensaje hasta cuándo tiene las grupales.",
+    "Preguntarle si la base de leads y las automatizaciones llegaron a implementarse: es el único dato que falta para cerrar el informe."
+   ],
+   "doc": "manu-bruzzone.html",
+   "docn": "manu-bruzzone-cierre.html",
+   "extra": null,
+   "nota": null,
+   "slug": "manu-bruzzone",
+   "upselling": false
+  },
+  {
+   "nombre": "Andrea Saturno",
+   "estado": "Sign off · cierra 30/09",
+   "proyecto": "Candela, la agencia que lleva con Sophie. Sale con las Onfire Sessions armadas y sin fecha.",
+   "accionables": [
+    "Mandar el informe de cierre.",
+    "Ofrecerle el sprint hasta fin de septiembre: grupales más <b>una llamada extra con Facu</b>. Agendar esa llamada.",
+    "Pedirle la fecha del viaje y, con eso, la fecha de la primera Onfire Session.",
+    "Tener presente que está mezclada con Franco: acá se da un poco de más.",
+    "Si Andrea pide la llamada extra de la semana del 15, coordinarla con Facu.",
+    "Avisarle a Franco antes de que Teo cierre el caso."
+   ],
+   "doc": "andrea-saturno.html",
+   "docn": "andrea-saturno-cierre.html",
+   "extra": null,
+   "nota": null,
+   "slug": "andrea-saturno",
+   "upselling": false
+  },
+  {
+   "nombre": "Lucca Sorgoni",
+   "estado": "Upselling · cierra 30/09",
+   "proyecto": "Su programa B2C, que ya le da 10.000 dólares por mes, y su agencia de Airbnb, que sigue viviendo de referidos.",
+   "accionables": [
+    "Mandar el informe de cierre.",
+    "<b>Agendar primero la llamada con Franco para corregir la oferta.</b> Va antes del cierre, y es el único de los nueve con upsell abierto.",
+    "Recién después, coordinar con Teo la llamada: acá el sign off puede convertirse en upselling o en continuación.",
+    "Coordinar con <b>Franco</b> el testimonio y los próximos pasos como growth partner."
+   ],
+   "doc": "lucca-sorgoni.html",
+   "docn": "lucca-sorgoni-cierre.html",
+   "extra": null,
+   "nota": null,
+   "slug": "lucca-sorgoni",
+   "upselling": "Sí. Es el único de los nueve. Cuando hable con Teo, ver de qué manera se gestiona."
+  },
+  {
+   "nombre": "Sharon Palacio",
+   "estado": "Sign off · cierra 30/09",
+   "proyecto": "Estrategia creativa, y Sharon Tatt como proyecto aparte. Consiguió los clientes y entrega bien; lo único que nunca arrancó es su propio contenido.",
+   "accionables": [
+    "Mandar el informe de cierre.",
+    "Coordinar con Teo la llamada <b>en formato caso de éxito</b>, que es como se decidió cerrarla.",
+    "Capturar el testimonio en esa misma llamada.",
+    "Ofrecerle seguir entrando a las grupales como referente.",
+    "Confirmar con Facu cuántas llamadas uno a uno quedan antes del cierre y agendarlas (falta confirmar)."
+   ],
+   "doc": "sharon-palacio.html",
+   "docn": "sharon-palacio-cierre.html",
+   "extra": null,
+   "nota": null,
+   "slug": "sharon-palacio",
+   "upselling": "Solo si decide lanzar su B2C: ahí entra cómo se arma y se estructura ese programa."
+  },
+  {
+   "nombre": "Scarlett Montilla",
+   "estado": "Sign off · cierra 30/09",
+   "proyecto": "Mentoría de procesos. El proceso terminó en un pivote: de vender servicios técnicos de marketing a vender el proceso.",
+   "accionables": [
+    "Mandar el informe de cierre.",
+    "<b>El lanzamiento ya está bajado a 3 etapas</b>: workshop presencial en un mes, apertura de postulaciones a una mentoría grupal de 4 a 6 semanas, y uno a uno de validación. Está consiguiendo locación.",
+    "Agendar <b>una llamada más con Franco</b>: de ahí sale el precio de la mentoría, que es lo único que falta.",
+    "Recién después de esa llamada, coordinar el offboarding con Teo.",
+    "Bajó el ritmo de publicación por el rebranding. La salida que le dio Juana es documentar el propio rebranding."
+   ],
+   "doc": "scarlett-montilla.html",
+   "docn": "scarlett-montilla-cierre.html",
+   "extra": null,
+   "nota": null,
+   "slug": "scarlett-montilla",
+   "upselling": false
+  },
+  {
+   "nombre": "Nicolás Lozada",
+   "estado": "Sign off · cierra 30/09",
+   "proyecto": "@fffbrands. Primer comprador del Founder System. El sistema quedó armado entero; lo único que falta es vender.",
+   "accionables": [
+    "Mandar el informe, que incluye la mini orientación al lanzamiento y el sprint comercial.",
+    "<b>Ya lanzó.</b> El 15/9 subió el primer video de contexto de la marca y arrancó a documentar 30 días; al cierre de esos treinta abre cupos de acompañamiento.",
+    "Pedirle a Teo que hable con él <b>ahora</b>, antes de cualquier otra cosa.",
+    "El sign off va <b>después</b> del sprint comercial, no antes. Agendarlo recién cuando el sprint termine."
+   ],
+   "doc": "nicolas-lozada.html",
+   "docn": "nicolas-lozada-cierre.html",
+   "extra": null,
+   "nota": null,
+   "slug": "nicolas-lozada",
+   "upselling": false
+  },
+  {
+   "nombre": "Ayelén Cerqueira",
+   "estado": "Sign off · cierra 30/09",
+   "proyecto": "Estrategia creativa para construir comunidades. Sigue adentro de Cáscara: su sign off es cerrar su propia oferta como Community Success Manager.",
+   "accionables": [
+    "Mandar el informe de cierre.",
+    "Agendar la reunión con <b>Franco</b>: es la que cierra la oferta, nombre y precio. Esa llamada la toma Franco siempre.",
+    "Recién después de esa llamada, coordinar el offboarding con Teo.",
+    "Aye agenda ella misma la reunión con Franco."
+   ],
+   "doc": "ayelen-cerqueira.html",
+   "docn": "ayelen-cerqueira-cierre.html",
+   "extra": null,
+   "nota": null,
+   "slug": "ayelen-cerqueira",
+   "upselling": false
+  },
+  {
+   "nombre": "Sofía Galvis Montoya",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "Estrategia creativa y contenido, desde Colombia. Sacó a los clientes que la tenían de techo y facturó el doble; ahora le falta el producto que escala.",
+   "accionables": [
+    "Mandar la radiografía con el roadmap. <b>Va por el día 82 de los 90</b>, así que esto no se puede correr más.",
+    "Agendar la llamada con <b>Franco</b>: ahí se define la oferta y la fecha del lanzamiento del programa de educación. Esta llamada es la de ella, no el sign off con Teo.",
+    "Resolver el desfasaje de fechas: los 90 días caen alrededor del 20 de septiembre y en Cuentas tiene FINISH el 31 de octubre. O el 31 se dice como extensión, o las dos fechas coinciden."
+   ],
+   "doc": "sofia-galvis.html",
+   "docn": "sofia-galvis-radiografia.html",
+   "extra": null,
+   "nota": null,
+   "slug": "sofia-galvis",
+   "upselling": false
+  },
+  {
+   "nombre": "Bianca Antonini",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "Kie, marca de ropa. Contrató Founders para mejorar el contenido; el contenido ya está bien y lo que falta es un punto A y un punto B.",
+   "accionables": [
+    "Mandar los dos documentos: la radiografía y el de Eclipse y los anillos.",
+    "Agendar la <b>1:1 de Franco con Bianca esta semana</b>: es donde se cierra el pricing del anillo llave.",
+    "Pedirle a Teo los contenidos del Cowork editados para regalárselos.",
+    "Pedirle a Bianca cuánta gente hay hoy en la comunidad de WhatsApp.",
+    "Pasarle el ejemplo de la serie de contenido de Delfi Ferro."
+   ],
+   "doc": "bianca-antonini.html",
+   "docn": "bianca-antonini-radiografia.html",
+   "extra": [
+    "bianca-eclipse-y-anillos.html",
+    "bianca-eclipse-y-anillos.html",
+    "Eclipse y anillos"
+   ],
+   "nota": null,
+   "slug": "bianca-antonini",
+   "upselling": false
+  },
+  {
+   "nombre": "Matías Morales",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "9669, estudio creativo. Le pusimos el precio al doble y vendió igual. Lo que falta no es vender: es tener con qué entregar.",
+   "accionables": [
+    "Mandar la radiografía con el roadmap.",
+    "Pedirle <b>cuáles son los 2 clientes que cerró</b>, por qué montos y con qué alcance prometido: sin eso el roadmap de entrega no se puede cerrar.",
+    "Agendar con Facu el roadmap de lanzamiento y con Teo el de entrega de servicio."
+   ],
+   "doc": "matias-morales.html",
+   "docn": "matias-morales-radiografia.html",
+   "extra": null,
+   "nota": null,
+   "slug": "matias-morales",
+   "upselling": false
+  },
+  {
+   "nombre": "Agostina Marchesini Merayo",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "Arquitecta, estudio propio y consultoría para arquitectos. Se destrabó con el contenido y sabe cuál es su cliente ideal; le falta la oferta.",
+   "accionables": [
+    "Mandar la radiografía con el roadmap.",
+    "<b>Agendar la llamada donde Facu le presenta el roadmap.</b> Es el accionable principal de este cliente.",
+    "Preguntarle si toma el rol de project manager de contenido con Delfina y cuántas horas le come: compite directo con el lanzamiento de octubre."
+   ],
+   "doc": "agostina-marchesini.html",
+   "docn": "agostina-marchesini-radiografia.html",
+   "extra": null,
+   "nota": null,
+   "slug": "agostina-marchesini",
+   "upselling": false
+  },
+  {
+   "nombre": "Lucio Labate",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "@luwel, marca personal de diseño. Instala IA en una empresa todos los días y no la vende.",
+   "accionables": [
+    "<b>Escribirle por privado, no por el grupo: no le llegan los mensajes.</b> Es lo primero y lo bloquea todo lo demás.",
+    "Está frenado y lo dijo él: no tiene clara la oferta ni el proceso que quiere dar, y se compara con los que ya están ejecutando. El tono del acercamiento importa acá.",
+    "Mandar la radiografía con el roadmap.",
+    "La fecha de cerrar oferta con Franco era el 17 de septiembre y esa llamada no consta agendada. Agendarla.",
+    "El foco del tramo es cerrar la oferta y sacar <b>un mínimo de 10 piezas</b>: con menos de diez no se evalúa nada.",
+    "Mandarle la carta <b>Calendario de contenido</b>, con referencias y un ejemplo por formato."
+   ],
+   "doc": "lucio-labate.html",
+   "docn": "lucio-labate-radiografia.html",
+   "extra": null,
+   "nota": null,
+   "slug": "lucio-labate",
+   "upselling": false
+  },
+  {
+   "nombre": "José David Fajardo Guaqueta",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "Marca personal y servicio de crecimiento para e-commerce, con el concepto Universo de Marca. Es el caso que siguió la secuencia y funcionó.",
+   "accionables": [
+    "Mandar la radiografía con el roadmap.",
+    "<b>Agendar la llamada con Franco</b>: quedó pendiente desde la semana del 1 de septiembre y todavía no tiene fecha.",
+    "Empezar a documentarlo como caso de éxito: es uno de los cuatro que quedaron marcados.",
+    "Antes de la llamada con Franco, mandarle el resumen de la Clarity Call del 1 de septiembre en dos líneas."
+   ],
+   "doc": "jose-david-fajardo.html",
+   "docn": "jose-david-fajardo-radiografia.html",
+   "extra": null,
+   "nota": null,
+   "slug": "jose-david-fajardo",
+   "upselling": false
+  },
+  {
+   "nombre": "Aaron Aiello",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "Marca personal y nueva oferta B2C, con Cami en operaciones y métricas. Le baja el marketing a cinco infoproductores y no se lo sabe bajar a sí mismo.",
+   "accionables": [
+    "Mandar la radiografía con el roadmap.",
+    "Mandarle el <b>Pasaporte Digital</b>: es el accionable que quedó de Facu.",
+    "Coordinar con Fede el seguimiento de contenido, que acá va con Aaron como personaje.",
+    "Mandarle la carta <b>Pasaporte digital</b> en la primera semana: es el entregable distintivo del caso.",
+    "Mandarle la plantilla del formulario de feedback para auditar a los clientes actuales."
+   ],
+   "doc": "aaron-aiello.html",
+   "docn": "aaron-aiello-radiografia.html",
+   "extra": null,
+   "nota": null,
+   "slug": "aaron-aiello",
+   "upselling": false
+  },
+  {
+   "nombre": "Piero Medina y Juan — Custom Lab",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "Producción textil y merch. Piero lleva lo creativo y Juan lo comercial. El merch no es ropa: es el medio publicitario de otra marca.",
+   "accionables": [
+    "Mandar la radiografía con el roadmap.",
+    "Agendar la llamada con <b>Franco</b>; el roadmap y el punto B salen después de esa llamada.",
+    "Cargar la ficha de la segunda persona y conseguir el apellido de Juan, que falta en la base.",
+    "Preguntar cuánto pueden poner por mes en pauta y quién la opera."
+   ],
+   "doc": "custom-lab.html",
+   "docn": "custom-lab-radiografia.html",
+   "extra": null,
+   "nota": null,
+   "slug": "custom-lab",
+   "upselling": false
+  },
+  {
+   "nombre": "Sebastián Martínez",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "Marca personal y programa de marca personal para creativos, con Estudio Gama 21 como productora. Tiene el tráfico y los ángulos validados; nunca cobró la mentoría.",
+   "accionables": [
+    "Mandar la radiografía con el roadmap.",
+    "<b>La llamada con Franco ya se hizo el 16/9</b> y de ahí salieron los parámetros: 8 semanas, 3 pilares, 12 a 15 cupos y precio de entrada entre 997 y 1.200 dólares.",
+    "<b>1:1 con Facu el viernes 18 a las 9:30.</b> Ahí se arma el producto: onboarding, recorrido del cliente semana a semana, seguimiento y el resultado mínimo que el programa garantiza.",
+    "Chequear que haya mandado al grupo las 5 clases que ya tiene grabadas, con presentación y guía: es con lo que tiene que llegar a esa llamada.",
+    "Agendar la <b>segunda llamada con Franco para la semana del 29</b>: ahí se cierran la fecha de lanzamiento, el precio exacto y los entregables.",
+    "Mandarle la carta <b>ICP y mecanismo</b>, con el formulario de ICP y dolores."
+   ],
+   "doc": "sebastian.html",
+   "docn": "sebastian-radiografia.html",
+   "extra": null,
+   "nota": null,
+   "slug": "sebastian",
+   "upselling": false
+  },
+  {
+   "nombre": "Sol Boutmy",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "Be Motion, agencia de contenido orgánico en Montevideo. Seis clientes fijos y las dos socias todavía editando.",
+   "accionables": [
+    "Mandar la radiografía con el roadmap.",
+    "<b>Agendar la primera llamada con Franco: todavía no la tuvo.</b> De ahí salen el nicho y el precio para poder venderse fuera de Uruguay.",
+    "Mandarle la carta <b>Diario administrativo</b>.",
+    "Mandarle la carta <b>Profile funnel</b>, con la lista de tareas del perfil de Instagram.",
+    "Mandarle la carta <b>Contratar el primer rol</b>, con el formulario de postulación de editores y el tarifario de edición."
+   ],
+   "doc": "sol-boutmy.html",
+   "docn": "sol-boutmy-radiografia.html",
+   "extra": null,
+   "nota": null,
+   "slug": "sol-boutmy",
+   "upselling": false
+  },
+  {
+   "nombre": "Lola Berutti",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "Workflow, programa y bolsa de Project Managers para agencias creativas. El programa está listo y la demanda ya está juntada.",
+   "accionables": [
+    "Mandar la radiografía con el roadmap. Avisarle que se armó con material más acotado que el resto.",
+    "<b>Hace un workshop de Project Management el jueves 24</b> y desde ahí arranca a vender el programa. Confirmarle el día.",
+    "<b>Agendar la llamada con Franco: todavía no la tuvo.</b> Ahí se define si sale como workshop o como bootcamp, y con qué precio."
+   ],
+   "doc": "lola-berutti.html",
+   "docn": "lola-berutti-radiografia.html",
+   "extra": null,
+   "nota": null,
+   "slug": "lola-berutti",
+   "upselling": false
+  },
+  {
+   "nombre": "Qualita Studio",
+   "estado": "En curso · cierra 31/10",
+   "proyecto": "Rafa Lizarraga. Estudio que estuvo frenado y retoma. Tiene la radiografía y además el paquete de cartas del tramo.",
+   "accionables": [
+    "<b>Rafa tiene 1:1 con Facu el viernes 18 a las 9:00.</b> Confirmar asistencia y con qué llega.",
+    "Mandar los dos documentos: la radiografía y las cartas del tramo.",
+    "Las cartas son los accionables que ejecutan antes de esa reunión.",
+    "Avisar que el documento de Qualita tiene un panel que desborda y hay que rehacerlo antes de mandarlo.",
+    "Borrar las dos fichas duplicadas de Rafael Lizarraga que quedaron en la base."
+   ],
+   "doc": "qualita.html",
+   "docn": "qualita-radiografia.html",
+   "extra": [
+    "qualita-cartas.html",
+    "qualita-cartas-del-tramo.html",
+    "Las cartas del tramo"
+   ],
+   "nota": null,
+   "slug": "qualita",
+   "upselling": false
+  },
+  {
+   "nombre": "The Momentum Club",
+   "estado": "Ingresó 16/09 · sin ficha",
+   "proyecto": "Israel Barranco y Natalia Zabaleta. Acompañan artistas en 4 pilares; vienen de un programa de 9 meses que están pasando a 6 más renovaciones. El onboarding con Teo ya está hecho.",
+   "accionables": [
+    "Chequear que hayan completado los <b>Founder Insights</b>. Es lo único que falta para que entre la Clarity Call.",
+    "Con los Insights hechos, <b>coordinar la Clarity Call con Facu</b>. Esa llamada es la que define la lectura del caso y la orientación.",
+    "Después de la Clarity se escribe la ficha y entra al circuito como el resto: documento, roadmap y accionables.",
+    "Cargar START en Cuentas con el 16 de septiembre, para que el conteo de los 90 días arranque bien.",
+    "Coordinar la Clarity Call de Facu apenas estén los Founder Insights."
+   ],
+   "doc": null,
+   "docn": null,
+   "extra": null,
+   "nota": "Sin documento todavía: la ficha se escribe después de la Clarity Call.",
+   "slug": "the-momentum-club",
+   "upselling": false
+  }
+ ]
 }
