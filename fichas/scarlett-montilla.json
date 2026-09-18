@@ -1,259 +1,264 @@
 {
- "slug": "scarlett-montilla",
- "cliente": "Scarlett Montilla",
- "proyecto": "Scarlett Montilla — mentoría de procesos",
- "modo": "cierre",
- "orientacion": "Conseguir",
- "arranque": "(falta confirmar) — la primera reunión con Facu quedó grabada el 4 de junio de 2026",
- "etapa": "Cierra Cáscara Founders con el pivote decidido y el lanzamiento bajado a 3 etapas: workshop presencial, mentoría grupal de 4 a 6 semanas y uno a uno de validación. Lo que sigue son las grupales abiertas y una llamada más con Franco.",
- "metrica": "Dos o 3 clientes fijos por mes. Es el piso que ella misma puso para poder sostener el camino largo.",
- "titular": "Cierra con el pivote hecho: lo que vende es el acompañamiento del proceso. El trabajo que queda es darle forma en una hoja, con cliente ideal y precio.",
- "bajada": "Scarlett usó la aceleradora para volver a algo que ya sabía al principio y se le había desviado en el medio: quiere usar su marca personal para hablar de su proceso y acompañar a otros en el suyo, en lugar de hablar de marketing. Lo que falta es que esa mentoría tenga forma vendible: transformación, cliente ideal y precio.",
- "punto_a": [
-  {
-   "label": "Resuelto",
-   "titulo": "La decisión",
-   "texto": "Está tomada y ella la nombró sola en la llamada del 1 de septiembre. Se desvió en el medio hacia contenido técnico, marcas y marketing, y volvió al objetivo con el que había entrado. La aceleradora le sirvió para eso: para recalcular el ritmo y para reconectar con lo que había dicho al principio. Facu lo devolvió así: intentamos ir por el camino de los clientes, la estrategia creativa, el marketing, las llamadas de venta, y en esa búsqueda apareció la conclusión."
-  },
-  {
-   "label": "Empezado",
-   "titulo": "La mentoría, en borrador",
-   "texto": "Ya entendió la forma: una mentoría, con acompañamiento largo y llamadas, en lugar de una asesoría puntual. Parte de una teoría propia que llama el triángulo de la sinergia, 3 pilares para sostener balance entre lo profesional y la vida. Lo está documentando en el one thing y lo va enriqueciendo. El 9 de septiembre, con Juana, apareció el otro pedazo: lo que la indigna es que se glorifique el burnout como señal de mérito, y eso conecta derecho con construir a tu propio ritmo."
-  },
-  {
-   "label": "Pendiente",
-   "titulo": "La vía de clientes mientras construye lo largo",
-   "texto": "Tiene una clienta de Estados Unidos que sigue sin cerrar: empezaron por branding, el presupuesto no dio y la reconvirtió a asesoría estratégica y creativa, pero la propuesta no salió. Con Tito pasó lo mismo y eligió a otra persona que le sumaba pauta, porque el resultado era más tangible. Hoy le faltan los clientes que le sostengan el camino largo, y esa es la parte sin resolver."
-  }
- ],
- "recorrido": {
-  "titulo": "3 meses que terminaron en una decisión",
-  "texto": "El proceso no terminó donde arrancó, y el recorrido explica por qué. Entre julio y agosto se probó el camino de la estrategia creativa, los servicios de marketing y las llamadas de venta, y ahí quedó a la vista la traba que ella misma nombró: le faltaba entender qué transformación dejaba el servicio, y sin eso el precio se vuelve imposible de defender contra algo tan tangible como la pauta. El ajuste de identidad del 6 de agosto con Juana fue el primer movimiento del pivote hacia afuera, con una estética neutra y profesional que amplía el alcance. El 1 de septiembre puso las dos vías arriba de la mesa, la marca personal con la mentoría por un lado y los servicios que ya sabe vender por el otro, y Facu movió la discusión al terreno de la herramienta: una oferta que se queda sin comunicar se lleva la capacidad de conseguir clientes nuevos. Ahí quedó la creencia a corregir, porque con 2 clientes ya llega a la estabilidad que está buscando. En las grupales apareció el método para sostener las dos vías: separar las narrativas y documentar cada una por su lado, grabar hablándole a la persona que quiere mentorear aunque todavía no la tenga, y una frase que le quedó, que crear responde mucho más que pensar. El 9 de septiembre, con el mapa de presencia, salió la materia prima de la narrativa comercial: le indigna que se glorifique el desgaste como criterio de mérito. Eso es exactamente el proyecto que está construyendo, así que la mentoría ya tiene enemigo y posición. El 16 de septiembre trajo el lanzamiento bajado a 3 etapas: un workshop presencial en un mes, donde abre las postulaciones a una mentoría grupal de 4 a 6 semanas, y después candidatas específicas para el uno a uno como forma de validar el acompañamiento. Ya está consiguiendo locación y armando la programación con su equipo. La contracara la marcó Juana: bajó el ritmo de publicación por el cambio de identidad visual, y la salida es documentar el propio rebranding en vez de dejar el contenido quieto.",
-  "hitos": [
-   {
-    "cuando": "4 jun",
-    "que": "primera reunión con facu: quiere acompañar procesos"
-   },
-   {
-    "cuando": "jul y ago",
-    "que": "sesiones con franco: la traba era la transformación"
-   },
-   {
-    "cuando": "6 ago",
-    "que": "con juana: identidad más neutra y profesional"
-   },
-   {
-    "cuando": "1 sep",
-    "que": "nombra el pivote y aparece la creencia de los 2 clientes"
-   },
-   {
-    "cuando": "2 sep",
-    "que": "con teo: one-sheeter, grupales y sign-off"
-   },
-   {
-    "cuando": "2 sep",
-    "que": "grupal de creatividad: separar las dos narrativas"
-   },
-   {
-    "cuando": "4 sep",
-    "que": "fede revisa el video: 160 reproducciones, 7 suscriptores"
-   },
-   {
-    "cuando": "9 sep",
-    "que": "mapa de presencia: el burnout glorificado como enemigo"
-   },
-   {
-    "cuando": "16 sep",
-    "que": "grupal con juana: el lanzamiento queda en 3 etapas, con workshop presencial adelante"
-   },
-   {
-    "cuando": "16 sep",
-    "que": "cierra el acompañamiento con la llamada de sign-off"
-   }
-  ]
- },
- "lectura": {
-  "titular": "El cuello es la forma de la oferta: falta la hoja que diga qué transformación deja la mentoría, para quién y a cuánto.",
-  "texto": "Scarlett cree que le falta tiempo, y lo que le falta es que la mentoría esté escrita: transformación, cliente ideal y precio. Es la misma traba que ya había aparecido con Franco, cuando la frenó entender qué dejaba el servicio. Con esa hoja escrita, el ritmo pasa a ser una decisión suya y deja de funcionar como límite. Y el mecanismo va a ser siempre el mismo el día que decida vender: oferta, narrativa y cliente ideal con sus dolores.",
-  "cita": "Prefiero trabajar en mi posicionamiento primero y empezar a compartir cómo es mi proceso, en vez de enfocarme en contenido más técnico, en hablar de marcas, en hablar de marketing.",
-  "cita_autor": "Scarlett Montilla · 1 de septiembre de 2026"
- },
- "respuestas": [
-  {
-   "tema": "El mecanismo de venta",
-   "respuesta": "Tres partes: la oferta, la narrativa que se relaciona con esa oferta, y el cliente ideal con sus dolores y sus ángulos de comunicación."
-  },
-  {
-   "tema": "La forma del producto",
-   "respuesta": "Una mentoría con acompañamiento largo y llamadas, con el triángulo de la sinergia como método: 3 pilares para sostener balance entre lo profesional y la vida."
-  },
-  {
-   "tema": "La narrativa",
-   "respuesta": "El enemigo es la glorificación del burnout como señal de mérito y la posición es construir a tu propio ritmo. Salió del mapa de presencia del 9 de septiembre: lo que sé, lo que me importa y lo que estoy construyendo, y la perspectiva propia que sale del cruce."
-  },
-  {
-   "tema": "Las dos vías",
-   "respuesta": "La marca personal con la mentoría y los servicios que ya sabe vender corren en paralelo, con narrativas separadas y documentadas cada una por su lado."
-  },
-  {
-   "tema": "El camino de construcción de identidad",
-   "respuesta": "Identidad, posicionamiento, oferta, narrativa comercial y sistema de comunicación, en ese orden. El primer paso ya está dado: desde el 6 de agosto la identidad visual es neutra y profesional, para ampliar el alcance."
-  },
-  {
-   "tema": "El piso de clientes",
-   "respuesta": "Dos o 3 clientes fijos por mes alcanzan para la estabilidad que busca, y son los que le compran el tiempo del camino largo. Las personas con las que ya habló vinieron de la comunidad y de su red, así que es de ahí que salen."
-  },
-  {
-   "tema": "El criterio de producción de video",
-   "respuesta": "Probar una reducción del video largo contra una pieza nativa de Instagram y comparar. Grabar en 4K más cerca de la ventana en vez de forzar luz artificial de los dos lados, subtítulos con tipografía más legible y portada con su cara o su cuaderno. Y pescar un tema que ya funciona en los canales de referentes."
-  },
-  {
-   "tema": "El criterio de actividad",
-   "respuesta": "Si el objetivo es vender, son dos carruseles, 2 reels e historias todos los días."
-  },
-  {
-   "tema": "Las reglas del sistema",
-   "respuesta": "10 piezas como mínimo antes de evaluar, primero autoridad y experiencia y después infoproducto, y validación con precio."
-  }
- ],
- "entregables": [
-  {
-   "que": "La sesión de narrativa con Juana, con los Founder Insights revisitados y el mapa de presencia arriba de la mesa",
-   "para": "Sale la narrativa escrita de la mentoría, con el enemigo y la posición definidos, y de ahí bajan oferta, cliente ideal y ángulos."
-  },
-  {
-   "que": "La llamada de oferta y pricing con Franco, con las conclusiones de la Clarity Call que le manda Facu antes",
-   "para": "Sale el precio de la mentoría y la narrativa comercial."
-  },
-  {
-   "que": "El one-sheeter como formato: una hoja con nombre, transformación, duración, cantidad de llamadas, qué incluye y qué queda afuera",
-   "para": "Lo completa ella y es la base de la llamada con Franco y del sign-off con Teo."
-  },
-  {
-   "que": "Las grupales de Founders abiertas: martes con Teo, jueves con Juana, viernes con Fede",
-   "para": "Las usa cuando las necesite después del cierre, para creatividad, guion y formato."
-  }
- ],
- "punto_b": [
-  {
-   "fecha": "25 de septiembre de 2026",
-   "titulo": "El one-sheeter y el cliente ideal",
-   "texto": "Una hoja con la mentoría: qué transformación deja, cuánto dura, cuántas llamadas, qué incluye y qué no. Y al lado, el cliente ideal con sus dolores escritos con las palabras que esa persona usa. Esas dos cosas son las que le dan materia a la llamada con Franco."
-  },
-  {
-   "fecha": "2 de octubre de 2026",
-   "titulo": "La llamada con Franco y el precio puesto",
-   "texto": "Facu le pasa a Franco las conclusiones de la Clarity Call y Franco avanza sobre la oferta. De esa llamada sale el precio y la narrativa comercial. Una vez que hay número, la mentoría deja de ser una idea larga y se puede ofrecer."
-  }
- ],
- "roadmap": [
-  {
-   "cuando": "14 al 18 de septiembre",
-   "objetivo": "La narrativa cerrada con Juana",
-   "entregable": "Los Founder Insights revisitados cruzados con lo que viene bajando de la mentoría y con el mapa de presencia del 9 de septiembre. Sale la narrativa escrita: el burnout glorificado como enemigo y construir a tu propio ritmo como posición.",
-   "quien": "Scarlett con Juana"
-  },
-  {
-   "cuando": "14 al 21 de septiembre",
-   "objetivo": "El one-sheeter escrito",
-   "entregable": "Una hoja: nombre de la mentoría, transformación, duración, cantidad de llamadas, qué incluye y qué queda afuera, con el triángulo de la sinergia como método en 3 pasos. Se escribe en la misma semana que la narrativa.",
-   "quien": "Scarlett"
-  },
-  {
-   "cuando": "17 al 25 de septiembre",
-   "objetivo": "Cliente ideal y ángulos",
-   "entregable": "Quién es, qué le duele y con qué frases lo dice. De cada dolor sale un ángulo de comunicación. Oferta, narrativa y cliente ideal con sus dolores son los tres puntos que generan una venta.",
-   "quien": "Scarlett"
-  },
-  {
-   "cuando": "2 de octubre",
-   "objetivo": "La llamada con Franco y el precio puesto",
-   "entregable": "Fecha dura. De esa llamada sale el precio de la mentoría y la narrativa comercial. Facu le manda antes a Franco las conclusiones de la Clarity Call, y ella llega con la hoja y el cliente ideal escritos.",
-   "quien": "Scarlett y Franco, con Facu de puente"
-  },
-  {
-   "cuando": "5 al 23 de octubre",
-   "objetivo": "Los 2 clientes que sostienen el camino largo",
-   "entregable": "Plantearlo en la comunidad, que es de donde ya salieron las personas con las que habló: contar la decisión, decir que busca uno o dos proyectos y ofrecer propuestas. Cada respuesta se lee el día que llega.",
-   "quien": "Scarlett"
-  },
-  {
-   "cuando": "5 al 30 de octubre",
-   "objetivo": "La mentoría comunicada con los ángulos",
-   "entregable": "Dos carruseles, 2 reels e historias por semana sobre los ángulos que salieron de los dolores. Arranca en paralelo con la comunidad, apenas hay precio. Diez piezas mínimo antes de sacar cualquier conclusión.",
-   "quien": "Scarlett"
-  },
-  {
-   "cuando": "2 al 6 de noviembre",
-   "objetivo": "Validar con precio",
-   "entregable": "Abrir dos o 3 cupos de la mentoría al precio que salió con Franco, sin descuento y sin regalar el proceso. Sea sí o sea no, ahí se lee si la oferta está parada donde tiene que estar.",
-   "quien": "Scarlett"
-  }
- ],
- "accionables": [
-  {
-   "cuando": "Septiembre",
-   "cliente": [
-    "Compartir con Cáscara todo lo que viene bajando sobre este cambio",
-    "Cerrar la narrativa en la sesión con Juana",
-    "Terminar el one-sheeter de la mentoría"
-   ],
-   "cascara": [
-    "Facu le manda a Franco las conclusiones de la Clarity Call",
-    "Juana toma la sesión de narrativa con los Founder Insights revisitados",
-    "Grupales de Founders abiertas: martes con Teo, jueves con Juana, viernes con Fede"
-   ]
-  },
-  {
-   "cuando": "Octubre",
-   "cliente": [
-    "Escribir el cliente ideal con sus dolores y sacar los ángulos",
-    "Tener la llamada con Franco y salir con precio",
-    "Plantear en la comunidad que busca uno o dos proyectos"
-   ],
-   "cascara": [
-    "Franco toma la llamada de oferta y pricing",
-    "Teo hace el sign-off con este documento después de esa llamada"
-   ]
-  },
-  {
-   "cuando": "Noviembre",
-   "cliente": [
-    "4 piezas por semana sobre los ángulos de la mentoría",
-    "Abrir dos o 3 cupos con precio, sin descuento",
-    "Leer qué ángulo trajo las conversaciones"
-   ],
-   "cascara": [
-    "Sin llamadas uno a uno"
-   ]
-  }
- ],
- "conclusion": "El negocio se direcciona a una mentoría de procesos vendida con marca personal, con la narrativa del ritmo propio como posición de mercado. La vía corta para sostenerla son la comunidad y las conversaciones que ya tiene, porque de ahí llegaron las personas con las que habló: de ahí salen los dos o 3 clientes fijos que le compran tiempo. Los servicios que ya sabe hacer siguen disponibles como ingreso, con narrativa separada y sin protagonismo en el perfil. La secuencia que queda es corta y ordenada: narrativa con Juana, one-sheeter con cliente ideal, precio con Franco, y recién después volumen de contenido sobre los ángulos.\n\nSobre el ritmo hay una decisión tomada y conviene decirla de frente: las fechas se adelantan porque lo que falta se escribe en días. La narrativa con Juana y el one-sheeter entran en la misma semana, el cliente ideal se escribe encima, y la llamada con Franco pasa al 2 de octubre, casi 2 semanas antes de lo previsto: ese día la mentoría queda con precio y esa es la fecha dura. Con el número arriba de la mesa, octubre corre en dos frentes a la vez, la comunidad y el contenido, y los cupos se abren la primera semana de noviembre, 3 semanas antes de lo que estaba. Construir a su propio ritmo y tener un calendario exigente conviven bien: el ritmo lo elige ella y la fecha la sostiene ella.\n\nEl frente que queda abierto es el precio, que sale de la llamada con Franco. Hasta que ese número esté, la comunicación trabaja sobre la narrativa y los ángulos; del 2 de octubre en adelante la mentoría se puede ofrecer con número.",
- "carta": "Scarlett, entraste diciendo que querías acompañar procesos y salís diciendo lo mismo, con la diferencia de que ahora sabés por qué. En el medio probamos el camino de los clientes, la estrategia creativa y las llamadas de venta, y esa vuelta larga es la que te devolvió la claridad: fue parte del trabajo. Te llevás una decisión tomada, una narrativa con la que no tenés que fingir nada y un mecanismo que podés repetir sola cada vez que quieras vender algo. Lo que viene te va a pedir algo que ya sabés hacer: crear antes de pensarlo de más, porque crear responde mucho más que pensar. Ponele la hoja, ponele el precio y abrí los cupos sin descontar nada. Lo que te va a hacer llegar es que la posición que elegiste la estás viviendo, y eso se nota de un lado al otro de la cámara.",
- "abierto": "El precio de la mentoría, que sale de la llamada con Franco (falta confirmar). La fecha y la locación del workshop presencial, que está en armado y sin día puesto (falta confirmar).",
- "handicap": {
-  "ejes": {
-   "oferta": 1,
-   "contenido": 2,
-   "demanda": 1,
-   "venta": 1,
-   "entrega": 1
-  },
-  "total": 6,
-  "tramo": "Arranque",
-  "ritmo": "amarillo",
-  "ritmo_texto": "Avanza a los tirones.",
-  "eje_flojo": [
-   "oferta",
-   "demanda",
-   "venta",
-   "entrega"
+  "slug": "scarlett-montilla",
+  "cliente": "Scarlett Montilla",
+  "proyecto": "Scarlett Montilla — mentoría de procesos",
+  "modo": "cierre",
+  "orientacion": "Conseguir",
+  "arranque": "(falta confirmar) — la primera reunión con Facu quedó grabada el 4 de junio de 2026",
+  "etapa": "Cierra Cáscara Founders con el pivote decidido y el lanzamiento bajado a 3 etapas: workshop presencial, mentoría grupal de 4 a 6 semanas y uno a uno de validación. Lo que sigue son las grupales abiertas y una llamada más con Franco.",
+  "metrica": "Dos o 3 clientes fijos por mes. Es el piso que ella misma puso para poder sostener el camino largo.",
+  "titular": "Cierra con el pivote hecho: lo que vende es el acompañamiento del proceso. El trabajo que queda es darle forma en una hoja, con cliente ideal y precio.",
+  "bajada": "Scarlett usó la aceleradora para volver a algo que ya sabía al principio y se le había desviado en el medio: quiere usar su marca personal para hablar de su proceso y acompañar a otros en el suyo, en lugar de hablar de marketing. Lo que falta es que esa mentoría tenga forma vendible: transformación, cliente ideal y precio.",
+  "punto_a": [
+    {
+      "label": "Resuelto",
+      "titulo": "La decisión",
+      "texto": "Está tomada y ella la nombró sola en la llamada del 1 de septiembre. Se desvió en el medio hacia contenido técnico, marcas y marketing, y volvió al objetivo con el que había entrado. La aceleradora le sirvió para eso: para recalcular el ritmo y para reconectar con lo que había dicho al principio. Facu lo devolvió así: intentamos ir por el camino de los clientes, la estrategia creativa, el marketing, las llamadas de venta, y en esa búsqueda apareció la conclusión."
+    },
+    {
+      "label": "Empezado",
+      "titulo": "La mentoría, en borrador",
+      "texto": "Ya entendió la forma: una mentoría, con acompañamiento largo y llamadas, en lugar de una asesoría puntual. Parte de una teoría propia que llama el triángulo de la sinergia, 3 pilares para sostener balance entre lo profesional y la vida. Lo está documentando en el one thing y lo va enriqueciendo. El 9 de septiembre, con Juana, apareció el otro pedazo: lo que la indigna es que se glorifique el burnout como señal de mérito, y eso conecta derecho con construir a tu propio ritmo."
+    },
+    {
+      "label": "Pendiente",
+      "titulo": "La vía de clientes mientras construye lo largo",
+      "texto": "Tiene una clienta de Estados Unidos que sigue sin cerrar: empezaron por branding, el presupuesto no dio y la reconvirtió a asesoría estratégica y creativa, pero la propuesta no salió. Con Tito pasó lo mismo y eligió a otra persona que le sumaba pauta, porque el resultado era más tangible. Hoy le faltan los clientes que le sostengan el camino largo, y esa es la parte sin resolver."
+    }
   ],
-  "sugiere": [
-   "Conseguir",
-   "Entregar",
-   "Sostener"
+  "recorrido": {
+    "titulo": "3 meses que terminaron en una decisión",
+    "texto": "El proceso no terminó donde arrancó, y el recorrido explica por qué. Entre julio y agosto se probó el camino de la estrategia creativa, los servicios de marketing y las llamadas de venta, y ahí quedó a la vista la traba que ella misma nombró: le faltaba entender qué transformación dejaba el servicio, y sin eso el precio se vuelve imposible de defender contra algo tan tangible como la pauta. El ajuste de identidad del 6 de agosto con Juana fue el primer movimiento del pivote hacia afuera, con una estética neutra y profesional que amplía el alcance. El 1 de septiembre puso las dos vías arriba de la mesa, la marca personal con la mentoría por un lado y los servicios que ya sabe vender por el otro, y Facu movió la discusión al terreno de la herramienta: una oferta que se queda sin comunicar se lleva la capacidad de conseguir clientes nuevos. Ahí quedó la creencia a corregir, porque con 2 clientes ya llega a la estabilidad que está buscando. En las grupales apareció el método para sostener las dos vías: separar las narrativas y documentar cada una por su lado, grabar hablándole a la persona que quiere mentorear aunque todavía no la tenga, y una frase que le quedó, que crear responde mucho más que pensar. El 9 de septiembre, con el mapa de presencia, salió la materia prima de la narrativa comercial: le indigna que se glorifique el desgaste como criterio de mérito. Eso es exactamente el proyecto que está construyendo, así que la mentoría ya tiene enemigo y posición. El 16 de septiembre trajo el lanzamiento bajado a 3 etapas: un workshop presencial en un mes, donde abre las postulaciones a una mentoría grupal de 4 a 6 semanas, y después candidatas específicas para el uno a uno como forma de validar el acompañamiento. Ya está consiguiendo locación y armando la programación con su equipo. La contracara la marcó Juana: bajó el ritmo de publicación por el cambio de identidad visual, y la salida es documentar el propio rebranding en vez de dejar el contenido quieto.",
+    "hitos": [
+      {
+        "cuando": "4 jun",
+        "que": "primera reunión con facu: quiere acompañar procesos"
+      },
+      {
+        "cuando": "jul y ago",
+        "que": "sesiones con franco: la traba era la transformación"
+      },
+      {
+        "cuando": "6 ago",
+        "que": "con juana: identidad más neutra y profesional"
+      },
+      {
+        "cuando": "1 sep",
+        "que": "nombra el pivote y aparece la creencia de los 2 clientes"
+      },
+      {
+        "cuando": "2 sep",
+        "que": "con teo: one-sheeter, grupales y sign-off"
+      },
+      {
+        "cuando": "2 sep",
+        "que": "grupal de creatividad: separar las dos narrativas"
+      },
+      {
+        "cuando": "4 sep",
+        "que": "fede revisa el video: 160 reproducciones, 7 suscriptores"
+      },
+      {
+        "cuando": "9 sep",
+        "que": "mapa de presencia: el burnout glorificado como enemigo"
+      },
+      {
+        "cuando": "16 sep",
+        "que": "grupal con juana: el lanzamiento queda en 3 etapas, con workshop presencial adelante"
+      },
+      {
+        "cuando": "16 sep",
+        "que": "cierra el acompañamiento con la llamada de sign-off"
+      },
+      {
+        "cuando": "17 sep",
+        "que": "baja el workshop a instancias de captura: inscripción, expectativa y evaluación"
+      }
+    ]
+  },
+  "lectura": {
+    "titular": "El cuello es la forma de la oferta: falta la hoja que diga qué transformación deja la mentoría, para quién y a cuánto.",
+    "texto": "Scarlett cree que le falta tiempo, y lo que le falta es que la mentoría esté escrita: transformación, cliente ideal y precio. Es la misma traba que ya había aparecido con Franco, cuando la frenó entender qué dejaba el servicio. Con esa hoja escrita, el ritmo pasa a ser una decisión suya y deja de funcionar como límite. Y el mecanismo va a ser siempre el mismo el día que decida vender: oferta, narrativa y cliente ideal con sus dolores.",
+    "cita": "Prefiero trabajar en mi posicionamiento primero y empezar a compartir cómo es mi proceso, en vez de enfocarme en contenido más técnico, en hablar de marcas, en hablar de marketing.",
+    "cita_autor": "Scarlett Montilla · 1 de septiembre de 2026"
+  },
+  "respuestas": [
+    {
+      "tema": "El mecanismo de venta",
+      "respuesta": "Tres partes: la oferta, la narrativa que se relaciona con esa oferta, y el cliente ideal con sus dolores y sus ángulos de comunicación."
+    },
+    {
+      "tema": "La forma del producto",
+      "respuesta": "Una mentoría con acompañamiento largo y llamadas, con el triángulo de la sinergia como método: 3 pilares para sostener balance entre lo profesional y la vida."
+    },
+    {
+      "tema": "La narrativa",
+      "respuesta": "El enemigo es la glorificación del burnout como señal de mérito y la posición es construir a tu propio ritmo. Salió del mapa de presencia del 9 de septiembre: lo que sé, lo que me importa y lo que estoy construyendo, y la perspectiva propia que sale del cruce."
+    },
+    {
+      "tema": "Las dos vías",
+      "respuesta": "La marca personal con la mentoría y los servicios que ya sabe vender corren en paralelo, con narrativas separadas y documentadas cada una por su lado."
+    },
+    {
+      "tema": "El camino de construcción de identidad",
+      "respuesta": "Identidad, posicionamiento, oferta, narrativa comercial y sistema de comunicación, en ese orden. El primer paso ya está dado: desde el 6 de agosto la identidad visual es neutra y profesional, para ampliar el alcance."
+    },
+    {
+      "tema": "El piso de clientes",
+      "respuesta": "Dos o 3 clientes fijos por mes alcanzan para la estabilidad que busca, y son los que le compran el tiempo del camino largo. Las personas con las que ya habló vinieron de la comunidad y de su red, así que es de ahí que salen."
+    },
+    {
+      "tema": "El criterio de producción de video",
+      "respuesta": "Probar una reducción del video largo contra una pieza nativa de Instagram y comparar. Grabar en 4K más cerca de la ventana en vez de forzar luz artificial de los dos lados, subtítulos con tipografía más legible y portada con su cara o su cuaderno. Y pescar un tema que ya funciona en los canales de referentes."
+    },
+    {
+      "tema": "El criterio de actividad",
+      "respuesta": "Si el objetivo es vender, son dos carruseles, 2 reels e historias todos los días."
+    },
+    {
+      "tema": "Las reglas del sistema",
+      "respuesta": "10 piezas como mínimo antes de evaluar, primero autoridad y experiencia y después infoproducto, y validación con precio."
+    }
   ],
-  "nota": "Se trabaja por oferta, que es el eje más bajo: hasta que la mentoría no tenga una hoja con transformación, cliente ideal y precio, la demanda y la venta no tienen de qué agarrarse."
- }
+  "entregables": [
+    {
+      "que": "La sesión de narrativa con Juana, con los Founder Insights revisitados y el mapa de presencia arriba de la mesa",
+      "para": "Sale la narrativa escrita de la mentoría, con el enemigo y la posición definidos, y de ahí bajan oferta, cliente ideal y ángulos."
+    },
+    {
+      "que": "La llamada de oferta y pricing con Franco, con las conclusiones de la Clarity Call que le manda Facu antes",
+      "para": "Sale el precio de la mentoría y la narrativa comercial."
+    },
+    {
+      "que": "El one-sheeter como formato: una hoja con nombre, transformación, duración, cantidad de llamadas, qué incluye y qué queda afuera",
+      "para": "Lo completa ella y es la base de la llamada con Franco y del sign-off con Teo."
+    },
+    {
+      "que": "Las grupales de Founders abiertas: martes con Teo, jueves con Juana, viernes con Fede",
+      "para": "Las usa cuando las necesite después del cierre, para creatividad, guion y formato."
+    }
+  ],
+  "punto_b": [
+    {
+      "fecha": "25 de septiembre de 2026",
+      "titulo": "El one-sheeter y el cliente ideal",
+      "texto": "Una hoja con la mentoría: qué transformación deja, cuánto dura, cuántas llamadas, qué incluye y qué no. Y al lado, el cliente ideal con sus dolores escritos con las palabras que esa persona usa. Esas dos cosas son las que le dan materia a la llamada con Franco."
+    },
+    {
+      "fecha": "2 de octubre de 2026",
+      "titulo": "La llamada con Franco y el precio puesto",
+      "texto": "Facu le pasa a Franco las conclusiones de la Clarity Call y Franco avanza sobre la oferta. De esa llamada sale el precio y la narrativa comercial. Una vez que hay número, la mentoría deja de ser una idea larga y se puede ofrecer."
+    }
+  ],
+  "roadmap": [
+    {
+      "cuando": "14 al 18 de septiembre",
+      "objetivo": "La narrativa cerrada con Juana",
+      "entregable": "Los Founder Insights revisitados cruzados con lo que viene bajando de la mentoría y con el mapa de presencia del 9 de septiembre. Sale la narrativa escrita: el burnout glorificado como enemigo y construir a tu propio ritmo como posición.",
+      "quien": "Scarlett con Juana"
+    },
+    {
+      "cuando": "14 al 21 de septiembre",
+      "objetivo": "El one-sheeter escrito",
+      "entregable": "Una hoja: nombre de la mentoría, transformación, duración, cantidad de llamadas, qué incluye y qué queda afuera, con el triángulo de la sinergia como método en 3 pasos. Se escribe en la misma semana que la narrativa.",
+      "quien": "Scarlett"
+    },
+    {
+      "cuando": "17 al 25 de septiembre",
+      "objetivo": "Cliente ideal y ángulos",
+      "entregable": "Quién es, qué le duele y con qué frases lo dice. De cada dolor sale un ángulo de comunicación. Oferta, narrativa y cliente ideal con sus dolores son los tres puntos que generan una venta.",
+      "quien": "Scarlett"
+    },
+    {
+      "cuando": "2 de octubre",
+      "objetivo": "La llamada con Franco y el precio puesto",
+      "entregable": "Fecha dura. De esa llamada sale el precio de la mentoría y la narrativa comercial. Facu le manda antes a Franco las conclusiones de la Clarity Call, y ella llega con la hoja y el cliente ideal escritos.",
+      "quien": "Scarlett y Franco, con Facu de puente"
+    },
+    {
+      "cuando": "5 al 23 de octubre",
+      "objetivo": "Los 2 clientes que sostienen el camino largo",
+      "entregable": "Plantearlo en la comunidad, que es de donde ya salieron las personas con las que habló: contar la decisión, decir que busca uno o dos proyectos y ofrecer propuestas. Cada respuesta se lee el día que llega.",
+      "quien": "Scarlett"
+    },
+    {
+      "cuando": "5 al 30 de octubre",
+      "objetivo": "La mentoría comunicada con los ángulos",
+      "entregable": "Dos carruseles, 2 reels e historias por semana sobre los ángulos que salieron de los dolores. Arranca en paralelo con la comunidad, apenas hay precio. Diez piezas mínimo antes de sacar cualquier conclusión.",
+      "quien": "Scarlett"
+    },
+    {
+      "cuando": "2 al 6 de noviembre",
+      "objetivo": "Validar con precio",
+      "entregable": "Abrir dos o 3 cupos de la mentoría al precio que salió con Franco, sin descuento y sin regalar el proceso. Sea sí o sea no, ahí se lee si la oferta está parada donde tiene que estar.",
+      "quien": "Scarlett"
+    }
+  ],
+  "accionables": [
+    {
+      "cuando": "Septiembre",
+      "cliente": [
+        "Compartir con Cáscara todo lo que viene bajando sobre este cambio",
+        "Cerrar la narrativa en la sesión con Juana",
+        "Terminar el one-sheeter de la mentoría",
+        "Armar el mapa de check-ins del recorrido de su cliente: dónde se inserta cada uno, qué pregunta, para qué se usa la respuesta y dónde cae el dato. Fecha: jueves 24 de septiembre, en la grupal de procesos"
+      ],
+      "cascara": [
+        "Facu le manda a Franco las conclusiones de la Clarity Call",
+        "Juana toma la sesión de narrativa con los Founder Insights revisitados",
+        "Grupales de Founders abiertas: martes con Teo, jueves con Juana, viernes con Fede"
+      ]
+    },
+    {
+      "cuando": "Octubre",
+      "cliente": [
+        "Escribir el cliente ideal con sus dolores y sacar los ángulos",
+        "Tener la llamada con Franco y salir con precio",
+        "Plantear en la comunidad que busca uno o dos proyectos"
+      ],
+      "cascara": [
+        "Franco toma la llamada de oferta y pricing",
+        "Teo hace el sign-off con este documento después de esa llamada"
+      ]
+    },
+    {
+      "cuando": "Noviembre",
+      "cliente": [
+        "4 piezas por semana sobre los ángulos de la mentoría",
+        "Abrir dos o 3 cupos con precio, sin descuento",
+        "Leer qué ángulo trajo las conversaciones"
+      ],
+      "cascara": [
+        "Sin llamadas uno a uno"
+      ]
+    }
+  ],
+  "conclusion": "El negocio se direcciona a una mentoría de procesos vendida con marca personal, con la narrativa del ritmo propio como posición de mercado. La vía corta para sostenerla son la comunidad y las conversaciones que ya tiene, porque de ahí llegaron las personas con las que habló: de ahí salen los dos o 3 clientes fijos que le compran tiempo. Los servicios que ya sabe hacer siguen disponibles como ingreso, con narrativa separada y sin protagonismo en el perfil. La secuencia que queda es corta y ordenada: narrativa con Juana, one-sheeter con cliente ideal, precio con Franco, y recién después volumen de contenido sobre los ángulos.\n\nSobre el ritmo hay una decisión tomada y conviene decirla de frente: las fechas se adelantan porque lo que falta se escribe en días. La narrativa con Juana y el one-sheeter entran en la misma semana, el cliente ideal se escribe encima, y la llamada con Franco pasa al 2 de octubre, casi 2 semanas antes de lo previsto: ese día la mentoría queda con precio y esa es la fecha dura. Con el número arriba de la mesa, octubre corre en dos frentes a la vez, la comunidad y el contenido, y los cupos se abren la primera semana de noviembre, 3 semanas antes de lo que estaba. Construir a su propio ritmo y tener un calendario exigente conviven bien: el ritmo lo elige ella y la fecha la sostiene ella.\n\nEl frente que queda abierto es el precio, que sale de la llamada con Franco. Hasta que ese número esté, la comunicación trabaja sobre la narrativa y los ángulos; del 2 de octubre en adelante la mentoría se puede ofrecer con número.",
+  "carta": "Scarlett, entraste diciendo que querías acompañar procesos y salís diciendo lo mismo, con la diferencia de que ahora sabés por qué. En el medio probamos el camino de los clientes, la estrategia creativa y las llamadas de venta, y esa vuelta larga es la que te devolvió la claridad: fue parte del trabajo. Te llevás una decisión tomada, una narrativa con la que no tenés que fingir nada y un mecanismo que podés repetir sola cada vez que quieras vender algo. Lo que viene te va a pedir algo que ya sabés hacer: crear antes de pensarlo de más, porque crear responde mucho más que pensar. Ponele la hoja, ponele el precio y abrí los cupos sin descontar nada. Lo que te va a hacer llegar es que la posición que elegiste la estás viviendo, y eso se nota de un lado al otro de la cámara.",
+  "abierto": "El precio de la mentoría, que sale de la llamada con Franco (falta confirmar). La fecha y la locación del workshop presencial, que está en armado y sin día puesto (falta confirmar).",
+  "handicap": {
+    "ejes": {
+      "oferta": 1,
+      "contenido": 2,
+      "demanda": 1,
+      "venta": 1,
+      "entrega": 1
+    },
+    "total": 6,
+    "tramo": "Arranque",
+    "ritmo": "amarillo",
+    "ritmo_texto": "Avanza a los tirones.",
+    "eje_flojo": [
+      "oferta",
+      "demanda",
+      "venta",
+      "entrega"
+    ],
+    "sugiere": [
+      "Conseguir",
+      "Entregar",
+      "Sostener"
+    ],
+    "nota": "Se trabaja por oferta, que es el eje más bajo: hasta que la mentoría no tenga una hoja con transformación, cliente ideal y precio, la demanda y la venta no tienen de qué agarrarse."
+  }
 }

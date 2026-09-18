@@ -164,11 +164,11 @@ y qué hay que hacer con él esta semana.</p>
   <div><div class="et">Sign off</div><div class="tx">9 clientes</div></div>
   <div><div class="et">En curso</div><div class="tx">13 clientes</div></div>
   <div><div class="et">Documentos</div><div class="tx">23 archivos</div></div>
-  <div><div class="et">Fecha</div><div class="tx">15 de septiembre de 2026</div></div>
+  <div><div class="et">Fecha</div><div class="tx">{ENT["fecha"]}</div></div>
 </div>
 {cuerpo}
 <div class="pie"><div><span class="sello">C</span></div>
-<div>Cáscara Founders · repaso del 2 de septiembre, actualizado al 15</div></div>
+<div>Cáscara Founders · repaso del 2 de septiembre, actualizado al {ENT["fecha"].split(" de ")[0]}</div></div>
 </div>
 
 <div id="visor" role="dialog" aria-modal="true">

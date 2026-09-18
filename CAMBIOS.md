@@ -5,6 +5,30 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 18 de septiembre de 2026
+
+El viernes tiene cuatro 1:1 de founders y el prep cubría dos. Se agregó el prep de las otras dos y
+entró el barrido del 17.
+
+- **Cuatro llamadas, no dos.** Matías Morales (10:30) y Lucio Labate (14:30) reservaron ayer a la
+  tarde, después de que se escribiera el prep. Seba se corrió de 9:30 a 9:45. El handoff de Aye
+  ahora dice las horas reales y de quién salió cada reserva.
+- **Lucio volvió a aparecer.** Reservó él la llamada, cuatro días después de que el contacto pasara
+  a privado con Aye. Es lo primero que se mueve desde que quedó frenado, y quedó como hito en su
+  ficha. Su fecha de cerrar oferta con Franco venció ayer y sigue sin constar agendada.
+- **Cuatro hitos del 17 en las fichas.** Sharon llegó con los formularios hechos y los retainers de
+  tres meses en armado, que es la única ejecución real de la grupal. Bianca está limpiando
+  duplicados del pipeline. Scarlett bajó el workshop a instancias de captura. A Matías le bajaron el
+  mapa de check-ins.
+- **El mapa de check-ins entró como accionable con fecha** —jueves 24— en los cinco que estuvieron
+  en la grupal, en la torre y en el handoff.
+- **Las fechas del handoff salen del JSON.** `build_ally.py` tenía "15 de septiembre" escrito a mano
+  en dos lugares, así que el documento de Aye decía 15 cada vez que se regeneraba. Ahora salen de
+  `contenido/entregas.json`.
+
+**Para mirar antes de subir:** las horas de las cuatro llamadas en el handoff, y que el pie del
+handoff diga 18 y no 15.
+
 ## 17 de septiembre de 2026 · las cifras
 
 **Las cantidades ahora van en número, en los veinte documentos y en la torre.** 40 minutos en vez

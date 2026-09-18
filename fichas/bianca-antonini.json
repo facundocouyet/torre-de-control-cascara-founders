@@ -1,263 +1,268 @@
 {
- "slug": "bianca-antonini",
- "cliente": "Bianca Antonini",
- "proyecto": "Kie — marca de ropa (la grafía aparece también como Quie, falta confirmar)",
- "modo": "radiografia",
- "orientacion": "Entregar",
- "arranque": "(falta confirmar) — la primera llamada 1:1 registrada es del 17 de julio de 2026",
- "etapa": "Último tramo del acompañamiento: el mecanismo de lanzamiento ya está definido y el tramo cierra el 31 de octubre con los anillos, leído contra el punto A.",
- "metrica": "Qué parte de las ventas de cada drop sale de la comunidad de WhatsApp. Hoy no se mide. El único número firme son 236 clientas que recompraron.",
- "titular": "El tramo es ponerle números al punto de partida y una fecha medible al lanzamiento de los anillos.",
- "bajada": "Produce más y factura lo mismo, con las clientas de siempre. El contenido conceptual funciona y le falta la conexión con el producto y con una meta. Este tramo es para ponerle números al punto de partida y una fecha medible al de llegada: el lanzamiento de los anillos.",
- "punto_a": [
-  {
-   "label": "Funciona",
-   "titulo": "El contenido y la lectura de su propia comunidad",
-   "texto": "El contenido conceptual del drop del miedo está bien hecho y conecta: transmite, genera respuestas y el editor y el diseñador de Kie entregan bien. Y ya tiene la prueba de que escuchar a su comunidad le vende. En TikTok la llamaban la chica de los anillos porque usaba muchos anillos. Teo le preguntó por qué no lanzaba un anillo, ella dijo que nunca lo había pensado, lo lanzó y le fue muy bien. Lo mismo había pasado con un TikTok mostrando una muestra de campera, que generó demanda antes de que el producto existiera."
-  },
-  {
-   "label": "Pendiente",
-   "titulo": "El mecanismo de lanzamiento",
-   "texto": "En este drop la comunicación arrancó mucho antes de que llegaran las prendas y se estiró: instaló el concepto durante semanas y recién ahora aparece el producto. En el medio subió un carrusel de venta de un producto viejo, que se choca con la narrativa nueva. Y el carrusel de conversión salió sin que el producto estuviera disponible, así que la gente tuvo demasiado tiempo para pensar. Ella ya lo detectó sola y dijo que para el próximo drop va a achicar la ventana de comunicación y meter producto al mismo tiempo."
-  },
-  {
-   "label": "Pendiente",
-   "titulo": "El objetivo",
-   "texto": "Falta el punto A y falta el punto B. Contrató Cáscara Founders para mejorar su contenido, para entender cómo monetizar y para mejorar sus lanzamientos, pero sin una meta de monetización que se pueda medir. Facu lo marcó en el repaso: es muy ambiguo, y sin punto B no se la puede llevar a nada tangible. La pauta está sin resultado la última semana, con presupuesto chico y poco stock para mostrar."
-  }
- ],
- "recorrido": {
-  "titulo": "De la intuición a los números propios",
-  "texto": "En julio el diagnóstico era claro: produce más y factura lo mismo, y hace ella el diseño, la producción, la comunicación y el contenido, así que el tiempo estratégico no aparece. La primera decisión fue poner su marca personal adelante y a Kie como el vehículo, porque la conexión que genera ella es el activo que tracciona. De ahí salió la tarea de juntar datos de clientas y audiencia en un Notion compartido, y apareció un dato que cambia el tono de la comunicación: el grueso de su público tiene entre 25 y 34 años, más grande que el de antes. El movimiento más importante de estas semanas lo hizo sola, cruzando la recompra con el tamaño de la comunidad de WhatsApp: 236 clientas de los dos lados. Con ese número sobre la mesa quedó definido el mecanismo de lanzamiento, con la primicia adentro de la comunidad, preventa a precio inicial y stock reservado para las que siempre compran. El drop del miedo dejó probado lo que pasa cuando el mecanismo se estira: semanas de concepto antes de que llegaran las prendas, un carrusel de conversión publicado con el producto todavía en camino y un carrusel de producto viejo chocando con la narrativa nueva, y ella lo detectó antes de que nadie se lo dijera. Se descartó seguir mezclando las 2 cuentas: la marca personal documenta el proceso crudo y Kie muestra producto, estilo y clientas usando la ropa. Lo último que se ordenó fue la infraestructura, que es lo que después permite medir: una sola base en Notion, mails segmentados por nivel de compra y una landing pensada para celular. El 16 de septiembre nombró la traba de fondo: se identifica con su marca y recién ahora está tratando de despegarse, algo que Facu ya le había marcado sobre su Instagram personal. Juana le dio la salida concreta, que es tratar a la marca como una persona con postura, obsesiones y manera de decir las cosas, y hacer sobre la marca el mismo ejercicio que ya hizo sobre ella. Para la colección nueva de seis o siete conjuntos salió una activación armada: personas vestidas con las prendas infiltradas entre la gente, un desfile espontáneo de 15 minutos sobre una alfombra desplegada en el momento, y todo documentado con voiceover contando la idea y las reacciones.",
-  "hitos": [
-   {
-    "cuando": "17 jul",
-    "que": "diagnóstico: produce más y factura lo mismo"
-   },
-   {
-    "cuando": "31 jul",
-    "que": "datos de clientas en notion; público de 25 a 34"
-   },
-   {
-    "cuando": "2 sep",
-    "que": "repaso con teo: módulo de comunidad y buyer preciso"
-   },
-   {
-    "cuando": "5 sep",
-    "que": "236 recompras igualan el tamaño de la comunidad"
-   },
-   {
-    "cuando": "2 al 9 sep",
-    "que": "grupales: orden del lanzamiento y arquetipos por pieza"
-   },
-   {
-    "cuando": "10 sep",
-    "que": "pipeline único, mails segmentados y landing mobile"
-   },
-   {
-    "cuando": "11 sep",
-    "que": "el pantalón queda listo para la venta"
-   },
-   {
-    "cuando": "16 sep",
-    "que": "grupal con juana: la marca se trabaja como persona y sale la activación de la colección"
-   }
-  ]
- },
- "lectura": {
-  "titular": "El cuello es el punto B: con una meta con fecha, cada lanzamiento se puede evaluar.",
-  "texto": "El contenido está hecho y ella sostiene el ritmo sin frenarse. Falta la definición de qué tiene que pasar y para cuándo. El punto A ya lo encontró sola, cruzando la recompra con el tamaño de la comunidad. Queda fijar el número de llegada y elegir el lanzamiento donde se mide, que es el de los anillos.",
-  "cita": "Si son 236 las personas que me recompran, era igual a la cantidad de gente que yo tenía en la comunidad. Entonces, ahora que aumentamos, si esta gente de la comunidad me compra, voy a aumentar la tasa de recompra.",
-  "cita_autor": "Bianca Antonini · 5 de septiembre de 2026"
- },
- "respuestas": [
-  {
-   "tema": "El punto de partida",
-   "respuesta": "236 clientas recompraron, y la comunidad de WhatsApp tenía ese mismo tamaño. Ese es el número contra el que se mide todo lo que viene."
-  },
-  {
-   "tema": "El mecanismo de lanzamiento",
-   "respuesta": "La primicia va siempre adentro de la comunidad, con preventa a precio inicial y stock reservado para las que siempre compran. Ventana de comunicación corta y poco stock para afuera."
-  },
-  {
-   "tema": "Cuándo sale el contenido de conversión",
-   "respuesta": "Cuando el producto ya está disponible: con el producto en camino, la gente tiene semanas para pensarlo. Y una campaña lleva una sola narrativa, sin producto viejo mezclado."
-  },
-  {
-   "tema": "Qué necesita una comunidad para funcionar",
-   "respuesta": "Estructura y actividad: ritual de bienvenida, respuesta a cada presentación, un reto por mes, curaduría de recursos, premios por participación e integración con la vida real."
-  },
-  {
-   "tema": "La separación de las 2 cuentas",
-   "respuesta": "En su marca personal documenta el proceso crudo, en capítulos, con la serie Tengo Miedo. En Kie va producto, estilo y clientas usando la ropa."
-  },
-  {
-   "tema": "El orden del lanzamiento",
-   "respuesta": "Primero el concepto general, después el producto en detalle y recién ahí se abre la venta. Fede confirmó ese orden y le pidió destacadas hacia la comunidad, un vlog de lanzamiento y un video largo con la colección prenda por prenda."
-  },
-  {
-   "tema": "Los personajes por campaña",
-   "respuesta": "Cada pieza usa un arquetipo propio: un vocero, una modelo que performe, una actriz con un monólogo, con un formato distinto por campaña. Sale del trabajo con Juana."
-  },
-  {
-   "tema": "La prueba social de Kie",
-   "respuesta": "Contenido de clientas usando la ropa, con visibilidad para las que suben: la clienta quiere ser vista. Hoy es el material que falta en la cuenta."
-  },
-  {
-   "tema": "Cómo se decide qué contenido hacer",
-   "respuesta": "Se analiza lo que ya funcionó y se repite, en lugar de inventar algo distinto cada vez. Y el foco se corre del ego hacia la obra y el servicio: primero qué necesita la clienta."
-  }
- ],
- "entregables": [
-  {
-   "que": "El módulo de dinámicas de comunidad de WhatsApp que baja Teo, sobre la arquitectura mínima que él ya tiene escrita de cuando iba a armar BUS",
-   "para": "Lo aplica al concepto del drop: ritual de bienvenida, un reto por mes, premios por participación y una dinámica de contar el propio miedo a cambio de un beneficio."
-  },
-  {
-   "que": "Las automatizaciones de mail con Risen y Claude, configuradas por Cáscara sobre la base unificada de Notion",
-   "para": "Quedan segmentadas por nivel de compra, para que la clienta que recompró tres veces reciba algo distinto de la que entró ayer."
-  },
-  {
-   "que": "La auditoría de estrategia de lanzamiento con Franco",
-   "para": "Sale de ahí la calibración del mensaje, los lineamientos de todos los lanzamientos y la decisión sobre la pauta, que esta última semana no trajo ventas."
-  },
-  {
-   "que": "El ejemplo de la serie de contenido de Delfi Ferro que le pasa Facu",
-   "para": "Lo usa como referencia de formato para armar Tengo Miedo en capítulos."
-  },
-  {
-   "que": "La edición de los contenidos que grabó en el cowork, de regalo",
-   "para": "Los publica sin cargar costo de edición."
-  }
- ],
- "punto_b": [
-  {
-   "fecha": "25 de septiembre de 2026",
-   "titulo": "El drop del miedo cerrado con números",
-   "texto": "Cerrar el drop y poder responder tres cosas: cuánta gente hay en la comunidad de WhatsApp, qué porcentaje de las ventas salió de ahí y cuántas de esas clientas eran recompra. Ese es el punto A que hoy no existe. Arriba, el buyer definido con los datos de compra, mensajes y comentarios en la mano."
-  },
-  {
-   "fecha": "20 de octubre de 2026",
-   "titulo": "El lanzamiento de los anillos con el mecanismo completo",
-   "texto": "Los anillos son el producto más fácil de vender que tiene, porque la demanda ya está probada en TikTok y hay material viejo para recopilar. El lanzamiento corre con el mecanismo entero: preventa a la comunidad con stock reservado, dinámica de participación adentro del grupo, ventana de comunicación corta y producto disponible cuando sale el contenido de conversión. La meta es superar las 236 recompras y que la mayor parte venga de la comunidad."
-  }
- ],
- "roadmap": [
-  {
-   "cuando": "14 al 18 de septiembre",
-   "objetivo": "Ordenar el lanzamiento y auditarlo con Franco",
-   "entregable": "Un solo documento con la narrativa del drop, el calendario, las fechas de los productos, los contenidos que vienen y los beneficios para la comunidad. Con eso va a la reunión con Franco en la misma semana: lineamientos de lanzamiento, calibración del mensaje y qué hacer con la pauta.",
-   "quien": "Bianca con Franco"
-  },
-  {
-   "cuando": "14 al 25 de septiembre",
-   "objetivo": "Probar el mecanismo en chico con el pantalón",
-   "entregable": "Preventa a la comunidad a precio inicial con stock reservado, el carrusel de conversión saliendo cuando el producto ya está disponible y el drop viejo separado del nuevo. Se anota el mismo día qué parte de cada venta salió de la comunidad.",
-   "quien": "Bianca"
-  },
-  {
-   "cuando": "14 al 25 de septiembre",
-   "objetivo": "Unificar el pipeline y el mail, y rehacer la landing",
-   "entregable": "Una sola base en Notion con origen del contacto, compras y productos, que es lo que permite saber qué parte de la venta salió de la comunidad. Encima, los mails segmentados por nivel de compra y la landing mobile first, con formulario arriba, captura de mail en 2 lugares y WhatsApp visible.",
-   "quien": "Bianca con Cáscara"
-  },
-  {
-   "cuando": "18 de septiembre al 9 de octubre",
-   "objetivo": "Darle estructura a la comunidad de WhatsApp",
-   "entregable": "El módulo de dinámicas que baja Teo, aplicado al concepto del drop: ritual de bienvenida, un reto por mes, premios por participación y respuesta a cada presentación. Arranca con la dinámica de contar el propio miedo a cambio de un beneficio.",
-   "quien": "Bianca con Teo"
-  },
-  {
-   "cuando": "21 de septiembre al 6 de octubre",
-   "objetivo": "Definir el buyer con datos",
-   "entregable": "Perfil de la clienta armado con datos de compra, mensajes directos y comentarios: rango de edad, qué compra, qué pide y qué la hace volver. Queda cerrado antes de que se prepare el lanzamiento de los anillos, porque es lo que decide las dinámicas y la oferta.",
-   "quien": "Bianca con Facu"
-  },
-  {
-   "cuando": "21 de septiembre al 16 de octubre",
-   "objetivo": "Separar las 2 cuentas",
-   "entregable": "La serie Tengo Miedo en su marca personal, en capítulos y sin filtro, llevando la conversación del miedo general al miedo de vestirse como una quiere. En Kie, producto y clientas usando la ropa, que es la prueba social que hoy falta en la cuenta.",
-   "quien": "Bianca con Juana y Fede"
-  },
-  {
-   "cuando": "20 de octubre",
-   "objetivo": "Lanzar los anillos con el mecanismo completo",
-   "entregable": "Fecha dura. Preventa a la comunidad con stock reservado, dinámica de participación adentro del grupo, ventana de comunicación corta y producto disponible el día que sale el contenido de conversión. La demanda de los anillos ya está probada en TikTok.",
-   "quien": "Bianca"
-  },
-  {
-   "cuando": "21 al 31 de octubre",
-   "objetivo": "Leer el ciclo contra el punto A",
-   "entregable": "Ventas totales, cuántas salieron de la comunidad y cuántas fueron recompra, contra las 236 de referencia. Los números se leen desde el primer día del lanzamiento, y el 31 se presentan cerrados para definir el tramo siguiente.",
-   "quien": "Bianca con Facu"
-  }
- ],
- "accionables": [
-  {
-   "cuando": "Septiembre",
-   "cliente": [
-    "Mandar el documento único con narrativa, calendario, productos, contenidos y beneficios para la comunidad",
-    "Agendar y tener la reunión con Franco por estrategia de lanzamiento y pauta",
-    "Unificar el pipeline en una sola base de Notion con origen del contacto, compras y productos",
-    "Rehacer la landing mobile first: formulario arriba, captura de mail en 2 lugares y WhatsApp visible",
-    "Comprar el dominio en Hostinger y conectarlo a Logoable",
-    "Correr la preventa del pantalón dentro de la comunidad antes de abrirla afuera",
-    "Grabar el primer capítulo de la serie Tengo Miedo en su marca personal, sin colaboración con Kie"
-   ],
-   "cascara": [
-    "Teo le baja el módulo de dinámicas de comunidad sobre la arquitectura mínima que ya tiene escrita",
-    "Cáscara le configura las automatizaciones de mail con Risen y Claude, segmentadas por nivel de compra",
-    "Franco audita la estrategia de lanzamiento y le marca los lineamientos",
-    "Facu le pasa el ejemplo de la serie de contenido de Delfi Ferro",
-    "Cáscara le edita los contenidos que grabó en el cowork, de regalo"
-   ]
-  },
-  {
-   "cuando": "Octubre",
-   "cliente": [
-    "Cerrar el buyer con datos de compra, mensajes y comentarios",
-    "Subir contenido de clientas usando la ropa en Kie",
-    "Lanzar los anillos con preventa a la comunidad y stock reservado"
-   ],
-   "cascara": [
-    "Juana trabaja con ella cómo conectar la campaña del miedo con lo que la gente tiene que sentir y hacer",
-    "Fede le calibra los guiones para que cada pieza tenga una intención clara",
-    "Facu sostiene el seguimiento hasta el lanzamiento de los anillos"
-   ]
-  },
-  {
-   "cuando": "Cierre, 31 de octubre",
-   "cliente": [
-    "Presentar los números del lanzamiento de los anillos: ventas totales, ventas desde la comunidad y recompra"
-   ],
-   "cascara": [
-    "Facu y Teo revisan el resultado contra el punto A y definen el tramo siguiente"
-   ]
-  }
- ],
- "conclusion": "El negocio se direcciona hacia la comunidad como canal de venta propio. La marca personal de Bianca queda adelante y Kie funciona como el vehículo: ella genera la conversación y la ropa la cierra. La comunidad de WhatsApp pasa a ser el lugar donde se lanza primero, con preventa y stock reservado, y la base unificada de Notion es lo que permite saber qué parte de la facturación sale de ahí. Con eso medido, cada drop se compara contra el anterior en lugar de evaluarse por sensación.\n\nEl lanzamiento de los anillos queda con día puesto, el 20 de octubre, y esa es la fecha dura del tramo: el mecanismo entero corre de punta a punta una vez y quedan 10 días para leer el resultado contra las 236 recompras. Todo lo que lo alimenta avanza junto: el pantalón prueba el mecanismo en chico mientras se arma la base de Notion, la comunidad toma estructura mientras se define el buyer, y las 2 cuentas se separan mientras sale la serie. El apriete tiene una razón concreta acá, y es el drop del miedo: mostró qué pasa cuando la ventana se estira, con semanas de concepto antes de que existiera el producto y una conversión publicada con la prenda todavía en camino. Fechas cortas es la forma de que eso no se repita, y sostener ese calendario es parte del oficio de founder.\n\nEl frente que queda abierto son los números de partida: cuánta gente hay hoy en la comunidad de WhatsApp y qué meta de ventas desde ahí se fija para los anillos (falta confirmar). Eso se cierra con el drop del pantalón, el 25 de septiembre.",
- "carta": "Bianca, lo más importante de este tramo lo hiciste vos: el número que le faltaba al negocio lo encontraste cruzando datos una tarde, sin que nadie te lo pidiera. Lo mismo pasó con el anillo, cuando escuchaste lo que tu comunidad te estaba diciendo y lo lanzaste. Eso es lo que te va a hacer llegar y no se enseña. Lo que se agrega ahora es la parte menos vistosa: la fecha, el número y una comunidad con estructura, para que cada lanzamiento se pueda mirar de frente y comparar. Te espera un octubre con el mecanismo entero corriendo por primera vez y una comunidad que ya te contestó que quiere estar ahí. Cuando cierres los anillos vas a tener algo que hoy todavía no tenés: una manera clara de repetirlo.",
- "abierto": "Cuánta gente hay hoy en la comunidad de WhatsApp y qué meta de ventas desde ahí se fija para el lanzamiento de los anillos (falta confirmar). La fecha de la activación de la colección, que quedó como idea aceptada y sin día puesto (falta confirmar).",
- "handicap": {
-  "ejes": {
-   "oferta": 4,
-   "contenido": 4,
-   "demanda": 3,
-   "venta": 2,
-   "entrega": 2
-  },
-  "total": 15,
-  "tramo": "Listo para cerrar",
-  "ritmo": "verde",
-  "ritmo_texto": "Hace lo que queda de cada llamada.",
-  "eje_flojo": [
-   "venta",
-   "entrega"
+  "slug": "bianca-antonini",
+  "cliente": "Bianca Antonini",
+  "proyecto": "Kie — marca de ropa (la grafía aparece también como Quie, falta confirmar)",
+  "modo": "radiografia",
+  "orientacion": "Entregar",
+  "arranque": "(falta confirmar) — la primera llamada 1:1 registrada es del 17 de julio de 2026",
+  "etapa": "Último tramo del acompañamiento: el mecanismo de lanzamiento ya está definido y el tramo cierra el 31 de octubre con los anillos, leído contra el punto A.",
+  "metrica": "Qué parte de las ventas de cada drop sale de la comunidad de WhatsApp. Hoy no se mide. El único número firme son 236 clientas que recompraron.",
+  "titular": "El tramo es ponerle números al punto de partida y una fecha medible al lanzamiento de los anillos.",
+  "bajada": "Produce más y factura lo mismo, con las clientas de siempre. El contenido conceptual funciona y le falta la conexión con el producto y con una meta. Este tramo es para ponerle números al punto de partida y una fecha medible al de llegada: el lanzamiento de los anillos.",
+  "punto_a": [
+    {
+      "label": "Funciona",
+      "titulo": "El contenido y la lectura de su propia comunidad",
+      "texto": "El contenido conceptual del drop del miedo está bien hecho y conecta: transmite, genera respuestas y el editor y el diseñador de Kie entregan bien. Y ya tiene la prueba de que escuchar a su comunidad le vende. En TikTok la llamaban la chica de los anillos porque usaba muchos anillos. Teo le preguntó por qué no lanzaba un anillo, ella dijo que nunca lo había pensado, lo lanzó y le fue muy bien. Lo mismo había pasado con un TikTok mostrando una muestra de campera, que generó demanda antes de que el producto existiera."
+    },
+    {
+      "label": "Pendiente",
+      "titulo": "El mecanismo de lanzamiento",
+      "texto": "En este drop la comunicación arrancó mucho antes de que llegaran las prendas y se estiró: instaló el concepto durante semanas y recién ahora aparece el producto. En el medio subió un carrusel de venta de un producto viejo, que se choca con la narrativa nueva. Y el carrusel de conversión salió sin que el producto estuviera disponible, así que la gente tuvo demasiado tiempo para pensar. Ella ya lo detectó sola y dijo que para el próximo drop va a achicar la ventana de comunicación y meter producto al mismo tiempo."
+    },
+    {
+      "label": "Pendiente",
+      "titulo": "El objetivo",
+      "texto": "Falta el punto A y falta el punto B. Contrató Cáscara Founders para mejorar su contenido, para entender cómo monetizar y para mejorar sus lanzamientos, pero sin una meta de monetización que se pueda medir. Facu lo marcó en el repaso: es muy ambiguo, y sin punto B no se la puede llevar a nada tangible. La pauta está sin resultado la última semana, con presupuesto chico y poco stock para mostrar."
+    }
   ],
-  "sugiere": [
-   "Conseguir",
-   "Entregar"
+  "recorrido": {
+    "titulo": "De la intuición a los números propios",
+    "texto": "En julio el diagnóstico era claro: produce más y factura lo mismo, y hace ella el diseño, la producción, la comunicación y el contenido, así que el tiempo estratégico no aparece. La primera decisión fue poner su marca personal adelante y a Kie como el vehículo, porque la conexión que genera ella es el activo que tracciona. De ahí salió la tarea de juntar datos de clientas y audiencia en un Notion compartido, y apareció un dato que cambia el tono de la comunicación: el grueso de su público tiene entre 25 y 34 años, más grande que el de antes. El movimiento más importante de estas semanas lo hizo sola, cruzando la recompra con el tamaño de la comunidad de WhatsApp: 236 clientas de los dos lados. Con ese número sobre la mesa quedó definido el mecanismo de lanzamiento, con la primicia adentro de la comunidad, preventa a precio inicial y stock reservado para las que siempre compran. El drop del miedo dejó probado lo que pasa cuando el mecanismo se estira: semanas de concepto antes de que llegaran las prendas, un carrusel de conversión publicado con el producto todavía en camino y un carrusel de producto viejo chocando con la narrativa nueva, y ella lo detectó antes de que nadie se lo dijera. Se descartó seguir mezclando las 2 cuentas: la marca personal documenta el proceso crudo y Kie muestra producto, estilo y clientas usando la ropa. Lo último que se ordenó fue la infraestructura, que es lo que después permite medir: una sola base en Notion, mails segmentados por nivel de compra y una landing pensada para celular. El 16 de septiembre nombró la traba de fondo: se identifica con su marca y recién ahora está tratando de despegarse, algo que Facu ya le había marcado sobre su Instagram personal. Juana le dio la salida concreta, que es tratar a la marca como una persona con postura, obsesiones y manera de decir las cosas, y hacer sobre la marca el mismo ejercicio que ya hizo sobre ella. Para la colección nueva de seis o siete conjuntos salió una activación armada: personas vestidas con las prendas infiltradas entre la gente, un desfile espontáneo de 15 minutos sobre una alfombra desplegada en el momento, y todo documentado con voiceover contando la idea y las reacciones.",
+    "hitos": [
+      {
+        "cuando": "17 jul",
+        "que": "diagnóstico: produce más y factura lo mismo"
+      },
+      {
+        "cuando": "31 jul",
+        "que": "datos de clientas en notion; público de 25 a 34"
+      },
+      {
+        "cuando": "2 sep",
+        "que": "repaso con teo: módulo de comunidad y buyer preciso"
+      },
+      {
+        "cuando": "5 sep",
+        "que": "236 recompras igualan el tamaño de la comunidad"
+      },
+      {
+        "cuando": "2 al 9 sep",
+        "que": "grupales: orden del lanzamiento y arquetipos por pieza"
+      },
+      {
+        "cuando": "10 sep",
+        "que": "pipeline único, mails segmentados y landing mobile"
+      },
+      {
+        "cuando": "11 sep",
+        "que": "el pantalón queda listo para la venta"
+      },
+      {
+        "cuando": "16 sep",
+        "que": "grupal con juana: la marca se trabaja como persona y sale la activación de la colección"
+      },
+      {
+        "cuando": "17 sep",
+        "que": "ordena el pipeline para que cada persona sea una sola fila, entre por donde entre"
+      }
+    ]
+  },
+  "lectura": {
+    "titular": "El cuello es el punto B: con una meta con fecha, cada lanzamiento se puede evaluar.",
+    "texto": "El contenido está hecho y ella sostiene el ritmo sin frenarse. Falta la definición de qué tiene que pasar y para cuándo. El punto A ya lo encontró sola, cruzando la recompra con el tamaño de la comunidad. Queda fijar el número de llegada y elegir el lanzamiento donde se mide, que es el de los anillos.",
+    "cita": "Si son 236 las personas que me recompran, era igual a la cantidad de gente que yo tenía en la comunidad. Entonces, ahora que aumentamos, si esta gente de la comunidad me compra, voy a aumentar la tasa de recompra.",
+    "cita_autor": "Bianca Antonini · 5 de septiembre de 2026"
+  },
+  "respuestas": [
+    {
+      "tema": "El punto de partida",
+      "respuesta": "236 clientas recompraron, y la comunidad de WhatsApp tenía ese mismo tamaño. Ese es el número contra el que se mide todo lo que viene."
+    },
+    {
+      "tema": "El mecanismo de lanzamiento",
+      "respuesta": "La primicia va siempre adentro de la comunidad, con preventa a precio inicial y stock reservado para las que siempre compran. Ventana de comunicación corta y poco stock para afuera."
+    },
+    {
+      "tema": "Cuándo sale el contenido de conversión",
+      "respuesta": "Cuando el producto ya está disponible: con el producto en camino, la gente tiene semanas para pensarlo. Y una campaña lleva una sola narrativa, sin producto viejo mezclado."
+    },
+    {
+      "tema": "Qué necesita una comunidad para funcionar",
+      "respuesta": "Estructura y actividad: ritual de bienvenida, respuesta a cada presentación, un reto por mes, curaduría de recursos, premios por participación e integración con la vida real."
+    },
+    {
+      "tema": "La separación de las 2 cuentas",
+      "respuesta": "En su marca personal documenta el proceso crudo, en capítulos, con la serie Tengo Miedo. En Kie va producto, estilo y clientas usando la ropa."
+    },
+    {
+      "tema": "El orden del lanzamiento",
+      "respuesta": "Primero el concepto general, después el producto en detalle y recién ahí se abre la venta. Fede confirmó ese orden y le pidió destacadas hacia la comunidad, un vlog de lanzamiento y un video largo con la colección prenda por prenda."
+    },
+    {
+      "tema": "Los personajes por campaña",
+      "respuesta": "Cada pieza usa un arquetipo propio: un vocero, una modelo que performe, una actriz con un monólogo, con un formato distinto por campaña. Sale del trabajo con Juana."
+    },
+    {
+      "tema": "La prueba social de Kie",
+      "respuesta": "Contenido de clientas usando la ropa, con visibilidad para las que suben: la clienta quiere ser vista. Hoy es el material que falta en la cuenta."
+    },
+    {
+      "tema": "Cómo se decide qué contenido hacer",
+      "respuesta": "Se analiza lo que ya funcionó y se repite, en lugar de inventar algo distinto cada vez. Y el foco se corre del ego hacia la obra y el servicio: primero qué necesita la clienta."
+    }
   ],
-  "nota": "Se trabaja por venta y entrega, los 2 ejes más bajos: el mecanismo de lanzamiento —preventa a la comunidad, ventana corta y producto disponible cuando sale la conversión— es lo que convierte el contenido que ya funciona en ventas medibles."
- }
+  "entregables": [
+    {
+      "que": "El módulo de dinámicas de comunidad de WhatsApp que baja Teo, sobre la arquitectura mínima que él ya tiene escrita de cuando iba a armar BUS",
+      "para": "Lo aplica al concepto del drop: ritual de bienvenida, un reto por mes, premios por participación y una dinámica de contar el propio miedo a cambio de un beneficio."
+    },
+    {
+      "que": "Las automatizaciones de mail con Risen y Claude, configuradas por Cáscara sobre la base unificada de Notion",
+      "para": "Quedan segmentadas por nivel de compra, para que la clienta que recompró tres veces reciba algo distinto de la que entró ayer."
+    },
+    {
+      "que": "La auditoría de estrategia de lanzamiento con Franco",
+      "para": "Sale de ahí la calibración del mensaje, los lineamientos de todos los lanzamientos y la decisión sobre la pauta, que esta última semana no trajo ventas."
+    },
+    {
+      "que": "El ejemplo de la serie de contenido de Delfi Ferro que le pasa Facu",
+      "para": "Lo usa como referencia de formato para armar Tengo Miedo en capítulos."
+    },
+    {
+      "que": "La edición de los contenidos que grabó en el cowork, de regalo",
+      "para": "Los publica sin cargar costo de edición."
+    }
+  ],
+  "punto_b": [
+    {
+      "fecha": "25 de septiembre de 2026",
+      "titulo": "El drop del miedo cerrado con números",
+      "texto": "Cerrar el drop y poder responder tres cosas: cuánta gente hay en la comunidad de WhatsApp, qué porcentaje de las ventas salió de ahí y cuántas de esas clientas eran recompra. Ese es el punto A que hoy no existe. Arriba, el buyer definido con los datos de compra, mensajes y comentarios en la mano."
+    },
+    {
+      "fecha": "20 de octubre de 2026",
+      "titulo": "El lanzamiento de los anillos con el mecanismo completo",
+      "texto": "Los anillos son el producto más fácil de vender que tiene, porque la demanda ya está probada en TikTok y hay material viejo para recopilar. El lanzamiento corre con el mecanismo entero: preventa a la comunidad con stock reservado, dinámica de participación adentro del grupo, ventana de comunicación corta y producto disponible cuando sale el contenido de conversión. La meta es superar las 236 recompras y que la mayor parte venga de la comunidad."
+    }
+  ],
+  "roadmap": [
+    {
+      "cuando": "14 al 18 de septiembre",
+      "objetivo": "Ordenar el lanzamiento y auditarlo con Franco",
+      "entregable": "Un solo documento con la narrativa del drop, el calendario, las fechas de los productos, los contenidos que vienen y los beneficios para la comunidad. Con eso va a la reunión con Franco en la misma semana: lineamientos de lanzamiento, calibración del mensaje y qué hacer con la pauta.",
+      "quien": "Bianca con Franco"
+    },
+    {
+      "cuando": "14 al 25 de septiembre",
+      "objetivo": "Probar el mecanismo en chico con el pantalón",
+      "entregable": "Preventa a la comunidad a precio inicial con stock reservado, el carrusel de conversión saliendo cuando el producto ya está disponible y el drop viejo separado del nuevo. Se anota el mismo día qué parte de cada venta salió de la comunidad.",
+      "quien": "Bianca"
+    },
+    {
+      "cuando": "14 al 25 de septiembre",
+      "objetivo": "Unificar el pipeline y el mail, y rehacer la landing",
+      "entregable": "Una sola base en Notion con origen del contacto, compras y productos, que es lo que permite saber qué parte de la venta salió de la comunidad. Encima, los mails segmentados por nivel de compra y la landing mobile first, con formulario arriba, captura de mail en 2 lugares y WhatsApp visible.",
+      "quien": "Bianca con Cáscara"
+    },
+    {
+      "cuando": "18 de septiembre al 9 de octubre",
+      "objetivo": "Darle estructura a la comunidad de WhatsApp",
+      "entregable": "El módulo de dinámicas que baja Teo, aplicado al concepto del drop: ritual de bienvenida, un reto por mes, premios por participación y respuesta a cada presentación. Arranca con la dinámica de contar el propio miedo a cambio de un beneficio.",
+      "quien": "Bianca con Teo"
+    },
+    {
+      "cuando": "21 de septiembre al 6 de octubre",
+      "objetivo": "Definir el buyer con datos",
+      "entregable": "Perfil de la clienta armado con datos de compra, mensajes directos y comentarios: rango de edad, qué compra, qué pide y qué la hace volver. Queda cerrado antes de que se prepare el lanzamiento de los anillos, porque es lo que decide las dinámicas y la oferta.",
+      "quien": "Bianca con Facu"
+    },
+    {
+      "cuando": "21 de septiembre al 16 de octubre",
+      "objetivo": "Separar las 2 cuentas",
+      "entregable": "La serie Tengo Miedo en su marca personal, en capítulos y sin filtro, llevando la conversación del miedo general al miedo de vestirse como una quiere. En Kie, producto y clientas usando la ropa, que es la prueba social que hoy falta en la cuenta.",
+      "quien": "Bianca con Juana y Fede"
+    },
+    {
+      "cuando": "20 de octubre",
+      "objetivo": "Lanzar los anillos con el mecanismo completo",
+      "entregable": "Fecha dura. Preventa a la comunidad con stock reservado, dinámica de participación adentro del grupo, ventana de comunicación corta y producto disponible el día que sale el contenido de conversión. La demanda de los anillos ya está probada en TikTok.",
+      "quien": "Bianca"
+    },
+    {
+      "cuando": "21 al 31 de octubre",
+      "objetivo": "Leer el ciclo contra el punto A",
+      "entregable": "Ventas totales, cuántas salieron de la comunidad y cuántas fueron recompra, contra las 236 de referencia. Los números se leen desde el primer día del lanzamiento, y el 31 se presentan cerrados para definir el tramo siguiente.",
+      "quien": "Bianca con Facu"
+    }
+  ],
+  "accionables": [
+    {
+      "cuando": "Septiembre",
+      "cliente": [
+        "Mandar el documento único con narrativa, calendario, productos, contenidos y beneficios para la comunidad",
+        "Agendar y tener la reunión con Franco por estrategia de lanzamiento y pauta",
+        "Unificar el pipeline en una sola base de Notion con origen del contacto, compras y productos",
+        "Rehacer la landing mobile first: formulario arriba, captura de mail en 2 lugares y WhatsApp visible",
+        "Comprar el dominio en Hostinger y conectarlo a Logoable",
+        "Correr la preventa del pantalón dentro de la comunidad antes de abrirla afuera",
+        "Grabar el primer capítulo de la serie Tengo Miedo en su marca personal, sin colaboración con Kie",
+        "Armar el mapa de check-ins del recorrido de su cliente: dónde se inserta cada uno, qué pregunta, para qué se usa la respuesta y dónde cae el dato. Fecha: jueves 24 de septiembre, en la grupal de procesos"
+      ],
+      "cascara": [
+        "Teo le baja el módulo de dinámicas de comunidad sobre la arquitectura mínima que ya tiene escrita",
+        "Cáscara le configura las automatizaciones de mail con Risen y Claude, segmentadas por nivel de compra",
+        "Franco audita la estrategia de lanzamiento y le marca los lineamientos",
+        "Facu le pasa el ejemplo de la serie de contenido de Delfi Ferro",
+        "Cáscara le edita los contenidos que grabó en el cowork, de regalo"
+      ]
+    },
+    {
+      "cuando": "Octubre",
+      "cliente": [
+        "Cerrar el buyer con datos de compra, mensajes y comentarios",
+        "Subir contenido de clientas usando la ropa en Kie",
+        "Lanzar los anillos con preventa a la comunidad y stock reservado"
+      ],
+      "cascara": [
+        "Juana trabaja con ella cómo conectar la campaña del miedo con lo que la gente tiene que sentir y hacer",
+        "Fede le calibra los guiones para que cada pieza tenga una intención clara",
+        "Facu sostiene el seguimiento hasta el lanzamiento de los anillos"
+      ]
+    },
+    {
+      "cuando": "Cierre, 31 de octubre",
+      "cliente": [
+        "Presentar los números del lanzamiento de los anillos: ventas totales, ventas desde la comunidad y recompra"
+      ],
+      "cascara": [
+        "Facu y Teo revisan el resultado contra el punto A y definen el tramo siguiente"
+      ]
+    }
+  ],
+  "conclusion": "El negocio se direcciona hacia la comunidad como canal de venta propio. La marca personal de Bianca queda adelante y Kie funciona como el vehículo: ella genera la conversación y la ropa la cierra. La comunidad de WhatsApp pasa a ser el lugar donde se lanza primero, con preventa y stock reservado, y la base unificada de Notion es lo que permite saber qué parte de la facturación sale de ahí. Con eso medido, cada drop se compara contra el anterior en lugar de evaluarse por sensación.\n\nEl lanzamiento de los anillos queda con día puesto, el 20 de octubre, y esa es la fecha dura del tramo: el mecanismo entero corre de punta a punta una vez y quedan 10 días para leer el resultado contra las 236 recompras. Todo lo que lo alimenta avanza junto: el pantalón prueba el mecanismo en chico mientras se arma la base de Notion, la comunidad toma estructura mientras se define el buyer, y las 2 cuentas se separan mientras sale la serie. El apriete tiene una razón concreta acá, y es el drop del miedo: mostró qué pasa cuando la ventana se estira, con semanas de concepto antes de que existiera el producto y una conversión publicada con la prenda todavía en camino. Fechas cortas es la forma de que eso no se repita, y sostener ese calendario es parte del oficio de founder.\n\nEl frente que queda abierto son los números de partida: cuánta gente hay hoy en la comunidad de WhatsApp y qué meta de ventas desde ahí se fija para los anillos (falta confirmar). Eso se cierra con el drop del pantalón, el 25 de septiembre.",
+  "carta": "Bianca, lo más importante de este tramo lo hiciste vos: el número que le faltaba al negocio lo encontraste cruzando datos una tarde, sin que nadie te lo pidiera. Lo mismo pasó con el anillo, cuando escuchaste lo que tu comunidad te estaba diciendo y lo lanzaste. Eso es lo que te va a hacer llegar y no se enseña. Lo que se agrega ahora es la parte menos vistosa: la fecha, el número y una comunidad con estructura, para que cada lanzamiento se pueda mirar de frente y comparar. Te espera un octubre con el mecanismo entero corriendo por primera vez y una comunidad que ya te contestó que quiere estar ahí. Cuando cierres los anillos vas a tener algo que hoy todavía no tenés: una manera clara de repetirlo.",
+  "abierto": "Cuánta gente hay hoy en la comunidad de WhatsApp y qué meta de ventas desde ahí se fija para el lanzamiento de los anillos (falta confirmar). La fecha de la activación de la colección, que quedó como idea aceptada y sin día puesto (falta confirmar).",
+  "handicap": {
+    "ejes": {
+      "oferta": 4,
+      "contenido": 4,
+      "demanda": 3,
+      "venta": 2,
+      "entrega": 2
+    },
+    "total": 15,
+    "tramo": "Listo para cerrar",
+    "ritmo": "verde",
+    "ritmo_texto": "Hace lo que queda de cada llamada.",
+    "eje_flojo": [
+      "venta",
+      "entrega"
+    ],
+    "sugiere": [
+      "Conseguir",
+      "Entregar"
+    ],
+    "nota": "Se trabaja por venta y entrega, los 2 ejes más bajos: el mecanismo de lanzamiento —preventa a la comunidad, ventana corta y producto disponible cuando sale la conversión— es lo que convierte el contenido que ya funciona en ventas medibles."
+  }
 }
