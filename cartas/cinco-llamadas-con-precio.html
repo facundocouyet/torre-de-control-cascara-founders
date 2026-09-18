@@ -1,351 +1,167 @@
 <!doctype html>
-<html lang="es">
-<head>
+<html lang="es"><head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Las primeras cinco llamadas con precio · carta de módulo</title>
 <style>
-  html,body{margin:0;padding:0;background:#0A0A0C;height:100%;overflow:hidden;
-            font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
-  .it{font-family:"Times New Roman",Georgia,serif;font-style:italic}
-  .num{font-weight:800;letter-spacing:-.045em;font-variant-numeric:tabular-nums}
-  #deck{display:flex;height:100%;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;
-        scroll-behavior:smooth;scrollbar-width:none;-ms-overflow-style:none}
-  #deck::-webkit-scrollbar{display:none}
-  .slot{flex:0 0 auto;scroll-snap-align:center;display:flex;align-items:center;
-        justify-content:center;height:100%;overflow:hidden}
-  .pnl{width:1920px;height:1080px;transform-origin:center center;flex:0 0 auto}
-  #hint{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);font-size:12px;
-        letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.45);
-        background:rgba(0,0,0,.35);padding:7px 14px;pointer-events:none;transition:opacity .6s;z-index:9}
-  #bar{position:fixed;left:0;bottom:0;height:2px;background:rgba(255,255,255,.55);width:0;
-       transition:width .15s linear;z-index:10}
-  @media print{
-    html,body{overflow:visible;height:auto;background:#fff}
-    #deck{display:block;overflow:visible;height:auto}
-    .slot{display:block;height:auto;page-break-after:always;break-after:page}
-    .pnl{transform:none!important;zoom:.52}
-    #hint,#bar{display:none}
-    @page{size:landscape;margin:0}
-  }
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#ECEAE4;color:#171717;
+  font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.hoja{max-width:880px;margin:0 auto;padding:64px 32px 120px}
+.caja{display:inline-block;border:1px solid #8E8B85;padding:6px 13px;font-size:10.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:#6A6A66}
+h1{font-size:clamp(38px,6vw,58px);font-weight:800;letter-spacing:-.038em;line-height:1.02;
+  margin:28px 0 0;text-wrap:balance}
+.bajada{font-size:21px;line-height:1.5;color:#6A6A66;margin:18px 0 0;max-width:60ch}
+.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:flex;
+  justify-content:space-between;gap:20px 30px;align-items:baseline;flex-wrap:wrap}
+.lista .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.lista .tx{font-size:17px;line-height:1.5;color:#6A6A66;max-width:58ch;margin-top:7px}
+.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;white-space:nowrap}
+
+section{margin-top:62px}
+section .n{font-size:11px;letter-spacing:.2em;color:#8E8B85;font-variant-numeric:tabular-nums}
+section h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 0;max-width:62ch}
+
+.pasos{margin-top:26px}
+.paso{display:grid;grid-template-columns:52px minmax(0,1fr);gap:22px;align-items:baseline;
+  border-top:1px solid #DBD7D2;padding:20px 0}
+.paso .p{font-size:20px;font-weight:800;letter-spacing:-.04em;color:#8E8B85;
+  font-variant-numeric:tabular-nums;line-height:1.3}
+.paso .t{font-size:19px;line-height:1.55;max-width:58ch}
+
+.entregables{margin-top:26px}
+.cab{display:flex;justify-content:space-between;align-items:baseline;gap:20px;
+  border-bottom:2px solid #171717;padding-bottom:12px}
+.cab .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.chk{display:grid;grid-template-columns:26px minmax(0,1fr);gap:18px;align-items:start;
+  border-bottom:1px solid #DBD7D2;padding:18px 0;cursor:pointer}
+.chk .box{position:relative;flex:0 0 auto;width:20px;height:20px;border:2px solid #6A6A66;margin-top:3px}
+.chk .box i{position:absolute;left:4px;top:1px;width:8px;height:14px;
+  border-right:3px solid #171717;border-bottom:3px solid #171717;
+  transform:rotate(45deg) scale(0);transform-origin:center;
+  transition:transform .16s cubic-bezier(.2,1.4,.4,1)}
+.chk.done .box i{transform:rotate(45deg) scale(1)}
+.chk .t{font-size:19px;line-height:1.55;max-width:58ch}
+/* el fibrón pasa por el medio de la letra, y en cada línea del renglón */
+.chk .txt{display:inline;background-repeat:no-repeat;background-position:0 center;background-size:0% 8px;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 10' preserveAspectRatio='none'%3E%3Cpath d='M0 4.2L6 .8L24 6L44 1.2L68 6.6L94 1.4L120 6.2L144 1L170 6.4L192 1.6L200 5L200 9.2L0 8.8Z' fill='%23171717'/%3E%3C/svg%3E");
+  -webkit-box-decoration-break:clone;box-decoration-break:clone;
+  transition:background-size .28s cubic-bezier(.3,.9,.3,1),color .2s}
+.chk.done .txt{background-size:100% 8px;color:#8E8B85}
+.chk:focus-visible{outline:1px solid #171717;outline-offset:4px}
+
+.hoja-link{margin-top:22px;font-size:18px;line-height:1.55;color:#6A6A66;max-width:60ch}
+.hoja-link a{color:#171717;text-decoration:underline;text-underline-offset:3px}
+
+/* la bajada personalizada, cuando se prepara el envío desde la torre */
+.bajada-bloque{margin-top:56px;border:1px solid #171717;padding:30px 28px;background:#FBFAF8}
+.bajada-bloque .tt{font-size:26px;font-weight:800;letter-spacing:-.028em;line-height:1.2}
+.bajada-bloque .sub{font-size:17px;line-height:1.5;color:#6A6A66;margin-top:10px;max-width:58ch}
+.bajada-grilla{display:grid;gap:24px;margin-top:26px;grid-template-columns:1fr!important}
+.bajada-grilla .k{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85;
+  border-top:2px solid #171717;padding-top:14px}
+.bajada-grilla .v{font-size:18.5px;line-height:1.55;margin-top:9px;max-width:58ch}
+
+.pie{margin-top:86px;border-top:1px solid #171717;padding-top:22px;display:flex;
+  justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6A6A66}
+.sello{width:28px;height:28px;border:1.5px solid #171717;display:inline-flex;
+  align-items:center;justify-content:center;font-size:13px;font-weight:800}
+
+@media (max-width:640px){
+  .hoja{padding:40px 20px 90px}
+  .paso{grid-template-columns:38px minmax(0,1fr);gap:14px}
+  .bajada-bloque{padding:22px 18px}
+}
+@media print{
+  body{background:#fff}
+  section{break-inside:avoid;margin-top:40px}
+  .chk{cursor:default}
+}
 </style>
 </head>
-<body>
-<div id="deck">
-<div class="slot" style="background:#171717;color:#FBFAF8;">
-<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #171717; display: flex; padding: 34px;">
-  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #3A3A40;">
-<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
-
-    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #8C8C90; padding: 7px 14px; margin-bottom: 56px;">
-      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #8C8C90;">Cáscara Founders</span>
-    </div>
-
-    <div style="height:96px;"></div>
-    <div style="font-size:28px;letter-spacing:.24em;text-transform:uppercase;color:#8C8C90;margin-bottom:36px;">Carta de módulo</div>
-    <div style="font-size:96px;font-weight:800;letter-spacing:-.035em;line-height:1.0;color:#FBFAF8;margin-bottom:44px;max-width:1560px;">Las primeras cinco llamadas con precio</div>
-    <div style="font-size:36px;line-height:1.42;color:#C9C7C3;max-width:1420px;">Cinco llamadas hechas con el precio dicho, cada una con la objeción anotada y la corrección que sale de ahí.</div>
-    <div style="margin-top:70px;border-top:1px solid #3A3A40;padding-top:26px;max-width:1500px;">
-      <div style="font-size:19px;letter-spacing:.2em;text-transform:uppercase;color:#8C8C90;margin-bottom:12px;">Qué habilidad mueve</div>
-      <div style="font-size:30px;line-height:1.4;color:#FBFAF8;">Venta · Oferta</div>
-    </div>
-
-
-    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #3A3A40;">
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;">Cáscara diseña, vos ejecutás</span>
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;" class="num">01 / 07</span>
-    </div>
+<body data-mod="cinco-llamadas-con-precio">
+<div class="hoja">
+<main id="deck">
+<header class="slot">
+  <div class="caja">Carta de módulo · Oferta y precio</div>
+  <h1>Las primeras cinco llamadas con precio</h1>
+  <p class="bajada">Cinco llamadas hechas con el precio dicho, cada una con la objeción anotada y la corrección que sale de ahí.</p>
+  <div class="lista">
+    <div><div class="et">Cuándo se asigna</div><div class="tx">Cuando la oferta ya está escrita y el founder todavía no la puso arriba de la mesa con un número.</div></div>
+    <span class="avance" data-cuenta="entregables">0 de 3</span>
+  </div>
+</header>
+<section>
+  <div class="n">01</div>
+  <h2>Qué tenés que hacer</h2>
+  <p class="consigna">En este orden. Cada paso se apoya en el anterior, así que no conviene saltear ninguno aunque parezca obvio.</p>
+  <div class="pasos">
+    <div class="paso"><span class="p">01</span><span class="t">Elegir cinco personas del entorno que entren en el cliente ideal escrito.</span></div>
+    <div class="paso"><span class="p">02</span><span class="t">Presentar la oferta completa con el precio, sin descuentos y sin versiones gratis.</span></div>
+    <div class="paso"><span class="p">03</span><span class="t">Grabar cada llamada y anotar en qué momento aparece la objeción.</span></div>
+    <div class="paso"><span class="p">04</span><span class="t">Registrar la objeción textual de cada una en la misma planilla.</span></div>
+    <div class="paso"><span class="p">05</span><span class="t">Corregir la promesa, el precio o el cliente ideal con lo que salió de las cinco.</span></div>
+    <div class="paso"><span class="p">06</span><span class="t">Cerrar la hipotesis de precio con el número que sostuvo más conversaciones.</span></div>
+  </div>
+</section>
+<section>
+  <div class="n">02</div>
+  <h2>Los entregables</h2>
+  <p class="consigna">La carta está hecha cuando estas 3 cosas existen. Tocá cada uno cuando lo termines: queda tachado y se guarda en este navegador.</p>
+  <div class="entregables">
+    <div class="cab"><span class="et">Lo que tiene que existir</span><span class="avance" data-cuenta="entregables">0 de 3</span></div>
+    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c0" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La lista de las cinco personas con fecha de llamada</span></span></div>
+    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c1" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La planilla de objeciones textuales llamada por llamada</span></span></div>
+    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c2" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La corrección escrita de la oferta después de las cinco</span></span></div>
+  </div>
+  <p class="hoja-link">La hoja donde se completa es la plantilla de este módulo: <a href="../plantillas/cinco-llamadas-con-precio.html">abrirla acá</a>.</p>
+</section>
+</main>
+<div class="pie"><div><span class="sello">C</span></div><div>Cáscara Founders · Oferta y precio</div></div>
 </div>
-
+<template id="tpl-bajada">
+<div class="bajada-bloque">
+  <div data-b="titulo" class="tt"></div>
+  <div class="sub">Esto lo escribimos para vos, sobre lo que venimos viendo en tu caso.</div>
+  <div data-b="grilla" class="bajada-grilla">
+    <div data-b="fila-porque"><div class="k">Por qué te toca ahora</div><div data-b="porque" class="v"></div></div>
+    <div data-b="fila-objetivo"><div class="k">El objetivo concreto</div><div data-b="objetivo" class="v"></div></div>
+    <div data-b="fila-mindset"><div class="k">Con qué cabeza encararla</div><div data-b="mindset" class="v"></div></div>
   </div>
 </div>
-</div>
-<div class="slot" style="background:#ECEAE4;color:#171717;">
-<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
-  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
-<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
-
-    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
-      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">Cuándo se usa</span>
-    </div>
-
-    <div style="font-size:76px;font-weight:800;letter-spacing:-.035em;line-height:1.02;margin-bottom:26px;max-width:1560px;">Cuándo se usa</div>
-    <div style="font-size:32px;line-height:1.46;margin-bottom:0px;max-width:1480px;">Cuando la oferta ya está escrita y el founder todavía no la puso arriba de la mesa con un número.</div>
-
-
-    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Oferta y precio · Cáscara Founders</span>
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">02 / 07</span>
-    </div>
-</div>
-
-  </div>
-</div>
-</div>
-<div class="slot" style="background:#ECEAE4;color:#171717;">
-<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
-  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
-<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
-
-    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
-      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">Los pasos</span>
-    </div>
-
-    <div style="font-size:76px;font-weight:800;letter-spacing:-.035em;line-height:1.02;margin-bottom:22px;max-width:1560px;">Los pasos</div>
-    <div style="font-size:28px;line-height:1.48;color:#6A6A66;margin-bottom:40px;max-width:1300px;">En este orden. Cada uno se apoya en el anterior.</div>
-    <div>
-      <div style="display:grid;grid-template-columns:96px minmax(0,1fr);gap:34px;align-items:baseline;
-           border-top:1px solid #DBD7D2;padding:26px 0;">
-        <span class="num" style="font-size:44px;color:#6A6A66;line-height:1;">01</span>
-        <span style="font-size:30px;line-height:1.42;">Elegir cinco personas del entorno que entren en el cliente ideal escrito.</span>
-      </div>      <div style="display:grid;grid-template-columns:96px minmax(0,1fr);gap:34px;align-items:baseline;
-           border-top:1px solid #DBD7D2;padding:26px 0;">
-        <span class="num" style="font-size:44px;color:#6A6A66;line-height:1;">02</span>
-        <span style="font-size:30px;line-height:1.42;">Presentar la oferta completa con el precio, sin descuentos y sin versiones gratis.</span>
-      </div>      <div style="display:grid;grid-template-columns:96px minmax(0,1fr);gap:34px;align-items:baseline;
-           border-top:1px solid #DBD7D2;padding:26px 0;">
-        <span class="num" style="font-size:44px;color:#6A6A66;line-height:1;">03</span>
-        <span style="font-size:30px;line-height:1.42;">Grabar cada llamada y anotar en qué momento aparece la objeción.</span>
-      </div>
-    </div>
-
-
-    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Oferta y precio · Cáscara Founders</span>
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">03 / 07</span>
-    </div>
-</div>
-
-  </div>
-</div>
-</div>
-<div class="slot" style="background:#ECEAE4;color:#171717;">
-<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
-  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
-<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
-
-    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
-      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">Los pasos</span>
-    </div>
-
-    <div style="font-size:76px;font-weight:800;letter-spacing:-.035em;line-height:1.02;margin-bottom:22px;max-width:1560px;">Los pasos</div>
-    <div style="font-size:28px;line-height:1.48;color:#6A6A66;margin-bottom:40px;max-width:1300px;">En este orden. Cada uno se apoya en el anterior.</div>
-    <div>
-      <div style="display:grid;grid-template-columns:96px minmax(0,1fr);gap:34px;align-items:baseline;
-           border-top:1px solid #DBD7D2;padding:26px 0;">
-        <span class="num" style="font-size:44px;color:#6A6A66;line-height:1;">04</span>
-        <span style="font-size:30px;line-height:1.42;">Registrar la objeción textual de cada una en la misma planilla.</span>
-      </div>      <div style="display:grid;grid-template-columns:96px minmax(0,1fr);gap:34px;align-items:baseline;
-           border-top:1px solid #DBD7D2;padding:26px 0;">
-        <span class="num" style="font-size:44px;color:#6A6A66;line-height:1;">05</span>
-        <span style="font-size:30px;line-height:1.42;">Corregir la promesa, el precio o el cliente ideal con lo que salió de las cinco.</span>
-      </div>      <div style="display:grid;grid-template-columns:96px minmax(0,1fr);gap:34px;align-items:baseline;
-           border-top:1px solid #DBD7D2;padding:26px 0;">
-        <span class="num" style="font-size:44px;color:#6A6A66;line-height:1;">06</span>
-        <span style="font-size:30px;line-height:1.42;">Cerrar la hipotesis de precio con el número que sostuvo más conversaciones.</span>
-      </div>
-    </div>
-
-
-    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Oferta y precio · Cáscara Founders</span>
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">04 / 07</span>
-    </div>
-</div>
-
-  </div>
-</div>
-</div>
-<div class="slot" style="background:#ECEAE4;color:#171717;">
-<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
-  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
-<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
-
-    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
-      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">Qué completar</span>
-    </div>
-
-    <div style="font-size:76px;font-weight:800;letter-spacing:-.035em;line-height:1.02;margin-bottom:22px;max-width:1560px;">Qué tenés que completar</div>
-    <div style="font-size:28px;line-height:1.48;color:#6A6A66;margin-bottom:40px;max-width:1400px;">La carta está hecha cuando estas 3 cosas existen. Tocá cada una cuando la termines.</div>
-    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:20px;border-bottom:2px solid #171717;padding-bottom:14px;margin-bottom:6px;">
-      <span style="font-size:21px;letter-spacing:.18em;text-transform:uppercase;color:#6A6A66;">Los entregables</span>
-      <span class="num" data-cuenta="completar" style="font-size:24px;color:#6A6A66;">0 de 3</span>
-    </div>
-        <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c0" data-g="completar"
-             style="display:grid;grid-template-columns:34px minmax(0,1fr);gap:22px;padding:20px 0;border-top:1px solid #DBD7D2;align-items:start;">
-          <span class="box" style="width:26px;height:26px;border:2px solid #6A6A66;margin-top:6px;"><i></i></span>
-          <span style="font-size:30px;line-height:1.42;"><span class="txt">La lista de las cinco personas con fecha de llamada</span></span>
-        </div>        <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c1" data-g="completar"
-             style="display:grid;grid-template-columns:34px minmax(0,1fr);gap:22px;padding:20px 0;border-top:1px solid #DBD7D2;align-items:start;">
-          <span class="box" style="width:26px;height:26px;border:2px solid #6A6A66;margin-top:6px;"><i></i></span>
-          <span style="font-size:30px;line-height:1.42;"><span class="txt">La planilla de objeciones textuales llamada por llamada</span></span>
-        </div>        <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c2" data-g="completar"
-             style="display:grid;grid-template-columns:34px minmax(0,1fr);gap:22px;padding:20px 0;border-top:1px solid #DBD7D2;align-items:start;">
-          <span class="box" style="width:26px;height:26px;border:2px solid #6A6A66;margin-top:6px;"><i></i></span>
-          <span style="font-size:30px;line-height:1.42;"><span class="txt">La corrección escrita de la oferta después de las cinco</span></span>
-        </div>
-
-
-    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Oferta y precio · Cáscara Founders</span>
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">05 / 07</span>
-    </div>
-</div>
-
-  </div>
-</div>
-</div>
-<div class="slot" style="background:#ECEAE4;color:#171717;">
-<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #ECEAE4; display: flex; padding: 34px;">
-  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #DBD7D2;">
-<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
-
-    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #9A968E; padding: 7px 14px; margin-bottom: 56px;">
-      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #6A6A66;">Las herramientas</span>
-    </div>
-
-    <div style="font-size:76px;font-weight:800;letter-spacing:-.035em;line-height:1.02;margin-bottom:22px;max-width:1560px;">Qué herramientas implementar</div>
-    <div style="font-size:28px;line-height:1.48;color:#6A6A66;margin-bottom:44px;max-width:1300px;">Si alguna te falta, pedíla en el grupo antes de arrancar.</div>
-    <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:44px 64px;align-items:start;">
-      <div style="border-top:2px solid #171717;padding-top:22px;">
-        <div style="font-size:28px;font-weight:700;letter-spacing:-.02em;line-height:1.25;">Google Meet o Zoom con grabación</div>
-      </div>      <div style="border-top:2px solid #171717;padding-top:22px;">
-        <div style="font-size:28px;font-weight:700;letter-spacing:-.02em;line-height:1.25;">Google Sheets (planilla de objeciones)</div>
-      </div>      <div style="border-top:2px solid #171717;padding-top:22px;">
-        <div style="font-size:28px;font-weight:700;letter-spacing:-.02em;line-height:1.25;">Calendly</div>
-      </div>
-    </div>
-
-
-    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #DBD7D2;">
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;">Oferta y precio · Cáscara Founders</span>
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #6A6A66;" class="num">06 / 07</span>
-    </div>
-</div>
-
-  </div>
-</div>
-</div>
-<div class="slot" style="background:#171717;color:#FBFAF8;">
-<div class="pnl" style="width: 1920px; height: 1080px; box-sizing: border-box; background: #171717; display: flex; padding: 34px;">
-  <div style="flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box; padding: 62px 88px 62px 88px; border: 1px solid #3A3A40;">
-<div class="fitme" style="display:flex;flex-direction:column;flex-grow:1;min-height:0;">
-
-    <div style="display: inline-flex; align-self: flex-start; border: 1px solid #8C8C90; padding: 7px 14px; margin-bottom: 56px;">
-      <span style="font-size: 17px; letter-spacing: 0.22em; text-transform: uppercase; color: #8C8C90;">Cáscara Founders</span>
-    </div>
-
-    <div style="height:80px;"></div>
-    <div style="font-size:19px;letter-spacing:.22em;text-transform:uppercase;color:#8C8C90;margin-bottom:44px;">Cómo trabajamos</div>
-    <div class="it" style="font-size:44px;line-height:1.42;color:#FBFAF8;max-width:1400px;">Cáscara baja la estructura, el criterio y un ejemplo de cada cosa. La ejecución es tuya, y es la parte que deja el resultado. Cuando termines esta carta, avisá en el grupo y sale la que sigue.</div>
-
-
-    <div style="margin-top: auto; padding-top: 48px; display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #3A3A40;">
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;">Avisá en el grupo cuando esté</span>
-      <span style="font-size: 19px; letter-spacing: 0.06em; color: #8C8C90;" class="num">07 / 07</span>
-    </div>
-</div>
-
-  </div>
-</div>
-</div>
-</div>
-<div id="hint">Scrolleá hacia la derecha · o usá las flechas</div>
-<div id="bar"></div>
+</template>
 <script>
 (function(){
-  var deck=document.getElementById('deck'),hint=document.getElementById('hint'),bar=document.getElementById('bar');
-  var slots=[].slice.call(deck.querySelectorAll('.slot'));
-  function shrink(){
-    slots.forEach(function(sl){
-      var f=sl.querySelector('.fitme'); if(!f||f.dataset.done) return;
-      f.style.zoom=1;
-      var over=f.scrollHeight/f.clientHeight;
-      if(over>1.005){ f.style.zoom=Math.max(0.62,(1/over)*0.985); }
-      f.dataset.done='1';
-    });
-  }
-  function fit(){var vw=innerWidth,vh=innerHeight,s=Math.min(vw/1920,vh/1080);
-    slots.forEach(function(sl){sl.querySelector('.pnl').style.transform='scale('+s+')';sl.style.width=(1920*s)+'px';});
-    shrink();prog();}
-  function prog(){var m=deck.scrollWidth-deck.clientWidth;bar.style.width=(m>0?(deck.scrollLeft/m*100):100)+'%';}
-  var cur=0,busy=0;
-  function go(d){busy=1;clearTimeout(go._t);go._t=setTimeout(function(){busy=0;},520);
-    cur=Math.max(0,Math.min(slots.length-1,cur+d));
-    deck.scrollTo({left:slots[cur].offsetLeft-(deck.clientWidth-slots[cur].offsetWidth)/2,behavior:'smooth'});}
-  function sync(){if(busy)return;var w=slots[0]?slots[0].offsetWidth:1;
-    cur=Math.max(0,Math.min(slots.length-1,Math.round(deck.scrollLeft/w)));}
-  addEventListener('resize',fit);
-  deck.addEventListener('scroll',function(){prog();sync();hint.style.opacity=0;});
-  deck.addEventListener('wheel',function(e){if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){deck.scrollLeft+=e.deltaY;e.preventDefault();}},{passive:false});
-  document.addEventListener('keydown',function(e){
-    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){go(1);e.preventDefault();}
-    if(e.key==='ArrowLeft'||e.key==='PageUp'){go(-1);e.preventDefault();}
-    if(e.key==='Home'){cur=0;go(0);} if(e.key==='End'){cur=slots.length-1;go(0);}});
-  setTimeout(function(){hint.style.opacity=0;},5000); fit();
-})();
-</script>
-
-<style>
-  .chk{cursor:pointer;position:relative}
-  .chk .box{position:relative;flex:0 0 auto}
-  .chk .box i{position:absolute;left:6px;top:2px;width:10px;height:19px;
-    border-right:4px solid #171717;border-bottom:4px solid #171717;
-    transform:rotate(45deg) scale(0);transform-origin:center;transition:transform .16s cubic-bezier(.2,1.4,.4,1)}
-  .chk.done .box i{transform:rotate(45deg) scale(1)}
-  /* el fibrón pasa por el medio de la letra, y en cada línea del renglón */
-  .chk .txt{display:inline;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 10' preserveAspectRatio='none'%3E%3Cpath d='M0 4.2L6 .8L24 6L44 1.2L68 6.6L94 1.4L120 6.2L144 1L170 6.4L192 1.6L200 5L200 9.2L0 8.8Z' fill='%23171717'/%3E%3C/svg%3E");
-    background-repeat:no-repeat;background-position:0 center;background-size:0% 9px;
-    -webkit-box-decoration-break:clone;box-decoration-break:clone;
-    transition:background-size .28s cubic-bezier(.3,.9,.3,1),opacity .2s}
-  .chk.done .txt{background-size:100% 9px}
-  .chk.done .txt{color:#8E8B85}
-</style>
-<script>
-(function(){
-  var K='cf-chk-'+(document.title||'doc').replace(/[^a-z0-9]/gi,'').slice(0,40);
+  var K='cf-carta-'+(document.body.dataset.mod||'x');
   var st={}; try{ st=JSON.parse(localStorage.getItem(K)||'{}'); }catch(e){}
-  function pintar(){ document.querySelectorAll('.chk').forEach(function(el){
-    el.classList.toggle('done', !!st[el.dataset.k]);
-    el.setAttribute('aria-checked', st[el.dataset.k]?'true':'false'); }); contar(); }
-  function contar(){ document.querySelectorAll('[data-cuenta]').forEach(function(c){
-    var g=c.dataset.cuenta, t=0,h=0;
-    document.querySelectorAll('.chk[data-g="'+g+'"]').forEach(function(el){t++; if(st[el.dataset.k])h++;});
-    c.textContent=h+' de '+t; }); }
+  function contar(){
+    document.querySelectorAll('[data-cuenta]').forEach(function(c){
+      var g=c.dataset.cuenta,t=0,h=0;
+      document.querySelectorAll('.chk[data-g="'+g+'"]').forEach(function(el){t++; if(st[el.dataset.k])h++;});
+      c.textContent=h+' de '+t;});
+  }
+  function pintar(){
+    document.querySelectorAll('.chk').forEach(function(el){
+      el.classList.toggle('done', !!st[el.dataset.k]);
+      el.setAttribute('aria-checked', st[el.dataset.k]?'true':'false');});
+    contar();
+  }
   document.addEventListener('click',function(e){
-    var el=e.target.closest('.chk'); if(!el)return;
+    var el=e.target.closest && e.target.closest('.chk'); if(!el)return;
     st[el.dataset.k]=!st[el.dataset.k];
     try{ localStorage.setItem(K,JSON.stringify(st)); }catch(err){}
-    pintar(); });
+    pintar();});
   document.addEventListener('keydown',function(e){
     if(e.key!==' '&&e.key!=='Enter')return;
     var el=document.activeElement && document.activeElement.closest && document.activeElement.closest('.chk');
-    if(!el)return; e.preventDefault(); el.click(); });
+    if(!el)return; e.preventDefault(); el.click();});
   pintar();
 })();
 </script>
-<template id="tpl-bajada">
-<div class="slot" style="background:#ECEAE4;color:#171717;">
-<div class="pnl" style="width:1920px;height:1080px;box-sizing:border-box;background:#ECEAE4;
-     display:flex;flex-direction:column;justify-content:center;padding:120px 150px;">
-  <div style="font-size:26px;letter-spacing:.22em;text-transform:uppercase;color:#6A6A66;margin-bottom:40px;">Tu bajada</div>
-  <div data-b="titulo" style="font-size:82px;font-weight:800;letter-spacing:-.035em;line-height:1.02;margin-bottom:26px;max-width:1500px;"></div>
-  <div style="font-size:30px;line-height:1.46;color:#6A6A66;max-width:1300px;margin-bottom:64px;">Esto lo escribimos para vos, sobre lo que venimos viendo en tu caso.</div>
-  <div data-b="grilla" style="display:grid;gap:56px 64px;align-items:start;">
-    <div data-b="fila-porque" style="border-top:2px solid #171717;padding-top:24px;">
-      <div style="font-size:20px;letter-spacing:.18em;text-transform:uppercase;color:#6A6A66;margin-bottom:16px;">Por qué te toca ahora</div>
-      <div data-b="porque" style="font-size:28px;line-height:1.46;"></div>
-    </div>
-    <div data-b="fila-objetivo" style="border-top:2px solid #171717;padding-top:24px;">
-      <div style="font-size:20px;letter-spacing:.18em;text-transform:uppercase;color:#6A6A66;margin-bottom:16px;">El objetivo concreto</div>
-      <div data-b="objetivo" style="font-size:28px;line-height:1.46;"></div>
-    </div>
-    <div data-b="fila-mindset" style="border-top:2px solid #171717;padding-top:24px;">
-      <div style="font-size:20px;letter-spacing:.18em;text-transform:uppercase;color:#6A6A66;margin-bottom:16px;">Con qué cabeza encararla</div>
-      <div data-b="mindset" style="font-size:28px;line-height:1.46;"></div>
-    </div>
-  </div>
-</div>
-</div>
-</template>
 </body></html>

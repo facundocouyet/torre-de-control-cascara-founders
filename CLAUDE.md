@@ -40,7 +40,7 @@ python3 generador/build_app.py         # datos de la app, desde el registro     
 python3 generador/app_shell.py         # la torre de control                    -> index.html
 python3 generador/build_site.py        # la versión de scroll -> inicio.html, programa.html,
                                        #   materiales.html, clientes.html
-python3 generador/build_cartas.py      # las cartas, desde fichas/inventario.json -> cartas/
+python3 generador/build_cartas.py      # las cartas (scroll), desde fichas/inventario.json -> cartas/
 python3 generador/build_plantillas.py  # las hojas, desde fichas/plantillas/    -> plantillas/
 python3 generador/build_cards.py       # el reparto de cartas por dueño         -> cards-por-dueno.html
 python3 generador/build_rol.py         # el documento del rol                   -> rol-lider-founders.html
@@ -51,8 +51,9 @@ python3 generador/build_ally.py        # el handoff del equipo                  
   commitea.
 - `fichas/` guarda también `inventario.json`. Los scripts que recorren las fichas de founder lo
   saltean; si agregás uno que las recorra, tiene que saltearlo también.
-- `generador/build.py` es el generador v1. `build2.py` y `build_cartas.py` lo importan como librería
-  para los paneles, los colores y el shell, así que su cuerpo va detrás de `if __name__ == "__main__"`.
+- `generador/build.py` es el generador v1. `build2.py` lo importa como librería para los paneles, los
+  colores y el shell, así que su cuerpo va detrás de `if __name__ == "__main__"`. `build_cartas.py`
+  dejó de importarlo el 18/9: las cartas pasaron a documento de scroll y se generan solas.
 - `build_plantillas.py` exporta la paleta (INK, PAPER, GREY, LINE, DISP, SERIF) que reusan `_base.py`,
   `build_cards.py`, `build_rol.py` y `build_ally.py`.
 - `contenido/arranques.json` guarda la primera llamada de cada cliente, por slug. `dias.py` lo lee
@@ -99,10 +100,10 @@ Los logos están en `assets/`: `cascara-founders-blanco.png` con el menú abiert
 `founders-f-blanco.png` con el menú plegado y en el visor de cartas, y `favicon.png`. Salen de los
 PNG de marca con el fondo pasado a transparente.
 
-**Verificar antes de dar algo por hecho.** Cada documento y cada carta son paneles de 1920×1080
-fijos: si el contenido crece, desborda en silencio. Después de tocar tamaños o textos hay que abrir
-en un navegador lo que se tocó —los diecinueve documentos, las cartas— y chequear que ningún `.pnl`
-tenga `scrollHeight > 1080`. Lo mismo con la app: no puede haber scroll horizontal ni a 1512px ni a
+**Verificar antes de dar algo por hecho.** Los documentos de cliente son paneles de 1920×1080 fijos:
+si el contenido crece, desborda en silencio. Después de tocar tamaños o textos hay que abrir en un
+navegador lo que se tocó y chequear que ningún `.pnl` tenga `scrollHeight > 1080`. Las cartas y las
+plantillas son documentos de scroll y no desbordan, pero se revisan igual a 1512 y a 390 de ancho. Lo mismo con la app: no puede haber scroll horizontal ni a 1512px ni a
 390px.
 
 ## Estado

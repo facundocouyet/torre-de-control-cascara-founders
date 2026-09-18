@@ -5,6 +5,34 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 18 de septiembre de 2026 · tarde
+
+Las cuarenta cartas dejaron de ser paneles horizontales y pasaron a ser un documento que se scrollea.
+
+- **El motivo, en criollo.** Cada panel tenía muy poca información encima. Había una hoja entera
+  dedicada a una sola línea —cuándo se asigna la carta— y eso no justificaba una hoja.
+- **Qué quedó adentro.** El contexto arriba (qué vas a tener cuando esté hecha y cuándo se asigna),
+  "qué tenés que hacer" con los pasos numerados y con aire, y "los entregables" como checklist que se
+  tacha con el fibrón y se acuerda de lo tachado.
+- **Qué salió.** Las herramientas, el estado interno de la carta, la hoja de "qué habilidad mueve" y
+  el panel de cierre de "cómo trabajamos". El campo `evidencia` del inventario tampoco entra: nombra
+  a otros clientes de la cartera y esta carta la lee el founder.
+- **Las 33 que tienen plantilla ahora la linkean** al pie de los entregables. Las otras siete no
+  muestran el link.
+- **La bajada personalizada sigue funcionando igual.** "Preparar el envío" en la torre la sigue
+  insertando justo debajo del encabezado, sin tocar una línea de `app_shell.py`.
+- **Pesan menos de la mitad**: de 23,8 KB a 10,1 KB por carta.
+
+**Para mirar antes de subir:** abrí dos o tres cartas y fijate que el checklist tache y que el
+contador de arriba se mueva. Se verificaron las cuarenta a 1512 y a 390 de ancho: sin desbordes, sin
+errores de JavaScript y con el tachado guardándose.
+
+**Queda pendiente:** los textos de `para_quien` en `fichas/inventario.json` están escritos en tercera
+persona ("cuando el founder describe a su cliente…") y ahora se leen de cara al founder. Pasarlos a
+segunda persona es una pasada de copy sobre las cuarenta.
+
+---
+
 ## 18 de septiembre de 2026
 
 El viernes tiene cuatro 1:1 de founders y el prep cubría dos. Se agregó el prep de las otras dos y
