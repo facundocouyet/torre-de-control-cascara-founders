@@ -1,26 +1,27 @@
-La carta de angulos de Seba llega hasta donde puede hacerlo solo
+El patron del founder que abre con un infoproducto, escrito para Aye
 
-Correccion de Facu: armar los angulos y convertirlos en piezas es trabajo de
-Fede con el en la llamada, y le estabamos pidiendo eso de tarea. La carta ahora
-termina cuatro secciones antes: los dolores textuales, las preguntas, el giro
-propio y las frases que ya le funcionaron. Salen la tabla de 8 a 12 angulos, el
-guion, los tres del mes y las tres piezas publicadas.
+El caso de Sebastian dejo un aprendizaje de roadmap que conviene tener escrito
+antes de que aparezca el siguiente igual: un founder con oficio y autoridad en
+un servicio que quiere poner un producto de educacion como el casillero de
+entrada de su escalera. Sofia Galvis es exactamente el mismo caso y esta a una
+llamada de Franco de necesitarlo.
 
-Entra el ejemplo practico de las preguntas, que era lo mas dificil de resolver
-solo: tres dolores con su pregunta al lado, la regla de que van en primera
-persona como se las hace el a las once de la noche, y la prueba para saber si
-esta bien —si se contesta con un si, todavia es una encuesta y no un gancho—.
-Debajo tiene un campo para probar una antes de llenar la tabla.
+El documento tiene cuatro partes: el recorrido real en cinco llamadas con
+fechas, los nueve movimientos en el orden que los hicimos, las cuatro senales
+para leer en que esta parado el caso sin abrir todo el historial, y las tres
+cosas que le tocan a la CSM. Mismo formato vertical que las cartas, sin campos
+para completar, porque es material del equipo y no una carta de modulo.
 
-Entra tambien un angulo armado de punta a punta, que no hay que completar: sale
-de una pieza que ya publico y muestra la forma completa, dolor, pregunta, giro,
-que se muestra, formato y cierre. Y cierra con la lista de lo que se baja con
-Fede, para que quede claro que esa llamada es de armado y no de arranque.
+Lo que queda escrito como regla: primero la oferta y despues el producto; la
+auditoria se hace contra los pilares que vendio el comercial; el que viene de
+servicios tiene mas producto del que cree; el punto A del alumno se documenta
+antes de la sesion 1; al founder sin historia en el producto nuevo no se le pide
+el ICP, se le pide profundizar el que bajo el comercial; lo que es decision
+nuestra se le da escrito; la carta llega hasta donde puede llegar solo; el
+negocio que ya factura queda nombrado; y las llamadas se encadenan con un
+documento y no con memoria.
 
-La carta del cliente ideal ajusta su bloque de cierre para decir lo mismo.
-
-Verificadas a 1512 y a 390: sin desbordes, sin scroll horizontal y sin errores
-de JS.
+Verificado a 1512 y a 390: sin desbordes ni scroll horizontal.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01X5PVbBwAY8Cfrb8woNrxbU

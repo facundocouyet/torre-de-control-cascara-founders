@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>El founder que abre con un infoproducto · Cáscara Founders</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#ECEAE4;color:#171717;
+  font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.hoja{max-width:880px;margin:0 auto;padding:64px 32px 120px}
+.caja{display:inline-block;border:1px solid #8E8B85;padding:6px 13px;font-size:10.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:#6A6A66}
+h1{font-size:clamp(38px,6vw,58px);font-weight:800;letter-spacing:-.038em;line-height:1.02;
+  margin:28px 0 0;text-wrap:balance}
+.bajada{font-size:21px;line-height:1.5;color:#6A6A66;margin:18px 0 0;max-width:60ch}
+.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:grid;
+  gap:22px 34px;grid-template-columns:1fr}
+.lista .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.lista .tx{font-size:17px;line-height:1.5;color:#6A6A66;max-width:58ch;margin-top:7px}
+.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;
+  white-space:nowrap;margin-top:22px}
+
+section{margin-top:62px}
+section .n{font-size:11px;letter-spacing:.2em;color:#8E8B85;font-variant-numeric:tabular-nums}
+section h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 0;max-width:62ch}
+
+.pasos{margin-top:26px}
+.paso{display:grid;grid-template-columns:52px minmax(0,1fr);gap:22px;align-items:baseline;
+  border-top:1px solid #DBD7D2;padding:20px 0}
+.paso .p{font-size:20px;font-weight:800;letter-spacing:-.04em;color:#8E8B85;
+  font-variant-numeric:tabular-nums;line-height:1.3}
+.paso .t{font-size:19px;line-height:1.55;max-width:58ch}
+
+.ejemplo{margin-top:22px;border-left:2px solid #DBD7D2;padding:4px 0 4px 20px}
+.ejemplo .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.ejemplo .tx{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:18px;line-height:1.5;color:#6A6A66;margin-top:8px;max-width:62ch}
+
+.campo{margin-top:24px}
+textarea,input[type=text]{width:100%;font:inherit;font-size:18px;line-height:1.55;color:#171717;
+  background:#FBFAF8;border:1px solid #DBD7D2;padding:14px 16px;border-radius:0;
+  transition:border-color .15s}
+textarea{resize:vertical}
+textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
+.lin{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px 18px;align-items:center;
+  border-top:1px solid #DBD7D2;padding:14px 0}
+.lin .rot{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.tabla{width:100%;border-collapse:collapse;margin-top:6px}
+.tabla th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:#6A6A66;font-weight:400;padding:0 10px 10px 0;border-bottom:2px solid #171717}
+.tabla td{padding:0;border-bottom:1px solid #DBD7D2}
+.tabla input{border:0;background:transparent;padding:12px 10px 12px 0}
+.tabla input:focus{background:#FBFAF8}
+.tabla td.rotfila{font-size:17px;font-weight:700;letter-spacing:-.01em;padding:12px 18px 12px 0;white-space:nowrap}
+.envoltorio{overflow-x:auto}
+
+/* lo que ponemos nosotros: texto escrito, no campo para completar */
+.nuestro{margin-top:62px;border-left:3px solid #171717;padding:2px 0 2px 26px}
+.nuestro .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.nuestro h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+.nuestro p{font-size:18.5px;line-height:1.55;margin:16px 0 0;max-width:62ch}
+.nuestro .devuelta{margin-top:26px;border-top:1px solid #DBD7D2;padding-top:18px}
+.nuestro .devuelta .k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+
+.entregables{margin-top:26px}
+.cab{border-bottom:2px solid #171717;padding-bottom:12px}
+.cab .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.chk{display:grid;grid-template-columns:26px minmax(0,1fr);gap:18px;align-items:start;
+  border-bottom:1px solid #DBD7D2;padding:18px 0;cursor:pointer}
+.chk .box{position:relative;flex:0 0 auto;width:20px;height:20px;border:2px solid #6A6A66;margin-top:3px}
+.chk .box i{position:absolute;left:4px;top:1px;width:8px;height:14px;
+  border-right:3px solid #171717;border-bottom:3px solid #171717;
+  transform:rotate(45deg) scale(0);transform-origin:center;
+  transition:transform .16s cubic-bezier(.2,1.4,.4,1)}
+.chk.done .box i{transform:rotate(45deg) scale(1)}
+.chk .t{font-size:19px;line-height:1.55;max-width:58ch}
+/* el fibrón pasa por el medio de la letra, y en cada línea del renglón */
+.chk .txt{display:inline;background-repeat:no-repeat;background-position:0 center;background-size:0% 8px;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 10' preserveAspectRatio='none'%3E%3Cpath d='M0 4.2L6 .8L24 6L44 1.2L68 6.6L94 1.4L120 6.2L144 1L170 6.4L192 1.6L200 5L200 9.2L0 8.8Z' fill='%23171717'/%3E%3C/svg%3E");
+  -webkit-box-decoration-break:clone;box-decoration-break:clone;
+  transition:background-size .28s cubic-bezier(.3,.9,.3,1),color .2s}
+.chk.done .txt{background-size:100% 8px;color:#8E8B85}
+.chk:focus-visible{outline:1px solid #171717;outline-offset:4px}
+
+/* la bajada personalizada, cuando se prepara el envío desde la torre */
+.bajada-bloque{margin-top:56px;border:1px solid #171717;padding:30px 28px;background:#FBFAF8}
+.bajada-bloque .tt{font-size:26px;font-weight:800;letter-spacing:-.028em;line-height:1.2}
+.bajada-bloque .sub{font-size:17px;line-height:1.5;color:#6A6A66;margin-top:10px;max-width:58ch}
+.bajada-grilla{display:grid;gap:24px;margin-top:26px;grid-template-columns:1fr!important}
+.bajada-grilla .k{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85;
+  border-top:2px solid #171717;padding-top:14px}
+.bajada-grilla .v{font-size:18.5px;line-height:1.55;margin-top:9px;max-width:58ch}
+
+.acc{position:sticky;bottom:0;background:#ECEAE4;border-top:1px solid #DBD7D2;
+  padding:14px 0;margin-top:62px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.acc button{font:inherit;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  border:1px solid #171717;background:transparent;color:#171717;padding:13px 18px;cursor:pointer}
+.acc button.tinta{background:#171717;color:#ECEAE4}
+.acc button:hover{background:#171717;color:#ECEAE4}
+.acc button.tinta:hover{background:transparent;color:#171717}
+.acc .dicho{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:15px;color:#6A6A66}
+
+.pie{margin-top:48px;border-top:1px solid #171717;padding-top:22px;display:flex;
+  justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6A6A66}
+.sello{width:28px;height:28px;border:1.5px solid #171717;display:inline-flex;
+  align-items:center;justify-content:center;font-size:13px;font-weight:800}
+
+@media (max-width:640px){
+  .hoja{padding:40px 20px 90px}
+  .paso{grid-template-columns:38px minmax(0,1fr);gap:14px}
+  .lin{grid-template-columns:1fr;gap:8px}
+  .tabla{min-width:560px}
+  .bajada-bloque{padding:22px 18px}
+}
+@media print{
+  body{background:#fff}
+  .acc{display:none}
+  textarea,input{border-color:#bbb;background:#fff}
+  section{break-inside:avoid;margin-top:40px}
+  .chk{cursor:default}
+}
+</style>
+<style>
+.paso .t b{font-weight:700}
+.cita{margin-top:22px;border-left:2px solid #DBD7D2;padding:4px 0 4px 20px}
+.cita .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.cita .tx{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:18px;line-height:1.5;color:#6A6A66;margin-top:8px;max-width:62ch}
+.linea{display:grid;grid-template-columns:120px minmax(0,1fr);gap:22px;align-items:baseline;
+  border-top:1px solid #DBD7D2;padding:16px 0}
+.linea .k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.linea .v{font-size:18px;line-height:1.5}
+.senal{border-top:1px solid #DBD7D2;padding:18px 0}
+.senal .si{font-size:19px;line-height:1.5;font-weight:700;max-width:58ch}
+.senal .en{font-size:18px;line-height:1.55;color:#6A6A66;margin-top:7px;max-width:60ch}
+@media (max-width:640px){ .linea{grid-template-columns:1fr;gap:6px} }
+</style>
+
+</head>
+<body data-mod="patron-infoproducto">
+<div class="hoja">
+<main id="deck">
+<header class="slot">
+  <div class="caja">Cáscara Founders · para Aye</div>
+  <h1>El founder que abre con un infoproducto</h1>
+  <p class="bajada">Cómo se resolvió el roadmap de un cliente que viene de vender un servicio y quiere poner un producto de educación como el casillero de entrada de su escalera. Sale del caso de Sebastián Martínez, que es el primero que corrimos así entero.</p>
+  <div class="lista">
+    <div><div class="et">Cuándo reconocer este caso</div><div class="tx">El founder tiene oficio y autoridad en un servicio, factura con eso, y quiere abrir un producto de educación abajo. Nunca vendió educación: vendió su servicio.</div></div>
+    <div><div class="et">Por qué importa el orden</div><div class="tx">Casi todo lo que se rompe en este tipo de caso se rompe por hacer las cosas en el orden equivocado, no por hacerlas mal.</div></div>
+  </div>
+</header>
+<section>
+  <div class="n">01</div>
+  <h2>El caso, en cinco llamadas</h2>
+  <p class="consigna">El recorrido real de Sebastián entre el 4 y el 21 de septiembre. Cada llamada arranca leyendo lo que dejó la anterior.</p>
+  <div style="margin-top:26px">
+    <div class="linea"><span class="k">04/09 · Facu</span><span class="v">Clarity Call. Sale el norte del negocio, la forma del nivel uno y la regla de validar con precio. Queda claro que la mentoría que ya dio fue gratis y que ese feedback no se puede leer.</span></div>
+    <div class="linea"><span class="k">16/09 · Franco</span><span class="v">Discovery Call. Cierra qué vende, a quién y en qué formato: MVP de 8 semanas, modelo de cohorte, dos familias de público y el criterio que las une, que el cliente ideal es él mismo hace 1 a 3 años.</span></div>
+    <div class="linea"><span class="k">18/09 · Facu</span><span class="v">Auditoría del producto contra los tres pilares que vendió Franco. Dos cubiertos, uno vacío. Salen las tres sesiones que faltan y el punto A del alumno.</span></div>
+    <div class="linea"><span class="k">Esta semana · Franco</span><span class="v">Audita y confirma el cliente ideal profundizado, y cierra los números de cada casillero.</span></div>
+    <div class="linea"><span class="k">Después · Fede</span><span class="v">Toma los dolores y las preguntas y baja el calendario de contenido de las cuatro semanas.</span></div>
+  </div>
+</section>
+<section>
+  <div class="n">02</div>
+  <h2>Cómo se resolvió, en orden</h2>
+  <p class="consigna">Estos nueve movimientos son el patrón. El orden es lo que hace que funcione.</p>
+  <div class="pasos">
+    <div class="paso"><span class="p">01</span><span class="t"><b>Primero la oferta, después el producto.</b> El comercial cierra qué vende, a quién y a cuánto. Recién ahí se audita el producto que hay detrás. Al revés, se diseña un producto para una oferta que todavía no existe.</span></div>
+    <div class="paso"><span class="p">02</span><span class="t"><b>La auditoría se hace contra los pilares que vendió el comercial,</b> no contra una idea de producto ideal. Se toma lo que el founder ya tiene y se cruza. En Sebastián dio dos de tres: faltaba monetización, que son tres sesiones por escribir, no un producto nuevo.</span></div>
+    <div class="paso"><span class="p">03</span><span class="t"><b>El que viene de servicios tiene más producto del que cree.</b> El error de lectura es tratarlo como si arrancara de cero. Sebastián ya tenía kit de bienvenida, cinco sesiones con deck, cinco guías con entregable, checklist, un reto semanal con tracker y las clases grabadas. La conversación cambia el día que eso se le nombra.</span></div>
+    <div class="paso"><span class="p">04</span><span class="t"><b>El punto A del alumno se documenta antes de la sesión 1.</b> Un formulario de entrada que el alumno completa antes de empezar y vuelve a completar al cerrar. Sin punto A no hay caso de éxito, y el caso de éxito es lo que el contrato pide al final.</span></div>
+    <div class="paso"><span class="p">05</span><span class="t"><b>El ICP no se le pide al founder que nunca vendió ese producto.</b> No tiene alumnos para mirar hacia atrás. El comercial baja las familias de público y al founder se le pide profundizarlas: los oficios, el dolor, la pregunta que lo hace hablar y cinco conversaciones reales. Cuando no hay historia en el producto nuevo, el material sale de preguntar, no de recordar.</span></div>
+    <div class="paso"><span class="p">06</span><span class="t"><b>Lo que el founder no puede contestar se lo damos escrito.</b> La subcategoría donde se para, la escalera y a quién dejamos afuera son decisiones de posicionamiento nuestras. Van escritas en la carta, con una sola pregunta de devolución. De acá salió el bloque «esto lo ponemos nosotros».</span></div>
+    <div class="paso"><span class="p">07</span><span class="t"><b>La carta llega hasta donde el founder puede llegar solo.</b> Armar los ángulos, el guion y el calendario es trabajo del mentor de contenido con él en la llamada. Pedírselo de tarea es tirarle por encima justo la parte donde más se gana acompañado.</span></div>
+    <div class="paso"><span class="p">08</span><span class="t"><b>El negocio que ya factura queda nombrado, no escondido.</b> La productora de Sebastián no entra a la escalera de educación hasta saber si la alimenta o corre en paralelo. Por eso se le piden los diez clientes que ya le pagaron: de ahí sale la respuesta.</span></div>
+    <div class="paso"><span class="p">09</span><span class="t"><b>Las llamadas se encadenan con un documento, no con memoria.</b> Cada llamada arranca leyendo lo que dejó la anterior. El que rompe la cadena es el que llega a contarlo de memoria, y ahí la llamada se va en volver a definir lo mismo.</span></div>
+  </div>
+</section>
+<section>
+  <div class="n">03</div>
+  <h2>Las señales que mirás vos</h2>
+  <p class="consigna">Cuatro lecturas rápidas para saber en qué está parado el caso sin abrir todo el historial.</p>
+  <div style="margin-top:26px">
+    <div class="senal"><div class="si">Tiene tráfico y no tiene conversaciones abiertas.</div><div class="en">El cuello es el cierre de la pieza, no el alcance. El reel de Sebastián hizo un millón cuatrocientas mil vistas y mil ochocientos comentarios, y no dejó una sola conversación abierta.</div></div>
+    <div class="senal"><div class="si">Dio el producto gratis.</div><div class="en">El feedback que tiene no se puede leer. Se valida con precio, siempre. Las cuatro personas que entraron sin pagar a la mentoría de Sebastián dejaron devoluciones que no sirven para decidir nada.</div></div>
+    <div class="senal"><div class="si">Describe a su cliente por oficio.</div><div class="en">Falta el momento y falta el dolor. «Filmmakers y diseñadores» sirve para arrancar y no para vender: todavía no dice en qué punto está ni qué le duele.</div></div>
+    <div class="senal"><div class="si">Cada llamada vuelve a definir lo mismo.</div><div class="en">Falta el documento. Cuando la definición vive en una ficha nuestra o en una presentación que no circuló, el founder llega sin ella y la llamada se gasta ahí.</div></div>
+  </div>
+</section>
+<section>
+  <div class="n">04</div>
+  <h2>Lo que te toca a vos en este caso</h2>
+  <p class="consigna">Tres cosas concretas, y ninguna es de contenido.</p>
+  <div class="pasos">
+    <div class="paso"><span class="p">01</span><span class="t"><b>Antes de cada llamada, que esté mandado el documento que la alimenta.</b> Las cartas completas se devuelven antes, no se leen en la llamada.</span></div>
+    <div class="paso"><span class="p">02</span><span class="t"><b>Que el punto A del alumno exista antes de que entre el primero.</b> El formulario de entrada es condición para arrancar la cohorte, no un extra.</span></div>
+    <div class="paso"><span class="p">03</span><span class="t"><b>Que el founder devuelva las cartas completas.</b> Leída no es completada. La carta tiene su propio contador de secciones empezadas y el entregable es el documento entero.</span></div>
+  </div>
+  <div class="cita"><div class="et">La regla que ordena todo</div><div class="tx">Cáscara diseña y el founder ejecuta. Cuando algo es una decisión nuestra, se la damos escrita; cuando es material que sólo él tiene, se lo pedimos. Todo lo que queda en el medio es lo que después se discute dos veces.</div></div>
+</section>
+</main>
+<div class="pie"><div><span class="sello">C</span></div><div>Cáscara Founders · Material del equipo</div></div>
+</div>
+</body></html>
