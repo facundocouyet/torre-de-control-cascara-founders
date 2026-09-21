@@ -8,13 +8,16 @@ pushear, así el sitio no se cae ni un minuto.
 ## 1. Sumar a Teo al repo
 
 En https://github.com/facundocouyet/torre-de-control-cascara-founders
-→ **Settings** → **Collaborators** → **Add people** → su usuario de GitHub
-→ permiso **Write**.
+→ **Settings** → **Collaborators** → **Add people** → permiso **Write**.
 
-Le llega una invitación por mail que tiene que aceptar.
+Ahí pegá directamente su mail: **Mateopizarrocine@gmail.com**. GitHub
+acepta mail, no hace falta el usuario. Le llega una invitación que tiene
+que aceptar.
 
-Pasame su usuario y completo `.github/CODEOWNERS`, que es lo que hace que
-GitHub le pida revisión automáticamente cuando alguien toca su carpeta.
+Cuando la acepte, va a aparecer en esa misma lista con su usuario de
+GitHub. Fijate que diga **@mateopizarrocntina**, que es el que dejé
+puesto en `.github/CODEOWNERS`. Si es otro, pasámelo y lo cambio: mientras
+no coincida, GitHub ignora esa línea y el resto funciona igual.
 
 ---
 
@@ -41,7 +44,7 @@ Andá a la pestaña **Actions** del repo: vas a ver correr *Publicar la
 torre*. Tarda menos de un minuto. Cuando termina en verde, el sitio está
 actualizado.
 
-Si sale en rojo, abrí el paso que falló: dice exactamente qué se rompió y
+Si sale en rojo, abrí el paso que falló: dice exactamente qué se rompió, y
 el sitio anterior sigue online mientras tanto.
 
 ---

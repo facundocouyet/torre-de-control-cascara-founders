@@ -1,8 +1,13 @@
 # Quien revisa que. GitHub pide automaticamente la revision del dueno
 # cuando un pull request toca sus archivos.
 #
-# Para que funcione hay que reemplazar TEO-USUARIO por el usuario de
-# GitHub de Teo (el que aparece en github.com/<usuario>).
+# OJO con el usuario de Teo: @mateopizarrocntina es el que aparece en
+# GitHub como "Mateo Pizarro", pero no esta confirmado por el. Su mail
+# (Mateopizarrocine@gmail.com) no resuelve a ningun usuario porque GitHub
+# oculta los mails. Apenas acepte la invitacion al repo, su usuario real
+# aparece en Settings -> Collaborators: si es otro, se cambia aca.
+# Mientras el usuario no sea colaborador del repo, GitHub ignora la linea
+# y no pasa nada.
 
 # Por defecto, Facu
 *                       @facundocouyet
@@ -11,11 +16,13 @@
 /generador/             @facundocouyet
 /fichas/                @facundocouyet
 /contenido/             @facundocouyet
+/clientes/              @facundocouyet
 
 # La app de clientes es de Teo
-# /app-clientes/        @TEO-USUARIO
+/app-clientes/          @mateopizarrocntina
 
 # Lo compartido lo miran los dos
-# /assets/              @facundocouyet @TEO-USUARIO
-# /.github/             @facundocouyet @TEO-USUARIO
-# /construir.sh         @facundocouyet @TEO-USUARIO
+/assets/                @facundocouyet @mateopizarrocntina
+/.github/               @facundocouyet @mateopizarrocntina
+/construir.sh           @facundocouyet @mateopizarrocntina
+/TRABAJO.md             @facundocouyet @mateopizarrocntina
