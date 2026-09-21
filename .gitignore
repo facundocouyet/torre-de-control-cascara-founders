@@ -1,12 +1,45 @@
-# salida del generador v1, reemplazado por build2.py
+# ═══════════════════════════════════════════════════════════════
+#  Qué NO entra al repo
+#  La regla de oro: el HTML que sale de un generador no se commitea.
+#  Lo arma GitHub Actions en cada push y lo publica solo. Si dos
+#  personas commitean el mismo HTML generado, git no lo puede
+#  mergear y se rompe. Por eso está acá.
+# ═══════════════════════════════════════════════════════════════
+
+# ── lo que generan los scripts de generador/ ──
+/index.html
+/cards-por-dueno.html
+/founders-handoff-aye.html
+/rol-lider-founders.html
+/clientes/*.html
+/cartas/
+contenido/app-data.json
+site/
 out/
 index.json
+panel.html
+panel-data.json
 
-# intermedio de build_app.py, lo consume app_shell.py en la misma corrida
-contenido/app-data.json
+# los cuatro documentos de clientes/ que están escritos a mano y no
+# salen de ningún generador: esos sí se versionan
+!/clientes/00-repaso-clientes.html
+!/clientes/bianca-eclipse-y-anillos.html
+!/clientes/qualita.html
+!/clientes/qualita-cartas.html
 
+# ── la salida del build, que se arma y se tira ──
+/dist/
+
+# ── temporales de trabajo, nunca van al repo ──
+_tmp/
+_locks_viejos/
+*.lock
+*.bak
+*.bak.*
+
+# ── sistema ──
 .DS_Store
 __pycache__/
-
-# salida de build_site.py: copia autocontenida del sitio de scroll
-site/
+*.pyc
+.venv/
+node_modules/

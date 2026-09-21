@@ -1,0 +1,21 @@
+# Quien revisa que. GitHub pide automaticamente la revision del dueno
+# cuando un pull request toca sus archivos.
+#
+# Para que funcione hay que reemplazar TEO-USUARIO por el usuario de
+# GitHub de Teo (el que aparece en github.com/<usuario>).
+
+# Por defecto, Facu
+*                       @facundocouyet
+
+# La torre de control es de Facu
+/generador/             @facundocouyet
+/fichas/                @facundocouyet
+/contenido/             @facundocouyet
+
+# La app de clientes es de Teo
+# /app-clientes/        @TEO-USUARIO
+
+# Lo compartido lo miran los dos
+# /assets/              @facundocouyet @TEO-USUARIO
+# /.github/             @facundocouyet @TEO-USUARIO
+# /construir.sh         @facundocouyet @TEO-USUARIO

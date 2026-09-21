@@ -1,0 +1,20 @@
+# En cada pull request: arma el sitio sin publicarlo, para saber antes
+# de mergear si el cambio rompe algo.
+name: Revisar el pull request
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          chmod +x construir.sh
+          ./construir.sh
+          test -f dist/index.html || { echo "no salio el index"; exit 1; }
