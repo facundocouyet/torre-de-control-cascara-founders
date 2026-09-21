@@ -107,13 +107,13 @@
      "url": ""
     },
     {
-     "titulo": "Formulario de construcción de oferta",
-     "que_es": "40 preguntas en 8 bloques: resultado, paso a paso, módulos, cliente y precio. Se le manda al founder antes del 1:1 con Franco. Activo reutilizable para todos los clientes.",
+     "titulo": "Carta de oferta, con su discovery",
+     "que_es": "Ocho preguntas de discovery que bajan el material crudo —qué vendiste, qué te piden que no vendés, qué te sale fácil, qué te preguntan antes de comprar— para que la oferta la escriba Cáscara con Franco. Reemplaza al formulario de 40 preguntas, que nunca llegó a existir.",
      "estado": "listo",
      "formatos": [
-      "Markdown"
+      "HTML"
      ],
-     "url": ""
+     "url": "cartas/one-sheeter-oferta.html"
     },
     {
      "titulo": "Briefing de clarity call",
