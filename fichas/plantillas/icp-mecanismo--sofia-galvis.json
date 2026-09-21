@@ -68,7 +68,7 @@
   },
   {
    "titulo": "Los clientes que ya te pagaron",
-   "consigna": "Los últimos diez clientes o consultas reales del negocio que hoy te factura, con lo que te compró cada uno, cuánto pagó y por qué te buscó. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Esto no es el cliente de la oferta nueva: es la parte de la escalera que ya existe, y sirve para saber si alimenta lo que estás por lanzar o si corre en paralelo.",
+   "consigna": "Los últimos diez clientes o consultas reales del negocio que hoy te factura, con lo que te compró cada uno, cuánto pagó y por qué te buscó. <b>Si ya completaste la carta de oferta, esto ya lo tenés: traelo de ahí y sumale la última columna.</b> Si no, sacalo de los chats, de las facturas y del historial del mail, no de memoria. Esto no es el cliente de la oferta nueva: es la parte de la escalera que ya existe, y sirve para saber si alimenta lo que estás por lanzar o si corre en paralelo.",
    "campo": "tabla",
    "columnas": [
     "Quién",
