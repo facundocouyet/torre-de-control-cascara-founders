@@ -5,6 +5,18 @@
   "lista_cuando": "Se la podés mandar a alguien que no te conoce y entiende qué comprar, qué se lleva y cuánto sale.",
   "secciones": [
     {
+      "nuestro": true,
+      "titulo": "Dónde entra esto: el marco NOVA",
+      "texto": [
+        "La oferta no se inventa, se ordena. El orden que usamos son cuatro decisiones, una atrás de la otra: <b>Nicho</b>, para quién resolvés. <b>Oferta</b>, qué cambio generás. <b>Vehículo</b>, cómo lo entregás. <b>Atención</b>, cómo te encuentran.",
+        "Van en ese orden porque cada una se apoya en la anterior. Sin nicho, la oferta le habla a cualquiera. Sin oferta, el vehículo entrega algo que todavía no está definido. Sin vehículo, la promesa no se cumple. Sin atención, no llega nadie. Y no se trata de elegir perfecto: se trata de elegir claro, porque con claridad aparecen el foco y la repetición.",
+        "Esta hoja recorre las cuatro: la <b>N</b> y la <b>O</b> en las primeras preguntas, la <b>V</b> cuando bajás el paso a paso y el precio, y la <b>A</b> al final. La grupal de contenido con Fede es donde la <b>A</b> se convierte en calendario.",
+        "Las preguntas de abajo juntan el material. Las dos últimas te piden que lo cierres vos: tu NOVA en cuatro frases y tu one-sheeter en una página. No tienen que salir perfectas, tienen que salir escritas. Lo que llega escrito se afila en la llamada; lo que llega en blanco se improvisa.",
+        "La oferta de Cáscara está armada con este mismo marco, y la de todos los founders que pasaron por acá también."
+      ],
+      "cid": 0
+    },
+    {
       "titulo": "Los últimos diez que compraron o preguntaron",
       "consigna": "Antes de escribir la oferta nueva, mirá la vieja. Diez clientes o consultas reales, qué compró cada uno y por qué te eligió. De acá salen el cliente ideal y el precio, así que vale más media hora buscando en el chat que una hora inventando.",
       "ejemplo": {
@@ -19,17 +31,6 @@
         "Por qué te eligió"
       ],
       "filas": 10,
-      "cid": 0
-    },
-    {
-      "nuestro": true,
-      "titulo": "Dónde entra esto: el marco NOVA",
-      "texto": [
-        "La oferta no se inventa, se ordena. El orden que usamos son cuatro decisiones, una atrás de la otra: <b>Nicho</b>, para quién resolvés. <b>Oferta</b>, qué cambio generás. <b>Vehículo</b>, cómo lo entregás. <b>Atención</b>, cómo te encuentran.",
-        "Van en ese orden porque cada una se apoya en la anterior. Sin nicho, la oferta le habla a cualquiera. Sin oferta, el vehículo entrega algo que todavía no está definido. Sin vehículo, la promesa no se cumple. Sin atención, no llega nadie. Y no se trata de elegir perfecto: se trata de elegir claro, porque con claridad aparecen el foco y la repetición.",
-        "Esta hoja es la <b>O</b> y la <b>V</b>: de acá sale qué cambio generás y en qué formato se entrega. La <b>N</b> se trabaja en la carta de cliente ideal y la <b>A</b> se trabaja en la grupal de contenido con Fede. Son tres piezas del mismo mapa, por eso conviene hacerlas juntas y en ese orden.",
-        "La oferta de Cáscara está armada con este mismo marco, y la de todos los founders que pasaron por acá también."
-      ],
       "cid": 1
     },
     {
@@ -147,18 +148,40 @@
       "cid": 10
     },
     {
-      "nuestro": true,
-      "titulo": "Así queda tu oferta cuando la escribamos",
-      "texto": [
-        "Para que sepas a dónde va todo esto. Con tus respuestas, Franco arma el one-sheeter, que tiene cinco partes y entra en una carilla.",
-        "<b>El nicho y el mensaje.</b> A quién le hablás, cuál es la nueva oportunidad que le abrís, la promesa y los entregables.",
-        "<b>Los deseos y los problemas de tu cliente</b>, uno al lado del otro. Eso sale de la carta del cliente ideal, no de acá.",
-        "<b>La oferta en una sola línea:</b> «Ayudo a [nicho] a [promesa] a través de [mecanismo único]». Si esa línea no se entiende sola, la oferta todavía no está.",
-        "<b>Los entregables</b>, todos, sin dejar afuera lo que das y no cobrás.",
-        "<b>Los enemigos y tu ventaja sobre cada uno</b>, que es lo que acabás de completar arriba.",
-        "Lo único que te vamos a pedir después es que lo leas y nos digas qué no suena tuyo."
+      "titulo": "Tu NOVA, en cuatro frases",
+      "consigna": "Acá sí te pedimos que decidas, aunque sea en borrador. Una frase por letra, escrita con tus palabras y sin adornar. No busques la frase perfecta, buscá la frase clara: esto es tu NOVA v1 y es el punto de partida de la llamada, no el resultado. Si una letra no te sale, escribí las dos opciones que estás dudando. Eso también sirve.",
+      "campo": "lineas",
+      "lineas": [
+        "N · Personas como… que…",
+        "O · Ayudo a… a pasar de… a… a través de…",
+        "V · El formato y cómo se vive",
+        "A · Tu canal principal",
+        "A · Tus dos o tres pilares de contenido",
+        "A · Tu CTA: cómo pasan de mirarte a hablarte",
+        "A · Tu ritmo real por semana"
       ],
+      "ejemplo": {
+        "quien": "Facu",
+        "texto": "Cáscara: personas creativas que venden servicios y dependen del boca en boca. Las ayudo a pasar de improvisar a tener una dirección clara, a través de un proceso guiado con acompañamiento. Vehículo: programa de 16 semanas con llamadas en vivo. Atención: Instagram, pilares de problema, proceso y casos, CTA a mensaje directo, tres piezas por semana."
+      },
       "cid": 11
+    },
+    {
+      "titulo": "Tu one-sheeter, en una carilla",
+      "consigna": "Juntá todo lo de arriba en una sola página, con estas cinco partes y en este orden: <b>1)</b> a quién le hablás, qué oportunidad le abrís y qué le prometés. <b>2)</b> sus deseos de un lado y sus problemas del otro. <b>3)</b> la oferta en una sola línea: «Ayudo a [nicho] a [promesa] a través de [mecanismo único]». <b>4)</b> todos los entregables, incluido lo que hoy das y no cobrás. <b>5)</b> los enemigos y tu ventaja sobre cada uno. Escribilo acá aunque quede tosco. Si la línea del punto 3 no se entiende sola, marcalo y seguí: esa la cerramos juntos.",
+      "campo": "texto",
+      "alto": 14,
+      "placeholder": "1 · A quién le hablo y qué le prometo…\n\n2 · Lo que quiere / lo que le duele…\n\n3 · Ayudo a… a… a través de…\n\n4 · Lo que incluye…\n\n5 · Contra qué me comparan y por qué conmigo le va mejor…",
+      "cid": 12
+    },
+    {
+      "nuestro": true,
+      "titulo": "Qué hacemos nosotros con esto",
+      "texto": [
+        "Tu one-sheeter llega tosco y sale presentable. No lo reescribimos de cero: lo afilamos. Se corrige la línea de la oferta hasta que se entienda sola, se ordenan los entregables, se pone el precio sobre la mesa y se prueba contra las objeciones que vos mismo anotaste.",
+        "Lo que no tocamos son tus palabras. Si algo de la versión final no suena tuyo, se cambia: una oferta que no podés decir en voz alta no la vas a vender."
+      ],
+      "cid": 13
     }
   ]
 }

@@ -3,7 +3,7 @@
   "slug": "sofia-galvis",
   "founder": "Sofía Galvis Montoya",
   "titulo": "Las preguntas de tu oferta",
-  "bajada": "Todo lo que hace falta para armar la oferta del programa de educación, contado por vos. No sale de los clientes de Bitui: sale de la gente que ya te pide que le enseñes. Acá no escribís la promesa ni el precio, bajás la información cruda y las conclusiones las sacamos nosotros con Franco.",
+  "bajada": "Todo lo que hace falta para armar la oferta del programa de educación, contado por vos. No sale de los clientes de Bitui: sale de la gente que ya te pide que le enseñes. Las primeras preguntas bajan el material crudo; las dos últimas te piden que lo cierres vos en una página, y eso es lo que afilamos con Franco.",
   "lista_cuando": "Alguien del equipo lee tus respuestas y puede escribir la oferta sin volver a preguntarte nada.",
   "pasos": [
     "Juntar diez personas reales que ya te pidieron que les enseñes, o que quisieron contratarte y no les daba.",
@@ -11,16 +11,17 @@
     "Separar lo que explicás fácil de lo que te cuesta explicar.",
     "Contar un caso en el que le enseñaste algo a alguien y le funcionó, o el tuyo propio.",
     "Anotar lo que te van a preguntar antes de anotarse, y dónde se traba la gente cuando le explicás.",
-    "Estimar cuánto tiempo tuyo se lleva una vuelta completa con un alumno.",
-    "Decir qué no querés que tenga este programa."
+    "Decir qué no querés que tenga este programa, y contra qué te van a comparar.",
+    "Escribir tu NOVA en cuatro frases: nicho, oferta, vehículo y atención.",
+    "Armar tu one-sheeter en una carilla, aunque quede tosco."
   ],
   "completar": [
-    "Esta carta completa, con las nueve respuestas escritas"
+    "Esta carta completa, con tu NOVA y tu one-sheeter escritos"
   ],
   "bajada_envio": {
     "founder": "Sofía Galvis Montoya",
     "porque": "Arrancás el segundo tramo y el producto de educación todavía no existe: los lugares vendidos son cero porque no hay qué vender. Franco baja producto, oferta y roadmap en su llamada, y esta hoja es lo que hace que esa llamada rinda. Ojo con una cosa: esto no se arma mirando a los clientes de Bitui. Ellos te contratan para que se lo hagas. El programa se lo vendés a alguien que quiere aprender a hacerlo, y esa gente ya te viene preguntando.",
-    "objetivo": "Las nueve respuestas escritas antes de la llamada con Franco, para que esa llamada sea de decidir y no de averiguar. De ahí salen la promesa, la métrica, el formato y el precio.",
+    "objetivo": "Tu NOVA v1 y tu one-sheeter escritos antes de la llamada con Franco, para que esa llamada sea de afilar y no de averiguar. De ahí salen la promesa final, la métrica, el formato y el precio.",
     "mindset": "Contestá largo y en tu forma de hablar, sin ordenar. Un audio pasado a texto sirve igual. Lo que necesitamos es la información cruda: la prolijidad la ponemos nosotros, y si te ponés a redactar perdés lo que más sirve, que son tus palabras."
   },
   "secciones": [
@@ -28,8 +29,8 @@
       "nuestro": true,
       "titulo": "Cómo funciona esta hoja",
       "texto": [
-        "Son nueve preguntas y ninguna te pide una definición. No hay que escribir la promesa, ni el precio, ni el paso a paso de la entrega: eso lo armamos nosotros con lo que contestes, y se cierra con Franco en su llamada.",
-        "Una aclaración que ordena todo lo de abajo: cuando acá decimos «los que ya te piden», no hablamos de los clientes de Bitui. Ellos te contratan para que se lo hagas vos. El programa se lo vendés a otra persona: alguien que quiere aprender a hacerlo. Esa persona ya te viene preguntando, y las respuestas están en tus mensajes.",
+        "Son diez preguntas. Las ocho primeras no te piden ninguna definición: bajan el material crudo, y contestarlas largo y desordenado está bien. Las dos últimas sí te piden que decidas, y ahí sale tu primera versión de la oferta.",
+        "Una aclaración que ordena todo lo de abajo: cuando acá decimos «los que ya te piden», no hablamos de los clientes de Bitui. Ellos te contratan para que se lo hagas vos. El programa se lo vendés a otra persona, alguien que quiere aprender a hacerlo, y esa gente ya te viene preguntando.",
         "El orden importa: primero se mira quién ya pide y qué sabés hacer, y recién después se decide qué va a ser el programa. Al revés se arma un producto para alguien que todavía no se miró.",
         "Si una pregunta no la podés contestar, escribí por qué. Eso también es información y nos dice dónde tenemos que meternos nosotros."
       ],
@@ -42,6 +43,7 @@
         "La oferta no se inventa, se ordena. El orden que usamos son cuatro decisiones, una atrás de la otra: <b>Nicho</b>, para quién resolvés. <b>Oferta</b>, qué cambio generás. <b>Vehículo</b>, cómo lo entregás. <b>Atención</b>, cómo te encuentran.",
         "Van en ese orden porque cada una se apoya en la anterior. Sin nicho, la oferta le habla a cualquiera. Sin oferta, el vehículo entrega algo que todavía no está definido. Sin vehículo, la promesa no se cumple. Sin atención, no llega nadie. Y no se trata de elegir perfecto: se trata de elegir claro, porque con claridad aparecen el foco y la repetición.",
         "Esta hoja es la <b>O</b> y la <b>V</b>: de acá sale qué cambio generás y en qué formato se entrega. La <b>N</b> se trabaja en la carta de cliente ideal y la <b>A</b> se trabaja en la grupal de contenido con Fede. Son tres piezas del mismo mapa, por eso conviene hacerlas juntas y en ese orden.",
+        "Las preguntas de abajo juntan el material. Las dos últimas te piden que lo cierres vos: tu NOVA en cuatro frases y tu one-sheeter en una página. No tienen que salir perfectas, tienen que salir escritas. Lo que llega escrito se afila en la llamada; lo que llega en blanco se improvisa.",
         "La oferta de Cáscara está armada con este mismo marco, y la de todos los founders que pasaron por acá también."
       ],
       "cid": 1
@@ -110,26 +112,12 @@
       "cid": 6
     },
     {
-      "titulo": "Cuánto tiempo tuyo se lleva una vuelta completa",
-      "consigna": "El programa todavía no existe, así que esto es una estimación, pero tiene que ser tuya y no de manual. Pensá una vuelta entera con un alumno: preparar el material, estar en vivo, contestar mensajes, revisar lo que entrega. De este número salen el formato y el precio, y también cuántas personas podés tomar a la vez sin que se caiga la calidad. Sin esto el precio se define a ojo, y a ojo siempre sale barato.",
-      "campo": "lineas",
-      "lineas": [
-        "Horas de preparar el material",
-        "Horas en vivo por semana",
-        "Horas de responder y acompañar",
-        "Horas de revisar lo que entregan",
-        "Total por alumno",
-        "Cuántos alumnos sostenés a la vez"
-      ],
-      "cid": 7
-    },
-    {
       "titulo": "Dónde se traba la gente cuando le explicás esto",
       "consigna": "Las veces que le explicaste algo a alguien y no lo aplicó, o lo aplicó mal, o abandonó a la mitad. Y si te pasó a vos, también: en qué parte te trabaste cuando estabas aprendiendo. Esto define qué queda afuera del programa y qué le vas a pedir al alumno para que funcione. Se escribe sin filtro: es la parte más útil de esta hoja.",
       "campo": "texto",
       "alto": 5,
       "placeholder": "Le expliqué… y lo que pasó fue… creo que se trabó porque…",
-      "cid": 8
+      "cid": 7
     },
     {
       "titulo": "Qué no querés que tenga esta oferta",
@@ -137,7 +125,7 @@
       "campo": "texto",
       "alto": 4,
       "placeholder": "No quiero que este programa me obligue a…",
-      "cid": 9
+      "cid": 8
     },
     {
       "titulo": "Los enemigos de tu nicho, y tu ventaja sobre cada uno",
@@ -149,30 +137,41 @@
         "Por qué vos lo resolvés mejor"
       ],
       "filas": 5,
+      "cid": 9
+    },
+    {
+      "titulo": "Tu NOVA, en cuatro frases",
+      "consigna": "Acá sí te pedimos que decidas, aunque sea en borrador. Una frase por letra, escrita con tus palabras y sin adornar. No busques la frase perfecta, buscá la frase clara: esto es tu NOVA v1 y es el punto de partida de la llamada, no el resultado. Si una letra no te sale, escribí las dos opciones que estás dudando. Eso también sirve.",
+      "campo": "lineas",
+      "lineas": [
+        "N · Personas como… que…",
+        "O · Ayudo a… a pasar de… a… a través de…",
+        "V · El formato y cómo se vive",
+        "A · Tu canal principal",
+        "A · Tus dos o tres pilares de contenido",
+        "A · Tu CTA: cómo pasan de mirarte a hablarte",
+        "A · Tu ritmo real por semana"
+      ],
+      "ejemplo": {
+        "quien": "Facu",
+        "texto": "Cáscara: personas creativas que venden servicios y dependen del boca en boca. Las ayudo a pasar de improvisar a tener una dirección clara, a través de un proceso guiado con acompañamiento. Vehículo: programa de 16 semanas con llamadas en vivo. Atención: Instagram, pilares de problema, proceso y casos, CTA a mensaje directo, tres piezas por semana."
+      },
       "cid": 10
+    },
+    {
+      "titulo": "Tu one-sheeter, en una carilla",
+      "consigna": "Juntá todo lo de arriba en una sola página, con estas cinco partes y en este orden: <b>1)</b> a quién le hablás, qué oportunidad le abrís y qué le prometés. <b>2)</b> sus deseos de un lado y sus problemas del otro. <b>3)</b> la oferta en una sola línea: «Ayudo a [nicho] a [promesa] a través de [mecanismo único]». <b>4)</b> todos los entregables, incluido lo que hoy das y no cobrás. <b>5)</b> los enemigos y tu ventaja sobre cada uno. Escribilo acá aunque quede tosco. Si la línea del punto 3 no se entiende sola, marcalo y seguí: esa la cerramos juntos.",
+      "campo": "texto",
+      "alto": 14,
+      "placeholder": "1 · A quién le hablo y qué le prometo…\n\n2 · Lo que quiere / lo que le duele…\n\n3 · Ayudo a… a… a través de…\n\n4 · Lo que incluye…\n\n5 · Contra qué me comparan y por qué conmigo le va mejor…",
+      "cid": 11
     },
     {
       "nuestro": true,
       "titulo": "Qué hacemos nosotros con esto",
       "texto": [
-        "Con tus respuestas armamos la promesa escrita con un número y un plazo, la forma de medirla, el paso a paso de la entrega por etapas, y las tres listas de qué incluye, qué queda afuera y qué necesitás del cliente.",
-        "El precio y la forma de pago los cierra Franco en su llamada, sobre el costo real de entregarlo una vez que sale de tus horas. La regla es simple: el piso del precio es ese costo por dos.",
-        "Cómo se mide la promesa también lo ponemos nosotros. Es la parte más técnica y es donde más se equivoca el que lo hace solo: una promesa que no se puede medir con una herramienta que vos abrís, se cambia por una que sí.",
-        "Lo único que te vamos a pedir después es que la leas y nos digas qué no suena tuyo."
-      ],
-      "cid": 11
-    },
-    {
-      "nuestro": true,
-      "titulo": "Así queda tu oferta cuando la escribamos",
-      "texto": [
-        "Para que sepas a dónde va todo esto. Con tus respuestas, Franco arma el one-sheeter, que tiene cinco partes y entra en una carilla.",
-        "<b>El nicho y el mensaje.</b> A quién le hablás, cuál es la nueva oportunidad que le abrís, la promesa y los entregables.",
-        "<b>Los deseos y los problemas de tu cliente</b>, uno al lado del otro. Eso sale de la carta del cliente ideal, no de acá.",
-        "<b>La oferta en una sola línea:</b> «Ayudo a [nicho] a [promesa] a través de [mecanismo único]». Si esa línea no se entiende sola, la oferta todavía no está.",
-        "<b>Los entregables</b>, todos, sin dejar afuera lo que das y no cobrás.",
-        "<b>Los enemigos y tu ventaja sobre cada uno</b>, que es lo que acabás de completar arriba.",
-        "Lo único que te vamos a pedir después es que lo leas y nos digas qué no suena tuyo."
+        "Tu one-sheeter llega tosco y sale presentable. No lo reescribimos de cero: lo afilamos. Se corrige la línea de la oferta hasta que se entienda sola, se ordenan los entregables, se pone el precio sobre la mesa y se prueba contra las objeciones que vos mismo anotaste.",
+        "Lo que no tocamos son tus palabras. Si algo de la versión final no suena tuyo, se cambia: una oferta que no podés decir en voz alta no la vas a vender."
       ],
       "cid": 12
     }
