@@ -1,31 +1,32 @@
-La segunda llamada de Aaron con Franco entra al sistema
+La radiografia de Custom Lab, actualizada con la llamada del 18 y los pasos nuevos
 
-Facu paso el transcript del 18 de septiembre, que no esta en nuestro Fathom. Lo
-que dejo esa llamada cambia el orden de lo que le mandamos y suma una regla que
-sirve para toda la camada.
+El cuello se movio y el documento no lo decia. Hasta ahora la lectura era que el
+cuello era la demanda y que faltaba definir a quien le venden. Eso ya esta
+cerrado: venden publicidad hecha con merch a empresas con presupuesto de
+marketing. Lo que aparecio el 18 de septiembre en la llamada con Franco es que
+la tienda esta lista y no vende porque nadie la ve.
 
-Aaron: entra proceso-entrega-repetible y va primero, porque es lo que Franco le
-pidio para esta semana y condiciona el viernes, cuando arman el lanzamiento en
-vivo. Hoy el es el cuello de botella con llamadas uno a uno semanales, y la
-oferta nueva promete 3 llamadas en 90 dias mas grupales: eso solo se sostiene si
-los entregables hacen el trabajo que hoy hace el en vivo. La carta abre con la
-filosofia con la que se arma: anticiparse a las rocas, auditar sus propias
-llamadas para encontrar los patrones que repite, y el atajo del formulario a los
-clientes actuales preguntandoles que les falto.
+De ahi sale la correccion de prioridad, que es lo mas valioso del tramo: los
+kits quedan pausados a proposito y el contenido pasa adelante, porque una tienda
+sin trafico no convierte y el tiempo que se fue buscando productos son 2 semanas
+sin publicar. La consigna es documentar y no crear, con 2 campanas en paralelo
+—Documentacion, el proceso de construir la marca como serie semanal, y Producto,
+los kits desde el boceto hasta el prototipo— sobre los 12 angulos que dejo
+Franco.
 
-El pasaporte y los angulos se reordenan detras de eso, y la carta de angulos
-suma un bloque con lo que quedo el 18: documentar y no crear, la secuencia de
-historias saliendo de cada llamada uno a uno, y la separacion entre venta
-privada y venta publica corriendo en paralelo.
+Cambian el titular, la bajada, la lectura con su cita, los 2 puntos B, los
+entregables, el roadmap entero y los accionables. El punto B del 26 de setiembre
+era la tienda y los kits: pasa a ser el calendario presentado a Fede y las 2
+campanas publicando, con el numero a mirar cambiado de vistas a conversaciones
+abiertas. El roadmap arranca por grabar esta semana sin producir nada.
 
-La regla que sale de ahi y aplica a los nueve que cierran el 31 de octubre: el
-upsell se presenta entre 15 y 20 dias antes de que termine el ciclo, nunca al
-cierre, porque cuando el ciclo termina las ansiedades bajan. Para nosotros eso
-cae entre el 11 y el 16 de octubre. Y son dos caminos distintos: upsell para el
-que ya viene escalando, retainer para el que esta estancado y necesita ser
-acelerado. El accionable de Aye sobre los que se cierran queda escrito asi.
+Queda agendada la 1:1 con Facu el 2 de octubre, que respeta los 14 dias desde la
+de Franco, y ahi sale el roadmap con punto de llegada, que es lo unico del tramo
+que sigue faltando.
 
-Verificado a 1512 y a 390: sin desbordes ni errores de JS.
+Regenerada toda la torre: documentos de cliente, cartas, cards por dueno, rol,
+handoff, app y sitio. Los 20 documentos verificados panel por panel a 1920x1080:
+ninguno desborda.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01X5PVbBwAY8Cfrb8woNrxbU
