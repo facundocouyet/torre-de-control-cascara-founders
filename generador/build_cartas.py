@@ -469,6 +469,12 @@ if __name__ == "__main__":
         if not pl.get("secciones"):
             base = cargar_plantilla(RAIZ, mid) or {}
             secs = list(base.get("secciones") or [])
+            # sin hoja propia y sin hoja de modulo la carta saldria vacia: no se escribe
+            if not secs and not pl.get("bloques_inicio") and not pl.get("bloques_final"):
+                print("  sin hoja todavia, no se genera:", os.path.basename(f)); continue
+            if not secs:
+                print("  ojo: el modulo", mid, "no tiene hoja; la carta de",
+                      pl.get("slug"), "sale sin preguntas"); continue
             pl.setdefault("titulo", base.get("titulo"))
             pl.setdefault("bajada", base.get("bajada"))
             pl.setdefault("lista_cuando", base.get("lista_cuando"))

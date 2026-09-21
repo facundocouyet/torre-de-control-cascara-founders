@@ -57,3 +57,24 @@ mueve de lugar.
 
 Casos vivos: Sofía Galvis (forma B, programa de educación), Matías Morales (forma B,
 redirección a marcas personales).
+
+## El chequeo que corre solo
+
+`generador/revisar.py` corre al final de `construir.sh`, y también en GitHub Actions
+antes de publicar. Si encuentra un problema, corta el build.
+
+Busca la clase de error que ya pasó tres veces —algo que se nombra en un lado y no
+existe en el otro—:
+
+- un número de preguntas declarado que no coincide con las que tiene la carta;
+- dos secciones que comparten la clave de guardado, que pisarían lo que el founder
+  escribió;
+- una variante que apunta a un módulo sin hoja escrita (sale como aviso, y esa carta
+  directamente no se genera en lugar de salir vacía);
+- entregables fantasma en el inventario, como el formulario de 40 preguntas;
+- un documento de cliente nombrado en la torre que no está en `clientes/`;
+- una carta que se manda a un founder sin que exista el HTML para ese slug;
+- un recurso de la biblioteca marcado listo y sin link.
+
+La regla de fondo: no nombrar una cantidad de preguntas en ningún lado. Cambia con
+cada variante y queda vieja enseguida. La carta se nombra por lo que hace.

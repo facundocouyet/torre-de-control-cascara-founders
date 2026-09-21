@@ -23,6 +23,9 @@ if [ -x app-clientes/construir.sh ]; then
   ( cd app-clientes && ./construir.sh )
 fi
 
+echo "→ revisando que nada se contradiga"
+python3 generador/revisar.py
+
 echo "→ juntando todo en dist/"
 mkdir -p dist
 # todo lo que es sitio va a dist; lo que es fuente o privado se queda afuera
