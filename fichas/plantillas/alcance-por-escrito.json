@@ -1,56 +1,123 @@
 {
- "modulo": "alcance-por-escrito",
- "titulo": "La hoja del alcance",
- "bajada": "Una página por cliente con qué entra, qué se cobra aparte, qué queda afuera y qué necesitás de él, aceptada por escrito antes de arrancar.",
- "lista_cuando": "El cliente pide algo que está afuera y le podés mostrar la página donde dice que sale aparte y cuánto cuesta.",
- "secciones": [
-  {"titulo": "Todo lo que entregaste este mes y nadie cotizó",
-   "consigna": "Una fila por pedido que atendiste fuera de lo acordado, con el tiempo que te llevó, incluidos los que parecían un minuto. Buscalos en el chat del último mes, cliente por cliente. Cuando la suma pasa el diez por ciento de tus horas, el alcance es el trabajo de esta semana.",
-   "ejemplo": {"quien": "Sol Boutmy", "texto": "Cobran mensual y contra entrega, con un promedio de seiscientos a setecientos dólares, y las dos socias siguen armando propuestas, produciendo y editando. Todo lo que entra de más sale de esas mismas horas."},
-   "campo": "tabla",
-   "columnas": ["Cliente", "Qué pidió", "Cuánto te llevó", "Estaba cotizado"],
-   "filas": 10},
-
-  {"titulo": "Qué entra en el estándar, qué se cobra aparte y qué queda afuera",
-   "consigna": "Clasificá cada ítem de la lista anterior en una de las tres columnas y ponele cantidad. Lo que se cobra aparte lleva precio ahora, para que la próxima vez la respuesta salga con un número adelante. Lo que queda afuera se escribe con el mismo detalle que lo que entra.",
-   "ejemplo": {"quien": "Sharon Palacio", "texto": "Definió que la pauta paga queda afuera del servicio estándar y que la producción se coordina con el cliente. Con el alcance así acotado, la estrategia entra en un mínimo de setecientos dólares por mes."},
-   "campo": "tabla",
-   "columnas": ["Ítem", "Estándar, aparte o afuera", "Cantidad", "Precio si es aparte"],
-   "filas": 10},
-
-  {"titulo": "El alcance en una página, con cantidades y plazos",
-   "consigna": "Escribilo corto y en prosa, con número y día en cada línea: cuántas piezas, cuántas reuniones, cuántas rondas de cambios, entregadas qué fecha del mes. Una línea sin cantidad se discute más adelante, así que no queda ninguna. Si no entra en una página, hay ítems que van al aparte.",
-   "ejemplo": {"quien": "Sofía Galvis", "texto": "En su servicio el límite quedó puesto en tres contenidos dedicados, y revisar ese alcance es lo que evita que el paquete de tres meses se desborde."},
-   "campo": "texto", "alto": 6,
-   "placeholder": "Por mes: … piezas, … reuniones, … rondas. Entrega el día…"},
-
-  {"titulo": "Las rondas de cambios y cuándo algo queda aprobado",
-   "consigna": "Dos rondas por entregable y un plazo para que el cliente devuelva. Escribí qué pasa con la tercera ronda, con precio, y a partir de cuántos días de silencio el entregable queda aprobado. Eso resuelve la mitad de las discusiones de un proyecto antes de que aparezcan.",
-   "ejemplo": {"quien": "Cáscara", "texto": "En los contratos el guion aprobado es entregable cumplido y el guion sin aprobar se rehace. La producción es responsabilidad del cliente, y las demoras de su lado corren la fecha sin discusión."},
-   "campo": "lineas",
-   "lineas": ["Rondas incluidas", "Plazo del cliente para devolver", "Precio de la ronda extra", "Días de silencio que aprueban"]},
-
-  {"titulo": "Dónde termina tu responsabilidad",
-   "consigna": "Una frase para lo que respondés vos y una frase para lo que responde el cliente. La parte fina es el resultado final: escribí qué porción de ese resultado depende de decisiones suyas, con ejemplos concretos de tu trabajo de este mes. Esa frase es la que evita que te reclamen algo que nunca estuvo en tus manos.",
-   "ejemplo": {"quien": "Lola Berutti", "texto": "Workflow entra como distribuidora de Project Managers y la responsabilidad del proyecto del cliente queda de su lado. La capacitación de esos PMs se vende aparte, como mentoría grupal."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Yo respondo por… El cliente responde por…"},
-
-  {"titulo": "Qué necesitás del cliente y para cuándo",
-   "consigna": "Accesos, material, aprobaciones y pagos, cada uno con fecha y con la persona que lo manda de su lado. Al lado de cada línea, qué pasa si llega tarde: la fecha de entrega se corre los mismos días de la demora. Esto se dice cuando se firma, con el documento adelante.",
-   "campo": "lineas",
-   "lineas": ["Qué necesito", "Para cuándo", "Quién lo manda de su lado", "Si llega tarde, cuánto se corre la fecha"]},
-
-  {"titulo": "Cómo queda aceptado por escrito",
-   "consigna": "Elegí una de las tres formas: la página con confirmación de lectura, un mail que él contesta de acuerdo, o un contrato simple cuando el ticket lo pide. El trabajo arranca después de esa confirmación, y la confirmación tiene fecha. Guardala en la carpeta del cliente el mismo día.",
-   "ejemplo": {"quien": "Agostina Marchesini", "texto": "El acuerdo con Ibi quedó escrito como una jornada de trabajo semanal sobre la marca, pagada del 1 al 10, en lugar de un paquete llave en mano. Fijar así la unidad de trabajo es lo que permitió discutir el alcance con números."},
-   "campo": "lineas",
-   "lineas": ["Forma elegida", "Quién confirma del lado del cliente", "Fecha de la confirmación", "Dónde queda guardada"]},
-
-  {"titulo": "Presentáselo al cliente que más se te desborda",
-   "consigna": "Elegí el cliente que más pide fuera de lo cotizado y presentale el alcance en una llamada, antes de que arranque el próximo ciclo de trabajo. Anotá qué discutió, qué pidió mover y qué aceptó pagar aparte. Con ese primero corregido, la página queda lista para todos los demás.",
-   "campo": "tabla",
-   "columnas": ["Cliente", "Fecha de la charla", "Qué discutió", "Qué quedó aparte y a qué precio"],
-   "filas": 6}
- ]
+  "modulo": "alcance-por-escrito",
+  "titulo": "La hoja del alcance",
+  "bajada": "Una página por cliente con qué entra, qué se cobra aparte, qué queda afuera y qué necesitás de él, aceptada por escrito antes de arrancar.",
+  "lista_cuando": "El cliente pide algo que está afuera y le podés mostrar la página donde dice que sale aparte y cuánto cuesta.",
+  "secciones": [
+    {
+      "titulo": "Todo lo que entregaste este mes y nadie cotizó",
+      "consigna": "Una fila por pedido que atendiste fuera de lo acordado, con el tiempo que te llevó, incluidos los que parecían un minuto. Buscalos en el chat del último mes, cliente por cliente. Cuando la suma pasa el diez por ciento de tus horas, el alcance es el trabajo de esta semana.",
+      "ejemplo": {
+        "quien": "Sol Boutmy",
+        "texto": "Cobran mensual y contra entrega, con un promedio de seiscientos a setecientos dólares, y las dos socias siguen armando propuestas, produciendo y editando. Todo lo que entra de más sale de esas mismas horas."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Cliente",
+        "Qué pidió",
+        "Cuánto te llevó",
+        "Estaba cotizado"
+      ],
+      "filas": 10,
+      "cid": 0
+    },
+    {
+      "titulo": "Qué entra en el estándar, qué se cobra aparte y qué queda afuera",
+      "consigna": "Clasificá cada ítem de la lista anterior en una de las tres columnas y ponele cantidad. Lo que se cobra aparte lleva precio ahora, para que la próxima vez la respuesta salga con un número adelante. Lo que queda afuera se escribe con el mismo detalle que lo que entra.",
+      "ejemplo": {
+        "quien": "Sharon Palacio",
+        "texto": "Definió que la pauta paga queda afuera del servicio estándar y que la producción se coordina con el cliente. Con el alcance así acotado, la estrategia entra en un mínimo de setecientos dólares por mes."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Ítem",
+        "Estándar, aparte o afuera",
+        "Cantidad",
+        "Precio si es aparte"
+      ],
+      "filas": 10,
+      "cid": 1
+    },
+    {
+      "titulo": "El alcance en una página, con cantidades y plazos",
+      "consigna": "Escribilo corto y en prosa, con número y día en cada línea: cuántas piezas, cuántas reuniones, cuántas rondas de cambios, entregadas qué fecha del mes. Una línea sin cantidad se discute más adelante, así que no queda ninguna. Si no entra en una página, hay ítems que van al aparte.",
+      "ejemplo": {
+        "quien": "Sofía Galvis",
+        "texto": "En su servicio el límite quedó puesto en tres contenidos dedicados, y revisar ese alcance es lo que evita que el paquete de tres meses se desborde."
+      },
+      "campo": "texto",
+      "alto": 6,
+      "placeholder": "Por mes: … piezas, … reuniones, … rondas. Entrega el día…",
+      "cid": 2
+    },
+    {
+      "titulo": "Las rondas de cambios y cuándo algo queda aprobado",
+      "consigna": "Dos rondas por entregable y un plazo para que el cliente devuelva. Escribí qué pasa con la tercera ronda, con precio, y a partir de cuántos días de silencio el entregable queda aprobado. Eso resuelve la mitad de las discusiones de un proyecto antes de que aparezcan.",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "En los contratos el guion aprobado es entregable cumplido y el guion sin aprobar se rehace. La producción es responsabilidad del cliente, y las demoras de su lado corren la fecha sin discusión."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Rondas incluidas",
+        "Plazo del cliente para devolver",
+        "Precio de la ronda extra",
+        "Días de silencio que aprueban"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "Dónde termina tu responsabilidad",
+      "consigna": "Una frase para lo que respondés vos y una frase para lo que responde el cliente. La parte fina es el resultado final: escribí qué porción de ese resultado depende de decisiones suyas, con ejemplos concretos de tu trabajo de este mes. Esa frase es la que evita que te reclamen algo que nunca estuvo en tus manos.",
+      "ejemplo": {
+        "quien": "Lola Berutti",
+        "texto": "Workflow entra como distribuidora de Project Managers y la responsabilidad del proyecto del cliente queda de su lado. La capacitación de esos PMs se vende aparte, como mentoría grupal."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Yo respondo por… El cliente responde por…",
+      "cid": 4
+    },
+    {
+      "titulo": "Qué necesitás del cliente y para cuándo",
+      "consigna": "Accesos, material, aprobaciones y pagos, cada uno con fecha y con la persona que lo manda de su lado. Al lado de cada línea, qué pasa si llega tarde: la fecha de entrega se corre los mismos días de la demora. Esto se dice cuando se firma, con el documento adelante.",
+      "campo": "lineas",
+      "lineas": [
+        "Qué necesito",
+        "Para cuándo",
+        "Quién lo manda de su lado",
+        "Si llega tarde, cuánto se corre la fecha"
+      ],
+      "cid": 5
+    },
+    {
+      "titulo": "Cómo queda aceptado por escrito",
+      "consigna": "Elegí una de las tres formas: la página con confirmación de lectura, un mail que él contesta de acuerdo, o un contrato simple cuando el ticket lo pide. El trabajo arranca después de esa confirmación, y la confirmación tiene fecha. Guardala en la carpeta del cliente el mismo día.",
+      "ejemplo": {
+        "quien": "Agostina Marchesini",
+        "texto": "El acuerdo con Ibi quedó escrito como una jornada de trabajo semanal sobre la marca, pagada del 1 al 10, en lugar de un paquete llave en mano. Fijar así la unidad de trabajo es lo que permitió discutir el alcance con números."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Forma elegida",
+        "Quién confirma del lado del cliente",
+        "Fecha de la confirmación",
+        "Dónde queda guardada"
+      ],
+      "cid": 6
+    },
+    {
+      "titulo": "Presentáselo al cliente que más se te desborda",
+      "consigna": "Elegí el cliente que más pide fuera de lo cotizado y presentale el alcance en una llamada, antes de que arranque el próximo ciclo de trabajo. Anotá qué discutió, qué pidió mover y qué aceptó pagar aparte. Con ese primero corregido, la página queda lista para todos los demás.",
+      "campo": "tabla",
+      "columnas": [
+        "Cliente",
+        "Fecha de la charla",
+        "Qué discutió",
+        "Qué quedó aparte y a qué precio"
+      ],
+      "filas": 6,
+      "cid": 7
+    }
+  ]
 }

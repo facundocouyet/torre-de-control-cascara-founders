@@ -1,55 +1,120 @@
 {
- "modulo": "prospeccion-y-recontacto",
- "titulo": "La hoja del recontacto y la prospección",
- "bajada": "La base histórica ordenada, los mensajes escritos y veinte conversaciones nuevas por semana corriendo, con el registro de cada una. Es el motor de ventas de los próximos sesenta días, mientras el contenido levanta.",
- "lista_cuando": "En la última semana hay veinte conversaciones con respuesta del otro lado, y cada una está cargada con su objeción y su próxima acción con fecha.",
- "secciones": [
-  {"titulo": "De dónde sale la base",
-   "consigna": "Juntá en un solo archivo todo lo que ya tenés: clientes de los últimos dos años, presupuestos que no cerraron, gente que pasó por el Calendly y no agendó, y quien te escribió por mensaje o comentario. Media hora buscando en el chat y en el mail rinde más que cualquier lista comprada. Ese archivo es el mismo que después usás como pipeline.",
-   "ejemplo": {"quien": "Custom Lab", "texto": "Juan armó la base de los clientes de los últimos dos años en Notion con cliente, fecha, proyecto, cuánto se produjo, quién los contactó y quién decide la compra. Salieron a recontactar con esa lista y vendieron: hoy es el único motor de ventas que tienen probado."},
-   "campo": "lineas",
-   "lineas": ["Dónde vive la base", "Cuántos clientes viejos", "Cuántos presupuestos sin cerrar", "Cuántos del Calendly", "Total de la base"]},
-
-  {"titulo": "La base ordenada por cercanía",
-   "consigna": "Una fila por persona, y la columna que manda es el grupo: ya compró, pidió presupuesto, solo consultó. El orden de trabajo es ese mismo, porque el que ya te pagó una vez es el que menos explicación necesita. Arrancá por las diez más cercanas del primer grupo.",
-   "ejemplo": {"quien": "José David", "texto": "Tenía tres ventas de tres mil dólares antes de la Clarity Call, y al mirarlas juntas apareció que las tres eran e-commerce. Ese es el grupo con el que arranca la reactivación de la base de leads viejos."},
-   "campo": "tabla",
-   "columnas": ["Quién", "Grupo", "Última vez que hablaron", "Qué le interesaba", "Estado"],
-   "filas": 10},
-
-  {"titulo": "El caso que va adelante del mensaje",
-   "consigna": "Tres o cuatro renglones con un resultado tuyo, con nombre, número y plazo. Ese caso va en la primera línea de todos los mensajes, antes de cualquier pregunta. Si todavía no tenés uno con número, elegí el cliente que mejor te salió y pedile el dato hoy mismo.",
-   "ejemplo": {"quien": "Sharon", "texto": "La marca de ropa técnica outdoor le dio ventas orgánicas que le ganaron a la pauta paga, y llega gente nueva al local diciendo que los vio en Instagram. Ese es el caso que sostiene la venta de la estrategia a setecientos dólares por mes."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Con X hicimos Y en Z semanas."},
-
-  {"titulo": "Los tres mensajes, uno por grupo",
-   "consigna": "Un mensaje para cada grupo, de cuatro renglones como máximo, con el caso adelante y un solo pedido al final. El que ya compró recibe la novedad, el que pidió presupuesto recibe qué cambió desde entonces, el que consultó recibe el caso y una pregunta. Los tres se escriben antes de mandar el primero, para dejar de improvisar a las nueve de la noche.",
-   "ejemplo": {"quien": "Lucca", "texto": "El resultado de su B2B se compara mes contra mes con un software y el dueño lo ve a los dos meses, así que las objeciones son cero. Con ese caso adelante tiene que contactar veinte dueños de propiedad por semana."},
-   "campo": "texto", "alto": 6,
-   "placeholder": "Grupo ya compró: … / Grupo pidió presupuesto: … / Grupo consultó: …"},
-
-  {"titulo": "Los cincuenta prospectos nuevos",
-   "consigna": "Cincuenta nombres que entren en tu cliente ideal, con de dónde salieron y por qué entran. Salen de los comentarios de tus propias piezas, de seguidores de cuentas parecidas, de LinkedIn y de quien ya te conoce y te puede presentar. Cincuenta es el piso para sostener veinte contactos por semana sin quedarte sin lista en el medio.",
-   "campo": "tabla",
-   "columnas": ["Quién", "Empresa", "Por qué entra", "De dónde salió", "Estado"],
-   "filas": 10},
-
-  {"titulo": "El número de cada día",
-   "consigna": "Cinco recontactos por día de la base histórica y veinte contactos nuevos por semana, con hora fija en el calendario. Un contacto se cuenta cuando la persona contestó, y los mensajes mandados se cuentan en una columna aparte. Si un día no llegás a los cinco, se suman al día siguiente.",
-   "ejemplo": {"quien": "Nico", "texto": "Cinco personas por día de la base y veinte contactos nuevos por semana, con todo el pipeline que ya existía sin tocar. La meta al 15 de octubre son veinte conversaciones reales, con respuesta del otro lado."},
-   "campo": "lineas",
-   "lineas": ["Recontactos por día", "Contactos nuevos por semana", "Horario fijo", "Conversaciones abiertas esta semana", "Llamadas agendadas"]},
-
-  {"titulo": "Lo que contestó cada uno",
-   "consigna": "Cada respuesta se carga el mismo día con la objeción textual y la próxima acción con fecha. Una conversación sin próxima acción se muere sola en cuatro días. El que no contesta vuelve a la lista y recibe un segundo mensaje a los quince días, con otro ángulo.",
-   "campo": "tabla",
-   "columnas": ["Quién", "Qué contestó", "Objeción textual", "Próxima acción", "Fecha"],
-   "filas": 10},
-
-  {"titulo": "Una semana corrida completa",
-   "consigna": "Corré una semana entera con el número puesto y contá lo que pasó: cuántos contactaste, cuántos contestaron, cuántas llamadas salieron. Anotá qué grupo respondió mejor y qué mensaje cayó mal, porque eso reescribe los tres mensajes de la semana siguiente. Una semana floja con el número hecho enseña más que tres semanas a media máquina.",
-   "campo": "texto", "alto": 4,
-   "placeholder": "Contactados, respuestas, llamadas, y qué cambio para la semana que viene."}
- ]
+  "modulo": "prospeccion-y-recontacto",
+  "titulo": "La hoja del recontacto y la prospección",
+  "bajada": "La base histórica ordenada, los mensajes escritos y veinte conversaciones nuevas por semana corriendo, con el registro de cada una. Es el motor de ventas de los próximos sesenta días, mientras el contenido levanta.",
+  "lista_cuando": "En la última semana hay veinte conversaciones con respuesta del otro lado, y cada una está cargada con su objeción y su próxima acción con fecha.",
+  "secciones": [
+    {
+      "titulo": "De dónde sale la base",
+      "consigna": "Juntá en un solo archivo todo lo que ya tenés: clientes de los últimos dos años, presupuestos que no cerraron, gente que pasó por el Calendly y no agendó, y quien te escribió por mensaje o comentario. Media hora buscando en el chat y en el mail rinde más que cualquier lista comprada. Ese archivo es el mismo que después usás como pipeline.",
+      "ejemplo": {
+        "quien": "Custom Lab",
+        "texto": "Juan armó la base de los clientes de los últimos dos años en Notion con cliente, fecha, proyecto, cuánto se produjo, quién los contactó y quién decide la compra. Salieron a recontactar con esa lista y vendieron: hoy es el único motor de ventas que tienen probado."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Dónde vive la base",
+        "Cuántos clientes viejos",
+        "Cuántos presupuestos sin cerrar",
+        "Cuántos del Calendly",
+        "Total de la base"
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "La base ordenada por cercanía",
+      "consigna": "Una fila por persona, y la columna que manda es el grupo: ya compró, pidió presupuesto, solo consultó. El orden de trabajo es ese mismo, porque el que ya te pagó una vez es el que menos explicación necesita. Arrancá por las diez más cercanas del primer grupo.",
+      "ejemplo": {
+        "quien": "José David",
+        "texto": "Tenía tres ventas de tres mil dólares antes de la Clarity Call, y al mirarlas juntas apareció que las tres eran e-commerce. Ese es el grupo con el que arranca la reactivación de la base de leads viejos."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Grupo",
+        "Última vez que hablaron",
+        "Qué le interesaba",
+        "Estado"
+      ],
+      "filas": 10,
+      "cid": 1
+    },
+    {
+      "titulo": "El caso que va adelante del mensaje",
+      "consigna": "Tres o cuatro renglones con un resultado tuyo, con nombre, número y plazo. Ese caso va en la primera línea de todos los mensajes, antes de cualquier pregunta. Si todavía no tenés uno con número, elegí el cliente que mejor te salió y pedile el dato hoy mismo.",
+      "ejemplo": {
+        "quien": "Sharon",
+        "texto": "La marca de ropa técnica outdoor le dio ventas orgánicas que le ganaron a la pauta paga, y llega gente nueva al local diciendo que los vio en Instagram. Ese es el caso que sostiene la venta de la estrategia a setecientos dólares por mes."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Con X hicimos Y en Z semanas.",
+      "cid": 2
+    },
+    {
+      "titulo": "Los tres mensajes, uno por grupo",
+      "consigna": "Un mensaje para cada grupo, de cuatro renglones como máximo, con el caso adelante y un solo pedido al final. El que ya compró recibe la novedad, el que pidió presupuesto recibe qué cambió desde entonces, el que consultó recibe el caso y una pregunta. Los tres se escriben antes de mandar el primero, para dejar de improvisar a las nueve de la noche.",
+      "ejemplo": {
+        "quien": "Lucca",
+        "texto": "El resultado de su B2B se compara mes contra mes con un software y el dueño lo ve a los dos meses, así que las objeciones son cero. Con ese caso adelante tiene que contactar veinte dueños de propiedad por semana."
+      },
+      "campo": "texto",
+      "alto": 6,
+      "placeholder": "Grupo ya compró: … / Grupo pidió presupuesto: … / Grupo consultó: …",
+      "cid": 3
+    },
+    {
+      "titulo": "Los cincuenta prospectos nuevos",
+      "consigna": "Cincuenta nombres que entren en tu cliente ideal, con de dónde salieron y por qué entran. Salen de los comentarios de tus propias piezas, de seguidores de cuentas parecidas, de LinkedIn y de quien ya te conoce y te puede presentar. Cincuenta es el piso para sostener veinte contactos por semana sin quedarte sin lista en el medio.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Empresa",
+        "Por qué entra",
+        "De dónde salió",
+        "Estado"
+      ],
+      "filas": 10,
+      "cid": 4
+    },
+    {
+      "titulo": "El número de cada día",
+      "consigna": "Cinco recontactos por día de la base histórica y veinte contactos nuevos por semana, con hora fija en el calendario. Un contacto se cuenta cuando la persona contestó, y los mensajes mandados se cuentan en una columna aparte. Si un día no llegás a los cinco, se suman al día siguiente.",
+      "ejemplo": {
+        "quien": "Nico",
+        "texto": "Cinco personas por día de la base y veinte contactos nuevos por semana, con todo el pipeline que ya existía sin tocar. La meta al 15 de octubre son veinte conversaciones reales, con respuesta del otro lado."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Recontactos por día",
+        "Contactos nuevos por semana",
+        "Horario fijo",
+        "Conversaciones abiertas esta semana",
+        "Llamadas agendadas"
+      ],
+      "cid": 5
+    },
+    {
+      "titulo": "Lo que contestó cada uno",
+      "consigna": "Cada respuesta se carga el mismo día con la objeción textual y la próxima acción con fecha. Una conversación sin próxima acción se muere sola en cuatro días. El que no contesta vuelve a la lista y recibe un segundo mensaje a los quince días, con otro ángulo.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Qué contestó",
+        "Objeción textual",
+        "Próxima acción",
+        "Fecha"
+      ],
+      "filas": 10,
+      "cid": 6
+    },
+    {
+      "titulo": "Una semana corrida completa",
+      "consigna": "Corré una semana entera con el número puesto y contá lo que pasó: cuántos contactaste, cuántos contestaron, cuántas llamadas salieron. Anotá qué grupo respondió mejor y qué mensaje cayó mal, porque eso reescribe los tres mensajes de la semana siguiente. Una semana floja con el número hecho enseña más que tres semanas a media máquina.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Contactados, respuestas, llamadas, y qué cambio para la semana que viene.",
+      "cid": 7
+    }
+  ]
 }

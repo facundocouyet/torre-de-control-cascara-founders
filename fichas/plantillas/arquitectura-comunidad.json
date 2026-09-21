@@ -1,56 +1,120 @@
 {
- "modulo": "arquitectura-comunidad",
- "titulo": "La hoja de tu comunidad",
- "bajada": "La arquitectura mínima escrita y corriendo: para qué existe el grupo, qué recibe el que entra, qué pasa cada semana, cómo se llena y cuánta venta sale de ahí.",
- "lista_cuando": "Pasó un mes entero con las dinámicas hechas y podés decir cuántos participaron y qué parte de las ventas salió de la comunidad.",
- "secciones": [
-  {"titulo": "Para qué existe y qué hace la gente adentro cada semana",
-   "consigna": "Dos frases: qué se lleva alguien por estar adentro y qué hace concretamente cada semana. Escribilo con el verbo del miembro: pregunta, muestra lo que hizo, pide devolución, vota. Si lo único que hace es leer lo que subís, hoy es un canal de difusión y conviene escribirlo así para saber de dónde partís.",
-   "ejemplo": {"quien": "Ayelén", "texto": "El 27 de julio definió el giro: estrategia creativa para construir comunidades, apuntada a las marcas con muchos seguidores y ninguna comunidad atrás. Ese es el problema que su arquitectura resuelve."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "El que está adentro se lleva… y cada semana…"},
-
-  {"titulo": "Los números de hoy",
-   "consigna": "Los cuatro datos del punto A, contados hoy y no estimados. Abrí el grupo y contá: cuánta gente hay, cuántos escribieron en los últimos siete días y cuántos compraron alguna vez. Ese último número es el que dice si adentro hay compradores.",
-   "ejemplo": {"quien": "Lola", "texto": "Armó desde LinkedIn un grupo con ciento sesenta Project Managers, la mayoría del mundo PMP. Ella lo dijo en la grupal: los PMs no tienen una comunidad donde hablar de lo que les gusta hablar."},
-   "campo": "lineas",
-   "lineas": ["Cuánta gente hay adentro", "Cuántos escribieron esta semana", "Cuántos compraron alguna vez", "De dónde llegó la mayoría"]},
-
-  {"titulo": "El texto de bienvenida y quién contesta",
-   "consigna": "Escribí el mensaje que recibe el que entra y la consigna de presentación: nombre, qué hace y en qué está trabado. Abajo, quién contesta cada presentación y en cuánto tiempo, con el piso en veinticuatro horas y con el nombre de la persona adelante. La presentación contestada es lo que hace que exista el segundo mensaje.",
-   "campo": "texto", "alto": 5,
-   "placeholder": "Bienvenido/a. Acá… Presentate con…"},
-
-  {"titulo": "El calendario de dinámicas del mes",
-   "consigna": "Cargá el mes entero: una llamada, un reto, la curaduría de recursos y el premio para quien participa. Cada dinámica lleva dueño y una sola fecha dura. Cuatro cosas por mes alcanzan, y lo que se cae siempre es lo que nadie sostiene.",
-   "ejemplo": {"quien": "Cáscara", "texto": "La arquitectura mínima que armó Teo tiene eso escrito: llamada mensual, un reto por mes, curaduría de recursos y premios por participación. Se le bajó tal cual a Bianca."},
-   "campo": "tabla",
-   "columnas": ["Semana", "Qué pasa", "Quién lo sostiene", "Qué hace el miembro"],
-   "filas": 5},
-
-  {"titulo": "Cómo se llena",
-   "consigna": "Definí qué contenido baja gente al grupo y con qué motivo entra: un recurso, la lista de espera de un lanzamiento, el acceso a una llamada. Anotá dónde está el link en cada canal y cuántos entraron por ahí. Un solo motivo de entrada por canal, para que después se pueda leer cuál trae gente que participa.",
-   "ejemplo": {"quien": "Agostina", "texto": "Tiene la charla de dieciocho minutos grabada para subir a YouTube y ManyChat configurado para repartir el link desde los comentarios. Ese es el camino desde el contenido hasta el grupo."},
-   "campo": "tabla",
-   "columnas": ["Canal o pieza", "Con qué motivo entra", "Dónde está el link", "Cuántos entraron"],
-   "filas": 6},
-
-  {"titulo": "La base de miembros",
-   "consigna": "Una fila por miembro, con cómo llegó, qué hizo el último mes y si compró. Con diez filas cargadas ya se ve el patrón, y casi siempre el que participó dos veces es el que compra. Esa base es la lista con la que hablás en el próximo lanzamiento.",
-   "ejemplo": {"quien": "José David", "texto": "Vende la comunidad como el método detrás del resultado del e-commerce, con una base de datos segmentada que le devuelve información de audiencia y de producto."},
-   "campo": "tabla",
-   "columnas": ["Miembro", "Cómo llegó", "Participación del mes", "Compró"],
-   "filas": 10},
-
-  {"titulo": "El cierre de mes",
-   "consigna": "Una vez por mes, cinco números y listo: ventas del mes, cuántas salieron de la comunidad, cuántas fueron de gente que ya te había comprado, quién carga los datos y qué día se cierra. Fijá el día ahora, el último lunes del mes, así la lectura deja de depender de que alguien se acuerde.",
-   "campo": "lineas",
-   "lineas": ["Ventas del mes", "Cuántas salieron de la comunidad", "Cuántas fueron recompra", "Quién lo carga", "Día del cierre"]},
-
-  {"titulo": "El próximo lanzamiento, adentro del grupo",
-   "consigna": "Corré un lanzamiento con la arquitectura puesta: preventa avisada adentro primero, una dinámica de participación en el grupo, ventana de comunicación corta y el producto disponible el mismo día que sale el contenido de venta. Al cerrar, escribí qué parte de la venta salió de ahí. Ese número decide cuánto trabajo más merece la comunidad.",
-   "ejemplo": {"quien": "Bianca", "texto": "Los anillos son lo más fácil de vender que tiene, porque la demanda ya se probó en TikTok. El lanzamiento corre con preventa a la comunidad de WhatsApp y stock reservado, y la meta es superar las doscientas treinta y seis recompras."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Qué se lanzó, cuántos compraron, cuántos venían del grupo."}
- ]
+  "modulo": "arquitectura-comunidad",
+  "titulo": "La hoja de tu comunidad",
+  "bajada": "La arquitectura mínima escrita y corriendo: para qué existe el grupo, qué recibe el que entra, qué pasa cada semana, cómo se llena y cuánta venta sale de ahí.",
+  "lista_cuando": "Pasó un mes entero con las dinámicas hechas y podés decir cuántos participaron y qué parte de las ventas salió de la comunidad.",
+  "secciones": [
+    {
+      "titulo": "Para qué existe y qué hace la gente adentro cada semana",
+      "consigna": "Dos frases: qué se lleva alguien por estar adentro y qué hace concretamente cada semana. Escribilo con el verbo del miembro: pregunta, muestra lo que hizo, pide devolución, vota. Si lo único que hace es leer lo que subís, hoy es un canal de difusión y conviene escribirlo así para saber de dónde partís.",
+      "ejemplo": {
+        "quien": "Ayelén",
+        "texto": "El 27 de julio definió el giro: estrategia creativa para construir comunidades, apuntada a las marcas con muchos seguidores y ninguna comunidad atrás. Ese es el problema que su arquitectura resuelve."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "El que está adentro se lleva… y cada semana…",
+      "cid": 0
+    },
+    {
+      "titulo": "Los números de hoy",
+      "consigna": "Los cuatro datos del punto A, contados hoy y no estimados. Abrí el grupo y contá: cuánta gente hay, cuántos escribieron en los últimos siete días y cuántos compraron alguna vez. Ese último número es el que dice si adentro hay compradores.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Armó desde LinkedIn un grupo con ciento sesenta Project Managers, la mayoría del mundo PMP. Ella lo dijo en la grupal: los PMs no tienen una comunidad donde hablar de lo que les gusta hablar."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Cuánta gente hay adentro",
+        "Cuántos escribieron esta semana",
+        "Cuántos compraron alguna vez",
+        "De dónde llegó la mayoría"
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "El texto de bienvenida y quién contesta",
+      "consigna": "Escribí el mensaje que recibe el que entra y la consigna de presentación: nombre, qué hace y en qué está trabado. Abajo, quién contesta cada presentación y en cuánto tiempo, con el piso en veinticuatro horas y con el nombre de la persona adelante. La presentación contestada es lo que hace que exista el segundo mensaje.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Bienvenido/a. Acá… Presentate con…",
+      "cid": 2
+    },
+    {
+      "titulo": "El calendario de dinámicas del mes",
+      "consigna": "Cargá el mes entero: una llamada, un reto, la curaduría de recursos y el premio para quien participa. Cada dinámica lleva dueño y una sola fecha dura. Cuatro cosas por mes alcanzan, y lo que se cae siempre es lo que nadie sostiene.",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "La arquitectura mínima que armó Teo tiene eso escrito: llamada mensual, un reto por mes, curaduría de recursos y premios por participación. Se le bajó tal cual a Bianca."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Semana",
+        "Qué pasa",
+        "Quién lo sostiene",
+        "Qué hace el miembro"
+      ],
+      "filas": 5,
+      "cid": 3
+    },
+    {
+      "titulo": "Cómo se llena",
+      "consigna": "Definí qué contenido baja gente al grupo y con qué motivo entra: un recurso, la lista de espera de un lanzamiento, el acceso a una llamada. Anotá dónde está el link en cada canal y cuántos entraron por ahí. Un solo motivo de entrada por canal, para que después se pueda leer cuál trae gente que participa.",
+      "ejemplo": {
+        "quien": "Agostina",
+        "texto": "Tiene la charla de dieciocho minutos grabada para subir a YouTube y ManyChat configurado para repartir el link desde los comentarios. Ese es el camino desde el contenido hasta el grupo."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Canal o pieza",
+        "Con qué motivo entra",
+        "Dónde está el link",
+        "Cuántos entraron"
+      ],
+      "filas": 6,
+      "cid": 4
+    },
+    {
+      "titulo": "La base de miembros",
+      "consigna": "Una fila por miembro, con cómo llegó, qué hizo el último mes y si compró. Con diez filas cargadas ya se ve el patrón, y casi siempre el que participó dos veces es el que compra. Esa base es la lista con la que hablás en el próximo lanzamiento.",
+      "ejemplo": {
+        "quien": "José David",
+        "texto": "Vende la comunidad como el método detrás del resultado del e-commerce, con una base de datos segmentada que le devuelve información de audiencia y de producto."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Miembro",
+        "Cómo llegó",
+        "Participación del mes",
+        "Compró"
+      ],
+      "filas": 10,
+      "cid": 5
+    },
+    {
+      "titulo": "El cierre de mes",
+      "consigna": "Una vez por mes, cinco números y listo: ventas del mes, cuántas salieron de la comunidad, cuántas fueron de gente que ya te había comprado, quién carga los datos y qué día se cierra. Fijá el día ahora, el último lunes del mes, así la lectura deja de depender de que alguien se acuerde.",
+      "campo": "lineas",
+      "lineas": [
+        "Ventas del mes",
+        "Cuántas salieron de la comunidad",
+        "Cuántas fueron recompra",
+        "Quién lo carga",
+        "Día del cierre"
+      ],
+      "cid": 6
+    },
+    {
+      "titulo": "El próximo lanzamiento, adentro del grupo",
+      "consigna": "Corré un lanzamiento con la arquitectura puesta: preventa avisada adentro primero, una dinámica de participación en el grupo, ventana de comunicación corta y el producto disponible el mismo día que sale el contenido de venta. Al cerrar, escribí qué parte de la venta salió de ahí. Ese número decide cuánto trabajo más merece la comunidad.",
+      "ejemplo": {
+        "quien": "Bianca",
+        "texto": "Los anillos son lo más fácil de vender que tiene, porque la demanda ya se probó en TikTok. El lanzamiento corre con preventa a la comunidad de WhatsApp y stock reservado, y la meta es superar las doscientas treinta y seis recompras."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Qué se lanzó, cuántos compraron, cuántos venían del grupo.",
+      "cid": 7
+    }
+  ]
 }

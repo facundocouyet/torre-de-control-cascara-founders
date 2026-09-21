@@ -1,55 +1,116 @@
 {
- "modulo": "cinco-llamadas-con-precio",
- "titulo": "La hoja de las primeras cinco llamadas con precio",
- "bajada": "Cinco conversaciones de venta hechas con el número arriba de la mesa, cada una con la objeción textual anotada y una sola corrección de la oferta al final. Es el módulo que convierte una oferta escrita en una oferta probada.",
- "lista_cuando": "Están las cinco llamadas hechas con fecha, las cinco objeciones textuales cargadas, y abajo el precio con el que sales a la sexta.",
- "secciones": [
-  {"titulo": "La hipótesis de precio con la que arrancás",
-   "consigna": "Escribí el número antes de la primera llamada, para no improvisarlo cuando te lo pregunten. Calculá cuánto te cuesta entregarlo una vez contando tus horas: el piso es ese costo por dos. Y definí cuánto se cobra al arrancar, que tiene que ser más de la mitad.",
-   "ejemplo": {"quien": "Lucio", "texto": "Salió con dos mil a tres mil dólares por la instalación del sistema de diseño con IA, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Ese número entró a las cinco llamadas como hipótesis, para que las llamadas lo confirmen o lo corrijan."},
-   "campo": "lineas",
-   "lineas": ["Costo de entregar una vez", "Precio de lista", "Precio pagando adelantado", "Cuánto se cobra al arrancar", "La frase exacta con la que decís el número"]},
-
-  {"titulo": "Las cinco personas, con nombre y con fecha",
-   "consigna": "Cinco personas del entorno que entren en el cliente ideal que ya escribiste. Cada una con la fecha de la llamada puesta en el calendario antes de cerrar esta hoja: cinco llamadas en dos semanas, no cinco intenciones. Si una persona no entra en el cliente ideal, sacala y buscá otra, porque su objeción te va a mandar a corregir lo que está bien.",
-   "ejemplo": {"quien": "Ayelén", "texto": "Cósmico, la yerba, es el caso de prueba desde julio y la propuesta seguía sin presentarse con precio. Esa es la primera de las cinco: el que ya está adentro y todavía no vio el número."},
-   "campo": "tabla",
-   "columnas": ["Quién", "Por qué entra en el cliente ideal", "Cómo lo invitás", "Fecha y hora de la llamada"],
-   "filas": 5},
-
-  {"titulo": "Cómo presentás la oferta y en qué momento aparece el número",
-   "consigna": "Escribí el orden en el que vas a contar la oferta y en qué minuto decís el precio. La oferta se presenta completa: promesa con número y plazo, qué incluye, qué queda afuera, qué necesitás de él y cuánto sale. El precio se dice de arriba hacia abajo, empezando por el de lista, y la llamada se graba entera.",
-   "ejemplo": {"quien": "Lola", "texto": "Tuvo tres llamadas con gente que le escribió y a la que le mostró el programa. Las tres se cayeron en el mismo lugar: al final, donde había que preguntar si lo compraba. Escribir de antemano la frase del precio es lo que resuelve ese punto."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Arranco con… muestro… el precio lo digo cuando…"},
-
-  {"titulo": "La planilla de objeciones, llamada por llamada",
-   "consigna": "Una fila por llamada, cargada el mismo día, con la objeción copiada tal cual la dijo. La objeción textual vale mucho más que tu resumen de la objeción, porque esa frase después es el copy de la propuesta. Anotá también el minuto en el que frenó: si las cinco frenan en el mismo lugar, ahí está el arreglo.",
-   "campo": "tabla",
-   "columnas": ["Llamada y fecha", "Minuto donde frenó", "La objeción, textual", "Qué contestaste", "Cómo terminó"],
-   "filas": 5},
-
-  {"titulo": "Lo que se repitió en las cinco",
-   "consigna": "Leé las cinco filas juntas y escribí qué apareció más de dos veces. Sirve el patrón que se repite: la misma duda, el mismo precio nombrado, la misma parte que tuviste que explicar dos veces. Lo que dijo una sola persona queda anotado y se guarda para más adelante.",
-   "campo": "texto", "alto": 4,
-   "placeholder": "Tres de cinco preguntaron por… Dos frenaron cuando…"},
-
-  {"titulo": "La corrección: promesa, precio o cliente ideal",
-   "consigna": "Se corrige una sola de las tres, la que las cinco llamadas señalaron. Si te frenaron por el resultado, se corrige la promesa. Si te frenaron por el número, se corrige el precio o la forma de pago. Si te dijeron que esto le sirve a otro, se corrige el cliente ideal. Escribí la versión nueva de esa parte completa, para poder pegarla en la hoja de tu oferta.",
-   "ejemplo": {"quien": "Sebastián", "texto": "Dictó la mentoría de cinco sesiones gratis con cuatro personas y se quedó sin nada que leer: al no pagar, nadie se comprometió y el feedback salió simpático. Ese es el motivo por el que la corrección sale de llamadas con precio."},
-   "campo": "texto", "alto": 5,
-   "placeholder": "Lo que cambio es… y queda escrito así:"},
-
-  {"titulo": "El número que queda cerrado",
-   "consigna": "El precio que sostuvo más conversaciones, con la forma de pago que menos fricción hizo. Este número es el que se usa de acá en adelante y se comunica igual en todos los canales. Anotá también el piso: debajo de qué cifra no vendés, aunque te lo pidan.",
-   "ejemplo": {"quien": "Matías Morales", "texto": "Armó las propuestas con Facu, subió los precios casi al doble y las vendió todas igual. Quedó probado que el techo lo tenía puesto él y que el mercado pagaba más."},
-   "campo": "lineas",
-   "lineas": ["Precio de lista que queda", "Precio pagando adelantado", "Forma de pago que mejor funcionó", "El piso: debajo de esto no vendés"]},
-
-  {"titulo": "La sexta llamada, con la corrección puesta",
-   "consigna": "Agendá una llamada más dentro de los siete días siguientes, con la oferta ya corregida y el número nuevo. Es la que dice si la corrección funcionó o si el problema estaba en otra parte. Anotá qué preguntó, si apareció la misma objeción de las cinco anteriores y cómo terminó.",
-   "ejemplo": {"quien": "Nicolás Lozada", "texto": "El objetivo del tramo es una sola venta, a mil dólares, sin descuento y sin regalar el proceso. Una venta cerrada con precio es lo que le da sentido al resto del sistema que ya tiene armado."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Con quién, qué día, qué preguntó, cómo terminó."}
- ]
+  "modulo": "cinco-llamadas-con-precio",
+  "titulo": "La hoja de las primeras cinco llamadas con precio",
+  "bajada": "Cinco conversaciones de venta hechas con el número arriba de la mesa, cada una con la objeción textual anotada y una sola corrección de la oferta al final. Es el módulo que convierte una oferta escrita en una oferta probada.",
+  "lista_cuando": "Están las cinco llamadas hechas con fecha, las cinco objeciones textuales cargadas, y abajo el precio con el que sales a la sexta.",
+  "secciones": [
+    {
+      "titulo": "La hipótesis de precio con la que arrancás",
+      "consigna": "Escribí el número antes de la primera llamada, para no improvisarlo cuando te lo pregunten. Calculá cuánto te cuesta entregarlo una vez contando tus horas: el piso es ese costo por dos. Y definí cuánto se cobra al arrancar, que tiene que ser más de la mitad.",
+      "ejemplo": {
+        "quien": "Lucio",
+        "texto": "Salió con dos mil a tres mil dólares por la instalación del sistema de diseño con IA, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Ese número entró a las cinco llamadas como hipótesis, para que las llamadas lo confirmen o lo corrijan."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Costo de entregar una vez",
+        "Precio de lista",
+        "Precio pagando adelantado",
+        "Cuánto se cobra al arrancar",
+        "La frase exacta con la que decís el número"
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "Las cinco personas, con nombre y con fecha",
+      "consigna": "Cinco personas del entorno que entren en el cliente ideal que ya escribiste. Cada una con la fecha de la llamada puesta en el calendario antes de cerrar esta hoja: cinco llamadas en dos semanas, no cinco intenciones. Si una persona no entra en el cliente ideal, sacala y buscá otra, porque su objeción te va a mandar a corregir lo que está bien.",
+      "ejemplo": {
+        "quien": "Ayelén",
+        "texto": "Cósmico, la yerba, es el caso de prueba desde julio y la propuesta seguía sin presentarse con precio. Esa es la primera de las cinco: el que ya está adentro y todavía no vio el número."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Por qué entra en el cliente ideal",
+        "Cómo lo invitás",
+        "Fecha y hora de la llamada"
+      ],
+      "filas": 5,
+      "cid": 1
+    },
+    {
+      "titulo": "Cómo presentás la oferta y en qué momento aparece el número",
+      "consigna": "Escribí el orden en el que vas a contar la oferta y en qué minuto decís el precio. La oferta se presenta completa: promesa con número y plazo, qué incluye, qué queda afuera, qué necesitás de él y cuánto sale. El precio se dice de arriba hacia abajo, empezando por el de lista, y la llamada se graba entera.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Tuvo tres llamadas con gente que le escribió y a la que le mostró el programa. Las tres se cayeron en el mismo lugar: al final, donde había que preguntar si lo compraba. Escribir de antemano la frase del precio es lo que resuelve ese punto."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Arranco con… muestro… el precio lo digo cuando…",
+      "cid": 2
+    },
+    {
+      "titulo": "La planilla de objeciones, llamada por llamada",
+      "consigna": "Una fila por llamada, cargada el mismo día, con la objeción copiada tal cual la dijo. La objeción textual vale mucho más que tu resumen de la objeción, porque esa frase después es el copy de la propuesta. Anotá también el minuto en el que frenó: si las cinco frenan en el mismo lugar, ahí está el arreglo.",
+      "campo": "tabla",
+      "columnas": [
+        "Llamada y fecha",
+        "Minuto donde frenó",
+        "La objeción, textual",
+        "Qué contestaste",
+        "Cómo terminó"
+      ],
+      "filas": 5,
+      "cid": 3
+    },
+    {
+      "titulo": "Lo que se repitió en las cinco",
+      "consigna": "Leé las cinco filas juntas y escribí qué apareció más de dos veces. Sirve el patrón que se repite: la misma duda, el mismo precio nombrado, la misma parte que tuviste que explicar dos veces. Lo que dijo una sola persona queda anotado y se guarda para más adelante.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Tres de cinco preguntaron por… Dos frenaron cuando…",
+      "cid": 4
+    },
+    {
+      "titulo": "La corrección: promesa, precio o cliente ideal",
+      "consigna": "Se corrige una sola de las tres, la que las cinco llamadas señalaron. Si te frenaron por el resultado, se corrige la promesa. Si te frenaron por el número, se corrige el precio o la forma de pago. Si te dijeron que esto le sirve a otro, se corrige el cliente ideal. Escribí la versión nueva de esa parte completa, para poder pegarla en la hoja de tu oferta.",
+      "ejemplo": {
+        "quien": "Sebastián",
+        "texto": "Dictó la mentoría de cinco sesiones gratis con cuatro personas y se quedó sin nada que leer: al no pagar, nadie se comprometió y el feedback salió simpático. Ese es el motivo por el que la corrección sale de llamadas con precio."
+      },
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Lo que cambio es… y queda escrito así:",
+      "cid": 5
+    },
+    {
+      "titulo": "El número que queda cerrado",
+      "consigna": "El precio que sostuvo más conversaciones, con la forma de pago que menos fricción hizo. Este número es el que se usa de acá en adelante y se comunica igual en todos los canales. Anotá también el piso: debajo de qué cifra no vendés, aunque te lo pidan.",
+      "ejemplo": {
+        "quien": "Matías Morales",
+        "texto": "Armó las propuestas con Facu, subió los precios casi al doble y las vendió todas igual. Quedó probado que el techo lo tenía puesto él y que el mercado pagaba más."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Precio de lista que queda",
+        "Precio pagando adelantado",
+        "Forma de pago que mejor funcionó",
+        "El piso: debajo de esto no vendés"
+      ],
+      "cid": 6
+    },
+    {
+      "titulo": "La sexta llamada, con la corrección puesta",
+      "consigna": "Agendá una llamada más dentro de los siete días siguientes, con la oferta ya corregida y el número nuevo. Es la que dice si la corrección funcionó o si el problema estaba en otra parte. Anotá qué preguntó, si apareció la misma objeción de las cinco anteriores y cómo terminó.",
+      "ejemplo": {
+        "quien": "Nicolás Lozada",
+        "texto": "El objetivo del tramo es una sola venta, a mil dólares, sin descuento y sin regalar el proceso. Una venta cerrada con precio es lo que le da sentido al resto del sistema que ya tiene armado."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Con quién, qué día, qué preguntó, cómo terminó.",
+      "cid": 7
+    }
+  ]
 }

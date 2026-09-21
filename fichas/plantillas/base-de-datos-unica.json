@@ -1,113 +1,121 @@
 {
- "modulo": "base-de-datos-unica",
- "titulo": "La hoja de tu base única",
- "bajada": "Una sola base con tus contactos, su origen, qué compraron y cuánto pagaron, que podés filtrar vos sin pedirle nada a nadie. Es de donde salen las listas para vender y los números que después se presentan.",
- "lista_cuando": "Podés contestar tres preguntas del negocio filtrando la base delante de alguien, sin abrir otra planilla ni escribirle a nadie.",
- "secciones": [
-  {
-   "titulo": "Las tres preguntas que hoy no podés contestar",
-   "consigna": "Escribí tres preguntas de tu negocio que hoy nadie contesta sin abrir cuatro lugares, y al lado la decisión que cambia según la respuesta. Que sean incómodas y con número adentro: cuántos volvieron a comprar, qué origen trae al que más paga, cuánto compró cada segmento. Estas tres preguntas son las que después definen las vistas, así que se escriben primero.",
-   "ejemplo": {
-    "quien": "Bianca",
-    "texto": "Para cerrar el drop del miedo necesita tres números que hoy no tiene: cuánta gente hay en la comunidad de WhatsApp, qué porcentaje de las ventas salió de ahí y cuántas de esas clientas eran recompra."
-   },
-   "campo": "texto",
-   "alto": 4,
-   "placeholder": "Una pregunta por renglón, con la decisión que cambia."
-  },
-  {
-   "titulo": "Dónde vive cada dato hoy",
-   "consigna": "Una fila por cada lugar donde hay información de clientes o de ventas: mensajes de Instagram, chats de WhatsApp, la tienda, planillas, formularios, y lo que está solamente en la cabeza de alguien. Poné la cantidad de registros aunque sea a ojo, porque eso ordena por dónde arrancar. Lo que está en una cabeza se escribe como fila igual.",
-   "ejemplo": {
-    "quien": "Sol Boutmy",
-    "texto": "Los calendarios de los seis clientes viven en Drive desde que dejaron Notion por los cuarenta dólares al mes, y cada movimiento de plata lo anota en un grupo de WhatsApp para que Fede esté al tanto. El hábito de registrar está, el formato es lo que falta."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "Dato",
-    "Dónde vive hoy",
-    "Quién lo tiene",
-    "Cuántos registros"
-   ],
-   "filas": 8
-  },
-  {
-   "titulo": "Los campos mínimos",
-   "consigna": "Contacto, origen, qué compró, monto y fecha son el piso; arriba de eso sumá los campos que necesitan tus tres preguntas. Cada campo lleva un solo formato de escritura decidido acá: los montos en una moneda, las fechas en un formato, el origen elegido de una lista cerrada. El campo que no alimenta ninguna vista sale de la base.",
-   "ejemplo": {
-    "quien": "Custom Lab",
-    "texto": "Juan cargó en Notion la base de los últimos dos años con cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién los contactó, quién toma la decisión de compra, si repitió y qué contestó en el recontacto."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "Campo",
-    "Qué guarda",
-    "De dónde sale el dato",
-    "Obligatorio"
-   ],
-   "filas": 8
-  },
-  {
-   "titulo": "Dónde se guarda y dónde se mira",
-   "consigna": "Una herramienta guarda y otra muestra. La que guarda aguanta el volumen y sigue en pie con mil filas adentro; la que muestra te deja filtrar y ordenar sin pedirle ayuda a alguien técnico. Anotá el costo mensual acá mismo, porque una base que se cae por cuarenta dólares deja de existir en dos meses.",
-   "campo": "lineas",
-   "lineas": [
-    "Dónde se guarda",
-    "Dónde se mira y se filtra",
-    "Quién puede editar",
-    "Cuánto cuesta por mes",
-    "Quién la arma"
-   ]
-  },
-  {
-   "titulo": "El histórico cargado y los duplicados marcados",
-   "consigna": "Volcá para atrás todo lo que tengas de los últimos dos años, aunque falten campos: una fila incompleta sirve más que un cliente ausente. Los duplicados se marcan con una etiqueta y se resuelven de a uno, sin borrar nada hasta estar seguro. Escribí cuántas filas entraron, cuántas quedaron marcadas y qué información quedó afuera para siempre.",
-   "campo": "texto",
-   "alto": 4,
-   "placeholder": "Filas cargadas, duplicados marcados, qué quedó afuera."
-  },
-  {
-   "titulo": "Quién carga cada dato y en qué momento",
-   "consigna": "Cada campo necesita un nombre propio y un momento exacto: cuando entra la consulta, cuando sale la propuesta, cuando se cobra. En la última columna va cómo te enterás de que algo no se cargó, que es lo que sostiene la base en el mes tres. Un dato sin dueño se carga dos semanas y después la base empieza a mentir.",
-   "ejemplo": {
-    "quien": "Manu",
-    "texto": "La base central de leads y las automatizaciones de captación quedaron definidas en abril, y medio año después todavía no está confirmado si se implementaron. Nada se sostiene sin dueño y sin fecha."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "Dato",
-    "Quién lo carga",
-    "En qué momento",
-    "Cómo se detecta si falta"
-   ],
-   "filas": 6
-  },
-  {
-   "titulo": "Las tres vistas",
-   "consigna": "Una vista por cada pregunta de la primera sección, con el filtro escrito tal como quedó armado. La prueba de que la vista sirve es que alguien del equipo la abra, la lea y tome una decisión sin llamarte. Tres alcanzan: la cuarta vista sin pregunta atrás se llena de polvo.",
-   "ejemplo": {
-    "quien": "José David",
-    "texto": "La base segmentada es parte de lo que le vende al e-commerce: devuelve información de audiencia y de producto, y es la que le permite mostrar un resultado medible en un contrato de tres meses."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "Vista",
-    "Pregunta que responde",
-    "Filtro que usa",
-    "Quién la mira y cada cuánto"
-   ],
-   "filas": 5
-  },
-  {
-   "titulo": "Usala esta semana con una lista filtrada",
-   "consigna": "Abrí la base, filtrá un grupo de veinte contactos como mínimo y salí a escribirles esta semana. Anotá cuántas filas tuviste que corregir mientras escribías, porque ahí aparecen todos los errores de carga. La base queda aprobada cuando esa lista sale sin que le pidas ayuda a nadie.",
-   "ejemplo": {
-    "quien": "Nico",
-    "texto": "Tiene el pipeline entero sin tocar: los que pasaron por Calendly y no cerraron, los que comentaron y los referidos. Las veinte conversaciones que necesita abrir salen todas de esa lista."
-   },
-   "campo": "texto",
-   "alto": 4,
-   "placeholder": "Qué filtro usaste, a cuántos les escribiste, qué corregiste."
-  }
- ]
+  "modulo": "base-de-datos-unica",
+  "titulo": "La hoja de tu base única",
+  "bajada": "Una sola base con tus contactos, su origen, qué compraron y cuánto pagaron, que podés filtrar vos sin pedirle nada a nadie. Es de donde salen las listas para vender y los números que después se presentan.",
+  "lista_cuando": "Podés contestar tres preguntas del negocio filtrando la base delante de alguien, sin abrir otra planilla ni escribirle a nadie.",
+  "secciones": [
+    {
+      "titulo": "Las tres preguntas que hoy no podés contestar",
+      "consigna": "Escribí tres preguntas de tu negocio que hoy nadie contesta sin abrir cuatro lugares, y al lado la decisión que cambia según la respuesta. Que sean incómodas y con número adentro: cuántos volvieron a comprar, qué origen trae al que más paga, cuánto compró cada segmento. Estas tres preguntas son las que después definen las vistas, así que se escriben primero.",
+      "ejemplo": {
+        "quien": "Bianca",
+        "texto": "Para cerrar el drop del miedo necesita tres números que hoy no tiene: cuánta gente hay en la comunidad de WhatsApp, qué porcentaje de las ventas salió de ahí y cuántas de esas clientas eran recompra."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Una pregunta por renglón, con la decisión que cambia.",
+      "cid": 0
+    },
+    {
+      "titulo": "Dónde vive cada dato hoy",
+      "consigna": "Una fila por cada lugar donde hay información de clientes o de ventas: mensajes de Instagram, chats de WhatsApp, la tienda, planillas, formularios, y lo que está solamente en la cabeza de alguien. Poné la cantidad de registros aunque sea a ojo, porque eso ordena por dónde arrancar. Lo que está en una cabeza se escribe como fila igual.",
+      "ejemplo": {
+        "quien": "Sol Boutmy",
+        "texto": "Los calendarios de los seis clientes viven en Drive desde que dejaron Notion por los cuarenta dólares al mes, y cada movimiento de plata lo anota en un grupo de WhatsApp para que Fede esté al tanto. El hábito de registrar está, el formato es lo que falta."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Dato",
+        "Dónde vive hoy",
+        "Quién lo tiene",
+        "Cuántos registros"
+      ],
+      "filas": 8,
+      "cid": 1
+    },
+    {
+      "titulo": "Los campos mínimos",
+      "consigna": "Contacto, origen, qué compró, monto y fecha son el piso; arriba de eso sumá los campos que necesitan tus tres preguntas. Cada campo lleva un solo formato de escritura decidido acá: los montos en una moneda, las fechas en un formato, el origen elegido de una lista cerrada. El campo que no alimenta ninguna vista sale de la base.",
+      "ejemplo": {
+        "quien": "Custom Lab",
+        "texto": "Juan cargó en Notion la base de los últimos dos años con cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién los contactó, quién toma la decisión de compra, si repitió y qué contestó en el recontacto."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Campo",
+        "Qué guarda",
+        "De dónde sale el dato",
+        "Obligatorio"
+      ],
+      "filas": 8,
+      "cid": 2
+    },
+    {
+      "titulo": "Dónde se guarda y dónde se mira",
+      "consigna": "Una herramienta guarda y otra muestra. La que guarda aguanta el volumen y sigue en pie con mil filas adentro; la que muestra te deja filtrar y ordenar sin pedirle ayuda a alguien técnico. Anotá el costo mensual acá mismo, porque una base que se cae por cuarenta dólares deja de existir en dos meses.",
+      "campo": "lineas",
+      "lineas": [
+        "Dónde se guarda",
+        "Dónde se mira y se filtra",
+        "Quién puede editar",
+        "Cuánto cuesta por mes",
+        "Quién la arma"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "El histórico cargado y los duplicados marcados",
+      "consigna": "Volcá para atrás todo lo que tengas de los últimos dos años, aunque falten campos: una fila incompleta sirve más que un cliente ausente. Los duplicados se marcan con una etiqueta y se resuelven de a uno, sin borrar nada hasta estar seguro. Escribí cuántas filas entraron, cuántas quedaron marcadas y qué información quedó afuera para siempre.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Filas cargadas, duplicados marcados, qué quedó afuera.",
+      "cid": 4
+    },
+    {
+      "titulo": "Quién carga cada dato y en qué momento",
+      "consigna": "Cada campo necesita un nombre propio y un momento exacto: cuando entra la consulta, cuando sale la propuesta, cuando se cobra. En la última columna va cómo te enterás de que algo no se cargó, que es lo que sostiene la base en el mes tres. Un dato sin dueño se carga dos semanas y después la base empieza a mentir.",
+      "ejemplo": {
+        "quien": "Manu",
+        "texto": "La base central de leads y las automatizaciones de captación quedaron definidas en abril, y medio año después todavía no está confirmado si se implementaron. Nada se sostiene sin dueño y sin fecha."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Dato",
+        "Quién lo carga",
+        "En qué momento",
+        "Cómo se detecta si falta"
+      ],
+      "filas": 6,
+      "cid": 5
+    },
+    {
+      "titulo": "Las tres vistas",
+      "consigna": "Una vista por cada pregunta de la primera sección, con el filtro escrito tal como quedó armado. La prueba de que la vista sirve es que alguien del equipo la abra, la lea y tome una decisión sin llamarte. Tres alcanzan: la cuarta vista sin pregunta atrás se llena de polvo.",
+      "ejemplo": {
+        "quien": "José David",
+        "texto": "La base segmentada es parte de lo que le vende al e-commerce: devuelve información de audiencia y de producto, y es la que le permite mostrar un resultado medible en un contrato de tres meses."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Vista",
+        "Pregunta que responde",
+        "Filtro que usa",
+        "Quién la mira y cada cuánto"
+      ],
+      "filas": 5,
+      "cid": 6
+    },
+    {
+      "titulo": "Usala esta semana con una lista filtrada",
+      "consigna": "Abrí la base, filtrá un grupo de veinte contactos como mínimo y salí a escribirles esta semana. Anotá cuántas filas tuviste que corregir mientras escribías, porque ahí aparecen todos los errores de carga. La base queda aprobada cuando esa lista sale sin que le pidas ayuda a nadie.",
+      "ejemplo": {
+        "quien": "Nico",
+        "texto": "Tiene el pipeline entero sin tocar: los que pasaron por Calendly y no cerraron, los que comentaron y los referidos. Las veinte conversaciones que necesita abrir salen todas de esa lista."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Qué filtro usaste, a cuántos les escribiste, qué corregiste.",
+      "cid": 7
+    }
+  ]
 }

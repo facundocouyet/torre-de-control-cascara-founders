@@ -1,55 +1,118 @@
 {
- "modulo": "setter-closer",
- "titulo": "La hoja del setter o del closer",
- "bajada": "Una persona incorporada a tu venta con el scope, el guion y la comisión escritos, y las primeras diez llamadas hechas con ella adelante.",
- "lista_cuando": "La persona atiende conversaciones reales sin que vos entres, y de cada una hay grabación escuchada y una corrección anotada.",
- "secciones": [
-  {"titulo": "Las conversaciones del último mes, una por una",
-   "consigna": "Traé diez conversaciones de venta de los últimos treinta días, con nombre y con el lugar exacto donde se cortaron. Sacalas del chat, del Calendly y de la agenda, con fecha, sin depender de la memoria. Con menos de diez el patrón no se ve, y el patrón es lo que decide qué rol sumás primero.",
-   "ejemplo": {"quien": "Lola Berutti", "texto": "Tuvo tres llamadas de gente que le escribió y a la que le mostró el programa. Uno iba a comprar y no compró. Las tres se cayeron en el mismo lugar: al final."},
-   "campo": "tabla",
-   "columnas": ["Quién", "De dónde llegó", "Dónde se cortó", "Cuánto valía"],
-   "filas": 10},
-
-  {"titulo": "Dónde se pierde más plata: en abrir o en cerrar",
-   "consigna": "Sumá el valor de lo que se cayó antes de llegar a la llamada y el valor de lo que se cayó adentro de la llamada. El número más alto te dice qué tarea suelta primero. Se suelta una sola: dos roles nuevos a la vez no se entrenan.",
-   "ejemplo": {"quien": "Nicolás Lozada", "texto": "Tiene oferta, pilares y piezas publicadas, y el pipeline que ya existe está sin tocar: los que pasaron por Calendly y no cerraron, los que comentaron, los referidos. En su caso lo que falta es la apertura, y el número son veinte conversaciones."},
-   "campo": "texto", "alto": 3,
-   "placeholder": "Antes de la llamada se cayeron… Adentro de la llamada se cayeron… Suelto primero…"},
-
-  {"titulo": "El scope del rol, en números de actividad",
-   "consigna": "Escribí qué hace la persona todos los días, medido en cantidad. Actividad que se cuenta sin interpretación: conversaciones nuevas abiertas, llamadas agendadas, propuestas mandadas. Un rol sin número diario no se puede evaluar en la primera semana, que es cuando hay que evaluarlo.",
-   "campo": "lineas",
-   "lineas": ["Qué tarea hace", "Conversaciones nuevas por día", "Llamadas agendadas por semana", "Qué reporta y a qué hora", "Queda afuera del rol"]},
-
-  {"titulo": "El guion, con tus palabras",
-   "consigna": "El guion sale de tus conversaciones ganadas. Escuchá tres llamadas donde cerraste, escribí las preguntas que hiciste en el orden en que salieron y dejá el precio en el primer tercio de la charla. Antes de pasárselo a alguien, leelo en voz alta en una llamada real y corregí lo que te trabó.",
-   "ejemplo": {"quien": "Lucca Sorgoni", "texto": "Vende su programa de mil quinientos dólares él solo desde su marca personal y promedia diez mil dólares por mes, sin setter ni closer. Ese guion existe entero en su cabeza, y el primer trabajo del módulo es transcribirlo."},
-   "campo": "texto", "alto": 5,
-   "placeholder": "Apertura, tres preguntas, el precio, el cierre."},
-
-  {"titulo": "El fijo y la comisión",
-   "consigna": "El peso va en la comisión y la comisión se paga cuando el cliente pagó. El fijo se sostiene contra el piso de actividad de la sección anterior. Calculá cuánto te queda en cada venta con la comisión puesta: si te queda menos del cuarenta por ciento, el precio del servicio sube antes de contratar a nadie.",
-   "campo": "lineas",
-   "lineas": ["Fijo por mes", "Comisión por cierre", "Cuándo se paga", "Piso de actividad para cobrar el fijo", "Qué te queda en cada venta"]},
-
-  {"titulo": "La búsqueda y la prueba paga",
-   "consigna": "Buscá entre gente que ya vendió algo parecido a lo que vendés vos, y pagá la prueba. La prueba corre una semana, con tres o cuatro candidatos, sobre conversaciones reales de tu pipeline. Pagarla es lo que te habilita a pedir el trabajo bien hecho y a quedarte con las grabaciones.",
-   "ejemplo": {"quien": "Sol Boutmy", "texto": "Para sumar un editor el criterio fue el mismo: historias de reclutamiento, postulaciones por formulario, entrevistas, y por lo menos uno probado con una prueba paga antes de darle responsabilidad sobre un cliente."},
-   "campo": "tabla",
-   "columnas": ["Candidato", "De dónde salió", "Qué hizo en la prueba", "Qué le pagaste", "Qué devolvió"],
-   "filas": 6},
-
-  {"titulo": "Lo que sigue pasando por vos",
-   "consigna": "Escribí qué decisiones quedan de tu lado con la persona ya adentro: el precio final, las excepciones, a quién se le dice que sí y qué lead te llega directo. Cada una lleva el criterio con el que se decide, en dos líneas, para que en tres meses se pueda tomar sin vos.",
-   "ejemplo": {"quien": "Manuel Bruzzone", "texto": "Los leads de ticket alto los atiende él y el resto baja a Team Bruzzone. La regla está clara desde abril y lo que falta escrito es quién precalifica y con qué pregunta."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Esto lo decido yo: … Esto se decide solo cuando…"},
-
-  {"titulo": "Las primeras diez llamadas con la persona adentro",
-   "consigna": "Diez llamadas grabadas, escuchadas por vos y devueltas dentro de las veinticuatro horas. De cada una sale un cambio concreto en el guion, escrito en el mismo documento el mismo día. A la décima el guion ya es otro, y ahí se decide si el rol sigue y con qué números.",
-   "campo": "tabla",
-   "columnas": ["Fecha", "Quién atendió", "Cómo terminó", "Qué se cambió del guion"],
-   "filas": 10}
- ]
+  "modulo": "setter-closer",
+  "titulo": "La hoja del setter o del closer",
+  "bajada": "Una persona incorporada a tu venta con el scope, el guion y la comisión escritos, y las primeras diez llamadas hechas con ella adelante.",
+  "lista_cuando": "La persona atiende conversaciones reales sin que vos entres, y de cada una hay grabación escuchada y una corrección anotada.",
+  "secciones": [
+    {
+      "titulo": "Las conversaciones del último mes, una por una",
+      "consigna": "Traé diez conversaciones de venta de los últimos treinta días, con nombre y con el lugar exacto donde se cortaron. Sacalas del chat, del Calendly y de la agenda, con fecha, sin depender de la memoria. Con menos de diez el patrón no se ve, y el patrón es lo que decide qué rol sumás primero.",
+      "ejemplo": {
+        "quien": "Lola Berutti",
+        "texto": "Tuvo tres llamadas de gente que le escribió y a la que le mostró el programa. Uno iba a comprar y no compró. Las tres se cayeron en el mismo lugar: al final."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "De dónde llegó",
+        "Dónde se cortó",
+        "Cuánto valía"
+      ],
+      "filas": 10,
+      "cid": 0
+    },
+    {
+      "titulo": "Dónde se pierde más plata: en abrir o en cerrar",
+      "consigna": "Sumá el valor de lo que se cayó antes de llegar a la llamada y el valor de lo que se cayó adentro de la llamada. El número más alto te dice qué tarea suelta primero. Se suelta una sola: dos roles nuevos a la vez no se entrenan.",
+      "ejemplo": {
+        "quien": "Nicolás Lozada",
+        "texto": "Tiene oferta, pilares y piezas publicadas, y el pipeline que ya existe está sin tocar: los que pasaron por Calendly y no cerraron, los que comentaron, los referidos. En su caso lo que falta es la apertura, y el número son veinte conversaciones."
+      },
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "Antes de la llamada se cayeron… Adentro de la llamada se cayeron… Suelto primero…",
+      "cid": 1
+    },
+    {
+      "titulo": "El scope del rol, en números de actividad",
+      "consigna": "Escribí qué hace la persona todos los días, medido en cantidad. Actividad que se cuenta sin interpretación: conversaciones nuevas abiertas, llamadas agendadas, propuestas mandadas. Un rol sin número diario no se puede evaluar en la primera semana, que es cuando hay que evaluarlo.",
+      "campo": "lineas",
+      "lineas": [
+        "Qué tarea hace",
+        "Conversaciones nuevas por día",
+        "Llamadas agendadas por semana",
+        "Qué reporta y a qué hora",
+        "Queda afuera del rol"
+      ],
+      "cid": 2
+    },
+    {
+      "titulo": "El guion, con tus palabras",
+      "consigna": "El guion sale de tus conversaciones ganadas. Escuchá tres llamadas donde cerraste, escribí las preguntas que hiciste en el orden en que salieron y dejá el precio en el primer tercio de la charla. Antes de pasárselo a alguien, leelo en voz alta en una llamada real y corregí lo que te trabó.",
+      "ejemplo": {
+        "quien": "Lucca Sorgoni",
+        "texto": "Vende su programa de mil quinientos dólares él solo desde su marca personal y promedia diez mil dólares por mes, sin setter ni closer. Ese guion existe entero en su cabeza, y el primer trabajo del módulo es transcribirlo."
+      },
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Apertura, tres preguntas, el precio, el cierre.",
+      "cid": 3
+    },
+    {
+      "titulo": "El fijo y la comisión",
+      "consigna": "El peso va en la comisión y la comisión se paga cuando el cliente pagó. El fijo se sostiene contra el piso de actividad de la sección anterior. Calculá cuánto te queda en cada venta con la comisión puesta: si te queda menos del cuarenta por ciento, el precio del servicio sube antes de contratar a nadie.",
+      "campo": "lineas",
+      "lineas": [
+        "Fijo por mes",
+        "Comisión por cierre",
+        "Cuándo se paga",
+        "Piso de actividad para cobrar el fijo",
+        "Qué te queda en cada venta"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "La búsqueda y la prueba paga",
+      "consigna": "Buscá entre gente que ya vendió algo parecido a lo que vendés vos, y pagá la prueba. La prueba corre una semana, con tres o cuatro candidatos, sobre conversaciones reales de tu pipeline. Pagarla es lo que te habilita a pedir el trabajo bien hecho y a quedarte con las grabaciones.",
+      "ejemplo": {
+        "quien": "Sol Boutmy",
+        "texto": "Para sumar un editor el criterio fue el mismo: historias de reclutamiento, postulaciones por formulario, entrevistas, y por lo menos uno probado con una prueba paga antes de darle responsabilidad sobre un cliente."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Candidato",
+        "De dónde salió",
+        "Qué hizo en la prueba",
+        "Qué le pagaste",
+        "Qué devolvió"
+      ],
+      "filas": 6,
+      "cid": 5
+    },
+    {
+      "titulo": "Lo que sigue pasando por vos",
+      "consigna": "Escribí qué decisiones quedan de tu lado con la persona ya adentro: el precio final, las excepciones, a quién se le dice que sí y qué lead te llega directo. Cada una lleva el criterio con el que se decide, en dos líneas, para que en tres meses se pueda tomar sin vos.",
+      "ejemplo": {
+        "quien": "Manuel Bruzzone",
+        "texto": "Los leads de ticket alto los atiende él y el resto baja a Team Bruzzone. La regla está clara desde abril y lo que falta escrito es quién precalifica y con qué pregunta."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Esto lo decido yo: … Esto se decide solo cuando…",
+      "cid": 6
+    },
+    {
+      "titulo": "Las primeras diez llamadas con la persona adentro",
+      "consigna": "Diez llamadas grabadas, escuchadas por vos y devueltas dentro de las veinticuatro horas. De cada una sale un cambio concreto en el guion, escrito en el mismo documento el mismo día. A la décima el guion ya es otro, y ahí se decide si el rol sigue y con qué números.",
+      "campo": "tabla",
+      "columnas": [
+        "Fecha",
+        "Quién atendió",
+        "Cómo terminó",
+        "Qué se cambió del guion"
+      ],
+      "filas": 10,
+      "cid": 7
+    }
+  ]
 }

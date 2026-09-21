@@ -1,155 +1,180 @@
 {
- "modulo": "one-sheeter-oferta",
- "slug": "sofia-galvis",
- "founder": "Sofía Galvis Montoya",
- "titulo": "Las preguntas de tu oferta",
- "bajada": "Todo lo que hace falta para armar la oferta del programa de educación, contado por vos. Acá no escribís la promesa ni el precio: bajás la información cruda y las conclusiones las sacamos nosotros con Franco.",
- "lista_cuando": "Alguien del equipo lee tus respuestas y puede escribir la oferta sin volver a preguntarte nada.",
- "pasos": [
-  "Mirar los últimos diez clientes o consultas reales de la agencia y anotar qué compró cada uno y por qué.",
-  "Contestar qué te piden que hoy no vendés, y qué te sale fácil que a los demás les cuesta.",
-  "Contar con tus palabras qué le cambia a alguien después de trabajar con vos.",
-  "Anotar lo que te preguntan siempre antes de comprar y lo que pasó las veces que salió mal.",
-  "Medir cuánto tiempo te lleva entregarlo una vez, con tus horas contadas.",
-  "Decir qué no querés que tenga esta oferta."
- ],
- "completar": [
-  "Esta carta completa, con las nueve respuestas escritas"
- ],
- "bajada_envio": {
+  "modulo": "one-sheeter-oferta",
+  "slug": "sofia-galvis",
   "founder": "Sofía Galvis Montoya",
-  "porque": "Arrancás el segundo tramo y el producto de educación todavía no existe: los lugares vendidos son cero porque no hay qué vender. Franco baja producto, oferta y roadmap en su llamada, y esta hoja es lo que hace que esa llamada rinda. No te pide que definas la oferta, te pide la materia prima: qué vendiste, qué te piden, qué te sale fácil y qué te cuesta. La oferta la escribimos nosotros con eso.",
-  "objetivo": "Las nueve respuestas escritas antes de la llamada con Franco, para que esa llamada sea de decidir y no de averiguar. De ahí salen la promesa, la métrica, el paso a paso y el precio.",
-  "mindset": "Contestá largo y en tu forma de hablar, sin ordenar. Un audio pasado a texto sirve igual. Lo que necesitamos es la información cruda: la prolijidad la ponemos nosotros, y si te ponés a redactar perdés lo que más sirve, que son tus palabras."
- },
- "secciones": [
-  {
-   "nuestro": true,
-   "titulo": "Cómo funciona esta hoja",
-   "texto": [
-    "Son nueve preguntas y ninguna te pide una definición. No hay que escribir la promesa, ni el precio, ni el paso a paso de la entrega: eso lo armamos nosotros con lo que contestes, y se cierra con Franco en su llamada.",
-    "El orden importa: primero se audita lo que ya vendiste y lo que te piden, y recién después se decide qué va a ser la oferta. Al revés se arma un producto para un cliente que todavía no se miró.",
-    "Si una pregunta no la podés contestar, escribí por qué. Eso también es información y nos dice dónde tenemos que meternos nosotros."
-   ]
+  "titulo": "Las preguntas de tu oferta",
+  "bajada": "Todo lo que hace falta para armar la oferta del programa de educación, contado por vos. No sale de los clientes de Bitui: sale de la gente que ya te pide que le enseñes. Acá no escribís la promesa ni el precio, bajás la información cruda y las conclusiones las sacamos nosotros con Franco.",
+  "lista_cuando": "Alguien del equipo lee tus respuestas y puede escribir la oferta sin volver a preguntarte nada.",
+  "pasos": [
+    "Juntar diez personas reales que ya te pidieron que les enseñes, o que quisieron contratarte y no les daba.",
+    "Listar lo que sabés hacer que hoy va adentro del servicio y no se vende por separado.",
+    "Separar lo que explicás fácil de lo que te cuesta explicar.",
+    "Contar un caso en el que le enseñaste algo a alguien y le funcionó, o el tuyo propio.",
+    "Anotar lo que te van a preguntar antes de anotarse, y dónde se traba la gente cuando le explicás.",
+    "Estimar cuánto tiempo tuyo se lleva una vuelta completa con un alumno.",
+    "Decir qué no querés que tenga este programa."
+  ],
+  "completar": [
+    "Esta carta completa, con las nueve respuestas escritas"
+  ],
+  "bajada_envio": {
+    "founder": "Sofía Galvis Montoya",
+    "porque": "Arrancás el segundo tramo y el producto de educación todavía no existe: los lugares vendidos son cero porque no hay qué vender. Franco baja producto, oferta y roadmap en su llamada, y esta hoja es lo que hace que esa llamada rinda. Ojo con una cosa: esto no se arma mirando a los clientes de Bitui. Ellos te contratan para que se lo hagas. El programa se lo vendés a alguien que quiere aprender a hacerlo, y esa gente ya te viene preguntando.",
+    "objetivo": "Las nueve respuestas escritas antes de la llamada con Franco, para que esa llamada sea de decidir y no de averiguar. De ahí salen la promesa, la métrica, el formato y el precio.",
+    "mindset": "Contestá largo y en tu forma de hablar, sin ordenar. Un audio pasado a texto sirve igual. Lo que necesitamos es la información cruda: la prolijidad la ponemos nosotros, y si te ponés a redactar perdés lo que más sirve, que son tus palabras."
   },
-  {
-   "titulo": "Los últimos diez que compraron o preguntaron",
-   "consigna": "Diez clientes o consultas reales de la agencia de los últimos dos años, con qué compró cada uno, cuánto pagó y por qué te eligió. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Media hora buscando acá vale más que una hora pensando la oferta.",
-   "ejemplo": {
-    "quien": "José David Fajardo",
-    "texto": "Tres ventas de tres mil dólares antes de la Clarity Call. Al mirarlas juntas apareció que las tres eran e-commerce con equipo creativo rotando, y eso definió el mecanismo que hoy vende."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "Quién",
-    "Qué compró",
-    "Cuánto pagó",
-    "Por qué te eligió",
-    "Repitió"
-   ],
-   "filas": 10
-  },
-  {
-   "titulo": "Qué te piden que hoy no vendés",
-   "consigna": "Las cosas que te preguntaron y dijiste que no, o que resolviste gratis de favor, o que derivaste a otro. Esto suele ser la oferta nueva escondida: lo que la gente ya te está pidiendo y vos todavía no empaquetaste. Anotá también cuántas veces te lo pidieron.",
-   "campo": "texto",
-   "alto": 5,
-   "placeholder": "Me preguntaron por… y les dije que no porque…"
-  },
-  {
-   "titulo": "Qué te sale fácil y qué te cuesta",
-   "consigna": "Dos listas cortas. Lo que hacés casi sin pensar y a los demás les lleva horas, y lo que te lleva a vos el doble de tiempo del que debería. La oferta se arma sobre lo primero: lo segundo se delega, se saca o se cobra aparte.",
-   "campo": "lineas",
-   "lineas": [
-    "Me sale fácil",
-    "Me sale fácil",
-    "Me sale fácil",
-    "Me cuesta",
-    "Me cuesta",
-    "Me cuesta"
-   ]
-  },
-  {
-   "titulo": "Qué le cambia a alguien después de trabajar con vos",
-   "consigna": "Contalo con tus palabras y con un caso concreto: cómo llegó esa persona, qué hicieron juntos y cómo quedó. Sin cifras todavía. De acá sale la promesa, pero la promesa la escribimos nosotros: lo que necesitamos es la historia entera y no el titular.",
-   "ejemplo": {
-    "quien": "Matías Morales",
-    "texto": "Pasó de vender campañas a vender una campaña con fecha de inicio, fecha de final y un entregable contado. Con eso pudo subir el precio al doble y lo vendió igual."
-   },
-   "campo": "texto",
-   "alto": 6,
-   "placeholder": "Llegó así… hicimos… y terminó…"
-  },
-  {
-   "titulo": "Qué te preguntan siempre antes de comprar",
-   "consigna": "Las tres o cuatro preguntas que te hacen en todas las conversaciones de venta, textuales. Y al lado, qué contestás hoy. Estas preguntas son las objeciones, y las objeciones son lo que después la oferta tiene que resolver antes de que aparezcan.",
-   "campo": "tabla",
-   "columnas": [
-    "La pregunta, textual",
-    "Qué contestás hoy"
-   ],
-   "filas": 5
-  },
-  {
-   "titulo": "Cuánto tiempo te lleva entregarlo una vez",
-   "consigna": "Contá tus horas, no sólo las que se ven. Preparación, llamada, ida y vuelta por mensaje, revisión, seguimiento. Un número aproximado alcanza, pero tiene que incluir todo. Sin esto el precio se define a ojo, y a ojo siempre sale barato.",
-   "campo": "lineas",
-   "lineas": [
-    "Horas de preparación",
-    "Horas en llamada",
-    "Horas de ida y vuelta",
-    "Horas de revisión",
-    "Total por cliente",
-    "Cuántos podés sostener a la vez"
-   ]
-  },
-  {
-   "titulo": "Qué pasó las veces que salió mal",
-   "consigna": "Los clientes que no funcionaron, los que se cayeron a mitad de camino o los que quedaron disconformes, y qué pasó en cada caso. Esto define qué queda afuera de la oferta y qué le vas a pedir al cliente para que funcione. Se escribe sin filtro: es la parte más útil de esta hoja.",
-   "campo": "texto",
-   "alto": 5,
-   "placeholder": "Con… pasó que… y creo que fue porque…"
-  },
-  {
-   "titulo": "Qué no querés que tenga esta oferta",
-   "consigna": "Lo que no estás dispuesta a sostener: un tipo de cliente, un formato de entrega, un horario, un nivel de disponibilidad. Escribilo ahora, mientras la oferta todavía se puede diseñar. Después ya es renegociar.",
-   "campo": "texto",
-   "alto": 4,
-   "placeholder": "No quiero que esta oferta me obligue a…"
-  },
-  {
-   "titulo": "Los enemigos de tu nicho, y tu ventaja sobre cada uno",
-   "consigna": "Con quién te compara tu cliente antes de elegirte. No son solo competidores directos: también es hacerlo él mismo, dejarlo para después, contratar a alguien barato, o la solución que ya probó y no le funcionó. Una fila por cada uno, con qué le ofrece ese enemigo y por qué vos resolvés eso mejor. Esta es la pregunta que más rinde de toda la hoja y la que peor se contesta de memoria: si no sabés contra qué te comparan, la oferta se escribe en el vacío y el precio se discute siempre.",
-   "campo": "tabla",
-   "columnas": [
-    "Contra qué te comparan",
-    "Qué le ofrece eso",
-    "Por qué vos lo resolvés mejor"
-   ],
-   "filas": 5
-  },
-  {
-   "nuestro": true,
-   "titulo": "Qué hacemos nosotros con esto",
-   "texto": [
-    "Con tus respuestas armamos la promesa escrita con un número y un plazo, la forma de medirla, el paso a paso de la entrega por etapas, y las tres listas de qué incluye, qué queda afuera y qué necesitás del cliente.",
-    "El precio y la forma de pago los cierra Franco en su llamada, sobre el costo real de entregarlo una vez que sale de tus horas. La regla es simple: el piso del precio es ese costo por dos.",
-    "Cómo se mide la promesa también lo ponemos nosotros. Es la parte más técnica y es donde más se equivoca el que lo hace solo: una promesa que no se puede medir con una herramienta que vos abrís, se cambia por una que sí.",
-    "Lo único que te vamos a pedir después es que la leas y nos digas qué no suena tuyo."
-   ]
-  },
-  {
-   "nuestro": true,
-   "titulo": "Así queda tu oferta cuando la escribamos",
-   "texto": [
-    "Para que sepas a dónde va todo esto. Con tus respuestas, Franco arma el one-sheeter, que tiene cinco partes y entra en una carilla.",
-    "<b>El nicho y el mensaje.</b> A quién le hablás, cuál es la nueva oportunidad que le abrís, la promesa y los entregables.",
-    "<b>Los deseos y los problemas de tu cliente</b>, uno al lado del otro. Eso sale de la carta del cliente ideal, no de acá.",
-    "<b>La oferta en una sola línea:</b> «Ayudo a [nicho] a [promesa] a través de [mecanismo único]». Si esa línea no se entiende sola, la oferta todavía no está.",
-    "<b>Los entregables</b>, todos, sin dejar afuera lo que das y no cobrás.",
-    "<b>Los enemigos y tu ventaja sobre cada uno</b>, que es lo que acabás de completar arriba.",
-    "Lo único que te vamos a pedir después es que lo leas y nos digas qué no suena tuyo."
-   ]
-  }
- ]
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo funciona esta hoja",
+      "texto": [
+        "Son nueve preguntas y ninguna te pide una definición. No hay que escribir la promesa, ni el precio, ni el paso a paso de la entrega: eso lo armamos nosotros con lo que contestes, y se cierra con Franco en su llamada.",
+        "Una aclaración que ordena todo lo de abajo: cuando acá decimos «los que ya te piden», no hablamos de los clientes de Bitui. Ellos te contratan para que se lo hagas vos. El programa se lo vendés a otra persona: alguien que quiere aprender a hacerlo. Esa persona ya te viene preguntando, y las respuestas están en tus mensajes.",
+        "El orden importa: primero se mira quién ya pide y qué sabés hacer, y recién después se decide qué va a ser el programa. Al revés se arma un producto para alguien que todavía no se miró.",
+        "Si una pregunta no la podés contestar, escribí por qué. Eso también es información y nos dice dónde tenemos que meternos nosotros."
+      ],
+      "cid": 0
+    },
+    {
+      "nuestro": true,
+      "titulo": "Dónde entra esto: el marco NOVA",
+      "texto": [
+        "La oferta no se inventa, se ordena. El orden que usamos son cuatro decisiones, una atrás de la otra: <b>Nicho</b>, para quién resolvés. <b>Oferta</b>, qué cambio generás. <b>Vehículo</b>, cómo lo entregás. <b>Atención</b>, cómo te encuentran.",
+        "Van en ese orden porque cada una se apoya en la anterior. Sin nicho, la oferta le habla a cualquiera. Sin oferta, el vehículo entrega algo que todavía no está definido. Sin vehículo, la promesa no se cumple. Sin atención, no llega nadie. Y no se trata de elegir perfecto: se trata de elegir claro, porque con claridad aparecen el foco y la repetición.",
+        "Esta hoja es la <b>O</b> y la <b>V</b>: de acá sale qué cambio generás y en qué formato se entrega. La <b>N</b> se trabaja en la carta de cliente ideal y la <b>A</b> se trabaja en la grupal de contenido con Fede. Son tres piezas del mismo mapa, por eso conviene hacerlas juntas y en ese orden.",
+        "La oferta de Cáscara está armada con este mismo marco, y la de todos los founders que pasaron por acá también."
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "Los diez que ya te pidieron que les enseñes",
+      "consigna": "Diez personas reales, con nombre. Gente que te escribió para preguntarte cómo hacés lo que hacés, que te pidió que le enseñes, que quiso entrar a trabajar con vos, o que quiso contratarte y no le daba el presupuesto. Está en los mensajes directos, en los comentarios y en los mails que llegan a Bitui. Buscalo ahí, no de memoria. Esta es la demanda del programa y ya existe: no hay que inventarla, hay que mirarla.",
+      "ejemplo": {
+        "quien": "Sebastián",
+        "texto": "Juntó las consultas que venía respondiendo gratis por mensaje y aparecieron tres veces la misma pregunta. Esa pregunta repetida terminó siendo el centro de la oferta que hoy vende."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Qué te pidió o te preguntó",
+        "Dónde pasó",
+        "Qué le contestaste",
+        "¿Pagaría?"
+      ],
+      "filas": 10,
+      "cid": 2
+    },
+    {
+      "titulo": "Qué sabés hacer que hoy no vendés suelto",
+      "consigna": "Todo lo que hoy resolvés adentro de Bitui como parte del servicio y que, separado, alguien pagaría por aprender: cómo conseguís clientes, cómo cobrás, cómo armás un equipo, cómo sostenés una marca en el tiempo, cómo decidís qué se publica. Hacé la lista sin filtrar y sin ordenar. Acá adentro está el contenido del programa.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Sé hacer… y hoy eso va adentro del servicio, no se vende aparte…",
+      "cid": 3
+    },
+    {
+      "titulo": "Qué te sale fácil de explicar y qué te cuesta",
+      "consigna": "Dos listas cortas, pero mirándolo como alguien que va a enseñar, no como alguien que ejecuta. Arriba, lo que hacés casi sin pensar y que cuando lo explicás la otra persona lo agarra rápido. Abajo, lo que hacés bien pero te cuesta poner en palabras. El programa se arma sobre lo primero. Lo segundo queda afuera, o entra más adelante y de otra forma.",
+      "campo": "lineas",
+      "lineas": [
+        "Explico fácil",
+        "Explico fácil",
+        "Explico fácil",
+        "Me cuesta explicar",
+        "Me cuesta explicar",
+        "Me cuesta explicar"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "A quién ya le cambiaste algo enseñándole",
+      "consigna": "Alguien a quien le explicaste cómo hacer esto y le funcionó: una persona de tu equipo, una amiga, alguien que te preguntó por mensaje. Cómo llegó, qué le dijiste y qué logró después. Si todavía no le enseñaste a nadie, contá tu propio caso: cómo arrancaste, qué sabés hoy que no sabías cuando empezaste Bitui y qué te hubiera ahorrado años. Esa es la transformación que el programa vende. La promesa la escribimos nosotros: lo que necesitamos es la historia entera y no el titular.",
+      "ejemplo": {
+        "quien": "Matías Morales",
+        "texto": "Pasó de vender campañas a vender una campaña con fecha de inicio, fecha de final y un entregable contado. Con eso pudo subir el precio al doble y lo vendió igual."
+      },
+      "campo": "texto",
+      "alto": 6,
+      "placeholder": "Llegó así… le expliqué… y terminó…",
+      "cid": 5
+    },
+    {
+      "titulo": "Qué te van a preguntar antes de anotarse",
+      "consigna": "Dos fuentes. Las preguntas que ya te hacen cuando alguien quiere aprender de vos, textuales. Y las que te hiciste vos antes de pagar un programa: si te iba a servir, si ibas a tener tiempo, si no estaba gratis en otro lado, si era para alguien en tu momento. Al lado, qué contestás. Estas preguntas son las objeciones, y la oferta las tiene que resolver antes de que aparezcan.",
+      "campo": "tabla",
+      "columnas": [
+        "La pregunta, textual",
+        "Qué contestás hoy"
+      ],
+      "filas": 5,
+      "cid": 6
+    },
+    {
+      "titulo": "Cuánto tiempo tuyo se lleva una vuelta completa",
+      "consigna": "El programa todavía no existe, así que esto es una estimación, pero tiene que ser tuya y no de manual. Pensá una vuelta entera con un alumno: preparar el material, estar en vivo, contestar mensajes, revisar lo que entrega. De este número salen el formato y el precio, y también cuántas personas podés tomar a la vez sin que se caiga la calidad. Sin esto el precio se define a ojo, y a ojo siempre sale barato.",
+      "campo": "lineas",
+      "lineas": [
+        "Horas de preparar el material",
+        "Horas en vivo por semana",
+        "Horas de responder y acompañar",
+        "Horas de revisar lo que entregan",
+        "Total por alumno",
+        "Cuántos alumnos sostenés a la vez"
+      ],
+      "cid": 7
+    },
+    {
+      "titulo": "Dónde se traba la gente cuando le explicás esto",
+      "consigna": "Las veces que le explicaste algo a alguien y no lo aplicó, o lo aplicó mal, o abandonó a la mitad. Y si te pasó a vos, también: en qué parte te trabaste cuando estabas aprendiendo. Esto define qué queda afuera del programa y qué le vas a pedir al alumno para que funcione. Se escribe sin filtro: es la parte más útil de esta hoja.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Le expliqué… y lo que pasó fue… creo que se trabó porque…",
+      "cid": 8
+    },
+    {
+      "titulo": "Qué no querés que tenga esta oferta",
+      "consigna": "Lo que no estás dispuesta a sostener una vez que esto arranque: un tipo de alumno, un formato de entrega, un horario, un nivel de disponibilidad, una cantidad de gente. Escribilo ahora, mientras el programa todavía se puede diseñar. Después ya es renegociar.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "No quiero que este programa me obligue a…",
+      "cid": 9
+    },
+    {
+      "titulo": "Los enemigos de tu nicho, y tu ventaja sobre cada uno",
+      "consigna": "Con qué compara tu alumno antes de elegirte. No son solo otros programas: también es mirar tutoriales gratis, hacerlo solo probando, dejarlo para el año que viene, o contratar una agencia en vez de aprender a hacerlo. Una fila por cada uno, con qué le ofrece ese enemigo y por qué con vos le va mejor. Esta es la pregunta que más rinde de toda la hoja.",
+      "campo": "tabla",
+      "columnas": [
+        "Contra qué te comparan",
+        "Qué le ofrece eso",
+        "Por qué vos lo resolvés mejor"
+      ],
+      "filas": 5,
+      "cid": 10
+    },
+    {
+      "nuestro": true,
+      "titulo": "Qué hacemos nosotros con esto",
+      "texto": [
+        "Con tus respuestas armamos la promesa escrita con un número y un plazo, la forma de medirla, el paso a paso de la entrega por etapas, y las tres listas de qué incluye, qué queda afuera y qué necesitás del cliente.",
+        "El precio y la forma de pago los cierra Franco en su llamada, sobre el costo real de entregarlo una vez que sale de tus horas. La regla es simple: el piso del precio es ese costo por dos.",
+        "Cómo se mide la promesa también lo ponemos nosotros. Es la parte más técnica y es donde más se equivoca el que lo hace solo: una promesa que no se puede medir con una herramienta que vos abrís, se cambia por una que sí.",
+        "Lo único que te vamos a pedir después es que la leas y nos digas qué no suena tuyo."
+      ],
+      "cid": 11
+    },
+    {
+      "nuestro": true,
+      "titulo": "Así queda tu oferta cuando la escribamos",
+      "texto": [
+        "Para que sepas a dónde va todo esto. Con tus respuestas, Franco arma el one-sheeter, que tiene cinco partes y entra en una carilla.",
+        "<b>El nicho y el mensaje.</b> A quién le hablás, cuál es la nueva oportunidad que le abrís, la promesa y los entregables.",
+        "<b>Los deseos y los problemas de tu cliente</b>, uno al lado del otro. Eso sale de la carta del cliente ideal, no de acá.",
+        "<b>La oferta en una sola línea:</b> «Ayudo a [nicho] a [promesa] a través de [mecanismo único]». Si esa línea no se entiende sola, la oferta todavía no está.",
+        "<b>Los entregables</b>, todos, sin dejar afuera lo que das y no cobrás.",
+        "<b>Los enemigos y tu ventaja sobre cada uno</b>, que es lo que acabás de completar arriba.",
+        "Lo único que te vamos a pedir después es que lo leas y nos digas qué no suena tuyo."
+      ],
+      "cid": 12
+    }
+  ]
 }

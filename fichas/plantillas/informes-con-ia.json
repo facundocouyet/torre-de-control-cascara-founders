@@ -1,56 +1,115 @@
 {
- "modulo": "informes-con-ia",
- "titulo": "La hoja del informe mensual del negocio",
- "bajada": "Queda armado el informe que sale de tus propias bases: una exportación en un solo formato, tres preguntas fijas y tres decisiones escritas con dueño y fecha. El mes siguiente se corre igual, sin volver a pensarlo.",
- "lista_cuando": "Corriste el informe con la base de este mes, se lo mandaste a alguien que te va a discutir los números, y las tres decisiones ya tienen nombre y fecha.",
- "secciones": [
-  {"titulo": "Dónde está hoy la información",
-   "consigna": "Antes de pedirle un informe a nadie, hacé la lista de todos los lugares donde hoy vive un dato de clientes o de ventas: el Notion, la planilla, el chat con tu socio, el cuaderno. Poné también los datos que solo están en tu cabeza y escribí «en la cabeza» en la primera columna. Si una fuente no se actualizó en los últimos treinta días, marcala igual: eso ya es parte del diagnóstico.",
-   "ejemplo": {"quien": "Sol Boutmy", "texto": "Anota cada movimiento de plata en el momento en un grupo de WhatsApp con Fede para que esté al tanto, y tiene una contadora tercerizada de apoyo. El hábito de registrar está armado y lo que falta es el formato único."},
-   "campo": "tabla",
-   "columnas": ["Dónde está", "Qué guarda", "Quién lo carga", "Última vez que se actualizó"],
-   "filas": 6},
-
-  {"titulo": "Las columnas de la exportación única",
-   "consigna": "Definí la planilla a la que van a parar todas esas fuentes: una fila por cliente o por venta y una columna por dato. Escribí el nombre exacto de cada columna, qué se escribe adentro y de dónde sale. El criterio para dejar una columna es poder llenarla en ocho de cada diez filas; la que no llega a eso, afuera.",
-   "ejemplo": {"quien": "Custom Lab", "texto": "Juan armó la base histórica de los últimos dos años en Notion con cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién los contactó, quién decide la compra, si repitió y qué contestó en el recontacto. Con esa lista salieron a recontactar y vendieron."},
-   "campo": "tabla",
-   "columnas": ["Columna", "Qué dato va", "De dónde sale"],
-   "filas": 10},
-
-  {"titulo": "Las tres preguntas fijas del informe",
-   "consigna": "Tres preguntas, siempre las mismas, que el informe tiene que contestar todos los meses. Cada una se contesta con un número, no con una impresión, y cada una tiene que poder cambiar una decisión tuya. Escribilas en el orden en que las vas a leer y dejalas quietas por lo menos tres meses, porque el valor aparece cuando se comparan los meses entre sí.",
-   "ejemplo": {"quien": "Bianca Antonini", "texto": "Sus tres preguntas del drop salieron solas: cuánta gente hay en la comunidad de WhatsApp, qué porcentaje de las ventas salió de ahí y cuántas de esas clientas eran recompra. El dato que las ordena son las 236 recompras que ella misma cruzó contra el tamaño de la comunidad."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Una pregunta por línea, cada una con el número que la contesta."},
-
-  {"titulo": "El pedido que le hacés a la IA",
-   "consigna": "Escribí el pedido completo una sola vez: qué archivo le pasás, qué contexto de tu negocio necesita, que contesta las tres preguntas con el número adelante, que compara cada número con el mes anterior y que marca las tres filas más raras de la base. Pedile también el formato de salida, con un bloque por pregunta y un cierre de tres decisiones propuestas. El pedido está terminado cuando otra persona lo puede correr sin preguntarte nada.",
-   "campo": "texto", "alto": 6,
-   "placeholder": "Te paso la base de clientes de… Contestá estas tres preguntas… Devolvelo así…"},
-
-  {"titulo": "Los números que no cierran",
-   "consigna": "El informe se revisa a mano antes de creerle. Tomá los tres números más grandes y verificalos contra la fuente original, uno por uno. Cuando un número no cierra, anotá los dos y de dónde sale la diferencia. Ante la duda va el número más bajo, con la evidencia al lado.",
-   "campo": "tabla",
-   "columnas": ["Número", "Lo que dio", "Lo que esperabas", "De dónde sale la diferencia"],
-   "filas": 6},
-
-  {"titulo": "Las tres decisiones del mes",
-   "consigna": "El informe cierra con tres decisiones, no con ocho. Cada una lleva el número que la disparó, un solo dueño y una fecha dura con día. Una decisión puede ser sacar un cliente, mover un precio o cortar un canal: tiene que ser algo que se pueda hacer este mes.",
-   "ejemplo": {"quien": "Sofía Galvis", "texto": "De mirar la cartera entera salieron tres decisiones: sacar los clientes de UGC, sacar los que la obligaban a ir a grabar y repreciar al de edición que se quedaba. Pasó de facturar diez millones de pesos colombianos por mes a veinte."},
-   "campo": "tabla",
-   "columnas": ["Decisión", "Qué número la disparó", "Quién", "Fecha"],
-   "filas": 5},
-
-  {"titulo": "Cómo se repite el mes que viene",
-   "consigna": "Dejá el informe convertido en rutina con cuatro datos. El día es un número fijo del mes, el mismo siempre, y el que lo corre es una sola persona. Si el pedido queda guardado en un lugar que solo vos conocés, el segundo mes no sale.",
-   "campo": "lineas",
-   "lineas": ["Dónde queda guardado el pedido", "Qué día del mes se corre", "Quién lo corre", "A quién se le manda"]},
-
-  {"titulo": "Mandalo y defendé los números",
-   "consigna": "Mandá el informe del primer mes a alguien que te vaya a preguntar por los números: tu socio, tu estratega, quien te acompaña en el programa. Anotá qué número te discutió, qué dato le faltó y qué pregunta no pudo contestar el informe. Eso es lo que se arregla en la versión del mes siguiente.",
-   "ejemplo": {"quien": "Sofía Galvis", "texto": "Las estadísticas documentadas van antes de la sesión con Franco, no después: el informe se prepara para esa conversación y ahí se ve qué parte de la base no alcanza."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "A quién se lo mandé, qué me discutió, qué dato faltó."}
- ]
+  "modulo": "informes-con-ia",
+  "titulo": "La hoja del informe mensual del negocio",
+  "bajada": "Queda armado el informe que sale de tus propias bases: una exportación en un solo formato, tres preguntas fijas y tres decisiones escritas con dueño y fecha. El mes siguiente se corre igual, sin volver a pensarlo.",
+  "lista_cuando": "Corriste el informe con la base de este mes, se lo mandaste a alguien que te va a discutir los números, y las tres decisiones ya tienen nombre y fecha.",
+  "secciones": [
+    {
+      "titulo": "Dónde está hoy la información",
+      "consigna": "Antes de pedirle un informe a nadie, hacé la lista de todos los lugares donde hoy vive un dato de clientes o de ventas: el Notion, la planilla, el chat con tu socio, el cuaderno. Poné también los datos que solo están en tu cabeza y escribí «en la cabeza» en la primera columna. Si una fuente no se actualizó en los últimos treinta días, marcala igual: eso ya es parte del diagnóstico.",
+      "ejemplo": {
+        "quien": "Sol Boutmy",
+        "texto": "Anota cada movimiento de plata en el momento en un grupo de WhatsApp con Fede para que esté al tanto, y tiene una contadora tercerizada de apoyo. El hábito de registrar está armado y lo que falta es el formato único."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Dónde está",
+        "Qué guarda",
+        "Quién lo carga",
+        "Última vez que se actualizó"
+      ],
+      "filas": 6,
+      "cid": 0
+    },
+    {
+      "titulo": "Las columnas de la exportación única",
+      "consigna": "Definí la planilla a la que van a parar todas esas fuentes: una fila por cliente o por venta y una columna por dato. Escribí el nombre exacto de cada columna, qué se escribe adentro y de dónde sale. El criterio para dejar una columna es poder llenarla en ocho de cada diez filas; la que no llega a eso, afuera.",
+      "ejemplo": {
+        "quien": "Custom Lab",
+        "texto": "Juan armó la base histórica de los últimos dos años en Notion con cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién los contactó, quién decide la compra, si repitió y qué contestó en el recontacto. Con esa lista salieron a recontactar y vendieron."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Columna",
+        "Qué dato va",
+        "De dónde sale"
+      ],
+      "filas": 10,
+      "cid": 1
+    },
+    {
+      "titulo": "Las tres preguntas fijas del informe",
+      "consigna": "Tres preguntas, siempre las mismas, que el informe tiene que contestar todos los meses. Cada una se contesta con un número, no con una impresión, y cada una tiene que poder cambiar una decisión tuya. Escribilas en el orden en que las vas a leer y dejalas quietas por lo menos tres meses, porque el valor aparece cuando se comparan los meses entre sí.",
+      "ejemplo": {
+        "quien": "Bianca Antonini",
+        "texto": "Sus tres preguntas del drop salieron solas: cuánta gente hay en la comunidad de WhatsApp, qué porcentaje de las ventas salió de ahí y cuántas de esas clientas eran recompra. El dato que las ordena son las 236 recompras que ella misma cruzó contra el tamaño de la comunidad."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Una pregunta por línea, cada una con el número que la contesta.",
+      "cid": 2
+    },
+    {
+      "titulo": "El pedido que le hacés a la IA",
+      "consigna": "Escribí el pedido completo una sola vez: qué archivo le pasás, qué contexto de tu negocio necesita, que contesta las tres preguntas con el número adelante, que compara cada número con el mes anterior y que marca las tres filas más raras de la base. Pedile también el formato de salida, con un bloque por pregunta y un cierre de tres decisiones propuestas. El pedido está terminado cuando otra persona lo puede correr sin preguntarte nada.",
+      "campo": "texto",
+      "alto": 6,
+      "placeholder": "Te paso la base de clientes de… Contestá estas tres preguntas… Devolvelo así…",
+      "cid": 3
+    },
+    {
+      "titulo": "Los números que no cierran",
+      "consigna": "El informe se revisa a mano antes de creerle. Tomá los tres números más grandes y verificalos contra la fuente original, uno por uno. Cuando un número no cierra, anotá los dos y de dónde sale la diferencia. Ante la duda va el número más bajo, con la evidencia al lado.",
+      "campo": "tabla",
+      "columnas": [
+        "Número",
+        "Lo que dio",
+        "Lo que esperabas",
+        "De dónde sale la diferencia"
+      ],
+      "filas": 6,
+      "cid": 4
+    },
+    {
+      "titulo": "Las tres decisiones del mes",
+      "consigna": "El informe cierra con tres decisiones, no con ocho. Cada una lleva el número que la disparó, un solo dueño y una fecha dura con día. Una decisión puede ser sacar un cliente, mover un precio o cortar un canal: tiene que ser algo que se pueda hacer este mes.",
+      "ejemplo": {
+        "quien": "Sofía Galvis",
+        "texto": "De mirar la cartera entera salieron tres decisiones: sacar los clientes de UGC, sacar los que la obligaban a ir a grabar y repreciar al de edición que se quedaba. Pasó de facturar diez millones de pesos colombianos por mes a veinte."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Decisión",
+        "Qué número la disparó",
+        "Quién",
+        "Fecha"
+      ],
+      "filas": 5,
+      "cid": 5
+    },
+    {
+      "titulo": "Cómo se repite el mes que viene",
+      "consigna": "Dejá el informe convertido en rutina con cuatro datos. El día es un número fijo del mes, el mismo siempre, y el que lo corre es una sola persona. Si el pedido queda guardado en un lugar que solo vos conocés, el segundo mes no sale.",
+      "campo": "lineas",
+      "lineas": [
+        "Dónde queda guardado el pedido",
+        "Qué día del mes se corre",
+        "Quién lo corre",
+        "A quién se le manda"
+      ],
+      "cid": 6
+    },
+    {
+      "titulo": "Mandalo y defendé los números",
+      "consigna": "Mandá el informe del primer mes a alguien que te vaya a preguntar por los números: tu socio, tu estratega, quien te acompaña en el programa. Anotá qué número te discutió, qué dato le faltó y qué pregunta no pudo contestar el informe. Eso es lo que se arregla en la versión del mes siguiente.",
+      "ejemplo": {
+        "quien": "Sofía Galvis",
+        "texto": "Las estadísticas documentadas van antes de la sesión con Franco, no después: el informe se prepara para esa conversación y ahí se ve qué parte de la base no alcanza."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "A quién se lo mandé, qué me discutió, qué dato faltó.",
+      "cid": 7
+    }
+  ]
 }

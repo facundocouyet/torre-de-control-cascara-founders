@@ -1,126 +1,135 @@
 {
- "modulo": "angulos-desde-icp",
- "founder": "Sebastián Martínez",
- "slug": "sebastian",
- "titulo": "La hoja de ángulos bajados de tu cliente ideal",
- "bajada": "Los dolores de tu cliente ideal pasados a las preguntas que esa persona ya se hace sola. Esas preguntas son el gancho de cada pieza. Armar los ángulos y el calendario viene después, en la llamada con Fede: esta hoja es el material con el que él trabaja.",
- "lista_cuando": "Leés tus preguntas en voz alta y ninguna se contesta con un sí o un no.",
- "pasos": [
-  "Pasar los dolores de la hoja del cliente ideal, con las palabras textuales del otro.",
-  "Convertir cada dolor en la pregunta que esa persona ya se hace sola, antes de conocerte.",
-  "Escribir tu giro propio: lo que vos decís de ese problema que el resto de tu rubro no dice.",
-  "Juntar las frases tuyas que ya funcionaron, con la respuesta que tuvo cada una."
- ],
- "completar": [
-  "Esta carta completa, con los dolores, las preguntas, tu giro propio y tus frases"
- ],
- "bajada_envio": {
+  "modulo": "angulos-desde-icp",
   "founder": "Sebastián Martínez",
-  "porque": "Va junto con la hoja del cliente ideal y se completa después de ella. Esa junta el material: los dolores con las palabras del otro, las cinco conversaciones, el alumno ideal en una frase. Ésta lo afila hasta dejarlo listo para escribir contenido. Lo que hoy te frena está justo acá: el reel de 1.800 comentarios no dejó una sola conversación abierta.",
-  "objetivo": "Los dolores pasados a preguntas, tu giro propio escrito y tus frases que ya funcionaron juntas en una tabla. Nada más. Con eso, la llamada con Fede arranca armando los ángulos en vez de juntar material.",
-  "mindset": "Esto es de recortar y afilar, no de inventar. Todo lo que necesitás ya lo dijiste vos o te lo dijo tu audiencia; la hoja sólo lo ordena. Y dos cosas que sí son tuyas y de nadie más: el giro propio, que sale de lo que viste pasar muchas veces y de lo que te da bronca del mercado, y las frases que ya te funcionaron."
- },
- "secciones": [
-  {
-   "nuestro": true,
-   "titulo": "Esta carta va con la del cliente ideal",
-   "texto": [
-    "Son dos y se completan en orden. En la hoja del cliente ideal profundizás las dos familias que dejó Franco —el creativo técnico y el creador de contenido— hasta que tengan oficio, dolor y una frase textual. Acá afilás ese material hasta dejarlo listo para escribir contenido.",
-    "Esta hoja llega hasta ahí a propósito. Armar los ocho a doce ángulos, el guion y el calendario es trabajo de Fede con vos en la llamada, no tarea para hacer solo: es la parte donde más se gana teniendo a alguien que lo hace todos los días.",
-    "Cuando devuelvas las dos, armamos un solo documento de lanzamiento con el producto y la cohorte que cerraste con Franco, los dolores, las preguntas y lo que salga de tus clientes de producción. Con eso entrás a la llamada con Fede."
-   ]
+  "slug": "sebastian",
+  "titulo": "La hoja de ángulos bajados de tu cliente ideal",
+  "bajada": "Los dolores de tu cliente ideal pasados a las preguntas que esa persona ya se hace sola. Esas preguntas son el gancho de cada pieza. Armar los ángulos y el calendario viene después, en la llamada con Fede: esta hoja es el material con el que él trabaja.",
+  "lista_cuando": "Leés tus preguntas en voz alta y ninguna se contesta con un sí o un no.",
+  "pasos": [
+    "Pasar los dolores de la hoja del cliente ideal, con las palabras textuales del otro.",
+    "Convertir cada dolor en la pregunta que esa persona ya se hace sola, antes de conocerte.",
+    "Escribir tu giro propio: lo que vos decís de ese problema que el resto de tu rubro no dice.",
+    "Juntar las frases tuyas que ya funcionaron, con la respuesta que tuvo cada una."
+  ],
+  "completar": [
+    "Esta carta completa, con los dolores, las preguntas, tu giro propio y tus frases"
+  ],
+  "bajada_envio": {
+    "founder": "Sebastián Martínez",
+    "porque": "Va junto con la hoja del cliente ideal y se completa después de ella. Esa junta el material: los dolores con las palabras del otro, las cinco conversaciones, el alumno ideal en una frase. Ésta lo afila hasta dejarlo listo para escribir contenido. Lo que hoy te frena está justo acá: el reel de 1.800 comentarios no dejó una sola conversación abierta.",
+    "objetivo": "Los dolores pasados a preguntas, tu giro propio escrito y tus frases que ya funcionaron juntas en una tabla. Nada más. Con eso, la llamada con Fede arranca armando los ángulos en vez de juntar material.",
+    "mindset": "Esto es de recortar y afilar, no de inventar. Todo lo que necesitás ya lo dijiste vos o te lo dijo tu audiencia; la hoja sólo lo ordena. Y dos cosas que sí son tuyas y de nadie más: el giro propio, que sale de lo que viste pasar muchas veces y de lo que te da bronca del mercado, y las frases que ya te funcionaron."
   },
-  {
-   "titulo": "Los dolores, con las palabras que usa él",
-   "consigna": "Ocho a diez frases textuales, traídas de la hoja del cliente ideal: las de los comentarios del reel, las de las cinco conversaciones y las de los mensajes que te llegaron. Van sin retocar, con los errores y las muletillas: la frase tal cual la dijo es el material, tu versión ordenada de la frase ya es otra cosa. Si no juntás ocho, la fuente está chica y hay que volver a buscar conversaciones antes de seguir.",
-   "ejemplo": {
-    "quien": "Sebastián Martínez",
-    "texto": "Los mil ochocientos comentarios del reel sobre el miedo a grabarse en público eran todos de la misma familia: gracias, me empujaste, era el empujón que necesitaba. Esa repetición marcó el dolor y el ángulo al mismo tiempo."
-   },
-   "campo": "texto",
-   "alto": 5,
-   "placeholder": "Una frase por línea, tal cual la dijeron."
-  },
-  {
-   "nuestro": true,
-   "titulo": "De un dolor a una pregunta: cómo se hace",
-   "texto": [
-    "La pregunta se escribe en primera persona, como se la hace él solo antes de conocerte. No es la que le harías vos en una llamada: es la que ya está en su cabeza un martes a las once de la noche.",
-    "Dolor: «me da vergüenza grabarme en la calle, siento que todos me miran».  →  Pregunta: «¿por qué me da tanta vergüenza grabarme, si esto lo hago mejor que la mayoría?».",
-    "Dolor: «tengo buenos trabajos pero siempre me eligen por precio».  →  Pregunta: «¿cuánto tiempo más voy a competir por precio contra gente que filma peor que yo?».",
-    "Dolor: «subo cosas y no pasa nada».  →  Pregunta: «¿estoy publicando para mis colegas o para el que me va a contratar?».",
-    "Las tres están en primera persona, arrancan con por qué, cuánto tiempo más o estoy, y ninguna se contesta con un sí o un no. Ésa es la prueba: si tu pregunta se contesta con un sí, todavía es una encuesta y no un gancho."
-   ],
-   "pregunta": "Probá una tuya acá antes de llenar la tabla"
-  },
-  {
-   "titulo": "De cada dolor, la pregunta que ya se hace",
-   "consigna": "Una fila por dolor, con el perfil al lado para saber a cuál de las dos familias le estás hablando. Usá la prueba de arriba: leela en voz alta y fijate si se contesta con un sí. Si se contesta, reescribila.",
-   "campo": "tabla",
-   "columnas": [
-    "El dolor, como lo dice él",
-    "La pregunta que ya se hace",
-    "De qué perfil salió"
-   ],
-   "filas": 10
-  },
-  {
-   "titulo": "Tu giro propio",
-   "consigna": "Qué decís vos sobre ese problema que el resto de tu rubro no dice. Sale de tu experiencia, de algo que viste pasar muchas veces y de lo que te da bronca del mercado en el que trabajás. El giro es lo que hace que la pieza se reconozca como tuya: sin eso la tabla de ángulos queda igual a la de cualquier otro. Acordate del criterio que marcó Franco: le estás hablando a vos mismo hace 1 a 3 años.",
-   "ejemplo": {
-    "quien": "Sebastián Martínez",
-    "texto": "El reel que funcionó ya tenía el giro adentro: la vergüenza a grabarse no se corta con valentía, se corta cambiando lo que querés comunicar. Eso es lo que nadie más estaba diciendo."
-   },
-   "campo": "texto",
-   "alto": 4,
-   "placeholder": "Lo que yo veo y casi nadie dice es que…"
-  },
-  {
-   "titulo": "Las frases tuyas que ya funcionaron",
-   "consigna": "Lo que ya dijiste en una llamada, en una charla, en un audio largo o en una pieza que rindió, y que te conviene volver a usar. Buscá en lo que ya está publicado y en las grabaciones del workshop y de la mentoría piloto: seis frases propias con la respuesta que tuvo cada una. Estas frases entran como títulos y como cierres de los ángulos.",
-   "ejemplo": {
-    "quien": "Nicolás Lozada",
-    "texto": "Las dos piezas que triplicaron o cuadruplicaron sus números fueron la de los diez días encerrado en la oficina y la de que subir los precios es un error. Las dos cuentan experiencia vivida, y de ahí salió su hoja de frases propias."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "La frase, textual",
-    "Dónde la dijiste",
-    "Qué respuesta tuvo"
-   ],
-   "filas": 6
-  },
-  {
-   "nuestro": true,
-   "titulo": "Un ángulo armado, para que veas a dónde va",
-   "texto": [
-    "Esto no hay que completarlo: es un ángulo tuyo, terminado, para que veas la forma. Sale de una pieza que ya publicaste y que trajo más seguidores que vistas.",
-    "El dolor: «subo cosas y no pasa nada».  La pregunta: «¿estoy publicando para mis colegas o para el que me va a contratar?».",
-    "Tu giro: el filmmaker publica su color grading y su cámara, y el que le paga no entiende nada de eso.",
-    "Qué se muestra: tu feed de hace un año al lado del de ahora, señalando qué pieza trajo una consulta y cuál trajo likes de colegas.  Formato: celular, hablando a cámara, sin planos.",
-    "El cierre: una pregunta que se conteste por mensaje, del tipo «mandame cuál fue tu último posteo y te digo si le habla a un colega o a un cliente».",
-    "Así se ve uno terminado. Los otros ocho a once salen igual y esos los armás con Fede."
-   ]
-  },
-  {
-   "nuestro": true,
-   "titulo": "El cierre que te falta",
-   "texto": [
-    "El agujero más caro de tu caso está acá: el reel de un millón cuatrocientas mil vistas y mil ochocientos comentarios no dejó una sola conversación abierta. El alcance lo tenés resuelto; lo que falta es el cierre de la pieza.",
-    "Por eso la pregunta importa tanto en esta hoja: una pieza que abre con la pregunta que el otro ya se hace termina naturalmente en algo que él quiere contestar. Puede ser una pregunta por mensaje, un comentario con una palabra, o decir en voz alta que estás armando algo.",
-    "La regla para medir, cuando empieces a publicar: menos de 10 piezas por ángulo no se evalúa nada."
-   ]
-  },
-  {
-   "nuestro": true,
-   "titulo": "Lo que bajamos con Fede",
-   "texto": [
-    "La tabla de 8 a 12 ángulos con qué se muestra, en qué formato y con qué cierre.",
-    "El guion completo del ángulo que esté más cerca de la venta, listo para grabar.",
-    "Los tres ángulos del primer mes y cómo se reparten las piezas entre ellos.",
-    "El calendario de las cuatro semanas.",
-    "Todo eso sale de lo que completes acá. Esa llamada es de armado, no de arranque."
-   ]
-  }
- ]
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Esta carta va con la del cliente ideal",
+      "texto": [
+        "Son dos y se completan en orden. En la hoja del cliente ideal profundizás las dos familias que dejó Franco —el creativo técnico y el creador de contenido— hasta que tengan oficio, dolor y una frase textual. Acá afilás ese material hasta dejarlo listo para escribir contenido.",
+        "Esta hoja llega hasta ahí a propósito. Armar los ocho a doce ángulos, el guion y el calendario es trabajo de Fede con vos en la llamada, no tarea para hacer solo: es la parte donde más se gana teniendo a alguien que lo hace todos los días.",
+        "Cuando devuelvas las dos, armamos un solo documento de lanzamiento con el producto y la cohorte que cerraste con Franco, los dolores, las preguntas y lo que salga de tus clientes de producción. Con eso entrás a la llamada con Fede."
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "Los dolores, con las palabras que usa él",
+      "consigna": "Ocho a diez frases textuales, traídas de la hoja del cliente ideal: las de los comentarios del reel, las de las cinco conversaciones y las de los mensajes que te llegaron. Van sin retocar, con los errores y las muletillas: la frase tal cual la dijo es el material, tu versión ordenada de la frase ya es otra cosa. Si no juntás ocho, la fuente está chica y hay que volver a buscar conversaciones antes de seguir.",
+      "ejemplo": {
+        "quien": "Sebastián Martínez",
+        "texto": "Los mil ochocientos comentarios del reel sobre el miedo a grabarse en público eran todos de la misma familia: gracias, me empujaste, era el empujón que necesitaba. Esa repetición marcó el dolor y el ángulo al mismo tiempo."
+      },
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Una frase por línea, tal cual la dijeron.",
+      "cid": 1
+    },
+    {
+      "nuestro": true,
+      "titulo": "De un dolor a una pregunta: cómo se hace",
+      "texto": [
+        "La pregunta se escribe en primera persona, como se la hace él solo antes de conocerte. No es la que le harías vos en una llamada: es la que ya está en su cabeza un martes a las once de la noche.",
+        "Dolor: «me da vergüenza grabarme en la calle, siento que todos me miran».  →  Pregunta: «¿por qué me da tanta vergüenza grabarme, si esto lo hago mejor que la mayoría?».",
+        "Dolor: «tengo buenos trabajos pero siempre me eligen por precio».  →  Pregunta: «¿cuánto tiempo más voy a competir por precio contra gente que filma peor que yo?».",
+        "Dolor: «subo cosas y no pasa nada».  →  Pregunta: «¿estoy publicando para mis colegas o para el que me va a contratar?».",
+        "Las tres están en primera persona, arrancan con por qué, cuánto tiempo más o estoy, y ninguna se contesta con un sí o un no. Ésa es la prueba: si tu pregunta se contesta con un sí, todavía es una encuesta y no un gancho."
+      ],
+      "pregunta": "Probá una tuya acá antes de llenar la tabla",
+      "cid": 2
+    },
+    {
+      "titulo": "De cada dolor, la pregunta que ya se hace",
+      "consigna": "Una fila por dolor, con el perfil al lado para saber a cuál de las dos familias le estás hablando. Usá la prueba de arriba: leela en voz alta y fijate si se contesta con un sí. Si se contesta, reescribila.",
+      "campo": "tabla",
+      "columnas": [
+        "El dolor, como lo dice él",
+        "La pregunta que ya se hace",
+        "De qué perfil salió"
+      ],
+      "filas": 10,
+      "cid": 3
+    },
+    {
+      "titulo": "Tu giro propio",
+      "consigna": "Qué decís vos sobre ese problema que el resto de tu rubro no dice. Sale de tu experiencia, de algo que viste pasar muchas veces y de lo que te da bronca del mercado en el que trabajás. El giro es lo que hace que la pieza se reconozca como tuya: sin eso la tabla de ángulos queda igual a la de cualquier otro. Acordate del criterio que marcó Franco: le estás hablando a vos mismo hace 1 a 3 años.",
+      "ejemplo": {
+        "quien": "Sebastián Martínez",
+        "texto": "El reel que funcionó ya tenía el giro adentro: la vergüenza a grabarse no se corta con valentía, se corta cambiando lo que querés comunicar. Eso es lo que nadie más estaba diciendo."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Lo que yo veo y casi nadie dice es que…",
+      "cid": 4
+    },
+    {
+      "titulo": "Las frases tuyas que ya funcionaron",
+      "consigna": "Lo que ya dijiste en una llamada, en una charla, en un audio largo o en una pieza que rindió, y que te conviene volver a usar. Buscá en lo que ya está publicado y en las grabaciones del workshop y de la mentoría piloto: seis frases propias con la respuesta que tuvo cada una. Estas frases entran como títulos y como cierres de los ángulos.",
+      "ejemplo": {
+        "quien": "Nicolás Lozada",
+        "texto": "Las dos piezas que triplicaron o cuadruplicaron sus números fueron la de los diez días encerrado en la oficina y la de que subir los precios es un error. Las dos cuentan experiencia vivida, y de ahí salió su hoja de frases propias."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "La frase, textual",
+        "Dónde la dijiste",
+        "Qué respuesta tuvo"
+      ],
+      "filas": 6,
+      "cid": 5
+    },
+    {
+      "nuestro": true,
+      "titulo": "Un ángulo armado, para que veas a dónde va",
+      "texto": [
+        "Esto no hay que completarlo: es un ángulo tuyo, terminado, para que veas la forma. Sale de una pieza que ya publicaste y que trajo más seguidores que vistas.",
+        "El dolor: «subo cosas y no pasa nada».  La pregunta: «¿estoy publicando para mis colegas o para el que me va a contratar?».",
+        "Tu giro: el filmmaker publica su color grading y su cámara, y el que le paga no entiende nada de eso.",
+        "Qué se muestra: tu feed de hace un año al lado del de ahora, señalando qué pieza trajo una consulta y cuál trajo likes de colegas.  Formato: celular, hablando a cámara, sin planos.",
+        "El cierre: una pregunta que se conteste por mensaje, del tipo «mandame cuál fue tu último posteo y te digo si le habla a un colega o a un cliente».",
+        "Así se ve uno terminado. Los otros ocho a once salen igual y esos los armás con Fede."
+      ],
+      "cid": 6
+    },
+    {
+      "nuestro": true,
+      "titulo": "El cierre que te falta",
+      "texto": [
+        "El agujero más caro de tu caso está acá: el reel de un millón cuatrocientas mil vistas y mil ochocientos comentarios no dejó una sola conversación abierta. El alcance lo tenés resuelto; lo que falta es el cierre de la pieza.",
+        "Por eso la pregunta importa tanto en esta hoja: una pieza que abre con la pregunta que el otro ya se hace termina naturalmente en algo que él quiere contestar. Puede ser una pregunta por mensaje, un comentario con una palabra, o decir en voz alta que estás armando algo.",
+        "La regla para medir, cuando empieces a publicar: menos de 10 piezas por ángulo no se evalúa nada."
+      ],
+      "cid": 7
+    },
+    {
+      "nuestro": true,
+      "titulo": "Lo que bajamos con Fede",
+      "texto": [
+        "La tabla de 8 a 12 ángulos con qué se muestra, en qué formato y con qué cierre.",
+        "El guion completo del ángulo que esté más cerca de la venta, listo para grabar.",
+        "Los tres ángulos del primer mes y cómo se reparten las piezas entre ellos.",
+        "El calendario de las cuatro semanas.",
+        "Todo eso sale de lo que completes acá. Esa llamada es de armado, no de arranque."
+      ],
+      "cid": 8
+    }
+  ]
 }

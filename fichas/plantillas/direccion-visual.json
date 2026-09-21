@@ -1,56 +1,121 @@
 {
- "modulo": "direccion-visual",
- "titulo": "La hoja de dirección visual",
- "bajada": "Queda escrito en una página cómo se ve lo tuyo —paleta, tipografía, tratamiento y nivel de producción— y qué se cuenta en cada cuenta, con el perfil acomodado y las tres próximas piezas ya definidas.",
- "lista_cuando": "Alguien que no te conoce abre el perfil, mira las últimas nueve piezas y te dice qué vendés sin que vos le expliques nada.",
- "secciones": [
-  {"titulo": "Las últimas diez piezas, una al lado de la otra",
-   "consigna": "Juntá las diez piezas que publicaste en los últimos tres meses y anotá de cada una qué tiene visualmente: color dominante, tipografía, si aparece tu cara, si hay texto encima y cuánto se editó. En la última columna va cómo le fue, con el número que tengas a mano. Menos de diez piezas no permite evaluar nada, así que si no llegás a diez estirá el período hasta completarlas.",
-   "ejemplo": {"quien": "Scarlett Montilla", "texto": "El 6 de agosto hizo el ajuste de identidad visual hacia una estética más neutra y profesional. El corte se ve poniendo las piezas de antes y las de después una al lado de la otra."},
-   "campo": "tabla",
-   "columnas": ["Pieza", "Fecha", "Qué tiene visualmente", "Cómo le fue"],
-   "filas": 10},
-
-  {"titulo": "Lo que se repite y lo que apareció una sola vez",
-   "consigna": "Mirá la tabla completa y escribí las tres cosas visuales que se repiten en la mayoría de las piezas, y aparte las que aparecieron una vez y no volvieron. Lo que se repite y además funcionó es la dirección que ya tenés y conviene apoyarse ahí. Lo que apareció una vez se corta, aunque te guste, porque es lo que hace que la cuenta se lea como tres cuentas distintas.",
-   "campo": "texto", "alto": 4,
-   "placeholder": "Se repite… Apareció una vez y no volvió…"},
-
-  {"titulo": "La dirección visual, con datos",
-   "consigna": "Cerrá la dirección con datos concretos y no con palabras: tres colores con el código, una sola tipografía para títulos, el tratamiento que llevan todas las piezas y el nivel de producción medido en tiempo, o sea cuántas horas de edición por pieza y cuántos días entre grabar y publicar. La última línea es la lista de lo que queda afuera de ahora en adelante.",
-   "ejemplo": {"quien": "Sharon Palacio", "texto": "Su nivel es el uno: clipeo, subtítulos, color y sale. Ese nivel es el que le permite sostener diez piezas propias en el mes; cuando quiso grabar el podcast con b-rolls encima, el material quedó frenado."},
-   "campo": "lineas",
-   "lineas": ["Tres colores, con el código", "Tipografía de títulos", "Tratamiento (filtro, textura, grano)", "Nivel de producción: horas por pieza y días hasta publicar", "Qué queda afuera"]},
-
-  {"titulo": "Qué se cuenta en cada cuenta",
-   "consigna": "Si manejás más de una cuenta, esta es la decisión que evita que se pisen. Una fila por cuenta, con qué material vive ahí, qué material se manda a la otra y quién lo produce. El criterio es que cada cuenta tenga su propio motivo para seguirla: el mismo contenido duplicado en las dos hace que ninguna crezca.",
-   "ejemplo": {"quien": "Bianca Antonini", "texto": "En su marca personal va el proceso crudo y en Kie van el producto, el estilo y las clientas. Cada cuenta tiene su material, y el editor y el diseñador de Kie trabajan contra esa definición."},
-   "campo": "tabla",
-   "columnas": ["Cuenta", "Qué se cuenta ahí", "Qué se manda a la otra", "Quién produce"],
-   "filas": 5},
-
-  {"titulo": "El perfil, acomodado antes de la primera pieza",
-   "consigna": "El perfil se ordena antes de que salga la primera pieza con la dirección nueva, porque es la puerta por donde entra todo el tráfico que vas a generar. Escribí acá los cinco datos con el texto final, listo para copiar. El criterio es quince segundos: alguien que entra tiene que entender quién sos y qué vendés en ese tiempo.",
-   "ejemplo": {"quien": "Sebastián Martínez", "texto": "Su perfil queda con las destacadas contando su historia, las publicaciones repetidas archivadas y los ángulos limpios, para que alguien que llega desde el reel de un millón cuatrocientas mil vistas entienda en quince segundos quién es y qué vende."},
-   "campo": "lineas",
-   "lineas": ["Foto", "Nombre y descripción", "Primera destacada", "Segunda destacada", "Qué publicaciones se archivan"]},
-
-  {"titulo": "Las tres próximas piezas con la dirección aplicada",
-   "consigna": "Tres piezas, con fecha de publicación y con dueño de la producción. Son las que prueban que la hoja se puede ejecutar, así que van con el nivel de producción que definiste arriba y no con uno más alto. Las fechas se aprietan: las tres salen dentro de los próximos quince días.",
-   "ejemplo": {"quien": "Matías Morales", "texto": "El 23 de julio cerró con Juana la identidad de 9669: qué construye, cómo se comunica y cómo se ve. Las piezas que salieron después se apoyan en esa definición y la discusión estética quedó cerrada."},
-   "campo": "tabla",
-   "columnas": ["Pieza", "Qué cuenta", "Fecha de publicación", "Quién la produce"],
-   "filas": 5},
-
-  {"titulo": "Lo que necesita quien produce",
-   "consigna": "Escribí lo que un editor o un diseñador necesita para trabajar sin preguntarte: dónde están los archivos y las tipografías, qué medidas y formatos, quién aprueba y en cuántas horas, y qué se hace cuando una pieza no cumple la hoja. Si quien produce te tiene que preguntar la paleta, la hoja está incompleta y la próxima pieza vuelve a salir distinta.",
-   "campo": "texto", "alto": 4,
-   "placeholder": "Archivos en… Medidas… Aprueba… Si no cumple…"},
-
-  {"titulo": "Publicá las tres y revisá a los treinta días",
-   "consigna": "Publicá las tres piezas y a los treinta días hacé la prueba con alguien de afuera: le pasás el perfil a una persona que no te conoce y le pedís que te diga qué vendés y a quién, mirando solo la grilla. Anotá lo que te contestó con sus palabras. Si nombra dos negocios distintos, la separación de cuentas es lo que falta cerrar.",
-   "ejemplo": {"quien": "Sol Boutmy", "texto": "Facu entró al Instagram de Be Motion y no le quedó claro qué hacen ni quiénes fueron sus clientes. Esa devolución es la prueba, y se hace con alguien que mire el perfil por primera vez."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "A quién se lo mostré, qué me dijo que vendo, qué cambio."}
- ]
+  "modulo": "direccion-visual",
+  "titulo": "La hoja de dirección visual",
+  "bajada": "Queda escrito en una página cómo se ve lo tuyo —paleta, tipografía, tratamiento y nivel de producción— y qué se cuenta en cada cuenta, con el perfil acomodado y las tres próximas piezas ya definidas.",
+  "lista_cuando": "Alguien que no te conoce abre el perfil, mira las últimas nueve piezas y te dice qué vendés sin que vos le expliques nada.",
+  "secciones": [
+    {
+      "titulo": "Las últimas diez piezas, una al lado de la otra",
+      "consigna": "Juntá las diez piezas que publicaste en los últimos tres meses y anotá de cada una qué tiene visualmente: color dominante, tipografía, si aparece tu cara, si hay texto encima y cuánto se editó. En la última columna va cómo le fue, con el número que tengas a mano. Menos de diez piezas no permite evaluar nada, así que si no llegás a diez estirá el período hasta completarlas.",
+      "ejemplo": {
+        "quien": "Scarlett Montilla",
+        "texto": "El 6 de agosto hizo el ajuste de identidad visual hacia una estética más neutra y profesional. El corte se ve poniendo las piezas de antes y las de después una al lado de la otra."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Pieza",
+        "Fecha",
+        "Qué tiene visualmente",
+        "Cómo le fue"
+      ],
+      "filas": 10,
+      "cid": 0
+    },
+    {
+      "titulo": "Lo que se repite y lo que apareció una sola vez",
+      "consigna": "Mirá la tabla completa y escribí las tres cosas visuales que se repiten en la mayoría de las piezas, y aparte las que aparecieron una vez y no volvieron. Lo que se repite y además funcionó es la dirección que ya tenés y conviene apoyarse ahí. Lo que apareció una vez se corta, aunque te guste, porque es lo que hace que la cuenta se lea como tres cuentas distintas.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Se repite… Apareció una vez y no volvió…",
+      "cid": 1
+    },
+    {
+      "titulo": "La dirección visual, con datos",
+      "consigna": "Cerrá la dirección con datos concretos y no con palabras: tres colores con el código, una sola tipografía para títulos, el tratamiento que llevan todas las piezas y el nivel de producción medido en tiempo, o sea cuántas horas de edición por pieza y cuántos días entre grabar y publicar. La última línea es la lista de lo que queda afuera de ahora en adelante.",
+      "ejemplo": {
+        "quien": "Sharon Palacio",
+        "texto": "Su nivel es el uno: clipeo, subtítulos, color y sale. Ese nivel es el que le permite sostener diez piezas propias en el mes; cuando quiso grabar el podcast con b-rolls encima, el material quedó frenado."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Tres colores, con el código",
+        "Tipografía de títulos",
+        "Tratamiento (filtro, textura, grano)",
+        "Nivel de producción: horas por pieza y días hasta publicar",
+        "Qué queda afuera"
+      ],
+      "cid": 2
+    },
+    {
+      "titulo": "Qué se cuenta en cada cuenta",
+      "consigna": "Si manejás más de una cuenta, esta es la decisión que evita que se pisen. Una fila por cuenta, con qué material vive ahí, qué material se manda a la otra y quién lo produce. El criterio es que cada cuenta tenga su propio motivo para seguirla: el mismo contenido duplicado en las dos hace que ninguna crezca.",
+      "ejemplo": {
+        "quien": "Bianca Antonini",
+        "texto": "En su marca personal va el proceso crudo y en Kie van el producto, el estilo y las clientas. Cada cuenta tiene su material, y el editor y el diseñador de Kie trabajan contra esa definición."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Cuenta",
+        "Qué se cuenta ahí",
+        "Qué se manda a la otra",
+        "Quién produce"
+      ],
+      "filas": 5,
+      "cid": 3
+    },
+    {
+      "titulo": "El perfil, acomodado antes de la primera pieza",
+      "consigna": "El perfil se ordena antes de que salga la primera pieza con la dirección nueva, porque es la puerta por donde entra todo el tráfico que vas a generar. Escribí acá los cinco datos con el texto final, listo para copiar. El criterio es quince segundos: alguien que entra tiene que entender quién sos y qué vendés en ese tiempo.",
+      "ejemplo": {
+        "quien": "Sebastián Martínez",
+        "texto": "Su perfil queda con las destacadas contando su historia, las publicaciones repetidas archivadas y los ángulos limpios, para que alguien que llega desde el reel de un millón cuatrocientas mil vistas entienda en quince segundos quién es y qué vende."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Foto",
+        "Nombre y descripción",
+        "Primera destacada",
+        "Segunda destacada",
+        "Qué publicaciones se archivan"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "Las tres próximas piezas con la dirección aplicada",
+      "consigna": "Tres piezas, con fecha de publicación y con dueño de la producción. Son las que prueban que la hoja se puede ejecutar, así que van con el nivel de producción que definiste arriba y no con uno más alto. Las fechas se aprietan: las tres salen dentro de los próximos quince días.",
+      "ejemplo": {
+        "quien": "Matías Morales",
+        "texto": "El 23 de julio cerró con Juana la identidad de 9669: qué construye, cómo se comunica y cómo se ve. Las piezas que salieron después se apoyan en esa definición y la discusión estética quedó cerrada."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Pieza",
+        "Qué cuenta",
+        "Fecha de publicación",
+        "Quién la produce"
+      ],
+      "filas": 5,
+      "cid": 5
+    },
+    {
+      "titulo": "Lo que necesita quien produce",
+      "consigna": "Escribí lo que un editor o un diseñador necesita para trabajar sin preguntarte: dónde están los archivos y las tipografías, qué medidas y formatos, quién aprueba y en cuántas horas, y qué se hace cuando una pieza no cumple la hoja. Si quien produce te tiene que preguntar la paleta, la hoja está incompleta y la próxima pieza vuelve a salir distinta.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Archivos en… Medidas… Aprueba… Si no cumple…",
+      "cid": 6
+    },
+    {
+      "titulo": "Publicá las tres y revisá a los treinta días",
+      "consigna": "Publicá las tres piezas y a los treinta días hacé la prueba con alguien de afuera: le pasás el perfil a una persona que no te conoce y le pedís que te diga qué vendés y a quién, mirando solo la grilla. Anotá lo que te contestó con sus palabras. Si nombra dos negocios distintos, la separación de cuentas es lo que falta cerrar.",
+      "ejemplo": {
+        "quien": "Sol Boutmy",
+        "texto": "Facu entró al Instagram de Be Motion y no le quedó claro qué hacen ni quiénes fueron sus clientes. Esa devolución es la prueba, y se hace con alguien que mire el perfil por primera vez."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "A quién se lo mostré, qué me dijo que vendo, qué cambio.",
+      "cid": 7
+    }
+  ]
 }

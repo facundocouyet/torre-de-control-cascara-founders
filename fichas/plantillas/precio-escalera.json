@@ -1,55 +1,123 @@
 {
- "modulo": "precio-escalera",
- "titulo": "La hoja del precio y de la escalera",
- "bajada": "El costo real de entregar una vez, el piso del precio, los niveles que vendés con el resultado de cada uno y la forma de pago de cada nivel. Con el orden en que se comunica cada cosa.",
- "lista_cuando": "Presentaste el precio nuevo en una propuesta real y tenés escrito qué contestó la persona del otro lado.",
- "secciones": [
-  {"titulo": "Cuánto te cuesta entregarlo una vez",
-   "consigna": "Listá todo lo que se consume en entregar un cliente completo: tus horas, las horas del equipo, herramientas, producción y traslados. Tus horas se cuentan con un valor por hora puesto, incluso cuando no te las pagás. La cuenta se hace sobre un cliente real que ya entregaste, no sobre el cliente promedio.",
-   "ejemplo": {"quien": "Sol Boutmy", "texto": "Con seis clientes fijos cobrando entre seiscientos y setecientos dólares por mes, y las dos socias editando, la cuenta del costo por dos es la que muestra por qué el precio no lo banca."},
-   "campo": "tabla",
-   "columnas": ["Qué se consume", "Quién lo hace", "Horas", "Cuánto cuesta"],
-   "filas": 8},
-
-  {"titulo": "El piso y lo que cobrás hoy",
-   "consigna": "El piso del precio es el costo de entregar una vez multiplicado por dos. Poné al lado lo que cobrás hoy por ese mismo trabajo y la diferencia entre las dos cifras. Si lo que cobrás hoy está debajo del piso, esa es la primera cosa que se corrige y no hace falta esperar a tener la escalera armada.",
-   "campo": "lineas",
-   "lineas": ["Costo de entregar una vez", "El piso, costo por dos", "Lo que cobrás hoy", "La diferencia", "Cuántos clientes tenés al precio de hoy"]},
-
-  {"titulo": "La escalera, nivel por nivel",
-   "consigna": "Tres niveles: la entrada, la oferta principal y lo que va arriba. Cada nivel lleva qué se lleva el cliente, qué resultado deja y cuánto dura, y cada uno tiene que estar arriba de su propio piso. La oferta principal es la que sostiene el mes, así que empezá por ella y después definí los otros dos alrededor.",
-   "ejemplo": {"quien": "José David Fajardo", "texto": "Tenía la escalera armada de antes: cien dólares por video, quinientos por un plan de estrategia, tres mil por tres meses de acompañamiento y cuatro mil quinientos por estrategia más producción. Lo que faltaba era elegir cuál de esos niveles es la punta de lanza."},
-   "campo": "tabla",
-   "columnas": ["Nivel", "Qué se lleva", "Qué resultado deja", "Precio", "Cuánto dura"],
-   "filas": 5},
-
-  {"titulo": "La oferta principal y su forma de pago",
-   "consigna": "El precio de lista, el precio pagando por adelantado y el precio en dos cuotas, con más de la mitad cobrada al arrancar. El precio de lista es el más alto de los tres y el adelantado es el que te conviene cobrar, así que la diferencia entre ellos tiene que valerle la pena a los dos. Dejá escrito el link o el medio por donde entra la plata antes de ofrecerlo.",
-   "ejemplo": {"quien": "Sofía Galvis", "texto": "Dejó de vender mil doscientos mensuales con todo adentro y armó el paquete de tres meses: cuatro mil de lista, tres mil quinientos pagando por adelantado y tres mil ochocientos en dos cuotas, con más de la mitad al principio."},
-   "campo": "lineas",
-   "lineas": ["Nombre de la oferta principal", "Precio de lista", "Pagando por adelantado", "En dos cuotas", "Cuánto entra al firmar", "Por dónde se cobra"]},
-
-  {"titulo": "El límite de cada nivel",
-   "consigna": "Escribí hasta dónde llega el nivel principal con un número: cuántas piezas, cuántas llamadas, cuántas revisiones, cuántas horas. Lo que pasa de ese número se cobra aparte y con un precio ya puesto. Un nivel sin límite escrito termina entregando el doble por el mismo precio, y ahí se va la rentabilidad completa.",
-   "ejemplo": {"quien": "Sharon Palacio", "texto": "Dejó la pauta paga afuera del servicio estándar de estrategia, y la continuidad la vende por bloques de tres meses con un objetivo macro en vez de mensualidad abierta."},
-   "campo": "lineas",
-   "lineas": ["Qué incluye el nivel principal", "El máximo, con número", "Qué se cobra aparte y a cuánto", "Qué pasa si pide más", "Qué queda afuera"]},
-
-  {"titulo": "Qué se dice en público y qué se guarda para la llamada",
-   "consigna": "Definí qué nivel lleva el precio escrito en el perfil, en la landing y en el contenido, y cuál se ofrece recién adentro de la conversación. El nivel de entrada es el que puede tener el número a la vista, porque abre conversaciones sin que vos estés. Lo de arriba se ofrece cuando ya escuchaste el caso, y eso se decide antes de la próxima pieza que publicás.",
-   "campo": "texto", "alto": 4,
-   "placeholder": "En público digo… y en la llamada ofrezco…"},
-
-  {"titulo": "El orden en que se dice el precio",
-   "consigna": "El precio se comunica desde arriba: primero el de lista, después el beneficio por pagar adelantado. Escribí las tres o cuatro frases con las que vas a decirlo, incluida la que usás cuando te piden descuento. Practicalas en voz alta una vez antes de la llamada, porque el precio que se dice dudando se negocia solo.",
-   "ejemplo": {"quien": "Matías Morales", "texto": "Facu le dijo lo mismo sobre todas las propuestas: que estaba barato. Subió los precios casi al doble y las vendió igual, todas."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "El de lista sale… pagando por adelantado queda en… si me piden descuento digo…"},
-
-  {"titulo": "Presentalo en una propuesta real",
-   "consigna": "Llevá el precio nuevo a por lo menos una propuesta real esta semana, con el número escrito adentro del documento y dicho en voz alta en la llamada. Anotá qué objetó, en qué parte se quedó callado y si pidió las cuotas. Con menos de cinco propuestas presentadas no hay conclusión sobre el precio, así que dejá acá las fechas de las que siguen.",
-   "ejemplo": {"quien": "Lucio Labate", "texto": "La hipótesis es dos mil a tres mil dólares la instalación más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Cinco llamadas con ese número sobre la mesa son las que lo confirman o lo corrigen."},
-   "campo": "texto", "alto": 5,
-   "placeholder": "A quién se la presenté, qué contestó y cuándo son las que siguen."}
- ]
+  "modulo": "precio-escalera",
+  "titulo": "La hoja del precio y de la escalera",
+  "bajada": "El costo real de entregar una vez, el piso del precio, los niveles que vendés con el resultado de cada uno y la forma de pago de cada nivel. Con el orden en que se comunica cada cosa.",
+  "lista_cuando": "Presentaste el precio nuevo en una propuesta real y tenés escrito qué contestó la persona del otro lado.",
+  "secciones": [
+    {
+      "titulo": "Cuánto te cuesta entregarlo una vez",
+      "consigna": "Listá todo lo que se consume en entregar un cliente completo: tus horas, las horas del equipo, herramientas, producción y traslados. Tus horas se cuentan con un valor por hora puesto, incluso cuando no te las pagás. La cuenta se hace sobre un cliente real que ya entregaste, no sobre el cliente promedio.",
+      "ejemplo": {
+        "quien": "Sol Boutmy",
+        "texto": "Con seis clientes fijos cobrando entre seiscientos y setecientos dólares por mes, y las dos socias editando, la cuenta del costo por dos es la que muestra por qué el precio no lo banca."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Qué se consume",
+        "Quién lo hace",
+        "Horas",
+        "Cuánto cuesta"
+      ],
+      "filas": 8,
+      "cid": 0
+    },
+    {
+      "titulo": "El piso y lo que cobrás hoy",
+      "consigna": "El piso del precio es el costo de entregar una vez multiplicado por dos. Poné al lado lo que cobrás hoy por ese mismo trabajo y la diferencia entre las dos cifras. Si lo que cobrás hoy está debajo del piso, esa es la primera cosa que se corrige y no hace falta esperar a tener la escalera armada.",
+      "campo": "lineas",
+      "lineas": [
+        "Costo de entregar una vez",
+        "El piso, costo por dos",
+        "Lo que cobrás hoy",
+        "La diferencia",
+        "Cuántos clientes tenés al precio de hoy"
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "La escalera, nivel por nivel",
+      "consigna": "Tres niveles: la entrada, la oferta principal y lo que va arriba. Cada nivel lleva qué se lleva el cliente, qué resultado deja y cuánto dura, y cada uno tiene que estar arriba de su propio piso. La oferta principal es la que sostiene el mes, así que empezá por ella y después definí los otros dos alrededor.",
+      "ejemplo": {
+        "quien": "José David Fajardo",
+        "texto": "Tenía la escalera armada de antes: cien dólares por video, quinientos por un plan de estrategia, tres mil por tres meses de acompañamiento y cuatro mil quinientos por estrategia más producción. Lo que faltaba era elegir cuál de esos niveles es la punta de lanza."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Nivel",
+        "Qué se lleva",
+        "Qué resultado deja",
+        "Precio",
+        "Cuánto dura"
+      ],
+      "filas": 5,
+      "cid": 2
+    },
+    {
+      "titulo": "La oferta principal y su forma de pago",
+      "consigna": "El precio de lista, el precio pagando por adelantado y el precio en dos cuotas, con más de la mitad cobrada al arrancar. El precio de lista es el más alto de los tres y el adelantado es el que te conviene cobrar, así que la diferencia entre ellos tiene que valerle la pena a los dos. Dejá escrito el link o el medio por donde entra la plata antes de ofrecerlo.",
+      "ejemplo": {
+        "quien": "Sofía Galvis",
+        "texto": "Dejó de vender mil doscientos mensuales con todo adentro y armó el paquete de tres meses: cuatro mil de lista, tres mil quinientos pagando por adelantado y tres mil ochocientos en dos cuotas, con más de la mitad al principio."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Nombre de la oferta principal",
+        "Precio de lista",
+        "Pagando por adelantado",
+        "En dos cuotas",
+        "Cuánto entra al firmar",
+        "Por dónde se cobra"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "El límite de cada nivel",
+      "consigna": "Escribí hasta dónde llega el nivel principal con un número: cuántas piezas, cuántas llamadas, cuántas revisiones, cuántas horas. Lo que pasa de ese número se cobra aparte y con un precio ya puesto. Un nivel sin límite escrito termina entregando el doble por el mismo precio, y ahí se va la rentabilidad completa.",
+      "ejemplo": {
+        "quien": "Sharon Palacio",
+        "texto": "Dejó la pauta paga afuera del servicio estándar de estrategia, y la continuidad la vende por bloques de tres meses con un objetivo macro en vez de mensualidad abierta."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Qué incluye el nivel principal",
+        "El máximo, con número",
+        "Qué se cobra aparte y a cuánto",
+        "Qué pasa si pide más",
+        "Qué queda afuera"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "Qué se dice en público y qué se guarda para la llamada",
+      "consigna": "Definí qué nivel lleva el precio escrito en el perfil, en la landing y en el contenido, y cuál se ofrece recién adentro de la conversación. El nivel de entrada es el que puede tener el número a la vista, porque abre conversaciones sin que vos estés. Lo de arriba se ofrece cuando ya escuchaste el caso, y eso se decide antes de la próxima pieza que publicás.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "En público digo… y en la llamada ofrezco…",
+      "cid": 5
+    },
+    {
+      "titulo": "El orden en que se dice el precio",
+      "consigna": "El precio se comunica desde arriba: primero el de lista, después el beneficio por pagar adelantado. Escribí las tres o cuatro frases con las que vas a decirlo, incluida la que usás cuando te piden descuento. Practicalas en voz alta una vez antes de la llamada, porque el precio que se dice dudando se negocia solo.",
+      "ejemplo": {
+        "quien": "Matías Morales",
+        "texto": "Facu le dijo lo mismo sobre todas las propuestas: que estaba barato. Subió los precios casi al doble y las vendió igual, todas."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "El de lista sale… pagando por adelantado queda en… si me piden descuento digo…",
+      "cid": 6
+    },
+    {
+      "titulo": "Presentalo en una propuesta real",
+      "consigna": "Llevá el precio nuevo a por lo menos una propuesta real esta semana, con el número escrito adentro del documento y dicho en voz alta en la llamada. Anotá qué objetó, en qué parte se quedó callado y si pidió las cuotas. Con menos de cinco propuestas presentadas no hay conclusión sobre el precio, así que dejá acá las fechas de las que siguen.",
+      "ejemplo": {
+        "quien": "Lucio Labate",
+        "texto": "La hipótesis es dos mil a tres mil dólares la instalación más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Cinco llamadas con ese número sobre la mesa son las que lo confirman o lo corrigen."
+      },
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "A quién se la presenté, qué contestó y cuándo son las que siguen.",
+      "cid": 7
+    }
+  ]
 }

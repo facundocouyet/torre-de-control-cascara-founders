@@ -1,56 +1,125 @@
 {
- "modulo": "calendario-contenido",
- "titulo": "La hoja del calendario de sesenta días",
- "bajada": "Sesenta días de contenido cargados con fecha, ángulo, formato y dueño, más la jornada semanal de grabación agendada. Con esto la cadencia deja de depender del tiempo que sobra en la semana.",
- "lista_cuando": "Cualquiera de tu equipo abre el calendario un lunes y sabe qué se graba, qué se edita y qué se publica esa semana sin preguntarte.",
- "secciones": [
-  {"titulo": "La cadencia que podés sostener",
-   "consigna": "La cantidad de piezas por semana se fija por la peor semana del último mes, con el día y el horario de publicación puestos. El piso de este módulo son tres piezas por semana durante ocho semanas seguidas: veinticuatro piezas. Si el número que escribís acá ya lo incumpliste dos veces, bajalo una pieza y cerralo ahí.",
-   "ejemplo": {"quien": "Lucio", "texto": "De los quince videos que tenía comprometidos subió uno. La cadencia escrita en grande sin poder sostenerla deja el mismo resultado que no tener calendario: nada que leer."},
-   "campo": "lineas",
-   "lineas": ["Piezas por semana", "Días de publicación", "Horario", "Cuántas semanas seguidas la sostuviste hasta hoy"]},
-
-  {"titulo": "Los dos o tres formatos fijos",
-   "consigna": "Elegí dos o tres formatos y usá esos durante los sesenta días. Cada uno con una referencia mirable, propia o ajena, y con el tiempo real que tarda en producirse de punta a punta. El formato que tarda más de lo que te dura la semana se cambia por uno más barato, porque el que se cae siempre es el caro.",
-   "ejemplo": {"quien": "Sharon", "texto": "El compromiso quedó en edición nivel uno: clipeo, subtítulos, color y sale. El podcast lo había abandonado porque quería grabarlo con b-rolls encima, y ese formato nunca llegó a salir."},
-   "campo": "tabla",
-   "columnas": ["Formato", "Para qué sirve", "Referencia", "Cuánto tarda en producirse"],
-   "filas": 5},
-
-  {"titulo": "Las tarjetas de los sesenta días",
-   "consigna": "Acá van las primeras diez tarjetas y el resto se carga con la misma estructura en la base de Notion, hasta completar los sesenta días. Cada tarjeta lleva fecha, ángulo del que sale, formato, qué querés que haga el que la ve y en qué estado está. Una tarjeta sin ángulo queda vacía cuando llega la fecha, así que se completa antes de cargarla.",
-   "ejemplo": {"quien": "Nicolás Lozada", "texto": "Tiene la base con cuarenta y cinco tarjetas ordenadas en cuatro fases. El calendario cargado de antemano es lo que le permitió publicar el video largo de su historia y sacarle ocho recortes sin improvisar."},
-   "campo": "tabla",
-   "columnas": ["Fecha", "Ángulo", "Formato", "Qué querés que haga el que la ve", "Estado"],
-   "filas": 10},
-
-  {"titulo": "La jornada semanal de grabación",
-   "consigna": "Un día fijo por semana, con hora, lugar y la primera fecha ya puesta en el calendario. De cada jornada tienen que salir las piezas de la semana siguiente completas, así que calculá cuántas grabás por jornada y verificá que cierre con la cadencia de la primera sección. Una jornada al mes no alcanza para armar el hábito.",
-   "ejemplo": {"quien": "Agostina", "texto": "El acuerdo con Ibi quedó en quinientos dólares o menos, del 1 al 10, por una jornada de trabajo semanal sobre la marca en lugar de un paquete llave en mano con una grabación al mes. Ella sigue escribiendo los guiones y sigue subiendo las historias."},
-   "campo": "lineas",
-   "lineas": ["Día y hora", "Dónde se graba", "Cuántas piezas salen por jornada", "Quién te acompaña", "Primera fecha agendada"]},
-
-  {"titulo": "Quién hace cada paso",
-   "consigna": "Un dueño con nombre por cada paso: guion, grabación, edición, publicación y respuesta a los comentarios. Cada uno con el día en que entrega y con lo que pasa si no llega, que es la parte que se suele saltear. Si un paso queda sin dueño, ese paso es tuyo, y conviene escribirlo así antes de que la fecha lo diga.",
-   "ejemplo": {"quien": "Antonio", "texto": "Todo el plan de abril dependía de una persona adentro de IEB que manejara calendario, guiones y coordinación del editor. Esa persona nunca apareció y el contenido salió cuando había ganas."},
-   "campo": "tabla",
-   "columnas": ["Paso", "Dueño", "Cuándo entrega", "Qué pasa si no llega"],
-   "filas": 5},
-
-  {"titulo": "Lo que ya tenés grabado y sin usar",
-   "consigna": "Antes de cargar grabaciones nuevas, revisá el material que ya está: charlas filmadas, entrevistas, llamadas con clientes, videos largos de los que se pueden sacar recortes. Anotá qué hay, dónde está y cuántas piezas salen de ahí. Este material es el que llena las dos primeras semanas mientras la jornada de grabación se acomoda.",
-   "campo": "texto", "alto": 4,
-   "placeholder": "Qué hay, dónde está, cuántas piezas salen."},
-
-  {"titulo": "La revisión semanal",
-   "consigna": "Un día y una hora fijos por semana para mirar el calendario, con la misma gente todas las semanas. Se mueve lo que no salió y el resto queda donde está: cambiar tarjetas que todavía no llegaron a su fecha es la forma más común de romper el calendario. La revisión dura media hora y termina con las tarjetas de la semana siguiente cerradas.",
-   "ejemplo": {"quien": "Manuel Bruzzone", "texto": "La planificación quedó fijada el último lunes de cada mes, dos horas, con contenido, actividad y pauta cargados, más la revisión de medio mes con cada agente. Tres seguidas es lo que convierte una reunión en costumbre."},
-   "campo": "lineas",
-   "lineas": ["Día y hora", "Quién participa", "Qué se mira", "Cuánto dura"]},
-
-  {"titulo": "Las dos primeras semanas publicadas contra el calendario",
-   "consigna": "Cumplí catorce días sin tocar las tarjetas y anotá el resultado: cuántas piezas salieron en la fecha que decía la tarjeta, cuántas se corrieron y por qué se corrieron. Ese porcentaje es la cadencia real. Si salió menos de la mitad, el arreglo está en la cantidad o en el formato, y se corrige antes de seguir con las semanas que vienen.",
-   "campo": "texto", "alto": 4,
-   "placeholder": "Salieron X de Y. Se corrieron… porque…"}
- ]
+  "modulo": "calendario-contenido",
+  "titulo": "La hoja del calendario de sesenta días",
+  "bajada": "Sesenta días de contenido cargados con fecha, ángulo, formato y dueño, más la jornada semanal de grabación agendada. Con esto la cadencia deja de depender del tiempo que sobra en la semana.",
+  "lista_cuando": "Cualquiera de tu equipo abre el calendario un lunes y sabe qué se graba, qué se edita y qué se publica esa semana sin preguntarte.",
+  "secciones": [
+    {
+      "titulo": "La cadencia que podés sostener",
+      "consigna": "La cantidad de piezas por semana se fija por la peor semana del último mes, con el día y el horario de publicación puestos. El piso de este módulo son tres piezas por semana durante ocho semanas seguidas: veinticuatro piezas. Si el número que escribís acá ya lo incumpliste dos veces, bajalo una pieza y cerralo ahí.",
+      "ejemplo": {
+        "quien": "Lucio",
+        "texto": "De los quince videos que tenía comprometidos subió uno. La cadencia escrita en grande sin poder sostenerla deja el mismo resultado que no tener calendario: nada que leer."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Piezas por semana",
+        "Días de publicación",
+        "Horario",
+        "Cuántas semanas seguidas la sostuviste hasta hoy"
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "Los dos o tres formatos fijos",
+      "consigna": "Elegí dos o tres formatos y usá esos durante los sesenta días. Cada uno con una referencia mirable, propia o ajena, y con el tiempo real que tarda en producirse de punta a punta. El formato que tarda más de lo que te dura la semana se cambia por uno más barato, porque el que se cae siempre es el caro.",
+      "ejemplo": {
+        "quien": "Sharon",
+        "texto": "El compromiso quedó en edición nivel uno: clipeo, subtítulos, color y sale. El podcast lo había abandonado porque quería grabarlo con b-rolls encima, y ese formato nunca llegó a salir."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Formato",
+        "Para qué sirve",
+        "Referencia",
+        "Cuánto tarda en producirse"
+      ],
+      "filas": 5,
+      "cid": 1
+    },
+    {
+      "titulo": "Las tarjetas de los sesenta días",
+      "consigna": "Acá van las primeras diez tarjetas y el resto se carga con la misma estructura en la base de Notion, hasta completar los sesenta días. Cada tarjeta lleva fecha, ángulo del que sale, formato, qué querés que haga el que la ve y en qué estado está. Una tarjeta sin ángulo queda vacía cuando llega la fecha, así que se completa antes de cargarla.",
+      "ejemplo": {
+        "quien": "Nicolás Lozada",
+        "texto": "Tiene la base con cuarenta y cinco tarjetas ordenadas en cuatro fases. El calendario cargado de antemano es lo que le permitió publicar el video largo de su historia y sacarle ocho recortes sin improvisar."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Fecha",
+        "Ángulo",
+        "Formato",
+        "Qué querés que haga el que la ve",
+        "Estado"
+      ],
+      "filas": 10,
+      "cid": 2
+    },
+    {
+      "titulo": "La jornada semanal de grabación",
+      "consigna": "Un día fijo por semana, con hora, lugar y la primera fecha ya puesta en el calendario. De cada jornada tienen que salir las piezas de la semana siguiente completas, así que calculá cuántas grabás por jornada y verificá que cierre con la cadencia de la primera sección. Una jornada al mes no alcanza para armar el hábito.",
+      "ejemplo": {
+        "quien": "Agostina",
+        "texto": "El acuerdo con Ibi quedó en quinientos dólares o menos, del 1 al 10, por una jornada de trabajo semanal sobre la marca en lugar de un paquete llave en mano con una grabación al mes. Ella sigue escribiendo los guiones y sigue subiendo las historias."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Día y hora",
+        "Dónde se graba",
+        "Cuántas piezas salen por jornada",
+        "Quién te acompaña",
+        "Primera fecha agendada"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "Quién hace cada paso",
+      "consigna": "Un dueño con nombre por cada paso: guion, grabación, edición, publicación y respuesta a los comentarios. Cada uno con el día en que entrega y con lo que pasa si no llega, que es la parte que se suele saltear. Si un paso queda sin dueño, ese paso es tuyo, y conviene escribirlo así antes de que la fecha lo diga.",
+      "ejemplo": {
+        "quien": "Antonio",
+        "texto": "Todo el plan de abril dependía de una persona adentro de IEB que manejara calendario, guiones y coordinación del editor. Esa persona nunca apareció y el contenido salió cuando había ganas."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Paso",
+        "Dueño",
+        "Cuándo entrega",
+        "Qué pasa si no llega"
+      ],
+      "filas": 5,
+      "cid": 4
+    },
+    {
+      "titulo": "Lo que ya tenés grabado y sin usar",
+      "consigna": "Antes de cargar grabaciones nuevas, revisá el material que ya está: charlas filmadas, entrevistas, llamadas con clientes, videos largos de los que se pueden sacar recortes. Anotá qué hay, dónde está y cuántas piezas salen de ahí. Este material es el que llena las dos primeras semanas mientras la jornada de grabación se acomoda.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Qué hay, dónde está, cuántas piezas salen.",
+      "cid": 5
+    },
+    {
+      "titulo": "La revisión semanal",
+      "consigna": "Un día y una hora fijos por semana para mirar el calendario, con la misma gente todas las semanas. Se mueve lo que no salió y el resto queda donde está: cambiar tarjetas que todavía no llegaron a su fecha es la forma más común de romper el calendario. La revisión dura media hora y termina con las tarjetas de la semana siguiente cerradas.",
+      "ejemplo": {
+        "quien": "Manuel Bruzzone",
+        "texto": "La planificación quedó fijada el último lunes de cada mes, dos horas, con contenido, actividad y pauta cargados, más la revisión de medio mes con cada agente. Tres seguidas es lo que convierte una reunión en costumbre."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Día y hora",
+        "Quién participa",
+        "Qué se mira",
+        "Cuánto dura"
+      ],
+      "cid": 6
+    },
+    {
+      "titulo": "Las dos primeras semanas publicadas contra el calendario",
+      "consigna": "Cumplí catorce días sin tocar las tarjetas y anotá el resultado: cuántas piezas salieron en la fecha que decía la tarjeta, cuántas se corrieron y por qué se corrieron. Ese porcentaje es la cadencia real. Si salió menos de la mitad, el arreglo está en la cantidad o en el formato, y se corrige antes de seguir con las semanas que vienen.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Salieron X de Y. Se corrieron… porque…",
+      "cid": 7
+    }
+  ]
 }

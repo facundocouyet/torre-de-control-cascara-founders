@@ -1,110 +1,118 @@
 {
- "modulo": "dashboard-embudo",
- "titulo": "La hoja de tu tablero del embudo",
- "bajada": "Los cinco números del embudo cargados por semana en una sola pantalla, con el número del trimestre arriba. Sirve para saber en qué paso se cae la mayor parte de la gente y qué se corrige el mes que viene.",
- "lista_cuando": "Tiene cuatro semanas seguidas cargadas el mismo día y arriba, escrito, el paso donde se cae la mayor parte.",
- "secciones": [
-  {
-   "titulo": "El número del trimestre, arriba de todo",
-   "consigna": "Un solo número con fecha, el que dice si el tramo salió bien. Va arriba del tablero y no se cambia hasta que llegue esa fecha. Si te salen dos, quedate con el que esté más cerca de la plata cobrada.",
-   "ejemplo": {
-    "quien": "Lucca",
-    "texto": "Cinco propiedades que no lleguen por referido, al 30 de noviembre. Ese número es lo que separa un canal de una racha."
-   },
-   "campo": "texto",
-   "alto": 3,
-   "placeholder": "Al <fecha>, …"
-  },
-  {
-   "titulo": "Los cinco números y de dónde sale cada uno",
-   "consigna": "Piezas publicadas, conversaciones, llamadas, propuestas y ventas. Cada uno con una fuente única: una estadística, una planilla, el pipeline. Cuando un número puede salir de dos lugares distintos, elegí uno ahora y escribilo, porque en el mes dos nadie se acuerda de cuál era.",
-   "ejemplo": {
-    "quien": "Seba",
-    "texto": "Lee el tramo por conversaciones abiertas y llamadas de venta, con las reproducciones al costado. El reel de un millón cuatrocientas mil vistas ya le mostró cuánto le mueven las vistas solas."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "Número",
-    "De dónde sale",
-    "Quién lo carga",
-    "Qué día"
-   ],
-   "filas": 5
-  },
-  {
-   "titulo": "Qué cuenta como conversación, llamada y propuesta",
-   "consigna": "Una definición por renglón, con la condición que la hace válida: la conversación cuenta cuando el otro contestó, la llamada cuando ocurrió con día y hora, la propuesta cuando salió con precio adentro. Se escriben una vez y quedan quietas hasta el final del trimestre, porque un número que cambia de definición en el medio deja de servir para comparar.",
-   "ejemplo": {
-    "quien": "Nico",
-    "texto": "Veinte conversaciones abiertas se cuentan por respuesta del otro lado. Veinte mensajes mandados suman cero."
-   },
-   "campo": "texto",
-   "alto": 4,
-   "placeholder": "Conversación: … Llamada: … Propuesta: …"
-  },
-  {
-   "titulo": "La serie semanal",
-   "consigna": "Una fila por número y una columna por semana del mes. Los ceros se escriben: la celda vacía se lee como olvido y el cero se lee como señal. Cuatro semanas completas es el mínimo para ver una tendencia, y antes de eso no hay conclusión que sacar.",
-   "campo": "tabla",
-   "columnas": [
-    "Número",
-    "Semana 1",
-    "Semana 2",
-    "Semana 3",
-    "Semana 4"
-   ],
-   "filas": 5
-  },
-  {
-   "titulo": "El día de carga",
-   "consigna": "Un día fijo y una hora fija, siempre los mismos. Quince minutos alcanzan cuando las fuentes ya están definidas. Cargar el lunes lo de la semana anterior funciona mejor que cargar el viernes, porque el viernes la semana todavía se está moviendo.",
-   "campo": "lineas",
-   "lineas": [
-    "Día de la semana",
-    "Hora",
-    "Quién carga",
-    "Dónde vive el tablero",
-    "Qué se hace si falta un dato"
-   ]
-  },
-  {
-   "titulo": "Cuánta gente pasa de un paso al siguiente",
-   "consigna": "Con el mes cerrado, la cuenta de cada escalón: de las conversaciones cuántas llegaron a llamada, de las llamadas cuántas a propuesta, de las propuestas cuántas a venta. El porcentaje se escribe aunque la base sea chica. Al lado va lo que hiciste distinto ese mes, porque un salto sin causa escrita no se puede repetir.",
-   "ejemplo": {
-    "quien": "Lola",
-    "texto": "Tuvo tres llamadas con gente que le escribió y las tres se cayeron en el mismo lugar, al final: sin fecha, sin escasez y sin seña para reservar el lugar."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "Paso",
-    "Entraron",
-    "Pasaron al siguiente",
-    "Porcentaje",
-    "Qué se hizo distinto"
-   ],
-   "filas": 5
-  },
-  {
-   "titulo": "La lectura del mes: un solo paso",
-   "consigna": "Una vez por mes marcá el paso donde se cae la mayor parte de la gente y escribí la única cosa que vas a cambiar el mes que viene. Un paso y un cambio. Con tres cambios encima, el mes que viene la mejora no se le puede atribuir a nada.",
-   "ejemplo": {
-    "quien": "Bianca",
-    "texto": "Todavía no puede decir qué parte de las ventas del drop salió de la comunidad de WhatsApp, así que no sabe si lo que se cae es el contenido o la conversión."
-   },
-   "campo": "texto",
-   "alto": 4,
-   "placeholder": "El paso que se cae, el número, y la única cosa que cambia."
-  },
-  {
-   "titulo": "Cargalo cuatro semanas seguidas y presentá la lectura",
-   "consigna": "El tablero queda aprobado con cuatro semanas cargadas el mismo día y la lectura del mes escrita arriba. Presentalo con el número del trimestre adelante y el paso que se cae marcado. Un tablero que se carga entero el día de la presentación no alcanza para decidir nada.",
-   "ejemplo": {
-    "quien": "José David",
-    "texto": "Diez propuestas presentadas con la métrica escrita adentro, y anotadas las objeciones de las que no cerraron. Con eso sabe si el número que puso resiste o hay que corregirlo."
-   },
-   "campo": "texto",
-   "alto": 4,
-   "placeholder": "Semanas cargadas, el paso que se cae, qué se corrige."
-  }
- ]
+  "modulo": "dashboard-embudo",
+  "titulo": "La hoja de tu tablero del embudo",
+  "bajada": "Los cinco números del embudo cargados por semana en una sola pantalla, con el número del trimestre arriba. Sirve para saber en qué paso se cae la mayor parte de la gente y qué se corrige el mes que viene.",
+  "lista_cuando": "Tiene cuatro semanas seguidas cargadas el mismo día y arriba, escrito, el paso donde se cae la mayor parte.",
+  "secciones": [
+    {
+      "titulo": "El número del trimestre, arriba de todo",
+      "consigna": "Un solo número con fecha, el que dice si el tramo salió bien. Va arriba del tablero y no se cambia hasta que llegue esa fecha. Si te salen dos, quedate con el que esté más cerca de la plata cobrada.",
+      "ejemplo": {
+        "quien": "Lucca",
+        "texto": "Cinco propiedades que no lleguen por referido, al 30 de noviembre. Ese número es lo que separa un canal de una racha."
+      },
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "Al <fecha>, …",
+      "cid": 0
+    },
+    {
+      "titulo": "Los cinco números y de dónde sale cada uno",
+      "consigna": "Piezas publicadas, conversaciones, llamadas, propuestas y ventas. Cada uno con una fuente única: una estadística, una planilla, el pipeline. Cuando un número puede salir de dos lugares distintos, elegí uno ahora y escribilo, porque en el mes dos nadie se acuerda de cuál era.",
+      "ejemplo": {
+        "quien": "Seba",
+        "texto": "Lee el tramo por conversaciones abiertas y llamadas de venta, con las reproducciones al costado. El reel de un millón cuatrocientas mil vistas ya le mostró cuánto le mueven las vistas solas."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Número",
+        "De dónde sale",
+        "Quién lo carga",
+        "Qué día"
+      ],
+      "filas": 5,
+      "cid": 1
+    },
+    {
+      "titulo": "Qué cuenta como conversación, llamada y propuesta",
+      "consigna": "Una definición por renglón, con la condición que la hace válida: la conversación cuenta cuando el otro contestó, la llamada cuando ocurrió con día y hora, la propuesta cuando salió con precio adentro. Se escriben una vez y quedan quietas hasta el final del trimestre, porque un número que cambia de definición en el medio deja de servir para comparar.",
+      "ejemplo": {
+        "quien": "Nico",
+        "texto": "Veinte conversaciones abiertas se cuentan por respuesta del otro lado. Veinte mensajes mandados suman cero."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Conversación: … Llamada: … Propuesta: …",
+      "cid": 2
+    },
+    {
+      "titulo": "La serie semanal",
+      "consigna": "Una fila por número y una columna por semana del mes. Los ceros se escriben: la celda vacía se lee como olvido y el cero se lee como señal. Cuatro semanas completas es el mínimo para ver una tendencia, y antes de eso no hay conclusión que sacar.",
+      "campo": "tabla",
+      "columnas": [
+        "Número",
+        "Semana 1",
+        "Semana 2",
+        "Semana 3",
+        "Semana 4"
+      ],
+      "filas": 5,
+      "cid": 3
+    },
+    {
+      "titulo": "El día de carga",
+      "consigna": "Un día fijo y una hora fija, siempre los mismos. Quince minutos alcanzan cuando las fuentes ya están definidas. Cargar el lunes lo de la semana anterior funciona mejor que cargar el viernes, porque el viernes la semana todavía se está moviendo.",
+      "campo": "lineas",
+      "lineas": [
+        "Día de la semana",
+        "Hora",
+        "Quién carga",
+        "Dónde vive el tablero",
+        "Qué se hace si falta un dato"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "Cuánta gente pasa de un paso al siguiente",
+      "consigna": "Con el mes cerrado, la cuenta de cada escalón: de las conversaciones cuántas llegaron a llamada, de las llamadas cuántas a propuesta, de las propuestas cuántas a venta. El porcentaje se escribe aunque la base sea chica. Al lado va lo que hiciste distinto ese mes, porque un salto sin causa escrita no se puede repetir.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Tuvo tres llamadas con gente que le escribió y las tres se cayeron en el mismo lugar, al final: sin fecha, sin escasez y sin seña para reservar el lugar."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Paso",
+        "Entraron",
+        "Pasaron al siguiente",
+        "Porcentaje",
+        "Qué se hizo distinto"
+      ],
+      "filas": 5,
+      "cid": 5
+    },
+    {
+      "titulo": "La lectura del mes: un solo paso",
+      "consigna": "Una vez por mes marcá el paso donde se cae la mayor parte de la gente y escribí la única cosa que vas a cambiar el mes que viene. Un paso y un cambio. Con tres cambios encima, el mes que viene la mejora no se le puede atribuir a nada.",
+      "ejemplo": {
+        "quien": "Bianca",
+        "texto": "Todavía no puede decir qué parte de las ventas del drop salió de la comunidad de WhatsApp, así que no sabe si lo que se cae es el contenido o la conversión."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "El paso que se cae, el número, y la única cosa que cambia.",
+      "cid": 6
+    },
+    {
+      "titulo": "Cargalo cuatro semanas seguidas y presentá la lectura",
+      "consigna": "El tablero queda aprobado con cuatro semanas cargadas el mismo día y la lectura del mes escrita arriba. Presentalo con el número del trimestre adelante y el paso que se cae marcado. Un tablero que se carga entero el día de la presentación no alcanza para decidir nada.",
+      "ejemplo": {
+        "quien": "José David",
+        "texto": "Diez propuestas presentadas con la métrica escrita adentro, y anotadas las objeciones de las que no cerraron. Con eso sabe si el número que puso resiste o hay que corregirlo."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Semanas cargadas, el paso que se cae, qué se corrige.",
+      "cid": 7
+    }
+  ]
 }

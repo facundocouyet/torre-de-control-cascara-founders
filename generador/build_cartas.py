@@ -342,7 +342,11 @@ def construir(m, categoria, pl=None, bajada=None):
         out.append('</section>')
 
     # ---- la hoja: una sección por cosa que hay que resolver
-    for i, s in enumerate(secciones):
+    for pos, s in enumerate(secciones):
+        # la clave con la que se guarda lo escrito. Por defecto es la posición, pero una
+        # sección puede fijarla con "cid" para que insertar bloques nuevos más arriba no
+        # le mueva de lugar a lo que el founder ya escribió.
+        i = s.get("cid", pos)
         # los bloques que escribimos nosotros: no llevan número ni cuentan como trabajo
         if s.get("nuestro"):
             out.append('<div class="nuestro">')

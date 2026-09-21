@@ -1,56 +1,121 @@
 {
- "modulo": "diez-piezas-y-lectura",
- "titulo": "La hoja de las diez piezas y su lectura",
- "bajada": "Diez piezas publicadas contra los ángulos que ya elegiste, cada una leída el día que sale, y una carilla final que dice qué ángulo se sostiene, cuál se corrige y cuál se descarta. Menos de diez piezas deja el contenido sin nada que evaluar.",
- "lista_cuando": "Las diez filas están cargadas con la fecha y las conversaciones que abrió cada pieza, y abajo está escrita la decisión sobre cada ángulo con el motivo al lado.",
- "secciones": [
-  {"titulo": "Las diez piezas comprometidas, con fecha",
-   "consigna": "Las diez piezas con fecha de publicación, todas contra los ángulos que ya elegiste, y con lo que esperás que pase en cada una escrito de antemano. Escribir la expectativa antes es lo que después permite comparar. Diez es el piso del tramo: con ocho la lectura no se hace, se corren las fechas y se completan las diez.",
-   "ejemplo": {"quien": "Sharon", "texto": "El compromiso quedó en diez, no ocho, con edición nivel uno: clipeo, subtítulos, color y sale. El contenido es contar lo que está haciendo con los clientes y qué resultado dio."},
-   "campo": "tabla",
-   "columnas": ["N°", "Fecha", "Ángulo", "Formato", "Qué esperás que pase"],
-   "filas": 10},
-
-  {"titulo": "El eje que se mantiene hasta la décima",
-   "consigna": "Escribí acá el eje de las diez: el mismo cliente, el mismo problema y la misma promesa en todas. Aunque las tres primeras rindan poco, el eje se mantiene hasta la última, porque los números de las primeras piezas hablan más del algoritmo que del mensaje. Firmá la fecha en la que se cierra el tramo y hasta ahí no se cambia.",
-   "campo": "texto", "alto": 3,
-   "placeholder": "Mismo cliente: … mismo problema: … misma promesa: … cierre el día…"},
-
-  {"titulo": "Lo que devolvió cada pieza",
-   "consigna": "Una fila por pieza, cargada el mismo día que sale. Lo que se anota son las conversaciones que abrió, los temas sobre los que te escribieron y los mensajes de gente que no conocías. Los números de alcance y guardados van al final de la fila, para mirarlos después de las conversaciones.",
-   "ejemplo": {"quien": "Sebastián", "texto": "El reel del miedo a grabarse en público dejó mil ochocientos comentarios y unos siete mil seguidores nuevos, y los comentarios eran todos de la misma familia: gracias, me empujaste. Esa repetición es la lectura, más que el millón cuatrocientas mil vistas."},
-   "campo": "tabla",
-   "columnas": ["Pieza y fecha", "Conversaciones que abrió", "Sobre qué te escribieron", "Alcance y guardados"],
-   "filas": 10},
-
-  {"titulo": "Las tres mejores y las tres peores",
-   "consigna": "Poné las seis piezas de los extremos una al lado de la otra y compará lo que esperabas contra lo que pasó. Buscá qué tienen en común las tres de arriba y qué tienen en común las tres de abajo: el gancho, el formato, si contás una experiencia propia o si explicás una idea. El patrón que aparece en las tres mejores es el que se repite en las próximas piezas.",
-   "ejemplo": {"quien": "Nicolás Lozada", "texto": "Las dos que triplicaron o cuadruplicaron sus números fueron la de los diez días encerrado en la oficina y la de que subir los precios es un error. Las dos funcionan por lo mismo: cuentan experiencia vivida."},
-   "campo": "tabla",
-   "columnas": ["Pieza", "Qué esperabas", "Qué pasó", "Qué tiene en común con las otras"],
-   "filas": 6},
-
-  {"titulo": "Los números del tramo",
-   "consigna": "El resumen en cinco datos, para poder presentarlo en una llamada. La lectura se hace por conversaciones, llamadas y ventas, y las reproducciones quedan como dato de contexto. Si las diez piezas salieron y las conversaciones nuevas son cero, el arreglo está en el mensaje; si las piezas quedaron en seis, el arreglo está en el volumen.",
-   "ejemplo": {"quien": "Lucca", "texto": "Diez piezas de B2B mostrando propiedades reales, mes contra mes, con el número adelante y el software en pantalla, y después cinco dueños que hayan llegado sin ser referidos. Ese número es lo que separa un canal de una racha."},
-   "campo": "lineas",
-   "lineas": ["Piezas publicadas", "Conversaciones nuevas", "Llamadas agendadas", "Ventas cerradas", "Fecha de cierre del tramo"]},
-
-  {"titulo": "La carilla de lectura",
-   "consigna": "Escribí en prosa los patrones que se repiten, sin pieza por pieza: qué tema trajo gente, con qué formato te fue mejor, qué pregunta apareció en varios mensajes y qué parte de tu oferta se entendió sola. Un patrón entra acá cuando aparece en tres piezas o más. Lo que pasó una sola vez queda anotado abajo y se prueba en el tramo siguiente.",
-   "campo": "texto", "alto": 6,
-   "placeholder": "Lo que se repitió fue… El formato que mejor funcionó fue… Lo que me preguntaron varias veces fue…"},
-
-  {"titulo": "La decisión sobre cada ángulo",
-   "consigna": "Una línea por ángulo, con la palabra puesta: se sostiene, se corrige o se descarta. El que se corrige lleva escrito qué cambia exactamente en la próxima pieza, y el que se descarta lleva el motivo. Y si de los mensajes salió un tema que vos no habías previsto, entra acá como ángulo nuevo para el tramo que sigue.",
-   "ejemplo": {"quien": "Bianca", "texto": "En TikTok la llamaban la chica de los anillos, Teo le preguntó por qué no lanzaba un anillo, lo lanzó y le fue muy bien. El ángulo nuevo salió de lo que la comunidad venía diciendo en los comentarios."},
-   "campo": "lineas",
-   "lineas": ["El ángulo que se sostiene", "El que se corrige, y qué cambia", "El que se descarta, y por qué", "El ángulo nuevo que salió de los mensajes"]},
-
-  {"titulo": "Las tres piezas siguientes, con la decisión adentro",
-   "consigna": "Publicá tres piezas más dentro de los diez días, con el ángulo sostenido y la corrección aplicada. Compará las conversaciones que abren esas tres contra el promedio de las diez anteriores. Si las tres nuevas abren más conversaciones, la lectura sirvió y ese ángulo pasa a ser el eje del mes; si quedan iguales, el ángulo se descarta y sube el siguiente de la lista.",
-   "ejemplo": {"quien": "Aaron", "texto": "Las diez piezas van contra los ángulos del pasaporte digital, con él como personaje e incluida una entrevista cruda con Cami haciéndole preguntas, sin guion. La oferta B2C se escribe después, con lo que contestó la audiencia."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Piezas 11, 12 y 13: ángulo, fecha, conversaciones que abrieron."}
- ]
+  "modulo": "diez-piezas-y-lectura",
+  "titulo": "La hoja de las diez piezas y su lectura",
+  "bajada": "Diez piezas publicadas contra los ángulos que ya elegiste, cada una leída el día que sale, y una carilla final que dice qué ángulo se sostiene, cuál se corrige y cuál se descarta. Menos de diez piezas deja el contenido sin nada que evaluar.",
+  "lista_cuando": "Las diez filas están cargadas con la fecha y las conversaciones que abrió cada pieza, y abajo está escrita la decisión sobre cada ángulo con el motivo al lado.",
+  "secciones": [
+    {
+      "titulo": "Las diez piezas comprometidas, con fecha",
+      "consigna": "Las diez piezas con fecha de publicación, todas contra los ángulos que ya elegiste, y con lo que esperás que pase en cada una escrito de antemano. Escribir la expectativa antes es lo que después permite comparar. Diez es el piso del tramo: con ocho la lectura no se hace, se corren las fechas y se completan las diez.",
+      "ejemplo": {
+        "quien": "Sharon",
+        "texto": "El compromiso quedó en diez, no ocho, con edición nivel uno: clipeo, subtítulos, color y sale. El contenido es contar lo que está haciendo con los clientes y qué resultado dio."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "N°",
+        "Fecha",
+        "Ángulo",
+        "Formato",
+        "Qué esperás que pase"
+      ],
+      "filas": 10,
+      "cid": 0
+    },
+    {
+      "titulo": "El eje que se mantiene hasta la décima",
+      "consigna": "Escribí acá el eje de las diez: el mismo cliente, el mismo problema y la misma promesa en todas. Aunque las tres primeras rindan poco, el eje se mantiene hasta la última, porque los números de las primeras piezas hablan más del algoritmo que del mensaje. Firmá la fecha en la que se cierra el tramo y hasta ahí no se cambia.",
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "Mismo cliente: … mismo problema: … misma promesa: … cierre el día…",
+      "cid": 1
+    },
+    {
+      "titulo": "Lo que devolvió cada pieza",
+      "consigna": "Una fila por pieza, cargada el mismo día que sale. Lo que se anota son las conversaciones que abrió, los temas sobre los que te escribieron y los mensajes de gente que no conocías. Los números de alcance y guardados van al final de la fila, para mirarlos después de las conversaciones.",
+      "ejemplo": {
+        "quien": "Sebastián",
+        "texto": "El reel del miedo a grabarse en público dejó mil ochocientos comentarios y unos siete mil seguidores nuevos, y los comentarios eran todos de la misma familia: gracias, me empujaste. Esa repetición es la lectura, más que el millón cuatrocientas mil vistas."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Pieza y fecha",
+        "Conversaciones que abrió",
+        "Sobre qué te escribieron",
+        "Alcance y guardados"
+      ],
+      "filas": 10,
+      "cid": 2
+    },
+    {
+      "titulo": "Las tres mejores y las tres peores",
+      "consigna": "Poné las seis piezas de los extremos una al lado de la otra y compará lo que esperabas contra lo que pasó. Buscá qué tienen en común las tres de arriba y qué tienen en común las tres de abajo: el gancho, el formato, si contás una experiencia propia o si explicás una idea. El patrón que aparece en las tres mejores es el que se repite en las próximas piezas.",
+      "ejemplo": {
+        "quien": "Nicolás Lozada",
+        "texto": "Las dos que triplicaron o cuadruplicaron sus números fueron la de los diez días encerrado en la oficina y la de que subir los precios es un error. Las dos funcionan por lo mismo: cuentan experiencia vivida."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Pieza",
+        "Qué esperabas",
+        "Qué pasó",
+        "Qué tiene en común con las otras"
+      ],
+      "filas": 6,
+      "cid": 3
+    },
+    {
+      "titulo": "Los números del tramo",
+      "consigna": "El resumen en cinco datos, para poder presentarlo en una llamada. La lectura se hace por conversaciones, llamadas y ventas, y las reproducciones quedan como dato de contexto. Si las diez piezas salieron y las conversaciones nuevas son cero, el arreglo está en el mensaje; si las piezas quedaron en seis, el arreglo está en el volumen.",
+      "ejemplo": {
+        "quien": "Lucca",
+        "texto": "Diez piezas de B2B mostrando propiedades reales, mes contra mes, con el número adelante y el software en pantalla, y después cinco dueños que hayan llegado sin ser referidos. Ese número es lo que separa un canal de una racha."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Piezas publicadas",
+        "Conversaciones nuevas",
+        "Llamadas agendadas",
+        "Ventas cerradas",
+        "Fecha de cierre del tramo"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "La carilla de lectura",
+      "consigna": "Escribí en prosa los patrones que se repiten, sin pieza por pieza: qué tema trajo gente, con qué formato te fue mejor, qué pregunta apareció en varios mensajes y qué parte de tu oferta se entendió sola. Un patrón entra acá cuando aparece en tres piezas o más. Lo que pasó una sola vez queda anotado abajo y se prueba en el tramo siguiente.",
+      "campo": "texto",
+      "alto": 6,
+      "placeholder": "Lo que se repitió fue… El formato que mejor funcionó fue… Lo que me preguntaron varias veces fue…",
+      "cid": 5
+    },
+    {
+      "titulo": "La decisión sobre cada ángulo",
+      "consigna": "Una línea por ángulo, con la palabra puesta: se sostiene, se corrige o se descarta. El que se corrige lleva escrito qué cambia exactamente en la próxima pieza, y el que se descarta lleva el motivo. Y si de los mensajes salió un tema que vos no habías previsto, entra acá como ángulo nuevo para el tramo que sigue.",
+      "ejemplo": {
+        "quien": "Bianca",
+        "texto": "En TikTok la llamaban la chica de los anillos, Teo le preguntó por qué no lanzaba un anillo, lo lanzó y le fue muy bien. El ángulo nuevo salió de lo que la comunidad venía diciendo en los comentarios."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "El ángulo que se sostiene",
+        "El que se corrige, y qué cambia",
+        "El que se descarta, y por qué",
+        "El ángulo nuevo que salió de los mensajes"
+      ],
+      "cid": 6
+    },
+    {
+      "titulo": "Las tres piezas siguientes, con la decisión adentro",
+      "consigna": "Publicá tres piezas más dentro de los diez días, con el ángulo sostenido y la corrección aplicada. Compará las conversaciones que abren esas tres contra el promedio de las diez anteriores. Si las tres nuevas abren más conversaciones, la lectura sirvió y ese ángulo pasa a ser el eje del mes; si quedan iguales, el ángulo se descarta y sube el siguiente de la lista.",
+      "ejemplo": {
+        "quien": "Aaron",
+        "texto": "Las diez piezas van contra los ángulos del pasaporte digital, con él como personaje e incluida una entrevista cruda con Cami haciéndole preguntas, sin guion. La oferta B2C se escribe después, con lo que contestó la audiencia."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Piezas 11, 12 y 13: ángulo, fecha, conversaciones que abrieron.",
+      "cid": 7
+    }
+  ]
 }

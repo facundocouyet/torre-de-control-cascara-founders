@@ -1,195 +1,208 @@
 {
- "modulo": "icp-mecanismo",
- "founder": "Sebastián Martínez",
- "slug": "sebastian",
- "titulo": "La hoja de tu cliente ideal",
- "bajada": "Quién compra el programa, qué le duele y con qué palabras lo cuenta. Franco ya dejó las dos familias de público en la Discovery Call: esta hoja no las define de nuevo, las profundiza hasta que tengan nombre, dolor y una frase textual.",
- "lista_cuando": "Le mandás la frase del alumno ideal a tres personas que te escribieron después del reel y las tres se reconocen sin que tengas que explicarla.",
- "pasos": [
-  "Listar los diez clientes que ya te pagaron por producción, con qué te compró cada uno y a cuánto.",
-  "Escribir los oficios de las dos familias —filmmaker, fotógrafo, editor, diseñador, creador de UGC, el que colabora con marcas— con qué le duele a cada uno y la pregunta que se lo hace decir en voz alta.",
-  "Salir a hacerle esa pregunta a cinco personas reales y anotar textual lo que contestaron.",
-  "Cruzar eso con los comentarios del reel y con de dónde vino cada tanda de seguidores.",
-  "Escribir el alumno ideal en una frase, con el momento en el que está, el problema y con cuánto cuenta.",
-  "Escribir en una frase qué le pasa al alumno en las 8 semanas, con el número que se mueve.",
-  "Mandarle la frase del alumno ideal a tres personas y ajustarla con lo que te contesten."
- ],
- "completar": [
-  "Esta carta completa, con los perfiles, las cinco conversaciones y las dos frases escritas"
- ],
- "bajada_envio": {
+  "modulo": "icp-mecanismo",
   "founder": "Sebastián Martínez",
-  "porque": "Con Franco ya quedó la forma del producto, el modelo de cohorte y las dos familias de público. Esta hoja no vuelve a definir nada de eso: lo profundiza. Y acá hay una particularidad tuya: nunca lanzaste un programa de educación, lo que hiciste fueron eventos presenciales y producción para marcas. O sea que no tenés diez alumnos para mirar hacia atrás. Lo que sigue a la definición de Franco se descubre preguntando, no pensando.",
-  "objetivo": "Una hoja con los oficios de las dos familias, su dolor y la pregunta que se lo hace decir; cinco conversaciones reales anotadas textual; y el alumno ideal escrito en una frase. Va junto con la carta de ángulos: ésta es el material y aquélla es lo que se hace con él.",
-  "mindset": "Sale de buscar y de preguntar, no de pensar. Las respuestas que te sirven están en los comentarios del reel y en cinco conversaciones de quince minutos. Lo que ya sabemos nosotros —de dónde arrancamos, la subcategoría, la escalera y a quién dejamos afuera— te lo dejamos escrito para que no lo adivines: leelo, decinos qué te cierra y qué no, y usá tu tiempo en la parte que sólo podés hacer vos."
- },
- "secciones": [
-  {
-   "nuestro": true,
-   "titulo": "De dónde arrancamos",
-   "texto": [
-    "Esto no es una hoja en blanco. En la Discovery Call con Franco del 16 de septiembre el público objetivo ya quedó dicho, y son dos familias: el creativo técnico, que es el freelance con ingresos —filmmaker, fotógrafo— que busca escalar, y el creador de contenido, el de UGC y colaboraciones con marcas. La razón es que son los dos perfiles con más potencial de monetización y los que se apoyan en tu autoridad de producción.",
-    "Y quedó dicho el criterio que los une, que es el mejor que tenés: el cliente ideal sos vos hace 1 a 3 años. Todo lo que podés enseñar sale de ahí.",
-    "Esa definición sirve para arrancar y no para vender: describe un oficio y un momento, pero todavía no un dolor ni las palabras con las que lo cuenta. Lo que falta es bajarla a personas concretas, y eso es lo que hace el resto de esta hoja.",
-    "Cuando la completes, la próxima llamada con Franco audita y confirma en vez de volver a definir. Es la diferencia entre cerrar esto de una vez y volver a empezarlo."
-   ],
-   "pregunta": "Algo de esas dos familias ya no te representa"
+  "slug": "sebastian",
+  "titulo": "La hoja de tu cliente ideal",
+  "bajada": "Quién compra el programa, qué le duele y con qué palabras lo cuenta. Franco ya dejó las dos familias de público en la Discovery Call: esta hoja no las define de nuevo, las profundiza hasta que tengan nombre, dolor y una frase textual.",
+  "lista_cuando": "Le mandás la frase del alumno ideal a tres personas que te escribieron después del reel y las tres se reconocen sin que tengas que explicarla.",
+  "pasos": [
+    "Listar los diez clientes que ya te pagaron por producción, con qué te compró cada uno y a cuánto.",
+    "Escribir los oficios de las dos familias —filmmaker, fotógrafo, editor, diseñador, creador de UGC, el que colabora con marcas— con qué le duele a cada uno y la pregunta que se lo hace decir en voz alta.",
+    "Salir a hacerle esa pregunta a cinco personas reales y anotar textual lo que contestaron.",
+    "Cruzar eso con los comentarios del reel y con de dónde vino cada tanda de seguidores.",
+    "Escribir el alumno ideal en una frase, con el momento en el que está, el problema y con cuánto cuenta.",
+    "Escribir en una frase qué le pasa al alumno en las 8 semanas, con el número que se mueve.",
+    "Mandarle la frase del alumno ideal a tres personas y ajustarla con lo que te contesten."
+  ],
+  "completar": [
+    "Esta carta completa, con los perfiles, las cinco conversaciones y las dos frases escritas"
+  ],
+  "bajada_envio": {
+    "founder": "Sebastián Martínez",
+    "porque": "Con Franco ya quedó la forma del producto, el modelo de cohorte y las dos familias de público. Esta hoja no vuelve a definir nada de eso: lo profundiza. Y acá hay una particularidad tuya: nunca lanzaste un programa de educación, lo que hiciste fueron eventos presenciales y producción para marcas. O sea que no tenés diez alumnos para mirar hacia atrás. Lo que sigue a la definición de Franco se descubre preguntando, no pensando.",
+    "objetivo": "Una hoja con los oficios de las dos familias, su dolor y la pregunta que se lo hace decir; cinco conversaciones reales anotadas textual; y el alumno ideal escrito en una frase. Va junto con la carta de ángulos: ésta es el material y aquélla es lo que se hace con él.",
+    "mindset": "Sale de buscar y de preguntar, no de pensar. Las respuestas que te sirven están en los comentarios del reel y en cinco conversaciones de quince minutos. Lo que ya sabemos nosotros —de dónde arrancamos, la subcategoría, la escalera y a quién dejamos afuera— te lo dejamos escrito para que no lo adivines: leelo, decinos qué te cierra y qué no, y usá tu tiempo en la parte que sólo podés hacer vos."
   },
-  {
-   "titulo": "Los perfiles y qué le duele a cada uno",
-   "consigna": "Estos son los oficios de las dos familias que marcó Franco: los cuatro primeros son creativo técnico, los dos siguientes son creador de contenido. Para cada uno, escribí de qué vive hoy, qué le duele de verdad, la pregunta que se lo hace decir en voz alta, y por qué le serviría entrar. La pregunta es lo más importante de esta hoja: tiene que ser una que incomode, no una que se conteste con un sí. Acordate del criterio: es tu propia cabeza de hace 1 a 3 años. Si un perfil no te cierra, tachalo y escribí el que sí; la fila de abajo está libre.",
-   "ejemplo": {
-    "quien": "Sebastián Martínez",
-    "texto": "Tu propio reel ya hizo esta pregunta sin que la escribieras: por qué te da vergüenza grabarte en público. Mil ochocientas personas contestaron que sí, que les pasa. Esa es la temperatura que tiene que tener cada pregunta de esta tabla."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "Perfil",
-    "De qué vive hoy",
-    "Qué le duele",
-    "La pregunta que se lo hace decir",
-    "Por qué le serviría entrar"
-   ],
-   "filas_rotulo": [
-    "El filmmaker freelance",
-    "El fotógrafo",
-    "El editor",
-    "El diseñador",
-    "El creador de UGC",
-    "El que colabora con marcas",
-    ""
-   ],
-   "filas": 7
-  },
-  {
-   "titulo": "Andá a preguntárselo a cinco",
-   "consigna": "Cinco personas reales, de los perfiles de arriba, que ya te siguen o que te escribieron. Hacéles la pregunta y anotá textual lo que contestaron, sin arreglarles la gramática. Quince minutos cada una alcanza. Esto es lo que convierte los cuatro perfiles de una hipótesis en un dato, y es lo único de esta hoja que no podés resolver sentado.",
-   "ejemplo": {
-    "quien": "Aaron A.",
-    "texto": "Franco le planteó lo mismo: antes de inventar contenido, auditar a los clientes que ya tiene y preguntarles. El ángulo es mejorar el servicio, no pedir un testimonio, y así la gente contesta de verdad."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "A quién",
-    "Qué perfil es",
-    "Qué le preguntaste",
-    "Qué contestó, textual"
-   ],
-   "filas": 5
-  },
-  {
-   "titulo": "Lo que ya te dijeron sin que preguntes",
-   "consigna": "Cuatro o cinco frases copiadas tal cual de los comentarios del reel y de los mensajes que te llegaron, sin tocarles nada. Estas frases después son el título de las piezas y son el copy de la propuesta, así que la fidelidad importa más que la prolijidad. Los 1.800 comentarios son la mina: entrá ahí antes que a ningún otro lado.",
-   "ejemplo": {
-    "quien": "Sebastián Martínez",
-    "texto": "Los mil ochocientos comentarios del reel del miedo a grabarse decían todos lo mismo: gracias, me empujaste, era el empujón que necesitaba. Ahí estaba el dolor escrito con las palabras del cliente."
-   },
-   "campo": "texto",
-   "alto": 6,
-   "placeholder": "«…»  ·  «…»  ·  «…»"
-  },
-  {
-   "titulo": "De dónde vino cada tanda de seguidores",
-   "consigna": "Separá la pieza que hizo más vistas de la que trajo más seguidores. Casi nunca son la misma, y la segunda es la que te está marcando el segmento que paga. Con dos o tres piezas alcanza para ver el patrón.",
-   "campo": "lineas",
-   "lineas": [
-    "Seguidores hoy",
-    "Mediana de views",
-    "La pieza de más vistas",
-    "Qué gente trajo",
-    "La pieza que más seguidores trajo",
-    "Qué gente trajo"
-   ]
-  },
-  {
-   "titulo": "Los clientes que ya te pagaron",
-   "consigna": "Los últimos diez clientes o consultas reales de Estudio Gama 21 y de tu trabajo como director creativo, con lo que te compró cada uno, cuánto pagó y por qué te buscó. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Esto no es el alumno del programa: es la parte de la escalera que todavía no está resuelta. Queremos ver si el que te paga por producir es también el que te puede mandar alumnos, o si son dos mundos que no se tocan. De eso depende si Estudio Gama entra a la escalera o queda al costado.",
-   "ejemplo": {
-    "quien": "Custom Lab",
-    "texto": "Juan armó en Notion la base histórica de dos años: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién contactó, quién decide la compra y si repitió. Con esa lista salieron a recontactar y vendieron."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "Quién",
-    "Qué te compró",
-    "Cuánto pagó",
-    "Por qué te buscó",
-    "Era evento, marca o creador"
-   ],
-   "filas": 10
-  },
-  {
-   "nuestro": true,
-   "titulo": "Tu escalera de valor",
-   "texto": [
-    "Esta es la escalera que dejó Franco el 16 de septiembre, y es del negocio de educación.",
-    "Casillero 1, hacelo vos: el programa de 8 semanas. Es el MVP y es el que valida la oferta con la primera cohorte.",
-    "Casillero 2, hacelo con vos: la mentoría uno a uno, para el que ya pasó por el programa y necesita que alguien le arme el negocio al lado.",
-    "Casillero 3, hacelo por vos: las alianzas de equity con marcas. Pocas, y son las que hacen creíble todo lo de abajo.",
-    "Es la misma forma que la escalera de Cáscara: Romper la Cáscara, después Founders con mentoría uno a uno, arriba Partners con equity. El casillero de abajo alimenta al de arriba con gente, y el de arriba le da autoridad al de abajo.",
-    "Lo que todavía no se habló con Franco es dónde entra Estudio Gama 21, que es el negocio que hoy te factura. Por eso te pedimos los diez clientes que ya te pagaron: para ver si esa producción alimenta esta escalera o corre en paralelo. Los números de cada casillero los cerrás con Franco."
-   ],
-   "pregunta": "Qué le cambiarías a estos tres casilleros"
-  },
-  {
-   "nuestro": true,
-   "titulo": "La subcategoría donde te parás",
-   "texto": [
-    "Contenido para creativos es una categoría llena y ahí competís contra todos. La subcategoría tuya es más angosta y no la está atendiendo nadie con tu autoridad: el creativo que vive de sus servicios y necesita ponerse adelante de cámara para que lo contraten por criterio y no por precio.",
-    "No es producción de contenido, que es lo que vendés en el casillero 2. No es marca personal en general. Es la cámara como herramienta comercial para alguien que ya sabe hacer su trabajo y se esconde detrás de él.",
-    "Esto te lo dejamos escrito porque es una decisión de posicionamiento y es la parte donde entramos nosotros. Lo que sí necesitamos de vos es si te suena tuyo cuando lo leés en voz alta."
-   ],
-   "pregunta": "Leelo en voz alta: qué parte no suena a vos"
-  },
-  {
-   "nuestro": true,
-   "titulo": "Quién queda afuera de este tramo",
-   "texto": [
-    "El que ya vive de su producto digital: necesita escala y equipo, no empezar. Ese es casillero 2, mentoría uno a uno.",
-    "El que quiere que le produzcas el video: es cliente de Estudio Gama 21, no del programa.",
-    "El que quiere crecer en seguidores sin vender nada: el programa mide consultas y ventas, no alcance.",
-    "La marca que busca una alianza: casillero 3, y son pocas.",
-    "Dejarlos afuera por escrito es lo que después te deja decir que sí rápido, y es lo que hace que el contenido deje de hablarle a todos."
-   ],
-   "pregunta": "Alguno de estos te parece que sí entra"
-  },
-  {
-   "titulo": "El alumno ideal, en una frase",
-   "consigna": "Una sola frase con el momento en el que está, el problema que tiene hoy y con cuánto cuenta para resolverlo. El momento tiene que poder verificarse de afuera: si ya vive de un servicio, cuánta audiencia tiene, si alguna vez vendió algo propio. Si la frase le sirve igual al que nunca publicó y al que ya factura con su producto digital, todavía es ancha.",
-   "ejemplo": {
-    "quien": "Lucio Labate",
-    "texto": "Empresas B2B que ya tienen equipo de marketing y no tienen diseñador adentro, que necesitan usar la inteligencia artificial sin que el resultado les quede mal."
-   },
-   "campo": "texto",
-   "alto": 4,
-   "placeholder": "Alguien que está en… tiene el problema de… y puede poner…"
-  },
-  {
-   "titulo": "Qué hace tu programa, en una frase",
-   "consigna": "Escribí lo que le pasa al alumno cuando entra, contado por el movimiento concreto y por el número que se mueve. Tiene que poder verificarse adentro de las 8 semanas y con algo que el alumno pueda abrir: piezas publicadas, consultas recibidas, primera venta con precio. Si el resultado depende de algo que maneja otro, corregí la frase hasta que quede lo que vos sí controlás.",
-   "ejemplo": {
-    "quien": "Lucca Sorgoni",
-    "texto": "Entra como co-anfitrión a la cuenta de Airbnb del dueño y le sube la facturación con estrategia de precios. Se compara mes contra mes con un software y el dueño lo ve a los dos meses. Objeciones, cero."
-   },
-   "campo": "texto",
-   "alto": 4,
-   "placeholder": "Entra sin… sale con… y eso se ve en…"
-  },
-  {
-   "titulo": "Probala con tres",
-   "consigna": "Mandale la frase del alumno ideal a tres de las cinco personas con las que hablaste y preguntales si se reconocen. Anotá qué contestó cada una, textual. Si una de las tres te pide que se la expliques, la frase todavía no está: volvé y ajustala con lo que te dijeron.",
-   "campo": "texto",
-   "alto": 5,
-   "placeholder": "A quién se la mandé y qué me contestó…"
-  },
-  {
-   "nuestro": true,
-   "titulo": "Qué pasa con esto después",
-   "texto": [
-    "Esta carta va con la de ángulos de comunicación. Ésta junta el material —los dolores, las frases, el alumno ideal— y aquélla lo pasa a las preguntas que tu cliente ya se hace, que son el gancho de cada pieza. Se completan en ese orden y se devuelven las dos juntas.",
-    "Armar los ángulos, el guion y el calendario no es tarea para hacer solo: eso se baja con Fede en la llamada, que es la parte donde más se gana teniendo a alguien que lo hace todos los días.",
-    "Con las dos devueltas armamos un solo documento de lanzamiento: el producto y la cohorte que cerraste con Franco, los dolores, las preguntas y lo que salga de tus clientes de producción. Ese documento es con el que entrás a la llamada con Fede, así esa llamada arranca armando y no juntando."
-   ]
-  }
- ]
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "De dónde arrancamos",
+      "texto": [
+        "Esto no es una hoja en blanco. En la Discovery Call con Franco del 16 de septiembre el público objetivo ya quedó dicho, y son dos familias: el creativo técnico, que es el freelance con ingresos —filmmaker, fotógrafo— que busca escalar, y el creador de contenido, el de UGC y colaboraciones con marcas. La razón es que son los dos perfiles con más potencial de monetización y los que se apoyan en tu autoridad de producción.",
+        "Y quedó dicho el criterio que los une, que es el mejor que tenés: el cliente ideal sos vos hace 1 a 3 años. Todo lo que podés enseñar sale de ahí.",
+        "Esa definición sirve para arrancar y no para vender: describe un oficio y un momento, pero todavía no un dolor ni las palabras con las que lo cuenta. Lo que falta es bajarla a personas concretas, y eso es lo que hace el resto de esta hoja.",
+        "Cuando la completes, la próxima llamada con Franco audita y confirma en vez de volver a definir. Es la diferencia entre cerrar esto de una vez y volver a empezarlo."
+      ],
+      "pregunta": "Algo de esas dos familias ya no te representa",
+      "cid": 0
+    },
+    {
+      "titulo": "Los perfiles y qué le duele a cada uno",
+      "consigna": "Estos son los oficios de las dos familias que marcó Franco: los cuatro primeros son creativo técnico, los dos siguientes son creador de contenido. Para cada uno, escribí de qué vive hoy, qué le duele de verdad, la pregunta que se lo hace decir en voz alta, y por qué le serviría entrar. La pregunta es lo más importante de esta hoja: tiene que ser una que incomode, no una que se conteste con un sí. Acordate del criterio: es tu propia cabeza de hace 1 a 3 años. Si un perfil no te cierra, tachalo y escribí el que sí; la fila de abajo está libre.",
+      "ejemplo": {
+        "quien": "Sebastián Martínez",
+        "texto": "Tu propio reel ya hizo esta pregunta sin que la escribieras: por qué te da vergüenza grabarte en público. Mil ochocientas personas contestaron que sí, que les pasa. Esa es la temperatura que tiene que tener cada pregunta de esta tabla."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Perfil",
+        "De qué vive hoy",
+        "Qué le duele",
+        "La pregunta que se lo hace decir",
+        "Por qué le serviría entrar"
+      ],
+      "filas_rotulo": [
+        "El filmmaker freelance",
+        "El fotógrafo",
+        "El editor",
+        "El diseñador",
+        "El creador de UGC",
+        "El que colabora con marcas",
+        ""
+      ],
+      "filas": 7,
+      "cid": 1
+    },
+    {
+      "titulo": "Andá a preguntárselo a cinco",
+      "consigna": "Cinco personas reales, de los perfiles de arriba, que ya te siguen o que te escribieron. Hacéles la pregunta y anotá textual lo que contestaron, sin arreglarles la gramática. Quince minutos cada una alcanza. Esto es lo que convierte los cuatro perfiles de una hipótesis en un dato, y es lo único de esta hoja que no podés resolver sentado.",
+      "ejemplo": {
+        "quien": "Aaron A.",
+        "texto": "Franco le planteó lo mismo: antes de inventar contenido, auditar a los clientes que ya tiene y preguntarles. El ángulo es mejorar el servicio, no pedir un testimonio, y así la gente contesta de verdad."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "A quién",
+        "Qué perfil es",
+        "Qué le preguntaste",
+        "Qué contestó, textual"
+      ],
+      "filas": 5,
+      "cid": 2
+    },
+    {
+      "titulo": "Lo que ya te dijeron sin que preguntes",
+      "consigna": "Cuatro o cinco frases copiadas tal cual de los comentarios del reel y de los mensajes que te llegaron, sin tocarles nada. Estas frases después son el título de las piezas y son el copy de la propuesta, así que la fidelidad importa más que la prolijidad. Los 1.800 comentarios son la mina: entrá ahí antes que a ningún otro lado.",
+      "ejemplo": {
+        "quien": "Sebastián Martínez",
+        "texto": "Los mil ochocientos comentarios del reel del miedo a grabarse decían todos lo mismo: gracias, me empujaste, era el empujón que necesitaba. Ahí estaba el dolor escrito con las palabras del cliente."
+      },
+      "campo": "texto",
+      "alto": 6,
+      "placeholder": "«…»  ·  «…»  ·  «…»",
+      "cid": 3
+    },
+    {
+      "titulo": "De dónde vino cada tanda de seguidores",
+      "consigna": "Separá la pieza que hizo más vistas de la que trajo más seguidores. Casi nunca son la misma, y la segunda es la que te está marcando el segmento que paga. Con dos o tres piezas alcanza para ver el patrón.",
+      "campo": "lineas",
+      "lineas": [
+        "Seguidores hoy",
+        "Mediana de views",
+        "La pieza de más vistas",
+        "Qué gente trajo",
+        "La pieza que más seguidores trajo",
+        "Qué gente trajo"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "Los clientes que ya te pagaron",
+      "consigna": "Los últimos diez clientes o consultas reales de Estudio Gama 21 y de tu trabajo como director creativo, con lo que te compró cada uno, cuánto pagó y por qué te buscó. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Esto no es el alumno del programa: es la parte de la escalera que todavía no está resuelta. Queremos ver si el que te paga por producir es también el que te puede mandar alumnos, o si son dos mundos que no se tocan. De eso depende si Estudio Gama entra a la escalera o queda al costado.",
+      "ejemplo": {
+        "quien": "Custom Lab",
+        "texto": "Juan armó en Notion la base histórica de dos años: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién contactó, quién decide la compra y si repitió. Con esa lista salieron a recontactar y vendieron."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Qué te compró",
+        "Cuánto pagó",
+        "Por qué te buscó",
+        "Era evento, marca o creador"
+      ],
+      "filas": 10,
+      "cid": 5
+    },
+    {
+      "nuestro": true,
+      "titulo": "Tu escalera de valor",
+      "texto": [
+        "Esta es la escalera que dejó Franco el 16 de septiembre, y es del negocio de educación.",
+        "Casillero 1, hacelo vos: el programa de 8 semanas. Es el MVP y es el que valida la oferta con la primera cohorte.",
+        "Casillero 2, hacelo con vos: la mentoría uno a uno, para el que ya pasó por el programa y necesita que alguien le arme el negocio al lado.",
+        "Casillero 3, hacelo por vos: las alianzas de equity con marcas. Pocas, y son las que hacen creíble todo lo de abajo.",
+        "Es la misma forma que la escalera de Cáscara: Romper la Cáscara, después Founders con mentoría uno a uno, arriba Partners con equity. El casillero de abajo alimenta al de arriba con gente, y el de arriba le da autoridad al de abajo.",
+        "Lo que todavía no se habló con Franco es dónde entra Estudio Gama 21, que es el negocio que hoy te factura. Por eso te pedimos los diez clientes que ya te pagaron: para ver si esa producción alimenta esta escalera o corre en paralelo. Los números de cada casillero los cerrás con Franco."
+      ],
+      "pregunta": "Qué le cambiarías a estos tres casilleros",
+      "cid": 6
+    },
+    {
+      "nuestro": true,
+      "titulo": "La subcategoría donde te parás",
+      "texto": [
+        "Contenido para creativos es una categoría llena y ahí competís contra todos. La subcategoría tuya es más angosta y no la está atendiendo nadie con tu autoridad: el creativo que vive de sus servicios y necesita ponerse adelante de cámara para que lo contraten por criterio y no por precio.",
+        "No es producción de contenido, que es lo que vendés en el casillero 2. No es marca personal en general. Es la cámara como herramienta comercial para alguien que ya sabe hacer su trabajo y se esconde detrás de él.",
+        "Esto te lo dejamos escrito porque es una decisión de posicionamiento y es la parte donde entramos nosotros. Lo que sí necesitamos de vos es si te suena tuyo cuando lo leés en voz alta."
+      ],
+      "pregunta": "Leelo en voz alta: qué parte no suena a vos",
+      "cid": 7
+    },
+    {
+      "nuestro": true,
+      "titulo": "Quién queda afuera de este tramo",
+      "texto": [
+        "El que ya vive de su producto digital: necesita escala y equipo, no empezar. Ese es casillero 2, mentoría uno a uno.",
+        "El que quiere que le produzcas el video: es cliente de Estudio Gama 21, no del programa.",
+        "El que quiere crecer en seguidores sin vender nada: el programa mide consultas y ventas, no alcance.",
+        "La marca que busca una alianza: casillero 3, y son pocas.",
+        "Dejarlos afuera por escrito es lo que después te deja decir que sí rápido, y es lo que hace que el contenido deje de hablarle a todos."
+      ],
+      "pregunta": "Alguno de estos te parece que sí entra",
+      "cid": 8
+    },
+    {
+      "titulo": "El alumno ideal, en una frase",
+      "consigna": "Una sola frase con el momento en el que está, el problema que tiene hoy y con cuánto cuenta para resolverlo. El momento tiene que poder verificarse de afuera: si ya vive de un servicio, cuánta audiencia tiene, si alguna vez vendió algo propio. Si la frase le sirve igual al que nunca publicó y al que ya factura con su producto digital, todavía es ancha.",
+      "ejemplo": {
+        "quien": "Lucio Labate",
+        "texto": "Empresas B2B que ya tienen equipo de marketing y no tienen diseñador adentro, que necesitan usar la inteligencia artificial sin que el resultado les quede mal."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Alguien que está en… tiene el problema de… y puede poner…",
+      "cid": 9
+    },
+    {
+      "titulo": "Qué hace tu programa, en una frase",
+      "consigna": "Escribí lo que le pasa al alumno cuando entra, contado por el movimiento concreto y por el número que se mueve. Tiene que poder verificarse adentro de las 8 semanas y con algo que el alumno pueda abrir: piezas publicadas, consultas recibidas, primera venta con precio. Si el resultado depende de algo que maneja otro, corregí la frase hasta que quede lo que vos sí controlás.",
+      "ejemplo": {
+        "quien": "Lucca Sorgoni",
+        "texto": "Entra como co-anfitrión a la cuenta de Airbnb del dueño y le sube la facturación con estrategia de precios. Se compara mes contra mes con un software y el dueño lo ve a los dos meses. Objeciones, cero."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Entra sin… sale con… y eso se ve en…",
+      "cid": 10
+    },
+    {
+      "titulo": "Probala con tres",
+      "consigna": "Mandale la frase del alumno ideal a tres de las cinco personas con las que hablaste y preguntales si se reconocen. Anotá qué contestó cada una, textual. Si una de las tres te pide que se la expliques, la frase todavía no está: volvé y ajustala con lo que te dijeron.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "A quién se la mandé y qué me contestó…",
+      "cid": 11
+    },
+    {
+      "nuestro": true,
+      "titulo": "Qué pasa con esto después",
+      "texto": [
+        "Esta carta va con la de ángulos de comunicación. Ésta junta el material —los dolores, las frases, el alumno ideal— y aquélla lo pasa a las preguntas que tu cliente ya se hace, que son el gancho de cada pieza. Se completan en ese orden y se devuelven las dos juntas.",
+        "Armar los ángulos, el guion y el calendario no es tarea para hacer solo: eso se baja con Fede en la llamada, que es la parte donde más se gana teniendo a alguien que lo hace todos los días.",
+        "Con las dos devueltas armamos un solo documento de lanzamiento: el producto y la cohorte que cerraste con Franco, los dolores, las preguntas y lo que salga de tus clientes de producción. Ese documento es con el que entrás a la llamada con Fede, así esa llamada arranca armando y no juntando."
+      ],
+      "cid": 12
+    }
+  ]
 }

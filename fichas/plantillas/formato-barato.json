@@ -1,56 +1,121 @@
 {
- "modulo": "formato-barato",
- "titulo": "La hoja de tu formato",
- "bajada": "El formato propio definido en una hoja: qué se graba, con qué, cuánto dura, quién pregunta y cuánto cuesta cada pieza. Con esa hoja adelante, las próximas diez salen sin volver a discutir nada.",
- "lista_cuando": "Dos piezas publicadas con ese formato y el costo real de cada una escrito al lado.",
- "secciones": [
-  {"titulo": "Las piezas propias que ya funcionaron",
-   "consigna": "Anotá las piezas tuyas que devolvieron algo y con qué nivel de producción salieron. Mirá ocho, no dos, y para cada una escribí qué costó: tus horas, la plata de edición y los días que pasaron entre la grabación y la publicación. Lo que buscás es la relación entre lo que gastaste y lo que volvió, y casi siempre la mejor relación está en la pieza más cruda.",
-   "ejemplo": {"quien": "Sebastián", "texto": "El reel del miedo a grabarse en público lo hizo con el celular, orgánico y sin planos: un millón cuatrocientas mil vistas, mil ochocientos comentarios y unos siete mil seguidores nuevos. Es el formato más barato que tiene."},
-   "campo": "tabla",
-   "columnas": ["Pieza", "Cómo se produjo", "Qué costó", "Qué devolvió"],
-   "filas": 8},
-
-  {"titulo": "El formato que vas a repetir diez veces",
-   "consigna": "Elegí uno y escribilo en tres renglones: entrevista cruda con alguien preguntando, video largo sin guion, o el trabajo real filmado mientras pasa con voz en off encima. La prueba de que el formato sirve es que lo puedas grabar esta semana con lo que ya tenés a mano. Uno solo: dos formatos en paralelo se caen los dos.",
-   "ejemplo": {"quien": "Lucio", "texto": "El material más barato que tiene es el trabajo que hace todos los días: instala IA adentro de una empresa, arma simulaciones y resuelve solo lo que antes pedía tres personas. Se graba mientras pasa y lleva voz en off arriba."},
-   "campo": "texto", "alto": 3,
-   "placeholder": "Se graba… con… dura… y pregunta…"},
-
-  {"titulo": "El setup fijo",
-   "consigna": "Los cinco datos que quedan iguales en todas las piezas, para que el día de grabación no se decida nada. Si el lugar depende de reservar algo o la luz depende de una hora puntual, cambialos por la versión que funciona cualquier día a cualquier hora.",
-   "ejemplo": {"quien": "Aaron", "texto": "Su formato es la entrevista cruda con Cami haciéndole las preguntas desde atrás de cámara, sin guion. Ella ya está adentro del negocio, así que grabar depende de los dos y de nadie más."},
-   "campo": "lineas",
-   "lineas": ["Lugar", "Cámara y luz", "Cuánto dura la grabación", "Quién pregunta", "Cuántas piezas salen de una grabación"]},
-
-  {"titulo": "Las preguntas que te van a hacer",
-   "consigna": "Escribí cuatro o cinco preguntas y pasáselas a quien te pregunta. Que sean sobre lo que ya viviste: de dónde venís, qué cambió este año, el error que te costó plata, qué le contestás al cliente que te dice tal cosa. Con eso se llenan quince o veinte minutos de charla, y de ahí se cortan las piezas.",
-   "ejemplo": {"quien": "Lola", "texto": "Se destrabó con un video horizontal largo de quince o veinte minutos, en un lugar real y con alguien enfrente haciéndole cuatro o cinco preguntas sobre su recorrido. Dos semanas después dijo que ya se organiza el set y graba."},
-   "campo": "texto", "alto": 5,
-   "placeholder": "Una pregunta por renglón."},
-
-  {"titulo": "El nivel de edición y el techo por pieza",
-   "consigna": "Fijá qué incluye la edición y cuánto pagás por pieza, con un número. Nivel uno es clipeo, subtítulos y color, y con eso sale. Lo que queda afuera se escribe igual de claro, porque es lo que después aparece como excusa para frenar una publicación.",
-   "ejemplo": {"quien": "Sharon", "texto": "Su regla es edición nivel uno y hasta veinte dólares por pieza. El podcast lo había dejado por querer sumarle b-rolls encima, y ese fue el costo de subir la vara."},
-   "campo": "lineas",
-   "lineas": ["Qué incluye la edición", "Qué queda afuera", "Quién edita", "Costo por pieza", "Costo de las próximas diez"]},
-
-  {"titulo": "Lo que queda decidido antes de prender la cámara",
-   "consigna": "Tres decisiones escritas de antemano: si se regraba o no, qué se hace si la pieza no te gusta, y quién aprueba antes de publicar. Para las dos primeras dejá una sola regla y cumplila: se publica igual. La pieza que se guarda para mejorarla después no vuelve a salir.",
-   "campo": "texto", "alto": 4,
-   "placeholder": "Si pasa… hacemos…"},
-
-  {"titulo": "Las próximas diez, con fecha",
-   "consigna": "Cargá las diez piezas que salen de este formato, con día de grabación y día de publicación. Una sola fecha dura por semana, y si algo se corre, se corre una vez y se avisa. Menos de diez piezas no alcanza para saber si el formato camina.",
-   "campo": "tabla",
-   "columnas": ["Pieza", "De qué habla", "Se graba", "Se publica"],
-   "filas": 10},
-
-  {"titulo": "Las dos primeras, publicadas y leídas",
-   "consigna": "Grabá y publicá las dos primeras piezas con el formato tal como quedó escrito. El día que sale cada una, anotá qué costó de verdad, qué conversación abrió y sobre qué te escribieron. Con eso decidís si el formato queda como estándar para las diez o si corregís una cosa, una sola, antes de la tercera.",
-   "ejemplo": {"quien": "Bianca", "texto": "Lee lo que su comunidad le devuelve pieza por pieza: en TikTok la empezaron a llamar la chica de los anillos, lanzó un anillo y le fue muy bien."},
-   "campo": "tabla",
-   "columnas": ["Pieza", "Fecha", "Costo real", "Qué te escribieron"],
-   "filas": 5}
- ]
+  "modulo": "formato-barato",
+  "titulo": "La hoja de tu formato",
+  "bajada": "El formato propio definido en una hoja: qué se graba, con qué, cuánto dura, quién pregunta y cuánto cuesta cada pieza. Con esa hoja adelante, las próximas diez salen sin volver a discutir nada.",
+  "lista_cuando": "Dos piezas publicadas con ese formato y el costo real de cada una escrito al lado.",
+  "secciones": [
+    {
+      "titulo": "Las piezas propias que ya funcionaron",
+      "consigna": "Anotá las piezas tuyas que devolvieron algo y con qué nivel de producción salieron. Mirá ocho, no dos, y para cada una escribí qué costó: tus horas, la plata de edición y los días que pasaron entre la grabación y la publicación. Lo que buscás es la relación entre lo que gastaste y lo que volvió, y casi siempre la mejor relación está en la pieza más cruda.",
+      "ejemplo": {
+        "quien": "Sebastián",
+        "texto": "El reel del miedo a grabarse en público lo hizo con el celular, orgánico y sin planos: un millón cuatrocientas mil vistas, mil ochocientos comentarios y unos siete mil seguidores nuevos. Es el formato más barato que tiene."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Pieza",
+        "Cómo se produjo",
+        "Qué costó",
+        "Qué devolvió"
+      ],
+      "filas": 8,
+      "cid": 0
+    },
+    {
+      "titulo": "El formato que vas a repetir diez veces",
+      "consigna": "Elegí uno y escribilo en tres renglones: entrevista cruda con alguien preguntando, video largo sin guion, o el trabajo real filmado mientras pasa con voz en off encima. La prueba de que el formato sirve es que lo puedas grabar esta semana con lo que ya tenés a mano. Uno solo: dos formatos en paralelo se caen los dos.",
+      "ejemplo": {
+        "quien": "Lucio",
+        "texto": "El material más barato que tiene es el trabajo que hace todos los días: instala IA adentro de una empresa, arma simulaciones y resuelve solo lo que antes pedía tres personas. Se graba mientras pasa y lleva voz en off arriba."
+      },
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "Se graba… con… dura… y pregunta…",
+      "cid": 1
+    },
+    {
+      "titulo": "El setup fijo",
+      "consigna": "Los cinco datos que quedan iguales en todas las piezas, para que el día de grabación no se decida nada. Si el lugar depende de reservar algo o la luz depende de una hora puntual, cambialos por la versión que funciona cualquier día a cualquier hora.",
+      "ejemplo": {
+        "quien": "Aaron",
+        "texto": "Su formato es la entrevista cruda con Cami haciéndole las preguntas desde atrás de cámara, sin guion. Ella ya está adentro del negocio, así que grabar depende de los dos y de nadie más."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Lugar",
+        "Cámara y luz",
+        "Cuánto dura la grabación",
+        "Quién pregunta",
+        "Cuántas piezas salen de una grabación"
+      ],
+      "cid": 2
+    },
+    {
+      "titulo": "Las preguntas que te van a hacer",
+      "consigna": "Escribí cuatro o cinco preguntas y pasáselas a quien te pregunta. Que sean sobre lo que ya viviste: de dónde venís, qué cambió este año, el error que te costó plata, qué le contestás al cliente que te dice tal cosa. Con eso se llenan quince o veinte minutos de charla, y de ahí se cortan las piezas.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Se destrabó con un video horizontal largo de quince o veinte minutos, en un lugar real y con alguien enfrente haciéndole cuatro o cinco preguntas sobre su recorrido. Dos semanas después dijo que ya se organiza el set y graba."
+      },
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Una pregunta por renglón.",
+      "cid": 3
+    },
+    {
+      "titulo": "El nivel de edición y el techo por pieza",
+      "consigna": "Fijá qué incluye la edición y cuánto pagás por pieza, con un número. Nivel uno es clipeo, subtítulos y color, y con eso sale. Lo que queda afuera se escribe igual de claro, porque es lo que después aparece como excusa para frenar una publicación.",
+      "ejemplo": {
+        "quien": "Sharon",
+        "texto": "Su regla es edición nivel uno y hasta veinte dólares por pieza. El podcast lo había dejado por querer sumarle b-rolls encima, y ese fue el costo de subir la vara."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Qué incluye la edición",
+        "Qué queda afuera",
+        "Quién edita",
+        "Costo por pieza",
+        "Costo de las próximas diez"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "Lo que queda decidido antes de prender la cámara",
+      "consigna": "Tres decisiones escritas de antemano: si se regraba o no, qué se hace si la pieza no te gusta, y quién aprueba antes de publicar. Para las dos primeras dejá una sola regla y cumplila: se publica igual. La pieza que se guarda para mejorarla después no vuelve a salir.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Si pasa… hacemos…",
+      "cid": 5
+    },
+    {
+      "titulo": "Las próximas diez, con fecha",
+      "consigna": "Cargá las diez piezas que salen de este formato, con día de grabación y día de publicación. Una sola fecha dura por semana, y si algo se corre, se corre una vez y se avisa. Menos de diez piezas no alcanza para saber si el formato camina.",
+      "campo": "tabla",
+      "columnas": [
+        "Pieza",
+        "De qué habla",
+        "Se graba",
+        "Se publica"
+      ],
+      "filas": 10,
+      "cid": 6
+    },
+    {
+      "titulo": "Las dos primeras, publicadas y leídas",
+      "consigna": "Grabá y publicá las dos primeras piezas con el formato tal como quedó escrito. El día que sale cada una, anotá qué costó de verdad, qué conversación abrió y sobre qué te escribieron. Con eso decidís si el formato queda como estándar para las diez o si corregís una cosa, una sola, antes de la tercera.",
+      "ejemplo": {
+        "quien": "Bianca",
+        "texto": "Lee lo que su comunidad le devuelve pieza por pieza: en TikTok la empezaron a llamar la chica de los anillos, lanzó un anillo y le fue muy bien."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Pieza",
+        "Fecha",
+        "Costo real",
+        "Qué te escribieron"
+      ],
+      "filas": 5,
+      "cid": 7
+    }
+  ]
 }

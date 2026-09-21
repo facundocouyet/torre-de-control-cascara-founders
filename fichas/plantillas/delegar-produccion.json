@@ -1,61 +1,129 @@
 {
- "modulo": "delegar-produccion",
- "titulo": "La hoja para delegar la producción",
- "bajada": "El formato, el brief y el nivel de edición escritos, y la producción de un cliente saliendo de las manos de otra persona, con las piezas del mes contadas.",
- "lista_cuando": "Este mes hay piezas publicadas que editó otra persona y podés decir exactamente cuántas fueron.",
- "secciones": [
-  {"titulo": "Cuántas piezas salen por mes y quién las hace",
-   "consigna": "Contá las piezas del último mes una por una, cliente por cliente, y anotá quién las editó y cuántas horas por semana te llevó cada cuenta. Este cuadro es el punto A del módulo: mientras el número sea una estimación, dentro de dos meses no vas a poder decir si delegaste o si te acostumbraste.",
-   "campo": "tabla",
-   "columnas": ["Cliente o cuenta", "Piezas del mes", "Quién edita hoy", "Tus horas por semana ahí"],
-   "filas": 8},
-
-  {"titulo": "El cliente del primer traspaso",
-   "consigna": "Uno solo, y escrito por qué es ese. El mejor primero es el más rutinario: formato repetido, material que llega ordenado y un cliente tranquilo con un cambio de mano. Ponele fecha de arranque esta semana, porque el traspaso que espera al mes que viene espera al siguiente también.",
-   "ejemplo": {"quien": "Sofía Galvis", "texto": "Tiene tres clientes de edición y cuatro en el sistema de noventa días. El traspaso arranca por un cliente, con el brief hecho, y el resto sigue después."},
-   "campo": "texto", "alto": 3,
-   "placeholder": "Arranco por… porque… desde el…"},
-
-  {"titulo": "Qué es una pieza terminada",
-   "consigna": "Escribí el formato completo: duración, medida, subtítulos, uso de música, placa final, cómo se nombra el archivo y dónde vive el crudo. Sacalo de dos piezas tuyas que te gustaron, mirándolas y copiando lo que hicieron. Esto es el empaquetado: lo que no está escrito vuelve a tus manos a la primera semana.",
-   "campo": "texto", "alto": 5,
-   "placeholder": "Duración… medida… subtítulos… música… placa… nombre del archivo… carpeta del crudo…"},
-
-  {"titulo": "La tarjeta de brief",
-   "consigna": "Una tarjeta por pieza con objetivo, formato, referencias, fecha de entrega y quién aprueba, en el mismo lugar donde se carga el estado. La referencia es un link a una pieza que existe, no una descripción. La pieza sin tarjeta no se produce, y así el pedido por mensaje suelto se termina.",
-   "ejemplo": {"quien": "Sharon Palacio", "texto": "Deja tarjetas con objetivo, formato y referencias, y el cliente guiona. Con ese modelo maneja cuatro cuentas a la vez, y la edición corre a nivel uno: clipeo, subtítulos, color y sale."},
-   "campo": "lineas",
-   "lineas": ["Objetivo de la pieza", "Formato", "Referencias", "Fecha de entrega", "Quién aprueba"]},
-
-  {"titulo": "El nivel de edición y el costo por pieza",
-   "consigna": "Dos o tres niveles, con lo que entra en cada uno, lo que pagás por pieza y cuánto tarda. Usá el tarifario de edición de Cáscara como referencia. El costo por pieza multiplicado por las piezas del mes tiene que entrar en lo que te paga el cliente y dejarte margen: si no entra, sube el precio del cliente o baja el nivel.",
-   "ejemplo": {"quien": "Lola Berutti", "texto": "Trabaja con un editor de nivel uno o dos asignado a través de Azu, justamente para que el volumen de contenido no le cargue costo mientras el programa arranca."},
-   "campo": "tabla",
-   "columnas": ["Nivel", "Qué incluye", "Cuánto se paga por pieza", "Cuánto tarda"],
-   "filas": 5},
-
-  {"titulo": "El trabajo que sigue siendo tuyo",
-   "consigna": "Las dos o tres piezas del proceso que hacés vos, escritas con frecuencia: el guion, las historias del día, la decisión del ángulo del mes. Es donde tu criterio es el producto. Definilas ahora, así el traspaso avanza sin volver a discutirse cada semana.",
-   "ejemplo": {"quien": "Agostina Marchesini", "texto": "Delega la jornada semanal de contenido, y los guiones y las historias los sigue escribiendo ella."},
-   "campo": "texto", "alto": 3,
-   "placeholder": "Lo hago yo… todas las semanas…"},
-
-  {"titulo": "El traspaso, por etapas y con fechas",
-   "consigna": "Tres etapas con fecha: una pieza, después una semana completa, después el cliente entero. Cada etapa pasa cuando la anterior salió publicada sin que vos la tocaras. Si una etapa sale mal se repite la misma etapa con la corrección escrita, y el calendario se corre una semana, no el mes.",
-   "campo": "tabla",
-   "columnas": ["Etapa", "Fecha", "Qué tiene que salir bien", "Quién revisa"],
-   "filas": 5},
-
-  {"titulo": "La revisión semanal",
-   "consigna": "Escribí cómo se revisa: qué día entrega, dónde se mira y cómo se devuelve la corrección. La corrección se escribe en la tarjeta y la aplica quien editó, así la segunda pieza sale mejor que la primera. Una sola ronda por pieza, y a la ronda siguiente la pieza se publica como está.",
-   "ejemplo": {"quien": "Bianca Antonini", "texto": "El editor y el diseñador de Kie entregan bien. Con la producción en otras manos, ella queda con el concepto del drop y con la lectura de lo que contesta su comunidad."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Entrega el… se revisa el… la corrección se escribe en…"},
-
-  {"titulo": "El número del mes",
-   "consigna": "Al cierre del mes, contá cuántas piezas se publicaron y cuántas las editó otra persona. Ese es el resultado del módulo, y el que hay que poder decir en voz alta en la reunión. Si de veinte piezas otra persona editó tres, el traspaso arrancó y todavía no cambió tu semana.",
-   "ejemplo": {"quien": "Sol Boutmy", "texto": "El número que cierra el tramo es cuántos contenidos de octubre los editó alguien que no sean ella ni Fede. Con eso se sabe si la estructura aguantó."},
-   "campo": "lineas",
-   "lineas": ["Piezas publicadas este mes", "Cuántas las editó otra persona", "Tus horas por semana en edición", "Cuántas volvieron con corrección", "Costo de edición del mes"]}
- ]
+  "modulo": "delegar-produccion",
+  "titulo": "La hoja para delegar la producción",
+  "bajada": "El formato, el brief y el nivel de edición escritos, y la producción de un cliente saliendo de las manos de otra persona, con las piezas del mes contadas.",
+  "lista_cuando": "Este mes hay piezas publicadas que editó otra persona y podés decir exactamente cuántas fueron.",
+  "secciones": [
+    {
+      "titulo": "Cuántas piezas salen por mes y quién las hace",
+      "consigna": "Contá las piezas del último mes una por una, cliente por cliente, y anotá quién las editó y cuántas horas por semana te llevó cada cuenta. Este cuadro es el punto A del módulo: mientras el número sea una estimación, dentro de dos meses no vas a poder decir si delegaste o si te acostumbraste.",
+      "campo": "tabla",
+      "columnas": [
+        "Cliente o cuenta",
+        "Piezas del mes",
+        "Quién edita hoy",
+        "Tus horas por semana ahí"
+      ],
+      "filas": 8,
+      "cid": 0
+    },
+    {
+      "titulo": "El cliente del primer traspaso",
+      "consigna": "Uno solo, y escrito por qué es ese. El mejor primero es el más rutinario: formato repetido, material que llega ordenado y un cliente tranquilo con un cambio de mano. Ponele fecha de arranque esta semana, porque el traspaso que espera al mes que viene espera al siguiente también.",
+      "ejemplo": {
+        "quien": "Sofía Galvis",
+        "texto": "Tiene tres clientes de edición y cuatro en el sistema de noventa días. El traspaso arranca por un cliente, con el brief hecho, y el resto sigue después."
+      },
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "Arranco por… porque… desde el…",
+      "cid": 1
+    },
+    {
+      "titulo": "Qué es una pieza terminada",
+      "consigna": "Escribí el formato completo: duración, medida, subtítulos, uso de música, placa final, cómo se nombra el archivo y dónde vive el crudo. Sacalo de dos piezas tuyas que te gustaron, mirándolas y copiando lo que hicieron. Esto es el empaquetado: lo que no está escrito vuelve a tus manos a la primera semana.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Duración… medida… subtítulos… música… placa… nombre del archivo… carpeta del crudo…",
+      "cid": 2
+    },
+    {
+      "titulo": "La tarjeta de brief",
+      "consigna": "Una tarjeta por pieza con objetivo, formato, referencias, fecha de entrega y quién aprueba, en el mismo lugar donde se carga el estado. La referencia es un link a una pieza que existe, no una descripción. La pieza sin tarjeta no se produce, y así el pedido por mensaje suelto se termina.",
+      "ejemplo": {
+        "quien": "Sharon Palacio",
+        "texto": "Deja tarjetas con objetivo, formato y referencias, y el cliente guiona. Con ese modelo maneja cuatro cuentas a la vez, y la edición corre a nivel uno: clipeo, subtítulos, color y sale."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Objetivo de la pieza",
+        "Formato",
+        "Referencias",
+        "Fecha de entrega",
+        "Quién aprueba"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "El nivel de edición y el costo por pieza",
+      "consigna": "Dos o tres niveles, con lo que entra en cada uno, lo que pagás por pieza y cuánto tarda. Usá el tarifario de edición de Cáscara como referencia. El costo por pieza multiplicado por las piezas del mes tiene que entrar en lo que te paga el cliente y dejarte margen: si no entra, sube el precio del cliente o baja el nivel.",
+      "ejemplo": {
+        "quien": "Lola Berutti",
+        "texto": "Trabaja con un editor de nivel uno o dos asignado a través de Azu, justamente para que el volumen de contenido no le cargue costo mientras el programa arranca."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Nivel",
+        "Qué incluye",
+        "Cuánto se paga por pieza",
+        "Cuánto tarda"
+      ],
+      "filas": 5,
+      "cid": 4
+    },
+    {
+      "titulo": "El trabajo que sigue siendo tuyo",
+      "consigna": "Las dos o tres piezas del proceso que hacés vos, escritas con frecuencia: el guion, las historias del día, la decisión del ángulo del mes. Es donde tu criterio es el producto. Definilas ahora, así el traspaso avanza sin volver a discutirse cada semana.",
+      "ejemplo": {
+        "quien": "Agostina Marchesini",
+        "texto": "Delega la jornada semanal de contenido, y los guiones y las historias los sigue escribiendo ella."
+      },
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "Lo hago yo… todas las semanas…",
+      "cid": 5
+    },
+    {
+      "titulo": "El traspaso, por etapas y con fechas",
+      "consigna": "Tres etapas con fecha: una pieza, después una semana completa, después el cliente entero. Cada etapa pasa cuando la anterior salió publicada sin que vos la tocaras. Si una etapa sale mal se repite la misma etapa con la corrección escrita, y el calendario se corre una semana, no el mes.",
+      "campo": "tabla",
+      "columnas": [
+        "Etapa",
+        "Fecha",
+        "Qué tiene que salir bien",
+        "Quién revisa"
+      ],
+      "filas": 5,
+      "cid": 6
+    },
+    {
+      "titulo": "La revisión semanal",
+      "consigna": "Escribí cómo se revisa: qué día entrega, dónde se mira y cómo se devuelve la corrección. La corrección se escribe en la tarjeta y la aplica quien editó, así la segunda pieza sale mejor que la primera. Una sola ronda por pieza, y a la ronda siguiente la pieza se publica como está.",
+      "ejemplo": {
+        "quien": "Bianca Antonini",
+        "texto": "El editor y el diseñador de Kie entregan bien. Con la producción en otras manos, ella queda con el concepto del drop y con la lectura de lo que contesta su comunidad."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Entrega el… se revisa el… la corrección se escribe en…",
+      "cid": 7
+    },
+    {
+      "titulo": "El número del mes",
+      "consigna": "Al cierre del mes, contá cuántas piezas se publicaron y cuántas las editó otra persona. Ese es el resultado del módulo, y el que hay que poder decir en voz alta en la reunión. Si de veinte piezas otra persona editó tres, el traspaso arrancó y todavía no cambió tu semana.",
+      "ejemplo": {
+        "quien": "Sol Boutmy",
+        "texto": "El número que cierra el tramo es cuántos contenidos de octubre los editó alguien que no sean ella ni Fede. Con eso se sabe si la estructura aguantó."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Piezas publicadas este mes",
+        "Cuántas las editó otra persona",
+        "Tus horas por semana en edición",
+        "Cuántas volvieron con corrección",
+        "Costo de edición del mes"
+      ],
+      "cid": 8
+    }
+  ]
 }

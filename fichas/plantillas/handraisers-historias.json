@@ -1,55 +1,120 @@
 {
- "modulo": "handraisers-historias",
- "titulo": "La hoja de la secuencia de historias",
- "bajada": "La secuencia escrita placa por placa arriba del contenido que ya está caliente, con el mecanismo que levanta la mano y el mensaje que lleva esa mano a una conversación.",
- "lista_cuando": "La secuencia salió, las manos están registradas una por una y cada una tiene una próxima acción con fecha.",
- "secciones": [
-  {"titulo": "El contenido que está caliente ahora",
-   "consigna": "Elegí la pieza tuya que está devolviendo algo esta semana y anotá qué te escribieron. La secuencia se monta arriba de eso, porque la mano se levanta cuando la persona todavía tiene fresco lo que vio. Si la pieza tiene más de diez días, buscá otra o publicá primero la que la alimenta.",
-   "ejemplo": {"quien": "Sebastián", "texto": "El reel del miedo a grabarse hizo un millón cuatrocientas mil vistas y mil ochocientos comentarios, y los comentarios decían todos lo mismo: era el empujón que necesitaba. Ese es el contenido arriba del que va la secuencia."},
-   "campo": "lineas",
-   "lineas": ["Qué pieza", "Cuándo salió", "Qué devolvió", "Sobre qué te escribieron"]},
-
-  {"titulo": "La prueba que va adentro de la secuencia",
-   "consigna": "Una de las placas muestra una prueba, y conviene elegirla antes de escribir el resto. Sirve el número de un cliente, la captura del antes y el después, o un mensaje que te mandaron. Con la prueba adelante, la pregunta del final se contesta sola; con opinión sola, la secuencia se queda en likes.",
-   "ejemplo": {"quien": "Lucca", "texto": "En el B2B mide mes contra mes con un software y el dueño de la propiedad lo ve en pantalla. Cuando eso entra en la historia con el número adelante, la objeción se cae antes de aparecer."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "La prueba es… y se ve en…"},
-
-  {"titulo": "La secuencia, placa por placa",
-   "consigna": "Escribila completa antes de publicar: contexto, problema, prueba y la pregunta que levanta la mano. Cuatro a seis placas, la pregunta en la última y una sola acción para el que mira. Si una placa no empuja a la siguiente, sacala.",
-   "ejemplo": {"quien": "Matías", "texto": "Le dejamos la estructura de la secuencia con un ejemplo de handraiser para su lanzamiento. Los tres números que tiene que presentar son cuántas manos juntó, cuántas conversaciones abrió y cuántas ventas salieron."},
-   "campo": "tabla",
-   "columnas": ["Placa", "Qué se ve", "Qué dice", "Qué hace el que mira"],
-   "filas": 6},
-
-  {"titulo": "El mecanismo y el día",
-   "consigna": "Definí cómo se levanta la mano: palabra clave por mensaje, encuesta de dos opciones o pregunta directa en la caja. Uno solo por secuencia. Probalo vos desde otro teléfono antes de publicar, y dejá escrita la hora de la primera placa y hasta cuándo contestás, con el piso en una hora mientras la gente sigue mirando.",
-   "ejemplo": {"quien": "Agostina", "texto": "Configuró ManyChat y publicó el posteo repartiendo el link desde los comentarios. El criterio es ese: el mecanismo se sube mientras el contenido que lo alimenta todavía está caliente."},
-   "campo": "lineas",
-   "lineas": ["Cómo se levanta la mano", "Dónde se configura", "Qué le llega automático", "Día y hora de la primera placa", "Hasta cuándo se contesta"]},
-
-  {"titulo": "El mensaje de derivación, escrito antes de publicar",
-   "consigna": "Escribí ahora el mensaje que le mandás al que levanta la mano: tres renglones, con el motivo por el que le escribís y una pregunta que se conteste con un sí o con una hora. Escrito de antemano, porque el final es donde se cae la conversación cuando hay que improvisarlo.",
-   "ejemplo": {"quien": "Lola", "texto": "Tuvo tres llamadas de gente que le escribió y las tres se cayeron en el mismo lugar, al final. Ella lo dijo así: soy buena encontrando el dolor y el remedio, y el che, ¿lo vas a comprar? le cuesta."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Hola, vi que…, te escribo por…, ¿te sirve el…?"},
-
-  {"titulo": "El registro de manos levantadas",
-   "consigna": "Una fila por mano, cargada el mismo día. Motivo por el que levantó la mano, qué le contestaste, próxima acción y fecha. La mano sin próxima acción con fecha se pierde en el chat en cuarenta y ocho horas.",
-   "campo": "tabla",
-   "columnas": ["Quién", "Por qué levantó la mano", "Qué le contestaste", "Próxima acción y fecha"],
-   "filas": 10},
-
-  {"titulo": "Los que levantaron la mano y frenaron",
-   "consigna": "Al terminar la vuelta, escribí qué dijeron los que frenaron: precio, momento, que lo tenían que hablar con alguien, que esperaban otra cosa. Textual y agrupado por motivo. Eso corrige la placa de la prueba y el precio antes de la próxima secuencia.",
-   "campo": "texto", "alto": 4,
-   "placeholder": "Objeción, cuántas veces apareció, qué placa la responde."},
-
-  {"titulo": "Los números de la primera vuelta",
-   "consigna": "Corré la secuencia entera y contá lo que pasó: manos levantadas, conversaciones con respuesta del otro lado, llamadas agendadas y ventas. Después escribí qué cambiás en la próxima, una sola cosa. Con menos de diez manos, lo que falta es volumen en el contenido que la alimenta.",
-   "ejemplo": {"quien": "Nicolás", "texto": "Su objetivo son veinte conversaciones con respuesta del otro lado, sacadas del pipeline que ya tiene: los que pasaron por Calendly, los que comentaron y los referidos."},
-   "campo": "lineas",
-   "lineas": ["Manos levantadas", "Conversaciones con respuesta", "Llamadas agendadas", "Ventas", "Qué cambiás en la próxima"]}
- ]
+  "modulo": "handraisers-historias",
+  "titulo": "La hoja de la secuencia de historias",
+  "bajada": "La secuencia escrita placa por placa arriba del contenido que ya está caliente, con el mecanismo que levanta la mano y el mensaje que lleva esa mano a una conversación.",
+  "lista_cuando": "La secuencia salió, las manos están registradas una por una y cada una tiene una próxima acción con fecha.",
+  "secciones": [
+    {
+      "titulo": "El contenido que está caliente ahora",
+      "consigna": "Elegí la pieza tuya que está devolviendo algo esta semana y anotá qué te escribieron. La secuencia se monta arriba de eso, porque la mano se levanta cuando la persona todavía tiene fresco lo que vio. Si la pieza tiene más de diez días, buscá otra o publicá primero la que la alimenta.",
+      "ejemplo": {
+        "quien": "Sebastián",
+        "texto": "El reel del miedo a grabarse hizo un millón cuatrocientas mil vistas y mil ochocientos comentarios, y los comentarios decían todos lo mismo: era el empujón que necesitaba. Ese es el contenido arriba del que va la secuencia."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Qué pieza",
+        "Cuándo salió",
+        "Qué devolvió",
+        "Sobre qué te escribieron"
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "La prueba que va adentro de la secuencia",
+      "consigna": "Una de las placas muestra una prueba, y conviene elegirla antes de escribir el resto. Sirve el número de un cliente, la captura del antes y el después, o un mensaje que te mandaron. Con la prueba adelante, la pregunta del final se contesta sola; con opinión sola, la secuencia se queda en likes.",
+      "ejemplo": {
+        "quien": "Lucca",
+        "texto": "En el B2B mide mes contra mes con un software y el dueño de la propiedad lo ve en pantalla. Cuando eso entra en la historia con el número adelante, la objeción se cae antes de aparecer."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "La prueba es… y se ve en…",
+      "cid": 1
+    },
+    {
+      "titulo": "La secuencia, placa por placa",
+      "consigna": "Escribila completa antes de publicar: contexto, problema, prueba y la pregunta que levanta la mano. Cuatro a seis placas, la pregunta en la última y una sola acción para el que mira. Si una placa no empuja a la siguiente, sacala.",
+      "ejemplo": {
+        "quien": "Matías",
+        "texto": "Le dejamos la estructura de la secuencia con un ejemplo de handraiser para su lanzamiento. Los tres números que tiene que presentar son cuántas manos juntó, cuántas conversaciones abrió y cuántas ventas salieron."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Placa",
+        "Qué se ve",
+        "Qué dice",
+        "Qué hace el que mira"
+      ],
+      "filas": 6,
+      "cid": 2
+    },
+    {
+      "titulo": "El mecanismo y el día",
+      "consigna": "Definí cómo se levanta la mano: palabra clave por mensaje, encuesta de dos opciones o pregunta directa en la caja. Uno solo por secuencia. Probalo vos desde otro teléfono antes de publicar, y dejá escrita la hora de la primera placa y hasta cuándo contestás, con el piso en una hora mientras la gente sigue mirando.",
+      "ejemplo": {
+        "quien": "Agostina",
+        "texto": "Configuró ManyChat y publicó el posteo repartiendo el link desde los comentarios. El criterio es ese: el mecanismo se sube mientras el contenido que lo alimenta todavía está caliente."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Cómo se levanta la mano",
+        "Dónde se configura",
+        "Qué le llega automático",
+        "Día y hora de la primera placa",
+        "Hasta cuándo se contesta"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "El mensaje de derivación, escrito antes de publicar",
+      "consigna": "Escribí ahora el mensaje que le mandás al que levanta la mano: tres renglones, con el motivo por el que le escribís y una pregunta que se conteste con un sí o con una hora. Escrito de antemano, porque el final es donde se cae la conversación cuando hay que improvisarlo.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Tuvo tres llamadas de gente que le escribió y las tres se cayeron en el mismo lugar, al final. Ella lo dijo así: soy buena encontrando el dolor y el remedio, y el che, ¿lo vas a comprar? le cuesta."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Hola, vi que…, te escribo por…, ¿te sirve el…?",
+      "cid": 4
+    },
+    {
+      "titulo": "El registro de manos levantadas",
+      "consigna": "Una fila por mano, cargada el mismo día. Motivo por el que levantó la mano, qué le contestaste, próxima acción y fecha. La mano sin próxima acción con fecha se pierde en el chat en cuarenta y ocho horas.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Por qué levantó la mano",
+        "Qué le contestaste",
+        "Próxima acción y fecha"
+      ],
+      "filas": 10,
+      "cid": 5
+    },
+    {
+      "titulo": "Los que levantaron la mano y frenaron",
+      "consigna": "Al terminar la vuelta, escribí qué dijeron los que frenaron: precio, momento, que lo tenían que hablar con alguien, que esperaban otra cosa. Textual y agrupado por motivo. Eso corrige la placa de la prueba y el precio antes de la próxima secuencia.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Objeción, cuántas veces apareció, qué placa la responde.",
+      "cid": 6
+    },
+    {
+      "titulo": "Los números de la primera vuelta",
+      "consigna": "Corré la secuencia entera y contá lo que pasó: manos levantadas, conversaciones con respuesta del otro lado, llamadas agendadas y ventas. Después escribí qué cambiás en la próxima, una sola cosa. Con menos de diez manos, lo que falta es volumen en el contenido que la alimenta.",
+      "ejemplo": {
+        "quien": "Nicolás",
+        "texto": "Su objetivo son veinte conversaciones con respuesta del otro lado, sacadas del pipeline que ya tiene: los que pasaron por Calendly, los que comentaron y los referidos."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Manos levantadas",
+        "Conversaciones con respuesta",
+        "Llamadas agendadas",
+        "Ventas",
+        "Qué cambiás en la próxima"
+      ],
+      "cid": 7
+    }
+  ]
 }
