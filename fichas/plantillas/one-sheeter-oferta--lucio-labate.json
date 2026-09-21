@@ -2,196 +2,60 @@
   "modulo": "one-sheeter-oferta",
   "slug": "lucio-labate",
   "founder": "Lucio Labate",
-  "titulo": "One-sheeter de la oferta",
-  "bajada": "Tu oferta ya está decidida en un noventa por ciento y está escrita acá abajo. Esta hoja no te pide que inventes nada: te pide que confirmes lo que va, corrijas lo que no, y completes lo que sólo sabés vos.",
-  "lista_cuando": "Cada decisión de la hoja tiene un sí o una corrección al lado, y ninguna quedó en blanco.",
-  "completar": [
-    "Esta carta completa, con cada decisión confirmada o corregida"
-  ],
-  "pasos": [
-    "Leer lo que ya está decidido y marcar con un sí o con una corrección, línea por línea.",
-    "Escribir qué incluye exactamente la instalación, que es lo que hacés todos los días en Wellmate.",
-    "Bajar las etapas de una instalación de principio a fin, con lo que queda hecho en cada una.",
-    "Anotar qué necesitás del cliente para que esto funcione.",
-    "Confirmar el precio y tu piso real, el número por debajo del cual no lo hacés.",
-    "Listar cinco empresas concretas a las que les podrías escribir mañana.",
-    "Anotar contra qué te comparan y por qué con vos les va mejor.",
-    "Escribir tu NOVA en cuatro frases y tu one-sheeter en una carilla."
-  ],
+  "bajada": "La oferta entera, de nuevo y completa. No porque lo anterior estuviera mal, sino porque se trabajó en pedazos, en cinco llamadas distintas, y nunca quedó escrita junta en un solo lugar. Esta vez se hace de una sola pasada.",
+  "lista_cuando": "Leés la hoja completa de arriba a abajo y podés explicar tu oferta sin abrirla.",
+  "completar": ["Esta carta completa, con tu NOVA y tu one-sheeter escritos"],
   "bajada_envio": {
     "founder": "Lucio Labate",
-    "porque": "La oferta se bajó por escrito el 1 de julio, se movió dos veces más y nunca se cerró. No fue por falta de material: fue porque cada vuelta arrancaba de una hoja en blanco. Con vos eso está identificado desde julio, cuando Juana dio vuelta el proceso y en lugar de pedirte diez videos genéricos te pidió un proyecto real y después documentarlo. Ahí avanzaste. Esta hoja está armada con ese mismo criterio: no hay hoja en blanco, hay algo escrito que vos confirmás o corregís.",
-    "objetivo": "La oferta cerrada, con precio, antes de la llamada con Franco. De ahí salen los ángulos, y de los ángulos salen las diez piezas. Hoy el contenido te cuesta porque cada pieza tiene que resolver qué decir y para qué al mismo tiempo: con este documento arriba, eso deja de ser una decisión diaria.",
-    "mindset": "Nada de lo que escribas acá es definitivo, y por eso no hace falta que salga perfecto. El precio es una hipótesis que confirman o corrigen las primeras cinco llamadas, no una promesa. Si una decisión no te cierra, tacharla y escribir la tuya al lado es exactamente lo que te estamos pidiendo: es más útil una corrección tuya que un sí de compromiso."
+    "porque": "Tu oferta se trabajó el 1 de julio, se movió el 18 de agosto, se volvió a bajar el 2 de septiembre con Teo y se ajustó con Juana el mismo día. Cuatro vueltas, cada una buena, ninguna cerrada. El problema no fue el contenido: fue que quedó repartida en cinco llamadas y nunca se escribió junta. Por eso esta vez va entera y en un solo documento, de tu puño.",
+    "objetivo": "La oferta escrita completa antes de la llamada con Franco, para que esa llamada cierre y no vuelva a abrir. De ahí salen los ángulos, y de los ángulos salen las diez piezas.",
+    "mindset": "Empezar de nuevo no es volver atrás. Todo lo que ya se dijo está escrito arriba de las preguntas, así que no arrancás de una hoja en blanco: arrancás de lo que ya sabés, junto por primera vez. Y no busques la respuesta perfecta. Una respuesta tosca y escrita rinde más que una buena en la cabeza, porque la tosca se puede corregir en la llamada."
   },
-  "secciones": [
+  "bloques_inicio": [
     {
       "nuestro": true,
-      "titulo": "Cómo funciona esta hoja",
+      "titulo": "Por qué se hace de nuevo",
       "texto": [
-        "Todo lo que está acá abajo ya se dijo en alguna llamada: con Facu el 1 de septiembre, con Teo el 2, con Juana el 24 de julio y el 2 de septiembre. No lo estás inventando ahora. Está junto, escrito, en un solo lugar.",
-        "Tu trabajo es tres cosas: confirmar lo que va así, corregir lo que no, y completar lo que sólo sabés vos porque lo hacés todos los días adentro de Wellmate.",
-        "Si una pregunta te traba, contestá lo que sí sabés y seguí. Media hoja bien contestada vale más que una hoja entera esperando a que estés seguro."
-      ],
-      "cid": 0
-    },
-    {
-      "nuestro": true,
-      "titulo": "Dónde entra esto: el marco NOVA",
-      "texto": [
-        "La oferta no se inventa, se ordena. El orden que usamos son cuatro decisiones, una atrás de la otra: <b>Nicho</b>, para quién resolvés. <b>Oferta</b>, qué cambio generás. <b>Vehículo</b>, cómo lo entregás. <b>Atención</b>, cómo te encuentran.",
-        "Van en ese orden porque cada una se apoya en la anterior. Sin nicho, la oferta le habla a cualquiera. Sin oferta, el vehículo entrega algo que todavía no está definido. Sin vehículo, la promesa no se cumple. Sin atención, no llega nadie. Y no se trata de elegir perfecto: se trata de elegir claro, porque con claridad aparecen el foco y la repetición.",
-        "En tu caso la <b>N</b> y la <b>O</b> ya están propuestas abajo y sólo hay que confirmarlas. La <b>V</b> la completás vos, porque el formato de la instalación lo conocés mejor que nadie. Y la <b>A</b> es lo que ya venís haciendo: el contenido que sube y abre conversaciones, que sólo hay que apuntar un poco más al centro.",
-        "Las dos últimas preguntas te piden cerrarlo vos: tu NOVA en cuatro frases y tu one-sheeter en una carilla. No tienen que salir perfectas, tienen que salir escritas."
-      ],
-      "cid": 1
+        "Esta oferta ya se trabajó cuatro veces y ninguna terminó escrita. No fue por falta de material ni por falta de laburo: cada vuelta salió de una llamada distinta, se avanzó un pedazo y el siguiente arrancaba otra vez desde el principio. Así una oferta nunca cierra, por buena que sea cada vuelta.",
+        "Hay una cosa tuya que ya está identificada desde julio y conviene decirla: cuando la tarea sale de algo que ya existe, avanzás. Cuando sale de una hoja en blanco, se traba. Por eso Juana dio vuelta el proceso en julio, cambió los diez videos genéricos por un proyecto real documentado, y ahí te moviste.",
+        "Esta hoja usa el mismo criterio. Abajo tenés todo lo que ya se dijo, junto y ordenado, y recién después las preguntas. No estás inventando: estás escribiendo, de una sola pasada, lo que venís sabiendo hace dos meses."
+      ]
     },
     {
       "nuestro": true,
-      "titulo": "Lo que ya está decidido",
+      "titulo": "Todo lo que ya se dijo, junto",
       "texto": [
-        "<b>La oferta tiene dos niveles y son módulos de la misma cosa.</b> Uno es la instalación de un sistema de diseño con IA adentro de una empresa. El otro es la estrategia creativa de la creación de una marca y de su comunicación. Se pueden vender juntos o por separado.",
-        "<b>Se empieza por el de IA</b>, que es el que el mercado está pidiendo hoy. El de estrategia creativa se abre solo cuando tengas casos que lo respalden.",
-        "<b>El comprador prioritario son empresas B2B con equipo de marketing y sin diseñador propio.</b>",
-        "<b>El precio de hipótesis es de dos mil a tres mil dólares la instalación</b>, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Se confirma o se corrige en las primeras cinco llamadas.",
-        "<b>Tu ventaja es difícil de copiar y ya está probada:</b> armás con IA, todos los días, adentro de una empresa que le vende a Mercado Libre y a Arcor, lo que antes necesitaba tres personas. No estás vendiendo una idea, estás vendiendo algo que hacés."
-      ],
-      "cid": 2
-    },
-    {
-      "titulo": "Confirmá o corregí, decisión por decisión",
-      "consigna": "Una fila por decisión. En la segunda columna poné un sí si va así, y en la tercera escribí cómo va si no. No hace falta que justifiques: con la corrección alcanza. Si hay una que no sabés, escribí «no sé» y seguí, que también es información.",
-      "campo": "tabla",
-      "columnas": [
-        "La decisión",
-        "¿Va así?",
-        "Si no, cómo va"
-      ],
-      "filas_rotulo": [
-        "Vendo la instalación de un sistema de diseño con IA",
-        "El segundo nivel es estrategia creativa de marca, y se abre después",
-        "Empiezo por el de IA",
-        "Le vendo a empresas B2B con equipo de marketing y sin diseñador propio",
-        "La instalación sale entre 2.000 y 3.000 dólares",
-        "El acompañamiento mensual sale entre 400 y 600 dólares",
-        "El acompañamiento es opcional, no obligatorio",
-        "Moda y música siguen siendo el terreno del segundo nivel"
-      ],
-      "filas": 8,
-      "cid": 3
-    },
-    {
-      "titulo": "Qué incluye la instalación, exactamente",
-      "consigna": "Esto sólo lo sabés vos, porque lo hacés todos los días. Cuando entrás a una empresa y les instalás el sistema: qué les dejás funcionando, qué les dejás aprendido, qué archivos y qué accesos quedan de su lado. Escribilo como se lo contarías a alguien de Wellmate que te pregunta qué hiciste, no como se lo venderías a un cliente. La versión vendible la armamos después.",
-      "campo": "texto",
-      "alto": 7,
-      "placeholder": "Cuando termino, la empresa tiene…",
-      "cid": 4
-    },
-    {
-      "titulo": "Cómo se ve de principio a fin",
-      "consigna": "Las etapas de una instalación, con lo que queda hecho al final de cada una y cuánto tarda. Sirve para dos cosas: para que el cliente sepa qué va a pasar, y para que vos sepas cuándo cumpliste y podés cobrar. Si nunca lo hiciste completo de afuera para adentro, escribí cómo sería: lo hacés por partes todos los días.",
-      "campo": "tabla",
-      "columnas": [
-        "Etapa",
-        "Qué pasa",
-        "Qué queda hecho",
-        "Cuánto tarda"
-      ],
-      "filas": 5,
-      "cid": 5
-    },
-    {
-      "titulo": "Qué necesitás del cliente para que esto funcione",
-      "consigna": "Lo que tiene que poner la empresa de su lado: accesos, una persona de contacto, material de marca, tiempo de alguien para las pruebas, decisiones tomadas. Y al lado, qué pasa si eso no llega a tiempo. Esto es lo que evita la mitad de los problemas, y es lo que hoy no está escrito en ningún lado.",
-      "campo": "lineas",
-      "lineas": [
-        "Necesito que me den",
-        "Necesito que me den",
-        "Necesito una persona que",
-        "Si eso no llega a tiempo, pasa que",
-        "Lo que yo no me hago cargo es de"
-      ],
-      "cid": 6
-    },
-    {
-      "titulo": "El precio, y tu piso real",
-      "consigna": "El número de arriba es la hipótesis que armamos nosotros. El que importa acá es el tuyo: por debajo de qué número no lo hacés, aunque te lo pidan. Ese piso no sale de lo que creés que vale, sale de cuántas horas tuyas se lleva. Calculá primero eso.",
-      "campo": "lineas",
-      "lineas": [
-        "Horas que me lleva una instalación completa",
-        "Lo que vale una hora mía",
-        "Mi piso: por debajo de esto no lo hago",
-        "El precio que voy a decir en la primera llamada",
-        "Lo que cobro al arrancar y lo que cobro al final"
-      ],
-      "ejemplo": {
-        "quien": "Facu",
-        "texto": "El piso no se negocia, el precio de lista sí. Tener los dos números separados antes de la llamada es lo que te deja escuchar la objeción sin mover el número en el momento."
-      },
-      "cid": 7
-    },
-    {
-      "titulo": "Las cinco a las que les podrías escribir mañana",
-      "consigna": "Cinco empresas concretas, con nombre, que entren en el comprador prioritario: B2B, con equipo de marketing y sin diseñador propio. Pueden salir de Wellmate, de sus clientes, de gente que ya te escribió o de empresas que mirás desde afuera. Al lado, cómo llegarías a cada una y qué le dirías en la primera línea. Esto no es un ejercicio: son las cinco llamadas del tramo.",
-      "campo": "tabla",
-      "columnas": [
-        "La empresa",
-        "Por qué encaja",
-        "Cómo llego",
-        "Qué le digo primero"
-      ],
-      "filas": 5,
-      "cid": 8
-    },
-    {
-      "titulo": "Contra qué te comparan, y por qué con vos les va mejor",
-      "consigna": "Con qué compara una empresa antes de contratarte. No son sólo otros diseñadores: también es contratar un diseñador en relación de dependencia, pedirle a alguien del equipo de marketing que lo haga con ChatGPT, contratar una agencia, o dejarlo para el año que viene. Una fila por cada uno. Esta es la pregunta que más rinde de toda la hoja, porque las objeciones de la llamada de venta salen de acá.",
-      "campo": "tabla",
-      "columnas": [
-        "Contra qué te comparan",
-        "Qué le ofrece eso",
-        "Por qué con vos le va mejor"
-      ],
-      "filas": 5,
-      "cid": 9
-    },
-    {
-      "titulo": "Tu NOVA, en cuatro frases",
-      "consigna": "Acá sí te pedimos que decidas, aunque sea en borrador. Una frase por letra, escrita con tus palabras y sin adornar. No busques la frase perfecta, buscá la frase clara: esto es tu NOVA v1 y es el punto de partida de la llamada con Franco, no el resultado. Si una letra no te sale, escribí las dos opciones que estás dudando. Eso también sirve.",
-      "campo": "lineas",
-      "lineas": [
-        "N · Personas como… que…",
-        "O · Ayudo a… a pasar de… a… a través de…",
-        "V · El formato y cómo se vive",
-        "A · Tu canal principal",
-        "A · Tus dos o tres pilares de contenido",
-        "A · Tu CTA: cómo pasan de mirarte a hablarte",
-        "A · Tu ritmo real por semana"
-      ],
-      "ejemplo": {
-        "quien": "Facu",
-        "texto": "Cáscara: personas creativas que venden servicios y dependen del boca en boca. Las ayudo a pasar de improvisar a tener una dirección clara, a través de un proceso guiado con acompañamiento. Vehículo: programa de 16 semanas con llamadas en vivo. Atención: Instagram, pilares de problema, proceso y casos, CTA a mensaje directo, tres piezas por semana."
-      },
-      "cid": 10
-    },
-    {
-      "titulo": "Tu one-sheeter, en una carilla",
-      "consigna": "Juntá todo lo de arriba en una sola página, con estas cinco partes y en este orden: <b>1)</b> a quién le hablás, qué oportunidad le abrís y qué le prometés. <b>2)</b> sus deseos de un lado y sus problemas del otro. <b>3)</b> la oferta en una sola línea: «Ayudo a [nicho] a [promesa] a través de [mecanismo único]». <b>4)</b> todos los entregables, incluido lo que hoy das y no cobrás. <b>5)</b> los enemigos y tu ventaja sobre cada uno. Escribilo acá aunque quede tosco. Si la línea del punto 3 no se entiende sola, marcalo y seguí: esa la cerramos juntos.",
-      "campo": "texto",
-      "alto": 14,
-      "placeholder": "1 · A quién le hablo y qué le prometo…\n\n2 · Lo que quiere / lo que le duele…\n\n3 · Ayudo a… a… a través de…\n\n4 · Lo que incluye…\n\n5 · Contra qué me comparan y por qué conmigo le va mejor…",
-      "cid": 11
+        "<b>24 de julio, con Juana.</b> Primero el proyecto real, después el contenido. Documentar el trabajo en vivo con voz en off, que es el formato más barato y el que muestra criterio.",
+        "<b>6 de agosto.</b> Volumen antes que perfección: una pieza por semana como piso.",
+        "<b>18 de agosto.</b> Se ordenan los roles y aparece la oferta integrada, con sus dos niveles.",
+        "<b>1 de septiembre, con Facu.</b> La llamada del push. Sale el diagnóstico: lo que instalás es un sistema de diseño con IA, y el diseño gráfico es el medio, no el techo. El contenido levanta pero está apuntado al costado: hablás de no contratar un diseñador y el mercado está pensando en cómo usar la IA sin que le quede mal.",
+        "<b>2 de septiembre, con Teo.</b> Se baja la oferta y el roadmap de contenido.",
+        "<b>2 de septiembre, con Juana.</b> El cliente ideal se expande, no se redefine: moda y música siguen siendo el terreno, y adentro de música se abre hacia empresas de sonido y lo que gira alrededor.",
+        "<b>4 de septiembre, con Fede.</b> Revisión del video de Bowen y tres reducciones con formatos distintos.",
+        "<b>9 de septiembre.</b> Aparece lo que te mueve y sirve de ángulo: la falta de escucha activa.",
+        "<b>18 de septiembre.</b> Reservás vos la llamada con Facu, que es la primera señal de movimiento desde que quedaste frenado."
+      ]
     },
     {
       "nuestro": true,
-      "titulo": "Qué pasa después de esto",
+      "titulo": "Lo que ya está definido, para que no lo pienses de cero",
       "texto": [
-        "Con la hoja devuelta, la llamada con Franco deja de ser una reunión para definir la oferta y pasa a ser una para cerrarla: se corrige la línea de la oferta hasta que se entienda sola, se confirma el precio y se ordenan los entregables. Eso es lo que hace que sea un flechazo y no otra vuelta.",
-        "Después de Franco vienen los ángulos, que salen del comprador y de las objeciones que escribas arriba. Cada ángulo con una idea concreta al lado, cargados en el calendario. Ahí el contenido deja de arrancar de cero todos los días.",
-        "Y después las diez piezas. Diez es el mínimo para poder leer algo: con una no hay nada que decir, ni a favor ni en contra. Lo que no tocamos son tus palabras: si algo de la versión final no suena tuyo, se cambia."
-      ],
-      "cid": 12
+        "<b>La oferta tiene dos niveles</b> y son módulos de la misma cosa: la instalación de un sistema de diseño con IA adentro de una empresa, y la estrategia creativa de creación de marca y comunicación. Se venden juntos o por separado.",
+        "<b>Se empieza por el de IA</b>, que es el que el mercado pide hoy. El de estrategia creativa se abre solo cuando tengas casos.",
+        "<b>El comprador prioritario:</b> empresas B2B con equipo de marketing y sin diseñador propio.",
+        "<b>El precio de hipótesis:</b> dos mil a tres mil dólares la instalación, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Se confirma o se corrige en las primeras cinco llamadas.",
+        "<b>Las dos reglas del tramo:</b> diez piezas como mínimo antes de evaluar nada, y validar siempre con precio.",
+        "Nada de esto es sagrado. Si al contestar te aparece otra cosa, escribí la otra cosa: una corrección tuya vale más que un sí de compromiso. Pero tampoco hace falta que lo vuelvas a pensar desde cero."
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Tu ventaja, dicha en voz alta",
+      "texto": [
+        "Esto va acá porque es lo que más cuesta escribir de uno mismo y es lo que la oferta tiene que decir sin vueltas.",
+        "Armás con IA, todos los días, adentro de una empresa que le vende a Mercado Libre y a Arcor, lo que antes necesitaba tres personas. Deepfakes, guiones, contenido, landings, branding. No estás vendiendo algo que estudiaste: estás vendiendo algo que hacés. Eso es difícil de copiar y el mercado al que le hablás viene atrasado justo en eso.",
+        "Cuando contestes lo de abajo, escribí desde ahí."
+      ]
     }
   ]
 }
