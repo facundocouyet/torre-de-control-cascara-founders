@@ -1,0 +1,221 @@
+{
+ "modulo": "pasaporte-digital",
+ "titulo": "La hoja de tu pasaporte digital",
+ "bajada": "Tu historia, tu personalidad y tu estética escritas en un solo lugar, con las mismas preguntas que completa cualquiera que entra a La Cáscara. De acá salen los ángulos de contenido y la dirección visual: sin esto, las dos cosas se inventan.",
+ "lista_cuando": "El pasaporte está completo de punta a punta y devuelto, y de él se pueden leer tu historia de origen, tus tres temas, tu arquetipo y tu paleta sin tener que preguntarte nada más.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "titulo": "Cómo se completa esto",
+   "texto": [
+    "Son las preguntas del pasaporte de La Cáscara, las mismas que completa cualquiera que entra al programa. No las cambiamos: están probadas y el material que devuelven es el que después usa Fede para armar la estrategia de contenido y Juana para la dirección visual.",
+    "Se completa de arriba a abajo y de una sentada. Las primeras preguntas son de historia y las últimas de estética, y ese orden importa: lo visual sale de lo que contaste antes, no al revés.",
+    "No busques la respuesta correcta. Buscá la verdadera. Lo que quede a medias se nota después, cuando el contenido no se parece a vos."
+   ]
+  },
+  {
+   "titulo": "Estado antes y después de la transformación",
+   "consigna": "Describe cómo era tu vida antes de iniciar en tu área/oficio/profesión, qué problemas, miedos o frustraciones tenías y cómo es tu vida ahora después del cambio.",
+   "campo": "lineas",
+   "lineas": [
+    "Antes",
+    "Después"
+   ]
+  },
+  {
+   "titulo": "Desafíos y obstáculos",
+   "consigna": "Las dificultades que enfrentaste son tan importantes como los logros ya que generan conexión emocional con tu audiencia.",
+   "campo": "lineas",
+   "lineas": [
+    "¿Cuáles fueron los momentos más difíciles en tu camino (personal y/o laboral) y cómo los superaste?",
+    "¿Qué lección o consejo de vida te ha servido más en tu camino? ¿Dónde o de quién la aprendiste?"
+   ]
+  },
+  {
+   "titulo": "Creencias falsas",
+   "consigna": "Identificá las creencias erróneas que tenías al inicio y las que tienen ahora las personas a las que ayudás. Pueden ser de tu círculo cercano o de tus seguidores. Escribí las de la segunda pregunta en formato lista y de manera breve, para poder identificarlas fácilmente.",
+   "campo": "lineas",
+   "lineas": [
+    "¿Cuáles eran las creencias limitantes que te impedían avanzar?",
+    "¿Cuáles son las creencias limitantes que más comúnmente escuchás a tu alrededor o alrededor de tu profesión?",
+    "¿Por qué estas creencias son falsas?",
+    "¿Tu servicio hacia el mundo tiene que ver con ayudar a otro a darse cuenta de que estas creencias son falsas? (sí / no / tal vez, no lo sé aún)"
+   ]
+  },
+  {
+   "titulo": "Tres escenas que definan tu sensibilidad",
+   "consigna": "Elegí 3 escenas de tu vida que definan tu sensibilidad o tu manera de mirar. Pueden ser escenas del día a día, un momento del día, una parte de tu casa, cualquier situación o atmósfera que represente tu estilo. Para cada una, describí: cómo aparece en tu estética actual, qué aporta a tu universo visual y qué simboliza de tu identidad.",
+   "campo": "lineas",
+   "lineas": [
+    "Escena 1",
+    "Escena 2",
+    "Escena 3"
+   ]
+  },
+  {
+   "titulo": "Evolución personal",
+   "consigna": "Reflexionemos sobre tu transformación a lo largo del tiempo.",
+   "campo": "lineas",
+   "lineas": [
+    "¿Qué descubriste de tu forma de pensar, observar o sentir durante estos años?",
+    "¿Qué símbolo representa la evolución que atravesaste?",
+    "Si tu evolución fuera un capítulo, ¿cómo se llamaría?",
+    "¿Qué versión de vos se volvió más real con el tiempo?"
+   ]
+  },
+  {
+   "titulo": "Opiniones, creencias y valores",
+   "consigna": "Los valores y las creencias en formato lista. La última es la que más gente saltea y la que más sirve después: describí tu creatividad como si fuera una persona, física e internamente.",
+   "campo": "lineas",
+   "lineas": [
+    "¿Cuáles son los valores más importantes que te representan?",
+    "¿Cuáles son las creencias o la filosofía de vida más fuertes que defendés en tu vida y en tu trabajo?",
+    "¿Qué tema difícil o desconocido te atrae pero aún no te animás a explorar?",
+    "Si tuvieras que describir a tu creatividad como si fuera una persona, ¿qué dirías de ella?"
+   ]
+  },
+  {
+   "titulo": "Qué tipo de marca personal estás construyendo",
+   "consigna": "Podés elegir más de una. Las opciones son: enseñar y aportar conocimiento como experto en tu nicho; inspirar a otros a lanzarse en este mercado; mostrar tu trabajo a modo de portfolio para conseguir más clientes; o crear el día de mañana un negocio, agencia o marca para generar cultura alrededor de tu creación —y si es esta última, indicá cuál: agencia, infoproducto, curso o workshops, marca de ecommerce.",
+   "campo": "texto",
+   "alto": 4
+  },
+  {
+   "titulo": "Producto, equipo y plataforma",
+   "consigna": "Estas cinco son las que ordenan lo operativo. Si alguna no la tenés resuelta, escribí eso mismo: es información igual de útil.",
+   "campo": "lineas",
+   "lineas": [
+    "¿Qué productos o servicios te imaginás vendiendo?",
+    "¿Estarías dispuesto a tener un equipo que te ayude con la creación de contenido, y con qué presupuesto mensual? (edición de video y/o diseño gráfico)",
+    "¿En qué plataforma te interesaría tener más presencia? Elegí una principal.",
+    "¿Con qué equipos de cámara, iluminación, sonido o iPhone contás para grabar?",
+    "¿Cuánto tiempo podés dedicarle semanalmente a tu marca personal? (7 h, 14 h, 21 h, más de 30 h)"
+   ]
+  },
+  {
+   "titulo": "Tu necesidad de hoy y tu diferencial",
+   "consigna": "Las tres preguntas que cierran el bloque de estrategia.",
+   "campo": "lineas",
+   "lineas": [
+    "¿Cuál es tu principal necesidad en este momento en términos de marketing y contenido?",
+    "¿Qué aspecto del negocio te gustaría mejorar primero?",
+    "¿En qué te gustaría que tu marca personal sea diferente de otras en tu nicho? ¿Qué cosas de tu personalidad ves como diferencial para apalancarnos en ellas?"
+   ]
+  },
+  {
+   "titulo": "La sensación como objetivo",
+   "consigna": "Una sola pregunta, y es la bisagra del pasaporte: de acá sale el tono de todo lo demás.",
+   "campo": "texto",
+   "alto": 3,
+   "placeholder": "¿Cómo te gustaría sentirte en un momento dado, sin importar las emociones que estés sintiendo en ese momento?"
+  },
+  {
+   "nuestro": true,
+   "titulo": "De acá en adelante es lo visual",
+   "texto": [
+    "Esta parte se completa después de haber contestado todo lo anterior. Tu identidad ya está escrita; ahora se traduce en estética. Si volvés a esta parte sin haber hecho la primera, lo que sale es decoración."
+   ]
+  },
+  {
+   "titulo": "La emoción y la paleta",
+   "consigna": "Elegí una sola emoción —calma, claridad, intensidad, misterio, juego, suavidad, profundidad, expansión u otra— y tres colores. Para elegirlos: ¿quiero transmitir calma, energía, misterio, claridad o cercanía? ¿qué color me conecta más rápido con esa sensación? ¿qué color no usaría jamás porque rompe mi energía? Cada color va con una frase que explique por qué.",
+   "campo": "lineas",
+   "lineas": [
+    "La emoción principal, en una palabra",
+    "Color 1 y por qué",
+    "Color 2 y por qué",
+    "Color 3 y por qué"
+   ]
+  },
+  {
+   "titulo": "La luz que representa tu energía",
+   "consigna": "Suave, dura, cálida, fría, contrastada o difusa. Para elegir: ¿cómo se siente tu energía cuando entrás a un espacio? ¿qué tipo de luz te hace sentir más vos? ¿qué atmósfera visual te atrae en videos o fotos? Elegí una sola y sumá tres imágenes de referencia al grupo.",
+   "campo": "lineas",
+   "lineas": [
+    "El tipo de luz",
+    "Por qué esa y no otra"
+   ]
+  },
+  {
+   "titulo": "Tu ritmo visual",
+   "consigna": "Lento y contemplativo, rápido y energético, ordenado y geométrico, o caótico y fluido. Para elegir: ¿cómo hablás, rápido o pausado? ¿cómo te movés cuando creás? ¿qué ritmo tiene el contenido que más consumís? Después marcá cómo se traduce en composición: mucho espacio negativo, composiciones limpias, simetrías, cortes bruscos y diagonales, collage o capas, grillas y geometrías, estilo editorial, formas orgánicas, minimalismo, densidad visual.",
+   "campo": "lineas",
+   "lineas": [
+    "El ritmo, y un ejemplo de contenido ajeno que coincida",
+    "Cómo se traduce en composición",
+    "En una frase simple, tu ritmo visual es…"
+   ]
+  },
+  {
+   "titulo": "Texturas, formas y tus mundos",
+   "consigna": "Tres texturas —grano, papel, metálico, vaporoso, orgánico, minimalista, áspero, suave u otra— con tres palabras al lado de cada una, y qué textura no querés que esté presente. Después la forma dominante: curvas, rectas, orgánicas, fractales, minimalistas o densas. Y por último tus tres mundos, traducidos a íconos o símbolos que podrían aparecer en tu marca.",
+   "campo": "lineas",
+   "lineas": [
+    "Tres texturas, con tres palabras cada una",
+    "La textura que no querés",
+    "La forma dominante, y por qué",
+    "Tus tres mundos",
+    "Íconos o símbolos que podrían aparecer en tu marca"
+   ]
+  },
+  {
+   "titulo": "Tu moodboard",
+   "consigna": "Seis referencias que te generen estética. No hace falta pegar imágenes: alcanza con nombrarlas.",
+   "campo": "lineas",
+   "lineas": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "titulo": "Cómo suena tu presencia digital",
+   "consigna": "El tono: íntima, directa, reflexiva, técnica, irónica, suave, firme o minimalista. Para elegir: ¿cómo hablás cuando sos vos? ¿qué tono te incomoda porque no sos vos? ¿cómo querés que la gente te lea? Después cinco palabras ancla —las que se repiten naturalmente cuando escribís—, tres frases que tu marca diría, y tres cosas que tu comunicación no va a ser. Esto último es lo que limpia la identidad.",
+   "campo": "lineas",
+   "lineas": [
+    "Mi voz escrita se siente…",
+    "Cinco palabras ancla",
+    "Tres frases que mi marca diría",
+    "Tres cosas que mi comunicación NO va a ser"
+   ]
+  },
+  {
+   "titulo": "Tu línea editorial: los tres temas",
+   "consigna": "Los tres pilares sobre los que se construye todo tu contenido. Tienen que responder: qué sé hacer, cómo lo hago, y quién soy cuando lo hago. Si un tema no responde a ninguna de las tres, no es un pilar: es un extra. Para encontrarlos: ¿qué querés que recuerden de vos? ¿qué podés repetir sin cansarte? ¿qué posiciona tu valor?",
+   "campo": "lineas",
+   "lineas": [
+    "Tema 1",
+    "Tema 2",
+    "Tema 3"
+   ]
+  },
+  {
+   "titulo": "Tu arquetipo",
+   "consigna": "Uno solo, más un renglón explicando por qué. El Creador quiere hacer cosas nuevas y comparte procesos e ideas. El Sabio comparte conocimiento con claridad y estructura. El Explorador busca experiencias nuevas, movimiento y descubrimiento. El Cuidador acompaña y contiene, con tono cálido. El Visionario ve el futuro y propone formas nuevas. El Rebelde rompe reglas y dice verdades incómodas. El Guía orienta sin imponer y facilita el crecimiento de otros. El Héroe actúa e inspira desde el ejemplo, no desde la teoría. Para elegir: ¿qué rol ocupás cuando alguien te encuentra online? ¿qué esperan naturalmente de vos?",
+   "campo": "lineas",
+   "lineas": [
+    "El arquetipo",
+    "Por qué ese"
+   ]
+  },
+  {
+   "titulo": "Tu pasaporte visual",
+   "consigna": "La síntesis de todo lo anterior, escrita como una mini guía para vos. Es tu DNI estético: lo que se consulta cada vez que hay que decidir cómo se ve algo.",
+   "campo": "lineas",
+   "lineas": [
+    "Paleta base (3 colores)",
+    "Colores secundarios",
+    "Tipografías que me representan",
+    "Luz y atmósfera",
+    "Estética fotográfica",
+    "Texturas",
+    "Formas y geometrías",
+    "Sensación general",
+    "Tres palabras que definen mi estética"
+   ]
+  }
+ ]
+}
