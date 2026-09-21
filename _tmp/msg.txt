@@ -1,28 +1,23 @@
-Las dos cartas de Sebastian: cliente ideal y angulos, para mandar juntas
+La carta de angulos de Seba llega hasta donde puede hacerlo solo
 
-Franco ya definio el ICP el 16/09, asi que la carta de cliente ideal deja de
-plantearse como una definicion y pasa a ser una profundizacion: la bajada, la
-bajada de envio y el objetivo lo dicen de entrada. Sale de ahi la seccion de los
-tres primeros angulos, que se va a su propia carta.
+Correccion de Facu: armar los angulos y convertirlos en piezas es trabajo de
+Fede con el en la llamada, y le estabamos pidiendo eso de tarea. La carta ahora
+termina cuatro secciones antes: los dolores textuales, las preguntas, el giro
+propio y las frases que ya le funcionaron. Salen la tabla de 8 a 12 angulos, el
+guion, los tres del mes y las tres piezas publicadas.
 
-Aparece angulos-desde-icp--sebastian. Abre con un bloque nuestro que explica que
-son dos cartas y en que orden se completan: la del cliente ideal junta el
-material, esta lo convierte en piezas, y la primera seccion se completa copiando
-y no pensando. Los ejemplos se cambiaron por los de su propio caso donde
-correspondia, y suma un bloque nuestro sobre el agujero mas caro del caso: el
-reel de un millon cuatrocientas mil vistas no dejo una sola conversacion
-abierta, asi que la columna Cierre de la tabla de angulos es la que convierte el
-angulo en una consulta.
+Entra el ejemplo practico de las preguntas, que era lo mas dificil de resolver
+solo: tres dolores con su pregunta al lado, la regla de que van en primera
+persona como se las hace el a las once de la noche, y la prueba para saber si
+esta bien —si se contesta con un si, todavia es una encuesta y no un gancho—.
+Debajo tiene un campo para probar una antes de llenar la tabla.
 
-La pregunta de los diez clientes que ya le pagaron queda explicada: la escalera
-que dejo Franco es la del negocio de educacion —hacelo vos, con vos, por vos— y
-donde entra Estudio Gama 21 todavia no se hablo con el. Por eso los pedimos:
-para ver si esa produccion alimenta la escalera o corre en paralelo.
+Entra tambien un angulo armado de punta a punta, que no hay que completar: sale
+de una pieza que ya publico y muestra la forma completa, dolor, pregunta, giro,
+que se muestra, formato y cierre. Y cierra con la lista de lo que se baja con
+Fede, para que quede claro que esa llamada es de armado y no de arranque.
 
-Las dos cierran diciendo que pasa despues: con las dos devueltas se arma un solo
-documento de lanzamiento con el producto y la cohorte que cerro con Franco, los
-dolores, los angulos y lo que salga de sus clientes de produccion. Ese documento
-es con el que entra a la llamada de estrategia de comunicacion con Fede.
+La carta del cliente ideal ajusta su bloque de cierre para decir lo mismo.
 
 Verificadas a 1512 y a 390: sin desbordes, sin scroll horizontal y sin errores
 de JS.
