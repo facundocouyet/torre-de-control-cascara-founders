@@ -460,6 +460,16 @@ if __name__ == "__main__":
     for f in variantes(RAIZ):
         pl = json.load(open(f, encoding='utf-8'))
         mid = pl["modulo"]
+        # una variante sin secciones propias reusa la hoja generica del modulo y solo
+        # le agrega la bajada y los bloques nuestros de ese founder
+        if not pl.get("secciones"):
+            base = cargar_plantilla(RAIZ, mid) or {}
+            secs = list(base.get("secciones") or [])
+            pl.setdefault("titulo", base.get("titulo"))
+            pl.setdefault("bajada", base.get("bajada"))
+            pl.setdefault("lista_cuando", base.get("lista_cuando"))
+            pl["secciones"] = (list(pl.get("bloques_inicio") or []) + secs
+                               + list(pl.get("bloques_final") or []))
         if mid not in meta:
             print("m\u00f3dulo desconocido:", mid, "en", os.path.basename(f)); continue
         m, cat = meta[mid]

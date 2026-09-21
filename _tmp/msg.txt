@@ -1,27 +1,34 @@
-El patron del founder que abre con un infoproducto, escrito para Aye
+Diez cartas escritas para cinco founders, y la variante liviana
 
-El caso de Sebastian dejo un aprendizaje de roadmap que conviene tener escrito
-antes de que aparezca el siguiente igual: un founder con oficio y autoridad en
-un servicio que quiere poner un producto de educacion como el casillero de
-entrada de su escalera. Sofia Galvis es exactamente el mismo caso y esta a una
-llamada de Franco de necesitarlo.
+Una variante de founder ya no tiene que reescribir la hoja entera: si no trae
+secciones propias reusa la generica del modulo y solo le suma la bajada de envio
+y bloques nuestros al principio o al final. Con eso, escribir una carta para
+alguien es escribir por que le toca a el, que es lo unico que cambia casi
+siempre.
 
-El documento tiene cuatro partes: el recorrido real en cinco llamadas con
-fechas, los nueve movimientos en el orden que los hicimos, las cuatro senales
-para leer en que esta parado el caso sin abrir todo el historial, y las tres
-cosas que le tocan a la CSM. Mismo formato vertical que las cartas, sin campos
-para completar, porque es material del equipo y no una carta de modulo.
+Lucio: profile funnel. Viene de la llamada del fin de semana, donde quedo que
+esta semana graba freestyle en historias. La carta va al costado de eso, no
+encima, y el perfil ordenado es lo que le muestra a Fede en la grupal del
+viernes.
 
-Lo que queda escrito como regla: primero la oferta y despues el producto; la
-auditoria se hace contra los pilares que vendio el comercial; el que viene de
-servicios tiene mas producto del que cree; el punto A del alumno se documenta
-antes de la sesion 1; al founder sin historia en el producto nuevo no se le pide
-el ICP, se le pide profundizar el que bajo el comercial; lo que es decision
-nuestra se le da escrito; la carta llega hasta donde puede llegar solo; el
-negocio que ya factura queda nombrado; y las llamadas se encadenan con un
-documento y no con memoria.
+Aaron: pasaporte digital y angulos. El pasaporte nunca se le habia pasado y es
+lo que faltaba de la lista que cerro con Franco: identidad, avatar y oferta ya
+estan escritos en su documento. La carta de angulos abre con un bloque nuestro
+que le trae sus seis dolores ya definidos, para que la primera seccion se
+resuelva copiando y use el tiempo en el giro propio.
 
-Verificado a 1512 y a 390: sin desbordes ni scroll horizontal.
+Sofia: oferta, ICP y angulos, en ese orden. Es el mismo patron de Sebastian, un
+producto de educacion que todavia no existe, y nunca se le habia pasado nada.
+
+Sol: diario administrativo y profile funnel. Son las dos cosas que quedaron de
+nuestro lado en la llamada del 8 de septiembre y estaban sin mandar.
+
+Matias: ICP y angulos. Son los dos primeros pasos del proceso que quedo escrito
+en la llamada del 18, y los corre en paralelo sobre 23 Producciones y sobre su
+propia marca.
+
+Verificadas a 1512 y a 390: sin desbordes, sin scroll horizontal y sin errores
+de JS.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01X5PVbBwAY8Cfrb8woNrxbU

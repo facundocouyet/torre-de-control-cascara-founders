@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ICP del mecanismo que vendés · carta de módulo · Matías Morales</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#ECEAE4;color:#171717;
+  font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.hoja{max-width:880px;margin:0 auto;padding:64px 32px 120px}
+.caja{display:inline-block;border:1px solid #8E8B85;padding:6px 13px;font-size:10.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:#6A6A66}
+h1{font-size:clamp(38px,6vw,58px);font-weight:800;letter-spacing:-.038em;line-height:1.02;
+  margin:28px 0 0;text-wrap:balance}
+.bajada{font-size:21px;line-height:1.5;color:#6A6A66;margin:18px 0 0;max-width:60ch}
+.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:grid;
+  gap:22px 34px;grid-template-columns:1fr}
+.lista .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.lista .tx{font-size:17px;line-height:1.5;color:#6A6A66;max-width:58ch;margin-top:7px}
+.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;
+  white-space:nowrap;margin-top:22px}
+
+section{margin-top:62px}
+section .n{font-size:11px;letter-spacing:.2em;color:#8E8B85;font-variant-numeric:tabular-nums}
+section h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 0;max-width:62ch}
+
+.pasos{margin-top:26px}
+.paso{display:grid;grid-template-columns:52px minmax(0,1fr);gap:22px;align-items:baseline;
+  border-top:1px solid #DBD7D2;padding:20px 0}
+.paso .p{font-size:20px;font-weight:800;letter-spacing:-.04em;color:#8E8B85;
+  font-variant-numeric:tabular-nums;line-height:1.3}
+.paso .t{font-size:19px;line-height:1.55;max-width:58ch}
+
+.ejemplo{margin-top:22px;border-left:2px solid #DBD7D2;padding:4px 0 4px 20px}
+.ejemplo .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.ejemplo .tx{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:18px;line-height:1.5;color:#6A6A66;margin-top:8px;max-width:62ch}
+
+.campo{margin-top:24px}
+textarea,input[type=text]{width:100%;font:inherit;font-size:18px;line-height:1.55;color:#171717;
+  background:#FBFAF8;border:1px solid #DBD7D2;padding:14px 16px;border-radius:0;
+  transition:border-color .15s}
+textarea{resize:vertical}
+textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
+.lin{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px 18px;align-items:center;
+  border-top:1px solid #DBD7D2;padding:14px 0}
+.lin .rot{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.tabla{width:100%;border-collapse:collapse;margin-top:6px}
+.tabla th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:#6A6A66;font-weight:400;padding:0 10px 10px 0;border-bottom:2px solid #171717}
+.tabla td{padding:0;border-bottom:1px solid #DBD7D2}
+.tabla input{border:0;background:transparent;padding:12px 10px 12px 0}
+.tabla input:focus{background:#FBFAF8}
+.tabla td.rotfila{font-size:17px;font-weight:700;letter-spacing:-.01em;padding:12px 18px 12px 0;white-space:nowrap}
+.envoltorio{overflow-x:auto}
+
+/* lo que ponemos nosotros: texto escrito, no campo para completar */
+.nuestro{margin-top:62px;border-left:3px solid #171717;padding:2px 0 2px 26px}
+.nuestro .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.nuestro h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+.nuestro p{font-size:18.5px;line-height:1.55;margin:16px 0 0;max-width:62ch}
+.nuestro .devuelta{margin-top:26px;border-top:1px solid #DBD7D2;padding-top:18px}
+.nuestro .devuelta .k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+
+.entregables{margin-top:26px}
+.cab{border-bottom:2px solid #171717;padding-bottom:12px}
+.cab .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.chk{display:grid;grid-template-columns:26px minmax(0,1fr);gap:18px;align-items:start;
+  border-bottom:1px solid #DBD7D2;padding:18px 0;cursor:pointer}
+.chk .box{position:relative;flex:0 0 auto;width:20px;height:20px;border:2px solid #6A6A66;margin-top:3px}
+.chk .box i{position:absolute;left:4px;top:1px;width:8px;height:14px;
+  border-right:3px solid #171717;border-bottom:3px solid #171717;
+  transform:rotate(45deg) scale(0);transform-origin:center;
+  transition:transform .16s cubic-bezier(.2,1.4,.4,1)}
+.chk.done .box i{transform:rotate(45deg) scale(1)}
+.chk .t{font-size:19px;line-height:1.55;max-width:58ch}
+/* el fibrón pasa por el medio de la letra, y en cada línea del renglón */
+.chk .txt{display:inline;background-repeat:no-repeat;background-position:0 center;background-size:0% 8px;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 10' preserveAspectRatio='none'%3E%3Cpath d='M0 4.2L6 .8L24 6L44 1.2L68 6.6L94 1.4L120 6.2L144 1L170 6.4L192 1.6L200 5L200 9.2L0 8.8Z' fill='%23171717'/%3E%3C/svg%3E");
+  -webkit-box-decoration-break:clone;box-decoration-break:clone;
+  transition:background-size .28s cubic-bezier(.3,.9,.3,1),color .2s}
+.chk.done .txt{background-size:100% 8px;color:#8E8B85}
+.chk:focus-visible{outline:1px solid #171717;outline-offset:4px}
+
+/* la bajada personalizada, cuando se prepara el envío desde la torre */
+.bajada-bloque{margin-top:56px;border:1px solid #171717;padding:30px 28px;background:#FBFAF8}
+.bajada-bloque .tt{font-size:26px;font-weight:800;letter-spacing:-.028em;line-height:1.2}
+.bajada-bloque .sub{font-size:17px;line-height:1.5;color:#6A6A66;margin-top:10px;max-width:58ch}
+.bajada-grilla{display:grid;gap:24px;margin-top:26px;grid-template-columns:1fr!important}
+.bajada-grilla .k{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85;
+  border-top:2px solid #171717;padding-top:14px}
+.bajada-grilla .v{font-size:18.5px;line-height:1.55;margin-top:9px;max-width:58ch}
+
+.acc{position:sticky;bottom:0;background:#ECEAE4;border-top:1px solid #DBD7D2;
+  padding:14px 0;margin-top:62px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.acc button{font:inherit;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  border:1px solid #171717;background:transparent;color:#171717;padding:13px 18px;cursor:pointer}
+.acc button.tinta{background:#171717;color:#ECEAE4}
+.acc button:hover{background:#171717;color:#ECEAE4}
+.acc button.tinta:hover{background:transparent;color:#171717}
+.acc .dicho{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:15px;color:#6A6A66}
+
+.pie{margin-top:48px;border-top:1px solid #171717;padding-top:22px;display:flex;
+  justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6A6A66}
+.sello{width:28px;height:28px;border:1.5px solid #171717;display:inline-flex;
+  align-items:center;justify-content:center;font-size:13px;font-weight:800}
+
+@media (max-width:640px){
+  .hoja{padding:40px 20px 90px}
+  .paso{grid-template-columns:38px minmax(0,1fr);gap:14px}
+  .lin{grid-template-columns:1fr;gap:8px}
+  .tabla{min-width:560px}
+  .bajada-bloque{padding:22px 18px}
+}
+@media print{
+  body{background:#fff}
+  .acc{display:none}
+  textarea,input{border-color:#bbb;background:#fff}
+  section{break-inside:avoid;margin-top:40px}
+  .chk{cursor:default}
+}
+</style>
+</head>
+<body data-mod="icp-mecanismo">
+<div class="hoja">
+<main id="deck">
+<header class="slot">
+  <div class="caja">Carta de módulo · Oferta y precio</div>
+  <h1>ICP del mecanismo que vendés</h1>
+  <p class="bajada">Una hoja con quién te compra, en qué momento del negocio está, qué problema le resuelve tu mecanismo y con qué palabras lo cuenta él. Es la base del contenido, de la propuesta y del precio.</p>
+  <div class="lista">
+    <div><div class="et">Cuándo se asigna</div><div class="tx">Cuando el founder describe a su cliente por rubro o por tamaño y todavía no por el problema que le resuelve el mecanismo.</div></div>
+    <div><div class="et">Está lista cuando</div><div class="tx">Le mandás la frase del cliente ideal a tres personas que ya te compraron y las tres se reconocen sin que tengas que explicarla.</div></div>
+  </div>
+  <div class="avance">0 de 8 empezadas</div>
+</header>
+<div class="bajada-bloque">
+  <div class="tt">Por qué esta carta, Matías</div>
+  <div class="sub">Esto lo escribimos para vos, sobre lo que venimos viendo en tu caso.</div>
+  <div class="bajada-grilla">
+    <div><div class="k">Por qué te toca ahora</div><div class="v">En la llamada del 18 quedó el proceso escrito: definir el ICP, identificar los ángulos, agruparlos en pilares y recién ahí el calendario. Estas dos cartas son los dos primeros pasos de ese proceso, y lo corrés dos veces en paralelo: sobre 23 Producciones y sobre tu propia marca. Esta es la del ICP y va primera. Y tiene una lectura tuya: el pivote de DJs a marcas personales se decide acá. Mariano Gago y Rubén rechazaron por costo, y eso no es una objeción de precio, es una señal de poder de compra del nicho.</div></div>
+    <div><div class="k">El objetivo concreto</div><div class="v">El cliente ideal de 23 Producciones y el tuyo, cada uno en una frase con momento, problema y presupuesto. Con eso la etapa 1 de tu oferta, la estrategia creativa, deja de ser un servicio y pasa a ser un producto con precio.</div></div>
+    <div><div class="k">Con qué cabeza encararla</div><div class="v">Los DJs que ya tenés no se tiran: pasan a ser casos de estudio de marca personal. Cambia el rótulo, no el trabajo hecho.</div></div>
+  </div>
+</div>
+<section>
+  <div class="n">01</div>
+  <h2>Qué tenés que hacer</h2>
+  <p class="consigna">En este orden. Cada paso se apoya en el anterior, así que no conviene saltear ninguno aunque parezca obvio. Abajo está la hoja para resolverlos, uno por uno.</p>
+  <div class="pasos">
+    <div class="paso"><span class="p">01</span><span class="t">Listar los últimos diez clientes o consultas y anotar qué compró cada uno y por qué.</span></div>
+    <div class="paso"><span class="p">02</span><span class="t">Quedarse con los tres que dejaron mejor resultado y buscar qué tienen en común.</span></div>
+    <div class="paso"><span class="p">03</span><span class="t">Escribir el cliente ideal en una frase que incluya momento del negocio, problema y presupuesto.</span></div>
+    <div class="paso"><span class="p">04</span><span class="t">Anotar los dolores con las palabras textuales que usa el cliente, sacadas de mensajes y llamadas.</span></div>
+    <div class="paso"><span class="p">05</span><span class="t">Definir la subcategoría donde se posiciona el mecanismo, para dejar de competir por precio.</span></div>
+    <div class="paso"><span class="p">06</span><span class="t">Descartar por escrito los nichos que quedan afuera del tramo.</span></div>
+  </div>
+</section>
+<section class="trabajo">
+  <div class="n">02</div>
+  <h2>Los últimos diez que compraron o preguntaron</h2>
+  <p class="consigna">Diez clientes o consultas reales de los últimos dos años, con lo que compró cada uno, cuánto pagó y por qué te buscó. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Media hora buscando acá vale más que una hora escribiendo un cliente ideal inventado.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Custom Lab</div><div class="tx">Juan armó en Notion la base histórica de dos años: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién contactó, quién decide la compra y si repitió. Con esa lista salieron a recontactar y vendieron.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Quién</th><th>Qué compró</th><th>Cuánto pagó</th><th>Por qué te buscó</th><th>Resultado que dejó</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s0f0c0"></td><td><input type="text" data-c="s0f0c1"></td><td><input type="text" data-c="s0f0c2"></td><td><input type="text" data-c="s0f0c3"></td><td><input type="text" data-c="s0f0c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f1c0"></td><td><input type="text" data-c="s0f1c1"></td><td><input type="text" data-c="s0f1c2"></td><td><input type="text" data-c="s0f1c3"></td><td><input type="text" data-c="s0f1c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f2c0"></td><td><input type="text" data-c="s0f2c1"></td><td><input type="text" data-c="s0f2c2"></td><td><input type="text" data-c="s0f2c3"></td><td><input type="text" data-c="s0f2c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f3c0"></td><td><input type="text" data-c="s0f3c1"></td><td><input type="text" data-c="s0f3c2"></td><td><input type="text" data-c="s0f3c3"></td><td><input type="text" data-c="s0f3c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f4c0"></td><td><input type="text" data-c="s0f4c1"></td><td><input type="text" data-c="s0f4c2"></td><td><input type="text" data-c="s0f4c3"></td><td><input type="text" data-c="s0f4c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f5c0"></td><td><input type="text" data-c="s0f5c1"></td><td><input type="text" data-c="s0f5c2"></td><td><input type="text" data-c="s0f5c3"></td><td><input type="text" data-c="s0f5c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f6c0"></td><td><input type="text" data-c="s0f6c1"></td><td><input type="text" data-c="s0f6c2"></td><td><input type="text" data-c="s0f6c3"></td><td><input type="text" data-c="s0f6c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f7c0"></td><td><input type="text" data-c="s0f7c1"></td><td><input type="text" data-c="s0f7c2"></td><td><input type="text" data-c="s0f7c3"></td><td><input type="text" data-c="s0f7c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f8c0"></td><td><input type="text" data-c="s0f8c1"></td><td><input type="text" data-c="s0f8c2"></td><td><input type="text" data-c="s0f8c3"></td><td><input type="text" data-c="s0f8c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f9c0"></td><td><input type="text" data-c="s0f9c1"></td><td><input type="text" data-c="s0f9c2"></td><td><input type="text" data-c="s0f9c3"></td><td><input type="text" data-c="s0f9c4"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">03</div>
+  <h2>Los tres mejores y qué tienen en común</h2>
+  <p class="consigna">Quedate con los tres que dejaron mejor resultado, contando lo que pagaron, lo que te costó entregarlo y si volvieron. Buscá qué tienen en común por el problema que traían y por el momento del negocio en el que estaban. Cuando el parecido que aparece es el rubro, seguí mirando: el rubro se ve de afuera y el problema es el que hace comprar.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió José David Fajardo</div><div class="tx">Mirando juntas sus tres ventas de tres mil dólares apareció el patrón: marcas con e-commerce y con creativos rotando por la fatiga de anuncios. De ahí salió el mecanismo que hoy vende.</div></div>
+    <div class="campo"><textarea data-c="s1" rows="5" placeholder="Los tres fueron… y los tres tenían…"></textarea></div>
+</section>
+<section class="trabajo">
+  <div class="n">04</div>
+  <h2>Qué hace tu mecanismo, en una frase</h2>
+  <p class="consigna">Escribí lo que vos hacés cuando entrás, contado por el movimiento concreto que le hacés al negocio del cliente y por el número que se mueve. Tiene que poder verificarse adentro del plazo de tu contrato y con una herramienta que el cliente pueda abrir. Si el resultado depende de algo que maneja otro, corregí la frase hasta que quede lo que vos sí controlás.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Lucca Sorgoni</div><div class="tx">Entra como co-anfitrión a la cuenta de Airbnb del dueño y le sube la facturación con estrategia de precios. Se compara mes contra mes con un software y el dueño lo ve a los dos meses. Objeciones, cero.</div></div>
+    <div class="campo"><textarea data-c="s2" rows="4" placeholder="Entro a… muevo… y eso se ve en…"></textarea></div>
+</section>
+<section class="trabajo">
+  <div class="n">05</div>
+  <h2>El cliente ideal, en una frase</h2>
+  <p class="consigna">Una sola frase con el momento del negocio, el problema que tiene hoy y con cuánto cuenta para resolverlo. El momento es algo que se puede verificar de afuera: cuánto factura, cuánta gente tiene, qué equipo ya armó. Si la frase le sirve igual a alguien que arranca y a alguien que factura cien mil por mes, todavía es ancha.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Lucio Labate</div><div class="tx">Empresas B2B que ya tienen equipo de marketing y no tienen diseñador adentro, que necesitan usar la inteligencia artificial sin que el resultado les quede mal.</div></div>
+    <div class="campo"><textarea data-c="s3" rows="4" placeholder="Alguien que está en… tiene el problema de… y puede poner…"></textarea></div>
+</section>
+<section class="trabajo">
+  <div class="n">06</div>
+  <h2>Cómo lo dice él, textual</h2>
+  <p class="consigna">Cuatro o cinco frases copiadas tal cual de mensajes, comentarios y llamadas, sin arreglarle la gramática. Estas frases después son el título de las piezas y son el copy de la propuesta, así que la fidelidad importa más que la prolijidad. Si no tenés cuatro, pasá media hora en los comentarios de tus últimos diez posteos y en los mensajes sin responder.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Sebastián Martínez</div><div class="tx">Los mil ochocientos comentarios del reel del miedo a grabarse decían todos lo mismo: gracias, me empujaste, era el empujón que necesitaba. Ahí estaba el dolor escrito con las palabras del cliente.</div></div>
+    <div class="campo"><textarea data-c="s4" rows="5" placeholder="Una frase por línea, tal cual la dijeron."></textarea></div>
+</section>
+<section class="trabajo">
+  <div class="n">07</div>
+  <h2>La subcategoría donde te paras</h2>
+  <p class="consigna">Cómo se llama lo que vendés, en qué cajón te mete el cliente cuando te conoce y en qué subcategoría elegís pararte de acá en adelante. La subcategoría se elige por el problema que nadie está cubriendo en tu mercado, y es la que saca la conversación del precio. Dejá escrito con quién te compara el cliente hoy, porque contra eso vas a tener que diferenciarte en la llamada.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Ayelén Cerqueira</div><div class="tx">Eligió estrategia creativa para la construcción de comunidades, y ahí atiende algo que el mercado tiene descubierto: marcas con muchos seguidores y ninguna comunidad atrás.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">Cómo se llama lo que vendés</span><input type="text" data-c="s5l0" placeholder=""></div>
+      <div class="lin"><span class="rot">En qué cajón te mete el cliente hoy</span><input type="text" data-c="s5l1" placeholder=""></div>
+      <div class="lin"><span class="rot">La subcategoría que elegís</span><input type="text" data-c="s5l2" placeholder=""></div>
+      <div class="lin"><span class="rot">Con quién te compara</span><input type="text" data-c="s5l3" placeholder=""></div>
+      <div class="lin"><span class="rot">Por qué te elige a vos</span><input type="text" data-c="s5l4" placeholder=""></div>
+    </div>
+</section>
+<section class="trabajo">
+  <div class="n">08</div>
+  <h2>Los nichos que quedan afuera del tramo</h2>
+  <p class="consigna">Escribí los nichos y tipos de cliente que dejás de perseguir hasta el cierre del tramo, con el motivo en una línea. Afuera van los que te ponen techo de precio, los que te obligan a estar presente y los que no tienen presupuesto ni fechas que se repitan. Al que ya está adentro se le define qué pasa: se lo reprecia, se lo termina en fecha o se lo deriva.</p>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Nicho o tipo de cliente</th><th>Por qué queda afuera</th><th>Qué pasa con los que ya están</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s6f0c0"></td><td><input type="text" data-c="s6f0c1"></td><td><input type="text" data-c="s6f0c2"></td></tr>
+        <tr><td><input type="text" data-c="s6f1c0"></td><td><input type="text" data-c="s6f1c1"></td><td><input type="text" data-c="s6f1c2"></td></tr>
+        <tr><td><input type="text" data-c="s6f2c0"></td><td><input type="text" data-c="s6f2c1"></td><td><input type="text" data-c="s6f2c2"></td></tr>
+        <tr><td><input type="text" data-c="s6f3c0"></td><td><input type="text" data-c="s6f3c1"></td><td><input type="text" data-c="s6f3c2"></td></tr>
+        <tr><td><input type="text" data-c="s6f4c0"></td><td><input type="text" data-c="s6f4c1"></td><td><input type="text" data-c="s6f4c2"></td></tr>
+        <tr><td><input type="text" data-c="s6f5c0"></td><td><input type="text" data-c="s6f5c1"></td><td><input type="text" data-c="s6f5c2"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">09</div>
+  <h2>Probala con tres que ya te compraron</h2>
+  <p class="consigna">Mandale la frase del cliente ideal y las frases textuales a tres clientes o consultas de la tabla, y preguntales si se reconocen y qué cambiarían. Anotá la respuesta con sus palabras. Si dos de los tres te corrigen la misma parte, esa parte se reescribe antes de usar la hoja para vender.</p>
+    <div class="campo"><textarea data-c="s7" rows="5" placeholder="A quiénes se la mandé, qué contestaron y qué reescribo."></textarea></div>
+</section>
+<section>
+  <div class="n">10</div>
+  <h2>Los entregables</h2>
+  <p class="consigna">La carta está hecha cuando estas 3 cosas existen. Tocá cada uno cuando lo termines: quedan tachados y se guardan en este navegador.</p>
+  <div class="entregables">
+    <div class="cab"><span class="et">Lo que tiene que existir</span></div>
+    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c0" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">El formulario de ICP y dolores con las palabras textuales del cliente</span></span></div>
+    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c1" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La tabla de los últimos diez clientes o consultas con motivo de compra</span></span></div>
+    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c2" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La frase del cliente ideal y la subcategoría elegida</span></span></div>
+  </div>
+</section>
+</main>
+<div class="acc">
+  <button class="tinta" data-a="bajar">Descargar completada</button>
+  <button data-a="imprimir">Imprimir</button>
+  <button data-a="limpiar">Vaciar la hoja</button>
+  <span class="dicho">Lo que escribís se guarda solo en este navegador.</span>
+</div>
+<div class="pie"><div><span class="sello">C</span></div><div>Cáscara Founders · Oferta y precio</div></div>
+</div>
+<template id="tpl-bajada">
+<div class="bajada-bloque">
+  <div data-b="titulo" class="tt"></div>
+  <div class="sub">Esto lo escribimos para vos, sobre lo que venimos viendo en tu caso.</div>
+  <div data-b="grilla" class="bajada-grilla">
+    <div data-b="fila-porque"><div class="k">Por qué te toca ahora</div><div data-b="porque" class="v"></div></div>
+    <div data-b="fila-objetivo"><div class="k">El objetivo concreto</div><div data-b="objetivo" class="v"></div></div>
+    <div data-b="fila-mindset"><div class="k">Con qué cabeza encararla</div><div data-b="mindset" class="v"></div></div>
+  </div>
+</div>
+</template>
+<script>
+(function(){
+  var MOD=document.body.dataset.mod||'x';
+  var KC='cf-carta-'+MOD, KP='cf-pl-'+MOD;
+
+  /* ---- los entregables tachables ---- */
+  var st={}; try{ st=JSON.parse(localStorage.getItem(KC)||'{}'); }catch(e){}
+  function pintar(){
+    document.querySelectorAll('.chk').forEach(function(el){
+      el.classList.toggle('done', !!st[el.dataset.k]);
+      el.setAttribute('aria-checked', st[el.dataset.k]?'true':'false');});
+  }
+  document.addEventListener('click',function(e){
+    var el=e.target.closest && e.target.closest('.chk'); if(!el)return;
+    st[el.dataset.k]=!st[el.dataset.k];
+    try{ localStorage.setItem(KC,JSON.stringify(st)); }catch(err){}
+    pintar();});
+  document.addEventListener('keydown',function(e){
+    if(e.key!==' '&&e.key!=='Enter')return;
+    var el=document.activeElement && document.activeElement.closest && document.activeElement.closest('.chk');
+    if(!el)return; e.preventDefault(); el.click();});
+  pintar();
+
+  /* ---- lo que se escribe en la hoja ---- */
+  function todos(){return Array.prototype.slice.call(document.querySelectorAll('[data-c]'))}
+  function auto(el){ if(el.tagName==='TEXTAREA'){ el.style.height='auto'; el.style.height=(el.scrollHeight+2)+'px'; } }
+  function contar(){
+    var s=document.querySelectorAll('section.trabajo'), n=0;
+    s.forEach(function(sec){
+      var lleno=false;
+      sec.querySelectorAll('[data-c]').forEach(function(el){ if(el.value && el.value.trim()) lleno=true; });
+      if(lleno) n++;
+    });
+    var a=document.querySelector('.avance');
+    if(a) a.textContent = s.length ? (n+' de '+s.length+' empezadas') : '';
+  }
+  function guardar(){
+    var v={}; todos().forEach(function(el){ if(el.value) v[el.dataset.c]=el.value; });
+    try{localStorage.setItem(KP,JSON.stringify(v))}catch(e){}
+    contar();
+  }
+  function cargar(){
+    var v={}; try{v=JSON.parse(localStorage.getItem(KP)||'{}')}catch(e){}
+    todos().forEach(function(el){ if(v[el.dataset.c]!=null) el.value=v[el.dataset.c]; auto(el); });
+    contar();
+  }
+  document.addEventListener('input',function(e){
+    if(!e.target.dataset || !e.target.dataset.c) return; auto(e.target); guardar();
+  });
+  var bl=document.querySelector('[data-a="limpiar"]');
+  if(bl) bl.addEventListener('click',function(){
+    if(!confirm('Esto borra todo lo que escribiste en esta carta. \u00bfSeguimos?')) return;
+    todos().forEach(function(el){el.value='';auto(el)}); guardar();
+  });
+  var bi=document.querySelector('[data-a="imprimir"]');
+  if(bi) bi.addEventListener('click',function(){window.print()});
+  var bd=document.querySelector('[data-a="bajar"]');
+  if(bd) bd.addEventListener('click',async function(){
+    todos().forEach(function(el){
+      if(el.tagName==='TEXTAREA') el.textContent=el.value; else el.setAttribute('value',el.value||'');
+    });
+    var html='<!doctype html>\n'+document.documentElement.outerHTML;
+    var nom='carta-'+MOD+'.html';
+    var dl=null; try{ dl=await claude.use('downloads'); }catch(e){}
+    if(dl){ try{ await dl.save({filename:nom,data:html}); return; }catch(e){ if(e&&e.code==='declined')return; } }
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([html],{type:'text/html'})); a.download=nom;
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+  cargar();
+  window.addEventListener('resize',function(){todos().forEach(auto)});
+})();
+</script>
+</body></html>

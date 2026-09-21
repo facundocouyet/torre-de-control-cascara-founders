@@ -1,0 +1,23 @@
+{
+ "modulo": "pasaporte-digital",
+ "slug": "aaron-aiello",
+ "founder": "Aaron Aiello",
+ "bajada_envio": {
+  "founder": "Aaron Aiello",
+  "porque": "Con Franco ya cerraste identidad, avatar y oferta: el documento que nos pasaste tiene propósito, misión, visión, dolores y la oferta de las tres patas. Lo que falta es la materia prima de tu contenido, que es tu propia historia. Esto es lo que nunca te pasé y es lo que va primero, porque los ángulos de comunicación salen de acá y no de la oferta.",
+  "objetivo": "Tu pasaporte escrito: de dónde venís, qué cambió este año, qué te pasó adentro del mundo del infoproducto y por qué te querés correr. Es el material del que salen los ángulos, y es lo que hace que la tercera pata del método —identidad y mentalidad— la puedas contar en vez de explicarla.",
+  "mindset": "Vos mismo escribiste que tu marca personal es el primer caso de éxito documentado del modelo híbrido. Entonces esto no es un ejercicio de branding: es juntar el material del caso. Autenticidad radical significa que las inseguridades entran, no que se editan."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que ya está cerrado con Franco",
+   "texto": [
+    "Tu identidad de marca, el avatar y la oferta ya están escritos y no se tocan acá. El propósito, la misión —ayudar a emprendedores de marca personal e infoproductos que ya facturan a escalar partiendo de la identidad y la mentalidad—, la visión a 5 años y los cinco valores están definidos.",
+    "El avatar también: el que ya vende o puede vender online, con tracción real en redes, facturando entre 2.000 y 5.000 dólares por mes, que siente que trabaja mucho para lo que factura y que es consciente del síntoma y no de la causa. Y los seis dolores principales, desde la fatiga por acompañamientos que lo trataron como un número hasta el vacío de propósito de fondo.",
+    "La oferta es el método híbrido de tres patas: estrategia de venta, que es tu método ya validado; identidad de marca; y mentalidad empresarial. Con precio, cupos, fecha de inicio y un tope de 2 clientes B2B.",
+    "Lo único que falta de esa lista es esta hoja. El resto del método lo tenés validado; la pata nueva se construye desde tu propio proceso, y eso empieza por escribirlo."
+   ]
+  }
+ ]
+}
