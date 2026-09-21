@@ -15,9 +15,7 @@
   "Mandarle esa frase a tres personas y ajustarla con lo que te contesten."
  ],
  "completar": [
-  "La tabla de los cuatro perfiles con su dolor y su pregunta",
-  "Las cinco conversaciones reales anotadas textual",
-  "La frase del alumno ideal y la frase de qué hace el programa"
+  "Esta carta completa, con los cuatro perfiles, las cinco conversaciones y las dos frases escritas"
  ],
  "bajada_envio": {
   "founder": "Sebastián Martínez",
@@ -28,25 +26,32 @@
  "secciones": [
   {
    "titulo": "Los clientes que ya te pagaron",
-   "consigna": "Los últimos diez clientes o consultas reales de Estudio Gama 21 y de tu trabajo como director creativo, con lo que te compró cada uno, cuánto pagó y por qué te buscó. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Esto no es el alumno del programa: es de dónde viene tu autoridad y el piso desde donde se arma la escalera, y es lo que explica por qué alguien te paga 1.000 dólares por enseñarle.",
+   "consigna": "Los últimos diez clientes o consultas reales de Estudio Gama 21 y de tu trabajo como director creativo, con lo que te compró cada uno, cuánto pagó y por qué te buscó. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Esto no es el alumno del programa: es de dónde viene tu autoridad y el piso desde donde se arma la escalera, y es lo que explica por qué alguien te va a pagar por enseñarle.",
    "ejemplo": {
     "quien": "Custom Lab",
     "texto": "Juan armó en Notion la base histórica de dos años: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién contactó, quién decide la compra y si repitió. Con esa lista salieron a recontactar y vendieron."
    },
    "campo": "tabla",
-   "columnas": ["Quién", "Qué te compró", "Cuánto pagó", "Por qué te buscó", "Era evento, marca o creador"],
+   "columnas": [
+    "Quién",
+    "Qué te compró",
+    "Cuánto pagó",
+    "Por qué te buscó",
+    "Era evento, marca o creador"
+   ],
    "filas": 10
   },
   {
    "nuestro": true,
-   "titulo": "Tu escalera de valor, con precio",
+   "titulo": "Tu escalera de valor",
    "texto": [
-    "Peldaño 1, el programa de 8 semanas, entre 997 y 1.200 dólares, 12 a 15 cupos. Lo compra el creativo que ya tiene oficio y se esconde detrás de su trabajo.",
-    "Peldaño 2, la producción de Estudio Gama 21. La compra el que ya entendió que necesita contenido y decide no hacerlo solo. Precio por proyecto, el que ya cobrás.",
-    "Peldaño 3, la dirección creativa, que es lo que hacés con Emilio Axis. Pocos, caro, y es el que hace creíble al de abajo.",
-    "Es la misma forma que la escalera de Cáscara: Romper la Cáscara, después Founders con mentoría uno a uno, arriba Partners con equity. El peldaño de abajo alimenta al de arriba con gente, y el de arriba le da autoridad al de abajo. Por eso el programa no es un desvío de lo que ya hacés: es la puerta de entrada a lo mismo."
+    "Casillero 1, el programa de 8 semanas. Lo compra el creativo que ya tiene oficio y se esconde detrás de su trabajo.",
+    "Casillero 2, la producción de Estudio Gama 21. La compra el que ya entendió que necesita contenido y decide no hacerlo solo.",
+    "Casillero 3, la dirección creativa, que es lo que hacés con Emilio Axis. Pocos, y es el que hace creíble al de abajo.",
+    "Es la misma forma que la escalera de Cáscara: Romper la Cáscara, después Founders con mentoría uno a uno, arriba Partners con equity. El casillero de abajo alimenta al de arriba con gente, y el de arriba le da autoridad al de abajo. Por eso el programa no es un desvío de lo que ya hacés: es la puerta de entrada a lo mismo.",
+    "Los números de cada casillero los cerrás con Franco en la llamada."
    ],
-   "pregunta": "Qué le cambiarías a estos tres peldaños"
+   "pregunta": "Qué le cambiarías a estos tres casilleros"
   },
   {
    "titulo": "Los cuatro perfiles y qué le duele a cada uno",
@@ -56,8 +61,21 @@
     "texto": "Tu propio reel ya hizo esta pregunta sin que la escribieras: por qué te da vergüenza grabarte en público. Mil ochocientas personas contestaron que sí, que les pasa. Esa es la temperatura que tiene que tener cada pregunta de esta tabla."
    },
    "campo": "tabla",
-   "columnas": ["Perfil", "De qué vive hoy", "Qué le duele", "La pregunta que se lo hace decir", "Por qué le serviría entrar"],
-   "filas_rotulo": ["El diseñador", "El editor", "El fotógrafo", "El filmmaker", "", ""],
+   "columnas": [
+    "Perfil",
+    "De qué vive hoy",
+    "Qué le duele",
+    "La pregunta que se lo hace decir",
+    "Por qué le serviría entrar"
+   ],
+   "filas_rotulo": [
+    "El diseñador",
+    "El editor",
+    "El fotógrafo",
+    "El filmmaker",
+    "",
+    ""
+   ],
    "filas": 6
   },
   {
@@ -68,7 +86,12 @@
     "texto": "Franco le planteó lo mismo: antes de inventar contenido, auditar a los clientes que ya tiene y preguntarles. El ángulo es mejorar el servicio, no pedir un testimonio, y así la gente contesta de verdad."
    },
    "campo": "tabla",
-   "columnas": ["A quién", "Qué perfil es", "Qué le preguntaste", "Qué contestó, textual"],
+   "columnas": [
+    "A quién",
+    "Qué perfil es",
+    "Qué le preguntaste",
+    "Qué contestó, textual"
+   ],
    "filas": 5
   },
   {
@@ -86,14 +109,21 @@
    "titulo": "De dónde vino cada tanda de seguidores",
    "consigna": "Separá la pieza que hizo más vistas de la que trajo más seguidores. Casi nunca son la misma, y la segunda es la que te está marcando el segmento que paga. Con dos o tres piezas alcanza para ver el patrón.",
    "campo": "lineas",
-   "lineas": ["Seguidores hoy", "Mediana de views", "La pieza de más vistas", "Qué gente trajo", "La pieza que más seguidores trajo", "Qué gente trajo"]
+   "lineas": [
+    "Seguidores hoy",
+    "Mediana de views",
+    "La pieza de más vistas",
+    "Qué gente trajo",
+    "La pieza que más seguidores trajo",
+    "Qué gente trajo"
+   ]
   },
   {
    "nuestro": true,
    "titulo": "La subcategoría donde te parás",
    "texto": [
     "Contenido para creativos es una categoría llena y ahí competís contra todos. La subcategoría tuya es más angosta y no la está atendiendo nadie con tu autoridad: el creativo que vive de sus servicios y necesita ponerse adelante de cámara para que lo contraten por criterio y no por precio.",
-    "No es producción de contenido, que es lo que vendés en el peldaño 2. No es marca personal en general. Es la cámara como herramienta comercial para alguien que ya sabe hacer su trabajo y se esconde detrás de él.",
+    "No es producción de contenido, que es lo que vendés en el casillero 2. No es marca personal en general. Es la cámara como herramienta comercial para alguien que ya sabe hacer su trabajo y se esconde detrás de él.",
     "Esto te lo dejamos escrito porque es una decisión de posicionamiento y es la parte donde entramos nosotros. Lo que sí necesitamos de vos es si te suena tuyo cuando lo leés en voz alta."
    ],
    "pregunta": "Leelo en voz alta: qué parte no suena a vos"
@@ -103,9 +133,9 @@
    "titulo": "Quién queda afuera de este tramo",
    "texto": [
     "El que ya vive de su producto digital: necesita escala y equipo, no empezar. Ese es consultoría, no el programa.",
-    "El que quiere que le produzcas el video: es cliente del peldaño 2, de Estudio Gama 21.",
+    "El que quiere que le produzcas el video: es cliente del casillero 2, de Estudio Gama 21.",
     "El que quiere crecer en seguidores sin vender nada: el programa mide consultas y ventas, no alcance.",
-    "La marca o la empresa que necesita contenido: peldaño 2 o 3, según el tamaño.",
+    "La marca o la empresa que necesita contenido: casillero 2 o 3, según el tamaño.",
     "Dejarlos afuera por escrito es lo que después te deja decir que sí rápido, y es lo que hace que el contenido deje de hablarle a todos."
    ],
    "pregunta": "Alguno de estos te parece que sí entra"

@@ -375,8 +375,10 @@ def construir(m, categoria, pl=None, bajada=None):
         out.append('<section>')
         out.append('  <div class="n">%02d</div>' % n)
         out.append('  <h2>Los entregables</h2>')
-        out.append('  <p class="consigna">%s Tocá cada uno cuando lo termines: queda tachado y se guarda '
-                   'en este navegador.</p>' % _plural(len(comp)))
+        toque = ('Tocalo cuando lo termines: queda tachado y se guarda en este navegador.'
+                 if len(comp) == 1 else
+                 'Tocá cada uno cuando lo termines: quedan tachados y se guardan en este navegador.')
+        out.append('  <p class="consigna">%s %s</p>' % (_plural(len(comp)), toque))
         out.append('  <div class="entregables">')
         out.append('    <div class="cab"><span class="et">Lo que tiene que existir</span></div>')
         for i, x in enumerate(comp):

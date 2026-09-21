@@ -1,29 +1,19 @@
-El ICP de Sebastian deja de pedirle una lista que no tiene
+Casillero en vez de peldano, sin numeros de precio y un solo entregable
 
-Correccion de Facu del 21/9: la hoja generica asume que el founder ya vendio y
-mira para atras. Seba nunca lanzo un programa de educacion, hizo eventos
-presenciales y produccion, asi que su cliente ideal hay que descubrirlo
-preguntando. La hoja pasa a girar alrededor de los cuatro perfiles que creemos
-que compran (el disenador, el editor, el fotografo, el filmmaker): de que vive
-cada uno, que le duele, la pregunta que se lo hace decir en voz alta y por que le
-serviria entrar. Despues sale a hacerle esa pregunta a cinco personas reales y
-anota textual lo que contestan. Los diez clientes que ya le pagaron se quedan,
-porque de ahi sale la autoridad y el piso de la escalera.
+Tres correcciones de Facu sobre la carta de Sebastian:
 
-Aparece un tipo de bloque nuevo: "esto lo ponemos nosotros". Es texto escrito por
-Cascara, sin campo para completar, con una sola pregunta de devolucion al final.
-Va para las tres cosas que el founder no puede contestar solo y que son decision
-nuestra: la subcategoria donde se para, la escalera de valor con precio (que
-tiene la misma forma que la de Cascara) y quien queda afuera del tramo. No
-cuentan en el contador de secciones empezadas.
+Peldano suena espanol. Adentro de Cascara le decimos casillero, asi que la
+escalera de valor pasa a tener casillero 1, 2 y 3, y todas las referencias
+cruzadas tambien.
 
-El generador suma tres cosas para que esto sea posible en cualquier carta: una
-variante puede pisar los pasos y los entregables del modulo, una seccion puede
-ser un bloque nuestro, y una tabla puede traer la primera columna con el rotulo
-de la fila ya escrito.
+Salen los numeros de precio del bloque de la escalera y de la consigna de los
+clientes que ya le pagaron. Los cierra con Franco en su llamada y no tiene
+sentido que este documento adelante un numero que despues se mueve. Queda dicho
+en una linea: los numeros de cada casillero los cerras con Franco.
 
-Verificadas a 1512 y a 390: sin desbordes, sin scroll horizontal y sin errores
-de JS.
+El entregable es el documento completo, no una lista de piezas sueltas que
+repite lo que ya piden las secciones. Con un solo entregable la carta ahora dice
+"tocalo cuando lo termines" en vez de "toca cada uno".
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01X5PVbBwAY8Cfrb8woNrxbU
