@@ -652,6 +652,69 @@ body.viendo{overflow:hidden}
   .check li{font-size:16.5px}
   .boton{width:100%;justify-content:space-between}
 }
+/* ---------- Arnold: el panel que contesta ---------- */
+.arn-abrir{position:fixed;right:22px;bottom:22px;z-index:70;display:flex;align-items:center;gap:10px;
+  background:var(--tinta-deep);color:var(--papel2);border:0;padding:13px 18px;cursor:pointer;
+  font-family:var(--disp);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  box-shadow:0 2px 18px rgba(0,0,0,.18)}
+.arn-abrir:hover{opacity:.9}
+.arn-abrir i{width:7px;height:7px;background:var(--papel2);border-radius:50%;display:block}
+body.arn-on .arn-abrir{display:none}
+@media print{.arn-abrir{display:none}}
+
+.arn{position:fixed;top:0;right:0;bottom:0;width:420px;max-width:100vw;background:var(--papel2);
+  border-left:1px solid var(--tinta);z-index:80;display:flex;flex-direction:column;
+  transform:translateX(100%);transition:transform .2s ease;visibility:hidden}
+body.arn-on .arn{transform:none;visibility:visible}
+.arn .cab{display:flex;align-items:center;gap:12px;padding:20px 22px 16px;border-bottom:1px solid var(--tiza)}
+.arn .cab .sig{width:30px;height:30px;background:var(--tinta-deep);color:var(--papel2);display:flex;
+  align-items:center;justify-content:center;font-size:14px;font-weight:700;letter-spacing:-.02em;flex:none}
+.arn .cab .nm{display:block;font-size:17px;font-weight:700;letter-spacing:-.022em;line-height:1.1}
+.arn .cab .sb{display:block;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gris2);margin-top:3px}
+.arn .cab .cerrar{margin-left:auto;appearance:none;border:1px solid var(--tiza);background:transparent;
+  color:var(--gris);font-family:var(--disp);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+  padding:9px 12px;cursor:pointer}
+.arn .cab .cerrar:hover{border-color:var(--tinta);color:var(--tinta)}
+.arn .hilo{flex:1;overflow-y:auto;padding:22px;scroll-behavior:smooth}
+.arn .pie{border-top:1px solid var(--tiza);padding:14px 16px;display:flex;gap:9px;align-items:flex-end;
+  background:var(--papel2)}
+.arn .pie textarea{flex:1;appearance:none;border:1px solid var(--tiza);background:var(--papel);
+  color:var(--tinta);font-family:var(--disp);font-size:15px;line-height:1.45;padding:11px 12px;
+  border-radius:0;resize:none;min-height:44px;max-height:140px}
+.arn .pie textarea:focus{outline:none;border-color:var(--tinta)}
+.arn .pie button{appearance:none;border:0;background:var(--tinta-deep);color:var(--papel2);
+  font-family:var(--disp);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+  padding:14px 15px;cursor:pointer;flex:none}
+.arn .pie button:hover{opacity:.88}
+
+.arn .yo{margin:0 0 20px;padding:12px 14px;background:var(--tinta);color:var(--papel);font-size:15.5px;
+  line-height:1.45;margin-left:44px}
+.arn .el{margin:0 0 26px;font-size:15.5px;line-height:1.55}
+.arn .el > p{margin:0 0 11px}
+.arn .el b{font-weight:700}
+.arn .el .et{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);margin-bottom:9px}
+.arn .tar{border-top:1px solid var(--tinta);padding:13px 0 4px;margin-top:6px}
+.arn .tar .t{font-size:16px;font-weight:700;letter-spacing:-.02em;line-height:1.2}
+.arn .tar .s{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gris2);margin-top:4px}
+.arn .tar .x{font-size:14.5px;line-height:1.5;color:var(--gris);margin-top:8px}
+.arn .dato{display:grid;grid-template-columns:92px minmax(0,1fr);gap:12px;padding:8px 0;
+  border-bottom:1px solid var(--tiza);font-size:14.5px;line-height:1.45}
+.arn .dato .k{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--gris2);padding-top:3px}
+.arn ul.ls{margin:10px 0 0;padding:0;list-style:none}
+.arn ul.ls li{font-size:14.5px;line-height:1.5;padding:6px 0 6px 20px;position:relative}
+.arn ul.ls li:before{content:"";position:absolute;left:0;top:12px;width:8px;height:1.5px;background:var(--tinta)}
+.arn .vias{display:flex;gap:7px;flex-wrap:wrap;margin-top:13px}
+.arn .vias button{appearance:none;border:1px solid var(--tinta);background:transparent;color:var(--tinta);
+  font-family:var(--disp);font-size:9px;letter-spacing:.16em;text-transform:uppercase;padding:9px 11px;cursor:pointer}
+.arn .vias button:hover{background:var(--tinta);color:var(--papel)}
+.arn .sug{display:flex;flex-direction:column;gap:7px;margin-top:14px}
+.arn .sug button{appearance:none;border:1px solid var(--tiza);background:transparent;color:var(--gris);
+  font-family:var(--disp);font-size:14px;text-align:left;padding:11px 13px;cursor:pointer;line-height:1.4}
+.arn .sug button:hover{border-color:var(--tinta);color:var(--tinta)}
+.arn .pensando{font-family:var(--edit);font-style:italic;font-size:15px;color:var(--gris2)}
+.arn .nada{font-family:var(--edit);font-style:italic;font-size:15.5px;color:var(--gris);line-height:1.5}
+@media (max-width:720px){ .arn{width:100vw;border-left:0} .arn-abrir{right:14px;bottom:78px} }
+
 @media print{.riel,.topmov,.boton{display:none}main{margin:0}body::before{display:none}}
 '''
 
@@ -1442,6 +1505,265 @@ pintaSello(); setInterval(pintaSello,30000);
 vHome();vClientes();vAccionables();vBiblioteca();
 if(location.hash.indexOf('#c/')===0) abrir(location.hash.slice(3));
 else if(location.hash&&TIT[location.hash.slice(1)]) ir(location.hash.slice(1));
+
+/* ═══════════════ Arnold: el que contesta ═══════════════
+   Hoy busca en la torre y contesta con lo que hay cargado: no inventa.
+   Cuando ARNOLD_API tenga una URL, la pregunta va también a un modelo y
+   la respuesta de acá viaja como contexto. Mientras esté vacío, trabaja solo. */
+var ARNOLD_API = '';   /* ← la URL del backend cuando exista. Vacío = Arnold solo busca. */
+
+function sinTildes(s){
+  return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9\s]/g,' ');
+}
+function tiene(t, arr){ for(var i=0;i<arr.length;i++){ if(t.indexOf(arr[i])>=0) return true } return false }
+
+/* ── a quién se refiere la pregunta ── */
+function clientePorTexto(t){
+  var mejor=null, pts=0;
+  C.forEach(function(c){
+    var n=sinTildes(c.nombre), p=0;
+    var partes=n.split(/\s+/).filter(function(x){return x.length>2});
+    partes.forEach(function(w){ if(t.indexOf(w)>=0) p+=w.length });
+    if(t.indexOf(sinTildes(c.slug).replace(/-/g,' '))>=0) p+=6;
+    if(p>pts){ pts=p; mejor=c }
+  });
+  return pts>=3?mejor:null;
+}
+function entregaDe(slug){
+  var f=null; (D.entregas.filas||[]).forEach(function(x){ if(x.slug===slug) f=x }); return f;
+}
+function esc2(s){ return esc(s) }
+function chapa(c){
+  return '<div class="tar"><div class="t">'+esc(c.nombre)+'</div>'+
+    '<div class="s">'+esc(c.ori)+(c.modo==='cierre'?' · cierre':'')+
+    (c.dia?' · día '+c.dia+' de 90':'')+'</div></div>';
+}
+function vias(c){
+  var v='<div class="vias"><button onclick="arnIr(\''+c.slug+'\')">Abrir su ficha</button>';
+  var f=entregaDe(c.slug);
+  if(f&&f.doc) v+='<button onclick="verDoc(\''+f.doc+'\',\''+esc(c.nombre).replace(/\x27/g,'')+'\')">Ver el documento</button>';
+  return v+'</div>';
+}
+function arnIr(slug){ arnCerrar(); abrir(slug); }
+
+/* ── las respuestas ── */
+function respQueMando(c){
+  var f=entregaDe(c.slug);
+  if(!f) return null;
+  var cartas=[], otros=[];
+  (f.accionables||[]).forEach(function(a){
+    var p=a.replace(/<[^>]+>/g,'');
+    if(/carta|mandar|mandale|envia/i.test(p)) cartas.push(p); else otros.push(p);
+  });
+  var h='<div class="et">Lo que sale para '+esc(c.nombre.split(' ')[0])+'</div>';
+  if(!cartas.length) h+='<p>No hay nada anotado para mandarle ahora mismo.</p>';
+  else h+='<ul class="ls">'+cartas.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul>';
+  if(f.doc) h+='<p style="margin-top:12px">Su documento es <b>'+esc(f.doc)+'</b>.</p>';
+  if(/Sign off/i.test(f.estado||''))
+    h+='<p><b>Ojo:</b> está en sign off. El documento no se manda: lo presenta Teo en la llamada.</p>';
+  if(otros.length) h+='<div class="et" style="margin-top:16px">Lo demás de su lista</div>'+
+    '<ul class="ls">'+otros.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul>';
+  return chapa(c)+h+vias(c);
+}
+function respFicha(c){
+  var f=entregaDe(c.slug);
+  var h='<div class="dato"><span class="k">El cuello</span><span>'+esc(c.cuello||'—')+'</span></div>'+
+    '<div class="dato"><span class="k">La métrica</span><span>'+esc(c.metrica||'—')+'</span></div>'+
+    '<div class="dato"><span class="k">Orientación</span><span>'+esc(c.ori)+
+      (c.rep&&c.rep.length?' · lo toma '+esc(c.rep.map(function(r){return r[0]}).join(', ')):'')+'</span></div>'+
+    '<div class="dato"><span class="k">Dónde está</span><span>'+
+      (c.h?esc(c.h.tr)+' · puntaje '+c.h.t+'/100':(c.modo==='cierre'?'Informe de cierre':'Sin puntaje'))+
+      (c.dia?'. Día '+c.dia+' de los noventa.':'')+'</span></div>'+
+    (f?'<div class="dato"><span class="k">Estado</span><span>'+esc(f.estado)+'</span></div>':'');
+  if(c.titular) h+='<p style="margin-top:14px">'+esc(c.titular)+'</p>';
+  return chapa(c)+h+vias(c);
+}
+function respAccionables(c){
+  var f=entregaDe(c.slug), h='';
+  if(f&&f.accionables&&f.accionables.length)
+    h+='<div class="et">De Aye, con '+esc(c.nombre.split(' ')[0])+'</div><ul class="ls">'+
+      f.accionables.map(function(a){return '<li>'+a+'</li>'}).join('')+'</ul>';
+  if(c.ct&&c.ct.length)
+    h+='<div class="et" style="margin-top:18px">Lo que ejecuta '+esc(c.nombre.split(' ')[0])+'</div>'+
+      '<ul class="ls">'+c.ct.map(function(a){return '<li>'+esc(a)+'</li>'}).join('')+'</ul>';
+  if(!h) return null;
+  return chapa(c)+h+vias(c);
+}
+function respLlamada(c){
+  var f=entregaDe(c.slug);
+  var ls=[];
+  if(f) (f.accionables||[]).forEach(function(a){
+    var p=a.replace(/<[^>]+>/g,'');
+    if(/llamada|reunion|reunión|agendar|coordinar|1:1|offboarding|sign off/i.test(p)) ls.push(p);
+  });
+  if(!ls.length) return null;
+  return chapa(c)+'<div class="et">Sus llamadas</div><ul class="ls">'+
+    ls.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul>'+
+    '<p style="margin-top:12px">La regla: entre una llamada y la siguiente del mismo cliente van <b>14 días</b>.</p>'+vias(c);
+}
+function respSignoff(){
+  var E=D.entregas;
+  return '<div class="et">Cómo funciona un sign off</div><ul class="ls">'+
+    (E.regla_signoff||[]).map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul>';
+}
+function respCarta(t){
+  var hits=[];
+  D.modulos.forEach(function(cat){
+    (cat.items||[]).forEach(function(m){
+      var txt=sinTildes(m.t+' '+(m.x||'')+' '+m.id.replace(/-/g,' '));
+      var p=0;
+      t.split(/\s+/).forEach(function(w){ if(w.length>3&&txt.indexOf(w)>=0) p+=w.length });
+      if(p>4) hits.push([p,m,cat.c]);
+    });
+  });
+  if(!hits.length) return null;
+  hits.sort(function(a,b){return b[0]-a[0]});
+  return '<div class="et">Las cartas que encajan</div>'+hits.slice(0,3).map(function(x){
+    var m=x[1];
+    return '<div class="tar"><div class="t">'+esc(m.t)+'</div><div class="s">'+esc(x[2])+'</div>'+
+      '<div class="x">'+esc(m.x||'')+'</div>'+
+      '<div class="vias"><button onclick="arnCarta(\''+m.id+'\',\''+esc(m.t).replace(/\x27/g,'')+'\')">Abrir la carta</button></div></div>';
+  }).join('');
+}
+function arnCarta(id,t){ abrirVisor('cartas/'+id+'.html', t, id+'.html'); }
+
+function respPendientes(){
+  var E=D.entregas, n=0, filas=[];
+  (E.filas||[]).forEach(function(f){
+    var p=0;
+    (f.accionables||[]).forEach(function(_,i){ if(!HECHOS['e/'+(f.slug||f.nombre)+'#'+i]) p++ });
+    if(p) filas.push([p,f]); n+=p;
+  });
+  filas.sort(function(a,b){return b[0]-a[0]});
+  return '<div class="et">Sin hacer, ahora</div><p><b>'+n+'</b> accionables repartidos en '+filas.length+' clientes.</p>'+
+    '<ul class="ls">'+filas.slice(0,8).map(function(x){
+      return '<li><b>'+esc(x[1].nombre)+'</b> — '+x[0]+(x[0]===1?' cosa':' cosas')+'</li>'}).join('')+'</ul>'+
+    '<div class="vias"><button onclick="arnCerrar();ir(\'accionables\')">Ver los accionables</button></div>';
+}
+function respBusqueda(t){
+  var hits=[];
+  C.forEach(function(c){
+    var txt=sinTildes([c.nombre,c.proyecto,c.cuello,c.metrica,c.titular,c.etapa].join(' '));
+    var p=0;
+    t.split(/\s+/).forEach(function(w){ if(w.length>3&&txt.indexOf(w)>=0) p+=w.length });
+    if(p>5) hits.push([p,c]);
+  });
+  if(!hits.length) return null;
+  hits.sort(function(a,b){return b[0]-a[0]});
+  return '<div class="et">Donde aparece eso</div>'+hits.slice(0,4).map(function(x){
+    return '<div class="tar"><div class="t">'+esc(x[1].nombre)+'</div>'+
+      '<div class="s">'+esc(x[1].ori)+'</div><div class="x">'+esc(x[1].cuello||'')+'</div>'+
+      '<div class="vias"><button onclick="arnIr(\''+x[1].slug+'\')">Abrirlo</button></div></div>';
+  }).join('');
+}
+
+/* ── el que decide qué responder ── */
+function arnResponder(q){
+  var t=sinTildes(q), c=clientePorTexto(t), r=null;
+  if(tiene(t,['sign off','signoff','sign-off','offboarding','cierre del programa'])&&!c) return respSignoff();
+  if(tiene(t,['pendiente','sin hacer','que falta','que hay que hacer','todo lo que'])&&!c) return respPendientes();
+  if(c){
+    if(tiene(t,['mando','mandar','envio','enviar','mandarle','manda','carta','documento','entrego'])) r=respQueMando(c);
+    else if(tiene(t,['llamada','reunion','agendar','coordinar','1 a 1','proxima'])) r=respLlamada(c);
+    else if(tiene(t,['accionable','pendiente','tarea','hacer','falta'])) r=respAccionables(c);
+    if(!r) r=respFicha(c);
+    return r;
+  }
+  r=respCarta(t); if(r) return r;
+  r=respBusqueda(t); if(r) return r;
+  return null;
+}
+
+/* ── el panel ── */
+var ARN_HILO=[];
+function arnAbrir(){
+  document.body.classList.add('arn-on');
+  setTimeout(function(){ var i=document.getElementById('arn-in'); if(i) i.focus(); },220);
+  if(!ARN_HILO.length) arnHola();
+}
+function arnCerrar(){ document.body.classList.remove('arn-on') }
+function arnPinta(quien,html){
+  var h=document.getElementById('arn-hilo');
+  var d=document.createElement('div');
+  d.className = quien==='yo' ? 'yo' : 'el';
+  d.innerHTML = html;
+  h.appendChild(d); h.scrollTop=h.scrollHeight;
+  return d;
+}
+function arnHola(){
+  arnPinta('el','<p>Soy Arnold. Contesto con lo que hay cargado en la torre: los 22 clientes, sus accionables, '+
+    'las cartas y las reglas del programa. Si no está cargado, te lo digo en vez de inventarlo.</p>'+
+    '<div class="sug">'+
+    '<button onclick="arnManda(this.textContent)">¿Qué le mando a Sofía?</button>'+
+    '<button onclick="arnManda(this.textContent)">¿Cómo funciona un sign off?</button>'+
+    '<button onclick="arnManda(this.textContent)">¿Qué quedó pendiente?</button>'+
+    '<button onclick="arnManda(this.textContent)">¿En qué está Lucio?</button>'+
+    '</div>');
+}
+function arnManda(txt){
+  var i=document.getElementById('arn-in');
+  var q=(txt!==undefined?txt:i.value).trim();
+  if(!q) return;
+  i.value=''; i.style.height='';
+  ARN_HILO.push(q);
+  arnPinta('yo', esc(q));
+  var esperando=arnPinta('el','<span class="pensando">Buscando…</span>');
+  setTimeout(function(){
+    var r=arnResponder(q);
+    if(!r) r='<p class="nada">Eso no lo tengo cargado en la torre. Probá con el nombre de un cliente, '+
+      'con «qué le mando a…», o preguntame por una carta.</p>';
+    esperando.innerHTML=r;
+    if(ARNOLD_API) arnAlModelo(q, esperando, r);
+    document.getElementById('arn-hilo').scrollTop=999999;
+  }, 160);
+}
+/* ── fase 2: cuando ARNOLD_API tenga una URL, la pregunta también va al modelo ── */
+function arnAlModelo(q, nodo, yaDicho){
+  var ctx = {
+    fecha: D.fecha,
+    clientes: C.map(function(c){ return {nombre:c.nombre, ori:c.ori, modo:c.modo, dia:c.dia,
+      cuello:c.cuello, metrica:c.metrica, titular:c.titular, accionables:c.ct}; }),
+    entregas: (D.entregas.filas||[]).map(function(f){ return {nombre:f.nombre, estado:f.estado,
+      accionables:(f.accionables||[]).map(function(a){return a.replace(/<[^>]+>/g,'')})}; }),
+    reglas: D.entregas.regla_signoff,
+    criterio: D.entregas.criterio
+  };
+  nodo.insertAdjacentHTML('beforeend','<p class="pensando" id="arn-esp">Arnold está pensando…</p>');
+  fetch(ARNOLD_API, {method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({pregunta:q, contexto:ctx})})
+   .then(function(r){ return r.json() })
+   .then(function(j){
+      var e=document.getElementById('arn-esp'); if(e) e.remove();
+      if(j && j.respuesta) nodo.insertAdjacentHTML('beforeend',
+        '<div class="et" style="margin-top:18px">Arnold</div><p>'+esc(j.respuesta)+'</p>');
+   })
+   .catch(function(){ var e=document.getElementById('arn-esp'); if(e) e.remove(); });
+}
+
+/* ── cómo se lo llama ── */
+(function(){
+  var b=document.getElementById('arn-abrir'); if(b) b.addEventListener('click', arnAbrir);
+  var x=document.getElementById('arn-cerrar'); if(x) x.addEventListener('click', arnCerrar);
+  var i=document.getElementById('arn-in');
+  if(i){
+    i.addEventListener('keydown',function(e){
+      if(e.key==='Enter'&&!e.shiftKey){ e.preventDefault(); arnManda() }});
+    i.addEventListener('input',function(){ i.style.height='auto'; i.style.height=Math.min(140,i.scrollHeight)+'px' });
+  }
+  var e=document.getElementById('arn-enviar'); if(e) e.addEventListener('click', function(){arnManda()});
+  /* «hey arnold» escrito en cualquier lado lo despierta, y la barra lo abre */
+  var buffer='';
+  document.addEventListener('keydown',function(ev){
+    if(ev.key==='Escape'&&document.body.classList.contains('arn-on')){ arnCerrar(); return }
+    var t=ev.target.tagName;
+    if(t==='INPUT'||t==='TEXTAREA') return;
+    if(ev.key==='/'&&!ev.metaKey&&!ev.ctrlKey){ ev.preventDefault(); arnAbrir(); return }
+    if(ev.key.length!==1) return;
+    buffer=(buffer+ev.key.toLowerCase()).slice(-12);
+    if(buffer.indexOf('hey arnold')>=0||buffer.indexOf('heyarnold')>=0){ buffer=''; arnAbrir() }
+  });
+})();
+
 '''
 
 FECHA = json.loads(J)["fecha"]
@@ -1484,7 +1806,22 @@ BODY = f'''<aside class="riel">
     <button onclick="cerrarCarta()">Cerrar</button>
   </div>
   <iframe title="La carta" src="about:blank"></iframe>
-</div>'''
+</div>
+
+<button class="arn-abrir" id="arn-abrir" title="Hey Arnold! (o apretá la barra /)"><i></i>Hey Arnold</button>
+<aside class="arn" id="arn" aria-label="Arnold">
+  <div class="cab">
+    <span class="sig">A</span>
+    <span><span class="nm">Arnold</span><span class="sb">Contesta con la torre</span></span>
+    <button class="cerrar" id="arn-cerrar">Cerrar</button>
+  </div>
+  <div class="hilo" id="arn-hilo"></div>
+  <div class="pie">
+    <textarea id="arn-in" rows="1" placeholder="Preguntale a Arnold" aria-label="Preguntale a Arnold"></textarea>
+    <button id="arn-enviar">Enviar</button>
+  </div>
+</aside>
+'''
 
 HTML = ('<!doctype html>\n<html lang="es"><head>\n<meta charset="utf-8">\n'
  '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'

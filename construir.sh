@@ -31,6 +31,7 @@ rsync -a --delete --quiet \
   --exclude 'generador/' --exclude 'fichas/' --exclude 'contenido/' \
   --exclude 'sistema/' --exclude 'agente/' --exclude 'app-clientes/' \
   --exclude '_tmp/' --exclude '_locks_viejos/' --exclude 'site/' --exclude 'out/' \
+  --exclude 'arnold-backend/' \
   --exclude '__pycache__/' --exclude '.DS_Store' --exclude '*.py' --exclude '*.sh' \
   --exclude '*.md' --exclude 'LICENSE' \
   ./ dist/

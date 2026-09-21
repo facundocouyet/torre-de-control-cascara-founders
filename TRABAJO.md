@@ -100,3 +100,26 @@ clientes y la app de Teo en `/app`. **No** incluye `fichas/`, `contenido/`,
 `generador/` ni `sistema/`: esos son fuente y se quedan en el repo.
 
 Antes sí se publicaban, porque Pages subía la carpeta entera.
+
+---
+
+## Arnold
+
+Es el panel de la derecha de la torre. Contesta con lo que está cargado:
+los clientes, sus accionables, las cartas y las reglas del programa.
+
+Se abre con el botón de abajo a la derecha, con la tecla `/`, o escribiendo
+**hey arnold** en cualquier parte de la página. Se cierra con Escape.
+
+Hoy Arnold busca, no piensa: repite lo que hay en la torre y, cuando no
+está, lo dice en vez de inventarlo. Eso lo hace confiable para Aye.
+
+Para que además piense, hay que poner a andar `arnold-backend/worker.js`
+—una función chica que guarda la clave de Anthropic, porque en la página la
+vería cualquiera— y pegar su URL en `generador/app_shell.py`, en la línea:
+
+    var ARNOLD_API = '';
+
+Con esa línea llena, cada pregunta se contesta primero con la torre y
+después con el modelo, que recibe el estado de los clientes como contexto.
+Las instrucciones para desplegarlo están arriba de todo en `worker.js`.
