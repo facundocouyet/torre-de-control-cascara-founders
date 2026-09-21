@@ -51,6 +51,10 @@
     [
       "Operaciones y oferta",
       "Dentro de Founders, el frente que queda de su lado es operaciones y productividad, y la oferta, más el seguimiento de las tarjetas asignadas."
+    ],
+    [
+      "El diario administrativo",
+      "No es una carta que se manda y se espera: es un hábito. Preguntarles cada tanto cómo vienen con el registro y pedir que manden lo que tengan. Es complementario, no bloquea nada."
     ]
   ],
   "criterio": "Founders es <b>done with you</b>: se baja un paso a paso sobre el caso puntual y se acompaña la ejecución, pero la ejecución es del founder. No producimos contenido, no armamos el calendario, no escribimos los guiones. Lo que hay que calibrar antes de que entre alguien es una sola pregunta: qué expectativa tiene. Ahí se despeja el gris de la palabra personalizado.",
@@ -284,8 +288,9 @@
         "<b>La 1:1 con Facu ya se hizo el viernes 18.</b>",
         "<b>Escribirle por privado, no por el grupo: no le llegan los mensajes.</b> Es lo primero y lo bloquea todo lo demás.",
         "Mandar la radiografía con el roadmap.",
-        "Mandarle la carta <b>Profile funnel</b>, con la lista de tareas del perfil de Instagram.",
-        "Agendar la llamada con Franco para cerrar la oferta: la fecha era el 17 de septiembre y esa llamada no consta agendada.",
+        "Mandarle la carta <b>Oferta</b>. La que se le bajó el 1 de julio —estratega creativo, transformación en vez de entregables, tramos de 3 meses— cambió dos veces más y nunca se cerró. Esta vez tiene que quedar escrita por él.",
+        "<b>Resolver la llamada con Franco.</b> Se agendó tres veces —agosto, 1 de septiembre, 17 de septiembre— y no hay registro de ninguna. Es el nudo del caso.",
+        "El <b>profile funnel</b> va después de la oferta: hoy su perfil no dice qué resuelve porque él todavía no lo tiene definido.",
         "El foco del tramo es cerrar la oferta y sacar <b>un mínimo de 10 piezas</b>: con menos de diez no se evalúa nada."
       ],
       "doc": "lucio-labate.html",
@@ -372,10 +377,10 @@
       "proyecto": "Be Motion, agencia de contenido orgánico en Montevideo. Seis clientes fijos y las dos socias todavía editando.",
       "accionables": [
         "Mandar la radiografía con el roadmap.",
-        "<b>Agendar la primera llamada con Franco: todavía no la tuvo.</b> De ahí salen el nicho y el precio para poder venderse fuera de Uruguay.",
-        "Mandarle la carta <b>Diario administrativo</b>.",
-        "Mandarle la carta <b>Profile funnel</b>, con la lista de tareas del perfil de Instagram.",
-        "Mandarle la carta <b>Contratar el primer rol</b>, con el formulario de postulación de editores y el tarifario de edición."
+        "Mandarle la carta <b>Contratar el primer rol</b>, con el formulario de postulación y el tarifario. <b>Es lo primero</b>: ellas mismas dijeron que editar y pensar la oferta es incompatible, y sin sacarse la edición de encima no tienen tiempo para lo demás.",
+        "Mandarle la carta <b>Oferta</b>. Hoy venden estrategia sin paquete, con ticket de 600 a 700 dólares, y el camino es productizar y poder vender fuera de Uruguay.",
+        "<b>Reclamar la llamada con Franco</b>: quedó agendada el 8 de septiembre y no consta que se haya hecho. Son trece días sin avanzar la oferta.",
+        "El <b>profile funnel</b> queda para después de que la oferta esté cerrada. Facu ya se los dijo en la llamada del 8: no se sale a hacer contenido sin saber qué se vende y a quién."
       ],
       "doc": "sol-boutmy.html",
       "docn": "sol-boutmy-radiografia.html",
