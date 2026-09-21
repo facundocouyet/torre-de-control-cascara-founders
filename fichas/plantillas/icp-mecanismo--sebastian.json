@@ -3,59 +3,41 @@
  "founder": "Sebastián Martínez",
  "slug": "sebastian",
  "titulo": "La hoja de tu cliente ideal",
- "bajada": "Quién compra el programa, qué le duele y con qué palabras lo cuenta. Como todavía no vendiste el programa, esto no sale de mirar tu lista de clientes: sale de bajar a tierra los perfiles que creemos que compran y salir a preguntarles.",
+ "bajada": "Quién compra el programa, qué le duele, con qué palabras lo cuenta y por dónde entrarle. Como todavía no vendiste el programa, esto no sale de mirar tu lista de clientes: sale de bajar a tierra los perfiles que creemos que compran, salir a preguntarles, y convertir lo que te digan en los primeros ángulos.",
  "lista_cuando": "Le mandás la frase del alumno ideal a tres personas que te escribieron después del reel y las tres se reconocen sin que tengas que explicarla.",
  "pasos": [
   "Listar los diez clientes que ya te pagaron por producción, con qué te compró cada uno y a cuánto.",
-  "Escribir los cuatro perfiles que creemos que compran el programa —diseñador, editor, fotógrafo, filmmaker— con qué le duele a cada uno y la pregunta que se lo hace decir en voz alta.",
+  "Escribir los perfiles que creemos que compran el programa —diseñador, editor, fotógrafo, filmmaker, el que ya trabaja en marketing o redes— con qué le duele a cada uno y la pregunta que se lo hace decir en voz alta.",
   "Salir a hacerle esa pregunta a cinco personas reales y anotar textual lo que contestaron.",
   "Cruzar eso con los comentarios del reel y con de dónde vino cada tanda de seguidores.",
   "Escribir el alumno ideal en una frase, con el momento en el que está, el problema y con cuánto cuenta.",
   "Escribir en una frase qué le pasa al alumno en las 8 semanas, con el número que se mueve.",
-  "Mandarle esa frase a tres personas y ajustarla con lo que te contesten."
+  "Bajar tres ángulos de comunicación: de qué dolor sale cada uno y qué se muestra.",
+  "Mandarle la frase del alumno ideal a tres personas y ajustarla con lo que te contesten."
  ],
  "completar": [
-  "Esta carta completa, con los cuatro perfiles, las cinco conversaciones y las dos frases escritas"
+  "Esta carta completa, con los perfiles, las cinco conversaciones, las dos frases y los tres ángulos"
  ],
  "bajada_envio": {
   "founder": "Sebastián Martínez",
   "porque": "Con Franco quedó cerrado qué vendés y a cuánto. Lo que falta para producir contenido y salir a vender es a quién le hablás. Y acá hay una particularidad tuya: nunca lanzaste un programa de educación, lo que hiciste fueron eventos presenciales y producción para marcas. O sea que no tenés diez alumnos para mirar hacia atrás. El cliente ideal de este producto hay que descubrirlo, y se descubre preguntando, no pensando. Por eso la hoja está armada alrededor de los cuatro perfiles que creemos que compran: el diseñador, el editor, el fotógrafo y el filmmaker.",
-  "objetivo": "Una hoja con los cuatro perfiles, su dolor y la pregunta que se lo hace decir; cinco conversaciones reales anotadas textual; y el alumno ideal escrito en una frase. Para la llamada con Franco del martes o miércoles, así esa llamada arranca en los ángulos y en el calendario y no en definir a quién le hablamos.",
-  "mindset": "Sale de buscar y de preguntar, no de pensar. Las respuestas que te sirven están en los comentarios del reel y en cinco conversaciones de quince minutos. Lo que ya sabemos nosotros —la subcategoría, la escalera y a quién dejamos afuera— te lo dejamos escrito para que no lo adivines: leelo, decinos qué te cierra y qué no, y usá tu tiempo en la parte que sólo podés hacer vos."
+  "objetivo": "Una hoja con los perfiles, su dolor y la pregunta que se lo hace decir; cinco conversaciones reales anotadas textual; el alumno ideal escrito en una frase; y tres ángulos bajados de eso. Con esto, la llamada con Franco audita y confirma en vez de definir de cero, y la que sigue con Fede arranca en el calendario de contenido.",
+  "mindset": "Sale de buscar y de preguntar, no de pensar. Las respuestas que te sirven están en los comentarios del reel y en cinco conversaciones de quince minutos. Lo que ya sabemos nosotros —de dónde arrancamos, la subcategoría, la escalera y a quién dejamos afuera— te lo dejamos escrito para que no lo adivines: leelo, decinos qué te cierra y qué no, y usá tu tiempo en la parte que sólo podés hacer vos."
  },
  "secciones": [
   {
-   "titulo": "Los clientes que ya te pagaron",
-   "consigna": "Los últimos diez clientes o consultas reales de Estudio Gama 21 y de tu trabajo como director creativo, con lo que te compró cada uno, cuánto pagó y por qué te buscó. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Esto no es el alumno del programa: es de dónde viene tu autoridad y el piso desde donde se arma la escalera, y es lo que explica por qué alguien te va a pagar por enseñarle.",
-   "ejemplo": {
-    "quien": "Custom Lab",
-    "texto": "Juan armó en Notion la base histórica de dos años: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién contactó, quién decide la compra y si repitió. Con esa lista salieron a recontactar y vendieron."
-   },
-   "campo": "tabla",
-   "columnas": [
-    "Quién",
-    "Qué te compró",
-    "Cuánto pagó",
-    "Por qué te buscó",
-    "Era evento, marca o creador"
-   ],
-   "filas": 10
-  },
-  {
    "nuestro": true,
-   "titulo": "Tu escalera de valor",
+   "titulo": "De dónde arrancamos",
    "texto": [
-    "Casillero 1, el programa de 8 semanas. Lo compra el creativo que ya tiene oficio y se esconde detrás de su trabajo.",
-    "Casillero 2, la producción de Estudio Gama 21. La compra el que ya entendió que necesita contenido y decide no hacerlo solo.",
-    "Casillero 3, la dirección creativa, que es lo que hacés con Emilio Axis. Pocos, y es el que hace creíble al de abajo.",
-    "Es la misma forma que la escalera de Cáscara: Romper la Cáscara, después Founders con mentoría uno a uno, arriba Partners con equity. El casillero de abajo alimenta al de arriba con gente, y el de arriba le da autoridad al de abajo. Por eso el programa no es un desvío de lo que ya hacés: es la puerta de entrada a lo mismo.",
-    "Los números de cada casillero los cerrás con Franco en la llamada."
+    "Esto no es una hoja en blanco. En la Clarity Call con Franco el ICP ya quedó dicho así: creativos que ya saben grabar y editar —filmmakers, diseñadores, editores y gente que ya trabaja en marketing o redes— y el programa les enseña dos cosas, encontrar la identidad propia y la cabeza para hacerse cargo, y monetizarla en un mercado real.",
+    "Esa frase sirve para arrancar y no para vender: describe un oficio, no un momento ni un dolor. Lo que falta es bajarla a personas concretas, y eso es lo que hace el resto de esta hoja.",
+    "Cuando la completes, la llamada con Franco audita y confirma en vez de volver a definir. Es la diferencia entre cerrar esto de una vez y volver a empezarlo."
    ],
-   "pregunta": "Qué le cambiarías a estos tres casilleros"
+   "pregunta": "Algo de esa frase ya no te representa"
   },
   {
-   "titulo": "Los cuatro perfiles y qué le duele a cada uno",
-   "consigna": "Estos son los cuatro que creemos que compran. Para cada uno, escribí de qué vive hoy, qué le duele de verdad, la pregunta que se lo hace decir en voz alta, y por qué le serviría entrar. La pregunta es lo más importante de esta hoja: tiene que ser una que incomode, no una que se conteste con un sí. Si un perfil no te cierra, tachalo y escribí el que sí. Las dos filas de abajo están libres.",
+   "titulo": "Los perfiles y qué le duele a cada uno",
+   "consigna": "Estos son los que creemos que compran. Los cuatro primeros y el quinto salen de lo que ya quedó con Franco; el fotógrafo lo agregamos nosotros. Para cada uno, escribí de qué vive hoy, qué le duele de verdad, la pregunta que se lo hace decir en voz alta, y por qué le serviría entrar. La pregunta es lo más importante de esta hoja: tiene que ser una que incomode, no una que se conteste con un sí. Si un perfil no te cierra, tachalo y escribí el que sí. La fila de abajo está libre.",
    "ejemplo": {
     "quien": "Sebastián Martínez",
     "texto": "Tu propio reel ya hizo esta pregunta sin que la escribieras: por qué te da vergüenza grabarte en público. Mil ochocientas personas contestaron que sí, que les pasa. Esa es la temperatura que tiene que tener cada pregunta de esta tabla."
@@ -73,7 +55,7 @@
     "El editor",
     "El fotógrafo",
     "El filmmaker",
-    "",
+    "El que ya trabaja en marketing o redes",
     ""
    ],
    "filas": 6
@@ -117,6 +99,35 @@
     "La pieza que más seguidores trajo",
     "Qué gente trajo"
    ]
+  },
+  {
+   "titulo": "Los clientes que ya te pagaron",
+   "consigna": "Los últimos diez clientes o consultas reales de Estudio Gama 21 y de tu trabajo como director creativo, con lo que te compró cada uno, cuánto pagó y por qué te buscó. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Esto no es el alumno del programa: es de dónde viene tu autoridad y el piso desde donde se arma la escalera, y es lo que explica por qué alguien te va a pagar por enseñarle.",
+   "ejemplo": {
+    "quien": "Custom Lab",
+    "texto": "Juan armó en Notion la base histórica de dos años: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién contactó, quién decide la compra y si repitió. Con esa lista salieron a recontactar y vendieron."
+   },
+   "campo": "tabla",
+   "columnas": [
+    "Quién",
+    "Qué te compró",
+    "Cuánto pagó",
+    "Por qué te buscó",
+    "Era evento, marca o creador"
+   ],
+   "filas": 10
+  },
+  {
+   "nuestro": true,
+   "titulo": "Tu escalera de valor",
+   "texto": [
+    "Casillero 1, el programa de 8 semanas. Lo compra el creativo que ya tiene oficio y se esconde detrás de su trabajo.",
+    "Casillero 2, la producción de Estudio Gama 21. La compra el que ya entendió que necesita contenido y decide no hacerlo solo.",
+    "Casillero 3, la dirección creativa, que es lo que hacés con Emilio Axis. Pocos, y es el que hace creíble al de abajo.",
+    "Es la misma forma que la escalera de Cáscara: Romper la Cáscara, después Founders con mentoría uno a uno, arriba Partners con equity. El casillero de abajo alimenta al de arriba con gente, y el de arriba le da autoridad al de abajo. Por eso el programa no es un desvío de lo que ya hacés: es la puerta de entrada a lo mismo.",
+    "Los números de cada casillero los cerrás con Franco en la llamada."
+   ],
+   "pregunta": "Qué le cambiarías a estos tres casilleros"
   },
   {
    "nuestro": true,
@@ -163,11 +174,36 @@
    "placeholder": "Entra sin… sale con… y eso se ve en…"
   },
   {
+   "titulo": "Los tres primeros ángulos",
+   "consigna": "Un ángulo es la puerta de entrada de una pieza: de qué dolor sale, con qué giro tuyo y qué se muestra. Bajá tres, uno por dolor de los que más te aparecieron arriba. No hace falta que sean guiones, alcanza con una línea por columna. Estos tres son con los que Fede arranca el calendario, así que van con la frase textual pegada al lado: el ángulo se sostiene en las palabras del otro, no en las tuyas.",
+   "ejemplo": {
+    "quien": "Sebastián Martínez",
+    "texto": "El reel que funcionó ya es un ángulo completo: el dolor es la vergüenza a grabarse en público, el giro es que no se corta con valentía sino cambiando lo que querés comunicar, y lo que se muestra es él grabándose en la calle. Los tres de esta tabla tienen que tener esa forma."
+   },
+   "campo": "tabla",
+   "columnas": [
+    "De qué perfil sale",
+    "El dolor, textual",
+    "El giro tuyo",
+    "Qué se muestra"
+   ],
+   "filas": 3
+  },
+  {
    "titulo": "Probala con tres",
    "consigna": "Mandale la frase del alumno ideal a tres de las cinco personas con las que hablaste y preguntales si se reconocen. Anotá qué contestó cada una, textual. Si una de las tres te pide que se la expliques, la frase todavía no está: volvé y ajustala con lo que te dijeron.",
    "campo": "texto",
    "alto": 5,
    "placeholder": "A quién se la mandé y qué me contestó…"
+  },
+  {
+   "nuestro": true,
+   "titulo": "Qué pasa con esto después",
+   "texto": [
+    "Primero la llamada con Franco: audita lo que escribiste, confirma el alumno ideal y cierra los números de cada casillero. Ahí esta hoja deja de ser hipótesis.",
+    "Después la llamada con Fede: toma los tres ángulos y los convierte en el calendario de contenido de las cuatro semanas. Esa es su carta, y arranca donde termina ésta.",
+    "Por eso conviene mandarla completa antes de cada una y no llegar a contarlo de memoria: las dos llamadas arrancan leyendo lo mismo."
+   ]
   }
  ]
 }
