@@ -46,18 +46,6 @@
       "cid": 2
     },
     {
-      "titulo": "Cómo lo dice él, con sus palabras",
-      "consigna": "Tres o cuatro frases textuales de tus clientes describiendo el problema. Sacadas de mensajes y de llamadas, sin retocar. Estas frases después son el contenido y son el copy de la propuesta.",
-      "ejemplo": {
-        "quien": "Sebastián",
-        "texto": "El reel que explotó tenía comentarios que decían la misma frase una y otra vez. Esa frase terminó siendo el título de la mentoría."
-      },
-      "campo": "texto",
-      "alto": 4,
-      "placeholder": "Una frase por línea, tal cual la dijeron.",
-      "cid": 3
-    },
-    {
       "titulo": "La promesa, con número y con plazo",
       "consigna": "Qué cambia en el negocio del cliente si esto funciona, escrito con una cifra y un tiempo. Tiene que poder atribuirse a tu trabajo dentro del plazo del contrato: si el resultado depende de algo que vos no controlás, corregí la promesa.",
       "ejemplo": {
@@ -67,7 +55,7 @@
       "campo": "texto",
       "alto": 3,
       "placeholder": "En X semanas, vas a tener…",
-      "cid": 4
+      "cid": 3
     },
     {
       "titulo": "Cómo se mide",
@@ -79,7 +67,7 @@
         "Quién lo carga",
         "Cada cuánto"
       ],
-      "cid": 5
+      "cid": 4
     },
     {
       "titulo": "El paso a paso de la entrega",
@@ -92,7 +80,7 @@
         "Cuándo"
       ],
       "filas": 6,
-      "cid": 6
+      "cid": 5
     },
     {
       "titulo": "Qué incluye, qué queda afuera y qué necesitás de él",
@@ -108,7 +96,7 @@
         "Necesito del cliente",
         "Si no llega a tiempo"
       ],
-      "cid": 7
+      "cid": 6
     },
     {
       "titulo": "El precio y la forma de pago",
@@ -125,7 +113,7 @@
         "En cuotas",
         "Cuánto se cobra al arrancar"
       ],
-      "cid": 8
+      "cid": 7
     },
     {
       "titulo": "Probala en una conversación real",
@@ -133,7 +121,7 @@
       "campo": "texto",
       "alto": 4,
       "placeholder": "Con quién la probaste, qué objetó, qué cambiarías.",
-      "cid": 9
+      "cid": 8
     },
     {
       "titulo": "Los enemigos de tu nicho, y tu ventaja sobre cada uno",
@@ -145,7 +133,7 @@
         "Por qué vos lo resolvés mejor"
       ],
       "filas": 5,
-      "cid": 10
+      "cid": 9
     },
     {
       "titulo": "Tu NOVA, en cuatro frases",
@@ -164,7 +152,7 @@
         "quien": "Facu",
         "texto": "Cáscara: personas creativas que venden servicios y dependen del boca en boca. Las ayudo a pasar de improvisar a tener una dirección clara, a través de un proceso guiado con acompañamiento. Vehículo: programa de 16 semanas con llamadas en vivo. Atención: Instagram, pilares de problema, proceso y casos, CTA a mensaje directo, tres piezas por semana."
       },
-      "cid": 11
+      "cid": 10
     },
     {
       "titulo": "Tu one-sheeter, en una carilla",
@@ -172,7 +160,7 @@
       "campo": "texto",
       "alto": 14,
       "placeholder": "1 · A quién le hablo y qué le prometo…\n\n2 · Lo que quiere / lo que le duele…\n\n3 · Ayudo a… a… a través de…\n\n4 · Lo que incluye…\n\n5 · Contra qué me comparan y por qué conmigo le va mejor…",
-      "cid": 12
+      "cid": 11
     },
     {
       "nuestro": true,
@@ -181,7 +169,7 @@
         "Tu one-sheeter llega tosco y sale presentable. No lo reescribimos de cero: lo afilamos. Se corrige la línea de la oferta hasta que se entienda sola, se ordenan los entregables, se pone el precio sobre la mesa y se prueba contra las objeciones que vos mismo anotaste.",
         "Lo que no tocamos son tus palabras. Si algo de la versión final no suena tuyo, se cambia: una oferta que no podés decir en voz alta no la vas a vender."
       ],
-      "cid": 13
+      "cid": 12
     }
   ]
 }
