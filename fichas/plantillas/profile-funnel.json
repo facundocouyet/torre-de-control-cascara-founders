@@ -1,0 +1,112 @@
+{
+  "modulo": "profile-funnel",
+  "titulo": "El perfil, acomodado para recibir",
+  "bajada": "Tu perfil es la primera llamada de venta y pasa sin que estés. Esta hoja lo deja escrito: qué dice, qué muestra y qué hace alguien cuando llega. Se hace antes de que salga la primera pieza del tramo, porque el contenido trae gente a un lugar que tiene que estar en pie.",
+  "lista_cuando": "Tres personas de afuera miran el perfil quince segundos y te dicen qué hacés y a quién le sirve, sin que vos les expliques nada.",
+  "completar": [
+    "Esta carta completa, con la devolución de las tres personas escrita"
+  ],
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Quince segundos y una sola pregunta",
+      "texto": [
+        "Alguien ve una pieza tuya, le interesa, y entra al perfil. Ahí tenés quince segundos y la persona está contestando una sola pregunta: <b>«¿esto es para mí?»</b>. Todo lo que no ayuda a contestarla, estorba.",
+        "Por eso el perfil no se acomoda por estética. Se acomoda para que en esos quince segundos quede claro quién sos, a quién le servís y qué puede hacer ahora. Lo demás se archiva.",
+        "Y se hace antes de publicar, no después. El contenido trae gente: si llega a un perfil que no explica nada, ese tráfico se pierde y no vuelve."
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "La descripción, en tres líneas",
+      "consigna": "Una línea para cada cosa y en este orden: quién sos y qué hacés, a quién le sirve, y qué hacer ahora. Sin frases de catálogo y sin adjetivos: lo que va es el problema que resolvés y para quién. Si te sobra lugar, dejalo vacío.",
+      "campo": "lineas",
+      "lineas": [
+        "Quién sos y qué hacés",
+        "A quién le sirve",
+        "Qué hacer ahora (el paso concreto)"
+      ],
+      "ejemplo": {
+        "quien": "Facu",
+        "texto": "La prueba es leerlo en voz alta. Si suena a algo que diría una agencia y no una persona, está mal escrito. Escribilo como se lo dirías a alguien en una mesa."
+      },
+      "cid": 1
+    },
+    {
+      "titulo": "Las cuatro destacadas",
+      "consigna": "Cuatro, no diez. La historia de cómo llegaste acá, el servicio o el producto, los casos o resultados, y cómo contactarte. Escribí el título de cada una —corto, en tus palabras— y qué va adentro. Lo que hoy tenés y no entra en estas cuatro, se archiva.",
+      "campo": "tabla",
+      "columnas": [
+        "Destacada",
+        "El título que le pongo",
+        "Qué va adentro"
+      ],
+      "filas_rotulo": [
+        "La historia",
+        "Qué vendo",
+        "Casos o resultados",
+        "Cómo me escriben"
+      ],
+      "filas": 4,
+      "cid": 2
+    },
+    {
+      "titulo": "Las tres piezas ancladas",
+      "consigna": "Las tres que mejor explican qué hacés, ancladas arriba de todo. Una que cuente el problema que resolvés, una que muestre cómo trabajás, y una que muestre un resultado. Si alguna de las tres no existe todavía, escribí acá cuál falta y esa es la primera que grabás.",
+      "campo": "tabla",
+      "columnas": [
+        "Qué tiene que mostrar",
+        "Cuál uso",
+        "Si no existe, cuál grabo"
+      ],
+      "filas_rotulo": [
+        "El problema",
+        "Cómo trabajo",
+        "Un resultado"
+      ],
+      "filas": 3,
+      "cid": 3
+    },
+    {
+      "titulo": "Qué se archiva",
+      "consigna": "Lo que hoy está arriba y habla de otra cosa: trabajos de una etapa que ya pasó, piezas repetidas, contenido de un servicio que no vendés más, cosas personales que no suman al perfil. Archivar no es borrar, y el que llega hoy no tiene por qué ver el camino entero.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Archivo las publicaciones de… porque…",
+      "cid": 4
+    },
+    {
+      "titulo": "Lo técnico, en una pasada",
+      "consigna": "Cuatro cosas que se resuelven en diez minutos y que casi siempre están mal. Tildá mentalmente cada una y anotá al lado qué pusiste, para que quede escrito.",
+      "campo": "lineas",
+      "lineas": [
+        "Cuenta profesional activada",
+        "El botón de contacto: a dónde lleva",
+        "El link del perfil: a dónde lleva",
+        "El nombre de usuario y el nombre visible"
+      ],
+      "cid": 5
+    },
+    {
+      "titulo": "La prueba de los quince segundos",
+      "consigna": "Mandale el perfil a tres personas que no sepan a qué te dedicás y hacéles una sola pregunta: «mirá esto quince segundos y decime qué hago y para quién». Anotá lo que te contestó cada una, textual y sin corregirlo y sin explicarles después. Si las tres dicen algo distinto, el perfil todavía no está: lo que hay que cambiar sale de lo que ellos entendieron mal.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién miró",
+        "Qué entendió, textual",
+        "Qué corrijo con eso"
+      ],
+      "filas": 3,
+      "cid": 6
+    },
+    {
+      "nuestro": true,
+      "titulo": "Qué hacemos nosotros con esto",
+      "texto": [
+        "Miramos el perfil con la hoja al lado y te devolvemos qué sacar y qué reescribir. No lo redactamos nosotros: las palabras tienen que ser tuyas, porque el que llega después te va a escuchar hablar y tiene que ser la misma persona.",
+        "Y desde acá se empieza a anotar lo que entra por el perfil el día que entra. Sin ese registro no hay manera de saber si lo que se acomodó sirvió de algo."
+      ],
+      "cid": 7
+    }
+  ]
+}

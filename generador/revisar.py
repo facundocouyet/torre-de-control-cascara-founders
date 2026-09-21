@@ -34,9 +34,10 @@ def secciones_efectivas(pl, base):
 # "Son diez preguntas", "las nueve respuestas", "las ocho primeras"
 # sólo las frases que hablan de la hoja entera. "las tres preguntas" adentro de
 # una consigna habla de esa sección, no de la carta, y no se cuenta.
-CUENTA = re.compile(r'\bson\s+(%s)\s+(?:preguntas|respuestas)'
-                    r'|\blas\s+(%s)\s+(?:respuestas|primeras)'
-                    % ('|'.join(PALABRA), '|'.join(PALABRA)), re.I)
+CUENTA = re.compile(r'\bson\s+(%s)\s+preguntas' % '|'.join(PALABRA), re.I)
+# "las ocho primeras" sólo se valida cuando acompaña a un "Son N preguntas":
+# suelto puede hablar de piezas, de semanas o de cualquier otra cosa.
+PRIMERAS = re.compile(r'\blas\s+(%s)\s+primeras' % '|'.join(PALABRA), re.I)
 
 def revisar_cartas():
     for f in sorted(glob.glob(R('fichas/plantillas/*.json'))):
@@ -50,17 +51,18 @@ def revisar_cartas():
         trabajo = sum(1 for s in secs if not s.get('nuestro'))
 
         txt = json.dumps(pl, ensure_ascii=False)
+        declara = False
         for m in CUENTA.finditer(txt):
-            dicho = PALABRA[(m.group(1) or m.group(2)).lower()]
-            # "las ocho primeras" puede ser un subconjunto legítimo: sólo se exige
-            # que no supere el total
-            if 'primeras' in m.group(0).lower():
-                if dicho > trabajo:
-                    mal('%s dice "%s" pero la carta tiene %d preguntas'
-                        % (nom, m.group(0), trabajo))
-            elif dicho != trabajo:
+            declara = True
+            dicho = PALABRA[m.group(1).lower()]
+            if dicho != trabajo:
                 mal('%s dice "%s" pero la carta tiene %d preguntas'
                     % (nom, m.group(0), trabajo))
+        if declara:
+            for m in PRIMERAS.finditer(txt):
+                if PALABRA[m.group(1).lower()] > trabajo:
+                    mal('%s dice "%s" y la carta tiene %d preguntas'
+                        % (nom, m.group(0), trabajo))
 
         # claves de campo repetidas: pisan lo que el founder escribió
         vistos = {}
@@ -89,8 +91,8 @@ def revisar_inventario():
                         mal('inventario · %s: nombra un formulario que no existe ("%s")' % (m['id'], x))
                     n = CUENTA.search(x)
                     if n:
-                        ojo('inventario · %s: fija un número de preguntas ("%s"). '
-                            'Cambia por carta, mejor no nombrarlo.' % (m['id'], n.group(0)))
+                        mal('inventario · %s: fija un número de preguntas ("%s"), '
+                            'que cambia con cada variante' % (m['id'], n.group(0)))
 
 
 # ── 3. la torre no puede apuntar a documentos que no están ─────────────────

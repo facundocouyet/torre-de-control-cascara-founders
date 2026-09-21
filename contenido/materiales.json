@@ -280,8 +280,7 @@
           "que_es": "La charla del 2 de septiembre pasada a documento. De ahí salieron los diecinueve documentos de cliente, los módulos por categoría y las decisiones de proceso.",
           "estado": "listo",
           "formatos": [
-            "HTML",
-            "Notion"
+            "Markdown"
           ],
           "url": ""
         },
@@ -299,8 +298,7 @@
           "que_es": "El cruce de las dos bases de clientes de Notion: quién tiene ficha, quién está desalineado y qué duplicados hay. Se lee antes de dar una lista de clientes por cerrada.",
           "estado": "listo",
           "formatos": [
-            "Markdown",
-            "Notion"
+            "Markdown"
           ],
           "url": ""
         },

@@ -1,0 +1,115 @@
+{
+  "modulo": "diario-administrativo",
+  "titulo": "El diario administrativo",
+  "bajada": "Saber con precisión qué entró, qué salió y cuánto queda. No es contabilidad: es un renglón por movimiento con la explicación al lado, para que al fin de mes puedas leer el mes en vez de adivinarlo.",
+  "lista_cuando": "Están cargados los últimos tres meses y el primer cierre mensual está escrito, con una decisión tomada a partir de ese número.",
+  "completar": [
+    "Esta carta completa, con el primer cierre mensual escrito y su decisión"
+  ],
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Esto no es contabilidad, es un hábito",
+      "texto": [
+        "La contadora ordena lo que pasó para el fisco. Esto es otra cosa: es para vos, y es para poder decidir. Un renglón por movimiento, con fecha, concepto, cuánto y <b>por qué</b>. La explicación es la parte que importa, porque dentro de tres meses el número solo no te va a decir nada.",
+        "Se carga cada vez que pasa algo, no una vez por mes. Tres minutos por día, no tres horas el día 30. Si se deja para después, se pierde el porqué y queda una planilla de números sueltos.",
+        "Y no es una carta que se manda y se espera. Es un hábito: se pregunta cada tanto cómo viene y se pide que manden lo que tengan, aunque esté a medias."
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "Los últimos tres meses, cargados",
+      "consigna": "Antes de arrancar hacia adelante, cargá los tres meses que ya pasaron. Sin eso no tenés con qué comparar y el primer cierre no dice nada. Sacalo de las facturas, del banco y de los pagos, no de memoria. Anotá acá qué tan completo quedó cada mes y qué no pudiste reconstruir.",
+      "campo": "tabla",
+      "columnas": [
+        "Mes",
+        "Qué entró",
+        "Qué salió",
+        "Qué no pude reconstruir"
+      ],
+      "filas": 3,
+      "cid": 1
+    },
+    {
+      "titulo": "De dónde entra la plata",
+      "consigna": "Una línea por fuente de ingreso, con el monto del último mes. Clientes fijos, proyectos sueltos, cosas que cobrás fuera del negocio principal. Si un cliente paga distinto cada mes, ponelo igual y aclaralo: eso también es información.",
+      "campo": "tabla",
+      "columnas": [
+        "De dónde",
+        "Cuánto el último mes",
+        "Cada cuánto entra",
+        "¿Es seguro o varía?"
+      ],
+      "filas": 8,
+      "cid": 2
+    },
+    {
+      "titulo": "Por dónde se va",
+      "consigna": "Una línea por egreso, con la explicación al lado. Equipo, herramientas, impuestos, lo que sea. Lo que más cuesta poner es lo chico y repetido: las suscripciones, lo que se paga sin pensar. Justamente eso es lo que hay que ver junto.",
+      "campo": "tabla",
+      "columnas": [
+        "En qué",
+        "Cuánto",
+        "Cada cuánto",
+        "Por qué se paga"
+      ],
+      "filas": 10,
+      "cid": 3
+    },
+    {
+      "titulo": "Las tres cosas que van separadas",
+      "consigna": "Acá se cae la mayoría. El costo del equipo, tu retiro y lo que queda en el negocio son tres cosas distintas y se mezclan todo el tiempo. Poné el número de cada una del último mes. Si tu retiro es «lo que sobra», escribí eso: es el diagnóstico.",
+      "campo": "lineas",
+      "lineas": [
+        "Lo que cuesta el equipo",
+        "Lo que retirás vos",
+        "Lo que queda en el negocio",
+        "Total que entró ese mes"
+      ],
+      "ejemplo": {
+        "quien": "Facu",
+        "texto": "Mientras tu retiro sea lo que sobra, el negocio no tiene rentabilidad: tiene un resto. Ponerle un número fijo al retiro es lo que convierte al resto en una cuenta que se puede mirar."
+      },
+      "cid": 4
+    },
+    {
+      "titulo": "La ventana de pagos",
+      "consigna": "Elegí los días del mes en que pagás todo, del uno al diez, y avisalo al equipo y a los proveedores. Una sola ventana. Esto saca los pagos de la cabeza y saca las conversaciones incómodas de los días que no corresponden. Anotá qué días elegís, a quién se lo avisaste y cuándo.",
+      "campo": "lineas",
+      "lineas": [
+        "Los días en que se paga",
+        "A quién se lo avisé",
+        "Qué pasa si alguien factura tarde"
+      ],
+      "cid": 5
+    },
+    {
+      "titulo": "Tu primer cierre mensual",
+      "consigna": "Al terminar el mes, tres líneas: qué entró, qué salió, qué quedó. Y abajo, la lectura: qué te sorprendió, qué gasto no sabías que tenías, qué cliente rindió menos de lo que pensabas. La lectura es la carta; los números solos ya los tenías.",
+      "campo": "texto",
+      "alto": 8,
+      "placeholder": "Entró… salió… quedó…\n\nLo que no esperaba fue…",
+      "cid": 6
+    },
+    {
+      "titulo": "La decisión que sale de ese número",
+      "consigna": "Una sola, y concreta: subir un precio, sumar una persona, cortar un gasto, dejar de tomar un tipo de trabajo. Con fecha. Un cierre mensual que no termina en una decisión es una planilla linda, nada más.",
+      "campo": "lineas",
+      "lineas": [
+        "La decisión",
+        "Para cuándo",
+        "Cómo voy a saber si funcionó"
+      ],
+      "cid": 7
+    },
+    {
+      "nuestro": true,
+      "titulo": "Qué hacemos nosotros con esto",
+      "texto": [
+        "Leemos el cierre con vos y miramos tres cosas: si el precio da para el costo real de entregar, si tu retiro es un número o un resto, y si hay un gasto que está creciendo sin que lo hayas decidido.",
+        "Y de ahí sale lo que se discute en la llamada siguiente. La mitad de las conversaciones de oferta y de precio se resuelven más rápido cuando este número está arriba de la mesa."
+      ],
+      "cid": 8
+    }
+  ]
+}
