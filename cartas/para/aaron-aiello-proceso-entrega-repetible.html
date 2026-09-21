@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Proceso de entrega que se repite igual · carta de módulo · Aaron Aiello</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#ECEAE4;color:#171717;
+  font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.hoja{max-width:880px;margin:0 auto;padding:64px 32px 120px}
+.caja{display:inline-block;border:1px solid #8E8B85;padding:6px 13px;font-size:10.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:#6A6A66}
+h1{font-size:clamp(38px,6vw,58px);font-weight:800;letter-spacing:-.038em;line-height:1.02;
+  margin:28px 0 0;text-wrap:balance}
+.bajada{font-size:21px;line-height:1.5;color:#6A6A66;margin:18px 0 0;max-width:60ch}
+.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:grid;
+  gap:22px 34px;grid-template-columns:1fr}
+.lista .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.lista .tx{font-size:17px;line-height:1.5;color:#6A6A66;max-width:58ch;margin-top:7px}
+.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;
+  white-space:nowrap;margin-top:22px}
+
+section{margin-top:62px}
+section .n{font-size:11px;letter-spacing:.2em;color:#8E8B85;font-variant-numeric:tabular-nums}
+section h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 0;max-width:62ch}
+
+.pasos{margin-top:26px}
+.paso{display:grid;grid-template-columns:52px minmax(0,1fr);gap:22px;align-items:baseline;
+  border-top:1px solid #DBD7D2;padding:20px 0}
+.paso .p{font-size:20px;font-weight:800;letter-spacing:-.04em;color:#8E8B85;
+  font-variant-numeric:tabular-nums;line-height:1.3}
+.paso .t{font-size:19px;line-height:1.55;max-width:58ch}
+
+.ejemplo{margin-top:22px;border-left:2px solid #DBD7D2;padding:4px 0 4px 20px}
+.ejemplo .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.ejemplo .tx{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:18px;line-height:1.5;color:#6A6A66;margin-top:8px;max-width:62ch}
+
+.campo{margin-top:24px}
+textarea,input[type=text]{width:100%;font:inherit;font-size:18px;line-height:1.55;color:#171717;
+  background:#FBFAF8;border:1px solid #DBD7D2;padding:14px 16px;border-radius:0;
+  transition:border-color .15s}
+textarea{resize:vertical}
+textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
+.lin{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px 18px;align-items:center;
+  border-top:1px solid #DBD7D2;padding:14px 0}
+.lin .rot{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.tabla{width:100%;border-collapse:collapse;margin-top:6px}
+.tabla th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:#6A6A66;font-weight:400;padding:0 10px 10px 0;border-bottom:2px solid #171717}
+.tabla td{padding:0;border-bottom:1px solid #DBD7D2}
+.tabla input{border:0;background:transparent;padding:12px 10px 12px 0}
+.tabla input:focus{background:#FBFAF8}
+.tabla td.rotfila{font-size:17px;font-weight:700;letter-spacing:-.01em;padding:12px 18px 12px 0;white-space:nowrap}
+.envoltorio{overflow-x:auto}
+
+/* lo que ponemos nosotros: texto escrito, no campo para completar */
+.nuestro{margin-top:62px;border-left:3px solid #171717;padding:2px 0 2px 26px}
+.nuestro .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.nuestro h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+.nuestro p{font-size:18.5px;line-height:1.55;margin:16px 0 0;max-width:62ch}
+.nuestro .devuelta{margin-top:26px;border-top:1px solid #DBD7D2;padding-top:18px}
+.nuestro .devuelta .k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+
+.entregables{margin-top:26px}
+.cab{border-bottom:2px solid #171717;padding-bottom:12px}
+.cab .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.chk{display:grid;grid-template-columns:26px minmax(0,1fr);gap:18px;align-items:start;
+  border-bottom:1px solid #DBD7D2;padding:18px 0;cursor:pointer}
+.chk .box{position:relative;flex:0 0 auto;width:20px;height:20px;border:2px solid #6A6A66;margin-top:3px}
+.chk .box i{position:absolute;left:4px;top:1px;width:8px;height:14px;
+  border-right:3px solid #171717;border-bottom:3px solid #171717;
+  transform:rotate(45deg) scale(0);transform-origin:center;
+  transition:transform .16s cubic-bezier(.2,1.4,.4,1)}
+.chk.done .box i{transform:rotate(45deg) scale(1)}
+.chk .t{font-size:19px;line-height:1.55;max-width:58ch}
+/* el fibrón pasa por el medio de la letra, y en cada línea del renglón */
+.chk .txt{display:inline;background-repeat:no-repeat;background-position:0 center;background-size:0% 8px;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 10' preserveAspectRatio='none'%3E%3Cpath d='M0 4.2L6 .8L24 6L44 1.2L68 6.6L94 1.4L120 6.2L144 1L170 6.4L192 1.6L200 5L200 9.2L0 8.8Z' fill='%23171717'/%3E%3C/svg%3E");
+  -webkit-box-decoration-break:clone;box-decoration-break:clone;
+  transition:background-size .28s cubic-bezier(.3,.9,.3,1),color .2s}
+.chk.done .txt{background-size:100% 8px;color:#8E8B85}
+.chk:focus-visible{outline:1px solid #171717;outline-offset:4px}
+
+/* la bajada personalizada, cuando se prepara el envío desde la torre */
+.bajada-bloque{margin-top:56px;border:1px solid #171717;padding:30px 28px;background:#FBFAF8}
+.bajada-bloque .tt{font-size:26px;font-weight:800;letter-spacing:-.028em;line-height:1.2}
+.bajada-bloque .sub{font-size:17px;line-height:1.5;color:#6A6A66;margin-top:10px;max-width:58ch}
+.bajada-grilla{display:grid;gap:24px;margin-top:26px;grid-template-columns:1fr!important}
+.bajada-grilla .k{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85;
+  border-top:2px solid #171717;padding-top:14px}
+.bajada-grilla .v{font-size:18.5px;line-height:1.55;margin-top:9px;max-width:58ch}
+
+.acc{position:sticky;bottom:0;background:#ECEAE4;border-top:1px solid #DBD7D2;
+  padding:14px 0;margin-top:62px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.acc button{font:inherit;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  border:1px solid #171717;background:transparent;color:#171717;padding:13px 18px;cursor:pointer}
+.acc button.tinta{background:#171717;color:#ECEAE4}
+.acc button:hover{background:#171717;color:#ECEAE4}
+.acc button.tinta:hover{background:transparent;color:#171717}
+.acc .dicho{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:15px;color:#6A6A66}
+
+.pie{margin-top:48px;border-top:1px solid #171717;padding-top:22px;display:flex;
+  justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6A6A66}
+.sello{width:28px;height:28px;border:1.5px solid #171717;display:inline-flex;
+  align-items:center;justify-content:center;font-size:13px;font-weight:800}
+
+@media (max-width:640px){
+  .hoja{padding:40px 20px 90px}
+  .paso{grid-template-columns:38px minmax(0,1fr);gap:14px}
+  .lin{grid-template-columns:1fr;gap:8px}
+  .tabla{min-width:560px}
+  .bajada-bloque{padding:22px 18px}
+}
+@media print{
+  body{background:#fff}
+  .acc{display:none}
+  textarea,input{border-color:#bbb;background:#fff}
+  section{break-inside:avoid;margin-top:40px}
+  .chk{cursor:default}
+}
+</style>
+</head>
+<body data-mod="proceso-entrega-repetible">
+<div class="hoja">
+<main id="deck">
+<header class="slot">
+  <div class="caja">Carta de módulo · Entrega del servicio</div>
+  <h1>Proceso de entrega que se repite igual</h1>
+  <p class="bajada">El trabajo escrito etapa por etapa, con las horas reales de cada una, el responsable de cada entregable y el número de clientes que entran con el equipo de hoy.</p>
+  <div class="lista">
+    <div><div class="et">Cuándo se asigna</div><div class="tx">Cuando cada cliente se entrega distinto y todo depende de que el founder esté arriba.</div></div>
+    <div><div class="et">Está lista cuando</div><div class="tx">Un cliente nuevo se entrega siguiendo el documento y nadie te pregunta qué sigue.</div></div>
+  </div>
+  <div class="avance">0 de 8 empezadas</div>
+</header>
+<div class="bajada-bloque">
+  <div class="tt">Por qué esta carta, Aaron</div>
+  <div class="sub">Esto lo escribimos para vos, sobre lo que venimos viendo en tu caso.</div>
+  <div class="bajada-grilla">
+    <div><div class="k">Por qué te toca ahora</div><div class="v">Es lo que Franco te pidió para esta semana y lo que condiciona el viernes: productizar la entrega para despegarte del servicio. Hoy sos el cuello de botella —llamada uno a uno todas las semanas, vos haciendo la estrategia— y por eso no podés meter más clientes al portfolio. La oferta nueva promete tres llamadas en 90 días y clases grupales: eso sólo se sostiene si los entregables hacen el trabajo que hoy hacés vos en vivo.</div></div>
+    <div><div class="k">El objetivo concreto</div><div class="v">El proceso escrito con sus entregables, para llegar al viernes con la oferta productizada y armar el lanzamiento con Franco. Teo te acompaña la parte operativa de la ejecución.</div></div>
+    <div><div class="k">Con qué cabeza encararla</div><div class="v">La pregunta que ordena todo es la de Franco: qué es lo mínimo indispensable que tenés que hacer vos. Todo lo que no entre en esa lista se documenta, se automatiza o lo hace otro. Y se encuentra auditando tus propias llamadas: los patrones que repetís con cada cliente son, uno por uno, un entregable que todavía no empaquetaste.</div></div>
+  </div>
+</div>
+<section>
+  <div class="n">01</div>
+  <h2>Qué tenés que hacer</h2>
+  <p class="consigna">En este orden. Cada paso se apoya en el anterior, así que no conviene saltear ninguno aunque parezca obvio. Abajo está la hoja para resolverlos, uno por uno.</p>
+  <div class="pasos">
+    <div class="paso"><span class="p">01</span><span class="t">Mapear las entregas en curso: que se prometió, en qué estado está y que se resuelve sobre la marcha.</span></div>
+    <div class="paso"><span class="p">02</span><span class="t">Medir las horas reales que lleva cada etapa, incluidas las propias.</span></div>
+    <div class="paso"><span class="p">03</span><span class="t">Escribir el proceso paso por paso, con el entregable y el responsable de cada etapa.</span></div>
+    <div class="paso"><span class="p">04</span><span class="t">Definir la capacidad: cuántos clientes entran con el equipo de hoy.</span></div>
+    <div class="paso"><span class="p">05</span><span class="t">Aplicarlo a un cliente de prueba y corregir el documento con lo que se rompa.</span></div>
+    <div class="paso"><span class="p">06</span><span class="t">Dejar el proceso donde el equipo lo use todos los días.</span></div>
+  </div>
+</section>
+<div class="nuestro">
+  <div class="et">Esto lo ponemos nosotros</div>
+  <h2>La filosofía con la que se arma esto</h2>
+  <p>Franco lo planteó como anticiparse a las rocas: sabés en qué punto se traban siempre tus clientes, así que el entregable llega un paso antes de que lleguen a esa traba. Cuando eso pasa de forma predecible, salís de la entrada del servicio y empezás a operar desde arriba.</p>
+  <p>El material ya lo tenés y está en tus llamadas. Si revisás las uno a uno de los últimos meses vas a ver que repetís los mismos movimientos con casi todos. Cada patrón que repetís es un proceso que depende de que el cliente haga una parte y de que exista una estructura que haga la otra.</p>
+  <p>Y hay un atajo que Franco te marcó para el mismo fin: mandale el formulario a los clientes que ya tenés y preguntales qué les faltó de lo que les vendiste. De ahí sale el próximo nivel del producto, y sale con la demanda ya generada.</p>
+  <p>La regla del calendario, que también quedó dicha: el upsell y el retainer se presentan entre 15 y 20 días antes de que termine el ciclo, nunca al final. Cuando el ciclo cierra, las ansiedades bajan y la persona está menos dispuesta a seguir invirtiendo.</p>
+</div>
+<section class="trabajo">
+  <div class="n">02</div>
+  <h2>Lo que estás entregando hoy, cliente por cliente</h2>
+  <p class="consigna">Una fila por cliente activo, con lo que le prometiste, en qué estado está y qué parte se resuelve sobre la marcha cada semana. La última columna es la que importa: eso es el proceso que todavía no está escrito. Si son menos de tres clientes, sumá los dos últimos que terminaste.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Matías Morales</div><div class="tx">Tiene dos ventas cerradas al doble del precio anterior y la entrega salió de memoria: sin onboarding, sin hitos y sin fechas de entregable.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Cliente</th><th>Qué se prometió</th><th>En qué estado está</th><th>Qué se resuelve sobre la marcha</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s1f0c0"></td><td><input type="text" data-c="s1f0c1"></td><td><input type="text" data-c="s1f0c2"></td><td><input type="text" data-c="s1f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f1c0"></td><td><input type="text" data-c="s1f1c1"></td><td><input type="text" data-c="s1f1c2"></td><td><input type="text" data-c="s1f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f2c0"></td><td><input type="text" data-c="s1f2c1"></td><td><input type="text" data-c="s1f2c2"></td><td><input type="text" data-c="s1f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f3c0"></td><td><input type="text" data-c="s1f3c1"></td><td><input type="text" data-c="s1f3c2"></td><td><input type="text" data-c="s1f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f4c0"></td><td><input type="text" data-c="s1f4c1"></td><td><input type="text" data-c="s1f4c2"></td><td><input type="text" data-c="s1f4c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f5c0"></td><td><input type="text" data-c="s1f5c1"></td><td><input type="text" data-c="s1f5c2"></td><td><input type="text" data-c="s1f5c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f6c0"></td><td><input type="text" data-c="s1f6c1"></td><td><input type="text" data-c="s1f6c2"></td><td><input type="text" data-c="s1f6c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f7c0"></td><td><input type="text" data-c="s1f7c1"></td><td><input type="text" data-c="s1f7c2"></td><td><input type="text" data-c="s1f7c3"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">03</div>
+  <h2>Las horas reales de cada etapa</h2>
+  <p class="consigna">Medí una semana con el reloj y anotá el día, contando tus propias horas al mismo precio que las del resto del equipo. La estimación de memoria da siempre alrededor de la mitad de lo que es. Si una etapa se lleva más del treinta por ciento del total, ahí está el cuello de la entrega.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Sol Boutmy</div><div class="tx">Producen mucho y no lo tienen contabilizado: en la llamada se estimaron unos treinta reels por semana y quedó sin confirmar. Sin ese número no se sabe cuánto cuesta cada cliente.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Etapa</th><th>Quién la hace</th><th>Horas por cliente</th><th>Cuántas de esas son tuyas</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s2f0c0"></td><td><input type="text" data-c="s2f0c1"></td><td><input type="text" data-c="s2f0c2"></td><td><input type="text" data-c="s2f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f1c0"></td><td><input type="text" data-c="s2f1c1"></td><td><input type="text" data-c="s2f1c2"></td><td><input type="text" data-c="s2f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f2c0"></td><td><input type="text" data-c="s2f2c1"></td><td><input type="text" data-c="s2f2c2"></td><td><input type="text" data-c="s2f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f3c0"></td><td><input type="text" data-c="s2f3c1"></td><td><input type="text" data-c="s2f3c2"></td><td><input type="text" data-c="s2f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f4c0"></td><td><input type="text" data-c="s2f4c1"></td><td><input type="text" data-c="s2f4c2"></td><td><input type="text" data-c="s2f4c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f5c0"></td><td><input type="text" data-c="s2f5c1"></td><td><input type="text" data-c="s2f5c2"></td><td><input type="text" data-c="s2f5c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f6c0"></td><td><input type="text" data-c="s2f6c1"></td><td><input type="text" data-c="s2f6c2"></td><td><input type="text" data-c="s2f6c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f7c0"></td><td><input type="text" data-c="s2f7c1"></td><td><input type="text" data-c="s2f7c2"></td><td><input type="text" data-c="s2f7c3"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">04</div>
+  <h2>El proceso paso por paso</h2>
+  <p class="consigna">Escribí el trabajo en el orden en que ocurre, con el entregable que queda al final de cada paso y el nombre de quien lo hace. Un paso sin entregable que se pueda mostrar se junta con el siguiente. El documento se escribe para que lo pueda seguir alguien que entró ayer.</p>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Paso</th><th>Qué queda hecho</th><th>Responsable</th><th>Plazo</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s3f0c0"></td><td><input type="text" data-c="s3f0c1"></td><td><input type="text" data-c="s3f0c2"></td><td><input type="text" data-c="s3f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f1c0"></td><td><input type="text" data-c="s3f1c1"></td><td><input type="text" data-c="s3f1c2"></td><td><input type="text" data-c="s3f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f2c0"></td><td><input type="text" data-c="s3f2c1"></td><td><input type="text" data-c="s3f2c2"></td><td><input type="text" data-c="s3f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f3c0"></td><td><input type="text" data-c="s3f3c1"></td><td><input type="text" data-c="s3f3c2"></td><td><input type="text" data-c="s3f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f4c0"></td><td><input type="text" data-c="s3f4c1"></td><td><input type="text" data-c="s3f4c2"></td><td><input type="text" data-c="s3f4c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f5c0"></td><td><input type="text" data-c="s3f5c1"></td><td><input type="text" data-c="s3f5c2"></td><td><input type="text" data-c="s3f5c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f6c0"></td><td><input type="text" data-c="s3f6c1"></td><td><input type="text" data-c="s3f6c2"></td><td><input type="text" data-c="s3f6c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f7c0"></td><td><input type="text" data-c="s3f7c1"></td><td><input type="text" data-c="s3f7c2"></td><td><input type="text" data-c="s3f7c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f8c0"></td><td><input type="text" data-c="s3f8c1"></td><td><input type="text" data-c="s3f8c2"></td><td><input type="text" data-c="s3f8c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f9c0"></td><td><input type="text" data-c="s3f9c1"></td><td><input type="text" data-c="s3f9c2"></td><td><input type="text" data-c="s3f9c3"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">05</div>
+  <h2>Las decisiones que hoy pasan por vos</h2>
+  <p class="consigna">Anotá qué decisiones tomás solamente vos durante la entrega y con qué criterio las tomás: qué se aprueba, qué se rehace, qué se le contesta al cliente cuando pide un cambio. El criterio escrito es lo que después permite delegar. Cada uno entra en dos líneas.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Sharon Palacio</div><div class="tx">Deja tarjetas con objetivo, formato y referencias, y el cliente guiona sobre eso. El criterio vive en la tarjeta, y por eso puede llevar cuatro cuentas a la vez.</div></div>
+    <div class="campo"><textarea data-c="s4" rows="5" placeholder="Cuando el cliente pide…, la regla es…"></textarea></div>
+</section>
+<section class="trabajo">
+  <div class="n">06</div>
+  <h2>Cuántos clientes entran con el equipo de hoy</h2>
+  <p class="consigna">Dividí las horas disponibles del equipo por las horas que lleva un cliente y escribí el número. Ese número es el tope hasta que entre alguien más, y conviene decirlo en voz alta antes de vender el que sobra. Si el tope ya está pasado, la decisión de esta semana es contratar o frenar la entrada.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Sofía Galvis</div><div class="tx">El sistema de noventa días funciona y la tiene adentro de cada cuenta: a cinco clientes necesita mano derecha y a diez, un equipo. Por eso frenó la entrada de clientes nuevos hasta ordenar la estructura.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">Horas por cliente al mes</span><input type="text" data-c="s5l0" placeholder=""></div>
+      <div class="lin"><span class="rot">Horas disponibles del equipo</span><input type="text" data-c="s5l1" placeholder=""></div>
+      <div class="lin"><span class="rot">Clientes que entran hoy</span><input type="text" data-c="s5l2" placeholder=""></div>
+      <div class="lin"><span class="rot">Clientes activos ahora</span><input type="text" data-c="s5l3" placeholder=""></div>
+      <div class="lin"><span class="rot">Qué se hace con la diferencia</span><input type="text" data-c="s5l4" placeholder=""></div>
+    </div>
+</section>
+<section class="trabajo">
+  <div class="n">07</div>
+  <h2>El cliente de prueba</h2>
+  <p class="consigna">Elegí un cliente activo y entregale el próximo mes siguiendo el documento a la letra, sin arreglar nada por afuera. Cada vez que tengas que salirte del proceso, anotá la fecha y el motivo. Cada salida anotada es una línea que le falta al documento.</p>
+    <div class="campo"><textarea data-c="s6" rows="4" placeholder="Cliente elegido: … Me salí del proceso el… porque…"></textarea></div>
+</section>
+<section class="trabajo">
+  <div class="n">08</div>
+  <h2>Dónde vive el proceso y quién lo mira</h2>
+  <p class="consigna">El documento vive donde el equipo ya trabaja todos los días, con los estados del trabajo a la vista y un responsable por tarjeta. Poné una revisión con día fijo al mes para corregirlo con lo que pasó. Un proceso guardado en una carpeta que nadie abre vuelve a ser memoria en dos semanas.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Cáscara</div><div class="tx">Los calendarios y las entregas corren en Notion con los estados del template del sistema operativo: cada pieza tiene estado y responsable, y el equipo entra ahí todos los días.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">Dónde vive</span><input type="text" data-c="s7l0" placeholder=""></div>
+      <div class="lin"><span class="rot">Quién lo actualiza</span><input type="text" data-c="s7l1" placeholder=""></div>
+      <div class="lin"><span class="rot">Día de la revisión mensual</span><input type="text" data-c="s7l2" placeholder=""></div>
+      <div class="lin"><span class="rot">Quién entra a la revisión</span><input type="text" data-c="s7l3" placeholder=""></div>
+    </div>
+</section>
+<section class="trabajo">
+  <div class="n">09</div>
+  <h2>La prueba del mes siguiente</h2>
+  <p class="consigna">Entregá un mes completo con el proceso puesto y medí dos números: cuántas horas tuyas se fueron en la entrega y cuántas tareas las hizo alguien que no sos vos. Comparalos con el mes anterior. Si tus horas bajaron y la entrega salió en fecha, el proceso aguantó.</p>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Mes</th><th>Tus horas en la entrega</th><th>Tareas hechas por otros</th><th>Qué se rompió</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s8f0c0"></td><td><input type="text" data-c="s8f0c1"></td><td><input type="text" data-c="s8f0c2"></td><td><input type="text" data-c="s8f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s8f1c0"></td><td><input type="text" data-c="s8f1c1"></td><td><input type="text" data-c="s8f1c2"></td><td><input type="text" data-c="s8f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s8f2c0"></td><td><input type="text" data-c="s8f2c1"></td><td><input type="text" data-c="s8f2c2"></td><td><input type="text" data-c="s8f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s8f3c0"></td><td><input type="text" data-c="s8f3c1"></td><td><input type="text" data-c="s8f3c2"></td><td><input type="text" data-c="s8f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s8f4c0"></td><td><input type="text" data-c="s8f4c1"></td><td><input type="text" data-c="s8f4c2"></td><td><input type="text" data-c="s8f4c3"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section>
+  <div class="n">10</div>
+  <h2>Los entregables</h2>
+  <p class="consigna">La carta está hecha cuando estas 3 cosas existen. Tocá cada uno cuando lo termines: quedan tachados y se guardan en este navegador.</p>
+  <div class="entregables">
+    <div class="cab"><span class="et">Lo que tiene que existir</span></div>
+    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c0" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">El mapa de servicio con horas reales por etapa</span></span></div>
+    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c1" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">El documento de proceso con responsables</span></span></div>
+    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c2" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">El número de capacidad: cuántos clientes entran hoy</span></span></div>
+  </div>
+</section>
+</main>
+<div class="acc">
+  <button class="tinta" data-a="bajar">Descargar completada</button>
+  <button data-a="imprimir">Imprimir</button>
+  <button data-a="limpiar">Vaciar la hoja</button>
+  <span class="dicho">Lo que escribís se guarda solo en este navegador.</span>
+</div>
+<div class="pie"><div><span class="sello">C</span></div><div>Cáscara Founders · Entrega del servicio</div></div>
+</div>
+<template id="tpl-bajada">
+<div class="bajada-bloque">
+  <div data-b="titulo" class="tt"></div>
+  <div class="sub">Esto lo escribimos para vos, sobre lo que venimos viendo en tu caso.</div>
+  <div data-b="grilla" class="bajada-grilla">
+    <div data-b="fila-porque"><div class="k">Por qué te toca ahora</div><div data-b="porque" class="v"></div></div>
+    <div data-b="fila-objetivo"><div class="k">El objetivo concreto</div><div data-b="objetivo" class="v"></div></div>
+    <div data-b="fila-mindset"><div class="k">Con qué cabeza encararla</div><div data-b="mindset" class="v"></div></div>
+  </div>
+</div>
+</template>
+<script>
+(function(){
+  var MOD=document.body.dataset.mod||'x';
+  var KC='cf-carta-'+MOD, KP='cf-pl-'+MOD;
+
+  /* ---- los entregables tachables ---- */
+  var st={}; try{ st=JSON.parse(localStorage.getItem(KC)||'{}'); }catch(e){}
+  function pintar(){
+    document.querySelectorAll('.chk').forEach(function(el){
+      el.classList.toggle('done', !!st[el.dataset.k]);
+      el.setAttribute('aria-checked', st[el.dataset.k]?'true':'false');});
+  }
+  document.addEventListener('click',function(e){
+    var el=e.target.closest && e.target.closest('.chk'); if(!el)return;
+    st[el.dataset.k]=!st[el.dataset.k];
+    try{ localStorage.setItem(KC,JSON.stringify(st)); }catch(err){}
+    pintar();});
+  document.addEventListener('keydown',function(e){
+    if(e.key!==' '&&e.key!=='Enter')return;
+    var el=document.activeElement && document.activeElement.closest && document.activeElement.closest('.chk');
+    if(!el)return; e.preventDefault(); el.click();});
+  pintar();
+
+  /* ---- lo que se escribe en la hoja ---- */
+  function todos(){return Array.prototype.slice.call(document.querySelectorAll('[data-c]'))}
+  function auto(el){ if(el.tagName==='TEXTAREA'){ el.style.height='auto'; el.style.height=(el.scrollHeight+2)+'px'; } }
+  function contar(){
+    var s=document.querySelectorAll('section.trabajo'), n=0;
+    s.forEach(function(sec){
+      var lleno=false;
+      sec.querySelectorAll('[data-c]').forEach(function(el){ if(el.value && el.value.trim()) lleno=true; });
+      if(lleno) n++;
+    });
+    var a=document.querySelector('.avance');
+    if(a) a.textContent = s.length ? (n+' de '+s.length+' empezadas') : '';
+  }
+  function guardar(){
+    var v={}; todos().forEach(function(el){ if(el.value) v[el.dataset.c]=el.value; });
+    try{localStorage.setItem(KP,JSON.stringify(v))}catch(e){}
+    contar();
+  }
+  function cargar(){
+    var v={}; try{v=JSON.parse(localStorage.getItem(KP)||'{}')}catch(e){}
+    todos().forEach(function(el){ if(v[el.dataset.c]!=null) el.value=v[el.dataset.c]; auto(el); });
+    contar();
+  }
+  document.addEventListener('input',function(e){
+    if(!e.target.dataset || !e.target.dataset.c) return; auto(e.target); guardar();
+  });
+  var bl=document.querySelector('[data-a="limpiar"]');
+  if(bl) bl.addEventListener('click',function(){
+    if(!confirm('Esto borra todo lo que escribiste en esta carta. \u00bfSeguimos?')) return;
+    todos().forEach(function(el){el.value='';auto(el)}); guardar();
+  });
+  var bi=document.querySelector('[data-a="imprimir"]');
+  if(bi) bi.addEventListener('click',function(){window.print()});
+  var bd=document.querySelector('[data-a="bajar"]');
+  if(bd) bd.addEventListener('click',async function(){
+    todos().forEach(function(el){
+      if(el.tagName==='TEXTAREA') el.textContent=el.value; else el.setAttribute('value',el.value||'');
+    });
+    var html='<!doctype html>\n'+document.documentElement.outerHTML;
+    var nom='carta-'+MOD+'.html';
+    var dl=null; try{ dl=await claude.use('downloads'); }catch(e){}
+    if(dl){ try{ await dl.save({filename:nom,data:html}); return; }catch(e){ if(e&&e.code==='declined')return; } }
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([html],{type:'text/html'})); a.download=nom;
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+  cargar();
+  window.addEventListener('resize',function(){todos().forEach(auto)});
+})();
+</script>
+</body></html>

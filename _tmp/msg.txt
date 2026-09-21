@@ -1,36 +1,29 @@
-Los accionables de Aye incluyen el envio y la coordinacion, y la oferta de Sofia pasa a discovery
+La segunda llamada de Aaron con Franco entra al sistema
 
-Correcciones de Facu del 21/9.
+Facu paso el transcript del 18 de septiembre, que no esta en nuestro Fathom. Lo
+que dejo esa llamada cambia el orden de lo que le mandamos y suma una regla que
+sirve para toda la camada.
 
-El formulario de oferta le pedia a Sofia que escribiera la promesa, la forma de
-medirla, el paso a paso de la entrega y el precio: eso es lo que sacamos
-nosotros, no lo que ella tiene que aterrizar. Su carta pasa a ser siete
-preguntas de discovery —que vendiste, que te piden que no vendes, que te sale
-facil, que le cambia a alguien, que te preguntan siempre, cuanto tiempo te
-lleva, que salio mal y que no queres que tenga— y cierra con un bloque nuestro
-que dice explicito que la promesa, la metrica, el paso a paso y el precio los
-escribimos nosotros con Franco. El ejemplo de Custom Lab salio: se mezclaba con
-su caso.
+Aaron: entra proceso-entrega-repetible y va primero, porque es lo que Franco le
+pidio para esta semana y condiciona el viernes, cuando arman el lanzamiento en
+vivo. Hoy el es el cuello de botella con llamadas uno a uno semanales, y la
+oferta nueva promete 3 llamadas en 90 dias mas grupales: eso solo se sostiene si
+los entregables hacen el trabajo que hoy hace el en vivo. La carta abre con la
+filosofia con la que se arma: anticiparse a las rocas, auditar sus propias
+llamadas para encontrar los patrones que repite, y el atajo del formulario a los
+clientes actuales preguntandoles que les falto.
 
-El paso de las 40 preguntas del modulo generico se aclara: el formulario existe
-desde el 29 de agosto y lo manda Cascara antes de la sesion con Franco. Desde
-que la carta paso a scroll las herramientas no se muestran, y por eso el founder
-leia una referencia a algo que no tenia.
+El pasaporte y los angulos se reordenan detras de eso, y la carta de angulos
+suma un bloque con lo que quedo el 18: documentar y no crear, la secuencia de
+historias saliendo de cada llamada uno a uno, y la separacion entre venta
+privada y venta publica corriendo en paralelo.
 
-Sol: sale el diario administrativo, que Facu decidio que no hace falta, y entra
-contratar la primera persona, que es la carta de la convocatoria por historias
-con formulario de postulacion atras. Ya la corrimos con otra founder de la
-camada y eso queda dicho en un bloque nuestro.
-
-Los accionables de Aye pasan de cinco a siete y arrancan por lo que faltaba:
-mandar las once cartas y reclamar la devolucion completa, y coordinar la proxima
-llamada de cada uno. Queda escrito quien va con quien: Sofia, Sebastian, Lucio,
-Bianca y Sol con Franco; Sebastian con Fede despues de las dos cartas; Custom
-Lab con Facu el 2 de octubre. Y entra la regla de los 14 dias entre llamadas de
-un mismo cliente.
-
-En lo que falta se suma el transcript de la segunda llamada de Aaron con Franco,
-que no esta en nuestro Fathom.
+La regla que sale de ahi y aplica a los nueve que cierran el 31 de octubre: el
+upsell se presenta entre 15 y 20 dias antes de que termine el ciclo, nunca al
+cierre, porque cuando el ciclo termina las ansiedades bajan. Para nosotros eso
+cae entre el 11 y el 16 de octubre. Y son dos caminos distintos: upsell para el
+que ya viene escalando, retainer para el que esta estancado y necesita ser
+acelerado. El accionable de Aye sobre los que se cierran queda escrito asi.
 
 Verificado a 1512 y a 390: sin desbordes ni errores de JS.
 

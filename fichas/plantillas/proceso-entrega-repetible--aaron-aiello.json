@@ -1,0 +1,23 @@
+{
+ "modulo": "proceso-entrega-repetible",
+ "slug": "aaron-aiello",
+ "founder": "Aaron Aiello",
+ "bajada_envio": {
+  "founder": "Aaron Aiello",
+  "porque": "Es lo que Franco te pidió para esta semana y lo que condiciona el viernes: productizar la entrega para despegarte del servicio. Hoy sos el cuello de botella —llamada uno a uno todas las semanas, vos haciendo la estrategia— y por eso no podés meter más clientes al portfolio. La oferta nueva promete tres llamadas en 90 días y clases grupales: eso sólo se sostiene si los entregables hacen el trabajo que hoy hacés vos en vivo.",
+  "objetivo": "El proceso escrito con sus entregables, para llegar al viernes con la oferta productizada y armar el lanzamiento con Franco. Teo te acompaña la parte operativa de la ejecución.",
+  "mindset": "La pregunta que ordena todo es la de Franco: qué es lo mínimo indispensable que tenés que hacer vos. Todo lo que no entre en esa lista se documenta, se automatiza o lo hace otro. Y se encuentra auditando tus propias llamadas: los patrones que repetís con cada cliente son, uno por uno, un entregable que todavía no empaquetaste."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "La filosofía con la que se arma esto",
+   "texto": [
+    "Franco lo planteó como anticiparse a las rocas: sabés en qué punto se traban siempre tus clientes, así que el entregable llega un paso antes de que lleguen a esa traba. Cuando eso pasa de forma predecible, salís de la entrada del servicio y empezás a operar desde arriba.",
+    "El material ya lo tenés y está en tus llamadas. Si revisás las uno a uno de los últimos meses vas a ver que repetís los mismos movimientos con casi todos. Cada patrón que repetís es un proceso que depende de que el cliente haga una parte y de que exista una estructura que haga la otra.",
+    "Y hay un atajo que Franco te marcó para el mismo fin: mandale el formulario a los clientes que ya tenés y preguntales qué les faltó de lo que les vendiste. De ahí sale el próximo nivel del producto, y sale con la demanda ya generada.",
+    "La regla del calendario, que también quedó dicha: el upsell y el retainer se presentan entre 15 y 20 días antes de que termine el ciclo, nunca al final. Cuando el ciclo cierra, las ansiedades bajan y la persona está menos dispuesta a seguir invirtiendo."
+   ]
+  }
+ ]
+}
