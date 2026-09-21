@@ -85,7 +85,17 @@ textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
 .tabla td{padding:0;border-bottom:1px solid #DBD7D2}
 .tabla input{border:0;background:transparent;padding:12px 10px 12px 0}
 .tabla input:focus{background:#FBFAF8}
+.tabla td.rotfila{font-size:17px;font-weight:700;letter-spacing:-.01em;padding:12px 18px 12px 0;white-space:nowrap}
 .envoltorio{overflow-x:auto}
+
+/* lo que ponemos nosotros: texto escrito, no campo para completar */
+.nuestro{margin-top:62px;border-left:3px solid #171717;padding:2px 0 2px 26px}
+.nuestro .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.nuestro h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+.nuestro p{font-size:18.5px;line-height:1.55;margin:16px 0 0;max-width:62ch}
+.nuestro .devuelta{margin-top:26px;border-top:1px solid #DBD7D2;padding-top:18px}
+.nuestro .devuelta .k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
 
 .entregables{margin-top:26px}
 .cab{border-bottom:2px solid #171717;padding-bottom:12px}
@@ -252,12 +262,17 @@ def campo(sec, i):
         return '    <div class="campo">\n%s    </div>\n' % filas
     if tipo == "tabla":
         cols = sec.get("columnas", [])
+        rot  = sec.get("filas_rotulo") or []          # primera celda fija, cuando la fila ya tiene nombre
         th = "".join('<th>%s</th>' % esc(c) for c in cols)
         cuerpo = ""
-        for f in range(sec.get("filas", 6)):
-            tds = "".join('<td><input type="text" data-c="s%df%dc%d"></td>' % (i, f, c)
-                          for c in range(len(cols)))
-            cuerpo += '        <tr>%s</tr>\n' % tds
+        for f in range(max(sec.get("filas", 6), len(rot))):
+            celdas = []
+            for c in range(len(cols)):
+                if c == 0 and f < len(rot) and rot[f]:
+                    celdas.append('<td class="rotfila">%s</td>' % esc(rot[f]))
+                else:
+                    celdas.append('<td><input type="text" data-c="s%df%dc%d"></td>' % (i, f, c))
+            cuerpo += '        <tr>%s</tr>\n' % "".join(celdas)
         return ('    <div class="campo envoltorio"><table class="tabla">\n'
                 '      <thead><tr>%s</tr></thead>\n      <tbody>\n%s      </tbody>\n'
                 '    </table></div>\n' % (th, cuerpo))
@@ -268,8 +283,9 @@ def campo(sec, i):
 
 
 def construir(m, categoria, pl=None, bajada=None):
-    pasos = m.get("pasos", []) or []
-    comp  = m.get("completar", []) or []
+    # la variante de un founder puede pisar los pasos y los entregables del módulo
+    pasos = (pl or {}).get("pasos") or m.get("pasos", []) or []
+    comp  = (pl or {}).get("completar") or m.get("completar", []) or []
     secciones = (pl or {}).get("secciones", []) or []
     out = []
 
@@ -285,8 +301,9 @@ def construir(m, categoria, pl=None, bajada=None):
         out.append('    <div><div class="et">Está lista cuando</div><div class="tx">%s</div></div>'
                    % esc(pl["lista_cuando"]))
     out.append('  </div>')
-    if secciones:
-        out.append('  <div class="avance">0 de %d empezadas</div>' % len(secciones))
+    trabajo = [x for x in secciones if not x.get("nuestro")]
+    if trabajo:
+        out.append('  <div class="avance">0 de %d empezadas</div>' % len(trabajo))
     out.append('</header>')
 
     # ---- la bajada, cuando viene escrita desde el generador
@@ -326,6 +343,19 @@ def construir(m, categoria, pl=None, bajada=None):
 
     # ---- la hoja: una sección por cosa que hay que resolver
     for i, s in enumerate(secciones):
+        # los bloques que escribimos nosotros: no llevan número ni cuentan como trabajo
+        if s.get("nuestro"):
+            out.append('<div class="nuestro">')
+            out.append('  <div class="et">Esto lo ponemos nosotros</div>')
+            out.append('  <h2>%s</h2>' % esc(s["titulo"]))
+            for par in (s.get("texto") or []):
+                out.append('  <p>%s</p>' % esc(par))
+            if s.get("pregunta"):
+                out.append('  <div class="devuelta"><div class="k">%s</div>' % esc(s["pregunta"]))
+                out.append('    <div class="campo"><textarea data-c="s%d" rows="3"></textarea></div>' % i)
+                out.append('  </div>')
+            out.append('</div>')
+            continue
         n += 1
         out.append('<section class="trabajo">')
         out.append('  <div class="n">%02d</div>' % n)

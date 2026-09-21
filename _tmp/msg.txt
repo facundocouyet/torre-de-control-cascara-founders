@@ -1,0 +1,29 @@
+El ICP de Sebastian deja de pedirle una lista que no tiene
+
+Correccion de Facu del 21/9: la hoja generica asume que el founder ya vendio y
+mira para atras. Seba nunca lanzo un programa de educacion, hizo eventos
+presenciales y produccion, asi que su cliente ideal hay que descubrirlo
+preguntando. La hoja pasa a girar alrededor de los cuatro perfiles que creemos
+que compran (el disenador, el editor, el fotografo, el filmmaker): de que vive
+cada uno, que le duele, la pregunta que se lo hace decir en voz alta y por que le
+serviria entrar. Despues sale a hacerle esa pregunta a cinco personas reales y
+anota textual lo que contestan. Los diez clientes que ya le pagaron se quedan,
+porque de ahi sale la autoridad y el piso de la escalera.
+
+Aparece un tipo de bloque nuevo: "esto lo ponemos nosotros". Es texto escrito por
+Cascara, sin campo para completar, con una sola pregunta de devolucion al final.
+Va para las tres cosas que el founder no puede contestar solo y que son decision
+nuestra: la subcategoria donde se para, la escalera de valor con precio (que
+tiene la misma forma que la de Cascara) y quien queda afuera del tramo. No
+cuentan en el contador de secciones empezadas.
+
+El generador suma tres cosas para que esto sea posible en cualquier carta: una
+variante puede pisar los pasos y los entregables del modulo, una seccion puede
+ser un bloque nuestro, y una tabla puede traer la primera columna con el rotulo
+de la fila ya escrito.
+
+Verificadas a 1512 y a 390: sin desbordes, sin scroll horizontal y sin errores
+de JS.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01X5PVbBwAY8Cfrb8woNrxbU
