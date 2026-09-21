@@ -16,7 +16,7 @@
    "nuestro": true,
    "titulo": "Cómo funciona esta hoja",
    "texto": [
-    "Son ocho preguntas y ninguna te pide una definición. No hay que escribir la promesa, ni el precio, ni el paso a paso: eso lo armamos nosotros con lo que contestes. Lo que te pedimos es la materia prima.",
+    "Son nueve preguntas y ninguna te pide una definición. No hay que escribir la promesa, ni el precio, ni el paso a paso: eso lo armamos nosotros con lo que contestes. Lo que te pedimos es la materia prima.",
     "<b>Tu oferta de hoy está validada y no se toca acá.</b> Armaste las propuestas, subiste los precios casi al doble y las vendiste todas igual. Eso prueba algo que conviene tener presente todo el tramo: cuando presentás, cerrás, y el precio lo soporta.",
     "Lo que estamos moviendo es hacia dónde apuntás. <b>Redireccionar a marcas personales es una oferta nueva</b>: una persona compra distinto que una marca de producto —decide sola, decide más rápido, y mide el resultado en semanas en vez de en trimestres—. Que vendas bien universos de marca no dice todavía nada sobre si vendés bien esto.",
     "Por eso el discovery va sobre lo que ya vendiste: de ahí sale qué se traslada tal cual, qué hay que cambiar y qué directamente no aplica.",
@@ -109,6 +109,17 @@
    "placeholder": "No quiero que esta oferta me obligue a…"
   },
   {
+   "titulo": "Los enemigos de tu nicho, y tu ventaja sobre cada uno",
+   "consigna": "Con quién te compara tu cliente antes de elegirte. No son solo competidores directos: también es hacerlo él mismo, dejarlo para después, contratar a alguien barato, o la solución que ya probó y no le funcionó. Una fila por cada uno, con qué le ofrece ese enemigo y por qué vos resolvés eso mejor. Esta es la pregunta que más rinde de toda la hoja y la que peor se contesta de memoria: si no sabés contra qué te comparan, la oferta se escribe en el vacío y el precio se discute siempre.",
+   "campo": "tabla",
+   "columnas": [
+    "Contra qué te comparan",
+    "Qué le ofrece eso",
+    "Por qué vos lo resolvés mejor"
+   ],
+   "filas": 5
+  },
+  {
    "nuestro": true,
    "titulo": "Qué hacemos nosotros con esto",
    "texto": [
@@ -116,6 +127,19 @@
     "El precio y la forma de pago los cierra Franco en su llamada. Ya sabemos algo que juega a favor: cuando subiste los precios al doble, las vendiste igual. Eso significa que el techo estaba en tu cabeza y no en el mercado, y es la referencia con la que se arranca.",
     "Junto con esta hoja va la del cliente ideal. Las dos se completan y se devuelven juntas: ésta baja qué vendés y aquélla baja a quién. Con las dos, la llamada con Franco audita en vez de definir.",
     "Lo único que te vamos a pedir después es que la leas y nos digas qué no suena tuyo."
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "Así queda tu oferta cuando la escribamos",
+   "texto": [
+    "Para que sepas a dónde va todo esto. Con tus respuestas, Franco arma el one-sheeter, que tiene cinco partes y entra en una carilla.",
+    "<b>El nicho y el mensaje.</b> A quién le hablás, cuál es la nueva oportunidad que le abrís, la promesa y los entregables.",
+    "<b>Los deseos y los problemas de tu cliente</b>, uno al lado del otro. Eso sale de la carta del cliente ideal, no de acá.",
+    "<b>La oferta en una sola línea:</b> «Ayudo a [nicho] a [promesa] a través de [mecanismo único]». Si esa línea no se entiende sola, la oferta todavía no está.",
+    "<b>Los entregables</b>, todos, sin dejar afuera lo que das y no cobrás.",
+    "<b>Los enemigos y tu ventaja sobre cada uno</b>, que es lo que acabás de completar arriba.",
+    "Lo único que te vamos a pedir después es que lo leas y nos digas qué no suena tuyo."
    ]
   }
  ]

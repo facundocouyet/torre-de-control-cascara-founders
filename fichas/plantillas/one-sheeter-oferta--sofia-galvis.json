@@ -14,12 +14,12 @@
   "Decir qué no querés que tenga esta oferta."
  ],
  "completar": [
-  "Esta carta completa, con las siete respuestas escritas"
+  "Esta carta completa, con las nueve respuestas escritas"
  ],
  "bajada_envio": {
   "founder": "Sofía Galvis Montoya",
   "porque": "Arrancás el segundo tramo y el producto de educación todavía no existe: los lugares vendidos son cero porque no hay qué vender. Franco baja producto, oferta y roadmap en su llamada, y esta hoja es lo que hace que esa llamada rinda. No te pide que definas la oferta, te pide la materia prima: qué vendiste, qué te piden, qué te sale fácil y qué te cuesta. La oferta la escribimos nosotros con eso.",
-  "objetivo": "Las siete respuestas escritas antes de la llamada con Franco, para que esa llamada sea de decidir y no de averiguar. De ahí salen la promesa, la métrica, el paso a paso y el precio.",
+  "objetivo": "Las nueve respuestas escritas antes de la llamada con Franco, para que esa llamada sea de decidir y no de averiguar. De ahí salen la promesa, la métrica, el paso a paso y el precio.",
   "mindset": "Contestá largo y en tu forma de hablar, sin ordenar. Un audio pasado a texto sirve igual. Lo que necesitamos es la información cruda: la prolijidad la ponemos nosotros, y si te ponés a redactar perdés lo que más sirve, que son tus palabras."
  },
  "secciones": [
@@ -27,7 +27,7 @@
    "nuestro": true,
    "titulo": "Cómo funciona esta hoja",
    "texto": [
-    "Son siete preguntas y ninguna te pide una definición. No hay que escribir la promesa, ni el precio, ni el paso a paso de la entrega: eso lo armamos nosotros con lo que contestes, y se cierra con Franco en su llamada.",
+    "Son nueve preguntas y ninguna te pide una definición. No hay que escribir la promesa, ni el precio, ni el paso a paso de la entrega: eso lo armamos nosotros con lo que contestes, y se cierra con Franco en su llamada.",
     "El orden importa: primero se audita lo que ya vendiste y lo que te piden, y recién después se decide qué va a ser la oferta. Al revés se arma un producto para un cliente que todavía no se miró.",
     "Si una pregunta no la podés contestar, escribí por qué. Eso también es información y nos dice dónde tenemos que meternos nosotros."
    ]
@@ -118,6 +118,17 @@
    "placeholder": "No quiero que esta oferta me obligue a…"
   },
   {
+   "titulo": "Los enemigos de tu nicho, y tu ventaja sobre cada uno",
+   "consigna": "Con quién te compara tu cliente antes de elegirte. No son solo competidores directos: también es hacerlo él mismo, dejarlo para después, contratar a alguien barato, o la solución que ya probó y no le funcionó. Una fila por cada uno, con qué le ofrece ese enemigo y por qué vos resolvés eso mejor. Esta es la pregunta que más rinde de toda la hoja y la que peor se contesta de memoria: si no sabés contra qué te comparan, la oferta se escribe en el vacío y el precio se discute siempre.",
+   "campo": "tabla",
+   "columnas": [
+    "Contra qué te comparan",
+    "Qué le ofrece eso",
+    "Por qué vos lo resolvés mejor"
+   ],
+   "filas": 5
+  },
+  {
    "nuestro": true,
    "titulo": "Qué hacemos nosotros con esto",
    "texto": [
@@ -125,6 +136,19 @@
     "El precio y la forma de pago los cierra Franco en su llamada, sobre el costo real de entregarlo una vez que sale de tus horas. La regla es simple: el piso del precio es ese costo por dos.",
     "Cómo se mide la promesa también lo ponemos nosotros. Es la parte más técnica y es donde más se equivoca el que lo hace solo: una promesa que no se puede medir con una herramienta que vos abrís, se cambia por una que sí.",
     "Lo único que te vamos a pedir después es que la leas y nos digas qué no suena tuyo."
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "Así queda tu oferta cuando la escribamos",
+   "texto": [
+    "Para que sepas a dónde va todo esto. Con tus respuestas, Franco arma el one-sheeter, que tiene cinco partes y entra en una carilla.",
+    "<b>El nicho y el mensaje.</b> A quién le hablás, cuál es la nueva oportunidad que le abrís, la promesa y los entregables.",
+    "<b>Los deseos y los problemas de tu cliente</b>, uno al lado del otro. Eso sale de la carta del cliente ideal, no de acá.",
+    "<b>La oferta en una sola línea:</b> «Ayudo a [nicho] a [promesa] a través de [mecanismo único]». Si esa línea no se entiende sola, la oferta todavía no está.",
+    "<b>Los entregables</b>, todos, sin dejar afuera lo que das y no cobrás.",
+    "<b>Los enemigos y tu ventaja sobre cada uno</b>, que es lo que acabás de completar arriba.",
+    "Lo único que te vamos a pedir después es que lo leas y nos digas qué no suena tuyo."
    ]
   }
  ]
