@@ -1,0 +1,147 @@
+{
+ "modulo": "angulos-desde-icp",
+ "founder": "Sebastián Martínez",
+ "slug": "sebastian",
+ "titulo": "La hoja de ángulos bajados de tu cliente ideal",
+ "bajada": "Entre ocho y doce puertas de entrada para tus piezas, salidas de los dolores que escribiste en la hoja del cliente ideal. Cada una con la idea concreta al lado, y un guion completo de la más fuerte. Con esto cada pieza arranca de un ángulo elegido en vez de una hoja en blanco.",
+ "lista_cuando": "Le pasás la tabla a alguien que te edita o te guiona y puede armar la próxima pieza sin preguntarte de qué va.",
+ "pasos": [
+  "Pasar los dolores de la hoja del cliente ideal, con las palabras textuales del otro.",
+  "Convertir cada dolor en la pregunta que esa persona ya se hace sola, antes de conocerte.",
+  "Escribir tu giro propio: lo que vos decís de ese problema que el resto de tu rubro no dice.",
+  "Juntar las frases tuyas que ya funcionaron, con la respuesta que tuvo cada una.",
+  "Armar la tabla de ángulos: uno por dolor, con qué se muestra, en qué formato y con qué cierre.",
+  "Escribir el guion completo del ángulo más cerca de la venta.",
+  "Elegir los tres ángulos del primer mes y repartir las piezas entre ellos.",
+  "Publicar una pieza de cada uno esta semana y leer qué conversación abrió."
+ ],
+ "completar": [
+  "Esta carta completa, con la tabla de ángulos, el guion del más fuerte y los tres del primer mes"
+ ],
+ "bajada_envio": {
+  "founder": "Sebastián Martínez",
+  "porque": "Va junto con la hoja del cliente ideal y se completa después de ella. Esa junta el material: los dolores con las palabras del otro, las cinco conversaciones, el alumno ideal en una frase. Ésta lo convierte en piezas. Las dos juntas son lo que te falta para producir contenido con criterio en vez de publicar lo que se te ocurre esa semana, que es exactamente lo que hoy te frena: el reel de 1.800 comentarios no dejó una sola conversación abierta.",
+  "objetivo": "Entre ocho y doce ángulos con su idea concreta, el guion completo del más fuerte, y los tres elegidos para el primer mes con las piezas repartidas. Eso es lo que Fede necesita para bajarte el calendario de las cuatro semanas.",
+  "mindset": "Un ángulo terminado se puede grabar mañana con lo que ya tenés a mano. Si al leerlo te falta saber qué se muestra, está escrito como tema y le falta la bajada. Y el giro propio es lo único que no puede copiarse: sale de lo que viste pasar muchas veces y de lo que te da bronca del mercado."
+ },
+ "secciones": [
+  {
+   "nuestro": true,
+   "titulo": "Esta carta va con la del cliente ideal",
+   "texto": [
+    "Son dos y se completan en orden. En la hoja del cliente ideal profundizás las dos familias que dejó Franco —el creativo técnico y el creador de contenido— hasta que tengan oficio, dolor y una frase textual. Acá convertís eso en las puertas de entrada de cada pieza.",
+    "Por eso la primera sección de abajo se completa copiando, no pensando: si la hoja del cliente ideal está hecha, los dolores ya están escritos y sólo hay que traerlos.",
+    "Cuando devuelvas las dos, armamos un solo documento de lanzamiento con el producto y la cohorte que cerraste con Franco, los dolores, los ángulos y lo que salga de tus clientes de producción. Con eso entrás a la llamada de estrategia de comunicación con Fede."
+   ]
+  },
+  {
+   "titulo": "Los dolores, con las palabras que usa él",
+   "consigna": "Ocho a diez frases textuales, traídas de la hoja del cliente ideal: las de los comentarios del reel, las de las cinco conversaciones y las de los mensajes que te llegaron. Van sin retocar, con los errores y las muletillas: la frase tal cual la dijo es el material, tu versión ordenada de la frase ya es otra cosa. Si no juntás ocho, la fuente está chica y hay que volver a buscar conversaciones antes de seguir.",
+   "ejemplo": {
+    "quien": "Sebastián Martínez",
+    "texto": "Los mil ochocientos comentarios del reel sobre el miedo a grabarse en público eran todos de la misma familia: gracias, me empujaste, era el empujón que necesitaba. Esa repetición marcó el dolor y el ángulo al mismo tiempo."
+   },
+   "campo": "texto",
+   "alto": 5,
+   "placeholder": "Una frase por línea, tal cual la dijeron."
+  },
+  {
+   "titulo": "De cada dolor, la pregunta que ya se hace",
+   "consigna": "Pasá cada dolor a la pregunta que esa persona se hace sola, en su cabeza, antes de conocerte. Se escribe en primera persona y con sus palabras: es lo que después va en el gancho de la pieza. Una fila por dolor, con el perfil al lado para saber a cuál de las dos familias le estás hablando.",
+   "campo": "tabla",
+   "columnas": [
+    "El dolor, como lo dice él",
+    "La pregunta que ya se hace",
+    "De qué perfil salió"
+   ],
+   "filas": 10
+  },
+  {
+   "titulo": "Tu giro propio",
+   "consigna": "Qué decís vos sobre ese problema que el resto de tu rubro no dice. Sale de tu experiencia, de algo que viste pasar muchas veces y de lo que te da bronca del mercado en el que trabajás. El giro es lo que hace que la pieza se reconozca como tuya: sin eso la tabla de ángulos queda igual a la de cualquier otro. Acordate del criterio que marcó Franco: le estás hablando a vos mismo hace 1 a 3 años.",
+   "ejemplo": {
+    "quien": "Sebastián Martínez",
+    "texto": "El reel que funcionó ya tenía el giro adentro: la vergüenza a grabarse no se corta con valentía, se corta cambiando lo que querés comunicar. Eso es lo que nadie más estaba diciendo."
+   },
+   "campo": "texto",
+   "alto": 4,
+   "placeholder": "Lo que yo veo y casi nadie dice es que…"
+  },
+  {
+   "titulo": "Las frases tuyas que ya funcionaron",
+   "consigna": "Lo que ya dijiste en una llamada, en una charla, en un audio largo o en una pieza que rindió, y que te conviene volver a usar. Buscá en lo que ya está publicado y en las grabaciones del workshop y de la mentoría piloto: seis frases propias con la respuesta que tuvo cada una. Estas frases entran como títulos y como cierres de los ángulos.",
+   "ejemplo": {
+    "quien": "Nicolás Lozada",
+    "texto": "Las dos piezas que triplicaron o cuadruplicaron sus números fueron la de los diez días encerrado en la oficina y la de que subir los precios es un error. Las dos cuentan experiencia vivida, y de ahí salió su hoja de frases propias."
+   },
+   "campo": "tabla",
+   "columnas": [
+    "La frase, textual",
+    "Dónde la dijiste",
+    "Qué respuesta tuvo"
+   ],
+   "filas": 6
+  },
+  {
+   "titulo": "La tabla de ángulos",
+   "consigna": "Un ángulo por dolor, entre ocho y doce en total. Cada fila lleva la idea concreta: qué se muestra en pantalla, en qué formato se graba y con qué cierre termina. La fila está terminada cuando se puede grabar mañana con lo que ya tenés a mano: si te falta eso, está escrita como tema y le falta la bajada concreta. El formato de referencia es el que ya te funcionó, orgánico de celular.",
+   "ejemplo": {
+    "quien": "Custom Lab",
+    "texto": "Los doce ángulos quedaron agrupados en cinco pilares, apuntados a empresas de treinta a cincuenta empleados y a locales comerciales, con el merch contado como el medio publicitario de otra marca."
+   },
+   "campo": "tabla",
+   "columnas": [
+    "Ángulo",
+    "Dolor del que sale",
+    "Qué se muestra",
+    "Formato",
+    "Cierre"
+   ],
+   "filas": 10
+  },
+  {
+   "titulo": "El guion completo del ángulo más fuerte",
+   "consigna": "Elegí el ángulo que está más cerca de la venta y escribile el guion entero, listo para grabar: gancho de los primeros 3 segundos, el desarrollo con un ejemplo propio con números, y el cierre con lo que querés que haga el que lo vio. Escrito como lo vas a decir en voz alta, con tus palabras. Si al leerlo en voz alta te trabás, la frase se cambia.",
+   "ejemplo": {
+    "quien": "Aaron A.",
+    "texto": "Los ángulos le salen de su propia historia: de dónde viene, qué cambió este año, qué le pasó adentro del mundo del infoproducto y por qué se quiere correr. El guion más fuerte es el que usa esa historia como ejemplo propio."
+   },
+   "campo": "texto",
+   "alto": 6,
+   "placeholder": "Gancho: … Desarrollo: … Cierre: …"
+  },
+  {
+   "nuestro": true,
+   "titulo": "El cierre que te falta",
+   "texto": [
+    "El agujero más caro de tu caso está acá: el reel de un millón cuatrocientas mil vistas y mil ochocientos comentarios no dejó una sola conversación abierta. El alcance lo tenés resuelto; lo que falta es el cierre de la pieza.",
+    "Por eso la columna Cierre de la tabla no es un detalle: es la que convierte el ángulo en una consulta. Puede ser una pregunta que se conteste por mensaje, un comentario con una palabra, o decir en voz alta que estás armando algo. Lo que no puede es terminar en una reflexión linda.",
+    "La regla para medir: menos de 10 piezas por ángulo no se evalúa nada. Si un ángulo no abre ninguna conversación en tres piezas, se corrige el cierre antes de bajar el ángulo."
+   ],
+   "pregunta": "Qué cierre te parece que tu audiencia sí contestaría"
+  },
+  {
+   "titulo": "Los tres ángulos del primer mes",
+   "consigna": "Ordená los ángulos por cercanía a la venta: primero los que hablan del problema que tu programa cobra por resolver. Elegí tres y repartí las piezas del mes entre esos tres, con un piso de 3 piezas por ángulo, porque una sola pieza por ángulo no permite comparar nada. Estos tres son los que Fede toma para armar el calendario.",
+   "campo": "lineas",
+   "lineas": [
+    "Ángulo 1 del mes",
+    "Ángulo 2 del mes",
+    "Ángulo 3 del mes",
+    "Cuántas piezas por ángulo",
+    "Fecha de la primera pieza"
+   ]
+  },
+  {
+   "titulo": "Tres piezas publicadas, una por ángulo",
+   "consigna": "Publicá esta semana una pieza de cada uno de los tres ángulos elegidos y leelas el mismo día que salen. Anotá qué conversaciones abrió cada una y sobre qué tema te escribieron, que es la señal que importa. Los ángulos que no abren ninguna conversación en tres piezas se corrigen o se bajan.",
+   "ejemplo": {
+    "quien": "Antonio Mazzello",
+    "texto": "El tramo le pide diez piezas sobre el mismo tema, para el mismo cliente y con la misma promesa, sin cambiar de rumbo en el medio. Recién ahí hay con qué decidir si el mensaje funciona."
+   },
+   "campo": "texto",
+   "alto": 4,
+   "placeholder": "Ángulo, fecha, qué conversación abrió."
+  }
+ ]
+}
