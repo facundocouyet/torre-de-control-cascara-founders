@@ -1,60 +1,111 @@
 {
  "modulo": "contratar-primer-rol",
- "titulo": "La hoja de la primera contratación",
- "bajada": "El scope del rol escrito antes de salir a buscar, la búsqueda publicada, la prueba paga hecha sobre trabajo real y el acuerdo cerrado con número, alcance y cadencia.",
- "lista_cuando": "La persona está trabajando con un frente propio y su primera entrega ya pasó por tu reunión semanal.",
+ "titulo": "La hoja de tu primera contratación",
+ "bajada": "El rol escrito antes de salir a buscar, la búsqueda publicada con un formulario que recibe las postulaciones, y una prueba paga sobre trabajo real. Con el tarifario de Cáscara para saber qué pagar.",
+ "lista_cuando": "El formulario está publicado con su link circulando en historias, y hay postulaciones adentro para elegir.",
  "secciones": [
-  {"titulo": "Tu semana real, hora por hora",
-   "consigna": "Anotá la semana que acaba de pasar, con las horas que te comió cada tarea. Sumá la columna: lo que hay que contratar es el bloque que junta más horas y menos criterio propio. Sin la semana anotada la contratación se decide por cansancio y termina cubriendo lo que menos molesta.",
+  {
+   "nuestro": true,
+   "titulo": "Lo primero que se delega es lo que no necesita tu criterio",
+   "texto": [
+    "No hace falta que midas tu semana hora por hora: casi nadie la tiene medida y la cuenta termina hecha de memoria, que siempre da la mitad. Lo que sí sabés sin medir nada es qué parte de tu trabajo podría hacer otro sin que el resultado cambie.",
+    "Esa es la que se delega primero. En la mayoría de los casos es la edición: se lleva horas, es repetitiva, y el criterio que aporta es el tuyo en el brief, no el de quien la ejecuta.",
+    "Contratar por cansancio termina cubriendo lo que más te molesta en vez de lo que más te libera. No es lo mismo."
+   ]
+  },
+  {
+   "titulo": "Qué delegás y qué te queda",
+   "consigna": "Dos columnas. A la izquierda lo que sale de tus manos, a la derecha lo que se queda con vos porque ahí tu criterio es el producto. Tres o cuatro líneas de cada lado alcanzan.",
    "campo": "tabla",
-   "columnas": ["Tarea", "Horas por semana", "Quién más podría hacerla", "Cuánto sale pagarla"],
-   "filas": 10},
-
-  {"titulo": "El scope del rol, escrito antes de buscar",
-   "consigna": "Propósito del rol en una frase, tres a cinco responsabilidades, qué entrega por semana y por mes, y a quién le reporta. Media página alcanza, y si no entra en media página el rol todavía no está definido y la búsqueda va a traer gente que no encaja.",
-   "ejemplo": {"quien": "Manuel Bruzzone", "texto": "Ramiro entra como estratega creativo: el nexo entre los datos comerciales, la estrategia y la ejecución de contenido, para que Juana quede libre para estrategia creativa y edición."},
-   "campo": "texto", "alto": 5,
-   "placeholder": "El rol existe para… Responsabilidades… Entrega… Reporta a…"},
-
-  {"titulo": "El trabajo que queda en tus manos",
-   "consigna": "Las dos o tres cosas que seguís haciendo vos después de que la persona entre, escritas con nombre y con frecuencia. Es la parte donde tu criterio es el producto. Definirlas hoy evita la discusión del mes dos, cuando el rol ya empezó a crecer solo.",
-   "ejemplo": {"quien": "Agostina Marchesini", "texto": "Contrata una jornada de trabajo semanal sobre la marca, y los guiones y las historias los sigue escribiendo ella."},
-   "campo": "texto", "alto": 3,
-   "placeholder": "Sigo haciendo yo… porque…"},
-
-  {"titulo": "El número que podés sostener todos los meses",
-   "consigna": "Contratá con el negocio de hoy, con la cifra que podés pagar doce meses seguidos aunque no entre un cliente nuevo. Escribí de qué cliente sale esa plata y el día de pago, del 1 al 10 del mes por ejemplo. Dejá anotado qué se le suma cuando entren dos clientes más: eso es lo que se le cuenta en la entrevista.",
-   "ejemplo": {"quien": "Lola Berutti", "texto": "Cáscara le asignó un editor de nivel uno o dos a través de Azu justamente para que la primera persona no le cargue costo mientras el programa todavía no vendió."},
+   "columnas": [
+    "Lo que delego",
+    "Lo que me queda a mí"
+   ],
+   "filas": 4
+  },
+  {
+   "titulo": "El rol, escrito antes de buscar",
+   "consigna": "Propósito del rol en una frase, tres a cinco responsabilidades, qué entrega por semana y a quién le reporta. Media página alcanza. Si no entra en media página, el rol todavía no está definido y la búsqueda va a traer gente que no encaja.",
+   "campo": "texto",
+   "alto": 8
+  },
+  {
+   "nuestro": true,
+   "titulo": "Qué pagar: el tarifario de Cáscara",
+   "texto": [
+    "Estos son los números con los que trabajamos nosotros, para que hagas la cuenta con una referencia real en vez de adivinar. Se cobra <b>por pieza</b>, no por hora, y el nivel lo marca la complejidad, no la persona.",
+    "<b>Short form, hasta 59 segundos:</b> fast reel 12 dólares · simple 25 · avanzado 40 · pro 80.<br><b>Long form, hasta 15 minutos:</b> simple 60 · avanzado 100 · pro 150, más un adicional por minuto extra.<br><b>Podcast, hasta 40 minutos:</b> simple 120 · avanzado 150.<br><b>Clases o charlas de una hora:</b> simple 50 · avanzado 80.<br><b>Adaptaciones y reducciones:</b> simple 12 · avanzada 20.",
+    "Para sacar tu número: cuántas piezas por semana necesitás, por el valor del nivel que te sirve, por cuatro. Cinco piezas simples por semana son unos quinientos dólares al mes; si son fast reels, doscientos cuarenta.",
+    "Dos cosas que conviene dejar dichas desde el principio: los presupuestos incluyen hasta tres rondas de corrección, y la urgencia se cobra aparte. Escribirlo antes evita la conversación incómoda después."
+   ]
+  },
+  {
+   "titulo": "El número que podés sostener todos los meses",
+   "consigna": "Contratá con el negocio de hoy: la cifra que podés pagar doce meses seguidos aunque no entre un cliente nuevo. Escribí de qué cliente sale esa plata y el día de pago.",
    "campo": "lineas",
-   "lineas": ["Cuánto pagás por mes", "De qué cliente sale esa plata", "Día de pago", "Qué se le suma si el negocio crece"]},
-
-  {"titulo": "La búsqueda publicada",
-   "consigna": "Tres historias contando qué buscás, para qué proyecto es y cómo se postula, con el link al formulario en las tres. El formulario pide lo mínimo: trabajos anteriores, herramientas, horas disponibles por semana y cuánto cobra. Publicá esta semana, con fecha de cierre de postulaciones a diez días.",
-   "ejemplo": {"quien": "Antonio Mazzello", "texto": "El rol estaba claro desde abril: calendario, guiones y coordinación del editor. La persona nunca apareció y el plan quedó parado esperándola."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Historia 1: qué busco. Historia 2: cómo es trabajar acá. Historia 3: cómo se postula."},
-
-  {"titulo": "Las entrevistas",
-   "consigna": "Entrevistá al menos a cinco antes de elegir, media hora cada uno. Una pregunta va fija para todos, por ejemplo contame un trabajo que entregaste tarde y qué hiciste. Anotá la decisión el mismo día de la entrevista, en una palabra, y avisale al que queda afuera.",
+   "lineas": [
+    "Cuántas piezas por semana necesito",
+    "De qué nivel",
+    "Cuánto da al mes",
+    "De qué cliente sale esa plata",
+    "Día de pago"
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "El formulario, listo para duplicar",
+   "texto": [
+    "No armes un formulario de cero. Usá el nuestro: es el mismo con el que Cáscara recibe editores y ya está probado en volumen.",
+    "Pedile a Aye que te pase el link del <b>Editors Hiring Form</b> para duplicar en tu Notion. Trae todo armado: datos de contacto, portfolio, el nivel de edición en el que se ubica cada uno —con las tres descripciones escritas para que no se sobrevalúen—, herramientas que usa, si edita formato largo, si coloriza, cómo busca b-roll, cómo procesa una directiva creativa, si usa inteligencia artificial y en qué, qué le gusta editar y qué lo aburre, y cuántas horas por semana tiene disponibles.",
+    "Las postulaciones caen solas en una base y quedan ahí para comparar. Ese link es el que va en tus historias."
+   ],
+   "pregunta": "¿Querés que te lo mandemos duplicado o preferís armarlo vos con estos campos?"
+  },
+  {
+   "nuestro": true,
+   "titulo": "Cómo se publica: el handraiser",
+   "texto": [
+    "Un aviso suelto no trae postulaciones. Lo que trae gente es una secuencia corta de historias que termina en una acción concreta, que es lo que en Cáscara llamamos un handraiser: alguien levanta la mano y ahí empieza la conversación.",
+    "<b>La secuencia, en tres días:</b><br>· Día 1 — selfie contando el momento real: «estoy editando yo y así no escalo». Sin pedir nada todavía. Esto es lo que hace que la gente escuche.<br>· Día 2 — qué buscás, concreto: qué tipo de piezas, cuántas por semana, con qué nivel. Y una encuesta o una caja de preguntas: «¿conocés a alguien?». La caja es el handraiser: levanta la mano el que se postula y también el que recomienda.<br>· Día 3 — el link del formulario, con fecha de cierre. La fecha es lo que hace que se postulen hoy y no cuando se acuerden.",
+    "Va en tu cuenta personal, que es la que tiene tráfico, no en la de la marca. Y se sube en las tres historias el mismo link, porque la gente entra en cualquiera de las tres.",
+    "Después, a los que levantaron la mano se les escribe por privado. Ahí se conversa, no en el formulario."
+   ]
+  },
+  {
+   "titulo": "Tu calendario de historias",
+   "consigna": "Escribí las tres, con el día. Una línea de qué mostrás en cada una y qué pedís. Poné la fecha de cierre de la convocatoria en la tercera.",
    "campo": "tabla",
-   "columnas": ["Candidato", "De dónde llegó", "Qué mostró", "Decisión"],
-   "filas": 8},
-
-  {"titulo": "La prueba paga",
-   "consigna": "La prueba es trabajo real de un cliente, se paga, y tiene fecha de entrega corta, de dos o tres días. Lo que vas a mirar se escribe antes de mandarla: si respetó el brief, si entregó en fecha y cómo respondió a la corrección. La responsabilidad entra después de la prueba, nunca antes.",
-   "ejemplo": {"quien": "Sol Boutmy", "texto": "El método es historias con llamado a un formulario, entrevista y prueba paga sobre trabajo real, y recién ahí responsabilidad, con el tarifario y el formulario de Cáscara como referencia."},
+   "columnas": [
+    "Día",
+    "Qué mostrás",
+    "Qué pedís"
+   ],
+   "filas": 3,
+   "filas_rotulo": [
+    "Día 1",
+    "Día 2",
+    "Día 3"
+   ]
+  },
+  {
+   "titulo": "La prueba paga",
+   "consigna": "De los que se postularon, elegí y mandales trabajo real de un cliente. Se paga, siempre, y tiene fecha de entrega corta, de dos o tres días. Lo que vas a mirar se escribe antes de mandarla: si respetó el brief, si entregó en fecha y cómo respondió a la corrección. La responsabilidad entra después de la prueba, no antes.",
    "campo": "lineas",
-   "lineas": ["Qué trabajo real entra", "Cuánto se paga", "Fecha de entrega", "Qué se mira para aprobar"]},
-
-  {"titulo": "El acuerdo cerrado",
-   "consigna": "Número y forma de pago, alcance, cadencia de revisión, fecha de inicio y la proyección si el negocio crece. Mandalo por escrito el mismo día que se cierra, para que las dos partes lean lo mismo. Un acuerdo cerrado de palabra se recuerda distinto de cada lado a los treinta días.",
-   "campo": "lineas",
-   "lineas": ["Número y forma de pago", "Alcance", "Cadencia de revisión", "Fecha de inicio", "Proyección si el negocio crece"]},
-
-  {"titulo": "El primer frente entregado y revisado",
-   "consigna": "Dale un cliente o un frente completo y revisá cada entrega en la reunión semanal durante el primer mes. Anotá qué salió sin que lo tocaras, qué volvió con corrección y cuántas horas te devolvió cada semana. Con cuatro semanas de eso sabés si el rol quedó cubierto o si falta escribir mejor el brief.",
-   "ejemplo": {"quien": "Sofía Galvis", "texto": "Al editor ya lo contrató. Lo que falta es pasarle el primer cliente con el brief hecho, y recién ahí se sabe cuánto le devuelve de su semana."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Frente entregado… lo que salió solo… lo que volvió… horas que me devolvió…"}
+   "lineas": [
+    "Qué trabajo real entra",
+    "Cuánto se paga",
+    "Fecha de entrega",
+    "Qué mirás para aprobar"
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "Cómo se le da trabajo, y cómo se lo retiene",
+   "texto": [
+    "El primer mes, entregas chicas y revisión en una reunión fija por semana. Lo que vuelve con corrección se corrige con el brief, no con la persona: si tres piezas volvieron por lo mismo, lo que falla es cómo estás pidiendo.",
+    "Pasados dos o tres meses de continuidad, si funciona, conviene proponerle un <b>fijo mensual más el valor de las piezas</b>. El fijo no es por más trabajo: es por disponibilidad y por prioridad. Es la forma más barata de retener a alguien bueno antes de que lo levante otro, y te asegura que cuando tenés urgencia, esa persona está.",
+    "El acuerdo no hace falta que lo escribas acá. Contámelo en la próxima llamada."
+   ]
+  }
  ]
 }

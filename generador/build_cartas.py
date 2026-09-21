@@ -293,7 +293,7 @@ def construir(m, categoria, pl=None, bajada=None):
     out.append('<header class="slot">')
     out.append('  <div class="caja">Carta de módulo · %s</div>' % esc(categoria))
     out.append('  <h1>%s</h1>' % esc(m["nombre"]))
-    out.append('  <p class="bajada">%s</p>' % esc((pl or {}).get("bajada") or m.get("resultado", "")))
+    out.append('  <p class="bajada">%s</p>' % ((pl or {}).get("bajada") or m.get("resultado", "")))
     out.append('  <div class="lista">')
     out.append('    <div><div class="et">Cuándo se asigna</div><div class="tx">%s</div></div>'
                % esc(m.get("para_quien", "")))
@@ -318,7 +318,7 @@ def construir(m, categoria, pl=None, bajada=None):
                       ("El objetivo concreto", bajada.get("objetivo")),
                       ("Con qué cabeza encararla", bajada.get("mindset"))):
             if not tx: continue
-            out.append('    <div><div class="k">%s</div><div class="v">%s</div></div>' % (esc(k), esc(tx)))
+            out.append('    <div><div class="k">%s</div><div class="v">%s</div></div>' % (esc(k), tx))
         out.append('  </div>')
         out.append('</div>')
 
@@ -349,7 +349,7 @@ def construir(m, categoria, pl=None, bajada=None):
             out.append('  <div class="et">Esto lo ponemos nosotros</div>')
             out.append('  <h2>%s</h2>' % esc(s["titulo"]))
             for par in (s.get("texto") or []):
-                out.append('  <p>%s</p>' % esc(par))
+                out.append('  <p>%s</p>' % par)   # texto nuestro: el HTML va
             if s.get("pregunta"):
                 out.append('  <div class="devuelta"><div class="k">%s</div>' % esc(s["pregunta"]))
                 out.append('    <div class="campo"><textarea data-c="s%d" rows="3"></textarea></div>' % i)
@@ -360,7 +360,7 @@ def construir(m, categoria, pl=None, bajada=None):
         out.append('<section class="trabajo">')
         out.append('  <div class="n">%02d</div>' % n)
         out.append('  <h2>%s</h2>' % esc(s["titulo"]))
-        out.append('  <p class="consigna">%s</p>' % esc(s["consigna"]))
+        out.append('  <p class="consigna">%s</p>' % s["consigna"])   # idem
         ej = s.get("ejemplo") or {}
         if ej.get("texto"):
             quien = ('Cómo lo resolvió %s' % esc(ej["quien"])) if ej.get("quien") else 'Un ejemplo'

@@ -1,56 +1,88 @@
 {
  "modulo": "angulos-desde-icp",
- "titulo": "La hoja de ángulos bajados de tu cliente ideal",
- "bajada": "Entre ocho y doce ángulos de comunicación salidos de los dolores de tu cliente ideal, cada uno con una idea concreta al lado y un guion completo del más fuerte. Con esto cada pieza arranca de un ángulo elegido en vez de una hoja en blanco.",
- "lista_cuando": "Le pasás la tabla a alguien que te edita o te guiona y puede armar la próxima pieza sin preguntarte de qué va.",
+ "titulo": "La hoja de tus ángulos de comunicación",
+ "bajada": "Los dolores de tu cliente ideal convertidos en las preguntas que él ya se hace, con tu giro propio al lado. Es el material con el que entrás a la llamada de contenido: el calendario y los guiones se bajan ahí, no acá.",
+ "lista_cuando": "Cada dolor tiene su pregunta escrita en las palabras de tu cliente, y el giro propio está en una frase que puedas decir en voz alta sin leerla.",
  "secciones": [
-  {"titulo": "Los dolores, con las palabras que usa él",
-   "consigna": "Ocho a diez frases textuales de tu cliente ideal hablando de su problema, copiadas de mensajes directos, comentarios, llamadas grabadas y consultas que no cerraron. Van sin retocar, con los errores y las muletillas: la frase tal cual la dijo es el material, tu versión ordenada de la frase ya es otra cosa. Si no juntás ocho, la fuente está muy chica y hay que ir a buscar más conversaciones antes de seguir.",
-   "ejemplo": {"quien": "Sebastián", "texto": "Los mil ochocientos comentarios del reel sobre el miedo a grabarse en público eran todos de la misma familia: gracias, me empujaste, era el empujón que necesitaba. Esa repetición marcó el dolor y el ángulo al mismo tiempo."},
-   "campo": "texto", "alto": 5,
-   "placeholder": "Una frase por línea, tal cual la dijeron."},
-
-  {"titulo": "De cada dolor, la pregunta que ya se hace",
-   "consigna": "Pasá cada dolor a la pregunta que esa persona se hace sola, en su cabeza, antes de conocerte. La pregunta se escribe en primera persona y con sus palabras: es lo que después va en el gancho de la pieza. Una fila por dolor, con la fuente al lado para poder volver a buscarla.",
+  {
+   "nuestro": true,
+   "titulo": "Esta carta va con la del cliente ideal",
+   "texto": [
+    "Las dos se completan juntas y se devuelven juntas. En la del cliente ideal juntaste el material: los perfiles, los dolores, las frases textuales. Acá ese material se convierte en ángulos, que es lo que hace que una pieza arranque de algo y no de una hoja en blanco.",
+    "Un ángulo no es un tema. Un tema es «hablar de precios». Un ángulo es la pregunta que tu cliente ya se está haciendo sobre precios, contada desde tu experiencia. La diferencia es que el tema se le ocurre a cualquiera y el ángulo solo lo podés escribir vos."
+   ]
+  },
+  {
+   "titulo": "Los dolores, con las palabras que usa él",
+   "consigna": "Traé los dolores de la carta del cliente ideal, pero escritos como los dice él, no como los describirías vos. Si en la hoja anterior anotaste frases textuales de comentarios o mensajes, usá esas. Cinco o seis alcanzan: los que más se repiten.",
+   "campo": "texto",
+   "alto": 6
+  },
+  {
+   "nuestro": true,
+   "titulo": "De un dolor a una pregunta: cómo se hace",
+   "texto": [
+    "Esta es la parte que más se traba, así que va con un ejemplo entero.",
+    "El dolor: «me da vergüenza grabarme en público». Escrito así es un estado, y un estado no engancha porque el que lo tiene ya lo sabe.",
+    "La pregunta que él ya se hace: «¿por qué puedo dirigir una producción de veinte personas y no puedo hablarle a mi propio celular?». Esa pregunta él se la hizo, no se la propusiste vos. Y la reconoce apenas la lee.",
+    "El giro propio: «lo que te frena no es la cámara, es que no tenés un motivo para estar ahí». Eso es lo que solo podés decir vos, porque lo viviste. Sin el giro, la pregunta la puede hacer cualquiera.",
+    "La prueba de que un ángulo está bien: si se lo mostrás a una de las cinco personas con las que hablaste, te dice «esto me pasa» antes de que termines de explicarlo."
+   ],
+   "pregunta": "Cuál de tus dolores te parece el más difícil de pasar a pregunta"
+  },
+  {
+   "titulo": "De cada dolor, la pregunta que ya se hace",
+   "consigna": "Una fila por dolor. En la segunda columna, la pregunta tal como se la hace él —con signos de pregunta, en primera persona—. En la tercera, de dónde sabés que se la hace: un comentario, un mensaje, algo que te dijo alguien en las cinco conversaciones. Una pregunta sin origen es una que inventaste vos, y esas son las que después no funcionan.",
    "campo": "tabla",
-   "columnas": ["El dolor, como lo dice él", "La pregunta que ya se hace", "Dónde lo escuchaste"],
-   "filas": 10},
-
-  {"titulo": "Tu giro propio",
-   "consigna": "Qué decís vos sobre ese problema que el resto de tu rubro no dice. Sale de tu experiencia, de algo que viste pasar muchas veces y de lo que te da bronca del mercado en el que trabajás. El giro es lo que hace que la pieza se reconozca como tuya: sin eso la tabla de ángulos queda igual a la de cualquier otro.",
-   "ejemplo": {"quien": "Lucio", "texto": "Venía comunicando cosas del tipo no contrates un diseñador gráfico sin saber esto, y el mercado está pensando en otra cosa: cómo usar la IA sin que le quede mal. El mismo contenido apuntado ahí cambia por completo a quién le llega."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Lo que yo veo y casi nadie dice es que…"},
-
-  {"titulo": "Las frases tuyas que ya funcionaron",
-   "consigna": "Lo que ya dijiste en una llamada, en una charla, en un audio largo o en una pieza que rindió, y que te conviene volver a usar. Buscá en lo que ya está publicado y en las grabaciones: seis frases propias con la respuesta que tuvo cada una. Estas frases entran como títulos y como cierres de los ángulos.",
-   "ejemplo": {"quien": "Nicolás Lozada", "texto": "Las dos piezas que triplicaron o cuadruplicaron sus números fueron la de los diez días encerrado en la oficina y la de que subir los precios es un error. Las dos cuentan experiencia vivida, y de ahí salió su hoja de frases propias."},
+   "columnas": [
+    "El dolor",
+    "La pregunta que él ya se hace",
+    "De dónde sabés que se la hace"
+   ],
+   "filas": 6
+  },
+  {
+   "titulo": "Tu giro propio",
+   "consigna": "Lo que vos decís sobre esos dolores que no dice nadie más en tu rubro, y que podés sostener porque lo viviste. Dos o tres frases. La prueba: si otro de tu rubro podría firmar lo mismo, todavía no es tuyo.",
+   "campo": "texto",
+   "alto": 5
+  },
+  {
+   "titulo": "Las frases tuyas que ya funcionaron",
+   "consigna": "Las piezas, historias o mensajes tuyos que generaron respuesta: comentarios, mensajes privados, gente que te escribió. Anotá la frase exacta que usaste y qué pasó después. Lo que ya funcionó una vez es el material más barato que tenés, y casi siempre está olvidado.",
    "campo": "tabla",
-   "columnas": ["La frase, textual", "Dónde la dijiste", "Qué respuesta tuvo"],
-   "filas": 6},
-
-  {"titulo": "La tabla de ángulos",
-   "consigna": "Un ángulo por dolor, entre ocho y doce en total. Cada fila lleva la idea concreta: qué se muestra en pantalla, en qué formato se graba y con qué cierre termina. La fila está terminada cuando se puede grabar mañana con lo que ya tenés a mano: si te falta eso, está escrita como tema y le falta la bajada concreta.",
-   "ejemplo": {"quien": "Custom Lab", "texto": "Los doce ángulos quedaron agrupados en cinco pilares, apuntados a empresas de treinta a cincuenta empleados y a locales comerciales, con el merch contado como el medio publicitario de otra marca."},
-   "campo": "tabla",
-   "columnas": ["Ángulo", "Dolor del que sale", "Qué se muestra", "Formato", "Cierre"],
-   "filas": 10},
-
-  {"titulo": "El guion completo del ángulo más fuerte",
-   "consigna": "Elegí el ángulo que está más cerca de la venta y escribile el guion entero, listo para grabar: gancho de los primeros tres segundos, el desarrollo con un ejemplo propio con números, y el cierre con lo que querés que haga el que lo vio. Escrito como lo vas a decir en voz alta, con tus palabras. Si al leerlo en voz alta te trabás, la frase se cambia.",
-   "ejemplo": {"quien": "Aaron", "texto": "Los ángulos le salen del pasaporte digital: de dónde viene, qué cambió este año, qué le pasó adentro del mundo del infoproducto y por qué se quiere correr. El guion más fuerte es el que usa esa historia como ejemplo propio."},
-   "campo": "texto", "alto": 6,
-   "placeholder": "Gancho: … Desarrollo: … Cierre: …"},
-
-  {"titulo": "Los tres ángulos del primer mes",
-   "consigna": "Ordená los ángulos por cercanía a la venta: primero los que hablan del problema que tu oferta cobra por resolver. Elegí tres y repartí las piezas del mes entre esos tres, con un piso de tres piezas por ángulo, porque una sola pieza por ángulo no permite comparar nada.",
-   "campo": "lineas",
-   "lineas": ["Ángulo 1 del mes", "Ángulo 2 del mes", "Ángulo 3 del mes", "Cuántas piezas por ángulo", "Fecha de la primera pieza"]},
-
-  {"titulo": "Tres piezas publicadas, una por ángulo",
-   "consigna": "Publicá esta semana una pieza de cada uno de los tres ángulos elegidos y leelas el mismo día que salen. Anotá qué conversaciones abrió cada una y sobre qué tema te escribieron, que es la señal que importa. Los ángulos que no abren ninguna conversación en tres piezas se corrigen o se bajan.",
-   "ejemplo": {"quien": "Antonio", "texto": "El tramo le pide diez piezas sobre el mismo tema, para el mismo cliente y con la misma promesa, sin cambiar de rumbo en el medio. Recién ahí hay con qué decidir si el mensaje funciona."},
-   "campo": "texto", "alto": 4,
-   "placeholder": "Ángulo, fecha, qué conversación abrió."}
+   "columnas": [
+    "La frase, textual",
+    "Dónde la dijiste",
+    "Qué pasó después"
+   ],
+   "filas": 5
+  },
+  {
+   "nuestro": true,
+   "titulo": "Un ángulo armado, para que veas a dónde va",
+   "texto": [
+    "Con lo de arriba completo, así queda un ángulo cuando está terminado. No lo tenés que hacer vos: lo armamos juntos en la llamada. Está acá para que sepas qué estás construyendo.",
+    "Dolor: «cobro poco y no me animo a subir». Pregunta que él ya se hace: «¿si subo el precio se me van todos?». Giro propio: «los que se van por precio son los que más te costaba atender». Formato: contarlo con el caso de un cliente al que le subiste, con el número antes y después. Cierre: la pregunta devuelta, para que conteste en comentarios.",
+    "Eso es un ángulo: dolor, pregunta, giro, formato y cierre. Cinco cosas, y cuatro de las cinco ya las escribiste vos arriba."
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "El cierre que te falta",
+   "texto": [
+    "Lo que no está en esta carta y es a propósito: la tabla de ángulos ordenada por cercanía a la venta, el guion completo, el calendario del mes y las piezas publicadas.",
+    "No está porque es lo que se gana acompañado. Ordenar ángulos por intención de compra, decidir cuál va primero y bajar un guion que funcione es oficio de todos los días, y pedírtelo de tarea es tirarte por encima justo la parte donde alguien al lado te ahorra tres semanas.",
+    "Lo que sí te pedimos es el material: los dolores, las preguntas y tu giro. Con eso, la llamada arranca armando en vez de arrancar preguntando."
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "Lo que se baja en la llamada de contenido",
+   "texto": [
+    "Con esta carta y la del cliente ideal devueltas, en la llamada con Fede sale: los ángulos ordenados, el guion del más fuerte, los tres del primer mes y el calendario cargado.",
+    "Llegá con las dos hojas completas. Si llegás con una, la llamada se gasta en completar la otra."
+   ]
+  }
  ]
 }

@@ -103,23 +103,23 @@
     {
      "id": "icp-mecanismo",
      "nombre": "ICP del mecanismo que vendés",
-     "para_quien": "Cuando el founder describe a su cliente por rubro o por tamaño y todavía no por el problema que le resuelve el mecanismo.",
+     "para_quien": "Cuando el comercial ya bajó a quién le vende y falta convertir esa definición en personas concretas con un dolor que se pueda nombrar.",
      "eje": [
       "oferta"
      ],
-     "resultado": "Una hoja con el cliente ideal escrito: quién es, en qué momento está, qué problema tiene y con qué palabras lo cuenta.",
+     "resultado": "El cliente ideal escrito con dolor y palabras propias, respaldado por cinco conversaciones reales, y las decisiones de posicionamiento confirmadas.",
      "pasos": [
-      "Listar los últimos diez clientes o consultas y anotar qué compró cada uno y por qué.",
-      "Quedarse con los tres que dejaron mejor resultado y buscar qué tienen en común.",
-      "Escribir el cliente ideal en una frase que incluya momento del negocio, problema y presupuesto.",
-      "Anotar los dolores con las palabras textuales que usa el cliente, sacadas de mensajes y llamadas.",
-      "Definir la subcategoría donde se posiciona el mecanismo, para dejar de competir por precio.",
-      "Descartar por escrito los nichos que quedan afuera del tramo."
+      "Tomar las familias de público que bajó el comercial y bajarlas a perfiles con dolor y pregunta.",
+      "Hablar con cinco personas reales de esos perfiles y anotar textual lo que contestaron.",
+      "Juntar las frases que ya te dijeron sin que preguntes, sin tocarles nada.",
+      "Listar los clientes que ya te pagaron, para ver si ese negocio alimenta la escalera nueva.",
+      "Confirmar o corregir la escalera, la subcategoría y quién queda afuera, que van escritos de nuestro lado.",
+      "Escribir el cliente ideal en una frase y probarla con tres de los cinco."
      ],
      "completar": [
-      "El formulario de ICP y dolores con las palabras textuales del cliente",
-      "La tabla de los últimos diez clientes o consultas con motivo de compra",
-      "La frase del cliente ideal y la subcategoría elegida"
+      "La tabla de perfiles con dolor y pregunta",
+      "Las cinco conversaciones reales anotadas textuales",
+      "La frase del cliente ideal probada con tres"
      ],
      "herramientas": [
       "Notion (base de clientes y consultas)",
@@ -256,23 +256,22 @@
     {
      "id": "angulos-desde-icp",
      "nombre": "Ángulos de comunicación bajados del ICP",
-     "para_quien": "Cuando el founder tiene la oferta escrita y cada pieza arranca de una hoja en blanco.",
+     "para_quien": "Cuando el cliente ideal ya está escrito y cada pieza sigue arrancando de una hoja en blanco.",
      "eje": [
       "contenido"
      ],
-     "resultado": "Una lista de ocho a doce ángulos, cada uno con una idea concreta y un guion de ejemplo al lado.",
+     "resultado": "Los dolores del cliente ideal convertidos en las preguntas que él ya se hace, con el giro propio al lado. Es el material con el que se entra a la llamada de contenido.",
      "pasos": [
-      "Tomar los dolores del ICP y convertir cada uno en una pregunta que el cliente ya se hace.",
-      "Escribir un ángulo por dolor, con el giro propio que lo vuelve reconocible.",
-      "Bajar una idea concreta por ángulo: qué se muestra, en qué formato y con qué cierre.",
-      "Escribir un guion de ejemplo completo para el ángulo más fuerte.",
-      "Ordenar los ángulos por cercanía a la venta y elegir los tres del primer mes.",
-      "Cargar los ángulos en el calendario y publicar contra ellos."
+      "Traer los dolores con las palabras que usa él, no con las tuyas.",
+      "Convertir cada dolor en la pregunta que él ya se hace, con el origen de dónde sabés que se la hace.",
+      "Escribir tu giro propio: lo que decís vos sobre eso y no dice nadie más.",
+      "Juntar las frases tuyas que ya generaron respuesta.",
+      "Devolverla junto con la del cliente ideal, antes de la llamada de contenido."
      ],
      "completar": [
-      "La tabla de ángulos con dolor, idea concreta y formato",
-      "El guion de ejemplo del ángulo principal",
-      "Los tres ángulos elegidos para el primer mes"
+      "La tabla de dolores con su pregunta y su origen",
+      "El giro propio escrito en dos o tres frases",
+      "Las frases tuyas que ya funcionaron"
      ],
      "herramientas": [
       "Notion (base de ángulos e ideas)",
@@ -714,24 +713,24 @@
     },
     {
      "id": "proceso-entrega-repetible",
-     "nombre": "Proceso de entrega que se repite igual",
-     "para_quien": "Cuando cada cliente se entrega distinto y todo depende de que el founder esté arriba.",
+     "nombre": "Productización del servicio",
+     "para_quien": "Cuando cada cliente se entrega distinto, la propuesta se arma de cero cada vez y todo depende de que el founder esté arriba.",
      "eje": [
       "entrega"
      ],
-     "resultado": "El proceso de entrega escrito en un documento, con horas reales por etapa, aplicado a un cliente de prueba.",
+     "resultado": "El servicio convertido en producto: un recorrido con nombre, etapas, entregables y fechas, y la entrega del producto nuevo redactada para el cliente.",
      "pasos": [
-      "Mapear las entregas en curso: que se prometió, en qué estado está y que se resuelve sobre la marcha.",
-      "Medir las horas reales que lleva cada etapa, incluidas las propias.",
-      "Escribir el proceso paso por paso, con el entregable y el responsable de cada etapa.",
-      "Definir la capacidad: cuántos clientes entran con el equipo de hoy.",
-      "Aplicarlo a un cliente de prueba y corregir el documento con lo que se rompa.",
-      "Dejar el proceso donde el equipo lo use todos los días."
+      "Mirar un ejemplo de oferta ya productizada, para tener la forma antes de escribir la propia.",
+      "Mapear las entregas en curso: qué se prometió, en qué estado está y qué se resuelve sobre la marcha.",
+      "Nombrar qué parte de la entrega lleva más tiempo y por qué, sin necesidad de tenerlo medido.",
+      "Escribir el recorrido etapa por etapa, con el entregable y el responsable de cada una.",
+      "Ponerle nombre, bordes y precio único: qué incluye, qué no, cuánto dura.",
+      "Redactar la entrega del producto nuevo como se la vas a contar al cliente."
      ],
      "completar": [
-      "El mapa de servicio con horas reales por etapa",
-      "El documento de proceso con responsables",
-      "El número de capacidad: cuántos clientes entran hoy"
+      "El recorrido escrito con etapas, entregables y fechas",
+      "El nombre, los bordes y el precio del producto",
+      "La entrega del producto nuevo redactada para el cliente"
      ],
      "herramientas": [
       "Notion (documento de proceso y estados)",
@@ -866,23 +865,23 @@
     {
      "id": "contratar-primer-rol",
      "nombre": "Contratar la primera persona",
-     "para_quien": "Cuando el founder llego al techo de sus propias horas y todavía no delego nada.",
+     "para_quien": "Cuando el founder llegó al techo de sus propias horas y lo que lo ocupa no necesita su criterio, sino su tiempo.",
      "eje": [
       "entrega"
      ],
-     "resultado": "Una persona trabajando con scope escrito, prueba paga hecha y acuerdo de compensación cerrado.",
+     "resultado": "La búsqueda publicada con el formulario recibiendo postulaciones, y una prueba paga hecha sobre trabajo real.",
      "pasos": [
-      "Escribir el scope del rol antes de buscar: proposito, responsabilidades, cadencia y qué reporta.",
-      "Contratar con el estado real del negocio de hoy, con el número que se puede sostener todos los meses.",
-      "Publicar la busqueda con historias y llamado a un formulario de postulación.",
-      "Entrevistar y hacer una prueba paga sobre trabajo real, antes de dar responsabilidad.",
-      "Cerrar el acuerdo: número, alcance, cadencia y proyección si el negocio crece.",
-      "Darle un cliente o un frente de prueba y revisar cada entrega en la reunión semanal."
+      "Separar lo que se delega de lo que se queda, sin medir horas: lo que otro puede hacer sin que cambie el resultado.",
+      "Escribir el rol antes de buscar: propósito, responsabilidades, qué entrega y a quién reporta.",
+      "Sacar el número con el tarifario de Cáscara, que se cobra por pieza y por nivel.",
+      "Duplicar el formulario de postulación de Cáscara en tu propio Notion.",
+      "Publicar la búsqueda con tres historias que terminan en un handraiser, con fecha de cierre.",
+      "Mandar una prueba paga sobre trabajo real antes de dar responsabilidad."
      ],
      "completar": [
-      "El scope del rol escrito",
-      "El formulario de postulación publicado",
-      "El resultado de la prueba paga y el acuerdo cerrado"
+      "El rol escrito y el número mensual que lo sostiene",
+      "El formulario publicado y el link circulando en historias",
+      "El resultado de la prueba paga"
      ],
      "herramientas": [
       "Formulario de postulación de Cáscara",

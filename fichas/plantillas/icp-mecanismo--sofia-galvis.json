@@ -2,10 +2,144 @@
  "modulo": "icp-mecanismo",
  "slug": "sofia-galvis",
  "founder": "Sofía Galvis Montoya",
+ "titulo": "La hoja de tu cliente ideal",
+ "bajada": "El cliente ideal del programa de educación que vas a lanzar —no el de la agencia—, con sus dolores y las palabras con las que él los cuenta. Es la primera mitad del documento de oferta que cerrás con Franco.",
+ "lista_cuando": "Los perfiles tienen dolor y no solo oficio, hay cinco conversaciones reales anotadas textuales, y la frase del cliente ideal se la mandaste a tres que se reconocieron sin que se la expliques.",
  "bajada_envio": {
   "founder": "Sofía Galvis Montoya",
-  "porque": "Arrancás el segundo tramo y el producto de educación todavía no existe: los lugares vendidos son cero porque no hay qué vender. Franco baja producto, oferta y roadmap de lanzamiento en su llamada, y estas tres hojas son lo que hace que esa llamada rinda: la de oferta para llegar con el producto escrito, la de cliente ideal para llegar con a quién le hablás, y la de ángulos para salir de ahí con contenido. Esta es la segunda. Y hay algo tuyo para tener en cuenta: nunca vendiste un producto de educación, así que el alumno ideal no sale de mirar tu lista de clientes de agencia. Sale de preguntarles a las personas que creés que lo compran.",
-  "objetivo": "El alumno ideal escrito en una frase, con el momento en el que está, el problema y con cuánto cuenta. Más las frases textuales con las que lo cuenta él, que después son el copy.",
-  "mindset": "Tus clientes de agencia sí entran en esta hoja, pero para otra cosa: son de dónde viene tu autoridad y el piso de tu escalera. El alumno del programa es otra persona y hay que salir a buscarla."
- }
+  "porque": "Vas por el día 82 de los noventa y el producto que escala existe como decisión y todavía no como documento. Lo dijiste vos: tu marca personal está vuelta a nada, y está vuelta a nada porque no hay qué comunicar hasta que el programa esté escrito. Esta hoja y la de ángulos son lo que llevás a la llamada con Franco.",
+  "objetivo": "El cliente ideal del programa escrito: quién es, en qué momento está, qué le duele y con qué palabras lo dice. Con cinco conversaciones reales que lo respalden, no con una hipótesis.",
+  "mindset": "El año que tuviste es el argumento: pasaste de diez a veinte millones por mes sacando a los clientes que te ponían techo. Eso no lo puede contar cualquiera. Lo que falta no es credibilidad, es el documento."
+ },
+ "secciones": [
+  {
+   "nuestro": true,
+   "titulo": "De dónde arrancamos",
+   "texto": [
+    "Esta carta es del <b>programa de educación que vas a lanzar</b>, no de la agencia. Es la distinción que más importa acá: tus clientes de hoy —los tres de edición y los cuatro del sistema de 90 días— te compran un servicio, y el que va a comprar el programa es otra persona en otro momento. Si el cliente ideal del programa se escribe mirando la cartera actual, sale el avatar de la agencia y el programa se lanza hablándole a quien ya te contrataría igual.",
+    "Lo que ya está resuelto no se vuelve a tocar: la cartera depurada, el reprecio, el sistema de 90 días con etapas y el editor contratado. La agencia factura veinte millones de pesos por mes y eso es el colchón que te deja construir esto sin apuro.",
+    "Lo que falta es una sola cosa, y lo dijiste vos: «mi marca personal está vuelta a nada». No tenés qué comunicar porque el producto todavía no está escrito. Esta hoja es la primera mitad de ese documento."
+   ],
+   "pregunta": "Cuando pensás en quién compra el programa, ¿te aparece alguien parecido a tus clientes de hoy o alguien distinto?"
+  },
+  {
+   "titulo": "Los perfiles y qué le duele a cada uno",
+   "consigna": "Una fila por cada oficio o perfil de las familias que bajó el comercial. Para cada uno: de qué vive hoy, qué le duele de verdad, la pregunta que se lo hace decir en voz alta, y por qué le serviría entrar. La pregunta es la columna que más rinde después: es la que se convierte en el gancho de una pieza. Un dolor escrito como «quiere crecer» no sirve; escribilo como lo diría él a las dos de la mañana.",
+   "campo": "tabla",
+   "columnas": [
+    "Perfil",
+    "De qué vive hoy",
+    "Qué le duele",
+    "La pregunta que se lo hace decir",
+    "Por qué le serviría entrar"
+   ],
+   "filas": 6
+  },
+  {
+   "titulo": "Andá a preguntárselo a cinco",
+   "consigna": "Cinco personas reales de los perfiles de arriba, que ya te siguen o que te escribieron alguna vez. Hacéles la pregunta y anotá textual lo que contestaron, sin arreglarles la gramática. Quince minutos cada una alcanza. Esto es lo que convierte los perfiles de una hipótesis en un dato, y es lo único de esta carta que no se puede resolver desde el escritorio.",
+   "campo": "tabla",
+   "columnas": [
+    "A quién",
+    "Qué perfil es",
+    "Qué le preguntaste",
+    "Qué contestó, textual"
+   ],
+   "filas": 5
+  },
+  {
+   "titulo": "Lo que ya te dijeron sin que preguntes",
+   "consigna": "Cuatro o cinco frases copiadas tal cual de comentarios y mensajes, sin tocarles nada. Estas frases después son el título de las piezas y son el copy de la propuesta, así que la fidelidad importa más que la prolijidad. Si una pieza tuya juntó comentarios, entrá ahí: ahí está el dolor escrito por ellos.",
+   "campo": "texto",
+   "alto": 6
+  },
+  {
+   "titulo": "De dónde vino cada tanda de seguidores",
+   "consigna": "Separá la pieza que hizo más vistas de la que trajo más seguidores. Casi nunca son la misma, y la segunda es la que te está marcando el segmento que paga. Con dos o tres piezas alcanza para ver el patrón.",
+   "campo": "lineas",
+   "lineas": [
+    "Seguidores hoy",
+    "Mediana de vistas",
+    "La pieza de más vistas",
+    "Qué gente trajo",
+    "La pieza que más seguidores trajo",
+    "Qué gente trajo"
+   ]
+  },
+  {
+   "titulo": "Los clientes que ya te pagaron",
+   "consigna": "Los últimos diez clientes o consultas reales del negocio que hoy te factura, con lo que te compró cada uno, cuánto pagó y por qué te buscó. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Esto no es el cliente de la oferta nueva: es la parte de la escalera que ya existe, y sirve para saber si alimenta lo que estás por lanzar o si corre en paralelo.",
+   "campo": "tabla",
+   "columnas": [
+    "Quién",
+    "Qué te compró",
+    "Cuánto pagó",
+    "Por qué te buscó",
+    "De qué tipo era"
+   ],
+   "filas": 10
+  },
+  {
+   "nuestro": true,
+   "titulo": "Tu escalera de valor",
+   "texto": [
+    "Tu caso es el mismo patrón que ya corrimos con otro founder: alguien que vive de un servicio y abre un producto de educación <b>abajo</b>, como casillero de entrada.",
+    "Casillero 1, hacelo vos: el programa de educación. Ticket de referencia mil dólares, módulos grabados más tres llamadas grupales por semana, diez lugares en la primera cohorte. Es el MVP y es el que valida.",
+    "Casillero 2, hacelo con vos: el sistema de 90 días que ya tenés armado y que ya factura. El que hace el programa y quiere que se lo ejecuten, sube acá.",
+    "Casillero 3, hacelo por vos: la edición y la producción para los que necesitan volumen. Es lo que hoy te ocupa y lo que el editor te empieza a liberar.",
+    "Leída así, la escalera te resuelve algo que hoy te frena: pusiste tope a la entrada de clientes de 90 días porque a cinco necesitás mano derecha. El programa no tiene ese techo, y además le da entrada a la gente que después sube al 90 días ya sabiendo cómo trabajás.",
+    "El precio exacto y la fecha los cierra Franco. Esto es la forma, no los números."
+   ],
+   "pregunta": "¿Qué le cambiarías a estos tres casilleros?"
+  },
+  {
+   "nuestro": true,
+   "titulo": "La subcategoría donde te parás",
+   "texto": [
+    "«Estrategia de contenido» es la categoría llena: ahí competís contra cualquiera que tenga un curso de Instagram.",
+    "Lo tuyo es más angosto y nadie lo está atendiendo con tu autoridad: <b>el creativo que ya cobra por su trabajo y sigue cambiando horas por plata</b>. No es el que quiere empezar. Es el que ya tiene clientes, ya factura, y está atrapado adentro de la entrega. Vos hiciste exactamente ese movimiento este año: sacaste los clientes que te ponían techo, repreciaste, y pasaste de diez a veinte millones por mes.",
+    "Esa es la historia que tenés y que casi nadie puede contar con números. Te la dejamos escrita porque es una decisión de posicionamiento y es donde entramos nosotros. Lo que necesitamos de vos es si te suena tuya."
+   ],
+   "pregunta": "Leelo en voz alta: ¿qué parte no suena a vos?"
+  },
+  {
+   "nuestro": true,
+   "titulo": "Quién queda afuera de este tramo",
+   "texto": [
+    "El que todavía no cobró por su trabajo: no tiene con qué probar lo que el programa le enseña, y el programa mide ventas, no aprendizaje.",
+    "El que quiere que le manejes las redes: ese es cliente del sistema de 90 días, casillero 2.",
+    "El que quiere solo edición: casillero 3, y ahora lo resuelve el editor.",
+    "La marca grande con equipo adentro: no es tu cliente en ningún casillero de este tramo.",
+    "Dejarlos afuera por escrito es lo que después te deja contestar rápido, y es lo que hace que tu contenido deje de hablarle a todos a la vez, que es justo el motivo por el que hoy no sabés qué publicar."
+   ],
+   "pregunta": "¿Alguno de estos te parece que sí entra?"
+  },
+  {
+   "titulo": "El cliente ideal, en una frase",
+   "consigna": "Una sola frase con el momento en el que está, el problema que tiene hoy y con cuánto cuenta para resolverlo. El momento tiene que poder verificarse de afuera: si ya vive de esto, cuánta audiencia tiene, si alguna vez compró algo parecido. Si la frase le sirve igual al que recién arranca y al que ya factura, todavía no está.",
+   "campo": "texto",
+   "alto": 3
+  },
+  {
+   "titulo": "Qué hace tu mecanismo, en una frase",
+   "consigna": "Lo que le pasa al cliente cuando entra, contado por el movimiento concreto y por el número que se mueve. Tiene que poder verificarse adentro del plazo que prometés y con algo que él pueda abrir: piezas publicadas, consultas recibidas, primera venta con precio. Si el resultado depende de algo que no controlás, no es promesa.",
+   "campo": "texto",
+   "alto": 3
+  },
+  {
+   "titulo": "Probala con tres",
+   "consigna": "Mandale la frase del cliente ideal a tres de las cinco personas con las que hablaste y preguntales si se reconocen. Anotá qué contestó cada una, textual. Si una de las tres te pide que se la expliques, la frase todavía no está: volvé y ajustala con lo que te dijeron.",
+   "campo": "texto",
+   "alto": 5
+  },
+  {
+   "nuestro": true,
+   "titulo": "Qué pasa con esto después",
+   "texto": [
+    "Esta carta va junto con la de ángulos de comunicación. Ésta junta el material —los dolores, las frases, el cliente ideal— y aquélla lo pasa a las preguntas que tu cliente ya se hace, que son el gancho de cada pieza. Se completan las dos y se devuelven juntas.",
+    "Armar los ángulos en calendario, el guion y las piezas no es tarea para hacer solo: eso se baja con Fede en la llamada, que es la parte donde más se gana teniendo al lado a alguien que lo hace todos los días.",
+    "Con las dos devueltas se arma un solo documento: la oferta que cerraste con el comercial, los dolores, las preguntas y lo que salga de tus clientes actuales. Ese documento es con el que entrás a la próxima llamada, y es el que hace que no se vuelva a definir lo mismo."
+   ]
+  }
+ ]
 }

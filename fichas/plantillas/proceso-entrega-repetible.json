@@ -1,56 +1,105 @@
 {
  "modulo": "proceso-entrega-repetible",
- "titulo": "La hoja del proceso de entrega",
- "bajada": "El trabajo escrito etapa por etapa, con las horas reales de cada una, el responsable de cada entregable y el número de clientes que entran con el equipo de hoy.",
- "lista_cuando": "Un cliente nuevo se entrega siguiendo el documento y nadie te pregunta qué sigue.",
+ "titulo": "La hoja de tu servicio productizado",
+ "bajada": "El servicio convertido en producto: un recorrido con nombre, etapas, entregables y fechas, igual para todos los clientes. Se escribe una vez y deja de negociarse en cada venta.",
+ "lista_cuando": "La entrega está escrita como un recorrido con fechas que el cliente puede ver, y un cliente nuevo entra sin que tengas que decidir nada sobre la marcha.",
  "secciones": [
-  {"titulo": "Lo que estás entregando hoy, cliente por cliente",
-   "consigna": "Una fila por cliente activo, con lo que le prometiste, en qué estado está y qué parte se resuelve sobre la marcha cada semana. La última columna es la que importa: eso es el proceso que todavía no está escrito. Si son menos de tres clientes, sumá los dos últimos que terminaste.",
-   "ejemplo": {"quien": "Matías Morales", "texto": "Tiene dos ventas cerradas al doble del precio anterior y la entrega salió de memoria: sin onboarding, sin hitos y sin fechas de entregable."},
+  {
+   "nuestro": true,
+   "titulo": "Qué quiere decir productizar",
+   "texto": [
+    "Un servicio a medida se cotiza distinto cada vez, se entrega distinto cada vez y depende de que vos estés arriba. Un servicio productizado tiene nombre, alcance fijo, un recorrido con etapas y un precio que no se arma de cero.",
+    "La diferencia no es de prolijidad, es de negocio: el servicio a medida crece sumando tus horas, el producto crece sumando clientes. Y el cliente compra más rápido cuando ve el recorrido dibujado, porque deja de comprar una promesa y pasa a comprar un camino.",
+    "Esto no significa entregar menos ni ser más rígido. Significa decidir una vez lo que hoy decidís veinte veces."
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "Un ejemplo de oferta productizada",
+   "texto": [
+    "Así se ve un servicio de contenido cuando está productizado. No es el tuyo: es para que veas la forma.",
+    "<b>El producto:</b> «Lanzamiento en 8 semanas». Alcance fijo: una oferta escrita, doce piezas, una secuencia de venta y un lanzamiento corrido. Precio único.",
+    "<b>El recorrido, semana por semana:</b><br>· Semana 1 · Onboarding — kick off, accesos, formulario de marca. Queda: el brief firmado.<br>· Semana 2 · Oferta — se escribe qué vende y a quién. Queda: el one-sheeter.<br>· Semanas 3 y 4 · Producción — grabación y edición. Queda: seis piezas montadas.<br>· Semana 5 · Calendario — se ordenan los ángulos. Queda: el mes cargado.<br>· Semanas 6 y 7 · Publicación — sale el contenido, se mide. Queda: los números de cada pieza.<br>· Semana 8 · Cierre — informe y decisión de continuidad. Queda: el reporte y la propuesta de renovación.",
+    "Cuatro cosas hacen que eso sea un producto y no una propuesta: tiene nombre, tiene principio y fin, cada etapa deja algo que el cliente puede abrir, y la última etapa ya contiene la venta siguiente.",
+    "Fijate qué <b>no</b> tiene: horas. El cliente no compra horas, compra el recorrido. Las horas son tu problema, y se resuelven adentro."
+   ]
+  },
+  {
+   "titulo": "Qué estás entregando hoy, cliente por cliente",
+   "consigna": "Una fila por cliente activo, con lo que le prometiste, en qué estado está y qué parte se resuelve sobre la marcha cada semana. La última columna es la que importa: eso es lo que todavía no está escrito. Si tenés menos de tres clientes, sumá los dos últimos que cerraste.",
    "campo": "tabla",
-   "columnas": ["Cliente", "Qué se prometió", "En qué estado está", "Qué se resuelve sobre la marcha"],
-   "filas": 8},
-
-  {"titulo": "Las horas reales de cada etapa",
-   "consigna": "Medí una semana con el reloj y anotá el día, contando tus propias horas al mismo precio que las del resto del equipo. La estimación de memoria da siempre alrededor de la mitad de lo que es. Si una etapa se lleva más del treinta por ciento del total, ahí está el cuello de la entrega.",
-   "ejemplo": {"quien": "Sol Boutmy", "texto": "Producen mucho y no lo tienen contabilizado: en la llamada se estimaron unos treinta reels por semana y quedó sin confirmar. Sin ese número no se sabe cuánto cuesta cada cliente."},
+   "columnas": [
+    "Cliente",
+    "Qué se prometió",
+    "En qué estado está",
+    "Qué se resuelve sobre la marcha"
+   ],
+   "filas": 5
+  },
+  {
+   "titulo": "Qué te lleva más tiempo y por qué",
+   "consigna": "No hace falta que lo tengas medido con reloj: casi nadie lo tiene. Escribilo por sensación, que para esto alcanza. Qué parte de la entrega se te hace larga, cuál te deja cansado, cuál postergás siempre para el final. Y al lado, por qué: si es porque requiere criterio tuyo, porque hay que esperar al cliente, o porque es repetitivo y nadie lo automatizó.",
    "campo": "tabla",
-   "columnas": ["Etapa", "Quién la hace", "Horas por cliente", "Cuántas de esas son tuyas"],
-   "filas": 8},
-
-  {"titulo": "El proceso paso por paso",
-   "consigna": "Escribí el trabajo en el orden en que ocurre, con el entregable que queda al final de cada paso y el nombre de quien lo hace. Un paso sin entregable que se pueda mostrar se junta con el siguiente. El documento se escribe para que lo pueda seguir alguien que entró ayer.",
+   "columnas": [
+    "La parte de la entrega",
+    "Qué sensación te da",
+    "Por qué te lleva ese tiempo"
+   ],
+   "filas": 5
+  },
+  {
+   "titulo": "Tu recorrido, etapa por etapa",
+   "consigna": "Ahora el tuyo, con la forma del ejemplo. Una fila por etapa, en el orden en que pasa, con el entregable que queda al final de cada una y quién lo hace. Una etapa sin entregable que se pueda mostrar se junta con la siguiente. Escribilo para que lo pueda seguir alguien que entra mañana.",
    "campo": "tabla",
-   "columnas": ["Paso", "Qué queda hecho", "Responsable", "Plazo"],
-   "filas": 10},
-
-  {"titulo": "Las decisiones que hoy pasan por vos",
-   "consigna": "Anotá qué decisiones tomás solamente vos durante la entrega y con qué criterio las tomás: qué se aprueba, qué se rehace, qué se le contesta al cliente cuando pide un cambio. El criterio escrito es lo que después permite delegar. Cada uno entra en dos líneas.",
-   "ejemplo": {"quien": "Sharon Palacio", "texto": "Deja tarjetas con objetivo, formato y referencias, y el cliente guiona sobre eso. El criterio vive en la tarjeta, y por eso puede llevar cuatro cuentas a la vez."},
-   "campo": "texto", "alto": 5,
-   "placeholder": "Cuando el cliente pide…, la regla es…"},
-
-  {"titulo": "Cuántos clientes entran con el equipo de hoy",
-   "consigna": "Dividí las horas disponibles del equipo por las horas que lleva un cliente y escribí el número. Ese número es el tope hasta que entre alguien más, y conviene decirlo en voz alta antes de vender el que sobra. Si el tope ya está pasado, la decisión de esta semana es contratar o frenar la entrada.",
-   "ejemplo": {"quien": "Sofía Galvis", "texto": "El sistema de noventa días funciona y la tiene adentro de cada cuenta: a cinco clientes necesita mano derecha y a diez, un equipo. Por eso frenó la entrada de clientes nuevos hasta ordenar la estructura."},
+   "columnas": [
+    "Etapa",
+    "Cuándo pasa",
+    "Qué queda hecho",
+    "Quién lo hace"
+   ],
+   "filas": 8
+  },
+  {
+   "titulo": "Ponele nombre y bordes",
+   "consigna": "El nombre del producto, cuánto dura, qué incluye y qué no. El «qué no» es la mitad del trabajo: es lo que después te evita la discusión del mes dos. Y el precio único, que deja de armarse de cero en cada propuesta.",
    "campo": "lineas",
-   "lineas": ["Horas por cliente al mes", "Horas disponibles del equipo", "Clientes que entran hoy", "Clientes activos ahora", "Qué se hace con la diferencia"]},
-
-  {"titulo": "El cliente de prueba",
-   "consigna": "Elegí un cliente activo y entregale el próximo mes siguiendo el documento a la letra, sin arreglar nada por afuera. Cada vez que tengas que salirte del proceso, anotá la fecha y el motivo. Cada salida anotada es una línea que le falta al documento.",
-   "campo": "texto", "alto": 4,
-   "placeholder": "Cliente elegido: … Me salí del proceso el… porque…"},
-
-  {"titulo": "Dónde vive el proceso y quién lo mira",
-   "consigna": "El documento vive donde el equipo ya trabaja todos los días, con los estados del trabajo a la vista y un responsable por tarjeta. Poné una revisión con día fijo al mes para corregirlo con lo que pasó. Un proceso guardado en una carpeta que nadie abre vuelve a ser memoria en dos semanas.",
-   "ejemplo": {"quien": "Cáscara", "texto": "Los calendarios y las entregas corren en Notion con los estados del template del sistema operativo: cada pieza tiene estado y responsable, y el equipo entra ahí todos los días."},
+   "lineas": [
+    "Cómo se llama",
+    "Cuánto dura",
+    "Qué incluye",
+    "Qué no incluye",
+    "Precio"
+   ]
+  },
+  {
+   "titulo": "Las decisiones que hoy pasan por vos",
+   "consigna": "Qué decisiones tomás solamente vos durante la entrega y con qué criterio: qué se aprueba, qué se rehace, qué se le contesta al cliente cuando pide un cambio. El criterio escrito es lo único que después permite delegar. Cada uno entra en dos líneas.",
+   "campo": "texto",
+   "alto": 6
+  },
+  {
+   "titulo": "Cuántos clientes entran a la vez",
+   "consigna": "Con el recorrido escrito ya podés decir cuántos aguantás en paralelo sin que se rompa. No hace falta la cuenta exacta: escribí el número que sabés que es y qué pasa cuando entra el que sobra.",
    "campo": "lineas",
-   "lineas": ["Dónde vive", "Quién lo actualiza", "Día de la revisión mensual", "Quién entra a la revisión"]},
-
-  {"titulo": "La prueba del mes siguiente",
-   "consigna": "Entregá un mes completo con el proceso puesto y medí dos números: cuántas horas tuyas se fueron en la entrega y cuántas tareas las hizo alguien que no sos vos. Comparalos con el mes anterior. Si tus horas bajaron y la entrega salió en fecha, el proceso aguantó.",
-   "campo": "tabla",
-   "columnas": ["Mes", "Tus horas en la entrega", "Tareas hechas por otros", "Qué se rompió"],
-   "filas": 5}
+   "lineas": [
+    "Clientes en paralelo que aguanta hoy",
+    "Clientes activos ahora",
+    "Qué se hace con el que sobra"
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "Dónde va esto después",
+   "texto": [
+    "El recorrido que escribas acá es lo que el cliente ve cuando compra: se le presenta dibujado en la primera llamada, con las fechas puestas. Eso solo ya cambia la conversación, porque deja de comprar confianza y pasa a comprar un calendario.",
+    "Y es lo que hace que el servicio a medida que hacías antes pueda subir un casillero: lo que hoy productizás se vuelve el producto de entrada, y el trabajo uno a uno queda arriba como el siguiente paso para el que ya pasó por acá."
+   ]
+  },
+  {
+   "titulo": "Escribí la entrega de tu oferta nueva",
+   "consigna": "Este es el entregable de la carta. Con todo lo de arriba, redactá cómo va a ser la entrega del producto nuevo, de punta a punta, como se lo vas a contar a un cliente: el recorrido con sus etapas, qué recibe en cada una y en qué fecha. Escribilo en segunda persona, dirigido a él. Media carilla alcanza, y esa media carilla es la que va adentro de la propuesta.",
+   "campo": "texto",
+   "alto": 12
+  }
  ]
 }
