@@ -206,12 +206,16 @@ def build(d):
     # 05 · LO QUE PASÓ
     R=d.get("recorrido") or {}
     if R:
-        hitos="".join(f'''        <div style="display:grid;grid-template-columns:190px minmax(0,1fr);gap:24px;padding:15px 0;border-top:1px solid {LINE};">
+        # con muchos hitos el panel se pasa del alto fijo: se achica el interlineado
+        # de las filas y el aire del titulo en lugar de dejar que desborde
+        _h = R.get("hitos", [])
+        _pad, _fs, _mb = (15, 28, 40) if len(_h) <= 8 else (11, 26, 26)
+        hitos="".join(f'''        <div style="display:grid;grid-template-columns:190px minmax(0,1fr);gap:24px;padding:{_pad}px 0;border-top:1px solid {LINE};">
           <span style="font-size:21px;letter-spacing:.1em;text-transform:uppercase;color:{GREY};">{esc(x["cuando"])}</span>
-          <span style="font-size:28px;line-height:1.4;">{esc(x["que"])}</span>
-        </div>''' for x in R.get("hitos",[]))
+          <span style="font-size:{_fs}px;line-height:1.4;">{esc(x["que"])}</span>
+        </div>''' for x in _h)
         b  = ""
-        b += H(esc(R.get("titulo","")),72,mb=40,mw=1500)
+        b += H(esc(R.get("titulo","")),72,mb=_mb,mw=1500)
         # sin hitos el texto toma todo el ancho, para que no quede una columna vacía al lado
         cols = "1.15fr 1fr" if hitos else "1fr"
         col2 = (f'''      <div>
