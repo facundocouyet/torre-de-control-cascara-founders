@@ -524,6 +524,9 @@ ul.tl li{padding:0}
   color:var(--gris2);margin-top:5px}
 .chgr ul{margin:0;padding:0;list-style:none}
 .chgr li{padding:0}
+/* lo que ya está hecho según los datos: tachado y sin tocar */
+.chgr li.fijo>label>span{text-decoration:line-through;color:var(--gris2)}
+.chgr li.fijo>label{cursor:default}
 
 @media (max-width:860px){
   .chgr{grid-template-columns:1fr;gap:4px}
@@ -1203,8 +1206,14 @@ function leerL(k){ try{ return JSON.parse(localStorage.getItem(k)||'{}') }catch(
 function guardarL(k,o){ try{ localStorage.setItem(k,JSON.stringify(o)) }catch(e){} }
 var HECHOS=leerL(KACC), ABIERTOS=leerL(KABR);
 
+/* un accionable que arranca con [hecho] ya está resuelto y viene marcado desde los
+   datos: se ve tachado y tildado en cualquier navegador, sin depender de quién lo tildó */
+function esHecho(t){ return typeof t==='string' && t.slice(0,7)==='[hecho]'; }
+function sinMarca(t){ return esHecho(t) ? t.slice(7).replace(/^\s+/,'') : t; }
+function tildado(id, t){ return esHecho(t) || !!HECHOS[id]; }
+
 function pendientes(l){
-  var p=0; l.forEach(function(o){ o.items.forEach(function(_,i){ if(!HECHOS[o.id+'#'+i]) p++ }) }); return p;
+  var p=0; l.forEach(function(o){ o.items.forEach(function(t,i){ if(!tildado(o.id+'#'+i,t)) p++ }) }); return p;
 }
 function totalAcc(l){ var t=0; l.forEach(function(o){ t+=o.items.length }); return t; }
 
@@ -1215,9 +1224,10 @@ function checklist(l){
     h+='<div class="chgr" data-b="'+esc(o.busca||'')+'"><div class="qn"><b>'+esc(o.nombre)+'</b>'+
        (o.rotulo?'<span>'+esc(o.rotulo)+'</span>':'')+'</div><ul>';
     o.items.forEach(function(t,i){
-      var id=o.id+'#'+i;
-      h+='<li><label><input type="checkbox" data-id="'+id+'"'+(HECHOS[id]?' checked':'')+
-         '><span>'+t+'</span></label></li>';
+      var id=o.id+'#'+i, fijo=esHecho(t);
+      h+='<li'+(fijo?' class="fijo"':'')+'><label><input type="checkbox" data-id="'+id+'"'+
+         (tildado(id,t)?' checked':'')+(fijo?' disabled':'')+
+         '><span>'+sinMarca(t)+'</span></label></li>';
     });
     h+='</ul></div>';
   });
@@ -1233,7 +1243,7 @@ function grupoChk(rotulo, l, antes){
 /* el detalle de un caso: la radiografía, el documento que sale y lo que haya que seguir */
 function filaAcc(o){
   var n=o.items.length, ok=0;
-  o.items.forEach(function(_,i){ if(HECHOS[o.id+'#'+i]) ok++ });
+  o.items.forEach(function(t,i){ if(tildado(o.id+'#'+i,t)) ok++ });
   return '<details class="acc" data-id="'+o.id+'" data-b="'+esc(o.busca||'')+'"'+(ABIERTOS[o.id]?' open':'')+'>'+
     '<summary><span class="mr"></span>'+
       '<span class="tx"><span class="nm">'+esc(o.nombre)+'</span>'+
@@ -1374,7 +1384,7 @@ function vAccionables(){
   V.querySelectorAll('.accbar button').forEach(function(b){
     b.addEventListener('click',function(){
       var p=b.closest('.accbar').dataset.p;
-      $('#p-'+p).querySelectorAll('input[data-id]').forEach(function(x){
+      $('#p-'+p).querySelectorAll('input[data-id]:not([disabled])').forEach(function(x){
         x.checked=false; delete HECHOS[x.dataset.id]});
       guardarL(KACC,HECHOS); contarAcc();
     })});
@@ -1408,7 +1418,7 @@ function contarAcc(){
     V.querySelectorAll('#p-'+k+' details.acc').forEach(function(d){
       var o=null; (ACC[k]||[]).forEach(function(x){ if(x.id===d.dataset.id) o=x });
       if(!o) return;
-      var ok=0; o.items.forEach(function(_,i){ if(HECHOS[o.id+'#'+i]) ok++ });
+      var ok=0; o.items.forEach(function(t,i){ if(tildado(o.id+'#'+i,t)) ok++ });
       var ct=d.querySelector('.ct'), br=d.querySelector('.br i');
       if(ct){ ct.innerHTML='<b class="num">'+ok+'</b>/'+o.items.length;
               ct.classList.toggle('full', o.items.length>0&&ok===o.items.length); }
@@ -1551,7 +1561,8 @@ function respQueMando(c){
   var f=entregaDe(c.slug);
   if(!f) return null;
   var cartas=[], otros=[];
-  (f.accionables||[]).forEach(function(a){
+  (f.accionables||[]).forEach(function(a0){
+    var a = esHecho(a0) ? '<s>'+sinMarca(a0)+'</s>' : a0;
     var p=a.replace(/<[^>]+>/g,'');
     if(/carta|mandar|mandale|envia/i.test(p)) cartas.push(p); else otros.push(p);
   });
@@ -1582,7 +1593,7 @@ function respAccionables(c){
   var f=entregaDe(c.slug), h='';
   if(f&&f.accionables&&f.accionables.length)
     h+='<div class="et">De Aye, con '+esc(c.nombre.split(' ')[0])+'</div><ul class="ls">'+
-      f.accionables.map(function(a){return '<li>'+a+'</li>'}).join('')+'</ul>';
+      f.accionables.map(function(a){return '<li>'+(esHecho(a)?'<s>'+sinMarca(a)+'</s>':a)+'</li>'}).join('')+'</ul>';
   if(c.ct&&c.ct.length)
     h+='<div class="et" style="margin-top:18px">Lo que ejecuta '+esc(c.nombre.split(' ')[0])+'</div>'+
       '<ul class="ls">'+c.ct.map(function(a){return '<li>'+esc(a)+'</li>'}).join('')+'</ul>';
@@ -1592,7 +1603,8 @@ function respAccionables(c){
 function respLlamada(c){
   var f=entregaDe(c.slug);
   var ls=[];
-  if(f) (f.accionables||[]).forEach(function(a){
+  if(f) (f.accionables||[]).forEach(function(a0){
+    var a = sinMarca(a0);
     var p=a.replace(/<[^>]+>/g,'');
     if(/llamada|reunion|reunión|agendar|coordinar|1:1|offboarding|sign off/i.test(p)) ls.push(p);
   });
@@ -1631,7 +1643,7 @@ function respPendientes(){
   var E=D.entregas, n=0, filas=[];
   (E.filas||[]).forEach(function(f){
     var p=0;
-    (f.accionables||[]).forEach(function(_,i){ if(!HECHOS['e/'+(f.slug||f.nombre)+'#'+i]) p++ });
+    (f.accionables||[]).forEach(function(t,i){ if(!tildado('e/'+(f.slug||f.nombre)+'#'+i,t)) p++ });
     if(p) filas.push([p,f]); n+=p;
   });
   filas.sort(function(a,b){return b[0]-a[0]});
@@ -1724,7 +1736,7 @@ function arnAlModelo(q, nodo, yaDicho){
     clientes: C.map(function(c){ return {nombre:c.nombre, ori:c.ori, modo:c.modo, dia:c.dia,
       cuello:c.cuello, metrica:c.metrica, titular:c.titular, accionables:c.ct}; }),
     entregas: (D.entregas.filas||[]).map(function(f){ return {nombre:f.nombre, estado:f.estado,
-      accionables:(f.accionables||[]).map(function(a){return a.replace(/<[^>]+>/g,'')})}; }),
+      accionables:(f.accionables||[]).map(function(a){return sinMarca(a).replace(/<[^>]+>/g,'')})}; }),
     reglas: D.entregas.regla_signoff,
     criterio: D.entregas.criterio
   };

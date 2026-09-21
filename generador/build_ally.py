@@ -107,7 +107,9 @@ def _fila(f):
     doc = ('docs/'+f['doc']) if f.get('doc') else None
     ex  = f.get('extra')
     if ex: ex = ['docs/'+ex[0], ex[1], ex[2]]
-    return FILA(f['nombre'], f['estado'], f['proyecto'], f['accionables'],
+    return FILA(f['nombre'], f['estado'], f['proyecto'],
+                [('<s>'+a[7:].lstrip()+'</s>') if a.startswith('[hecho]') else a
+                 for a in f['accionables']],
                 doc, f.get('docn'), ex, f.get('nota'), f.get('slug'))
 
 _S = [f for f in ENT['filas'] if ('Sign off' in f['estado'] or 'Upselling' in f['estado'])]
