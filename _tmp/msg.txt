@@ -1,34 +1,38 @@
-Diez cartas escritas para cinco founders, y la variante liviana
+Los accionables de Aye incluyen el envio y la coordinacion, y la oferta de Sofia pasa a discovery
 
-Una variante de founder ya no tiene que reescribir la hoja entera: si no trae
-secciones propias reusa la generica del modulo y solo le suma la bajada de envio
-y bloques nuestros al principio o al final. Con eso, escribir una carta para
-alguien es escribir por que le toca a el, que es lo unico que cambia casi
-siempre.
+Correcciones de Facu del 21/9.
 
-Lucio: profile funnel. Viene de la llamada del fin de semana, donde quedo que
-esta semana graba freestyle en historias. La carta va al costado de eso, no
-encima, y el perfil ordenado es lo que le muestra a Fede en la grupal del
-viernes.
+El formulario de oferta le pedia a Sofia que escribiera la promesa, la forma de
+medirla, el paso a paso de la entrega y el precio: eso es lo que sacamos
+nosotros, no lo que ella tiene que aterrizar. Su carta pasa a ser siete
+preguntas de discovery —que vendiste, que te piden que no vendes, que te sale
+facil, que le cambia a alguien, que te preguntan siempre, cuanto tiempo te
+lleva, que salio mal y que no queres que tenga— y cierra con un bloque nuestro
+que dice explicito que la promesa, la metrica, el paso a paso y el precio los
+escribimos nosotros con Franco. El ejemplo de Custom Lab salio: se mezclaba con
+su caso.
 
-Aaron: pasaporte digital y angulos. El pasaporte nunca se le habia pasado y es
-lo que faltaba de la lista que cerro con Franco: identidad, avatar y oferta ya
-estan escritos en su documento. La carta de angulos abre con un bloque nuestro
-que le trae sus seis dolores ya definidos, para que la primera seccion se
-resuelva copiando y use el tiempo en el giro propio.
+El paso de las 40 preguntas del modulo generico se aclara: el formulario existe
+desde el 29 de agosto y lo manda Cascara antes de la sesion con Franco. Desde
+que la carta paso a scroll las herramientas no se muestran, y por eso el founder
+leia una referencia a algo que no tenia.
 
-Sofia: oferta, ICP y angulos, en ese orden. Es el mismo patron de Sebastian, un
-producto de educacion que todavia no existe, y nunca se le habia pasado nada.
+Sol: sale el diario administrativo, que Facu decidio que no hace falta, y entra
+contratar la primera persona, que es la carta de la convocatoria por historias
+con formulario de postulacion atras. Ya la corrimos con otra founder de la
+camada y eso queda dicho en un bloque nuestro.
 
-Sol: diario administrativo y profile funnel. Son las dos cosas que quedaron de
-nuestro lado en la llamada del 8 de septiembre y estaban sin mandar.
+Los accionables de Aye pasan de cinco a siete y arrancan por lo que faltaba:
+mandar las once cartas y reclamar la devolucion completa, y coordinar la proxima
+llamada de cada uno. Queda escrito quien va con quien: Sofia, Sebastian, Lucio,
+Bianca y Sol con Franco; Sebastian con Fede despues de las dos cartas; Custom
+Lab con Facu el 2 de octubre. Y entra la regla de los 14 dias entre llamadas de
+un mismo cliente.
 
-Matias: ICP y angulos. Son los dos primeros pasos del proceso que quedo escrito
-en la llamada del 18, y los corre en paralelo sobre 23 Producciones y sobre su
-propia marca.
+En lo que falta se suma el transcript de la segunda llamada de Aaron con Franco,
+que no esta en nuestro Fathom.
 
-Verificadas a 1512 y a 390: sin desbordes, sin scroll horizontal y sin errores
-de JS.
+Verificado a 1512 y a 390: sin desbordes ni errores de JS.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01X5PVbBwAY8Cfrb8woNrxbU
