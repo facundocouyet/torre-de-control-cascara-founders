@@ -1,22 +1,25 @@
 {
- "modulo": "contratar-primer-rol",
- "slug": "sol-boutmy",
- "founder": "Sol Boutmy",
- "bajada_envio": {
+  "modulo": "contratar-primer-rol",
+  "slug": "sol-boutmy",
   "founder": "Sol Boutmy",
-  "porque": "En la llamada quedó que el primer paso es sacarse la edición de encima, y que la convocatoria sale por tu cuenta de Instagram. Esto es eso, ordenado: el scope escrito antes de buscar, el formulario de postulación para que las historias tengan a dónde mandar a la gente, y la prueba paga sobre trabajo real antes de darle un cliente.",
-  "objetivo": "El scope del rol escrito, el formulario publicado y la búsqueda saliendo por historias esta semana. Con una prueba paga hecha sobre el contenido de un cliente chico antes de darle responsabilidad.",
-  "mindset": "Se contrata con el número que el negocio sostiene hoy, no con el que va a sostener cuando la oferta nueva esté vendida. Y se empaqueta antes de delegar: el formato, el brief y el nivel de edición escritos, para que el editor no dependa de que vos estés disponible."
- },
- "bloques_inicio": [
-  {
-   "nuestro": true,
-   "titulo": "Esto ya lo corrimos con otra founder",
-   "texto": [
-    "La búsqueda por historias con un formulario atrás funciona y la usamos antes en la camada. Tu cuenta es la ventaja: tenés audiencia propia y eso te trae postulantes que ya conocen tu estilo, que es exactamente lo que cuesta conseguir en una búsqueda fría.",
-    "El orden que conviene: primero el scope escrito y el formulario armado, después las historias. Al revés llegan mensajes sueltos por privado y se te van tres días contestando lo mismo.",
-    "Y el formulario hace un segundo trabajo: filtra. El que no lo completa tampoco iba a completar un brief."
-   ]
-  }
- ]
+  "bajada": "El editor escrito antes de salir a buscarlo, la búsqueda publicada en tu cuenta personal con un formulario que recibe las postulaciones, y una prueba paga sobre un cliente real. Con el tarifario de Cáscara para saber qué pagar.",
+  "lista_cuando": "El formulario está publicado, hay postulaciones adentro y hay un cliente elegido para la prueba.",
+  "completar": ["Esta carta completa, con el formulario publicado y el cliente de prueba elegido"],
+  "bajada_envio": {
+    "founder": "Sol Boutmy",
+    "porque": "Esta va primero, antes que la de oferta, y es a propósito. Ustedes dos lo dijeron el 4 de septiembre: pensar la oferta y editar al mismo tiempo no entra en el día. Mientras la edición siga en las manos de ustedes, la oferta se sigue postergando por falta de hora asignada, no por falta de ideas. Así que el orden es sacarse la edición de encima primero y pensar la oferta después, con el calendario despejado.",
+    "objetivo": "El editor adentro antes del 30 de septiembre, con un cliente de prueba ya delegado. La fecha dura es el 3 de octubre: contenido de un cliente real editado por otra persona y publicado.",
+    "mindset": "Lo incómodo de esto no es contratar, es soltar. La primera entrega de otra persona va a salir distinta a la tuya, y eso no significa que salió mal. Elegí para la prueba uno de los clientes que hoy no te entusiasma, justamente para que la comparación no te duela, y revisá contra el calendario de Notion en la weekly en vez de volver a editar vos."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Por qué el editor y por qué ahora",
+      "texto": [
+        "Be Motion tiene seis clientes fijos, un equipo de cuatro y un servicio que el mercado ya les pide. La demanda y la entrega están resueltas. Lo que no está resuelto es dónde están paradas las dueñas: vos y Fede cubren los mismos roles, las dos arman propuestas, las dos van a producir y las dos editan. Con ese calendario, la oferta y el precio quedan siempre para después.",
+        "La edición es lo primero que sale porque es lo que menos necesita el criterio de ustedes. La estrategia, la relación con el cliente y la propuesta sí lo necesitan. Cortar y musicalizar, no.",
+        "Y sale progresivo, no de golpe: un cliente de prueba, una entrega revisada, y de ahí se amplía. La carta de abajo es el paso a paso de eso."
+      ]
+    }
+  ]
 }
