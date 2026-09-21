@@ -1,494 +1,518 @@
 {
- "kicker": "La biblioteca",
- "titulo": "Los materiales",
- "bajada": "Todo lo que está escrito de Cáscara Founders, en un solo lugar: lo que se le muestra al cliente, lo que sale de cada cliente, los contratos y los documentos con los que trabaja el equipo. Cada pieza dice en qué estado está y en qué formato se abre. Lo que todavía no existe también figura, para no buscarlo dos veces.",
- "bloques": [
-  {
-   "nombre": "La oferta y lo comercial",
-   "texto": "Es lo que se muestra afuera y lo que manda adentro. La plataforma de la aceleradora es la fuente de verdad: si algo contradice al informe maestro, gana el informe maestro.",
-   "piezas": [
+  "kicker": "La biblioteca",
+  "titulo": "Los materiales",
+  "bajada": "Todo lo que está escrito de Cáscara Founders, en un solo lugar: lo que se le muestra al cliente, lo que sale de cada cliente, los contratos y los documentos con los que trabaja el equipo. Cada pieza dice en qué estado está y en qué formato se abre. Lo que todavía no existe también figura, para no buscarlo dos veces.",
+  "bloques": [
     {
-     "titulo": "Presentación",
-     "que_es": "La oferta en 16 slides. Es la pieza para presentar el programa en una llamada o para mandar antes de una reunión.",
-     "estado": "listo",
-     "formatos": [
-      "HTML"
-     ],
-     "url": "https://facundocouyet.github.io/aceleradora/presentacion.html"
+      "nombre": "La oferta y lo comercial",
+      "texto": "Es lo que se muestra afuera y lo que manda adentro. La plataforma de la aceleradora es la fuente de verdad: si algo contradice al informe maestro, gana el informe maestro.",
+      "piezas": [
+        {
+          "titulo": "Presentación",
+          "que_es": "La oferta en 16 slides. Es la pieza para presentar el programa en una llamada o para mandar antes de una reunión.",
+          "estado": "listo",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://facundocouyet.github.io/aceleradora/presentacion.html"
+        },
+        {
+          "titulo": "Informe completo",
+          "que_es": "El documento maestro: los principios, los cinco frentes, el mapa de mentores, la rotación de 13 semanas, la anatomía de una grupal, el lanzamiento, los checklists por orientación y los puntos abiertos. Manda sobre el resto.",
+          "estado": "listo",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://facundocouyet.github.io/aceleradora/informe.html"
+        },
+        {
+          "titulo": "La oferta al cliente",
+          "que_es": "Qué incluye el programa, el roadmap sesión por sesión, las tres orientaciones, los founders, los bonus y la inversión. Se ve en el navegador, se descarga como HTML o se imprime en PDF.",
+          "estado": "listo",
+          "formatos": [
+            "HTML",
+            "HTML descargable",
+            "PDF"
+          ],
+          "url": "https://facundocouyet.github.io/aceleradora/oferta.html"
+        },
+        {
+          "titulo": "Pitch deck",
+          "que_es": "Figura como sección 03 de la plataforma pero no tiene archivo propio: los botones que están debajo llevan a la oferta al cliente. Hay que definir si es una pieza aparte o si el nombre sobra.",
+          "estado": "falta escribir",
+          "formatos": [],
+          "url": ""
+        },
+        {
+          "titulo": "Planificador de calendario",
+          "que_es": "Herramienta interactiva para armar el calendario: 13 alumnos, tres franjas, 13 semanas más las 1:1, con el roadmap desplegable. La usa Teo, no va a diseño.",
+          "estado": "listo",
+          "formatos": [
+            "HTML"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Tabla de triage de clientes F3",
+          "que_es": "Quién entra a Founders, quién no y a quién se le ofrece un upsell. Está armada como hipótesis y la tiene que corregir Teo.",
+          "estado": "en borrador",
+          "formatos": [
+            "Markdown"
+          ],
+          "url": ""
+        }
+      ]
     },
     {
-     "titulo": "Informe completo",
-     "que_es": "El documento maestro: los principios, los cinco frentes, el mapa de mentores, la rotación de 13 semanas, la anatomía de una grupal, el lanzamiento, los checklists por orientación y los puntos abiertos. Manda sobre el resto.",
-     "estado": "listo",
-     "formatos": [
-      "HTML"
-     ],
-     "url": "https://facundocouyet.github.io/aceleradora/informe.html"
+      "nombre": "Los documentos de cliente",
+      "texto": "Todo lo que sale del proceso de un founder. La radiografía es siempre el mismo documento: al final del mes 1, al final de cada mes y al cierre. Punto A con hechos, un solo cuello de botella, punto B con fecha y el roadmap de 8 semanas.",
+      "piezas": [
+        {
+          "titulo": "Radiografías con roadmap · 11 clientes",
+          "que_es": "Aaron, Agostina, Bianca, Custom Lab, José David, Lola, Lucio, Matías, Sebastián, Sofía y Sol. Siguen en el programa: septiembre para dejar todo armado, octubre para ver la evolución, cierre el 31 de octubre. Falta revisarlos antes de mandarlos.",
+          "estado": "en borrador",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Informes de cierre · 8 clientes",
+          "que_es": "Andrea, Antonio, Ayelén, Lucca, Manu, Nicolás, Scarlett y Sharon. Cierra el proceso y deja los próximos 60 días escritos para que los ejecuten solos. Las llamadas de sign-off las hace Teo. Falta revisarlos antes de mandarlos.",
+          "estado": "en borrador",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Qualita · Radiografía y roadmap de retoma",
+          "que_es": "Primera corrida de la skill de radiografía. Está entregada y esperando la decisión de Rafa.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown",
+            "Canvas"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Qualita · Roadmap Cáscara Founders",
+          "que_es": "Catorce paneles en el formato oficial de roadmap de cliente. Es la referencia visual para los que vengan.",
+          "estado": "listo",
+          "formatos": [
+            "Canvas"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Carta de oferta, con su discovery",
+          "que_es": "Ocho preguntas de discovery que bajan el material crudo —qué vendiste, qué te piden que no vendés, qué te sale fácil, qué te preguntan antes de comprar— para que la oferta la escriba Cáscara con Franco. Reemplaza al formulario de 40 preguntas, que nunca llegó a existir.",
+          "estado": "listo",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "cartas/one-sheeter-oferta.html"
+        },
+        {
+          "titulo": "Briefing de clarity call",
+          "que_es": "Una carilla antes de la llamada: el problema en una línea, síntoma contra problema real, la métrica del trimestre, los activos y los vacíos, y dos o tres tensiones para abrir. Ya se hizo para Sebastián, beMOTION y Sofía.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Paquete de entregables de cierre",
+          "que_es": "Lo que el founder se lleva para ejecutar solo. El modelo probado es el de Ceci: auditoría de producto e instrumentación de la plataforma, estructura y copy de landing, calendario de contenido repetible y playbook de outreach en frío con templates.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Handoff de diseño de la radiografía",
+          "que_es": "El formato con el que se maqueta cada documento: header con la métrica, timeline continuo con las 1:1 y la banda de acompañamiento async, checklist de reuniones, bloque de oferta y pipeline.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown"
+          ],
+          "url": ""
+        }
+      ]
     },
     {
-     "titulo": "La oferta al cliente",
-     "que_es": "Qué incluye el programa, el roadmap sesión por sesión, las tres orientaciones, los founders, los bonus y la inversión. Se ve en el navegador, se descarga como HTML o se imprime en PDF.",
-     "estado": "listo",
-     "formatos": [
-      "HTML",
-      "HTML descargable",
-      "PDF"
-     ],
-     "url": "https://facundocouyet.github.io/aceleradora/oferta.html"
+      "nombre": "Las plantillas que se le pasan al founder",
+      "texto": "Recursos de Cáscara que el founder duplica o usa tal cual. Son siempre los mismos y van siempre por el mismo link: no se arman de nuevo por cliente ni se piden por mensaje. Cuando una carta los menciona, el link ya está adentro de la carta.",
+      "piezas": [
+        {
+          "titulo": "Editors Hiring Form",
+          "que_es": "El formulario con el que Cáscara recibe editores, listo para que el founder lo duplique en su Notion: contacto, portfolio, el nivel de edición con las tres descripciones escritas, herramientas, disponibilidad y pretensión por pieza. El link que sale de la duplicación es el que va en las historias de reclutamiento. Va adentro de la carta Contratar el primer rol.",
+          "estado": "listo",
+          "formatos": [
+            "Notion"
+          ],
+          "url": "https://flowery-beryllium-0df.notion.site/2d8511e68cad80d1a544ff1c7347a949"
+        },
+        {
+          "titulo": "Tarifario de edición de Cáscara",
+          "que_es": "Los números con los que paga Cáscara, por pieza y por nivel de complejidad: short form de 12 a 80 dólares, long form de 60 a 150, podcast desde 120. Se le pasa al founder como referencia para que arme el suyo sin adivinar. Va adentro de la carta Contratar el primer rol, con las cifras escritas.",
+          "estado": "falta el link",
+          "formatos": [
+            "Notion"
+          ],
+          "url": ""
+        }
+      ]
     },
     {
-     "titulo": "Pitch deck",
-     "que_es": "Figura como sección 03 de la plataforma pero no tiene archivo propio: los botones que están debajo llevan a la oferta al cliente. Hay que definir si es una pieza aparte o si el nombre sobra.",
-     "estado": "falta escribir",
-     "formatos": [],
-     "url": ""
+      "nombre": "Los contratos",
+      "texto": "El único hueco grande de la biblioteca. La aceleradora todavía no tiene contrato propio y hay que escribirlo ya.",
+      "piezas": [
+        {
+          "titulo": "Contrato de Cáscara Founders",
+          "que_es": "No existe. Hoy se firma con el template del programa B2C, prestado. Es el primer pendiente de la lista del informe maestro.",
+          "estado": "falta escribir",
+          "formatos": [],
+          "url": ""
+        },
+        {
+          "titulo": "Template de contrato B2C",
+          "que_es": "El contrato del programa B2C. Es el que se usa mientras no esté el propio de la aceleradora.",
+          "estado": "listo",
+          "formatos": [],
+          "url": ""
+        },
+        {
+          "titulo": "Prompt maestro de generación de contratos",
+          "que_es": "Datos de la entidad, el template y un bloque de pedido por propuesta. Genera el contrato a partir de la propuesta comercial.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Acuerdo de growth partner",
+          "que_es": "El modelo para los casos de nivel 3: rev share sobre profit neto, waterfall de comisiones, costos directos y split. Regla fija: el acuerdo interno y el acuerdo con el cliente van siempre separados.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown",
+            "PDF"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Briefing legal de growth partner",
+          "que_es": "Qué es un growth partner y cómo se calcula el profit, escrito para que lo lea el abogado. Hecho para MySaint y para Daniella Aiello.",
+          "estado": "listo",
+          "formatos": [
+            "PDF"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Contrato de partnership · Delfina Ferro",
+          "que_es": "Treinta y seis artículos redactados completos, con notas de redacción para legales. Está esperando la revisión legal.",
+          "estado": "en borrador",
+          "formatos": [
+            "Word"
+          ],
+          "url": ""
+        }
+      ]
     },
     {
-     "titulo": "Planificador de calendario",
-     "que_es": "Herramienta interactiva para armar el calendario: 13 alumnos, tres franjas, 13 semanas más las 1:1, con el roadmap desplegable. La usa Teo, no va a diseño.",
-     "estado": "listo",
-     "formatos": [
-      "HTML"
-     ],
-     "url": ""
-    },
-    {
-     "titulo": "Tabla de triage de clientes F3",
-     "que_es": "Quién entra a Founders, quién no y a quién se le ofrece un upsell. Está armada como hipótesis y la tiene que corregir Teo.",
-     "estado": "en borrador",
-     "formatos": [
-      "Markdown"
-     ],
-     "url": ""
+      "nombre": "Los procesos internos",
+      "texto": "Los documentos con los que trabaja el equipo. No se muestran afuera. Se revisan, no se rehacen.",
+      "piezas": [
+        {
+          "titulo": "Proceso de consultoría de founders",
+          "que_es": "Cómo se atiende a un founder de punta a punta: el día 0 de onboarding, la cadena de accionables semana por semana, las 10 llamadas 1:1, las tres orientaciones, la radiografía, la anatomía de una grupal y la cuenta de capacidad. Es el documento que hay que leer primero.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Checklists por orientación",
+          "que_es": "Qué tiene que estar hecho en Conseguir, en Sostener y en Entregar, más el piso común a las tres al día 90. Van como anexo del informe maestro.",
+          "estado": "listo",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://facundocouyet.github.io/aceleradora/informe.html"
+        },
+        {
+          "titulo": "Mapa de mentores",
+          "que_es": "Qué le lleva el founder a cada uno y qué no. Franco, Facu, Fede, Juana y Teo, con los cinco frentes repartidos.",
+          "estado": "listo",
+          "formatos": [
+            "HTML",
+            "Markdown"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Inventario de producción",
+          "que_es": "Todo lo producido por fecha, título y versión, con dónde vive y en qué estado está. Se le agrega una fila al terminar cualquier entregable.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Índice del sistema",
+          "que_es": "Qué documento sirve para qué y en qué orden se leen. Las reglas del sistema están acá: un paso abierto por día, cada entregable al inventario con versión, las decisiones de proceso se escriben y no quedan en un chat.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Repaso de clientes · Teo y Facu",
+          "que_es": "La charla del 2 de septiembre pasada a documento. De ahí salieron los diecinueve documentos de cliente, los módulos por categoría y las decisiones de proceso.",
+          "estado": "listo",
+          "formatos": [
+            "HTML",
+            "Notion"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Roadmap de automatización",
+          "que_es": "Qué se automatiza, con qué herramienta y en qué fase. Es el documento que se lee para elegir el próximo paso.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Padrón de clientes",
+          "que_es": "El cruce de las dos bases de clientes de Notion: quién tiene ficha, quién está desalineado y qué duplicados hay. Se lee antes de dar una lista de clientes por cerrada.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown",
+            "Notion"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Plantilla de paneles de founders",
+          "que_es": "El generador del formato oficial de paneles, 1920 por 1080, para presentar roadmaps de clientes. Se cambia el contenido, se corre y se publica.",
+          "estado": "listo",
+          "formatos": [
+            "Script",
+            "HTML"
+          ],
+          "url": ""
+        },
+        {
+          "titulo": "Handoffs de chats y de diseño",
+          "que_es": "Lo que quedó de 137 chats de trabajo y 47 de diseño: qué se produjo, qué se decidió, los números y los pendientes. Se busca acá antes de rehacer algo.",
+          "estado": "listo",
+          "formatos": [
+            "Markdown"
+          ],
+          "url": ""
+        }
+      ]
     }
-   ]
-  },
-  {
-   "nombre": "Los documentos de cliente",
-   "texto": "Todo lo que sale del proceso de un founder. La radiografía es siempre el mismo documento: al final del mes 1, al final de cada mes y al cierre. Punto A con hechos, un solo cuello de botella, punto B con fecha y el roadmap de 8 semanas.",
-   "piezas": [
+  ],
+  "modulos": [
     {
-     "titulo": "Radiografías con roadmap · 11 clientes",
-     "que_es": "Aaron, Agostina, Bianca, Custom Lab, José David, Lola, Lucio, Matías, Sebastián, Sofía y Sol. Siguen en el programa: septiembre para dejar todo armado, octubre para ver la evolución, cierre el 31 de octubre. Falta revisarlos antes de mandarlos.",
-     "estado": "en borrador",
-     "formatos": [
-      "HTML",
-      "PDF"
-     ],
-     "url": ""
+      "categoria": "Comunidad",
+      "items": [
+        {
+          "titulo": "Arquitectura mínima de una comunidad",
+          "texto": "Lo que hace falta para que una comunidad exista de verdad: llamadas mensuales, un reto por mes, curaduría de recursos, ritual de bienvenida con respuesta a cada presentación y premios por participación.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Comunidad de WhatsApp para marcas de producto",
+          "texto": "Cómo se llena desde YouTube y redes, y qué dinámicas la mantienen activa una vez que está llena.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Identificación del buyer en la propia comunidad",
+          "texto": "De la comunidad salen las ofertas siguientes. El módulo enseña a leer quién compra adentro de lo que ya se juntó.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Workshop y bootcamp como activación",
+          "texto": "Las dos dinámicas que mueven una comunidad quieta y sirven para abrir una venta.",
+          "estado": "falta escribir"
+        }
+      ]
     },
     {
-     "titulo": "Informes de cierre · 8 clientes",
-     "que_es": "Andrea, Antonio, Ayelén, Lucca, Manu, Nicolás, Scarlett y Sharon. Cierra el proceso y deja los próximos 60 días escritos para que los ejecuten solos. Las llamadas de sign-off las hace Teo. Falta revisarlos antes de mandarlos.",
-     "estado": "en borrador",
-     "formatos": [
-      "HTML",
-      "PDF"
-     ],
-     "url": ""
+      "categoria": "Contenido",
+      "items": [
+        {
+          "titulo": "Profile funnel",
+          "texto": "Descripción, destacadas y contenido anclado trabajando juntos, para que el perfil convierta sin que haya que explicarlo.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Calendario de lanzamiento de 45 días",
+          "texto": "15 días de historia para calentar la audiencia, después el problema, después la solución, y recién ahí el lanzamiento.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Templates de estrategia de contenido sin lanzamiento",
+          "texto": "Para el que no vende nada todavía y solo quiere comunicar: formatos con un ejemplo adentro de cada uno.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Ángulos de comunicación desde el ICP",
+          "texto": "Cómo bajar los ángulos del cliente ideal, con un guion de ejemplo por ángulo.",
+          "estado": "falta escribir"
+        }
+      ]
     },
     {
-     "titulo": "Qualita · Radiografía y roadmap de retoma",
-     "que_es": "Primera corrida de la skill de radiografía. Está entregada y esperando la decisión de Rafa.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown",
-      "Canvas"
-     ],
-     "url": ""
+      "categoria": "Oferta",
+      "items": [
+        {
+          "titulo": "ICP del mecanismo",
+          "texto": "El cliente ideal de lo que se vende, no de la empresa en general. Es la confusión más común y la que rompe el pricing.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "One-sheeter de la oferta",
+          "texto": "Qué resultado entregás y qué paso a paso seguís para entregarlo, en una sola hoja.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Pricing y escalera de valor",
+          "texto": "Cómo se pone el precio y cómo se ordenan los productos de abajo hacia arriba.",
+          "estado": "falta escribir"
+        }
+      ]
     },
     {
-     "titulo": "Qualita · Roadmap Cáscara Founders",
-     "que_es": "Catorce paneles en el formato oficial de roadmap de cliente. Es la referencia visual para los que vengan.",
-     "estado": "listo",
-     "formatos": [
-      "Canvas"
-     ],
-     "url": ""
+      "categoria": "Entrega de servicio",
+      "items": [
+        {
+          "titulo": "Onboarding del cliente en 48 horas",
+          "texto": "Qué pasa en las primeras 48 horas después de que el cliente paga.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Cómo presentar un roadmap al cliente",
+          "texto": "El founder tiene que poder mostrarle a su propio cliente adónde van y en qué orden.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Entrega que se repite igual cada vez",
+          "texto": "Cómo se arma un proceso de servicio que no dependa de la memoria del que lo ejecuta.",
+          "estado": "falta escribir"
+        }
+      ]
     },
     {
-     "titulo": "Carta de oferta, con su discovery",
-     "que_es": "Ocho preguntas de discovery que bajan el material crudo —qué vendiste, qué te piden que no vendés, qué te sale fácil, qué te preguntan antes de comprar— para que la oferta la escriba Cáscara con Franco. Reemplaza al formulario de 40 preguntas, que nunca llegó a existir.",
-     "estado": "listo",
-     "formatos": [
-      "HTML"
-     ],
-     "url": "cartas/one-sheeter-oferta.html"
+      "categoria": "Comercial",
+      "items": [
+        {
+          "titulo": "Contratar un setter y contratar un closer",
+          "texto": "Cómo se busca, cómo se prueba y cómo se paga cada rol. Lo baja Francisca.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Recontacto sobre la base histórica",
+          "texto": "Volver a los que ya compraron o casi compraron. Es lo que le funcionó a Custom Lab.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Outbound sobre el pipeline propio",
+          "texto": "Calendly, llamadas que no cerraron y contactos viejos: plata que ya está en la agenda.",
+          "estado": "falta escribir"
+        }
+      ]
     },
     {
-     "titulo": "Briefing de clarity call",
-     "que_es": "Una carilla antes de la llamada: el problema en una línea, síntoma contra problema real, la métrica del trimestre, los activos y los vacíos, y dos o tres tensiones para abrir. Ya se hizo para Sebastián, beMOTION y Sofía.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown"
-     ],
-     "url": ""
-    },
-    {
-     "titulo": "Paquete de entregables de cierre",
-     "que_es": "Lo que el founder se lleva para ejecutar solo. El modelo probado es el de Ceci: auditoría de producto e instrumentación de la plataforma, estructura y copy de landing, calendario de contenido repetible y playbook de outreach en frío con templates.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown"
-     ],
-     "url": ""
-    },
-    {
-     "titulo": "Handoff de diseño de la radiografía",
-     "que_es": "El formato con el que se maqueta cada documento: header con la métrica, timeline continuo con las 1:1 y la banda de acompañamiento async, checklist de reuniones, bloque de oferta y pipeline.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown"
-     ],
-     "url": ""
+      "categoria": "Onboarding del programa",
+      "items": [
+        {
+          "titulo": "Pasaporte digital de nivel dos",
+          "texto": "Para los que entran buscando su diferencial en la comunicación, donde los Founder Insights no alcanzan.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Kick-off grabado de cada grupal",
+          "texto": "Qué se trabaja, con qué hay que llegar y por dónde empezar. Uno de Teo, uno de Juana y uno de Fede.",
+          "estado": "falta escribir"
+        },
+        {
+          "titulo": "Video precall de las grupales",
+          "texto": "Para que la primera semana rinda en vez de usarse para explicar cómo funciona la llamada.",
+          "estado": "falta escribir"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "nombre": "Los contratos",
-   "texto": "El único hueco grande de la biblioteca. La aceleradora todavía no tiene contrato propio y hay que escribirlo ya.",
-   "piezas": [
+  ],
+  "decisiones": [
     {
-     "titulo": "Contrato de Cáscara Founders",
-     "que_es": "No existe. Hoy se firma con el template del programa B2C, prestado. Es el primer pendiente de la lista del informe maestro.",
-     "estado": "falta escribir",
-     "formatos": [],
-     "url": ""
+      "titulo": "El roadmap se ve",
+      "texto": "El roadmap del servicio tiene que estar a mano y cada cliente tiene que poder ver el suyo. Y cada ficha necesita fecha de inicio: hoy falta en casi todas y sale de los reportes de ventas."
     },
     {
-     "titulo": "Template de contrato B2C",
-     "que_es": "El contrato del programa B2C. Es el que se usa mientras no esté el propio de la aceleradora.",
-     "estado": "listo",
-     "formatos": [],
-     "url": ""
+      "titulo": "El primer mes cierra siempre igual",
+      "texto": "Oferta construida, ICP identificado, ángulos de comunicación y profile funnel acomodado. Desde ahí se marca el roadmap del mes siguiente."
     },
     {
-     "titulo": "Prompt maestro de generación de contratos",
-     "que_es": "Datos de la entidad, el template y un bloque de pedido por propuesta. Genera el contrato a partir de la propuesta comercial.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown"
-     ],
-     "url": ""
+      "titulo": "Dos formas después del primer mes",
+      "texto": "O 2 meses de A a B, o A a B a B con una revisión en el medio. Depende del cliente."
     },
     {
-     "titulo": "Acuerdo de growth partner",
-     "que_es": "El modelo para los casos de nivel 3: rev share sobre profit neto, waterfall de comisiones, costos directos y split. Regla fija: el acuerdo interno y el acuerdo con el cliente van siempre separados.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown",
-      "PDF"
-     ],
-     "url": ""
+      "titulo": "Las orientaciones son conjuntos de módulos",
+      "texto": "No son caminos exactos. Se le da más de lo que necesita, pero el cliente tiene que saber en qué orientación está."
     },
     {
-     "titulo": "Briefing legal de growth partner",
-     "que_es": "Qué es un growth partner y cómo se calcula el profit, escrito para que lo lea el abogado. Hecho para MySaint y para Daniella Aiello.",
-     "estado": "listo",
-     "formatos": [
-      "PDF"
-     ],
-     "url": ""
+      "titulo": "Los módulos se asignan y se desbloquean",
+      "texto": "De ahí sale el estado de cada cliente sin tener que preguntarlo."
     },
     {
-     "titulo": "Contrato de partnership · Delfina Ferro",
-     "que_es": "Treinta y seis artículos redactados completos, con notas de redacción para legales. Está esperando la revisión legal.",
-     "estado": "en borrador",
-     "formatos": [
-      "Word"
-     ],
-     "url": ""
+      "titulo": "El cliente equivocado se filtra en la venta",
+      "texto": "Al que no le sale y se le consume el tiempo se lo evita antes, con claridad de oferta y de a quién le vendemos. Después no se resuelve."
+    },
+    {
+      "titulo": "La división del trabajo",
+      "texto": "Facu desarrolla los informes y los cierres. Teo hace las llamadas de sign-off y los onboardings."
+    },
+    {
+      "titulo": "Una sola orientación, y la elige Facu",
+      "texto": "Se define en la semana 3 con 3 preguntas en orden: si llegan y cierran consultas, si la demanda depende de su energía, si la entrega le come el tiempo. La primera negativa marca la ruta; ante empate se va hacia lo más cerca del dinero."
+    },
+    {
+      "titulo": "Nosotros diseñamos, el founder ejecuta",
+      "texto": "Se baja la estrategia y se acompaña. No entra pauta, ni producción de contenido como servicio central, ni landing, ni CRM, ni entregar el servicio del cliente."
     }
-   ]
-  },
-  {
-   "nombre": "Los procesos internos",
-   "texto": "Los documentos con los que trabaja el equipo. No se muestran afuera. Se revisan, no se rehacen.",
-   "piezas": [
-    {
-     "titulo": "Proceso de consultoría de founders",
-     "que_es": "Cómo se atiende a un founder de punta a punta: el día 0 de onboarding, la cadena de accionables semana por semana, las 10 llamadas 1:1, las tres orientaciones, la radiografía, la anatomía de una grupal y la cuenta de capacidad. Es el documento que hay que leer primero.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown"
-     ],
-     "url": ""
-    },
-    {
-     "titulo": "Checklists por orientación",
-     "que_es": "Qué tiene que estar hecho en Conseguir, en Sostener y en Entregar, más el piso común a las tres al día 90. Van como anexo del informe maestro.",
-     "estado": "listo",
-     "formatos": [
-      "HTML"
-     ],
-     "url": "https://facundocouyet.github.io/aceleradora/informe.html"
-    },
-    {
-     "titulo": "Mapa de mentores",
-     "que_es": "Qué le lleva el founder a cada uno y qué no. Franco, Facu, Fede, Juana y Teo, con los cinco frentes repartidos.",
-     "estado": "listo",
-     "formatos": [
-      "HTML",
-      "Markdown"
-     ],
-     "url": ""
-    },
-    {
-     "titulo": "Inventario de producción",
-     "que_es": "Todo lo producido por fecha, título y versión, con dónde vive y en qué estado está. Se le agrega una fila al terminar cualquier entregable.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown"
-     ],
-     "url": ""
-    },
-    {
-     "titulo": "Índice del sistema",
-     "que_es": "Qué documento sirve para qué y en qué orden se leen. Las reglas del sistema están acá: un paso abierto por día, cada entregable al inventario con versión, las decisiones de proceso se escriben y no quedan en un chat.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown"
-     ],
-     "url": ""
-    },
-    {
-     "titulo": "Repaso de clientes · Teo y Facu",
-     "que_es": "La charla del 2 de septiembre pasada a documento. De ahí salieron los diecinueve documentos de cliente, los módulos por categoría y las decisiones de proceso.",
-     "estado": "listo",
-     "formatos": [
-      "HTML",
-      "Notion"
-     ],
-     "url": ""
-    },
-    {
-     "titulo": "Roadmap de automatización",
-     "que_es": "Qué se automatiza, con qué herramienta y en qué fase. Es el documento que se lee para elegir el próximo paso.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown"
-     ],
-     "url": ""
-    },
-    {
-     "titulo": "Padrón de clientes",
-     "que_es": "El cruce de las dos bases de clientes de Notion: quién tiene ficha, quién está desalineado y qué duplicados hay. Se lee antes de dar una lista de clientes por cerrada.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown",
-      "Notion"
-     ],
-     "url": ""
-    },
-    {
-     "titulo": "Plantilla de paneles de founders",
-     "que_es": "El generador del formato oficial de paneles, 1920 por 1080, para presentar roadmaps de clientes. Se cambia el contenido, se corre y se publica.",
-     "estado": "listo",
-     "formatos": [
-      "Script",
-      "HTML"
-     ],
-     "url": ""
-    },
-    {
-     "titulo": "Handoffs de chats y de diseño",
-     "que_es": "Lo que quedó de 137 chats de trabajo y 47 de diseño: qué se produjo, qué se decidió, los números y los pendientes. Se busca acá antes de rehacer algo.",
-     "estado": "listo",
-     "formatos": [
-      "Markdown"
-     ],
-     "url": ""
-    }
-   ]
-  }
- ],
- "modulos": [
-  {
-   "categoria": "Comunidad",
-   "items": [
-    {
-     "titulo": "Arquitectura mínima de una comunidad",
-     "texto": "Lo que hace falta para que una comunidad exista de verdad: llamadas mensuales, un reto por mes, curaduría de recursos, ritual de bienvenida con respuesta a cada presentación y premios por participación.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Comunidad de WhatsApp para marcas de producto",
-     "texto": "Cómo se llena desde YouTube y redes, y qué dinámicas la mantienen activa una vez que está llena.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Identificación del buyer en la propia comunidad",
-     "texto": "De la comunidad salen las ofertas siguientes. El módulo enseña a leer quién compra adentro de lo que ya se juntó.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Workshop y bootcamp como activación",
-     "texto": "Las dos dinámicas que mueven una comunidad quieta y sirven para abrir una venta.",
-     "estado": "falta escribir"
-    }
-   ]
-  },
-  {
-   "categoria": "Contenido",
-   "items": [
-    {
-     "titulo": "Profile funnel",
-     "texto": "Descripción, destacadas y contenido anclado trabajando juntos, para que el perfil convierta sin que haya que explicarlo.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Calendario de lanzamiento de 45 días",
-     "texto": "15 días de historia para calentar la audiencia, después el problema, después la solución, y recién ahí el lanzamiento.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Templates de estrategia de contenido sin lanzamiento",
-     "texto": "Para el que no vende nada todavía y solo quiere comunicar: formatos con un ejemplo adentro de cada uno.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Ángulos de comunicación desde el ICP",
-     "texto": "Cómo bajar los ángulos del cliente ideal, con un guion de ejemplo por ángulo.",
-     "estado": "falta escribir"
-    }
-   ]
-  },
-  {
-   "categoria": "Oferta",
-   "items": [
-    {
-     "titulo": "ICP del mecanismo",
-     "texto": "El cliente ideal de lo que se vende, no de la empresa en general. Es la confusión más común y la que rompe el pricing.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "One-sheeter de la oferta",
-     "texto": "Qué resultado entregás y qué paso a paso seguís para entregarlo, en una sola hoja.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Pricing y escalera de valor",
-     "texto": "Cómo se pone el precio y cómo se ordenan los productos de abajo hacia arriba.",
-     "estado": "falta escribir"
-    }
-   ]
-  },
-  {
-   "categoria": "Entrega de servicio",
-   "items": [
-    {
-     "titulo": "Onboarding del cliente en 48 horas",
-     "texto": "Qué pasa en las primeras 48 horas después de que el cliente paga.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Cómo presentar un roadmap al cliente",
-     "texto": "El founder tiene que poder mostrarle a su propio cliente adónde van y en qué orden.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Entrega que se repite igual cada vez",
-     "texto": "Cómo se arma un proceso de servicio que no dependa de la memoria del que lo ejecuta.",
-     "estado": "falta escribir"
-    }
-   ]
-  },
-  {
-   "categoria": "Comercial",
-   "items": [
-    {
-     "titulo": "Contratar un setter y contratar un closer",
-     "texto": "Cómo se busca, cómo se prueba y cómo se paga cada rol. Lo baja Francisca.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Recontacto sobre la base histórica",
-     "texto": "Volver a los que ya compraron o casi compraron. Es lo que le funcionó a Custom Lab.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Outbound sobre el pipeline propio",
-     "texto": "Calendly, llamadas que no cerraron y contactos viejos: plata que ya está en la agenda.",
-     "estado": "falta escribir"
-    }
-   ]
-  },
-  {
-   "categoria": "Onboarding del programa",
-   "items": [
-    {
-     "titulo": "Pasaporte digital de nivel dos",
-     "texto": "Para los que entran buscando su diferencial en la comunicación, donde los Founder Insights no alcanzan.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Kick-off grabado de cada grupal",
-     "texto": "Qué se trabaja, con qué hay que llegar y por dónde empezar. Uno de Teo, uno de Juana y uno de Fede.",
-     "estado": "falta escribir"
-    },
-    {
-     "titulo": "Video precall de las grupales",
-     "texto": "Para que la primera semana rinda en vez de usarse para explicar cómo funciona la llamada.",
-     "estado": "falta escribir"
-    }
-   ]
-  }
- ],
- "decisiones": [
-  {
-   "titulo": "El roadmap se ve",
-   "texto": "El roadmap del servicio tiene que estar a mano y cada cliente tiene que poder ver el suyo. Y cada ficha necesita fecha de inicio: hoy falta en casi todas y sale de los reportes de ventas."
-  },
-  {
-   "titulo": "El primer mes cierra siempre igual",
-   "texto": "Oferta construida, ICP identificado, ángulos de comunicación y profile funnel acomodado. Desde ahí se marca el roadmap del mes siguiente."
-  },
-  {
-   "titulo": "Dos formas después del primer mes",
-   "texto": "O 2 meses de A a B, o A a B a B con una revisión en el medio. Depende del cliente."
-  },
-  {
-   "titulo": "Las orientaciones son conjuntos de módulos",
-   "texto": "No son caminos exactos. Se le da más de lo que necesita, pero el cliente tiene que saber en qué orientación está."
-  },
-  {
-   "titulo": "Los módulos se asignan y se desbloquean",
-   "texto": "De ahí sale el estado de cada cliente sin tener que preguntarlo."
-  },
-  {
-   "titulo": "El cliente equivocado se filtra en la venta",
-   "texto": "Al que no le sale y se le consume el tiempo se lo evita antes, con claridad de oferta y de a quién le vendemos. Después no se resuelve."
-  },
-  {
-   "titulo": "La división del trabajo",
-   "texto": "Facu desarrolla los informes y los cierres. Teo hace las llamadas de sign-off y los onboardings."
-  },
-  {
-   "titulo": "Una sola orientación, y la elige Facu",
-   "texto": "Se define en la semana 3 con 3 preguntas en orden: si llegan y cierran consultas, si la demanda depende de su energía, si la entrega le come el tiempo. La primera negativa marca la ruta; ante empate se va hacia lo más cerca del dinero."
-  },
-  {
-   "titulo": "Nosotros diseñamos, el founder ejecuta",
-   "texto": "Se baja la estrategia y se acompaña. No entra pauta, ni producción de contenido como servicio central, ni landing, ni CRM, ni entregar el servicio del cliente."
-  }
- ],
- "falta": [
-  "Las 40 cartas de módulo ya existen como HTML y se mandan desde el mapa. Lo que falta es el material de apoyo de las veintinueve que hoy tienen el criterio bajado caso por caso: el ejemplo real de los clientes y el template, que produce Teo.",
-  "El contrato propio de Cáscara Founders. Hoy se firma con el template del B2C y hay que escribirlo ya.",
-  "Revisar los diecinueve documentos de cliente antes de mandarlos. Están calibrados con el mismo criterio y nadie los leyó uno por uno todavía.",
-  "La fecha de arranque en Cuentas: de veintidós fichas de Founders, solo cinco la tienen cargada (Lucca, Qualita, Sebastián, Sharon y Sol). Las otras diecisiete cuentan los días desde la primera llamada registrada.",
-  "Borrar las dos filas duplicadas de Rafael Lizarraga, que siguen marcadas y sin unificar, y sacarle la etiqueta de Founders a Iñaki Efe, que es cliente de 0800. Daniela Aiello ya quedó como C. Growth.",
-  "Matchear las llamadas que figuran sin cliente en Llamadas · Founders: son treinta y una de setenta y una, y el filtro de la automatización de Fathom sigue sin definirse.",
-  "El pitch deck: figura como sección 03 de la plataforma y no tiene archivo propio.",
-  "Actualizar la página pública del programa.",
-  "El alcance de la app, que es uno de los tres temas de la reunión con Teo.",
-  "Registrar en algún lado qué módulo se le asignó a cada founder. La propuesta es una propiedad multi-select en la ficha de Cuentas con los nombres de las cartas.",
-  "Definir dónde y quién gestiona la inscripción a las grupales.",
-  "Confirmar el criterio de graduación a nivel 3.",
-  "La política de grabación de las grupales rotativas, que toca el argumento de exclusividad.",
-  "El alcance del agente de IA y desde cuándo entra. En el catálogo es el módulo I5 y está marcado como propuesta.",
-  "El tope de clientes a la vez: en la revisión del 16 de septiembre quedó en diez para arrancar y no más de quince.",
-  "La contratación del coordinador o CSM y la unificación del rol.",
-  "Exportar los grupos de WhatsApp de los clientes: es la fuente que más cambió el diagnóstico en Qualita."
- ]
+  ],
+  "falta": [
+    "Las 40 cartas de módulo ya existen como HTML y se mandan desde el mapa. Lo que falta es el material de apoyo de las veintinueve que hoy tienen el criterio bajado caso por caso: el ejemplo real de los clientes y el template, que produce Teo.",
+    "El contrato propio de Cáscara Founders. Hoy se firma con el template del B2C y hay que escribirlo ya.",
+    "Revisar los diecinueve documentos de cliente antes de mandarlos. Están calibrados con el mismo criterio y nadie los leyó uno por uno todavía.",
+    "La fecha de arranque en Cuentas: de veintidós fichas de Founders, solo cinco la tienen cargada (Lucca, Qualita, Sebastián, Sharon y Sol). Las otras diecisiete cuentan los días desde la primera llamada registrada.",
+    "Borrar las dos filas duplicadas de Rafael Lizarraga, que siguen marcadas y sin unificar, y sacarle la etiqueta de Founders a Iñaki Efe, que es cliente de 0800. Daniela Aiello ya quedó como C. Growth.",
+    "Matchear las llamadas que figuran sin cliente en Llamadas · Founders: son treinta y una de setenta y una, y el filtro de la automatización de Fathom sigue sin definirse.",
+    "El pitch deck: figura como sección 03 de la plataforma y no tiene archivo propio.",
+    "Actualizar la página pública del programa.",
+    "El alcance de la app, que es uno de los tres temas de la reunión con Teo.",
+    "Registrar en algún lado qué módulo se le asignó a cada founder. La propuesta es una propiedad multi-select en la ficha de Cuentas con los nombres de las cartas.",
+    "Definir dónde y quién gestiona la inscripción a las grupales.",
+    "Confirmar el criterio de graduación a nivel 3.",
+    "La política de grabación de las grupales rotativas, que toca el argumento de exclusividad.",
+    "El alcance del agente de IA y desde cuándo entra. En el catálogo es el módulo I5 y está marcado como propuesta.",
+    "El tope de clientes a la vez: en la revisión del 16 de septiembre quedó en diez para arrancar y no más de quince.",
+    "La contratación del coordinador o CSM y la unificación del rol.",
+    "Exportar los grupos de WhatsApp de los clientes: es la fuente que más cambió el diagnóstico en Qualita."
+  ]
 }

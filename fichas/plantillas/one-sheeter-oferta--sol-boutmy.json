@@ -2,13 +2,15 @@
   "modulo": "one-sheeter-oferta",
   "slug": "sol-boutmy",
   "founder": "Sol Boutmy",
-  "bajada": "La oferta de Be Motion escrita: qué venden, a quién, con qué promesa y a qué precio. Las preguntas van en orden y cada una se apoya en la anterior. Lo que salga de acá es lo que Franco audita en su llamada.",
-  "lista_cuando": "Las dos leen la hoja completa y están de acuerdo con lo que dice, sin tener que explicarse nada entre ustedes.",
-  "completar": ["Esta carta completa, con el NOVA y el one-sheeter escritos por las dos"],
+  "bajada": "La oferta de BeMotion escrita: qué venden, a quién, con qué promesa y a qué precio. Las preguntas van en orden y cada una se apoya en la anterior. Lo que salga de acá es lo que Franco audita en su llamada.",
+  "lista_cuando": "Las dos leen la hoja completa y están de acuerdo con lo que dice, y con eso arriba se agenda la llamada con Franco.",
+  "completar": [
+    "Esta carta completa, con el NOVA y el one-sheeter escritos por las dos"
+  ],
   "bajada_envio": {
     "founder": "Sol Boutmy",
-    "porque": "Be Motion factura, entrega y tiene equipo: la demanda y la entrega están resueltas. Lo que falta es el envase. Hoy venden producción mensual de contenido a 600 o 700 dólares, contra entrega, y eso ata el precio al volumen en vez de atarlo al resultado. La dirección ya está puesta: vender estrategia primero y ejecución después, en procesos de tres meses. Esta hoja es donde eso se escribe.",
-    "objetivo": "La oferta escrita antes de la llamada con Franco, para que esa llamada sea de auditar y no de arrancar. De ahí salen el nicho para vender fuera de Uruguay, el precio y las condiciones.",
+    "porque": "BeMotion factura, entrega y tiene equipo: la demanda y la entrega están resueltas. Lo que falta es el envase. Hoy venden producción mensual de contenido a 600 o 700 dólares, contra entrega, y eso ata el precio al volumen en vez de atarlo al resultado. La dirección ya está puesta: vender estrategia primero y ejecución después, en procesos de tres meses. Esta hoja es donde eso se escribe.",
+    "objetivo": "La oferta escrita, y con eso la llamada con Franco agendada. Esa llamada es el paso siguiente y sale de acá: se hace cuando la hoja está completa, no antes. De ahí salen el nicho para vender fuera de Uruguay, el precio y las condiciones.",
     "mindset": "Esta la completan las dos. No es una hoja para dividirse: si cada una la contesta por su lado y después comparan, van a encontrar las diferencias que hoy no se están diciendo, y esas diferencias son justamente lo que hay que resolver antes de escribir una propuesta. Háganla juntas o contesten por separado y después júntenlas, pero no la firme una sola."
   },
   "bloques_inicio": [
@@ -30,6 +32,17 @@
       "texto": [
         "La primera pregunta les pide mirar a los clientes que ya tienen, y está bien: ahí está la información real de qué compran y por qué. Pero los seis entraron por boca a boca, en Uruguay, y comprando producción mensual. Son la prueba de que saben entregar, no son el mercado del servicio nuevo.",
         "Así que úsenlos para entender el patrón —qué problema resolvieron de verdad, por qué las eligieron, cuál repitió— y no para copiar el cliente ideal de ahí. El nicho de afuera se decide con Franco, con este material arriba de la mesa."
+      ]
+    }
+  ],
+  "bloques_final": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que sigue: la llamada con Franco",
+      "texto": [
+        "Cuando devuelvan esta hoja, se agenda la llamada con Franco. Ese es el paso siguiente y no hay nada en el medio: la hoja completa es lo que la habilita.",
+        "En esa llamada se audita lo que escribieron y se cierran las tres cosas que todavía quedan abiertas: hacia qué nicho vira el servicio para poder venderse fuera de Uruguay, el precio, y las condiciones del proceso de tres meses. Franco no arranca de cero, arranca de lo que ustedes escriban.",
+        "Y es la llamada que estaba pendiente desde el 8 de septiembre. Se destraba así: con la hoja arriba de la mesa."
       ]
     }
   ]
