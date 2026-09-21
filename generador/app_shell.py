@@ -1226,7 +1226,11 @@ function paneEntrega(){
   var h='<p class="entrada" style="margin-top:32px">Lo que ejecuta Aye, en una sola lista. Abajo, caso por '+
     'caso, está el documento que sale para cada uno y lo que haya que seguir.</p>';
   h+=barraAcc('entrega');
-  h+=grupoChk('Sign off', sign);
+  h+=grupoChk('Sign off', sign, '<div class="reg"><div class="k">Vale para los nueve</div><ul>'+
+     '<li><b>El documento no se manda.</b> Lo presenta Teo en la llamada: es un informe para que se lo '+
+     'cuenten, no para que lo lean solos y saquen conclusiones.</li>'+
+     '<li>Lo que hay que hacer con cada uno es <b>coordinar esa llamada</b> y llegar con el dato que falta.</li>'+
+     '</ul></div>');
   h+=grupoChk('En curso', curso);
   h+='<div class="accgr"><div class="et"><span>Caso por caso</span>'+
      '<span class="num">'+L.length+' clientes</span></div>'+
