@@ -1,28 +1,27 @@
-Los primeros angulos entran a la carta de Sebastian
+El ICP de Seba sale de la Discovery Call de Franco, no de la Clarity Call
 
-La carta viaja a dos llamadas: primero Franco la audita y confirma, despues Fede
-baja el calendario de contenido. Le entra una seccion de tres angulos —de que
-perfil sale, el dolor textual, el giro propio y que se muestra— que es
-exactamente el insumo con el que arranca Fede. Los ocho a doce angulos con guion
-siguen siendo la carta de Fede (angulos-desde-icp) y no se duplican aca: tres
-angulos sobre un ICP sin confirmar es lo que ya paso una vez.
+Correccion de Facu: la Clarity Call del 4 de septiembre fue de el, no de Franco.
+Seba lleva tres 1 a 1 y el orden es Facu, Franco, Facu. La llamada de Franco es
+la Discovery Call del 16 de septiembre.
 
-Abre con un bloque nuestro nuevo, "De donde arrancamos", con el ICP tal como
-quedo dicho en la Clarity Call con Franco: creativos que ya saben grabar y
-editar, filmmakers, disenadores, editores y gente que ya trabaja en marketing o
-redes. Esa frase estaba en la ficha y no estaba en ningun documento que Seba
-pudiera leer, asi que cada llamada la volvia a definir. Ahora arranca escrita y
-la hoja lo unico que hace es bajarla a personas concretas.
+Con eso cambia lo que dice el bloque "de donde arrancamos". El publico objetivo
+que dejo Franco son dos familias: el creativo tecnico, el freelance con ingresos
+que busca escalar (filmmaker, fotografo), y el creador de contenido, el de UGC y
+colaboraciones con marcas. Y el criterio que las une, que es el mejor que tiene:
+el cliente ideal es el propio Seba de hace 1 a 3 anos.
 
-De ahi sale el quinto perfil de la tabla, el que ya trabaja en marketing o
-redes, y queda dicho que el fotografo lo agregamos nosotros. Cierra con otro
-bloque nuestro que dice que pasa con esto despues, para que las dos llamadas
-arranquen leyendo lo mismo.
+La tabla de perfiles pasa a ser los oficios de esas dos familias, con la
+consigna diciendo cual es cual: filmmaker, fotografo, editor y disenador del
+lado tecnico, creador de UGC y el que colabora con marcas del otro.
 
-El orden del documento pasa a ser el del trabajo: de donde arrancamos, los
-perfiles, salir a preguntar, lo que ya dijeron, de donde vino la audiencia,
-despues los clientes que ya pagaron con la escalera, la subcategoria y quien
-queda afuera, y recien al final las dos frases y los angulos.
+La escalera tambien se corrige a la que planteo Franco: hacelo vos (el programa
+de 8 semanas), hacelo con vos (mentoria uno a uno), hacelo por vos (alianzas de
+equity con marcas). La produccion de Estudio Gama 21 queda al costado, no
+adentro: es el negocio que ya tiene y el que sostiene su autoridad mientras esto
+arranca. "Quien queda afuera" se alinea con esa escalera.
+
+Las tres llamadas, para el historial: Facu 04/09 calls/809786080, Franco 16/09
+calls/823021783, Facu 18/09 calls/827282610.
 
 Verificada a 1512 y a 390: sin desbordes, sin scroll horizontal y sin errores de
 JS.

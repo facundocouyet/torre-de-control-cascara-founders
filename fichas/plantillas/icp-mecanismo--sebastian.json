@@ -7,7 +7,7 @@
  "lista_cuando": "Le mandás la frase del alumno ideal a tres personas que te escribieron después del reel y las tres se reconocen sin que tengas que explicarla.",
  "pasos": [
   "Listar los diez clientes que ya te pagaron por producción, con qué te compró cada uno y a cuánto.",
-  "Escribir los perfiles que creemos que compran el programa —diseñador, editor, fotógrafo, filmmaker, el que ya trabaja en marketing o redes— con qué le duele a cada uno y la pregunta que se lo hace decir en voz alta.",
+  "Escribir los oficios de las dos familias —filmmaker, fotógrafo, editor, diseñador, creador de UGC, el que colabora con marcas— con qué le duele a cada uno y la pregunta que se lo hace decir en voz alta.",
   "Salir a hacerle esa pregunta a cinco personas reales y anotar textual lo que contestaron.",
   "Cruzar eso con los comentarios del reel y con de dónde vino cada tanda de seguidores.",
   "Escribir el alumno ideal en una frase, con el momento en el que está, el problema y con cuánto cuenta.",
@@ -20,7 +20,7 @@
  ],
  "bajada_envio": {
   "founder": "Sebastián Martínez",
-  "porque": "Con Franco quedó cerrado qué vendés y a cuánto. Lo que falta para producir contenido y salir a vender es a quién le hablás. Y acá hay una particularidad tuya: nunca lanzaste un programa de educación, lo que hiciste fueron eventos presenciales y producción para marcas. O sea que no tenés diez alumnos para mirar hacia atrás. El cliente ideal de este producto hay que descubrirlo, y se descubre preguntando, no pensando. Por eso la hoja está armada alrededor de los cuatro perfiles que creemos que compran: el diseñador, el editor, el fotógrafo y el filmmaker.",
+  "porque": "Con Franco ya quedó la forma del producto, el modelo de cohorte y las dos familias de público. Lo que falta para producir contenido y salir a vender es bajar esas dos familias a personas concretas. Y acá hay una particularidad tuya: nunca lanzaste un programa de educación, lo que hiciste fueron eventos presenciales y producción para marcas. O sea que no tenés diez alumnos para mirar hacia atrás. El cliente ideal de este producto hay que descubrirlo, y se descubre preguntando, no pensando.",
   "objetivo": "Una hoja con los perfiles, su dolor y la pregunta que se lo hace decir; cinco conversaciones reales anotadas textual; el alumno ideal escrito en una frase; y tres ángulos bajados de eso. Con esto, la llamada con Franco audita y confirma en vez de definir de cero, y la que sigue con Fede arranca en el calendario de contenido.",
   "mindset": "Sale de buscar y de preguntar, no de pensar. Las respuestas que te sirven están en los comentarios del reel y en cinco conversaciones de quince minutos. Lo que ya sabemos nosotros —de dónde arrancamos, la subcategoría, la escalera y a quién dejamos afuera— te lo dejamos escrito para que no lo adivines: leelo, decinos qué te cierra y qué no, y usá tu tiempo en la parte que sólo podés hacer vos."
  },
@@ -29,15 +29,16 @@
    "nuestro": true,
    "titulo": "De dónde arrancamos",
    "texto": [
-    "Esto no es una hoja en blanco. En la Clarity Call con Franco el ICP ya quedó dicho así: creativos que ya saben grabar y editar —filmmakers, diseñadores, editores y gente que ya trabaja en marketing o redes— y el programa les enseña dos cosas, encontrar la identidad propia y la cabeza para hacerse cargo, y monetizarla en un mercado real.",
-    "Esa frase sirve para arrancar y no para vender: describe un oficio, no un momento ni un dolor. Lo que falta es bajarla a personas concretas, y eso es lo que hace el resto de esta hoja.",
-    "Cuando la completes, la llamada con Franco audita y confirma en vez de volver a definir. Es la diferencia entre cerrar esto de una vez y volver a empezarlo."
+    "Esto no es una hoja en blanco. En la Discovery Call con Franco del 16 de septiembre el público objetivo ya quedó dicho, y son dos familias: el creativo técnico, que es el freelance con ingresos —filmmaker, fotógrafo— que busca escalar, y el creador de contenido, el de UGC y colaboraciones con marcas. La razón es que son los dos perfiles con más potencial de monetización y los que se apoyan en tu autoridad de producción.",
+    "Y quedó dicho el criterio que los une, que es el mejor que tenés: el cliente ideal sos vos hace 1 a 3 años. Todo lo que podés enseñar sale de ahí.",
+    "Esa definición sirve para arrancar y no para vender: describe un oficio y un momento, pero todavía no un dolor ni las palabras con las que lo cuenta. Lo que falta es bajarla a personas concretas, y eso es lo que hace el resto de esta hoja.",
+    "Cuando la completes, la próxima llamada con Franco audita y confirma en vez de volver a definir. Es la diferencia entre cerrar esto de una vez y volver a empezarlo."
    ],
-   "pregunta": "Algo de esa frase ya no te representa"
+   "pregunta": "Algo de esas dos familias ya no te representa"
   },
   {
    "titulo": "Los perfiles y qué le duele a cada uno",
-   "consigna": "Estos son los que creemos que compran. Los cuatro primeros y el quinto salen de lo que ya quedó con Franco; el fotógrafo lo agregamos nosotros. Para cada uno, escribí de qué vive hoy, qué le duele de verdad, la pregunta que se lo hace decir en voz alta, y por qué le serviría entrar. La pregunta es lo más importante de esta hoja: tiene que ser una que incomode, no una que se conteste con un sí. Si un perfil no te cierra, tachalo y escribí el que sí. La fila de abajo está libre.",
+   "consigna": "Estos son los oficios de las dos familias que marcó Franco: los cuatro primeros son creativo técnico, los dos siguientes son creador de contenido. Para cada uno, escribí de qué vive hoy, qué le duele de verdad, la pregunta que se lo hace decir en voz alta, y por qué le serviría entrar. La pregunta es lo más importante de esta hoja: tiene que ser una que incomode, no una que se conteste con un sí. Acordate del criterio: es tu propia cabeza de hace 1 a 3 años. Si un perfil no te cierra, tachalo y escribí el que sí; la fila de abajo está libre.",
    "ejemplo": {
     "quien": "Sebastián Martínez",
     "texto": "Tu propio reel ya hizo esta pregunta sin que la escribieras: por qué te da vergüenza grabarte en público. Mil ochocientas personas contestaron que sí, que les pasa. Esa es la temperatura que tiene que tener cada pregunta de esta tabla."
@@ -51,14 +52,15 @@
     "Por qué le serviría entrar"
    ],
    "filas_rotulo": [
-    "El diseñador",
-    "El editor",
+    "El filmmaker freelance",
     "El fotógrafo",
-    "El filmmaker",
-    "El que ya trabaja en marketing o redes",
+    "El editor",
+    "El diseñador",
+    "El creador de UGC",
+    "El que colabora con marcas",
     ""
    ],
-   "filas": 6
+   "filas": 7
   },
   {
    "titulo": "Andá a preguntárselo a cinco",
@@ -121,10 +123,11 @@
    "nuestro": true,
    "titulo": "Tu escalera de valor",
    "texto": [
-    "Casillero 1, el programa de 8 semanas. Lo compra el creativo que ya tiene oficio y se esconde detrás de su trabajo.",
-    "Casillero 2, la producción de Estudio Gama 21. La compra el que ya entendió que necesita contenido y decide no hacerlo solo.",
-    "Casillero 3, la dirección creativa, que es lo que hacés con Emilio Axis. Pocos, y es el que hace creíble al de abajo.",
-    "Es la misma forma que la escalera de Cáscara: Romper la Cáscara, después Founders con mentoría uno a uno, arriba Partners con equity. El casillero de abajo alimenta al de arriba con gente, y el de arriba le da autoridad al de abajo. Por eso el programa no es un desvío de lo que ya hacés: es la puerta de entrada a lo mismo.",
+    "Casillero 1, hacelo vos: el programa de 8 semanas. Es el MVP y es el que valida la oferta con la primera cohorte.",
+    "Casillero 2, hacelo con vos: la mentoría uno a uno, para el que ya pasó por el programa y necesita que alguien le arme el negocio al lado.",
+    "Casillero 3, hacelo por vos: las alianzas de equity con marcas. Pocas, y son las que hacen creíble todo lo de abajo.",
+    "La producción de Estudio Gama 21 queda al costado, no adentro de esta escalera: es el negocio que ya tenés y el que sostiene tu autoridad mientras esto arranca.",
+    "Es la misma forma que la escalera de Cáscara: Romper la Cáscara, después Founders con mentoría uno a uno, arriba Partners con equity. El casillero de abajo alimenta al de arriba con gente, y el de arriba le da autoridad al de abajo.",
     "Los números de cada casillero los cerrás con Franco en la llamada."
    ],
    "pregunta": "Qué le cambiarías a estos tres casilleros"
@@ -143,10 +146,10 @@
    "nuestro": true,
    "titulo": "Quién queda afuera de este tramo",
    "texto": [
-    "El que ya vive de su producto digital: necesita escala y equipo, no empezar. Ese es consultoría, no el programa.",
-    "El que quiere que le produzcas el video: es cliente del casillero 2, de Estudio Gama 21.",
+    "El que ya vive de su producto digital: necesita escala y equipo, no empezar. Ese es casillero 2, mentoría uno a uno.",
+    "El que quiere que le produzcas el video: es cliente de Estudio Gama 21, no del programa.",
     "El que quiere crecer en seguidores sin vender nada: el programa mide consultas y ventas, no alcance.",
-    "La marca o la empresa que necesita contenido: casillero 2 o 3, según el tamaño.",
+    "La marca que busca una alianza: casillero 3, y son pocas.",
     "Dejarlos afuera por escrito es lo que después te deja decir que sí rápido, y es lo que hace que el contenido deje de hablarle a todos."
    ],
    "pregunta": "Alguno de estos te parece que sí entra"
