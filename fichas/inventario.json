@@ -137,7 +137,7 @@
      ],
      "resultado": "Una hoja con la promesa, el resultado escrito en número, el paso a paso de la entrega, los entregables y el plazo.",
      "pasos": [
-      "Completar la carta de oferta: ocho preguntas de discovery que bajan el material crudo, sin pedirte que definas la promesa ni el precio.",
+      "Completar la carta de oferta: las preguntas de discovery bajan el material crudo, y las dos últimas te piden cerrar tu NOVA y tu one-sheeter.",
       "Escribir la promesa en una frase, con el resultado en número y el plazo en el que se mide.",
       "Bajar el paso a paso de la entrega en etapas, con el entregable de cada una.",
       "Listar qué incluye, qué queda afuera y qué necesita del cliente para que funcione.",
@@ -151,12 +151,12 @@
       "La lista de incluye, no incluye y requisitos del cliente"
      ],
      "herramientas": [
-      "La carta de oferta, con su discovery de ocho preguntas",
+      "La carta de oferta, con su discovery y su NOVA",
       "Notion (página de oferta)",
       "Canva o Claude Design para la hoja presentable"
      ],
      "estado": "existe",
-     "evidencia": "La carta de oferta con su discovery de ocho preguntas es lo que se manda antes del 1:1 con Franco. El formulario de 40 preguntas que figuraba acá nunca existió: no está ni en Notion ni en Drive. El one-sheeter lo escribe Franco caso por caso: Aye lo tiene pendiente, Scarlett lo tiene a medias, Lucio salió con el documento de dos módulos, José David necesita la promesa en número, Sofía tiene que cerrar el de educación y Lola el del programa."
+     "evidencia": "La carta de oferta es lo que se manda antes del 1:1 con Franco: baja el material crudo y cierra con el NOVA y el one-sheeter escritos por el founder. La cantidad de preguntas cambia según la variante de cada caso, así que no se nombra un número. El formulario de 40 preguntas que figuraba acá nunca existió: no está ni en Notion ni en Drive. El one-sheeter lo escribe Franco caso por caso: Aye lo tiene pendiente, Scarlett lo tiene a medias, Lucio salió con el documento de dos módulos, José David necesita la promesa en número, Sofía tiene que cerrar el de educación y Lola el del programa."
     },
     {
      "id": "precio-escalera",

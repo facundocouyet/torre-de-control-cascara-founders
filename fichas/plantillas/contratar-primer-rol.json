@@ -38,6 +38,7 @@
       "texto": [
         "Estos son los números con los que trabajamos nosotros, para que hagas la cuenta con una referencia real en vez de adivinar. Se cobra <b>por pieza</b>, no por hora, y el nivel lo marca la complejidad, no la persona.",
         "<b>Short form, hasta 59 segundos:</b> fast reel 12 dólares · simple 25 · avanzado 40 · pro 80.<br><b>Long form, hasta 15 minutos:</b> simple 60 · avanzado 100 · pro 150, más un adicional por minuto extra.<br><b>Podcast, hasta 40 minutos:</b> simple 120 · avanzado 150.<br><b>Clases o charlas de una hora:</b> simple 50 · avanzado 80.<br><b>Adaptaciones y reducciones:</b> simple 12 · avanzada 20.",
+        "El detalle completo, con la descripción de cada nivel y los adicionales, está acá: <a href=\"https://flowery-beryllium-0df.notion.site/2d8511e68cad80d1a544ff1c7347a949\" target=\"_blank\" rel=\"noopener\"><b>tarifario de edición de Cáscara</b></a>. Abrilo antes de fijar tu número.",
         "Para sacar tu número: cuántas piezas por semana necesitás, por el valor del nivel que te sirve, por cuatro. Cinco piezas simples por semana son unos quinientos dólares al mes; si son fast reels, doscientos cuarenta.",
         "Dos cosas que conviene dejar dichas desde el principio: los presupuestos incluyen hasta tres rondas de corrección, y la urgencia se cobra aparte. Escribirlo antes evita la conversación incómoda después."
       ],
@@ -72,38 +73,37 @@
       "titulo": "Cómo se publica: el handraiser",
       "texto": [
         "Un aviso suelto no trae postulaciones. Lo que trae gente es una secuencia corta de historias que termina en una acción concreta, que es lo que en Cáscara llamamos un handraiser: alguien levanta la mano y ahí empieza la conversación.",
-        "<b>La secuencia, en tres días:</b><br>· Día 1 — selfie contando el momento real: «estoy editando yo y así no escalo». Sin pedir nada todavía. Esto es lo que hace que la gente escuche.<br>· Día 2 — qué buscás, concreto: qué tipo de piezas, cuántas por semana, con qué nivel. Y una encuesta o una caja de preguntas: «¿conocés a alguien?». La caja es el handraiser: levanta la mano el que se postula y también el que recomienda.<br>· Día 3 — el link del formulario, con fecha de cierre. La fecha es lo que hace que se postulen hoy y no cuando se acuerden.",
-        "Va en tu cuenta personal, que es la que tiene tráfico, no en la de la marca. Y se sube en las tres historias el mismo link, porque la gente entra en cualquiera de las tres.",
+        "<b>Las tres historias van el mismo día, una atrás de la otra.</b><br>· <b>Primera</b> — selfie contando el momento real: «estoy editando yo y así no escalo». Sin pedir nada todavía. Esto es lo que hace que la gente escuche.<br>· <b>Segunda</b> — qué buscás, concreto: qué tipo de piezas, cuántas por semana, con qué nivel. Y una encuesta o una caja de preguntas para que la gente toque.<br>· <b>Tercera</b> — el link del formulario, con la fecha de cierre de la convocatoria.",
+        "Van seguidas y el mismo día porque las historias duran veinticuatro horas: si las repartís en tres días, cada una la ve una audiencia distinta y la secuencia se corta. Juntas se leen como una sola cosa.",
+        "Va en tu cuenta personal, que es la que tiene tráfico, no en la de la marca. Y el link va en las tres, porque la gente entra en cualquiera de ellas.",
         "Después, a los que levantaron la mano se les escribe por privado. Ahí se conversa, no en el formulario."
       ],
       "cid": 6
     },
     {
-      "titulo": "Tu calendario de historias",
-      "consigna": "Escribí las tres, con el día. Una línea de qué mostrás en cada una y qué pedís. Poné la fecha de cierre de la convocatoria en la tercera.",
+      "titulo": "Tus tres historias",
+      "consigna": "Escribí las tres, en orden. Van todas el mismo día, seguidas: una línea de qué mostrás en cada una y qué pedís. En la tercera va el link del formulario y la fecha de cierre de la convocatoria.",
       "campo": "tabla",
       "columnas": [
-        "Día",
         "Qué mostrás",
         "Qué pedís"
       ],
       "filas": 3,
       "filas_rotulo": [
-        "Día 1",
-        "Día 2",
-        "Día 3"
+        "Primera",
+        "Segunda",
+        "Tercera"
       ],
       "cid": 7
     },
     {
-      "titulo": "La prueba paga",
-      "consigna": "De los que se postularon, elegí y mandales trabajo real de un cliente. Se paga, siempre, y tiene fecha de entrega corta, de dos o tres días. Lo que vas a mirar se escribe antes de mandarla: si respetó el brief, si entregó en fecha y cómo respondió a la corrección. La responsabilidad entra después de la prueba, no antes.",
-      "campo": "lineas",
-      "lineas": [
-        "Qué trabajo real entra",
-        "Cuánto se paga",
-        "Fecha de entrega",
-        "Qué mirás para aprobar"
+      "nuestro": true,
+      "titulo": "La prueba se paga, siempre",
+      "texto": [
+        "De los que se postulen, elegí dos o tres y mandales trabajo real de un cliente. No un ejercicio inventado: trabajo que ibas a hacer igual.",
+        "Se paga, siempre, aunque no quede. Una prueba gratis te trae a los que no tienen trabajo, y una prueba paga te trae a los que sí lo tienen y te eligen igual. Es la diferencia entre elegir vos y que te elijan a vos.",
+        "Fecha de entrega corta, de dos o tres días, y lo que vas a mirar decidilo antes de mandarla: si respetó el brief, si entregó en fecha y cómo respondió a la primera corrección. Eso último es lo que más te dice de cómo va a ser trabajar con esa persona.",
+        "La responsabilidad entra después, no antes: primero un cliente, después el resto."
       ],
       "cid": 8
     },
