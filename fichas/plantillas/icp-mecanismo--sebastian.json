@@ -1,0 +1,109 @@
+{
+ "modulo": "icp-mecanismo",
+ "founder": "Sebastián Martínez",
+ "slug": "sebastian",
+ "titulo": "La hoja de tu cliente ideal",
+ "bajada": "Quién compra el programa, en qué momento está, qué problema le resuelve y con qué palabras lo cuenta él. Acá entran las dos puntas: los clientes que ya te pagaron por producción, que son los que muestran tu escalera de valor, y la audiencia nueva que trajo el contenido, que es de donde sale el alumno.",
+ "lista_cuando": "Le mandás la frase del alumno ideal a tres personas que te escribieron después del reel y las tres se reconocen sin que tengas que explicarla.",
+ "bajada_envio": {
+  "founder": "Sebastián Martínez",
+  "porque": "Con Franco quedó cerrado qué vendés y a cuánto. Lo que falta para producir contenido y salir a vender es a quién le hablás. Y hay una particularidad tuya que vale nombrar: nunca lanzaste un programa de educación, lo que hiciste fueron eventos presenciales y producción para marcas. Eso significa que tu histórico de clientes no te da el alumno del programa, pero sí te da la escalera de valor: qué te compraron hasta hoy, a cuánto y por qué. Por eso las dos partes van juntas en la misma hoja.",
+  "objetivo": "Una hoja con el alumno ideal del programa escrito en una frase, los tres peldaños de tu escalera con precio, y cuatro frases textuales sacadas de comentarios y mensajes. Para la llamada con Franco del martes o miércoles, así esa llamada arranca en los ángulos y en el calendario y no en definir a quién le hablamos.",
+  "mindset": "Sale de buscar, no de pensar. Media hora en tus chats, en las facturas y en los comentarios del reel vale más que una hora escribiendo un cliente ideal inventado. Y si una frase te sirve igual para el que nunca se grabó y para el que ya vende su curso, todavía está ancha: seguí ajustando hasta que deje gente afuera."
+ },
+ "secciones": [
+  {
+   "titulo": "Los clientes que ya te pagaron",
+   "consigna": "Los últimos diez clientes o consultas reales de Estudio Gama 21 y de tu trabajo como director creativo, con lo que te compró cada uno, cuánto pagó y por qué te buscó. Sacalo de los chats, de las facturas y del historial del mail, no de memoria. Esto no es el alumno del programa: es el piso desde donde armás la escalera, y es lo que después explica por qué alguien te paga 1.000 dólares por enseñarle.",
+   "ejemplo": {
+    "quien": "Custom Lab",
+    "texto": "Juan armó en Notion la base histórica de dos años: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién contactó, quién decide la compra y si repitió. Con esa lista salieron a recontactar y vendieron."
+   },
+   "campo": "tabla",
+   "columnas": ["Quién", "Qué te compró", "Cuánto pagó", "Por qué te buscó", "Era evento, marca o creador"],
+   "filas": 10
+  },
+  {
+   "titulo": "Los tres mejores y qué tienen en común",
+   "consigna": "Quedate con los tres que dejaron mejor resultado, contando lo que pagaron, lo que te costó entregarlo y si volvieron. Buscá qué tienen en común por el problema que traían y por el momento en el que estaban. Cuando el parecido que aparece es el rubro, seguí mirando: el rubro se ve de afuera y el problema es el que hace comprar.",
+   "ejemplo": {
+    "quien": "José David Fajardo",
+    "texto": "Mirando juntas sus tres ventas de tres mil dólares apareció el patrón: marcas con e-commerce y con creativos rotando por la fatiga de anuncios. De ahí salió el mecanismo que hoy vende."
+   },
+   "campo": "texto",
+   "alto": 5,
+   "placeholder": "Los tres fueron… y los tres tenían…"
+  },
+  {
+   "titulo": "Tu escalera de valor, con precio",
+   "consigna": "Tres peldaños, de menor a mayor, con el número de cada uno: el programa de 8 semanas, el servicio de producción de Estudio Gama 21 y lo que hacés como director creativo. Al lado de cada peldaño, quién lo compra y qué lo hace subir al siguiente. Un peldaño sin precio escrito todavía no es un peldaño.",
+   "ejemplo": {
+    "quien": "Cáscara",
+    "texto": "La escalera de acá es la misma idea: el programa que se compra solo, después Founders con mentoría 1 a 1, y arriba Partners con equity. Cada uno tiene su precio y su momento, y el de abajo es el que alimenta al de arriba."
+   },
+   "campo": "lineas",
+   "lineas": ["Peldaño 1 · el programa", "Quién lo compra", "Peldaño 2 · producción", "Quién lo compra", "Peldaño 3 · dirección creativa", "Quién lo compra"]
+  },
+  {
+   "titulo": "Quién te sigue hoy y de dónde vino",
+   "consigna": "Los números de la audiencia que trajo el contenido, y de qué pieza vino cada tanda. Separá la pieza que hizo más vistas de la que trajo más seguidores: casi nunca son la misma, y la segunda es la que te está marcando el segmento. Con dos o tres piezas alcanza para ver el patrón.",
+   "ejemplo": {
+    "quien": "Sebastián Martínez",
+    "texto": "El reel del miedo a grabarse en público hizo un millón cuatrocientas mil vistas y trajo alrededor de 7.000 seguidores. El de publicá para quien te compra, no para creativos, hizo menos vistas y trajo más seguidores: ese es el que está apuntando al segmento que paga."
+   },
+   "campo": "lineas",
+   "lineas": ["Seguidores hoy", "Mediana de views", "La pieza de más vistas", "Qué gente trajo", "La pieza que más seguidores trajo", "Qué gente trajo"]
+  },
+  {
+   "titulo": "Cómo lo dice él, textual",
+   "consigna": "Cuatro o cinco frases copiadas tal cual de comentarios, mensajes y llamadas, sin arreglarles la gramática. Estas frases después son el título de las piezas y son el copy de la propuesta, así que la fidelidad importa más que la prolijidad. Los 1.800 comentarios del reel son la mina: entrá ahí antes que a ningún otro lado.",
+   "ejemplo": {
+    "quien": "Sebastián Martínez",
+    "texto": "Los mil ochocientos comentarios del reel del miedo a grabarse decían todos lo mismo: gracias, me empujaste, era el empujón que necesitaba. Ahí estaba el dolor escrito con las palabras del cliente."
+   },
+   "campo": "texto",
+   "alto": 6,
+   "placeholder": "«…»  ·  «…»  ·  «…»"
+  },
+  {
+   "titulo": "El alumno ideal del programa, en una frase",
+   "consigna": "Una sola frase con el momento en el que está, el problema que tiene hoy y con cuánto cuenta para resolverlo. El momento tiene que poder verificarse de afuera: si ya vive de un servicio, cuánta audiencia tiene, si ya vendió algo propio alguna vez. Si la frase le sirve igual al que nunca publicó y al que ya factura con su producto digital, todavía es ancha.",
+   "ejemplo": {
+    "quien": "Lucio Labate",
+    "texto": "Empresas B2B que ya tienen equipo de marketing y no tienen diseñador adentro, que necesitan usar la inteligencia artificial sin que el resultado les quede mal."
+   },
+   "campo": "texto",
+   "alto": 4,
+   "placeholder": "Alguien que está en… tiene el problema de… y puede poner…"
+  },
+  {
+   "titulo": "Qué hace tu programa, en una frase",
+   "consigna": "Escribí lo que le pasa al alumno cuando entra, contado por el movimiento concreto y por el número que se mueve. Tiene que poder verificarse adentro de las 8 semanas y con algo que el alumno pueda abrir: piezas publicadas, consultas recibidas, primera venta con precio. Si el resultado depende de algo que maneja otro, corregí la frase hasta que quede lo que vos sí controlás.",
+   "ejemplo": {
+    "quien": "Lucca Sorgoni",
+    "texto": "Entra como co-anfitrión a la cuenta de Airbnb del dueño y le sube la facturación con estrategia de precios. Se compara mes contra mes con un software y el dueño lo ve a los dos meses. Objeciones, cero."
+   },
+   "campo": "texto",
+   "alto": 4,
+   "placeholder": "Entra sin… sale con… y eso se ve en…"
+  },
+  {
+   "titulo": "Quién queda afuera",
+   "consigna": "Escribí los perfiles que no entran en este tramo y al lado por qué. El coach que ya vende su producto digital, el que busca que le produzcas el video, el que quiere crecer en seguidores sin vender nada. Descartar por escrito es lo que después te deja decir que sí rápido, y es lo que hace que el contenido deje de hablarle a todos.",
+   "ejemplo": {
+    "quien": "Ayelén Cerqueira",
+    "texto": "Eligió estrategia creativa para la construcción de comunidades, y ahí atiende algo que el mercado tiene descubierto: marcas con muchos seguidores y ninguna comunidad atrás."
+   },
+   "campo": "tabla",
+   "columnas": ["Perfil que queda afuera", "Por qué", "A dónde lo mandás"],
+   "filas": 5
+  },
+  {
+   "titulo": "Probala con tres",
+   "consigna": "Mandale la frase del alumno ideal a tres personas que te escribieron después del reel y preguntales si se reconocen. Anotá qué contestó cada una, textual. Si una de las tres te pide que se la expliques, la frase todavía no está: volvé al punto 6 y ajustala con lo que te dijeron.",
+   "campo": "texto",
+   "alto": 5,
+   "placeholder": "A quién se la mandé y qué me contestó…"
+  }
+ ]
+}

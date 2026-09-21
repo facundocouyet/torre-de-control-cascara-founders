@@ -638,7 +638,7 @@ function vHome(){
      [[C.length,'Clientes'],[cierre.length,'En cierre'],[frenados.length,'Frenados',frenados.length>0]],'Ver los clientes',"ir('clientes')")+
    tarjeta('02','Accionables','Lo que hay que hacer esta semana: qué documento sale para cada cliente, qué le toca ejecutar a cada founder y qué queda de nuestro lado.',
      [[nEnt,'Del CSM'],[nAcc,'Del founder'],[nCas,'De Cáscara']],'Ver los accionables',"ir('accionables')")+
-   tarjeta('03','Biblioteca','El programa entero explicado —el recorrido, las orientaciones, las grupales y los mentores— y el mapa de cartas con su plantilla.',
+   tarjeta('03','Biblioteca','El programa entero explicado —el recorrido, las orientaciones, las grupales y los mentores— y el mapa de cartas: cada una es un solo documento, con los pasos y la hoja para completarlos adentro.',
      [[D.proceso.length,'Etapas'],[D.orientaciones.length,'Orientaciones'],[nCartas,'Cartas']],'Abrir la biblioteca',"ir('biblioteca')")+
   '</div></div>';
   $('#v-home').innerHTML=h;
@@ -889,7 +889,6 @@ function carta(i){
     lista('Los pasos',i.p,'ol')+lista('Qué hay que completar',i.cc,'ul')+lista('Qué herramientas implementar',i.hh,'ul')+
     '<div class="acc">'+
       '<button class="boton tinta" onclick="verCarta(\''+esc(i.id)+'\',\''+esc(i.t).replace(/'/g,"&#39;")+'\')">Abrir la carta<span class="fl"></span></button>'+
-      (i.pl?'<button class="boton" onclick="verPlantilla(\''+esc(i.id)+'\',\''+esc(i.t).replace(/'/g,"&#39;")+'\')">Abrir la plantilla<span class="fl"></span></button>':'')+
       '<button class="boton" onclick="abrirEnvio(\''+esc(i.id)+'\')">Preparar el envío<span class="fl"></span></button>'+
     '</div>'+
     '<div class="envio" id="env-'+esc(i.id)+'" hidden></div>';
@@ -903,7 +902,6 @@ function lista(t,xs,tag){
 
 /* ---------------- el visor de cartas ---------------- */
 function verCarta(id,titulo){ abrirVisor('cartas/'+id+'.html', titulo, 'carta-'+id+'.html') }
-function verPlantilla(id,titulo){ abrirVisor('plantillas/'+id+'.html', 'Plantilla · '+(titulo||''), 'plantilla-'+id+'.html') }
 function abrirVisor(ruta,titulo,nombre){
   var v=$('#visor');
   v.querySelector('.vtit').textContent=titulo||'';

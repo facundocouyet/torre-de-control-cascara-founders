@@ -15,11 +15,12 @@ body{margin:0;background:#ECEAE4;color:#171717;
 h1{font-size:clamp(38px,6vw,58px);font-weight:800;letter-spacing:-.038em;line-height:1.02;
   margin:28px 0 0;text-wrap:balance}
 .bajada{font-size:21px;line-height:1.5;color:#6A6A66;margin:18px 0 0;max-width:60ch}
-.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:flex;
-  justify-content:space-between;gap:20px 30px;align-items:baseline;flex-wrap:wrap}
+.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:grid;
+  gap:22px 34px;grid-template-columns:1fr}
 .lista .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
 .lista .tx{font-size:17px;line-height:1.5;color:#6A6A66;max-width:58ch;margin-top:7px}
-.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;white-space:nowrap}
+.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;
+  white-space:nowrap;margin-top:22px}
 
 section{margin-top:62px}
 section .n{font-size:11px;letter-spacing:.2em;color:#8E8B85;font-variant-numeric:tabular-nums}
@@ -34,9 +35,30 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
   font-variant-numeric:tabular-nums;line-height:1.3}
 .paso .t{font-size:19px;line-height:1.55;max-width:58ch}
 
+.ejemplo{margin-top:22px;border-left:2px solid #DBD7D2;padding:4px 0 4px 20px}
+.ejemplo .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.ejemplo .tx{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:18px;line-height:1.5;color:#6A6A66;margin-top:8px;max-width:62ch}
+
+.campo{margin-top:24px}
+textarea,input[type=text]{width:100%;font:inherit;font-size:18px;line-height:1.55;color:#171717;
+  background:#FBFAF8;border:1px solid #DBD7D2;padding:14px 16px;border-radius:0;
+  transition:border-color .15s}
+textarea{resize:vertical}
+textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
+.lin{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px 18px;align-items:center;
+  border-top:1px solid #DBD7D2;padding:14px 0}
+.lin .rot{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.tabla{width:100%;border-collapse:collapse;margin-top:6px}
+.tabla th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:#6A6A66;font-weight:400;padding:0 10px 10px 0;border-bottom:2px solid #171717}
+.tabla td{padding:0;border-bottom:1px solid #DBD7D2}
+.tabla input{border:0;background:transparent;padding:12px 10px 12px 0}
+.tabla input:focus{background:#FBFAF8}
+.envoltorio{overflow-x:auto}
+
 .entregables{margin-top:26px}
-.cab{display:flex;justify-content:space-between;align-items:baseline;gap:20px;
-  border-bottom:2px solid #171717;padding-bottom:12px}
+.cab{border-bottom:2px solid #171717;padding-bottom:12px}
 .cab .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
 .chk{display:grid;grid-template-columns:26px minmax(0,1fr);gap:18px;align-items:start;
   border-bottom:1px solid #DBD7D2;padding:18px 0;cursor:pointer}
@@ -55,9 +77,6 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 .chk.done .txt{background-size:100% 8px;color:#8E8B85}
 .chk:focus-visible{outline:1px solid #171717;outline-offset:4px}
 
-.hoja-link{margin-top:22px;font-size:18px;line-height:1.55;color:#6A6A66;max-width:60ch}
-.hoja-link a{color:#171717;text-decoration:underline;text-underline-offset:3px}
-
 /* la bajada personalizada, cuando se prepara el envío desde la torre */
 .bajada-bloque{margin-top:56px;border:1px solid #171717;padding:30px 28px;background:#FBFAF8}
 .bajada-bloque .tt{font-size:26px;font-weight:800;letter-spacing:-.028em;line-height:1.2}
@@ -67,7 +86,17 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
   border-top:2px solid #171717;padding-top:14px}
 .bajada-grilla .v{font-size:18.5px;line-height:1.55;margin-top:9px;max-width:58ch}
 
-.pie{margin-top:86px;border-top:1px solid #171717;padding-top:22px;display:flex;
+.acc{position:sticky;bottom:0;background:#ECEAE4;border-top:1px solid #DBD7D2;
+  padding:14px 0;margin-top:62px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.acc button{font:inherit;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  border:1px solid #171717;background:transparent;color:#171717;padding:13px 18px;cursor:pointer}
+.acc button.tinta{background:#171717;color:#ECEAE4}
+.acc button:hover{background:#171717;color:#ECEAE4}
+.acc button.tinta:hover{background:transparent;color:#171717}
+.acc .dicho{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:15px;color:#6A6A66}
+
+.pie{margin-top:48px;border-top:1px solid #171717;padding-top:22px;display:flex;
   justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;
   font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6A6A66}
 .sello{width:28px;height:28px;border:1.5px solid #171717;display:inline-flex;
@@ -76,10 +105,14 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 @media (max-width:640px){
   .hoja{padding:40px 20px 90px}
   .paso{grid-template-columns:38px minmax(0,1fr);gap:14px}
+  .lin{grid-template-columns:1fr;gap:8px}
+  .tabla{min-width:560px}
   .bajada-bloque{padding:22px 18px}
 }
 @media print{
   body{background:#fff}
+  .acc{display:none}
+  textarea,input{border-color:#bbb;background:#fff}
   section{break-inside:avoid;margin-top:40px}
   .chk{cursor:default}
 }
@@ -91,16 +124,17 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 <header class="slot">
   <div class="caja">Carta de módulo · Contenido y marca</div>
   <h1>Las diez piezas y su lectura</h1>
-  <p class="bajada">Diez piezas publicadas contra los ángulos definidos y una carilla de lectura que dice qué ángulo sostener y qué corregir.</p>
+  <p class="bajada">Diez piezas publicadas contra los ángulos que ya elegiste, cada una leída el día que sale, y una carilla final que dice qué ángulo se sostiene, cuál se corrige y cuál se descarta. Menos de diez piezas deja el contenido sin nada que evaluar.</p>
   <div class="lista">
     <div><div class="et">Cuándo se asigna</div><div class="tx">Cuando el founder quiere saber si su contenido funciona y todavía no público volumen suficiente para saberlo.</div></div>
-    <span class="avance" data-cuenta="entregables">0 de 3</span>
+    <div><div class="et">Está lista cuando</div><div class="tx">Las diez filas están cargadas con la fecha y las conversaciones que abrió cada pieza, y abajo está escrita la decisión sobre cada ángulo con el motivo al lado.</div></div>
   </div>
+  <div class="avance">0 de 8 empezadas</div>
 </header>
 <section>
   <div class="n">01</div>
   <h2>Qué tenés que hacer</h2>
-  <p class="consigna">En este orden. Cada paso se apoya en el anterior, así que no conviene saltear ninguno aunque parezca obvio.</p>
+  <p class="consigna">En este orden. Cada paso se apoya en el anterior, así que no conviene saltear ninguno aunque parezca obvio. Abajo está la hoja para resolverlos, uno por uno.</p>
   <div class="pasos">
     <div class="paso"><span class="p">01</span><span class="t">Comprometer diez piezas con fecha, todas contra los ángulos elegidos.</span></div>
     <div class="paso"><span class="p">02</span><span class="t">Publicar sin cambiar el eje en el medio, aunque las primeras rindan poco.</span></div>
@@ -110,19 +144,127 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
     <div class="paso"><span class="p">06</span><span class="t">Decidir qué ángulo se sostiene, cuál se corrige y cuál se descarta.</span></div>
   </div>
 </section>
-<section>
+<section class="trabajo">
   <div class="n">02</div>
+  <h2>Las diez piezas comprometidas, con fecha</h2>
+  <p class="consigna">Las diez piezas con fecha de publicación, todas contra los ángulos que ya elegiste, y con lo que esperás que pase en cada una escrito de antemano. Escribir la expectativa antes es lo que después permite comparar. Diez es el piso del tramo: con ocho la lectura no se hace, se corren las fechas y se completan las diez.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Sharon</div><div class="tx">El compromiso quedó en diez, no ocho, con edición nivel uno: clipeo, subtítulos, color y sale. El contenido es contar lo que está haciendo con los clientes y qué resultado dio.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>N°</th><th>Fecha</th><th>Ángulo</th><th>Formato</th><th>Qué esperás que pase</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s0f0c0"></td><td><input type="text" data-c="s0f0c1"></td><td><input type="text" data-c="s0f0c2"></td><td><input type="text" data-c="s0f0c3"></td><td><input type="text" data-c="s0f0c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f1c0"></td><td><input type="text" data-c="s0f1c1"></td><td><input type="text" data-c="s0f1c2"></td><td><input type="text" data-c="s0f1c3"></td><td><input type="text" data-c="s0f1c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f2c0"></td><td><input type="text" data-c="s0f2c1"></td><td><input type="text" data-c="s0f2c2"></td><td><input type="text" data-c="s0f2c3"></td><td><input type="text" data-c="s0f2c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f3c0"></td><td><input type="text" data-c="s0f3c1"></td><td><input type="text" data-c="s0f3c2"></td><td><input type="text" data-c="s0f3c3"></td><td><input type="text" data-c="s0f3c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f4c0"></td><td><input type="text" data-c="s0f4c1"></td><td><input type="text" data-c="s0f4c2"></td><td><input type="text" data-c="s0f4c3"></td><td><input type="text" data-c="s0f4c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f5c0"></td><td><input type="text" data-c="s0f5c1"></td><td><input type="text" data-c="s0f5c2"></td><td><input type="text" data-c="s0f5c3"></td><td><input type="text" data-c="s0f5c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f6c0"></td><td><input type="text" data-c="s0f6c1"></td><td><input type="text" data-c="s0f6c2"></td><td><input type="text" data-c="s0f6c3"></td><td><input type="text" data-c="s0f6c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f7c0"></td><td><input type="text" data-c="s0f7c1"></td><td><input type="text" data-c="s0f7c2"></td><td><input type="text" data-c="s0f7c3"></td><td><input type="text" data-c="s0f7c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f8c0"></td><td><input type="text" data-c="s0f8c1"></td><td><input type="text" data-c="s0f8c2"></td><td><input type="text" data-c="s0f8c3"></td><td><input type="text" data-c="s0f8c4"></td></tr>
+        <tr><td><input type="text" data-c="s0f9c0"></td><td><input type="text" data-c="s0f9c1"></td><td><input type="text" data-c="s0f9c2"></td><td><input type="text" data-c="s0f9c3"></td><td><input type="text" data-c="s0f9c4"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">03</div>
+  <h2>El eje que se mantiene hasta la décima</h2>
+  <p class="consigna">Escribí acá el eje de las diez: el mismo cliente, el mismo problema y la misma promesa en todas. Aunque las tres primeras rindan poco, el eje se mantiene hasta la última, porque los números de las primeras piezas hablan más del algoritmo que del mensaje. Firmá la fecha en la que se cierra el tramo y hasta ahí no se cambia.</p>
+    <div class="campo"><textarea data-c="s1" rows="3" placeholder="Mismo cliente: … mismo problema: … misma promesa: … cierre el día…"></textarea></div>
+</section>
+<section class="trabajo">
+  <div class="n">04</div>
+  <h2>Lo que devolvió cada pieza</h2>
+  <p class="consigna">Una fila por pieza, cargada el mismo día que sale. Lo que se anota son las conversaciones que abrió, los temas sobre los que te escribieron y los mensajes de gente que no conocías. Los números de alcance y guardados van al final de la fila, para mirarlos después de las conversaciones.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Sebastián</div><div class="tx">El reel del miedo a grabarse en público dejó mil ochocientos comentarios y unos siete mil seguidores nuevos, y los comentarios eran todos de la misma familia: gracias, me empujaste. Esa repetición es la lectura, más que el millón cuatrocientas mil vistas.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Pieza y fecha</th><th>Conversaciones que abrió</th><th>Sobre qué te escribieron</th><th>Alcance y guardados</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s2f0c0"></td><td><input type="text" data-c="s2f0c1"></td><td><input type="text" data-c="s2f0c2"></td><td><input type="text" data-c="s2f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f1c0"></td><td><input type="text" data-c="s2f1c1"></td><td><input type="text" data-c="s2f1c2"></td><td><input type="text" data-c="s2f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f2c0"></td><td><input type="text" data-c="s2f2c1"></td><td><input type="text" data-c="s2f2c2"></td><td><input type="text" data-c="s2f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f3c0"></td><td><input type="text" data-c="s2f3c1"></td><td><input type="text" data-c="s2f3c2"></td><td><input type="text" data-c="s2f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f4c0"></td><td><input type="text" data-c="s2f4c1"></td><td><input type="text" data-c="s2f4c2"></td><td><input type="text" data-c="s2f4c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f5c0"></td><td><input type="text" data-c="s2f5c1"></td><td><input type="text" data-c="s2f5c2"></td><td><input type="text" data-c="s2f5c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f6c0"></td><td><input type="text" data-c="s2f6c1"></td><td><input type="text" data-c="s2f6c2"></td><td><input type="text" data-c="s2f6c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f7c0"></td><td><input type="text" data-c="s2f7c1"></td><td><input type="text" data-c="s2f7c2"></td><td><input type="text" data-c="s2f7c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f8c0"></td><td><input type="text" data-c="s2f8c1"></td><td><input type="text" data-c="s2f8c2"></td><td><input type="text" data-c="s2f8c3"></td></tr>
+        <tr><td><input type="text" data-c="s2f9c0"></td><td><input type="text" data-c="s2f9c1"></td><td><input type="text" data-c="s2f9c2"></td><td><input type="text" data-c="s2f9c3"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">05</div>
+  <h2>Las tres mejores y las tres peores</h2>
+  <p class="consigna">Poné las seis piezas de los extremos una al lado de la otra y compará lo que esperabas contra lo que pasó. Buscá qué tienen en común las tres de arriba y qué tienen en común las tres de abajo: el gancho, el formato, si contás una experiencia propia o si explicás una idea. El patrón que aparece en las tres mejores es el que se repite en las próximas piezas.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Nicolás Lozada</div><div class="tx">Las dos que triplicaron o cuadruplicaron sus números fueron la de los diez días encerrado en la oficina y la de que subir los precios es un error. Las dos funcionan por lo mismo: cuentan experiencia vivida.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Pieza</th><th>Qué esperabas</th><th>Qué pasó</th><th>Qué tiene en común con las otras</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s3f0c0"></td><td><input type="text" data-c="s3f0c1"></td><td><input type="text" data-c="s3f0c2"></td><td><input type="text" data-c="s3f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f1c0"></td><td><input type="text" data-c="s3f1c1"></td><td><input type="text" data-c="s3f1c2"></td><td><input type="text" data-c="s3f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f2c0"></td><td><input type="text" data-c="s3f2c1"></td><td><input type="text" data-c="s3f2c2"></td><td><input type="text" data-c="s3f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f3c0"></td><td><input type="text" data-c="s3f3c1"></td><td><input type="text" data-c="s3f3c2"></td><td><input type="text" data-c="s3f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f4c0"></td><td><input type="text" data-c="s3f4c1"></td><td><input type="text" data-c="s3f4c2"></td><td><input type="text" data-c="s3f4c3"></td></tr>
+        <tr><td><input type="text" data-c="s3f5c0"></td><td><input type="text" data-c="s3f5c1"></td><td><input type="text" data-c="s3f5c2"></td><td><input type="text" data-c="s3f5c3"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">06</div>
+  <h2>Los números del tramo</h2>
+  <p class="consigna">El resumen en cinco datos, para poder presentarlo en una llamada. La lectura se hace por conversaciones, llamadas y ventas, y las reproducciones quedan como dato de contexto. Si las diez piezas salieron y las conversaciones nuevas son cero, el arreglo está en el mensaje; si las piezas quedaron en seis, el arreglo está en el volumen.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Lucca</div><div class="tx">Diez piezas de B2B mostrando propiedades reales, mes contra mes, con el número adelante y el software en pantalla, y después cinco dueños que hayan llegado sin ser referidos. Ese número es lo que separa un canal de una racha.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">Piezas publicadas</span><input type="text" data-c="s4l0" placeholder=""></div>
+      <div class="lin"><span class="rot">Conversaciones nuevas</span><input type="text" data-c="s4l1" placeholder=""></div>
+      <div class="lin"><span class="rot">Llamadas agendadas</span><input type="text" data-c="s4l2" placeholder=""></div>
+      <div class="lin"><span class="rot">Ventas cerradas</span><input type="text" data-c="s4l3" placeholder=""></div>
+      <div class="lin"><span class="rot">Fecha de cierre del tramo</span><input type="text" data-c="s4l4" placeholder=""></div>
+    </div>
+</section>
+<section class="trabajo">
+  <div class="n">07</div>
+  <h2>La carilla de lectura</h2>
+  <p class="consigna">Escribí en prosa los patrones que se repiten, sin pieza por pieza: qué tema trajo gente, con qué formato te fue mejor, qué pregunta apareció en varios mensajes y qué parte de tu oferta se entendió sola. Un patrón entra acá cuando aparece en tres piezas o más. Lo que pasó una sola vez queda anotado abajo y se prueba en el tramo siguiente.</p>
+    <div class="campo"><textarea data-c="s5" rows="6" placeholder="Lo que se repitió fue… El formato que mejor funcionó fue… Lo que me preguntaron varias veces fue…"></textarea></div>
+</section>
+<section class="trabajo">
+  <div class="n">08</div>
+  <h2>La decisión sobre cada ángulo</h2>
+  <p class="consigna">Una línea por ángulo, con la palabra puesta: se sostiene, se corrige o se descarta. El que se corrige lleva escrito qué cambia exactamente en la próxima pieza, y el que se descarta lleva el motivo. Y si de los mensajes salió un tema que vos no habías previsto, entra acá como ángulo nuevo para el tramo que sigue.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Bianca</div><div class="tx">En TikTok la llamaban la chica de los anillos, Teo le preguntó por qué no lanzaba un anillo, lo lanzó y le fue muy bien. El ángulo nuevo salió de lo que la comunidad venía diciendo en los comentarios.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">El ángulo que se sostiene</span><input type="text" data-c="s6l0" placeholder=""></div>
+      <div class="lin"><span class="rot">El que se corrige, y qué cambia</span><input type="text" data-c="s6l1" placeholder=""></div>
+      <div class="lin"><span class="rot">El que se descarta, y por qué</span><input type="text" data-c="s6l2" placeholder=""></div>
+      <div class="lin"><span class="rot">El ángulo nuevo que salió de los mensajes</span><input type="text" data-c="s6l3" placeholder=""></div>
+    </div>
+</section>
+<section class="trabajo">
+  <div class="n">09</div>
+  <h2>Las tres piezas siguientes, con la decisión adentro</h2>
+  <p class="consigna">Publicá tres piezas más dentro de los diez días, con el ángulo sostenido y la corrección aplicada. Compará las conversaciones que abren esas tres contra el promedio de las diez anteriores. Si las tres nuevas abren más conversaciones, la lectura sirvió y ese ángulo pasa a ser el eje del mes; si quedan iguales, el ángulo se descarta y sube el siguiente de la lista.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Aaron</div><div class="tx">Las diez piezas van contra los ángulos del pasaporte digital, con él como personaje e incluida una entrevista cruda con Cami haciéndole preguntas, sin guion. La oferta B2C se escribe después, con lo que contestó la audiencia.</div></div>
+    <div class="campo"><textarea data-c="s7" rows="4" placeholder="Piezas 11, 12 y 13: ángulo, fecha, conversaciones que abrieron."></textarea></div>
+</section>
+<section>
+  <div class="n">10</div>
   <h2>Los entregables</h2>
   <p class="consigna">La carta está hecha cuando estas 3 cosas existen. Tocá cada uno cuando lo termines: queda tachado y se guarda en este navegador.</p>
   <div class="entregables">
-    <div class="cab"><span class="et">Lo que tiene que existir</span><span class="avance" data-cuenta="entregables">0 de 3</span></div>
+    <div class="cab"><span class="et">Lo que tiene que existir</span></div>
     <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c0" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La planilla de las diez piezas con fecha, ángulo y conversaciones abiertas</span></span></div>
     <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c1" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La comparación de mejores y peores piezas</span></span></div>
     <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c2" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La carilla de lectura con la decisión de ángulos</span></span></div>
   </div>
-  <p class="hoja-link">La hoja donde se completa es la plantilla de este módulo: <a href="../plantillas/diez-piezas-y-lectura.html">abrirla acá</a>.</p>
 </section>
 </main>
+<div class="acc">
+  <button class="tinta" data-a="bajar">Descargar completada</button>
+  <button data-a="imprimir">Imprimir</button>
+  <button data-a="limpiar">Vaciar la hoja</button>
+  <span class="dicho">Lo que escribís se guarda solo en este navegador.</span>
+</div>
 <div class="pie"><div><span class="sello">C</span></div><div>Cáscara Founders · Contenido y marca</div></div>
 </div>
 <template id="tpl-bajada">
@@ -138,30 +280,75 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 </template>
 <script>
 (function(){
-  var K='cf-carta-'+(document.body.dataset.mod||'x');
-  var st={}; try{ st=JSON.parse(localStorage.getItem(K)||'{}'); }catch(e){}
-  function contar(){
-    document.querySelectorAll('[data-cuenta]').forEach(function(c){
-      var g=c.dataset.cuenta,t=0,h=0;
-      document.querySelectorAll('.chk[data-g="'+g+'"]').forEach(function(el){t++; if(st[el.dataset.k])h++;});
-      c.textContent=h+' de '+t;});
-  }
+  var MOD=document.body.dataset.mod||'x';
+  var KC='cf-carta-'+MOD, KP='cf-pl-'+MOD;
+
+  /* ---- los entregables tachables ---- */
+  var st={}; try{ st=JSON.parse(localStorage.getItem(KC)||'{}'); }catch(e){}
   function pintar(){
     document.querySelectorAll('.chk').forEach(function(el){
       el.classList.toggle('done', !!st[el.dataset.k]);
       el.setAttribute('aria-checked', st[el.dataset.k]?'true':'false');});
-    contar();
   }
   document.addEventListener('click',function(e){
     var el=e.target.closest && e.target.closest('.chk'); if(!el)return;
     st[el.dataset.k]=!st[el.dataset.k];
-    try{ localStorage.setItem(K,JSON.stringify(st)); }catch(err){}
+    try{ localStorage.setItem(KC,JSON.stringify(st)); }catch(err){}
     pintar();});
   document.addEventListener('keydown',function(e){
     if(e.key!==' '&&e.key!=='Enter')return;
     var el=document.activeElement && document.activeElement.closest && document.activeElement.closest('.chk');
     if(!el)return; e.preventDefault(); el.click();});
   pintar();
+
+  /* ---- lo que se escribe en la hoja ---- */
+  function todos(){return Array.prototype.slice.call(document.querySelectorAll('[data-c]'))}
+  function auto(el){ if(el.tagName==='TEXTAREA'){ el.style.height='auto'; el.style.height=(el.scrollHeight+2)+'px'; } }
+  function contar(){
+    var s=document.querySelectorAll('section.trabajo'), n=0;
+    s.forEach(function(sec){
+      var lleno=false;
+      sec.querySelectorAll('[data-c]').forEach(function(el){ if(el.value && el.value.trim()) lleno=true; });
+      if(lleno) n++;
+    });
+    var a=document.querySelector('.avance');
+    if(a) a.textContent = s.length ? (n+' de '+s.length+' empezadas') : '';
+  }
+  function guardar(){
+    var v={}; todos().forEach(function(el){ if(el.value) v[el.dataset.c]=el.value; });
+    try{localStorage.setItem(KP,JSON.stringify(v))}catch(e){}
+    contar();
+  }
+  function cargar(){
+    var v={}; try{v=JSON.parse(localStorage.getItem(KP)||'{}')}catch(e){}
+    todos().forEach(function(el){ if(v[el.dataset.c]!=null) el.value=v[el.dataset.c]; auto(el); });
+    contar();
+  }
+  document.addEventListener('input',function(e){
+    if(!e.target.dataset || !e.target.dataset.c) return; auto(e.target); guardar();
+  });
+  var bl=document.querySelector('[data-a="limpiar"]');
+  if(bl) bl.addEventListener('click',function(){
+    if(!confirm('Esto borra todo lo que escribiste en esta carta. \u00bfSeguimos?')) return;
+    todos().forEach(function(el){el.value='';auto(el)}); guardar();
+  });
+  var bi=document.querySelector('[data-a="imprimir"]');
+  if(bi) bi.addEventListener('click',function(){window.print()});
+  var bd=document.querySelector('[data-a="bajar"]');
+  if(bd) bd.addEventListener('click',async function(){
+    todos().forEach(function(el){
+      if(el.tagName==='TEXTAREA') el.textContent=el.value; else el.setAttribute('value',el.value||'');
+    });
+    var html='<!doctype html>\n'+document.documentElement.outerHTML;
+    var nom='carta-'+MOD+'.html';
+    var dl=null; try{ dl=await claude.use('downloads'); }catch(e){}
+    if(dl){ try{ await dl.save({filename:nom,data:html}); return; }catch(e){ if(e&&e.code==='declined')return; } }
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([html],{type:'text/html'})); a.download=nom;
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+  cargar();
+  window.addEventListener('resize',function(){todos().forEach(auto)});
 })();
 </script>
 </body></html>

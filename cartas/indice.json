@@ -2,201 +2,241 @@
  {
   "id": "radiografia-360",
   "categoria": "Mirada de negocio",
-  "nombre": "360 del negocio: punto A, cuello de botella y punto B"
+  "nombre": "360 del negocio: punto A, cuello de botella y punto B",
+  "hoja": false
  },
  {
   "id": "foco-y-ventana",
   "categoria": "Mirada de negocio",
-  "nombre": "Elegir la ventana y soltar el resto"
+  "nombre": "Elegir la ventana y soltar el resto",
+  "hoja": true
  },
  {
   "id": "sociedad-y-roles",
   "categoria": "Mirada de negocio",
-  "nombre": "Resolver la sociedad que frena"
+  "nombre": "Resolver la sociedad que frena",
+  "hoja": true
  },
  {
   "id": "icp-mecanismo",
   "categoria": "Oferta y precio",
-  "nombre": "ICP del mecanismo que vendés"
+  "nombre": "ICP del mecanismo que vendés",
+  "hoja": true
  },
  {
   "id": "one-sheeter-oferta",
   "categoria": "Oferta y precio",
-  "nombre": "One-sheeter de la oferta"
+  "nombre": "One-sheeter de la oferta",
+  "hoja": true
  },
  {
   "id": "precio-escalera",
   "categoria": "Oferta y precio",
-  "nombre": "Precio y escalera de valor"
+  "nombre": "Precio y escalera de valor",
+  "hoja": true
  },
  {
   "id": "cinco-llamadas-con-precio",
   "categoria": "Oferta y precio",
-  "nombre": "Las primeras cinco llamadas con precio"
+  "nombre": "Las primeras cinco llamadas con precio",
+  "hoja": true
  },
  {
   "id": "profile-funnel",
   "categoria": "Contenido y marca",
-  "nombre": "Profile funnel del perfil"
+  "nombre": "Profile funnel del perfil",
+  "hoja": false
  },
  {
   "id": "angulos-desde-icp",
   "categoria": "Contenido y marca",
-  "nombre": "Ángulos de comunicación bajados del ICP"
+  "nombre": "Ángulos de comunicación bajados del ICP",
+  "hoja": true
  },
  {
   "id": "calendario-contenido",
   "categoria": "Contenido y marca",
-  "nombre": "Calendario de contenido de sesenta días"
+  "nombre": "Calendario de contenido de sesenta días",
+  "hoja": true
  },
  {
   "id": "diez-piezas-y-lectura",
   "categoria": "Contenido y marca",
-  "nombre": "Las diez piezas y su lectura"
+  "nombre": "Las diez piezas y su lectura",
+  "hoja": true
  },
  {
   "id": "formato-barato",
   "categoria": "Contenido y marca",
-  "nombre": "El formato barato que se sostiene"
+  "nombre": "El formato barato que se sostiene",
+  "hoja": true
  },
  {
   "id": "caso-documentado",
   "categoria": "Contenido y marca",
-  "nombre": "El caso documentado del cliente que ya tenés"
+  "nombre": "El caso documentado del cliente que ya tenés",
+  "hoja": true
  },
  {
   "id": "arquitectura-comunidad",
   "categoria": "Demanda y comunidad",
-  "nombre": "Arquitectura minima de una comunidad"
+  "nombre": "Arquitectura minima de una comunidad",
+  "hoja": true
  },
  {
   "id": "handraisers-historias",
   "categoria": "Demanda y comunidad",
-  "nombre": "Historias con handraisers"
+  "nombre": "Historias con handraisers",
+  "hoja": true
  },
  {
   "id": "calendario-lanzamiento",
   "categoria": "Demanda y comunidad",
-  "nombre": "Calendario de lanzamiento"
+  "nombre": "Calendario de lanzamiento",
+  "hoja": true
  },
  {
   "id": "capitalizar-evento",
   "categoria": "Demanda y comunidad",
-  "nombre": "Capitalizar un evento presencial"
+  "nombre": "Capitalizar un evento presencial",
+  "hoja": true
  },
  {
   "id": "pipeline-7-campos",
   "categoria": "Comercial y ventas",
-  "nombre": "Pipeline de siete campos"
+  "nombre": "Pipeline de siete campos",
+  "hoja": false
  },
  {
   "id": "prospeccion-y-recontacto",
   "categoria": "Comercial y ventas",
-  "nombre": "Recontacto de la base y prospección directa"
+  "nombre": "Recontacto de la base y prospección directa",
+  "hoja": true
  },
  {
   "id": "llamada-de-venta",
   "categoria": "Comercial y ventas",
-  "nombre": "La llamada de venta y el cierre"
+  "nombre": "La llamada de venta y el cierre",
+  "hoja": true
  },
  {
   "id": "propuesta-comercial",
   "categoria": "Comercial y ventas",
-  "nombre": "Propuesta comercial con esqueleto fijo"
+  "nombre": "Propuesta comercial con esqueleto fijo",
+  "hoja": false
  },
  {
   "id": "setter-closer",
   "categoria": "Comercial y ventas",
-  "nombre": "Sumar un setter o un closer"
+  "nombre": "Sumar un setter o un closer",
+  "hoja": true
  },
  {
   "id": "onboarding-y-roadmap-cliente",
   "categoria": "Entrega del servicio",
-  "nombre": "Onboarding a 48 horas y roadmap para el cliente"
+  "nombre": "Onboarding a 48 horas y roadmap para el cliente",
+  "hoja": true
  },
  {
   "id": "proceso-entrega-repetible",
   "categoria": "Entrega del servicio",
-  "nombre": "Proceso de entrega que se repite igual"
+  "nombre": "Proceso de entrega que se repite igual",
+  "hoja": true
  },
  {
   "id": "alcance-por-escrito",
   "categoria": "Entrega del servicio",
-  "nombre": "Alcance del servicio por escrito"
+  "nombre": "Alcance del servicio por escrito",
+  "hoja": true
  },
  {
   "id": "ciclo-y-continuidad",
   "categoria": "Entrega del servicio",
-  "nombre": "Cierre de ciclo y venta de continuidad"
+  "nombre": "Cierre de ciclo y venta de continuidad",
+  "hoja": true
  },
  {
   "id": "os-en-notion",
   "categoria": "Operaciones, equipo y calendario",
-  "nombre": "El OS del negocio en Notion"
+  "nombre": "El OS del negocio en Notion",
+  "hoja": false
  },
  {
   "id": "cadencia-y-duenos",
   "categoria": "Operaciones, equipo y calendario",
-  "nombre": "Duenos y cadencia de revisión"
+  "nombre": "Duenos y cadencia de revisión",
+  "hoja": true
  },
  {
   "id": "contratar-primer-rol",
   "categoria": "Operaciones, equipo y calendario",
-  "nombre": "Contratar la primera persona"
+  "nombre": "Contratar la primera persona",
+  "hoja": true
  },
  {
   "id": "delegar-produccion",
   "categoria": "Operaciones, equipo y calendario",
-  "nombre": "Delegar la producción sin perder calidad"
+  "nombre": "Delegar la producción sin perder calidad",
+  "hoja": true
  },
  {
   "id": "diario-administrativo",
   "categoria": "Operaciones, equipo y calendario",
-  "nombre": "Diario administrativo y cierre mensual"
+  "nombre": "Diario administrativo y cierre mensual",
+  "hoja": false
  },
  {
   "id": "base-de-datos-unica",
   "categoria": "Datos, infraestructura y automatización",
-  "nombre": "Una sola base de datos, y para qué sirve"
+  "nombre": "Una sola base de datos, y para qué sirve",
+  "hoja": true
  },
  {
   "id": "captura-y-seguimiento",
   "categoria": "Datos, infraestructura y automatización",
-  "nombre": "Captura automatica y seguimiento por mail"
+  "nombre": "Captura automatica y seguimiento por mail",
+  "hoja": true
  },
  {
   "id": "landing-que-convierte",
   "categoria": "Datos, infraestructura y automatización",
-  "nombre": "La landing que recibe la demanda"
+  "nombre": "La landing que recibe la demanda",
+  "hoja": true
  },
  {
   "id": "dashboard-embudo",
   "categoria": "Datos, infraestructura y automatización",
-  "nombre": "Dashboard del embudo"
+  "nombre": "Dashboard del embudo",
+  "hoja": true
  },
  {
   "id": "informes-con-ia",
   "categoria": "Datos, infraestructura y automatización",
-  "nombre": "Leer el negocio con IA"
+  "nombre": "Leer el negocio con IA",
+  "hoja": true
  },
  {
   "id": "pasaporte-digital",
   "categoria": "Identidad, narrativa y dirección creativa",
-  "nombre": "Pasaporte digital"
+  "nombre": "Pasaporte digital",
+  "hoja": false
  },
  {
   "id": "identidad-y-arco-narrativo",
   "categoria": "Identidad, narrativa y dirección creativa",
-  "nombre": "Identidad y arco narrativo"
+  "nombre": "Identidad y arco narrativo",
+  "hoja": true
  },
  {
   "id": "direccion-visual",
   "categoria": "Identidad, narrativa y dirección creativa",
-  "nombre": "Dirección visual y separación de cuentas"
+  "nombre": "Dirección visual y separación de cuentas",
+  "hoja": true
  },
  {
   "id": "narrativa-de-video",
   "categoria": "Identidad, narrativa y dirección creativa",
-  "nombre": "Narrativa y producción de video"
+  "nombre": "Narrativa y producción de video",
+  "hoja": true
  }
 ]

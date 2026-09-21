@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
-"""Las plantillas: la hoja donde el founder completa lo que la carta le pide.
+"""La paleta y el CSS de los campos que se completan.
 
-La carta dice qué hacer. La plantilla es donde se hace. Por eso va como
-documento de scroll y no como paneles: se escribe adentro, se guarda solo
-en el navegador y se puede descargar terminada o imprimir.
+Hasta el 21/9 este script generaba las plantillas como archivo aparte. Ahora
+la carta y la hoja son un solo documento vertical y las genera build_cartas.py,
+que lee el mismo JSON. Esto queda como librería: la paleta y el esquema del
+JSON, que no cambiaron.
 
 Cada plantilla sale de un JSON en fichas/plantillas/<id>.json con este esquema:
 
@@ -227,20 +228,8 @@ def render(pl, modulo_nombre, categoria):
 
 
 if __name__ == "__main__":
-    RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # la raíz del repo
-    inv = json.load(open(os.path.join(RAIZ, 'fichas', 'inventario.json'), encoding='utf-8'))
-    meta = {}
-    for c in inv["categorias"]:
-        for m in c["modulos"]:
-            meta[m["id"]] = (m["nombre"], c["nombre"])
-    os.makedirs(os.path.join(RAIZ, 'plantillas'), exist_ok=True)
-    n = 0
-    for f in sorted(glob.glob(os.path.join(RAIZ, 'fichas', 'plantillas', '*.json'))):
-        pl = json.load(open(f, encoding='utf-8'))
-        mid = pl["modulo"]
-        if mid not in meta:
-            print("módulo desconocido:", mid); continue
-        nom, cat = meta[mid]
-        open(os.path.join(RAIZ, 'plantillas', f'{mid}.html'), 'w', encoding='utf-8').write(render(pl, nom, cat))
-        n += 1
-    print("plantillas:", n)
+    print("Las plantillas dejaron de generarse el 21/9: la carta y la hoja son un solo\n"
+          "documento vertical. Corré build_cartas.py, que lee fichas/plantillas/<id>.json\n"
+          "y lo mete adentro de cada carta.\n\n"
+          "Este archivo queda como librería: exporta la paleta y el CSS de campos que\n"
+          "reusan _base.py, build_cards.py, build_rol.py y build_ally.py.")

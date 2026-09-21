@@ -11,7 +11,8 @@ Cáscara Founders es la aceleradora de Cáscara Collective: 90 días, camada cer
 - `sistema/03-proceso-consultoria-founders.md` — el proceso completo de punta a punta.
 - `sistema/10-handicap-anclajes.md` — los anclajes de cada eje del puntaje.
 - `sistema/13-criterio-facu.md` — cómo lee casos y cómo escribe. Documento vivo.
-- `sistema/14-mapa-de-cartas.md` — los 40 módulos con carta y plantilla.
+- `sistema/14-mapa-de-cartas.md` — los 40 módulos. Desde el 21/9 cada uno es una sola carta
+  vertical: los pasos y la hoja para completarlos van adentro del mismo documento.
 - `sistema/04-bitacora-automatizacion.md` — dónde anotás cada pasada.
 
 ## LAS FUENTES

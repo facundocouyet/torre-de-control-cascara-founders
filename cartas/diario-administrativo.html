@@ -15,11 +15,12 @@ body{margin:0;background:#ECEAE4;color:#171717;
 h1{font-size:clamp(38px,6vw,58px);font-weight:800;letter-spacing:-.038em;line-height:1.02;
   margin:28px 0 0;text-wrap:balance}
 .bajada{font-size:21px;line-height:1.5;color:#6A6A66;margin:18px 0 0;max-width:60ch}
-.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:flex;
-  justify-content:space-between;gap:20px 30px;align-items:baseline;flex-wrap:wrap}
+.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:grid;
+  gap:22px 34px;grid-template-columns:1fr}
 .lista .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
 .lista .tx{font-size:17px;line-height:1.5;color:#6A6A66;max-width:58ch;margin-top:7px}
-.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;white-space:nowrap}
+.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;
+  white-space:nowrap;margin-top:22px}
 
 section{margin-top:62px}
 section .n{font-size:11px;letter-spacing:.2em;color:#8E8B85;font-variant-numeric:tabular-nums}
@@ -34,9 +35,30 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
   font-variant-numeric:tabular-nums;line-height:1.3}
 .paso .t{font-size:19px;line-height:1.55;max-width:58ch}
 
+.ejemplo{margin-top:22px;border-left:2px solid #DBD7D2;padding:4px 0 4px 20px}
+.ejemplo .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.ejemplo .tx{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:18px;line-height:1.5;color:#6A6A66;margin-top:8px;max-width:62ch}
+
+.campo{margin-top:24px}
+textarea,input[type=text]{width:100%;font:inherit;font-size:18px;line-height:1.55;color:#171717;
+  background:#FBFAF8;border:1px solid #DBD7D2;padding:14px 16px;border-radius:0;
+  transition:border-color .15s}
+textarea{resize:vertical}
+textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
+.lin{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px 18px;align-items:center;
+  border-top:1px solid #DBD7D2;padding:14px 0}
+.lin .rot{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.tabla{width:100%;border-collapse:collapse;margin-top:6px}
+.tabla th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:#6A6A66;font-weight:400;padding:0 10px 10px 0;border-bottom:2px solid #171717}
+.tabla td{padding:0;border-bottom:1px solid #DBD7D2}
+.tabla input{border:0;background:transparent;padding:12px 10px 12px 0}
+.tabla input:focus{background:#FBFAF8}
+.envoltorio{overflow-x:auto}
+
 .entregables{margin-top:26px}
-.cab{display:flex;justify-content:space-between;align-items:baseline;gap:20px;
-  border-bottom:2px solid #171717;padding-bottom:12px}
+.cab{border-bottom:2px solid #171717;padding-bottom:12px}
 .cab .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
 .chk{display:grid;grid-template-columns:26px minmax(0,1fr);gap:18px;align-items:start;
   border-bottom:1px solid #DBD7D2;padding:18px 0;cursor:pointer}
@@ -55,9 +77,6 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 .chk.done .txt{background-size:100% 8px;color:#8E8B85}
 .chk:focus-visible{outline:1px solid #171717;outline-offset:4px}
 
-.hoja-link{margin-top:22px;font-size:18px;line-height:1.55;color:#6A6A66;max-width:60ch}
-.hoja-link a{color:#171717;text-decoration:underline;text-underline-offset:3px}
-
 /* la bajada personalizada, cuando se prepara el envío desde la torre */
 .bajada-bloque{margin-top:56px;border:1px solid #171717;padding:30px 28px;background:#FBFAF8}
 .bajada-bloque .tt{font-size:26px;font-weight:800;letter-spacing:-.028em;line-height:1.2}
@@ -67,7 +86,17 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
   border-top:2px solid #171717;padding-top:14px}
 .bajada-grilla .v{font-size:18.5px;line-height:1.55;margin-top:9px;max-width:58ch}
 
-.pie{margin-top:86px;border-top:1px solid #171717;padding-top:22px;display:flex;
+.acc{position:sticky;bottom:0;background:#ECEAE4;border-top:1px solid #DBD7D2;
+  padding:14px 0;margin-top:62px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.acc button{font:inherit;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  border:1px solid #171717;background:transparent;color:#171717;padding:13px 18px;cursor:pointer}
+.acc button.tinta{background:#171717;color:#ECEAE4}
+.acc button:hover{background:#171717;color:#ECEAE4}
+.acc button.tinta:hover{background:transparent;color:#171717}
+.acc .dicho{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:15px;color:#6A6A66}
+
+.pie{margin-top:48px;border-top:1px solid #171717;padding-top:22px;display:flex;
   justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;
   font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6A6A66}
 .sello{width:28px;height:28px;border:1.5px solid #171717;display:inline-flex;
@@ -76,10 +105,14 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 @media (max-width:640px){
   .hoja{padding:40px 20px 90px}
   .paso{grid-template-columns:38px minmax(0,1fr);gap:14px}
+  .lin{grid-template-columns:1fr;gap:8px}
+  .tabla{min-width:560px}
   .bajada-bloque{padding:22px 18px}
 }
 @media print{
   body{background:#fff}
+  .acc{display:none}
+  textarea,input{border-color:#bbb;background:#fff}
   section{break-inside:avoid;margin-top:40px}
   .chk{cursor:default}
 }
@@ -94,7 +127,6 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
   <p class="bajada">El diario cargado con ingresos y egresos explicados, y el primer cierre mensual hecho con ese formato.</p>
   <div class="lista">
     <div><div class="et">Cuándo se asigna</div><div class="tx">Cuando el founder no sabe con precisión qué entró, qué salió y cuánto le queda.</div></div>
-    <span class="avance" data-cuenta="entregables">0 de 3</span>
   </div>
 </header>
 <section>
@@ -115,7 +147,7 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
   <h2>Los entregables</h2>
   <p class="consigna">La carta está hecha cuando estas 3 cosas existen. Tocá cada uno cuando lo termines: queda tachado y se guarda en este navegador.</p>
   <div class="entregables">
-    <div class="cab"><span class="et">Lo que tiene que existir</span><span class="avance" data-cuenta="entregables">0 de 3</span></div>
+    <div class="cab"><span class="et">Lo que tiene que existir</span></div>
     <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c0" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La plantilla de diario cargada con los últimos tres meses</span></span></div>
     <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c1" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La ventana de pagos avisada</span></span></div>
     <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c2" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">El primer cierre mensual escrito con su lectura</span></span></div>
@@ -137,30 +169,75 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 </template>
 <script>
 (function(){
-  var K='cf-carta-'+(document.body.dataset.mod||'x');
-  var st={}; try{ st=JSON.parse(localStorage.getItem(K)||'{}'); }catch(e){}
-  function contar(){
-    document.querySelectorAll('[data-cuenta]').forEach(function(c){
-      var g=c.dataset.cuenta,t=0,h=0;
-      document.querySelectorAll('.chk[data-g="'+g+'"]').forEach(function(el){t++; if(st[el.dataset.k])h++;});
-      c.textContent=h+' de '+t;});
-  }
+  var MOD=document.body.dataset.mod||'x';
+  var KC='cf-carta-'+MOD, KP='cf-pl-'+MOD;
+
+  /* ---- los entregables tachables ---- */
+  var st={}; try{ st=JSON.parse(localStorage.getItem(KC)||'{}'); }catch(e){}
   function pintar(){
     document.querySelectorAll('.chk').forEach(function(el){
       el.classList.toggle('done', !!st[el.dataset.k]);
       el.setAttribute('aria-checked', st[el.dataset.k]?'true':'false');});
-    contar();
   }
   document.addEventListener('click',function(e){
     var el=e.target.closest && e.target.closest('.chk'); if(!el)return;
     st[el.dataset.k]=!st[el.dataset.k];
-    try{ localStorage.setItem(K,JSON.stringify(st)); }catch(err){}
+    try{ localStorage.setItem(KC,JSON.stringify(st)); }catch(err){}
     pintar();});
   document.addEventListener('keydown',function(e){
     if(e.key!==' '&&e.key!=='Enter')return;
     var el=document.activeElement && document.activeElement.closest && document.activeElement.closest('.chk');
     if(!el)return; e.preventDefault(); el.click();});
   pintar();
+
+  /* ---- lo que se escribe en la hoja ---- */
+  function todos(){return Array.prototype.slice.call(document.querySelectorAll('[data-c]'))}
+  function auto(el){ if(el.tagName==='TEXTAREA'){ el.style.height='auto'; el.style.height=(el.scrollHeight+2)+'px'; } }
+  function contar(){
+    var s=document.querySelectorAll('section.trabajo'), n=0;
+    s.forEach(function(sec){
+      var lleno=false;
+      sec.querySelectorAll('[data-c]').forEach(function(el){ if(el.value && el.value.trim()) lleno=true; });
+      if(lleno) n++;
+    });
+    var a=document.querySelector('.avance');
+    if(a) a.textContent = s.length ? (n+' de '+s.length+' empezadas') : '';
+  }
+  function guardar(){
+    var v={}; todos().forEach(function(el){ if(el.value) v[el.dataset.c]=el.value; });
+    try{localStorage.setItem(KP,JSON.stringify(v))}catch(e){}
+    contar();
+  }
+  function cargar(){
+    var v={}; try{v=JSON.parse(localStorage.getItem(KP)||'{}')}catch(e){}
+    todos().forEach(function(el){ if(v[el.dataset.c]!=null) el.value=v[el.dataset.c]; auto(el); });
+    contar();
+  }
+  document.addEventListener('input',function(e){
+    if(!e.target.dataset || !e.target.dataset.c) return; auto(e.target); guardar();
+  });
+  var bl=document.querySelector('[data-a="limpiar"]');
+  if(bl) bl.addEventListener('click',function(){
+    if(!confirm('Esto borra todo lo que escribiste en esta carta. \u00bfSeguimos?')) return;
+    todos().forEach(function(el){el.value='';auto(el)}); guardar();
+  });
+  var bi=document.querySelector('[data-a="imprimir"]');
+  if(bi) bi.addEventListener('click',function(){window.print()});
+  var bd=document.querySelector('[data-a="bajar"]');
+  if(bd) bd.addEventListener('click',async function(){
+    todos().forEach(function(el){
+      if(el.tagName==='TEXTAREA') el.textContent=el.value; else el.setAttribute('value',el.value||'');
+    });
+    var html='<!doctype html>\n'+document.documentElement.outerHTML;
+    var nom='carta-'+MOD+'.html';
+    var dl=null; try{ dl=await claude.use('downloads'); }catch(e){}
+    if(dl){ try{ await dl.save({filename:nom,data:html}); return; }catch(e){ if(e&&e.code==='declined')return; } }
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([html],{type:'text/html'})); a.download=nom;
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+  cargar();
+  window.addEventListener('resize',function(){todos().forEach(auto)});
 })();
 </script>
 </body></html>

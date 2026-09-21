@@ -15,11 +15,12 @@ body{margin:0;background:#ECEAE4;color:#171717;
 h1{font-size:clamp(38px,6vw,58px);font-weight:800;letter-spacing:-.038em;line-height:1.02;
   margin:28px 0 0;text-wrap:balance}
 .bajada{font-size:21px;line-height:1.5;color:#6A6A66;margin:18px 0 0;max-width:60ch}
-.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:flex;
-  justify-content:space-between;gap:20px 30px;align-items:baseline;flex-wrap:wrap}
+.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:grid;
+  gap:22px 34px;grid-template-columns:1fr}
 .lista .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
 .lista .tx{font-size:17px;line-height:1.5;color:#6A6A66;max-width:58ch;margin-top:7px}
-.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;white-space:nowrap}
+.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;
+  white-space:nowrap;margin-top:22px}
 
 section{margin-top:62px}
 section .n{font-size:11px;letter-spacing:.2em;color:#8E8B85;font-variant-numeric:tabular-nums}
@@ -34,9 +35,30 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
   font-variant-numeric:tabular-nums;line-height:1.3}
 .paso .t{font-size:19px;line-height:1.55;max-width:58ch}
 
+.ejemplo{margin-top:22px;border-left:2px solid #DBD7D2;padding:4px 0 4px 20px}
+.ejemplo .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.ejemplo .tx{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:18px;line-height:1.5;color:#6A6A66;margin-top:8px;max-width:62ch}
+
+.campo{margin-top:24px}
+textarea,input[type=text]{width:100%;font:inherit;font-size:18px;line-height:1.55;color:#171717;
+  background:#FBFAF8;border:1px solid #DBD7D2;padding:14px 16px;border-radius:0;
+  transition:border-color .15s}
+textarea{resize:vertical}
+textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
+.lin{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px 18px;align-items:center;
+  border-top:1px solid #DBD7D2;padding:14px 0}
+.lin .rot{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.tabla{width:100%;border-collapse:collapse;margin-top:6px}
+.tabla th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:#6A6A66;font-weight:400;padding:0 10px 10px 0;border-bottom:2px solid #171717}
+.tabla td{padding:0;border-bottom:1px solid #DBD7D2}
+.tabla input{border:0;background:transparent;padding:12px 10px 12px 0}
+.tabla input:focus{background:#FBFAF8}
+.envoltorio{overflow-x:auto}
+
 .entregables{margin-top:26px}
-.cab{display:flex;justify-content:space-between;align-items:baseline;gap:20px;
-  border-bottom:2px solid #171717;padding-bottom:12px}
+.cab{border-bottom:2px solid #171717;padding-bottom:12px}
 .cab .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
 .chk{display:grid;grid-template-columns:26px minmax(0,1fr);gap:18px;align-items:start;
   border-bottom:1px solid #DBD7D2;padding:18px 0;cursor:pointer}
@@ -55,9 +77,6 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 .chk.done .txt{background-size:100% 8px;color:#8E8B85}
 .chk:focus-visible{outline:1px solid #171717;outline-offset:4px}
 
-.hoja-link{margin-top:22px;font-size:18px;line-height:1.55;color:#6A6A66;max-width:60ch}
-.hoja-link a{color:#171717;text-decoration:underline;text-underline-offset:3px}
-
 /* la bajada personalizada, cuando se prepara el envío desde la torre */
 .bajada-bloque{margin-top:56px;border:1px solid #171717;padding:30px 28px;background:#FBFAF8}
 .bajada-bloque .tt{font-size:26px;font-weight:800;letter-spacing:-.028em;line-height:1.2}
@@ -67,7 +86,17 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
   border-top:2px solid #171717;padding-top:14px}
 .bajada-grilla .v{font-size:18.5px;line-height:1.55;margin-top:9px;max-width:58ch}
 
-.pie{margin-top:86px;border-top:1px solid #171717;padding-top:22px;display:flex;
+.acc{position:sticky;bottom:0;background:#ECEAE4;border-top:1px solid #DBD7D2;
+  padding:14px 0;margin-top:62px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.acc button{font:inherit;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  border:1px solid #171717;background:transparent;color:#171717;padding:13px 18px;cursor:pointer}
+.acc button.tinta{background:#171717;color:#ECEAE4}
+.acc button:hover{background:#171717;color:#ECEAE4}
+.acc button.tinta:hover{background:transparent;color:#171717}
+.acc .dicho{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:15px;color:#6A6A66}
+
+.pie{margin-top:48px;border-top:1px solid #171717;padding-top:22px;display:flex;
   justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;
   font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6A6A66}
 .sello{width:28px;height:28px;border:1.5px solid #171717;display:inline-flex;
@@ -76,10 +105,14 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 @media (max-width:640px){
   .hoja{padding:40px 20px 90px}
   .paso{grid-template-columns:38px minmax(0,1fr);gap:14px}
+  .lin{grid-template-columns:1fr;gap:8px}
+  .tabla{min-width:560px}
   .bajada-bloque{padding:22px 18px}
 }
 @media print{
   body{background:#fff}
+  .acc{display:none}
+  textarea,input{border-color:#bbb;background:#fff}
   section{break-inside:avoid;margin-top:40px}
   .chk{cursor:default}
 }
@@ -91,16 +124,17 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 <header class="slot">
   <div class="caja">Carta de módulo · Contenido y marca</div>
   <h1>Calendario de contenido de sesenta días</h1>
-  <p class="bajada">Un calendario de sesenta días cargado, con cadencia semanal, formato y ángulo en cada tarjeta.</p>
+  <p class="bajada">Sesenta días de contenido cargados con fecha, ángulo, formato y dueño, más la jornada semanal de grabación agendada. Con esto la cadencia deja de depender del tiempo que sobra en la semana.</p>
   <div class="lista">
     <div><div class="et">Cuándo se asigna</div><div class="tx">Cuando el founder publica cuando le queda tiempo y la cadencia se cae sola.</div></div>
-    <span class="avance" data-cuenta="entregables">0 de 3</span>
+    <div><div class="et">Está lista cuando</div><div class="tx">Cualquiera de tu equipo abre el calendario un lunes y sabe qué se graba, qué se edita y qué se publica esa semana sin preguntarte.</div></div>
   </div>
+  <div class="avance">0 de 8 empezadas</div>
 </header>
 <section>
   <div class="n">01</div>
   <h2>Qué tenés que hacer</h2>
-  <p class="consigna">En este orden. Cada paso se apoya en el anterior, así que no conviene saltear ninguno aunque parezca obvio.</p>
+  <p class="consigna">En este orden. Cada paso se apoya en el anterior, así que no conviene saltear ninguno aunque parezca obvio. Abajo está la hoja para resolverlos, uno por uno.</p>
   <div class="pasos">
     <div class="paso"><span class="p">01</span><span class="t">Definir la cadencia real que puede sostener: cantidad de piezas por semana y día de publicación.</span></div>
     <div class="paso"><span class="p">02</span><span class="t">Elegir dos o tres formatos fijos y dejar una referencia y un ejemplo de cada uno.</span></div>
@@ -110,19 +144,126 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
     <div class="paso"><span class="p">06</span><span class="t">Revisar el calendario una vez por semana y mover solo lo que no salió.</span></div>
   </div>
 </section>
-<section>
+<section class="trabajo">
   <div class="n">02</div>
+  <h2>La cadencia que podés sostener</h2>
+  <p class="consigna">La cantidad de piezas por semana se fija por la peor semana del último mes, con el día y el horario de publicación puestos. El piso de este módulo son tres piezas por semana durante ocho semanas seguidas: veinticuatro piezas. Si el número que escribís acá ya lo incumpliste dos veces, bajalo una pieza y cerralo ahí.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Lucio</div><div class="tx">De los quince videos que tenía comprometidos subió uno. La cadencia escrita en grande sin poder sostenerla deja el mismo resultado que no tener calendario: nada que leer.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">Piezas por semana</span><input type="text" data-c="s0l0" placeholder=""></div>
+      <div class="lin"><span class="rot">Días de publicación</span><input type="text" data-c="s0l1" placeholder=""></div>
+      <div class="lin"><span class="rot">Horario</span><input type="text" data-c="s0l2" placeholder=""></div>
+      <div class="lin"><span class="rot">Cuántas semanas seguidas la sostuviste hasta hoy</span><input type="text" data-c="s0l3" placeholder=""></div>
+    </div>
+</section>
+<section class="trabajo">
+  <div class="n">03</div>
+  <h2>Los dos o tres formatos fijos</h2>
+  <p class="consigna">Elegí dos o tres formatos y usá esos durante los sesenta días. Cada uno con una referencia mirable, propia o ajena, y con el tiempo real que tarda en producirse de punta a punta. El formato que tarda más de lo que te dura la semana se cambia por uno más barato, porque el que se cae siempre es el caro.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Sharon</div><div class="tx">El compromiso quedó en edición nivel uno: clipeo, subtítulos, color y sale. El podcast lo había abandonado porque quería grabarlo con b-rolls encima, y ese formato nunca llegó a salir.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Formato</th><th>Para qué sirve</th><th>Referencia</th><th>Cuánto tarda en producirse</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s1f0c0"></td><td><input type="text" data-c="s1f0c1"></td><td><input type="text" data-c="s1f0c2"></td><td><input type="text" data-c="s1f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f1c0"></td><td><input type="text" data-c="s1f1c1"></td><td><input type="text" data-c="s1f1c2"></td><td><input type="text" data-c="s1f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f2c0"></td><td><input type="text" data-c="s1f2c1"></td><td><input type="text" data-c="s1f2c2"></td><td><input type="text" data-c="s1f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f3c0"></td><td><input type="text" data-c="s1f3c1"></td><td><input type="text" data-c="s1f3c2"></td><td><input type="text" data-c="s1f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s1f4c0"></td><td><input type="text" data-c="s1f4c1"></td><td><input type="text" data-c="s1f4c2"></td><td><input type="text" data-c="s1f4c3"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">04</div>
+  <h2>Las tarjetas de los sesenta días</h2>
+  <p class="consigna">Acá van las primeras diez tarjetas y el resto se carga con la misma estructura en la base de Notion, hasta completar los sesenta días. Cada tarjeta lleva fecha, ángulo del que sale, formato, qué querés que haga el que la ve y en qué estado está. Una tarjeta sin ángulo queda vacía cuando llega la fecha, así que se completa antes de cargarla.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Nicolás Lozada</div><div class="tx">Tiene la base con cuarenta y cinco tarjetas ordenadas en cuatro fases. El calendario cargado de antemano es lo que le permitió publicar el video largo de su historia y sacarle ocho recortes sin improvisar.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Fecha</th><th>Ángulo</th><th>Formato</th><th>Qué querés que haga el que la ve</th><th>Estado</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s2f0c0"></td><td><input type="text" data-c="s2f0c1"></td><td><input type="text" data-c="s2f0c2"></td><td><input type="text" data-c="s2f0c3"></td><td><input type="text" data-c="s2f0c4"></td></tr>
+        <tr><td><input type="text" data-c="s2f1c0"></td><td><input type="text" data-c="s2f1c1"></td><td><input type="text" data-c="s2f1c2"></td><td><input type="text" data-c="s2f1c3"></td><td><input type="text" data-c="s2f1c4"></td></tr>
+        <tr><td><input type="text" data-c="s2f2c0"></td><td><input type="text" data-c="s2f2c1"></td><td><input type="text" data-c="s2f2c2"></td><td><input type="text" data-c="s2f2c3"></td><td><input type="text" data-c="s2f2c4"></td></tr>
+        <tr><td><input type="text" data-c="s2f3c0"></td><td><input type="text" data-c="s2f3c1"></td><td><input type="text" data-c="s2f3c2"></td><td><input type="text" data-c="s2f3c3"></td><td><input type="text" data-c="s2f3c4"></td></tr>
+        <tr><td><input type="text" data-c="s2f4c0"></td><td><input type="text" data-c="s2f4c1"></td><td><input type="text" data-c="s2f4c2"></td><td><input type="text" data-c="s2f4c3"></td><td><input type="text" data-c="s2f4c4"></td></tr>
+        <tr><td><input type="text" data-c="s2f5c0"></td><td><input type="text" data-c="s2f5c1"></td><td><input type="text" data-c="s2f5c2"></td><td><input type="text" data-c="s2f5c3"></td><td><input type="text" data-c="s2f5c4"></td></tr>
+        <tr><td><input type="text" data-c="s2f6c0"></td><td><input type="text" data-c="s2f6c1"></td><td><input type="text" data-c="s2f6c2"></td><td><input type="text" data-c="s2f6c3"></td><td><input type="text" data-c="s2f6c4"></td></tr>
+        <tr><td><input type="text" data-c="s2f7c0"></td><td><input type="text" data-c="s2f7c1"></td><td><input type="text" data-c="s2f7c2"></td><td><input type="text" data-c="s2f7c3"></td><td><input type="text" data-c="s2f7c4"></td></tr>
+        <tr><td><input type="text" data-c="s2f8c0"></td><td><input type="text" data-c="s2f8c1"></td><td><input type="text" data-c="s2f8c2"></td><td><input type="text" data-c="s2f8c3"></td><td><input type="text" data-c="s2f8c4"></td></tr>
+        <tr><td><input type="text" data-c="s2f9c0"></td><td><input type="text" data-c="s2f9c1"></td><td><input type="text" data-c="s2f9c2"></td><td><input type="text" data-c="s2f9c3"></td><td><input type="text" data-c="s2f9c4"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">05</div>
+  <h2>La jornada semanal de grabación</h2>
+  <p class="consigna">Un día fijo por semana, con hora, lugar y la primera fecha ya puesta en el calendario. De cada jornada tienen que salir las piezas de la semana siguiente completas, así que calculá cuántas grabás por jornada y verificá que cierre con la cadencia de la primera sección. Una jornada al mes no alcanza para armar el hábito.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Agostina</div><div class="tx">El acuerdo con Ibi quedó en quinientos dólares o menos, del 1 al 10, por una jornada de trabajo semanal sobre la marca en lugar de un paquete llave en mano con una grabación al mes. Ella sigue escribiendo los guiones y sigue subiendo las historias.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">Día y hora</span><input type="text" data-c="s3l0" placeholder=""></div>
+      <div class="lin"><span class="rot">Dónde se graba</span><input type="text" data-c="s3l1" placeholder=""></div>
+      <div class="lin"><span class="rot">Cuántas piezas salen por jornada</span><input type="text" data-c="s3l2" placeholder=""></div>
+      <div class="lin"><span class="rot">Quién te acompaña</span><input type="text" data-c="s3l3" placeholder=""></div>
+      <div class="lin"><span class="rot">Primera fecha agendada</span><input type="text" data-c="s3l4" placeholder=""></div>
+    </div>
+</section>
+<section class="trabajo">
+  <div class="n">06</div>
+  <h2>Quién hace cada paso</h2>
+  <p class="consigna">Un dueño con nombre por cada paso: guion, grabación, edición, publicación y respuesta a los comentarios. Cada uno con el día en que entrega y con lo que pasa si no llega, que es la parte que se suele saltear. Si un paso queda sin dueño, ese paso es tuyo, y conviene escribirlo así antes de que la fecha lo diga.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Antonio</div><div class="tx">Todo el plan de abril dependía de una persona adentro de IEB que manejara calendario, guiones y coordinación del editor. Esa persona nunca apareció y el contenido salió cuando había ganas.</div></div>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Paso</th><th>Dueño</th><th>Cuándo entrega</th><th>Qué pasa si no llega</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s4f0c0"></td><td><input type="text" data-c="s4f0c1"></td><td><input type="text" data-c="s4f0c2"></td><td><input type="text" data-c="s4f0c3"></td></tr>
+        <tr><td><input type="text" data-c="s4f1c0"></td><td><input type="text" data-c="s4f1c1"></td><td><input type="text" data-c="s4f1c2"></td><td><input type="text" data-c="s4f1c3"></td></tr>
+        <tr><td><input type="text" data-c="s4f2c0"></td><td><input type="text" data-c="s4f2c1"></td><td><input type="text" data-c="s4f2c2"></td><td><input type="text" data-c="s4f2c3"></td></tr>
+        <tr><td><input type="text" data-c="s4f3c0"></td><td><input type="text" data-c="s4f3c1"></td><td><input type="text" data-c="s4f3c2"></td><td><input type="text" data-c="s4f3c3"></td></tr>
+        <tr><td><input type="text" data-c="s4f4c0"></td><td><input type="text" data-c="s4f4c1"></td><td><input type="text" data-c="s4f4c2"></td><td><input type="text" data-c="s4f4c3"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">07</div>
+  <h2>Lo que ya tenés grabado y sin usar</h2>
+  <p class="consigna">Antes de cargar grabaciones nuevas, revisá el material que ya está: charlas filmadas, entrevistas, llamadas con clientes, videos largos de los que se pueden sacar recortes. Anotá qué hay, dónde está y cuántas piezas salen de ahí. Este material es el que llena las dos primeras semanas mientras la jornada de grabación se acomoda.</p>
+    <div class="campo"><textarea data-c="s5" rows="4" placeholder="Qué hay, dónde está, cuántas piezas salen."></textarea></div>
+</section>
+<section class="trabajo">
+  <div class="n">08</div>
+  <h2>La revisión semanal</h2>
+  <p class="consigna">Un día y una hora fijos por semana para mirar el calendario, con la misma gente todas las semanas. Se mueve lo que no salió y el resto queda donde está: cambiar tarjetas que todavía no llegaron a su fecha es la forma más común de romper el calendario. La revisión dura media hora y termina con las tarjetas de la semana siguiente cerradas.</p>
+  <div class="ejemplo"><div class="et">Cómo lo resolvió Manuel Bruzzone</div><div class="tx">La planificación quedó fijada el último lunes de cada mes, dos horas, con contenido, actividad y pauta cargados, más la revisión de medio mes con cada agente. Tres seguidas es lo que convierte una reunión en costumbre.</div></div>
+    <div class="campo">
+      <div class="lin"><span class="rot">Día y hora</span><input type="text" data-c="s6l0" placeholder=""></div>
+      <div class="lin"><span class="rot">Quién participa</span><input type="text" data-c="s6l1" placeholder=""></div>
+      <div class="lin"><span class="rot">Qué se mira</span><input type="text" data-c="s6l2" placeholder=""></div>
+      <div class="lin"><span class="rot">Cuánto dura</span><input type="text" data-c="s6l3" placeholder=""></div>
+    </div>
+</section>
+<section class="trabajo">
+  <div class="n">09</div>
+  <h2>Las dos primeras semanas publicadas contra el calendario</h2>
+  <p class="consigna">Cumplí catorce días sin tocar las tarjetas y anotá el resultado: cuántas piezas salieron en la fecha que decía la tarjeta, cuántas se corrieron y por qué se corrieron. Ese porcentaje es la cadencia real. Si salió menos de la mitad, el arreglo está en la cantidad o en el formato, y se corrige antes de seguir con las semanas que vienen.</p>
+    <div class="campo"><textarea data-c="s7" rows="4" placeholder="Salieron X de Y. Se corrieron… porque…"></textarea></div>
+</section>
+<section>
+  <div class="n">10</div>
   <h2>Los entregables</h2>
   <p class="consigna">La carta está hecha cuando estas 3 cosas existen. Tocá cada uno cuando lo termines: queda tachado y se guarda en este navegador.</p>
   <div class="entregables">
-    <div class="cab"><span class="et">Lo que tiene que existir</span><span class="avance" data-cuenta="entregables">0 de 3</span></div>
+    <div class="cab"><span class="et">Lo que tiene que existir</span></div>
     <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c0" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La cadencia semanal comprometida, con día y cantidad</span></span></div>
     <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c1" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">Las tarjetas de sesenta días con ángulo y formato</span></span></div>
     <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c2" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">La jornada semanal de grabación agendada</span></span></div>
   </div>
-  <p class="hoja-link">La hoja donde se completa es la plantilla de este módulo: <a href="../plantillas/calendario-contenido.html">abrirla acá</a>.</p>
 </section>
 </main>
+<div class="acc">
+  <button class="tinta" data-a="bajar">Descargar completada</button>
+  <button data-a="imprimir">Imprimir</button>
+  <button data-a="limpiar">Vaciar la hoja</button>
+  <span class="dicho">Lo que escribís se guarda solo en este navegador.</span>
+</div>
 <div class="pie"><div><span class="sello">C</span></div><div>Cáscara Founders · Contenido y marca</div></div>
 </div>
 <template id="tpl-bajada">
@@ -138,30 +279,75 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 </template>
 <script>
 (function(){
-  var K='cf-carta-'+(document.body.dataset.mod||'x');
-  var st={}; try{ st=JSON.parse(localStorage.getItem(K)||'{}'); }catch(e){}
-  function contar(){
-    document.querySelectorAll('[data-cuenta]').forEach(function(c){
-      var g=c.dataset.cuenta,t=0,h=0;
-      document.querySelectorAll('.chk[data-g="'+g+'"]').forEach(function(el){t++; if(st[el.dataset.k])h++;});
-      c.textContent=h+' de '+t;});
-  }
+  var MOD=document.body.dataset.mod||'x';
+  var KC='cf-carta-'+MOD, KP='cf-pl-'+MOD;
+
+  /* ---- los entregables tachables ---- */
+  var st={}; try{ st=JSON.parse(localStorage.getItem(KC)||'{}'); }catch(e){}
   function pintar(){
     document.querySelectorAll('.chk').forEach(function(el){
       el.classList.toggle('done', !!st[el.dataset.k]);
       el.setAttribute('aria-checked', st[el.dataset.k]?'true':'false');});
-    contar();
   }
   document.addEventListener('click',function(e){
     var el=e.target.closest && e.target.closest('.chk'); if(!el)return;
     st[el.dataset.k]=!st[el.dataset.k];
-    try{ localStorage.setItem(K,JSON.stringify(st)); }catch(err){}
+    try{ localStorage.setItem(KC,JSON.stringify(st)); }catch(err){}
     pintar();});
   document.addEventListener('keydown',function(e){
     if(e.key!==' '&&e.key!=='Enter')return;
     var el=document.activeElement && document.activeElement.closest && document.activeElement.closest('.chk');
     if(!el)return; e.preventDefault(); el.click();});
   pintar();
+
+  /* ---- lo que se escribe en la hoja ---- */
+  function todos(){return Array.prototype.slice.call(document.querySelectorAll('[data-c]'))}
+  function auto(el){ if(el.tagName==='TEXTAREA'){ el.style.height='auto'; el.style.height=(el.scrollHeight+2)+'px'; } }
+  function contar(){
+    var s=document.querySelectorAll('section.trabajo'), n=0;
+    s.forEach(function(sec){
+      var lleno=false;
+      sec.querySelectorAll('[data-c]').forEach(function(el){ if(el.value && el.value.trim()) lleno=true; });
+      if(lleno) n++;
+    });
+    var a=document.querySelector('.avance');
+    if(a) a.textContent = s.length ? (n+' de '+s.length+' empezadas') : '';
+  }
+  function guardar(){
+    var v={}; todos().forEach(function(el){ if(el.value) v[el.dataset.c]=el.value; });
+    try{localStorage.setItem(KP,JSON.stringify(v))}catch(e){}
+    contar();
+  }
+  function cargar(){
+    var v={}; try{v=JSON.parse(localStorage.getItem(KP)||'{}')}catch(e){}
+    todos().forEach(function(el){ if(v[el.dataset.c]!=null) el.value=v[el.dataset.c]; auto(el); });
+    contar();
+  }
+  document.addEventListener('input',function(e){
+    if(!e.target.dataset || !e.target.dataset.c) return; auto(e.target); guardar();
+  });
+  var bl=document.querySelector('[data-a="limpiar"]');
+  if(bl) bl.addEventListener('click',function(){
+    if(!confirm('Esto borra todo lo que escribiste en esta carta. \u00bfSeguimos?')) return;
+    todos().forEach(function(el){el.value='';auto(el)}); guardar();
+  });
+  var bi=document.querySelector('[data-a="imprimir"]');
+  if(bi) bi.addEventListener('click',function(){window.print()});
+  var bd=document.querySelector('[data-a="bajar"]');
+  if(bd) bd.addEventListener('click',async function(){
+    todos().forEach(function(el){
+      if(el.tagName==='TEXTAREA') el.textContent=el.value; else el.setAttribute('value',el.value||'');
+    });
+    var html='<!doctype html>\n'+document.documentElement.outerHTML;
+    var nom='carta-'+MOD+'.html';
+    var dl=null; try{ dl=await claude.use('downloads'); }catch(e){}
+    if(dl){ try{ await dl.save({filename:nom,data:html}); return; }catch(e){ if(e&&e.code==='declined')return; } }
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([html],{type:'text/html'})); a.download=nom;
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+  cargar();
+  window.addEventListener('resize',function(){todos().forEach(auto)});
 })();
 </script>
 </body></html>

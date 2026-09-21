@@ -1,7 +1,7 @@
 # Torre de control de Cáscara Founders
 
 Este repo genera todo lo que Cáscara Founders publica: los documentos de cada founder, la torre de
-control, las cuarenta cartas con sus plantillas, el handoff para el equipo y el documento del rol.
+control, las cuarenta cartas, el handoff para el equipo y el documento del rol.
 Leé `README.md` antes de tocar nada.
 
 ## Dónde vive
@@ -18,14 +18,16 @@ repo tiene que estar entre las fuentes autorizadas de esas sesiones para que pue
 fichas/                 la fuente de verdad
   <slug>.json           una ficha por founder, 22 claves (esquema v2)
   inventario.json       las 40 cartas: categoría, pasos, qué completa el founder, herramientas
-  plantillas/*.json     la hoja que completa el founder para cada carta
+  plantillas/*.json     la hoja que completa el founder, que entra adentro de su carta
+                        <modulo>--<slug>.json es la versión escrita para un founder
 contenido/              lo que no es de un founder: panel, programa, materiales y arranques
 generador/              los scripts que convierten las fichas en HTML
 sistema/                el rol de líder y las reglas de redacción
 agente/                 el prompt de la tarea programada diaria
 assets/                 founders.css, los logos y el favicon
 clientes/               los documentos generados, uno por founder
-cartas/ plantillas/     las cartas y sus hojas, generadas
+cartas/                 las cuarenta cartas, generadas
+  para/                 las escritas para un founder: <slug>-<modulo>.html
 index.html              la torre de control
 ```
 
@@ -40,8 +42,8 @@ python3 generador/build_app.py         # datos de la app, desde el registro     
 python3 generador/app_shell.py         # la torre de control                    -> index.html
 python3 generador/build_site.py        # la versión de scroll -> inicio.html, programa.html,
                                        #   materiales.html, clientes.html
-python3 generador/build_cartas.py      # las cartas (scroll), desde fichas/inventario.json -> cartas/
-python3 generador/build_plantillas.py  # las hojas, desde fichas/plantillas/    -> plantillas/
+python3 generador/build_cartas.py      # las cartas, desde fichas/inventario.json +
+                                       #   fichas/plantillas/                  -> cartas/
 python3 generador/build_cards.py       # el reparto de cartas por dueño         -> cards-por-dueno.html
 python3 generador/build_rol.py         # el documento del rol                   -> rol-lider-founders.html
 python3 generador/build_ally.py        # el handoff del equipo                  -> founders-handoff-aye.html
@@ -54,7 +56,8 @@ python3 generador/build_ally.py        # el handoff del equipo                  
 - `generador/build.py` es el generador v1. `build2.py` lo importa como librería para los paneles, los
   colores y el shell, así que su cuerpo va detrás de `if __name__ == "__main__"`. `build_cartas.py`
   dejó de importarlo el 18/9: las cartas pasaron a documento de scroll y se generan solas.
-- `build_plantillas.py` exporta la paleta (INK, PAPER, GREY, LINE, DISP, SERIF) que reusan `_base.py`,
+- `build_plantillas.py` dejó de generar el 21/9: la carta y la hoja son un solo documento vertical
+  y las arma `build_cartas.py`. Queda como librería, porque exporta la paleta (INK, PAPER, GREY, LINE, DISP, SERIF) que reusan `_base.py`,
   `build_cards.py`, `build_rol.py` y `build_ally.py`.
 - `contenido/arranques.json` guarda la primera llamada de cada cliente, por slug. `dias.py` lo lee
   después de `START`.
@@ -102,11 +105,11 @@ PNG de marca con el fondo pasado a transparente.
 
 **Verificar antes de dar algo por hecho.** Los documentos de cliente son paneles de 1920×1080 fijos:
 si el contenido crece, desborda en silencio. Después de tocar tamaños o textos hay que abrir en un
-navegador lo que se tocó y chequear que ningún `.pnl` tenga `scrollHeight > 1080`. Las cartas y las
-plantillas son documentos de scroll y no desbordan, pero se revisan igual a 1512 y a 390 de ancho. Lo mismo con la app: no puede haber scroll horizontal ni a 1512px ni a
+navegador lo que se tocó y chequear que ningún `.pnl` tenga `scrollHeight > 1080`. Las cartas son
+documentos de scroll y no desbordan, pero se revisan igual a 1512 y a 390 de ancho. Lo mismo con la app: no puede haber scroll horizontal ni a 1512px ni a
 390px.
 
 ## Estado
 
-Datos al 14 de septiembre de 2026. Veintiún clientes, diecinueve con documento, cuarenta cartas y
-treinta y tres plantillas. Los documentos son primeras versiones y se revisan antes de mandarlos.
+Datos al 14 de septiembre de 2026. Veintiún clientes, diecinueve con documento, cuarenta cartas, treinta y tres de
+ellas con hoja para completar adentro. Los documentos son primeras versiones y se revisan antes de mandarlos.
