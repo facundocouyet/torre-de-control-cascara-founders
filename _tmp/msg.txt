@@ -1,32 +1,10 @@
-La radiografia de Custom Lab, actualizada con la llamada del 18 y los pasos nuevos
+Los accionables arrancan con un checklist y la torre dice cuando se genero
 
-El cuello se movio y el documento no lo decia. Hasta ahora la lectura era que el
-cuello era la demanda y que faltaba definir a quien le venden. Eso ya esta
-cerrado: venden publicidad hecha con merch a empresas con presupuesto de
-marketing. Lo que aparecio el 18 de septiembre en la llamada con Franco es que
-la tienda esta lista y no vende porque nadie la ve.
+El pane de accionables pasa a ser una lista simple: una linea por cosa, con
+el nombre del cliente a la izquierda y una casilla que se tilda y queda
+guardada en el navegador. Abajo, caso por caso, queda el detalle de cada
+cliente —su radiografia, el documento que sale y lo que haya que seguir—
+plegado, con el contador de lo que le falta.
 
-De ahi sale la correccion de prioridad, que es lo mas valioso del tramo: los
-kits quedan pausados a proposito y el contenido pasa adelante, porque una tienda
-sin trafico no convierte y el tiempo que se fue buscando productos son 2 semanas
-sin publicar. La consigna es documentar y no crear, con 2 campanas en paralelo
-—Documentacion, el proceso de construir la marca como serie semanal, y Producto,
-los kits desde el boceto hasta el prototipo— sobre los 12 angulos que dejo
-Franco.
-
-Cambian el titular, la bajada, la lectura con su cita, los 2 puntos B, los
-entregables, el roadmap entero y los accionables. El punto B del 26 de setiembre
-era la tienda y los kits: pasa a ser el calendario presentado a Fede y las 2
-campanas publicando, con el numero a mirar cambiado de vistas a conversaciones
-abiertas. El roadmap arranca por grabar esta semana sin producir nada.
-
-Queda agendada la 1:1 con Facu el 2 de octubre, que respeta los 14 dias desde la
-de Franco, y ahi sale el roadmap con punto de llegada, que es lo unico del tramo
-que sigue faltando.
-
-Regenerada toda la torre: documentos de cliente, cartas, cards por dueno, rol,
-handoff, app y sitio. Los 20 documentos verificados panel por panel a 1920x1080:
-ninguno desborda.
-
-Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01X5PVbBwAY8Cfrb8woNrxbU
+El riel lleva el sello de generacion: dia, hora y "hace cuanto", que se
+recalcula solo. Alcanza con mirarlo para saber si el push ya subio.
