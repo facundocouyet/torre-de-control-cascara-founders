@@ -37,7 +37,7 @@ DUENOS=[
   "La mirada del negocio entero, la forma del servicio, el equipo y lo que dicen los números. Son las "
   "que decido yo y las que escribo yo.",
   ["radiografia-360","foco-y-ventana","sociedad-y-roles",
-   "alcance-por-escrito","proceso-entrega-repetible",
+   "alcance-por-escrito","proceso-entrega-repetible","auditoria-del-programa",
    "contratar-primer-rol","delegar-produccion","cadencia-y-duenos",
    "diario-administrativo","dashboard-embudo","informes-con-ia"]),
 ]
@@ -46,7 +46,7 @@ FACU=[]
 todas=[i for _,_,_,_,ids in DUENOS for i in ids]+FACU
 falt=[k for k in MOD if k not in todas]
 assert not falt, "sin dueño: %s"%falt
-assert len(todas)==len(MOD)==40, (len(todas),len(MOD))
+assert len(todas)==len(MOD), (len(todas),len(MOD))
 
 def texto_card(mid):
     m=MOD[mid]

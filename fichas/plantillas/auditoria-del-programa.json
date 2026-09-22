@@ -1,0 +1,97 @@
+{
+  "modulo": "auditoria-del-programa",
+  "titulo": "La auditoría del programa",
+  "bajada": "Todo lo que se entrega hoy adentro del programa, en un solo lugar: los módulos, las llamadas, las grupales, los eventos, los materiales y la comunidad. Más cómo se cuenta cada cosa en la venta y qué se usa de verdad.",
+  "lista_cuando": "Alguien de afuera lee la hoja y puede explicar qué recibe un alumno desde que entra hasta que sale, sin preguntarte nada.",
+  "completar": ["Esta carta completa, con todo lo que se entrega listado y nada afuera"],
+  "secciones": [
+    {
+      "cid": 0,
+      "nuestro": true,
+      "titulo": "Esto es un inventario, no un ejercicio",
+      "texto": [
+        "Acá no hay que definir nada ni decidir nada. Hay que listar lo que ya existe. Todo lo que pide esta hoja está hecho y entregado: vive en la plataforma, en el Drive, en los chats y en la cabeza de quien da las clases.",
+        "Se hace porque nadie lo tiene junto. Cuando hay que reordenar un programa, subirle el precio o partirlo en niveles, la primera pregunta siempre es la misma —qué recibe exactamente un alumno— y siempre se contesta de memoria y a medias.",
+        "Escribilo largo y sin ordenar. Si algo está a medio hacer, se pone igual y se aclara. Lo que no aparezca acá, para nosotros no existe."
+      ]
+    },
+    {
+      "cid": 1,
+      "titulo": "Los módulos",
+      "consigna": "Uno por fila, en el orden en que los ve el alumno. Qué resuelve cada uno, en qué formato está —grabado, en vivo, un documento, una plantilla— y cuánto dura. Si un módulo está anunciado pero todavía no existe, ponelo y aclaralo.",
+      "campo": "tabla",
+      "columnas": ["El módulo", "Qué resuelve", "Formato", "Cuánto dura"],
+      "filas": 12
+    },
+    {
+      "cid": 2,
+      "titulo": "Las llamadas",
+      "consigna": "Todas las que hay: de arranque, de seguimiento, de revisión, las que se dan una sola vez y las que se repiten. Quién la da, cada cuánto, de qué se habla y si queda grabada. Si alguna existe en la promesa pero en la práctica no se está dando, se pone y se aclara: eso es justamente lo que hay que ver.",
+      "campo": "tabla",
+      "columnas": ["La llamada", "Quién la da", "Cada cuánto", "De qué se habla", "¿Queda grabada?"],
+      "filas": 8
+    },
+    {
+      "cid": 3,
+      "titulo": "Las grupales y los talleres",
+      "consigna": "Las instancias en vivo con varios adentro. Qué se trabaja en cada una, quién la sostiene, con qué frecuencia y cuánta gente va en promedio. El dato de asistencia importa: una grupal a la que van dos personas es otra cosa que una a la que van quince.",
+      "campo": "tabla",
+      "columnas": ["La grupal o taller", "Quién la sostiene", "Frecuencia", "Cuántos van en promedio"],
+      "filas": 8
+    },
+    {
+      "cid": 4,
+      "titulo": "Los eventos que ya hicieron",
+      "consigna": "Los presenciales y los online especiales: encuentros, masterclasses, invitados, jornadas. Cuándo fue cada uno, cuánta gente participó, qué salió de ahí y si se grabó o quedó documentado de alguna forma. Los que están agendados hacia adelante también van.",
+      "campo": "tabla",
+      "columnas": ["El evento", "Cuándo", "Cuántos participaron", "Qué salió de ahí"],
+      "filas": 6
+    },
+    {
+      "cid": 5,
+      "titulo": "Todo el material que se entrega",
+      "consigna": "Los documentos, plantillas, presentaciones, guías, PDFs, grabaciones y recursos que un alumno recibe o puede descargar. Qué es cada uno, en qué momento lo recibe y dónde está hoy. Este es el bloque que siempre queda corto: hay material hecho que nadie recuerda que existe.",
+      "campo": "tabla",
+      "columnas": ["El material", "Qué es", "Cuándo lo recibe", "Dónde está hoy"],
+      "filas": 12
+    },
+    {
+      "cid": 6,
+      "titulo": "La comunidad",
+      "consigna": "Dónde vive, quién la modera, qué pasa adentro en una semana normal y qué dinámicas fijas tiene. Si hay más de un lugar —un grupo, una plataforma, un canal— van todos, porque tener la comunidad partida en tres lugares también es información.",
+      "campo": "lineas",
+      "lineas": [
+        "Dónde vive",
+        "Quién la modera",
+        "Qué pasa en una semana normal",
+        "Las dinámicas fijas que tiene",
+        "Cuánta gente participa de verdad"
+      ]
+    },
+    {
+      "cid": 7,
+      "titulo": "Cómo lo cuentan hoy en la venta",
+      "consigna": "Pegá textual lo que se dice cuando se vende: lo que está escrito en la página, lo que se dice en la llamada, lo que se promete en el webinar, lo que dice el mail. Sin corregirlo ni mejorarlo. Lo que importa acá es ver la distancia entre lo que se promete y lo que se entrega, y esa distancia sólo aparece si las dos cosas están escritas al lado.",
+      "campo": "texto",
+      "alto": 10,
+      "placeholder": "En la página dice…\n\nEn la llamada decimos…\n\nEn el webinar prometemos…"
+    },
+    {
+      "cid": 8,
+      "titulo": "Qué se usa de verdad y qué quedó muerto",
+      "consigna": "La pregunta incómoda y la que más rinde. De todo lo de arriba: qué consumen realmente los alumnos, qué abren una vez y no vuelven, y qué directamente nadie mira. Si no tienen el dato medido, va la intuición de ustedes, que en esto suele acertar.",
+      "campo": "tabla",
+      "columnas": ["Qué", "¿Se usa?", "Cómo lo sabemos"],
+      "filas": 10
+    },
+    {
+      "cid": 9,
+      "nuestro": true,
+      "titulo": "Qué hacemos nosotros con esto",
+      "texto": [
+        "Con el inventario completo a la vista se puede hacer lo que sin él es adivinar: separar lo que sostiene el resultado de lo que está de adorno, ver qué se puede grabar una vez y entregar muchas, y decidir dónde corta cada nivel si el programa se va a partir.",
+        "Las decisiones de estructura y de precio las escribimos nosotros. Lo que necesitamos de ustedes es el inventario entero, incluido lo que está a medio hacer."
+      ]
+    }
+  ]
+}

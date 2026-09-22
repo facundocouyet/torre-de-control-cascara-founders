@@ -1,0 +1,24 @@
+{
+  "modulo": "auditoria-del-programa",
+  "slug": "momentum-club",
+  "founder": "The Momentum Club",
+  "bajada": "Todo lo que se entrega hoy adentro del club, en un solo lugar: los módulos de los cuatro pilares, las llamadas, las grupales, los eventos, los materiales y la comunidad. Más cómo lo cuentan cuando lo venden.",
+  "lista_cuando": "Alguien de afuera lee la hoja y puede explicar qué recibe un alumno del club desde que entra hasta que termina, sin preguntarles nada.",
+  "bajada_envio": {
+    "founder": "Israel y Natalia",
+    "porque": "Para partir el club en dos niveles hay que ver primero todo lo que hay adentro. Hoy eso no está escrito en ningún lado: está en la plataforma, en el Drive, en los grupos y en la cabeza de cada uno. Sin el inventario completo, decidir qué va al curso de entrada y qué queda en la mentoría es adivinar.",
+    "objetivo": "El inventario entero antes de la auditoría de producto con Franco. Con esto y la hoja de clientes arriba, esa llamada se hace sobre lo que existe.",
+    "mindset": "No hay que decidir nada acá, ni definir precios, ni armar la escalera: eso lo hacemos nosotros después. Lo que pedimos es la lista completa, incluido lo que está a medio hacer y lo que se prometió y no se está dando. Eso último es lo que más sirve."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Los cuatro pilares, para arrancar por ahí",
+      "texto": [
+        "El club está armado sobre cuatro pilares y conviene usarlos como esqueleto de la lista: <b>marca personal y contenido</b>, que lleva Israel; <b>negocio, ventas y mentalidad</b>, que lleva Natalia; <b>networking y eventos</b>; y <b>creación y dossier artístico</b>.",
+        "Cada pregunta de abajo se puede contestar recorriendo los cuatro. Qué módulos tiene cada pilar, qué llamadas, qué materiales. Así no se olvida nada y además se ve enseguida si alguno de los cuatro está mucho más flaco que el resto.",
+        "Van nueve meses de programa: hay más adentro de lo que parece cuando se lo piensa de memoria."
+      ]
+    }
+  ]
+}
