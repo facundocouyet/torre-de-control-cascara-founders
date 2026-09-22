@@ -2,75 +2,113 @@
   "modulo": "icp-mecanismo",
   "slug": "momentum-club",
   "founder": "The Momentum Club",
-  "bajada": "La auditoría de los clientes que ya pasaron por el club: quiénes son, en qué momento estaban cuando entraron, qué les cambió y por qué los que se fueron se fueron. De acá sale el nivel de entrada de la escalera, y también qué se dice en el webinar del 28.",
-  "lista_cuando": "Los veinticuatro que están hoy y los doce que llegaron al final del ciclo están anotados uno por uno, y de los seis que no renovaron está escrito qué dijo cada uno.",
-  "completar": [
-    "Esta carta completa, con los seis que no renovaron contados uno por uno"
+  "titulo": "La hoja de tu cliente ideal",
+  "bajada": "Los veinticuatro que pasaron por el club, uno por uno: quién es, de dónde salió, en qué momento entró, qué consiguió adentro y qué pasó al final del ciclo. No hay que investigar nada ni preguntarle a nadie: es vaciar lo que ya saben.",
+  "lista_cuando": "Los veinticuatro están anotados con nombre, y de los doce que llegaron al final del ciclo está escrito qué pasó con cada uno.",
+  "completar": ["Esta carta completa, con los veinticuatro anotados y los casos contados"],
+  "pasos": [
+    "Listar a los veinticuatro, uno por uno, con lo que ya saben de cada uno.",
+    "Contar qué pasó con los doce que llegaron al final del ciclo: los seis que siguieron y los seis que no.",
+    "Escribir los casos con resultado, con el detalle que hoy está en los móviles.",
+    "Pegar textuales las frases que ya dijeron en las llamadas de renovación y en los mensajes.",
+    "Cerrar con el patrón: a quién le funciona esto y a quién no."
   ],
   "bajada_envio": {
     "founder": "Israel y Natalia",
-    "porque": "En la llamada quedó decidido partir el producto en dos niveles: un curso de entrada, grabado y escalable, que ayuda a un artista a vender su primera obra; y una mentoría de alto ticket para el que ya vende y quiere escalar. Esa escalera se construye sobre una respuesta que todavía no está escrita: <b>de los doce que llegaron al final del ciclo, seis renovaron y seis no</b>. Saber en qué se diferencian esos dos grupos es lo que define dónde corta cada nivel.",
-    "objetivo": "La auditoría de clientes completa antes de la auditoría de producto con Franco. Sin esto, la escalera se arma sobre una intuición; con esto, se arma sobre treinta y seis personas reales.",
-    "mindset": "Contestá con nombres. «Los artistas que recién empiezan» no sirve para decidir nada; «Lali entró bloqueada hacía meses y vendió dos obras» sí. Las historias que ya conocen de memoria son el material, sólo que todavía no están escritas en ningún lado."
+    "porque": "En la llamada quedó decidido partir el producto en dos niveles: un curso de entrada que lleva a un artista a vender su primera obra, y una mentoría para el que ya vende y quiere escalar. Dónde corta uno y empieza el otro no se decide en una pizarra: se decide mirando a los veinticuatro que ya pasaron por el club. Esta hoja es eso, y nada más que eso.",
+    "objetivo": "Los veinticuatro escritos antes de la auditoría de producto con Franco. Con eso, esa llamada se hace sobre gente real en vez de sobre una idea de artista.",
+    "mindset": "No hay que investigar nada ni entrevistar a nadie. Todo lo que pide esta hoja ya lo saben los dos de memoria o está en los chats: es sacarlo de ahí y ponerlo en un solo lugar. Escriban con nombres y con detalle, aunque quede largo y desordenado. Lo ordenamos nosotros."
   },
-  "bloques_inicio": [
+  "secciones": [
     {
+      "cid": 0,
       "nuestro": true,
-      "titulo": "Por qué esta hoja, y por qué ahora",
+      "titulo": "Qué es esta hoja y qué no",
       "texto": [
-        "El club vende y entrega: veinticuatro personas activas, veintiocho mil quinientos euros facturados desde enero y más de diez casos con resultado. Cuando el negocio ya vendió, el cliente ideal no se imagina: <b>se encuentra adentro de los que ya pagaron</b>. Por eso esta hoja va antes que cualquier otra cosa.",
-        "Y va ahora porque lo que se decidió en la llamada depende de ella. El curso de entrada tiene que resolverle algo concreto a alguien concreto —vender su primera obra—, y la mentoría empieza donde ese alguien ya vendió. La línea entre los dos niveles la marcan los treinta y seis que ya pasaron por acá.",
-        "La pregunta que más rinde de toda la hoja es la de los que no renovaron. Si se fueron por precio y por momento, el nivel de entrada es la respuesta. Si se fueron porque la entrega se les hizo chica, la respuesta es otra y conviene saberlo antes de grabar un curso."
+        "Esto no es un estudio de mercado. Es el inventario de lo que ya pasó por el club: veinticuatro personas activas, más de diez con un resultado concreto y doce que ya llegaron al final del ciclo. Todo eso hoy vive en la cabeza de ustedes dos y en los móviles.",
+        "Lo único que pedimos es que salga de ahí y quede escrito en un solo lugar. No hace falta llamar a nadie, ni preguntarle nada a nadie, ni deducir perfiles: se contesta con lo que ya saben.",
+        "Sirve para tres cosas al mismo tiempo. Define dónde corta el nivel de entrada y dónde empieza la mentoría. Da la prueba social del webinar del lunes. Y deja escrito el material con el que después se arma el contenido del club."
       ]
     },
     {
-      "nuestro": true,
-      "titulo": "Lo que ya está decidido, para que no lo repiensen",
-      "texto": [
-        "<b>Las dos marcas se separan.</b> Israel construye autoridad artística —su narrativa, lo que le cuesta y lo que consigue—. El club se posiciona como la comunidad que muestra herramientas y resultados. Esa división es lo que permite que Israel vuelva al arte y que Natalia lleve el negocio.",
-        "<b>El producto pasa a ser una escalera de dos niveles.</b> Nivel uno: curso de entrada, grabado, escalable, con llamadas grupales, enfocado en marketing y venta y no en introspección artística. Nivel dos: mentoría personalizada, de ticket alto, para el artista que ya vende y quiere escalar.",
-        "<b>La venta pasa a ser de dos pasos.</b> El webinar deja de cerrar: genera leads. QR al WhatsApp, un setter califica y agenda, y Natalia cierra en llamadas de descubrimiento uno a uno.",
-        "<b>El lanzamiento del 28 es la prueba.</b> Se corre con el proceso nuevo y con las plazas limitadas a diez, presentado como la última oportunidad del programa de nueve meses. Lo que más vale de ese lanzamiento no es lo que se venda: son las objeciones que se recojan en las llamadas."
-      ]
-    }
-  ],
-  "bloques_final": [
-    {
-      "cid": 30,
-      "titulo": "Los seis que no renovaron, uno por uno",
-      "consigna": "La pregunta que decide todo lo demás. Doce llegaron al final del ciclo y seis siguieron. De los seis que no, escribí qué dijo cada uno —textual si lo tenés en un mensaje o en una llamada— y qué creen ustedes que pasó en realidad, que no siempre es lo mismo. Si de alguno no saben, escriban «no sé»: eso también es un dato, y es el que dice cuánto se está escuchando al que se va.",
+      "cid": 1,
+      "titulo": "Los veinticuatro, uno por uno",
+      "consigna": "Una fila por persona. Con lo que sepan: no hace falta que esté completo, y si de alguno falta algo se deja en blanco. Lo importante es que estén los veinticuatro y que cada uno tenga nombre. De dónde salió quiere decir cómo llegó: por la cuenta de Israel, por el webinar, por recomendación de otro, por una campaña.",
       "campo": "tabla",
-      "columnas": [
-        "Quién",
-        "Qué dijo, textual",
-        "Qué creemos que pasó",
-        "¿Vendió algo mientras estuvo?"
-      ],
-      "filas": 6,
+      "columnas": ["Quién", "De dónde salió", "En qué momento estaba cuando entró", "Qué buscaba"],
+      "filas": 24,
       "ejemplo": {
-        "quien": "Cómo se lee",
-        "texto": "Si la mayoría se fue por precio o porque no era el momento, el cuello es la demanda y el nivel de entrada es la respuesta. Si se fueron porque la entrega se les hizo chica o porque ya no tenían qué sacarle al club, la respuesta es otra y conviene saberlo antes de grabar un curso entero."
+        "quien": "Cómo llenarlo",
+        "texto": "«Lali · por la cuenta de Isra · llevaba meses sin pintar y sin vender nada · quería volver a producir y empezar a vender». Con ese nivel de detalle alcanza. Si de alguno se acuerdan menos, ponen menos."
       }
     },
     {
-      "cid": 31,
-      "titulo": "Los seis que sí renovaron, y por qué",
-      "consigna": "El otro lado de la misma pregunta, y el que arma el nivel dos. Qué tienen en común los seis que siguieron: en qué momento entraron, qué consiguieron adentro y qué dijeron cuando renovaron. Los testimonios de esas llamadas de renovación ya los tienen transcritos: usalos textuales, no los resumas.",
+      "cid": 2,
+      "titulo": "Qué consiguió cada uno adentro",
+      "consigna": "La misma lista, mirada por el otro lado: qué se llevó cada uno. Vendió, expuso, subió de precio, se organizó, salió del bloqueo, armó su dossier, consiguió una galería. Y si alguno no consiguió nada, eso también se escribe: es la información que más sirve.",
       "campo": "tabla",
-      "columnas": [
-        "Quién",
-        "Qué consiguió adentro",
-        "Qué dijo al renovar",
-        "Qué busca ahora"
-      ],
+      "columnas": ["Quién", "Qué consiguió", "Cuánto tardó", "¿Se puede contar en público?"],
+      "filas": 24
+    },
+    {
+      "cid": 3,
+      "titulo": "Los casos, con el detalle que hoy está en los móviles",
+      "consigna": "Los que tienen un resultado fuerte, contados como historia y no como titular: cómo llegó, qué hizo adentro, qué consiguió y cuándo. Mónica y el Ritz, Borja rompiendo su techo, María llenando sus talleres, Lali volviendo a vender, Yaiza y su primera expo, y los que falten. Escriban largo: acá está la prueba social del webinar del lunes y el contenido de los próximos meses.",
+      "campo": "texto",
+      "alto": 14,
+      "placeholder": "Mónica llegó así… adentro hizo… y terminó…\n\nBorja llegó así…"
+    },
+    {
+      "cid": 4,
+      "titulo": "Los seis que no renovaron, uno por uno",
+      "consigna": "La pregunta que decide el resto. Doce llegaron al final del ciclo y seis siguieron. De los seis que no, qué dijo cada uno —textual si está en un mensaje o en una llamada— y qué creen ustedes que pasó en realidad, que no siempre es lo mismo. Si de alguno no saben, escriban «no sé»: eso también es un dato.",
+      "campo": "tabla",
+      "columnas": ["Quién", "Qué dijo, textual", "Qué creemos que pasó", "¿Vendió algo mientras estuvo?"],
+      "filas": 6,
+      "ejemplo": {
+        "quien": "Para qué sirve",
+        "texto": "Si la mayoría se fue por precio o porque no era el momento, el cuello es la demanda y el nivel de entrada es la respuesta. Si se fueron porque la entrega se les hizo chica o porque ya no tenían qué sacarle al club, la respuesta es otra, y conviene saberlo antes de grabar un curso entero."
+      }
+    },
+    {
+      "cid": 5,
+      "titulo": "Los seis que sí renovaron, y por qué",
+      "consigna": "El otro lado de la misma pregunta, y el que arma la mentoría. Qué tienen en común los que siguieron: en qué momento entraron, qué consiguieron y qué buscan ahora. Los testimonios de esas llamadas de renovación ya los tienen transcritos: peguen los textuales, sin resumirlos.",
+      "campo": "tabla",
+      "columnas": ["Quién", "Qué consiguió", "Qué dijo al renovar", "Qué busca ahora"],
       "filas": 6
     },
     {
+      "cid": 6,
+      "titulo": "Lo que ya les dijeron sin que preguntaran",
+      "consigna": "Frases textuales, tal como llegaron: mensajes privados, comentarios, audios, lo que dijeron en las llamadas. Las de los que están adentro y las de los que preguntaron y no entraron. Sin corregirlas ni mejorarlas. Estas frases son el copy del club: no hay que escribirlas, hay que encontrarlas.",
+      "campo": "tabla",
+      "columnas": ["La frase, textual", "Quién la dijo", "Dónde"],
+      "filas": 10,
+      "ejemplo": {
+        "quien": "Ya las tienen",
+        "texto": "«Me ha encantado sentirme acompañada, tener una comunidad que esté en tu sector» y «hay un vacío de poder, quiero saber cómo venderlo» son dos que ya están transcritas en los Insights. Así de crudas sirven."
+      }
+    },
+    {
+      "cid": 7,
+      "titulo": "El patrón: a quién le funciona esto",
+      "consigna": "Después de escribir todo lo de arriba, miren la lista entera y contesten dos cosas. A qué tipo de artista le funciona el club, dicho por el momento en el que está y no por el rubro. Y a quién no le funciona, que es la pregunta que casi nadie contesta y la que evita meter gente que se va a ir a los tres meses.",
+      "campo": "lineas",
+      "lineas": [
+        "A quién le funciona: está en el momento de…",
+        "Y además tiene…",
+        "A quién no le funciona: viene con…",
+        "La señal de alarma en una llamada de venta es…"
+      ]
+    },
+    {
+      "cid": 8,
       "nuestro": true,
-      "titulo": "Lo que sale de acá",
+      "titulo": "Qué hacemos nosotros con esto",
       "texto": [
-        "Con esta hoja y la del precio arriba, se agenda la auditoría de producto con Franco y ahí se cierra la escalera: qué incluye cada nivel, a cuánto, y dónde corta uno y empieza el otro.",
-        "Y en el camino hay algo que sirve el lunes: las historias que escriban acá son la prueba social del webinar. Mónica en el Ritz, Borja rompiendo su techo, María llenando sus talleres, Lali vendiendo después de meses bloqueada. Hoy están en los móviles y en la memoria de ustedes. Escritas, son contenido y son venta."
+        "Con esta hoja y la del precio arriba, se agenda la auditoría de producto con Franco y ahí se cierra la escalera: qué incluye cada nivel, a cuánto, y dónde corta uno y empieza el otro. Las decisiones de posicionamiento las escribimos nosotros: lo que necesitamos de ustedes es el material crudo.",
+        "Y hay algo que sirve antes: los casos que escriban en la tercera pregunta son la prueba social del webinar del 28. Hoy están en los móviles. Escritos, son venta."
       ]
     }
   ]
