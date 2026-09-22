@@ -535,6 +535,24 @@ ul.tl li{padding:0}
 .nota textarea:focus{outline:none;border-color:var(--tinta)}
 .nota.con .et{color:var(--tinta)}
 .nota.con textarea{border-color:var(--tinta)}
+/* lo que Aye agrega a mano */
+.agrega{margin-top:20px;border-top:1px solid var(--tiza);padding-top:14px}
+.agrega>.et{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--gris2);
+  display:flex;gap:10px;align-items:baseline;margin-bottom:10px}
+.agrega>.et span{letter-spacing:.02em;text-transform:none;font-size:11px;opacity:.75}
+.nuevos{list-style:none;margin:0 0 12px;padding:0}
+.nuevos li{display:flex;gap:10px;align-items:flex-start;padding:7px 0;border-bottom:1px solid var(--tiza)}
+.nuevos li label{display:flex;gap:10px;align-items:flex-start;flex:1;cursor:pointer;font-size:14.5px;line-height:1.5}
+.nuevos li.ok span{text-decoration:line-through;color:var(--gris2)}
+.nuevos .x{border:0;background:none;color:var(--gris2);font-size:17px;line-height:1;cursor:pointer;padding:0 2px}
+.nuevos .x:hover{color:var(--rojo)}
+.sumar{display:flex;gap:8px}
+.sumar input{flex:1;box-sizing:border-box;border:1px solid var(--tiza);background:transparent;border-radius:0;
+  padding:10px 12px;font:inherit;font-size:14.5px;color:inherit}
+.sumar input:focus{outline:none;border-color:var(--tinta)}
+.sumar button{border:1px solid var(--tinta);background:var(--tinta);color:var(--papel2);
+  padding:0 15px;font:inherit;font-size:11px;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+.agrega .nota{margin-top:16px;border-top:0;padding-top:0}
 /* la barra que junta todas */
 .notasbar{display:flex;gap:24px;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;
   border:1px solid var(--tiza);padding:17px 19px;margin:22px 0 4px}
@@ -1271,39 +1289,81 @@ function filaAcc(o){
       '<span class="rt">'+esc(o.rotulo||'')+'</span>'+
       '<span class="ct'+(n&&ok===n?' full':'')+'"><b class="num">'+ok+'</b>/'+n+'</span>'+
       '<span class="br"><i style="width:'+(n?Math.round(ok/n*100):0)+'%"></i></span>'+
-    '</summary><div class="cu">'+(o.extra||'')+(o.pie||'')+notaDe(o)+'</div></details>';
+    '</summary><div class="cu">'+(o.extra||'')+(o.pie||'')+extraDe(o)+'</div></details>';
 }
 
 /* ── las notas de Aye ──────────────────────────────────────────────────────
    Un espacio por cliente para lo que no está en la lista. Se guarda en este
    navegador, así que para que llegue a Facu hay que juntarlas con el botón
    de arriba: no viaja sola. */
-var KNOTAS='cf-acc-notas';
-var NOTAS=leerL(KNOTAS);
-function notaDe(o){
-  var v=NOTAS[o.id]||'';
-  return '<div class="nota'+(v?' con':'')+'">'+
-    '<div class="et">Nota para Facu <span>lo que no está en la lista</span></div>'+
-    '<textarea data-nota="'+o.id+'" rows="2" placeholder="Lo que pas\u00f3 con este cliente y no figura ac\u00e1 arriba\u2026">'+esc(v)+'</textarea>'+
-    '</div>';
+var KNOTAS='cf-acc-notas', KNUEV='cf-acc-nuevos';
+var NOTAS=leerL(KNOTAS), NUEVOS=leerL(KNUEV);
+function nuevosDe(id){ return NUEVOS[id]||[] }
+
+/* lo que Aye agrega a mano: se tilda igual que el resto y se exporta con las notas */
+function extraDe(o){
+  var v=NOTAS[o.id]||'', ns=nuevosDe(o.id);
+  var h='<div class="agrega">';
+  h+='<div class="et">Lo que falta en esta lista <span>se agrega ac\u00e1</span></div>';
+  if(ns.length){
+    h+='<ul class="nuevos">';
+    ns.forEach(function(x,i){
+      h+='<li'+(x.h?' class="ok"':'')+'><label>'+
+         '<input type="checkbox" data-nuevo="'+o.id+'" data-i="'+i+'"'+(x.h?' checked':'')+'>'+
+         '<span>'+esc(x.t)+'</span></label>'+
+         '<button class="x" data-del="'+o.id+'" data-i="'+i+'" title="Sacarlo" aria-label="Sacarlo">\u00d7</button></li>';
+    });
+    h+='</ul>';
+  }
+  h+='<div class="sumar"><input type="text" data-add="'+o.id+'" '+
+     'placeholder="Agregar un accionable para este cliente\u2026">'+
+     '<button data-a="add" data-id="'+o.id+'">Agregar</button></div>';
+  h+='<div class="nota'+(v?' con':'')+'">'+
+     '<div class="et">O una nota suelta <span>algo que contar, no un accionable</span></div>'+
+     '<textarea data-nota="'+o.id+'" rows="2" placeholder="Lo que pas\u00f3 con este cliente y no figura ac\u00e1 arriba\u2026">'+esc(v)+'</textarea>'+
+     '</div>';
+  return h+'</div>';
+}
+function agregarAcc(id, txt){
+  if(!txt || !txt.trim()) return;
+  var l=nuevosDe(id).slice(); l.push({t:txt.trim(), h:0});
+  NUEVOS[id]=l; guardarL(KNUEV,NUEVOS);
+}
+function sacarAcc(id,i){
+  var l=nuevosDe(id).slice(); l.splice(i,1);
+  if(l.length) NUEVOS[id]=l; else delete NUEVOS[id];
+  guardarL(KNUEV,NUEVOS);
+}
+function tildarNuevo(id,i,v){
+  var l=nuevosDe(id).slice(); if(!l[i]) return;
+  l[i]=({t:l[i].t, h:v?1:0}); NUEVOS[id]=l; guardarL(KNUEV,NUEVOS);
 }
 function guardarNota(id,v){
   if(v && v.trim()) NOTAS[id]=v; else delete NOTAS[id];
   guardarL(KNOTAS,NOTAS); contarNotas();
 }
-function cuantasNotas(){ return Object.keys(NOTAS).length; }
+function cuantasNotas(){
+  var ids={}; Object.keys(NOTAS).forEach(function(k){ids[k]=1});
+  Object.keys(NUEVOS).forEach(function(k){ if(nuevosDe(k).length) ids[k]=1 });
+  return Object.keys(ids).length;
+}
 function contarNotas(){
   document.querySelectorAll('[data-notas-n]').forEach(function(el){
     var n=cuantasNotas();
-    el.textContent = n ? (n===1?'1 nota escrita':n+' notas escritas') : 'sin notas todav\u00eda';
+    el.textContent = n ? (n===1?'1 caso con algo escrito':n+' casos con algo escrito') : 'nada escrito todav\u00eda';
     el.classList.toggle('hay', n>0);
   });
 }
 function textoNotas(){
-  var out=['Notas de los accionables \u00b7 '+new Date().toLocaleDateString('es-AR'),''];
+  var out=['Notas y accionables nuevos \u00b7 '+new Date().toLocaleDateString('es-AR'),''];
   ['entrega','founders','cascara'].forEach(function(k){
     (ACC[k]||[]).forEach(function(o){
-      if(NOTAS[o.id]) out.push('\u2500 '+o.nombre, NOTAS[o.id].trim(), '');
+      var ns=nuevosDe(o.id), nt=NOTAS[o.id];
+      if(!ns.length && !nt) return;
+      out.push('\u2500 '+o.nombre);
+      ns.forEach(function(x){ out.push('  [ '+(x.h?'x':' ')+' ] '+x.t) });
+      if(nt) out.push('  Nota: '+nt.trim());
+      out.push('');
     });
   });
   return out.join('\n');
@@ -1448,6 +1508,34 @@ function vAccionables(){
     var t=e.target; if(!t.dataset || !t.dataset.nota) return;
     guardarNota(t.dataset.nota, t.value);
     var c=t.closest('.nota'); if(c) c.classList.toggle('con', !!(t.value&&t.value.trim()));
+  });
+  /* agregar un accionable a mano: bot\u00f3n o Enter */
+  function sumar(id, campo){
+    if(!campo || !campo.value.trim()) return;
+    agregarAcc(id, campo.value); campo.value='';
+    var d=campo.closest('details.acc'); var ab=d&&d.open;
+    vAccionables(); pintaAcc();
+    if(ab){ var d2=document.querySelector('details.acc[data-id="'+id+'"]');
+            if(d2){ d2.open=true; var c2=d2.querySelector('[data-add]'); if(c2) c2.focus(); } }
+  }
+  V.addEventListener('click',function(e){
+    var b=e.target.closest && e.target.closest('[data-a="add"]');
+    if(b){ e.preventDefault();
+           sumar(b.dataset.id, b.closest('.sumar').querySelector('[data-add]')); return; }
+    var x=e.target.closest && e.target.closest('[data-del]');
+    if(x){ e.preventDefault(); sacarAcc(x.dataset.del, +x.dataset.i);
+           var id=x.dataset.del; vAccionables(); pintaAcc();
+           var d2=document.querySelector('details.acc[data-id="'+id+'"]'); if(d2) d2.open=true; }
+  });
+  V.addEventListener('keydown',function(e){
+    if(e.key!=='Enter') return;
+    var c=e.target; if(!c.dataset || !c.dataset.add) return;
+    e.preventDefault(); sumar(c.dataset.add, c);
+  });
+  V.addEventListener('change',function(e){
+    var i=e.target; if(!i.dataset || !i.dataset.nuevo) return;
+    tildarNuevo(i.dataset.nuevo, +i.dataset.i, i.checked);
+    var li=i.closest('li'); if(li) li.classList.toggle('ok', i.checked);
   });
   V.querySelectorAll('[data-a="copiar-notas"]').forEach(function(b){
     b.addEventListener('click',copiarNotas)});
