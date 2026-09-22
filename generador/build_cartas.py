@@ -373,24 +373,27 @@ def construir(m, categoria, pl=None, bajada=None):
         out.append(campo(s, i).rstrip('\n'))
         out.append('</section>')
 
-    # ---- los entregables, tachables
-    if comp:
+    # ---- el entregable. Es uno solo y es el mismo en todas las cartas: este
+    # documento completo y devuelto. Lo que cada módulo produce sigue estando
+    # en el inventario, pero acá no se lista: al founder se le pide una cosa.
+    if secciones:
         n += 1
         out.append('<section>')
         out.append('  <div class="n">%02d</div>' % n)
-        out.append('  <h2>Los entregables</h2>')
-        toque = ('Tocalo cuando lo termines: queda tachado y se guarda en este navegador.'
-                 if len(comp) == 1 else
-                 'Tocá cada uno cuando lo termines: quedan tachados y se guardan en este navegador.')
-        out.append('  <p class="consigna">%s %s</p>' % (_plural(len(comp)), toque))
+        out.append('  <h2>El entregable</h2>')
+        out.append('  <p class="consigna">Es uno solo: <b>este documento, completo</b>. '
+                   'Se baja con el bot\u00f3n de abajo y se manda de vuelta as\u00ed como qued\u00f3. '
+                   'No hace falta pasarlo a limpio ni armar nada aparte.</p>')
         out.append('  <div class="entregables">')
         out.append('    <div class="cab"><span class="et">Lo que tiene que existir</span></div>')
-        for i, x in enumerate(comp):
-            out.append('    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" '
-                       'data-k="c%d" data-g="entregables">'
-                       '<span class="box"><i></i></span>'
-                       '<span class="t"><span class="txt">%s</span></span></div>' % (i, esc(x)))
+        out.append('    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" '
+                   'data-k="c0" data-g="entregables">'
+                   '<span class="box"><i></i></span>'
+                   '<span class="t"><span class="txt">%s</span></span></div>'
+                   % esc('Este documento completo, con todas las preguntas contestadas'))
         out.append('  </div>')
+        out.append('  <p class="consigna" style="margin-top:18px">Por ahora va y viene como archivo. '
+                   'M\u00e1s adelante la carta vive adentro de la app y se completa ah\u00ed, sin mandar nada.</p>')
         out.append('</section>')
 
     return "\n".join(out)

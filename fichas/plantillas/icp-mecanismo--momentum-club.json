@@ -5,7 +5,6 @@
   "titulo": "La hoja de tu cliente ideal",
   "bajada": "Los veinticuatro que pasaron por el club, uno por uno: quién es, de dónde salió, en qué momento entró, qué consiguió adentro y qué pasó al final del ciclo. No hay que investigar nada ni preguntarle a nadie: es vaciar lo que ya saben.",
   "lista_cuando": "Los veinticuatro están anotados con nombre, y de los doce que llegaron al final del ciclo está escrito qué pasó con cada uno.",
-  "completar": ["Esta carta completa, con los veinticuatro anotados y los casos contados"],
   "pasos": [
     "Listar a los veinticuatro, uno por uno, con lo que ya saben de cada uno.",
     "Contar qué pasó con los doce que llegaron al final del ciclo: los seis que siguieron y los seis que no.",
@@ -35,7 +34,12 @@
       "titulo": "Los veinticuatro, uno por uno",
       "consigna": "Una fila por persona. Con lo que sepan: no hace falta que esté completo, y si de alguno falta algo se deja en blanco. Lo importante es que estén los veinticuatro y que cada uno tenga nombre. De dónde salió quiere decir cómo llegó: por la cuenta de Israel, por el webinar, por recomendación de otro, por una campaña.",
       "campo": "tabla",
-      "columnas": ["Quién", "De dónde salió", "En qué momento estaba cuando entró", "Qué buscaba"],
+      "columnas": [
+        "Quién",
+        "De dónde salió",
+        "En qué momento estaba cuando entró",
+        "Qué buscaba"
+      ],
       "filas": 24,
       "ejemplo": {
         "quien": "Cómo llenarlo",
@@ -47,7 +51,12 @@
       "titulo": "Qué consiguió cada uno adentro",
       "consigna": "La misma lista, mirada por el otro lado: qué se llevó cada uno. Vendió, expuso, subió de precio, se organizó, salió del bloqueo, armó su dossier, consiguió una galería. Y si alguno no consiguió nada, eso también se escribe: es la información que más sirve.",
       "campo": "tabla",
-      "columnas": ["Quién", "Qué consiguió", "Cuánto tardó", "¿Se puede contar en público?"],
+      "columnas": [
+        "Quién",
+        "Qué consiguió",
+        "Cuánto tardó",
+        "¿Se puede contar en público?"
+      ],
       "filas": 24
     },
     {
@@ -63,7 +72,12 @@
       "titulo": "Los seis que no renovaron, uno por uno",
       "consigna": "La pregunta que decide el resto. Doce llegaron al final del ciclo y seis siguieron. De los seis que no, qué dijo cada uno —textual si está en un mensaje o en una llamada— y qué creen ustedes que pasó en realidad, que no siempre es lo mismo. Si de alguno no saben, escriban «no sé»: eso también es un dato.",
       "campo": "tabla",
-      "columnas": ["Quién", "Qué dijo, textual", "Qué creemos que pasó", "¿Vendió algo mientras estuvo?"],
+      "columnas": [
+        "Quién",
+        "Qué dijo, textual",
+        "Qué creemos que pasó",
+        "¿Vendió algo mientras estuvo?"
+      ],
       "filas": 6,
       "ejemplo": {
         "quien": "Para qué sirve",
@@ -75,7 +89,12 @@
       "titulo": "Los seis que sí renovaron, y por qué",
       "consigna": "El otro lado de la misma pregunta, y el que arma la mentoría. Qué tienen en común los que siguieron: en qué momento entraron, qué consiguieron y qué buscan ahora. Los testimonios de esas llamadas de renovación ya los tienen transcritos: peguen los textuales, sin resumirlos.",
       "campo": "tabla",
-      "columnas": ["Quién", "Qué consiguió", "Qué dijo al renovar", "Qué busca ahora"],
+      "columnas": [
+        "Quién",
+        "Qué consiguió",
+        "Qué dijo al renovar",
+        "Qué busca ahora"
+      ],
       "filas": 6
     },
     {
@@ -83,7 +102,11 @@
       "titulo": "Lo que ya les dijeron sin que preguntaran",
       "consigna": "Frases textuales, tal como llegaron: mensajes privados, comentarios, audios, lo que dijeron en las llamadas. Las de los que están adentro y las de los que preguntaron y no entraron. Sin corregirlas ni mejorarlas. Estas frases son el copy del club: no hay que escribirlas, hay que encontrarlas.",
       "campo": "tabla",
-      "columnas": ["La frase, textual", "Quién la dijo", "Dónde"],
+      "columnas": [
+        "La frase, textual",
+        "Quién la dijo",
+        "Dónde"
+      ],
       "filas": 10,
       "ejemplo": {
         "quien": "Ya las tienen",
