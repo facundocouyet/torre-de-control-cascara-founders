@@ -524,6 +524,26 @@ ul.tl li{padding:0}
   color:var(--gris2);margin-top:5px}
 .chgr ul{margin:0;padding:0;list-style:none}
 .chgr li{padding:0}
+/* el espacio de notas de cada caso */
+.nota{margin-top:20px;border-top:1px solid var(--tiza);padding-top:14px}
+.nota .et{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--gris2);
+  display:flex;gap:10px;align-items:baseline;margin-bottom:9px}
+.nota .et span{letter-spacing:.02em;text-transform:none;font-size:11px;opacity:.75}
+.nota textarea{width:100%;box-sizing:border-box;border:1px solid var(--tiza);background:transparent;
+  border-radius:0;padding:11px 12px;font:inherit;font-size:14.5px;line-height:1.5;color:inherit;
+  resize:vertical;min-height:58px}
+.nota textarea:focus{outline:none;border-color:var(--tinta)}
+.nota.con .et{color:var(--tinta)}
+.nota.con textarea{border-color:var(--tinta)}
+/* la barra que junta todas */
+.notasbar{display:flex;gap:24px;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;
+  border:1px solid var(--tiza);padding:17px 19px;margin:22px 0 4px}
+.notasbar .tx b{display:block;font-size:14.5px;letter-spacing:-.012em}
+.notasbar .tx span{display:block;font-size:12.5px;line-height:1.5;color:var(--gris);margin-top:5px;max-width:62ch}
+.notasbar .ac{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+.notasbar .cn{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--gris2);margin-right:4px}
+.notasbar .cn.hay{color:var(--tinta)}
+@media (max-width:720px){.notasbar{flex-direction:column;gap:14px}}
 /* lo que ya está hecho según los datos: tachado y sin tocar */
 .chgr li.fijo>label>span{text-decoration:line-through;color:var(--gris2)}
 .chgr li.fijo>label{cursor:default}
@@ -1251,7 +1271,58 @@ function filaAcc(o){
       '<span class="rt">'+esc(o.rotulo||'')+'</span>'+
       '<span class="ct'+(n&&ok===n?' full':'')+'"><b class="num">'+ok+'</b>/'+n+'</span>'+
       '<span class="br"><i style="width:'+(n?Math.round(ok/n*100):0)+'%"></i></span>'+
-    '</summary><div class="cu">'+(o.extra||'')+(o.pie||'')+'</div></details>';
+    '</summary><div class="cu">'+(o.extra||'')+(o.pie||'')+notaDe(o)+'</div></details>';
+}
+
+/* ── las notas de Aye ──────────────────────────────────────────────────────
+   Un espacio por cliente para lo que no está en la lista. Se guarda en este
+   navegador, así que para que llegue a Facu hay que juntarlas con el botón
+   de arriba: no viaja sola. */
+var KNOTAS='cf-acc-notas';
+var NOTAS=leerL(KNOTAS);
+function notaDe(o){
+  var v=NOTAS[o.id]||'';
+  return '<div class="nota'+(v?' con':'')+'">'+
+    '<div class="et">Nota para Facu <span>lo que no está en la lista</span></div>'+
+    '<textarea data-nota="'+o.id+'" rows="2" placeholder="Lo que pas\u00f3 con este cliente y no figura ac\u00e1 arriba\u2026">'+esc(v)+'</textarea>'+
+    '</div>';
+}
+function guardarNota(id,v){
+  if(v && v.trim()) NOTAS[id]=v; else delete NOTAS[id];
+  guardarL(KNOTAS,NOTAS); contarNotas();
+}
+function cuantasNotas(){ return Object.keys(NOTAS).length; }
+function contarNotas(){
+  document.querySelectorAll('[data-notas-n]').forEach(function(el){
+    var n=cuantasNotas();
+    el.textContent = n ? (n===1?'1 nota escrita':n+' notas escritas') : 'sin notas todav\u00eda';
+    el.classList.toggle('hay', n>0);
+  });
+}
+function textoNotas(){
+  var out=['Notas de los accionables \u00b7 '+new Date().toLocaleDateString('es-AR'),''];
+  ['entrega','founders','cascara'].forEach(function(k){
+    (ACC[k]||[]).forEach(function(o){
+      if(NOTAS[o.id]) out.push('\u2500 '+o.nombre, NOTAS[o.id].trim(), '');
+    });
+  });
+  return out.join('\n');
+}
+function copiarNotas(){
+  if(!cuantasNotas()) return;
+  var t=textoNotas();
+  var ok=function(){ var b=document.querySelector('[data-a="copiar-notas"]');
+    if(b){ var v=b.textContent; b.textContent='Copiado'; setTimeout(function(){b.textContent=v},1600); } };
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(t).then(ok,function(){ bajarNotas() });
+  } else { bajarNotas(); }
+}
+function bajarNotas(){
+  if(!cuantasNotas()) return;
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([textoNotas()],{type:'text/plain'}));
+  a.download='notas-accionables.txt';
+  document.body.appendChild(a); a.click(); a.remove();
 }
 function verDoc(ruta,titulo,bajar){
   var r='clientes/'+ruta;
@@ -1357,6 +1428,13 @@ function vAccionables(){
     '<button data-p="entrega">Accionables CSM · <b data-p2="entrega">'+pendientes(ACC.entrega)+'</b></button>'+
     '<button data-p="founders">Cada founder · <b data-p2="founders">'+pendientes(ACC.founders)+'</b></button>'+
     '<button data-p="cascara">Adentro de Cáscara · <b data-p2="cascara">'+pendientes(ACC.cascara)+'</b></button></div>';
+  h+='<div class="notasbar">'+
+     '<div class="tx"><b>Las notas para Facu</b>'+
+       '<span>Abajo de cada cliente hay un espacio para lo que no est\u00e1 en la lista. '+
+       'Lo que escribas queda en esta computadora: para que llegue, junt\u00e1 todo ac\u00e1 y mandalo.</span></div>'+
+     '<div class="ac"><span class="cn" data-notas-n>sin notas todav\u00eda</span>'+
+       '<button data-a="copiar-notas">Copiar todas</button>'+
+       '<button class="ll" data-a="bajar-notas">Bajar en un archivo</button></div></div>';
   h+='<div class="pane" id="p-entrega">'+paneEntrega()+'</div>'+
      '<div class="pane" id="p-founders">'+paneFounders()+'</div>'+
      '<div class="pane" id="p-cascara">'+paneCascara()+'</div>';
@@ -1365,6 +1443,17 @@ function vAccionables(){
   V.innerHTML=h;
   V.querySelectorAll('.conm button').forEach(function(b){
     b.addEventListener('click',function(){PANE_ACC=b.dataset.p;pintaAcc()})});
+  /* las notas: se escriben abajo de cada caso y se juntan todas con un bot\u00f3n */
+  V.addEventListener('input',function(e){
+    var t=e.target; if(!t.dataset || !t.dataset.nota) return;
+    guardarNota(t.dataset.nota, t.value);
+    var c=t.closest('.nota'); if(c) c.classList.toggle('con', !!(t.value&&t.value.trim()));
+  });
+  V.querySelectorAll('[data-a="copiar-notas"]').forEach(function(b){
+    b.addEventListener('click',copiarNotas)});
+  V.querySelectorAll('[data-a="bajar-notas"]').forEach(function(b){
+    b.addEventListener('click',bajarNotas)});
+  contarNotas();
   /* tildar: el checklist y el detalle del caso quedan iguales */
   V.addEventListener('change',function(e){
     var i=e.target; if(i.type!=='checkbox'||!i.dataset.id) return;
