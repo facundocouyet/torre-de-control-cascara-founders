@@ -123,7 +123,46 @@ def revisar_materiales():
                 ojo('materiales · "%s" dice listo y no tiene link' % p['titulo'])
 
 
-for fn in (revisar_cartas, revisar_inventario, revisar_entregas, revisar_materiales):
+
+# ── 5. las palabras que no son las nuestras ────────────────────────────────
+# Los documentos se escriben leyendo llamadas de gente de España, Colombia,
+# Uruguay y México, y sus palabras se filtran a un texto que tiene que sonar a
+# Facu. No es gramática: es léxico y registro.
+VOZ = [
+    (r'\bm[óo]viles?\b', 'celular'), (r'\bordenador\w*', 'computadora'),
+    (r'\bvosotros\b', 'ustedes'), (r'\bvuestr[oa]s?\b', 'su'),
+    (r'\bcoger\b', 'agarrar'), (r'\bguay\b', 'buenísimo'),
+    (r'\baqu[íi]\b', 'acá'), (r'\ball[íi]\b', 'allá'),
+    (r'\bahora mismo\b', 'ahora'), (r'\bechar un vistazo\b', 'mirar'),
+    (r'\bzumo\b', 'jugo'), (r'\bcurrar\b', 'laburar'),
+    (r'\bt[ú]\b', 'vos'), (r'\bpuedes\b', 'podés'), (r'\btienes\b', 'tenés'),
+    (r'\bquieres\b', 'querés'), (r'\bdebes\b', 'tenés que'),
+    (r'\bhaces\b', 'hacés'), (r'\bsabes\b', 'sabés'), (r'\bvienes\b', 'venís'),
+    (r'\bch[ée]vere\b', 'copado'), (r'\bahorita\b', 'ahora'),
+    (r'\bplaticar\b', 'charlar'), (r'\bplatica\b', 'charla'),
+    (r'siguiente nivel', 'sacar: es aspiracional'),
+    (r'\bpotenciar\b', 'sacar: es corporativo'),
+    (r'\bmaximizar\b', 'sacar: es corporativo'),
+    (r'\bsinergia\w*', 'sacar: es corporativo'),
+    (r'\bempoderar\w*', 'sacar: es corporativo'),
+    (r'cabe destacar', 'sacar: es relleno'),
+    (r'es importante destacar', 'sacar: es relleno'),
+    (r'\bsumergi\w+', 'sacar: es relleno'),
+]
+
+def revisar_voz():
+    import glob as _g
+    archivos = sorted(_g.glob(R('fichas/plantillas/*.json'))) + sorted(_g.glob(R('contenido/*.json')))
+    for f in archivos:
+        if os.path.basename(f) == 'app-data.json': continue   # es generado
+        s = open(f, encoding='utf-8').read()
+        for pat, sug in VOZ:
+            for m in re.finditer(pat, s):
+                ctx = re.sub(r'\s+', ' ', s[max(0, m.start()-50):m.start()+50])
+                ojo('%s dice "%s" (va "%s") · …%s…'
+                    % (os.path.basename(f), m.group(0), sug, ctx))
+
+for fn in (revisar_cartas, revisar_inventario, revisar_entregas, revisar_materiales, revisar_voz):
     try: fn()
     except Exception as e: mal('%s reventó: %s' % (fn.__name__, e))
 

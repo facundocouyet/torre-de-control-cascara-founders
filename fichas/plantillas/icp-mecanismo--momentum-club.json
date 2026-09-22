@@ -9,7 +9,7 @@
   "pasos": [
     "Listar a los veinticuatro, uno por uno, con lo que ya saben de cada uno.",
     "Contar qué pasó con los doce que llegaron al final del ciclo: los seis que siguieron y los seis que no.",
-    "Escribir los casos con resultado, con el detalle que hoy está en los móviles.",
+    "Escribir los casos con resultado, con el detalle que hoy está en los celulares.",
     "Pegar textuales las frases que ya dijeron en las llamadas de renovación y en los mensajes.",
     "Cerrar con el patrón: a quién le funciona esto y a quién no."
   ],
@@ -25,7 +25,7 @@
       "nuestro": true,
       "titulo": "Qué es esta hoja y qué no",
       "texto": [
-        "Esto no es un estudio de mercado. Es el inventario de lo que ya pasó por el club: veinticuatro personas activas, más de diez con un resultado concreto y doce que ya llegaron al final del ciclo. Todo eso hoy vive en la cabeza de ustedes dos y en los móviles.",
+        "Esto no es un estudio de mercado. Es el inventario de lo que ya pasó por el club: veinticuatro personas activas, más de diez con un resultado concreto y doce que ya llegaron al final del ciclo. Todo eso hoy vive en la cabeza de ustedes dos y en los celulares.",
         "Lo único que pedimos es que salga de ahí y quede escrito en un solo lugar. No hace falta llamar a nadie, ni preguntarle nada a nadie, ni deducir perfiles: se contesta con lo que ya saben.",
         "Sirve para tres cosas al mismo tiempo. Define dónde corta el nivel de entrada y dónde empieza la mentoría. Da la prueba social del webinar del lunes. Y deja escrito el material con el que después se arma el contenido del club."
       ]
@@ -52,7 +52,7 @@
     },
     {
       "cid": 3,
-      "titulo": "Los casos, con el detalle que hoy está en los móviles",
+      "titulo": "Los casos, con el detalle que hoy está en los celulares",
       "consigna": "Los que tienen un resultado fuerte, contados como historia y no como titular: cómo llegó, qué hizo adentro, qué consiguió y cuándo. Mónica y el Ritz, Borja rompiendo su techo, María llenando sus talleres, Lali volviendo a vender, Yaiza y su primera expo, y los que falten. Escriban largo: acá está la prueba social del webinar del lunes y el contenido de los próximos meses.",
       "campo": "texto",
       "alto": 14,
@@ -108,7 +108,7 @@
       "titulo": "Qué hacemos nosotros con esto",
       "texto": [
         "Con esta hoja y la del precio arriba, se agenda la auditoría de producto con Franco y ahí se cierra la escalera: qué incluye cada nivel, a cuánto, y dónde corta uno y empieza el otro. Las decisiones de posicionamiento las escribimos nosotros: lo que necesitamos de ustedes es el material crudo.",
-        "Y hay algo que sirve antes: los casos que escriban en la tercera pregunta son la prueba social del webinar del 28. Hoy están en los móviles. Escritos, son venta."
+        "Y hay algo que sirve antes: los casos que escriban en la tercera pregunta son la prueba social del webinar del 28. Hoy están en los celulares. Escritos, son venta."
       ]
     }
   ]
