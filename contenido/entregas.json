@@ -438,17 +438,23 @@
     },
     {
       "nombre": "The Momentum Club",
-      "estado": "Ingresó 16/09 · sin ficha",
-      "proyecto": "Israel Barranco y Natalia Zabaleta. Acompañan artistas en 4 pilares; vienen de un programa de 9 meses que están pasando a 6 más renovaciones. El onboarding con Teo ya está hecho.",
+      "estado": "En curso · cierra 15/12",
+      "proyecto": "Club de acompañamiento para artistas plásticos, de Israel Barranco y Natalia Zabaleta. Veinticuatro activos, ticket de 1.500 euros y 28.501 facturados desde enero. El cuello: el club no existe sin la cuenta de Israel, que tiene 142.000 seguidores contra los 6.683 del club. START 16/09.",
       "accionables": [
-        "[hecho] Completaron los Founder Insights.",
-        "[hecho] La Clarity Call con Facu quedó coordinada para hoy.",
-        "Después de la Clarity se escribe la ficha y entra al circuito como el resto: documento, roadmap y accionables.",
-        "Cargar START en Cuentas con el 16 de septiembre, para que el conteo de los 90 días arranque bien."
+        "[hecho] Completaron los Founder Insights y la Clarity Call con Facu ya se hizo el 22/09.",
+        "Mandarle las dos cartas que quedaron comprometidas en esa llamada: <b>la auditoría de clientes</b> (ICP y mecanismo) y <b>la auditoría del programa</b> (precio y escalera). Van juntas y son lo que Franco necesita arriba de la mesa.",
+        "Agendar la <b>auditoría de producto con Franco</b> para construir la escalera de dos niveles: curso de entrada grabado y escalable que lleva a vender la primera obra, y mentoría de ticket alto para el que ya vende.",
+        "Entrar a la comunidad de WhatsApp del webinar. Son 316 leads y la conversión histórica es de 3 a 5%: cada punto son tres altas de 1.500.",
+        "<b>El lanzamiento del 28 es la prueba del proceso nuevo</b>: el webinar deja de cerrar y pasa a generar leads. QR al WhatsApp, un setter califica y agenda, y Natalia cierra en llamadas uno a uno. Diez plazas, presentado como la última oportunidad del programa de nueve meses. Que graben todas las llamadas de venta.",
+        "Después del lanzamiento: el relanzamiento de cuatro semanas con el producto nuevo, y el calendario de contenido armado con las objeciones que salgan de esas llamadas.",
+        "La separación de marcas es el trabajo de fondo: Israel construye autoridad artística, el club muestra herramientas y resultados. La carta de dirección visual va después de la escalera.",
+        "Hay más de diez casos con resultado —Mónica en el Ritz, Borja rompiendo su techo, María, Lali, Yaiza— y están en los móviles, sin proceso. Es prueba social para el webinar del lunes.",
+        "Escribir la ficha con la lectura de la Clarity y calcular el puntaje.",
+        "Cargar START en Cuentas con el 16 de septiembre."
       ],
       "doc": null,
       "extra": null,
-      "nota": "Sin documento todavía: la ficha se escribe después de la Clarity Call.",
+      "nota": "La ficha se escribe con la lectura de la Clarity del 22/09.",
       "slug": "the-momentum-club",
       "upselling": false
     }

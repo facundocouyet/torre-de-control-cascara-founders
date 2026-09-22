@@ -1,0 +1,77 @@
+{
+  "modulo": "icp-mecanismo",
+  "slug": "momentum-club",
+  "founder": "The Momentum Club",
+  "bajada": "La auditoría de los clientes que ya pasaron por el club: quiénes son, en qué momento estaban cuando entraron, qué les cambió y por qué los que se fueron se fueron. De acá sale el nivel de entrada de la escalera, y también qué se dice en el webinar del 28.",
+  "lista_cuando": "Los veinticuatro que están hoy y los doce que llegaron al final del ciclo están anotados uno por uno, y de los seis que no renovaron está escrito qué dijo cada uno.",
+  "completar": [
+    "Esta carta completa, con los seis que no renovaron contados uno por uno"
+  ],
+  "bajada_envio": {
+    "founder": "Israel y Natalia",
+    "porque": "En la llamada quedó decidido partir el producto en dos niveles: un curso de entrada, grabado y escalable, que ayuda a un artista a vender su primera obra; y una mentoría de alto ticket para el que ya vende y quiere escalar. Esa escalera se construye sobre una respuesta que todavía no está escrita: <b>de los doce que llegaron al final del ciclo, seis renovaron y seis no</b>. Saber en qué se diferencian esos dos grupos es lo que define dónde corta cada nivel.",
+    "objetivo": "La auditoría de clientes completa antes de la auditoría de producto con Franco. Sin esto, la escalera se arma sobre una intuición; con esto, se arma sobre treinta y seis personas reales.",
+    "mindset": "Contestá con nombres. «Los artistas que recién empiezan» no sirve para decidir nada; «Lali entró bloqueada hacía meses y vendió dos obras» sí. Las historias que ya conocen de memoria son el material, sólo que todavía no están escritas en ningún lado."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Por qué esta hoja, y por qué ahora",
+      "texto": [
+        "El club vende y entrega: veinticuatro personas activas, veintiocho mil quinientos euros facturados desde enero y más de diez casos con resultado. Cuando el negocio ya vendió, el cliente ideal no se imagina: <b>se encuentra adentro de los que ya pagaron</b>. Por eso esta hoja va antes que cualquier otra cosa.",
+        "Y va ahora porque lo que se decidió en la llamada depende de ella. El curso de entrada tiene que resolverle algo concreto a alguien concreto —vender su primera obra—, y la mentoría empieza donde ese alguien ya vendió. La línea entre los dos niveles la marcan los treinta y seis que ya pasaron por acá.",
+        "La pregunta que más rinde de toda la hoja es la de los que no renovaron. Si se fueron por precio y por momento, el nivel de entrada es la respuesta. Si se fueron porque la entrega se les hizo chica, la respuesta es otra y conviene saberlo antes de grabar un curso."
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está decidido, para que no lo repiensen",
+      "texto": [
+        "<b>Las dos marcas se separan.</b> Israel construye autoridad artística —su narrativa, lo que le cuesta y lo que consigue—. El club se posiciona como la comunidad que muestra herramientas y resultados. Esa división es lo que permite que Israel vuelva al arte y que Natalia lleve el negocio.",
+        "<b>El producto pasa a ser una escalera de dos niveles.</b> Nivel uno: curso de entrada, grabado, escalable, con llamadas grupales, enfocado en marketing y venta y no en introspección artística. Nivel dos: mentoría personalizada, de ticket alto, para el artista que ya vende y quiere escalar.",
+        "<b>La venta pasa a ser de dos pasos.</b> El webinar deja de cerrar: genera leads. QR al WhatsApp, un setter califica y agenda, y Natalia cierra en llamadas de descubrimiento uno a uno.",
+        "<b>El lanzamiento del 28 es la prueba.</b> Se corre con el proceso nuevo y con las plazas limitadas a diez, presentado como la última oportunidad del programa de nueve meses. Lo que más vale de ese lanzamiento no es lo que se venda: son las objeciones que se recojan en las llamadas."
+      ]
+    }
+  ],
+  "bloques_final": [
+    {
+      "cid": 30,
+      "titulo": "Los seis que no renovaron, uno por uno",
+      "consigna": "La pregunta que decide todo lo demás. Doce llegaron al final del ciclo y seis siguieron. De los seis que no, escribí qué dijo cada uno —textual si lo tenés en un mensaje o en una llamada— y qué creen ustedes que pasó en realidad, que no siempre es lo mismo. Si de alguno no saben, escriban «no sé»: eso también es un dato, y es el que dice cuánto se está escuchando al que se va.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Qué dijo, textual",
+        "Qué creemos que pasó",
+        "¿Vendió algo mientras estuvo?"
+      ],
+      "filas": 6,
+      "ejemplo": {
+        "quien": "Cómo se lee",
+        "texto": "Si la mayoría se fue por precio o porque no era el momento, el cuello es la demanda y el nivel de entrada es la respuesta. Si se fueron porque la entrega se les hizo chica o porque ya no tenían qué sacarle al club, la respuesta es otra y conviene saberlo antes de grabar un curso entero."
+      }
+    },
+    {
+      "cid": 31,
+      "titulo": "Los seis que sí renovaron, y por qué",
+      "consigna": "El otro lado de la misma pregunta, y el que arma el nivel dos. Qué tienen en común los seis que siguieron: en qué momento entraron, qué consiguieron adentro y qué dijeron cuando renovaron. Los testimonios de esas llamadas de renovación ya los tienen transcritos: usalos textuales, no los resumas.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Qué consiguió adentro",
+        "Qué dijo al renovar",
+        "Qué busca ahora"
+      ],
+      "filas": 6
+    },
+    {
+      "nuestro": true,
+      "titulo": "Lo que sale de acá",
+      "texto": [
+        "Con esta hoja y la del precio arriba, se agenda la auditoría de producto con Franco y ahí se cierra la escalera: qué incluye cada nivel, a cuánto, y dónde corta uno y empieza el otro.",
+        "Y en el camino hay algo que sirve el lunes: las historias que escriban acá son la prueba social del webinar. Mónica en el Ritz, Borja rompiendo su techo, María llenando sus talleres, Lali vendiendo después de meses bloqueada. Hoy están en los móviles y en la memoria de ustedes. Escritas, son contenido y son venta."
+      ]
+    }
+  ]
+}
