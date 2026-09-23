@@ -26,6 +26,7 @@ panel-data.json
 !/clientes/bianca-eclipse-y-anillos.html
 !/clientes/qualita.html
 !/clientes/qualita-cartas.html
+!/clientes/momentum-webinar.html
 
 # ── la salida del build, que se arma y se tira ──
 /dist/
