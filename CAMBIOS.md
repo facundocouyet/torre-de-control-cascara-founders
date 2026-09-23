@@ -5,6 +5,43 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 23 de septiembre de 2026
+
+The Momentum Club ya tiene ficha y documento, y aparecieron tres puntajes del 21 que nunca se habían
+aplicado al repo.
+
+- **The Momentum Club entra al circuito.** Después de la Clarity Call del 22 se escribió su ficha y
+  el documento sale del generador como el de todos. Puntaje 62, tramo Andando, orientación Entregar.
+  El cuello es uno solo: el producto. Nueve meses personalizados a 1.500 sin un escalón de entrada,
+  así que cada venta la tiene que hacer Israel en persona. La mecánica del webinar que ya habías
+  escrito queda colgando del mismo caso, como documento aparte.
+- **Qualita por fin sale del generador.** `fichas/qualita.json` no existía y el documento se venía
+  manteniendo a mano desde el 11 de septiembre. La ficha que estaba guardada en el Project bajó al
+  repo, así que ahora se regenera solo.
+- **Tres puntajes que estaban en Notion y no en el repo.** El barrido del 21 los dejó anotados y
+  nunca llegaron a las fichas: Aaron Aiello 34 → 38 (publicó, contenido sube un escalón), Custom Lab
+  38 → 42 (Shopify activo y un pedido entregado, entrega sube) y José David pasa a ritmo frenado.
+  Desde el 21 Notion decía una cosa y la torre mostraba otra; ahora coinciden.
+- **Las tres páginas de scroll estaban viejas.** `build_site.py` escribe en `site/` y lo que se
+  publica son las de la raíz, así que `clientes.html`, `programa.html` y `materiales.html` venían
+  quedándose atrás. Se copiaron las nuevas, que es lo que dice CLAUDE.md. **Esto sigue sin decidirse:
+  o el script escribe en la raíz, o el publicador lee de `site/`.**
+- **Un arreglo chico en `handicap.py`.** Corriéndolo como script se cortaba en `inventario.json`, que
+  no es una ficha de founder. Ahora lo saltea, como ya hacen los otros scripts.
+- **Los dos artefactos se republicaron desde este clon**, no desde el de la nube, así que se
+  publicaron con tus tres commits adentro: las notas y los accionables de Aye, y la mecánica del
+  webinar. Torre versión 39, handoff versión 20.
+
+**Para mirar antes de subir:** el documento de The Momentum Club, que es el primero de ese caso; y el
+de Qualita, que pasa de versión hecha a mano a versión generada — conviene comparar que no se haya
+perdido nada del material bueno del 11 de septiembre.
+
+**Un detalle suelto:** las dos plantillas nuevas se llaman `...--momentum-club.json` y el slug del
+caso es `the-momentum-club`. Si esas cartas tienen que aparecer colgadas del founder, hay que
+renombrarlas.
+
+---
+
 ## 18 de septiembre de 2026 · tarde
 
 Las cuarenta cartas dejaron de ser paneles horizontales y pasaron a ser un documento que se scrollea.

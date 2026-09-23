@@ -23,14 +23,15 @@ S = {
  "scarlett-montilla": (1,2,1,1,1,"amarillo","Se trabaja por oferta, que es el eje más bajo: hasta que la mentoría no tenga una hoja con transformación, cliente ideal y precio, la demanda y la venta no tienen de qué agarrarse."),
  "ayelen-cerqueira": (1,1,1,2,2,"amarillo","Se trabaja por oferta, el eje más bajo junto con contenido: el rol ya funciona, lo que falta es la hoja con nombre, cliente ideal y precio para poder presentar Cósmico con número."),
  "lucio-labate": (1,1,1,1,2,"rojo","Se puntúa su propia oferta de IA, que es sobre la que corre el roadmap. Cuatro habilidades empatan abajo y manda oferta: sin el documento con precio, cada pieza tiene que resolver qué decir y para qué al mismo tiempo."),
- "custom-lab": (1,0,1,3,2,"verde","Contenido está en cero y es el piso: la cuenta está parada, y sin ángulo con chispazo no hay nada que pautar. La oferta baja a uno porque los kits se están redefiniendo y el precio recién sale de la llamada con Franco."),
+ "custom-lab": (1,0,1,3,3,"verde","Contenido está en cero y es el piso: la cuenta está parada por tercera semana, y Piero lo nombró de frente — no sabe hablar en cámara. Entrega sube un escalón el 18/09 con ejecución mostrada en vivo: Shopify levantado y activo, proveedores del kit conseguidos llamando uno por uno y un pedido entregado. La oferta sigue en uno porque los kits se están redefiniendo y el precio nunca se tocó en la llamada con Franco."),
  "sol-boutmy": (2,1,1,2,2,"verde","Los pisos son contenido y demanda, las dos en uno: la cuenta de Be Motion no cuenta qué hacen y los seis clientes entraron por boca a boca, así que el trabajo de fondo es sostener, en paralelo a sacarse la edición de encima."),
  "andrea-saturno": (1,1,1,1,2,"amarillo","Se puntúan las Onfire Sessions, que es lo que trabaja el roadmap; la agencia con Sophie factura y entrega, y eso queda afuera del puntaje. Cuatro empatan abajo y manda contenido: sin una pieza publicada, la fecha de la primera sesión es lo único que empieza a mover algo."),
- "jose-david-fajardo": (2,1,2,2,1,"verde","Los pisos son contenido y entrega. La oferta baja a dos porque la escalera vieja está escrita y vendida, y la nueva todavía no tiene la cifra al lado."),
+ "jose-david-fajardo": (2,1,2,2,1,"rojo","Los pisos son contenido y entrega. La oferta baja a dos porque la escalera vieja está escrita y vendida, y la nueva todavía no tiene la cifra al lado. El ritmo pasa a frenado el 18/09: no hizo el accionable de comunicar en historias y llegó a borrar su Instagram, con los clientes entrándole igual. Ya lo revirtió, y el 25/09 tiene 1:1 con Facu agendada por él."),
  "sebastian": (1,4,2,0,2,"verde","Venta en cero es el piso: tiene tráfico, autoridad y ángulos validados, y lo que falta es un precio sobre la mesa y la primera llamada de venta con ese número."),
  "sofia-galvis": (2,0,1,3,2,"verde","Contenido está en cero y es el piso: su marca personal no comunica lo que sabe enseñar. La oferta baja a dos porque el sistema de noventa días está escrito con precio y el producto de educación, que es lo que trabaja el roadmap, todavía no existe."),
- "aaron-aiello": (1,1,1,1,2,"amarillo","Se puntúa el B2C, que es el negocio sobre el que corre el roadmap. Cuatro habilidades empatan abajo y manda contenido, porque es la que el roadmap trabaja primero: la oferta B2C se escribe con lo que conteste la audiencia, y hoy hay un video y unas historias."),
+ "aaron-aiello": (1,2,1,1,2,"amarillo","Se puntúa el B2C, que es el negocio sobre el que corre el roadmap. Contenido sube un escalón el 18/09: publicó la primera pieza en Instagram, grabó el video de YouTube, subió historias todos los días y armó su propio calendario, que era exactamente lo que faltaba. Los tres pisos que quedan empatan en uno y manda oferta, porque la oferta B2C se escribe con lo que conteste la audiencia y ahora hay audiencia contestando."),
  "nicolas-lozada": (3,4,1,1,1,"rojo","Demanda, venta y entrega empatan abajo y manda venta, que es el cuello del caso y el cuello del caso: hay oferta, pilares y 41 contenidos cargados, y lo único que nunca pasó fue salir a buscar la venta, así que se arranca por recontacto y prospección."),
+ "the-momentum-club": (3,2,3,3,2,"amarillo","El circuito cierra: venden hace dos años, retienen y tienen tráfico propio. Los dos pisos son entrega y contenido, y manda entrega, que es por donde arranca el roadmap. Entrega es dos porque el programa se entrega bien y depende enteramente de los dos: la biblioteca creció sin roadmap y los alumnos se forman sin implementar. Contenido es dos porque la cuenta del club publica sin un eje definido y sin prueba social a la vista; la cuenta de Israel es fuerte, pero es la otra marca y eso va en la evidencia, no en la barra. Oferta no llega a cuatro aunque esté vendida muchas veces: el cliente ideal no está definido y es justo lo que salen a buscar los formularios."),
  "qualita": (3,1,1,2,3,"rojo","Se trabaja por contenido y demanda, los dos ejes más bajos: el método ya está probado y lo que no existe es el canal propio que lo comunique, que es la única forma de elegir mejor los leads y subir el ticket."),
  "antonio-mazzello": (3,2,1,3,2,"rojo","Se trabaja por demanda, el eje más bajo: el embudo de captación quedó en el papel desde abril y sin dueño del calendario no hay diez piezas con un mismo ángulo que traigan contactos."),
  "manu-bruzzone": (3,2,1,2,3,"rojo","Se trabaja por demanda, el eje más bajo: la campaña de captación y la base de datos son lo único que mueve la cartera de veintidós a treinta y cinco, y eso se resuelve repitiendo la cadencia mensual."),
@@ -88,6 +89,7 @@ MANDA = {
     "aaron-aiello": "contenido",
     "nicolas-lozada": "venta",
     "agostina-marchesini": "oferta",
+    "the-momentum-club": "entrega",
 }
 
 def calcular(slug):
@@ -105,9 +107,10 @@ def calcular(slug):
             "nota": nota}
 
 if __name__ == "__main__":
-    import glob
+    import glob, os
     n=0
     for f in sorted(glob.glob('fichas/*.json')):
+        if os.path.basename(f)=='inventario.json': continue   # el inventario no es una ficha de founder
         d=json.load(open(f,encoding='utf-8'))
         h=calcular(d['slug'])
         if not h: print('SIN HANDICAP:', d['slug']); continue

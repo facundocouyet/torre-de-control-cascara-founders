@@ -1,5 +1,5 @@
 {
-  "fecha": "22 SEP 2026",
+  "fecha": "23 SEP 2026",
   "titulo": "Accionables CSM",
   "bajada": "Lo que ejecuta Aye con cada cliente: qué documento le corresponde, qué hacer con él y qué coordinar. Arriba de cada lista va el resumen de su radiografía. Se actualiza con los clientes.",
   "intro": [
@@ -316,10 +316,10 @@
       "estado": "En curso · cierra 31/10",
       "proyecto": "Marca personal y servicio de crecimiento para e-commerce, con el concepto Universo de Marca. Es el caso que siguió la secuencia y funcionó.",
       "accionables": [
-        "Es el que quedó sin tocar en el repaso. Se ataca hoy.",
+        "Agendó él la 1:1 con Facu para el viernes 25/09 a las 09:00. Chequear que llegue con el accionable hecho.",
         "Mandar la radiografía con el roadmap.",
-        "Agendar la llamada con Franco: quedó pendiente desde la semana del 1 de septiembre y todavía no tiene fecha.",
-        "Antes de esa llamada, mandarle el resumen de la Clarity Call del 1 de septiembre en dos líneas.",
+        "Agendar la llamada con Franco: sigue pendiente desde la semana del 1 de septiembre y todavía no tiene fecha.",
+        "El ritmo pasó a frenado el 18/09: no hizo el accionable de comunicar en historias y llegó a borrar su Instagram. Ya lo revirtió, y los clientes le entran igual.",
         "Empezar a documentarlo como caso de éxito: es uno de los cuatro marcados."
       ],
       "doc": "jose-david-fajardo.html",
@@ -455,15 +455,16 @@
         "La separación de marcas es el trabajo de fondo: Israel construye autoridad artística, el club muestra herramientas y resultados. La carta de dirección visual va después de la escalera.",
         "Hay más de diez casos con resultado —Mónica en el Ritz, Borja rompiendo su techo, María, Lali, Yaiza— y no están escritos en ningún lado. Es prueba social para el webinar del lunes.",
         "Escribir la ficha con la lectura de la Clarity y calcular el puntaje.",
-        "Cargar START en Cuentas con el 16 de septiembre."
+        "Cargar START en Cuentas con el 16 de septiembre.",
+        "Chequear que instalen Fathom antes del 28: la regla del tramo es que todas las llamadas de venta queden grabadas."
       ],
-      "doc": null,
+      "doc": "the-momentum-club.html",
       "extra": [
         "momentum-webinar.html",
         "doc",
         "La mecánica del webinar"
       ],
-      "nota": "La ficha se escribe con la lectura de la Clarity del 22/09.",
+      "nota": "START 16/09 y FINISH 15/12 ya están cargados en Cuentas, y por primera vez las dos fechas cierran los 90 días. Facu avisó en la llamada que el tramo puede estirarse a 110 días.",
       "slug": "the-momentum-club",
       "upselling": false
     }

@@ -1,267 +1,267 @@
 {
- "slug": "custom-lab",
- "cliente": "Piero Medina y Juan — Custom Lab",
- "proyecto": "Custom Lab — producción textil y merch. Piero lleva la parte creativa y Juan la comercial y administrativa",
- "modo": "radiografia",
- "orientacion": "Conseguir",
- "arranque": "(falta confirmar) — para el 25 de agosto de 2026 ya habían pasado por una primera llamada con Facu y por la llamada comercial con Franco",
- "etapa": "Cierra el primer tramo con la oferta ya cerrada con Franco el 18 de septiembre y con el cuello nombrado: es el contenido. La tienda está lista y los kits quedaron pausados a propósito, porque una tienda sin tráfico no convierte. Lo que sigue es el calendario de las 2 campañas y el roadmap con punto de llegada.",
- "metrica": "Cuántos presupuestos entran por semana por WhatsApp y por el e-commerce, y cuántos de esos vienen de un nicho que no sea el de la iglesia.",
- "titular": "La tienda está lista y no vende porque nadie la ve. El cuello dejó de ser el producto y pasó a ser el contenido.",
- "bajada": "Hoy producen para el nicho cristiano, que dominan y que compra sin fechas fijas y con presupuesto chico. El tramo movió la oferta de producción textil a publicidad hecha con merch, apuntada a nichos que pagan, y eso ya está cerrado. Lo que quedó abierto es el tráfico: el 18 de septiembre Franco les frenó el armado de kits y les puso el contenido adelante, con 2 campañas en paralelo y 12 ángulos para arrancar. El recontacto, que ya les vendió, sigue siendo el motor mientras eso levanta.",
- "punto_a": [
-  {
-   "label": "Funciona",
-   "titulo": "El recontacto vendió",
-   "texto": "Sobre los accionables que les dejó Franco, Juan armó la base histórica de clientes de los últimos 2 años y la dejó en Notion: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién los contactó, quién toma la decisión de compra, si repitió y qué respondió en el recontacto. Con esa lista salieron a recontactar y vendieron. Teo lo confirmó en el repaso. Es el único motor de ventas que hoy tienen probado y hay que seguir usándolo mientras se construye el resto."
-  },
-  {
-   "label": "Funciona",
-   "titulo": "Producen bien y dominan el nicho cristiano",
-   "texto": "Tienen buena capacidad de producción y resuelven. Y en el nicho cristiano están desde que arrancaron: conocidos que hacen conciertos, eventos y de todo. Juan lo plantea como su ventaja principal y quiere seguir aprovechándola. Facu le aceptó la ventaja y le marcó el techo: ese nicho ya lo tienen dominado, van a seguir vendiendo ahí igual, y es cuestión de tiempo y de networking persona a persona. Las iglesias compran sin fechas recurrentes y los artistas compran con presupuesto chico, así que ese nicho funciona como paracaídas: sostiene, y el piso del negocio hay que construirlo en otro lado."
-  },
-  {
-   "label": "Pendiente",
-   "titulo": "El canal que recibe la demanda está por construirse",
-   "texto": "La cuenta de Instagram está dormida hace tiempo y el algoritmo hay que entrenarlo de nuevo. La cuenta de anuncios está armada, linkeada y autorizada, y todavía sin pautar: hoy no tienen con qué pagarle a alguien que la opere. El e-commerce está por armarse y la landing que hay pierde al que entra: demasiado aire, el llamado a la acción escondido y un formulario que pide menos de lo que hace falta para cotizar. Todo lo que venden hoy sale de que ellos salgan a empujar uno por uno."
-  }
- ],
- "recorrido": {
-  "titulo": "El mes en que cambió la definición del negocio",
-  "texto": "La primera llamada con Facu arrancó directo en el negocio, porque él conoce el rubro desde adentro con una fábrica textil propia, y ahí quedó planteado lo primero: clasificar el cliente ideal y apuntar la oferta a un nicho con más plata. Los accionables de Franco se cumplieron, y eso es el dato más importante del tramo: armaron la base histórica de 2 años, salieron a recontactar y de ahí salieron ventas, con tres kits en camino. El 25 de agosto Juan defendió el nicho cristiano como su ventaja, Facu le aceptó la ventaja y le marcó el techo, y de ahí salió el giro: dejan de venderse como productores textiles, que es un commodity, y pasan a vender publicidad hecha con merch. Con ese movimiento se descartaron cosas concretas: el kit de construcción quedó pausado porque el rubro está fundido y se compra por LinkedIn a largo plazo, y el apunte pasó a empresas de 30 a 50 empleados, startups, negocios digitales y oficinas. El 1 de septiembre Facu les bajó los ángulos de comunicación, con la expectativa marcada de que el orgánico va a tardar en levantar porque la cuenta está dormida y que sirve sobre todo para validar qué ángulo funciona. En las grupales se presentó Piero, que entró hace poco del lado creativo mientras Juan lleva lo comercial y administrativo, y Fede les auditó la cuenta en vivo y dejó la lista de arreglos del perfil, del tipo merch en 72 horas. La llamada del 10 de septiembre resolvió lo técnico: la landing se rediseña con imagen a la izquierda y texto a la derecha, captura de mail en 2 lugares y campo de proyecto obligatorio, y la visualización de los datos se mueve de Supabase a Notion o Airtable. Facu lo resumió como un cliente difícil y marcó lo que falta, que es un roadmap con punto de llegada, porque hasta ahora vienen ejecutando accionables sueltos. El 16 de septiembre Piero contó el cambio que venían trabajando con Franco y con Facu: el merch deja de apuntar a artistas y eventos y pasa a startups y pymes chicas de contenido digital. Están rehaciendo la página, aprendiendo qué necesita ese público y buscando proveedores nuevos, y por eso hace 2 semanas que el contenido dejó de ser lo principal. Juana le corrigió el diagnóstico de frente: el problema no es la falta de organización, es que no tiene definidos sus territorios de contenido, y si un territorio no le da ganas de sentarse a grabar es porque está puesto para agradar y no porque sea suyo.\n\nEl 18 de septiembre la llamada con Franco cerró el tramo con una corrección de prioridad: la tienda está lista y los kits todavía no, y la decisión fue posponer los kits, porque una tienda sin tráfico no convierte. El tiempo se había ido buscando productos para los kits nuevos, y eso corrió el contenido 2 semanas. De ahí salió la consigna de documentar y no crear, con 2 campañas en paralelo —Documentación, el proceso de construir la marca como serie semanal, y Producto, los kits desde el boceto hasta el prototipo—, 12 ángulos para arrancar y el calendario a presentarle a Fede.",
-  "hitos": [
-   {
-    "cuando": "primera llamada (falta confirmar)",
-    "que": "diagnóstico con facu: apuntar la oferta a un nicho con más plata"
-   },
-   {
-    "cuando": "ago",
-    "que": "accionables de franco: base histórica, recontacto y kits por rubro"
-   },
-   {
-    "cuando": "25 ago",
-    "que": "la oferta pasa a publicidad hecha con merch"
-   },
-   {
-    "cuando": "2 y 4 sep",
-    "que": "grupales: se presenta piero y fede audita la cuenta en vivo"
-   },
-   {
-    "cuando": "1 sep",
-    "que": "facu baja los ángulos de comunicación"
-   },
-   {
-    "cuando": "2 sep",
-    "que": "repaso con teo: falta el roadmap con punto de llegada"
-   },
-   {
-    "cuando": "10 sep",
-    "que": "llamada de procesos: landing nueva y datos a notion o airtable"
-   },
-   {
-    "cuando": "16 sep",
-    "que": "grupal con juana: cambia el público a startups y pymes, 2 semanas sin contenido"
-   },
-   {
-    "cuando": "18 sep",
-    "que": "franco: frenar los kits, el cuello es el contenido"
-   },
-   {
-    "cuando": "18 sep",
-    "que": "quedan 2 campañas y 12 ángulos para arrancar"
-   }
-  ]
- },
- "lectura": {
-  "titular": "El cuello se movió: dejó de ser a quién le venden y pasó a ser que nadie los está viendo.",
-  "texto": "La oferta está cerrada, la tienda está arriba y la base de recontacto ya demostró que vende. Lo que no existe es tráfico propio: la cuenta sigue dormida y las 2 semanas que se fueron buscando productos para los kits son 2 semanas sin publicar. Por eso el orden se invirtió: primero el contenido, después los kits. Terminar los kits sin audiencia deja el mismo resultado que hoy, que es vender sólo cuando ellos salen a empujar uno por uno.",
-  "cita": "El contenido es el cuello de botella principal. Una tienda sin tráfico no convierte: primero hay que documentar el proceso de construir la marca.",
-  "cita_autor": "Franco Dato · 18 de septiembre de 2026"
- },
- "respuestas": [
-  {
-   "tema": "Qué venden",
-   "respuesta": "Publicidad hecha con merch. La producción textil pasa a ser el cómo, y la venta se arma sobre el resultado publicitario que el merch le da a otra marca."
-  },
-  {
-   "tema": "El disparador de comunicación",
-   "respuesta": "«Si tu mejor publicidad fuera un regalo, ¿qué sería?». Con esa pregunta abre la landing y sobre esa pregunta se arma el contenido."
-  },
-  {
-   "tema": "A quién le venden",
-   "respuesta": "Empresas de 30 a 50 empleados, startups, negocios digitales y oficinas, con kits de onboarding, de oficina y de freelance, cada uno atado a un problema de cultura de equipo o de marca."
-  },
-  {
-   "tema": "La lectura del mercado",
-   "respuesta": "El nicho cristiano se sostiene por networking persona a persona y sigue facturando. La construcción queda pausada porque el rubro está fundido y se compra por LinkedIn a largo plazo, y el local comercial conectado a importación sigue creciendo y entra en la pauta."
-  },
-  {
-   "tema": "El rol del e-commerce",
-   "respuesta": "Shopify es infraestructura: producto simple de entrada a precio mayorista competitivo, margen chico y volumen para que gire la rueda. El personalizado siempre pasa por WhatsApp o por llamada."
-  },
-  {
-   "tema": "Las reglas de producción",
-   "respuesta": "Nunca menos de diez unidades en cualquier trabajo de personalización. Si quieren limitar los pedidos chicos, se hace con precio."
-  },
-  {
-   "tema": "La táctica de entrada",
-   "respuesta": "Ofrecer una auditoría de publicidad gratis: diagnostica al cliente y deja el merch puesto como la solución."
-  },
-  {
-   "tema": "Dónde viven los datos",
-   "respuesta": "Supabase guarda y Notion o Airtable muestran. Ellos tienen que poder filtrar y leer la base de clientes y presupuestos sin depender de alguien técnico, y sacar informes con IA para decidir con datos en lugar de decidir de memoria."
-  },
-  {
-   "tema": "El orden de la pauta",
-   "respuesta": "Primero orgánico para ver qué ángulo hace chispazo y después pauta sobre ese ángulo. La cuenta está dormida, así que el orgánico va a tardar y sirve sobre todo para validar y mantenerla activa."
-  }
- ],
- "entregables": [
-  {
-   "que": "Los 12 ángulos para arrancar",
-   "para": "Los dejó Franco el 18 de septiembre. Son la puerta de entrada de cada pieza de las 2 campañas y son el insumo con el que se arma el calendario."
-  },
-  {
-   "que": "El roadmap con punto de llegada",
-   "para": "Lo baja Facu en la 1:1 del 2 de octubre, sobre lo que salga del calendario y de las primeras piezas. Es el documento contra el cual Custom Lab mide el tramo."
-  },
-  {
-   "que": "La estrategia de pauta y los guiones de los anuncios",
-   "para": "Los escribe Cáscara calibrados al cliente pyme y al local comercial; ellos configuran y operan la cuenta que ya tienen linkeada. Entra cuando el orgánico marque qué ángulo funciona."
-  },
-  {
-   "que": "El feedback sobre el copy de la landing y sobre los kits",
-   "para": "Ellos escriben y mandan, y Facu devuelve las correcciones antes de publicar."
-  },
-  {
-   "que": "La auditoría de la cuenta que hizo Fede en vivo",
-   "para": "Quedó la lista de arreglos concretos —nombre, bio, destacada y promesa en cada pieza— para aplicarla al perfil."
-  }
- ],
- "punto_b": [
-  {
-   "fecha": "2 de octubre de 2026",
-   "titulo": "Las 2 campañas publicando y el calendario presentado",
-   "texto": "El calendario de contenido escrito sobre los 12 ángulos que dejó Franco, presentado a Fede en la llamada de contenido, y las 2 campañas ya publicando: la de Documentación con el registro semanal del proceso, y la de Producto con el desarrollo de los kits desde el boceto hasta el prototipo. La landing publicada con el formulario capturando. El número a mirar es cuántas conversaciones abrió cada pieza, no cuántas vistas hizo."
-  },
-  {
-   "fecha": "31 de octubre de 2026",
-   "titulo": "Presupuestos entrando de nichos nuevos, con la pauta corriendo",
-   "texto": "La pauta corriendo sobre los ángulos que hicieron chispazo en orgánico, apuntada a empresas de 30 a 50 empleados y a locales comerciales. Los kits retomados y cargados en la tienda, ahora con audiencia mirando. El número a presentar es cuántos presupuestos entraron por semana, cuántos vinieron de nichos que no son el de la iglesia y cuántas ventas salieron del e-commerce. En paralelo, el recontacto sostenido como motor mientras esto levanta."
-  }
- ],
- "roadmap": [
-  {
-   "cuando": "Esta semana",
-   "objetivo": "Arrancar a documentar, sin esperar a nada",
-   "entregable": "Grabar el día a día de la marca tal como está: la búsqueda de productos, las conversaciones con proveedores, lo que sale mal. Publicar lo primero esta misma semana. La regla de Franco es documentar y no crear, así que no hay que producir nada: hay que registrar.",
-   "quien": "Custom Lab"
-  },
-  {
-   "cuando": "Del 22 al 30 de septiembre",
-   "objetivo": "El calendario de las 2 campañas escrito",
-   "entregable": "Un calendario sobre los 12 ángulos, repartido entre la campaña de Documentación —el proceso de construir la marca como serie semanal— y la de Producto —los kits desde el boceto hasta el prototipo—. Se presenta en la llamada de contenido con Fede.",
-   "quien": "Custom Lab con Fede"
-  },
-  {
-   "cuando": "Del 22 al 30 de septiembre",
-   "objetivo": "La landing publicada con el formulario capturando",
-   "entregable": "La landing rehecha: CTA visible sin scrollear, mail en 2 lugares y campo de proyecto obligatorio, abriendo con la pregunta del regalo. El copy se manda a Facu antes de publicar.",
-   "quien": "Custom Lab, con feedback de Facu"
-  },
-  {
-   "cuando": "2 de octubre",
-   "objetivo": "El punto de llegada del tramo escrito",
-   "entregable": "1:1 con Facu sobre el calendario y las primeras piezas publicadas. De ahí sale el roadmap con punto de llegada, que es lo que todavía falta y es contra lo que se mide el cierre del 31 de octubre.",
-   "quien": "Custom Lab con Facu"
-  },
-  {
-   "cuando": "Octubre",
-   "objetivo": "Los kits retomados, ahora con audiencia",
-   "entregable": "Kit de onboarding, de oficina y de freelance cargados en la tienda, cada uno atado a un problema de cultura de equipo o de marca. El de construcción sigue pausado. Se retoman después del contenido y no antes.",
-   "quien": "Custom Lab"
-  },
-  {
-   "cuando": "Octubre",
-   "objetivo": "La pauta corriendo sobre lo que ya funcionó",
-   "entregable": "La pauta apuntada a empresas de 30 a 50 empleados y a locales comerciales, sobre los ángulos que hicieron chispazo en orgánico. Antes de eso no se pauta: se pauta lo que ya mostró señal.",
-   "quien": "Custom Lab con Cáscara"
-  }
- ],
- "accionables": [
-  {
-   "cuando": "Del 22 al 30 de septiembre",
-   "cliente": [
-    "Grabar y publicar esta semana lo primero de la campaña de Documentación, sin producir nada",
-    "Escribir el calendario de las 2 campañas sobre los 12 ángulos y presentárselo a Fede en la llamada de contenido",
-    "Publicar la landing con el CTA visible, el mail en 2 lugares y el campo de proyecto obligatorio",
-    "Mandar el copy de la landing a Facu antes de publicar",
-    "Aplicar al perfil los arreglos que dejó la auditoría de Fede: nombre, bio, destacada y promesa en cada pieza",
-    "Leer cada pieza el día que sale y anotar qué conversación abrió, no cuántas vistas hizo",
-    "Dejar los kits pausados hasta que haya contenido saliendo"
-   ],
-   "cascara": [
-    "Facu les da feedback sobre el copy de la landing antes de que la publiquen",
-    "Fede recibe el calendario en la llamada de contenido y lo calibra",
-    "Franco agenda el seguimiento para planificar la campaña de lanzamiento de 4 semanas"
-   ]
-  },
-  {
-   "cuando": "2 de octubre",
-   "cliente": [
-    "Llegar a la 1:1 con el calendario presentado y con las primeras piezas publicadas"
-   ],
-   "cascara": [
-    "Facu baja el roadmap con punto de llegada sobre el calendario y las primeras piezas"
-   ]
-  },
-  {
-   "cuando": "Octubre",
-   "cliente": [
-    "Retomar los kits y cargarlos en la tienda, ahora con audiencia mirando",
-    "Poner la pauta a correr sobre los ángulos que hicieron chispazo en orgánico",
-    "Sostener el recontacto sobre la base histórica como motor de ventas del mes",
-    "Registrar cuántos presupuestos entran por semana y de qué nicho vienen",
-    "Mantener el mínimo de 10 unidades en cualquier trabajo de personalización"
-   ],
-   "cascara": [
-    "Cáscara les deja la estrategia de pauta y los guiones de los anuncios",
-    "Facu calibra los anuncios y los ángulos según lo que vaya entrando",
-    "Facu los ayuda a leer qué producto del e-commerce vende y cuál no"
-   ]
-  },
-  {
-   "cuando": "Cierre, 31 de octubre",
-   "cliente": [
-    "Presentar los presupuestos de la semana con el nicho anotado al lado"
-   ],
-   "cascara": [
-    "Facu y Franco revisan contra el punto A y definen el tramo siguiente"
-   ]
-  }
- ],
- "conclusion": "El tramo cerró la parte difícil: ya saben qué venden y a quién. Venden publicidad hecha con merch a empresas que tienen presupuesto de marketing, y la producción textil pasó a ser el cómo. Eso cambió el precio, el canal y el contenido, y el catálogo se ordenó en kits de onboarding, de oficina y de freelance.\n\nLo que cambió el 18 de septiembre es el orden de lo que sigue. La tienda está lista y los kits no, y la decisión fue posponer los kits: una tienda sin tráfico no convierte, y el tiempo que se fue buscando productos son 2 semanas sin publicar. Primero el contenido, y el contenido se resuelve documentando: el proceso de construir la marca contado como serie, y el desarrollo de los kits desde el boceto. Son 2 campañas en paralelo sobre 12 ángulos que ya están escritos, así que no hay nada que inventar, hay que grabar.\n\nEl motivo de fondo es el que conviene que no se pierda: el contenido es lo que construye demanda, y sin demanda propia la única forma de vender un producto estandarizado es competir por precio. Ese es exactamente el lugar del que vienen tratando de salir desde agosto.\n\nEl punto de llegada del tramo se escribe el 2 de octubre, sobre el calendario y sobre las primeras piezas publicadas. Hasta entonces el recontacto sobre la base histórica sigue siendo el motor de ventas, porque es lo único probado.",
- "carta": "Piero, Juan: hicieron lo que se les pidió. Armaron la base histórica de 2 años, salieron a recontactar y vendieron, y eso ya dice qué clase de socios son cuando la tarea está clara. Lo que pasó el 18 de septiembre es una corrección de prioridad y conviene tomarla así: no es que hayan hecho mal en avanzar con los kits, es que el orden estaba al revés. La tienda ya está y no vende porque nadie la ve.\n\nLo que viene les pide algo que suele costar más que producir: publicar mientras todavía no está todo perfecto. Documentar es exactamente eso, mostrar el proceso como está, con la búsqueda de proveedores y con lo que sale mal. Tienen 12 ángulos escritos, así que no hay nada que pensar esta semana: hay que grabar y subir.",
- "abierto": "Cuánto pueden poner por mes en pauta y quién la opera, porque hoy no tienen con qué pagarle a nadie (falta confirmar). Cuáles son sus territorios de contenido sobre los 3 pilares, que Juana le dejó como la única organización que necesita y todavía no están escritos (falta confirmar). Y el apellido de Juan y la ficha de la segunda persona del equipo, que siguen faltando.",
- "handicap": {
-  "ejes": {
-   "oferta": 1,
-   "contenido": 0,
-   "demanda": 1,
-   "venta": 3,
-   "entrega": 2
-  },
-  "total": 7,
-  "tramo": "Arranque",
-  "ritmo": "verde",
-  "ritmo_texto": "Hace lo que queda de cada llamada.",
-  "eje_flojo": [
-   "contenido"
+  "slug": "custom-lab",
+  "cliente": "Piero Medina y Juan — Custom Lab",
+  "proyecto": "Custom Lab — producción textil y merch. Piero lleva la parte creativa y Juan la comercial y administrativa",
+  "modo": "radiografia",
+  "orientacion": "Conseguir",
+  "arranque": "(falta confirmar) — para el 25 de agosto de 2026 ya habían pasado por una primera llamada con Facu y por la llamada comercial con Franco",
+  "etapa": "Cierra el primer tramo con la oferta ya cerrada con Franco el 18 de septiembre y con el cuello nombrado: es el contenido. La tienda está lista y los kits quedaron pausados a propósito, porque una tienda sin tráfico no convierte. Lo que sigue es el calendario de las 2 campañas y el roadmap con punto de llegada.",
+  "metrica": "Cuántos presupuestos entran por semana por WhatsApp y por el e-commerce, y cuántos de esos vienen de un nicho que no sea el de la iglesia.",
+  "titular": "La tienda está lista y no vende porque nadie la ve. El cuello dejó de ser el producto y pasó a ser el contenido.",
+  "bajada": "Hoy producen para el nicho cristiano, que dominan y que compra sin fechas fijas y con presupuesto chico. El tramo movió la oferta de producción textil a publicidad hecha con merch, apuntada a nichos que pagan, y eso ya está cerrado. Lo que quedó abierto es el tráfico: el 18 de septiembre Franco les frenó el armado de kits y les puso el contenido adelante, con 2 campañas en paralelo y 12 ángulos para arrancar. El recontacto, que ya les vendió, sigue siendo el motor mientras eso levanta.",
+  "punto_a": [
+    {
+      "label": "Funciona",
+      "titulo": "El recontacto vendió",
+      "texto": "Sobre los accionables que les dejó Franco, Juan armó la base histórica de clientes de los últimos 2 años y la dejó en Notion: cliente, fecha, de qué proyecto se trató, cuánto se produjo, si era evento o artista, quién los contactó, quién toma la decisión de compra, si repitió y qué respondió en el recontacto. Con esa lista salieron a recontactar y vendieron. Teo lo confirmó en el repaso. Es el único motor de ventas que hoy tienen probado y hay que seguir usándolo mientras se construye el resto."
+    },
+    {
+      "label": "Funciona",
+      "titulo": "Producen bien y dominan el nicho cristiano",
+      "texto": "Tienen buena capacidad de producción y resuelven. Y en el nicho cristiano están desde que arrancaron: conocidos que hacen conciertos, eventos y de todo. Juan lo plantea como su ventaja principal y quiere seguir aprovechándola. Facu le aceptó la ventaja y le marcó el techo: ese nicho ya lo tienen dominado, van a seguir vendiendo ahí igual, y es cuestión de tiempo y de networking persona a persona. Las iglesias compran sin fechas recurrentes y los artistas compran con presupuesto chico, así que ese nicho funciona como paracaídas: sostiene, y el piso del negocio hay que construirlo en otro lado."
+    },
+    {
+      "label": "Pendiente",
+      "titulo": "El canal que recibe la demanda está por construirse",
+      "texto": "La cuenta de Instagram está dormida hace tiempo y el algoritmo hay que entrenarlo de nuevo. La cuenta de anuncios está armada, linkeada y autorizada, y todavía sin pautar: hoy no tienen con qué pagarle a alguien que la opere. El e-commerce está por armarse y la landing que hay pierde al que entra: demasiado aire, el llamado a la acción escondido y un formulario que pide menos de lo que hace falta para cotizar. Todo lo que venden hoy sale de que ellos salgan a empujar uno por uno."
+    }
   ],
-  "sugiere": [
-   "Sostener"
+  "recorrido": {
+    "titulo": "El mes en que cambió la definición del negocio",
+    "texto": "La primera llamada con Facu arrancó directo en el negocio, porque él conoce el rubro desde adentro con una fábrica textil propia, y ahí quedó planteado lo primero: clasificar el cliente ideal y apuntar la oferta a un nicho con más plata. Los accionables de Franco se cumplieron, y eso es el dato más importante del tramo: armaron la base histórica de 2 años, salieron a recontactar y de ahí salieron ventas, con tres kits en camino. El 25 de agosto Juan defendió el nicho cristiano como su ventaja, Facu le aceptó la ventaja y le marcó el techo, y de ahí salió el giro: dejan de venderse como productores textiles, que es un commodity, y pasan a vender publicidad hecha con merch. Con ese movimiento se descartaron cosas concretas: el kit de construcción quedó pausado porque el rubro está fundido y se compra por LinkedIn a largo plazo, y el apunte pasó a empresas de 30 a 50 empleados, startups, negocios digitales y oficinas. El 1 de septiembre Facu les bajó los ángulos de comunicación, con la expectativa marcada de que el orgánico va a tardar en levantar porque la cuenta está dormida y que sirve sobre todo para validar qué ángulo funciona. En las grupales se presentó Piero, que entró hace poco del lado creativo mientras Juan lleva lo comercial y administrativo, y Fede les auditó la cuenta en vivo y dejó la lista de arreglos del perfil, del tipo merch en 72 horas. La llamada del 10 de septiembre resolvió lo técnico: la landing se rediseña con imagen a la izquierda y texto a la derecha, captura de mail en 2 lugares y campo de proyecto obligatorio, y la visualización de los datos se mueve de Supabase a Notion o Airtable. Facu lo resumió como un cliente difícil y marcó lo que falta, que es un roadmap con punto de llegada, porque hasta ahora vienen ejecutando accionables sueltos. El 16 de septiembre Piero contó el cambio que venían trabajando con Franco y con Facu: el merch deja de apuntar a artistas y eventos y pasa a startups y pymes chicas de contenido digital. Están rehaciendo la página, aprendiendo qué necesita ese público y buscando proveedores nuevos, y por eso hace 2 semanas que el contenido dejó de ser lo principal. Juana le corrigió el diagnóstico de frente: el problema no es la falta de organización, es que no tiene definidos sus territorios de contenido, y si un territorio no le da ganas de sentarse a grabar es porque está puesto para agradar y no porque sea suyo.\n\nEl 18 de septiembre la llamada con Franco cerró el tramo con una corrección de prioridad: la tienda está lista y los kits todavía no, y la decisión fue posponer los kits, porque una tienda sin tráfico no convierte. El tiempo se había ido buscando productos para los kits nuevos, y eso corrió el contenido 2 semanas. De ahí salió la consigna de documentar y no crear, con 2 campañas en paralelo —Documentación, el proceso de construir la marca como serie semanal, y Producto, los kits desde el boceto hasta el prototipo—, 12 ángulos para arrancar y el calendario a presentarle a Fede.",
+    "hitos": [
+      {
+        "cuando": "primera llamada (falta confirmar)",
+        "que": "diagnóstico con facu: apuntar la oferta a un nicho con más plata"
+      },
+      {
+        "cuando": "ago",
+        "que": "accionables de franco: base histórica, recontacto y kits por rubro"
+      },
+      {
+        "cuando": "25 ago",
+        "que": "la oferta pasa a publicidad hecha con merch"
+      },
+      {
+        "cuando": "2 y 4 sep",
+        "que": "grupales: se presenta piero y fede audita la cuenta en vivo"
+      },
+      {
+        "cuando": "1 sep",
+        "que": "facu baja los ángulos de comunicación"
+      },
+      {
+        "cuando": "2 sep",
+        "que": "repaso con teo: falta el roadmap con punto de llegada"
+      },
+      {
+        "cuando": "10 sep",
+        "que": "llamada de procesos: landing nueva y datos a notion o airtable"
+      },
+      {
+        "cuando": "16 sep",
+        "que": "grupal con juana: cambia el público a startups y pymes, 2 semanas sin contenido"
+      },
+      {
+        "cuando": "18 sep",
+        "que": "franco: frenar los kits, el cuello es el contenido"
+      },
+      {
+        "cuando": "18 sep",
+        "que": "quedan 2 campañas y 12 ángulos para arrancar"
+      }
+    ]
+  },
+  "lectura": {
+    "titular": "El cuello se movió: dejó de ser a quién le venden y pasó a ser que nadie los está viendo.",
+    "texto": "La oferta está cerrada, la tienda está arriba y la base de recontacto ya demostró que vende. Lo que no existe es tráfico propio: la cuenta sigue dormida y las 2 semanas que se fueron buscando productos para los kits son 2 semanas sin publicar. Por eso el orden se invirtió: primero el contenido, después los kits. Terminar los kits sin audiencia deja el mismo resultado que hoy, que es vender sólo cuando ellos salen a empujar uno por uno.",
+    "cita": "El contenido es el cuello de botella principal. Una tienda sin tráfico no convierte: primero hay que documentar el proceso de construir la marca.",
+    "cita_autor": "Franco Dato · 18 de septiembre de 2026"
+  },
+  "respuestas": [
+    {
+      "tema": "Qué venden",
+      "respuesta": "Publicidad hecha con merch. La producción textil pasa a ser el cómo, y la venta se arma sobre el resultado publicitario que el merch le da a otra marca."
+    },
+    {
+      "tema": "El disparador de comunicación",
+      "respuesta": "«Si tu mejor publicidad fuera un regalo, ¿qué sería?». Con esa pregunta abre la landing y sobre esa pregunta se arma el contenido."
+    },
+    {
+      "tema": "A quién le venden",
+      "respuesta": "Empresas de 30 a 50 empleados, startups, negocios digitales y oficinas, con kits de onboarding, de oficina y de freelance, cada uno atado a un problema de cultura de equipo o de marca."
+    },
+    {
+      "tema": "La lectura del mercado",
+      "respuesta": "El nicho cristiano se sostiene por networking persona a persona y sigue facturando. La construcción queda pausada porque el rubro está fundido y se compra por LinkedIn a largo plazo, y el local comercial conectado a importación sigue creciendo y entra en la pauta."
+    },
+    {
+      "tema": "El rol del e-commerce",
+      "respuesta": "Shopify es infraestructura: producto simple de entrada a precio mayorista competitivo, margen chico y volumen para que gire la rueda. El personalizado siempre pasa por WhatsApp o por llamada."
+    },
+    {
+      "tema": "Las reglas de producción",
+      "respuesta": "Nunca menos de diez unidades en cualquier trabajo de personalización. Si quieren limitar los pedidos chicos, se hace con precio."
+    },
+    {
+      "tema": "La táctica de entrada",
+      "respuesta": "Ofrecer una auditoría de publicidad gratis: diagnostica al cliente y deja el merch puesto como la solución."
+    },
+    {
+      "tema": "Dónde viven los datos",
+      "respuesta": "Supabase guarda y Notion o Airtable muestran. Ellos tienen que poder filtrar y leer la base de clientes y presupuestos sin depender de alguien técnico, y sacar informes con IA para decidir con datos en lugar de decidir de memoria."
+    },
+    {
+      "tema": "El orden de la pauta",
+      "respuesta": "Primero orgánico para ver qué ángulo hace chispazo y después pauta sobre ese ángulo. La cuenta está dormida, así que el orgánico va a tardar y sirve sobre todo para validar y mantenerla activa."
+    }
   ],
-  "nota": "Contenido está en cero y es el piso: la cuenta está parada, y sin ángulo con chispazo no hay nada que pautar. La oferta baja a uno porque los kits se están redefiniendo y el precio recién sale de la llamada con Franco."
- },
- "fecha": "21 de septiembre de 2026"
+  "entregables": [
+    {
+      "que": "Los 12 ángulos para arrancar",
+      "para": "Los dejó Franco el 18 de septiembre. Son la puerta de entrada de cada pieza de las 2 campañas y son el insumo con el que se arma el calendario."
+    },
+    {
+      "que": "El roadmap con punto de llegada",
+      "para": "Lo baja Facu en la 1:1 del 2 de octubre, sobre lo que salga del calendario y de las primeras piezas. Es el documento contra el cual Custom Lab mide el tramo."
+    },
+    {
+      "que": "La estrategia de pauta y los guiones de los anuncios",
+      "para": "Los escribe Cáscara calibrados al cliente pyme y al local comercial; ellos configuran y operan la cuenta que ya tienen linkeada. Entra cuando el orgánico marque qué ángulo funciona."
+    },
+    {
+      "que": "El feedback sobre el copy de la landing y sobre los kits",
+      "para": "Ellos escriben y mandan, y Facu devuelve las correcciones antes de publicar."
+    },
+    {
+      "que": "La auditoría de la cuenta que hizo Fede en vivo",
+      "para": "Quedó la lista de arreglos concretos —nombre, bio, destacada y promesa en cada pieza— para aplicarla al perfil."
+    }
+  ],
+  "punto_b": [
+    {
+      "fecha": "2 de octubre de 2026",
+      "titulo": "Las 2 campañas publicando y el calendario presentado",
+      "texto": "El calendario de contenido escrito sobre los 12 ángulos que dejó Franco, presentado a Fede en la llamada de contenido, y las 2 campañas ya publicando: la de Documentación con el registro semanal del proceso, y la de Producto con el desarrollo de los kits desde el boceto hasta el prototipo. La landing publicada con el formulario capturando. El número a mirar es cuántas conversaciones abrió cada pieza, no cuántas vistas hizo."
+    },
+    {
+      "fecha": "31 de octubre de 2026",
+      "titulo": "Presupuestos entrando de nichos nuevos, con la pauta corriendo",
+      "texto": "La pauta corriendo sobre los ángulos que hicieron chispazo en orgánico, apuntada a empresas de 30 a 50 empleados y a locales comerciales. Los kits retomados y cargados en la tienda, ahora con audiencia mirando. El número a presentar es cuántos presupuestos entraron por semana, cuántos vinieron de nichos que no son el de la iglesia y cuántas ventas salieron del e-commerce. En paralelo, el recontacto sostenido como motor mientras esto levanta."
+    }
+  ],
+  "roadmap": [
+    {
+      "cuando": "Esta semana",
+      "objetivo": "Arrancar a documentar, sin esperar a nada",
+      "entregable": "Grabar el día a día de la marca tal como está: la búsqueda de productos, las conversaciones con proveedores, lo que sale mal. Publicar lo primero esta misma semana. La regla de Franco es documentar y no crear, así que no hay que producir nada: hay que registrar.",
+      "quien": "Custom Lab"
+    },
+    {
+      "cuando": "Del 22 al 30 de septiembre",
+      "objetivo": "El calendario de las 2 campañas escrito",
+      "entregable": "Un calendario sobre los 12 ángulos, repartido entre la campaña de Documentación —el proceso de construir la marca como serie semanal— y la de Producto —los kits desde el boceto hasta el prototipo—. Se presenta en la llamada de contenido con Fede.",
+      "quien": "Custom Lab con Fede"
+    },
+    {
+      "cuando": "Del 22 al 30 de septiembre",
+      "objetivo": "La landing publicada con el formulario capturando",
+      "entregable": "La landing rehecha: CTA visible sin scrollear, mail en 2 lugares y campo de proyecto obligatorio, abriendo con la pregunta del regalo. El copy se manda a Facu antes de publicar.",
+      "quien": "Custom Lab, con feedback de Facu"
+    },
+    {
+      "cuando": "2 de octubre",
+      "objetivo": "El punto de llegada del tramo escrito",
+      "entregable": "1:1 con Facu sobre el calendario y las primeras piezas publicadas. De ahí sale el roadmap con punto de llegada, que es lo que todavía falta y es contra lo que se mide el cierre del 31 de octubre.",
+      "quien": "Custom Lab con Facu"
+    },
+    {
+      "cuando": "Octubre",
+      "objetivo": "Los kits retomados, ahora con audiencia",
+      "entregable": "Kit de onboarding, de oficina y de freelance cargados en la tienda, cada uno atado a un problema de cultura de equipo o de marca. El de construcción sigue pausado. Se retoman después del contenido y no antes.",
+      "quien": "Custom Lab"
+    },
+    {
+      "cuando": "Octubre",
+      "objetivo": "La pauta corriendo sobre lo que ya funcionó",
+      "entregable": "La pauta apuntada a empresas de 30 a 50 empleados y a locales comerciales, sobre los ángulos que hicieron chispazo en orgánico. Antes de eso no se pauta: se pauta lo que ya mostró señal.",
+      "quien": "Custom Lab con Cáscara"
+    }
+  ],
+  "accionables": [
+    {
+      "cuando": "Del 22 al 30 de septiembre",
+      "cliente": [
+        "Grabar y publicar esta semana lo primero de la campaña de Documentación, sin producir nada",
+        "Escribir el calendario de las 2 campañas sobre los 12 ángulos y presentárselo a Fede en la llamada de contenido",
+        "Publicar la landing con el CTA visible, el mail en 2 lugares y el campo de proyecto obligatorio",
+        "Mandar el copy de la landing a Facu antes de publicar",
+        "Aplicar al perfil los arreglos que dejó la auditoría de Fede: nombre, bio, destacada y promesa en cada pieza",
+        "Leer cada pieza el día que sale y anotar qué conversación abrió, no cuántas vistas hizo",
+        "Dejar los kits pausados hasta que haya contenido saliendo"
+      ],
+      "cascara": [
+        "Facu les da feedback sobre el copy de la landing antes de que la publiquen",
+        "Fede recibe el calendario en la llamada de contenido y lo calibra",
+        "Franco agenda el seguimiento para planificar la campaña de lanzamiento de 4 semanas"
+      ]
+    },
+    {
+      "cuando": "2 de octubre",
+      "cliente": [
+        "Llegar a la 1:1 con el calendario presentado y con las primeras piezas publicadas"
+      ],
+      "cascara": [
+        "Facu baja el roadmap con punto de llegada sobre el calendario y las primeras piezas"
+      ]
+    },
+    {
+      "cuando": "Octubre",
+      "cliente": [
+        "Retomar los kits y cargarlos en la tienda, ahora con audiencia mirando",
+        "Poner la pauta a correr sobre los ángulos que hicieron chispazo en orgánico",
+        "Sostener el recontacto sobre la base histórica como motor de ventas del mes",
+        "Registrar cuántos presupuestos entran por semana y de qué nicho vienen",
+        "Mantener el mínimo de 10 unidades en cualquier trabajo de personalización"
+      ],
+      "cascara": [
+        "Cáscara les deja la estrategia de pauta y los guiones de los anuncios",
+        "Facu calibra los anuncios y los ángulos según lo que vaya entrando",
+        "Facu los ayuda a leer qué producto del e-commerce vende y cuál no"
+      ]
+    },
+    {
+      "cuando": "Cierre, 31 de octubre",
+      "cliente": [
+        "Presentar los presupuestos de la semana con el nicho anotado al lado"
+      ],
+      "cascara": [
+        "Facu y Franco revisan contra el punto A y definen el tramo siguiente"
+      ]
+    }
+  ],
+  "conclusion": "El tramo cerró la parte difícil: ya saben qué venden y a quién. Venden publicidad hecha con merch a empresas que tienen presupuesto de marketing, y la producción textil pasó a ser el cómo. Eso cambió el precio, el canal y el contenido, y el catálogo se ordenó en kits de onboarding, de oficina y de freelance.\n\nLo que cambió el 18 de septiembre es el orden de lo que sigue. La tienda está lista y los kits no, y la decisión fue posponer los kits: una tienda sin tráfico no convierte, y el tiempo que se fue buscando productos son 2 semanas sin publicar. Primero el contenido, y el contenido se resuelve documentando: el proceso de construir la marca contado como serie, y el desarrollo de los kits desde el boceto. Son 2 campañas en paralelo sobre 12 ángulos que ya están escritos, así que no hay nada que inventar, hay que grabar.\n\nEl motivo de fondo es el que conviene que no se pierda: el contenido es lo que construye demanda, y sin demanda propia la única forma de vender un producto estandarizado es competir por precio. Ese es exactamente el lugar del que vienen tratando de salir desde agosto.\n\nEl punto de llegada del tramo se escribe el 2 de octubre, sobre el calendario y sobre las primeras piezas publicadas. Hasta entonces el recontacto sobre la base histórica sigue siendo el motor de ventas, porque es lo único probado.",
+  "carta": "Piero, Juan: hicieron lo que se les pidió. Armaron la base histórica de 2 años, salieron a recontactar y vendieron, y eso ya dice qué clase de socios son cuando la tarea está clara. Lo que pasó el 18 de septiembre es una corrección de prioridad y conviene tomarla así: no es que hayan hecho mal en avanzar con los kits, es que el orden estaba al revés. La tienda ya está y no vende porque nadie la ve.\n\nLo que viene les pide algo que suele costar más que producir: publicar mientras todavía no está todo perfecto. Documentar es exactamente eso, mostrar el proceso como está, con la búsqueda de proveedores y con lo que sale mal. Tienen 12 ángulos escritos, así que no hay nada que pensar esta semana: hay que grabar y subir.",
+  "abierto": "Cuánto pueden poner por mes en pauta y quién la opera, porque hoy no tienen con qué pagarle a nadie (falta confirmar). Cuáles son sus territorios de contenido sobre los 3 pilares, que Juana le dejó como la única organización que necesita y todavía no están escritos (falta confirmar). Y el apellido de Juan y la ficha de la segunda persona del equipo, que siguen faltando.",
+  "handicap": {
+    "ejes": {
+      "oferta": 1,
+      "contenido": 0,
+      "demanda": 1,
+      "venta": 3,
+      "entrega": 3
+    },
+    "total": 8,
+    "tramo": "En construcción",
+    "ritmo": "verde",
+    "ritmo_texto": "Hace lo que queda de cada llamada.",
+    "eje_flojo": [
+      "contenido"
+    ],
+    "sugiere": [
+      "Sostener"
+    ],
+    "nota": "Contenido está en cero y es el piso: la cuenta está parada por tercera semana, y Piero lo nombró de frente — no sabe hablar en cámara. Entrega sube un escalón el 18/09 con ejecución mostrada en vivo: Shopify levantado y activo, proveedores del kit conseguidos llamando uno por uno y un pedido entregado. La oferta sigue en uno porque los kits se están redefiniendo y el precio nunca se tocó en la llamada con Franco."
+  },
+  "fecha": "21 de septiembre de 2026"
 }
