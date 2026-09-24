@@ -72,9 +72,16 @@ def RAD(slug):
             f'<div><div class="k">La métrica</div><div class="v">{esc(r.get("metrica") or "—")}</div></div>'
             f'<div><div class="k">Dónde está</div><div class="v">{esc(donde)}</div></div></div>')
 
+def _archivo(ruta, nombre):
+    """El nombre con el que se guarda el archivo. Si no viene uno usable, sale de la ruta."""
+    if nombre and str(nombre).lower().endswith((".html", ".pdf")):
+        return str(nombre)
+    return ruta.split("/")[-1] if ruta else ""
+
 def FILA(nom, est, pro, accs, doc=None, docn=None, extra=None, nota=None, slug=None):
     rad = RAD(slug) if slug else ""
     b = ""
+    docn = _archivo(doc, docn)
     if doc and doc.endswith(".pdf"):
         b = ('<div class="btns">'
              f'<button class="boton lleno" onclick="bajar(\'{doc}\',\'{docn}\')">Descargar el documento</button>'
@@ -89,6 +96,7 @@ def FILA(nom, est, pro, accs, doc=None, docn=None, extra=None, nota=None, slug=N
              f'<button class="boton" onclick="bajar(\'{doc}\',\'{docn}\')">Descargar</button>')
         if extra:
             d2,n2,t2 = extra
+            n2 = _archivo(d2, n2)
             b += (f'<button class="boton lleno" onclick="ver(\'{d2}\',\'{esc(t2)}\')">{esc(t2)}</button>'
                   f'<button class="boton" onclick="bajar(\'{d2}\',\'{n2}\')">Descargar</button>')
         b += '</div>'
@@ -195,12 +203,21 @@ function ver(ruta,titulo){{
 function cerrar(){{ VIS.classList.remove('on'); VF.src='about:blank'; document.body.style.overflow=''; }}
 document.addEventListener('keydown',function(e){{ if(e.key==='Escape') cerrar() }});
 async function bajar(ruta,nombre){{
+  var arch = (nombre && /\.(html|pdf)$/i.test(nombre)) ? nombre : ruta.split('/').pop();
+  var t;
+  try{{ var r=await fetch(ruta); if(!r.ok) throw 0; t=await r.blob(); }}
+  catch(e){{ alert('No se pudo leer el documento. Abrilo con «Ver el documento» y guardalo desde el navegador.'); return }}
+  /* adentro del artifact la descarga pasa por la capability; en un sitio normal, por el navegador */
+  var dl=null; try{{ if(window.claude&&window.claude.use) dl=await window.claude.use('downloads'); }}catch(e){{}}
+  if(dl){{
+    try{{ await dl.save({{filename:arch,data:t}}); return }}
+    catch(e){{ if(e&&e.code==='declined') return }}
+  }}
   try{{
-    var r=await fetch(ruta); var t=await r.blob();
-    var dl=await window.claude.use('downloads');
-    if(!dl){{ alert('La descarga no está disponible en esta vista. Abrí el documento y guardalo desde el navegador.'); return }}
-    await dl.save({{filename:nombre,data:t}});
-  }}catch(e){{ alert('No se pudo descargar el archivo.') }}
+    var u=URL.createObjectURL(t), a=document.createElement('a');
+    a.href=u; a.download=arch; document.body.appendChild(a); a.click();
+    setTimeout(function(){{ document.body.removeChild(a); URL.revokeObjectURL(u) }},1500);
+  }}catch(e){{ alert('No se pudo descargar el archivo. Abrilo con «Ver el documento» y guardalo desde el navegador.') }}
 }}
 </script>"""
 

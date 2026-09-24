@@ -1,3 +1,13 @@
+## 24 de septiembre de 2026
+
+Aye avisó que no le dejaba descargar las radiografías desde el handoff. Estaba roto y ya está arreglado.
+
+- **El botón «Descargar» de cada cliente.** El generador escribía el nombre del archivo como `None` —un `None` de Python que se colaba tal cual al HTML— y la descarga de claude.ai rechaza cualquier archivo sin extensión. Por eso todos los botones de las tarjetas fallaban con un "no se pudo descargar" genérico, mientras que el botón de adentro del visor sí funcionaba: ese armaba el nombre desde la ruta. Ahora el nombre sale siempre de la ruta del documento, así que cada radiografía baja como `nombre-del-cliente.html`.
+- **La descarga tiene un camino de salida.** Si la capability no está disponible —por ejemplo abriendo la página desde GitHub Pages en vez del artefacto—, ahora baja por el navegador en vez de cortar con un cartel. Y si el que mira cancela el diálogo, no aparece ningún error.
+- **Los mensajes de error dicen qué hacer.** Antes decían "no se pudo" y nada más.
+
+**Para mirar antes de subir:** abrí el handoff y probá «Descargar» en dos clientes cualquiera —que el archivo baje con el nombre del cliente y se abra en el navegador—. El único archivo que cambia en el repo es `generador/build_ally.py`; `founders-handoff-aye.html` está en el `.gitignore` y lo arma el build.
+
 # Cambios
 
 Lo que se tocó cada día, en criollo. Lo más nuevo arriba. Se lee antes de hacer el push
