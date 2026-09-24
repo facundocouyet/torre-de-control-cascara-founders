@@ -103,6 +103,9 @@ def revisar_entregas():
             v = f.get(k)
             if v and not os.path.exists(R('clientes', v)):
                 mal('entregas · %s: el documento "%s" no está en clientes/' % (f['nombre'], v))
+        for x in (f.get('extras') or ([f['extra']] if f.get('extra') else [])):
+            if x and not os.path.exists(R('clientes', x[0])):
+                mal('entregas · %s: el documento extra "%s" no está en clientes/' % (f['nombre'], x[0]))
         # "Mandarle la carta X" tiene que tener su html armado para ese founder
         slug = f.get('slug')
         for a in (f.get('accionables') or []):

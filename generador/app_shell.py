@@ -1397,7 +1397,9 @@ function datosEntrega(){
     if(f.doc){
       b='<div class="bt"><button class="ll" onclick="verDoc(\''+f.doc+'\',\''+nm+'\')">Ver el documento</button>'+
         '<button onclick="verDoc(\''+f.doc+'\',\''+nm+'\',1)">Descargar</button>';
-      if(f.extra) b+='<button class="ll" onclick="verDoc(\''+f.extra[0]+'\',\''+esc(f.extra[2]).replace(/'/g,"")+'\')">'+esc(f.extra[2])+'</button>';
+      (f.extras||(f.extra?[f.extra]:[])).forEach(function(x){
+        b+='<button class="ll" onclick="verDoc(\''+x[0]+'\',\''+esc(x[2]).replace(/'/g,"")+'\')">'+esc(x[2])+'</button>';
+      });
       b+='</div>';
     } else if(f.nota){ b='<div class="sd">'+f.nota+'</div>' }
     if(f.upselling) b+='<div class="ups"><span class="k">Upselling</span>'+f.upselling+'</div>';

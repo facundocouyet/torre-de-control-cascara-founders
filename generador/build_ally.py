@@ -113,7 +113,7 @@ def LISTA(filas): return '<div class="cli">' + "".join(filas) + '</div>'
 
 def _fila(f):
     doc = ('docs/'+f['doc']) if f.get('doc') else None
-    ex  = f.get('extra')
+    ex  = f.get('extra') or (f.get('extras') or [None])[0]
     if ex: ex = ['docs/'+ex[0], ex[1], ex[2]]
     return FILA(f['nombre'], f['estado'], f['proyecto'],
                 [('<s>'+a[7:].lstrip()+'</s>') if a.startswith('[hecho]') else a

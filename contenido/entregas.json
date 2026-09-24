@@ -428,17 +428,27 @@
         "Mandarle la carta de <b>Ángulos desde el cliente ideal</b>, armada sobre los seis temas que ya escribieron. Con eso se pasa a construir el calendario del lanzamiento, que Facu habla con Fede.",
         "Marcarles las dos cosas del documento: el autodiagnóstico no tiene resultado si falla la pregunta 4 o la 5 —decisor y contenido—, y hay un cruce de canal entre Meta y Google.",
         "Mandar la radiografía y las cartas del tramo.",
+        "Mandarle a Ani la respuesta sobre los creativos y la <b>devolución con próximos pasos</b>: los siete se publican orgánicos ya, la pauta entra después de la landing y sobre el que haga chispazo.",
+        "Que publiquen Rafa 3 esta semana, y después Mati 3 y Rafa 1. Es la primera pieza del tramo al aire.",
+        "Que confirmen si la cifra del caso de Mati 4 se puede decir, porque su propio cliente ideal dice sin cifras.",
         "Este caso lo sigue Facu."
       ],
       "doc": "qualita.html",
-      "extra": [
-        "qualita-cartas.html",
-        "qualita-cartas-del-tramo.html",
-        "Las cartas del tramo"
-      ],
       "nota": null,
       "slug": "qualita",
-      "upselling": false
+      "upselling": false,
+      "extras": [
+        [
+          "qualita-devolucion.html",
+          "doc",
+          "Devolución y próximos pasos"
+        ],
+        [
+          "qualita-cartas.html",
+          "doc",
+          "Las cartas del tramo"
+        ]
+      ]
     },
     {
       "nombre": "The Momentum Club",
