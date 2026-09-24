@@ -569,17 +569,17 @@
           "eje": [
             "venta"
           ],
-          "resultado": "El camino de una consulta escrito tal como pasa hoy, desde que alguien escribe hasta que firma, con las últimas consultas reales y dos reuniones de venta grabadas.",
+          "resultado": "El camino de una consulta escrito tal como pasa hoy, desde que alguien escribe hasta que firma, con las últimas consultas reales y llamadas de venta grabadas.",
           "pasos": [
             "Escribir paso por paso qué le pasa a una consulta desde que entra hasta que se firma.",
             "Anotar por dónde entran las consultas y cuántas por mes.",
             "Contar cómo es la primera respuesta, la reunión de venta y el cierre.",
             "Juntar las últimas consultas con hasta dónde llegó cada una.",
-            "Grabar las próximas dos reuniones de venta."
+            "Grabar las próximas dos reuniones de venta, o juntar llamadas de venta que ya estén grabadas."
           ],
           "completar": [
             "La hoja completa",
-            "Dos reuniones de venta grabadas"
+            "Llamadas de venta grabadas: las próximas o las que ya tengan"
           ],
           "herramientas": [
             "El CRM o la planilla donde anotan las consultas",
@@ -807,11 +807,11 @@
             "entrega",
             "oferta"
           ],
-          "resultado": "El recorrido del cliente después de la compra: qué recibe, qué resultado se lleva, cuánto le cuesta al equipo entregarlo, cómo arranca y qué escalones hay arriba y abajo de lo que se vende hoy.",
+          "resultado": "El recorrido del cliente después de la compra: qué recibe, qué resultado se lleva, dónde se traba la entrega y cómo se podría productizar, cómo arranca y qué escalones hay arriba y abajo de lo que se vende hoy.",
           "pasos": [
             "Listar lo que se entrega y el resultado que deja cada cosa.",
             "Contar cómo arranca un cliente hasta su primer resultado.",
-            "Anotar lo que más horas le come al equipo por cliente.",
+            "Anotar dónde se traba hoy el servicio y cómo se podría productizar.",
             "Contar qué pasa cuando termina el servicio.",
             "Completar la escalera: lo que hay abajo, en el medio y arriba."
           ],

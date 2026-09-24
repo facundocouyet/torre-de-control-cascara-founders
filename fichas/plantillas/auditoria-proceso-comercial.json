@@ -1,7 +1,7 @@
 {
   "modulo": "auditoria-proceso-comercial",
   "titulo": "La auditoría del proceso comercial",
-  "bajada": "El camino de una consulta tal como pasa hoy, desde que alguien escribe hasta que firma. Con las últimas consultas reales al lado y dos reuniones de venta grabadas.",
+  "bajada": "El camino de una consulta tal como pasa hoy, desde que alguien escribe hasta que firma. Con las últimas consultas reales al lado y llamadas de venta grabadas.",
   "lista_cuando": "Alguien de afuera lee la hoja y sabe qué le pasa a una consulta en cada paso, quién la lleva y dónde se suele caer.",
   "secciones": [
     {
@@ -99,12 +99,12 @@
     },
     {
       "cid": 7,
-      "titulo": "Dos reuniones de venta grabadas",
-      "consigna": "Las próximas dos, grabadas con Fathom o con lo que usen, avisándole al cliente. Es lo que más sirve de toda la hoja: sin eso vemos lo que ustedes creen que pasa en la reunión, y con eso vemos lo que pasa.",
+      "titulo": "Llamadas de venta grabadas",
+      "consigna": "Cualquiera de las dos opciones sirve: grabar las próximas dos reuniones de venta, con Fathom o con lo que usen y avisándole al cliente, o pasarnos llamadas de venta que ya tengan grabadas. Es lo que más sirve de toda la hoja: sin eso vemos lo que ustedes creen que pasa en la reunión, y con eso vemos lo que pasa.",
       "campo": "lineas",
       "lineas": [
-        "Link de la primera reunión",
-        "Link de la segunda reunión"
+        "Link de la primera llamada",
+        "Link de la segunda llamada"
       ]
     },
     {

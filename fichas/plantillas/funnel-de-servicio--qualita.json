@@ -2,18 +2,19 @@
   "modulo": "funnel-de-servicio",
   "slug": "qualita",
   "founder": "Qualita Studio",
-  "bajada": "Qué recibe un cliente de Qualita, contado simple y tal como pasa hoy: el método por dentro, el resultado que deja, lo que le cuesta al equipo y qué hay arriba y abajo del servicio.",
-  "lista_cuando": "Alguien de afuera lee la hoja y puede contar qué le pasa a una empresa desde que firma con Qualita hasta el año, y qué más se le podría vender.",
+  "bajada": "Qué recibe un cliente de Qualita, contado simple y tal como pasa hoy: el método por dentro, el resultado que deja, dónde se traba el servicio y qué hay arriba y abajo.",
+  "lista_cuando": "Alguien de afuera lee la hoja y puede contar qué le pasa a una empresa desde que firma con Qualita hasta que termina, y qué más se le podría vender.",
   "bajada_envio": {
     "founder": "Qualita Studio",
-    "porque": "El método lo tenemos contado en tres palabras —marca, infraestructura y motor de demanda— y nunca lo vimos por dentro. En los guiones se nota: dicen los nombres de los pilares y el que mira no se imagina qué pasa adentro. Y alrededor del método hay dos cosas abiertas: el programa con Digital House, que puede ser el escalón de entrada, y el precio, que no se revisa desde abril.",
+    "porque": "El método lo tenemos contado en tres palabras —marca, infraestructura y motor de demanda— y nunca lo vimos por dentro. En los guiones se nota: dicen los nombres de los pilares y el que mira no se imagina qué pasa adentro.",
     "objetivo": "Entender qué hacen de verdad, para contarlo con palabras que el dueño entienda, y armar la escalera de valor alrededor del método.",
     "mindset": "No hay que definir nada nuevo ni explicarlo bien. Es contarnos cómo trabajan hoy, como se lo contarían a alguien que entra al equipo."
   },
   "pasos": [
-    "Contar el recorrido de un cliente desde que firma hasta el año.",
+    "Anotar cuánto dura el método y cuánto cuesta hoy.",
+    "Contar el recorrido de un cliente desde que firma hasta que termina.",
     "Bajar cada pilar a lo que hacen y lo que recibe el cliente.",
-    "Anotar lo que más horas le come al equipo.",
+    "Contar dónde se traba hoy el servicio y cómo lo productizarían.",
     "Contar dos clientes con el antes y el después.",
     "Completar la escalera: lo que hay abajo y arriba del método."
   ],
@@ -28,9 +29,19 @@
       ]
     },
     {
+      "cid": 20,
+      "titulo": "El método en dos datos",
+      "consigna": "Lo básico, tal como lo venden hoy.",
+      "campo": "lineas",
+      "lineas": [
+        "Cuánto dura el método",
+        "Cuánto cuesta hoy y cómo se paga"
+      ]
+    },
+    {
       "cid": 1,
       "titulo": "El recorrido de un cliente",
-      "consigna": "Desde que firma hasta que se cumple el año. Qué pasa en cada momento, quién del equipo lo lleva y qué recibe el cliente. Pensalo con un cliente real en la cabeza.",
+      "consigna": "Desde que firma hasta que termina. Qué pasa en cada momento, quién del equipo lo lleva y qué recibe el cliente. Pensalo con un cliente real en la cabeza.",
       "campo": "tabla",
       "columnas": [
         "Cuándo",
@@ -41,11 +52,10 @@
       "filas_rotulo": [
         "La primera semana",
         "El primer mes",
-        "Del mes dos al tres",
-        "Del mes cuatro al seis",
-        "Del mes seis al año"
+        "Los meses siguientes",
+        "Cuando termina"
       ],
-      "filas": 5
+      "filas": 4
     },
     {
       "cid": 2,
@@ -66,17 +76,20 @@
       "filas": 3
     },
     {
-      "cid": 3,
-      "titulo": "Lo que más horas le come al equipo",
-      "consigna": "Las tareas que más tiempo llevan por cada cliente. Al lado, si se podría hacer una sola vez para todos: una plantilla, una clase grabada, un proceso escrito.",
-      "campo": "tabla",
-      "columnas": [
-        "La tarea",
-        "Horas por cliente al mes, más o menos",
-        "Quién la hace",
-        "¿Se podría hacer una vez para todos?"
-      ],
-      "filas": 6
+      "titulo": "Dónde se traba hoy el servicio",
+      "consigna": "¿Qué parte del proceso sienten que hoy es el cuello de botella? ¿O qué parte creen que se puede hacer mejor, más rápido o con menos gente encima? No hace falta medirlo: alcanza con lo que ven en el día a día.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Hoy se traba en…",
+      "cid": 3
+    },
+    {
+      "titulo": "Cómo lo productizarían",
+      "consigna": "Si lo que venden se convirtiera en un producto que se entrega igual cada vez, ¿cómo se lo imaginan? Una idea o un pensamiento, aunque esté en borrador. En esto los queremos ayudar.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Me lo imagino como…",
+      "cid": 21
     },
     {
       "cid": 4,
@@ -93,12 +106,12 @@
     },
     {
       "cid": 5,
-      "titulo": "Qué pasa cuando se cumple el año",
-      "consigna": "El final del primer año, que es donde se renueva o se pierde un cliente.",
+      "titulo": "Qué pasa cuando termina",
+      "consigna": "El final del método, que es donde se renueva o se pierde un cliente.",
       "campo": "lineas",
       "lineas": [
-        "Qué pasa cuando se cumple el año",
-        "Cuántos renuevan",
+        "Qué pasa cuando termina",
+        "Cuántos renuevan o siguen con ustedes",
         "Qué les venden a los que siguen",
         "Por qué se van los que se van"
       ]
@@ -106,7 +119,7 @@
     {
       "cid": 6,
       "titulo": "La escalera alrededor del método",
-      "consigna": "El método en el medio. Abajo, algo más chico para la empresa que todavía no llega: puede ser el programa con Digital House, y si es así, contanos hasta cuándo corre. Arriba, lo que viene para el que ya es cliente. Si un escalón no existe, escribilo igual. Y en el precio del método, el que tienen hoy: lo revisamos juntos después.",
+      "consigna": "El método en el medio, con su precio de hoy. Para abajo y para arriba les dejamos dos ideas nuestras para arrancar; contanos qué piensan y completá la tabla con lo que haya hoy, aunque sea un escalón que todavía no existe.",
       "campo": "tabla",
       "columnas": [
         "El escalón",
@@ -115,11 +128,28 @@
         "Cuántos lo compran hoy"
       ],
       "filas_rotulo": [
-        "Algo más chico",
+        "Abajo",
         "El método Qualita",
-        "Algo más grande"
+        "Arriba"
       ],
       "filas": 3
+    },
+    {
+      "cid": 22,
+      "nuestro": true,
+      "titulo": "Dos ideas para la escalera",
+      "texto": [
+        "<b>Abajo:</b> ¿el programa con Digital House puede ser la puerta de entrada? Y otra opción: un programa grabado del método, para que una empresa pueda acceder al método sin que ustedes lo hagan con ella.",
+        "<b>Arriba:</b> el cliente entra por el método y, en el camino, ustedes ya participan de la estrategia de todo su marketing y lo ayudan con el contenido. El paso siguiente es una consultoría más general, de dirección: acompañarlo como advisors en otros temas además del comercial."
+      ]
+    },
+    {
+      "cid": 23,
+      "titulo": "Qué les parecen las dos ideas",
+      "consigna": "Lo que les suena, lo que no, y lo que ya hacen hoy sin cobrarlo.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Abajo…\n\nArriba…"
     },
     {
       "cid": 7,
@@ -134,8 +164,8 @@
       "nuestro": true,
       "titulo": "Qué hacemos nosotros con esto",
       "texto": [
-        "Con esto contamos el método con las palabras del dueño —qué le pasa a su empresa la primera semana, el primer mes y al año— para los ángulos, los guiones y la landing.",
-        "Y armamos la escalera alrededor del método: dónde se puede entregar lo mismo con menos horas, qué escalón falta y qué precio corresponde a cada uno."
+        "Con esto contamos el método con las palabras del dueño —qué le pasa a su empresa la primera semana, el primer mes y cuando termina— para los ángulos, los guiones y la landing.",
+        "Y los ayudamos a productizarlo: dónde se puede entregar lo mismo con menos gente encima, qué escalón falta y qué precio corresponde a cada uno."
       ]
     }
   ]

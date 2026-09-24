@@ -1,8 +1,8 @@
 {
   "modulo": "funnel-de-servicio",
   "titulo": "La hoja del funnel de servicio",
-  "bajada": "Qué pasa con un cliente después de que compra: cómo arranca, qué resultado se lleva, cuánto le cuesta al equipo entregarlo y qué más se le puede vender. De ahí sale la escalera de valor.",
-  "lista_cuando": "Alguien de afuera lee la hoja y sabe qué recibe un cliente, qué resultado se lleva, qué le come horas al equipo y qué escalones hay arriba y abajo de lo que se vende hoy.",
+  "bajada": "Qué pasa con un cliente después de que compra: cómo arranca, qué resultado se lleva, dónde se traba la entrega y qué más se le puede vender. De ahí sale la escalera de valor.",
+  "lista_cuando": "Alguien de afuera lee la hoja y sabe qué recibe un cliente, qué resultado se lleva, dónde se traba el servicio y qué escalones hay arriba y abajo de lo que se vende hoy.",
   "secciones": [
     {
       "cid": 0,
@@ -39,17 +39,20 @@
       ]
     },
     {
-      "cid": 3,
-      "titulo": "Lo que más horas le come al equipo",
-      "consigna": "Las tareas que más tiempo llevan por cada cliente. Al lado, si se podría hacer una sola vez para todos: una plantilla, una clase grabada, un proceso escrito.",
-      "campo": "tabla",
-      "columnas": [
-        "La tarea",
-        "Horas por cliente al mes, más o menos",
-        "Quién la hace",
-        "¿Se podría hacer una vez para todos?"
-      ],
-      "filas": 6
+      "titulo": "Dónde se traba hoy el servicio",
+      "consigna": "¿Qué parte del proceso sienten que hoy es el cuello de botella? ¿O qué parte creen que se puede hacer mejor, más rápido o con menos gente encima? No hace falta medirlo: alcanza con lo que ven en el día a día.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Hoy se traba en…",
+      "cid": 3
+    },
+    {
+      "titulo": "Cómo lo productizarían",
+      "consigna": "Si lo que venden se convirtiera en un producto que se entrega igual cada vez, ¿cómo se lo imaginan? Una idea o un pensamiento, aunque esté en borrador. En esto los queremos ayudar.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Me lo imagino como…",
+      "cid": 8
     },
     {
       "cid": 4,
