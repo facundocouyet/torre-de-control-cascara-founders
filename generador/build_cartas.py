@@ -292,7 +292,7 @@ def construir(m, categoria, pl=None, bajada=None):
     # ---- encabezado. Es el primer .slot: la bajada personalizada entra justo abajo.
     out.append('<header class="slot">')
     out.append('  <div class="caja">Carta de módulo · %s</div>' % esc(categoria))
-    out.append('  <h1>%s</h1>' % esc(m["nombre"]))
+    out.append('  <h1>%s</h1>' % esc((pl or {}).get("nombre") or m["nombre"]))   # la variante puede renombrar la carta
     out.append('  <p class="bajada">%s</p>' % ((pl or {}).get("bajada") or m.get("resultado", "")))
     out.append('  <div class="lista">')
     out.append('    <div><div class="et">Cuándo se asigna</div><div class="tx">%s</div></div>'
@@ -401,7 +401,7 @@ def construir(m, categoria, pl=None, bajada=None):
 
 def render(m, categoria, pl=None, bajada=None):
     quien = (bajada or {}).get("founder")
-    tit = '%s · carta de módulo' % m["nombre"] + (' · %s' % quien if quien else '')
+    tit = '%s · carta de módulo' % ((pl or {}).get("nombre") or m["nombre"]) + (' · %s' % quien if quien else '')
     cuerpo = construir(m, categoria, pl, bajada)
     hay_campos = bool((pl or {}).get("secciones"))
     acciones = ''

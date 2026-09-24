@@ -563,6 +563,32 @@
       "porque": "Varios casos tienen oferta, audiencia y nada que lleve de la conversación a la plata, y las llamadas se caen siempre en el mismo lugar.",
       "modulos": [
         {
+          "id": "auditoria-proceso-comercial",
+          "nombre": "Auditoría del proceso comercial",
+          "para_quien": "Cuando el founder ya vende con un proceso comercial funcionando y está por abrir un canal que va a traer consultas de gente que no lo conoce.",
+          "eje": [
+            "venta"
+          ],
+          "resultado": "El camino de una consulta escrito tal como pasa hoy, desde que alguien escribe hasta que firma, con las últimas consultas reales y dos reuniones de venta grabadas.",
+          "pasos": [
+            "Escribir paso por paso qué le pasa a una consulta desde que entra hasta que se firma.",
+            "Anotar por dónde entran las consultas y cuántas por mes.",
+            "Contar cómo es la primera respuesta, la reunión de venta y el cierre.",
+            "Juntar las últimas consultas con hasta dónde llegó cada una.",
+            "Grabar las próximas dos reuniones de venta."
+          ],
+          "completar": [
+            "La hoja completa",
+            "Dos reuniones de venta grabadas"
+          ],
+          "herramientas": [
+            "El CRM o la planilla donde anotan las consultas",
+            "Fathom para grabar las reuniones"
+          ],
+          "estado": "existe",
+          "evidencia": "Qualita tiene equipo que asesora y cotiza, y el filtro de entrada lo hacen Rafa y Mati a mano; con la landing y los anuncios van a entrar consultas de afuera del network. En The Momentum Club la venta nunca pasó por una llamada: webinar, link, y los que dudan escriben por Instagram."
+        },
+        {
           "id": "pipeline-7-campos",
           "nombre": "Pipeline de siete campos",
           "para_quien": "Se le asigna a todo founder que ya tiene consultas entrando y las maneja de memoria.",
@@ -1306,6 +1332,7 @@
     "formato-barato",
     "diez-piezas-y-lectura",
     "cinco-llamadas-con-precio",
+    "auditoria-proceso-comercial",
     "pipeline-7-campos",
     "prospeccion-y-recontacto",
     "llamada-de-venta",

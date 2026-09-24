@@ -1,0 +1,125 @@
+{
+  "modulo": "auditoria-del-programa",
+  "slug": "qualita",
+  "founder": "Qualita Studio",
+  "nombre": "Auditoría del método",
+  "bajada": "Qué recibe un cliente de Qualita, contado simple y tal como pasa hoy. Con esto el método se puede explicar con las palabras del dueño y no con los nombres de los pilares.",
+  "lista_cuando": "Alguien de afuera lee la hoja y puede contar qué le pasa a una empresa desde que firma con Qualita hasta el año, sin preguntarles nada.",
+  "bajada_envio": {
+    "founder": "Qualita Studio",
+    "porque": "El método lo tenemos contado en tres palabras —marca, infraestructura y motor de demanda— y nunca lo vimos por dentro. En los guiones se nota: dicen los nombres de los pilares y el que mira no se imagina qué pasa adentro.",
+    "objetivo": "Entender qué hacen de verdad, para contarlo en los ángulos, en los guiones y en la landing con palabras que el dueño entienda.",
+    "mindset": "No hay que definir nada nuevo ni explicarlo bien. Es contarnos cómo trabajan hoy, como se lo contarían a alguien que entra al equipo."
+  },
+  "pasos": [
+    "Contar el recorrido de un cliente desde que firma.",
+    "Bajar cada pilar a lo que hacen y lo que recibe el cliente.",
+    "Listar las reuniones y lo que se entrega.",
+    "Contar dos clientes con el antes y el después.",
+    "Pegar cómo lo explican hoy cuando venden."
+  ],
+  "secciones": [
+    {
+      "cid": 0,
+      "nuestro": true,
+      "titulo": "Esto es contarnos cómo trabajan",
+      "texto": [
+        "No hay nada para inventar ni para mejorar. Queremos entender qué recibe un cliente del método, tal como pasa hoy, con lo que funciona y con lo que está a medio armar.",
+        "Escríbanlo simple y largo. Lo que para ustedes es obvio es justo lo que el dueño de afuera no sabe."
+      ]
+    },
+    {
+      "cid": 1,
+      "titulo": "El recorrido de un cliente",
+      "consigna": "Desde que firma hasta que se cumple el año. Qué pasa en cada momento, quién del equipo lo lleva y qué recibe el cliente. Pensalo con un cliente real en la cabeza.",
+      "campo": "tabla",
+      "columnas": [
+        "Cuándo",
+        "Qué pasa",
+        "Quién lo lleva",
+        "Qué recibe el cliente"
+      ],
+      "filas_rotulo": [
+        "La primera semana",
+        "El primer mes",
+        "Del mes dos al tres",
+        "Del mes cuatro al seis",
+        "Del mes seis al año"
+      ],
+      "filas": 5
+    },
+    {
+      "cid": 2,
+      "titulo": "Los tres pilares, en simple",
+      "consigna": "Para cada pilar, qué hacen concretamente y qué tiene el cliente en la mano cuando está hecho. Y cómo se dan cuenta de que funcionó, en algo que se pueda ver.",
+      "campo": "tabla",
+      "columnas": [
+        "El pilar",
+        "Qué hacen, concretamente",
+        "Qué recibe el cliente",
+        "Cómo se nota que funcionó"
+      ],
+      "filas_rotulo": [
+        "Arquitectura de marca",
+        "Infraestructura digital",
+        "Motor de demanda"
+      ],
+      "filas": 3
+    },
+    {
+      "cid": 3,
+      "titulo": "Las reuniones",
+      "consigna": "Todas las que tiene un cliente con ustedes: la de arranque, las de seguimiento, las de revisión. Cada cuánto, quién va y para qué sirve.",
+      "campo": "tabla",
+      "columnas": [
+        "La reunión",
+        "Cada cuánto",
+        "Quién va",
+        "Para qué sirve"
+      ],
+      "filas": 5
+    },
+    {
+      "cid": 4,
+      "titulo": "Lo que se entrega",
+      "consigna": "Documentos, tableros, piezas, informes, accesos. Qué es, cuándo lo recibe el cliente y en qué formato.",
+      "campo": "tabla",
+      "columnas": [
+        "Lo que se entrega",
+        "Cuándo",
+        "En qué formato"
+      ],
+      "filas": 8
+    },
+    {
+      "cid": 5,
+      "titulo": "Dos clientes, con el antes y el después",
+      "consigna": "Acá sí van nombres y números: es para nosotros, no para publicar. Cómo llegó cada uno, qué se hizo y qué cambió.",
+      "campo": "tabla",
+      "columnas": [
+        "El cliente",
+        "Cómo llegó",
+        "Qué se hizo",
+        "Qué cambió"
+      ],
+      "filas": 2
+    },
+    {
+      "cid": 6,
+      "titulo": "Cómo lo explican hoy cuando venden",
+      "consigna": "Pegá textual lo que dicen en la reunión, en la propuesta o en el dossier cuando explican el método. Sin corregirlo.",
+      "campo": "texto",
+      "alto": 8,
+      "placeholder": "En la reunión decimos…\n\nEn la propuesta dice…"
+    },
+    {
+      "cid": 7,
+      "nuestro": true,
+      "titulo": "Qué hacemos nosotros con esto",
+      "texto": [
+        "Con esto contamos el método con las palabras del dueño: qué le pasa a su empresa en la primera semana, en el primer mes y al año. Eso va a los ángulos, a los guiones y a la landing.",
+        "Y vemos qué cliente prueba cada pilar, que es lo que después se cuenta como caso."
+      ]
+    }
+  ]
+}

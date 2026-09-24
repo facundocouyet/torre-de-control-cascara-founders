@@ -2,70 +2,83 @@
   "modulo": "angulos-desde-icp",
   "slug": "qualita",
   "founder": "Qualita Studio",
-  "bajada": "Los seis temas que ya escribieron, convertidos en ángulos: la pregunta que el dueño ya se hace, el giro propio de Qualita al lado y una pieza concreta para cada uno. Es el material con el que se entra a la reunión con Franco y a la grupal de contenido con Fede.",
-  "lista_cuando": "Cada uno de los seis temas tiene su pregunta escrita en las palabras del dueño, el giro de Qualita en una frase que Rafa pueda decir en voz alta, y una pieza concreta anotada al lado.",
+  "bajada": "Lo que ya escribieron en el cliente ideal está bien y queda. Acá se terminan los temas que escribieron al final, para que cada uno sea un ángulo que se pueda grabar.",
+  "lista_cuando": "Cada tema tiene la pregunta que se hace el dueño, lo que dice Qualita que no diría otra agencia y una pieza para mostrarlo.",
   "bajada_envio": {
     "founder": "Qualita Studio",
-    "porque": "El cliente ideal ya está y está bien: tiene el perfil, tiene con quién no trabajan y tiene las reglas de lenguaje. Y en la última parte del documento ya escribieron seis temas, que son ángulos en borrador sin que se los pidiéramos. Esta carta no arranca de cero: toma esos seis y los termina de convertir en ángulos que se puedan producir.",
-    "objetivo": "Los seis ángulos cerrados antes de la reunión con Franco. De ahí sale el roadmap del lanzamiento: qué se publica, en qué orden y contra qué parte del embudo.",
-    "mindset": "La diferencia entre un tema y un ángulo es chica y se nota enseguida. Un tema es de qué se habla. Un ángulo es qué decís vos sobre eso que no dice nadie más en tu rubro. Si un competidor podría firmar la misma frase, todavía es tema."
+    "porque": "El cliente ideal que mandaron está completo, y al final se adelantaron: escribieron seis temas que ya son ángulos en borrador. Esta carta no arranca de cero, los termina.",
+    "objetivo": "Los ángulos cerrados. Con eso se arma el calendario de contenido, que es la carta que sigue.",
+    "mindset": "Un tema es de qué se habla. Un ángulo es qué dice Qualita sobre eso que no dice nadie más. Si otra agencia podría firmar la misma frase, todavía es tema."
   },
-  "bloques_inicio": [
-    {
-      "nuestro": true,
-      "titulo": "Esta carta llega con medio trabajo hecho",
-      "texto": [
-        "El cliente ideal que mandaron está completo y tiene tres cosas que casi nadie escribe: con quién <b>no</b> trabajan, las reglas de cómo le hablan —traducir todo, nunca nombres ni cifras— y el filtro convertido en preguntas de formulario. Eso no hay que volver a hacerlo.",
-        "Y en la última parte ya escribieron seis temas. Eso son ángulos en borrador. Así que lo de abajo no es empezar: es terminar.",
-        "A cada uno de los seis le falta lo mismo, que son tres cosas: <b>la pregunta</b> que el dueño ya se hace, escrita como se la hace él y no como la describirían ustedes; <b>el giro</b>, que es qué dice Qualita sobre eso que no diría otra agencia; y <b>la pieza</b>, una sola, concreta, que se pueda grabar."
-      ]
-    },
-    {
-      "nuestro": true,
-      "titulo": "Los seis temas, y qué le falta a cada uno",
-      "texto": [
-        "<b>01 · Consultas que no compran.</b> Es el más fuerte de los seis porque es el dolor que el ICP nombra primero: «quiere consultas que valgan la pena, no volumen que no califica». El giro está a mano: el filtro se hace antes del vendedor, no después. Falta la pregunta textual del dueño y qué pieza lo muestra.",
-        "<b>02 · Qué pasa entre el anuncio y el mensaje.</b> Tema de enseñanza pura, y encaja con lo que el ICP dice que él más valora: que le enseñen. El riesgo acá es caer en la jerga que ustedes mismos se prohibieron: el ángulo tiene que poder contarse sin decir embudo ni conversión.",
-        "<b>03 · Cuánto tardás en responder y cuánto te cuesta.</b> El único de los seis que tiene un número adentro, y por eso el que más rinde. Es también el que le habla al equipo que asesora y cotiza, que es la pieza del negocio que ellos ya tienen montada.",
-        "<b>04 · El proveedor de toda la vida.</b> Es el más delicado y el más directo: el ICP dice textual que tiene un proveedor de años que dejó de rendir. El giro tiene que dejar bien parado al dueño, no al proveedor: nadie cambia de proveedor si el contenido lo hace sentir tonto por haberlo elegido.",
-        "<b>05 · Segunda generación.</b> Le habla a la mitad del ICP y es el único de los seis que toca algo personal y no técnico: modernizar lo que heredó sin romper lo que funcionaba. Es el que más conversación privada puede abrir.",
-        "<b>06 · Casos como historia de negocio.</b> Ojo con este: <b>no es un tema, es un formato.</b> Un caso contado sin nombres ni cifras sigue necesitando un ángulo adentro, y ese ángulo va a ser alguno de los cinco de arriba. Conviene sacarlo de la lista de temas y tratarlo como lo que es: la forma en que se cuentan los otros cinco."
-      ]
-    },
-    {
-      "nuestro": true,
-      "titulo": "Dos cosas del documento que conviene resolver antes",
-      "texto": [
-        "<b>El autodiagnóstico tiene un agujero.</b> El formulario tiene seis preguntas y tres resultados: seis de seis, falla solo la seis, y falla la uno, la dos o la tres. No hay resultado si falla la <b>cuatro</b> —no hay un decisor claro— o la <b>cinco</b> —no están dispuestos a invertir en contenido—. Y esas dos son las que más hacen fracasar un proyecto ya arrancado. Hoy alguien que contesta «tengo que consultarlo con otras personas» y «preferimos no invertir en contenido» cae en el mismo cajón que el seis de seis.",
-        "<b>Hay un cruce de canal.</b> El perfil dice que Meta es el canal con más potencial, y el primer ejemplo de cómo le hablan es «que aparezcas en Google». Puede ser a propósito, pero conviene decidirlo ahora: el canal cambia de qué se habla en la mitad de los ángulos de abajo."
-      ]
-    }
+  "pasos": [
+    "Leer lo que ya está bien, que no se toca.",
+    "Completar la fila de cada tema: la pregunta del dueño, lo que dice Qualita y una pieza.",
+    "Resolver las dos cosas que quedaron abiertas en el documento.",
+    "Mandar la hoja completa."
   ],
-  "bloques_final": [
+  "secciones": [
     {
-      "cid": 20,
-      "titulo": "Una pieza por ángulo, y nada más",
-      "consigna": "Una fila por ángulo cerrado. Qué pieza lo muestra —una sola, concreta, que se pueda grabar esta semana—, en qué formato y quién la hace. Una pieza por ángulo alcanza para leer si el ángulo funciona: si se hacen tres del mismo antes de publicar ninguna, no hay con qué corregir. Y acordate de la regla de ustedes: sin nombres de clientes y sin cifras.",
+      "cid": 0,
+      "nuestro": true,
+      "titulo": "Lo que ya está bien",
+      "texto": [
+        "El cliente ideal está completo y tiene tres cosas que casi nadie escribe: <b>con quién no trabajan</b>, <b>las reglas de cómo le hablan</b> —traducir todo, sin nombres de clientes y sin cifras— y <b>el filtro convertido en preguntas de formulario</b>. Eso queda como está.",
+        "Y los seis temas del final son el arranque de los ángulos. Algunos ya están grabados: el de las consultas está en Rafa 2 y el de segunda generación en Mati 4. Es buena señal: lo que escribieron y lo que grabaron van para el mismo lado."
+      ]
+    },
+    {
+      "cid": 1,
+      "nuestro": true,
+      "titulo": "Qué le falta a cada tema",
+      "texto": [
+        "<b>01 · Consultas que no compran.</b> El más fuerte, porque es el dolor que el cliente ideal nombra primero. Falta la pregunta con las palabras del dueño.",
+        "<b>02 · Qué pasa entre el anuncio y el mensaje.</b> Bueno para enseñar. Falta contarlo sin decir embudo ni conversión, que es la regla que ustedes mismos se pusieron.",
+        "<b>03 · Cuánto tardás en responder.</b> Es el único con un número adentro, y por eso el que más rinde. Falta la pieza.",
+        "<b>04 · El proveedor de toda la vida.</b> Falta cuidar que deje bien parado al dueño. Nadie cambia de proveedor si el contenido lo hace sentir que eligió mal.",
+        "<b>05 · Segunda generación.</b> El más personal: modernizar lo que heredó sin romper lo que funcionaba. Falta la pregunta del dueño.",
+        "<b>06 · Casos como historia de negocio.</b> Este es una forma de contar, no un tema: un caso siempre va a hablar de alguno de los otros cinco. Sale de la lista y pasa a ser la forma de contar los demás.",
+        "Y hay uno que no está en la lista y ya está grabado en Rafa 1: <b>las mejoras sueltas</b>. Cambiaron la web, arrancaron con redes, probaron pauta, y las ventas siguen igual. Es el argumento del método entero, así que entra en el lugar del seis."
+      ]
+    },
+    {
+      "cid": 2,
+      "titulo": "Completá cada tema",
+      "consigna": "Una fila por tema. La pregunta va escrita como se la hace el dueño, no como la describirían ustedes. Lo de Qualita, en una frase que Rafa pueda decir en voz alta. Y una sola pieza, concreta, que se pueda grabar; si ya está grabada, poné cuál es. Por ejemplo, con el primero: la pregunta del dueño puede ser «¿por qué me escribe tanta gente que después no compra?», lo de Qualita, que el filtro se hace antes de que la consulta llegue al vendedor, y la pieza, Rafa contando las preguntas que filtran una consulta.",
       "campo": "tabla",
       "columnas": [
-        "El ángulo",
-        "La pieza que lo muestra",
-        "Formato",
-        "Quién la hace"
+        "El tema",
+        "La pregunta que se hace el dueño",
+        "Lo que dice Qualita que no diría otra agencia",
+        "Una pieza que lo muestre"
       ],
-      "filas": 6,
-      "ejemplo": {
-        "quien": "Qualita",
-        "texto": "Del ángulo de las consultas que no compran: Rafa a cámara contando las tres preguntas que filtran una consulta antes de que llegue al vendedor, con el formulario en pantalla. Formato: video corto, cara y pantalla compartida."
-      }
+      "filas_rotulo": [
+        "01 · Consultas que no compran",
+        "02 · Entre el anuncio y el mensaje",
+        "03 · Cuánto tardás en responder",
+        "04 · El proveedor de toda la vida",
+        "05 · Segunda generación",
+        "06 · Las mejoras sueltas"
+      ],
+      "filas": 6
     },
     {
+      "cid": 3,
+      "titulo": "Dos cosas que quedaron abiertas",
+      "consigna": "El autodiagnóstico tiene resultado para casi todos los casos, menos para el que falla la pregunta cuatro —no hay alguien que decida— o la cinco —no quieren invertir en contenido—. Son las dos que más hacen caer un proyecto, así que conviene que tengan su respuesta. Y el documento dice en un lado que Meta es el canal con más potencial y en otro habla de aparecer en Google: elijan uno, porque cambia de qué se habla en la mitad de los ángulos.",
+      "campo": "lineas",
+      "lineas": [
+        "Qué le dice el resultado al que falla la cuatro",
+        "Qué le dice el resultado al que falla la cinco",
+        "El canal principal, Meta o Google, y por qué"
+      ]
+    },
+    {
+      "cid": 4,
       "nuestro": true,
-      "titulo": "Lo que sale de acá va a la reunión con Franco",
+      "titulo": "Lo que sigue",
       "texto": [
-        "Con los seis ángulos cerrados, la reunión con Franco deja de ser sobre qué comunicar y pasa a ser sobre en qué orden y contra qué parte del embudo. De ahí sale el roadmap del lanzamiento.",
-        "Lo que se decide ahí: cuáles de los seis abren la conversación y cuáles cierran, cuál va primero, cuántas piezas por ángulo y en qué momento entra el autodiagnóstico como llamada a la acción.",
-        "Después, los guiones y el calendario se bajan en la grupal de contenido con Fede, y la forma de contarlo en la de creatividad con Juana. Cáscara deja el criterio y el ejemplo; las piezas las hacen ustedes."
+        "Con los ángulos cerrados se arma el calendario de contenido: sesenta días con fecha, formato y quién hace cada pieza, con los creativos que ya están grabados adentro.",
+        "De nuestro lado va el criterio y el ejemplo. Los textos y las piezas los hacen ustedes, porque el contenido tiene que sonar a Qualita."
       ]
     }
   ]

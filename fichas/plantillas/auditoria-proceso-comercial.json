@@ -1,0 +1,120 @@
+{
+  "modulo": "auditoria-proceso-comercial",
+  "titulo": "La auditoría del proceso comercial",
+  "bajada": "El camino de una consulta tal como pasa hoy, desde que alguien escribe hasta que firma. Con las últimas consultas reales al lado y dos reuniones de venta grabadas.",
+  "lista_cuando": "Alguien de afuera lee la hoja y sabe qué le pasa a una consulta en cada paso, quién la lleva y dónde se suele caer.",
+  "secciones": [
+    {
+      "cid": 0,
+      "nuestro": true,
+      "titulo": "Cómo es hoy, no cómo debería ser",
+      "texto": [
+        "No hay que armar nada ni ordenarlo. Queremos ver el proceso comercial tal como funciona hoy, con lo que anda y con lo que se hace de memoria.",
+        "Se hace antes de que el contenido empiece a traer consultas de gente que no los conoce. Si el proceso tiene un agujero, esas consultas se pierden ahí."
+      ]
+    },
+    {
+      "cid": 1,
+      "titulo": "El camino de una consulta",
+      "consigna": "Paso por paso, desde que alguien escribe hasta que firma y paga. Quién hace cada paso, cuánto tarda más o menos y con qué lo hace: WhatsApp, mail, una planilla, un CRM.",
+      "ejemplo": {
+        "quien": "Qualita",
+        "texto": "Hoy el filtro de entrada lo hacen Rafa y Mati a mano: son ellos los que deciden, en la primera charla, si la empresa es para Qualita o no."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "El paso",
+        "Quién lo hace",
+        "Cuánto tarda",
+        "Con qué"
+      ],
+      "filas": 8
+    },
+    {
+      "cid": 2,
+      "titulo": "Por dónde entran las consultas",
+      "consigna": "Cada canal por el que hoy llega alguien: recomendación, eventos, redes, la web, contactos propios. Cuántas entran por mes más o menos, y quién las recibe.",
+      "ejemplo": {
+        "quien": "The Momentum Club",
+        "texto": "La venta nunca pasó por una llamada: webinar, link de pago, y los que dudan le escriben a Israel por Instagram. Ese privado es un canal, aunque nadie lo anote como tal."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "El canal",
+        "Cuántas por mes",
+        "Quién las recibe"
+      ],
+      "filas": 5
+    },
+    {
+      "cid": 3,
+      "titulo": "La primera respuesta",
+      "consigna": "Lo que pasa cuando alguien escribe por primera vez. Si hay un mensaje que se manda siempre, pegalo tal cual.",
+      "campo": "lineas",
+      "lineas": [
+        "Quién responde",
+        "En cuánto tiempo, en general",
+        "Qué se le dice",
+        "Qué se le pregunta para saber si es para ustedes"
+      ]
+    },
+    {
+      "cid": 4,
+      "titulo": "La reunión de venta",
+      "consigna": "Cómo es la reunión donde se vende. No hace falta que esté armada como guion: contá cómo sale en general.",
+      "campo": "lineas",
+      "lineas": [
+        "Cuánto dura",
+        "Quién la hace",
+        "Qué se muestra",
+        "En qué momento se habla de precio",
+        "Qué se manda después"
+      ]
+    },
+    {
+      "cid": 5,
+      "titulo": "La propuesta y el cierre",
+      "consigna": "Lo que pasa entre la reunión y la firma, que es donde más se enfría una venta.",
+      "campo": "lineas",
+      "lineas": [
+        "Cómo es la propuesta y cuánto tarda en salir",
+        "Cuánto tarda el cliente en decidir",
+        "Cómo se hace el seguimiento del que no contesta",
+        "Cómo se firma y cómo se cobra"
+      ]
+    },
+    {
+      "cid": 6,
+      "titulo": "Las últimas consultas, una por una",
+      "consigna": "Las diez o veinte últimas, con lo que haya. Si viven en un CRM o una planilla, alcanza con mandar la exportación y dejar esto vacío.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "De dónde vino",
+        "Cuándo entró",
+        "Hasta dónde llegó",
+        "Por qué se cerró o se cayó"
+      ],
+      "filas": 10
+    },
+    {
+      "cid": 7,
+      "titulo": "Dos reuniones de venta grabadas",
+      "consigna": "Las próximas dos, grabadas con Fathom o con lo que usen, avisándole al cliente. Es lo que más sirve de toda la hoja: sin eso vemos lo que ustedes creen que pasa en la reunión, y con eso vemos lo que pasa.",
+      "campo": "lineas",
+      "lineas": [
+        "Link de la primera reunión",
+        "Link de la segunda reunión"
+      ]
+    },
+    {
+      "cid": 8,
+      "nuestro": true,
+      "titulo": "Qué hacemos nosotros con esto",
+      "texto": [
+        "Miramos dónde se demora una consulta y dónde se cae, y proponemos los ajustes antes de que el contenido empiece a traer gente nueva.",
+        "Y de las reuniones grabadas sacamos las dudas y las objeciones que aparecen, que después son material para el contenido."
+      ]
+    }
+  ]
+}

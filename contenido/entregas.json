@@ -425,13 +425,15 @@
         "[hecho] La 1:1 de Rafa con Facu ya se hizo el viernes 18.",
         "[hecho] El panel que desbordaba ya está corregido: los 21 paneles del documento entran.",
         "[hecho] Devolvieron el ICP, con algo de ángulos adentro.",
-        "Mandarle la carta de <b>Ángulos desde el cliente ideal</b>, armada sobre los seis temas que ya escribieron. Con eso se pasa a construir el calendario del lanzamiento, que Facu habla con Fede.",
-        "Marcarles las dos cosas del documento: el autodiagnóstico no tiene resultado si falla la pregunta 4 o la 5 —decisor y contenido—, y hay un cruce de canal entre Meta y Google.",
-        "Mandar la radiografía y las cartas del tramo.",
-        "Mandarle a Ani la <b>devolución con próximos pasos</b>: al feed van Rafa 3 y los re-editados con el método adelante; los siete se prueban como anuncio diez días con el pedido de cada uno rastreado.",
+        "[hecho] El feedback de los guiones ya se le mandó a Ani por el grupo.",
+        "Mandarle la carta de <b>Ángulos desde el cliente ideal</b>: lo que ya está bien del cliente ideal y lo que le falta a cada tema para cerrarlo, más el autodiagnóstico y el canal.",
+        "En paralelo, la carta de <b>Auditoría del método</b>: qué recibe un cliente de Qualita, pilar por pilar, contado simple.",
+        "La carta de <b>Auditoría del proceso comercial</b>, antes del 6 de octubre, con dos reuniones de venta grabadas.",
+        "Con los ángulos cerrados, la carta de <b>Calendario de contenido</b>, con los creativos grabados adentro. Facu lo habla con Fede.",
         "Que publiquen Rafa 3 esta semana, y Rafa 1 y Rafa 2 re-editados con el método adelante.",
+        "Los siete creativos se prueban como anuncio diez días, con el pedido de cada uno rastreado.",
         "Que confirmen si la cifra del caso de Mati 4 se puede decir, porque su propio cliente ideal dice sin cifras.",
-        "Pasarles <b>Los guiones, bloque por bloque</b>: las partes de cada creativo, cómo reusar lo grabado y cómo grabar lo nuevo en charla.",
+        "Mandar la radiografía y las cartas del tramo.",
         "Este caso lo sigue Facu."
       ],
       "doc": "qualita.html",
@@ -439,11 +441,6 @@
       "slug": "qualita",
       "upselling": false,
       "extras": [
-        [
-          "qualita-devolucion.html",
-          "doc",
-          "Devolución y próximos pasos"
-        ],
         [
           "qualita-guiones.html",
           "doc",
