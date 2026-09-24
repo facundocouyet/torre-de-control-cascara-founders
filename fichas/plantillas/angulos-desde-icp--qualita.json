@@ -13,7 +13,7 @@
   "pasos": [
     "Leer lo que ya está bien, que no se toca.",
     "Completar la fila de cada tema: la pregunta del dueño, lo que dice Qualita y una pieza.",
-    "Resolver las dos cosas que quedaron abiertas en el documento.",
+    "Completar el resultado que le falta al autodiagnóstico.",
     "Mandar la hoja completa."
   ],
   "secciones": [
@@ -43,7 +43,7 @@
     {
       "cid": 2,
       "titulo": "Completá cada tema",
-      "consigna": "Una fila por tema. La pregunta va escrita como se la hace el dueño, no como la describirían ustedes. Lo de Qualita, en una frase que Rafa pueda decir en voz alta. Y una sola pieza, concreta, que se pueda grabar; si ya está grabada, poné cuál es. Por ejemplo, con el primero: la pregunta del dueño puede ser «¿por qué me escribe tanta gente que después no compra?», lo de Qualita, que el filtro se hace antes de que la consulta llegue al vendedor, y la pieza, Rafa contando las preguntas que filtran una consulta.",
+      "consigna": "Una fila por tema. La pregunta va escrita como se la hace el dueño, no como la describirían ustedes. Lo de Qualita, en una frase que Rafa pueda decir en voz alta. Y una sola pieza para Instagram, concreta, que se pueda grabar; si ya está grabada, poné cuál es. Por ejemplo, con el primero: la pregunta del dueño puede ser «¿por qué me escribe tanta gente que después no compra?», lo de Qualita, que el filtro se hace antes de que la consulta llegue al vendedor, y la pieza, Rafa contando las preguntas que filtran una consulta.",
       "campo": "tabla",
       "columnas": [
         "El tema",
@@ -63,13 +63,12 @@
     },
     {
       "cid": 3,
-      "titulo": "Dos cosas que quedaron abiertas",
-      "consigna": "El autodiagnóstico tiene resultado para casi todos los casos, menos para el que falla la pregunta cuatro —no hay alguien que decida— o la cinco —no quieren invertir en contenido—. Son las dos que más hacen caer un proyecto, así que conviene que tengan su respuesta. Y el documento dice en un lado que Meta es el canal con más potencial y en otro habla de aparecer en Google: elijan uno, porque cambia de qué se habla en la mitad de los ángulos.",
+      "titulo": "Lo que le falta al autodiagnóstico",
+      "consigna": "El autodiagnóstico tiene resultado para casi todos los casos, menos para el que falla la pregunta cuatro —no hay alguien que decida— o la cinco —no quieren invertir en contenido—. Son las dos que más hacen caer un proyecto, así que conviene que tengan su propia respuesta.",
       "campo": "lineas",
       "lineas": [
         "Qué le dice el resultado al que falla la cuatro",
-        "Qué le dice el resultado al que falla la cinco",
-        "El canal principal, Meta o Google, y por qué"
+        "Qué le dice el resultado al que falla la cinco"
       ]
     },
     {
@@ -77,7 +76,7 @@
       "nuestro": true,
       "titulo": "Lo que sigue",
       "texto": [
-        "Con los ángulos cerrados se arma el calendario de contenido: sesenta días con fecha, formato y quién hace cada pieza, con los creativos que ya están grabados adentro.",
+        "Con los ángulos cerrados se arma el calendario de contenido: sesenta días de Instagram con fecha, formato y quién hace cada pieza, con los creativos que ya están grabados adentro.",
         "De nuestro lado va el criterio y el ejemplo. Los textos y las piezas los hacen ustedes, porque el contenido tiene que sonar a Qualita."
       ]
     }
