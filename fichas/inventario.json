@@ -495,6 +495,38 @@
           "evidencia": "El documento de lanzamiento con embudo, fecha, ángulos y calendario lo baja Franco caso por caso: Lola con workshop y comunidad de WhatsApp, Sofía con el calendario de cuatro semanas día por día, Matías con el roadmap de lanzamiento, Agostina con el calendario de historias de cuatro semanas, Nico con los cinco cupos y fecha de cierre. Andrea tiene las Onfire Sessions armadas y sin fecha. El módulo de cuarenta y cinco días está pedido y sin escribir."
         },
         {
+          "id": "webinar-de-venta",
+          "nombre": "El webinar que agenda llamadas",
+          "para_quien": "Cuando el founder junta gente en vivo para vender y la venta se cierra ahí mismo con un link, sin llamada, sin lista y sin saber por qué no compró el que no compró.",
+          "eje": [
+            "demanda",
+            "venta"
+          ],
+          "resultado": "La hoja del webinar completa: qué tiene que dejar ese día, los perfiles que van a estar en la sala, la clase bloque por bloque, una sola puerta para el CTA, la ventana de venta día por día y la planilla con la objeción de cada persona.",
+          "pasos": [
+            "Fijar la fecha, qué se vende, hasta cuándo queda abierta la venta y qué número se mira al final.",
+            "Armar el registro como diagnóstico: quién es, qué lo frena y qué tan decidido está, sin precio adentro.",
+            "Bajar los perfiles que van a estar en la sala y las creencias que hay que romper antes del pitch.",
+            "Escribir la clase bloque por bloque, con el primer CTA después de las soluciones y alguien que no vende hablando en el medio.",
+            "Definir una sola puerta: a dónde manda el CTA, quién responde del otro lado y qué sale en el chat y en la comunidad en ese mismo minuto.",
+            "Cargar los días previos, el chequeo del día y la ventana de venta hasta el cierre.",
+            "Grabar todas las llamadas, cargar la planilla y leer al cierre qué objeción se repitió."
+          ],
+          "completar": [
+            "La hoja del webinar completa",
+            "El guion de la clase bloque por bloque",
+            "La planilla de la ventana, una fila por persona"
+          ],
+          "herramientas": [
+            "Zoom o la plataforma con Q&A y chat probados",
+            "WhatsApp (puerta del CTA y comunidad)",
+            "Fathom (grabación de las llamadas)",
+            "Notion o Airtable (registro y planilla de la ventana)"
+          ],
+          "estado": "existe",
+          "evidencia": "La estructura la bajó Facu a The Momentum Club para el webinar del 28 de septiembre: historia, dolores y soluciones, primer CTA, alumno en vivo, QR a WhatsApp y preguntas con el QR a la vista, más los dos espacios de preguntas de los días siguientes y las llamadas grabadas. La parte operativa está probada en los eventos propios y la ordenó Franco para el workshop de Workflow: registro como diagnóstico, una sola puerta, chequeo del día, segmentos de seguimiento y la planilla con la objeción principal de cada persona."
+        },
+        {
           "id": "capitalizar-evento",
           "nombre": "Capitalizar un evento presencial",
           "para_quien": "Cuando el founder da una charla, un taller o va a un evento y todo eso se termina el mismo día.",
@@ -1282,6 +1314,7 @@
     "captura-y-seguimiento",
     "landing-que-convierte",
     "calendario-lanzamiento",
+    "webinar-de-venta",
     "handraisers-historias",
     "capitalizar-evento",
     "arquitectura-comunidad",
@@ -1303,7 +1336,7 @@
     "El criterio del orden: primero el diagnóstico y el foco, porque sin punto A escrito cada llamada arranca discutiendo qué hacer; después oferta, porque es el eje más bajo de los clientes y todo lo de abajo se apoya en la oferta escrita; después perfil, ángulos y calendario, que es la infraestructura de contenido que permite medir; recién ahí volumen y precio sobre la mesa, que es donde aparece la primera evidencia real; después lo comercial, que convierte esa evidencia en plata; después lanzamiento y comunidad, que necesitan audiencia calentada de antes; y al final entrega, operaciones y datos, que se asignan cuando ya hay clientes adentro que los justifiquen. El mentor mueve el orden según el eje más bajo del handicap: a Conseguir se le adelanta todo el bloque comercial, a Sostener el bloque de contenido, y a Entregar se le arranca por entrega y operaciones antes de tocar la oferta."
   ],
   "notas": [
-    "Los cuarenta módulos están escritos: cada uno tiene su carta con los pasos, qué completar y qué herramientas, y su plantilla con las consignas y un ejemplo real de los clientes en cada bloque. Lo que antes se bajaba caso por caso en una llamada ahora se asigna y queda igual para todos.",
+    "Los módulos están escritos: cada uno tiene su carta con los pasos, qué completar y qué herramientas, y su plantilla con las consignas y un ejemplo real de los clientes en cada bloque. Lo que antes se bajaba caso por caso en una llamada ahora se asigna y queda igual para todos.",
     "Las siete cartas que ya existían de antes son radiografía, profile funnel, pipeline de siete campos, OS en Notion, diario administrativo, propuesta comercial y pasaporte digital. Las otras treinta y tres se escribieron el 14 de septiembre con los casos de esta grupo de clientes adentro, y por eso los ejemplos hablan de Sofía, de Custom Lab, de Sharon y de los demás por su nombre.",
     "Hay tres superposiciones para vigilar: ángulos desde el ICP con calendario de contenido, que se pueden asignar juntos y se escriben separados; prospección y recontacto con pipeline de siete campos, donde el pipeline es condición previa y conviene asignarlo antes; y base de datos única con dashboard del embudo, donde el dashboard es la lectura de la base y se asigna después.",
     "El dashboard del embudo está prometido en la oferta para el mes 3. La carta y la plantilla ya dicen qué mide, de dónde sale cada número y quién lo carga; lo que queda es que Bianca, Lucca, Nico y Sofía lo armen con sus propios datos para llegar al cierre con números y no con impresiones.",

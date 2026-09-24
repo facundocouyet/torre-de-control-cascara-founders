@@ -226,7 +226,7 @@ partes.append(S("10","Lo que todavía no tiene dueño",
   PASOS([
     "<b>Las cartas de cada departamento.</b> Quedó acordado que cada dueño escribe las suyas. Hasta que exista una "
     "carta madre en blanco con las preguntas que cualquier carta responde, van a seguir saliendo de vos.",
-    "<b>El set obligatorio del primer mes.</b> Hoy las cuarenta cartas parecen iguales. Marcar las cinco que son "
+    "<b>El set obligatorio del primer mes.</b> Hoy todas las cartas parecen iguales. Marcar las cinco que son "
     "obligatorias convierte el catálogo en un programa.",
     "<b>La fecha de inicio cargada en el momento del onboarding.</b> Es el dato que permite anticipar el día 30, el "
     "60 y el 90 en vez de descubrirlos.",

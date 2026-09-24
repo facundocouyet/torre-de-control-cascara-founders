@@ -1,0 +1,249 @@
+{
+  "modulo": "webinar-de-venta",
+  "titulo": "La hoja del webinar",
+  "bajada": "El webinar es la llamada única que abre la ventana de venta. Esta hoja define qué tiene que dejar ese día, cómo está armada la clase, por dónde entra el que quiere avanzar y qué pasa en los días de después, que es donde se cierra la mayor parte.",
+  "lista_cuando": "Cualquiera del equipo puede correr el día del webinar leyendo la hoja: sabe qué se dice en cada bloque, dónde aparece el CTA, quién responde del otro lado y a quién le escribe al día siguiente.",
+  "secciones": [
+    {
+      "cid": 0,
+      "nuestro": true,
+      "titulo": "Qué se espera de ese día",
+      "texto": [
+        "El webinar no cierra la venta: abre la ventana. Lo que se mide ese día es cuánta gente levanta la mano y cuántas llamadas quedan agendadas, porque la decisión de compra casi nunca pasa el mismo día que la presentación.",
+        "Eso cambia dos cosas. La primera es que el pitch deja de ser el final y pasa a ser una puerta. La segunda es que los días de después dejan de ser un extra y pasan a ser parte del lanzamiento: ahí es donde entra el que necesitaba una noche para decidirse.",
+        "Completá la hoja con lo que ya tenés decidido, y lo que no esté decidido escribilo igual con la palabra que falta entre corchetes. Una hoja con huecos marcados sirve; una hoja con huecos tapados no."
+      ]
+    },
+    {
+      "cid": 1,
+      "titulo": "Qué tiene que dejar el webinar",
+      "consigna": "La fecha con hora, qué se vende ese día, hasta cuándo queda abierta la venta y el número que se mira al final. Si el producto se vende por llamada, el número es cuántas llamadas quedaron agendadas; si se vende por link, es cuántas manos se levantaron. Las dos fechas —la del webinar y la del cierre— se escriben acá y no se mueven después.",
+      "ejemplo": {
+        "quien": "Israel",
+        "texto": "El webinar del 28 con la venta abierta hasta el 1 de octubre. Hasta ahora el proceso era pichear, mandar el link y esperar. El número de este lanzamiento son las llamadas agendadas, que hasta hoy fueron cero."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Día y hora del webinar",
+        "Qué se vende ese día",
+        "Precio y formas de pago",
+        "Hasta cuándo queda abierta la venta",
+        "Qué número se mira al final",
+        "Meta de asistentes en vivo"
+      ]
+    },
+    {
+      "cid": 2,
+      "titulo": "De dónde sale la gente y qué les preguntás cuando se anotan",
+      "consigna": "Por dónde llega el que se anota y qué le preguntás en el registro. El registro es un diagnóstico: con cuatro o cinco preguntas ya sabés quién es, qué lo frena y a quién llamar primero. Sin precio en el formulario, porque corta el volumen. La última pregunta conviene que sea del uno al diez, para ordenar la lista de a quién se le escribe primero.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Seis preguntas sin precio, y dos hacen el trabajo: si hoy trabaja de PM o no, que es lo que separa los dos perfiles de la sala, y del uno al diez qué tan decidida está este año, que es lo que ordena a quién llama primero."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "De dónde llegan (canales)",
+        "Cuántos anotados esperás",
+        "Pregunta que separa los perfiles",
+        "Pregunta abierta: qué lo frena hoy",
+        "Pregunta abierta: qué quiere lograr",
+        "Pregunta del uno al diez",
+        "Dónde quedan guardadas las respuestas"
+      ]
+    },
+    {
+      "cid": 3,
+      "titulo": "Los perfiles que van a estar en la sala",
+      "consigna": "Dos o tres perfiles, no más. Salen del registro y de la gente que ya te compró. El dolor va escrito con las palabras que usan ellos, no con las tuyas: esas frases son las que después se dicen en vivo y hacen que la persona sienta que le están hablando.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Dos perfiles y pesan distinto: la que cambia de carrera y todavía no trabaja de PM, que llega con miedo a no ser capaz, y la que ya hace tareas de PM en una agencia y llegó de casualidad, que llega cansada de apagar incendios."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Perfil",
+        "Cuántos son",
+        "Qué le duele, con sus palabras",
+        "Qué necesita escuchar"
+      ],
+      "filas": 3
+    },
+    {
+      "cid": 4,
+      "titulo": "Las creencias que hay que romper antes del pitch",
+      "consigna": "Lo que la persona cree hoy y que le impide comprar, y con qué se rompe cada una: un caso con nombre, un dato o un ejercicio en vivo. Se rompen antes del pitch, porque una creencia que sigue en pie cuando aparece el precio se convierte en objeción, y ahí ya es tarde.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Tres creencias y cada una tiene con qué romperse: «para esto necesito saber todo lo técnico» se cae explicando qué hace un PM de verdad, «no sé si hay salida laboral» se cae con alumnas que hoy trabajan de eso, y «ya sé hacerlo suelto» se cae mostrando que ordenarlo es lo que te hace contratable."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Lo que cree hoy",
+        "Con qué se rompe",
+        "En qué bloque pasa"
+      ],
+      "filas": 4
+    },
+    {
+      "cid": 5,
+      "titulo": "La estructura de la clase, bloque por bloque",
+      "consigna": "El orden es historia, dolores y soluciones; después el primer CTA; después alguien que no vende hablando —un alumno en vivo o un video corto—; después el segundo CTA con el QR; y al final las preguntas con el QR a la vista. Alrededor del minuto cinco va una línea avisando que al final contás cómo seguir, para que el primer CTA no aparezca de sorpresa. Cargá cada bloque con su minuto y con qué tiene que quedar dicho o escrito.",
+      "ejemplo": {
+        "quien": "Israel",
+        "texto": "Cinco momentos: la historia de ellos contada como historia y no como presentación de producto, el primer CTA justo cuando terminan de hablar de las soluciones, un alumno en vivo contando su caso, el QR a WhatsApp, y las preguntas con el QR en pantalla. El que no confió en el primer CTA confía en el alumno."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Minuto",
+        "Bloque",
+        "Qué tiene que lograr",
+        "Qué queda dicho o escrito"
+      ],
+      "filas": 8
+    },
+    {
+      "cid": 6,
+      "titulo": "Una sola puerta",
+      "consigna": "El CTA puede aparecer dos o tres veces, y siempre manda al mismo lugar. Definí cuál es esa puerta —un QR a WhatsApp, una palabra clave por privado, un link— y quién está del otro lado respondiendo y agendando. En el mismo minuto en que el QR aparece en pantalla, el link va pegado en el chat y el mensaje de oferta sale en el grupo. En los canales que no son la clase rinde más una palabra clave que un link: escribir una palabra cuesta menos que salir de la app.",
+      "ejemplo": {
+        "quien": "Israel",
+        "texto": "«Hablen con el equipo, sáquense las dudas, les dejo acá el QR.» El QR lleva directo a WhatsApp con Natalia del otro lado respondiendo y agendando, y queda en pantalla durante todas las preguntas."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "A dónde manda el CTA",
+        "Palabra clave para los otros canales",
+        "Quién responde del otro lado",
+        "En qué minuto aparece por primera vez",
+        "Qué se pega en el chat en ese momento",
+        "Qué mensaje sale en la comunidad en ese mismo minuto"
+      ]
+    },
+    {
+      "cid": 7,
+      "titulo": "Escasez y bonus, con lo que hay de verdad",
+      "consigna": "Cuántos lugares hay, hasta cuándo, y qué se pierde el que entra después. El número va dicho con nombre propio —qué es exactamente lo que se pierde— y no como «quedan pocos». El bonus vale más cuando es acceso a vos que cuando es más tiempo de lo mismo, y va atado al tema del día con su fecha límite. Si la escasez es inventada se nota, así que escribí solamente la que existe.",
+      "ejemplo": {
+        "quien": "Israel",
+        "texto": "Diez plazas y son las últimas de este formato, contado como despedida y sin anunciar el producto nuevo porque todavía no existe. El bonus son sesiones uno a uno con él para los primeros cinco: el que compra un programa de artistas está comprando estar cerca, y un mes extra de lo mismo no mueve a nadie."
+      },
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Cuántos lugares, hasta cuándo, qué se pierde el que entra después, y cuál es el bonus con su fecha."
+    },
+    {
+      "cid": 8,
+      "titulo": "Los días previos",
+      "consigna": "La semana anterior sostiene la asistencia. Una fila por momento, desde tres días antes hasta diez minutos antes de arrancar. Lo que mejor funciona en el medio es una pregunta en historias del tipo «qué es lo que más te frena hoy»: las respuestas sirven de material para la clase y de paso te dicen quién está mirando.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Tres días antes el anuncio con la promesa, dos días antes la encuesta de qué te frena, el día anterior el material para tener abierto y el caso de una alumna, y el mismo día recordatorio a la mañana, link una hora antes y mensaje privado a los que puntuaron más alto diez minutos antes."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Cuándo",
+        "Canal",
+        "Qué sale",
+        "Quién lo manda"
+      ],
+      "filas": 7
+    },
+    {
+      "cid": 9,
+      "titulo": "El chequeo del día",
+      "consigna": "Lo que se rompe siempre se rompe acá, y se arregla una sola vez si se prueba antes. Poné al lado de cada cosa quién la deja lista y cuándo. El chat de las plataformas suele cortarse para los invitados externos, así que si tenés un alumno en vivo eso se prueba con alguien de afuera del equipo, no entre ustedes.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Plataforma probada con un invitado de afuera —chat, compartir pantalla y audio de video—, el QR escaneado desde otro teléfono, el mensaje de la comunidad escrito de antes para pegarlo en el minuto exacto, y una persona de soporte moderando el chat mientras ella habla."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Plataforma probada con alguien de afuera",
+        "QR o link probado desde otro teléfono",
+        "Links de pago y de agenda probados",
+        "Mensaje de la comunidad escrito y listo para pegar",
+        "Persona de soporte en el chat",
+        "Grabación activada",
+        "Agenda bloqueada esa noche y el día siguiente"
+      ]
+    },
+    {
+      "cid": 10,
+      "titulo": "Después del webinar: a quién le escribís y cuándo",
+      "consigna": "Terminada la clase quedan grupos distintos y cada uno necesita otra cosa. Salen del registro, del chat y de quién escribió a la puerta. El que preguntó en vivo se responde esa misma noche; el que vino y se quedó callado, al día siguiente y citando algo que él escribió; el que se anotó y no vino recibe la grabación con fecha de vencimiento. Cada mensaje menciona algo propio de esa persona: una plantilla igual para todos se nota y deja de contestarse.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Cuatro grupos con su plazo: el que escribió la palabra clave o puntuó alto, respuesta personal en menos de una hora; el que vino y no escribió, mensaje al día siguiente citando lo que puso en el registro; el que se anotó y faltó, la grabación disponible por 48 horas esa misma noche; y el que agendó y se enfrió, un seguimiento a las 24 horas con el caso de alguien parecido."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Grupo",
+        "Quién es",
+        "Qué le llega",
+        "Cuándo",
+        "Quién lo manda"
+      ],
+      "filas": 4
+    },
+    {
+      "cid": 11,
+      "titulo": "La ventana de venta, día por día",
+      "consigna": "Desde el día del webinar hasta el cierre, una fila por día. Dos cosas que conviene que estén: un espacio abierto de preguntas al día siguiente y otro al segundo día, que es donde entra el que necesitaba una noche, y una historia por día respondiendo una objeción concreta hasta el cierre. El último día se avisa a la mañana, a la tarde y un par de horas antes.",
+      "ejemplo": {
+        "quien": "Israel",
+        "texto": "Con el ejemplo de un bootcamp de cinco días: el primer día no se vende, el segundo va el primer CTA y empiezan las consultas por privado, del tercero al quinto se sigue agendando, y donde más se vende es en una sexta llamada, la de las dudas."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Día",
+        "Canal",
+        "Qué sale",
+        "A qué invita"
+      ],
+      "filas": 10
+    },
+    {
+      "cid": 12,
+      "titulo": "La llamada de venta",
+      "consigna": "La llamada de después del webinar es más corta que una llamada fría, entre veinte y treinta minutos, porque la persona ya te vio trabajar. Va en cinco momentos: qué se llevó del webinar, qué lo frena hoy con sus palabras, devolverle su propia frase, conectar eso que lo frena con una parte concreta de lo que vendés —y si no encaja, decirlo— y recién ahí precio, formas de pago, bonus con su límite y la pregunta derecha. Escribí las objeciones que ya sabés que van a aparecer con su respuesta, porque la objeción que queda sin resolver adentro de la llamada se resuelve mucho más difícil por WhatsApp.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Cinco objeciones con su raíz escrita al lado: «no tengo tiempo» es que no lo ve como prioridad, «no sé si es para mí» es miedo a no ser capaz, «es caro» es que no ve el retorno. Cada una se contesta con un caso, no con un argumento."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Objeción que va a aparecer",
+        "De dónde viene",
+        "Con qué se contesta"
+      ],
+      "filas": 6
+    },
+    {
+      "cid": 13,
+      "titulo": "La planilla y qué leés al cierre",
+      "consigna": "Una sola planilla desde el día del webinar hasta el cierre, con una fila por persona: nombre, contacto, si vino, si escribió, en qué grupo quedó, fecha de la llamada, resultado, objeción principal, monto y forma de pago. Grabá todas las llamadas de venta. La columna que más vale es la de la objeción principal: de ahí salen los ángulos de comunicación del mes siguiente y el contenido con el que abrís la próxima ventana.",
+      "ejemplo": {
+        "quien": "Israel",
+        "texto": "Las objeciones de las llamadas se juntan en un informe, el informe son los ángulos, y con esos ángulos al día siguiente sale un carrusel que responde la objeción principal de frente. El que dudaba ve su duda resuelta y entra."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Dónde vive la planilla",
+        "Quién la carga",
+        "Cuántas llamadas se agendaron",
+        "Cuántas se hicieron",
+        "Cuántas cerraron",
+        "Objeción que más se repitió"
+      ]
+    },
+    {
+      "cid": 14,
+      "nuestro": true,
+      "titulo": "Qué hacemos nosotros con esto",
+      "texto": [
+        "Con la hoja completa revisamos el guion antes del día, marcamos dónde el pitch se adelanta o se cae, y armamos los mensajes de la ventana con las objeciones que ya escribiste.",
+        "Después del cierre leemos la planilla con ustedes: cuántas llamadas salieron del webinar, dónde se perdieron y qué objeción se repitió. Eso es lo que ordena el contenido del mes siguiente y lo que hace que el próximo lanzamiento arranque con material en vez de arrancar de cero."
+      ]
+    }
+  ]
+}

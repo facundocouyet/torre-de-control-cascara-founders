@@ -15,10 +15,10 @@ for c in inv['categorias']:
 DUENOS=[
  ("franco","Franco","Growth partner",
   "Oferta, pricing, demanda pagada y todo lo comercial. Sos el que convierte la estrategia en plata, "
-  "así que estas once son las que más se tocan cuando un founder no vende.",
+  "así que son las que más se tocan cuando un founder no vende.",
   ["icp-mecanismo","one-sheeter-oferta","precio-escalera","cinco-llamadas-con-precio",
    "pipeline-7-campos","prospeccion-y-recontacto","llamada-de-venta","propuesta-comercial","setter-closer",
-   "handraisers-historias","calendario-lanzamiento"]),
+   "handraisers-historias","calendario-lanzamiento","webinar-de-venta"]),
  ("fede","Fede","Contenido y estrategia",
   "Perfil, ángulos, calendario y volumen. Son las que hacen que el founder tenga de dónde agarrarse "
   "para publicar sin improvisar cada semana.",

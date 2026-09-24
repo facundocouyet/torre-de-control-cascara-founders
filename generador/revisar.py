@@ -162,7 +162,32 @@ def revisar_voz():
                 ojo('%s dice "%s" (va "%s") · …%s…'
                     % (os.path.basename(f), m.group(0), sug, ctx))
 
-for fn in (revisar_cartas, revisar_inventario, revisar_entregas, revisar_materiales, revisar_voz):
+
+# ── 6. contar módulos o cartas en el texto ─────────────────────────────────
+# "los cuarenta módulos", "las 40 cartas": el número del catálogo queda viejo
+# el día que se agrega uno y nadie se acuerda de tocarlo. La regla es no
+# nombrarlo. Los números chicos son de los clientes (los nueve módulos de
+# Cecilia) y esos se dejan pasar.
+CANTIDAD = re.compile(
+    r'\b(?:veinte|treinta|cuarenta|cincuenta|sesenta|setenta|[2-9]\d)\s+'
+    r'(m[oó]dulos|cartas)\b', re.I)
+
+def revisar_cuentas():
+    import glob as _g
+    archivos = (sorted(_g.glob(R('fichas/*.json'))) + sorted(_g.glob(R('contenido/*.json')))
+                + sorted(_g.glob(R('generador/*.py'))))
+    for f in archivos:
+        base = os.path.basename(f)
+        if base in ('app-data.json', 'revisar.py'): continue
+        s = open(f, encoding='utf-8').read()
+        for m in CANTIDAD.finditer(s):
+            ctx = re.sub(r'\s+', ' ', s[max(0, m.start()-60):m.start()+60])
+            mal('%s dice "%s": el número de módulos o cartas se queda viejo, '
+                'escribilo sin contarlo · …%s…' % (base, m.group(0), ctx))
+
+
+for fn in (revisar_cartas, revisar_inventario, revisar_entregas, revisar_materiales,
+           revisar_voz, revisar_cuentas):
     try: fn()
     except Exception as e: mal('%s reventó: %s' % (fn.__name__, e))
 
