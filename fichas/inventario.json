@@ -800,6 +800,32 @@
           "evidencia": "Sale del caso de The Momentum Club: antes de partir un programa en niveles o de tocarle el precio hay que ver todo lo que ya se entrega adentro, y eso nunca está escrito en un solo lugar."
         },
         {
+          "id": "funnel-de-servicio",
+          "nombre": "Funnel de servicio y escalera de valor",
+          "para_quien": "Cuando el founder ya tiene cliente ideal, oferta y ángulos, y antes de salir a buscar más gente hay que ver qué pasa con el cliente después de que compra.",
+          "eje": [
+            "entrega",
+            "oferta"
+          ],
+          "resultado": "El recorrido del cliente después de la compra: qué recibe, qué resultado se lleva, cuánto le cuesta al equipo entregarlo, cómo arranca y qué escalones hay arriba y abajo de lo que se vende hoy.",
+          "pasos": [
+            "Listar lo que se entrega y el resultado que deja cada cosa.",
+            "Contar cómo arranca un cliente hasta su primer resultado.",
+            "Anotar lo que más horas le come al equipo por cliente.",
+            "Contar qué pasa cuando termina el servicio.",
+            "Completar la escalera: lo que hay abajo, en el medio y arriba."
+          ],
+          "completar": [
+            "La hoja completa"
+          ],
+          "herramientas": [
+            "Notion o la planilla donde viven los clientes",
+            "Las propuestas y contratos que ya mandan"
+          ],
+          "estado": "existe",
+          "evidencia": "Lo definió Franco el 24 de septiembre como el paso que sigue al proceso de ventas: qué resultados entrega el programa, cómo bajar la carga operativa del servicio, el onboarding y los upsells, que es donde entra la escalera de valor. En Qualita absorbe la auditoría del método. En The Momentum Club el nivel de entrada no existe y el personalizado se vende a precio de entrada."
+        },
+        {
           "id": "proceso-entrega-repetible",
           "nombre": "Productización del servicio",
           "para_quien": "Cuando cada cliente se entrega distinto, la propuesta se arma de cero cada vez y todo depende de que el founder esté arriba.",
@@ -1333,6 +1359,7 @@
     "diez-piezas-y-lectura",
     "cinco-llamadas-con-precio",
     "auditoria-proceso-comercial",
+    "funnel-de-servicio",
     "pipeline-7-campos",
     "prospeccion-y-recontacto",
     "llamada-de-venta",

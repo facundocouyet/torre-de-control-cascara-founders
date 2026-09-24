@@ -1,0 +1,106 @@
+{
+  "modulo": "funnel-de-servicio",
+  "titulo": "La hoja del funnel de servicio",
+  "bajada": "Qué pasa con un cliente después de que compra: cómo arranca, qué resultado se lleva, cuánto le cuesta al equipo entregarlo y qué más se le puede vender. De ahí sale la escalera de valor.",
+  "lista_cuando": "Alguien de afuera lee la hoja y sabe qué recibe un cliente, qué resultado se lleva, qué le come horas al equipo y qué escalones hay arriba y abajo de lo que se vende hoy.",
+  "secciones": [
+    {
+      "cid": 0,
+      "nuestro": true,
+      "titulo": "La venta no termina cuando el cliente paga",
+      "texto": [
+        "Lo que pasa después de la compra también es un recorrido: cómo arranca el cliente, cuándo ve el primer resultado, cuánto trabajo le cuesta al equipo y qué pasa cuando termina. Ahí aparecen dos cosas que casi nunca se miran: lo que se puede entregar con menos horas, y lo que el cliente compraría después.",
+        "Contalo como pasa hoy. No hay que ordenar ni mejorar nada."
+      ]
+    },
+    {
+      "cid": 1,
+      "titulo": "Lo que entregás y el resultado que deja",
+      "consigna": "Cada cosa que recibe el cliente, qué resultado le deja y cómo se da cuenta él de que funcionó. El resultado, en algo que se pueda ver o contar.",
+      "campo": "tabla",
+      "columnas": [
+        "Lo que entregás",
+        "Qué resultado deja",
+        "Cómo lo ve el cliente"
+      ],
+      "filas": 6
+    },
+    {
+      "cid": 2,
+      "titulo": "Cómo arranca un cliente",
+      "consigna": "Desde que paga hasta que ve el primer resultado. Es el tramo donde más se arrepiente la gente, así que conviene saber qué pasa en cada día.",
+      "campo": "lineas",
+      "lineas": [
+        "Qué pasa el primer día",
+        "Qué pasa la primera semana",
+        "Quién lo recibe",
+        "Qué tiene que dar el cliente para arrancar",
+        "Cuándo ve el primer resultado"
+      ]
+    },
+    {
+      "cid": 3,
+      "titulo": "Lo que más horas le come al equipo",
+      "consigna": "Las tareas que más tiempo llevan por cada cliente. Al lado, si se podría hacer una sola vez para todos: una plantilla, una clase grabada, un proceso escrito.",
+      "campo": "tabla",
+      "columnas": [
+        "La tarea",
+        "Horas por cliente al mes, más o menos",
+        "Quién la hace",
+        "¿Se podría hacer una vez para todos?"
+      ],
+      "filas": 6
+    },
+    {
+      "cid": 4,
+      "titulo": "Qué pasa cuando termina",
+      "consigna": "El final del servicio, que es donde se renueva o se pierde un cliente.",
+      "campo": "lineas",
+      "lineas": [
+        "Cuánto dura un cliente, en promedio",
+        "Qué pasa cuando termina",
+        "Cuántos renuevan o compran algo más",
+        "Por qué se van los que se van"
+      ]
+    },
+    {
+      "cid": 5,
+      "titulo": "La escalera: lo que hay arriba y abajo",
+      "consigna": "Lo que vendés hoy en el medio, algo más chico para el que todavía no llega y algo más grande para el que ya es cliente. Si un escalón no existe, escribilo igual: saber que falta también sirve.",
+      "ejemplo": {
+        "quien": "The Momentum Club",
+        "texto": "Tienen un solo programa de nueve meses. Están dando el acompañamiento personalizado, que sería el escalón de arriba, al precio del de entrada, y el escalón de entrada todavía no existe."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "El escalón",
+        "Qué es",
+        "Precio",
+        "Cuántos lo compran hoy"
+      ],
+      "filas_rotulo": [
+        "Algo más chico",
+        "Lo que vendés hoy",
+        "Algo más grande"
+      ],
+      "filas": 3
+    },
+    {
+      "cid": 6,
+      "titulo": "Lo que te piden y no vendés",
+      "consigna": "Lo que los clientes preguntan si hacés, lo que te piden cuando termina el servicio, lo que resolvés de favor. Ahí suele estar el próximo escalón.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Me piden…"
+    },
+    {
+      "cid": 7,
+      "nuestro": true,
+      "titulo": "Qué hacemos nosotros con esto",
+      "texto": [
+        "Vemos dónde se puede entregar lo mismo con menos horas, dónde conviene mejorar el arranque y qué escalón falta. Con eso se arma la escalera de valor alrededor de lo que ya vendés.",
+        "Después de esto recién se mira el lanzamiento: primero que la venta y la entrega aguanten, después traer más gente."
+      ]
+    }
+  ]
+}
