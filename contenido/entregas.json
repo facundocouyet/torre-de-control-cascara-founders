@@ -429,8 +429,9 @@
         "Marcarles las dos cosas del documento: el autodiagnóstico no tiene resultado si falla la pregunta 4 o la 5 —decisor y contenido—, y hay un cruce de canal entre Meta y Google.",
         "Mandar la radiografía y las cartas del tramo.",
         "Mandarle a Ani la respuesta sobre los creativos y la <b>devolución con próximos pasos</b>: los siete se publican orgánicos ya, la pauta entra después de la landing y sobre el que haga chispazo.",
-        "Que publiquen Rafa 3 esta semana, y después Mati 3 y Rafa 1. Es la primera pieza del tramo al aire.",
+        "Que publiquen Rafa 3 esta semana, y Rafa 1 y Rafa 2 re-editados con el método adelante. Los de Mati quedan como anuncios, sin efectos, para la prueba de tono.",
         "Que confirmen si la cifra del caso de Mati 4 se puede decir, porque su propio cliente ideal dice sin cifras.",
+        "Pasarles <b>Los guiones, bloque por bloque</b>: el orden de cada creativo, el método dicho sin palabras del rubro, los cortes para re-editar y las preguntas de la sesión de grabación.",
         "Este caso lo sigue Facu."
       ],
       "doc": "qualita.html",
@@ -442,6 +443,11 @@
           "qualita-devolucion.html",
           "doc",
           "Devolución y próximos pasos"
+        ],
+        [
+          "qualita-guiones.html",
+          "doc",
+          "Los guiones, bloque por bloque"
         ],
         [
           "qualita-cartas.html",

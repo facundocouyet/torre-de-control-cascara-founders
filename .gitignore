@@ -28,6 +28,7 @@ panel-data.json
 !/clientes/qualita-cartas.html
 !/clientes/momentum-webinar.html
 !/clientes/qualita-devolucion.html
+!/clientes/qualita-guiones.html
 
 # ── la salida del build, que se arma y se tira ──
 /dist/
