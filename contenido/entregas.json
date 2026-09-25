@@ -12,7 +12,7 @@
     "No se avisa que el informe es una versión nueva. Se va directo con el documento. El acercamiento es «¿cómo venís con todo esto? Ya estamos cerrando el proceso, agendemos una llamada para ver este último informe y sacar conclusiones».",
     "El cierre no se dice como «se terminan las 1:1». Se ofrece <b>un mes más de grupales</b> con el último documento arriba, y se dice la <b>fecha exacta en la que se sacan los accesos</b>.",
     "Esa fecha de corte queda registrada acá, para que salte la alerta cuando llega.",
-    "Cuando el único accionable es coordinar, <b>coordina Teo directamente</b>: meter a Aye sólo para agendar no tiene sentido.",
+    "Lucca es la excepción: terminó hace bastante y <b>lo coordina Teo directamente</b>, porque meter a Aye sólo para agendar no tiene sentido.",
     "El upsell se presenta entre 15 y 20 días antes del cierre, nunca sobre la fecha.",
     "El testimonio se captura en la misma llamada."
   ],
@@ -33,11 +33,11 @@
     ],
     [
       "Arrancar por los sign off",
-      "Es lo primero y lo único que tiene fecha corta. Aye <b>coordina la llamada y nada más</b>; el resto lo hace Teo adentro. Lucca lo coordina Teo directamente. Scarlett y Ayelén están trabados esperando su llamada con Franco, y esa llamada tiene que pasar <b>esta semana</b>."
+      "Es lo primero y lo único que tiene fecha corta. Aye <b>coordina la llamada y nada más</b>; el resto lo hace Teo adentro. Lucca lo coordina Teo directamente. Scarlett está trabada esperando su llamada con Franco, que tiene que pasar <b>antes del 30/09</b>. Ayelén ya la tuvo el 24/09 y sigue con él el <b>lunes 28/09 a las 13:00</b>; recién después se coordina su cierre."
     ],
     [
       "Presentarse con cada uno",
-      "En el grupo de cada cliente: quién es, cómo se trabaja acá, y que le consulte lo que necesite. Arranca hoy con los que ya tienen cartas mandadas."
+      "En el grupo de cada cliente: quién es, cómo se trabaja acá, y que le consulte lo que necesite. Primero con los que ya tienen cartas mandadas."
     ],
     [
       "Agregar accionables y dejar notas, abajo de cada cliente",
@@ -45,7 +45,7 @@
     ],
     [
       "El seguimiento de las cartas que ya salieron",
-      "Las del tramo <b>ya salieron todas</b>: Aaron, Sebastián, Sofía, Matías, BeMotion y Lucio. De acá en adelante el trabajo es el fup, no el envío. Leída no es completada: el entregable es el documento entero devuelto. <b>Lo que queda por mandar son las once radiografías y la carta de ángulos de Qualita.</b>"
+      "Las del tramo <b>ya salieron todas</b>: Aaron, Sebastián, Sofía, Matías, BeMotion, Lucio, Qualita y Momentum. De acá en adelante el trabajo es el fup, no el envío. Leída no es completada: el entregable es el documento entero devuelto. <b>Lo que queda por mandar son las radiografías</b>: cada caso lo tiene marcado en su lista."
     ],
     [
       "El orden de las cartas, que no cambia",
@@ -57,7 +57,7 @@
     ],
     [
       "Lo que se le pide a Franco va por privado",
-      "No por el grupo del cliente: si va por el grupo parece que Aye es intermediaria y queda raro. Hoy hay uno pendiente: la respuesta del script del workshop de Lola."
+      "No por el grupo del cliente: si va por el grupo parece que Aye es intermediaria y queda raro."
     ],
     [
       "La clase de ángulos con Fede",
@@ -84,6 +84,7 @@
       "proyecto": "Connect Turismo. Viene de los primeros clientes de F3 y entró sin audiencia ni contenido, así que el trabajo fue encontrar el vehículo. En septiembre el outreach produjo su primera propuesta: Tantasiña, USD 1.000, reservada hasta el viernes 19.",
       "accionables": [
         "Coordinar la llamada de cierre con Teo. Es lo único que hay que hacer con este caso.",
+        "Confirmar con Teo la <b>fecha nueva</b> de la llamada de cierre: la del 16/09 ya pasó. Con esa fecha se actualiza acá.",
         "[hecho] Teo marcó que a Ceci <b>no</b> le pide el formulario de feedback: su perfil no es el que nutre al programa.",
         "[hecho] El 24/09 vendió su primer ticket. Estamos conformes para hacer el cierre del sign off."
       ],
@@ -173,7 +174,7 @@
       "estado": "Sign off · cierra 30/09",
       "proyecto": "Mentoría de procesos. El proceso terminó en un pivote: de vender servicios técnicos de marketing a vender el proceso.",
       "accionables": [
-        "Agendar la llamada con Franco <b>esta semana</b>: es un ultimátum sobre la oferta. Venía con oferta de estratega creativa, no se sintió cómoda vendiéndola y la cambió hacia algo que se parece más a coaching.",
+        "Agendar la llamada con Franco <b>antes del 30/09</b>, porque el sign off depende de ella: es un ultimátum sobre la oferta. Venía con oferta de estratega creativa, no se sintió cómoda vendiéndola y la cambió hacia algo que se parece más a coaching.",
         "Lo que tiene que salir de esa llamada: cómo darle sustento a esa oferta y cómo medir su impacto, porque una oferta de coaching sin eso es muy difícil de vender.",
         "De esa llamada Franco le baja los accionables, y <b>el sign off va la semana siguiente</b>.",
         "El lanzamiento ya está bajado a 3 etapas: workshop presencial en un mes, apertura de postulaciones a una mentoría grupal de 4 a 6 semanas, y uno a uno de validación."
@@ -223,7 +224,7 @@
         "Hacerle el fup: estamos esperando que devuelva los documentos que le armamos, y tienen que estar completos <b>antes</b> de la llamada con Franco.",
         "Agendar la llamada con Franco. Se había anotado con Facu para el martes porque se había desconectado, pero mirado el caso entero <b>le toca Franco</b>: los documentos los baja Facu y la oferta la cierra Franco.",
         "Los ángulos van después de Franco, y se trabajan en la grupal de contenido con Fede.",
-        "Mandar la radiografía con el roadmap. Va por el día 82 de los 90.",
+        "Mandar la radiografía con el roadmap.",
         "[hecho] Desfasaje resuelto el 25/09: extensión de un mes, cierra el 31/10. Se está programando el lanzamiento."
       ],
       "doc": "sofia-galvis.html",
@@ -239,7 +240,7 @@
       "accionables": [
         "[hecho] Los dos documentos ya se mandaron —la radiografía y el de Eclipse y los anillos—.",
         "Hacerle el fup cada vez que vuelva, hasta tener su respuesta. Se le mandaron el 14 de septiembre.",
-        "Agendar la llamada con Franco <b>esta semana</b>: ahí se ve la estrategia de lanzamiento de los anillos, que es el producto que le propusimos crear.",
+        "Agendar la llamada con Franco, que todavía no tiene fecha: ahí se ve la estrategia de lanzamiento de los anillos, que es el producto que le propusimos crear.",
         "Presentarse con ella: quién sos, cómo se trabaja la comunidad acá y que te consulte lo que necesite. Todo lo que está creando es comunidad alrededor de su marca.",
         "Preguntarle a Teo y a Azu si los contenidos del Cowork ya se los dimos. Creemos que sí.",
         "Dato del jueves pasado: en este lanzamiento <b>superó la facturación de todos los meses, un 54% más y sin pauta</b>. Aplicó a rajatabla lo que le bajamos."
@@ -300,7 +301,7 @@
         "[hecho] Se le mandó la carta de Oferta de nuevo, entera, con todo el historial arriba: el proceso se resetea.",
         "Escribirle <b>por privado</b>, no por el grupo.",
         "Hacerle el fup de la grabación: está terminando de grabar su contenido (25/09).",
-        "Comunicarse con él para sacarle las dudas del formulario y de la carta de oferta, que Facu ya le mandó, y coordinar la reunión con Lucio.",
+        "Comunicarse con él para sacarle las dudas del formulario y de la carta de oferta, que Facu ya le mandó, y coordinar la próxima reunión.",
         "Mandar la radiografía con el roadmap.",
         "El foco del tramo es cerrar la oferta y sacar un mínimo de 10 piezas.",
         "Lectura del caso, dicha sin vueltas: lo ayudamos y lo acompañamos mucho, pero una consultoría de negocio no le resuelve la inseguridad. Ya se le sugirió apoyo por afuera."
@@ -336,7 +337,7 @@
         "[hecho] Las tres cartas ya se le mandaron. El pasaporte digital va primero, porque está en una búsqueda más profunda con su marca personal y de ahí salen los ángulos.",
         "Reclamar la devolución.",
         "[hecho] Ya trabajó oferta y producto con Franco, y la 1:1 con Facu quedó agendada: <b>martes 29/09 a las 11:00</b>. Ahí Facu le presenta la radiografía del primer mes.",
-        "Mandar la radiografía con el roadmap.",
+        "Mandarle la radiografía <b>después</b> de la 1:1 del martes 29/09, que es donde Facu se la presenta.",
         "Coordinar con Fede el seguimiento de contenido, que acá va con Aaron como personaje.",
         "Viene bien."
       ],
@@ -352,8 +353,8 @@
       "proyecto": "Producción textil y merch. Piero lleva lo creativo y Juan lo comercial. El merch no es ropa: es el medio publicitario de otra marca.",
       "accionables": [
         "[hecho] La llamada con Franco ya se hizo.",
-        "Mandar la radiografía actualizada, que Facu corrige esta semana. La puede mandar Aye directamente.",
-        "Coordinar la reunión para la semana que viene. El tema es contenido: es lo que necesitan resolver ahora.",
+        "Mandar la radiografía actualizada, que está corrigiendo Facu. La puede mandar Aye directamente.",
+        "Coordinar la próxima reunión, para la semana del 28/09. El tema es contenido: es lo que necesitan resolver ahora.",
         "Cargar la ficha de la segunda persona y conseguir el apellido de Juan, que falta en la base.",
         "Preguntar cuánto pueden poner por mes en pauta y quién la opera."
       ],
@@ -427,7 +428,7 @@
         "[hecho] Devolvieron el ICP, con algo de ángulos adentro.",
         "[hecho] El feedback de los guiones ya se le mandó a Ani por el grupo.",
         "[hecho] Mandarles las tres cartas en orden, con el mensaje: <b>1 · Ángulos de comunicación</b>, <b>2 · Auditoría del proceso comercial</b> —antes del 6 de octubre, con llamadas de venta grabadas: las próximas o las que ya tengan— y <b>3 · Funnel de servicio y escalera de valor</b>, con la auditoría del método adentro.",
-        "Hacerles el seguimiento: ya tienen todos los documentos (Facu, 24/09) y ahora los completan ellos. Los próximos pasos quedaron escritos en la conversación de agentes.",
+        "Hacerles el seguimiento: ya tienen todos los documentos (Facu, 24/09) y ahora los completan ellos. La Auditoría del proceso comercial la tienen que devolver <b>antes del 6 de octubre</b>, con llamadas de venta grabadas.",
         "Recién después, el lanzamiento de cuatro semanas y los reportes comerciales de los leads. Después se vuelve a marketing.",
         "Que publiquen Rafa 3 esta semana, y Rafa 1 y Rafa 2 re-editados con el método adelante.",
         "Los siete creativos se prueban como anuncio diez días, con el pedido de cada uno rastreado.",
