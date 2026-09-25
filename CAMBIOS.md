@@ -16,7 +16,9 @@ Tres clientes al día con lo que pasó ayer, y la torre publicada con todo lo qu
 
 - **Tus respuestas de la mañana (1 a 4).** Sofía y Matías siguen un mes más: el FINISH del 31/10 queda como extensión y el desfasaje sale tachado de la torre. José David: reagendar la 1:1 pasa a ser un accionable de Aye, que le manda el link. The Momentum Club ya tiene formularios, revisión del guion y documentos: esos envíos quedan tachados y entra el follow-up después del webinar del 28. Se publicó la torre, versión 41.
 
-**Para mirar antes de subir:** que los accionables de Sofía, Matías, José David y Momentum digan lo que contestaste; que el cambio de Aye no pise nada tuyo de su ficha, y que las cartas nuevas estén como las querías, porque esta es la primera vez que salen publicadas.
+- **La segunda tanda de respuestas.** Ceci vendió su primer ticket: el informe de cierre ahora lo dice en el titular, la etapa, la métrica y la conclusión. Qualita tiene todos los documentos desde el 24 y los envíos quedan tachados. Lola dio el workshop y hoy tiene llamadas de venta. Lucio está terminando de grabar, y Aye le hace el fup y le saca las dudas de la carta de oferta. Aaron trabajó oferta y producto con Franco y ya tiene la 1:1 con vos el martes 29 a las 11:00. Torre versión 42.
+
+**Para mirar antes de subir:** que los accionables de Sofía, Matías, José David y Momentum digan, y el informe de cierre de Ceci, que es el que ve ella, lo que contestaste; que el cambio de Aye no pise nada tuyo de su ficha, y que las cartas nuevas estén como las querías, porque esta es la primera vez que salen publicadas.
 
 ## 24 de septiembre de 2026
 

@@ -5,9 +5,9 @@
  "modo": "cierre",
  "orientacion": "Conseguir",
  "arranque": "23 de marzo de 2026 — onboarding con Teo",
- "etapa": "Se cierra el acompañamiento en el día 177, con la primera propuesta de la mentoría enviada a precio completo y reservada hasta el viernes 19 de septiembre.",
- "metrica": "Clientes de la mentoría cerrados. Al 16 de septiembre: una propuesta enviada, ninguna cerrada.",
- "titular": "Ceci cierra con el vehículo resuelto y la primera propuesta en la calle, hecha con 4 mensajes.",
+ "etapa": "Se cierra el acompañamiento con el primer ticket vendido, el 24 de septiembre, después de mandar la primera propuesta de la mentoría a precio completo.",
+ "metrica": "Clientes de la mentoría cerrados. Al 16 de septiembre: una propuesta enviada, ninguna cerrada. Al 24 de septiembre: el primer ticket vendido.",
+ "titular": "Ceci cierra con el vehículo resuelto y su primer ticket vendido.",
  "bajada": "El conocimiento estuvo desde el día uno. Lo que faltaba era el formato en el que se vende y el camino por el que llegan los clientes. El giro de julio cambió el vehículo, el de agosto cambió el motor de demanda, y en septiembre el outreach produjo su primera propuesta real a la primera semana de intentarlo.",
  "punto_a": [
   {
@@ -208,7 +208,7 @@
    ]
   }
  ],
- "conclusion": "El recorrido de Ceci se explica en una sola línea: el conocimiento nunca estuvo en duda y el problema fue siempre encontrar el vehículo y el camino por el que llegan los clientes. El primer giro cambió el vehículo, de curso auto-servicio a mentoría uno a uno; el segundo cambió el motor, del contenido al workshop y al outreach. En septiembre eso dejó de ser una hipótesis: 4 mensajes produjeron una conversación de diagnóstico y una propuesta enviada a precio completo, con los bordes del servicio escritos adentro. Lo que queda es de una sola naturaleza y no requiere nada nuevo: repetir el movimiento todas las semanas hasta que el primer cliente esté cobrado y el segundo esté en conversación.",
+ "conclusion": "El recorrido de Ceci se explica en una sola línea: el conocimiento nunca estuvo en duda y el problema fue siempre encontrar el vehículo y el camino por el que llegan los clientes. El primer giro cambió el vehículo, de curso auto-servicio a mentoría uno a uno; el segundo cambió el motor, del contenido al workshop y al outreach. En septiembre eso dejó de ser una hipótesis: 4 mensajes produjeron una conversación de diagnóstico y una propuesta enviada a precio completo, con los bordes del servicio escritos adentro. Lo que queda es de una sola naturaleza y no requiere nada nuevo: repetir el movimiento todas las semanas. El 24 de septiembre llegó el primer ticket vendido, y lo que sigue es que el segundo esté en conversación.",
  "carta": "Ceci, lo que cambió en estos meses no fue lo que sabés, porque eso ya lo tenías: cambió el formato en el que lo vendés y el camino por el que te llegan los clientes. Y en septiembre hiciste lo más difícil de todo el proceso, que fue salir a escribirle a gente que no te conocía. Cuatro mensajes y una propuesta afuera, a precio completo, con lo que no hacés escrito adentro. Eso es exactamente el sistema funcionando. Lo que sigue no es más estrategia ni más producto: es volver a hacer esa misma semana, una y otra vez, hasta que sean 5 propuestas por mes en vez de una. Los módulos y la landing van a terminar de salir, y cuando salgan van a ser el respaldo de algo que ya está vendiendo. Ejecutar le gana a perfeccionar, y esta vez lo probaste vos.",
  "abierto": "La respuesta de Tantasiña antes del viernes 19. La fecha del workshop grande con su compañera, corrido a noviembre.",
  "handicap": {
