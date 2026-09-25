@@ -41,6 +41,10 @@
       {
         "cuando": "22 sep",
         "que": "clarity call con facu: escalera de valor, separacion de marcas y proceso de venta"
+      },
+      {
+        "cuando": "25 sep",
+        "que": "ya tienen los formularios, la revisión del guion y los documentos antes del webinar"
       }
     ]
   },
@@ -173,9 +177,10 @@
         "Armar el QR que lleva al WhatsApp con alguien del otro lado agendando llamadas"
       ],
       "cascara": [
-        "Facu manda los formularios de programa y de clientes",
-        "Facu revisa y aprueba el guion del webinar antes del 28",
+        "[hecho] Facu manda los formularios de programa y de clientes",
+        "[hecho] Facu revisa y aprueba el guion del webinar antes del 28",
         "Facu se suma al webinar del 28 en vivo",
+        "Aye les hace el follow-up después del webinar del 28: estar cerca y preguntarles qué necesitan",
         "Agendar la llamada con Franco para la auditoría de producto y la escalera de valor"
       ]
     },

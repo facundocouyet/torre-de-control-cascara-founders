@@ -14,7 +14,9 @@ Tres clientes al día con lo que pasó ayer, y la torre publicada con todo lo qu
 - **José David.** Canceló la 1:1 de hoy a las 09:00. Queda en el recorrido y en abierto, y el handoff de Aye pasa a decir que hay que reagendarla.
 - **La torre al día.** Se publicaron las cartas nuevas (funnel de servicio, auditoría del proceso comercial y webinar de venta), las 41 que ya estaban con el ajuste del generador, los guiones de Qualita y la mecánica del webinar de Momentum ampliada. El handoff de Aye va con la fecha de hoy.
 
-**Para mirar antes de subir:** que el cambio de Aye no pise nada tuyo de su ficha, y que las cartas nuevas estén como las querías, porque esta es la primera vez que salen publicadas.
+- **Tus respuestas de la mañana (1 a 4).** Sofía y Matías siguen un mes más: el FINISH del 31/10 queda como extensión y el desfasaje sale tachado de la torre. José David: reagendar la 1:1 pasa a ser un accionable de Aye, que le manda el link. The Momentum Club ya tiene formularios, revisión del guion y documentos: esos envíos quedan tachados y entra el follow-up después del webinar del 28. Se publicó la torre, versión 41.
+
+**Para mirar antes de subir:** que los accionables de Sofía, Matías, José David y Momentum digan lo que contestaste; que el cambio de Aye no pise nada tuyo de su ficha, y que las cartas nuevas estén como las querías, porque esta es la primera vez que salen publicadas.
 
 ## 24 de septiembre de 2026
 

@@ -57,6 +57,10 @@
       {
         "cuando": "17 sep",
         "que": "la grupal de procesos le baja el mapa de check-ins, con fecha el jueves 24"
+      },
+      {
+        "cuando": "25 sep",
+        "que": "sigue un mes más, hasta el 31/10; aye le hace el fup de los documentos"
       }
     ]
   },
@@ -189,6 +193,7 @@
         "Armar el mapa de check-ins del recorrido de su cliente: dónde se inserta cada uno, qué pregunta, para qué se usa la respuesta y dónde cae el dato. Fecha: jueves 24 de septiembre, en la grupal de procesos"
       ],
       "cascara": [
+        "Aye le hace el fup de los documentos que le mandamos",
         "Teo le baja en su llamada el proceso completo de entrega: onboarding a 48 horas, presentación de roadmap y armado de la entrega de servicio",
         "Facu le presenta el análisis y le marca el camino, que es lo que no se le había presentado porque venía bien",
         "Cáscara le deja la estructura y un ejemplo de cada pieza de la entrega, no los documentos del cliente"
@@ -220,7 +225,7 @@
   ],
   "conclusion": "El negocio se direcciona a un estudio que entrega por proceso y vende por sistema. El precio ya está calibrado y el modelo de campañas con fecha de inicio y de final sostiene el foco, así que la facturación depende de cuántas campañas puede correr en paralelo con la misma calidad. Con el proceso de entrega escrito, cada cliente nuevo entra sobre un camino probado y él queda libre para vender. El riesgo que marcó Juana en julio es el que hay que cuidar en esta etapa: con el ritmo alto que tiene, el cliente puede leer saturación o ausencia, y un roadmap presentado con hitos y fechas ordena esa percepción.\n\nEl ritmo de este tramo se aprieta por una razón concreta: hay 2 clientes adentro que se están entregando sobre la marcha, y cada semana sin proceso escrito es una semana en la que una venta buena se puede arruinar. Por eso el proceso queda escrito y aplicado a los dos el 25 de septiembre, 5 días antes de lo que estaba: esa es la fecha dura. Mientras eso corre, la oferta del lanzamiento se empaqueta con Facu y la base de datos se arma, así octubre entra directo a las historias y al lanzamiento, con los números leídos el día que salen. Ponerse la fecha antes de sentirse listo es parte del oficio, y él ya lo probó con el precio: subió al doble y cerró todo igual.\n\nQueda un frente por confirmar: cuáles son los 2 clientes que cerró, por qué montos y con qué alcance prometido en cada propuesta. El mapa de la primera semana lo resuelve, y de ahí sale la materia prima del proceso escrito.",
   "carta": "Matías, en un mes y medio armaste la marca, subiste tus precios casi al doble y cerraste todo lo que presentaste. Muy poca gente hace eso en su primer tramo. Lo que te toca ahora es menos vistoso y vale lo mismo: escribir una vez cómo entregás, para que el cliente sienta adentro del servicio el mismo orden que sintió cuando le vendiste. Con eso hecho vas a poder tomar el tercero y el cuarto sin que se te mueva el piso. El lanzamiento de octubre es tu primera venta por decisión propia, con una fecha que ponés vos y no el que te escribe. Grabá, publicá y anotá los números: la parte de vender ya sabemos que la tenés.",
-  "abierto": "Cuáles son los 2 clientes que cerró, por qué montos y con qué alcance prometido en cada propuesta (falta confirmar).",
+  "abierto": "Cuáles son los 2 clientes que cerró, por qué montos y con qué alcance prometido en cada propuesta (falta confirmar). Llegó al día 90 el 29 de septiembre y el 25 se decidió seguir un mes más, hasta el 31 de octubre que figura en Cuentas.",
   "handicap": {
     "ejes": {
       "oferta": 4,
