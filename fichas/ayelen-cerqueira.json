@@ -28,7 +28,7 @@
   ],
   "recorrido": {
     "titulo": "De la propuesta interna al rol propio",
-    "texto": "El recorrido de Aye tiene un desvío que terminó valiendo más que el camino original. El 17 de julio llevó con Sharon una propuesta de rol interno en Cáscara y quedó rechazada, porque el perfil que hacía falta era de micromanagement y administración, y ese es otro trabajo del que ellas dos saben hacer; de ese no salió algo mejor, que fue conectarlas con clientes externos para que apliquen lo que saben y armen recorrido propio. El 27 de julio la oferta quedó reorientada a estrategia creativa para la construcción de comunidades, con Cósmico como caso de estudio en tres fases y la suscripción paga como monetización. En la misma vuelta cambió el proceso comercial: se terminaron las asesorías gratuitas y la llamada de discovery pasó a cobrarse. Agosto trajo la prueba de que el mercado está: discovery con Micaela Belén y con Ariel Machiadino, seguimiento a Nico Donovan, y dos trabajos ya corriendo, Ivo Llanes que la contactó por Instagram y Julieta Peña derivada por Facu, donde el trabajo es de comunidad y de delegación. En septiembre el rol siguió creciendo adentro de Cáscara y el paso que viene quedó nombrado: liderar equipo y delegar. Y quedó el acuerdo que ordena el cierre: Founders funciona de laboratorio, la oferta se desarrolla con Franco, se valida con clientes del programa y el proceso se documenta para que quede un caso. Lo único que quedó sin escribir en todo el recorrido es la hoja de la oferta.",
+    "texto": "El recorrido de Aye tiene un desvío que terminó valiendo más que el camino original. El 17 de julio llevó con Sharon una propuesta de rol interno en Cáscara y quedó rechazada, porque el perfil que hacía falta era de micromanagement y administración, y ese es otro trabajo del que ellas dos saben hacer; de ese no salió algo mejor, que fue conectarlas con clientes externos para que apliquen lo que saben y armen recorrido propio. El 27 de julio la oferta quedó reorientada a estrategia creativa para la construcción de comunidades, con Cósmico como caso de estudio en tres fases y la suscripción paga como monetización. En la misma vuelta cambió el proceso comercial: se terminaron las asesorías gratuitas y la llamada de discovery pasó a cobrarse. Agosto trajo la prueba de que el mercado está: discovery con Micaela Belén y con Ariel Machiadino, seguimiento a Nico Donovan, y dos trabajos ya corriendo, Ivo Llanes que la contactó por Instagram y Julieta Peña derivada por Facu, donde el trabajo es de comunidad y de delegación. En septiembre el rol siguió creciendo adentro de Cáscara y el paso que viene quedó nombrado: liderar equipo y delegar. Y quedó el acuerdo que ordena el cierre: Founders funciona de laboratorio, la oferta se desarrolla con Franco, se valida con clientes del programa y el proceso se documenta para que quede un caso. Lo único que quedó sin escribir en todo el recorrido es la hoja de la oferta. La reunión con Franco se hizo el 24 de septiembre y dejó la frase de la oferta: generar comunidades con identidad que después se puedan monetizar. Franco lo resumió así: «identidad, comunidades y monetizar son las tres palabras que tienen que estar en tu pitch». También quedó la forma: un solo resultado con tres accesos —hecho por ella, hecho con ella o hacelo vos— y un orden para salir al mercado, primero un colchón de contenido documentando lo que aprende cada semana manejando la comunidad de Cáscara y después la prospección. El nombre y el precio quedaron para la segunda llamada, el lunes 28.",
     "hitos": [
       {
         "cuando": "17 jul",
@@ -57,6 +57,10 @@
       {
         "cuando": "2 sep",
         "que": "con teo: el cierre es la oferta bien definida"
+      },
+      {
+        "cuando": "24 sep",
+        "que": "llamada con franco: comunidades con identidad que se puedan monetizar"
       }
     ]
   },
@@ -102,12 +106,20 @@
     {
       "tema": "Las reglas del sistema",
       "respuesta": "10 piezas como mínimo antes de evaluar, empaquetar antes de delegar, y validación con precio."
+    },
+    {
+      "tema": "La frase de la oferta",
+      "respuesta": "Generar comunidades con identidad que después se puedan monetizar. Identidad, comunidades y monetizar son las tres palabras del pitch."
+    },
+    {
+      "tema": "La escalera",
+      "respuesta": "Un solo resultado con tres accesos: hecho por ella, hecho con ella y hacelo vos. Se le habla siempre al nivel más alto."
     }
   ],
   "entregables": [
     {
-      "que": "La reunión de oferta con Franco, que agenda Facu y quedó pendiente del 1 de septiembre",
-      "para": "Sale el nombre del servicio, el alcance y el rango de precio."
+      "que": "Las dos reuniones de oferta con Franco, la del 24 y la del 28 de septiembre",
+      "para": "De la primera salió la frase y la escalera; de la segunda sale el nombre y el precio."
     },
     {
       "que": "La hoja de oferta como formato: nombre, transformación, cliente ideal, qué incluye, en cuántas semanas y a qué precio",
@@ -136,9 +148,9 @@
   ],
   "roadmap": [
     {
-      "cuando": "14 al 18 de septiembre",
+      "cuando": "24 y 28 de septiembre",
       "objetivo": "Cerrar la oferta con Franco",
-      "entregable": "La reunión que quedó pendiente del 1 de septiembre, hecha en la semana del 14. Sale de ahí el nombre del servicio, el alcance y el rango de precio. Facu la agenda.",
+      "entregable": "La primera llamada se hizo el 24 y dejó la frase y la escalera. La segunda, el lunes 28 a las 13:00, cierra el nombre y el precio.",
       "quien": "Aye y Franco"
     },
     {
@@ -176,12 +188,13 @@
     {
       "cuando": "Septiembre",
       "cliente": [
-        "Tener la reunión con Franco y salir con nombre, alcance y precio",
-        "Escribir la hoja de oferta y el cliente ideal",
-        "Crear contenido sobre lo que ve adentro de Cáscara, todas las semanas"
+        "Tener la segunda reunión con Franco el lunes 28 y salir con nombre y precio",
+        "Escribir la hoja de oferta con la frase: generar comunidades con identidad que después se puedan monetizar",
+        "Documentar cada semana lo que aprende manejando la comunidad de Cáscara y convertirlo en contenido, antes de salir a prospectar",
+        "Escribir la hoja de oferta y el cliente ideal"
       ],
       "cascara": [
-        "Facu agenda la reunión de Aye con Franco",
+        "Franco sigue la oferta con ella el lunes 28 a las 13:00",
         "Teo hace el sign-off de Cáscara Founders con este documento",
         "Acceso a las grupales y a Founders se mantiene por ser parte del equipo"
       ]
@@ -210,7 +223,7 @@
   ],
   "conclusion": "El negocio se direcciona a vender estrategia creativa de comunidades a marcas que ya tienen audiencia y les falta comunidad, con el rol de community success manager como posicionamiento y la suscripción paga como forma de monetizar del lado del cliente. La palanca que tiene disponible y casi nadie tiene es la experiencia diaria adentro de Cáscara: lo que ve todas las semanas es material de contenido y es la prueba de que el rol existe. De la hoja y de Cósmico sale el caso documentado, que es lo que vende al cliente siguiente. Y el paso que viene del rol, liderar equipo y delegar, se apoya en la misma regla: empaquetar antes de delegar.\n\nEl cierre es corto y por eso las fechas se aprietan. La reunión con Franco entra en la semana del 14, la hoja queda cerrada el 22 de septiembre, que es la fecha dura del tramo, y Cósmico se presenta con número antes del 2 de octubre. El contenido sobre el rol arranca la misma semana que la hoja, porque explicar en público lo que hace es parte de definirlo, y las validaciones con founders del programa entran mientras la propuesta ya está en la calle. La razón para apurar es propia de este caso: adentro de Cáscara el rol crece más rápido de lo que ella lo escribe, así que cada semana sin hoja lo vuelve más grande y más difícil de nombrar. Ponerle nombre y precio a algo que todavía se está moviendo es justo la decisión que se entrena acá.\n\nEl frente que queda abierto es el precio y con qué nombre sale al mercado, y eso sale de la reunión con Franco (falta confirmar).",
   "carta": "Aye, ya estás haciendo el trabajo que querés vender, y eso es una ventaja rara: casi nadie llega a esta altura con el rol probado adentro de una operación real. El no del 17 de julio terminó siendo el mejor movimiento del recorrido, porque en lugar de dejarte en un lugar de administración te empujó a armar el tuyo. Lo que falta es corto y es tuyo: una hoja. Ponele el nombre, elegí a quién se lo vendés, ponele el número y presentá Cósmico en llamada. El programa se cierra, y vos te quedás adentro del equipo, con Franco en la oferta, con las grupales abiertas y con nosotros al lado. Si Cósmico cierra con precio, la conversación cambia de lugar y el próximo cliente se vende con un caso en la mano.",
-  "abierto": "El precio de la oferta y con qué nombre sale al mercado (falta confirmar, sale de la reunión con Franco).",
+  "abierto": "El nombre de la oferta y el precio, que la llamada con Franco del 24 de septiembre no cerró y quedan para la del lunes 28 (falta confirmar).",
   "handicap": {
     "ejes": {
       "oferta": 1,

@@ -1,5 +1,5 @@
 {
-  "fecha": "24 SEP 2026",
+  "fecha": "25 SEP 2026",
   "titulo": "Accionables CSM",
   "bajada": "Lo que ejecuta Aye con cada cliente: qué documento le corresponde, qué hacer con él y qué coordinar. Arriba de cada lista va el resumen de su radiografía. Se actualiza con los clientes.",
   "intro": [
@@ -204,8 +204,8 @@
       "estado": "Sign off · cierra 30/09",
       "proyecto": "Estrategia creativa para construir comunidades. Sigue adentro de Cáscara: su sign off es cerrar su propia oferta como Community Success Manager.",
       "accionables": [
-        "[hecho] Ya habló con Franco y están coordinando día y horario para la llamada.",
-        "Esa llamada es la que cierra la oferta, el nombre y el precio. <b>Tiene que suceder esta semana</b> o el cierre se complica.",
+        "[hecho] La llamada con Franco se hizo el 24/09 y quedó grabada. Salió la frase de la oferta —generar comunidades con identidad que después se puedan monetizar— y la escalera en tres accesos.",
+        "Sigue con Franco el <b>lunes 28/09 a las 13:00</b>: ahí tienen que salir el nombre y el precio, que el 24 no se cerraron.",
         "Recién después de esa llamada, coordinar el offboarding con Teo."
       ],
       "doc": "ayelen-cerqueira.html",
@@ -316,7 +316,7 @@
       "estado": "En curso · cierra 31/10",
       "proyecto": "Marca personal y servicio de crecimiento para e-commerce, con el concepto Universo de Marca. Es el caso que siguió la secuencia y funcionó.",
       "accionables": [
-        "Agendó él la 1:1 con Facu para el viernes 25/09 a las 09:00. Chequear que llegue con el accionable hecho.",
+        "Canceló la 1:1 con Facu del viernes 25/09 a las 09:00, que era la del corte del primer mes. <b>Reagendarla</b> y que llegue con el accionable hecho.",
         "Mandar la radiografía con el roadmap.",
         "Agendar la llamada con Franco: sigue pendiente desde la semana del 1 de septiembre y todavía no tiene fecha.",
         "El ritmo pasó a frenado el 18/09: no hizo el accionable de comunicar en historias y llegó a borrar su Instagram. Ya lo revirtió, y los clientes le entran igual.",
@@ -370,8 +370,7 @@
       "accionables": [
         "[hecho] La 1:1 con Facu ya se hizo el viernes 18.",
         "[hecho] Las cartas de ICP y mecanismo y de Ángulos ya se le mandaron.",
-        "<b>El jueves tiene la 1:1 con Fede</b> —la tiene por el bonus de venta— y ahí se le baja la estrategia de contenido. Ya tiene ICP, ángulos y oferta, así que se va directo a eso.",
-        "Pedirle a Fede que esa llamada quede grabada en Fathom.",
+        "[hecho] La 1:1 con Fede se hizo el jueves 24 y quedó grabada: foco total en el cohort, biografía nueva, página de espera con Teo y canal propio de YouTube. Fede le debe el brief del video de su historia.",
         "Agendar la segunda llamada con Franco para la <b>semana del 29</b>: ahí se coordina el lanzamiento.",
         "Mandar la radiografía con el roadmap.",
         "De la llamada con Franco del 16/9 quedaron los parámetros: 8 semanas, 3 pilares, 12 a 15 cupos y precio de entrada entre 997 y 1.200 dólares."

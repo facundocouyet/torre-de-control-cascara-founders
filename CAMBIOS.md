@@ -1,3 +1,21 @@
+# Cambios
+
+Lo que se tocó cada día, en criollo. Lo más nuevo arriba. Se lee antes de hacer el push
+para saber qué estás subiendo, sin abrir los archivos.
+
+---
+
+## 25 de septiembre de 2026
+
+Tres clientes al día con lo que pasó ayer, y la torre publicada con todo lo que hiciste de Qualita a la tarde.
+
+- **Sebastián.** La 1:1 con Fede del 24 bajó el lanzamiento a tareas: biografía nueva, página de espera con Teo, canal de YouTube propio, destacadas y videos fijados. Entraron como accionables de septiembre, y Fede queda debiendo el brief del video. El puntaje no se mueve.
+- **Ayelén.** La llamada con Franco se hizo y quedó grabada: la frase de la oferta y la escalera en tres accesos entran a respuestas, y el roadmap pasa a dos llamadas, la del 24 y la del lunes 28 a las 13:00, donde se cierran nombre y precio.
+- **José David.** Canceló la 1:1 de hoy a las 09:00. Queda en el recorrido y en abierto, y el handoff de Aye pasa a decir que hay que reagendarla.
+- **La torre al día.** Se publicaron las cartas nuevas (funnel de servicio, auditoría del proceso comercial y webinar de venta), las 41 que ya estaban con el ajuste del generador, los guiones de Qualita y la mecánica del webinar de Momentum ampliada. El handoff de Aye va con la fecha de hoy.
+
+**Para mirar antes de subir:** que el cambio de Aye no pise nada tuyo de su ficha, y que las cartas nuevas estén como las querías, porque esta es la primera vez que salen publicadas.
+
 ## 24 de septiembre de 2026
 
 Aye avisó que no le dejaba descargar las radiografías desde el handoff. Estaba roto y ya está arreglado.
@@ -7,11 +25,6 @@ Aye avisó que no le dejaba descargar las radiografías desde el handoff. Estaba
 - **Los mensajes de error dicen qué hacer.** Antes decían "no se pudo" y nada más.
 
 **Para mirar antes de subir:** abrí el handoff y probá «Descargar» en dos clientes cualquiera —que el archivo baje con el nombre del cliente y se abra en el navegador—. El único archivo que cambia en el repo es `generador/build_ally.py`; `founders-handoff-aye.html` está en el `.gitignore` y lo arma el build.
-
-# Cambios
-
-Lo que se tocó cada día, en criollo. Lo más nuevo arriba. Se lee antes de hacer el push
-para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
