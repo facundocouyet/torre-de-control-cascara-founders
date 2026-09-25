@@ -1,40 +1,64 @@
 {
   "modulo": "profile-funnel",
-  "titulo": "El perfil, acomodado para recibir",
-  "bajada": "Tu perfil es la primera llamada de venta y pasa sin que estés. Esta hoja lo deja escrito: qué dice, qué muestra y qué hace alguien cuando llega. Se hace antes de que salga la primera pieza del tramo, porque el contenido trae gente a un lugar que tiene que estar en pie.",
-  "lista_cuando": "Tres personas de afuera miran el perfil quince segundos y te dicen qué hacés y a quién le sirve, sin que vos les expliques nada.",
+  "titulo": "El perfil, armado desde tu historia",
+  "bajada": "Cuando alguien llega a tu perfil no busca tips: quiere entender quién sos, qué aprendiste, cómo llegaste acá y qué ofrecés ahora. Esta hoja arranca por tu narrativa y de ahí saca los tres deliverables del perfil: el video principal de YouTube, las historias destacadas y la biografía de Instagram. Se hace antes de que salga la primera pieza del tramo.",
+  "lista_cuando": "Tu narrativa está escrita en los cuatro movimientos, los tres deliverables salen de ella, y tres personas de afuera miran el perfil y te dicen quién sos y qué ofrecés ahora, sin que vos les expliques nada.",
   "completar": [
-    "Esta carta completa, con la devolución de las tres personas escrita"
+    "La narrativa escrita en los cuatro movimientos",
+    "El video de YouTube, las tres destacadas y la biografía armados desde esa narrativa",
+    "La devolución de las tres personas que miraron el perfil"
   ],
   "secciones": [
     {
       "nuestro": true,
-      "titulo": "Quince segundos y una sola pregunta",
+      "cid": 0,
+      "titulo": "Tu historia como fundación",
       "texto": [
-        "Alguien ve una pieza tuya, le interesa, y entra al perfil. Ahí tenés quince segundos y la persona está contestando una sola pregunta: <b>«¿esto es para mí?»</b>. Todo lo que no ayuda a contestarla, estorba.",
-        "Por eso el perfil no se acomoda por estética. Se acomoda para que en esos quince segundos quede claro quién sos, a quién le servís y qué puede hacer ahora. Lo demás se archiva.",
-        "Y se hace antes de publicar, no después. El contenido trae gente: si llega a un perfil que no explica nada, ese tráfico se pierde y no vuelve."
-      ],
-      "cid": 0
+        "Cuando alguien llega a tu perfil no quiere tips. Quiere entender <b>quién sos, qué aprendiste, cómo llegaste acá y qué ofrecés ahora</b>.",
+        "Una narrativa clara hace tres cosas. <b>Genera confianza</b>, porque ver todo tu camino pesa más que cualquier credencial. <b>Es reutilizable</b>: tu video principal de YouTube, tus historias destacadas y tu biografía salen de la misma historia. Y <b>es real</b>: no es un guion inventado, es tu vida.",
+        "Sin una narrativa clara, el perfil se ve como el de alguien que publicó cosas sin conexión. Por eso esta hoja arranca por la historia y recién después baja al perfil."
+      ]
     },
     {
-      "titulo": "La descripción, en tres líneas",
-      "consigna": "Una línea para cada cosa y en este orden: quién sos y qué hacés, a quién le sirve, y qué hacer ahora. Sin frases de catálogo y sin adjetivos: lo que va es el problema que resolvés y para quién. Si te sobra lugar, dejalo vacío.",
-      "campo": "lineas",
-      "lineas": [
-        "Quién sos y qué hacés",
-        "A quién le sirve",
-        "Qué hacer ahora (el paso concreto)"
+      "cid": 1,
+      "titulo": "La estructura narrativa, en cuatro movimientos",
+      "consigna": "Escribí cada movimiento como se lo contarías a alguien en una mesa, con hechos y momentos concretos. <b>Quién eras</b>: dónde empezaste, qué te faltaba, por qué empezaste a buscar. <b>Qué aprendiste</b>: los años de experimentación, los fracasos, las decisiones importantes, la gente que conociste. <b>El quiebre</b>: el momento donde todo cambió, donde entendiste algo que no sabías antes. <b>Qué hacés ahora</b>: cómo aplicaste lo que aprendiste, qué ofrecés, por qué te importa. No hace falta que quede lindo: es la materia prima de todo lo que sigue. Si ya completaste el Pasaporte Digital, arrancá de lo que escribiste ahí.",
+      "campo": "tabla",
+      "columnas": [
+        "Movimiento",
+        "Lo que cuento"
       ],
-      "ejemplo": {
-        "quien": "Facu",
-        "texto": "La prueba es leerlo en voz alta. Si suena a algo que diría una agencia y no una persona, está mal escrito. Escribilo como se lo dirías a alguien en una mesa."
-      },
-      "cid": 1
+      "filas_rotulo": [
+        "1 · Quién eras",
+        "2 · Qué aprendiste",
+        "3 · El quiebre",
+        "4 · Qué hacés ahora"
+      ],
+      "filas": 4
     },
     {
-      "titulo": "Las cuatro destacadas",
-      "consigna": "Cuatro, no diez. La historia de cómo llegaste acá, el servicio o el producto, los casos o resultados, y cómo contactarte. Escribí el título de cada una —corto, en tus palabras— y qué va adentro. Lo que hoy tenés y no entra en estas cuatro, se archiva.",
+      "cid": 2,
+      "titulo": "Deliverable 1 · El video de YouTube",
+      "consigna": "Tu video principal, de unos treinta minutos, es la narrativa contada entera. Anotá qué va en cada parte; los minutos son la guía de Fede para que ningún movimiento se coma a los otros. El CTA del final lleva al mismo lugar que la tercera línea de la biografía.",
+      "campo": "tabla",
+      "columnas": [
+        "Parte",
+        "Qué cuento"
+      ],
+      "filas_rotulo": [
+        "Intro: quién sos (1 min)",
+        "1 · Quién eras (3-5 min)",
+        "2 · Qué aprendiste (7-10 min)",
+        "3 · El quiebre (3-5 min)",
+        "4 · Qué hacés ahora (5-7 min)",
+        "Outro: por qué importa (1-2 min) + CTA"
+      ],
+      "filas": 6
+    },
+    {
+      "cid": 3,
+      "titulo": "Deliverable 2 · Las historias destacadas",
+      "consigna": "Tres destacadas y en este orden. <b>Historia</b>: fotos y videos de los cuatro movimientos en un timeline visual (inseguridad, aprendizaje, crisis, presente), para que la gente vea tu recorrido en 60 segundos. <b>Proceso</b>: cómo aplicás lo que aprendiste; equipamiento, gente, producción. <b>Validación</b>: testimonios, mensajes, números; clientes, comunidad, amigos. Para cada una anotá el título que le ponés y qué va adentro. Lo que hoy tenés en destacadas y no entra en estas tres, se archiva. Para cargar historias nuevas, seguí el SOP de historias.",
       "campo": "tabla",
       "columnas": [
         "Destacada",
@@ -42,17 +66,27 @@
         "Qué va adentro"
       ],
       "filas_rotulo": [
-        "La historia",
-        "Qué vendo",
-        "Casos o resultados",
-        "Cómo me escriben"
+        "1 · Historia",
+        "2 · Proceso",
+        "3 · Validación"
       ],
-      "filas": 4,
-      "cid": 2
+      "filas": 3
     },
     {
+      "cid": 4,
+      "titulo": "Deliverable 3 · La biografía de Instagram",
+      "consigna": "Tres líneas y en este orden. La segunda es la más difícil: una sola frase que resuma tu narrativa y tu propósito digital, sacada del cuarto movimiento. La tercera es el CTA: un solo lugar donde accionar. Leela en voz alta: si suena a agencia y no a persona, reescribila.",
+      "campo": "lineas",
+      "lineas": [
+        "Línea 1 · Quién sos (tu rol actual)",
+        "Línea 2 · La síntesis de tu narrativa",
+        "Línea 3 · CTA: dónde accionar (YouTube, funnel o WhatsApp)"
+      ]
+    },
+    {
+      "cid": 5,
       "titulo": "Las tres piezas ancladas",
-      "consigna": "Las tres que mejor explican qué hacés, ancladas arriba de todo. Una que cuente el problema que resolvés, una que muestre cómo trabajás, y una que muestre un resultado. Si alguna de las tres no existe todavía, escribí acá cuál falta y esa es la primera que grabás.",
+      "consigna": "Arriba de todo del feed, tres piezas que repiten lo mismo que las destacadas: una que cuente tu historia (puede ser un corte del video de YouTube), una de proceso y una de validación. Si alguna todavía no existe, anotá cuál falta: esa es la primera que grabás.",
       "campo": "tabla",
       "columnas": [
         "Qué tiene que mostrar",
@@ -60,53 +94,52 @@
         "Si no existe, cuál grabo"
       ],
       "filas_rotulo": [
-        "El problema",
-        "Cómo trabajo",
-        "Un resultado"
+        "Historia",
+        "Proceso",
+        "Validación"
       ],
-      "filas": 3,
-      "cid": 3
+      "filas": 3
     },
     {
+      "cid": 6,
       "titulo": "Qué se archiva",
-      "consigna": "Lo que hoy está arriba y habla de otra cosa: trabajos de una etapa que ya pasó, piezas repetidas, contenido de un servicio que no vendés más, cosas personales que no suman al perfil. Archivar no es borrar, y el que llega hoy no tiene por qué ver el camino entero.",
+      "consigna": "Lo que hoy está arriba y no tiene conexión con tu narrativa: trabajos de una etapa que ya pasó, piezas repetidas, contenido de un servicio que no vendés más, cosas personales que no suman al perfil. Archivar no es borrar: el recorrido completo ya lo cuenta el video.",
       "campo": "texto",
       "alto": 5,
-      "placeholder": "Archivo las publicaciones de… porque…",
-      "cid": 4
+      "placeholder": "Archivo las publicaciones de… porque…"
     },
     {
+      "cid": 7,
       "titulo": "Lo técnico, en una pasada",
-      "consigna": "Cuatro cosas que se resuelven en diez minutos y que casi siempre están mal. Tildá mentalmente cada una y anotá al lado qué pusiste, para que quede escrito.",
+      "consigna": "Cuatro cosas que se resuelven en diez minutos y que casi siempre están mal. Anotá al lado qué pusiste, para que quede escrito.",
       "campo": "lineas",
       "lineas": [
         "Cuenta profesional activada",
         "El botón de contacto: a dónde lleva",
-        "El link del perfil: a dónde lleva",
+        "El link del perfil: a dónde lleva (el mismo lugar que el CTA)",
         "El nombre de usuario y el nombre visible"
-      ],
-      "cid": 5
+      ]
     },
     {
-      "titulo": "La prueba de los quince segundos",
-      "consigna": "Mandale el perfil a tres personas que no sepan a qué te dedicás y hacéles una sola pregunta: «mirá esto quince segundos y decime qué hago y para quién». Anotá lo que te contestó cada una, textual y sin corregirlo y sin explicarles después. Si las tres dicen algo distinto, el perfil todavía no está: lo que hay que cambiar sale de lo que ellos entendieron mal.",
+      "cid": 8,
+      "titulo": "La prueba de afuera",
+      "consigna": "Mandale el perfil a tres personas que no sepan a qué te dedicás y hacéles una sola pregunta: «mirá esto un minuto y decime quién soy y qué ofrezco ahora». Anotá lo que te contestó cada una, textual, sin corregirlo y sin explicarles después. Si las tres dicen algo distinto, el perfil todavía no está: lo que hay que cambiar sale de lo que entendieron mal.",
       "campo": "tabla",
       "columnas": [
         "Quién miró",
         "Qué entendió, textual",
         "Qué corrijo con eso"
       ],
-      "filas": 3,
-      "cid": 6
+      "filas": 3
     },
     {
       "nuestro": true,
+      "cid": 9,
       "titulo": "Qué hacemos nosotros con esto",
       "texto": [
-        "Miramos el perfil con la hoja al lado y te devolvemos qué sacar y qué reescribir. No lo redactamos nosotros: las palabras tienen que ser tuyas, porque el que llega después te va a escuchar hablar y tiene que ser la misma persona.",
-        "Y desde acá se empieza a anotar lo que entra por el perfil el día que entra. Sin ese registro no hay manera de saber si lo que se acomodó sirvió de algo."
-      ],
-      "cid": 7
+        "Leemos tu narrativa y los tres deliverables con la hoja al lado y te devolvemos qué ajustar. No los redactamos nosotros: las palabras tienen que ser tuyas, porque el que llega después te va a escuchar hablar en el video y tiene que ser la misma persona.",
+        "Y desde acá se empieza a anotar lo que entra por el perfil el día que entra. Sin ese registro no hay manera de saber si lo que se armó sirvió de algo."
+      ]
     }
   ]
 }

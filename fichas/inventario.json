@@ -232,23 +232,26 @@
             "contenido",
             "demanda"
           ],
-          "resultado": "El perfil acomodado: descripción, destacadas, contenido anclado y archivo, de manera que en quince segundos se entienda quién es y qué vende.",
+          "resultado": "El perfil armado desde la narrativa del founder en cuatro movimientos (quién eras, qué aprendiste, el quiebre, qué hacés ahora), con sus tres deliverables: el video principal de YouTube, las historias destacadas y la biografía de Instagram.",
           "pasos": [
-            "Escribir la descripción con quién es, a quién le sirve y qué hacer ahora.",
-            "Armar las destacadas: la historia, el servicio, los casos y cómo contactar.",
-            "Anclar las tres piezas que mejor explican la oferta.",
-            "Archivar las publicaciones repetidas y las que hablan de otra cosa.",
-            "Pasar la cuenta a profesional y revisar el enlace de contacto.",
+            "Escribir la narrativa en los cuatro movimientos: quién eras, qué aprendiste, el quiebre y qué hacés ahora.",
+            "Bajar la narrativa al video principal de YouTube, de unos treinta minutos, con el CTA al final.",
+            "Armar las tres destacadas: historia, proceso y validación.",
+            "Escribir la biografía de Instagram: quién sos, la síntesis de tu narrativa y el CTA.",
+            "Anclar tres piezas (historia, proceso, validación) y archivar lo que no tiene conexión con la narrativa.",
+            "Pasar la cuenta a profesional y revisar el link y el botón de contacto.",
             "Mandar el perfil a tres personas de afuera y preguntarles qué entendieron."
           ],
           "completar": [
-            "El checklist del SOP de profile funnel, punto por punto",
-            "El texto de la descripción y los titulos de las destacadas",
+            "La narrativa escrita en los cuatro movimientos",
+            "El guion del video de YouTube, los títulos de las tres destacadas y la biografía",
             "La devolución de las tres personas que miraron el perfil"
           ],
           "herramientas": [
+            "Profile Funnel V1 de Fede (Notion)",
+            "SOP de historias de Cáscara",
             "Instagram (cuenta profesional)",
-            "SOP de profile funnel de Cáscara",
+            "YouTube",
             "Canva para las portadas de destacadas"
           ],
           "estado": "existe",
