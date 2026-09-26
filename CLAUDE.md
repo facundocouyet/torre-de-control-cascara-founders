@@ -24,6 +24,7 @@ contenido/              lo que no es de un founder: panel, programa, materiales 
 generador/              los scripts que convierten las fichas en HTML
 sistema/                el rol de líder y las reglas de redacción
 agente/                 el prompt de la tarea programada diaria
+cerebro/                la memoria escrita de Cáscara: registro, lo vigente por depto e índice
 assets/                 founders.css, los logos y el favicon
 clientes/               los documentos generados, uno por founder
 cartas/                 las cuarenta cartas, generadas
@@ -113,3 +114,11 @@ documentos de scroll y no desbordan, pero se revisan igual a 1512 y a 390 de anc
 
 Datos al 14 de septiembre de 2026. Veintiún clientes, diecinueve con documento, cuarenta cartas, treinta y tres de
 ellas con hoja para completar adentro. Los documentos son primeras versiones y se revisan antes de mandarlos.
+
+## El cerebro
+
+`cerebro/` es la memoria de Cáscara entera, no solo de Founders: qué se decidió, por qué, qué se
+aprendió, cómo cambió la oferta y cómo evolucionó cada cliente. Leé `cerebro/README.md` antes de
+escribir. Cuando en una conversación se decide algo con consecuencia, se registra en el momento
+como una entrada en `cerebro/registro/AAAA/MM/`, y después se corre `python3 generador/cerebro.py`.
+No va a `dist/`: es fuente, no sitio.

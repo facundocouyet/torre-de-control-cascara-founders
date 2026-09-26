@@ -1,0 +1,258 @@
+{
+ "hasta": "2026-09-26",
+ "departamentos": {
+  "cascara": "Dirección",
+  "founders": "Cáscara Founders",
+  "b2c": "B2C · La Cáscara",
+  "agencia": "Agencia",
+  "marcas": "0800 · marcas",
+  "alianzas": "Growth y alianzas",
+  "equipo": "Equipo y estructura",
+  "sistemas": "Sistemas y agentes"
+ },
+ "tipos": [
+  "decision",
+  "criterio",
+  "aprendizaje",
+  "oferta",
+  "hito",
+  "proceso",
+  "metrica",
+  "pregunta"
+ ],
+ "total": 10,
+ "entradas": [
+  {
+   "id": "2026-09-23-cero-suma-un-rol-operativo",
+   "fecha": "2026-09-23",
+   "tipo": "decision",
+   "depto": "alianzas",
+   "sobre": [
+    "cero"
+   ],
+   "quien": [
+    "franco",
+    "tomi",
+    "gasti"
+   ],
+   "temas": [
+    "contratacion",
+    "lanzamiento"
+   ],
+   "fuente": "Reunión Tomi x Gasti x Franco, 23/9 (resumen de Fathom en Cero OS)",
+   "certeza": "visto",
+   "estado": "vigente",
+   "titulo": "Cero contrata un rol operativo de USD 500 a 700 por mes y lanza en octubre en dos fases",
+   "cuerpo": "El rol lleva contenido, marketing y ventas para que Tomi y Gasti se queden con la entrega del\nservicio; se paga con el flujo de Cero. El lanzamiento: ventas privadas del 1 al 15 de octubre y\ntaller presencial del 20 al 30. El diagnóstico de fondo es la dispersión entre Cero, Aster y My\nSaint. Sale de un resumen automático: los montos y fechas conviene confirmarlos con Franco.",
+   "archivo": "registro/2026/09/2026-09-23-cero-suma-un-rol-operativo.md"
+  },
+  {
+   "id": "2026-09-24-agos-lanza-en-noviembre",
+   "fecha": "2026-09-24",
+   "tipo": "decision",
+   "depto": "founders",
+   "sobre": [
+    "agostina-marchesini"
+   ],
+   "quien": [
+    "facu",
+    "agostina-marchesini"
+   ],
+   "temas": [
+    "lanzamiento",
+    "oferta",
+    "capacidad"
+   ],
+   "fuente": "WhatsApp, grupo Agos x Cáscara Founders, 24/9",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "Agos lanza en noviembre con 2 lugares de prueba y relanza en febrero con 5",
+   "cuerpo": "Octubre lo tiene cargado de obra (termina tres), así que queda para contenido y para armar el\nlanzamiento. Facu: \"el objetivo sería tener 2 clientes, usarlos de prueba y relanzar en febrero ya\n5 lugares\". Para febrero va a necesitar a alguien que la ayude a llevar las consultorías, porque\nsigue con la arquitectura. Dos viajes pegan en el plan: Miami del 18 al 29/11 y Sudeste Asiático\ndel 26/01 al 01/03, trabajando recién desde el 17/02.",
+   "archivo": "registro/2026/09/2026-09-24-agos-lanza-en-noviembre.md"
+  },
+  {
+   "id": "2026-09-25-handoff-de-aye-se-discontinua",
+   "fecha": "2026-09-25",
+   "tipo": "proceso",
+   "depto": "founders",
+   "sobre": [
+    "torre-de-control"
+   ],
+   "quien": [
+    "facu",
+    "aye"
+   ],
+   "temas": [
+    "accionables",
+    "csm"
+   ],
+   "fuente": "Decisión de Facu, 25/9; prompt de \"el día y el pulso\"",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "Los accionables de Aye se trabajan dentro de la torre y el handoff aparte se deja de usar",
+   "cuerpo": "El handoff fue para el arranque de Aye. Desde el 25/9 los accionables viven en la torre, se leen\nde `contenido/entregas.json` y se tachan ahí con el prefijo `[hecho]`.",
+   "archivo": "registro/2026/09/2026-09-25-handoff-de-aye-se-discontinua.md"
+  },
+  {
+   "id": "2026-09-25-sol-manda-esquema-de-clientes",
+   "fecha": "2026-09-25",
+   "tipo": "hito",
+   "depto": "founders",
+   "sobre": [
+    "sol-boutmy"
+   ],
+   "quien": [
+    "sol-boutmy"
+   ],
+   "temas": [
+    "oferta",
+    "precio",
+    "clientes"
+   ],
+   "fuente": "PDF \"beMOTION · Esquema de clientes\", septiembre 2026, mandado a Facu el 25/9",
+   "certeza": "visto",
+   "estado": "vigente",
+   "titulo": "Sol manda el esquema de clientes de BeMotion: ocho clientes y USD 3.200 por mes en fees",
+   "cuerpo": "Seis clientes con fee mensual (entre 300 y 800) y dos por proyecto; el año proyecta cerca de USD\n41.500 sin los trabajos puntuales. Su propia lectura: \"Los de alcance claro rinden más\" (Canguro y\nAltos del Yí), Chipi y TECHO \"se fueron estirando\", tienen dos tarifas preferenciales (Portento paga\n300 por lo que cotizarían 1.000) y los proyectos quedan por debajo (Icon Closet USD 16 la hora,\nExpo Prado menos de 10). \"No medimos horas.\" Falta el documento de qué resuelve cada socia, los\ndatos de DLA y el promedio de proyectos puntuales. Es la base de la auditoría de oferta con Franco.",
+   "archivo": "registro/2026/09/2026-09-25-sol-manda-esquema-de-clientes.md"
+  },
+  {
+   "id": "2026-09-26-app-cerebro-y-cartas-con-teo",
+   "fecha": "2026-09-26",
+   "tipo": "decision",
+   "depto": "sistemas",
+   "sobre": [
+    "app-founders"
+   ],
+   "quien": [
+    "facu",
+    "teo"
+   ],
+   "temas": [
+    "app",
+    "n8n",
+    "cartas"
+   ],
+   "fuente": "Reunión Facu y Teo, 26/9 (Fathom 187004607); sistema/27-reunion-teo-2026-09-26.md",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "Founders pasa a una app propia en tres piezas: la app, el cerebro en n8n y las cartas",
+   "cuerpo": "La app (Lovable + Supabase) es donde el cliente ve su semana, sus cartas y sus sesiones. El\ncerebro en n8n junta Fathom, Slack y Notion y va a hacer lo que hoy hace el barrido de la mañana.\nLas cartas las sigue produciendo Facu en el repo y se sincronizan con la app. El detalle de tablas\ny flujos está en `sistema/30-mapa-del-cerebro.md`.",
+   "archivo": "registro/2026/09/2026-09-26-app-cerebro-y-cartas-con-teo.md"
+  },
+  {
+   "id": "2026-09-26-arranca-el-cerebro",
+   "fecha": "2026-09-26",
+   "tipo": "decision",
+   "depto": "cascara",
+   "sobre": [
+    "cerebro"
+   ],
+   "quien": [
+    "facu"
+   ],
+   "temas": [
+    "negocios-autonomos",
+    "documentacion",
+    "agentes"
+   ],
+   "fuente": "Conversación de Facu en Cowork, 26/9",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "Cáscara empieza a registrar todo lo que pasa, por departamento, para poder automatizarse",
+   "cuerpo": "Facu: \"mi visión es son los negocios autónomos\". Se arma el cerebro en el repo: un registro de\ndecisiones, criterio, aprendizajes, oferta y la evolución de cada alumno, más lo vigente de cada\ndepartamento y un índice para máquinas. Es la base para un agente o un copiloto por departamento y\npara la base de datos del cerebro en n8n. Lo mantiene el agente de la mañana todos los días.",
+   "archivo": "registro/2026/09/2026-09-26-arranca-el-cerebro.md"
+  },
+  {
+   "id": "2026-09-26-canales-cf-por-cliente",
+   "fecha": "2026-09-26",
+   "tipo": "proceso",
+   "depto": "founders",
+   "sobre": [
+    "slack"
+   ],
+   "quien": [
+    "facu"
+   ],
+   "temas": [
+    "slack",
+    "comunicacion"
+   ],
+   "fuente": "Conversación de Facu en Cowork, 26/9",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "Cada cliente de Founders tiene su canal privado de Slack, cf-<slug>",
+   "cuerpo": "Se crearon 13 canales el 26/9, con Teo, Azul y Aye adentro; Facu se suma a mano. Cada persona\narma en su Slack la sección \"Founders\" con esos canales.",
+   "archivo": "registro/2026/09/2026-09-26-canales-cf-por-cliente.md"
+  },
+  {
+   "id": "2026-09-26-editores-con-el-formulario-de-cascara",
+   "fecha": "2026-09-26",
+   "tipo": "decision",
+   "depto": "founders",
+   "sobre": [
+    "cero",
+    "contratar-primer-rol"
+   ],
+   "quien": [
+    "facu"
+   ],
+   "temas": [
+    "contratacion",
+    "editores",
+    "formularios"
+   ],
+   "fuente": "Conversación de Facu en Cowork, 26/9",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "Para contratar editores se usa el Editors Hiring Form de Cáscara, sin formularios nuevos",
+   "cuerpo": "Se probó armar para Cero un formulario combinado de editores y diseñadores y Facu lo frenó:\n\"dejemos solo el formulario que ya teníamos de editores así no me la complico\". El template\npúblico es https://flowery-beryllium-0df.notion.site/Editors-Hiring-Form-EHF-template-c63511e68cad8385b60081e03aefdb20\ny es el que va en la carta de Contratar el primer rol.",
+   "archivo": "registro/2026/09/2026-09-26-editores-con-el-formulario-de-cascara.md"
+  },
+  {
+   "id": "2026-09-26-el-inicio-de-la-torre-muestra-la-pelota",
+   "fecha": "2026-09-26",
+   "tipo": "pregunta",
+   "depto": "founders",
+   "sobre": [
+    "torre-de-control"
+   ],
+   "quien": [
+    "facu"
+   ],
+   "temas": [
+    "tablero",
+    "puntaje",
+    "seguimiento"
+   ],
+   "fuente": "Conversación de Facu en Cowork, 26/9",
+   "certeza": "propuesto",
+   "estado": "vigente",
+   "titulo": "¿El inicio de la torre muestra de quién es la pelota en vez del puntaje promedio?",
+   "cuerpo": "Facu preguntó si los números del tablero indican cosas importantes. El puntaje se mueve una vez por\nmes y en un tablero diario no dice qué hacer. La propuesta: cinco bloques (lo que le toca a Facu\ncon fecha, de quién es la pelota en cada cliente, los momentos donde entra plata, qué termina y qué\nse puede vender, y una sola alerta de sin noticias), con el puntaje adentro de cada cliente. Falta\nque Facu diga que sí.",
+   "archivo": "registro/2026/09/2026-09-26-el-inicio-de-la-torre-muestra-la-pelota.md"
+  },
+  {
+   "id": "2026-09-26-frenado-es-alerta-de-seguimiento",
+   "fecha": "2026-09-26",
+   "tipo": "criterio",
+   "depto": "founders",
+   "sobre": [
+    "torre-de-control"
+   ],
+   "quien": [
+    "facu"
+   ],
+   "temas": [
+    "seguimiento",
+    "puntaje"
+   ],
+   "fuente": "Conversación de Facu en Cowork, 26/9 (commit 11c0867)",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "\"Frenado\" deja de ser un juicio sobre el cliente y pasa a ser una alerta de que no hay noticias",
+   "cuerpo": "Facu: \"frenado no debería representar que el cliente no puede lograr ciertos resultados\". Lo que\nimporta es saber si hay novedades: una carta pendiente, una reunión organizada, contacto reciente.\nDesde ahí el ritmo se calcula solo: al día (contacto en 14 días y un próximo paso), sin próximo\npaso, sin noticias (más de 14 días) y en cierre para los que están en sign off. Salió de casos\nconcretos: Lucio y José David estaban marcados como frenados y estaban produciendo.",
+   "archivo": "registro/2026/09/2026-09-26-frenado-es-alerta-de-seguimiento.md"
+  }
+ ]
+}

@@ -23,6 +23,9 @@ if [ -x app-clientes/construir.sh ]; then
   ( cd app-clientes && ./construir.sh )
 fi
 
+echo "→ el cerebro"
+python3 generador/cerebro.py
+
 echo "→ revisando que nada se contradiga"
 python3 generador/revisar.py
 
@@ -34,7 +37,7 @@ rsync -a --delete --quiet \
   --exclude 'generador/' --exclude 'fichas/' --exclude 'contenido/' \
   --exclude 'sistema/' --exclude 'agente/' --exclude 'app-clientes/' \
   --exclude '_tmp/' --exclude '_locks_viejos/' --exclude 'site/' --exclude 'out/' \
-  --exclude 'arnold-backend/' \
+  --exclude 'arnold-backend/' --exclude 'cerebro/' \
   --exclude '__pycache__/' --exclude '.DS_Store' --exclude '*.py' --exclude '*.sh' \
   --exclude '*.md' --exclude 'LICENSE' \
   ./ dist/
