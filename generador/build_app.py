@@ -63,7 +63,8 @@ for r in panel:
     dd=DI.calcular(r['slug'],QP.get(r['slug'],[]))
     clientes.append({
       "slug":r['slug'],"nombre":r['cliente'],"proyecto":r['proyecto'],
-      "ori":r['orientacion'],"modo":r['modo'],"cuello":r['cuello'],
+      # "ori" es el pilar de la columna en el que está parado (las orientaciones se dejaron el 26/9)
+      "ori":SG.calcular(r['slug']).get('pilar') or {"Conseguir":"Oferta","Sostener":"Contenido","Entregar":"Entrega"}.get(r['orientacion'],r['orientacion']),"modo":r['modo'],"cuello":r['cuello'],
       "metrica":r['metrica'],"abierto":r['abierto'],"doc":r['doc'],
       "etapa":r.get('etapa',''),
       "ultima":r['ultima'],"titular":r['titular'],
@@ -86,11 +87,25 @@ for c in clientes:
         d=next((x for x in DUENOS if t.startswith(x)),"Equipo")
         tareas[d].append({"c":c['nombre'],"slug":c['slug'],"t":t})
 
+# la columna de cartas: cada pilar con su dueño y sus cartas en el orden sugerido
+_ORD=[x for x in inv.get('orden_sugerido',[]) if ' ' not in x]
+_NOM={m['id']:m['nombre'] for c in inv['categorias'] for m in c['modulos']}
+_NIV={m['id']:m.get('nivel') for c in inv['categorias'] for m in c['modulos']}
+_CAT={c['nombre']:[m['id'] for m in c['modulos']] for c in inv['categorias']}
+COLUMNA=[]
+for pl in prog['columna']['pilares']:
+    ids=[i for k in pl['cat'] for i in _CAT[k]]
+    # primero las troncales, después nivel 1, 2 y 3; adentro de cada nivel, el orden sugerido
+    _NV=['troncal','1','2','3']
+    ids.sort(key=lambda i:(_NV.index(_NIV[i]) if _NIV[i] in _NV else 9, _ORD.index(i) if i in _ORD else 999))
+    COLUMNA.append({"n":pl['n'],"d":pl['dueno'],"x":pl['que'],"c":[{"id":i,"t":_NOM[i],"nv":_NIV[i]} for i in ids]})
+
 DATA={"fecha":FECHA,"ejes":[n for _,n in EJES],
  "ejes_def":[{"n":x['nombre'],"q":x['que_mide']} for x in prog['handicap']['ejes']],
  "clientes":clientes,"tareas":[{"d":d,"items":v} for d,v in tareas.items() if v],
  "proceso":[{"n":x['n'],"c":x['cuando'],"t":x['titulo'],"x":x['texto']} for x in prog['proceso']],
- "orientaciones":[{"n":o['nombre'],"l":o['lider'],"x":o['texto'],"m":o['modulos']} for o in prog['orientaciones']],
+ "columna":{"t":prog['columna']['titulo'],"x":prog['columna']['texto'],"p":COLUMNA,
+   "nv":[{"k":k,"x":v} for k,v in inv.get('niveles',{}).items()]},
  "grupales":[{"n":g['nombre'],"q":g['quien'],"c":g['cuando'],"x":g['texto']} for g in prog['grupales']],
  "mentores":[{"n":m['nombre'],"r":m['rol'],"si":m['que_traerle'],"no":m['que_no']} for m in prog['mentores']],
  "bloques":[{"n":b['nombre'],"piezas":[{"t":p['titulo'],"q":p['que_es'],"e":p.get('estado',''),

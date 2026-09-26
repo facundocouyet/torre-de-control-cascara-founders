@@ -10,6 +10,8 @@ def esc(s): return _h.escape(str(s or ""))
 
 # --- escala 0-4 → 1-100, estilo Fórmula 1 -------------------------------
 EJES=[("oferta","Oferta"),("contenido","Contenido"),("demanda","Demanda"),("venta","Venta"),("entrega","Entrega")]
+# las orientaciones se dejaron el 26/9: en las radiografías ya escritas se leen como el pilar por el que entró
+ENTRA={"Conseguir":"Oferta y venta","Sostener":"Contenido y demanda","Entregar":"Entrega"}
 COMO_SUBE={
  "oferta":"Sube cuando la oferta queda escrita con precio y avatar, y salta cuando alguien la compra a ese precio.",
  "contenido":"Sube cuando hay cadencia con ángulos definidos, y salta cuando la audiencia valida uno.",
@@ -161,8 +163,8 @@ def build(d):
 {cita}
     </div>\n'''
     b += f'''    <div style="display:inline-flex;align-self:flex-start;margin-top:58px;border:1px solid {PAPER2};padding:16px 30px;gap:20px;align-items:baseline;">
-      <span style="font-size:18px;letter-spacing:.2em;text-transform:uppercase;color:#8C8C90;">Orientación</span>
-      <span style="font-size:34px;font-weight:800;letter-spacing:-.02em;color:{PAPER2};">{esc(d["orientacion"])}</span>
+      <span style="font-size:18px;letter-spacing:.2em;text-transform:uppercase;color:#8C8C90;">Entra por</span>
+      <span style="font-size:34px;font-weight:800;letter-spacing:-.02em;color:{PAPER2};">{esc(ENTRA.get(d["orientacion"], d["orientacion"]))}</span>
     </div>\n'''
     add("La lectura",b,True)
 

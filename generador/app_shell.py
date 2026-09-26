@@ -157,6 +157,29 @@ a{color:inherit;text-decoration:none}
 .crit .k{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--gris2)}
 .crit p{margin:12px 0 0;font-size:17.5px;line-height:1.56;max-width:74ch;color:var(--papel2)}
 
+/* ---------- el inicio: agenda y pelotas ---------- */
+.agenda{margin:0;padding:0;list-style:none}
+.agenda li{display:grid;grid-template-columns:150px minmax(0,1fr);gap:24px;padding:17px 0;
+  border-bottom:1px solid var(--tiza);align-items:baseline}
+.agenda li > button{text-align:left;min-width:0}
+.agenda li > button:hover .nm{color:var(--gris)}
+.agenda .cu{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gris2)}
+.agenda .cu b{display:block;font-size:21px;letter-spacing:-.035em;color:var(--tinta);font-weight:800;
+  font-variant-numeric:tabular-nums;text-transform:none;margin-bottom:3px}
+.agenda .cu b.alerta{color:var(--rojo)}
+.agenda .nm{display:block;font-size:20px;font-weight:700;letter-spacing:-.022em;line-height:1.2}
+.agenda .tx{display:block;font-size:16px;color:var(--gris);margin-top:5px;line-height:1.48;max-width:70ch}
+.agenda .up{display:block;margin-top:8px;color:var(--tinta);font-size:15px}
+.pelotas{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:1px;
+  background:var(--tiza);border:1px solid var(--tiza);margin-top:22px}
+.pelotas > div{background:var(--papel);padding:20px 20px 18px}
+.pelotas b.num{display:block;font-size:40px;line-height:.9}
+.pelotas .q{display:block;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris);margin-top:10px}
+.pelotas .ns{display:flex;flex-direction:column;gap:5px;margin-top:14px;padding-top:12px;border-top:1px solid var(--tiza)}
+.pelotas .ns button{font-size:14.5px;line-height:1.35;color:var(--gris)}
+.pelotas .ns button:hover{color:var(--tinta)}
+@media (max-width:720px){ .agenda li{grid-template-columns:1fr;gap:6px} .pelotas{grid-template-columns:1fr 1fr} }
+
 /* ---------- riel de navegación (escritorio) ---------- */
 .riel{position:fixed;left:0;top:0;bottom:0;width:var(--rail);background:#0A0A0C;
   color:#FBFAF8;display:flex;flex-direction:column;padding:26px 0 26px;z-index:30;
@@ -834,29 +857,113 @@ function fila(c,i){
    '<span class="fl"></span></button>';
 }
 
-/* ---------------- HOY ---------------- */
+/* ---------------- HOY ----------------
+   El inicio dice qué hacer, no cómo le va a cada uno: lo tuyo con fecha, de quién es la pelota,
+   dónde entra plata, qué termina y qué se vende, y una sola alerta de sin noticias.
+   El puntaje vive adentro de cada cliente (decisión del 26/9). */
+var DIAS_S=['dom','lun','mar','mié','jue','vie','sáb'];
+function fDia(iso){ if(!iso) return null; var p=iso.split('-'); return new Date(+p[0],+p[1]-1,+p[2]); }
+function hoy0(){ var d=new Date(); d.setHours(0,0,0,0); return d; }
+function enDias(iso){ var d=fDia(iso); return d?Math.round((d-hoy0())/864e5):null; }
+function fCorta(iso){ var d=fDia(iso); return d?DIAS_S[d.getDay()]+' '+d.getDate()+'/'+(d.getMonth()+1):''; }
+function cuando(iso,label){
+  if(label) return '<b>'+esc(label)+'</b>';
+  var n=enDias(iso); if(n===null) return '<b>—</b>sin fecha';
+  var t=n===0?'hoy':n===1?'mañana':n<0?('hace '+(-n)+' días'):('en '+n+' días');
+  return '<b>'+fCorta(iso)+'</b>'+t;
+}
+function cierreDe(slug){
+  var f=entregaDe(slug); if(!f) return null;
+  var m=/cierra (\d{1,2})\/(\d{1,2})/.exec(f.estado||''); if(!m) return {f:f,iso:null};
+  var y=new Date().getFullYear();
+  return {f:f,iso:y+'-'+('0'+m[2]).slice(-2)+'-'+('0'+m[1]).slice(-2)};
+}
+function filaAg(c,cu,tx){
+  return '<li><span class="cu">'+cu+'</span><button onclick="abrir(\''+c.slug+'\')">'+
+    '<span class="nm">'+esc(c.nombre)+'</span><span class="tx">'+tx+'</span></button></li>';
+}
+function irA(id){ var e=document.getElementById(id); if(e) e.scrollIntoView({behavior:'smooth',block:'start'}); }
 function vHome(){
-  var E=D.entregas, nEnt=E.filas.length;
+  var E=D.entregas;
   var nAcc=C.reduce(function(a,c){return a+(c.ct?c.ct.length:0)},0);
   var nCas=D.tareas.reduce(function(a,t){return a+t.items.length},0);
   var nCartas=D.modulos.reduce(function(a,m){return a+m.items.length},0);
-  var h='<div class="hoja">'+encab('Cáscara Founders · '+D.fecha,
-    'La torre de control',
-    'Tres lugares: en quién está parado cada cliente, qué hay que hacer esta semana, y todo el programa para repasarlo.',
+  var sg=function(c){return c.seg||{}};
+
+  // 1 · lo tuyo: los clientes donde la pelota la tiene Facu, los que tienen fecha primero
+  var tuyo=C.filter(function(c){return sg(c).pelota==='Facu'});
+  tuyo.sort(function(a,b){var x=sg(a).proximo||'9',y=sg(b).proximo||'9';return x<y?-1:x>y?1:0});
+  // 2 · la pelota, agrupada por quién tiene que mover
+  var QUIEN=['Facu','Franco','Teo','Aye','Fede','Juana','Segundo','cliente'], pel={};
+  C.forEach(function(c){var q=sg(c).pelota; if(q){(pel[q]=pel[q]||[]).push(c)}});
+  var quienes=QUIEN.filter(function(q){return pel[q]}).sort(function(a,b){
+    if(a==='cliente')return 1; if(b==='cliente')return -1; return pel[b].length-pel[a].length});
+  var cola=quienes.filter(function(q){return q!=='Facu'&&q!=='cliente'})[0];
+  // 3 · la plata: lanzamientos y ventanas de venta, desde la semana pasada en adelante
+  var plata=C.filter(function(c){var p=sg(c).plata;return p&&enDias(p.fecha)>=-7});
+  plata.sort(function(a,b){return sg(a).plata.fecha<sg(b).plata.fecha?-1:1});
+  // 4 · lo que termina: los que están en cierre, por fecha de cierre, y los que pasaron los 90
+  var term=C.filter(function(c){return c.modo==='cierre'}).map(function(c){return [c,cierreDe(c.slug)]});
+  term.sort(function(a,b){var x=(a[1]&&a[1].iso)||'9',y=(b[1]&&b[1].iso)||'9';return x<y?-1:x>y?1:0});
+  var semana=term.filter(function(t){var n=t[1]&&t[1].iso?enDias(t[1].iso):null;return n!==null&&n<=7});
+  // pasaron los 90 y no tienen una fecha de cierre nueva por delante (los que extendieron ya la tienen)
+  var pasados=C.filter(function(c){var k=cierreDe(c.slug);
+    return c.modo!=='cierre'&&c.dia&&c.dia>90&&!(k&&k.iso&&enDias(k.iso)>=0)});
+  // 5 · sin noticias
+  var rojos=C.filter(function(c){return sg(c).ritmo==='rojo'});
+
+  var h='<div class="hoja">'+encab('Cáscara Founders · '+D.fecha,'La torre de control',
+    'Qué hay que mover, quién lo tiene y dónde entra plata. El puntaje de cada cliente está adentro de su ficha.',
     'Torre de control<br>'+C.length+' clientes<br>'+D.fecha);
   h+='<div class="banda">'+
-    '<button onclick="ir(\'clientes\')"><b class="num">'+C.length+'</b><span>Clientes</span></button>'+
-    '<div><b class="num">'+prom+'</b><span>Puntaje promedio</span></div>'+
-    '<button onclick="ir(\'clientes\',\'vencido\')"><b class="num'+(vencidos.length?' alerta':'')+'">'+vencidos.length+'</b><span>Pasaron los 90 días</span></button>'+
-    '<button onclick="ir(\'clientes\',\'rojo\')"><b class="num'+(frenados.length?' alerta':'')+'">'+frenados.length+'</b><span>Sin noticias</span></button>'+
+    '<button onclick="irA(\'b-tuyo\')"><b class="num">'+tuyo.length+'</b><span>Te toca a vos</span></button>'+
+    (cola?'<button onclick="irA(\'b-pelota\')"><b class="num">'+pel[cola].length+'</b><span>Esperan a '+esc(cola)+'</span></button>':'<div><b class="num">0</b><span>Esperan al equipo</span></div>')+
+    '<button onclick="irA(\'b-termina\')"><b class="num">'+semana.length+'</b><span>Cierran esta semana</span></button>'+
+    '<button onclick="irA(\'b-rojo\')"><b class="num'+(rojos.length?' alerta':'')+'">'+rojos.length+'</b><span>Sin noticias</span></button>'+
   '</div>';
-  h+='<div class="cards">'+
-   tarjeta('01','Clientes','Uno por uno: en qué está parado, cuál es su cuello, qué mide y en qué día de los noventa va. Adentro de cada uno está su documento.',
-     [[C.length,'Clientes'],[cierre.length,'En cierre'],[frenados.length,'Sin noticias',frenados.length>0]],'Ver los clientes',"ir('clientes')")+
+
+  // 1
+  h+='<h2 class="bl" id="b-tuyo">01 · Lo tuyo <em>los clientes que esperan algo de vos</em></h2>';
+  h+=tuyo.length?'<ul class="agenda">'+tuyo.map(function(c){
+      return filaAg(c,cuando(sg(c).proximo),esc(sg(c).paso||'')) }).join('')+'</ul>'
+    :'<p class="accvacio">Hoy ningún cliente espera algo de vos.</p>';
+
+  // 2
+  h+='<h2 class="bl" id="b-pelota">02 · De quién es la pelota <em>quién tiene que mover en cada cliente</em></h2>';
+  h+='<div class="pelotas">'+quienes.map(function(q){
+    return '<div><b class="num">'+pel[q].length+'</b><span class="q">'+(q==='cliente'?'El cliente':esc(q))+'</span>'+
+      '<span class="ns">'+pel[q].map(function(c){
+        return '<button onclick="abrir(\''+c.slug+'\')" title="'+esc(sg(c).paso||'')+'">'+esc(c.nombre)+'</button>'}).join('')+
+      '</span></div>'}).join('')+'</div>';
+
+  // 3
+  h+='<h2 class="bl" id="b-plata">03 · Dónde entra plata <em>lanzamientos y ventanas de venta de los clientes</em></h2>';
+  h+=plata.length?'<ul class="agenda">'+plata.map(function(c){var p=sg(c).plata;
+      return filaAg(c,cuando(p.fecha,p.cuando),esc(p.que||'')) }).join('')+'</ul>'
+    :'<p class="accvacio">No hay lanzamientos cargados con fecha.</p>';
+
+  // 4
+  h+='<h2 class="bl" id="b-termina">04 · Qué termina y qué se vende <em>los cierres, por fecha, y quién tiene algo para seguir</em></h2>';
+  h+='<ul class="agenda">'+term.map(function(t){
+      var c=t[0], f=t[1]&&t[1].f, up=f&&f.upselling;
+      var tx=esc(sg(c).paso||'')+(up?'<span class="up">Para vender: '+esc(up===true?'upselling':up)+'</span>':'');
+      return filaAg(c,cuando(t[1]&&t[1].iso),tx) }).join('')+
+    pasados.map(function(c){return filaAg(c,'<b class="alerta">día '+c.dia+'</b>pasó los 90','Pasó los noventa días y no tiene fecha de cierre nueva: definir si extiende o cierra.')}).join('')+'</ul>';
+
+  // 5
+  h+='<h2 class="bl" id="b-rojo">05 · Sin noticias <em>más de '+14+' días sin saber nada</em></h2>';
+  h+=rojos.length?'<ul class="agenda">'+rojos.map(function(c){
+      return filaAg(c,'<b class="alerta">'+(sg(c).hace!=null?sg(c).hace+' días':'—')+'</b>sin noticias',esc(sg(c).que||'Sin contacto registrado.')) }).join('')+'</ul>'
+    :'<p class="accvacio">Nadie sin noticias: todos tuvieron contacto en los últimos 14 días.</p>';
+
+  h+='<h2 class="bl">Para entrar <em>los clientes, los accionables y la biblioteca</em></h2>';
+  h+='<div class="cards" style="margin-top:22px">'+
+   tarjeta('01','Clientes','Uno por uno: en qué pilar está parado, cuál es su cuello, qué mide, su puntaje y en qué día de los noventa va. Adentro de cada uno está su documento.',
+     [[C.length,'Clientes'],[term.length,'En cierre'],[rojos.length,'Sin noticias',rojos.length>0]],'Ver los clientes',"ir('clientes')")+
    tarjeta('02','Accionables','Lo que hay que hacer esta semana: qué documento sale para cada cliente, qué le toca ejecutar a cada founder y qué queda de nuestro lado.',
-     [[nEnt,'Del CSM'],[nAcc,'Del founder'],[nCas,'De Cáscara']],'Ver los accionables',"ir('accionables')")+
-   tarjeta('03','Biblioteca','El programa entero explicado —el recorrido, las orientaciones, las grupales y los mentores— y el mapa de cartas: cada una es un solo documento, con los pasos y la hoja para completarlos adentro.',
-     [[D.proceso.length,'Etapas'],[D.orientaciones.length,'Orientaciones'],[nCartas,'Cartas']],'Abrir la biblioteca',"ir('biblioteca')")+
+     [[E.filas.length,'Del CSM'],[nAcc,'Del founder'],[nCas,'De Cáscara']],'Ver los accionables',"ir('accionables')")+
+   tarjeta('03','Biblioteca','El programa entero explicado —el recorrido, la columna de cartas, las grupales y los mentores— y el mapa de cartas: cada una es un solo documento, con los pasos y la hoja para completarlos adentro.',
+     [[D.proceso.length,'Etapas'],[D.columna.p.length,'Pilares'],[nCartas,'Cartas']],'Abrir la biblioteca',"ir('biblioteca')")+
   '</div></div>';
   $('#v-home').innerHTML=h;
 }
@@ -878,8 +985,9 @@ function verDueno(d){
 }
 
 /* ---------------- CLIENTES ---------------- */
-var F=[['todos','Todos'],['Conseguir','Conseguir'],['Sostener','Sostener'],['Entregar','Entregar'],
-       ['cierre','En cierre'],['vencido','Pasaron 90'],['rojo','Sin noticias']];
+var PIL=['Oferta','Contenido','Venta','Demanda','Entrega'];
+var F=[['todos','Todos']].concat(PIL.map(function(p){return [p,p]})).concat([
+       ['cierre','En cierre'],['vencido','Pasaron 90'],['rojo','Sin noticias']]);
 function vClientes(){
   var h='<div class="hoja">'+migas(['Clientes'])+encab('Clientes','Los '+C.length+' clientes','',
     C.length+' clientes<br>día promedio: '+promDias);
@@ -907,7 +1015,7 @@ function pinta(){
     if(filtro==='cierre'&&c.modo!=='cierre')return false;
     if(filtro==='rojo'&&(!c.h||c.h.ri!=='rojo'))return false;
     if(filtro==='vencido'&&!(c.dia&&c.dia>90))return false;
-    if(filtro&&['Conseguir','Sostener','Entregar'].indexOf(filtro)>-1&&c.ori!==filtro)return false;
+    if(filtro&&PIL.indexOf(filtro)>-1&&c.ori!==filtro)return false;
     if(t&&(c.nombre+' '+c.proyecto).toLowerCase().indexOf(t)<0)return false;
     return true;});
   ordenar(l);
@@ -1026,10 +1134,15 @@ function vPrograma(){
     'Cáscara diseña<br>el founder ejecuta');
   h+='<h2 class="bl">El recorrido <em>'+D.proceso.length+' etapas, en el orden real</em></h2><div>';
   D.proceso.forEach(function(p){h+=ac(p.n,p.c,p.t,null,'<p>'+esc(p.x)+'</p>')});
-  h+='</div><h2 class="bl">Las orientaciones <em>terminado el mes uno se elige una sola</em></h2><div>';
-  D.orientaciones.forEach(function(o){
-    var n=C.filter(function(c){return c.ori===o.n}).length;
-    h+=ac('','lo lidera '+o.l,o.n,n,'<p>'+esc(o.x)+'</p><ul>'+o.m.map(function(m){return '<li>'+esc(m)+'</li>'}).join('')+'</ul>');});
+  h+='</div><h2 class="bl">'+esc(D.columna.t)+' <em>la misma para todos; cambia por dónde se entra</em></h2>'+
+     '<p class="porque">'+esc(D.columna.x)+'</p><div>';
+  D.columna.p.forEach(function(p,i){
+    var n=C.filter(function(c){return c.ori===p.n}).length;
+    h+=ac(('0'+(i+1)).slice(-2),'dueño: '+p.d,p.n,n,'<p>'+esc(p.x)+'</p>'+
+      (p.c.length?'<ol>'+p.c.map(function(k){var tr=k.nv==='troncal';
+        return '<li>'+(tr?'<b>'+esc(k.t)+'</b>':esc(k.t))+' <span class="est" style="margin-left:6px">'+(tr?'troncal':'nivel '+esc(k.nv))+'</span></li>'}).join('')+'</ol>':''));});
+  h+='</div><div class="regla" style="margin-top:22px">'+D.columna.nv.map(function(n){
+    return '<div><span class="k">'+(n.k==='troncal'?'TRONCAL':'NIVEL '+esc(n.k))+'</span>'+esc(n.x)+'</div>'}).join('')+'</div><div>';
   h+='</div><h2 class="bl">El puntaje <em>cinco habilidades del 1 al 100; el general es el promedio</em></h2><div>';
   D.ejes_def.forEach(function(x,i){
     var p=Math.round(con.reduce(function(a,c){return a+c.h.e1[i]},0)/con.length);
@@ -1772,7 +1885,7 @@ function respFicha(c){
   var f=entregaDe(c.slug);
   var h='<div class="dato"><span class="k">El cuello</span><span>'+esc(c.cuello||'—')+'</span></div>'+
     '<div class="dato"><span class="k">La métrica</span><span>'+esc(c.metrica||'—')+'</span></div>'+
-    '<div class="dato"><span class="k">Orientación</span><span>'+esc(c.ori)+
+    '<div class="dato"><span class="k">Pilar</span><span>'+esc(c.ori)+
       (c.rep&&c.rep.length?' · lo toma '+esc(c.rep.map(function(r){return r[0]}).join(', ')):'')+'</span></div>'+
     '<div class="dato"><span class="k">Dónde está</span><span>'+
       (c.h?esc(c.h.tr)+' · puntaje '+c.h.t+'/100':(c.modo==='cierre'?'Informe de cierre':'Sin puntaje'))+

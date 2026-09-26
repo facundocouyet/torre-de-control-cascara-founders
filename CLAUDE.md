@@ -74,6 +74,20 @@ python3 generador/build_ally.py        # el handoff del equipo                  
 El puntaje se renderiza **solo cuando `modo` es "radiografia"**. En los informes de cierre no va,
 porque esos son los que se le mandan al cliente.
 
+Las orientaciones (Conseguir, Sostener, Entregar) se dejaron el 26/9: todos recorren la misma
+columna de cartas (`columna` en `contenido/programa.json`, con los niveles troncal, 1, 2 y 3 del
+inventario). En las fichas ya escritas, `orientacion` se lee como el pilar por el que entró el cliente.
+
+## El seguimiento y el inicio de la torre
+
+`contenido/seguimiento.json` tiene una línea por cliente. Además del ritmo (`ultimo`, `que`,
+`proximo`, `paso`, `carta`), lleva tres datos con los que se arma el inicio: `pilar` (Oferta,
+Contenido, Demanda, Venta, Entrega o Cierre), `pelota` (Facu, Franco, Teo, Aye, Fede, Juana o
+cliente) y, si lanza, `plata` con `fecha` AAAA-MM-DD y `que`. `revisar.py` corta el build si a un
+cliente le falta el pilar o la pelota. El inicio muestra cinco bloques: lo tuyo con fecha, de quién
+es la pelota, dónde entra plata, qué termina y qué se vende, y sin noticias. El puntaje vive adentro
+de cada cliente.
+
 ## Reglas de redacción
 
 Están completas en `sistema/brief-redaccion-v2.md`. Español rioplatense, directo, adulto, nada

@@ -40,7 +40,9 @@ def calcular(slug):
     else: r = 'amarillo'
     return {"ritmo": r, "texto": TEXTO[r], "explica": EXPLICA[r],
             "ultimo": s.get('ultimo'), "que": s.get('que'), "hace": (HOY - u).days if u else None,
-            "proximo": s.get('proximo'), "paso": s.get('paso'), "carta": s.get('carta')}
+            "proximo": s.get('proximo'), "paso": s.get('paso'), "carta": s.get('carta'),
+            # la columna: en qué pilar está, quién tiene la pelota y cuándo entra plata
+            "pilar": s.get('pilar'), "pelota": s.get('pelota'), "plata": s.get('plata')}
 
 if __name__ == '__main__':
     import glob

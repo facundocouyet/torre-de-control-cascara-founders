@@ -700,7 +700,7 @@
             "Calendly para agendar"
           ],
           "estado": "existe",
-          "evidencia": "El recontacto sobre la base historica ya funcionó en Custom Lab y es su motor de ventas de corto plazo. Nico tiene que recontactar cinco personas por día y hacer veinte contactos nuevos por semana. José David junta y ordena la base de leads viejos. Lucca tiene que contactar veinte dueños por semana con un caso adelante. Matías arma la base para el lanzamiento. El checklist de Conseguir pide cincuenta prospectos y veinte conversaciones abiertas."
+          "evidencia": "El recontacto sobre la base historica ya funcionó en Custom Lab y es su motor de ventas de corto plazo. Nico tiene que recontactar cinco personas por día y hacer veinte contactos nuevos por semana. José David junta y ordena la base de leads viejos. Lucca tiene que contactar veinte dueños por semana con un caso adelante. Matías arma la base para el lanzamiento. El pilar de venta pide cincuenta prospectos y veinte conversaciones abiertas."
         },
         {
           "id": "llamada-de-venta",
@@ -912,7 +912,7 @@
             "Google Sheets para las horas por etapa"
           ],
           "estado": "existe",
-          "evidencia": "Sale del mismo módulo de Teo, con los pasos incompletos. Matías tiene que escribir el proceso de entrega de 9669 sobre ese módulo. Sol Boutmy arranca el tramo por estructura porque las dos socias siguen adentro de la ejecución. Sofía tiene el sistema de 90 días revisado y el servicio la tiene adentro de cada cuenta. Sharon tiene el modelo de entrega con tarjetas que ya corre en automatico. El checklist de Entregar pide mapa de servicio con horas reales y proceso documentado."
+          "evidencia": "Sale del mismo módulo de Teo, con los pasos incompletos. Matías tiene que escribir el proceso de entrega de 9669 sobre ese módulo. Sol Boutmy arranca el tramo por estructura porque las dos socias siguen adentro de la ejecución. Sofía tiene el sistema de 90 días revisado y el servicio la tiene adentro de cada cuenta. Sharon tiene el modelo de entrega con tarjetas que ya corre en automatico. El pilar de entrega pide mapa de servicio con horas reales y proceso documentado."
         },
         {
           "id": "alcance-por-escrito",
@@ -1069,7 +1069,7 @@
             "Notion (scope del rol)"
           ],
           "estado": "existe",
-          "evidencia": "El método completo se le bajó a Sol Boutmy: historias con llamado a un formulario, entrevista, prueba paga y recién ahí responsabilidad, con el tarifario y el formulario de referencia entregados. Agostina cierra a Ibi con el criterio de contratar con el estado real del negocio. Sofía contrató un editor y tiene que terminar de delegarle un cliente con brief. Antonio nunca consiguió la persona que sostenía la estrategia. El checklist de Sostener y el de Entregar piden la primera contratación."
+          "evidencia": "El método completo se le bajó a Sol Boutmy: historias con llamado a un formulario, entrevista, prueba paga y recién ahí responsabilidad, con el tarifario y el formulario de referencia entregados. Agostina cierra a Ibi con el criterio de contratar con el estado real del negocio. Sofía contrató un editor y tiene que terminar de delegarle un cliente con brief. Antonio nunca consiguió la persona que sostenía la estrategia. Los pilares de contenido y de entrega piden la primera contratación."
         },
         {
           "id": "delegar-produccion",
@@ -1464,7 +1464,7 @@
     "direccion-visual",
     "narrativa-de-video",
     "setter-closer",
-    "El criterio del orden: primero el diagnóstico y el foco, porque sin punto A escrito cada llamada arranca discutiendo qué hacer; después oferta, porque es el eje más bajo de los clientes y todo lo de abajo se apoya en la oferta escrita; después perfil, ángulos y calendario, que es la infraestructura de contenido que permite medir; recién ahí volumen y precio sobre la mesa, que es donde aparece la primera evidencia real; después lo comercial, que convierte esa evidencia en plata; después lanzamiento y comunidad, que necesitan audiencia calentada de antes; y al final entrega, operaciones y datos, que se asignan cuando ya hay clientes adentro que los justifiquen. El mentor mueve el orden según el eje más bajo del handicap: a Conseguir se le adelanta todo el bloque comercial, a Sostener el bloque de contenido, y a Entregar se le arranca por entrega y operaciones antes de tocar la oferta."
+    "El criterio del orden: primero el diagnóstico y el foco, porque sin punto A escrito cada llamada arranca discutiendo qué hacer; después oferta, porque es el eje más bajo de los clientes y todo lo de abajo se apoya en la oferta escrita; después perfil, ángulos y calendario, que es la infraestructura de contenido que permite medir; recién ahí volumen y precio sobre la mesa, que es donde aparece la primera evidencia real; después lo comercial, que convierte esa evidencia en plata; después lanzamiento y comunidad, que necesitan audiencia calentada de antes; y al final entrega, operaciones y datos, que se asignan cuando ya hay clientes adentro que los justifiquen. La columna es la misma para todos; lo que cambia es por dónde se entra. El eje más bajo del puntaje adelanta su bloque, y el que llega con la entrega colapsada arranca por entrega y operaciones antes de tocar la oferta."
   ],
   "notas": [
     "Los módulos están escritos: cada uno tiene su carta con los pasos, qué completar y qué herramientas, y su plantilla con las consignas y un ejemplo real de los clientes en cada bloque. Lo que antes se bajaba caso por caso en una llamada ahora se asigna y queda igual para todos.",

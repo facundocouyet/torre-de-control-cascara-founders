@@ -8,7 +8,7 @@ quien: [facu]
 temas: [tablero, puntaje, seguimiento]
 fuente: Conversación de Facu en Cowork, 26/9
 certeza: propuesto
-estado: vigente
+estado: reemplazada
 ---
 # ¿El inicio de la torre muestra de quién es la pelota en vez del puntaje promedio?
 

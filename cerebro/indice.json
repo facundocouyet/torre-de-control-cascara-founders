@@ -20,7 +20,7 @@
   "metrica",
   "pregunta"
  ],
- "total": 17,
+ "total": 19,
  "entradas": [
   {
    "id": "2026-09-23-cero-suma-un-rol-operativo",
@@ -285,6 +285,31 @@
    "archivo": "registro/2026/09/2026-09-26-el-cerebro-se-sube-antes-del-privado.md"
   },
   {
+   "id": "2026-09-26-el-inicio-de-la-torre-arranca-por-la-pelota",
+   "fecha": "2026-09-26",
+   "tipo": "decision",
+   "depto": "founders",
+   "sobre": [
+    "torre-de-control"
+   ],
+   "quien": [
+    "facu"
+   ],
+   "temas": [
+    "tablero",
+    "puntaje",
+    "seguimiento",
+    "pelota"
+   ],
+   "fuente": "Conversación de Facu en Cowork, 26/9 (\"si perfect todo\")",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "reemplaza": "2026-09-26-el-inicio-de-la-torre-muestra-la-pelota",
+   "titulo": "El inicio de la torre muestra qué hacer, y el puntaje queda adentro de cada cliente",
+   "cuerpo": "Facu dijo que sí a los cinco bloques del inicio: lo que le toca a él con fecha, de quién es la\npelota en cada cliente, dónde entra plata, qué termina y qué se puede vender, y una sola alerta de\nsin noticias. Salen de la banda el puntaje promedio y la cantidad de clientes. Para sostenerlo, el\nseguimiento de cada cliente suma tres datos que el pulso actualiza cada mañana: en qué pilar está\nparado, quién tiene la pelota y, si lanza, la fecha del momento de plata.",
+   "archivo": "registro/2026/09/2026-09-26-el-inicio-de-la-torre-arranca-por-la-pelota.md"
+  },
+  {
    "id": "2026-09-26-el-inicio-de-la-torre-muestra-la-pelota",
    "fecha": "2026-09-26",
    "tipo": "pregunta",
@@ -302,7 +327,7 @@
    ],
    "fuente": "Conversación de Facu en Cowork, 26/9",
    "certeza": "propuesto",
-   "estado": "vigente",
+   "estado": "reemplazada",
    "titulo": "¿El inicio de la torre muestra de quién es la pelota en vez del puntaje promedio?",
    "cuerpo": "Facu preguntó si los números del tablero indican cosas importantes. El puntaje se mueve una vez por\nmes y en un tablero diario no dice qué hacer. La propuesta: cinco bloques (lo que le toca a Facu\ncon fecha, de quién es la pelota en cada cliente, los momentos donde entra plata, qué termina y qué\nse puede vender, y una sola alerta de sin noticias), con el puntaje adentro de cada cliente. Falta\nque Facu diga que sí.",
    "archivo": "registro/2026/09/2026-09-26-el-inicio-de-la-torre-muestra-la-pelota.md"
@@ -375,6 +400,32 @@
    "titulo": "La base de la app queda lista y las cartas entran solo por el sync de GitHub",
    "cuerpo": "Teo sumó lo que pedía el mapa del cerebro: `cartas` con `cliente_slug`, `variante_de` y `url` (cada\ncliente ve las genéricas y las suyas), los estados de revisión en `asignaciones` (el cliente solo\nla manda a revisión, el resto lo cambia el equipo) y `sesiones` con estado y la vista\n`proxima_sesion`. Sacó su carga de cartas desde la base: la única vía es `sync_cartas.py`. El\nacceso de clientes sale lunes o martes.",
    "archivo": "registro/2026/09/2026-09-26-la-base-de-la-app-queda-lista.md"
+  },
+  {
+   "id": "2026-09-26-las-orientaciones-dejan-lugar-a-la-columna-de-cartas",
+   "fecha": "2026-09-26",
+   "tipo": "decision",
+   "depto": "founders",
+   "sobre": [
+    "programa-founders",
+    "torre-de-control"
+   ],
+   "quien": [
+    "facu"
+   ],
+   "temas": [
+    "orientaciones",
+    "cartas",
+    "pilares",
+    "niveles",
+    "roadmap"
+   ],
+   "fuente": "Conversación de Facu en Cowork, 26/9",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "Las orientaciones Conseguir, Sostener y Entregar dejan lugar a una columna de cartas común",
+   "cuerpo": "Facu: \"hoy hay una columna vertebral de cartas que es muy similar para todos. Todos van a pasar por\nel proceso de revisar todos los pilares troncales de un negocio digital\". Los pilares son los cinco\nejes del puntaje: oferta, contenido, demanda, venta y entrega. La columna se arma con los niveles de las cartas: las\ntroncales las recibe todo cliente, las de nivel 1 casi todos, las de nivel 2 se asignan según el\ncuello y las de nivel 3 son puntuales. Lo que cambia entre clientes es por\ndónde entran a la columna, a qué ritmo van y qué cartas de nivel 2 y 3 se suman, y eso se dice con dos datos: en qué pilar está parado\ny cuál es su cuello hoy. El liderazgo que daba la orientación pasa a cada pilar: la oferta y la\nventa son de Franco, el contenido y la demanda de Fede y Juana, la entrega y la estructura de Facu,\ny el cierre de Teo. En las radiografías ya escritas, la orientación se lee como el pilar por el\nque entró el cliente.",
+   "archivo": "registro/2026/09/2026-09-26-las-orientaciones-dejan-lugar-a-la-columna-de-cartas.md"
   },
   {
    "id": "2026-09-26-lola-cierra-sus-primeras-3-ventas",

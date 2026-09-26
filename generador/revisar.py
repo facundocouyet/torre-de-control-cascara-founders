@@ -209,8 +209,17 @@ def revisar_seguimiento():
     """Cada cliente en curso tiene que tener su seguimiento cargado; el resto son alertas."""
     sys.path.insert(0, R('generador'))
     import seguimiento as SG
+    PILARES = {'Oferta', 'Contenido', 'Demanda', 'Venta', 'Entrega', 'Cierre'}
+    QUIEN = {'Facu', 'Franco', 'Teo', 'Aye', 'Fede', 'Juana', 'Segundo', 'cliente'}
     for f in cargar('contenido/entregas.json')['filas']:
         c = SG.calcular(f['slug'])
+        # el inicio de la torre se arma con el pilar y la pelota de cada cliente
+        if c['pilar'] not in PILARES:
+            mal('%s: falta el pilar en el seguimiento (o no es uno de %s)' % (f['nombre'], ', '.join(sorted(PILARES))))
+        if c['pelota'] not in QUIEN:
+            mal('%s: falta quién tiene la pelota en el seguimiento' % f['nombre'])
+        if c['plata'] and not re.match(r'^\d{4}-\d{2}-\d{2}$', c['plata'].get('fecha', '')):
+            mal('%s: el momento de plata necesita fecha AAAA-MM-DD' % f['nombre'])
         if c['ritmo'] == 'cierre': continue
         if f['slug'] not in SG.SEG:
             mal('%s está en curso y no tiene seguimiento cargado en contenido/seguimiento.json' % f['nombre']); continue

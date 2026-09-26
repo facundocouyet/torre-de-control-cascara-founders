@@ -39,7 +39,7 @@ partes.append(S("00","Para qué es este documento",
     "qué decide otro, con qué ritmo corre tu semana y qué parte de todo eso puede sostener un agente en vez de "
     "tu memoria.") +
   P("Está escrito para leerse una vez y después consultarse. El resto del proceso —las diez llamadas, las "
-    "orientaciones, el puntaje, las grupales— vive en el documento de proceso; acá está solamente tu lugar adentro "
+    "la columna de cartas, el puntaje, las grupales— vive en el documento de proceso; acá está solamente tu lugar adentro "
     "de ese proceso.","sub")))
 
 partes.append(S("01","Qué decidís vos",
@@ -53,7 +53,7 @@ partes.append(S("01","Qué decidís vos",
     "con Franco, que es el growth partner.",
     "<b>El criterio de admisión.</b> Las llamadas de venta las toma el departamento comercial; lo que vos fijás es "
     "el criterio con el que filtran, porque el founder al que no le va a salir se evita ahí y no adentro.",
-    "<b>La orientación de cada founder</b> en la semana 3, y el cambio de orientación si el caso lo pide.",
+    "<b>Por qué pilar de la columna entra cada founder</b> en la semana 3, y el cambio de orden si el caso lo pide.",
     "<b>Qué módulos se desbloquean y cuándo.</b> Nadie avanza de bloque sin que vos lo apruebes en una llamada.",
     "<b>Cómo cierra cada founder:</b> sign off, renovación con módulo, o growth partner.",
     "<b>Los conflictos.</b> Todo lo que se traba entre un founder y el equipo termina en vos.",
@@ -99,7 +99,7 @@ partes.append(S("03","Las llamadas que son tuyas",
   TABLA(["Cuándo","Qué se resuelve","Con qué llega el founder"],[
    ["Semana 1","<b>Clarity Call.</b> Diagnóstico y cuello de botella. Sale la conclusión que va a Franco.",
     "Founder Insights y los formularios completos. Sin eso no hay llamada: el día 5 escala Teo, el día 7 se corre."],
-   ["Semana 3","<b>Selección de foco.</b> Una sola orientación, con el puntaje adelante.",
+   ["Semana 3","<b>Por dónde entra.</b> El pilar de la columna por el que arranca, con el puntaje adelante.",
     "El one-pager de oferta y el ICP que salieron de la llamada con Franco."],
    ["Día 30","<b>Primera radiografía y roadmap.</b> Qué salió, qué no, y el plan del mes que viene.",
     "Las cartas del primer bloque completadas."],
@@ -125,8 +125,8 @@ partes.append(S("04","La torre de control",
      "únicamente lo que esa llamada cambió, recalcula el puntaje y vuelve a publicar la página y los documentos. "
      "También escribe el Update en la ficha de Cuentas en Notion."),
     ("Lo que depende de vos",
-     "El puntaje lo calcula el sistema, pero los cortes y los anclajes los fijás vos. La orientación se propone "
-     "desde el eje más bajo y la confirmás vos. El desbloqueo de módulos se marca en la llamada. Y lo que la llamada "
+     "El puntaje lo calcula el sistema, pero los cortes y los anclajes los fijás vos. El pilar de entrada se propone "
+     "desde el eje más bajo y lo confirmás vos. El desbloqueo de módulos se marca en la llamada. Y lo que la llamada "
      "no dijo queda escrito como falta confirmar, en vez de completarse."),
     ("La fecha de inicio",
      "El reloj de los noventa días arranca el día que se completa el onboarding, o sea cuando Teo hace esa llamada. "
@@ -138,7 +138,7 @@ partes.append(S("05","Dónde trabaja cada uno",
   P("Cuatro superficies, y cada una tiene un dueño. Cuando algo vive en dos lugares, se desincroniza.") +
   TABLA(["Superficie","Para qué","Quién la mantiene"],[
    ["<b>Cuentas</b>, en Notion","La ficha de cada cliente: paso, fechas, Updates. Es la fuente de verdad del padrón.","Teo carga el alta y las fechas. El barrido escribe los Updates."],
-   ["<b>La torre de control</b>","El estado de cada founder y los documentos. Es lo que mirás vos y lee el equipo.","El barrido diario. Vos confirmás orientación y desbloqueos."],
+   ["<b>La torre de control</b>","El estado de cada founder y los documentos. Es lo que mirás vos y lee el equipo.","El barrido diario. Vos confirmás por dónde entra cada uno y los desbloqueos."],
    ["<b>El OS del cliente</b>, en Notion","Lo que el founder abre: roadmap, formularios, materiales, cartas asignadas.","Aye, sobre el roadmap del servicio."],
    ["<b>El seguimiento de satisfacción</b>","Cómo va cada founder más allá del avance: testimonios, formularios de servicio y señales de que algo se está enfriando.","Aye lo arma y lo sostiene. Teo le da el soporte operativo."],
    ["<b>El grupo de WhatsApp</b>","El canal con el founder. También es insumo: es la fuente que más cambió un diagnóstico.","Teo y Aye. Se avisa al founder que queda registrado."],
@@ -188,7 +188,7 @@ partes.append(S("08","Procesos de la oferta de Founders",
    ["<b>Asignación de cartas</b>","Cada 1:1 de Facu","El bloque siguiente desbloqueado y las cartas cargadas en el OS del cliente.","Facu asigna, Aye carga"],
    ["<b>Seguimiento de cartas</b>","La asignación","Cuáles se completaron y cuáles no. Es la medida real de avance del programa.","Aye"],
    ["<b>Barrido de llamadas</b>","Cada llamada grabada","El hito en la ficha, los accionables al día, el Update en Cuentas y la torre republicada.","El agente"],
-   ["<b>Radiografía del día 30</b>","El día 30 de cada founder","El documento con el roadmap del mes siguiente y la orientación confirmada.","Facu escribe"],
+   ["<b>Radiografía del día 30</b>","El día 30 de cada founder","El documento con el roadmap del mes siguiente sobre la columna de cartas.","Facu escribe"],
    ["<b>Cierre del día 90</b>","El día 90","Informe de cierre, paquete de entregables, recomendación y la fecha hasta la que quedan las grupales.","Facu escribe, Teo presenta"],
    ["<b>Handoff al equipo</b>","Un lote de documentos listo","La página con cada cliente, su accionable y su documento descargable.","Facu arma, Aye ejecuta"],
    ["<b>Seguimiento de satisfacción</b>","El arranque del programa","Cómo va cada founder más allá del avance: formulario de servicio, señales tempranas y el estado de la relación.","Aye, con soporte operativo de Teo"],
