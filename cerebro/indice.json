@@ -20,7 +20,7 @@
   "metrica",
   "pregunta"
  ],
- "total": 12,
+ "total": 13,
  "entradas": [
   {
    "id": "2026-09-23-cero-suma-un-rol-operativo",
@@ -184,6 +184,31 @@
    "titulo": "Cada cliente de Founders tiene su canal privado de Slack, cf-<slug>",
    "cuerpo": "Se crearon 13 canales el 26/9, con Teo, Azul y Aye adentro; Facu se suma a mano. Cada persona\narma en su Slack la sección \"Founders\" con esos canales.",
    "archivo": "registro/2026/09/2026-09-26-canales-cf-por-cliente.md"
+  },
+  {
+   "id": "2026-09-26-carta-color-desde-log",
+   "fecha": "2026-09-26",
+   "tipo": "oferta",
+   "depto": "founders",
+   "sobre": [
+    "aaron-aiello",
+    "color-desde-log"
+   ],
+   "quien": [
+    "facu",
+    "aaron-aiello"
+   ],
+   "temas": [
+    "cartas",
+    "video",
+    "color"
+   ],
+   "fuente": "Pedido de Aaron a Facu, 26/9; SOP Originals de Cáscara en Notion",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "Se suma la carta \"Color después del LOG\", sacada del SOP de Originals de Cáscara",
+   "cuerpo": "Aaron pidió cómo corregir el color de lo que graba en LOG. La carta baja la parte de color del SOP\nde los editores a algo que un founder hace solo: tres Lumetri separados (luces, conversión al 60%,\nlook TC - ERA al 30%), las pieles y el grano de 35mm en Luz fuerte. Los LUTs y el grano viven en\nuna página de Notion de Cáscara Founders, \"Color después del LOG · LUTs y grano\", y la carta la\nlinkea. Entra al catálogo como nivel 3, en Identidad, narrativa y dirección creativa.",
+   "archivo": "registro/2026/09/2026-09-26-carta-color-desde-log.md"
   },
   {
    "id": "2026-09-26-editores-con-el-formulario-de-cascara",

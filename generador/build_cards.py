@@ -27,7 +27,7 @@ DUENOS=[
  ("juana","Juana","Identidad y dirección creativa",
   "Quién es la marca y cómo se ve. Son pocas y son las que más se notan cuando están mal hechas, "
   "porque todo lo demás se apoya arriba.",
-  ["pasaporte-digital","identidad-y-arco-narrativo","direccion-visual","narrativa-de-video"]),
+  ["pasaporte-digital","identidad-y-arco-narrativo","direccion-visual","narrativa-de-video","color-desde-log"]),
  ("teo","Teo","Sistemas, herramientas y automatización",
   "Con qué se arma cada cosa y dónde vive el dato. Vos no decidís qué servicio da el founder: decidís "
   "cómo queda instrumentado para que se repita sin que él esté encima.",

@@ -1,0 +1,83 @@
+{
+  "modulo": "color-desde-log",
+  "titulo": "La hoja del color después del LOG",
+  "bajada": "El método con el que Cáscara revela lo que graba en LOG, en tres pasos y con el grano encima, más los archivos para descargar. Corregís un clip, anotás qué tocaste y mandás el antes y el después.",
+  "lista_cuando": "Tenés un clip corregido que se ve natural, con la piel limpia, y el antes y el después mandado para revisar.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Por qué el LOG sale lavado",
+      "texto": [
+        "El LOG graba la imagen gris y sin contraste a propósito: así guarda más información en las luces y en las sombras. No está pensada para mirarse así. Hay que revelarla, y el revelado se hace siempre en el mismo orden.",
+        "El error más común es tirarle un LUT al 100% y listo. La imagen queda quemada, con contraste de más y las caras de otro color. Lo que sigue evita eso."
+      ],
+      "cid": 0
+    },
+    {
+      "nuestro": true,
+      "titulo": "Los archivos",
+      "texto": [
+        "Todo lo que vas a usar está en esta página, listo para bajar: <a href=\"https://app.notion.com/p/3e7511e68cad8140b227e34b41229d7e\" target=\"_blank\" rel=\"noopener\"><b>Color después del LOG · LUTs y grano</b></a>.",
+        "<b>SlogtoRec.709.cube</b>, el LUT que pasa el LOG a color normal. <b>TC - ERA.cube</b>, el look de Cáscara. <b>35mm_100D_expired.mov</b>, el grano de siempre. <b>RG_16mm_Soft.mov</b>, un grano más denso para momentos puntuales.",
+        "Guardalos en una carpeta fija, así Premiere los encuentra siempre en el mismo lugar."
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "Tu cámara y tu LUT de conversión",
+      "consigna": "El LUT de conversión depende de la cámara. SlogtoRec.709 es para el S-Log de Sony. Si grabás con otro perfil (C-Log de Canon, V-Log de Panasonic, Apple Log del iPhone), el paso dos lleva el LUT de conversión de esa marca y el resto queda igual. Anotá con qué grabás antes de arrancar.",
+      "campo": "lineas",
+      "lineas": [
+        "Cámara",
+        "Perfil LOG",
+        "LUT de conversión que te corresponde"
+      ],
+      "cid": 2
+    },
+    {
+      "nuestro": true,
+      "titulo": "Los tres pasos, en tres Lumetri separados",
+      "texto": [
+        "En Premiere aplicás el efecto <b>Color de Lumetri</b> tres veces al clip, o armás tres capas de ajuste una arriba de la otra. Cada uno hace una sola cosa, así cuando algo sale mal sabés qué tocar.",
+        "<b>1 · Luces.</b> En Corrección básica: exposición, contraste, iluminaciones, sombras, blancos, negros y el balance de blancos. Nada de color creativo todavía. En la forma de onda, los negros tocan abajo sin aplastarse y los blancos no pasan el techo.",
+        "<b>2 · Conversión.</b> En Creativo, Look, elegís SlogtoRec.709.cube y bajás la Intensidad a <b>60</b>. La imagen pasa del gris a color normal.",
+        "<b>3 · El look.</b> En el tercer Lumetri, Creativo, Look, elegís TC - ERA.cube con Intensidad <b>30</b>. Después mirás las caras: si la piel quedó verde, naranja o gris, la corregís en Curvas, Tono vs. saturación, o con una máscara sobre la cara. El look nunca ensucia la piel."
+      ],
+      "cid": 3
+    },
+    {
+      "nuestro": true,
+      "titulo": "El grano va siempre",
+      "texto": [
+        "El grano de 35mm va en la pista de más arriba, por encima de todo, con el modo de fusión en <b>Luz fuerte</b>. Va en toda la pieza. En modo normal tapa la imagen; en Luz fuerte le suma textura.",
+        "El de 16mm es para momentos que pidan una textura mucho más densa, no para todo el video.",
+        "Si mezclás tomas de celular, al celular le hacés solo el paso uno para igualarlo, y si hace falta un poquito del look, bien bajo. Que se note casero sin que desentone."
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "Tu primer clip, paso por paso",
+      "consigna": "Elegí un clip de lo que ya grabaste, uno con una cara. Corregilo con los tres pasos y el grano, y anotá qué tocaste en cada uno. Con esto, cualquier editor puede repetir tu corrección sin preguntarte.",
+      "campo": "tabla",
+      "columnas": [
+        "Qué tocaste y con qué valores"
+      ],
+      "filas": 5,
+      "filas_rotulo": [
+        "1 · Luces",
+        "2 · Conversión",
+        "3 · Look",
+        "Pieles",
+        "Grano"
+      ],
+      "cid": 5
+    },
+    {
+      "titulo": "El antes y el después",
+      "consigna": "Exportá el mismo tramo sin corregir y corregido, y pegá el link (Drive, Frame.io o YouTube oculto). Eso es lo que revisamos.",
+      "campo": "texto",
+      "alto": 3,
+      "cid": 6
+    }
+  ]
+}
