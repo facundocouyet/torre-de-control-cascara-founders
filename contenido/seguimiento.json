@@ -1,0 +1,21 @@
+{
+  "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
+  "dias_sin_noticias": 14,
+  "actualizado": "2026-09-25",
+  "clientes": {
+    "sofia-galvis": {"ultimo": "2026-09-25", "que": "Extiende un mes, al 31/10, y se está programando el lanzamiento.", "proximo": null, "paso": "La llamada con Franco, cuando devuelva la oferta y el ICP.", "carta": "Oferta e ICP, que tiene que devolver completas antes de Franco."},
+    "bianca-antonini": {"ultimo": "2026-09-17", "que": "El último dato: el lanzamiento superó la facturación de todos los meses, sin pauta.", "proximo": null, "paso": "La llamada con Franco por el lanzamiento de los anillos, todavía sin fecha.", "carta": "La radiografía y el documento de Eclipse y los anillos, mandados el 14/09, esperando su respuesta."},
+    "matias-morales": {"ultimo": "2026-09-25", "que": "Llega al día 90 y extiende un mes, al 31/10.", "proximo": null, "paso": "Franco, con los documentos completos.", "carta": "Oferta, ICP y mecanismo."},
+    "agostina-marchesini": {"ultimo": "2026-09-10", "que": "La última llamada registrada.", "proximo": null, "paso": "Mandarle el resumen de la última llamada y la radiografía.", "carta": null},
+    "lucio-labate": {"ultimo": "2026-09-25", "que": "Está terminando de grabar su contenido y completando la carta de oferta.", "proximo": null, "paso": "Coordinar la próxima reunión.", "carta": "La carta de Oferta."},
+    "jose-david-fajardo": {"ultimo": "2026-09-25", "que": "Muy activo: acomodó el perfil, entraron clientes y consultas, y está haciendo contenido. Canceló la 1:1 del 25/09.", "proximo": null, "paso": "Reagendar la 1:1 con Facu del corte del primer mes.", "carta": null},
+    "aaron-aiello": {"ultimo": "2026-09-25", "que": "Trabajó oferta y producto con Franco y agendó la 1:1 con Facu.", "proximo": "2026-09-29", "paso": "1:1 con Facu, a las 11:00: se le presenta la radiografía del primer mes.", "carta": "El pasaporte digital."},
+    "custom-lab": {"ultimo": "2026-09-18", "que": "La última llamada registrada, con Franco.", "proximo": null, "paso": "Coordinar la reunión de contenido.", "carta": null},
+    "sebastian": {"ultimo": "2026-09-24", "que": "1:1 con Fede: foco en el cohort, biografía nueva, página de espera y canal de YouTube.", "proximo": null, "paso": "Segunda llamada con Franco, la semana del 29/09.", "carta": "ICP y mecanismo, y Ángulos."},
+    "sol-boutmy": {"ultimo": "2026-09-08", "que": "La llamada del 8 de septiembre, que es lo último registrado.", "proximo": null, "paso": "La llamada con Franco, con la hoja de oferta devuelta.", "carta": "Contratar el primer rol y Oferta."},
+    "lola-berutti": {"ultimo": "2026-09-25", "que": "Dio el workshop el 24/09 y está en llamadas de venta.", "proximo": "2026-10-01", "paso": "Cierra la ventana de venta, a las 23:59.", "carta": null},
+    "qualita": {"ultimo": "2026-09-24", "que": "Recibieron los tres documentos y los están completando.", "proximo": "2026-10-06", "paso": "Devuelven la Auditoría del proceso comercial.", "carta": "Ángulos, Auditoría del proceso comercial y Funnel de servicio."},
+    "the-momentum-club": {"ultimo": "2026-09-25", "que": "Tienen las dos cartas y la mecánica del webinar.", "proximo": "2026-09-28", "paso": "El webinar.", "carta": "Auditoría de clientes y auditoría del programa."},
+    "ayelen-cerqueira": {"ultimo": "2026-09-24", "que": "Llamada con Franco por la oferta.", "proximo": "2026-09-28", "paso": "Sigue con Franco, a las 13:00: nombre y precio.", "carta": null}
+  }
+}

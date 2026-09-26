@@ -247,8 +247,8 @@
     },
     "total": 7,
     "tramo": "Arranque",
-    "ritmo": "amarillo",
-    "ritmo_texto": "Avanza a los tirones.",
+    "ritmo": "verde",
+    "ritmo_texto": "Hubo contacto en los últimos 14 días y tiene un próximo paso.",
     "eje_flojo": [
       "oferta",
       "demanda",

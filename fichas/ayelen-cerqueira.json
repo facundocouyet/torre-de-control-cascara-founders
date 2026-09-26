@@ -234,8 +234,8 @@
     },
     "total": 7,
     "tramo": "Arranque",
-    "ritmo": "amarillo",
-    "ritmo_texto": "Avanza a los tirones.",
+    "ritmo": "cierre",
+    "ritmo_texto": "Está en sign off: no lleva ritmo.",
     "eje_flojo": [
       "oferta",
       "contenido",

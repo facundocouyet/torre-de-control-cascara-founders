@@ -78,7 +78,7 @@ partes.append(S("02","El ritmo",
   RITMO([
     ("Cada mañana","El agente te deja tres cosas antes de que empieces: las llamadas de hoy con el link listo, los "
       "accionables que vencieron y quién quedó esperando algo tuyo. Nada más."),
-    ("Lunes","El pulso: quién avanzó, quién está frenado, quién entra esta semana y quién llega al día 30, al 60 o al "
+    ("Lunes","El pulso: quién avanzó, quién está sin noticias, quién entra esta semana y quién llega al día 30, al 60 o al "
       "90. De ahí salen las llamadas que agendás y a quién le toca documento."),
     ("Martes a jueves","Tus uno a uno. Las grupales corren solas: martes con Teo, jueves con Juana, viernes con Fede. "
       "Entrás a una grupal cuando el caso lo pide, no por calendario."),
@@ -213,7 +213,7 @@ partes.append(S("09","Qué hace el agente",
      "Corre el seguimiento: escribe el hito en la ficha, actualiza los accionables de los dos lados, deja el Update "
      "en Cuentas y prepara el mensaje corto para el grupo. Recalcula el puntaje y republica la torre."),
     ("Los lunes, además",
-     "El pulso: quién avanzó y quién está frenado contra la semana anterior, quién entra esta semana y quién llega al día 30, al 60 o al "
+     "El pulso: quién avanzó y quién está sin noticias contra la semana anterior, quién entra esta semana y quién llega al día 30, al 60 o al "
      "día 90 en los próximos siete días, qué llamadas faltan agendar y qué documentos hay que escribir. Y una sola "
      "decisión, si la hay."),
     ("Lo que no hace",

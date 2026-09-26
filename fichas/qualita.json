@@ -236,8 +236,8 @@
     },
     "total": 10,
     "tramo": "En construcción",
-    "ritmo": "rojo",
-    "ritmo_texto": "Hace tiempo que no mueve.",
+    "ritmo": "verde",
+    "ritmo_texto": "Hubo contacto en los últimos 14 días y tiene un próximo paso.",
     "eje_flojo": [
       "contenido",
       "demanda"

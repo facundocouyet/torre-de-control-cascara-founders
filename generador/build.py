@@ -259,7 +259,7 @@ def build(d):
     H_ = d.get("handicap")
     if H_:
         import handicap as _hk
-        RC = {"verde":"#3F6B45","amarillo":"#8A6A2F","rojo":"#8C3A32"}
+        RC = {"verde":"#3F6B45","amarillo":"#8A6A2F","rojo":"#8C3A32","cierre":"#8E8B85"}
         cols=[]
         for _k, _nom, _desc in _hk.EJES:
             v = H_["ejes"][_k]

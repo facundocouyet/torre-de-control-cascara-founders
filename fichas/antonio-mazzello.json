@@ -225,8 +225,8 @@
     },
     "total": 11,
     "tramo": "Andando",
-    "ritmo": "rojo",
-    "ritmo_texto": "Hace tiempo que no mueve.",
+    "ritmo": "cierre",
+    "ritmo_texto": "Está en sign off: no lleva ritmo.",
     "eje_flojo": [
       "demanda"
     ],

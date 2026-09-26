@@ -8,7 +8,7 @@ CSS = r'''
    CÁSCARA FOUNDERS · app
    La piel es de F3: tinta, papel cálido, etiqueta encajonada, radio 0.
    La respiración es de Cáscara: escala grande, aire, columnas anchas.
-   Monocromo. El rojo de F3 está racionado: solo lo frenado y lo vencido.
+   Monocromo. El rojo de F3 está racionado: solo lo que está sin noticias y lo vencido.
    ============================================================ */
 :root{
   --tinta:#171717; --tinta-deep:#0A0A0C; --tinta-warm:#1A1815;
@@ -259,6 +259,13 @@ h2.bl em{font-style:italic;font-family:var(--edit);text-transform:none;letter-sp
 .ritmo.amarillo i{background:transparent}
 .ritmo.rojo{color:var(--rojo)}
 .ritmo.rojo i{background:var(--rojo);border-color:var(--rojo)}
+.ritmo.cierre{color:var(--gris2)}
+.ritmo.cierre i{border-color:var(--gris2);border-style:dashed}
+/* el seguimiento, en el lateral del detalle */
+.seg{border-top:1px solid var(--tinta);padding-top:22px;margin-top:34px}
+.seg .dato{padding:11px 0;border-top:1px solid var(--tiza);font-size:15.5px;line-height:1.45}
+.seg .dato b{display:block;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gris2);font-weight:400;margin-bottom:4px}
+.seg .ex{font-family:var(--edit);font-style:italic;font-size:15px;color:var(--gris);margin:10px 0 12px}
 
 /* navegación del detalle: volver, anterior y siguiente */
 .dtnav{display:flex;align-items:center;justify-content:space-between;gap:20px;
@@ -792,7 +799,7 @@ function sentido(){
 }
 var C=D.clientes, con=C.filter(function(c){return c.h});
 var prom=Math.round(con.reduce(function(a,c){return a+c.h.g},0)/con.length);
-var frenados=con.filter(function(c){return c.h.ri==='rojo'});
+var frenados=con.filter(function(c){return c.h.ri==='rojo'});   // sin noticias hace más de 14 días
 var cierre=C.filter(function(c){return c.modo==='cierre'});
 var vencidos=C.filter(function(c){return c.dia&&c.dia>90});
 var promDias=Math.round(C.filter(function(c){return c.dia}).reduce(function(a,c){return a+c.dia},0)/C.filter(function(c){return c.dia}).length);
@@ -841,11 +848,11 @@ function vHome(){
     '<button onclick="ir(\'clientes\')"><b class="num">'+C.length+'</b><span>Clientes</span></button>'+
     '<div><b class="num">'+prom+'</b><span>Puntaje promedio</span></div>'+
     '<button onclick="ir(\'clientes\',\'vencido\')"><b class="num'+(vencidos.length?' alerta':'')+'">'+vencidos.length+'</b><span>Pasaron los 90 días</span></button>'+
-    '<button onclick="ir(\'clientes\',\'rojo\')"><b class="num'+(frenados.length?' alerta':'')+'">'+frenados.length+'</b><span>Frenados</span></button>'+
+    '<button onclick="ir(\'clientes\',\'rojo\')"><b class="num'+(frenados.length?' alerta':'')+'">'+frenados.length+'</b><span>Sin noticias</span></button>'+
   '</div>';
   h+='<div class="cards">'+
    tarjeta('01','Clientes','Uno por uno: en qué está parado, cuál es su cuello, qué mide y en qué día de los noventa va. Adentro de cada uno está su documento.',
-     [[C.length,'Clientes'],[cierre.length,'En cierre'],[frenados.length,'Frenados',frenados.length>0]],'Ver los clientes',"ir('clientes')")+
+     [[C.length,'Clientes'],[cierre.length,'En cierre'],[frenados.length,'Sin noticias',frenados.length>0]],'Ver los clientes',"ir('clientes')")+
    tarjeta('02','Accionables','Lo que hay que hacer esta semana: qué documento sale para cada cliente, qué le toca ejecutar a cada founder y qué queda de nuestro lado.',
      [[nEnt,'Del CSM'],[nAcc,'Del founder'],[nCas,'De Cáscara']],'Ver los accionables',"ir('accionables')")+
    tarjeta('03','Biblioteca','El programa entero explicado —el recorrido, las orientaciones, las grupales y los mentores— y el mapa de cartas: cada una es un solo documento, con los pasos y la hoja para completarlos adentro.',
@@ -872,7 +879,7 @@ function verDueno(d){
 
 /* ---------------- CLIENTES ---------------- */
 var F=[['todos','Todos'],['Conseguir','Conseguir'],['Sostener','Sostener'],['Entregar','Entregar'],
-       ['cierre','En cierre'],['vencido','Pasaron 90'],['rojo','Frenados']];
+       ['cierre','En cierre'],['vencido','Pasaron 90'],['rojo','Sin noticias']];
 function vClientes(){
   var h='<div class="hoja">'+migas(['Clientes'])+encab('Clientes','Los '+C.length+' clientes','',
     C.length+' clientes<br>día promedio: '+promDias);
@@ -964,18 +971,24 @@ function abrir(slug){
     h+='</div>'+(c.h.sube?'<p class="sube">La más baja es '+esc(D.ejes[c.h.flo[0]]).toLowerCase()+'. '+esc(c.h.sube)+'</p>':'')+'</div>';
   }
   /* el número grande son los días que lleva con nosotros; la regla mide los noventa
-     del programa, que no corren mientras el cliente está frenado */
-  var conNos=c.corridos||c.dia, frena=c.frenado||0;
+     del programa, que no corren mientras el cliente está en pausa */
+  var conNos=c.corridos||c.dia, frena=c.pausa||0;
   var nota;
   if(!c.dia){ nota='Falta cargar el START en Cuentas.'; }
   else if(frena){
-    nota='Arrancó el '+fechaLarga(c.desde)+' y estuvo frenado '+frena+' días'+
+    nota='Arrancó el '+fechaLarga(c.desde)+' y estuvo en pausa '+frena+' días'+
          (c.tramos&&c.tramos.length?' ('+c.tramos.map(function(t){return fechaCorta(t[0])+' a '+fechaCorta(t[1])}).join(', ')+')':'')+
          ', así que lleva '+conNos+' días con nosotros y '+c.dia+' de los noventa del programa. '+
-         (venc?'Ya pasó los noventa: por eso el tramo es de cierre.':'Los días frenados no cuentan contra el programa.');
+         (venc?'Ya pasó los noventa: por eso el tramo es de cierre.':'Los días de pausa no cuentan contra el programa.');
   }
   else { nota=(venc?'Pasó los noventa días: por eso el tramo es de cierre.':'Está en el día '+c.dia+' de los noventa.')+
          (c.fuente==='llamada'?' Contado desde la primera llamada registrada, porque el START no está cargado.':''); }
+  if(c.seg){ var s=c.seg;
+    h+='<div class="seg"><span class="et">Seguimiento</span><div style="margin-top:12px">'+ritmo({ri:s.ritmo,rt:s.texto})+'</div>'+
+      '<p class="ex">'+esc(s.explica)+'</p>'+
+      (s.ultimo?'<div class="dato"><b>Último contacto · '+fechaCorta(s.ultimo)+(s.hace!=null?' · hace '+s.hace+(s.hace===1?' día':' días'):'')+'</b>'+esc(s.que||'')+'</div>':'')+
+      (s.paso?'<div class="dato"><b>Próximo paso'+(s.proximo?' · '+fechaCorta(s.proximo):'')+'</b>'+esc(s.paso)+'</div>':'')+
+      (s.carta?'<div class="dato"><b>Carta abierta</b>'+esc(s.carta)+'</div>':'')+'</div>'; }
   h+='<div class="dias"><span class="et">Con nosotros</span><div class="g"><b class="num'+(venc?' vencido':'')+'">'+
      (conNos||'—')+'</b><span>'+(c.dia?'días':'sin fecha cargada')+'</span></div>'+
      '<div class="regla"><i class="'+(venc?'vencido':'')+'" style="width:'+pct+'%"></i></div>'+

@@ -239,8 +239,8 @@
     },
     "total": 5,
     "tramo": "Arranque",
-    "ritmo": "verde",
-    "ritmo_texto": "Hace lo que queda de cada llamada.",
+    "ritmo": "rojo",
+    "ritmo_texto": "Pasaron más de 14 días sin saber nada.",
     "eje_flojo": [
       "oferta",
       "contenido",

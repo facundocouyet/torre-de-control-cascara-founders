@@ -31,7 +31,8 @@ _h=_dt.date.today()
 FECHA=f"{_h.day:02d} {_M[_h.month-1]} {_h.year}"
 EJES=[("oferta","Oferta"),("contenido","Contenido"),("demanda","Demanda"),("venta","Venta"),("entrega","Entrega")]
 DUENOS=["Facu","Franco","Teo","Juana","Fede"]
-RITMO={"verde":"al día","amarillo":"a los tirones","rojo":"frenado"}
+import seguimiento as SG
+RITMO=SG.TEXTO   # al día · sin próximo paso · sin noticias · en cierre
 # escala del handicap: cada eje se muestra del 1 al 100, como las habilidades de un piloto
 def cien(n): return n*20+10
 COMO_SUBE={
@@ -68,7 +69,8 @@ for r in panel:
       "ultima":r['ultima'],"titular":r['titular'],
       "ct":r['cliente_tareas'],"cas":r['cascara'],"rep":r.get('reparto',[]),
       "dia":dd['d'],"desde":dd['desde'],"fuente":dd['fuente'],
-      "corridos":dd.get('corridos'),"frenado":dd.get('frenado',0),"tramos":dd.get('tramos',[]),
+      "corridos":dd.get('corridos'),"pausa":dd.get('frenado',0),"tramos":dd.get('tramos',[]),
+      "seg":SG.calcular(r['slug']),
       "h": None if not h else {"t":h['total'],"tr":h['tramo'],"ri":h['ritmo'],
              "rt":RITMO[h['ritmo']],
              "ej":[h['ejes'][k] for k,_ in EJES],

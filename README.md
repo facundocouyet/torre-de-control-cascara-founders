@@ -62,14 +62,16 @@ a mano en `MANDA`, dentro de `generador/handicap.py`.
 
 Los tramos: 10 a 38 Arranque · 42 a 50 En construcción · 54 a 62 Andando · 66 a 90 Listo para cerrar.
 
-El **ritmo** va aparte y no puntúa el negocio: mide si la persona hace lo que le queda de cada
-llamada. Verde al día, amarillo a los tirones, rojo frenado.
+El **ritmo** va aparte y no puntúa el negocio: es una alerta de seguimiento, no un juicio sobre
+el resultado. Verde al día (contacto en los últimos 14 días y un próximo paso), amarillo sin
+próximo paso, rojo sin noticias hace más de 14 días. Los que están en sign off van aparte, en
+cierre. Lo calcula `generador/seguimiento.py` con `contenido/seguimiento.json`.
 
 ## El diseño
 
 La piel viene de F3: tinta `#171717`, papel cálido `#ECEAE4`, la etiqueta encajonada y el radio 0.
 La respiración viene de Cáscara: escala grande, aire y columnas anchas. Todo monocromo, con el rojo
-`#FE1414` racionado para lo frenado y lo vencido. El sello de la marca es la caja con la F de
+`#FE1414` racionado para lo que está sin noticias y lo vencido. El sello de la marca es la caja con la F de
 Founders, el mismo motivo que la etiqueta de los documentos.
 
 ## Cómo escribir acá adentro

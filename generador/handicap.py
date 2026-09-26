@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """Handicap Cáscara Founders — cinco ejes de 0 a 4 sobre el estado del negocio,
-más el ritmo, que mide cómo viene ejecutando la persona (eso no puntúa el negocio)."""
+más el ritmo, que es una alerta de seguimiento y sale de seguimiento.py (no puntúa el negocio)."""
 import json
+import seguimiento as SG
 
 EJES = [
     ("oferta",    "Oferta",    "Qué vende, a quién y a qué precio. Escrita, no en la cabeza."),
@@ -12,11 +13,9 @@ EJES = [
 ]
 ORIENT = {"oferta":"Conseguir","venta":"Conseguir","contenido":"Sostener",
           "demanda":"Sostener","entrega":"Entregar"}
-RITMO = {"verde":"Hace lo que queda de cada llamada.",
-         "amarillo":"Avanza a los tirones.",
-         "rojo":"Hace tiempo que no mueve."}
+RITMO = SG.EXPLICA   # el ritmo ya no se pone a mano: lo calcula seguimiento.py
 
-# slug: (oferta, contenido, demanda, venta, entrega, ritmo, nota del eje más flojo)
+# slug: (oferta, contenido, demanda, venta, entrega, ritmo viejo —ya no se usa—, nota del eje más flojo)
 # Puntuado contra los anclajes de rubrica/ANCLAJES.md: cada número con evidencia en EV.
 S = {
  "agostina-marchesini": (1,1,1,1,1,"verde","Los cinco ejes empatan en uno y el que manda es oferta: sin la consultoría escrita con precio y fecha, el 10 de octubre en Kaipi no hay nada que vender."),
@@ -26,7 +25,7 @@ S = {
  "custom-lab": (1,0,1,3,3,"verde","Contenido está en cero y es el piso: la cuenta está parada por tercera semana, y Piero lo nombró de frente — no sabe hablar en cámara. Entrega sube un escalón el 18/09 con ejecución mostrada en vivo: Shopify levantado y activo, proveedores del kit conseguidos llamando uno por uno y un pedido entregado. La oferta sigue en uno porque los kits se están redefiniendo y el precio nunca se tocó en la llamada con Franco."),
  "sol-boutmy": (2,1,1,2,2,"verde","Los pisos son contenido y demanda, las dos en uno: la cuenta de Be Motion no cuenta qué hacen y los seis clientes entraron por boca a boca, así que el trabajo de fondo es sostener, en paralelo a sacarse la edición de encima."),
  "andrea-saturno": (1,1,1,1,2,"amarillo","Se puntúan las Onfire Sessions, que es lo que trabaja el roadmap; la agencia con Sophie factura y entrega, y eso queda afuera del puntaje. Cuatro empatan abajo y manda contenido: sin una pieza publicada, la fecha de la primera sesión es lo único que empieza a mover algo."),
- "jose-david-fajardo": (2,1,2,2,1,"rojo","Los pisos son contenido y entrega. La oferta baja a dos porque la escalera vieja está escrita y vendida, y la nueva todavía no tiene la cifra al lado. El ritmo pasa a frenado el 18/09: no hizo el accionable de comunicar en historias y llegó a borrar su Instagram, con los clientes entrándole igual. Ya lo revirtió, y el 25/09 tiene 1:1 con Facu agendada por él."),
+ "jose-david-fajardo": (2,1,2,2,1,"rojo","Los pisos son contenido y entrega. La oferta baja a dos porque la escalera vieja está escrita y vendida, y la nueva todavía no tiene la cifra al lado. Hoy está muy activo: acomodó el perfil, le entran clientes y consultas y está haciendo contenido; lo pendiente es reagendar la 1:1 con Facu."),
  "sebastian": (1,4,2,0,2,"verde","Venta en cero es el piso: tiene tráfico, autoridad y ángulos validados, y lo que falta es un precio sobre la mesa y la primera llamada de venta con ese número."),
  "sofia-galvis": (2,0,1,3,2,"verde","Contenido está en cero y es el piso: su marca personal no comunica lo que sabe enseñar. La oferta baja a dos porque el sistema de noventa días está escrito con precio y el producto de educación, que es lo que trabaja el roadmap, todavía no existe."),
  "aaron-aiello": (1,2,1,1,2,"amarillo","Se puntúa el B2C, que es el negocio sobre el que corre el roadmap. Contenido sube un escalón el 18/09: publicó la primera pieza en Instagram, grabó el video de YouTube, subió historias todos los días y armó su propio calendario, que era exactamente lo que faltaba. Los tres pisos que quedan empatan en uno y manda oferta, porque la oferta B2C se escribe con lo que conteste la audiencia y ahora hay audiencia contestando."),
@@ -94,7 +93,8 @@ MANDA = {
 
 def calcular(slug):
     if slug not in S: return None
-    o,c,d,v,e,ritmo,nota = S[slug]
+    o,c,d,v,e,_,nota = S[slug]
+    ritmo = SG.calcular(slug)["ritmo"]
     val = {"oferta":o,"contenido":c,"demanda":d,"venta":v,"entrega":e}
     total = o+c+d+v+e
     piso = min(val.values())

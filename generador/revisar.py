@@ -189,8 +189,23 @@ def revisar_cuentas():
                 'escribilo sin contarlo · …%s…' % (base, m.group(0), ctx))
 
 
+def revisar_seguimiento():
+    """Cada cliente en curso tiene que tener su seguimiento cargado; el resto son alertas."""
+    sys.path.insert(0, R('generador'))
+    import seguimiento as SG
+    for f in cargar('contenido/entregas.json')['filas']:
+        c = SG.calcular(f['slug'])
+        if c['ritmo'] == 'cierre': continue
+        if f['slug'] not in SG.SEG:
+            mal('%s está en curso y no tiene seguimiento cargado en contenido/seguimiento.json' % f['nombre']); continue
+        if c['ritmo'] == 'rojo':
+            ojo('%s: sin noticias hace %s días' % (f['nombre'], c['hace']))
+        if c['proximo'] and c['proximo'] < SG.HOY.isoformat():
+            ojo('%s: el próximo paso tenía fecha %s y ya pasó; actualizá el seguimiento' % (f['nombre'], c['proximo']))
+
+
 for fn in (revisar_cartas, revisar_inventario, revisar_entregas, revisar_materiales,
-           revisar_voz, revisar_cuentas):
+           revisar_voz, revisar_cuentas, revisar_seguimiento):
     try: fn()
     except Exception as e: mal('%s reventó: %s' % (fn.__name__, e))
 

@@ -253,8 +253,8 @@
     },
     "total": 8,
     "tramo": "En construcción",
-    "ritmo": "verde",
-    "ritmo_texto": "Hace lo que queda de cada llamada.",
+    "ritmo": "amarillo",
+    "ritmo_texto": "Hay noticias, pero no hay reunión agendada ni carta abierta.",
     "eje_flojo": [
       "contenido"
     ],

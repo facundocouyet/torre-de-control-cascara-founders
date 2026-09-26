@@ -235,8 +235,8 @@
     },
     "total": 8,
     "tramo": "En construcción",
-    "ritmo": "verde",
-    "ritmo_texto": "Hace lo que queda de cada llamada.",
+    "ritmo": "rojo",
+    "ritmo_texto": "Pasaron más de 14 días sin saber nada.",
     "eje_flojo": [
       "contenido",
       "demanda"
