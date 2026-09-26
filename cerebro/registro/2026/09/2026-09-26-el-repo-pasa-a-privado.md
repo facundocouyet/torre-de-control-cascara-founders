@@ -8,7 +8,7 @@ quien: [facu]
 temas: [privacidad, github]
 fuente: Conversación de Facu en Cowork, 26/9
 certeza: dicho
-estado: vigente
+estado: reemplazada
 ---
 # El repo de la torre pasa a privado la semana del 28/9, antes de subir el cerebro
 

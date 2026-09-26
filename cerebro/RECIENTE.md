@@ -25,5 +25,6 @@ Los últimos 30 días hasta el 2026-09-26, por departamento. Generado por `gener
 
 ## Sistemas y agentes
 
-- 2026-09-26 · decision · [El repo de la torre pasa a privado la semana del 28/9, antes de subir el cerebro](registro/2026/09/2026-09-26-el-repo-pasa-a-privado.md)
+- 2026-09-26 · decision · [El repo de la torre pasa a privado la semana del 28/9, antes de subir el cerebro](registro/2026/09/2026-09-26-el-repo-pasa-a-privado.md) _(reemplazada)_
+- 2026-09-26 · decision · [El cerebro se sube ya y el repo pasa a privado la semana del 28/9](registro/2026/09/2026-09-26-el-cerebro-se-sube-antes-del-privado.md)
 - 2026-09-26 · decision · [Founders pasa a una app propia en tres piezas: la app, el cerebro en n8n y las cartas](registro/2026/09/2026-09-26-app-cerebro-y-cartas-con-teo.md)

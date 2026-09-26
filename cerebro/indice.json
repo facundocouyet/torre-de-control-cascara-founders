@@ -20,7 +20,7 @@
   "metrica",
   "pregunta"
  ],
- "total": 11,
+ "total": 12,
  "entradas": [
   {
    "id": "2026-09-23-cero-suma-un-rol-operativo",
@@ -210,6 +210,30 @@
    "archivo": "registro/2026/09/2026-09-26-editores-con-el-formulario-de-cascara.md"
   },
   {
+   "id": "2026-09-26-el-cerebro-se-sube-antes-del-privado",
+   "fecha": "2026-09-26",
+   "tipo": "decision",
+   "depto": "sistemas",
+   "sobre": [
+    "cerebro",
+    "torre-de-control"
+   ],
+   "quien": [
+    "facu"
+   ],
+   "temas": [
+    "privacidad",
+    "github"
+   ],
+   "fuente": "Conversación de Facu en Cowork, 26/9",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "reemplaza": "2026-09-26-el-repo-pasa-a-privado",
+   "titulo": "El cerebro se sube ya y el repo pasa a privado la semana del 28/9",
+   "cuerpo": "Facu hace el push con el cerebro adentro sin esperar a que el repo sea privado. El cambio a privado\nsigue en pie para la semana que viene.",
+   "archivo": "registro/2026/09/2026-09-26-el-cerebro-se-sube-antes-del-privado.md"
+  },
+  {
    "id": "2026-09-26-el-inicio-de-la-torre-muestra-la-pelota",
    "fecha": "2026-09-26",
    "tipo": "pregunta",
@@ -250,7 +274,7 @@
    ],
    "fuente": "Conversación de Facu en Cowork, 26/9",
    "certeza": "dicho",
-   "estado": "vigente",
+   "estado": "reemplazada",
    "titulo": "El repo de la torre pasa a privado la semana del 28/9, antes de subir el cerebro",
    "cuerpo": "El repo es público y el cerebro va a tener decisiones, criterio y números de clientes. Facu decidió\npasarlo a privado la semana que viene. Hasta entonces, el cerebro no se sube a GitHub.",
    "archivo": "registro/2026/09/2026-09-26-el-repo-pasa-a-privado.md"
