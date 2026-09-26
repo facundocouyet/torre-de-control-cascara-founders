@@ -180,7 +180,7 @@
     {
       "cuando": "Septiembre",
       "cliente": [
-        "Pasarle a Facu la lista de clientes con qué se le vendió a cada uno, en qué estado está y cuál es el problema interno",
+        "Pasarle a Facu la lista de clientes: la mandó el 25/9, con el esquema de BeMotion",
         "Pasarle el documento de qué resuelve cada socia en cada cliente, que ya lo tenían escrito a mano antes de la llamada",
         "Subir el ciclo de historias en la cuenta personal de Sol para reclutar editores, entrevistar a los que llegan y pedirles una prueba antes de darles responsabilidad",
         "Elegir un cliente de prueba y delegarle la edición",
@@ -190,7 +190,7 @@
       ],
       "cascara": [
         "Facu manda el resumen de la llamada con los accionables ordenados por departamento: contenido, servicio y clientes, oferta con Franco, y operaciones",
-        "Facu devuelve feedback concreto sobre la lista de clientes sin esperar a la llamada siguiente",
+        "Facu devuelve feedback concreto sobre el esquema de clientes, que llegó el 25/9, sin esperar a la llamada siguiente",
         "Facu manda la plantilla de diario administrativo de Cáscara",
         "Facu manda la lista de tareas y el SOP del profile funnel de Instagram",
         "Facu les pasa un formulario de postulación de editores como referencia, y el tarifario de edición",
@@ -235,8 +235,8 @@
     },
     "total": 8,
     "tramo": "En construcción",
-    "ritmo": "rojo",
-    "ritmo_texto": "Pasaron más de 14 días sin saber nada.",
+    "ritmo": "verde",
+    "ritmo_texto": "Hubo contacto en los últimos 14 días y tiene un próximo paso.",
     "eje_flojo": [
       "contenido",
       "demanda"

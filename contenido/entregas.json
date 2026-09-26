@@ -392,8 +392,11 @@
       "accionables": [
         "[hecho] La carta de Contratar el primer rol ya se le mandó: las tres historias el mismo día y contratar un editor para liberarse tiempo.",
         "[hecho] La carta de Oferta ya se le mandó.",
-        "Hacerles el fup de las dos. El orden es ese: primero el editor, después la oferta.",
-        "Con la hoja de oferta devuelta, agendar la llamada con Franco. Quedó agendada el 8 de septiembre y no consta que se haya hecho.",
+        "[hecho] El 25/9 mandó el esquema de clientes de BeMotion: ocho clientes, seis con fee y dos por proyecto, USD 3.200 por mes en fees y cerca de USD 41.500 proyectado al año.",
+        "Facu le devuelve feedback del esquema sin esperar a la llamada: los que mejor pagan por hora son los de alcance claro (Canguro y Altos del Yí), Chipi y TECHO se estiraron, hay dos tarifas preferenciales (Portento y TECHO) y los proyectos quedan por debajo (Icon Closet USD 16 la hora, Prado menos de 10).",
+        "Pedirle lo que falta: los datos de DLA (piezas, pauta y horas), cuánto suman los proyectos puntuales en un mes típico, y el documento de qué resuelve cada socia en cada cliente.",
+        "Con el esquema y la hoja de oferta devuelta, agendar la llamada con Franco para la auditoría de oferta. La del 8 de septiembre no consta que se haya hecho.",
+        "Hacerle el fup del editor: si ya subió las historias y si hay postulaciones. Se actualizó el link del formulario de editores en la carta.",
         "Mandar la radiografía con el roadmap.",
         "El profile funnel queda para después de que la oferta esté cerrada."
       ],
