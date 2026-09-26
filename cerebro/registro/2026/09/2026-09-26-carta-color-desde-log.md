@@ -8,7 +8,7 @@ quien: [facu, aaron-aiello]
 temas: [cartas, video, color]
 fuente: Pedido de Aaron a Facu, 26/9; SOP Originals de Cáscara en Notion
 certeza: dicho
-estado: vigente
+estado: reemplazada
 ---
 # Se suma la carta "Color después del LOG", sacada del SOP de Originals de Cáscara
 

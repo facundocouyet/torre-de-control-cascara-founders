@@ -1397,23 +1397,22 @@
           ],
           "resultado": "Un clip grabado en LOG corregido con el método de Cáscara, con el antes y el después para revisar.",
           "pasos": [
-            "Bajar los LUTs y el grano de la página de recursos y guardarlos en una carpeta fija.",
-            "Confirmar la cámara y el perfil LOG, y con eso el LUT de conversión que corresponde.",
-            "Corregir las luces en un primer Lumetri, sin tocar el color creativo.",
-            "Convertir el LOG con el LUT de conversión al 60% en un segundo Lumetri.",
-            "Aplicar el look de Cáscara al 30% en un tercer Lumetri y cuidar las pieles.",
-            "Sumar el grano de 35mm arriba de todo, en Luz fuerte, y mandar el antes y el después."
+            "Bajar los dos LUTs y los dos granos del SOP de color y guardarlos en una carpeta fija.",
+            "Armar dos capas de ajuste encima de los clips: Conversión y Look.",
+            "Corregir las luces de cada clip en Corrección básica.",
+            "En la capa Conversión, cargar SlogtoRec.709 con intensidad 60.",
+            "En la capa Look, cargar TC - ERA con intensidad 30 y cuidar la piel.",
+            "Poner el grano de 35mm arriba de todo en Luz fuerte y mandar el antes y el después."
           ],
           "completar": [
-            "La cámara, el perfil LOG y el LUT de conversión que le corresponde",
-            "Los valores de cada paso en el primer clip",
+            "La cámara y el perfil LOG",
             "El link al antes y el después"
           ],
           "herramientas": [
             "Adobe Premiere Pro (Color de Lumetri)",
+            "SOP Color Grading (template founders) en Notion",
             "LUTs SlogtoRec.709 y TC - ERA",
-            "Grano de 35mm y de 16mm",
-            "Página de Notion: Color después del LOG"
+            "Grano de 35mm y de 16mm"
           ],
           "estado": "existe",
           "evidencia": "Sale de la parte de color del SOP de Originals de Cáscara (Lumetri en tres pasos, LUT de conversión al 60%, look TC - ERA al 30%, grano de 35mm en Luz fuerte). Aaron la pidió el 26/9 para corregir su material grabado en LOG."
