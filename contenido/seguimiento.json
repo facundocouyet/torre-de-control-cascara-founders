@@ -1,12 +1,12 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-09-25",
+  "actualizado": "2026-09-26",
   "clientes": {
     "sofia-galvis": {"ultimo": "2026-09-25", "que": "Extiende un mes, al 31/10, y se está programando el lanzamiento.", "proximo": null, "paso": "La llamada con Franco, cuando devuelva la oferta y el ICP.", "carta": "Oferta e ICP, que tiene que devolver completas antes de Franco."},
     "bianca-antonini": {"ultimo": "2026-09-17", "que": "El último dato: el lanzamiento superó la facturación de todos los meses, sin pauta.", "proximo": null, "paso": "La llamada con Franco por el lanzamiento de los anillos, todavía sin fecha.", "carta": "La radiografía y el documento de Eclipse y los anillos, mandados el 14/09, esperando su respuesta."},
     "matias-morales": {"ultimo": "2026-09-25", "que": "Llega al día 90 y extiende un mes, al 31/10.", "proximo": null, "paso": "Franco, con los documentos completos.", "carta": "Oferta, ICP y mecanismo."},
-    "agostina-marchesini": {"ultimo": "2026-09-10", "que": "La última llamada registrada.", "proximo": null, "paso": "Mandarle el resumen de la última llamada y la radiografía.", "carta": null},
+    "agostina-marchesini": {"ultimo": "2026-09-24", "que": "Charla por WhatsApp: lanzamiento en noviembre con 2 lugares y relanzamiento en febrero con 5.", "proximo": null, "paso": "Agendar la reunión de oferta e ICP para armar el lanzamiento de noviembre y mandarle la radiografía.", "carta": null},
     "lucio-labate": {"ultimo": "2026-09-25", "que": "Está terminando de grabar su contenido y completando la carta de oferta.", "proximo": null, "paso": "Coordinar la próxima reunión.", "carta": "La carta de Oferta."},
     "jose-david-fajardo": {"ultimo": "2026-09-25", "que": "Muy activo: acomodó el perfil, entraron clientes y consultas, y está haciendo contenido. Canceló la 1:1 del 25/09.", "proximo": null, "paso": "Reagendar la 1:1 con Facu del corte del primer mes.", "carta": null},
     "aaron-aiello": {"ultimo": "2026-09-25", "que": "Trabajó oferta y producto con Franco y agendó la 1:1 con Facu.", "proximo": "2026-09-29", "paso": "1:1 con Facu, a las 11:00: se le presenta la radiografía del primer mes.", "carta": "El pasaporte digital."},

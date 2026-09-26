@@ -207,28 +207,38 @@
     {
       "cuando": "Octubre",
       "cliente": [
-        "Ejecutar el calendario de lanzamiento tal como está escrito",
-        "Presentar la oferta en el evento del 10 de octubre",
-        "Cerrar los primeros clientes de consultoría y hacer las llamadas de venta"
+        "Terminar las 3 obras que tiene en curso",
+        "Seguir subiendo contenido con Ivi",
+        "Dejar armado el lanzamiento de noviembre: oferta, ICP, ángulos y calendario"
       ],
       "cascara": [
-        "Franco acompaña el lanzamiento y ajusta el calendario si hace falta",
-        "Facu revisa cómo queda el estudio después de la conversación con la socia"
+        "Facu la acompaña con la oferta y el ICP",
+        "Franco ajusta el calendario del lanzamiento"
       ]
     },
     {
       "cuando": "Cierre, 31 de octubre",
       "cliente": [
-        "Presentar el resultado del lanzamiento y qué contenido trajo cada cliente"
+        "Oferta, ICP, ángulos y calendario del lanzamiento listos para salir en noviembre"
       ],
       "cascara": [
-        "Facu y Franco definen el paso siguiente: agrandar el scope de Ibi o sumar a alguien para llevar las consultorías"
+        "Facu y Franco definen el paso siguiente: lanzamiento de noviembre con 2 lugares de prueba y relanzamiento en febrero con 5, con alguien que la ayude a llevar las consultorías"
+      ]
+    },
+    {
+      "cuando": "Después del tramo",
+      "cliente": [
+        "Lanzar en noviembre con 2 lugares, teniendo en cuenta el viaje a Miami del 18 al 29",
+        "Relanzar en febrero con 5 lugares, desde el 17/02 cuando vuelve a trabajar"
+      ],
+      "cascara": [
+        "Sumar a alguien que la ayude a llevar las consultorías antes del relanzamiento"
       ]
     }
   ],
   "conclusion": "El negocio se direcciona a dos ingresos separados: el estudio de arquitectura con los clientes que la eligen por su criterio, y una consultoría para arquitectos que se vende con marca personal. La condición para que eso funcione es resolver la sociedad, porque el estudio va hacia la neuroarquitectura y ella hacia el cliente que quiere algo sofisticado, y sostener las dos direcciones le consume la cabeza que necesita para escribir la oferta. La estructura de contenido queda cubierta con Ibi en una jornada semanal y con ella escribiendo guiones e historias, y el sistema comercial lo baja Franco escrito para ejecutar.\n\nSobre el ritmo hay una decisión tomada y conviene decirla de frente. Esto es una aceleradora, así que el calendario se aprieta a propósito: la oferta queda escrita con precio el 18 de septiembre, que es la fecha dura del tramo. El motivo es de calendario puro, porque las 3 semanas de comunicación previas al 10 de octubre arrancan el 21 y la consultoría tiene que existir antes de que se empiece a hablar de ella. Por eso las cuentas con Ibi, la conversación con la socia y la oferta entran en la misma semana, y el material de la charla sale mientras la oferta se escribe. La presión es parte de lo que se entrena acá: ella ya mostró que cuando sabe qué tiene que hacer lo hace, así que el trabajo del tramo es ponerle fecha a saberlo.\n\nEl frente que puede desordenar todo es la suma de ventanas nuevas, así que cada proyecto que aparezca, el rol de project manager con Delfina incluido, se mide contra el lanzamiento del 10 de octubre.",
   "carta": "Agostina, lo que hiciste en agosto vale, y vale mucho: te paraste 18 minutos adelante de una sala sin ensayar, subiste tu primer video y saliste de ahí queriendo más. Esa parte ya es tuya y no se devuelve. Lo que viene es más silencioso y más incómodo: sentarte a escribir qué vendés y tener una conversación de fondo con alguien con quien compartiste 8 años. Las dos cosas son del mismo trabajo, porque la claridad que buscás afuera arranca por la que ordenás adentro. El 10 de octubre ya tenés la sala y la gente; lo que estamos armando es que llegues con algo concreto para ofrecer. Y vas a llegar por lo mismo que te funcionó en la charla: cuando sabés qué tenés que hacer, lo hacés.",
-  "abierto": "Si toma el rol de project manager de contenido con Delfina y cuántas horas le come, porque compite directo con el lanzamiento de octubre (falta confirmar).",
+  "abierto": "Si toma el rol de project manager de contenido con Delfina y cuántas horas le come, porque compite directo con el lanzamiento de noviembre (falta confirmar).",
   "handicap": {
     "ejes": {
       "oferta": 1,
@@ -239,8 +249,8 @@
     },
     "total": 5,
     "tramo": "Arranque",
-    "ritmo": "rojo",
-    "ritmo_texto": "Pasaron más de 14 días sin saber nada.",
+    "ritmo": "amarillo",
+    "ritmo_texto": "Hay noticias, pero no hay reunión agendada ni carta abierta.",
     "eje_flojo": [
       "oferta",
       "contenido",
