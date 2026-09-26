@@ -23,6 +23,10 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: |
-          test -n "$SUPABASE_URL" || { echo "falta el secret SUPABASE_URL"; exit 1; }
-          test -n "$SUPABASE_SERVICE_KEY" || { echo "falta el secret SUPABASE_SERVICE_KEY"; exit 1; }
-          python3 generador/sync_cartas.py
+          # hasta que estén cargados los dos secrets, corre en modo prueba y no falla
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_KEY" ]; then
+            echo "::warning::Faltan los secrets SUPABASE_URL y SUPABASE_SERVICE_KEY: corre en modo prueba"
+            python3 generador/sync_cartas.py --probar
+          else
+            python3 generador/sync_cartas.py
+          fi
