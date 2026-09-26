@@ -189,6 +189,22 @@ def revisar_cuentas():
                 'escribilo sin contarlo · …%s…' % (base, m.group(0), ctx))
 
 
+def revisar_niveles():
+    """Toda carta tiene nivel, y toda carta escrita para un cliente apunta a una ficha que existe."""
+    import glob as _g
+    validos = {'troncal', '1', '2', '3'}
+    for c in cargar('fichas/inventario.json')['categorias']:
+        for m in c['modulos']:
+            if m.get('nivel') not in validos:
+                mal('la carta %s no tiene nivel (troncal, 1, 2 o 3): la app no la puede ubicar en la galería' % m['id'])
+    fichas = {os.path.basename(f)[:-5] for f in _g.glob(R('fichas/*.json'))} - {'inventario'}
+    for f in _g.glob(R('fichas/plantillas/*--*.json')):
+        slug = os.path.basename(f)[:-5].split('--', 1)[1]
+        if slug not in fichas:
+            mal('%s está escrita para "%s", que no es el slug de ninguna ficha: al sincronizar queda sin cliente'
+                % (os.path.basename(f), slug))
+
+
 def revisar_seguimiento():
     """Cada cliente en curso tiene que tener su seguimiento cargado; el resto son alertas."""
     sys.path.insert(0, R('generador'))
@@ -205,7 +221,7 @@ def revisar_seguimiento():
 
 
 for fn in (revisar_cartas, revisar_inventario, revisar_entregas, revisar_materiales,
-           revisar_voz, revisar_cuentas, revisar_seguimiento):
+           revisar_voz, revisar_cuentas, revisar_seguimiento, revisar_niveles):
     try: fn()
     except Exception as e: mal('%s reventó: %s' % (fn.__name__, e))
 

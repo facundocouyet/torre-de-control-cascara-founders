@@ -1,0 +1,28 @@
+# Cuando cambia una carta en main, la sube a la app de clientes (Supabase).
+# El repo es la fuente de las cartas: la app solo las lee.
+name: Sincronizar las cartas con la app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'fichas/inventario.json'
+      - 'fichas/plantillas/**'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Subir las cartas
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          test -n "$SUPABASE_URL" || { echo "falta el secret SUPABASE_URL"; exit 1; }
+          test -n "$SUPABASE_SERVICE_KEY" || { echo "falta el secret SUPABASE_SERVICE_KEY"; exit 1; }
+          python3 generador/sync_cartas.py

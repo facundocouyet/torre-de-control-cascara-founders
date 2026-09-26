@@ -7,6 +7,7 @@
         {
           "id": "radiografia-360",
           "nombre": "360 del negocio: punto A, cuello de botella y punto B",
+          "nivel": "troncal",
           "para_quien": "Se le asigna a todo founder en el primer mes, antes de tocar oferta o contenido.",
           "eje": [
             "oferta",
@@ -39,6 +40,7 @@
         {
           "id": "foco-y-ventana",
           "nombre": "Elegir la ventana y soltar el resto",
+          "nivel": "2",
           "para_quien": "Cuando el founder tiene tres o cuatro frentes abiertos y avanza poco en todos.",
           "eje": [
             "oferta",
@@ -68,6 +70,7 @@
         {
           "id": "sociedad-y-roles",
           "nombre": "Resolver la sociedad que frena",
+          "nivel": "2",
           "para_quien": "Cuando hay una socia, un socio o una estructura compartida que le come tiempo y decisión al proyecto propio.",
           "eje": [
             "entrega",
@@ -103,6 +106,7 @@
         {
           "id": "icp-mecanismo",
           "nombre": "ICP del mecanismo que vendés",
+          "nivel": "troncal",
           "para_quien": "Cuando el comercial ya bajó a quién le vende y falta convertir esa definición en personas concretas con un dolor que se pueda nombrar.",
           "eje": [
             "oferta"
@@ -131,6 +135,7 @@
         {
           "id": "one-sheeter-oferta",
           "nombre": "One-sheeter de la oferta",
+          "nivel": "troncal",
           "para_quien": "Cuando la oferta vive en la cabeza del founder y cada conversación de venta la explica distinto.",
           "eje": [
             "oferta"
@@ -161,6 +166,7 @@
         {
           "id": "precio-escalera",
           "nombre": "Precio y escalera de valor",
+          "nivel": "1",
           "para_quien": "Cuando el founder cobra por debajo de lo que entrega, o cuando quiere sumar un producto arriba o abajo de lo que ya vende.",
           "eje": [
             "oferta",
@@ -191,6 +197,7 @@
         {
           "id": "cinco-llamadas-con-precio",
           "nombre": "Las primeras cinco llamadas con precio",
+          "nivel": "2",
           "para_quien": "Cuando la oferta ya está escrita y el founder todavía no la puso arriba de la mesa con un número.",
           "eje": [
             "venta",
@@ -227,6 +234,7 @@
         {
           "id": "profile-funnel",
           "nombre": "Profile funnel del perfil",
+          "nivel": "1",
           "para_quien": "Se le asigna a todo founder antes de que salga la primera pieza del tramo.",
           "eje": [
             "contenido",
@@ -260,6 +268,7 @@
         {
           "id": "angulos-desde-icp",
           "nombre": "Ángulos de comunicación bajados del ICP",
+          "nivel": "troncal",
           "para_quien": "Cuando el cliente ideal ya está escrito y cada pieza sigue arrancando de una hoja en blanco.",
           "eje": [
             "contenido"
@@ -287,6 +296,7 @@
         {
           "id": "calendario-contenido",
           "nombre": "Calendario de contenido de sesenta días",
+          "nivel": "troncal",
           "para_quien": "Cuando el founder publica cuando le queda tiempo y la cadencia se cae sola.",
           "eje": [
             "contenido"
@@ -316,6 +326,7 @@
         {
           "id": "diez-piezas-y-lectura",
           "nombre": "Las diez piezas y su lectura",
+          "nivel": "1",
           "para_quien": "Cuando el founder quiere saber si su contenido funciona y todavía no público volumen suficiente para saberlo.",
           "eje": [
             "contenido",
@@ -345,6 +356,7 @@
         {
           "id": "formato-barato",
           "nombre": "El formato barato que se sostiene",
+          "nivel": "3",
           "para_quien": "Cuando la producción propia es tan cara o tan pulida que el volumen se cae.",
           "eje": [
             "contenido"
@@ -374,6 +386,7 @@
         {
           "id": "caso-documentado",
           "nombre": "El caso documentado del cliente que ya tenés",
+          "nivel": "3",
           "para_quien": "Cuando el founder ya entregó resultados y no tiene con qué probarlos frente a un cliente nuevo.",
           "eje": [
             "contenido",
@@ -410,6 +423,7 @@
         {
           "id": "arquitectura-comunidad",
           "nombre": "Arquitectura minima de una comunidad",
+          "nivel": "3",
           "para_quien": "Cuando el founder tiene gente reunida en un grupo o una lista y adentro no pasa nada.",
           "eje": [
             "demanda",
@@ -440,6 +454,7 @@
         {
           "id": "handraisers-historias",
           "nombre": "Historias con handraisers",
+          "nivel": "2",
           "para_quien": "Cuando el founder publica y no tiene un mecanismo que convierta la atención en conversación.",
           "eje": [
             "demanda",
@@ -470,6 +485,7 @@
         {
           "id": "calendario-lanzamiento",
           "nombre": "Calendario de lanzamiento",
+          "nivel": "1",
           "para_quien": "Cuando el founder tiene un producto listo y ninguna fecha ni mecanica para venderlo.",
           "eje": [
             "demanda",
@@ -500,6 +516,7 @@
         {
           "id": "webinar-de-venta",
           "nombre": "El webinar que agenda llamadas",
+          "nivel": "2",
           "para_quien": "Cuando el founder junta gente en vivo para vender y la venta se cierra ahí mismo con un link, sin llamada, sin lista y sin saber por qué no compró el que no compró.",
           "eje": [
             "demanda",
@@ -532,6 +549,7 @@
         {
           "id": "capitalizar-evento",
           "nombre": "Capitalizar un evento presencial",
+          "nivel": "3",
           "para_quien": "Cuando el founder da una charla, un taller o va a un evento y todo eso se termina el mismo día.",
           "eje": [
             "demanda",
@@ -568,6 +586,7 @@
         {
           "id": "auditoria-proceso-comercial",
           "nombre": "Auditoría del proceso comercial",
+          "nivel": "troncal",
           "para_quien": "Cuando el founder ya vende con un proceso comercial funcionando y está por abrir un canal que va a traer consultas de gente que no lo conoce.",
           "eje": [
             "venta"
@@ -594,6 +613,7 @@
         {
           "id": "pipeline-7-campos",
           "nombre": "Pipeline de siete campos",
+          "nivel": "2",
           "para_quien": "Se le asigna a todo founder que ya tiene consultas entrando y las maneja de memoria.",
           "eje": [
             "venta",
@@ -624,6 +644,7 @@
         {
           "id": "prospeccion-y-recontacto",
           "nombre": "Recontacto de la base y prospección directa",
+          "nivel": "2",
           "para_quien": "Cuando el founder necesita ventas en sesenta días y el contenido solo no llega a tiempo.",
           "eje": [
             "venta",
@@ -654,6 +675,7 @@
         {
           "id": "llamada-de-venta",
           "nombre": "La llamada de venta y el cierre",
+          "nivel": "1",
           "para_quien": "Cuando el founder abre bien las conversaciones y se le caen al final.",
           "eje": [
             "venta"
@@ -683,6 +705,7 @@
         {
           "id": "propuesta-comercial",
           "nombre": "Propuesta comercial con esqueleto fijo",
+          "nivel": "2",
           "para_quien": "Cuando el founder arma cada presupuesto de cero y tarda días en mandarlo.",
           "eje": [
             "venta",
@@ -712,6 +735,7 @@
         {
           "id": "setter-closer",
           "nombre": "Sumar un setter o un closer",
+          "nivel": "3",
           "para_quien": "Cuando el volumen de conversaciones pasa lo que el founder puede atender solo, o cuando el cierre se le escapa siempre en el mismo lugar.",
           "eje": [
             "venta"
@@ -747,6 +771,7 @@
         {
           "id": "onboarding-y-roadmap-cliente",
           "nombre": "Onboarding a 48 horas y roadmap para el cliente",
+          "nivel": "1",
           "para_quien": "Cuando la venta cae y a partir de ahí el founder improvisa.",
           "eje": [
             "entrega"
@@ -776,6 +801,7 @@
         {
           "id": "auditoria-del-programa",
           "nombre": "Auditoría del programa que ya vendés",
+          "nivel": "2",
           "para_quien": "Cuando el founder ya vende un programa o una formación y hay que reordenarlo, subirle el precio o partirlo en niveles, pero nadie tiene escrito en un solo lugar todo lo que se entrega adentro.",
           "eje": [
             "entrega"
@@ -805,6 +831,7 @@
         {
           "id": "funnel-de-servicio",
           "nombre": "Funnel de servicio y escalera de valor",
+          "nivel": "troncal",
           "para_quien": "Cuando el founder ya tiene cliente ideal, oferta y ángulos, y antes de salir a buscar más gente hay que ver qué pasa con el cliente después de que compra.",
           "eje": [
             "entrega",
@@ -831,6 +858,7 @@
         {
           "id": "proceso-entrega-repetible",
           "nombre": "Productización del servicio",
+          "nivel": "2",
           "para_quien": "Cuando cada cliente se entrega distinto, la propuesta se arma de cero cada vez y todo depende de que el founder esté arriba.",
           "eje": [
             "entrega"
@@ -859,6 +887,7 @@
         {
           "id": "alcance-por-escrito",
           "nombre": "Alcance del servicio por escrito",
+          "nivel": "2",
           "para_quien": "Cuando el cliente pide cosas que nunca se cotizaron y el founder las hace igual.",
           "eje": [
             "entrega",
@@ -889,6 +918,7 @@
         {
           "id": "ciclo-y-continuidad",
           "nombre": "Cierre de ciclo y venta de continuidad",
+          "nivel": "2",
           "para_quien": "Cuando el founder tiene clientes en mensualidad abierta y ninguna conversación de renovación.",
           "eje": [
             "entrega",
@@ -925,6 +955,7 @@
         {
           "id": "os-en-notion",
           "nombre": "El OS del negocio en Notion",
+          "nivel": "3",
           "para_quien": "Se le asigna a todo founder que tiene la información repartida en planillas, chats y cabezas.",
           "eje": [
             "entrega"
@@ -953,6 +984,7 @@
         {
           "id": "cadencia-y-duenos",
           "nombre": "Duenos y cadencia de revisión",
+          "nivel": "2",
           "para_quien": "Cuando el founder ya tiene equipo o colaboradores y las cosas salen cuando salen.",
           "eje": [
             "entrega",
@@ -982,6 +1014,7 @@
         {
           "id": "contratar-primer-rol",
           "nombre": "Contratar la primera persona",
+          "nivel": "2",
           "para_quien": "Cuando el founder llegó al techo de sus propias horas y lo que lo ocupa no necesita su criterio, sino su tiempo.",
           "eje": [
             "entrega"
@@ -1011,6 +1044,7 @@
         {
           "id": "delegar-produccion",
           "nombre": "Delegar la producción sin perder calidad",
+          "nivel": "3",
           "para_quien": "Cuando el founder sigue editando o produciendo y por eso no tiene horas para lo de arriba.",
           "eje": [
             "entrega",
@@ -1041,6 +1075,7 @@
         {
           "id": "diario-administrativo",
           "nombre": "Diario administrativo y cierre mensual",
+          "nivel": "3",
           "para_quien": "Cuando el founder no sabe con precisión qué entró, qué salió y cuánto le queda.",
           "eje": [
             "entrega"
@@ -1075,6 +1110,7 @@
         {
           "id": "base-de-datos-unica",
           "nombre": "Una sola base de datos, y para qué sirve",
+          "nivel": "2",
           "para_quien": "Cuando la información de clientes y ventas vive en varios lugares y nadie la puede filtrar sin ayuda.",
           "eje": [
             "venta",
@@ -1105,6 +1141,7 @@
         {
           "id": "captura-y-seguimiento",
           "nombre": "Captura automatica y seguimiento por mail",
+          "nivel": "3",
           "para_quien": "Cuando el contenido trae gente y esa gente se pierde porque nadie la registra ni le vuelve a escribir.",
           "eje": [
             "demanda",
@@ -1135,6 +1172,7 @@
         {
           "id": "landing-que-convierte",
           "nombre": "La landing que recibe la demanda",
+          "nivel": "2",
           "para_quien": "Cuando el founder manda tráfico a una página que no pide nada o que pide en el lugar equivocado.",
           "eje": [
             "demanda",
@@ -1165,6 +1203,7 @@
         {
           "id": "dashboard-embudo",
           "nombre": "Dashboard del embudo",
+          "nivel": "3",
           "para_quien": "Cuando el founder ya tiene contenido, conversaciones y ventas, y no sabe cuál de los tres se le está cayendo.",
           "eje": [
             "demanda",
@@ -1195,6 +1234,7 @@
         {
           "id": "informes-con-ia",
           "nombre": "Leer el negocio con IA",
+          "nivel": "3",
           "para_quien": "Cuando el founder tiene información cargada y sigue decidiendo de memoria.",
           "eje": [
             "venta",
@@ -1231,6 +1271,7 @@
         {
           "id": "pasaporte-digital",
           "nombre": "Pasaporte digital",
+          "nivel": "1",
           "para_quien": "Cuando el founder necesita su diferencial en la comunicación y los Founder Insights no alcanzan.",
           "eje": [
             "contenido"
@@ -1259,6 +1300,7 @@
         {
           "id": "identidad-y-arco-narrativo",
           "nombre": "Identidad y arco narrativo",
+          "nivel": "3",
           "para_quien": "Cuando el founder cambia de mensaje todas las semanas y nada se acumula.",
           "eje": [
             "contenido",
@@ -1288,6 +1330,7 @@
         {
           "id": "direccion-visual",
           "nombre": "Dirección visual y separación de cuentas",
+          "nivel": "3",
           "para_quien": "Cuando la estética cambia en cada pieza, o cuando dos marcas comparten la misma cuenta.",
           "eje": [
             "contenido"
@@ -1317,6 +1360,7 @@
         {
           "id": "narrativa-de-video",
           "nombre": "Narrativa y producción de video",
+          "nivel": "3",
           "para_quien": "Cuando el founder quiere producir video propio y cada pieza le cuesta como un proyecto de cliente.",
           "eje": [
             "contenido"
@@ -1399,5 +1443,11 @@
     "El dashboard del embudo está prometido en la oferta para el mes 3. La carta y la plantilla ya dicen qué mide, de dónde sale cada número y quién lo carga; lo que queda es que Bianca, Lucca, Nico y Sofía lo armen con sus propios datos para llegar al cierre con números y no con impresiones.",
     "Los módulos de estructura que nadie pide en la venta son los que más aparecen en los casos: sociedad y roles, foco y ventana, dueños y cadencia. Agostina, Sol, Manu y Antonio se frenaron ahí antes que en la oferta o en el contenido, y ahora se asignan como cualquier otra carta.",
     "Cuatro módulos salen de cómo Cáscara trabaja adentro: OS en Notion, diario administrativo, cadencia de planificación mensual con revisión de medio mes, y leer el negocio con IA. Son los que más rápido cambian el día a día del founder, porque corren sin que haya vendido nada primero."
-  ]
+  ],
+  "niveles": {
+    "troncal": "Las que con 90 días alcanzan para dar el servicio por hecho. Las recibe todo cliente.",
+    "1": "Las que casi todos necesitan después de las troncales.",
+    "2": "Se asignan según el cuello de cada caso.",
+    "3": "Puntuales o add-on: se suman cuando el caso lo pide."
+  }
 }
