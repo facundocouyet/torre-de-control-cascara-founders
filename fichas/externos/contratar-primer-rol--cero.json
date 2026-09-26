@@ -3,21 +3,21 @@
   "slug": "cero",
   "cliente": "Cero (Tomi y Gasti)",
   "nombre": "Contratar editores y diseñadores",
-  "bajada": "Los dos roles escritos antes de salir a buscar, cada búsqueda publicada con su formulario para recibir postulaciones, y una prueba paga sobre trabajo real. Con los tarifarios de Cáscara para saber qué pagar.",
-  "lista_cuando": "Los dos formularios están publicados, el link circula en historias y hay postulaciones adentro para elegir.",
+  "bajada": "Los dos roles escritos antes de salir a buscar, la búsqueda publicada con un formulario que recibe las postulaciones de editores y diseñadores, y una prueba paga sobre trabajo real. Con los tarifarios de Cáscara para saber qué pagar.",
+  "lista_cuando": "El formulario está publicado, el link circula en historias y hay postulaciones adentro para elegir.",
   "para_quien": "Cuando lo que ocupa las horas de ustedes necesita su tiempo más que su criterio: editar y diseñar piezas que ya están pensadas.",
   "pasos": [
     "Separar lo que delegan de lo que se queda con ustedes, sin medir horas: lo que otro puede hacer sin que cambie el resultado.",
     "Escribir los dos roles antes de buscar: propósito, responsabilidades, qué entrega cada uno y a quién le reporta.",
     "Sacar el número con los tarifarios de Cáscara de edición y de diseño, que se cobran por pieza y por nivel.",
-    "Duplicar los formularios de postulación de Cáscara: uno para editores y uno para diseñadores.",
-    "Publicar cada búsqueda con tres historias que terminan en un handraiser, con fecha de cierre.",
+    "Publicar el formulario que ya les dejamos armado en su Cero OS: uno solo para editores y diseñadores.",
+    "Publicar la búsqueda con tres historias que terminan en un handraiser, con fecha de cierre.",
     "Mandar una prueba paga sobre trabajo real antes de dar responsabilidad."
   ],
   "bajada_envio": {
     "founder": "Tomi y Gasti",
     "porque": "Ya decidieron sumar editores y diseñadores. Esta carta es para que esa búsqueda salga ordenada desde el primer día: con el rol claro, el número hecho y un formulario que reciba a la gente, en vez de arrancar por mensajes sueltos y referidos.",
-    "objetivo": "Los dos formularios publicados, las historias en la cuenta personal que más tráfico tiene y postulaciones adentro para elegir a quién mandarle la prueba paga.",
+    "objetivo": "El formulario publicado, las historias en la cuenta personal que más tráfico tiene y postulaciones adentro para elegir a quién mandarle la prueba paga.",
     "mindset": "Busquen con la plata de hoy, no con la del lanzamiento. Y la primera entrega de otra persona va a salir distinta a la de ustedes: eso se corrige con el brief, no rehaciéndola."
   },
   "secciones": [
@@ -35,7 +35,10 @@
       "titulo": "Qué delegan y qué les queda",
       "consigna": "Dos columnas. A la izquierda lo que sale de las manos de ustedes, a la derecha lo que se queda porque ahí el criterio es el producto. Tres o cuatro líneas de cada lado alcanzan.",
       "campo": "tabla",
-      "columnas": ["Lo que delegamos", "Lo que nos queda a nosotros"],
+      "columnas": [
+        "Lo que delegamos",
+        "Lo que nos queda a nosotros"
+      ],
       "filas": 4,
       "cid": 1
     },
@@ -43,9 +46,18 @@
       "titulo": "Los dos roles, escritos antes de buscar",
       "consigna": "Una columna por rol. Si algo no entra en una línea o dos, el rol todavía no está definido y la búsqueda va a traer gente que no encaja. En la última fila, para cuál de sus marcas trabaja.",
       "campo": "tabla",
-      "columnas": ["Editor/a", "Diseñador/a"],
+      "columnas": [
+        "Editor/a",
+        "Diseñador/a"
+      ],
       "filas": 5,
-      "filas_rotulo": ["Propósito, en una frase", "Tres a cinco responsabilidades", "Qué entrega por semana", "A quién le reporta", "Para qué marca trabaja"],
+      "filas_rotulo": [
+        "Propósito, en una frase",
+        "Tres a cinco responsabilidades",
+        "Qué entrega por semana",
+        "A quién le reporta",
+        "Para qué marca trabaja"
+      ],
       "cid": 2
     },
     {
@@ -75,14 +87,13 @@
     },
     {
       "nuestro": true,
-      "titulo": "Los formularios, listos para duplicar",
+      "titulo": "El formulario, ya armado en su Cero OS",
       "texto": [
-        "No armen un formulario de cero. Usen los nuestros: son los mismos con los que Cáscara recibe editores y diseñadores, y ya están probados en volumen.",
-        "<b>Editores.</b> Listo para duplicar en su Notion: <a href=\"https://flowery-beryllium-0df.notion.site/2d8511e68cad80d1a544ff1c7347a949\" target=\"_blank\" rel=\"noopener\"><b>Editors Hiring Form</b></a>. Trae datos de contacto, portfolio, el nivel de edición en el que se ubica cada uno —con las descripciones escritas para que nadie se sobrevalúe—, herramientas, disponibilidad semanal y pretensión por pieza.",
-        "<b>Diseñadores.</b> Estos son los campos del nuestro: nombre, mail, WhatsApp, país y ciudad; el rol al que aplica (dejen solo los que buscan: diseño gráfico, UX/UI, 3D o AI creative); nivel de experiencia; link al portfolio; herramientas que usa; disponibilidad (full-time, part-time o freelance por proyecto); el proyecto del que está más orgulloso y por qué; cómo avanza cuando recibe un brief poco claro; y una vez que recibió un feedback difícil. Esas tres últimas son las que más dicen.",
-        "Del lado de ustedes, sumen dos columnas que el postulante no ve: el estado (en revisión, contactar, descalificado) y una valoración. Las postulaciones caen solas en una base y quedan ahí para comparar. El link de cada formulario es el que va en las historias."
+        "No hace falta armar nada. Les dejamos un formulario en su Cero OS, en <b>Contenido → Búsqueda de editores y diseñadores</b>. Es uno solo para los dos roles, y sale de los que usamos en Cáscara para recibir editores y diseñadores.",
+        "Cada postulante marca a qué se postula (edición, diseño o las dos) y se ubica en un nivel de cada una, con los niveles descritos para que nadie se sobrevalúe. Además deja contacto, portfolio, qué piezas hace, herramientas, disponibilidad, qué busca y su tarifa por pieza. Y tres preguntas que son las que más dicen: la pieza que más lo representa y por qué, cómo avanza con un brief poco claro, y una vez que recibió un feedback difícil.",
+        "Las postulaciones caen solas en la base de esa misma página. La vista <b>Por rol</b> separa editores de diseñadores, y la vista <b>Proceso</b> los ordena por estado: sin revisar, en revisión, prueba paga, contratado o descartado. Las columnas de estado, valoración y notas son de ustedes: el postulante no las ve.",
+        "Lo único que falta es publicarlo: en la vista del formulario, <b>Compartir → cualquiera con el link</b>. Ese link es el que va en las historias."
       ],
-      "pregunta": "¿Se los mandamos duplicados o prefieren armarlos ustedes con estos campos?",
       "cid": 5
     },
     {
@@ -90,20 +101,27 @@
       "titulo": "Cómo se publica: el handraiser",
       "texto": [
         "Un aviso suelto no trae postulaciones. Lo que trae gente es una secuencia corta de historias que termina en una acción concreta, que es lo que en Cáscara llamamos un handraiser: alguien levanta la mano y ahí empieza la conversación.",
-        "<b>Las tres historias van el mismo día, una atrás de la otra.</b><br>· <b>Primera</b> — selfie contando el momento real: qué están produciendo y por qué ya no entra en sus horas. Sin pedir nada todavía. Esto es lo que hace que la gente escuche.<br>· <b>Segunda</b> — qué buscan, concreto: qué tipo de piezas, cuántas por semana, con qué nivel. Y una encuesta o una caja de preguntas para que la gente toque.<br>· <b>Tercera</b> — el link del formulario, con la fecha de cierre de la convocatoria.",
+        "<b>Las tres historias van el mismo día, una atrás de la otra.</b><br>· <b>Primera</b> — selfie contando el momento real: qué están produciendo y por qué ya no entra en sus horas. Sin pedir nada todavía. Esto es lo que hace que la gente escuche.<br>· <b>Segunda</b> — qué buscan, concreto: editores para qué piezas, diseñadores para qué piezas, cuántas por semana y con qué nivel. Y una encuesta o una caja de preguntas para que la gente toque.<br>· <b>Tercera</b> — el link del formulario, con la fecha de cierre de la convocatoria.",
         "Van seguidas y el mismo día porque las historias duran veinticuatro horas: repartidas en tres días, cada una la ve una audiencia distinta y la secuencia se corta.",
-        "Como buscan dos roles, hagan una secuencia por rol, en días distintos: cada una termina en su propio formulario y las postulaciones no se mezclan.",
+        "Con un solo formulario alcanza una sola secuencia para los dos roles: en la segunda historia cuentan qué buscan de cada lado, y el formulario ya pregunta a qué se postula cada uno.",
         "Va en la cuenta personal que más tráfico tiene, la de Tomi o la de Gasti, no en la de la marca. El link va en las tres historias, porque la gente entra en cualquiera de ellas. Después, a los que levantaron la mano se les escribe por privado: ahí se conversa."
       ],
       "cid": 6
     },
     {
       "titulo": "Sus historias",
-      "consigna": "Una secuencia por rol. Una línea de qué muestran en cada historia y qué piden. En la tercera de cada una va el link del formulario y la fecha de cierre.",
+      "consigna": "Escriban las tres, en orden. Van todas el mismo día, seguidas: una línea de qué muestran en cada una y qué piden. En la tercera va el link del formulario y la fecha de cierre de la convocatoria.",
       "campo": "tabla",
-      "columnas": ["Qué muestran", "Qué piden"],
-      "filas": 6,
-      "filas_rotulo": ["Editores · primera", "Editores · segunda", "Editores · tercera", "Diseño · primera", "Diseño · segunda", "Diseño · tercera"],
+      "columnas": [
+        "Qué muestran",
+        "Qué piden"
+      ],
+      "filas": 3,
+      "filas_rotulo": [
+        "Primera",
+        "Segunda",
+        "Tercera"
+      ],
       "cid": 7
     },
     {
@@ -127,5 +145,7 @@
       ],
       "cid": 9
     }
-  ]
+  ],
+  "marca": "Cero",
+  "archivo": "contratar-editores-y-disenadores"
 }
