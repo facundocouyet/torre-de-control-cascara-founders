@@ -20,7 +20,7 @@
   "metrica",
   "pregunta"
  ],
- "total": 10,
+ "total": 11,
  "entradas": [
   {
    "id": "2026-09-23-cero-suma-un-rol-operativo",
@@ -231,6 +231,29 @@
    "titulo": "¿El inicio de la torre muestra de quién es la pelota en vez del puntaje promedio?",
    "cuerpo": "Facu preguntó si los números del tablero indican cosas importantes. El puntaje se mueve una vez por\nmes y en un tablero diario no dice qué hacer. La propuesta: cinco bloques (lo que le toca a Facu\ncon fecha, de quién es la pelota en cada cliente, los momentos donde entra plata, qué termina y qué\nse puede vender, y una sola alerta de sin noticias), con el puntaje adentro de cada cliente. Falta\nque Facu diga que sí.",
    "archivo": "registro/2026/09/2026-09-26-el-inicio-de-la-torre-muestra-la-pelota.md"
+  },
+  {
+   "id": "2026-09-26-el-repo-pasa-a-privado",
+   "fecha": "2026-09-26",
+   "tipo": "decision",
+   "depto": "sistemas",
+   "sobre": [
+    "cerebro",
+    "torre-de-control"
+   ],
+   "quien": [
+    "facu"
+   ],
+   "temas": [
+    "privacidad",
+    "github"
+   ],
+   "fuente": "Conversación de Facu en Cowork, 26/9",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "El repo de la torre pasa a privado la semana del 28/9, antes de subir el cerebro",
+   "cuerpo": "El repo es público y el cerebro va a tener decisiones, criterio y números de clientes. Facu decidió\npasarlo a privado la semana que viene. Hasta entonces, el cerebro no se sube a GitHub.",
+   "archivo": "registro/2026/09/2026-09-26-el-repo-pasa-a-privado.md"
   },
   {
    "id": "2026-09-26-frenado-es-alerta-de-seguimiento",
