@@ -134,12 +134,6 @@
       "quien": "Sol y Fede, con los materiales de Facu"
     },
     {
-      "cuando": "Semana del 15 de septiembre",
-      "objetivo": "Abrir la auditoría de oferta",
-      "entregable": "La llamada con Franco, ya con la lista de clientes y el documento de responsabilidades arriba. De ahí salen el nicho, el cliente ideal y el armado de la oferta. El criterio ya está puesto: se vende estrategia primero, en procesos de 3 meses, y el costo se multiplica por dos como piso.",
-      "quien": "Sol y Fede con Franco"
-    },
-    {
       "cuando": "Del 15 al 23 de septiembre",
       "objetivo": "Mudar la operación a Notion y ordenar la administración",
       "entregable": "El template del OS de Cáscara duplicado en el espacio de BeMotion, una página por cliente con el calendario adentro y los estados configurados. En paralelo, el diario administrativo cargado con ingresos, egresos y la explicación de cada movimiento, con cierre mensual y pagos del 1 al 10.",
@@ -156,6 +150,12 @@
       "objetivo": "Elegir al editor y elegir el cliente de prueba",
       "entregable": "Entrevistas a los que llegaron por el formulario, prueba paga y recién después responsabilidad. El cliente de prueba es uno de los que hoy no las entusiasma, justamente para eso, y su edición queda delegada antes de fin de mes.",
       "quien": "Sol y Fede"
+    },
+    {
+      "cuando": "Semana del 29 de septiembre",
+      "objetivo": "Abrir la auditoría de oferta",
+      "entregable": "La llamada con Franco, ya con el esquema de clientes arriba (llegó el 25/9) y, dos días antes, los datos de DLA, los proyectos puntuales y el documento de responsabilidades. De ahí salen el nicho, el cliente ideal y el armado de la oferta. El criterio ya está puesto: se vende estrategia primero, en procesos de 3 meses, y el costo se multiplica por dos como piso.",
+      "quien": "Sol y Fede con Franco"
     },
     {
       "cuando": "3 de octubre",
@@ -182,6 +182,7 @@
       "cliente": [
         "Pasarle a Facu la lista de clientes: la mandó el 25/9, con el esquema de BeMotion",
         "Pasarle el documento de qué resuelve cada socia en cada cliente, que ya lo tenían escrito a mano antes de la llamada",
+        "Pasarle a Facu los datos de DLA (piezas, pauta y horas) y cuánto suman los proyectos puntuales en un mes típico, dos días antes de la llamada con Franco",
         "Subir el ciclo de historias en la cuenta personal de Sol para reclutar editores, entrevistar a los que llegan y pedirles una prueba antes de darles responsabilidad",
         "Elegir un cliente de prueba y delegarle la edición",
         "Duplicar el template de Notion, armar una página por cliente y pasar ahí los calendarios",
@@ -194,7 +195,7 @@
         "Facu manda la plantilla de diario administrativo de Cáscara",
         "Facu manda la lista de tareas y el SOP del profile funnel de Instagram",
         "Facu les pasa un formulario de postulación de editores como referencia, y el tarifario de edición",
-        "La llamada siguiente es con Franco, para abrir la auditoría de oferta"
+        "La llamada con Franco para abrir la auditoría de oferta, en la semana del 29 de septiembre"
       ]
     },
     {
