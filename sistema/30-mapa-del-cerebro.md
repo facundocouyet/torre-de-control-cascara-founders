@@ -115,3 +115,30 @@ Resumen de la columna "Encaja" de arriba. Tienen tabla y el plan ya las cubre: h
 - **Paso 5:** fijar el nombre de los canales antes de crearlos.
 - **Paso 7:** el reporte usa la definición de ritmo de arriba, y el agente de n8n se queda solo con Founders; el de Cáscara entera sigue en el Claude de Facu.
 - **Falta en el plan:** un flujo de Calendar para la próxima sesión, los estados de revisión de la carta con su aviso al CSM, y reemplazar `agente/prompt-agente.md` por el prompt que corre.
+
+---
+
+## Actualización 26/9, 19:07 · lo que resolvió Teo en la base
+
+Teo confirmó por WhatsApp que la base ya tiene lo que pedía este mapa. Con esto se cierran los puntos 1, 2 y 3 de la sección 4.
+
+1. **Cartas personalizadas: resuelto.** `cartas` tiene `cliente_slug`, `variante_de` y `url`. Cada cliente ve las genéricas y las suyas, nunca las de otro. `cliente_slug` no está atado a `clientes`, así que las versiones suben aunque el cliente no esté cargado. Teo sacó su carga de cartas desde la base: **la única vía es `sync_cartas.py` desde GitHub.** El script ya usa esas tres columnas; hoy sube 45 genéricas y 22 versiones.
+2. **Estados de revisión: resuelto.** `asignaciones.revision` (`en_revision` / `aprobada` / `con_feedback` / `revisar_en_llamada`), más `revision_feedback`, `revision_por`, `revision_en`, `entregada_en` y `entrega_url`. El cliente solo la puede mandar a revisión; el resto lo cambia el equipo.
+3. **Próxima sesión: resuelto en la base.** `sesiones` tiene `estado` (`agendada` / `realizada` / `cancelada`), `calendar_event_id` y `link_reunion`, y hay una vista `proxima_sesion` con la próxima de cada cliente. **Un cliente sin fila ahí es un cliente sin próximo paso**: es la misma regla del ritmo.
+
+### Dos flujos nuevos para el plan
+
+- **Calendar → sesiones.** Leer los calendarios de Facu, Franco y Segundo, y cargar cada reserva con un cliente como sesión `agendada`. El cliente se identifica por el mail del invitado; `calendar_event_id` evita duplicados. Si se cancela en el calendario, pasa a `cancelada`. Depende de que las fichas tengan el Correo cargado (lo mecánico del barrido).
+- **Aviso de revisión.** Cuando `asignaciones.revision` pasa a `en_revision`, mensaje al canal del CSM con el cliente, la carta y el link de `entrega_url`.
+
+### Accesos para conectar n8n
+
+- **Supabase:** URL `https://hklrjudyhgprzgvfwuph.supabase.co`. La service role key la mandó Teo por un link que se autodestruye: la abre Facu, una sola vez, y la carga directo en n8n y en los secrets del repo (`SUPABASE_URL`, `SUPABASE_SERVICE_KEY`). Nunca en código ni en chats.
+- **Slack:** Teo es admin. La app de n8n necesita estos permisos de bot: `channels:read`, `channels:history`, `groups:read`, `groups:history` (los `cf-` son privados), `chat:write`, `users:read`, `users:read.email` y `files:read`. Además, el bot tiene que estar invitado a cada canal privado que lea.
+- **Notion:** la integración se crea con info@cascaraco.com y se le comparten Cuentas y Llamadas · Founders.
+- **Google Calendar:** para el flujo nuevo hacen falta los calendarios de Facu, Franco y Segundo compartidos con la cuenta que use n8n.
+
+### Dos cosas a coordinar
+
+- **Los canales `cf-` ya existen.** Se crearon el 26/9: 13 privados, con Teo, Azul y Aye adentro. Aye no los tiene que armar el lunes: tiene que sumar a Facu y a los clientes que falten, y que queden igual que `clientes.slug`.
+- **Las URLs de las cartas apuntan a GitHub Pages.** Si el repo pasa a privado con la cuenta gratis, Pages deja de servir y las `url` de `cartas` se rompen en la app. Antes de pasarlo a privado hay que decidir dónde se sirven las cartas.

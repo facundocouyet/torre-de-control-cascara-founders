@@ -20,7 +20,7 @@
   "metrica",
   "pregunta"
  ],
- "total": 14,
+ "total": 16,
  "entradas": [
   {
    "id": "2026-09-23-cero-suma-un-rol-operativo",
@@ -351,6 +351,54 @@
    "titulo": "\"Frenado\" deja de ser un juicio sobre el cliente y pasa a ser una alerta de que no hay noticias",
    "cuerpo": "Facu: \"frenado no debería representar que el cliente no puede lograr ciertos resultados\". Lo que\nimporta es saber si hay novedades: una carta pendiente, una reunión organizada, contacto reciente.\nDesde ahí el ritmo se calcula solo: al día (contacto en 14 días y un próximo paso), sin próximo\npaso, sin noticias (más de 14 días) y en cierre para los que están en sign off. Salió de casos\nconcretos: Lucio y José David estaban marcados como frenados y estaban produciendo.",
    "archivo": "registro/2026/09/2026-09-26-frenado-es-alerta-de-seguimiento.md"
+  },
+  {
+   "id": "2026-09-26-la-base-de-la-app-queda-lista",
+   "fecha": "2026-09-26",
+   "tipo": "decision",
+   "depto": "sistemas",
+   "sobre": [
+    "app-founders"
+   ],
+   "quien": [
+    "teo"
+   ],
+   "temas": [
+    "supabase",
+    "cartas",
+    "sesiones",
+    "revision"
+   ],
+   "fuente": "WhatsApp de Teo a Facu, 26/9 19:07; sistema/30-mapa-del-cerebro.md",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "La base de la app queda lista y las cartas entran solo por el sync de GitHub",
+   "cuerpo": "Teo sumó lo que pedía el mapa del cerebro: `cartas` con `cliente_slug`, `variante_de` y `url` (cada\ncliente ve las genéricas y las suyas), los estados de revisión en `asignaciones` (el cliente solo\nla manda a revisión, el resto lo cambia el equipo) y `sesiones` con estado y la vista\n`proxima_sesion`. Sacó su carga de cartas desde la base: la única vía es `sync_cartas.py`. El\nacceso de clientes sale lunes o martes.",
+   "archivo": "registro/2026/09/2026-09-26-la-base-de-la-app-queda-lista.md"
+  },
+  {
+   "id": "2026-09-26-sin-sesion-agendada-es-sin-proximo-paso",
+   "fecha": "2026-09-26",
+   "tipo": "criterio",
+   "depto": "founders",
+   "sobre": [
+    "app-founders",
+    "torre-de-control"
+   ],
+   "quien": [
+    "teo"
+   ],
+   "temas": [
+    "seguimiento",
+    "sesiones",
+    "calendar"
+   ],
+   "fuente": "WhatsApp de Teo a Facu, 26/9 19:07",
+   "certeza": "dicho",
+   "estado": "vigente",
+   "titulo": "Un cliente sin sesión agendada es un cliente sin próximo paso, y la sesión sale del Calendar",
+   "cuerpo": "\"Un cliente sin fila ahí es un cliente sin próximo paso.\" Es la misma regla del ritmo de la torre,\nahora en la base. Para que funcione, n8n lee los calendarios de Facu, Franco y Segundo y carga\ncada reserva con un cliente como sesión agendada, identificándolo por el mail del invitado. Por\neso el Correo de cada ficha pasa a ser un dato obligatorio.",
+   "archivo": "registro/2026/09/2026-09-26-sin-sesion-agendada-es-sin-proximo-paso.md"
   }
  ]
 }
