@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Contratar editores y diseñadores · Cero</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#ECEAE4;color:#171717;
+  font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.hoja{max-width:880px;margin:0 auto;padding:64px 32px 120px}
+.caja{display:inline-block;border:1px solid #8E8B85;padding:6px 13px;font-size:10.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:#6A6A66}
+h1{font-size:clamp(38px,6vw,58px);font-weight:800;letter-spacing:-.038em;line-height:1.02;
+  margin:28px 0 0;text-wrap:balance}
+.bajada{font-size:21px;line-height:1.5;color:#6A6A66;margin:18px 0 0;max-width:60ch}
+.lista{margin-top:38px;border-top:1px solid #171717;padding-top:20px;display:grid;
+  gap:22px 34px;grid-template-columns:1fr}
+.lista .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.lista .tx{font-size:17px;line-height:1.5;color:#6A6A66;max-width:58ch;margin-top:7px}
+.avance{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;
+  white-space:nowrap;margin-top:22px}
+
+section{margin-top:62px}
+section .n{font-size:11px;letter-spacing:.2em;color:#8E8B85;font-variant-numeric:tabular-nums}
+section h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 0;max-width:62ch}
+
+.pasos{margin-top:26px}
+.paso{display:grid;grid-template-columns:52px minmax(0,1fr);gap:22px;align-items:baseline;
+  border-top:1px solid #DBD7D2;padding:20px 0}
+.paso .p{font-size:20px;font-weight:800;letter-spacing:-.04em;color:#8E8B85;
+  font-variant-numeric:tabular-nums;line-height:1.3}
+.paso .t{font-size:19px;line-height:1.55;max-width:58ch}
+
+.ejemplo{margin-top:22px;border-left:2px solid #DBD7D2;padding:4px 0 4px 20px}
+.ejemplo .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.ejemplo .tx{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:18px;line-height:1.5;color:#6A6A66;margin-top:8px;max-width:62ch}
+
+.campo{margin-top:24px}
+textarea,input[type=text]{width:100%;font:inherit;font-size:18px;line-height:1.55;color:#171717;
+  background:#FBFAF8;border:1px solid #DBD7D2;padding:14px 16px;border-radius:0;
+  transition:border-color .15s}
+textarea{resize:vertical}
+textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
+.lin{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px 18px;align-items:center;
+  border-top:1px solid #DBD7D2;padding:14px 0}
+.lin .rot{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.tabla{width:100%;border-collapse:collapse;margin-top:6px}
+.tabla th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:#6A6A66;font-weight:400;padding:0 10px 10px 0;border-bottom:2px solid #171717}
+.tabla td{padding:0;border-bottom:1px solid #DBD7D2}
+.tabla input{border:0;background:transparent;padding:12px 10px 12px 0}
+.tabla input:focus{background:#FBFAF8}
+.tabla td.rotfila{font-size:17px;font-weight:700;letter-spacing:-.01em;padding:12px 18px 12px 0;white-space:nowrap}
+.envoltorio{overflow-x:auto}
+
+/* lo que ponemos nosotros: texto escrito, no campo para completar */
+.nuestro{margin-top:62px;border-left:3px solid #171717;padding:2px 0 2px 26px}
+.nuestro .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.nuestro h2{font-size:29px;font-weight:800;letter-spacing:-.028em;line-height:1.18;
+  margin:10px 0 0;max-width:26ch}
+.nuestro p{font-size:18.5px;line-height:1.55;margin:16px 0 0;max-width:62ch}
+.nuestro .devuelta{margin-top:26px;border-top:1px solid #DBD7D2;padding-top:18px}
+.nuestro .devuelta .k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+
+.entregables{margin-top:26px}
+.cab{border-bottom:2px solid #171717;padding-bottom:12px}
+.cab .et{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.chk{display:grid;grid-template-columns:26px minmax(0,1fr);gap:18px;align-items:start;
+  border-bottom:1px solid #DBD7D2;padding:18px 0;cursor:pointer}
+.chk .box{position:relative;flex:0 0 auto;width:20px;height:20px;border:2px solid #6A6A66;margin-top:3px}
+.chk .box i{position:absolute;left:4px;top:1px;width:8px;height:14px;
+  border-right:3px solid #171717;border-bottom:3px solid #171717;
+  transform:rotate(45deg) scale(0);transform-origin:center;
+  transition:transform .16s cubic-bezier(.2,1.4,.4,1)}
+.chk.done .box i{transform:rotate(45deg) scale(1)}
+.chk .t{font-size:19px;line-height:1.55;max-width:58ch}
+/* el fibrón pasa por el medio de la letra, y en cada línea del renglón */
+.chk .txt{display:inline;background-repeat:no-repeat;background-position:0 center;background-size:0% 8px;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 10' preserveAspectRatio='none'%3E%3Cpath d='M0 4.2L6 .8L24 6L44 1.2L68 6.6L94 1.4L120 6.2L144 1L170 6.4L192 1.6L200 5L200 9.2L0 8.8Z' fill='%23171717'/%3E%3C/svg%3E");
+  -webkit-box-decoration-break:clone;box-decoration-break:clone;
+  transition:background-size .28s cubic-bezier(.3,.9,.3,1),color .2s}
+.chk.done .txt{background-size:100% 8px;color:#8E8B85}
+.chk:focus-visible{outline:1px solid #171717;outline-offset:4px}
+
+/* la bajada personalizada, cuando se prepara el envío desde la torre */
+.bajada-bloque{margin-top:56px;border:1px solid #171717;padding:30px 28px;background:#FBFAF8}
+.bajada-bloque .tt{font-size:26px;font-weight:800;letter-spacing:-.028em;line-height:1.2}
+.bajada-bloque .sub{font-size:17px;line-height:1.5;color:#6A6A66;margin-top:10px;max-width:58ch}
+.bajada-grilla{display:grid;gap:24px;margin-top:26px;grid-template-columns:1fr!important}
+.bajada-grilla .k{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85;
+  border-top:2px solid #171717;padding-top:14px}
+.bajada-grilla .v{font-size:18.5px;line-height:1.55;margin-top:9px;max-width:58ch}
+
+.acc{position:sticky;bottom:0;background:#ECEAE4;border-top:1px solid #DBD7D2;
+  padding:14px 0;margin-top:62px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.acc button{font:inherit;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  border:1px solid #171717;background:transparent;color:#171717;padding:13px 18px;cursor:pointer}
+.acc button.tinta{background:#171717;color:#ECEAE4}
+.acc button:hover{background:#171717;color:#ECEAE4}
+.acc button.tinta:hover{background:transparent;color:#171717}
+.acc .dicho{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;
+  font-style:italic;font-size:15px;color:#6A6A66}
+
+.pie{margin-top:48px;border-top:1px solid #171717;padding-top:22px;display:flex;
+  justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6A6A66}
+.sello{width:28px;height:28px;border:1.5px solid #171717;display:inline-flex;
+  align-items:center;justify-content:center;font-size:13px;font-weight:800}
+
+@media (max-width:640px){
+  .hoja{padding:40px 20px 90px}
+  .paso{grid-template-columns:38px minmax(0,1fr);gap:14px}
+  .lin{grid-template-columns:1fr;gap:8px}
+  .tabla{min-width:560px}
+  .bajada-bloque{padding:22px 18px}
+}
+@media print{
+  body{background:#fff}
+  .acc{display:none}
+  textarea,input{border-color:#bbb;background:#fff}
+  section{break-inside:avoid;margin-top:40px}
+  .chk{cursor:default}
+}
+</style>
+</head>
+<body data-mod="contratar-primer-rol">
+<div class="hoja">
+<main id="deck">
+<header class="slot">
+  <div class="caja">Carta de módulo · Operaciones, equipo y calendario</div>
+  <h1>Contratar editores y diseñadores</h1>
+  <p class="bajada">Los dos roles escritos antes de salir a buscar, cada búsqueda publicada con su formulario para recibir postulaciones, y una prueba paga sobre trabajo real. Con los tarifarios de Cáscara para saber qué pagar.</p>
+  <div class="lista">
+    <div><div class="et">Cuándo se asigna</div><div class="tx">Cuando lo que ocupa las horas de ustedes necesita su tiempo más que su criterio: editar y diseñar piezas que ya están pensadas.</div></div>
+    <div><div class="et">Está lista cuando</div><div class="tx">Los dos formularios están publicados, el link circula en historias y hay postulaciones adentro para elegir.</div></div>
+  </div>
+  <div class="avance">0 de 4 empezadas</div>
+</header>
+<div class="bajada-bloque">
+  <div class="tt">Por qué esta carta, Tomi y Gasti</div>
+  <div class="sub">Esto lo escribimos para ustedes, sobre lo que venimos viendo en su caso.</div>
+  <div class="bajada-grilla">
+    <div><div class="k">Por qué les toca ahora</div><div class="v">Ya decidieron sumar editores y diseñadores. Esta carta es para que esa búsqueda salga ordenada desde el primer día: con el rol claro, el número hecho y un formulario que reciba a la gente, en vez de arrancar por mensajes sueltos y referidos.</div></div>
+    <div><div class="k">El objetivo concreto</div><div class="v">Los dos formularios publicados, las historias en la cuenta personal que más tráfico tiene y postulaciones adentro para elegir a quién mandarle la prueba paga.</div></div>
+    <div><div class="k">Con qué cabeza encararla</div><div class="v">Busquen con la plata de hoy, no con la del lanzamiento. Y la primera entrega de otra persona va a salir distinta a la de ustedes: eso se corrige con el brief, no rehaciéndola.</div></div>
+  </div>
+</div>
+<section>
+  <div class="n">01</div>
+  <h2>Qué tienen que hacer</h2>
+  <p class="consigna">En este orden. Cada paso se apoya en el anterior, así que no conviene saltear ninguno aunque parezca obvio. Abajo está la hoja para resolverlos, uno por uno.</p>
+  <div class="pasos">
+    <div class="paso"><span class="p">01</span><span class="t">Separar lo que delegan de lo que se queda con ustedes, sin medir horas: lo que otro puede hacer sin que cambie el resultado.</span></div>
+    <div class="paso"><span class="p">02</span><span class="t">Escribir los dos roles antes de buscar: propósito, responsabilidades, qué entrega cada uno y a quién le reporta.</span></div>
+    <div class="paso"><span class="p">03</span><span class="t">Sacar el número con los tarifarios de Cáscara de edición y de diseño, que se cobran por pieza y por nivel.</span></div>
+    <div class="paso"><span class="p">04</span><span class="t">Duplicar los formularios de postulación de Cáscara: uno para editores y uno para diseñadores.</span></div>
+    <div class="paso"><span class="p">05</span><span class="t">Publicar cada búsqueda con tres historias que terminan en un handraiser, con fecha de cierre.</span></div>
+    <div class="paso"><span class="p">06</span><span class="t">Mandar una prueba paga sobre trabajo real antes de dar responsabilidad.</span></div>
+  </div>
+</section>
+<div class="nuestro">
+  <div class="et">Esto lo ponemos nosotros</div>
+  <h2>Lo primero que se delega es lo que no necesita el criterio de ustedes</h2>
+  <p>No hace falta medir la semana hora por hora: casi nadie la tiene medida y la cuenta termina hecha de memoria. Lo que sí saben sin medir nada es qué parte del trabajo podría hacer otro sin que el resultado cambie.</p>
+  <p>Esa es la que se delega primero. En edición y en diseño pasa lo mismo: se llevan horas, son repetitivas, y el criterio que aportan está en el brief que escriben ustedes, no en quien lo ejecuta.</p>
+  <p>Contratar por cansancio termina cubriendo lo que más molesta en vez de lo que más libera. Por eso esto va antes de publicar nada.</p>
+</div>
+<section class="trabajo">
+  <div class="n">02</div>
+  <h2>Qué delegan y qué les queda</h2>
+  <p class="consigna">Dos columnas. A la izquierda lo que sale de las manos de ustedes, a la derecha lo que se queda porque ahí el criterio es el producto. Tres o cuatro líneas de cada lado alcanzan.</p>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Lo que delegamos</th><th>Lo que nos queda a nosotros</th></tr></thead>
+      <tbody>
+        <tr><td><input type="text" data-c="s1f0c0"></td><td><input type="text" data-c="s1f0c1"></td></tr>
+        <tr><td><input type="text" data-c="s1f1c0"></td><td><input type="text" data-c="s1f1c1"></td></tr>
+        <tr><td><input type="text" data-c="s1f2c0"></td><td><input type="text" data-c="s1f2c1"></td></tr>
+        <tr><td><input type="text" data-c="s1f3c0"></td><td><input type="text" data-c="s1f3c1"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<section class="trabajo">
+  <div class="n">03</div>
+  <h2>Los dos roles, escritos antes de buscar</h2>
+  <p class="consigna">Una columna por rol. Si algo no entra en una línea o dos, el rol todavía no está definido y la búsqueda va a traer gente que no encaja. En la última fila, para cuál de sus marcas trabaja.</p>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Editor/a</th><th>Diseñador/a</th></tr></thead>
+      <tbody>
+        <tr><td class="rotfila">Propósito, en una frase</td><td><input type="text" data-c="s2f0c1"></td></tr>
+        <tr><td class="rotfila">Tres a cinco responsabilidades</td><td><input type="text" data-c="s2f1c1"></td></tr>
+        <tr><td class="rotfila">Qué entrega por semana</td><td><input type="text" data-c="s2f2c1"></td></tr>
+        <tr><td class="rotfila">A quién le reporta</td><td><input type="text" data-c="s2f3c1"></td></tr>
+        <tr><td class="rotfila">Para qué marca trabaja</td><td><input type="text" data-c="s2f4c1"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<div class="nuestro">
+  <div class="et">Esto lo ponemos nosotros</div>
+  <h2>Qué pagar: los tarifarios de Cáscara</h2>
+  <p>Estos son los números con los que trabajamos nosotros, para que hagan la cuenta con una referencia real. Se cobra <b>por pieza</b>, no por hora, y el nivel lo marca la complejidad del pedido, no la persona.</p>
+  <p><b>Edición de video.</b><br><b>Short form, hasta 59 segundos:</b> fast reel 12 dólares · simple 25 · avanzado 40 · pro 80.<br><b>Long form, hasta 15 minutos:</b> simple 60 · avanzado 100 · pro 150, más un adicional por minuto extra.<br><b>Podcast, hasta 40 minutos:</b> simple 120 · avanzado 150.<br><b>Clases o charlas de una hora:</b> simple 50 · avanzado 80.<br><b>Adaptaciones y reducciones:</b> simple 12 · avanzada 20.<br>El detalle de cada nivel está en el <a href="https://app.notion.com/p/Tarifario-P-blico-Edici-n-de-video-382511e68cad80d384ebcc37db03e73c?source=copy_link" target="_blank" rel="noopener"><b>tarifario público de edición</b></a>.</p>
+  <p><b>Diseño.</b> Tres niveles: <b>simple</b> cuando el guion y los recursos ya vienen dados y el trabajo es ordenar, jerarquizar y aplicar identidad; <b>intermedio</b> cuando el diseñador resuelve parte del universo visual, con búsqueda de imágenes, recortes o texturas; <b>avanzado</b> cuando hace falta una propuesta visual completa a partir de una idea abierta.<br><b>Post de una placa:</b> simple 20 dólares · intermedio 40 · avanzado 60.<br><b>Carrusel de 2 a 6 placas:</b> simple 40 · intermedio 70 · avanzado 100. Desde la séptima placa, 5, 10 o 15 más por placa según el nivel.<br><b>Miniatura de YouTube:</b> 20.<br><b>PDF o presentación de hasta 10 páginas:</b> simple 30 · intermedio 70 · avanzado 150.</p>
+  <p>Para sacar el número: cuántas piezas por semana necesitan, por el valor del nivel que les sirve, por cuatro. Cinco reels simples por semana son unos quinientos dólares al mes; tres carruseles intermedios por semana, unos ochocientos cuarenta.</p>
+  <p>Dos cosas que conviene dejar dichas desde el principio, en los dos roles: el precio incluye hasta tres rondas de corrección, y la urgencia se cobra aparte, un 30% más sobre el pedido. Escribirlo antes evita la conversación incómoda después.</p>
+</div>
+<section class="trabajo">
+  <div class="n">04</div>
+  <h2>El número que pueden sostener todos los meses</h2>
+  <p class="consigna">Contraten con el negocio de hoy: la cifra que pueden pagar doce meses seguidos aunque no entre un cliente nuevo. Si los roles trabajan para más de una marca, escriban de cuál sale la plata y en qué proporción.</p>
+    <div class="campo">
+      <div class="lin"><span class="rot">Edición: cuántas piezas por semana y de qué nivel</span><input type="text" data-c="s4l0" placeholder=""></div>
+      <div class="lin"><span class="rot">Diseño: cuántas piezas por semana y de qué nivel</span><input type="text" data-c="s4l1" placeholder=""></div>
+      <div class="lin"><span class="rot">Cuánto da al mes, entre los dos roles</span><input type="text" data-c="s4l2" placeholder=""></div>
+      <div class="lin"><span class="rot">De qué marca sale esa plata, y en qué proporción</span><input type="text" data-c="s4l3" placeholder=""></div>
+      <div class="lin"><span class="rot">Día de pago</span><input type="text" data-c="s4l4" placeholder=""></div>
+    </div>
+</section>
+<div class="nuestro">
+  <div class="et">Esto lo ponemos nosotros</div>
+  <h2>Los formularios, listos para duplicar</h2>
+  <p>No armen un formulario de cero. Usen los nuestros: son los mismos con los que Cáscara recibe editores y diseñadores, y ya están probados en volumen.</p>
+  <p><b>Editores.</b> Listo para duplicar en su Notion: <a href="https://flowery-beryllium-0df.notion.site/2d8511e68cad80d1a544ff1c7347a949" target="_blank" rel="noopener"><b>Editors Hiring Form</b></a>. Trae datos de contacto, portfolio, el nivel de edición en el que se ubica cada uno —con las descripciones escritas para que nadie se sobrevalúe—, herramientas, disponibilidad semanal y pretensión por pieza.</p>
+  <p><b>Diseñadores.</b> Estos son los campos del nuestro: nombre, mail, WhatsApp, país y ciudad; el rol al que aplica (dejen solo los que buscan: diseño gráfico, UX/UI, 3D o AI creative); nivel de experiencia; link al portfolio; herramientas que usa; disponibilidad (full-time, part-time o freelance por proyecto); el proyecto del que está más orgulloso y por qué; cómo avanza cuando recibe un brief poco claro; y una vez que recibió un feedback difícil. Esas tres últimas son las que más dicen.</p>
+  <p>Del lado de ustedes, sumen dos columnas que el postulante no ve: el estado (en revisión, contactar, descalificado) y una valoración. Las postulaciones caen solas en una base y quedan ahí para comparar. El link de cada formulario es el que va en las historias.</p>
+  <div class="devuelta"><div class="k">¿Se los mandamos duplicados o prefieren armarlos ustedes con estos campos?</div>
+    <div class="campo"><textarea data-c="s5" rows="3"></textarea></div>
+  </div>
+</div>
+<div class="nuestro">
+  <div class="et">Esto lo ponemos nosotros</div>
+  <h2>Cómo se publica: el handraiser</h2>
+  <p>Un aviso suelto no trae postulaciones. Lo que trae gente es una secuencia corta de historias que termina en una acción concreta, que es lo que en Cáscara llamamos un handraiser: alguien levanta la mano y ahí empieza la conversación.</p>
+  <p><b>Las tres historias van el mismo día, una atrás de la otra.</b><br>· <b>Primera</b> — selfie contando el momento real: qué están produciendo y por qué ya no entra en sus horas. Sin pedir nada todavía. Esto es lo que hace que la gente escuche.<br>· <b>Segunda</b> — qué buscan, concreto: qué tipo de piezas, cuántas por semana, con qué nivel. Y una encuesta o una caja de preguntas para que la gente toque.<br>· <b>Tercera</b> — el link del formulario, con la fecha de cierre de la convocatoria.</p>
+  <p>Van seguidas y el mismo día porque las historias duran veinticuatro horas: repartidas en tres días, cada una la ve una audiencia distinta y la secuencia se corta.</p>
+  <p>Como buscan dos roles, hagan una secuencia por rol, en días distintos: cada una termina en su propio formulario y las postulaciones no se mezclan.</p>
+  <p>Va en la cuenta personal que más tráfico tiene, la de Tomi o la de Gasti, no en la de la marca. El link va en las tres historias, porque la gente entra en cualquiera de ellas. Después, a los que levantaron la mano se les escribe por privado: ahí se conversa.</p>
+</div>
+<section class="trabajo">
+  <div class="n">05</div>
+  <h2>Sus historias</h2>
+  <p class="consigna">Una secuencia por rol. Una línea de qué muestran en cada historia y qué piden. En la tercera de cada una va el link del formulario y la fecha de cierre.</p>
+    <div class="campo envoltorio"><table class="tabla">
+      <thead><tr><th>Qué muestran</th><th>Qué piden</th></tr></thead>
+      <tbody>
+        <tr><td class="rotfila">Editores · primera</td><td><input type="text" data-c="s7f0c1"></td></tr>
+        <tr><td class="rotfila">Editores · segunda</td><td><input type="text" data-c="s7f1c1"></td></tr>
+        <tr><td class="rotfila">Editores · tercera</td><td><input type="text" data-c="s7f2c1"></td></tr>
+        <tr><td class="rotfila">Diseño · primera</td><td><input type="text" data-c="s7f3c1"></td></tr>
+        <tr><td class="rotfila">Diseño · segunda</td><td><input type="text" data-c="s7f4c1"></td></tr>
+        <tr><td class="rotfila">Diseño · tercera</td><td><input type="text" data-c="s7f5c1"></td></tr>
+      </tbody>
+    </table></div>
+</section>
+<div class="nuestro">
+  <div class="et">Esto lo ponemos nosotros</div>
+  <h2>La prueba se paga, siempre</h2>
+  <p>De los que se postulen, elijan dos o tres por rol y mándenles trabajo real: un reel que iban a publicar igual, un carrusel que ya tiene guion. No un ejercicio inventado.</p>
+  <p>Se paga, siempre, aunque no quede, con el valor del tarifario. Una prueba gratis trae a los que no tienen trabajo; una prueba paga trae a los que sí lo tienen y los eligen igual.</p>
+  <p>Fecha de entrega corta, de dos o tres días, y lo que van a mirar decídanlo antes de mandarla: si respetó el brief, si entregó en fecha y cómo respondió a la primera corrección. Eso último es lo que más dice de cómo va a ser trabajar con esa persona.</p>
+  <p>La responsabilidad entra después: primero una marca, después el resto.</p>
+</div>
+<div class="nuestro">
+  <div class="et">Esto lo ponemos nosotros</div>
+  <h2>Cómo se le da trabajo, y cómo se lo retiene</h2>
+  <p>El primer mes, entregas chicas y revisión en una reunión fija por semana. Lo que vuelve con corrección se corrige con el brief, no con la persona: si tres piezas volvieron por lo mismo, lo que falla es cómo se está pidiendo.</p>
+  <p>Pasados dos o tres meses de continuidad, si funciona, conviene proponer un <b>fijo mensual más el valor de las piezas</b>. El fijo es por disponibilidad y prioridad, no por más trabajo. Es la forma más barata de retener a alguien bueno antes de que lo levante otro.</p>
+  <p>El acuerdo no hace falta escribirlo acá. Cuéntennoslo en la próxima llamada.</p>
+</div>
+<section>
+  <div class="n">06</div>
+  <h2>El entregable</h2>
+  <p class="consigna">Es uno solo: <b>este documento, completo</b>. Se baja con el botón de abajo y se manda de vuelta así como quedó. No hace falta pasarlo a limpio ni armar nada aparte.</p>
+  <div class="entregables">
+    <div class="cab"><span class="et">Lo que tiene que existir</span></div>
+    <div class="chk" role="checkbox" tabindex="0" aria-checked="false" data-k="c0" data-g="entregables"><span class="box"><i></i></span><span class="t"><span class="txt">Este documento completo, con todas las preguntas contestadas</span></span></div>
+  </div>
+  <p class="consigna" style="margin-top:18px">Por ahora va y viene como archivo. Más adelante la carta vive adentro de la app y se completa ahí, sin mandar nada.</p>
+</section>
+</main>
+<div class="acc">
+  <button class="tinta" data-a="bajar">Descargar completada</button>
+  <button data-a="imprimir">Imprimir</button>
+  <button data-a="limpiar">Vaciar la hoja</button>
+  <span class="dicho">Lo que escriban se guarda solo en este navegador.</span>
+</div>
+<div class="pie"><div><span class="sello">C</span></div><div>Cáscara · Operaciones, equipo y calendario</div></div>
+</div>
+<template id="tpl-bajada">
+<div class="bajada-bloque">
+  <div data-b="titulo" class="tt"></div>
+  <div class="sub">Esto lo escribimos para ustedes, sobre lo que venimos viendo en su caso.</div>
+  <div data-b="grilla" class="bajada-grilla">
+    <div data-b="fila-porque"><div class="k">Por qué les toca ahora</div><div data-b="porque" class="v"></div></div>
+    <div data-b="fila-objetivo"><div class="k">El objetivo concreto</div><div data-b="objetivo" class="v"></div></div>
+    <div data-b="fila-mindset"><div class="k">Con qué cabeza encararla</div><div data-b="mindset" class="v"></div></div>
+  </div>
+</div>
+</template>
+<script>
+(function(){
+  var MOD=document.body.dataset.mod||'x';
+  var KC='cf-carta-'+MOD, KP='cf-pl-'+MOD;
+
+  /* ---- los entregables tachables ---- */
+  var st={}; try{ st=JSON.parse(localStorage.getItem(KC)||'{}'); }catch(e){}
+  function pintar(){
+    document.querySelectorAll('.chk').forEach(function(el){
+      el.classList.toggle('done', !!st[el.dataset.k]);
+      el.setAttribute('aria-checked', st[el.dataset.k]?'true':'false');});
+  }
+  document.addEventListener('click',function(e){
+    var el=e.target.closest && e.target.closest('.chk'); if(!el)return;
+    st[el.dataset.k]=!st[el.dataset.k];
+    try{ localStorage.setItem(KC,JSON.stringify(st)); }catch(err){}
+    pintar();});
+  document.addEventListener('keydown',function(e){
+    if(e.key!==' '&&e.key!=='Enter')return;
+    var el=document.activeElement && document.activeElement.closest && document.activeElement.closest('.chk');
+    if(!el)return; e.preventDefault(); el.click();});
+  pintar();
+
+  /* ---- lo que se escribe en la hoja ---- */
+  function todos(){return Array.prototype.slice.call(document.querySelectorAll('[data-c]'))}
+  function auto(el){ if(el.tagName==='TEXTAREA'){ el.style.height='auto'; el.style.height=(el.scrollHeight+2)+'px'; } }
+  function contar(){
+    var s=document.querySelectorAll('section.trabajo'), n=0;
+    s.forEach(function(sec){
+      var lleno=false;
+      sec.querySelectorAll('[data-c]').forEach(function(el){ if(el.value && el.value.trim()) lleno=true; });
+      if(lleno) n++;
+    });
+    var a=document.querySelector('.avance');
+    if(a) a.textContent = s.length ? (n+' de '+s.length+' empezadas') : '';
+  }
+  function guardar(){
+    var v={}; todos().forEach(function(el){ if(el.value) v[el.dataset.c]=el.value; });
+    try{localStorage.setItem(KP,JSON.stringify(v))}catch(e){}
+    contar();
+  }
+  function cargar(){
+    var v={}; try{v=JSON.parse(localStorage.getItem(KP)||'{}')}catch(e){}
+    todos().forEach(function(el){ if(v[el.dataset.c]!=null) el.value=v[el.dataset.c]; auto(el); });
+    contar();
+  }
+  document.addEventListener('input',function(e){
+    if(!e.target.dataset || !e.target.dataset.c) return; auto(e.target); guardar();
+  });
+  var bl=document.querySelector('[data-a="limpiar"]');
+  if(bl) bl.addEventListener('click',function(){
+    if(!confirm('Esto borra todo lo que escribiste en esta carta. \u00bfSeguimos?')) return;
+    todos().forEach(function(el){el.value='';auto(el)}); guardar();
+  });
+  var bi=document.querySelector('[data-a="imprimir"]');
+  if(bi) bi.addEventListener('click',function(){window.print()});
+  var bd=document.querySelector('[data-a="bajar"]');
+  if(bd) bd.addEventListener('click',async function(){
+    todos().forEach(function(el){
+      if(el.tagName==='TEXTAREA') el.textContent=el.value; else el.setAttribute('value',el.value||'');
+    });
+    var html='<!doctype html>\n'+document.documentElement.outerHTML;
+    var nom='carta-'+MOD+'.html';
+    var dl=null; try{ dl=await claude.use('downloads'); }catch(e){}
+    if(dl){ try{ await dl.save({filename:nom,data:html}); return; }catch(e){ if(e&&e.code==='declined')return; } }
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([html],{type:'text/html'})); a.download=nom;
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+  cargar();
+  window.addEventListener('resize',function(){todos().forEach(auto)});
+})();
+</script>
+</body></html>
