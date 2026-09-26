@@ -10,7 +10,7 @@
     "Separar lo que delegan de lo que se queda con ustedes, sin medir horas: lo que otro puede hacer sin que cambie el resultado.",
     "Escribir los dos roles antes de buscar: propósito, responsabilidades, qué entrega cada uno y a quién le reporta.",
     "Sacar el número con los tarifarios de Cáscara de edición y de diseño, que se cobran por pieza y por nivel.",
-    "Publicar el formulario que ya les dejamos armado en su Cero OS: uno solo para editores y diseñadores.",
+    "Duplicar el formulario de postulación de editores de Cáscara en su Notion.",
     "Publicar la búsqueda con tres historias que terminan en un handraiser, con fecha de cierre.",
     "Mandar una prueba paga sobre trabajo real antes de dar responsabilidad."
   ],
@@ -87,12 +87,11 @@
     },
     {
       "nuestro": true,
-      "titulo": "El formulario, ya armado en su Cero OS",
+      "titulo": "El formulario, listo para duplicar",
       "texto": [
-        "No hace falta armar nada. Les dejamos un formulario en su Cero OS, en <b>Contenido → Búsqueda de editores y diseñadores</b>. Es uno solo para los dos roles, y sale de los que usamos en Cáscara para recibir editores y diseñadores.",
-        "Cada postulante marca a qué se postula (edición, diseño o las dos) y se ubica en un nivel de cada una, con los niveles descritos para que nadie se sobrevalúe. Además deja contacto, portfolio, qué piezas hace, herramientas, disponibilidad, qué busca y su tarifa por pieza. Y tres preguntas que son las que más dicen: la pieza que más lo representa y por qué, cómo avanza con un brief poco claro, y una vez que recibió un feedback difícil.",
-        "Las postulaciones caen solas en la base de esa misma página. La vista <b>Por rol</b> separa editores de diseñadores, y la vista <b>Proceso</b> los ordena por estado: sin revisar, en revisión, prueba paga, contratado o descartado. Las columnas de estado, valoración y notas son de ustedes: el postulante no las ve.",
-        "Lo único que falta es publicarlo: en la vista del formulario, <b>Compartir → cualquiera con el link</b>. Ese link es el que va en las historias."
+        "No armen un formulario de cero. Usen el nuestro: es el mismo con el que Cáscara recibe editores y ya está probado en volumen.",
+        "Acá está, listo para duplicar en su Notion: <a href=\"https://flowery-beryllium-0df.notion.site/2d8511e68cad80d1a544ff1c7347a949\" target=\"_blank\" rel=\"noopener\"><b>Editors Hiring Form</b></a>. Trae todo armado: datos de contacto, portfolio, el nivel de edición en el que se ubica cada uno —con las tres descripciones escritas para que nadie se sobrevalúe—, herramientas, disponibilidad semanal y las preguntas que más dicen de cómo piensa cada uno.",
+        "Duplíquenlo, cámbienle el nombre y listo. Las postulaciones caen solas en una base y quedan ahí para comparar. Ese link, el de ustedes, es el que va en las historias."
       ],
       "cid": 5
     },
