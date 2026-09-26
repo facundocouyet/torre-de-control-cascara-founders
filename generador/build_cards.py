@@ -23,11 +23,11 @@ DUENOS=[
   "Perfil, ángulos, calendario y volumen. Son las que hacen que el founder tenga de dónde agarrarse "
   "para publicar sin improvisar cada semana.",
   ["profile-funnel","angulos-desde-icp","calendario-contenido","diez-piezas-y-lectura",
-   "formato-barato","caso-documentado","capitalizar-evento"]),
+   "formato-barato","caso-documentado","capitalizar-evento","color-desde-log"]),
  ("juana","Juana","Identidad y dirección creativa",
   "Quién es la marca y cómo se ve. Son pocas y son las que más se notan cuando están mal hechas, "
   "porque todo lo demás se apoya arriba.",
-  ["pasaporte-digital","identidad-y-arco-narrativo","direccion-visual","narrativa-de-video","color-desde-log"]),
+  ["pasaporte-digital","identidad-y-arco-narrativo","direccion-visual","narrativa-de-video"]),
  ("teo","Teo","Sistemas, herramientas y automatización",
   "Con qué se arma cada cosa y dónde vive el dato. Vos no decidís qué servicio da el founder: decidís "
   "cómo queda instrumentado para que se repita sin que él esté encima.",

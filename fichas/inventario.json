@@ -413,6 +413,36 @@
           ],
           "estado": "existe",
           "evidencia": "El criterio de Franco de documentar en lugar de crear se le bajó a Aaron con el cliente de consultoría que ya tiene. Lucca tiene que armar las tres fichas de casos con números antes y después del B2B. José David documenta en Notion sus tres ventas de tres mil dólares. Bianca tiene el dato de 236 clientas que recompraron. Sharon tiene el caso con ventas orgánicas que le ganaron a la pauta."
+        },
+        {
+          "id": "color-desde-log",
+          "nombre": "Color después del LOG",
+          "nivel": "3",
+          "para_quien": "Cuando el founder graba en LOG y sus videos salen lavados, o cada clip le queda de un color distinto.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Un clip grabado en LOG corregido con el método de Cáscara, con el antes y el después para revisar.",
+          "pasos": [
+            "Bajar los dos LUTs y los dos granos del SOP de color y guardarlos en una carpeta fija.",
+            "Armar dos capas de ajuste encima de los clips: Conversión y Look.",
+            "Corregir las luces de cada clip en Corrección básica.",
+            "En la capa Conversión, cargar SlogtoRec.709 con intensidad 60.",
+            "En la capa Look, cargar TC - ERA con intensidad 30 y cuidar la piel.",
+            "Poner el grano de 35mm arriba de todo en Luz fuerte y mandar el antes y el después."
+          ],
+          "completar": [
+            "La cámara y el perfil LOG",
+            "El link al antes y el después"
+          ],
+          "herramientas": [
+            "Adobe Premiere Pro (Color de Lumetri)",
+            "SOP Color Grading (template founders) en Notion",
+            "LUTs SlogtoRec.709 y TC - ERA",
+            "Grano de 35mm y de 16mm"
+          ],
+          "estado": "existe",
+          "evidencia": "Sale de la parte de color del SOP de Originals de Cáscara (Lumetri en tres pasos, LUT de conversión al 60%, look TC - ERA al 30%, grano de 35mm en Luz fuerte). Aaron la pidió el 26/9 para corregir su material grabado en LOG."
         }
       ]
     },
@@ -1386,36 +1416,6 @@
           ],
           "estado": "existe",
           "evidencia": "El marco de narrativa de Fede con cultura, oportunidad, prueba, producto y llamado a la acción, más el proceso de idea, estructura, narrativa, brief, grabar, editar, publicar y analizar, y el criterio de grabación a la manana con luz lateral y tres planos, se le bajaron a Andrea. Lucca tiene que grabar el video largo del modelo B2B. Antonio graba un video largo por semana con recortes. Nico tiene el mecanismo de recortes hacia el video largo. Bianca graba la serie en capitulos."
-        },
-        {
-          "id": "color-desde-log",
-          "nombre": "Color después del LOG",
-          "nivel": "3",
-          "para_quien": "Cuando el founder graba en LOG y sus videos salen lavados, o cada clip le queda de un color distinto.",
-          "eje": [
-            "contenido"
-          ],
-          "resultado": "Un clip grabado en LOG corregido con el método de Cáscara, con el antes y el después para revisar.",
-          "pasos": [
-            "Bajar los dos LUTs y los dos granos del SOP de color y guardarlos en una carpeta fija.",
-            "Armar dos capas de ajuste encima de los clips: Conversión y Look.",
-            "Corregir las luces de cada clip en Corrección básica.",
-            "En la capa Conversión, cargar SlogtoRec.709 con intensidad 60.",
-            "En la capa Look, cargar TC - ERA con intensidad 30 y cuidar la piel.",
-            "Poner el grano de 35mm arriba de todo en Luz fuerte y mandar el antes y el después."
-          ],
-          "completar": [
-            "La cámara y el perfil LOG",
-            "El link al antes y el después"
-          ],
-          "herramientas": [
-            "Adobe Premiere Pro (Color de Lumetri)",
-            "SOP Color Grading (template founders) en Notion",
-            "LUTs SlogtoRec.709 y TC - ERA",
-            "Grano de 35mm y de 16mm"
-          ],
-          "estado": "existe",
-          "evidencia": "Sale de la parte de color del SOP de Originals de Cáscara (Lumetri en tres pasos, LUT de conversión al 60%, look TC - ERA al 30%, grano de 35mm en Luz fuerte). Aaron la pidió el 26/9 para corregir su material grabado en LOG."
         }
       ]
     }
