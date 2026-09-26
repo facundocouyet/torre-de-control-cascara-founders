@@ -6,7 +6,7 @@
   "orientacion": "Conseguir",
   "arranque": "(falta confirmar) — la primera llamada registrada es del 14 de agosto de 2026, con Facu. Entró por F3.",
   "etapa": "Arranca el segundo mes con el programa terminado, el contenido saliendo y el lanzamiento ya con puerta de entrada: un workshop de Project Management la semana del 22 de septiembre, desde donde empieza a vender.",
-  "metrica": "Cupos vendidos del programa en el lanzamiento. El objetivo que se fijó es entre cinco y diez. Hoy son cero, con 3 llamadas hechas.",
+  "metrica": "Cupos vendidos del programa en el lanzamiento. El objetivo que se fijó es entre cinco y diez. Al 26 de septiembre van 3, con 10 llamadas de venta más el 27 y la ventana abierta hasta el 1 de octubre.",
   "titular": "Con el programa terminado y ciento sesenta PMs esperando, el tramo es armar el lanzamiento y cerrar los primeros cupos.",
   "bajada": "3 llamadas de venta hechas y ninguna cerrada. Un grupo de WhatsApp con ciento sesenta PMs esperando y un programa terminado al que le falta fecha y embudo. Septiembre es para dejar el lanzamiento armado con Franco. Octubre es para leer qué dio.",
   "punto_a": [
@@ -65,6 +65,10 @@
       {
         "cuando": "25 sep",
         "que": "primeras llamadas de venta, con cáscara acompañando en vivo"
+      },
+      {
+        "cuando": "26 sep",
+        "que": "cierra sus 3 primeras ventas, con 10 llamadas más para el 27"
       }
     ]
   },

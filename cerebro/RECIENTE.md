@@ -13,6 +13,7 @@ Los últimos 30 días hasta el 2026-09-26, por departamento. Generado por `gener
 ## Cáscara Founders
 
 - 2026-09-26 · criterio · [Un cliente sin sesión agendada es un cliente sin próximo paso, y la sesión sale del Calendar](registro/2026/09/2026-09-26-sin-sesion-agendada-es-sin-proximo-paso.md)
+- 2026-09-26 · hito · [Lola cierra sus primeras 3 ventas dos días después del workshop](registro/2026/09/2026-09-26-lola-cierra-sus-primeras-3-ventas.md)
 - 2026-09-26 · criterio · ["Frenado" deja de ser un juicio sobre el cliente y pasa a ser una alerta de que no hay noticias](registro/2026/09/2026-09-26-frenado-es-alerta-de-seguimiento.md)
 - 2026-09-26 · decision · [Para contratar editores se usa el Editors Hiring Form de Cáscara, sin formularios nuevos](registro/2026/09/2026-09-26-editores-con-el-formulario-de-cascara.md)
 - 2026-09-26 · oferta · [La carta de color es un tutorial clic por clic y los archivos salen del SOP público de Cáscara](registro/2026/09/2026-09-26-carta-color-es-un-tutorial.md)
