@@ -1,0 +1,129 @@
+{
+  "modulo": "estratega-creativo",
+  "titulo": "La hoja para sumar un estratega creativo",
+  "bajada": "Una persona a cargo del calendario, los editores y la publicación, con su semana en tres momentos, una tabla única de tareas y la regla clara de qué resuelve sola y qué te sube a vos.",
+  "lista_cuando": "Pasó un mes con el estratega a cargo, el calendario se cumplió en 90% o más y no tuviste que preguntar dónde estaba tu contenido.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Por qué existe este rol",
+      "texto": [
+        "Vos tenés la visión, la autoridad y el material. Lo que se come tus horas es todo lo que pasa alrededor: pensar dónde va cada reel, perseguir una edición, chequear si una pieza salió. Sin alguien que ordene eso, se graba sin plan, se edita sin criterio, se publica sin estrategia y se mide sin lógica.",
+        "El estratega creativo es el sistema operativo de tu contenido. Toma lo que grabás, arma el calendario, coordina a los editores, sube las piezas y las historias, y se asegura de que todo salga en tiempo y forma. <b>Vos mostrás, el estratega construye.</b>",
+        "Tiene un solo norte: <b>que el calendario se cumpla el 90% de las veces o más.</b> Si eso pasa, lo demás se ordena solo."
+      ],
+      "cid": 0
+    },
+    {
+      "nuestro": true,
+      "titulo": "Qué hace y qué queda con vos",
+      "texto": [
+        "<b>El estratega se ocupa de:</b> traducir el foco de la semana en un calendario ejecutable, con quince días de adelanto; armar una tarjeta por pieza con el brief, los recursos, la fecha y el editor; contestar las dudas de los editores en menos de dos horas hábiles y revisar cada versión antes de que te llegue, con un máximo de dos rondas; subir historias y posts; resolver las urgencias del día; y mandarte el reporte de la semana con datos.",
+        "<b>Con vos se quedan:</b> la estrategia del mes y los temas que se graban, la grabación, y la aprobación de lo que toca tu imagen. La edición la hace el editor y el diseño el diseñador: el estratega asigna, revisa y devuelve feedback.",
+        "Si hoy tenés a alguien en tu equipo haciendo parte de esto sin nombre, este es el rol que le estás dando. Escribirlo es lo que lo vuelve un puesto."
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "Qué pasa a sus manos y qué se queda con vos",
+      "consigna": "Dos columnas. A la izquierda lo que hoy hacés vos y pasa al estratega; a la derecha lo que se queda con vos porque ahí tu criterio es el producto. Arriba de la tabla, escribí quién va a tomar el rol y desde cuándo.",
+      "campo": "tabla",
+      "columnas": [
+        "Pasa al estratega",
+        "Se queda conmigo"
+      ],
+      "filas": 5,
+      "cid": 2
+    },
+    {
+      "nuestro": true,
+      "titulo": "La semana, en tres momentos",
+      "texto": [
+        "<b>Lunes · la bajada, de 30 a 45 minutos con vos.</b> Se define la pregunta central de la semana, los ángulos que se activan, el pilar que domina y el llamado a la acción principal. En la misma reunión se abre la tabla de tareas: qué se completó, qué está en curso, qué está trabado y qué vence.",
+        "<b>Martes a jueves · ejecución autónoma.</b> El estratega abre el calendario tres veces por día, media hora cada vez: a la mañana verifica que cada tarjeta tenga estado y responsable, al mediodía confirma que lo de la mañana se movió, y a la tarde cierra el día y deja preparado el siguiente. Lo que aparece sin responsable, sin fecha o vencido se resuelve en ese momento.",
+        "<b>Viernes · el reporte y la semana siguiente lista.</b> Qué se publicó, con links; qué funcionó y qué no, con datos y con la hipótesis de por qué; qué problemas se resolvieron y qué propone para la semana que viene. Y el contenido de la semana próxima queda preparado, así el lunes solo se activa.",
+        "Para que funcione, tus momentos también son fijos: bajada, grabación y aprobaciones con día y hora en el calendario. Por ejemplo, lunes 10 la bajada, miércoles 15 la grabación y viernes 17 las aprobaciones."
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "Tus momentos fijos",
+      "consigna": "Poné día y hora a cada uno. Son los únicos momentos en los que el estratega te necesita: el resto de la semana resuelve sin vos.",
+      "campo": "lineas",
+      "lineas": [
+        "La bajada del lunes",
+        "La grabación",
+        "Las aprobaciones",
+        "El reporte de la semana"
+      ],
+      "cid": 4
+    },
+    {
+      "nuestro": true,
+      "titulo": "La tabla única de tareas",
+      "texto": [
+        "Todo vive en una sola tabla de Notion: la tarea, su fecha límite, el estado (pendiente, en curso, en revisión, aprobada, publicada), quién la ejecuta y el link al material. Por ejemplo: el guion del ángulo X para el martes a las 9, a cargo del estratega; la grabación ese mismo martes al mediodía, a cargo tuyo; la edición para el miércoles a las 18, del editor; la revisión el jueves a las 10 en Frame.io; y la publicación el viernes a las 9.",
+        "Cada lunes se abre en la bajada y se mira en este orden: qué está en rojo, qué está trabado, qué sale esta semana y cuáles son las próximas fechas. Lo que se traba por falta de material, de aprobación o de un recurso se marca en la tabla en el momento, no el lunes siguiente."
+      ],
+      "cid": 5
+    },
+    {
+      "nuestro": true,
+      "titulo": "Cada pieza lleva un pilar y una acción",
+      "texto": [
+        "Antes de producir, cada tarjeta dice dos cosas. <b>El pilar</b>, que es qué parte de tu marca comunica: documental (el día a día), creatividad (tu perspectiva), estrategia (cómo funciona), producto (qué ofrecés) o comunidad (validación y pertenencia). <b>La acción</b>, que es qué querés que pase después: qué piense, qué sienta y qué haga la persona, sea guardar, compartir, comentar, mandar un mensaje o anotarse.",
+        "La pieza que tiene las dos se produce. La que tiene solo una vuelve a la tarjeta hasta completarse.",
+        "Un ejemplo de tarjeta: <b>ángulo</b> «Los tres errores que comete el founder cuando arranca» · <b>pilar</b> creatividad · <b>acción</b> que se sienta identificado y comente cuál es el suyo · <b>formato</b> reel de un minuto · <b>fecha</b> viernes 9 · <b>editor</b> el que tenés asignado."
+      ],
+      "cid": 6
+    },
+    {
+      "titulo": "Tu primera tarjeta",
+      "consigna": "Armá la tarjeta de la próxima pieza que vas a grabar, completa. Es la que el estratega va a usar de modelo para las demás.",
+      "campo": "lineas",
+      "lineas": [
+        "Ángulo",
+        "Pilar",
+        "Acción: qué piensa, siente y hace",
+        "Formato",
+        "Fecha de publicación",
+        "Editor"
+      ],
+      "cid": 7
+    },
+    {
+      "nuestro": true,
+      "titulo": "Qué resuelve solo y qué te sube",
+      "texto": [
+        "<b>Resuelve solo:</b> el editor que no entrega a tiempo, un cuello en la producción, la pieza que pasó dos rondas de revisión, la historia que no se pudo subir, el contenido urgente de hoy para mañana, un cambio de horario de publicación y la propuesta de un ángulo nuevo, que testea y te trae con datos.",
+        "<b>Te sube a vos:</b> un cambio de dirección que mueve todo el calendario, publicar algo sensible, reemplazar a un editor, un gasto que no controla y cualquier decisión sobre tu imagen o tu posicionamiento.",
+        "La regla: si la respuesta está en el sistema, en el brief, en el calendario o en un SOP, la encuentra ahí. Si no está, pregunta. A vos llega solo cuando no hay otra manera, y llega como un pedido concreto: «necesito que grabes esto», «¿lo aprobás?».",
+        "Tres reglas más que sostienen todo: se cierra una pieza de guion a publicación antes de abrir la siguiente; cada founder tiene su editor fijo, uno o como mucho dos, que aprende tu estilo; y la comunicación es diaria y puntual, con pedidos en vez de reportes largos."
+      ],
+      "cid": 8
+    },
+    {
+      "nuestro": true,
+      "titulo": "Los primeros tres meses",
+      "texto": [
+        "<b>Mes 1 · aprender el sistema.</b> Tarjetas al día, calendario con quince días de adelanto, briefs claros y el chequeo diario. Está listo para el mes dos cuando el calendario se cumple en 90% o más, los editores trabajan sin que nadie intervenga y vos no preguntaste nada en dos semanas.",
+        "<b>Mes 2 · criterio propio.</b> Propone sus propios ángulos, maneja las historias con autonomía, detecta contenido reactivo y documenta sus primeros SOPs. Está listo cuando trajo tres propuestas que se ejecutaron y los editores entregan con menos de dos rondas en promedio.",
+        "<b>Mes 3 · autonomía.</b> Participa del calendario del mes y propone el de historias completo. La prueba es una semana entera sin que tengas que entrar en nada operativo.",
+        "El rol completo, con el reporte diario y la dinámica semanal, está en tu OS: <b>SOPs › Library OnDemand › Estratega Creativo</b>. Pasáselo a la persona que toma el rol el primer día."
+      ],
+      "cid": 9
+    },
+    {
+      "titulo": "El punto de partida",
+      "consigna": "Contestalo hoy, antes de que arranque el estratega. A los treinta días lo volvemos a mirar con los mismos números.",
+      "campo": "lineas",
+      "lineas": [
+        "Qué porcentaje de lo planificado se publicó el último mes",
+        "Cuántas veces por semana preguntás dónde está tu contenido",
+        "Cuántas horas por semana le dedicás hoy a coordinar contenido",
+        "Cuántas piezas por semana salen hoy"
+      ],
+      "cid": 10
+    }
+  ]
+}

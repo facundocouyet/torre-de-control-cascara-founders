@@ -443,6 +443,39 @@
           ],
           "estado": "existe",
           "evidencia": "Sale de la parte de color del SOP de Originals de Cáscara (Lumetri en tres pasos, LUT de conversión al 60%, look TC - ERA al 30%, grano de 35mm en Luz fuerte). Aaron la pidió el 26/9 para corregir su material grabado en LOG."
+        },
+        {
+          "id": "estratega-creativo",
+          "nombre": "Sumar un estratega creativo",
+          "nivel": "2",
+          "para_quien": "Cuando el contenido depende de que el founder pregunte, empuje y persiga: si no está encima, el calendario se cae.",
+          "eje": [
+            "contenido",
+            "entrega"
+          ],
+          "resultado": "Una persona a cargo del calendario, los editores y la publicación, con la semana en tres momentos, la tabla única funcionando y el calendario cumpliéndose en 90% o más.",
+          "pasos": [
+            "Separar lo que pasa al estratega de lo que se queda con el founder.",
+            "Fijar los tres momentos de la semana: la bajada del lunes, la ejecución autónoma y el reporte del viernes.",
+            "Armar la tabla única de tareas con fecha, estado y responsable.",
+            "Brifear cada pieza en una tarjeta con pilar y acción.",
+            "Escribir qué resuelve solo el estratega y qué le sube al founder.",
+            "Medir a los treinta días: calendario cumplido y cuántas veces el founder preguntó por su contenido."
+          ],
+          "completar": [
+            "Qué pasa al estratega y qué se queda con el founder",
+            "Los momentos fijos de la semana",
+            "La primera tarjeta con pilar y acción",
+            "El punto de partida: cuánto del calendario se cumple hoy y cuántas horas se lleva coordinarlo"
+          ],
+          "herramientas": [
+            "Notion (calendario y tabla de tareas)",
+            "Frame.io para el feedback a editores",
+            "Slack",
+            "SOP Estratega Creativo de la Library OnDemand del OS"
+          ],
+          "estado": "existe",
+          "evidencia": "Sale del rol que Cáscara escribió para sus propios estrategas (Rol Estratega Creativo, abril 2026) y de la clase 10A del programa, que ya vive en la Library OnDemand de cada OS de cliente. Facu pidió pasarlo a carta el 27/9."
         }
       ]
     },
@@ -1457,6 +1490,7 @@
     "cadencia-y-duenos",
     "contratar-primer-rol",
     "delegar-produccion",
+    "estratega-creativo",
     "base-de-datos-unica",
     "diario-administrativo",
     "dashboard-embudo",

@@ -23,7 +23,7 @@ DUENOS=[
   "Perfil, ángulos, calendario y volumen. Son las que hacen que el founder tenga de dónde agarrarse "
   "para publicar sin improvisar cada semana.",
   ["profile-funnel","angulos-desde-icp","calendario-contenido","diez-piezas-y-lectura",
-   "formato-barato","caso-documentado","capitalizar-evento","color-desde-log"]),
+   "formato-barato","caso-documentado","capitalizar-evento","color-desde-log","estratega-creativo"]),
  ("juana","Juana","Identidad y dirección creativa",
   "Quién es la marca y cómo se ve. Son pocas y son las que más se notan cuando están mal hechas, "
   "porque todo lo demás se apoya arriba.",
