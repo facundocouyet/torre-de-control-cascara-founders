@@ -5,6 +5,18 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 28 de septiembre de 2026
+
+Las radiografías del primer mes de Aaron, Seba y Sol en borrador, y tus respuestas de la mañana cargadas.
+
+- **Aaron, Seba y Sol: radiografía del primer mes.** Etapa, saldo del mes en el recorrido y carta reescritos al día 30. A Seba se le corre el punto B del 26/9, porque la segunda llamada con Franco no entró. A Sol se le suma el hito del esquema de clientes del 25/9. Aaron suma el hito del 18/9, cuando empezó a publicar. El puntaje no se mueve en ninguno. Se terminan cuando las presentes.
+- **Sol sin DLA.** Ya no se le piden los datos de DLA: sale del roadmap, de los accionables y de la torre, y queda solo el promedio de los proyectos puntuales.
+- **José David, Custom Lab, Matías y Sofía.** El fup de José David queda tachado y falta confirmar la fecha nueva. Custom Lab no tiene contacto desde el 18/9, así que queda como accionable de Aye coordinar la reunión de contenido y la 1:1 del 2/10. Matías y Sofía todavía no devolvieron sus documentos.
+
+**Para mirar antes de subir:** la carta y la etapa de las tres radiografías. Torre publicada, versión 56.
+
+---
+
 ## 25 de septiembre de 2026
 
 Tres clientes al día con lo que pasó ayer, y la torre publicada con todo lo que hiciste de Qualita a la tarde.
