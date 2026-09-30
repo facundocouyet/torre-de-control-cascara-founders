@@ -5,6 +5,17 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 30 de septiembre de 2026
+
+La radiografía de Aaron al día con la 1:1 del martes, y Scarlett con su lanzamiento armado con Franco.
+
+- **Aaron: radiografía del primer mes.** La oferta quedó dicha (90 días de consultoría para personas que venden productos digitales, hasta 15 mil por mes), el YouTube sale todas las semanas y el micro lanzamiento es el 15/11. Cambian titular, etapa, cuello (ahora el calendario), punto B, roadmap, accionables, conclusión y carta. Puntaje de 38 a 42: oferta sube un escalón, está escrita con avatar y le falta el precio a la vista.
+- **Scarlett: llamada con Franco del 29/9.** Lanzamiento de 4 semanas con taller presencial el 30/10, grupo de WhatsApp el 9/10, prueba de audiencia el 16/10 y preventa el 23/10. La pelota pasa a ella: le manda a Franco el calendario y el one-pager.
+
+**Para mirar antes de subir:** la carta y el cuello nuevos de Aaron. Torre publicada, versión 58.
+
+---
+
 ## 28 de septiembre de 2026
 
 Las radiografías del primer mes de Aaron, Seba y Sol en borrador, y tus respuestas de la mañana cargadas.

@@ -172,12 +172,13 @@
     {
       "nombre": "Scarlett Montilla",
       "estado": "Sign off · cierra 30/09",
-      "proyecto": "Mentoría de procesos. El proceso terminó en un pivote: de vender servicios técnicos de marketing a vender el proceso.",
+      "proyecto": "Mentoría de procesos. Lanza un taller presencial el 30/10 como puerta a una mentoría grupal.",
       "accionables": [
-        "Agendar la llamada con Franco <b>antes del 30/09</b>, porque el sign off depende de ella: es un ultimátum sobre la oferta. Venía con oferta de estratega creativa, no se sintió cómoda vendiéndola y la cambió hacia algo que se parece más a coaching.",
-        "Lo que tiene que salir de esa llamada: cómo darle sustento a esa oferta y cómo medir su impacto, porque una oferta de coaching sin eso es muy difícil de vender.",
-        "De esa llamada Franco le baja los accionables, y <b>el sign off va la semana siguiente</b>.",
-        "El lanzamiento ya está bajado a 3 etapas: workshop presencial en un mes, apertura de postulaciones a una mentoría grupal de 4 a 6 semanas, y uno a uno de validación."
+        "[hecho] Llamada con Franco el <b>29/09</b>: lanzamiento de 4 semanas (conciencia, nutrición, captación, conversión) con taller presencial el <b>30/10</b>.",
+        "Fechas del lanzamiento: grupo de WhatsApp abre el <b>9/10</b>, prueba de audiencia digital el <b>16/10</b>, preventa el <b>23/10</b>.",
+        "Mandarle a Franco el calendario de las 4 semanas y el one-pager de la oferta para que los revise.",
+        "Precio del taller entre 17 y 47 dólares, lo que entre va a pauta.",
+        "Sign off con Teo: el FINISH es el 30/09."
       ],
       "doc": "scarlett-montilla.html",
       "extra": null,
@@ -335,14 +336,15 @@
     {
       "nombre": "Aaron Aiello",
       "estado": "En curso · cierra 31/10",
-      "proyecto": "Marca personal y nueva oferta B2C, con Cami en operaciones y métricas. Le baja el marketing a cinco infoproductores y no se lo sabe bajar a sí mismo.",
+      "proyecto": "Consultoría de 90 días para personas que venden productos digitales, con Cami en operaciones y métricas. Micro lanzamiento el 15 de noviembre.",
       "accionables": [
-        "[hecho] Las tres cartas ya se le mandaron. El pasaporte digital va primero, porque está en una búsqueda más profunda con su marca personal y de ahí salen los ángulos.",
-        "Reclamar la devolución.",
-        "[hecho] Ya trabajó oferta y producto con Franco, y la 1:1 con Facu quedó agendada: <b>martes 29/09 a las 11:00</b>. Ahí Facu le presenta la radiografía del primer mes.",
-        "Mandarle la radiografía <b>después</b> de la 1:1 del martes 29/09, que es donde Facu se la presenta.",
-        "Coordinar con Fede el seguimiento de contenido, que acá va con Aaron como personaje.",
-        "Viene bien."
+        "[hecho] Las tres cartas ya se le mandaron.",
+        "[hecho] 1:1 del primer mes con Facu el <b>29/09</b>: oferta cerrada, YouTube semanal y micro lanzamiento el <b>15/11</b>.",
+        "Mandarle el resumen de la 1:1, el SOP de títulos de YouTube, cómo arma Cáscara el profile funnel y el formato del lanzamiento de 4 semanas (Facu).",
+        "Mandarle la radiografía del primer mes ahora que se presentó.",
+        "Reclamar la devolución del pasaporte digital.",
+        "Coordinar con Fede títulos, portadas y reducciones en la grupal.",
+        "<b>15/10</b>: perfil alineado a la oferta, entrega escrita, proceso comercial y calendario Evergreen corriendo."
       ],
       "doc": "aaron-aiello.html",
       "extra": null,

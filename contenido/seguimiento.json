@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-09-28",
+  "actualizado": "2026-09-30",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {"ultimo": "2026-09-25", "que": "28/09: todavía no devolvió la oferta y el ICP. Extiende al 31/10.", "proximo": null, "paso": "La llamada con Franco, cuando devuelva la oferta y el ICP.", "carta": "Oferta e ICP, que tiene que devolver completas antes de Franco.", "pilar": "Oferta", "pelota": "cliente"},
@@ -10,7 +10,7 @@
     "agostina-marchesini": {"ultimo": "2026-09-24", "que": "Charla por WhatsApp: lanzamiento en noviembre con 2 lugares y relanzamiento en febrero con 5.", "proximo": null, "paso": "Agendar la reunión de oferta e ICP para armar el lanzamiento de noviembre y mandarle la radiografía.", "carta": null, "pilar": "Oferta", "pelota": "Facu", "plata": {"fecha": "2026-11-01", "cuando": "noviembre", "que": "Lanza con 2 lugares de prueba; relanza en febrero con 5."}},
     "lucio-labate": {"ultimo": "2026-09-25", "que": "Está terminando de grabar su contenido y completando la carta de oferta.", "proximo": null, "paso": "Coordinar la próxima reunión.", "carta": "La carta de Oferta.", "pilar": "Oferta", "pelota": "Aye"},
     "jose-david-fajardo": {"ultimo": "2026-09-29", "que": "1:1 con Facu del corte del primer mes, el 29/9 a las 9:00, con la radiografía del mes.", "proximo": null, "paso": "Agendar la llamada de oferta con Franco y poner sus bloques fijos de llamadas.", "carta": "Auditoría del proceso comercial.", "pilar": "Venta", "pelota": "Franco"},
-    "aaron-aiello": {"ultimo": "2026-09-25", "que": "Trabajó oferta y producto con Franco y agendó la 1:1 con Facu.", "proximo": "2026-09-29", "paso": "1:1 con Facu, a las 11:00: se le presenta la radiografía del primer mes.", "carta": "El pasaporte digital.", "pilar": "Oferta", "pelota": "Facu"},
+    "aaron-aiello": {"ultimo": "2026-09-29", "que": "1:1 del primer mes: oferta cerrada, YouTube semanal, micro lanzamiento el 15/11.", "proximo": "2026-10-15", "paso": "Perfil, entrega, proceso comercial y calendario listos para lanzar.", "carta": "El pasaporte digital.", "pilar": "Contenido", "pelota": "Facu", "plata": {"fecha": "2026-11-15", "que": "Micro lanzamiento de la consultoría de 90 días."}},
     "custom-lab": {"ultimo": "2026-09-18", "que": "La última llamada registrada, con Franco.", "proximo": null, "paso": "Coordinar la reunión de contenido con Fede y la 1:1 del 2/10: sin contacto desde el 18/09.", "carta": null, "pilar": "Contenido", "pelota": "Aye"},
     "sebastian": {"ultimo": "2026-09-24", "que": "1:1 con Fede: foco en el cohort, biografía nueva, página de espera y canal de YouTube.", "proximo": null, "paso": "Segunda llamada con Franco, la semana del 29/09.", "carta": "ICP y mecanismo, y Ángulos.", "pilar": "Venta", "pelota": "Franco"},
     "sol-boutmy": {"ultimo": "2026-09-25", "que": "Mandó el esquema de clientes de BeMotion: ocho clientes y USD 3.200 por mes en fees.", "proximo": null, "paso": "Facu le manda el feedback del esquema y se agenda Franco para la semana del 29/9.", "carta": "Contratar el primer rol y Oferta.", "pilar": "Oferta", "pelota": "Facu"},
@@ -24,7 +24,7 @@
     "andrea-saturno": {"ultimo": null, "que": null, "proximo": null, "paso": "Coordinar la llamada de offboarding, con el resumen del caso antes.", "carta": null, "pilar": "Cierre", "pelota": "Teo"},
     "lucca-sorgoni": {"ultimo": null, "que": null, "proximo": null, "paso": "La llamada de cierre con upselling y testimonio, en la misma llamada.", "carta": null, "pilar": "Cierre", "pelota": "Teo"},
     "sharon-palacio": {"ultimo": null, "que": null, "proximo": null, "paso": "La llamada en formato caso de éxito.", "carta": null, "pilar": "Cierre", "pelota": "Teo"},
-    "scarlett-montilla": {"ultimo": null, "que": null, "proximo": null, "paso": "La llamada con Franco antes del 30/09: el sign off va la semana siguiente.", "carta": null, "pilar": "Cierre", "pelota": "Franco"},
+    "scarlett-montilla": {"ultimo": "2026-09-29", "que": "Llamada con Franco: lanzamiento de 4 semanas con taller presencial el 30/10.", "proximo": "2026-10-09", "paso": "Mandarle a Franco el calendario y el one-pager; abrir el grupo de WhatsApp el 9/10.", "carta": null, "pilar": "Cierre", "pelota": "cliente", "plata": {"fecha": "2026-10-30", "que": "Taller presencial, precio de 17 a 47 dólares."}},
     "nicolas-lozada": {"ultimo": null, "que": null, "proximo": null, "paso": "Coordinar el sign off sin esperar nada más.", "carta": null, "pilar": "Cierre", "pelota": "Teo"}
   }
 }
