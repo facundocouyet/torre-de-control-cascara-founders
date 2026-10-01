@@ -299,13 +299,17 @@
     {
       "nombre": "Lucio Labate",
       "estado": "En curso · cierra 31/10",
-      "proyecto": "@luwel, marca personal de diseño. Instala IA en una empresa todos los días y no la vende.",
+      "proyecto": "@luwel, marca personal de diseño. Instala IA en una empresa todos los días; la oferta es un Lanzamiento de marca de 6 semanas para founders.",
       "accionables": [
         "[hecho] La 1:1 con Facu ya se hizo el viernes 18.",
         "[hecho] Se le mandó la carta de Oferta de nuevo, entera, con todo el historial arriba: el proceso se resetea.",
+        "[hecho] Comunicarse con él para sacarle las dudas de la carta de oferta y coordinar la próxima reunión: fue la llamada con Franco del 30/9.",
+        "[hecho] La llamada con Franco se hizo el 30/9: la oferta es Lanzamiento de marca, 6 semanas a 1.800 dólares, para founders con marca independiente que ya vende y no tiene identidad propia.",
+        "Franco: mandarle el documento de oferta actualizado y la escalera de valor (downsell y upsell).",
+        "Lucio: actualizar el one-sheeter, calcular su costo de entrega por cliente y presentar las propuestas en vivo, nunca por chat.",
+        "Lucio: armar las auditorías creativas con Claude y presentarlas en Loom para la prospección en frío.",
         "Escribirle <b>por privado</b>, no por el grupo.",
         "Hacerle el fup de la grabación: está terminando de grabar su contenido (25/09).",
-        "Comunicarse con él para sacarle las dudas del formulario y de la carta de oferta, que Facu ya le mandó, y coordinar la próxima reunión.",
         "Mandar la radiografía con el roadmap.",
         "El foco del tramo es cerrar la oferta y sacar un mínimo de 10 piezas.",
         "Lectura del caso, dicha sin vueltas: lo ayudamos y lo acompañamos mucho, pero una consultoría de negocio no le resuelve la inseguridad. Ya se le sugirió apoyo por afuera."

@@ -5,7 +5,7 @@
   "modo": "radiografia",
   "orientacion": "Conseguir",
   "arranque": "(falta confirmar) — la primera llamada registrada es del 24 de julio de 2026, con Juana",
-  "etapa": "Frenado en el arranque del tramo de ejecución: la oferta está trabajada y bajada por escrito, y entre eso y la publicación no pasó nada. Lo primero es restablecer el contacto, que hoy no funciona por el grupo.",
+  "etapa": "Con la oferta redefinida con Franco el 30/9: Lanzamiento de marca de 6 semanas para founders, a 1.800 dólares. Falta el documento cerrado que manda Franco y la primera pieza publicada.",
   "metrica": "Piezas publicadas contra las diez comprometidas, y cuántas conversaciones y llamadas salen de esas diez.",
   "titular": "Instala IA adentro de una empresa todos los días. El tramo que viene es empaquetar eso como oferta con precio y salir a probarla.",
   "bajada": "Lucio ya trabaja con IA adentro de una empresa y resuelve branding, web y contenido. Le falta una oferta escrita que diga qué vende, a quién y a cuánto. Con ese destino en el aire, cada pieza de contenido tiene que resolver qué decir y para qué al mismo tiempo, y ahí se le van las horas. Septiembre es para cerrar la oferta y subir 10 piezas. Octubre es para leer qué pasó con esas diez.",
@@ -73,6 +73,10 @@
       {
         "cuando": "25 sep",
         "que": "está terminando de grabar su contenido; ya tiene la carta de oferta"
+      },
+      {
+        "cuando": "30 sep",
+        "que": "llamada con franco: la oferta pasa a lanzamiento de marca, 6 semanas a 1.800 dólares"
       }
     ]
   },
@@ -151,7 +155,7 @@
     {
       "fecha": "31 de octubre de 2026",
       "titulo": "5 llamadas hechas y el precio confirmado",
-      "texto": "5 conversaciones de venta reales sobre la instalación del sistema de diseño con IA, con el precio puesto sobre la mesa. La hipótesis es 2.000 a 3.000 dólares la instalación, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Esas 5 llamadas son las que confirman o corrigen ese número. Al lado, la lectura de las 10 piezas: cuáles abrieron conversación y cuáles no."
+      "texto": "5 conversaciones de venta reales sobre el Lanzamiento de marca de 6 semanas, presentadas en vivo y en este orden: promesa, mecanismo, bonus y precio. El precio puesto es 1.800 dólares; esas 5 llamadas lo confirman o lo corrigen. Al lado, la lectura de las 10 piezas: cuáles abrieron conversación y cuáles no."
     }
   ],
   "roadmap": [
@@ -241,7 +245,7 @@
   ],
   "conclusion": "El negocio se direcciona a vender la instalación de un sistema de diseño con IA a empresas B2B con equipo de marketing y sin diseñador propio, que es el nivel que el mercado está pidiendo hoy. El segundo nivel, la estrategia creativa de creación de marca y comunicación, queda listo para abrirse cuando tenga casos que lo respalden. La ventaja competitiva ya está instalada y es difícil de copiar: hace todos los días adentro de Wellmate lo que va a vender afuera, y resuelve solo lo que antes pedía 3 personas.\n\nEl calendario se aprieta al máximo en su caso, porque el freno está en el arranque. La oferta se cierra con Franco el 17 de septiembre, que es la fecha dura, y los ángulos se cargan en el calendario ese mismo día. Las 10 piezas suben entre el 18 y el 30 de septiembre, y las 5 llamadas arrancan el 1 de octubre, en paralelo con la lectura de esas piezas, que se hace sobre la marcha: cada una se mide el día que se publica y corrige la siguiente. De 15 videos subió uno, y el patrón ya está a la vista: cuando la tarea sale de algo que ya existe avanza, y cuando arranca de una hoja en blanco se traba. Por eso las fechas son cortas y encadenadas, con un entregable en la mano cada semana y presión de afuera hasta que la tenga adentro.\n\nQueda abierto el precio final de la instalación y del acompañamiento mensual, que se confirma con las primeras 5 llamadas, y con eso la decisión de abrir el segundo nivel de la oferta.",
   "carta": "Lucio, tenés algo que el mercado está buscando ahora mismo y lo tenés probado adentro de una empresa que le vende a Mercado Libre y a Arcor: armás con IA lo que antes pedía un equipo entero. Lo que te faltó hasta acá es el envase, y eso se resuelve en una reunión con Franco. Para septiembre te pedimos algo incómodo: publicar antes de estar conforme, diez veces, contra ángulos que ya van a estar definidos. La calibración se corrige sobre lo que está arriba, y con un video no hay con qué corregir. El diseño gráfico es tu medio y tu techo está bastante más arriba; la escucha activa que reclamás de los demás es justo lo que vas a vender. Ponelo a prueba con precio y hablemos con los números de las 5 llamadas adelante.",
-  "abierto": "El precio final de la instalación y del acompañamiento mensual, que recién se confirma con las primeras 5 llamadas (falta confirmar). Y si la llamada con Franco para cerrar la oferta llegó a hacerse: la fecha del roadmap era el 17 de septiembre y no consta agendada (falta confirmar).",
+  "abierto": "La métrica de la promesa quedó en blanco en la llamada con Franco del 30/9: tiene que medir impacto comercial, no piezas entregadas (falta confirmar). Y el margen real del precio de 1.800 dólares, que sale cuando Lucio calcule su costo de entrega por cliente (falta confirmar).",
   "handicap": {
     "ejes": {
       "oferta": 1,

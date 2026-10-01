@@ -5,6 +5,17 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 1 de octubre de 2026
+
+Lucio salió de la llamada con Franco con oferta nueva, y la grupal de Juana quedó cargada en cinco clientes.
+
+- **Lucio: Lanzamiento de marca, 6 semanas a 1.800 dólares.** Sale de la llamada con Franco del 30/9. Cambian etapa, el punto B de octubre (las 5 llamadas ahora van con ese precio y presentadas en vivo) y abierto (falta la métrica de la promesa y su costo de entrega). En la torre, la pelota pasa a Franco, que le debe el documento de oferta y la escalera de valor. El puntaje no se mueve hasta que ese documento esté cerrado.
+- **Grupal con Juana del 30/9.** Hito y último contacto al día en Seba (serie de YouTube en 3 o 4 partes con intro fija), Bianca, Lola y Scarlett. Seba tiene la 1:1 con vos mañana a las 9:00: la pelota es tuya.
+
+**Para mirar antes de subir:** la etapa y el punto B nuevos de Lucio. Torre publicada, versión 59.
+
+---
+
 ## 30 de septiembre de 2026
 
 La radiografía de Aaron al día con la 1:1 del martes, y Scarlett con su lanzamiento armado con Franco.
