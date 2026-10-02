@@ -1,0 +1,75 @@
+{
+  "modulo": "propuesta-comercial",
+  "titulo": "La hoja de la propuesta",
+  "bajada": "Un esqueleto fijo de propuesta que se completa con las notas de la llamada y sale dentro de las 48 horas, con el precio nuevo escrito en una sola lámina.",
+  "lista_cuando": "Terminás una llamada de venta y la propuesta sale en menos de dos días, sin arrancar de cero.",
+  "secciones": [
+    {
+      "titulo": "El esqueleto fijo",
+      "consigna": "Las seis partes que lleva toda propuesta, en este orden: portada, objetivos y modalidad, alcance, fases, equipo e inversión. Escribí qué va en cada una para tu negocio.",
+      "ejemplo": {
+        "quien": "Matías Morales",
+        "texto": "Cerró todas las propuestas que armó. Lo que le costaba era el tiempo de armarlas: cada una salía de cero, y entre la llamada y el envío pasaban días."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Parte",
+        "Qué va en tu caso"
+      ],
+      "filas": 6,
+      "cid": 0
+    },
+    {
+      "titulo": "El alcance",
+      "consigna": "Qué incluye, qué no incluye y qué necesitás del cliente para cumplirlo. La tercera columna es la que evita los reclamos después.",
+      "campo": "tabla",
+      "columnas": [
+        "Incluye",
+        "No incluye",
+        "Necesito del cliente"
+      ],
+      "filas": 6,
+      "cid": 1
+    },
+    {
+      "titulo": "Las fases",
+      "consigna": "El trabajo partido en fases, con el entregable y el plazo de cada una.",
+      "campo": "tabla",
+      "columnas": [
+        "Fase",
+        "Entregable",
+        "Plazo"
+      ],
+      "filas": 5,
+      "cid": 2
+    },
+    {
+      "titulo": "La inversión",
+      "consigna": "El precio en una sola lámina, con la forma de pago. Va el precio nuevo, el que sale de tu oferta escrita.",
+      "ejemplo": {
+        "quien": "Sol Boutmy",
+        "texto": "Tiene que presentar la oferta nueva con el precio nuevo en por lo menos una propuesta real, con el costo por dos como piso y el mínimo de mil dólares."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Precio",
+        "Forma de pago",
+        "Qué se cobra al arrancar",
+        "Validez de la propuesta"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "La primera propuesta real",
+      "consigna": "Armá la próxima propuesta con este esqueleto, desde las notas de la llamada, y anotá qué pasó.",
+      "campo": "lineas",
+      "lineas": [
+        "Cliente",
+        "Fecha de la llamada",
+        "Fecha de envío",
+        "Respuesta"
+      ],
+      "cid": 4
+    }
+  ]
+}

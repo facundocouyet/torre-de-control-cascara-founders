@@ -1,0 +1,56 @@
+# Baja lo que pasa en la app (asignaciones, revisiones, entregas, tareas, comentarios) a la rama
+# app-datos, para que el Claude de Facu lo lea desde el clon. Solo lee la base y nunca toca main.
+# El repo es público: los datos viajan CIFRADOS con APP_DATOS_CLAVE (secret de GitHub). La misma
+# clave vive en la Mac de Facu, en .app-datos-clave (ignorado por git). Se abre con
+# scripts/leer-app-local.sh. Sin el secret cargado, la Action no publica nada.
+name: Leer la app
+
+on:
+  schedule:
+    - cron: '30 10,15,21 * * *'   # 7:30, 12:30 y 18:30 de Argentina
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  leer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Bajar las tablas
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          APP_DATOS_CLAVE: ${{ secrets.APP_DATOS_CLAVE }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_KEY" ] || [ -z "$APP_DATOS_CLAVE" ]; then
+            echo "::warning::Faltan SUPABASE_URL, SUPABASE_SERVICE_KEY o APP_DATOS_CLAVE: no se publica nada"; exit 0
+          fi
+          python3 generador/leer_app.py /tmp/app-datos
+      - name: Cifrar
+        env:
+          APP_DATOS_CLAVE: ${{ secrets.APP_DATOS_CLAVE }}
+        run: |
+          [ -d /tmp/app-datos ] || exit 0
+          tar -czf /tmp/datos.tgz -C /tmp app-datos
+          openssl enc -aes-256-cbc -pbkdf2 -iter 200000 -salt -in /tmp/datos.tgz -out /tmp/datos.tgz.enc -pass env:APP_DATOS_CLAVE
+          rm -rf /tmp/app-datos /tmp/datos.tgz
+      - name: Guardar en la rama app-datos
+        run: |
+          [ -f /tmp/datos.tgz.enc ] || exit 0
+          git config user.name "leer-app"
+          git config user.email "leer-app@users.noreply.github.com"
+          git fetch origin app-datos || true
+          if git rev-parse --verify origin/app-datos >/dev/null 2>&1; then
+            git checkout -B app-datos origin/app-datos
+          else
+            git checkout --orphan app-datos && git rm -rf . >/dev/null
+          fi
+          cp /tmp/datos.tgz.enc datos.tgz.enc
+          git add datos.tgz.enc
+          git commit -m "Datos de la app al $(date -u +%Y-%m-%dT%H:%MZ)" || exit 0
+          git push origin app-datos

@@ -1,7 +1,7 @@
 {
   "modulo": "calendario-lanzamiento",
   "titulo": "La hoja del lanzamiento",
-  "bajada": "Cuarenta y cinco días con fecha de apertura y de cierre, el contenido de cada día cargado y el tramo comercial al final. Cuando está completa, el lanzamiento se corre leyendo la hoja.",
+  "bajada": "Cuatro semanas con fecha de apertura y de cierre, el contenido de cada día cargado, un encuentro en vivo en la semana 3 y la venta abierta en la semana 4. Cuando está completa, el lanzamiento se corre leyendo la hoja.",
   "lista_cuando": "Cualquiera del equipo abre el calendario, ve qué pieza sale hoy y qué pasa el día del cierre, sin preguntarte nada.",
   "secciones": [
     {
@@ -35,8 +35,8 @@
       "cid": 1
     },
     {
-      "titulo": "Los primeros quince días: tu historia y el calentamiento",
-      "consigna": "Quince días donde aparecés vos: de dónde venís, qué te pasó con esto y por qué armaste lo que vas a vender. Sacalo de una charla larga grabada de una sola vez, con alguien enfrente haciéndote preguntas, y de ahí cortás las piezas. En este tramo el único pedido es que te contesten; el precio aparece después.",
+      "titulo": "Semana 1: tu historia y el calentamiento",
+      "consigna": "Siete días donde aparecés vos: de dónde venís, qué te pasó con esto y por qué armaste lo que vas a vender. Sacalo de una charla larga grabada de una sola vez, con alguien enfrente haciéndote preguntas, y de ahí cortás las piezas de la semana. En este tramo el único pedido es que te contesten; el precio aparece después.",
       "ejemplo": {
         "quien": "Aaron",
         "texto": "El pasaporte digital completo es lo primero del tramo: de dónde viene, qué cambió este año y por qué se quiere correr del mundo del infoproducto. De ahí salen los ángulos, incluida una entrevista cruda con Cami haciéndole preguntas, sin guion."
@@ -48,25 +48,25 @@
     },
     {
       "titulo": "El calendario día por día",
-      "consigna": "Una fila por día, de la apertura al cierre. Cada día lleva el bloque al que pertenece, la pieza concreta, dónde sale y qué tiene que provocar. Un día sin pieza cargada es un día que se cae, así que los cuarenta y cinco se completan antes de arrancar.",
+      "consigna": "Una fila por día, de la apertura al cierre: veintiocho filas. Cada día lleva la semana a la que pertenece, la pieza concreta, dónde sale y qué tiene que provocar. Un día sin pieza cargada es un día que se cae, así que las cuatro semanas se completan antes de arrancar.",
       "ejemplo": {
-        "quien": "Agostina",
-        "texto": "El calendario de historias día por día lo baja Franco junto con el embudo y los ángulos. Las cuatro semanas arrancan entre el 12 y el 15 de septiembre para llegar con la oferta armada al evento de Kaipi del 10 de octubre."
+        "quien": "Scarlett",
+        "texto": "Su lanzamiento quedó en cuatro semanas con una fecha por semana: abre el grupo de WhatsApp el 9 de octubre, hace la prueba de audiencia el 16, la preventa el 23 y el taller presencial el 30. Cada semana tiene un solo trabajo y el calendario se lee de arriba abajo."
       },
       "campo": "tabla",
       "columnas": [
         "Día y fecha",
-        "Bloque",
+        "Semana",
         "Pieza",
         "Dónde sale",
         "Qué tiene que provocar"
       ],
-      "filas": 10,
+      "filas": 28,
       "cid": 3
     },
     {
-      "titulo": "El bloque de problema y el bloque de solución",
-      "consigna": "Escribí qué problema instalás primero y con qué mecanismo lo resolvés después, una pieza por día. El problema se cuenta con las palabras de tus clientes; la solución se cuenta con un caso tuyo con número adelante. Dos piezas del mismo día que empujan para lados distintos se chocan entre ellas: queda una.",
+      "titulo": "Semanas 2 y 3: el problema y el mecanismo",
+      "consigna": "En la semana 2 instalás el problema con las palabras de tus clientes y abrís el grupo o la lista de espera para los que levantan la mano. En la semana 3 mostrás con qué mecanismo lo resolvés, con un caso tuyo con número adelante. Dos piezas del mismo día que empujan para lados distintos se chocan entre ellas: queda una.",
       "ejemplo": {
         "quien": "Bianca",
         "texto": "En el drop del miedo la comunicación instaló el concepto durante semanas y el producto llegó al final, con un carrusel de conversión publicado sin stock disponible. Ella lo detectó sola y para el próximo drop achica la ventana y mete producto al mismo tiempo."
@@ -77,7 +77,7 @@
       "cid": 4
     },
     {
-      "titulo": "El encuentro en vivo y la lista de los que se anotan",
+      "titulo": "El encuentro en vivo de la semana 3 y la lista de los que se anotan",
       "consigna": "Una fecha en vivo adentro del tramo, dando algo que sirva por sí solo, con registro para entrar. Ponele una meta de anotados y definí quién carga la lista el mismo día. De esa lista sale el tramo comercial, porque al que asistió se le habla distinto que al que se anotó y faltó.",
       "ejemplo": {
         "quien": "Sebastián",
@@ -94,8 +94,8 @@
       "cid": 5
     },
     {
-      "titulo": "El tramo comercial, al final",
-      "consigna": "Los últimos días, escritos ahora y con la cabeza fría: cupos, fecha de cierre, seña y qué pasa cuando se termina. Son las piezas que más cuesta improvisar, así que van cargadas antes de abrir. Cuántos lugares quedan se publica todos los días hasta el cierre.",
+      "titulo": "Semana 4: la venta abierta",
+      "consigna": "Los siete días de venta, escritos ahora y con la cabeza fría: cupos, fecha de cierre, seña y qué pasa cuando se termina. Son las piezas que más cuesta improvisar, así que van cargadas antes de abrir. Cuántos lugares quedan se publica todos los días hasta el cierre.",
       "ejemplo": {
         "quien": "Lola",
         "texto": "Tuvo tres llamadas de gente que le escribió y una iba a comprar. Las tres se cayeron en el mismo lugar, al final, con el programa terminado y sin fecha, sin escasez y sin seña para reservar el lugar."
@@ -116,7 +116,7 @@
         "Manos levantadas",
         "Ventas"
       ],
-      "filas": 10,
+      "filas": 28,
       "cid": 7
     }
   ]

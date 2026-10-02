@@ -8,6 +8,8 @@ on:
     paths:
       - 'fichas/inventario.json'
       - 'fichas/plantillas/**'
+      - 'contenido/asignaciones.json'
+      - 'generador/sync_cartas.py'
   workflow_dispatch:
 
 jobs:

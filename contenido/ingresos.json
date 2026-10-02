@@ -1,0 +1,93 @@
+{
+  "regla": "Clientes de Founders que ya entraron y todavía no tienen ficha: la ficha se escribe después de la Clarity Call. El slug es el de la app (clientes.slug) y el del canal cf-; las cartas escritas para ellos usan este slug. Cuando se escribe la ficha, el cliente sale de esta lista.",
+  "actualizado": "2026-10-02",
+  "clientes": [
+    {
+      "slug": "rosario-sola",
+      "nombre": "Rosario Solá",
+      "start": "2026-09-23",
+      "correo": "rosariosola@gmail.com",
+      "clarity": "2026-09-29",
+      "nota": "Clarity hecha; tiene pasaporte e ICP escritos para ella. Falta la ficha."
+    },
+    {
+      "slug": "samuel-tarancon",
+      "nombre": "Samuel Tarancón",
+      "start": "2026-09-23",
+      "correo": "satac.webdesigner@gmail.com",
+      "clarity": null
+    },
+    {
+      "slug": "lara-loiano",
+      "nombre": "Lara Loiano",
+      "start": "2026-09-25",
+      "correo": "proyectonoiseit@gmail.com",
+      "clarity": null,
+      "canal": "cf-lara-loiano"
+    },
+    {
+      "slug": "juan-cruz-galeano",
+      "nombre": "Juan Galeano",
+      "start": "2026-09-25",
+      "correo": "jctgaleano@gmail.com",
+      "clarity": null,
+      "canal": "cf-juan-cruz-galeano"
+    },
+    {
+      "slug": "lucila-prieto",
+      "nombre": "Lucila Prieto",
+      "start": "2026-09-25",
+      "correo": "beyourcontent@gmail.com",
+      "clarity": null,
+      "canal": "cf-lucila-prieto"
+    },
+    {
+      "slug": "naiara-angeloff",
+      "nombre": "Naiara Angeloff",
+      "start": "2026-09-28",
+      "correo": "naiara@hungermedia.com.uy",
+      "clarity": null,
+      "canal": "cf-naiara-angeloff"
+    },
+    {
+      "slug": "milagros-goico",
+      "nombre": "Milagros Goico y Candela García (A2)",
+      "start": "2026-09-15",
+      "correo": "milagrosgoico@deadoslab.com",
+      "clarity": null,
+      "canal": "cf-milagros-goico",
+      "nota": "START en Cuentas 15/9; el onboarding con Teo fue el 29/9 (pregunta 54)."
+    },
+    {
+      "slug": "osmo-estudio",
+      "nombre": "Ivana Gonzalez y Karina Sack — Osmo Estudio",
+      "start": "2026-10-01",
+      "correo": "gonzalezivanac@gmail.com",
+      "correo_alt": "info@osmoestudio.com.ar",
+      "clarity": null
+    },
+    {
+      "slug": "delfina-corsalini",
+      "nombre": "Delfina Corsalini",
+      "start": "2026-10-01",
+      "correo": "delficorsalini@gmail.com",
+      "clarity": null,
+      "canal": "cf-delfina-corsalini"
+    },
+    {
+      "slug": "marcelo-fernandez",
+      "nombre": "Marcelo Fernandez",
+      "start": "2026-10-02",
+      "correo": "fernandezmarceloandres@gmail.com",
+      "clarity": null
+    },
+    {
+      "slug": "sofia-guevara",
+      "nombre": "Sofía Guevara",
+      "start": null,
+      "correo": null,
+      "clarity": null,
+      "nota": "Francisca pidió su grupo el 30/9; sin fila en Cuentas (pregunta 73)."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "modulo": "os-en-notion",
+  "titulo": "La hoja del OS",
+  "bajada": "Un solo espacio en Notion con una página por cliente, el calendario adentro y los estados configurados, listo para que entre alguien más del equipo sin que le tengas que explicar.",
+  "lista_cuando": "Le das acceso a una persona nueva y en una tarde entiende en qué está cada cliente.",
+  "secciones": [
+    {
+      "titulo": "Lo que hoy está repartido",
+      "consigna": "Listá dónde vive hoy la información de tu negocio: planillas, chats, carpetas, la cabeza de alguien. Es lo que se muda al OS.",
+      "ejemplo": {
+        "quien": "Sol Boutmy",
+        "texto": "Recibió el template del OS de Cáscara con una página por cliente, el calendario adentro y los estados ya configurados para meter un editor sin explicarle todo de nuevo."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Qué información",
+        "Dónde está hoy",
+        "Quién la usa"
+      ],
+      "filas": 8,
+      "cid": 0
+    },
+    {
+      "titulo": "Una página por cliente",
+      "consigna": "Duplicá el template y armá una página por cliente activo, con su calendario y sus tareas adentro.",
+      "campo": "lineas",
+      "lineas": [
+        "Link al OS",
+        "Cuántos clientes cargaste",
+        "Qué falta pasar"
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "Los estados de una tarea",
+      "consigna": "Los estados por los que pasa una tarea, de pedido a publicado o entregado. Cada estado tiene un responsable.",
+      "campo": "tabla",
+      "columnas": [
+        "Estado",
+        "Quién la mueve a este estado"
+      ],
+      "filas": 6,
+      "cid": 2
+    },
+    {
+      "titulo": "Qué entra y qué queda afuera",
+      "consigna": "Escribí qué se carga siempre en el OS y qué no, para que no vuelva a repartirse.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Siempre se carga... / Queda afuera...",
+      "cid": 3
+    },
+    {
+      "titulo": "Quién tiene acceso a qué",
+      "consigna": "El equipo y los clientes que entran, con el permiso de cada uno.",
+      "campo": "tabla",
+      "columnas": [
+        "Persona",
+        "Rol",
+        "Qué puede ver o editar"
+      ],
+      "filas": 6,
+      "cid": 4
+    }
+  ]
+}

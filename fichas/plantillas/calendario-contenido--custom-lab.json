@@ -1,0 +1,27 @@
+{
+  "modulo": "calendario-contenido",
+  "slug": "custom-lab",
+  "founder": "Piero Medina y Juan Cruz Aguirre",
+  "bajada": "Las dos campañas de Custom Lab cargadas en un calendario, con los doce ángulos repartidos y un día fijo de grabación. Es lo que Franco dejó como el cuello del tramo el 18 de septiembre.",
+  "lista_cuando": "Abren el calendario el lunes y saben qué graban, qué publican y con qué ángulo, sin preguntarle a nadie.",
+  "bajada_envio": {
+    "founder": "Piero y Juan",
+    "porque": "La tienda está lista y la oferta también. El 18 de septiembre Franco pospuso los kits y dejó un solo trabajo: que la marca se vea. Quedaron dos campañas y doce ángulos, y todavía no salió ninguna pieza.",
+    "objetivo": "Las dos campañas publicando con cadencia fija, y el calendario presentado a Fede en la llamada de contenido.",
+    "mindset": "Documentar es mostrar el proceso como está, con la búsqueda de proveedores y con lo que sale mal. Ese material ya lo producen todos los días: falta prender la cámara."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está definido",
+      "texto": [
+        "<b>Campaña de Documentación:</b> el proceso de construir la marca, como serie semanal.",
+        "<b>Campaña de Producto:</b> los kits desde el boceto hasta el prototipo.",
+        "<b>Los doce ángulos</b> que dejó Franco el 18 de septiembre, para repartir entre las dos campañas.",
+        "<b>El público:</b> startups, pymes y empresas de treinta a cincuenta empleados, que compran publicidad hecha con merch.",
+        "<b>Lo que pidió Juana el 16 de septiembre:</b> los territorios de contenido sobre los tres pilares. Es la única organización que necesitan, y van en la primera sección de esta hoja."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

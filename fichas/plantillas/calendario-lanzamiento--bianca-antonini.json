@@ -1,0 +1,27 @@
+{
+  "modulo": "calendario-lanzamiento",
+  "slug": "bianca-antonini",
+  "founder": "Bianca Antonini",
+  "bajada": "El lanzamiento de los anillos de Eclipse en cuatro semanas, con la comunidad de WhatsApp adentro y el stock disponible el día que sale el contenido de conversión.",
+  "lista_cuando": "Cualquiera del equipo abre el calendario, ve qué sale hoy en la comunidad y en redes, y sabe cuántos anillos quedan.",
+  "bajada_envio": {
+    "founder": "Bianca Antonini",
+    "porque": "Los anillos son el producto más fácil de vender que tenés: la demanda está probada en TikTok y hay material viejo para recopilar. En el drop del miedo el carrusel de conversión salió sin stock; este lanzamiento corrige justo eso.",
+    "objetivo": "El lanzamiento de los anillos corriendo con el mecanismo entero y la meta de superar las 236 recompras, con la mayor parte de las ventas saliendo de la comunidad.",
+    "mindset": "El mecanismo ya lo diseñaste vos con el documento de Eclipse. Esta hoja lo pone en días."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está definido",
+      "texto": [
+        "<b>Preventa a la comunidad</b> con stock reservado, antes de abrir al público.",
+        "<b>Dinámica de participación</b> adentro del grupo de WhatsApp.",
+        "<b>Ventana de comunicación corta</b> y producto disponible el día que sale el contenido de conversión.",
+        "<b>El pilar founder-led</b> que salió el 30 de septiembre con Juana: contenido personal y sin editar entre drop y drop.",
+        "<b>Lo que falta:</b> cuánta gente hay hoy en la comunidad, la meta de ventas desde ahí y la fecha de la activación de la colección."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

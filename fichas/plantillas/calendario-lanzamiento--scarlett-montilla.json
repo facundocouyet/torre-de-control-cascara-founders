@@ -1,0 +1,27 @@
+{
+  "modulo": "calendario-lanzamiento",
+  "slug": "scarlett-montilla",
+  "founder": "Scarlett Montilla",
+  "bajada": "El lanzamiento de cuatro semanas que armaste con Franco, cargado día por día: grupo el 9 de octubre, prueba de audiencia el 16, preventa el 23 y taller presencial el 30.",
+  "lista_cuando": "Cada día sabés qué pieza sale, qué pasa en el grupo y cuántos lugares quedan para el taller.",
+  "bajada_envio": {
+    "founder": "Scarlett Montilla",
+    "porque": "El 29 de septiembre, con Franco, el lanzamiento quedó en cuatro semanas con una fecha dura por semana. Ahora hay que cargar los días de en medio.",
+    "objetivo": "El calendario completo antes del 9 de octubre, para que el lanzamiento se corra leyendo la hoja y el taller del 30 llegue lleno.",
+    "mindset": "Cada semana tiene un solo trabajo. Si un día no sabés qué publicar, mirá qué semana es."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está definido",
+      "texto": [
+        "<b>9 de octubre:</b> abre el grupo de WhatsApp.",
+        "<b>16 de octubre:</b> prueba de audiencia.",
+        "<b>23 de octubre:</b> preventa.",
+        "<b>30 de octubre:</b> taller presencial.",
+        "<b>Lo que falta:</b> el precio del taller, que quedó entre 17 y 47 dólares, la locación del 30 y el precio de la mentoría grupal que viene después."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

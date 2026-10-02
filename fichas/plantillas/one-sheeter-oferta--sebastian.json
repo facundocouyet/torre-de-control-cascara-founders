@@ -1,0 +1,36 @@
+{
+  "modulo": "one-sheeter-oferta",
+  "slug": "sebastian",
+  "founder": "Sebastián Martínez",
+  "bajada": "El programa de ocho semanas escrito en una hoja, con el precio exacto, los cupos y la fecha de apertura del cohort. Los números ya están desde el 16 de septiembre; esta hoja los cierra.",
+  "lista_cuando": "Mandás la hoja a alguien que nunca te vio y entiende qué se lleva, en cuánto tiempo, cuánto paga y cuándo arranca.",
+  "bajada_envio": {
+    "founder": "Sebastián Martínez",
+    "porque": "El ICP y los ángulos ya están hechos y la oferta tiene números desde la llamada con Franco del 16 de septiembre. Lo que falta es escribirla junta, con un solo precio, un solo número de cupos y una fecha de apertura.",
+    "objetivo": "La oferta escrita con precio y fecha, lista para la segunda llamada con Franco, para que esa llamada cierre el número y no lo vuelva a abrir.",
+    "mindset": "Tenés más producto del que parece: kit de bienvenida, cinco sesiones con deck, guías con entregable, checklist y las clases grabadas. Esta hoja ordena lo que ya existe."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está definido",
+      "texto": [
+        "<b>16 de septiembre, con Franco.</b> El programa queda en ocho semanas, con tres pilares (identidad, sistema y monetización), una grupal semanal en vivo, de doce a quince cupos y una entrada de 997 a 1.200 dólares para el primer grupo. La meta: de siete a diez cierres y de diez a quince mil dólares.",
+        "<b>18 de septiembre, con Facu.</b> La promesa, la estructura del cohort, un onboarding de 48 horas y los formularios de entrada y de salida para documentar el punto A de cada alumno.",
+        "<b>24 de septiembre, con Fede.</b> Foco total en el cohort, página de espera y canal propio de YouTube.",
+        "<b>La biografía:</b> «Que te contraten por tu criterio, no por tu precio»."
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Lo que esta hoja tiene que cerrar",
+      "texto": [
+        "Un solo precio adentro del rango de 997 a 1.200 dólares.",
+        "Un solo número de cupos: la llamada del 16 dijo doce a quince en el formato y siete a diez en la meta de cierres.",
+        "La fecha de apertura del cohort.",
+        "Qué entra en el pilar de monetización, que quedó planteado como pregunta."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

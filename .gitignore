@@ -46,3 +46,7 @@ __pycache__/
 *.pyc
 .venv/
 node_modules/
+
+# lo que se baja de la app (scripts/leer-app-local.sh) y su clave
+_app/
+.app-datos-clave

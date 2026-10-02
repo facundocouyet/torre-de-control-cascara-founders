@@ -35,7 +35,34 @@
             "Google Sheets para el punto A"
           ],
           "estado": "existe",
-          "evidencia": "Es el documento que Facu ya hizo a mano para Aye, Sharon, Scarlett, Lucio, Custom Lab, Nico y Ceci, y la escalera de los cinco ejes está escrita en el doc de handicap. Bianca lo pide de manera explicita: contrató para mejorar contenido y lo que faltaba era punto A y punto B."
+          "evidencia": "Es el documento que Facu ya hizo a mano para Aye, Sharon, Scarlett, Lucio, Custom Lab, Nico y Ceci, y la escalera de los cinco ejes está escrita en el doc de handicap. Bianca lo pide de manera explicita: contrató para mejorar contenido y lo que faltaba era punto A y punto B.",
+          "tareas": [
+            {
+              "titulo": "Juntar ventas, precios y clientes de los últimos 90 días en una planilla",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Lo que hay, aunque esté incompleto: se sube como está."
+            },
+            {
+              "titulo": "Contar las horas propias por semana y las piezas publicadas",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Repasar con Facu la grilla de los cinco ejes y la evidencia de cada número",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": "En la 1:1: cada número se apoya en algo que se puede mostrar."
+            },
+            {
+              "titulo": "Escribir el cuello de botella en una frase y el punto B con número y fecha",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            }
+          ],
+          "estado_galeria": "aprobada"
         },
         {
           "id": "foco-y-ventana",
@@ -65,7 +92,8 @@
             "Notion (tablero de foco del trimestre)"
           ],
           "estado": "existe",
-          "evidencia": "Agostina con el evento de Kaipi del 10 de octubre y la energía repartida en varias ventanas. Bianca con el lanzamiento de los anillos. Aaron con la voz primero y la oferta después. Sofía frenando la entrada de clientes nuevos hasta tener equipo."
+          "evidencia": "Agostina con el evento de Kaipi del 10 de octubre y la energía repartida en varias ventanas. Bianca con el lanzamiento de los anillos. Aaron con la voz primero y la oferta después. Sofía frenando la entrada de clientes nuevos hasta tener equipo.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "sociedad-y-roles",
@@ -95,7 +123,8 @@
             "Google Sheets para el reparto"
           ],
           "estado": "existe",
-          "evidencia": "Agostina: la cabeza partida en dos entre el estudio con su socia y el proyecto propio, con la conversación de fondo pendiente. Sol Boutmy: Sol y Fede hacen lo mismo y las dos están adentro de la producción. Custom Lab: Piero en creativo y Juan en comercial, con el reparto sin escribir."
+          "evidencia": "Agostina: la cabeza partida en dos entre el estudio con su socia y el proyecto propio, con la conversación de fondo pendiente. Sol Boutmy: Sol y Fede hacen lo mismo y las dos están adentro de la producción. Custom Lab: Piero en creativo y Juan en comercial, con el reparto sin escribir.",
+          "estado_galeria": "aprobada"
         }
       ]
     },
@@ -130,7 +159,46 @@
             "Formulario de ICP y dolores de Cáscara"
           ],
           "estado": "existe",
-          "evidencia": "El formulario de ICP y dolores ya se le mandó a Seba. Custom Lab movio la oferta de producción textil a publicidad hecha con merch para empresas de 30 a 50 empleados. Lucio tiene escrito el buyer de empresas B2B con equipo de marketing y sin disenador. José David eligió marcas personales que ya tienen e-commerce. Aye y Scarlett lo tienen pendiente."
+          "evidencia": "El formulario de ICP y dolores ya se le mandó a Seba. Custom Lab movio la oferta de producción textil a publicidad hecha con merch para empresas de 30 a 50 empleados. Lucio tiene escrito el buyer de empresas B2B con equipo de marketing y sin disenador. José David eligió marcas personales que ya tienen e-commerce. Aye y Scarlett lo tienen pendiente.",
+          "tareas": [
+            {
+              "titulo": "Bajar las familias de público a perfiles con dolor y pregunta",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Juntar las frases que ya te dijeron clientes y seguidores, textuales",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Hablar con una persona real de esos perfiles y anotar lo que contestó",
+              "semana": 1,
+              "frecuencia": "diaria",
+              "descripcion": "Una por día hasta llegar a cinco."
+            },
+            {
+              "titulo": "Listar los clientes que ya te pagaron y qué compraron",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Escribir el cliente ideal en una frase y probarla con tres de los cinco",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Subir la hoja completa y pasarla a revisión",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            }
+          ],
+          "estado_galeria": "aprobada"
         },
         {
           "id": "one-sheeter-oferta",
@@ -161,7 +229,52 @@
             "Canva o Claude Design para la hoja presentable"
           ],
           "estado": "existe",
-          "evidencia": "La carta de oferta es lo que se manda antes del 1:1 con Franco: baja el material crudo y cierra con el NOVA y el one-sheeter escritos por el founder. La cantidad de preguntas cambia según la variante de cada caso, así que no se nombra un número. El formulario de 40 preguntas que figuraba acá nunca existió: no está ni en Notion ni en Drive. El one-sheeter lo escribe Franco caso por caso: Aye lo tiene pendiente, Scarlett lo tiene a medias, Lucio salió con el documento de dos módulos, José David necesita la promesa en número, Sofía tiene que cerrar el de educación y Lola el del programa."
+          "evidencia": "La carta de oferta es lo que se manda antes del 1:1 con Franco: baja el material crudo y cierra con el NOVA y el one-sheeter escritos por el founder. La cantidad de preguntas cambia según la variante de cada caso, así que no se nombra un número. El formulario de 40 preguntas que figuraba acá nunca existió: no está ni en Notion ni en Drive. El one-sheeter lo escribe Franco caso por caso: Aye lo tiene pendiente, Scarlett lo tiene a medias, Lucio salió con el documento de dos módulos, José David necesita la promesa en número, Sofía tiene que cerrar el de educación y Lola el del programa.",
+          "tareas": [
+            {
+              "titulo": "Completar las preguntas de discovery de la carta",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Material crudo: lo que vendés hoy, a quién, cuánto cobraste y qué te preguntan."
+            },
+            {
+              "titulo": "Escribir la promesa en una frase, con resultado en número y plazo",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Bajar la entrega en etapas, con el entregable de cada una",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Listar qué incluye, qué queda afuera y qué necesita del cliente",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Listar contra qué te comparan y tu ventaja sobre cada uno",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Pasar la oferta a una hoja y probarla en una conversación real",
+              "semana": 3,
+              "frecuencia": "unica",
+              "descripcion": "Se anota qué entendió la otra persona y qué objetó."
+            },
+            {
+              "titulo": "Subir la hoja y pasarla a revisión antes de la llamada con Franco",
+              "semana": 3,
+              "frecuencia": "unica",
+              "descripcion": ""
+            }
+          ],
+          "estado_galeria": "aprobada"
         },
         {
           "id": "precio-escalera",
@@ -192,7 +305,8 @@
             "Stripe o link de pago para el cobro por adelantado"
           ],
           "estado": "existe",
-          "evidencia": "Sofía tiene el paquete de tres meses a 4.000 de lista, 3.500 por adelantado y 3.800 en dos cuotas. Sol tiene el costo por dos como piso y el mínimo de mil dólares. Seba tiene el precio de hipotesis entre mil y mil quinientos. Lucio entre dos mil y tres mil la instalación. Lola ajusto el ticket de entrada de Workflow. Matías vendió al doble. Lucca tiene el diez por ciento fijo y margen para una escalera."
+          "evidencia": "Sofía tiene el paquete de tres meses a 4.000 de lista, 3.500 por adelantado y 3.800 en dos cuotas. Sol tiene el costo por dos como piso y el mínimo de mil dólares. Seba tiene el precio de hipotesis entre mil y mil quinientos. Lucio entre dos mil y tres mil la instalación. Lola ajusto el ticket de entrada de Workflow. Matías vendió al doble. Lucca tiene el diez por ciento fijo y margen para una escalera.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "cinco-llamadas-con-precio",
@@ -223,7 +337,8 @@
             "Calendly"
           ],
           "estado": "existe",
-          "evidencia": "La regla de validar con precio y nunca gratis está escrita en casi todos los paquetes. Seba dio la mentoría de cinco sesiones gratis a cuatro personas y quedó sin nada que leer. Aye corto la asesoría gratuita y pasa a cobrar el discovery. Lucio confirma el precio con las primeras cinco llamadas. Lola arrastra tres llamadas caidas al final."
+          "evidencia": "La regla de validar con precio y nunca gratis está escrita en casi todos los paquetes. Seba dio la mentoría de cinco sesiones gratis a cuatro personas y quedó sin nada que leer. Aye corto la asesoría gratuita y pasa a cobrar el discovery. Lucio confirma el precio con las primeras cinco llamadas. Lola arrastra tres llamadas caidas al final.",
+          "estado_galeria": "aprobada"
         }
       ]
     },
@@ -263,7 +378,8 @@
             "Canva para las portadas de destacadas"
           ],
           "estado": "existe",
-          "evidencia": "El SOP con la lista de tareas ya se entregó a Sol Boutmy, a Lucio con destacadas, descripción, feed y archivo, y a Seba con destacadas de historia y archivo. Lucca tiene que rehacer destacadas y bio para que el B2B se entienda, Antonio pasar la cuenta a profesional, Agostina terminar las destacadas, Lola dejar el perfil armado antes de la primera pieza y Manu auditar destacadas e historias antes de sumar pauta."
+          "evidencia": "El SOP con la lista de tareas ya se entregó a Sol Boutmy, a Lucio con destacadas, descripción, feed y archivo, y a Seba con destacadas de historia y archivo. Lucca tiene que rehacer destacadas y bio para que el B2B se entienda, Antonio pasar la cuenta a profesional, Agostina terminar las destacadas, Lola dejar el perfil armado antes de la primera pieza y Manu auditar destacadas e historias antes de sumar pauta.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "angulos-desde-icp",
@@ -291,7 +407,40 @@
             "Hoja de frases propias del founder"
           ],
           "estado": "existe",
-          "evidencia": "Se bajaron caso por caso: los diez ángulos de Lucio, los doce de Custom Lab con cinco pilares, los tres pilares de Nico con la hoja 'Ya lo dijiste', los ángulos que salen del pasaporte de Aaron y los ángulos de la mentoría de Scarlett. El módulo con guion de ejemplo por ángulo está pedido y sin escribir."
+          "evidencia": "Se bajaron caso por caso: los diez ángulos de Lucio, los doce de Custom Lab con cinco pilares, los tres pilares de Nico con la hoja 'Ya lo dijiste', los ángulos que salen del pasaporte de Aaron y los ángulos de la mentoría de Scarlett. El módulo con guion de ejemplo por ángulo está pedido y sin escribir.",
+          "tareas": [
+            {
+              "titulo": "Traer los dolores del cliente ideal con sus palabras",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Convertir cada dolor en la pregunta que él ya se hace, con su origen",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Escribir tu giro propio en dos o tres frases",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Juntar las frases tuyas que ya generaron respuesta",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Subir la tabla y pasarla a revisión antes de la llamada de contenido",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            }
+          ],
+          "estado_galeria": "aprobada"
         },
         {
           "id": "calendario-contenido",
@@ -321,7 +470,46 @@
             "Template de calendario de contenido de Cáscara"
           ],
           "estado": "existe",
-          "evidencia": "El template con referencias y un ejemplo por formato se entregó a Lucio. Nico tiene la base de 45 tarjetas con cuatro fases. Andrea tiene el proceso de producción completo. Agostina trabaja con Ibi una jornada semanal fija. Sharon tiene el calendario propio a medias y sin publicar. Antonio necesita un dueño del calendario. Manu tiene el contenido del equipo saliendo cuando sale."
+          "evidencia": "El template con referencias y un ejemplo por formato se entregó a Lucio. Nico tiene la base de 45 tarjetas con cuatro fases. Andrea tiene el proceso de producción completo. Agostina trabaja con Ibi una jornada semanal fija. Sharon tiene el calendario propio a medias y sin publicar. Antonio necesita un dueño del calendario. Manu tiene el contenido del equipo saliendo cuando sale.",
+          "tareas": [
+            {
+              "titulo": "Definir la cadencia que podés sostener: piezas por semana y día de publicación",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Elegir dos o tres formatos fijos con una referencia de cada uno",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Agendar la jornada fija de grabación de la semana",
+              "semana": 1,
+              "frecuencia": "semanal",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Cargar las tarjetas de las próximas dos semanas con objetivo, formato, ángulo y fecha",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Publicar lo que dice el calendario",
+              "semana": 2,
+              "frecuencia": "semanal",
+              "descripcion": "Lo que no salió se mueve una sola vez."
+            },
+            {
+              "titulo": "Revisar el calendario y anotar qué pieza trajo conversación",
+              "semana": 3,
+              "frecuencia": "semanal",
+              "descripcion": ""
+            }
+          ],
+          "estado_galeria": "aprobada"
         },
         {
           "id": "diez-piezas-y-lectura",
@@ -351,7 +539,8 @@
             "Estadisticas de Instagram y YouTube"
           ],
           "estado": "existe",
-          "evidencia": "La regla de que menos de diez piezas no permite evaluar nada está escrita en casi todos los paquetes: Lucio, José David, Seba, Aaron, Antonio, Lucca, Sharon, Nico, Andrea, Aye y Scarlett. La auditoría de mejores y peores piezas la armó Sharon con la marca de ropa y quedó para replicar. Bianca tiene el criterio de analizar lo que funcionó y repetirlo. Falta el módulo con los pasos completos."
+          "evidencia": "La regla de que menos de diez piezas no permite evaluar nada está escrita en casi todos los paquetes: Lucio, José David, Seba, Aaron, Antonio, Lucca, Sharon, Nico, Andrea, Aye y Scarlett. La auditoría de mejores y peores piezas la armó Sharon con la marca de ropa y quedó para replicar. Bianca tiene el criterio de analizar lo que funcionó y repetirlo. Falta el módulo con los pasos completos.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "formato-barato",
@@ -381,7 +570,8 @@
             "Tarifario de edición de Cáscara"
           ],
           "estado": "existe",
-          "evidencia": "Aaron tiene el formato de entrevista cruda con Cami preguntando desde atras de cámara. Lola se destrabo con el video horizontal largo con alguien preguntando y sin guion. Seba baja del video pulido plano por plano al orgánico de celular. Sharon tiene la regla de edición nivel uno sin pasar de veinte dólares por pieza. Lucio documenta el trabajo real en vivo con voz en off. Bianca graba la serie en capitulos sin producción."
+          "evidencia": "Aaron tiene el formato de entrevista cruda con Cami preguntando desde atras de cámara. Lola se destrabo con el video horizontal largo con alguien preguntando y sin guion. Seba baja del video pulido plano por plano al orgánico de celular. Sharon tiene la regla de edición nivel uno sin pasar de veinte dólares por pieza. Lucio documenta el trabajo real en vivo con voz en off. Bianca graba la serie en capitulos sin producción.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "caso-documentado",
@@ -412,7 +602,8 @@
             "Google Sheets con los números del caso"
           ],
           "estado": "existe",
-          "evidencia": "El criterio de Franco de documentar en lugar de crear se le bajó a Aaron con el cliente de consultoría que ya tiene. Lucca tiene que armar las tres fichas de casos con números antes y después del B2B. José David documenta en Notion sus tres ventas de tres mil dólares. Bianca tiene el dato de 236 clientas que recompraron. Sharon tiene el caso con ventas orgánicas que le ganaron a la pauta."
+          "evidencia": "El criterio de Franco de documentar en lugar de crear se le bajó a Aaron con el cliente de consultoría que ya tiene. Lucca tiene que armar las tres fichas de casos con números antes y después del B2B. José David documenta en Notion sus tres ventas de tres mil dólares. Bianca tiene el dato de 236 clientas que recompraron. Sharon tiene el caso con ventas orgánicas que le ganaron a la pauta.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "color-desde-log",
@@ -442,7 +633,8 @@
             "Grano de 35mm y de 16mm"
           ],
           "estado": "existe",
-          "evidencia": "Sale de la parte de color del SOP de Originals de Cáscara (Lumetri en tres pasos, LUT de conversión al 60%, look TC - ERA al 30%, grano de 35mm en Luz fuerte). Aaron la pidió el 26/9 para corregir su material grabado en LOG."
+          "evidencia": "Sale de la parte de color del SOP de Originals de Cáscara (Lumetri en tres pasos, LUT de conversión al 60%, look TC - ERA al 30%, grano de 35mm en Luz fuerte). Aaron la pidió el 26/9 para corregir su material grabado en LOG.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "estratega-creativo",
@@ -475,7 +667,8 @@
             "SOP Estratega Creativo de la Library OnDemand del OS"
           ],
           "estado": "existe",
-          "evidencia": "Sale del rol que Cáscara escribió para sus propios estrategas (Rol Estratega Creativo, abril 2026) y de la clase 10A del programa, que ya vive en la Library OnDemand de cada OS de cliente. Facu pidió pasarlo a carta el 27/9."
+          "evidencia": "Sale del rol que Cáscara escribió para sus propios estrategas (Rol Estratega Creativo, abril 2026) y de la clase 10A del programa, que ya vive en la Library OnDemand de cada OS de cliente. Facu pidió pasarlo a carta el 27/9.",
+          "estado_galeria": "aprobada"
         }
       ]
     },
@@ -512,7 +705,8 @@
             "Skool si el producto es formativo"
           ],
           "estado": "existe",
-          "evidencia": "El módulo de dinamicas de comunidad de Teo existe con la arquitectura minima escrita y se le bajó a Bianca. Bianca tiene que medir qué parte de las ventas de cada drop sale de la comunidad de WhatsApp. Lola tiene ciento sesenta PMs en un grupo esperando. Aye vende estrategia creativa para construcción de comunidades. José David vende la comunidad como método del resultado del e-commerce. Falta el módulo completo para marcas de producto."
+          "evidencia": "El módulo de dinamicas de comunidad de Teo existe con la arquitectura minima escrita y se le bajó a Bianca. Bianca tiene que medir qué parte de las ventas de cada drop sale de la comunidad de WhatsApp. Lola tiene ciento sesenta PMs en un grupo esperando. Aye vende estrategia creativa para construcción de comunidades. José David vende la comunidad como método del resultado del e-commerce. Falta el módulo completo para marcas de producto.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "handraisers-historias",
@@ -543,7 +737,8 @@
             "Notion o Airtable (pipeline)"
           ],
           "estado": "existe",
-          "evidencia": "La estructura de la secuencia y un ejemplo de handraiser se le dejaron a Matías. Agostina configuró ManyChat y público el posteo con el link en los comentarios. Seba tiene la pregunta al final del video con palabra clave y automatización. El criterio de que el handraiser se sube cuando el contenido que lo alimenta todavía está caliente está escrito en el caso de Agostina."
+          "evidencia": "La estructura de la secuencia y un ejemplo de handraiser se le dejaron a Matías. Agostina configuró ManyChat y público el posteo con el link en los comentarios. Seba tiene la pregunta al final del video con palabra clave y automatización. El criterio de que el handraiser se sube cuando el contenido que lo alimenta todavía está caliente está escrito en el caso de Agostina.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "calendario-lanzamiento",
@@ -554,19 +749,19 @@
             "demanda",
             "venta"
           ],
-          "resultado": "Un calendario de cuarenta y cinco días con fecha de apertura y de cierre, y el contenido de cada día cargado.",
+          "resultado": "Un lanzamiento de cuatro semanas con fecha de apertura y de cierre, el contenido de cada día cargado, un encuentro en vivo en la semana 3 y la venta abierta en la semana 4.",
           "pasos": [
             "Poner la fecha de apertura y de cierre en el calendario y avisarla al equipo.",
-            "Armar los primeros quince días de historia propia y calentamiento de audiencia.",
-            "Cargar el bloque de problema y después el de solución, con una pieza por día.",
-            "Definir la dinamica de activación: workshop o bootcamp en vivo dando valor, con registro de asistentes.",
-            "Dejar la parte comercial al final, con cupos, fecha de cierre y seña para reservar.",
-            "Correr el lanzamiento tal como está escrito y anotar cada día que trajo."
+            "Semana 1: tu historia y el calentamiento, cortados de una charla larga grabada de una sola vez.",
+            "Semana 2: el problema con las palabras de tus clientes, y abrir el grupo o la lista de espera para los que levantan la mano.",
+            "Semana 3: el mecanismo con un caso con número adelante, y el encuentro en vivo con registro de asistentes.",
+            "Semana 4: la venta abierta con cupos, fecha de cierre y seña para reservar.",
+            "Correr el lanzamiento tal como está escrito y anotar cada día qué trajo."
           ],
           "completar": [
             "Las fechas de apertura y cierre en el calendario",
-            "El calendario día por día con la pieza de cada uno",
-            "El registro de asistentes del workshop y de las manos levantadas"
+            "El calendario de las cuatro semanas con la pieza de cada día",
+            "La lista de los que levantaron la mano y de los asistentes al encuentro"
           ],
           "herramientas": [
             "Notion (calendario de lanzamiento)",
@@ -574,7 +769,64 @@
             "Google Meet o Zoom para el workshop"
           ],
           "estado": "existe",
-          "evidencia": "El documento de lanzamiento con embudo, fecha, ángulos y calendario lo baja Franco caso por caso: Lola con workshop y comunidad de WhatsApp, Sofía con el calendario de cuatro semanas día por día, Matías con el roadmap de lanzamiento, Agostina con el calendario de historias de cuatro semanas, Nico con los cinco cupos y fecha de cierre. Andrea tiene las Onfire Sessions armadas y sin fecha. El módulo de cuarenta y cinco días está pedido y sin escribir."
+          "evidencia": "El documento de lanzamiento con embudo, fecha, ángulos y calendario lo baja Franco caso por caso: Lola con workshop y comunidad de WhatsApp, Sofía con el calendario de cuatro semanas día por día, Matías con el roadmap de lanzamiento, Agostina con el calendario de historias de cuatro semanas, Nico con los cinco cupos y fecha de cierre. Andrea tiene las Onfire Sessions armadas y sin fecha. El formato quedó en cuatro semanas, que es el que usan Sofía, Agostina y Scarlett (grupo el 9/10, prueba de audiencia el 16/10, preventa el 23/10 y taller el 30/10); la versión de cuarenta y cinco días se reescribió el 2/10.",
+          "tareas": [
+            {
+              "titulo": "Poner fecha y hora de apertura y de cierre, y avisarle al equipo",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Escribir qué se vende, el precio, los lugares y la seña",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Grabar de una sola vez la charla larga de tu historia y cortar las piezas de la semana 1",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Cargar el calendario día por día de las cuatro semanas",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Un día sin pieza cargada es un día que se cae."
+            },
+            {
+              "titulo": "Publicar la pieza del día y anotar lo que trajo",
+              "semana": 1,
+              "frecuencia": "diaria",
+              "descripcion": "Conversaciones, manos levantadas, llamadas agendadas y ventas."
+            },
+            {
+              "titulo": "Abrir el grupo o la lista de espera y cargar a los que levantan la mano",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Dar el encuentro en vivo y cargar la lista de asistentes el mismo día",
+              "semana": 3,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Abrir la venta con cupos, cierre y seña, y publicar los lugares que quedan",
+              "semana": 4,
+              "frecuencia": "diaria",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Cerrar el lanzamiento y subir la lectura: manos levantadas contra ventas",
+              "semana": 4,
+              "frecuencia": "unica",
+              "descripcion": ""
+            }
+          ],
+          "estado_galeria": "aprobada"
         },
         {
           "id": "webinar-de-venta",
@@ -607,7 +859,8 @@
             "Notion o Airtable (registro y planilla de la ventana)"
           ],
           "estado": "existe",
-          "evidencia": "La estructura la bajó Facu a The Momentum Club para el webinar del 28 de septiembre: historia, dolores y soluciones, primer CTA, alumno en vivo, QR a WhatsApp y preguntas con el QR a la vista, más los dos espacios de preguntas de los días siguientes y las llamadas grabadas. La parte operativa está probada en los eventos propios y la ordenó Franco para el workshop de Workflow: registro como diagnóstico, una sola puerta, chequeo del día, segmentos de seguimiento y la planilla con la objeción principal de cada persona."
+          "evidencia": "La estructura la bajó Facu a The Momentum Club para el webinar del 28 de septiembre: historia, dolores y soluciones, primer CTA, alumno en vivo, QR a WhatsApp y preguntas con el QR a la vista, más los dos espacios de preguntas de los días siguientes y las llamadas grabadas. La parte operativa está probada en los eventos propios y la ordenó Franco para el workshop de Workflow: registro como diagnóstico, una sola puerta, chequeo del día, segmentos de seguimiento y la planilla con la objeción principal de cada persona.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "capitalizar-evento",
@@ -638,7 +891,8 @@
             "Notion o Airtable (base de asistentes)"
           ],
           "estado": "existe",
-          "evidencia": "La secuencia completa se le bajó a Agostina para el evento de Kaipi y la charla que ya dio. Seba tiene la charla del 28 de octubre en el Hub Providencia con registro de asistentes y extractos, y ya llevo cincuenta y cinco personas a un workshop propio. Andrea tiene que registrar la primera Onfire Session en video y foto."
+          "evidencia": "La secuencia completa se le bajó a Agostina para el evento de Kaipi y la charla que ya dio. Seba tiene la charla del 28 de octubre en el Hub Providencia con registro de asistentes y extractos, y ya llevo cincuenta y cinco personas a un workshop propio. Andrea tiene que registrar la primera Onfire Session en video y foto.",
+          "estado_galeria": "aprobada"
         }
       ]
     },
@@ -671,7 +925,40 @@
             "Fathom para grabar las reuniones"
           ],
           "estado": "existe",
-          "evidencia": "Qualita tiene equipo que asesora y cotiza, y el filtro de entrada lo hacen Rafa y Mati a mano; con la landing y los anuncios van a entrar consultas de afuera del network. En The Momentum Club la venta nunca pasó por una llamada: webinar, link, y los que dudan escriben por Instagram."
+          "evidencia": "Qualita tiene equipo que asesora y cotiza, y el filtro de entrada lo hacen Rafa y Mati a mano; con la landing y los anuncios van a entrar consultas de afuera del network. En The Momentum Club la venta nunca pasó por una llamada: webinar, link, y los que dudan escriben por Instagram.",
+          "tareas": [
+            {
+              "titulo": "Escribir qué le pasa a una consulta desde que entra hasta que firma",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Anotar por dónde entran las consultas y cuántas por mes",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Listar las últimas diez consultas con hasta dónde llegó cada una",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Grabar las próximas dos llamadas de venta o subir las que ya tengas",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Subir la hoja completa y pasarla a revisión",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            }
+          ],
+          "estado_galeria": "aprobada"
         },
         {
           "id": "pipeline-7-campos",
@@ -702,7 +989,8 @@
             "Google Sheets si arranca simple"
           ],
           "estado": "existe",
-          "evidencia": "El pipeline de siete campos lo armó Teo con Andrea en Notion y se replico: Bianca unifica el suyo con origen del contacto, compras y productos; Matías arma la base con motivo y estado de cada contacto; Nico carga todo el pipeline en una planilla; Manu tiene la base de datos central de leads; Antonio anota cada contacto con fecha y tema; Lucca y Lucio anotan el canal de cada consulta."
+          "evidencia": "El pipeline de siete campos lo armó Teo con Andrea en Notion y se replico: Bianca unifica el suyo con origen del contacto, compras y productos; Matías arma la base con motivo y estado de cada contacto; Nico carga todo el pipeline en una planilla; Manu tiene la base de datos central de leads; Antonio anota cada contacto con fecha y tema; Lucca y Lucio anotan el canal de cada consulta.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "prospeccion-y-recontacto",
@@ -733,7 +1021,8 @@
             "Calendly para agendar"
           ],
           "estado": "existe",
-          "evidencia": "El recontacto sobre la base historica ya funcionó en Custom Lab y es su motor de ventas de corto plazo. Nico tiene que recontactar cinco personas por día y hacer veinte contactos nuevos por semana. José David junta y ordena la base de leads viejos. Lucca tiene que contactar veinte dueños por semana con un caso adelante. Matías arma la base para el lanzamiento. El pilar de venta pide cincuenta prospectos y veinte conversaciones abiertas."
+          "evidencia": "El recontacto sobre la base historica ya funcionó en Custom Lab y es su motor de ventas de corto plazo. Nico tiene que recontactar cinco personas por día y hacer veinte contactos nuevos por semana. José David junta y ordena la base de leads viejos. Lucca tiene que contactar veinte dueños por semana con un caso adelante. Matías arma la base para el lanzamiento. El pilar de venta pide cincuenta prospectos y veinte conversaciones abiertas.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "llamada-de-venta",
@@ -763,7 +1052,8 @@
             "Link de pago para la seña"
           ],
           "estado": "existe",
-          "evidencia": "El criterio completo se le bajó a Lola: encontrar el dolor, mostrar el costo de no avanzar, cupos limitados y seña, con la regla de vender una sola opción y el downsell solo adentro de la llamada. Franco revisa las tres llamadas grabadas de Lola. Nico tiene que agendar y grabar tres llamadas. Seba y José David registran la objeción de cada llamada que no cerró. Sofía pasó el discovery a llamada de treinta minutos sobre Miro o Canva."
+          "evidencia": "El criterio completo se le bajó a Lola: encontrar el dolor, mostrar el costo de no avanzar, cupos limitados y seña, con la regla de vender una sola opción y el downsell solo adentro de la llamada. Franco revisa las tres llamadas grabadas de Lola. Nico tiene que agendar y grabar tres llamadas. Seba y José David registran la objeción de cada llamada que no cerró. Sofía pasó el discovery a llamada de treinta minutos sobre Miro o Canva.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "propuesta-comercial",
@@ -793,7 +1083,8 @@
             "Notion (plantilla de propuesta)"
           ],
           "estado": "existe",
-          "evidencia": "El esqueleto está documentado y es el que Cáscara usa en todas sus propuestas. Sol tiene que presentar la oferta nueva con el precio nuevo en por lo menos una propuesta real. Sharon tiene que presentar la propuesta de Mars con precio. José David tiene que presentar diez propuestas con el resultado escrito en número. Matías cerró todas las propuestas que armó."
+          "evidencia": "El esqueleto está documentado y es el que Cáscara usa en todas sus propuestas. Sol tiene que presentar la oferta nueva con el precio nuevo en por lo menos una propuesta real. Sharon tiene que presentar la propuesta de Mars con precio. José David tiene que presentar diez propuestas con el resultado escrito en número. Matías cerró todas las propuestas que armó.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "setter-closer",
@@ -823,7 +1114,8 @@
             "Pipeline en Notion o Airtable"
           ],
           "estado": "existe",
-          "evidencia": "Quedo pedido en la charla, para escribirlo con Francisca. Lola reconoce que el final de la llamada es su punto flojo y Franco define si entra un closer del equipo para la primera tanda. Lucca tiene que decidir si el paso siguiente es equipo comercial. Manu deriva ticket alto a él y el resto a Team Bruzzone, sin proceso escrito de quién precalifica."
+          "evidencia": "Quedo pedido en la charla, para escribirlo con Francisca. Lola reconoce que el final de la llamada es su punto flojo y Franco define si entra un closer del equipo para la primera tanda. Lucca tiene que decidir si el paso siguiente es equipo comercial. Manu deriva ticket alto a él y el resto a Team Bruzzone, sin proceso escrito de quién precalifica.",
+          "estado_galeria": "aprobada"
         }
       ]
     },
@@ -859,7 +1151,8 @@
             "WhatsApp o mail para la secuencia"
           ],
           "estado": "existe",
-          "evidencia": "El módulo de entrega de servicio de Teo existe con onboarding a 48 horas, presentación del roadmap e hitos con responsables, y se le bajó a Matías. Matías tiene que presentarle el roadmap a sus dos clientes. Sofía revisa cómo entrega Teo la parte educativa a quien compra un programa. Sol necesita el alcance y el arranque escritos antes de cada proceso de tres meses. En la charla quedó que cada cliente tiene que ver su propio roadmap."
+          "evidencia": "El módulo de entrega de servicio de Teo existe con onboarding a 48 horas, presentación del roadmap e hitos con responsables, y se le bajó a Matías. Matías tiene que presentarle el roadmap a sus dos clientes. Sofía revisa cómo entrega Teo la parte educativa a quien compra un programa. Sol necesita el alcance y el arranque escritos antes de cada proceso de tres meses. En la charla quedó que cada cliente tiene que ver su propio roadmap.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "auditoria-del-programa",
@@ -889,7 +1182,40 @@
             "Donde ya viven los materiales: Drive, Notion, la plataforma"
           ],
           "estado": "existe",
-          "evidencia": "Sale del caso de The Momentum Club: antes de partir un programa en niveles o de tocarle el precio hay que ver todo lo que ya se entrega adentro, y eso nunca está escrito en un solo lugar."
+          "evidencia": "Sale del caso de The Momentum Club: antes de partir un programa en niveles o de tocarle el precio hay que ver todo lo que ya se entrega adentro, y eso nunca está escrito en un solo lugar.",
+          "tareas": [
+            {
+              "titulo": "Listar los módulos, las llamadas y las grupales, con qué resuelve cada uno",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Juntar todo el material que se entrega",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Escribir textual cómo se cuenta el programa hoy en la venta",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Marcar qué se usa de verdad y qué quedó muerto",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Subir el inventario y pasarlo a revisión",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            }
+          ],
+          "estado_galeria": "aprobada"
         },
         {
           "id": "funnel-de-servicio",
@@ -916,7 +1242,52 @@
             "Las propuestas y contratos que ya mandan"
           ],
           "estado": "existe",
-          "evidencia": "Lo definió Franco el 24 de septiembre como el paso que sigue al proceso de ventas: qué resultados entrega el programa, cómo bajar la carga operativa del servicio, el onboarding y los upsells, que es donde entra la escalera de valor. En Qualita absorbe la auditoría del método. En The Momentum Club el nivel de entrada no existe y el personalizado se vende a precio de entrada."
+          "evidencia": "Lo definió Franco el 24 de septiembre como el paso que sigue al proceso de ventas: qué resultados entrega el programa, cómo bajar la carga operativa del servicio, el onboarding y los upsells, que es donde entra la escalera de valor. En Qualita absorbe la auditoría del método. En The Momentum Club el nivel de entrada no existe y el personalizado se vende a precio de entrada.",
+          "tareas": [
+            {
+              "titulo": "Listar lo que entregás y el resultado que deja cada cosa",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Contar cómo arranca un cliente hasta su primer resultado",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Anotar dónde se traba hoy el servicio y cómo se podría productizar",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Contar qué pasa cuando termina el servicio",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Completar la escalera: lo que hay abajo, en el medio y arriba",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Anotar lo que te piden y no vendés",
+              "semana": 3,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Subir la hoja completa y pasarla a revisión",
+              "semana": 3,
+              "frecuencia": "unica",
+              "descripcion": ""
+            }
+          ],
+          "estado_galeria": "aprobada"
         },
         {
           "id": "proceso-entrega-repetible",
@@ -945,7 +1316,8 @@
             "Google Sheets para las horas por etapa"
           ],
           "estado": "existe",
-          "evidencia": "Sale del mismo módulo de Teo, con los pasos incompletos. Matías tiene que escribir el proceso de entrega de 9669 sobre ese módulo. Sol Boutmy arranca el tramo por estructura porque las dos socias siguen adentro de la ejecución. Sofía tiene el sistema de 90 días revisado y el servicio la tiene adentro de cada cuenta. Sharon tiene el modelo de entrega con tarjetas que ya corre en automatico. El pilar de entrega pide mapa de servicio con horas reales y proceso documentado."
+          "evidencia": "Sale del mismo módulo de Teo, con los pasos incompletos. Matías tiene que escribir el proceso de entrega de 9669 sobre ese módulo. Sol Boutmy arranca el tramo por estructura porque las dos socias siguen adentro de la ejecución. Sofía tiene el sistema de 90 días revisado y el servicio la tiene adentro de cada cuenta. Sharon tiene el modelo de entrega con tarjetas que ya corre en automatico. El pilar de entrega pide mapa de servicio con horas reales y proceso documentado.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "alcance-por-escrito",
@@ -976,7 +1348,8 @@
             "Contrato simple cuando el ticket lo pide"
           ],
           "estado": "existe",
-          "evidencia": "El criterio se le bajó a Sol Boutmy, con las tres formas de formalizarlo, y tiene que dejar el alcance por escrito antes de arrancar cada proceso de tres meses. Sharon definió que la pauta paga queda afuera del estándar y que coordina producción. Lola posiciona Workflow como distribuidora de PMs y no como responsable del proyecto del cliente, con la capacitación vendida aparte."
+          "evidencia": "El criterio se le bajó a Sol Boutmy, con las tres formas de formalizarlo, y tiene que dejar el alcance por escrito antes de arrancar cada proceso de tres meses. Sharon definió que la pauta paga queda afuera del estándar y que coordina producción. Lola posiciona Workflow como distribuidora de PMs y no como responsable del proyecto del cliente, con la capacitación vendida aparte.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "ciclo-y-continuidad",
@@ -1007,7 +1380,8 @@
             "Google Calendar para las reuniones de cierre"
           ],
           "estado": "existe",
-          "evidencia": "Sharon tiene que cerrar ciclo con cada cliente y presentar la continuidad por bloques de tres meses, en lugar de mensualidad abierta. Sol pasa del mensual contra entrega al proceso de tres meses cobrado por adelantado, con el criterio de salida escrito. Sofía empaqueto los tres meses con más del cincuenta por ciento cobrado al principio. Matías trabaja campanas con fecha de inicio y de final en lugar de retainers."
+          "evidencia": "Sharon tiene que cerrar ciclo con cada cliente y presentar la continuidad por bloques de tres meses, en lugar de mensualidad abierta. Sol pasa del mensual contra entrega al proceso de tres meses cobrado por adelantado, con el criterio de salida escrito. Sofía empaqueto los tres meses con más del cincuenta por ciento cobrado al principio. Matías trabaja campanas con fecha de inicio y de final en lugar de retainers.",
+          "estado_galeria": "aprobada"
         }
       ]
     },
@@ -1042,7 +1416,8 @@
             "Google Drive para archivos pesados"
           ],
           "estado": "existe",
-          "evidencia": "El template del OS de Cáscara se entregó a Sol Boutmy, con una página por cliente, el calendario adentro y los estados ya configurados para meter un editor. Andrea armó el pipeline en Notion con Teo. Nico tiene el calendario en Notion. Bianca unifica su pipeline en una sola base. Custom Lab mueve la visualización de datos a Notion o Airtable. José David documenta las ventas anteriores en Notion."
+          "evidencia": "El template del OS de Cáscara se entregó a Sol Boutmy, con una página por cliente, el calendario adentro y los estados ya configurados para meter un editor. Andrea armó el pipeline en Notion con Teo. Nico tiene el calendario en Notion. Bianca unifica su pipeline en una sola base. Custom Lab mueve la visualización de datos a Notion o Airtable. José David documenta las ventas anteriores en Notion.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "cadencia-y-duenos",
@@ -1072,7 +1447,8 @@
             "Notion (acta y estándares por rol)"
           ],
           "estado": "existe",
-          "evidencia": "La cadencia de planificación mensual de dos horas el último lunes y revisión de medio mes de treinta minutos por agente está escrita para Manu, junto con los estándares no negociables y sus consecuencias, y es justo lo que no se instaló en tres meses. Antonio tiene que definir quién va a ser el dueño del calendario de contenido. Sol revisa cada entrega del editor en la weekly. Aaron tiene a Cami en operaciones y métricas."
+          "evidencia": "La cadencia de planificación mensual de dos horas el último lunes y revisión de medio mes de treinta minutos por agente está escrita para Manu, junto con los estándares no negociables y sus consecuencias, y es justo lo que no se instaló en tres meses. Antonio tiene que definir quién va a ser el dueño del calendario de contenido. Sol revisa cada entrega del editor en la weekly. Aaron tiene a Cami en operaciones y métricas.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "contratar-primer-rol",
@@ -1102,7 +1478,46 @@
             "Notion (scope del rol)"
           ],
           "estado": "existe",
-          "evidencia": "El método completo se le bajó a Sol Boutmy: historias con llamado a un formulario, entrevista, prueba paga y recién ahí responsabilidad, con el tarifario y el formulario de referencia entregados. Agostina cierra a Ibi con el criterio de contratar con el estado real del negocio. Sofía contrató un editor y tiene que terminar de delegarle un cliente con brief. Antonio nunca consiguió la persona que sostenía la estrategia. Los pilares de contenido y de entrega piden la primera contratación."
+          "evidencia": "El método completo se le bajó a Sol Boutmy: historias con llamado a un formulario, entrevista, prueba paga y recién ahí responsabilidad, con el tarifario y el formulario de referencia entregados. Agostina cierra a Ibi con el criterio de contratar con el estado real del negocio. Sofía contrató un editor y tiene que terminar de delegarle un cliente con brief. Antonio nunca consiguió la persona que sostenía la estrategia. Los pilares de contenido y de entrega piden la primera contratación.",
+          "tareas": [
+            {
+              "titulo": "Separar lo que se delega de lo que se queda",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Escribir el rol: propósito, responsabilidades, qué entrega y a quién reporta",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Sacar el número mensual con el tarifario de Cáscara",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Duplicar el formulario de postulación y publicar la búsqueda en historias",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": "Tres historias que terminan en un handraiser, con fecha de cierre."
+            },
+            {
+              "titulo": "Revisar las postulaciones que entraron",
+              "semana": 2,
+              "frecuencia": "diaria",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Mandar una prueba paga sobre trabajo real y subir el resultado",
+              "semana": 3,
+              "frecuencia": "unica",
+              "descripcion": ""
+            }
+          ],
+          "estado_galeria": "aprobada"
         },
         {
           "id": "delegar-produccion",
@@ -1133,7 +1548,8 @@
             "Google Drive para el material crudo"
           ],
           "estado": "existe",
-          "evidencia": "La regla de empaquetar antes de delegar está escrita en varios paquetes. Sol Boutmy mide cuántos contenidos por mes los edita alguien que no sean ella ni Fede, y tiene el criterio de delegar la edición primero y progresivo. Sharon tiene el modelo de tarjetas con objetivo, formato y referencias, y la regla de edición nivel uno. Sofía delega un cliente al editor con brief. Agostina define que los guiones y las historias no se delegan."
+          "evidencia": "La regla de empaquetar antes de delegar está escrita en varios paquetes. Sol Boutmy mide cuántos contenidos por mes los edita alguien que no sean ella ni Fede, y tiene el criterio de delegar la edición primero y progresivo. Sharon tiene el modelo de tarjetas con objetivo, formato y referencias, y la regla de edición nivel uno. Sofía delega un cliente al editor con brief. Agostina define que los guiones y las historias no se delegan.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "diario-administrativo",
@@ -1162,7 +1578,8 @@
             "Google Sheets"
           ],
           "estado": "existe",
-          "evidencia": "La plantilla de diario administrativo de Cáscara, con ingresos, egresos, explicación de cada movimiento, cierre mensual y pagos del uno al diez, se entregó a Sol Boutmy y ella tiene que hacer el cierre de septiembre con ese formato. Aaron tiene a Cami en operaciones y métricas. Sofía y Lucca manejan facturación mensual sin cierre escrito."
+          "evidencia": "La plantilla de diario administrativo de Cáscara, con ingresos, egresos, explicación de cada movimiento, cierre mensual y pagos del uno al diez, se entregó a Sol Boutmy y ella tiene que hacer el cierre de septiembre con ese formato. Aaron tiene a Cami en operaciones y métricas. Sofía y Lucca manejan facturación mensual sin cierre escrito.",
+          "estado_galeria": "aprobada"
         }
       ]
     },
@@ -1199,7 +1616,8 @@
             "Google Sheets para la carga inicial"
           ],
           "estado": "existe",
-          "evidencia": "El criterio de que una herramienta guarda y otra muestra se le bajó a Custom Lab, con Supabase guardando y Notion o Airtable mostrando, para que la información se pueda mirar y filtrar sin depender de alguien técnico. Bianca unifica el pipeline en una sola base con origen del contacto, compras y productos, y es lo que le permite medir. Manu tiene la base central de leads sin confirmar que quedó implementada. José David necesita la base segmentada."
+          "evidencia": "El criterio de que una herramienta guarda y otra muestra se le bajó a Custom Lab, con Supabase guardando y Notion o Airtable mostrando, para que la información se pueda mirar y filtrar sin depender de alguien técnico. Bianca unifica el pipeline en una sola base con origen del contacto, compras y productos, y es lo que le permite medir. Manu tiene la base central de leads sin confirmar que quedó implementada. José David necesita la base segmentada.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "captura-y-seguimiento",
@@ -1230,7 +1648,8 @@
             "Notion o Airtable como base de contactos"
           ],
           "estado": "existe",
-          "evidencia": "Cáscara le configuró a Bianca las automatizaciones de mail segmentadas por nivel de compra, con Risen y Claude. Agostina configuró ManyChat repartiendo el link desde los comentarios. Seba tiene la pregunta al final del video con palabra clave y la mentoría grabada como recurso de entrada. Nico tiene el mecanismo de recortes con captura de comentarios. Manu tiene las automatizaciones de captación de comentarios. Custom Lab captura mail en dos lugares."
+          "evidencia": "Cáscara le configuró a Bianca las automatizaciones de mail segmentadas por nivel de compra, con Risen y Claude. Agostina configuró ManyChat repartiendo el link desde los comentarios. Seba tiene la pregunta al final del video con palabra clave y la mentoría grabada como recurso de entrada. Nico tiene el mecanismo de recortes con captura de comentarios. Manu tiene las automatizaciones de captación de comentarios. Custom Lab captura mail en dos lugares.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "landing-que-convierte",
@@ -1261,7 +1680,8 @@
             "WhatsApp Business"
           ],
           "estado": "existe",
-          "evidencia": "Los criterios están escritos en dos casos: Bianca con landing mobile first, formulario arriba de todo, captura de mail en dos lugares y WhatsApp visible, más el dominio en Hostinger conectado a Logoable; y Custom Lab con poco aire, llamado a la acción visible sin scrollear, imagen a la izquierda y texto a la derecha, y campo de proyecto obligatorio. Lola deja la landing de Workflow con casos y servicios. Falta el módulo único."
+          "evidencia": "Los criterios están escritos en dos casos: Bianca con landing mobile first, formulario arriba de todo, captura de mail en dos lugares y WhatsApp visible, más el dominio en Hostinger conectado a Logoable; y Custom Lab con poco aire, llamado a la acción visible sin scrollear, imagen a la izquierda y texto a la derecha, y campo de proyecto obligatorio. Lola deja la landing de Workflow con casos y servicios. Falta el módulo único.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "dashboard-embudo",
@@ -1292,7 +1712,8 @@
             "Pipeline como fuente de llamadas y ventas"
           ],
           "estado": "existe",
-          "evidencia": "La oferta del programa promete dashboard de métricas del embudo completo en el mes 3 y no existe el módulo. Bianca no mide qué parte de las ventas sale de la comunidad. Lucca nunca midio propiedades nuevas por canal. Seba mide conversaciones y llamadas en lugar de reproducciones. Nico, José David y Sofía tienen que presentar números de lanzamiento al cierre."
+          "evidencia": "La oferta del programa promete dashboard de métricas del embudo completo en el mes 3 y no existe el módulo. Bianca no mide qué parte de las ventas sale de la comunidad. Lucca nunca midio propiedades nuevas por canal. Seba mide conversaciones y llamadas en lugar de reproducciones. Nico, José David y Sofía tienen que presentar números de lanzamiento al cierre.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "informes-con-ia",
@@ -1323,7 +1744,8 @@
             "Google Sheets para la exportación"
           ],
           "estado": "existe",
-          "evidencia": "El método de ordenar la información de clientes y sacar informes con IA para decidir con datos se le bajó a Custom Lab. Aaron usa el formulario de feedback a clientes como auditoría y las objeciones como material de remarketing. Sofía tiene que mandar las estadisticas documentadas antes de la sesión con Franco. Falta el módulo con los pasos y el pedido guardado."
+          "evidencia": "El método de ordenar la información de clientes y sacar informes con IA para decidir con datos se le bajó a Custom Lab. Aaron usa el formulario de feedback a clientes como auditoría y las objeciones como material de remarketing. Sofía tiene que mandar las estadisticas documentadas antes de la sesión con Franco. Falta el módulo con los pasos y el pedido guardado.",
+          "estado_galeria": "aprobada"
         }
       ]
     },
@@ -1358,7 +1780,8 @@
             "Notion (página de narrativa del founder)"
           ],
           "estado": "existe",
-          "evidencia": "El pasaporte digital es el entregable distintivo del caso de Aaron y Facu se lo manda en la primera semana. En la charla quedó pedido el pasaporte digital de nivel dos para los que entran a buscar su diferencial y no alcanza con los Founder Insights. Scarlett trabaja con los Founder Insights revisitados. Seba escribe el guion de la historia de origen."
+          "evidencia": "El pasaporte digital es el entregable distintivo del caso de Aaron y Facu se lo manda en la primera semana. En la charla quedó pedido el pasaporte digital de nivel dos para los que entran a buscar su diferencial y no alcanza con los Founder Insights. Scarlett trabaja con los Founder Insights revisitados. Seba escribe el guion de la historia de origen.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "identidad-y-arco-narrativo",
@@ -1388,7 +1811,8 @@
             "Grupal de creatividad para la calibración"
           ],
           "estado": "existe",
-          "evidencia": "El marco de Juana de experiencia, criterio, carácter, visión y obsesiones, con el arco narrativo que sale de la obsesión, se aplicó con Lola. Scarlett tiene el mapa de presencia y el hallazgo del burnout glorificado como enemigo. Sharon encontró que su recorrido de moda a diseño a tatuaje es un solo viaje. Matías trabajó la identidad de 9669 con Juana. Sharon cambia la estrategia propia todos los días. Falta el módulo escrito."
+          "evidencia": "El marco de Juana de experiencia, criterio, carácter, visión y obsesiones, con el arco narrativo que sale de la obsesión, se aplicó con Lola. Scarlett tiene el mapa de presencia y el hallazgo del burnout glorificado como enemigo. Sharon encontró que su recorrido de moda a diseño a tatuaje es un solo viaje. Matías trabajó la identidad de 9669 con Juana. Sharon cambia la estrategia propia todos los días. Falta el módulo escrito.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "direccion-visual",
@@ -1418,7 +1842,8 @@
             "Notion (hoja de dirección visual)"
           ],
           "estado": "existe",
-          "evidencia": "Scarlett hizo el ajuste de identidad visual del 6 de agosto, hacia una estética más neutra y profesional. Bianca separa las dos cuentas: en la marca personal el proceso crudo y en Kie producto, estilo y clientas. Matías trabajo promesa, personalidad y estética de 9669 con Juana. Lola separa Workflow de su perfil personal. Seba deja Estudio Gama como productora interna."
+          "evidencia": "Scarlett hizo el ajuste de identidad visual del 6 de agosto, hacia una estética más neutra y profesional. Bianca separa las dos cuentas: en la marca personal el proceso crudo y en Kie producto, estilo y clientas. Matías trabajo promesa, personalidad y estética de 9669 con Juana. Lola separa Workflow de su perfil personal. Seba deja Estudio Gama como productora interna.",
+          "estado_galeria": "aprobada"
         },
         {
           "id": "narrativa-de-video",
@@ -1448,7 +1873,8 @@
             "Editor de video con brief en Notion"
           ],
           "estado": "existe",
-          "evidencia": "El marco de narrativa de Fede con cultura, oportunidad, prueba, producto y llamado a la acción, más el proceso de idea, estructura, narrativa, brief, grabar, editar, publicar y analizar, y el criterio de grabación a la manana con luz lateral y tres planos, se le bajaron a Andrea. Lucca tiene que grabar el video largo del modelo B2B. Antonio graba un video largo por semana con recortes. Nico tiene el mecanismo de recortes hacia el video largo. Bianca graba la serie en capitulos."
+          "evidencia": "El marco de narrativa de Fede con cultura, oportunidad, prueba, producto y llamado a la acción, más el proceso de idea, estructura, narrativa, brief, grabar, editar, publicar y analizar, y el criterio de grabación a la manana con luz lateral y tres planos, se le bajaron a Andrea. Lucca tiene que grabar el video largo del modelo B2B. Antonio graba un video largo por semana con recortes. Nico tiene el mecanismo de recortes hacia el video largo. Bianca graba la serie en capitulos.",
+          "estado_galeria": "aprobada"
         }
       ]
     }

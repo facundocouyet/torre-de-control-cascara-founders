@@ -198,6 +198,9 @@ def revisar_niveles():
             if m.get('nivel') not in validos:
                 mal('la carta %s no tiene nivel (troncal, 1, 2 o 3): la app no la puede ubicar en la galería' % m['id'])
     fichas = {os.path.basename(f)[:-5] for f in _g.glob(R('fichas/*.json'))} - {'inventario'}
+    # los ingresos sin ficha todavía (contenido/ingresos.json) también son clientes de la app
+    if os.path.exists(R('contenido/ingresos.json')):
+        fichas |= {c['slug'] for c in cargar('contenido/ingresos.json').get('clientes', [])}
     for f in _g.glob(R('fichas/plantillas/*--*.json')):
         slug = os.path.basename(f)[:-5].split('--', 1)[1]
         if slug not in fichas:

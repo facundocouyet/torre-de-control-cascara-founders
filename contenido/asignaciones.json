@@ -1,0 +1,97 @@
+{
+  "regla": "Una sola carta activa por cliente. La asigna Facu acá y entra a la app con el push (sync_cartas.py). Si existe <modulo>--<slug>, se asigna esa versión. 'siguiente' es la que va cuando la activa queda aprobada. Lo que se tachó antes de asignar se marca en la app como 'ya hecha antes'.",
+  "activar": false,
+  "columnas": {
+    "cliente": "cliente_id",
+    "carta": "carta_id",
+    "estado": "estado",
+    "activa": "activa",
+    "pausada": "pausada"
+  },
+  "actualizado": "2026-10-02",
+  "clientes": {
+    "aaron-aiello": {
+      "activa": "funnel-de-servicio",
+      "siguiente": "calendario-lanzamiento",
+      "por_que": "La productización del servicio vence el 15/10 y el micro lanzamiento es el 15/11."
+    },
+    "agostina-marchesini": {
+      "activa": "one-sheeter-oferta",
+      "siguiente": "calendario-lanzamiento",
+      "por_que": "La oferta y el ICP siguen sin escribir; su versión sale de la reunión de oferta e ICP del lanzamiento de noviembre."
+    },
+    "bianca-antonini": {
+      "activa": "calendario-lanzamiento",
+      "siguiente": "base-de-datos-unica",
+      "por_que": "El lanzamiento de Eclipse y los anillos, con la comunidad de WhatsApp adentro."
+    },
+    "custom-lab": {
+      "activa": "calendario-contenido",
+      "siguiente": "one-sheeter-oferta",
+      "por_que": "El cuello es contenido: las 2 campañas y los 12 ángulos del 18/9 todavía no salieron."
+    },
+    "jose-david-fajardo": {
+      "activa": "auditoria-proceso-comercial",
+      "siguiente": "one-sheeter-oferta",
+      "por_que": "Le entran consultas y no hay proceso entre la consulta y el cierre."
+    },
+    "lola-berutti": {
+      "activa": null,
+      "siguiente": "auditoria-proceso-comercial",
+      "por_que": "Espera el número de ventas de la ventana que cerró el 1/10 para escribirla sobre sus llamadas reales."
+    },
+    "lucio-labate": {
+      "activa": "one-sheeter-oferta",
+      "siguiente": "prospeccion-y-recontacto",
+      "por_que": "Oferta nueva con Franco el 30/9: Lanzamiento de marca, 6 semanas, USD 1.800."
+    },
+    "matias-morales": {
+      "activa": "one-sheeter-oferta",
+      "siguiente": "proceso-entrega-repetible",
+      "por_que": "No devolvió oferta, ICP ni ángulos; extiende hasta el 31/10."
+    },
+    "qualita": {
+      "activa": "auditoria-proceso-comercial",
+      "siguiente": "funnel-de-servicio",
+      "por_que": "Ya tienen los ángulos; falta que devuelvan la auditoría."
+    },
+    "sebastian": {
+      "activa": "one-sheeter-oferta",
+      "siguiente": "calendario-lanzamiento",
+      "por_que": "ICP y ángulos hechos; la oferta tiene números desde el 16/9 y falta escrita con precio y fecha."
+    },
+    "sofia-galvis": {
+      "activa": "one-sheeter-oferta",
+      "siguiente": "calendario-lanzamiento",
+      "por_que": "No devolvió oferta e ICP; extiende hasta el 31/10."
+    },
+    "sol-boutmy": {
+      "activa": "contratar-primer-rol",
+      "siguiente": "precio-escalera",
+      "por_que": "El cuello es la entrega: sacarse la edición."
+    },
+    "the-momentum-club": {
+      "activa": "auditoria-del-programa",
+      "siguiente": "auditoria-proceso-comercial",
+      "por_que": "Escalera de valor primero; después, que la venta pase por una llamada (hoy son cero)."
+    },
+    "scarlett-montilla": {
+      "activa": "calendario-lanzamiento",
+      "siguiente": null,
+      "por_que": "Cierra el programa pero lanza el 30/10: grupo 9/10, eventos 16 y 23/10, taller 30/10."
+    }
+  },
+  "sin_carta": {
+    "cierre": [
+      "andrea-saturno",
+      "antonio-mazzello",
+      "ayelen-cerqueira",
+      "cecilia-belotti",
+      "lucca-sorgoni",
+      "manu-bruzzone",
+      "nicolas-lozada",
+      "sharon-palacio"
+    ],
+    "ingresos": "Ver contenido/ingresos.json: sin carta hasta la Clarity Call. Founder Insights es el formulario de onboarding, no una carta."
+  }
+}

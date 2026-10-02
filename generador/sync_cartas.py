@@ -13,6 +13,12 @@ Qué hace:
      asignarla la app use esa versión y no la genérica.
   4. Una carta de origen 'repo' que ya no está en el repo se marca oculta. No se borra nunca.
   5. Las cartas de origen 'app' no se tocan.
+  6. Las tareas salen de `tareas` (titulo, semana, frecuencia, descripcion) si el módulo o la versión
+     las tiene; si no, de `completar`, todas en la semana 1 y únicas.
+  7. `estado_galeria` (aprobada / rehacer / obsoleta) viaja con cada carta genérica.
+  8. contenido/asignaciones.json → la carta activa de cada cliente. Solo corre cuando ese archivo
+     dice "activar": true, porque las columnas de `asignaciones` las confirma Teo. Si el cliente tiene
+     versión propia de esa carta, se asigna la versión.
 
 Las columnas extra (cliente_slug, variante_de, url) necesitan existir en `cartas`. Si Supabase las
 rechaza, el script sube igual sin ellas y avisa qué columnas faltan agregar.
@@ -21,10 +27,28 @@ import json, os, sys, glob, datetime, urllib.request, urllib.error, urllib.parse
 
 B = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGES = "https://facundocouyet.github.io/torre-de-control-cascara-founders"
-EXTRA = ("cliente_slug", "variante_de", "url")
+EXTRA = ("cliente_slug", "variante_de", "url", "estado_galeria")
+TAREA_EXTRA = ("frecuencia", "descripcion")
+FRECUENCIAS = ("unica", "diaria", "semanal", "mensual")
 PROBAR = "--probar" in sys.argv or not (os.environ.get("SUPABASE_URL") and os.environ.get("SUPABASE_SERVICE_KEY"))
 
 def leer(p): return json.load(open(p, encoding="utf-8"))
+
+def tareas_de(fuente, respaldo=None):
+    """Las tareas de una carta: `tareas` con semana y frecuencia, o `completar` en la semana 1."""
+    ts = fuente.get("tareas") or (respaldo or {}).get("tareas")
+    if ts:
+        out = []
+        for i, t in enumerate(ts):
+            f = (t.get("frecuencia") or "unica").lower()
+            if f not in FRECUENCIAS:
+                print("  ojo: frecuencia '%s' no válida en %s; va como unica" % (f, t.get("titulo"))); f = "unica"
+            out.append({"orden": i + 1, "semana": int(t.get("semana") or 1), "titulo": t["titulo"],
+                        "descripcion": t.get("descripcion", ""), "frecuencia": f})
+        return out
+    comp = fuente.get("completar") or (respaldo or {}).get("completar", [])
+    return [{"orden": i + 1, "semana": 1, "titulo": t, "descripcion": "", "frecuencia": "unica"}
+            for i, t in enumerate(comp)]
 
 def filas_del_repo():
     inv = leer(os.path.join(B, "fichas", "inventario.json"))
@@ -40,9 +64,9 @@ def filas_del_repo():
                 "herramientas": m.get("herramientas", []), "origen": "repo", "oculta": False,
                 "actualizada": ahora,
                 "cliente_slug": None, "variante_de": None, "url": "%s/cartas/%s.html" % (PAGES, m["id"]),
+                "estado_galeria": m.get("estado_galeria") or "aprobada",
             })
-            tareas[m["id"]] = [{"orden": i + 1, "semana": 1, "titulo": t, "descripcion": ""}
-                               for i, t in enumerate(m.get("completar", []))]
+            tareas[m["id"]] = tareas_de(m)
     # las cartas escritas para un cliente
     for f in sorted(glob.glob(os.path.join(B, "fichas", "plantillas", "*--*.json"))):
         v = leer(f)
@@ -59,9 +83,9 @@ def filas_del_repo():
             "origen": "repo", "oculta": True, "actualizada": ahora,
             "cliente_slug": slug, "variante_de": mod,
             "url": "%s/cartas/para/%s-%s.html" % (PAGES, slug, mod),
+            "estado_galeria": v.get("estado_galeria") or "aprobada",
         })
-        tareas[cod] = [{"orden": i + 1, "semana": 1, "titulo": t, "descripcion": ""}
-                       for i, t in enumerate(v.get("completar") or m.get("completar", []))]
+        tareas[cod] = tareas_de(v, m)
     return cartas, tareas
 
 # ---------------- Supabase (PostgREST) ----------------
@@ -90,6 +114,49 @@ def subir(cartas):
         return pedir("POST", "cartas?on_conflict=codigo", sin,
                      "resolution=merge-duplicates,return=representation"), faltan
 
+def subir_tareas(filas):
+    """Sube las tareas; si la base no tiene frecuencia o descripcion, reintenta sin esas columnas."""
+    try:
+        pedir("POST", "carta_tareas", filas); return []
+    except RuntimeError as e:
+        faltan = [c for c in TAREA_EXTRA if c in str(e)]
+        if not faltan: raise
+        pedir("POST", "carta_tareas", [{k: v for k, v in f.items() if k not in faltan} for f in filas])
+        return faltan
+
+def asignar(ids):
+    """Carta activa por cliente desde contenido/asignaciones.json. No corre hasta que diga activar."""
+    p = os.path.join(B, "contenido", "asignaciones.json")
+    if not os.path.exists(p): return
+    a = leer(p)
+    lista = a.get("clientes", {})
+    if not a.get("activar"):
+        print("→ asignaciones: %d clientes escritos, sin activar (falta que Teo confirme las columnas)" % len(lista))
+        return
+    col = a.get("columnas", {})
+    c_cli, c_car, c_est = col.get("cliente", "cliente_id"), col.get("carta", "carta_id"), col.get("estado", "estado")
+    activa, pausada = col.get("activa", "activa"), col.get("pausada", "pausada")
+    clientes = {c["slug"]: c["id"] for c in (pedir("GET", "clientes?select=id,slug") or []) if c.get("slug")}
+    hechas = 0
+    for slug, x in lista.items():
+        cod = x.get("activa")
+        if not cod: continue
+        cid = clientes.get(slug)
+        if not cid:
+            print("  ojo: %s no está en clientes de la app; no se asigna" % slug); continue
+        propia = "%s--%s" % (cod, slug)
+        carta = ids.get(propia) or ids.get(cod)
+        if not carta:
+            print("  ojo: la carta %s no existe; %s queda sin asignar" % (cod, slug)); continue
+        q = "asignaciones?%s=eq.%s&%s=eq.%s&select=id,%s" % (c_cli, urllib.parse.quote(str(cid)), c_est, activa, c_car)
+        vigentes = pedir("GET", q) or []
+        if any(str(v.get(c_car)) == str(carta) for v in vigentes): continue
+        for v in vigentes:
+            pedir("PATCH", "asignaciones?id=eq.%s" % urllib.parse.quote(str(v["id"])), {c_est: pausada})
+        pedir("POST", "asignaciones", {c_cli: cid, c_car: carta, c_est: activa})
+        hechas += 1
+    print("→ asignaciones: %d nuevas o cambiadas" % hechas)
+
 def main():
     cartas, tareas = filas_del_repo()
     gen = [c for c in cartas if not c["cliente_slug"]]
@@ -99,6 +166,17 @@ def main():
         from collections import Counter
         print("   niveles:", dict(Counter(c["nivel"] for c in gen)))
         for c in ver: print("   %-45s → %s" % (c["codigo"], c["cliente_slug"]))
+        con_sem = sum(1 for ts in tareas.values() if any(t["semana"] > 1 or t["frecuencia"] != "unica" for t in ts))
+        print("   cartas con tareas por semana o frecuencia:", con_sem)
+        print("   estados de galería:", dict(Counter(c["estado_galeria"] for c in gen)))
+        p = os.path.join(B, "contenido", "asignaciones.json")
+        if os.path.exists(p):
+            a = leer(p); cods = {c["codigo"] for c in cartas}
+            for slug, x in a.get("clientes", {}).items():
+                cod = x.get("activa")
+                if not cod: continue
+                usa = "%s--%s" % (cod, slug) if "%s--%s" % (cod, slug) in cods else cod
+                print("   asigna %-22s → %s%s" % (slug, usa, "" if usa in cods else "   (NO EXISTE)"))
         print("   modo prueba: no se tocó Supabase (faltan SUPABASE_URL y SUPABASE_SERVICE_KEY, o se pidió --probar)")
         return
     filas, faltan = subir(cartas)
@@ -107,7 +185,9 @@ def main():
         cid = ids.get(cod)
         if not cid: continue
         pedir("DELETE", "carta_tareas?carta_id=eq.%s" % urllib.parse.quote(str(cid)))
-        if ts: pedir("POST", "carta_tareas", [dict(t, carta_id=cid) for t in ts])
+        if ts:
+            for c in subir_tareas([dict(t, carta_id=cid) for t in ts]):
+                if c not in faltan: faltan.append(c)
     # lo que ya no está en el repo se oculta, nunca se borra
     en_base = pedir("GET", "cartas?origen=eq.repo&select=id,codigo,oculta") or []
     del_repo = {c["codigo"] for c in cartas}
@@ -115,9 +195,10 @@ def main():
     for c in viejas:
         pedir("PATCH", "cartas?id=eq.%s" % urllib.parse.quote(str(c["id"])), {"oculta": True})
     print("   subidas %d, tareas reemplazadas en %d, ocultadas %d" % (len(filas), len(tareas), len(viejas)))
+    asignar(ids)
     if faltan:
-        print("   OJO: la tabla cartas no tiene %s. Subió igual, pero las versiones de cada cliente "
-              "no quedan ligadas hasta que Teo agregue esas columnas." % ", ".join(faltan))
+        print("   OJO: la base no tiene las columnas %s. Subió igual sin ellas; hay que pedirle a Teo "
+              "que las agregue." % ", ".join(faltan))
 
 if __name__ == "__main__":
     main()

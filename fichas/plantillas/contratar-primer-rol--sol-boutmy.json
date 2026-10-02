@@ -13,6 +13,14 @@
   "bloques_inicio": [
     {
       "nuestro": true,
+      "titulo": "Lo que ya mandaste",
+      "texto": [
+        "<b>25 de septiembre:</b> el esquema de clientes de BeMotion, con ocho clientes, seis con fee y dos por proyecto, y 3.200 dólares por mes en fees. Con eso se calcula el número mensual que sostiene al rol.",
+        "<b>Lo que falta:</b> cuánto suman los proyectos puntuales en un mes típico."
+      ]
+    },
+    {
+      "nuestro": true,
       "titulo": "Por qué el editor y por qué ahora",
       "texto": [
         "BeMotion tiene seis clientes fijos, un equipo de cuatro y un servicio que el mercado ya les pide. La demanda y la entrega están resueltas. Lo que no está resuelto es dónde están paradas las dueñas: vos y Fede cubren los mismos roles, las dos arman propuestas, las dos van a producir y las dos editan. Con ese calendario, la oferta y el precio quedan siempre para después.",
@@ -20,5 +28,6 @@
         "Y sale progresivo, no de golpe: un cliente de prueba, una entrega revisada, y de ahí se amplía. La carta de abajo es el paso a paso de eso."
       ]
     }
-  ]
+  ],
+  "estado_galeria": "aprobada"
 }

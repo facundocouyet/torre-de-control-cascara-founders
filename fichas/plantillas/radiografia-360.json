@@ -1,0 +1,86 @@
+{
+  "modulo": "radiografia-360",
+  "titulo": "La hoja del punto A",
+  "bajada": "Los números de hoy en una sola hoja: qué vendiste, a qué precio, qué producís y cuántas horas te lleva. Con esto Facu escribe tu radiografía, nombra un solo cuello de botella y fija el punto B con fecha.",
+  "lista_cuando": "Alguien que no te conoce lee la hoja y sabe cuánto facturaste los últimos 90 días, de dónde vino cada venta y en qué se te va la semana.",
+  "secciones": [
+    {
+      "titulo": "Las ventas de los últimos 90 días",
+      "consigna": "Una fila por venta, con fecha, cliente, qué compró, cuánto pagó y por dónde llegó. Si no tenés el dato exacto, poné el que recordás y marcalo. Una venta que no está en la tabla no existe para la lectura.",
+      "ejemplo": {
+        "quien": "Bianca",
+        "texto": "Contrató para mejorar el contenido y lo que faltaba era otra cosa: un punto A escrito y un punto B con fecha. Sin la tabla de ventas, cada llamada arrancaba discutiendo cómo venía el negocio."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Fecha",
+        "Cliente",
+        "Qué compró",
+        "Cuánto pagó",
+        "Por dónde llegó"
+      ],
+      "filas": 10,
+      "cid": 0
+    },
+    {
+      "titulo": "Lo que cobrás hoy",
+      "consigna": "Cada cosa que vendés con su precio de lista y el precio que de verdad cobraste la última vez. Si hiciste descuento, anotalo con el motivo.",
+      "campo": "tabla",
+      "columnas": [
+        "Qué vendés",
+        "Precio de lista",
+        "Lo que cobraste la última vez",
+        "Por qué fue distinto"
+      ],
+      "filas": 5,
+      "cid": 1
+    },
+    {
+      "titulo": "Lo que publicaste y lo que trajo",
+      "consigna": "Cuántas piezas publicaste en los últimos 30 días, en qué redes, y cuál trajo una conversación o una venta. Si no publicaste, el número es cero y se escribe cero.",
+      "campo": "lineas",
+      "lineas": [
+        "Piezas publicadas en 30 días",
+        "Redes donde publicás",
+        "La pieza que más conversaciones trajo",
+        "Seguidores hoy"
+      ],
+      "cid": 2
+    },
+    {
+      "titulo": "Tu semana en horas",
+      "consigna": "Las horas reales de la última semana, repartidas entre vender, producir, entregar y administrar. Se cuentan las de la semana pasada, no las de una semana ideal.",
+      "ejemplo": {
+        "quien": "Sol Boutmy",
+        "texto": "Las dos socias estaban metidas adentro de la producción de los seis clientes fijos. El cuello del caso apareció cuando se contaron las horas: el negocio entregaba bien y no quedaba nadie para venderlo."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "En qué",
+        "Horas por semana",
+        "Quién más lo podría hacer"
+      ],
+      "filas": 6,
+      "cid": 3
+    },
+    {
+      "titulo": "Lo que te frena, en tus palabras",
+      "consigna": "Escribí en dos o tres frases qué creés que te está frenando hoy. Facu lo cruza con los números y en la 1:1 se elige un solo cuello de botella.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Lo que me frena hoy es...",
+      "cid": 4
+    },
+    {
+      "titulo": "Dónde querés estar en 90 días",
+      "consigna": "Un número y una fecha. Puede ser facturación, clientes, piezas o llamadas; tiene que ser algo que se pueda contar el día que llega.",
+      "campo": "lineas",
+      "lineas": [
+        "El número",
+        "La fecha",
+        "Cómo lo vamos a medir"
+      ],
+      "cid": 5
+    }
+  ]
+}

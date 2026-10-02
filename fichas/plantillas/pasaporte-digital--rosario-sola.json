@@ -1,0 +1,24 @@
+{
+  "modulo": "pasaporte-digital",
+  "slug": "rosario-sola",
+  "founder": "Rosario Solá",
+  "bajada_envio": {
+    "founder": "Rosario Solá",
+    "porque": "En la Clarity Call quedó claro por dónde se arranca: tu marca personal, en una cuenta nueva donde vos sos la referencia en todo el camino de ser madre, del embarazo al postparto. Para que esa marca suene a vos y a nadie más, hace falta tu historia escrita de punta a punta, con lo que te pasó con tus hijos, lo bueno y lo que dolió. Los Founder Insights nos contaron el negocio; esto nos cuenta a vos.",
+    "objetivo": "Tu pasaporte completo y devuelto en tres o cuatro días. De acá salen la narrativa de tu marca personal, los ángulos de contenido y la dirección visual, y es lo que llevás, junto con la hoja del cliente ideal, a la primera llamada con Franco para bajar la oferta.",
+    "mindset": "Contar lo que te pasó de verdad es lo que te separa de las cuentas que venden productos para bebés. Las madres se reconocen en lo que dolió, en lo que nadie te preguntó después del parto, más que en los tips. Escribilo como te sale, sin pulirlo: ordenarlo es trabajo nuestro."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó definido en la Clarity Call",
+      "texto": [
+        "Primero tu marca personal: una cuenta de Instagram nueva donde sos la cara y la autoridad. Tu Instagram privado, el de la familia, queda como está.",
+        "Baby Personal Box, con sus once mil cuatrocientos seguidores, pasa a ser la cuenta de la comunidad: ahí van los eventos, lo que pasa gracias a ellos y los casos. Lo que buscan hoy las marcas son comunidades.",
+        "Antes de ir a vender a marcas, lanzamos un producto digital propio de acompañamiento a la madre. Es lo que valida tu mirada con plata y con gente adentro, y lo que después te abre la puerta con las marcas.",
+        "Arrancamos en español, para Latinoamérica. El inglés y Estados Unidos llegan cuando el producto esté validado.",
+        "El contenido, en el formato que te resulte natural: charlas donde alguien te pregunta y vos contás. Lo que hacías en historias en Baby Personal Box ya demuestra que frente a cámara te sale."
+      ]
+    }
+  ]
+}

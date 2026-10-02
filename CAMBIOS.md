@@ -7,11 +7,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ## 2 de octubre de 2026
 
-Custom Lab volvió a aparecer: le pidieron a Franco por Slack una mano con dos presupuestos.
+Custom Lab volvió a aparecer, y a la tarde las cartas quedaron listas para pasar a la app.
 
 - **Custom Lab: contacto nuevo el 1/10, pelota a Franco.** Juan Cruz Aguirre le escribió en `#cf-custom-lab` por dos trabajos de eventos (una iglesia y uno de la ciudad, que pasó el deadline del 29/9). Se cortan los 14 días sin noticias. Hito nuevo en la ficha y, de paso, el apellido de Juan que faltaba.
+- **Las cartas quedan listas para la app.** `contenido/asignaciones.json` dice la carta activa y la siguiente de cada cliente, y el sync la va a asignar con el push cuando Teo confirme las columnas (hoy está en `"activar": false`). Las diez cartas que más se asignan (las siete troncales, el calendario de lanzamiento, contratar el primer rol y la auditoría del programa) tienen tareas por semana y con frecuencia, que es con lo que la app arma la semana del cliente. Cada carta lleva su estado de galería.
+- **Calendario de lanzamiento a cuatro semanas.** Sale la versión de cuarenta y cinco días: semana 1 historia, 2 problema y lista de espera, 3 mecanismo y encuentro en vivo, 4 venta abierta.
+- **Las cuatro cartas viejas con hoja nueva.** Radiografía 360, pipeline de siete campos, propuesta comercial y OS en Notion ya tienen su hoja para completar: son 46 de 46.
+- **Seis versiones de cliente nuevas o al día.** Lucio (Lanzamiento de marca, 6 semanas, USD 1.800), Seba (one-sheeter con los números de Franco), Aaron (funnel de servicio), Custom Lab (calendario de contenido con las 2 campañas), Bianca (lanzamiento de los anillos) y Scarlett (lanzamiento del 9 al 30 de octubre). A Sol se le suma el esquema de BeMotion. Entran las dos de Rosario.
+- **Ingresos sin ficha y lo que vuelve de la app.** `contenido/ingresos.json` lista los once que entraron sin ficha, con su slug. La Action "Leer la app" baja cifrado a la rama `app-datos` lo que pasa en la app; en la Mac se abre con `scripts/leer-app-local.sh`.
 
-**Para mirar antes de subir:** la ficha de Custom Lab. Torre publicada, versión 60.
+**Para mirar antes de subir:** la ficha de Custom Lab; las versiones nuevas en `cartas/para/` y `contenido/asignaciones.json`. Antes de que corra "Leer la app", cargá en GitHub el secret `APP_DATOS_CLAVE` con el contenido de `.app-datos-clave`. Torre publicada, versión 61.
 
 ---
 

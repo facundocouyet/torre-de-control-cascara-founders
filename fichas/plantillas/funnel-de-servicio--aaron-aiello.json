@@ -1,0 +1,26 @@
+{
+  "modulo": "funnel-de-servicio",
+  "slug": "aaron-aiello",
+  "founder": "Aaron Aiello",
+  "bajada": "Los noventa días de consultoría escritos de punta a punta: qué recibe tu cliente, cómo arranca, dónde se traba la entrega y qué hay arriba y abajo. Es lo que tiene que estar listo antes del 15 de octubre para lanzar el 15 de noviembre.",
+  "lista_cuando": "Le podés explicar a un cliente nuevo qué pasa en cada semana de los noventa días y qué se lleva al final, sin improvisar.",
+  "bajada_envio": {
+    "founder": "Aaron Aiello",
+    "porque": "El 29 de septiembre dijiste la oferta de corrido: noventa días de consultoría para personas que venden productos digitales, hasta sus primeros quince mil por mes, con retainer, downsell y upsell. La oferta está; falta el recorrido del cliente adentro.",
+    "objetivo": "La entrega escrita semana a semana, con su onboarding y su escalera, antes del 15 de octubre. Con eso el micro lanzamiento del 15 de noviembre vende algo que ya se puede entregar igual a cada cliente.",
+    "mindset": "Ya entregás esto todos los días a tus clientes de consultoría. Escribilo como lo hacés hoy, con lo que se repite y con lo que te come horas."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está definido",
+      "texto": [
+        "<b>La oferta:</b> noventa días de consultoría para personas que venden productos digitales, hasta sus primeros quince mil dólares por mes.",
+        "<b>La escalera:</b> un retainer para seguir, un downsell para el que no llega y un upsell para el que crece. Los tres están nombrados y falta escribir qué tiene cada uno.",
+        "<b>El orden de octubre:</b> primera quincena para perfil, entrega, proceso comercial y calendario; micro lanzamiento el 15 de noviembre.",
+        "<b>Lo que falta y se decide aparte:</b> el precio de los noventa días, que no se dijo el 29."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

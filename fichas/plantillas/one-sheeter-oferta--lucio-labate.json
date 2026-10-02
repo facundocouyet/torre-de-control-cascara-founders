@@ -2,12 +2,12 @@
   "modulo": "one-sheeter-oferta",
   "slug": "lucio-labate",
   "founder": "Lucio Labate",
-  "bajada": "La oferta entera, de nuevo y completa. No porque lo anterior estuviera mal, sino porque se trabajó en pedazos, en cinco llamadas distintas, y nunca quedó escrita junta en un solo lugar. Esta vez se hace de una sola pasada.",
+  "bajada": "La oferta nueva, escrita entera y en un solo lugar: Lanzamiento de marca, seis semanas, 1.800 dólares. Salió de la llamada con Franco del 30 de septiembre y esta hoja la deja lista para presentarla en vivo.",
   "lista_cuando": "Leés la hoja completa de arriba a abajo y podés explicar tu oferta sin abrirla.",
   "bajada_envio": {
     "founder": "Lucio Labate",
-    "porque": "Tu oferta se trabajó el 1 de julio, se movió el 18 de agosto, se volvió a bajar el 2 de septiembre con Teo y se ajustó con Juana el mismo día. Cuatro vueltas, cada una buena, ninguna cerrada. El problema no fue el contenido: fue que quedó repartida en cinco llamadas y nunca se escribió junta. Por eso esta vez va entera y en un solo documento, de tu puño.",
-    "objetivo": "La oferta escrita completa antes de la llamada con Franco, para que esa llamada cierre y no vuelva a abrir. De ahí salen los ángulos, y de los ángulos salen las diez piezas.",
+    "porque": "El 30 de septiembre, con Franco, la oferta cambió de forma: Lanzamiento de marca, seis semanas, para founders con una marca independiente que ya vende y todavía no tiene identidad propia, a 1.800 dólares. Es la quinta vuelta y la primera con precio, plazo y comprador en la misma frase. Ahora toca escribirla de tu puño para que deje de vivir en una llamada.",
+    "objetivo": "La oferta escrita completa, con la métrica de la promesa y lo que te cuesta entregarla, para presentarla en vivo en tus próximas cinco llamadas. Franco te pasa el documento de oferta y la escalera de valor; esta hoja es tu versión, con tus palabras.",
     "mindset": "Empezar de nuevo no es volver atrás. Todo lo que ya se dijo está escrito arriba de las preguntas, así que no arrancás de una hoja en blanco: arrancás de lo que ya sabés, junto por primera vez. Y no busques la respuesta perfecta. Una respuesta tosca y escrita rinde más que una buena en la cabeza, porque la tosca se puede corregir en la llamada."
   },
   "bloques_inicio": [
@@ -32,19 +32,20 @@
         "<b>2 de septiembre, con Juana.</b> El cliente ideal se expande, no se redefine: moda y música siguen siendo el terreno, y adentro de música se abre hacia empresas de sonido y lo que gira alrededor.",
         "<b>4 de septiembre, con Fede.</b> Revisión del video de Bowen y tres reducciones con formatos distintos.",
         "<b>9 de septiembre.</b> Aparece lo que te mueve y sirve de ángulo: la falta de escucha activa.",
-        "<b>18 de septiembre.</b> Reservás vos la llamada con Facu, que es la primera señal de movimiento desde que quedaste frenado."
+        "<b>18 de septiembre.</b> Reservás vos la llamada con Facu, que es la primera señal de movimiento desde que quedaste frenado.",
+        "<b>30 de septiembre, con Franco.</b> La oferta pasa a Lanzamiento de marca: seis semanas, 1.800 dólares, propuesta siempre presentada en vivo (promesa, mecanismo, bonus y precio) y prospección en frío con auditorías creativas hechas con Claude y mandadas por Loom."
       ]
     },
     {
       "nuestro": true,
       "titulo": "Lo que ya está definido, para que no lo pienses de cero",
       "texto": [
-        "<b>La oferta tiene dos niveles</b> y son módulos de la misma cosa: la instalación de un sistema de diseño con IA adentro de una empresa, y la estrategia creativa de creación de marca y comunicación. Se venden juntos o por separado.",
-        "<b>Se empieza por el de IA</b>, que es el que el mercado pide hoy. El de estrategia creativa se abre solo cuando tengas casos.",
-        "<b>El comprador prioritario:</b> empresas B2B con equipo de marketing y sin diseñador propio.",
-        "<b>El precio de hipótesis:</b> dos mil a tres mil dólares la instalación, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Se confirma o se corrige en las primeras cinco llamadas.",
-        "<b>Las dos reglas del tramo:</b> diez piezas como mínimo antes de evaluar nada, y validar siempre con precio.",
-        "Nada de esto es sagrado. Si al contestar te aparece otra cosa, escribí la otra cosa: una corrección tuya vale más que un sí de compromiso. Pero tampoco hace falta que lo vuelvas a pensar desde cero."
+        "<b>El producto:</b> Lanzamiento de marca, seis semanas.",
+        "<b>El comprador:</b> founders con una marca independiente que ya vende y todavía no tiene identidad propia.",
+        "<b>El precio:</b> 1.800 dólares. Se presenta siempre en vivo, en la llamada, en este orden: promesa, mecanismo, bonus y precio.",
+        "<b>Cómo se consigue la llamada:</b> una auditoría creativa de la marca, armada con Claude y mandada por Loom, como primer contacto en frío.",
+        "<b>Lo que falta y escribís acá:</b> la métrica de la promesa (qué tiene la marca al final de las seis semanas que hoy no tiene) y cuánto te cuesta entregarla en horas y en plata.",
+        "Si al contestar te aparece otra cosa, escribí la otra cosa: una corrección tuya vale más que un sí de compromiso."
       ]
     },
     {
@@ -56,5 +57,6 @@
         "Cuando contestes lo de abajo, escribí desde ahí."
       ]
     }
-  ]
+  ],
+  "estado_galeria": "aprobada"
 }

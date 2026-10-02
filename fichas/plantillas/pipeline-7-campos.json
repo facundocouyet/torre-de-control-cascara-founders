@@ -1,0 +1,72 @@
+{
+  "modulo": "pipeline-7-campos",
+  "titulo": "La hoja del pipeline",
+  "bajada": "Todos los contactos en una sola base con siete campos, una etapa con nombre propio y una próxima acción con fecha en cada uno. Cuando está, ninguna consulta depende de que te acuerdes.",
+  "lista_cuando": "Abrís la base un lunes y sabés a quién escribirle hoy, sin abrir WhatsApp ni el mail.",
+  "secciones": [
+    {
+      "titulo": "Dónde vive tu pipeline hoy",
+      "consigna": "Listá cada lugar donde hoy hay un contacto: chats, Calendly, planillas, mails, la cabeza. Todo eso se vuelca a una sola base en la sección siguiente.",
+      "ejemplo": {
+        "quien": "Nicolás Lozada",
+        "texto": "Tenía las consultas repartidas entre el Calendly y los chats, y el primer accionable fue cargar todo el pipeline en una sola planilla antes de recontactar a nadie."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Dónde está",
+        "Cuántos contactos",
+        "Hace cuánto no lo mirás"
+      ],
+      "filas": 6,
+      "cid": 0
+    },
+    {
+      "titulo": "Los siete campos",
+      "consigna": "Armá la base con estos siete campos y no más: contacto, fuente, etapa, objeción, presupuesto, próxima acción y fecha. Un campo de más es un campo que nadie completa.",
+      "campo": "lineas",
+      "lineas": [
+        "Herramienta donde la armás (Notion, Airtable o planilla)",
+        "Link a la base",
+        "Cuántos contactos cargaste"
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "Las etapas con nombre propio",
+      "consigna": "Escribí las etapas de tu venta, de primer contacto a cerrado, con el nombre que usás vos. Cada etapa tiene que poder decirse con un hecho: 'agendó llamada', no 'interesado'.",
+      "ejemplo": {
+        "quien": "Bianca Antonini",
+        "texto": "Unificó su pipeline en una sola base de Notion con origen del contacto, compras y productos, porque la misma persona aparecía tres veces según por dónde había entrado."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Etapa",
+        "Qué tiene que haber pasado para estar acá"
+      ],
+      "filas": 6,
+      "cid": 2
+    },
+    {
+      "titulo": "La revisión de la semana",
+      "consigna": "Un día y una hora fijos para mover las próximas acciones vencidas. Ponelo en el calendario ahora.",
+      "campo": "lineas",
+      "lineas": [
+        "Día y hora de la revisión",
+        "Quién la hace"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "De dónde vino cada venta",
+      "consigna": "Una vez por mes, mirá de dónde vino cada venta cerrada. Es el dato que decide dónde ponés el contenido y el tiempo del mes siguiente.",
+      "campo": "tabla",
+      "columnas": [
+        "Venta",
+        "Fuente",
+        "Cuántos días tardó"
+      ],
+      "filas": 5,
+      "cid": 4
+    }
+  ]
+}

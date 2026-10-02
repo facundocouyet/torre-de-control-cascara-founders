@@ -136,3 +136,29 @@ aprendió, cómo cambió la oferta y cómo evolucionó cada cliente. Leé `cereb
 escribir. Cuando en una conversación se decide algo con consecuencia, se registra en el momento
 como una entrada en `cerebro/registro/AAAA/MM/`, y después se corre `python3 generador/cerebro.py`.
 No va a `dist/`: es fuente, no sitio.
+
+
+## La app de clientes (desde el 2/10)
+
+La app (foundersapp.cascaraco.com, Lovable + Supabase) lee este repo. Lo que hay que saber antes de tocar algo:
+
+- **Cartas.** `generador/sync_cartas.py` corre con cada push que toca `fichas/inventario.json`,
+  `fichas/plantillas/`, `contenido/asignaciones.json` o el propio script. Sube las genéricas, las
+  versiones de cliente (`<modulo>--<slug>`, ocultas y ligadas al cliente), las tareas y el
+  `estado_galeria` (aprobada / rehacer / obsoleta). Las tareas salen de `tareas` (titulo, semana,
+  frecuencia unica/diaria/semanal/mensual, descripcion); si una carta no tiene, de `completar`, en la
+  semana 1. `python3 generador/sync_cartas.py --probar` muestra todo sin tocar la base.
+- **Asignaciones.** `contenido/asignaciones.json` dice la carta activa y la siguiente de cada cliente.
+  La decide Facu. Con el push, el sync la asigna en la app (usa la versión del cliente si existe).
+  No corre hasta que el archivo diga `"activar": true`, que se pone cuando Teo confirme las columnas.
+- **Ingresos sin ficha.** `contenido/ingresos.json`: clientes que entraron y todavía no tienen ficha
+  porque falta la Clarity Call. Su slug es el de la app y el del canal `cf-`. `revisar.py` los cuenta
+  como clientes válidos para las cartas escritas para ellos.
+- **Fichas y documentos.** El webhook `sync-torre` de Supabase toma las fichas, el seguimiento y los
+  documentos con cada push. El slug de `fichas/<slug>.json` es el de la app.
+- **Seguimiento.** El último contacto y el próximo paso salen de la app (actividad y próxima sesión).
+  En `contenido/seguimiento.json` se mantiene a mano solo lo que es criterio: pilar, pelota y plata.
+- **Lo que vuelve de la app.** La Action "Leer la app" baja tres veces por día asignaciones,
+  revisiones, entregas, tareas, comentarios y sesiones, cifrados, a la rama `app-datos`. En la Mac,
+  `scripts/leer-app-local.sh` los abre en `_app/` (ignorado). La clave vive en `.app-datos-clave`
+  (ignorado) y en el secret `APP_DATOS_CLAVE`. Nunca se commitea ni se pega en un chat.
