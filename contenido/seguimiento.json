@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-01",
+  "actualizado": "2026-10-02",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -77,13 +77,13 @@
       }
     },
     "custom-lab": {
-      "ultimo": "2026-09-18",
-      "que": "La última llamada registrada, con Franco.",
+      "ultimo": "2026-10-01",
+      "que": "Juan Cruz Aguirre le pidió a Franco por Slack ayuda con dos presupuestos (evento de una iglesia y evento de la ciudad), cada uno \"de 10\".",
       "proximo": null,
-      "paso": "Coordinar la reunión de contenido con Fede y la 1:1 del 2/10: sin contacto desde el 18/09.",
+      "paso": "Franco los orienta: la iglesia tarda en confirmar y la ciudad pasó el deadline del 29/09. La reunión de contenido con Fede y la 1:1 siguen sin fecha.",
       "carta": null,
       "pilar": "Contenido",
-      "pelota": "Aye"
+      "pelota": "Franco"
     },
     "sebastian": {
       "ultimo": "2026-09-30",

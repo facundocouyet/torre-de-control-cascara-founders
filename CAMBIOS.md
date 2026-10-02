@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 2 de octubre de 2026
+
+Custom Lab volvió a aparecer: le pidieron a Franco por Slack una mano con dos presupuestos.
+
+- **Custom Lab: contacto nuevo el 1/10, pelota a Franco.** Juan Cruz Aguirre le escribió en `#cf-custom-lab` por dos trabajos de eventos (una iglesia y uno de la ciudad, que pasó el deadline del 29/9). Se cortan los 14 días sin noticias. Hito nuevo en la ficha y, de paso, el apellido de Juan que faltaba.
+
+**Para mirar antes de subir:** la ficha de Custom Lab. Torre publicada, versión 60.
+
+---
+
 ## 1 de octubre de 2026
 
 Lucio salió de la llamada con Franco con oferta nueva, y la grupal de Juana quedó cargada en cinco clientes.

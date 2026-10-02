@@ -1,7 +1,7 @@
 {
   "slug": "custom-lab",
   "cliente": "Piero Medina y Juan — Custom Lab",
-  "proyecto": "Custom Lab — producción textil y merch. Piero lleva la parte creativa y Juan la comercial y administrativa",
+  "proyecto": "Custom Lab — producción textil y merch. Piero lleva la parte creativa y Juan Cruz Aguirre la comercial y administrativa",
   "modo": "radiografia",
   "orientacion": "Conseguir",
   "arranque": "(falta confirmar) — para el 25 de agosto de 2026 ya habían pasado por una primera llamada con Facu y por la llamada comercial con Franco",
@@ -69,6 +69,10 @@
       {
         "cuando": "18 sep",
         "que": "quedan 2 campañas y 12 ángulos para arrancar"
+      },
+      {
+        "cuando": "1 oct",
+        "que": "le piden a franco por slack una mano para cerrar dos presupuestos de eventos"
       }
     ]
   },
@@ -242,7 +246,7 @@
   ],
   "conclusion": "El tramo cerró la parte difícil: ya saben qué venden y a quién. Venden publicidad hecha con merch a empresas que tienen presupuesto de marketing, y la producción textil pasó a ser el cómo. Eso cambió el precio, el canal y el contenido, y el catálogo se ordenó en kits de onboarding, de oficina y de freelance.\n\nLo que cambió el 18 de septiembre es el orden de lo que sigue. La tienda está lista y los kits no, y la decisión fue posponer los kits: una tienda sin tráfico no convierte, y el tiempo que se fue buscando productos son 2 semanas sin publicar. Primero el contenido, y el contenido se resuelve documentando: el proceso de construir la marca contado como serie, y el desarrollo de los kits desde el boceto. Son 2 campañas en paralelo sobre 12 ángulos que ya están escritos, así que no hay nada que inventar, hay que grabar.\n\nEl motivo de fondo es el que conviene que no se pierda: el contenido es lo que construye demanda, y sin demanda propia la única forma de vender un producto estandarizado es competir por precio. Ese es exactamente el lugar del que vienen tratando de salir desde agosto.\n\nEl punto de llegada del tramo se escribe el 2 de octubre, sobre el calendario y sobre las primeras piezas publicadas. Hasta entonces el recontacto sobre la base histórica sigue siendo el motor de ventas, porque es lo único probado.",
   "carta": "Piero, Juan: hicieron lo que se les pidió. Armaron la base histórica de 2 años, salieron a recontactar y vendieron, y eso ya dice qué clase de socios son cuando la tarea está clara. Lo que pasó el 18 de septiembre es una corrección de prioridad y conviene tomarla así: no es que hayan hecho mal en avanzar con los kits, es que el orden estaba al revés. La tienda ya está y no vende porque nadie la ve.\n\nLo que viene les pide algo que suele costar más que producir: publicar mientras todavía no está todo perfecto. Documentar es exactamente eso, mostrar el proceso como está, con la búsqueda de proveedores y con lo que sale mal. Tienen 12 ángulos escritos, así que no hay nada que pensar esta semana: hay que grabar y subir.",
-  "abierto": "Cuánto pueden poner por mes en pauta y quién la opera, porque hoy no tienen con qué pagarle a nadie (falta confirmar). Cuáles son sus territorios de contenido sobre los 3 pilares, que Juana le dejó como la única organización que necesita y todavía no están escritos (falta confirmar). Y el apellido de Juan y la ficha de la segunda persona del equipo, que siguen faltando.",
+  "abierto": "Cuánto pueden poner por mes en pauta y quién la opera, porque hoy no tienen con qué pagarle a nadie (falta confirmar). Cuáles son sus territorios de contenido sobre los 3 pilares, que Juana le dejó como la única organización que necesita y todavía no están escritos (falta confirmar). Y si toman o no el trabajo del evento de la ciudad, que pasó el deadline del 29/09 sin confirmar y hay que entregar en 9 días (falta confirmar).",
   "handicap": {
     "ejes": {
       "oferta": 1,
