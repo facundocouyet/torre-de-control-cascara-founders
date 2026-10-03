@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 3 de octubre de 2026
+
+Dos llamadas del viernes que movieron fichas: la 1:1 de Seba y la primera de Sol con Franco. Sofía devolvió sus documentos.
+
+- **Seba: ICP cerrado y venta del 10 al 15/11.** El ICP son los creativos que venden servicios (sale «técnico»); el done for you de USD 1.900 por mes es un puente hasta el lanzamiento y queda como upsell. Le debés los documentos que pidió en su canal. La venta aparece en la plata del inicio.
+- **Sol: primera llamada con Franco.** Oferta para marcas con fundador al frente, «identidad en movimiento» como mecanismo propuesto y precio al 75% hasta cerrar de 5 a 10 clientes. Tienen más de 20 postulaciones de editor y piden ayuda para elegir.
+- **Sofía: devolvió las respuestas el 2/10.** La pelota pasa a Franco.
+
+**Para mirar antes de subir:** las tres fichas y sus accionables en Entregas. Torre publicada, versión 62.
+
 ## 2 de octubre de 2026
 
 Custom Lab volvió a aparecer, y a la tarde las cartas quedaron listas para pasar a la app.

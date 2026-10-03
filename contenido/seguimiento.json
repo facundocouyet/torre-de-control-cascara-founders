@@ -5,13 +5,13 @@
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
-      "ultimo": "2026-09-25",
-      "que": "28/09: todavía no devolvió la oferta y el ICP. Extiende al 31/10.",
+      "ultimo": "2026-10-02",
+      "que": "Devolvió las respuestas de oferta e ICP en su canal.",
       "proximo": null,
-      "paso": "La llamada con Franco, cuando devuelva la oferta y el ICP.",
+      "paso": "Llamada con Franco para cerrar la oferta y la fecha del lanzamiento.",
       "carta": "Oferta e ICP, que tiene que devolver completas antes de Franco.",
       "pilar": "Oferta",
-      "pelota": "cliente"
+      "pelota": "Franco"
     },
     "bianca-antonini": {
       "ultimo": "2026-09-30",
@@ -86,19 +86,23 @@
       "pelota": "Franco"
     },
     "sebastian": {
-      "ultimo": "2026-09-30",
-      "que": "Grupal con Juana: serie de YouTube en 3 o 4 partes y una intro fija.",
-      "proximo": "2026-10-02",
-      "paso": "1:1 con Facu el 2/10 a las 9:00: radiografía del primer mes.",
+      "ultimo": "2026-10-02",
+      "que": "1:1 con Facu: ICP de creativos que venden servicios, done for you como puente y venta del 10 al 15/11.",
+      "proximo": null,
+      "paso": "Facu le manda los documentos que pidió y arman el calendario de 4 semanas la semana del 5/10.",
       "carta": "ICP y mecanismo, y Ángulos.",
       "pilar": "Venta",
-      "pelota": "Facu"
+      "pelota": "Facu",
+      "plata": {
+        "fecha": "2026-11-10",
+        "que": "Abre la venta de la cohorte de 8 semanas (del 10 al 15/11)."
+      }
     },
     "sol-boutmy": {
-      "ultimo": "2026-09-25",
-      "que": "Mandó el esquema de clientes de BeMotion: ocho clientes y USD 3.200 por mes en fees.",
+      "ultimo": "2026-10-02",
+      "que": "Primera llamada con Franco: oferta, mecanismo, escalera y precio al 75% para validar.",
       "proximo": null,
-      "paso": "Facu le manda el feedback del esquema y se agenda Franco para la semana del 29/9.",
+      "paso": "Facu las ayuda a elegir editor y se agenda la 1:1 del día 30; ellas bajan la oferta con el feedback de clientes.",
       "carta": "Contratar el primer rol y Oferta.",
       "pilar": "Oferta",
       "pelota": "Facu"
