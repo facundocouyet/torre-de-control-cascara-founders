@@ -7,7 +7,7 @@
   "lista_cuando": "Le mandás la frase del alumno ideal a tres personas que te escribieron después del reel y las tres se reconocen sin que tengas que explicarla.",
   "pasos": [
     "Listar los diez clientes que ya te pagaron por producción, con qué te compró cada uno y a cuánto.",
-    "Escribir los oficios de las dos familias —filmmaker, fotógrafo, editor, diseñador, creador de UGC, el que colabora con marcas— con qué le duele a cada uno y la pregunta que se lo hace decir en voz alta.",
+    "Escribir los oficios de las dos familias —filmmaker, fotógrafo, editor, diseñador, creador de UGC, el que colabora con marcas— con qué le duele a cada uno y la pregunta que le hacés para que te cuente ese dolor con sus palabras.",
     "Salir a hacerle esa pregunta a cinco personas reales y anotar textual lo que contestaron.",
     "Cruzar eso con los comentarios del reel y con de dónde vino cada tanda de seguidores.",
     "Escribir el alumno ideal en una frase, con el momento en el que está, el problema y con cuánto cuenta.",
@@ -17,7 +17,7 @@
   "bajada_envio": {
     "founder": "Sebastián Martínez",
     "porque": "Con Franco ya quedó la forma del producto, el modelo de cohorte y las dos familias de público. Esta hoja no vuelve a definir nada de eso: lo profundiza. Y acá hay una particularidad tuya: nunca lanzaste un programa de educación, lo que hiciste fueron eventos presenciales y producción para marcas. O sea que no tenés diez alumnos para mirar hacia atrás. Lo que sigue a la definición de Franco se descubre preguntando, no pensando.",
-    "objetivo": "Una hoja con los oficios de las dos familias, su dolor y la pregunta que se lo hace decir; cinco conversaciones reales anotadas textual; y el alumno ideal escrito en una frase. Va junto con la carta de ángulos: ésta es el material y aquélla es lo que se hace con él.",
+    "objetivo": "Una hoja con los oficios de las dos familias, su dolor y la pregunta que le hacés para que te cuente ese dolor; cinco conversaciones reales anotadas textual; y el alumno ideal escrito en una frase. Va junto con la carta de ángulos: ésta es el material y aquélla es lo que se hace con él.",
     "mindset": "Sale de buscar y de preguntar, no de pensar. Las respuestas que te sirven están en los comentarios del reel y en cinco conversaciones de quince minutos. Lo que ya sabemos nosotros —de dónde arrancamos, la subcategoría, la escalera y a quién dejamos afuera— te lo dejamos escrito para que no lo adivines: leelo, decinos qué te cierra y qué no, y usá tu tiempo en la parte que sólo podés hacer vos."
   },
   "secciones": [
@@ -35,7 +35,7 @@
     },
     {
       "titulo": "Los perfiles y qué le duele a cada uno",
-      "consigna": "Estos son los oficios de las dos familias que marcó Franco: los cuatro primeros son creativo técnico, los dos siguientes son creador de contenido. Para cada uno, escribí de qué vive hoy, qué le duele de verdad, la pregunta que se lo hace decir en voz alta, y por qué le serviría entrar. La pregunta es lo más importante de esta hoja: tiene que ser una que incomode, no una que se conteste con un sí. Acordate del criterio: es tu propia cabeza de hace 1 a 3 años. Si un perfil no te cierra, tachalo y escribí el que sí; la fila de abajo está libre.",
+      "consigna": "Estos son los oficios de las dos familias que marcó Franco: los cuatro primeros son creativo técnico, los dos siguientes son creador de contenido. Para cada uno, escribí de qué vive hoy, qué le duele de verdad, la pregunta que le hacés para que te cuente ese dolor con sus palabras, y por qué le serviría entrar. La pregunta es lo más importante de esta hoja: tiene que ser una que incomode, no una que se conteste con un sí. Acordate del criterio: es tu propia cabeza de hace 1 a 3 años. Si un perfil no te cierra, tachalo y escribí el que sí; la fila de abajo está libre.",
       "ejemplo": {
         "quien": "Sebastián Martínez",
         "texto": "Tu propio reel ya hizo esta pregunta sin que la escribieras: por qué te da vergüenza grabarte en público. Mil ochocientas personas contestaron que sí, que les pasa. Esa es la temperatura que tiene que tener cada pregunta de esta tabla."
@@ -45,7 +45,7 @@
         "Perfil",
         "De qué vive hoy",
         "Qué le duele",
-        "La pregunta que se lo hace decir",
+        "La pregunta que le hacés para que te cuente ese dolor",
         "Por qué le serviría entrar"
       ],
       "filas_rotulo": [
@@ -62,7 +62,7 @@
     },
     {
       "titulo": "Andá a preguntárselo a cinco",
-      "consigna": "Cinco personas reales, de los perfiles de arriba, que ya te siguen o que te escribieron. Hacéles la pregunta y anotá textual lo que contestaron, sin arreglarles la gramática. Quince minutos cada una alcanza. Esto es lo que convierte los cuatro perfiles de una hipótesis en un dato, y es lo único de esta hoja que no podés resolver sentado.",
+      "consigna": "Cinco personas reales, de los perfiles de arriba, que ya te siguen o que te escribieron. Hacéles la pregunta de la tabla de arriba (si no sabés por dónde arrancar: «¿por qué me consultaste?», ahí aparece el dolor) y anotá textual lo que contestaron, sin arreglarles la gramática. Quince minutos cada una alcanza. Esto es lo que convierte los cuatro perfiles de una hipótesis en un dato, y es lo único de esta hoja que no podés resolver sentado.",
       "ejemplo": {
         "quien": "Aaron A.",
         "texto": "Franco le planteó lo mismo: antes de inventar contenido, auditar a los clientes que ya tiene y preguntarles. El ángulo es mejorar el servicio, no pedir un testimonio, y así la gente contesta de verdad."

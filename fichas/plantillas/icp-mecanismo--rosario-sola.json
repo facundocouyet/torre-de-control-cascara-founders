@@ -17,13 +17,13 @@
     },
     {
       "titulo": "Los perfiles y qué le duele a cada uno",
-      "consigna": "Una fila por cada oficio o perfil de las familias que bajó el comercial. Para cada uno: de qué vive hoy, qué le duele de verdad, la pregunta que se lo hace decir en voz alta, y por qué le serviría entrar. La pregunta es la columna que más rinde después: es la que se convierte en el gancho de una pieza. Un dolor escrito como «quiere crecer» no sirve; escribilo como lo diría ella a las dos de la mañana.",
+      "consigna": "Una fila por cada oficio o perfil de las familias que bajó el comercial. Para cada uno: de qué vive hoy, qué le duele de verdad, la pregunta que le hacés para que te cuente ese dolor con sus palabras, y por qué le serviría entrar. La pregunta es la columna que más rinde después: es la que se convierte en el gancho de una pieza. Un dolor escrito como «quiere crecer» no sirve; escribilo como lo diría ella a las dos de la mañana.",
       "campo": "tabla",
       "columnas": [
         "Perfil",
         "De qué vive hoy",
         "Qué le duele",
-        "La pregunta que se lo hace decir",
+        "La pregunta que le hacés para que te cuente ese dolor",
         "Por qué le serviría entrar"
       ],
       "filas": 6,
@@ -31,7 +31,7 @@
     },
     {
       "titulo": "Andá a preguntárselo a cinco",
-      "consigna": "Cinco personas reales de los perfiles de arriba, que ya te siguen o que te escribieron alguna vez. Hacéles la pregunta y anotá textual lo que contestaron, sin arreglarles la gramática. Quince minutos cada una alcanza. Esto es lo que convierte los perfiles de una hipótesis en un dato, y es lo único de esta carta que no se puede resolver desde el escritorio.",
+      "consigna": "Cinco personas reales de los perfiles de arriba, que ya te siguen o que te escribieron alguna vez. Hacéles la pregunta de la tabla de arriba (si no sabés por dónde arrancar: «¿por qué me consultaste?», ahí aparece el dolor) y anotá textual lo que contestaron, sin arreglarles la gramática. Quince minutos cada una alcanza. Esto es lo que convierte los perfiles de una hipótesis en un dato, y es lo único de esta carta que no se puede resolver desde el escritorio.",
       "campo": "tabla",
       "columnas": [
         "A quién",
