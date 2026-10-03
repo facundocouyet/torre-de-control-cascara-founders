@@ -32,17 +32,16 @@
       "pelota": "cliente"
     },
     "agostina-marchesini": {
-      "ultimo": "2026-09-24",
-      "que": "Charla por WhatsApp: lanzamiento en noviembre con 2 lugares y relanzamiento en febrero con 5.",
+      "ultimo": "2026-10-01",
+      "que": "Tercera interesada en la mentoría; ya hizo su primera llamada de venta a USD 1.500.",
       "proximo": null,
-      "paso": "Agendar la reunión de oferta e ICP para armar el lanzamiento de noviembre y mandarle la radiografía.",
+      "paso": "Escribe la oferta y vende a las tres interesadas con la guía de llamada; después ICP y fecha de lanzamiento.",
       "carta": null,
-      "pilar": "Oferta",
-      "pelota": "Facu",
+      "pilar": "Venta",
+      "pelota": "cliente",
       "plata": {
-        "fecha": "2026-11-01",
-        "cuando": "noviembre",
-        "que": "Lanza con 2 lugares de prueba; relanza en febrero con 5."
+        "fecha": "2026-11-02",
+        "que": "Lanzamiento de la mentoría con 2 lugares (fecha exacta a definir)."
       }
     },
     "lucio-labate": {

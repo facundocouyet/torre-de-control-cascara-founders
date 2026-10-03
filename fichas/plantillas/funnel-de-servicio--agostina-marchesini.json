@@ -12,6 +12,18 @@
   },
   "bloques_inicio": [
     {
+      "nuestro": true,
+      "titulo": "Lo que ya escribiste el 27/9",
+      "texto": [
+        "<b>Mentalidad.</b> Entender que si no estás fuerte mentalmente, el único que se perjudica sos vos.",
+        "<b>Propósito arquitectónico.</b> Qué tenés ganas de crear, qué te interpela, de qué podrías hablar por horas y por dónde querés encarar tu profesión.",
+        "<b>Servicio.</b> Definir el servicio a ofrecer, el cliente ideal y qué problema le resolvés. Si le vendés a todos, no le vendés a nadie.",
+        "<b>Organización y monetización.</b> Lógicas para sistematizar el servicio y no tardar mil horas en presupuestar ni en el día a día.",
+        "<b>Oferta y marketing.</b> Cómo comunicás ese servicio para que llegue a tu cliente ideal.",
+        "Son tus cinco módulos. Abajo los convertimos en semanas, con qué se lleva cada alumna."
+      ]
+    },
+    {
       "titulo": "Tus ideas de producto, sin filtro",
       "consigna": "Todo lo que se te ocurre que tiene que tener la consultoría: temas, sesiones, herramientas, plantillas, ejemplos de tu estudio, formatos (en vivo, grabado, uno a uno). Una idea por renglón, sin ordenarlas.",
       "campo": "texto",

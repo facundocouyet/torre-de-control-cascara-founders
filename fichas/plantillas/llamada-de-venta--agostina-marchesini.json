@@ -13,6 +13,15 @@
   "bloques_inicio": [
     {
       "nuestro": true,
+      "titulo": "Lo que ya está definido para tus llamadas",
+      "texto": [
+        "<b>Lo que ofrecés:</b> una mentoría de 10 a 12 semanas, USD 1.500. Estás reservando lugares y se arranca con una seña. Si todavía la estás terminando de armar, decilo así: «La estoy terminando de armar y vas a ser de las primeras».",
+        "<b>El foco de la llamada es el dolor (Facu, 28/9):</b> qué le duele, qué la frena, cuál es su sueño, dónde le gustaría estar, qué le gustaría lograr y para quién, y dónde siente que se está bloqueando. Con eso alcanza: la llamada tiene que llegar a su dolor y a tu solución.",
+        "<b>Tus llamadas abiertas:</b> Sol quiere hacerla y te dijo que si le aprueban un proyecto va a tener la plata (falta cerrar cuotas). Luján y tu amiga de paisajismo, a las que todavía no les dijiste el precio."
+      ]
+    },
+    {
+      "nuestro": true,
       "titulo": "La llamada, de punta a punta",
       "texto": [
         "Una llamada de 30 a 45 minutos en seis partes. Tenela abierta al lado mientras hablás.",
