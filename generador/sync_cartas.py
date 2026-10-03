@@ -16,9 +16,9 @@ Qué hace:
   6. Las tareas salen de `tareas` (titulo, semana, frecuencia, descripcion) si el módulo o la versión
      las tiene; si no, de `completar`, todas en la semana 1 y únicas.
   7. `estado_galeria` (aprobada / rehacer / obsoleta) viaja con cada carta genérica.
-  8. contenido/asignaciones.json → la carta activa de cada cliente. Solo corre cuando ese archivo
-     dice "activar": true, porque las columnas de `asignaciones` las confirma Teo. Si el cliente tiene
-     versión propia de esa carta, se asigna la versión.
+  8. contenido/asignaciones.json → la carta activa (con `inicio`, el lunes de la semana 1) y la
+     siguiente (fila con estado 'proxima') de cada cliente. Solo corre cuando ese archivo dice
+     "activar": true. Si el cliente tiene versión propia de esa carta, se asigna la versión.
 
 Las columnas extra (cliente_slug, variante_de, url) necesitan existir en `cartas`. Si Supabase las
 rechaza, el script sube igual sin ellas y avisa qué columnas faltan agregar.
@@ -124,38 +124,72 @@ def subir_tareas(filas):
         pedir("POST", "carta_tareas", [{k: v for k, v in f.items() if k not in faltan} for f in filas])
         return faltan
 
+def lunes_semana_1(a, x):
+    """El lunes de la semana 1: el que diga el cliente, el del archivo, o el próximo lunes (hoy si es lunes)."""
+    f = x.get("inicio") or a.get("inicio")
+    if f: return f
+    hoy = datetime.date.today()
+    return (hoy + datetime.timedelta(days=(7 - hoy.weekday()) % 7)).isoformat()
+
 def asignar(ids):
-    """Carta activa por cliente desde contenido/asignaciones.json. No corre hasta que diga activar."""
+    """Carta activa y siguiente por cliente desde contenido/asignaciones.json. No corre hasta que diga activar.
+
+    Lo que hace la base sola (Teo, 3/10): al insertar una activa crea las tareas del cliente desde
+    carta_tareas (por eso asignada_por va null) y pasa la activa anterior a 'pausada'. Si la anterior
+    se da por terminada, el archivo dice "anterior": "completada" (en el cliente o arriba de todo) y
+    se marca así antes de insertar la nueva. La siguiente va como otra fila con estado 'proxima'."""
     p = os.path.join(B, "contenido", "asignaciones.json")
     if not os.path.exists(p): return
     a = leer(p)
     lista = a.get("clientes", {})
     if not a.get("activar"):
-        print("→ asignaciones: %d clientes escritos, sin activar (falta que Teo confirme las columnas)" % len(lista))
+        print("→ asignaciones: %d clientes escritos, sin activar (\"activar\": false)" % len(lista))
         return
     col = a.get("columnas", {})
     c_cli, c_car, c_est = col.get("cliente", "cliente_id"), col.get("carta", "carta_id"), col.get("estado", "estado")
-    activa, pausada = col.get("activa", "activa"), col.get("pausada", "pausada")
+    c_ini, c_por = col.get("inicio", "inicio"), col.get("asignada_por", "asignada_por")
+    activa, proxima, completada = col.get("activa", "activa"), col.get("proxima", "proxima"), col.get("completada", "completada")
     clientes = {c["slug"]: c["id"] for c in (pedir("GET", "clientes?select=id,slug") or []) if c.get("slug")}
-    hechas = 0
+    def carta_de(cod, slug):
+        return ids.get("%s--%s" % (cod, slug)) or ids.get(cod)
+    def filas(cid, estado):
+        q = "asignaciones?%s=eq.%s&%s=eq.%s&select=id,%s" % (c_cli, urllib.parse.quote(str(cid)), c_est, estado, c_car)
+        return pedir("GET", q) or []
+    def borrar(fid):
+        pedir("DELETE", "asignaciones?id=eq.%s" % urllib.parse.quote(str(fid)))
+    hechas = sig = 0
     for slug, x in lista.items():
         cod = x.get("activa")
         if not cod: continue
         cid = clientes.get(slug)
         if not cid:
             print("  ojo: %s no está en clientes de la app; no se asigna" % slug); continue
-        propia = "%s--%s" % (cod, slug)
-        carta = ids.get(propia) or ids.get(cod)
+        carta = carta_de(cod, slug)
         if not carta:
             print("  ojo: la carta %s no existe; %s queda sin asignar" % (cod, slug)); continue
-        q = "asignaciones?%s=eq.%s&%s=eq.%s&select=id,%s" % (c_cli, urllib.parse.quote(str(cid)), c_est, activa, c_car)
-        vigentes = pedir("GET", q) or []
-        if any(str(v.get(c_car)) == str(carta) for v in vigentes): continue
-        for v in vigentes:
-            pedir("PATCH", "asignaciones?id=eq.%s" % urllib.parse.quote(str(v["id"])), {c_est: pausada})
-        pedir("POST", "asignaciones", {c_cli: cid, c_car: carta, c_est: activa})
-        hechas += 1
-    print("→ asignaciones: %d nuevas o cambiadas" % hechas)
+        vigentes = filas(cid, activa)
+        if not any(str(v.get(c_car)) == str(carta) for v in vigentes):
+            if (x.get("anterior") or a.get("anterior")) == completada:
+                for v in vigentes:
+                    pedir("PATCH", "asignaciones?id=eq.%s" % urllib.parse.quote(str(v["id"])), {c_est: completada})
+            # si la nueva activa estaba como próxima, esa fila se saca: la activa entra por insert
+            for v in filas(cid, proxima):
+                if str(v.get(c_car)) == str(carta): borrar(v["id"])
+            pedir("POST", "asignaciones", {c_cli: cid, c_car: carta, c_est: activa,
+                                           c_ini: lunes_semana_1(a, x), c_por: None})
+            hechas += 1
+        # la siguiente: una sola fila 'proxima' por cliente
+        cod_s = x.get("siguiente")
+        carta_s = carta_de(cod_s, slug) if cod_s else None
+        if cod_s and not carta_s:
+            print("  ojo: la carta siguiente %s no existe para %s" % (cod_s, slug))
+        prox = filas(cid, proxima)
+        if carta_s and any(str(v.get(c_car)) == str(carta_s) for v in prox): continue
+        for v in prox: borrar(v["id"])
+        if carta_s:
+            pedir("POST", "asignaciones", {c_cli: cid, c_car: carta_s, c_est: proxima, c_por: None})
+            sig += 1
+    print("→ asignaciones: %d activas nuevas o cambiadas, %d siguientes" % (hechas, sig))
 
 def main():
     cartas, tareas = filas_del_repo()
@@ -176,7 +210,11 @@ def main():
                 cod = x.get("activa")
                 if not cod: continue
                 usa = "%s--%s" % (cod, slug) if "%s--%s" % (cod, slug) in cods else cod
-                print("   asigna %-22s → %s%s" % (slug, usa, "" if usa in cods else "   (NO EXISTE)"))
+                sg = x.get("siguiente") or ""
+                usa_s = ("%s--%s" % (sg, slug) if "%s--%s" % (sg, slug) in cods else sg) if sg else "-"
+                print("   asigna %-22s → %s%s · desde %s · sigue %s%s" % (
+                    slug, usa, "" if usa in cods else " (NO EXISTE)", lunes_semana_1(a, x),
+                    usa_s, "" if (not sg or usa_s in cods) else " (NO EXISTE)"))
         print("   modo prueba: no se tocó Supabase (faltan SUPABASE_URL y SUPABASE_SERVICE_KEY, o se pidió --probar)")
         return
     filas, faltan = subir(cartas)

@@ -1,14 +1,18 @@
 {
-  "regla": "Una sola carta activa por cliente. La asigna Facu acá y entra a la app con el push (sync_cartas.py). Si existe <modulo>--<slug>, se asigna esa versión. 'siguiente' es la que va cuando la activa queda aprobada. Lo que se tachó antes de asignar se marca en la app como 'ya hecha antes'.",
+  "regla": "Una sola carta activa por cliente. La asigna Facu acá y entra a la app con el push (sync_cartas.py). Si existe <modulo>--<slug>, se asigna esa versión. 'siguiente' es la que va cuando la activa queda aprobada. Lo que se tachó antes de asignar se marca en la app como 'ya hecha antes'. Columnas confirmadas por Teo el 3/10. 'anterior' dice qué pasa con la activa vieja cuando cambia: 'pausada' (lo hace la base sola) o 'completada'. 'inicio' (AAAA-MM-DD) es el lunes de la semana 1; si no está, va el próximo lunes.",
   "activar": false,
   "columnas": {
     "cliente": "cliente_id",
     "carta": "carta_id",
     "estado": "estado",
+    "inicio": "inicio",
+    "asignada_por": "asignada_por",
     "activa": "activa",
-    "pausada": "pausada"
+    "proxima": "proxima",
+    "pausada": "pausada",
+    "completada": "completada"
   },
-  "actualizado": "2026-10-02",
+  "actualizado": "2026-10-03",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
@@ -93,5 +97,6 @@
       "sharon-palacio"
     ],
     "ingresos": "Ver contenido/ingresos.json: sin carta hasta la Clarity Call. Founder Insights es el formulario de onboarding, no una carta."
-  }
+  },
+  "anterior": "pausada"
 }
