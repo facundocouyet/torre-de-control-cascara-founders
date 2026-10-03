@@ -5,13 +5,13 @@
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
-      "ultimo": "2026-10-02",
-      "que": "Devolvió las respuestas de oferta e ICP en su canal.",
+      "ultimo": "2026-10-03",
+      "que": "3/10: devolvió el ICP; la oferta se le perdió y la rehace.",
       "proximo": null,
-      "paso": "Llamada con Franco para cerrar la oferta y la fecha del lanzamiento.",
+      "paso": "Rehacer la oferta y agendar Franco.",
       "carta": "Oferta e ICP, que tiene que devolver completas antes de Franco.",
       "pilar": "Oferta",
-      "pelota": "Franco"
+      "pelota": "cliente"
     },
     "bianca-antonini": {
       "ultimo": "2026-09-30",
