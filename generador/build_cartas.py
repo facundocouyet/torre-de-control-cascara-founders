@@ -24,6 +24,7 @@ es el encabezado.
 Se regenera con:  python3 build_cartas.py
 Fuentes: fichas/inventario.json y fichas/plantillas/<id>.json
 """
+import re
 import json, os, glob, html as _h
 
 INK="#171717"; DEEP="#0A0A0C"; PAPER="#ECEAE4"; PAPER2="#FBFAF8"
@@ -251,8 +252,17 @@ def _plural(n):
     return "La carta está hecha cuando estas %d cosas existen." % n
 
 
+def con_campo(html):
+    """La app arma el formulario leyendo data-campo: va con la misma clave que data-c."""
+    return re.sub(r'data-c="([^"]+)"', r'data-c="\1" data-campo="\1"', html)
+
+
 def campo(sec, i):
     """El lugar donde se escribe: texto largo, líneas cortas o tabla."""
+    return con_campo(_campo(sec, i))
+
+
+def _campo(sec, i):
     tipo = sec.get("campo", "texto")
     if tipo == "lineas":
         filas = "".join(
@@ -349,19 +359,22 @@ def construir(m, categoria, pl=None, bajada=None):
         i = s.get("cid", pos)
         # los bloques que escribimos nosotros: no llevan número ni cuentan como trabajo
         if s.get("nuestro"):
-            out.append('<div class="nuestro">')
+            if s.get("pregunta"):
+                out.append('<div class="nuestro" data-seccion="s%s" data-titulo="%s">' % (i, esc(s["pregunta"])))
+            else:
+                out.append('<div class="nuestro">')
             out.append('  <div class="et">Esto lo ponemos nosotros</div>')
             out.append('  <h2>%s</h2>' % esc(s["titulo"]))
             for par in (s.get("texto") or []):
                 out.append('  <p>%s</p>' % par)   # texto nuestro: el HTML va
             if s.get("pregunta"):
                 out.append('  <div class="devuelta"><div class="k">%s</div>' % esc(s["pregunta"]))
-                out.append('    <div class="campo"><textarea data-c="s%d" rows="3"></textarea></div>' % i)
+                out.append(con_campo('    <div class="campo"><textarea data-c="s%s" rows="3"></textarea></div>' % i))
                 out.append('  </div>')
             out.append('</div>')
             continue
         n += 1
-        out.append('<section class="trabajo">')
+        out.append('<section class="trabajo" data-seccion="s%s" data-titulo="%s">' % (i, esc(s["titulo"])))
         out.append('  <div class="n">%02d</div>' % n)
         out.append('  <h2>%s</h2>' % esc(s["titulo"]))
         out.append('  <p class="consigna">%s</p>' % s["consigna"])   # idem
