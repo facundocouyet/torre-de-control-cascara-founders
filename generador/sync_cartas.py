@@ -159,6 +159,15 @@ def asignar(ids):
         pedir("DELETE", "asignaciones?id=eq.%s" % urllib.parse.quote(str(fid)))
     hechas = sig = 0
     for slug, x in lista.items():
+        if x.get("cerrar"):
+            # sign off: la activa pasa a completada y se saca la próxima
+            cid = clientes.get(slug)
+            if cid:
+                for v in filas(cid, activa):
+                    pedir("PATCH", "asignaciones?id=eq.%s" % urllib.parse.quote(str(v["id"])), {c_est: completada})
+                for v in filas(cid, proxima): borrar(v["id"])
+                print("  cierra %s: activa a completada, sin próxima" % slug)
+            continue
         cod = x.get("activa")
         if not cod: continue
         cid = clientes.get(slug)
@@ -207,8 +216,12 @@ def main():
         if os.path.exists(p):
             a = leer(p); cods = {c["codigo"] for c in cartas}
             for slug, x in a.get("clientes", {}).items():
+                if x.get("cerrar"):
+                    print("   cierra %-22s → activa a completada, sin próxima" % slug); continue
                 cod = x.get("activa")
                 if not cod: continue
+                for par in x.get("en_paralelo") or []:
+                    print("   en paralelo %-16s → %s (no entra a la app: va por su canal)" % (slug, par))
                 usa = "%s--%s" % (cod, slug) if "%s--%s" % (cod, slug) in cods else cod
                 sg = x.get("siguiente") or ""
                 usa_s = ("%s--%s" % (sg, slug) if "%s--%s" % (sg, slug) in cods else sg) if sg else "-"

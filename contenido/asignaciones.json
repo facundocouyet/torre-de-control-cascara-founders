@@ -103,9 +103,13 @@
       "por_que": "Ya lanzaron: que manden las métricas del lanzamiento para que Franco las analice, y arrancar oferta e ICP (que está claro) para verlo con él."
     },
     "scarlett-montilla": {
-      "activa": "calendario-lanzamiento",
-      "siguiente": null,
-      "por_que": "Cierra el programa pero lanza el 30/10: grupo 9/10, eventos 16 y 23/10, taller 30/10."
+      "cerrar": true,
+      "por_que": "Sign off el 30/9: se cierra en la app."
+    },
+    "rosario-sola": {
+      "activa": "icp-mecanismo--rosario-sola",
+      "siguiente": "one-sheeter-oferta",
+      "por_que": "Ingresó el 29/9 y devolvió el pasaporte: el ICP va antes de Franco, el jueves 8/10 a las 10:00."
     }
   },
   "sin_carta": {
