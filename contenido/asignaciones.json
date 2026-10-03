@@ -45,9 +45,9 @@
       "por_que": "Le entran consultas y no hay proceso entre la consulta y el cierre."
     },
     "lola-berutti": {
-      "activa": "auditoria-proceso-comercial",
-      "siguiente": "calendario-lanzamiento",
-      "por_que": "Cerró la ventana con 6 ventas en 28 llamadas; la auditoría se escribe sobre esas llamadas antes del relanzamiento de enero con closer."
+      "activa": "dashboard-embudo",
+      "siguiente": "proceso-entrega-repetible",
+      "por_que": "Cerró el lanzamiento con 6 ventas: primero que deje escritos los números del lanzamiento, después ayudarla con el servicio y a cumplir los objetivos de su programa."
     },
     "lucio-labate": {
       "activa": "one-sheeter-oferta",
@@ -82,7 +82,7 @@
     "sofia-galvis": {
       "activa": "one-sheeter-oferta",
       "siguiente": "calendario-lanzamiento",
-      "por_que": "No devolvió oferta e ICP; extiende hasta el 31/10."
+      "por_que": "Esperamos que devuelva la oferta y el ICP para ir a Franco."
     },
     "sol-boutmy": {
       "activa": "contratar-primer-rol",
@@ -90,9 +90,10 @@
       "por_que": "El cuello es la entrega: sacarse la edición."
     },
     "the-momentum-club": {
-      "activa": "auditoria-del-programa",
+      "activa": "precio-escalera",
+      "anterior": "pausada",
       "siguiente": "auditoria-proceso-comercial",
-      "por_que": "Escalera de valor primero; después, que la venta pase por una llamada (hoy son cero)."
+      "por_que": "Ya lanzaron (webinar del 28/9): lo próximo es la oferta y la escalera con Franco, con sus números del lanzamiento."
     },
     "scarlett-montilla": {
       "activa": "calendario-lanzamiento",
