@@ -120,13 +120,13 @@
       }
     },
     "qualita": {
-      "ultimo": "2026-09-24",
-      "que": "Recibieron los tres documentos y los están completando.",
-      "proximo": "2026-10-06",
-      "paso": "Devuelven la Auditoría del proceso comercial.",
-      "carta": "Ángulos, Auditoría del proceso comercial y Funnel de servicio.",
+      "ultimo": "2026-10-02",
+      "que": "02/10: devolvieron las tres cartas (ángulos, auditoría comercial con llamada grabada, funnel y escalera). Pasaron a Slack.",
+      "proximo": null,
+      "paso": "Devolución nuestra y armar el lanzamiento de cuatro semanas.",
+      "carta": "Calendario de lanzamiento.",
       "pilar": "Venta",
-      "pelota": "cliente"
+      "pelota": "nosotros"
     },
     "the-momentum-club": {
       "ultimo": "2026-09-25",

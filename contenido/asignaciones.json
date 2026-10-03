@@ -64,9 +64,10 @@
       "por_que": "Devolvió la oferta completa el 30/9; falta el ICP para ir a Franco. Extiende hasta el 31/10."
     },
     "qualita": {
-      "activa": "auditoria-proceso-comercial",
-      "siguiente": "funnel-de-servicio",
-      "por_que": "Ya tienen los ángulos; falta que devuelvan la auditoría."
+      "activa": "calendario-lanzamiento",
+      "anterior": "completada",
+      "siguiente": "calendario-contenido",
+      "por_que": "Devolvieron ángulos, auditoría comercial y funnel el 2/10; sigue el lanzamiento de cuatro semanas."
     },
     "sebastian": {
       "activa": "precio-escalera",
