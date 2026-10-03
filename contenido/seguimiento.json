@@ -6,12 +6,12 @@
   "clientes": {
     "sofia-galvis": {
       "ultimo": "2026-10-03",
-      "que": "3/10: devolvió el ICP; la oferta se le perdió y la rehace.",
+      "que": "3/10: devolvió oferta e ICP por Slack.",
       "proximo": null,
-      "paso": "Rehacer la oferta y agendar Franco.",
+      "paso": "Agendar Franco con las dos cartas y arrancar los ángulos.",
       "carta": "Oferta e ICP, que tiene que devolver completas antes de Franco.",
       "pilar": "Oferta",
-      "pelota": "cliente"
+      "pelota": "Franco"
     },
     "bianca-antonini": {
       "ultimo": "2026-09-30",
