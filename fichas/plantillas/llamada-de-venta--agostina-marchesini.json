@@ -1,0 +1,47 @@
+{
+  "modulo": "llamada-de-venta",
+  "slug": "agostina-marchesini",
+  "founder": "Agostina Marchesini",
+  "bajada": "La guía de tus llamadas de venta, de la primera charla al cierre, y la hoja para registrar cada una. Ya te están consultando: el trabajo de esta carta es que esas consultas se conviertan en ventas.",
+  "lista_cuando": "Hiciste cinco llamadas siguiendo la guía, con el precio dicho en voz alta, cada una grabada y con su objeción anotada.",
+  "bajada_envio": {
+    "founder": "Agostina Marchesini",
+    "porque": "Ya hay arquitectos consultándote y ya estás en llamadas. Esta guía ordena la llamada para que termine en una decisión.",
+    "objetivo": "Que las consultas que ya tenés se conviertan en los 2 lugares del lanzamiento de noviembre.",
+    "mindset": "En la llamada vos guiás. Escuchás más de lo que hablás, decís el precio tranquila y dejás el silencio."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "La llamada, de punta a punta",
+      "texto": [
+        "Una llamada de 30 a 45 minutos en seis partes. Tenela abierta al lado mientras hablás.",
+        "<b>1 · Rapport (2 a 3 minutos).</b> Saludo, cómo está, algo real de su trabajo: una obra que viste, su estudio, cómo llegó a vos. Breve y cálido. Con eso ya marcás el tono: sos una colega que sabe del tema.",
+        "<b>2 · Encuadre (1 minuto).</b> Contale cómo van a usar el tiempo: «Primero quiero entender dónde estás y qué buscás. Si veo que puedo ayudarte, te muestro cómo trabajo. Y si tiene sentido, vemos cómo arrancar. Si no tiene sentido, te lo digo y te cuento qué haría yo en tu lugar. ¿Te parece?». Ese encuadre le baja la guardia: sabe que no le vas a tirar una presentación.",
+        "<b>3 · Diagnóstico (15 a 20 minutos), la parte más importante.</b> Preguntás y anotás las frases textuales. «¿Qué querés lograr en los próximos tres meses?» Si contesta algo general, bajalo: «¿En qué parte sentís que está el mayor lío hoy?». Después: «¿Qué estás haciendo hoy para llegar ahí?», «¿Desde cuándo está así?», «¿Qué creés que te falta?», «Si seguís igual, ¿dónde estás en seis meses?» y «¿Qué te cuesta eso, en plata y en energía?». Cerrá con la imagen resuelta: «Imaginá que en tres meses esto está ordenado. ¿Qué cambia en tu día?».",
+        "<b>4 · Tu caso (2 minutos).</b> Contá en corto de dónde venís y qué cambió en tu estudio o en un arquitecto con el que trabajaste. Elegí el ejemplo más parecido a lo que te acaba de contar.",
+        "<b>5 · La propuesta (5 minutos).</b> Repetí su objetivo y su dolor con sus palabras, y mostrale cómo los resuelve la consultoría. Una sola opción. Decís el precio una vez, tranquila, y te quedás en silencio hasta que hable.",
+        "<b>6 · Cierre.</b> «¿Qué preguntas tenés?» y respondés con lo que te dijo en el diagnóstico. Si dice que sí: cupos, seña y link en la misma llamada, y le contás qué pasa en las próximas 48 horas."
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Las objeciones que más van a aparecer",
+      "texto": [
+        "<b>«No tengo la plata ahora».</b> «Te entiendo. Por eso te pregunto: ¿cuánto te cuesta por mes seguir como estás? La pregunta es qué te cuesta no resolverlo.»",
+        "<b>«Lo tengo que pensar».</b> «Claro. ¿Qué parte puntual te queda por evaluar? Si es algo que no quedó claro, prefiero resolverlo ahora.» Casi siempre hay otra objeción atrás: buscala.",
+        "<b>«No tengo tiempo».</b> «La falta de tiempo suele ser el mismo problema que queremos resolver. ¿Cuándo sería el momento?»",
+        "<b>«Ya probé con otros cursos».</b> «¿Qué fue lo que no te funcionó?» Escuchá y mostrale qué cambia en la forma en que trabajás vos."
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Si hoy no cierra",
+      "texto": [
+        "Repetí el dolor con sus palabras, dejá la puerta abierta y mandale algo concreto en las 24 horas. Sin insistir: alguien que se va bien vuelve. Anotá la objeción textual en la planilla de abajo.",
+        "<b>Las reglas:</b> el precio se sostiene, sin descuentos. Si no ve el valor, el ajuste va en el diagnóstico. Si no hay fit, no se cierra."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

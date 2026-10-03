@@ -1,0 +1,36 @@
+{
+  "modulo": "one-sheeter-oferta",
+  "slug": "agostina-marchesini",
+  "founder": "Agostina Marchesini",
+  "bajada": "La consultoría para arquitectos escrita en una hoja: para quién es, qué se lleva, en cuánto tiempo, cuánto paga y cuándo arranca. Es lo primero, porque ya te están consultando y cada llamada necesita una oferta escrita atrás.",
+  "lista_cuando": "Le mandás la hoja a un arquitecto que nunca te vio y entiende qué se lleva, en cuánto tiempo, cuánto paga y cuándo arranca.",
+  "bajada_envio": {
+    "founder": "Agostina Marchesini",
+    "porque": "Ya hay arquitectos consultándote y ya estás en llamadas de venta. La oferta tiene que estar escrita para que cada llamada termine con un precio y una fecha.",
+    "objetivo": "La consultoría escrita en una carilla, con un precio, la cantidad de lugares y la fecha de arranque del primer grupo.",
+    "mindset": "Escribila con lo que ya sabés hacer y con lo que te preguntan en las llamadas. Las preguntas que te hacen son tu mejor materia prima."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está definido",
+      "texto": [
+        "<b>El negocio va por dos lados.</b> El estudio de arquitectura, con los clientes que te eligen por tu criterio, y una consultoría para arquitectos que se vende con tu marca personal. Esta hoja es para la consultoría.",
+        "<b>El calendario.</b> Un lanzamiento en noviembre con 2 lugares y un relanzamiento en febrero con 5.",
+        "<b>Lo que pasa hoy.</b> Ya hay arquitectos consultando por tu servicio y ya estás teniendo llamadas de venta."
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "El orden de las próximas semanas",
+      "texto": [
+        "<b>1. Esta hoja:</b> la oferta escrita.",
+        "<b>2. La carta de cliente ideal y dolores:</b> a quién le hablás y qué le duele, con sus palabras.",
+        "<b>3. La fecha del lanzamiento</b>, con el calendario de cuatro semanas.",
+        "<b>4. El producto:</b> cómo se entrega la consultoría. Para eso vamos a necesitar que nos muestres tus ideas.",
+        "<b>En paralelo, desde ya:</b> la guía de la llamada de venta, para que cada consulta que entra termine en una venta."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

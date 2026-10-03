@@ -1,0 +1,24 @@
+{
+  "modulo": "funnel-de-servicio",
+  "slug": "agostina-marchesini",
+  "founder": "Agostina Marchesini",
+  "bajada": "Cómo se entrega la consultoría: cómo arranca un arquitecto, qué se lleva, en qué orden y qué viene después. Arranca por tus ideas, que son la base del producto.",
+  "lista_cuando": "Tus ideas de producto están escritas y el recorrido del cliente tiene principio, entrega y final.",
+  "bajada_envio": {
+    "founder": "Agostina Marchesini",
+    "porque": "La oferta, el cliente ideal y la fecha ya están. Ahora se arma el producto, y para eso necesitamos ver tus ideas.",
+    "objetivo": "Tus ideas de producto escritas y ordenadas en un recorrido que se pueda entregar a los 2 lugares de noviembre.",
+    "mindset": "Volcá todo lo que tenés en la cabeza, sin filtrar. Después lo ordenamos juntos."
+  },
+  "bloques_inicio": [
+    {
+      "titulo": "Tus ideas de producto, sin filtro",
+      "consigna": "Todo lo que se te ocurre que tiene que tener la consultoría: temas, sesiones, herramientas, plantillas, ejemplos de tu estudio, formatos (en vivo, grabado, uno a uno). Una idea por renglón, sin ordenarlas.",
+      "campo": "texto",
+      "alto": 8,
+      "placeholder": "Una idea por renglón.",
+      "cid": 50
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

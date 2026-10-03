@@ -1,0 +1,24 @@
+{
+  "modulo": "icp-mecanismo",
+  "slug": "agostina-marchesini",
+  "founder": "Agostina Marchesini",
+  "bajada": "A qué arquitecto le hablás, qué le duele con sus propias palabras y por qué te elige a vos. Sale de las consultas y las llamadas que ya estás teniendo.",
+  "lista_cuando": "Tenés el cliente ideal en una frase y cinco dolores escritos tal como te los dijeron en las llamadas.",
+  "bajada_envio": {
+    "founder": "Agostina Marchesini",
+    "porque": "La oferta ya está escrita. Ahora hay que saber a quién le habla y qué le duele, para que el lanzamiento use las palabras de tus clientes.",
+    "objetivo": "El cliente ideal en una frase y los dolores escritos con sus palabras, sacados de las consultas y las llamadas de venta.",
+    "mindset": "Cada llamada de venta es una entrevista. Anotá las frases textuales: son el copy del lanzamiento."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "De dónde sale esta hoja",
+      "texto": [
+        "De las consultas que te están entrando y de las llamadas de venta que ya tuviste. Antes de completar, juntá los mensajes y las notas de cada una.",
+        "Con esto escrito ponemos la fecha del lanzamiento de noviembre."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

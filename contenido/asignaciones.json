@@ -21,8 +21,13 @@
     },
     "agostina-marchesini": {
       "activa": "one-sheeter-oferta",
-      "siguiente": "calendario-lanzamiento",
-      "por_que": "La oferta y el ICP siguen sin escribir; su versión sale de la reunión de oferta e ICP del lanzamiento de noviembre."
+      "siguiente": "icp-mecanismo",
+      "despues": [
+        "calendario-lanzamiento",
+        "funnel-de-servicio"
+      ],
+      "en_paralelo": "llamada-de-venta",
+      "por_que": "Reunión con Facu: ya tiene arquitectos consultando y está en llamadas de venta. Orden: oferta, ICP y dolores, fecha del lanzamiento y después el producto con sus ideas. La guía de llamada de venta va ya, en paralelo."
     },
     "bianca-antonini": {
       "activa": "calendario-lanzamiento",
