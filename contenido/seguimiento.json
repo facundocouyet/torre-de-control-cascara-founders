@@ -108,16 +108,12 @@
     },
     "lola-berutti": {
       "ultimo": "2026-09-30",
-      "que": "Grupal con Juana; hoy 1/10 cierra la ventana de venta.",
-      "proximo": "2026-10-01",
-      "paso": "Cierra la ventana de venta, a las 23:59.",
+      "que": "30/09: cerró El Salto con 6 ventas a USD 1.500 en 28 llamadas (objetivo 10).",
+      "proximo": null,
+      "paso": "Franco le baja el proceso del relanzamiento de enero, con closer.",
       "carta": null,
       "pilar": "Venta",
-      "pelota": "cliente",
-      "plata": {
-        "fecha": "2026-10-01",
-        "que": "Cierra la ventana de venta del programa de PMs: lleva 3 ventas y tiene 10 llamadas el 27/9."
-      }
+      "pelota": "Franco"
     },
     "qualita": {
       "ultimo": "2026-10-02",

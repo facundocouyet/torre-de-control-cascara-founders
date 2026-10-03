@@ -45,9 +45,9 @@
       "por_que": "Le entran consultas y no hay proceso entre la consulta y el cierre."
     },
     "lola-berutti": {
-      "activa": null,
-      "siguiente": "auditoria-proceso-comercial",
-      "por_que": "Espera el número de ventas de la ventana que cerró el 1/10 para escribirla sobre sus llamadas reales."
+      "activa": "auditoria-proceso-comercial",
+      "siguiente": "calendario-lanzamiento",
+      "por_que": "Cerró la ventana con 6 ventas en 28 llamadas; la auditoría se escribe sobre esas llamadas antes del relanzamiento de enero con closer."
     },
     "lucio-labate": {
       "activa": "one-sheeter-oferta",
