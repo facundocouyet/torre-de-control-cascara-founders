@@ -220,7 +220,8 @@ def main():
                     print("   cierra %-22s → activa a completada, sin próxima" % slug); continue
                 cod = x.get("activa")
                 if not cod: continue
-                for par in x.get("en_paralelo") or []:
+                pars = x.get("en_paralelo") or []
+                for par in ([pars] if isinstance(pars, str) else pars):
                     print("   en paralelo %-16s → %s (no entra a la app: va por su canal)" % (slug, par))
                 usa = "%s--%s" % (cod, slug) if "%s--%s" % (cod, slug) in cods else cod
                 sg = x.get("siguiente") or ""
