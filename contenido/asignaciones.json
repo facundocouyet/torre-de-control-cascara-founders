@@ -55,9 +55,13 @@
       "por_que": "Oferta nueva con Franco el 30/9: Lanzamiento de marca, 6 semanas, USD 1.800."
     },
     "matias-morales": {
-      "activa": "one-sheeter-oferta",
-      "siguiente": "proceso-entrega-repetible",
-      "por_que": "No devolvió oferta, ICP ni ángulos; extiende hasta el 31/10."
+      "activa": "icp-mecanismo",
+      "anterior": "completada",
+      "siguiente": "angulos-desde-icp",
+      "despues": [
+        "proceso-entrega-repetible"
+      ],
+      "por_que": "Devolvió la oferta completa el 30/9; falta el ICP para ir a Franco. Extiende hasta el 31/10."
     },
     "qualita": {
       "activa": "auditoria-proceso-comercial",
