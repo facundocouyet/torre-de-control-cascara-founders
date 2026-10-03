@@ -48,9 +48,9 @@
       "por_que": "Vende bien y cierra en 24 h; le falta escribir la oferta y ordenar la entrega, que hoy le cuesta plata (regala la edición)."
     },
     "lola-berutti": {
-      "activa": "dashboard-embudo",
+      "activa": "resultados-lanzamiento",
       "siguiente": "proceso-entrega-repetible",
-      "por_que": "Cerró el lanzamiento con 6 ventas: primero que deje escritos los números del lanzamiento, después ayudarla con el servicio y a cumplir los objetivos de su programa."
+      "por_que": "Cerró El Salto con 6 ventas en 28 llamadas: primero el formulario con los números del lanzamiento para Franco, después el servicio y los objetivos del programa."
     },
     "lucio-labate": {
       "activa": "one-sheeter-oferta",
@@ -94,14 +94,14 @@
       "por_que": "El cuello es la entrega: sacarse la edición."
     },
     "the-momentum-club": {
-      "activa": "dashboard-embudo",
+      "activa": "resultados-lanzamiento",
       "anterior": "pausada",
       "en_paralelo": [
         "one-sheeter-oferta",
         "icp-mecanismo--the-momentum-club"
       ],
       "siguiente": "precio-escalera",
-      "por_que": "Ya lanzaron: que manden las métricas del lanzamiento para que Franco las analice, y arrancar oferta e ICP (que está claro) para verlo con él."
+      "por_que": "Ya lanzaron: el formulario con los números del webinar para que Franco los analice; en cola, oferta e ICP para verlo con él."
     },
     "scarlett-montilla": {
       "cerrar": true,

@@ -187,15 +187,19 @@ def asignar(ids):
             pedir("POST", "asignaciones", {c_cli: cid, c_car: carta, c_est: activa,
                                            c_ini: lunes_semana_1(a, x), c_por: None})
             hechas += 1
-        # la siguiente: una sola fila 'proxima' por cliente
-        cod_s = x.get("siguiente")
-        carta_s = carta_de(cod_s, slug) if cod_s else None
-        if cod_s and not carta_s:
-            print("  ojo: la carta siguiente %s no existe para %s" % (cod_s, slug))
+        # la cola: siguiente, después las paralelas y después las de "despues", todas como 'proxima'
+        def lista_de(v): return [v] if isinstance(v, str) else list(v or [])
+        cola = []
+        for cod_s in lista_de(x.get("siguiente")) + lista_de(x.get("en_paralelo")) + lista_de(x.get("despues")):
+            carta_s = carta_de(cod_s, slug)
+            if not carta_s:
+                print("  ojo: la carta %s de la cola no existe para %s" % (cod_s, slug)); continue
+            if str(carta_s) not in cola and str(carta_s) != str(carta): cola.append(str(carta_s))
         prox = filas(cid, proxima)
-        if carta_s and any(str(v.get(c_car)) == str(carta_s) for v in prox): continue
+        ya = [str(v.get(c_car)) for v in prox]
+        if ya == cola: continue
         for v in prox: borrar(v["id"])
-        if carta_s:
+        for carta_s in cola:
             pedir("POST", "asignaciones", {c_cli: cid, c_car: carta_s, c_est: proxima, c_por: None})
             sig += 1
     print("→ asignaciones: %d activas nuevas o cambiadas, %d siguientes" % (hechas, sig))
@@ -222,7 +226,7 @@ def main():
                 if not cod: continue
                 pars = x.get("en_paralelo") or []
                 for par in ([pars] if isinstance(pars, str) else pars):
-                    print("   en paralelo %-16s → %s (no entra a la app: va por su canal)" % (slug, par))
+                    print("   en cola     %-16s → %s (proxima)" % (slug, par))
                 usa = "%s--%s" % (cod, slug) if "%s--%s" % (cod, slug) in cods else cod
                 sg = x.get("siguiente") or ""
                 usa_s = ("%s--%s" % (sg, slug) if "%s--%s" % (sg, slug) in cods else sg) if sg else "-"

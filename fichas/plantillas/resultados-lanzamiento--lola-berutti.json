@@ -1,0 +1,129 @@
+{
+  "modulo": "resultados-lanzamiento",
+  "titulo": "La hoja de los resultados del lanzamiento",
+  "bajada": "Todo lo que pasó en el lanzamiento contado con números: cuánta gente entró, cuánta llegó a la llamada, cuántos compraron y por qué. Es lo que Franco necesita para analizarlo y armar el próximo sin adivinar.",
+  "lista_cuando": "Están todos los números con su fuente, las llamadas anotadas una por una y las grabaciones linkeadas. Con eso Franco lo analiza sin tener que preguntarte nada.",
+  "secciones": [
+    {
+      "titulo": "El formato y las fechas",
+      "consigna": "Cómo fue el lanzamiento, tal cual pasó. Si algo cambió en el camino, poné lo que finalmente hiciste y al lado lo que tenías planeado.",
+      "campo": "lineas",
+      "lineas": [
+        "Formato (webinar, workshop, bootcamp, otro)",
+        "Fecha y hora del evento",
+        "Cuándo abriste y cuándo cerraste el carrito",
+        "Cuántas plazas abriste",
+        "Precio y formas de pago que ofreciste"
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "Los números del embudo",
+      "consigna": "Un número por paso, con la fuente de donde lo sacaste: el grupo de WhatsApp, la plataforma del evento, la agenda, el sistema de cobro. Los ceros se escriben. Si un dato no lo tenés, escribí «no lo medí»: también es información.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Veintiocho llamadas, seis ventas a 1.500 con seña de 400, cuatro que lo hacen el año que viene y unos diez que no calificaban. Con esos cuatro números ya se ve dónde está el próximo salto."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Paso",
+        "Cantidad",
+        "De dónde sale el dato"
+      ],
+      "filas": 8,
+      "filas_rotulo": [
+        "Inscriptos o leads",
+        "Asistentes en vivo",
+        "Vieron la grabación",
+        "Llamadas agendadas",
+        "Llamadas tomadas",
+        "Ventas cerradas",
+        "Pagadas completas",
+        "Con seña o en cuotas"
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "De dónde vino la gente",
+      "consigna": "Por qué canal llegó cada inscripto: historias, reels, pauta, comunidad, email, referidos. Si no lo sabés con exactitud, poné la mejor estimación y aclaralo.",
+      "campo": "tabla",
+      "columnas": [
+        "Canal",
+        "Inscriptos",
+        "Llamadas",
+        "Ventas"
+      ],
+      "filas": 5,
+      "cid": 2
+    },
+    {
+      "titulo": "Las llamadas, una por una",
+      "consigna": "Cada llamada de venta en una fila: quién era, cómo llegó, si cerró y por qué sí o por qué no, con sus palabras. Es la parte que más le sirve a Franco y la que peor se reconstruye de memoria: sacalo de las grabaciones o de tus notas.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Cómo llegó",
+        "¿Cerró?",
+        "Precio y forma de pago",
+        "Por qué compró o por qué no"
+      ],
+      "filas": 12,
+      "cid": 3
+    },
+    {
+      "titulo": "Las objeciones que se repitieron",
+      "consigna": "Las tres o cuatro frases que escuchaste más de una vez, textuales, y qué contestaste. De acá salen las piezas del próximo lanzamiento.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "«…» — contesté…",
+      "cid": 4
+    },
+    {
+      "titulo": "Por qué compraron los que compraron",
+      "consigna": "El detalle de la oferta o de la llamada que hizo que digan que sí. No lo que creés que vale tu programa: lo que ellos dijeron cuando decidieron.",
+      "campo": "texto",
+      "alto": 4,
+      "cid": 5
+    },
+    {
+      "titulo": "La plata",
+      "consigna": "Lo facturado y lo cobrado no son lo mismo: escribí los dos. Y lo que te costó, contando tus horas.",
+      "campo": "lineas",
+      "lineas": [
+        "Facturado total",
+        "Cobrado a hoy",
+        "Por cobrar en cuotas",
+        "Gasto en pauta",
+        "Horas que le pusiste (preparación, evento y llamadas)"
+      ],
+      "cid": 6
+    },
+    {
+      "titulo": "Lo que harías distinto",
+      "consigna": "Tres cosas, en orden de importancia. Una por renglón, concretas: no «comunicar mejor», sino qué cambiarías y en qué paso.",
+      "campo": "texto",
+      "alto": 4,
+      "cid": 7
+    },
+    {
+      "titulo": "Las grabaciones y los materiales",
+      "consigna": "Los links que Franco necesita para verlo por su cuenta. Si una grabación vence, bajala antes de que se pierda.",
+      "campo": "lineas",
+      "lineas": [
+        "Grabación del evento",
+        "Llamadas de venta grabadas o transcriptas",
+        "La presentación que usaste",
+        "Los mensajes al grupo y las historias del cierre"
+      ],
+      "cid": 8
+    }
+  ],
+  "slug": "lola-berutti",
+  "founder": "Lola Berutti",
+  "bajada_envio": {
+    "porque": "Cerraste El Salto con 6 ventas en 28 llamadas, en tu primer lanzamiento y tomando todas las llamadas sola. Antes de pensar en enero hay que dejar escrito qué pasó, con números, para que Franco lo analice y el próximo salga con closer y con 15 a 20 alumnos.",
+    "objetivo": "Los números del lanzamiento de El Salto completos, las 28 llamadas anotadas y lo que dijeron los que no compraron.",
+    "mindset": "Hacelo ahora, mientras te acordás de cada llamada. Lo que escribas acá es la base del relanzamiento de enero.",
+    "founder": "Lola Berutti"
+  }
+}
