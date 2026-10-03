@@ -65,9 +65,15 @@
       "por_que": "Ya tienen los ángulos; falta que devuelvan la auditoría."
     },
     "sebastian": {
-      "activa": "one-sheeter-oferta",
+      "activa": "precio-escalera",
       "siguiente": "calendario-lanzamiento",
-      "por_que": "ICP y ángulos hechos; la oferta tiene números desde el 16/9 y falta escrita con precio y fecha."
+      "en_paralelo": [
+        "funnel-de-servicio",
+        "auditoria-proceso-comercial",
+        "contratar-primer-rol",
+        "handraisers-historias"
+      ],
+      "por_que": "1:1 con Facu del 2/10: el one-sheeter está listo; ahora la escalera con el done for you arriba, el backend del cohort, el proceso comercial, el editor y las historias. Sprint al 10/10 y calendario de lanzamiento para vender del 10 al 15/11."
     },
     "sofia-galvis": {
       "activa": "one-sheeter-oferta",

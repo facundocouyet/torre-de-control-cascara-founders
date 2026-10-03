@@ -1,0 +1,34 @@
+{
+  "modulo": "precio-escalera",
+  "slug": "sebastian",
+  "founder": "Sebastián Martínez",
+  "bajada": "Tus ofertas acomodadas en una sola escalera: el cohort en el medio y la dirección creativa arriba. Así sabés qué ofrecerle a cada persona que te escribe y lo contás siempre igual.",
+  "lista_cuando": "Cada nivel tiene precio, para quién es y cuándo se ofrece, y el done for you queda escrito como el escalón de arriba del cohort.",
+  "bajada_envio": {
+    "founder": "Sebastián Martínez",
+    "porque": "Ya vendiste el done for you sin salir a buscarlo y te están llegando más. Eso es una señal de que la escalera tiene que quedar encajada ahora, antes del lanzamiento.",
+    "objetivo": "La escalera escrita, con el cohort de 8 semanas como oferta principal y la dirección creativa arriba, para que ningún lead nuevo te haga dudar de la oferta.",
+    "mindset": "Las ofertas ya están listas. Esta hoja las ordena, no las vuelve a abrir."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está definido",
+      "texto": [
+        "<b>La oferta principal: el cohort de 8 semanas.</b> Tres pilares (identidad, sistema y monetización), una grupal semanal, de 12 a 15 lugares y una entrada de 997 a 1.200 dólares para el primer grupo (Franco, 16/9). El one-sheeter ya está claro.",
+        "<b>Para quién (2/10):</b> creativos que viven de sus servicios y quieren vender su estrategia y su criterio, no solo entregables: social media managers, community managers, project managers, editores, gente que trabaja en marketing. Sale «técnico».",
+        "<b>Arriba: dirección creativa + sistema de contenido.</b> La armaste el 23/9 en dos formas: dirección (el equipo del cliente graba y edita, vos definís y aprobás) y producción completa (jornadas semanales, edición y carruseles). Ya la vendiste: un infoproductor fitness, USD 1.900 por mes con dos jornadas de grabación.",
+        "<b>Cómo se cuenta (2/10):</b> el done for you es un puente hasta el lanzamiento y queda como el escalón de arriba del cohort. Se vende la estrategia y el criterio; la producción entra solo si se paga lo que vale y la podés delegar."
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Lo que esta hoja tiene que resolver",
+      "texto": [
+        "Dónde entra cada lead que te está llegando. Por ejemplo, el asesor de talleres mecánicos con dos filmmakers: los filmmakers pueden ser alumnos del cohort, y lo que él pide ahora y personalizado es el escalón de arriba.",
+        "Pasá por Slack la oferta del done for you que cerraste, así la encajamos en esta escalera."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

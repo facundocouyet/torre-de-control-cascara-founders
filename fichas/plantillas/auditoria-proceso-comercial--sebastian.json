@@ -1,0 +1,25 @@
+{
+  "modulo": "auditoria-proceso-comercial",
+  "slug": "sebastian",
+  "founder": "Sebastián Martínez",
+  "bajada": "El camino de las consultas que ya te llegan, desde que alguien te escribe hasta la llamada: a quién llevás a llamada, a quién calificás y a quién descalificás.",
+  "lista_cuando": "Están escritas tus últimas consultas reales, el camino de cada una y el criterio de a quién llevás a llamada y por qué.",
+  "bajada_envio": {
+    "founder": "Sebastián Martínez",
+    "porque": "Ya tenés la oferta y te escriben sin que salgas a buscar. Lo siguiente es ordenar qué hacés con cada consulta antes de abrir el lanzamiento.",
+    "objetivo": "El proceso comercial escrito sobre tus consultas reales, listo para practicar cómo se lleva una consulta a llamada.",
+    "mindset": "Tus consultas te muestran tu cliente. Escribilas como llegaron, con sus palabras."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya sabemos de tus consultas",
+      "texto": [
+        "<b>Te preguntan mucho cómo grabaste, qué cámara usaste.</b> Facu, el 2/10: «Yo no veo que esté mal ese ICP», porque esa persona está tratando de aprender contenido. Si te dice que es filmmaker o quiere serlo, es cliente para el cohort: lo que le podés enseñar es a vender sus servicios.",
+        "<b>Te llegan pedidos de done for you sin buscarlos:</b> el cliente fitness que cerraste, otro prospecto y el asesor de talleres mecánicos del 3/10. Ese camino va al escalón de arriba de tu escalera.",
+        "<b>Lo que vamos a practicar:</b> cómo llevás cada consulta a una llamada, por qué, y a quién calificás y descalificás."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

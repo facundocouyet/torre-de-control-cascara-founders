@@ -1,0 +1,25 @@
+{
+  "modulo": "handraisers-historias",
+  "slug": "sebastian",
+  "founder": "Sebastián Martínez",
+  "bajada": "El calendario de historias que acompaña el video de tu historia: qué decís cada día y con qué llamado a la acción la gente levanta la mano.",
+  "lista_cuando": "La secuencia está escrita placa por placa, tiene un llamado a la acción con ManyChat y un registro de quién levantó la mano.",
+  "bajada_envio": {
+    "founder": "Sebastián Martínez",
+    "porque": "El video de tu historia ya está editado y con feedback de Fede. Las historias son las que llevan a la gente hasta ahí y te dejan anotados a los interesados.",
+    "objetivo": "La secuencia de historias con su llamado a la acción, lista para salir junto con el video.",
+    "mindset": "Estás en la primera etapa: que la gente sepa quién sos, de dónde venís y qué pensás. Todavía no vendés: juntás manos."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está definido",
+      "texto": [
+        "<b>El orden (2/10):</b> primero tu historia; la charla sobre monetizar tu creatividad queda para más cerca del lanzamiento.",
+        "<b>El ritmo:</b> un video largo de YouTube por semana, o cada quince días. De cada largo sale un teaser que lo anuncia y después recortes que llevan al largo con ManyChat. Fede pidió al menos tres recortes de cada video.",
+        "<b>Lo que falta para salir:</b> un lugar donde quede guardado el contacto de quien levanta la mano. Hasta que haya landing, el registro de esta hoja y ManyChat hacen ese trabajo."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

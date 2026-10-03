@@ -1,0 +1,25 @@
+{
+  "modulo": "funnel-de-servicio",
+  "slug": "sebastian",
+  "founder": "Sebastián Martínez",
+  "bajada": "Lo que pasa con un alumno adentro de las 8 semanas: cómo arranca, qué hace cada semana, cómo sabés si avanza y qué le ofrecés cuando termina. Es el backend del cohort.",
+  "lista_cuando": "El recorrido del alumno tiene principio y final, cada desafío tiene su formulario y hay una forma de ver de un vistazo cómo viene cada uno.",
+  "bajada_envio": {
+    "founder": "Sebastián Martínez",
+    "porque": "Una cosa es la oferta y lo que enseñás en las 8 semanas; otra es cómo controlás el avance de cada alumno. Eso tiene que estar armado antes de vender.",
+    "objetivo": "El client journey del cohort escrito, con los desafíos conectados a formularios y un semáforo de avance por alumno.",
+    "mindset": "No hace falta que salga perfecto: se itera cuando la rueda arranque. Lo importante es que la información de cada alumno entre ordenada desde el día uno."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está definido",
+      "texto": [
+        "<b>18/9, con Facu:</b> la promesa, la estructura del cohort, un onboarding de 48 horas y los formularios de entrada y de salida para documentar el punto A de cada alumno.",
+        "<b>2/10, con Facu:</b> los desafíos que planteaste tienen que estar conectados con formularios, para entender cómo se va construyendo cada persona y tener un semáforo claro del avance de cada uno.",
+        "<b>Para qué sirve todo esto ordenado:</b> con el ICP, la oferta, la escalera, el proceso comercial y este funnel bien escritos, la IA te ayuda a administrar a tus alumnos con información viva: los formularios, las métricas de Instagram y lo que sale de las llamadas."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}

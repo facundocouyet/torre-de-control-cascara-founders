@@ -1,0 +1,27 @@
+{
+  "modulo": "contratar-primer-rol",
+  "slug": "sebastian",
+  "founder": "Sebastián Martínez",
+  "bajada": "Tu editor, buscado con un formulario que filtra, una prueba paga y un brief tan detallado que no tenga que improvisar.",
+  "lista_cuando": "El rol está escrito, el formulario publicado, hay una prueba paga hecha y el brief de edición existe.",
+  "bajada_envio": {
+    "founder": "Sebastián Martínez",
+    "porque": "Para sostener tu contenido y el del cliente done for you necesitás editor ya, y la publicación en Connect Wall no trajo postulaciones.",
+    "objetivo": "Un editor probado con una prueba paga, trabajando con tu brief.",
+    "mindset": "El que no quiere hacer una prueba no es tu editor. Y un buen editor rinde cuando le bajás el detalle: transiciones, sonidos, música y color."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que hablamos el 2/10",
+      "texto": [
+        "<b>El formulario está armado en Notion para duplicar</b> (el link está más abajo, en esta misma hoja). Usalo como te sirva.",
+        "<b>Probá a los editores antes de meterlos en un cliente.</b> La prueba se paga, y el que no quiere trabajar con una prueba muestra cero proactividad.",
+        "<b>El brief es lo que hace que funcione:</b> ejemplos de transiciones, sonidos, músicas y color grading. Lo que vos ya armaste con IA para el cliente fitness es la base.",
+        "<b>Tu filtro es alto, y está bien:</b> pasar de Log a Rec.709 y que se vea decente. Pedilo en la prueba en lugar de en el formulario, así no espantás a los que pueden aprender.",
+        "<b>Para más adelante:</b> un talent hunt, una semana de comunicación con un desafío para editores y diseñadores. Además de traer creativos, te arma audiencia para el cohort."
+      ]
+    }
+  ],
+  "estado_galeria": "aprobada"
+}
