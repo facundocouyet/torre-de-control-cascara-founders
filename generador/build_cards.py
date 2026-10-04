@@ -18,7 +18,7 @@ DUENOS=[
   "así que son las que más se tocan cuando un founder no vende.",
   ["icp-mecanismo","one-sheeter-oferta","precio-escalera","cinco-llamadas-con-precio",
    "auditoria-proceso-comercial","funnel-de-servicio","pipeline-7-campos","prospeccion-y-recontacto","llamada-de-venta","propuesta-comercial","setter-closer",
-   "handraisers-historias","calendario-lanzamiento","webinar-de-venta"]),
+   "handraisers-historias","calendario-lanzamiento","webinar-de-venta","resultados-lanzamiento"]),
  ("fede","Fede","Contenido y estrategia",
   "Perfil, ángulos, calendario y volumen. Son las que hacen que el founder tenga de dónde agarrarse "
   "para publicar sin improvisar cada semana.",
