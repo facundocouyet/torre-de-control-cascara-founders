@@ -6,7 +6,7 @@
   "secciones": [
     {
       "titulo": "Cuánto te cuesta entregarlo una vez",
-      "consigna": "Listá todo lo que se consume en entregar un cliente completo: tus horas, las horas del equipo, herramientas, producción y traslados. Tus horas se cuentan con un valor por hora puesto, incluso cuando no te las pagás. La cuenta se hace sobre un cliente real que ya entregaste, no sobre el cliente promedio.",
+      "consigna": "Listá lo que se consume en entregar un cliente completo: equipo, herramientas, producción, traslados, y lo que te llevás vos. No hace falta medirlo en horas: poné cuánto cuesta cada cosa, con lo que ya sabés. Si la oferta todavía se está armando, completá lo que tengas y el resto lo cerramos con Franco.",
       "ejemplo": {
         "quien": "Sol Boutmy",
         "texto": "Con seis clientes fijos cobrando entre seiscientos y setecientos dólares por mes, y las dos socias editando, la cuenta del costo por dos es la que muestra por qué el precio no lo banca."
@@ -15,7 +15,6 @@
       "columnas": [
         "Qué se consume",
         "Quién lo hace",
-        "Horas",
         "Cuánto cuesta"
       ],
       "filas": 8,
@@ -72,7 +71,7 @@
     },
     {
       "titulo": "El límite de cada nivel",
-      "consigna": "Escribí hasta dónde llega el nivel principal con un número: cuántas piezas, cuántas llamadas, cuántas revisiones, cuántas horas. Lo que pasa de ese número se cobra aparte y con un precio ya puesto. Un nivel sin límite escrito termina entregando el doble por el mismo precio, y ahí se va la rentabilidad completa.",
+      "consigna": "Escribí hasta dónde llega el nivel principal con un número: cuántas piezas, cuántas llamadas, cuántas revisiones. Lo que pasa de ese número se cobra aparte y con un precio ya puesto. Un nivel sin límite escrito termina entregando el doble por el mismo precio, y ahí se va la rentabilidad completa.",
       "ejemplo": {
         "quien": "Sharon Palacio",
         "texto": "Dejó la pauta paga afuera del servicio estándar de estrategia, y la continuidad la vende por bloques de tres meses con un objetivo macro en vez de mensualidad abierta."

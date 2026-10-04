@@ -96,11 +96,13 @@
       "activa": "resultados-lanzamiento",
       "anterior": "pausada",
       "en_paralelo": [
-        "one-sheeter-oferta",
         "icp-mecanismo--the-momentum-club"
       ],
-      "siguiente": "precio-escalera",
-      "por_que": "Ya lanzaron: el formulario con los números del webinar para que Franco los analice; en cola, oferta e ICP para verlo con él."
+      "siguiente": "one-sheeter-oferta",
+      "por_que": "Ya lanzaron: el formulario con los números del webinar para que Franco los analice; en cola, oferta e ICP para verlo con él.",
+      "despues": [
+        "precio-escalera"
+      ]
     },
     "scarlett-montilla": {
       "cerrar": true,

@@ -287,7 +287,7 @@
           ],
           "resultado": "La tabla de precios de cada nivel con la forma de pago, y el orden en que se comunica cada uno.",
           "pasos": [
-            "Calcular el costo real de entregar una vez: horas propias, equipo, herramientas y producción.",
+            "Calcular cuánto cuesta entregar un cliente: equipo, herramientas, producción y lo que te llevás vos.",
             "Poner el piso en el costo por dos y comparar contra lo que se cobra hoy.",
             "Definir la escalera: entrada, oferta principal y lo que va arriba, con el resultado de cada nivel.",
             "Fijar la forma de pago: precio de lista, precio pagando por adelantado y precio en dos cuotas, con más de la mitad cobrada al principio.",
