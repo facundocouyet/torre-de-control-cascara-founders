@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 4 de octubre de 2026
+
+Domingo corto: Seba mandó su propuesta para el lead de talleres y Sofía ya tiene día con Franco.
+
+- **Seba: propuesta «Acelerador de Talleres» para revisar.** Ocho semanas para una consultora de talleres mecánicos (estrategia, implementación y dirección creativa) con seis preguntas para vos: precio de cada pieza, si va separada o única, frecuencia de jornadas, quién edita, replicación y permanencia. La pelota es tuya, junto con los documentos del 2/10.
+- **Sofía: Franco la agenda el jueves 8/10 a las 11:30.** Ella eligió el horario; falta que Franco mande el invite.
+
+**Para mirar antes de subir:** las fichas de Seba y Sofía. Torre publicada, versión 65 (también sube lo de la noche del 3/10: Lola, José David, Momentum, Matías, Qualita y Bianca).
+
 ## 3 de octubre de 2026
 
 Dos llamadas del viernes que movieron fichas: la 1:1 de Seba y la primera de Sol con Franco. Sofía devolvió sus documentos.

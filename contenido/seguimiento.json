@@ -1,14 +1,14 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-02",
+  "actualizado": "2026-10-04",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
-      "ultimo": "2026-10-03",
-      "que": "3/10: devolvió oferta e ICP por Slack.",
+      "ultimo": "2026-10-04",
+      "que": "4/10: Franco la agenda el jueves 8/10; ella eligió las 11:30 (falta el invite).",
       "proximo": null,
-      "paso": "Agendar Franco con las dos cartas y arrancar los ángulos.",
+      "paso": "Franco le manda el invite del jueves 8/10 11:30 y trabajan oferta e ICP.",
       "carta": "Oferta e ICP, que tiene que devolver completas antes de Franco.",
       "pilar": "Oferta",
       "pelota": "Franco"
@@ -86,9 +86,9 @@
     },
     "sebastian": {
       "ultimo": "2026-10-03",
-      "que": "Tercer lead de done for you y el video de su historia listo en Frame con feedback de Fede.",
+      "que": "3/10: tercer lead de done for you y, a la tarde, el borrador de la propuesta «Acelerador de Talleres» (8 semanas, estrategia + implementación + dirección creativa) con seis preguntas para Facu.",
       "proximo": null,
-      "paso": "Facu le contesta cómo encaja el done for you con el cohort, si sale el domingo sin landing y le manda los documentos que pidió.",
+      "paso": "Facu le devuelve la propuesta de talleres (precio por pieza, si va separada o única, frecuencia de jornadas, quién edita, replicación y permanencia), le manda los documentos que pidió el 2/10 y le contesta si sale el domingo sin landing.",
       "carta": "ICP y mecanismo, y Ángulos.",
       "pilar": "Venta",
       "pelota": "Facu",
