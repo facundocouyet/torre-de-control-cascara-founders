@@ -100,7 +100,7 @@
     },
     {
       "titulo": "El precio y la forma de pago",
-      "consigna": "Calculá primero cuánto te cuesta entregarlo una vez, contando tus horas. El piso del precio es ese costo por dos. Después definí el precio de lista, el de pago adelantado y en cuántas cuotas, con más de la mitad cobrada al principio.",
+      "consigna": "Poné cuánto te cuesta entregarlo una vez (equipo, herramientas, producción y lo que te llevás vos), sin medirlo en horas. El piso del precio es ese costo por dos. Después definí el precio de lista, el de pago adelantado y en cuántas cuotas, con más de la mitad cobrada al principio. Si la oferta todavía se está armando, dejá lo que no sepas: el precio se cierra con Franco.",
       "ejemplo": {
         "quien": "Sofía Galvis",
         "texto": "Rearmó el paquete de tres meses en cuatro mil de lista y tres mil quinientos pagando adelantado. El adelanto es lo que le permitió frenar la entrada de clientes nuevos sin quedarse sin caja."
