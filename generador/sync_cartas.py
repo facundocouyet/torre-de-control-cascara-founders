@@ -159,6 +159,8 @@ def asignar(ids):
         pedir("DELETE", "asignaciones?id=eq.%s" % urllib.parse.quote(str(fid)))
     hechas = sig = 0
     for slug, x in lista.items():
+        if x.get("revision") == "pendiente":
+            print("  en revisión, no entra todavía: %s" % slug); continue
         if x.get("cerrar"):
             # sign off: la activa pasa a completada y se saca la próxima
             cid = clientes.get(slug)
@@ -220,6 +222,8 @@ def main():
         if os.path.exists(p):
             a = leer(p); cods = {c["codigo"] for c in cartas}
             for slug, x in a.get("clientes", {}).items():
+                if x.get("revision") == "pendiente":
+                    print("   en revisión %-17s → no entra hasta que Facu o Aye la aprueben" % slug); continue
                 if x.get("cerrar"):
                     print("   cierra %-22s → activa a completada, sin próxima" % slug); continue
                 cod = x.get("activa")

@@ -1,0 +1,29 @@
+{
+  "icp-mecanismo": {
+    "personalizar": "La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».",
+    "ojo": "Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10)."
+  },
+  "one-sheeter-oferta": {
+    "personalizar": "Forma A (ya vende): la genérica con su bajada. Forma B (lanza algo nuevo o redirecciona): versión propia con preguntas de discovery, que la escribe Franco en su llamada (doc 22).",
+    "ojo": "No se piden horas: el costo se pone en plata (Facu, 4/10). Termina con NOVA y el one-sheeter que arma el founder."
+  },
+  "precio-escalera": {
+    "personalizar": "La bajada con lo que cobra hoy y lo que se movió con Franco.",
+    "ojo": "Va después de oferta e ICP, nunca antes. No pide horas: el costo en plata (Facu, 4/10)."
+  },
+  "resultados-lanzamiento": {
+    "cuando": "Apenas cierra un lanzamiento (webinar, workshop o bootcamp), antes de rehacer la oferta con Franco.",
+    "personalizar": "La bajada con los números que ya se conocen del lanzamiento, para que vea que lo seguimos.",
+    "ojo": "Es un formulario: se completa en uno o dos días."
+  },
+  "llamada-de-venta": {
+    "personalizar": "Bajada con en qué parte de la llamada se le cae la venta. El SOP sale del script de sales call de F3 (v3.0)."
+  },
+  "handraisers-historias": {
+    "ojo": "Es más SOP que carta: no se manda como carta suelta. Carta = SOP + formulario + accionables (Facu, 3/10)."
+  },
+  "angulos-desde-icp": {
+    "cuando": "Después del ICP devuelto: sale de sus dolores y preguntas textuales.",
+    "personalizar": "Bajada con lo que ya escribió en el ICP; las cartas de contenido llevan referencias y capturas reales (Facu, 3/10)."
+  }
+}

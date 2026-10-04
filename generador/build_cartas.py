@@ -494,6 +494,11 @@ if __name__ == "__main__":
             pl.setdefault("titulo", base.get("titulo"))
             pl.setdefault("bajada", base.get("bajada"))
             pl.setdefault("lista_cuando", base.get("lista_cuando"))
+            # la personalización va por sección: "ajustes": {"<cid>": {"consigna": …, "ejemplo": …}}
+            # pisa solo esas claves de la sección genérica; el resto sigue a la genérica
+            aj = pl.get("ajustes") or {}
+            if aj:
+                secs = [dict(x, **aj.get(str(x.get("cid", k)), {})) for k, x in enumerate(secs)]
             pl["secciones"] = (list(pl.get("bloques_inicio") or []) + secs
                                + list(pl.get("bloques_final") or []))
         if mid not in meta:

@@ -232,7 +232,23 @@ def revisar_seguimiento():
             ojo('%s: el próximo paso tenía fecha %s y ya pasó; actualizá el seguimiento' % (f['nombre'], c['proximo']))
 
 
-for fn in (revisar_cartas, revisar_inventario, revisar_entregas, revisar_materiales,
+def revisar_variantes():
+    """La versión de un founder es liviana: si trae secciones propias, tiene que decir por qué,
+    y no puede pedir horas (Facu, 4/10)."""
+    import glob, re
+    for f in sorted(glob.glob(R('fichas', 'plantillas', '*--*.json'))):
+        d = json.load(open(f, encoding='utf-8'))
+        n = os.path.basename(f)[:-5]
+        if d.get('secciones') and not d.get('por_que_propia'):
+            ojo('%s tiene secciones propias sin por_que_propia: no le llegan los cambios de la genérica' % n)
+    for f in sorted(glob.glob(R('fichas', 'plantillas', '*.json'))):
+        if os.path.basename(f).startswith('_'): continue
+        t = open(f, encoding='utf-8').read()
+        if re.search(r'"(Horas|Horas de [^"]*|Horas en [^"]*)"', t) and ('one-sheeter' in f or 'precio' in f):
+            ojo('%s pide horas en una carta de oferta o precio' % os.path.basename(f)[:-5])
+
+
+for fn in (revisar_variantes, revisar_cartas, revisar_inventario, revisar_entregas, revisar_materiales,
            revisar_voz, revisar_cuentas, revisar_seguimiento, revisar_niveles):
     try: fn()
     except Exception as e: mal('%s reventó: %s' % (fn.__name__, e))
