@@ -5,6 +5,17 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 5 de octubre de 2026
+
+Lunes de viaje: Seba publicó y presentó su oferta, Matías devolvió el ICP y Sharon cerró con Teo.
+
+- **Seba: video de su historia en YouTube y oferta presentada.** El 4/10 subió el video con los cambios de Fede y cuatro shorts en trial; el 5/10 le presentó el «Acelerador de Talleres» a su lead. Sigue esperando tu devolución y los documentos del 2/10.
+- **Matías: devolvió el punto 02 del ICP.** Cuatro perfiles (DJ consolidado, DJ en crecimiento, el de varios proyectos, founder de productora) con una pregunta cada uno. Pide el ok antes de las cinco conversaciones: la pelota pasa a vos.
+- **Sharon: llamada de cierre con Teo.** Hito nuevo en su informe de cierre.
+- **Ingresos.** Sofía Guevara con mail y START 5/10, Lorena Martinez nueva, Lucila con los Founder Insights completos y Mecha Studio con dos clientes cerrados.
+
+**Para mirar antes de subir:** las fichas de Seba y Matías. Torre publicada, versión 67.
+
 ## 4 de octubre de 2026
 
 Domingo corto: Seba mandó su propuesta para el lead de talleres y Sofía ya tiene día con Franco.

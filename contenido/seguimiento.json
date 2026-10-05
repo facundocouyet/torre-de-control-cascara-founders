@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-04",
+  "actualizado": "2026-10-05",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -23,13 +23,13 @@
       "pelota": "Franco"
     },
     "matias-morales": {
-      "ultimo": "2026-09-30",
-      "que": "30/09: devolvió la oferta completa (NOVA y one-sheeter). Falta el ICP y mecanismo. 02/10 pasó a Slack.",
+      "ultimo": "2026-10-05",
+      "que": "5/10: devolvió el punto 02 del ICP (cuatro perfiles con su pregunta) y espera validación antes de las cinco conversaciones.",
       "proximo": null,
-      "paso": "Franco, cuando devuelva el ICP.",
+      "paso": "Facu (o Franco) le valida los cuatro perfiles del ICP; después hace las cinco conversaciones y se agenda Franco.",
       "carta": "ICP y mecanismo.",
       "pilar": "Oferta",
-      "pelota": "cliente"
+      "pelota": "Facu"
     },
     "agostina-marchesini": {
       "ultimo": "2026-10-01",
@@ -85,8 +85,8 @@
       "pelota": "Franco"
     },
     "sebastian": {
-      "ultimo": "2026-10-03",
-      "que": "3/10: tercer lead de done for you y, a la tarde, el borrador de la propuesta «Acelerador de Talleres» (8 semanas, estrategia + implementación + dirección creativa) con seis preguntas para Facu.",
+      "ultimo": "2026-10-05",
+      "que": "4/10: video de su historia en YouTube y cuatro shorts en trial. 5/10: presentó el Acelerador de Talleres a su lead y volvió a pedir los documentos.",
       "proximo": null,
       "paso": "Facu le devuelve la propuesta de talleres (precio por pieza, si va separada o única, frecuencia de jornadas, quién edita, replicación y permanencia), le manda los documentos que pidió el 2/10 y le contesta si sale el domingo sin landing.",
       "carta": "ICP y mecanismo, y Ángulos.",
@@ -192,8 +192,8 @@
       "pelota": "Teo"
     },
     "sharon-palacio": {
-      "ultimo": null,
-      "que": null,
+      "ultimo": "2026-10-05",
+      "que": "5/10: llamada de cierre con Teo; queda con acceso a La Cascarita.",
       "proximo": null,
       "paso": "La llamada en formato caso de éxito.",
       "carta": null,

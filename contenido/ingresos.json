@@ -1,6 +1,6 @@
 {
   "regla": "Clientes de Founders que ya entraron y todavía no tienen ficha: la ficha se escribe después de la Clarity Call. El slug es el de la app (clientes.slug) y el del canal cf-; las cartas escritas para ellos usan este slug. Cuando se escribe la ficha, el cliente sale de esta lista.",
-  "actualizado": "2026-10-02",
+  "actualizado": "2026-10-05",
   "clientes": [
     {
       "slug": "rosario-sola",
@@ -16,7 +16,9 @@
       "nombre": "Samuel Tarancón",
       "start": "2026-09-23",
       "correo": "satac.webdesigner@gmail.com",
-      "clarity": null
+      "clarity": null,
+      "canal": "cf-mecha-studio",
+      "nota": "5/10: cerraron dos clientes el fin de semana y tienen otro posible cierre el miércoles; uno pide pieza audiovisual en Barcelona a inicios de noviembre."
     },
     {
       "slug": "lara-loiano",
@@ -40,7 +42,8 @@
       "start": "2026-09-25",
       "correo": "beyourcontent@gmail.com",
       "clarity": null,
-      "canal": "cf-lucila-prieto"
+      "canal": "cf-lucila-prieto",
+      "nota": "5/10: completó los Founder Insights. Falta agendar la Clarity Call (Aye)."
     },
     {
       "slug": "naiara-angeloff",
@@ -48,7 +51,8 @@
       "start": "2026-09-28",
       "correo": "naiara@hungermedia.com.uy",
       "clarity": null,
-      "canal": "cf-naiara-angeloff"
+      "canal": "cf-naiara-angeloff",
+      "nota": "4/10: terminando el formulario de onboarding; Facu le pidió coordinar con Aye la Clarity Call (5/10)."
     },
     {
       "slug": "milagros-goico",
@@ -57,7 +61,7 @@
       "correo": "milagrosgoico@deadoslab.com",
       "clarity": null,
       "canal": "cf-milagros-goico",
-      "nota": "START en Cuentas 15/9; el onboarding con Teo fue el 29/9 (pregunta 54)."
+      "nota": "START en Cuentas 15/9; el onboarding con Teo fue el 29/9 (pregunta 54). 5/10: Candela preguntó en el canal cómo siguen."
     },
     {
       "slug": "osmo-estudio",
@@ -73,22 +77,32 @@
       "start": "2026-10-01",
       "correo": "delficorsalini@gmail.com",
       "clarity": null,
-      "canal": "cf-delfina-corsalini"
+      "canal": "cf-delfina-corsalini",
+      "nota": "Onboarding con Teo el 5/10 14:00."
     },
     {
       "slug": "marcelo-fernandez",
       "nombre": "Marcelo Fernandez",
       "start": "2026-10-02",
       "correo": "fernandezmarceloandres@gmail.com",
-      "clarity": null
+      "clarity": null,
+      "nota": "Onboarding con Teo el 5/10 13:30."
     },
     {
       "slug": "sofia-guevara",
       "nombre": "Sofía Guevara",
-      "start": null,
-      "correo": null,
+      "start": "2026-10-05",
+      "correo": "sguevaracelentano@gmail.com",
       "clarity": null,
-      "nota": "Francisca pidió su grupo el 30/9; sin fila en Cuentas (pregunta 73)."
+      "nota": "Francisca pidió su grupo el 30/9; sin fila en Cuentas (pregunta 73). 5/10: Cuentas ya tiene mail y START 5/10; onboarding con Teo el miércoles 7/10."
+    },
+    {
+      "slug": "lorena-martinez",
+      "nombre": "Lorena Martinez",
+      "start": "2026-10-05",
+      "correo": "lmtzsifuentes@gmail.com",
+      "clarity": null,
+      "nota": "Entró a Cuentas con START 5/10 (Discovery)."
     }
   ]
 }
