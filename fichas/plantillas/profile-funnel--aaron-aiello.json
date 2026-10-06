@@ -1,0 +1,22 @@
+{
+ "modulo": "profile-funnel",
+ "slug": "aaron-aiello",
+ "founder": "Aaron Aiello",
+ "bajada_envio": {
+  "founder": "Aaron Aiello",
+  "porque": "Es lo que quedé en pasarte en la 1:1 del 29: cómo armamos el perfil en Cáscara. Te toca ahora porque la oferta ya la decís de corrido y el YouTube sale todas las semanas, pero el perfil todavía no cuenta la consultoría. Para el 15 de octubre tiene que estar alineado, así la comunicación del lanzamiento del 15 de noviembre cae en un lugar que ya vende.",
+  "objetivo": "El perfil contando la consultoría de 90 días: la bio llevando a YouTube, una destacada con tu historia antes de la que vende, y las tres piezas de arriba alineadas a la oferta.",
+  "mindset": "Lo que falta en el perfil es tu personalidad en movimiento, y la sobreproducción es lo que se la come. Usá lo que ya tenés y publicalo: la secuencia del Miró, la destacada de qué hacés y la entrevista con Cami preguntando desde atrás de cámara."
+ },
+ "bloques_inicio": [
+  {"nuestro": true, "titulo": "Lo que ya tenés", "texto": [
+   "<b>La historia está escrita en el pasaporte digital.</b> Los cuatro movimientos de esta hoja salen de ahí: de dónde venís, el marketing duro del que te querés correr, lo que te pasó como mentor y por qué querés enseñar algo más que a ganar plata.",
+   "<b>La oferta está dicha:</b> 90 días de consultoría para personas que venden productos digitales, hasta sus primeros 15 mil dólares por mes, con mentalidad, propósito e identidad de marca como diferencial. La línea 2 de la bio y la destacada que vende salen de esa frase.",
+   "<b>Armado y sin publicar:</b> la secuencia de entrada al perfil en Miró, la bio redirigiendo a YouTube y la destacada de qué hacés. Esta hoja te ordena qué va primero para que salga todo junto."
+  ]}
+ ],
+ "ajustes": {
+  "2": {"consigna": "Tu video principal es la narrativa contada entera, y en tu caso es la pieza que más trabaja porque el YouTube ya es tu canal fuerte. Grabalo con el formato que ya te funciona: Cami pregunta desde atrás de cámara, sin guion. Anotá qué va en cada parte; el CTA del final lleva a la comunidad de WhatsApp del lanzamiento."},
+  "3": {"consigna": "Tres destacadas y en este orden. <b>Historia</b> primero, antes de la que vende: tu recorrido en 60 segundos. <b>Proceso</b>: cómo trabajás con un cliente de la consultoría (la de qué hacés que ya tenés armada entra acá). <b>Validación</b>: resultados y mensajes de los infoproductores con los que trabajás. Anotá el título y qué va adentro de cada una."}
+ }
+}

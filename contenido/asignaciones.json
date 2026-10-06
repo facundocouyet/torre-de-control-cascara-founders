@@ -12,12 +12,15 @@
     "pausada": "pausada",
     "completada": "completada"
   },
-  "actualizado": "2026-10-03",
+  "actualizado": "2026-10-06",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
       "siguiente": "calendario-lanzamiento",
-      "por_que": "La productización del servicio vence el 15/10 y el micro lanzamiento es el 15/11."
+      "por_que": "La productización del servicio vence el 15/10 y el micro lanzamiento es el 15/11.",
+      "en_paralelo": [
+        "profile-funnel"
+      ]
     },
     "agostina-marchesini": {
       "activa": "one-sheeter-oferta",
