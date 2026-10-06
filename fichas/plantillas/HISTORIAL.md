@@ -30,11 +30,11 @@
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10).
 - **Versiones:** agostina-marchesini (liviana), matias-morales (propia), rosario-sola (propia), sebastian (propia), sofia-galvis (propia), the-momentum-club (propia)
 - **Últimos cambios:**
+  - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-10-03 · Sofía: lo del WhatsApp; carta de ICP más clara en la pregunta del dolor (todas las versiones) (`09702d7`)
   - 2026-10-03 · Agostina: lo del WhatsApp en la ficha y en sus cartas (precio, interesadas, sus cinco módulos) (`f215f2d`)
   - 2026-10-03 · Agostina: cartas propias de oferta, ICP y dolores, llamada de venta y producto (`703b0a1`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
-  - 2026-09-26 · Las cartas se sincronizan con la app de clientes (`661b600`)
 
 ## One-sheeter de la oferta · `one-sheeter-oferta`
 
@@ -43,11 +43,11 @@
 - **Ojo:** No se piden horas: el costo se pone en plata (Facu, 4/10). Termina con NOVA y el one-sheeter que arma el founder.
 - **Versiones:** agostina-marchesini (liviana), lucio-labate (liviana), matias-morales (propia), sebastian (liviana), sofia-galvis (propia), sol-boutmy (liviana)
 - **Últimos cambios:**
+  - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-10-04 · One-sheeter genérico: el costo sin horas (`81687f2`)
   - 2026-10-03 · Agostina: lo del WhatsApp en la ficha y en sus cartas (precio, interesadas, sus cinco módulos) (`f215f2d`)
   - 2026-10-03 · Agostina: cartas propias de oferta, ICP y dolores, llamada de venta y producto (`703b0a1`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
-  - 2026-09-22 · El entregable es uno solo, y es el mismo en las cuarenta y una cartas (`ce1e355`)
 
 ## Precio y escalera de valor · `precio-escalera`
 
@@ -83,11 +83,11 @@
 - **Cómo se personaliza:** Bajada con lo que ya escribió en el ICP; las cartas de contenido llevan referencias y capturas reales (Facu, 3/10).
 - **Versiones:** aaron-aiello (liviana), matias-morales (liviana), qualita (propia), sebastian (propia), sofia-galvis (liviana)
 - **Últimos cambios:**
+  - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-09-24 · qualita: la carta de angulos se llama Angulos de comunicacion (`b7ac482`)
   - 2026-09-24 · qualita: el canal es Instagram, sin mencionar otro (`36909c1`)
   - 2026-09-24 · qualita: angulos reescrita, auditoria del metodo y del proceso comercial (`b2748ac`)
   - 2026-09-22 · El entregable es uno solo, y es el mismo en las cuarenta y una cartas (`ce1e355`)
-  - 2026-09-21 · Los ángulos de Qualita salen de los seis temas que ya escribieron (`3738279`)
 
 ## Calendario de contenido de sesenta días · `calendario-contenido`
 
@@ -151,7 +151,7 @@
 ## Calendario de lanzamiento · `calendario-lanzamiento`
 
 - **Cuándo va:** Cuando el founder tiene un producto listo y ninguna fecha ni mecanica para venderlo.
-- **Versiones:** bianca-antonini (liviana), scarlett-montilla (liviana)
+- **Versiones:** bianca-antonini (liviana), scarlett-montilla (liviana), sebastian (liviana)
 - **Últimos cambios:**
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
@@ -220,6 +220,7 @@
 ## Onboarding a 48 horas y roadmap para el cliente · `onboarding-y-roadmap-cliente`
 
 - **Cuándo va:** Cuando la venta cae y a partir de ahí el founder improvisa.
+- **Versiones:** sebastian (liviana)
 - **Últimos cambios:**
   - 2026-09-21 · El formulario de editores y el tarifario, como recurso fijo de la torre (`51cdb03`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
@@ -238,11 +239,11 @@
 - **Cuándo va:** Cuando el founder ya tiene cliente ideal, oferta y ángulos, y antes de salir a buscar más gente hay que ver qué pasa con el cliente después de que compra.
 - **Versiones:** aaron-aiello (liviana), agostina-marchesini (liviana), qualita (propia), sebastian (liviana)
 - **Últimos cambios:**
+  - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-10-03 · Seba: las cartas que Facu le prometió el 2/10 (escalera, funnel del cohort, proceso comercial, editor, historias) (`7c23360`)
   - 2026-10-03 · Agostina: lo del WhatsApp en la ficha y en sus cartas (precio, interesadas, sus cinco módulos) (`f215f2d`)
   - 2026-10-03 · Agostina: cartas propias de oferta, ICP y dolores, llamada de venta y producto (`703b0a1`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
-  - 2026-09-24 · qualita: ajustes de Facu a proceso comercial y funnel de servicio (`3aff347`)
 
 ## Productización del servicio · `proceso-entrega-repetible`
 
@@ -347,6 +348,7 @@
 - **Ojo:** Es un formulario: se completa en uno o dos días.
 - **Versiones:** lola-berutti (liviana), the-momentum-club (liviana)
 - **Últimos cambios:**
+  - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-10-03 · Carta nueva: resultados del lanzamiento (Lola y Momentum); la cola de la app lleva siguiente, paralelas y después (`6189971`)
 
 ## Pasaporte digital · `pasaporte-digital`

@@ -1,0 +1,23 @@
+{
+  "modulo": "onboarding-y-roadmap-cliente",
+  "slug": "sebastian",
+  "founder": "Sebastián Martínez",
+  "bajada_envio": {
+    "founder": "Sebastián Martínez",
+    "porque": "Ya vendés done for you y ahora el Acelerador de Talleres, y el cohort abre en noviembre. Lo que pasa después de la venta tiene que estar escrito antes de que entren los próximos: hoy tu «Cómo avanzamos» pone la reunión estratégica antes del onboarding.",
+    "objetivo": "El client journey escrito: onboarding con accesos y preguntas apenas se cierra la venta, la Clarity Call de 90 minutos con la presentación de la auditoría y el roadmap con hitos y fechas. El mismo camino para el Acelerador y, con sus ajustes, para el cohort.",
+    "mindset": "El onboarding es lo primero que pasa al vender. Pensalo para que a futuro sea una landing que el cliente completa solo, paso a paso, y llegue a la llamada con todo arriba de la mesa."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está definido",
+      "texto": [
+        "<b>El orden (Facu, 6/10):</b> la venta, después el onboarding (accesos a Notion y a Slack, el formulario, las estadísticas de Instagram y los resultados de los anuncios), después la Clarity Call de 90 minutos con la presentación de la auditoría, y recién ahí la estrategia.",
+        "<b>Las dudas se resuelven en llamada, siempre.</b> Nada de cerrar por WhatsApp.",
+        "<b>La estrategia lleva tres semanas:</b> una de conceptualización, referencias y moodboard hasta aprobar un camino, y dos para aterrizar el calendario de 4 semanas con ángulos, mecanismos de respuesta, historias y guiones. La producción viene después, con dos grabaciones por mes.",
+        "<b>Tu material de base:</b> el «Cómo avanzamos» del Acelerador. Usalo para la sección del último cliente y corregí el orden acá."
+      ]
+    }
+  ]
+}

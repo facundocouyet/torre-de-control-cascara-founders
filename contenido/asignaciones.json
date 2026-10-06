@@ -77,9 +77,11 @@
       "en_paralelo": [
         "funnel-de-servicio",
         "auditoria-proceso-comercial",
-        "contratar-primer-rol"
+        "contratar-primer-rol",
+        "onboarding-y-roadmap-cliente"
       ],
-      "por_que": "1:1 con Facu del 2/10: el one-sheeter está listo; ahora la escalera con el done for you arriba, el backend del cohort, el proceso comercial, el editor y las historias. Sprint al 10/10 y calendario de lanzamiento para vender del 10 al 15/11."
+      "por_que": "1:1 con Facu del 2/10: el one-sheeter está listo; ahora la escalera con el done for you arriba, el backend del cohort, el proceso comercial, el editor y las historias. Sprint al 10/10 y calendario de lanzamiento para vender del 10 al 15/11. 6/10: devolución del Acelerador de Talleres; se suma el arranque del cliente (client journey) y se personaliza el calendario de lanzamiento.",
+      "revision": "pendiente"
     },
     "sofia-galvis": {
       "activa": "angulos-desde-icp--sofia-galvis",

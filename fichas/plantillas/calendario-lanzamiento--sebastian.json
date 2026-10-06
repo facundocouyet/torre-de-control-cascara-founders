@@ -1,0 +1,23 @@
+{
+  "modulo": "calendario-lanzamiento",
+  "slug": "sebastian",
+  "founder": "Sebastián Martínez",
+  "bajada_envio": {
+    "founder": "Sebastián Martínez",
+    "porque": "La venta del cohort abre del 10 al 15 de noviembre y el calendario de 4 semanas quedó para cerrar esta semana (1:1 del 2/10). Es lo que convierte el contenido que ya estás publicando en ventas con fecha.",
+    "objetivo": "Las cuatro semanas escritas día por día hasta la venta abierta, con el cohort de 8 semanas como lo que se vende y la charla de monetización guardada para el lanzamiento.",
+    "mindset": "Las dos fechas no se mueven. Lo que entre en el medio, Acelerador incluido, se acomoda alrededor del lanzamiento."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya está definido",
+      "texto": [
+        "<b>Qué se vende:</b> el cohort de 8 semanas, con identidad, sistema y monetización, una grupal semanal, de 12 a 15 lugares y una entrada de 997 a 1.200 dólares para el primer grupo.",
+        "<b>Para quién:</b> creativos que viven de sus servicios y quieren vender su estrategia y su criterio: social media managers, community managers, editores, filmmakers.",
+        "<b>Lo que ya salió:</b> el video de tu historia en YouTube (4/10) con cuatro shorts en trial. La charla «Monetizá tu creatividad» se guarda para la etapa de lanzamiento, cuando la audiencia ya está caliente (2/10).",
+        "<b>Fechas:</b> la venta abre entre el 10 y el 15 de noviembre. Contá cuatro semanas para atrás y esa es tu semana 1."
+      ]
+    }
+  ]
+}
