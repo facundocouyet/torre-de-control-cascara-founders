@@ -54,8 +54,9 @@
 - **Cuándo va:** Cuando el founder cobra por debajo de lo que entrega, o cuando quiere sumar un producto arriba o abajo de lo que ya vende.
 - **Cómo se personaliza:** La bajada con lo que cobra hoy y lo que se movió con Franco.
 - **Ojo:** Va después de oferta e ICP, nunca antes. No pide horas: el costo en plata (Facu, 4/10).
-- **Versiones:** sebastian (liviana)
+- **Versiones:** sebastian (propia)
 - **Últimos cambios:**
+  - 2026-10-06 · Seba: devolución del Acelerador de Talleres y cartas en revisión (arranque del cliente y calendario de lanzamiento) (`8ff3697`)
   - 2026-10-04 · Precio y escalera sin horas; Momentum: oferta e ICP antes que precio (`924e88b`)
   - 2026-10-03 · Seba: las cartas que Facu le prometió el 2/10 (escalera, funnel del cohort, proceso comercial, editor, historias) (`7c23360`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
@@ -153,6 +154,7 @@
 - **Cuándo va:** Cuando el founder tiene un producto listo y ninguna fecha ni mecanica para venderlo.
 - **Versiones:** bianca-antonini (liviana), scarlett-montilla (liviana), sebastian (liviana)
 - **Últimos cambios:**
+  - 2026-10-06 · Seba: devolución del Acelerador de Talleres y cartas en revisión (arranque del cliente y calendario de lanzamiento) (`8ff3697`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
@@ -222,6 +224,7 @@
 - **Cuándo va:** Cuando la venta cae y a partir de ahí el founder improvisa.
 - **Versiones:** sebastian (liviana)
 - **Últimos cambios:**
+  - 2026-10-06 · Seba: devolución del Acelerador de Talleres y cartas en revisión (arranque del cliente y calendario de lanzamiento) (`8ff3697`)
   - 2026-09-21 · El formulario de editores y el tarifario, como recurso fijo de la torre (`51cdb03`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
