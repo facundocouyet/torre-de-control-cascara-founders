@@ -2,24 +2,33 @@
   "modulo": "auditoria-proceso-comercial",
   "slug": "sebastian",
   "founder": "Sebastián Martínez",
-  "bajada": "El camino de las consultas que ya te llegan, desde que alguien te escribe hasta la llamada: a quién llevás a llamada, a quién calificás y a quién descalificás.",
-  "lista_cuando": "Están escritas tus últimas consultas reales, el camino de cada una y el criterio de a quién llevás a llamada y por qué.",
+  "bajada": "Tu proceso comercial tal como pasa hoy, de punta a punta: desde que alguien te escribe, el seteo hasta la llamada, la llamada de venta y el cierre. Con capturas y mensajes reales.",
+  "lista_cuando": "Está escrito el camino completo de tus consultas, con capturas de los mensajes de seteo y por lo menos una llamada de venta grabada.",
   "bajada_envio": {
     "founder": "Sebastián Martínez",
-    "porque": "Ya tenés la oferta y te escriben sin que salgas a buscar. Lo siguiente es ordenar qué hacés con cada consulta antes de abrir el lanzamiento.",
-    "objetivo": "El proceso comercial escrito sobre tus consultas reales, listo para practicar cómo se lleva una consulta a llamada.",
-    "mindset": "Tus consultas te muestran tu cliente. Escribilas como llegaron, con sus palabras."
+    "porque": "Lo que tus alumnos del cohort tienen que aprender es justo esto: cómo se lleva una consulta a llamada y cómo se organiza una llamada de venta. Antes de enseñarlo, lo auditamos en tu propio proceso, tal como lo hacés hoy.",
+    "objetivo": "Tu proceso comercial de punta a punta, con capturas de pantalla y mensajes reales en cada paso, y una llamada de venta grabada para revisarla juntos.",
+    "mindset": "Mostralo como es, con lo que funciona y con lo que no. Una captura vale más que una explicación: pegá los mensajes tal cual salieron."
   },
   "bloques_inicio": [
     {
       "nuestro": true,
-      "titulo": "Lo que ya sabemos de tus consultas",
+      "titulo": "Lo que hablamos",
       "texto": [
-        "<b>Te preguntan mucho cómo grabaste, qué cámara usaste.</b> Facu, el 2/10: «Yo no veo que esté mal ese ICP», porque esa persona está tratando de aprender contenido. Si te dice que es filmmaker o quiere serlo, es cliente para el cohort: lo que le podés enseñar es a vender sus servicios.",
-        "<b>Te llegan pedidos de done for you sin buscarlos:</b> el cliente fitness que cerraste, otro prospecto y el asesor de talleres mecánicos del 3/10. Ese camino va al escalón de arriba de tu escalera.",
-        "<b>Lo que vamos a practicar:</b> cómo llevás cada consulta a una llamada, por qué, y a quién calificás y descalificás."
+        "<b>Auditar tu proceso comercial como lo hacés hoy, de punta a punta</b>: cómo entra una consulta, qué le contestás, cómo la llevás a llamada, cómo es la llamada y cómo cerrás.",
+        "<b>Con capturas de pantalla o mensajes</b> en cada paso: el primer mensaje que mandás, cómo calificás, cómo proponés la llamada y qué mandás después.",
+        "<b>El foco son dos partes:</b> el seteo hasta la llamada y la llamada de venta. Es lo que tus alumnos tienen que aprender en el cohort, así que de acá sale también ese módulo.",
+        "<b>Lo que ya sabemos:</b> te preguntan mucho cómo grabaste y qué cámara usaste, y te llegan pedidos de done for you sin salir a buscarlos. Las dos cosas son consultas: escribilas en el camino como cualquier otra."
       ]
     }
   ],
-  "estado_galeria": "aprobada"
+  "estado_galeria": "aprobada",
+  "ajustes": {
+    "3": {
+      "consigna": "Lo que pasa cuando alguien escribe por primera vez, hasta que acepta la llamada. Pegá capturas de dos o tres conversaciones reales: el primer mensaje, cómo calificás y cómo proponés la llamada."
+    },
+    "7": {
+      "consigna": "Grabá tus próximas dos llamadas de venta con Fathom, avisándole a la persona, o pasanos alguna que ya tengas grabada. Con eso revisamos juntos cómo la organizás: apertura, diagnóstico, propuesta, precio y cierre."
+    }
+  }
 }

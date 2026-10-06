@@ -3,19 +3,20 @@
   "slug": "sebastian",
   "founder": "Sebastián Martínez",
   "titulo": "Tu oferta de punta a punta",
-  "bajada": "Tu escalera, cuánto te cuesta entregar cada oferta, el precio mínimo que sale de ese costo y el recorrido del cliente desde que compra. Casi todo ya está definido y escrito acá: lo que completás vos es tu costo, tu precio mínimo y las preguntas de tu onboarding.",
-  "lista_cuando": "Cada oferta tiene su costo y su precio mínimo calculado con la fórmula, y las preguntas de tu onboarding están listas para que Teo arme la web.",
+  "bajada": "Tu escalera, lo que te cuesta cada oferta, el precio mínimo que sale de ese costo y el recorrido del cliente desde que compra. Casi todo ya está escrito acá: lo que completás vos es el nombre de tu servicio, tus costos y las preguntas de tu onboarding.",
+  "lista_cuando": "Tu servicio tiene nombre, cada oferta tiene sus costos por rubro y su total, y las preguntas de tu onboarding están listas para que Teo arme la web.",
   "por_que_propia": "Facu, 6/10: escalera, funnel del cohort y arranque del cliente en una sola hoja, práctica y simple. Lo definido va escrito; se completa solo el costo, el precio mínimo y el onboarding.",
   "pasos": [
     "Leer la escalera y el recorrido del cliente, y anotar lo que no te cierra.",
-    "Escribir cuánto te cuesta entregar cada oferta.",
+    "Ponerle nombre a tu servicio de estrategia creativa.",
+    "Listar los costos de cada oferta, por rubro.",
     "Sacar el precio mínimo de cada una con la fórmula.",
     "Escribir las preguntas de tu onboarding, servicio por servicio."
   ],
   "bajada_envio": {
     "founder": "Sebastián Martínez",
-    "porque": "Ya tenés las ofertas y vendés sin salir a buscar: el cohort, el Acelerador de Talleres y los done for you que te siguen llegando. Lo que falta es saber cuánto te cuesta cada una y desde qué precio no conviene venderla.",
-    "objetivo": "Tu costo y tu precio mínimo, oferta por oferta, y las preguntas de tu onboarding para que lo armemos como una web.",
+    "porque": "Ya tenés las ofertas y vendés sin salir a buscar: el cohort, la estrategia creativa que le armaste a la consultora de talleres y los done for you que te siguen llegando. Lo que falta es ponerle nombre a ese servicio, saber cuánto te cuesta cada oferta y desde qué precio no conviene venderla.",
+    "objetivo": "El nombre de tu servicio de estrategia creativa, lo que te cuesta cada oferta y su precio mínimo, más las preguntas de tu onboarding para que lo armemos como una web.",
     "mindset": "La escalera ya está armada: leela y corregí lo que no te cierre. El trabajo de esta hoja son los números."
   },
   "secciones": [
@@ -25,47 +26,56 @@
       "texto": [
         "<b>Entrada · El programa grabado.</b> Las 8 semanas del cohort en video, sin las llamadas. Lo consume el que todavía no puede entrar al programa completo, y el paso siguiente es el cohort. Precio: lo cerramos con Franco (falta confirmar).",
         "<b>Principal · El cohort de 8 semanas.</b> Identidad, sistema y monetización, una grupal semanal, de 12 a 15 lugares, de 997 a 1.200 dólares el primer grupo. Venta del 10 al 15 de noviembre.",
-        "<b>Arriba · El Acelerador.</b> Estrategia y contenido con traspaso al equipo del cliente: estrategia de USD 2.000 a 3.000 en tres semanas, y contenido de USD 3.000 a 3.500 por mes con dos grabaciones.",
+        "<b>Arriba · Tu servicio de estrategia creativa.</b> El que le armaste a la consultora de talleres, con traspaso al equipo del cliente: estrategia de USD 2.000 a 3.000 en tres semanas, y contenido de USD 3.000 a 3.500 por mes con dos grabaciones. «Acelerador de Talleres» quedó por ese cliente: el nombre lo ponés vos abajo.",
         "<b>Continuidad · Dirección creativa a distancia.</b> Cuando el equipo del cliente ya graba solo: calendario, guiones y feedback, mes a mes.",
-        "<b>FitPM y los done for you</b> sostienen la caja hasta el lanzamiento. Después del cohort, entran solo si se pagan como el Acelerador.",
+        "<b>FitPM y los done for you</b> sostienen la caja hasta el lanzamiento. Después del cohort, entran solo si se pagan como tu servicio de estrategia creativa.",
         "<b>Referencia de Cáscara:</b> estrategia creativa de USD 10.000 a 15.000 y contenido desde USD 5.000 por mes con una jornada; cada jornada extra, de USD 1.500 a 2.000."
       ],
       "cid": 0
     },
     {
-      "titulo": "Cuánto te cuesta entregar cada oferta",
-      "consigna": "Por cada oferta, lo que se consume en entregarla una vez: editor, equipo, traslados, herramientas, plataforma. En plata, no en horas. Con lo que ya sabés alcanza.",
+      "titulo": "El nombre de tu servicio",
+      "consigna": "Un nombre tuyo que diga lo que hace, para usarlo con cualquier cliente: en tu escalera, en tu perfil y en la próxima propuesta. Por ejemplo, «Estrategia creativa».",
+      "campo": "lineas",
+      "lineas": [
+        "El nombre",
+        "En una frase, qué hace"
+      ],
+      "cid": 1
+    },
+    {
+      "nuestro": true,
+      "titulo": "Qué entra en el costo de una oferta",
+      "texto": [
+        "Todo lo que pagás para que esa oferta exista, por rubro. En Cáscara, por ejemplo, cada oferta carga su parte de <b>comercial</b>, <b>contenido</b> y <b>herramientas</b>, además del equipo que la ejecuta.",
+        "<b>En la estrategia creativa</b>, el costo es el de los creativos que hacen el trabajo.",
+        "<b>En el contenido</b>, los editores, diseñadores, estrategas creativos, filmmakers y fotógrafos que lo producen.",
+        "<b>En el cohort</b>, la plataforma, la edición de las clases y lo que te cuesta conseguir cada alumno."
+      ],
+      "cid": 2
+    },
+    {
+      "titulo": "Los costos de cada oferta",
+      "consigna": "Una fila por costo: la oferta, el rubro (comercial, contenido, herramientas o el equipo que ejecuta), quién o qué es, y cuánto sale en toda la duración de esa oferta. Al final, el total de cada una.",
       "campo": "tabla",
       "columnas": [
         "Oferta",
-        "Qué se consume",
-        "Cuánto cuesta"
+        "Rubro",
+        "Quién o qué",
+        "Costo en toda la oferta"
       ],
-      "filas": 4,
-      "cid": 1
+      "filas": 14,
+      "cid": 3
     },
     {
       "nuestro": true,
       "titulo": "La fórmula del precio mínimo",
       "texto": [
-        "<b>Precio mínimo = lo que te cuesta entregar × 2.</b>",
-        "Ese es el piso: una propuesta que queda abajo no sale. Lo que cobrás arriba del piso es tu criterio, tu experiencia y lo que vale el resultado para el cliente.",
-        "Si te piden descuento, sacá alcance, nunca precio."
+        "<b>Precio mínimo = el costo total de la oferta, en todo su tiempo, × 2.</b>",
+        "Por ejemplo: si tu estrategia creativa dura tres semanas y entre los creativos y las herramientas te cuesta USD 800, no la vendés por menos de USD 1.600. Si el contenido dura dos meses y cuesta USD 1.500 entre editor y filmmaker, el mínimo de esos dos meses es USD 3.000.",
+        "Ese es el piso: una propuesta que queda abajo no sale. Lo que cobrás arriba es tu criterio y lo que vale el resultado para el cliente. Si te piden descuento, sacá alcance, nunca precio."
       ],
-      "cid": 2
-    },
-    {
-      "titulo": "Tu precio mínimo, oferta por oferta",
-      "consigna": "Aplicá la fórmula a cada oferta y poné al lado lo que cobrás hoy. Si alguna queda abajo del piso, esa es la primera que se corrige.",
-      "campo": "lineas",
-      "lineas": [
-        "Programa grabado: mínimo",
-        "Cohort, por alumno: mínimo / lo que cobrás",
-        "Acelerador, estrategia: mínimo / lo que cobrás",
-        "Acelerador, contenido por mes: mínimo / lo que cobrás",
-        "Done for you por mes: mínimo / lo que cobrás"
-      ],
-      "cid": 3
+      "cid": 4
     },
     {
       "nuestro": true,
@@ -79,7 +89,7 @@
         "<b>6 · El cierre y el escalón siguiente.</b> Se leen los números y se ofrece lo que sigue en la escalera.",
         "<b>En el cohort</b> es el mismo arranque: la web de onboarding, el formulario de entrada con el punto A de cada alumno, los desafíos de cada semana con su formulario y un semáforo de avance por alumno."
       ],
-      "cid": 4
+      "cid": 5
     },
     {
       "nuestro": true,
@@ -90,7 +100,7 @@
         "<b>Qué queda automático:</b> las respuestas se guardan en tu Notion, te llega un aviso por Slack cuando un cliente termina, y el cliente recibe la confirmación con el día de la llamada.",
         "Para armarla, Teo necesita una sola cosa tuya: las preguntas de abajo."
       ],
-      "cid": 5
+      "cid": 6
     },
     {
       "titulo": "Las preguntas de tu onboarding",
@@ -102,7 +112,7 @@
         "Para qué la usás"
       ],
       "filas": 10,
-      "cid": 6
+      "cid": 7
     },
     {
       "titulo": "Lo que no te cierra",
@@ -110,7 +120,7 @@
       "campo": "texto",
       "alto": 4,
       "placeholder": "Cambiaría…",
-      "cid": 7
+      "cid": 8
     }
   ],
   "estado_galeria": "aprobada"
