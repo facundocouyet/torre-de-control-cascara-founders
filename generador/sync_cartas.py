@@ -221,7 +221,8 @@ def subir_devoluciones(ids):
             print("  ojo: devolución %s: el cliente %s no está en la app" % (d["codigo"], d["cliente_slug"])); continue
         filas.append({"codigo": d["codigo"], "cliente_id": cid, "carta_id": ids.get(d.get("carta")),
                       "titulo": d["titulo"], "resumen": d.get("resumen", ""), "fecha": d["fecha"],
-                      "dada_por": d.get("dada_por"), "url": "%s/%s" % (PAGES, d["archivo"])})
+                      "autor_nombre": d.get("dada_por"), "doc_url": "%s/%s" % (PAGES, d["archivo"])})
+        if d.get("contenido"): filas[-1]["contenido"] = d["contenido"]
     try:
         pedir("POST", "devoluciones?on_conflict=codigo", filas, "resolution=merge-duplicates")
         print("→ devoluciones: %d subidas" % len(filas))
