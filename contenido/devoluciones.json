@@ -1,0 +1,15 @@
+{
+  "regla": "Las devoluciones que le damos a cada founder sobre lo que nos manda (propuestas, ofertas, guiones, calendarios). El HTML vive en devoluciones/<cliente>-<AAAA-MM-DD>-<tema>.html y se publica con la torre en GitHub Pages. Cada entrada se sube a la tabla devoluciones de la app con sync_cartas.py, atada al cliente y a la carta. El estado (enviada, leída, aplicada) lo maneja la app: el repo nunca lo pisa.",
+  "devoluciones": [
+    {
+      "codigo": "sebastian-2026-10-06-estrategia-creativa",
+      "cliente_slug": "sebastian",
+      "carta": "precio-escalera--sebastian",
+      "titulo": "Tu servicio de estrategia creativa, listo para que firmen",
+      "resumen": "Ponerle nombre al servicio, estrategia en tres semanas, dos grabaciones por mes, precio en dólares y el onboarding antes de la Clarity Call.",
+      "fecha": "2026-10-06",
+      "dada_por": "Facu",
+      "archivo": "devoluciones/sebastian-2026-10-06-estrategia-creativa.html"
+    }
+  ]
+}

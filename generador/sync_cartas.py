@@ -206,6 +206,28 @@ def asignar(ids):
             sig += 1
     print("→ asignaciones: %d activas nuevas o cambiadas, %d siguientes" % (hechas, sig))
 
+def subir_devoluciones(ids):
+    """Sube contenido/devoluciones.json a la tabla devoluciones de la app. El estado lo maneja la app:
+    acá nunca se manda, así un reenvío no pisa lo que el founder ya marcó como leído o aplicado."""
+    p = os.path.join(B, "contenido", "devoluciones.json")
+    if not os.path.exists(p): return
+    lista = leer(p).get("devoluciones", [])
+    if not lista: return
+    clientes = {c["slug"]: c["id"] for c in (pedir("GET", "clientes?select=id,slug") or []) if c.get("slug")}
+    filas = []
+    for d in lista:
+        cid = clientes.get(d["cliente_slug"])
+        if not cid:
+            print("  ojo: devolución %s: el cliente %s no está en la app" % (d["codigo"], d["cliente_slug"])); continue
+        filas.append({"codigo": d["codigo"], "cliente_id": cid, "carta_id": ids.get(d.get("carta")),
+                      "titulo": d["titulo"], "resumen": d.get("resumen", ""), "fecha": d["fecha"],
+                      "dada_por": d.get("dada_por"), "url": "%s/%s" % (PAGES, d["archivo"])})
+    try:
+        pedir("POST", "devoluciones?on_conflict=codigo", filas, "resolution=merge-duplicates")
+        print("→ devoluciones: %d subidas" % len(filas))
+    except RuntimeError as e:
+        print("   OJO: no se pudieron subir las devoluciones (%s). Revisar con Teo la tabla devoluciones." % str(e)[:300])
+
 def main():
     cartas, tareas = filas_del_repo()
     gen = [c for c in cartas if not c["cliente_slug"]]
@@ -237,6 +259,10 @@ def main():
                 print("   asigna %-22s → %s%s · desde %s · sigue %s%s" % (
                     slug, usa, "" if usa in cods else " (NO EXISTE)", lunes_semana_1(a, x),
                     usa_s, "" if (not sg or usa_s in cods) else " (NO EXISTE)"))
+        pd = os.path.join(B, "contenido", "devoluciones.json")
+        if os.path.exists(pd):
+            for d in leer(pd).get("devoluciones", []):
+                print("   devolución   %-16s → %s (carta %s)" % (d["cliente_slug"], d["archivo"], d.get("carta")))
         print("   modo prueba: no se tocó Supabase (faltan SUPABASE_URL y SUPABASE_SERVICE_KEY, o se pidió --probar)")
         return
     filas, faltan = subir(cartas)
@@ -256,6 +282,7 @@ def main():
         pedir("PATCH", "cartas?id=eq.%s" % urllib.parse.quote(str(c["id"])), {"oculta": True})
     print("   subidas %d, tareas reemplazadas en %d, ocultadas %d" % (len(filas), len(tareas), len(viejas)))
     asignar(ids)
+    subir_devoluciones(ids)
     if faltan:
         print("   OJO: la base no tiene las columnas %s. Subió igual sin ellas; hay que pedirle a Teo "
               "que las agregue." % ", ".join(faltan))

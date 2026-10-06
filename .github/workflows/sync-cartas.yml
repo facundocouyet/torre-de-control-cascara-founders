@@ -9,6 +9,8 @@ on:
       - 'fichas/inventario.json'
       - 'fichas/plantillas/**'
       - 'contenido/asignaciones.json'
+      - 'contenido/devoluciones.json'
+      - 'devoluciones/**'
       - 'generador/sync_cartas.py'
   workflow_dispatch:
 
