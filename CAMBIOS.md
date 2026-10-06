@@ -12,7 +12,11 @@ Martes en Madrid: Bianca ya tiene fecha para los anillos y los ingresos esperan 
 - **Bianca: pop-up de los anillos el 23/10.** Llamada con Franco el 5/10: comunicación desde ya (semana del 5 al 12 sobre los anillos, anuncio del pop-up el lunes 12), 10 a 15% para la comunidad y tres fugas del drop anterior para cerrar. La pelota pasa a ella con el calendario para Franco; queda tuyo ver los números de los anillos.
 - **Ingresos.** Lara completó el onboarding, Delfina tuvo el suyo con Teo, y Naiara y A2 esperan el link de la Clarity Call que estaba vencido.
 
-**Para mirar antes de subir:** la ficha de Bianca. Torre publicada, versión 68.
+- **Matías: ICP devuelto.** Se abre a marca personal más allá de la música; sale el DJ en crecimiento. La pelota pasa a él con las cinco conversaciones.
+- **Seba: una sola hoja de oferta.** «Tu oferta de punta a punta» junta escalera, costos por rubro, precio mínimo (costo total × 2) y el recorrido del cliente con el onboarding en una web. La auditoría comercial suma cómo hacemos la llamada de venta en Cáscara. El calendario de lanzamiento queda para la semana del 12/10. Sale de revisión: entra a la app con este push.
+- **Devoluciones.** Carpeta nueva `devoluciones/` con la primera, la de Seba. `sync_cartas.py` las sube a la tabla `devoluciones` de la app; si Teo todavía no confirmó las columnas, avisa y no rompe.
+
+**Para mirar antes de subir:** la ficha de Bianca, la hoja de oferta de Seba y la devolución en `devoluciones/`. Torre publicada, versión 69.
 
 ## 5 de octubre de 2026
 
