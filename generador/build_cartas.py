@@ -267,7 +267,8 @@ def _campo(sec, i):
     if tipo == "lineas":
         filas = "".join(
             '      <div class="lin"><span class="rot">%s</span>'
-            '<input type="text" data-c="s%dl%d" placeholder=""></div>\n' % (esc(r), i, j)
+            '<input type="text" data-c="s%dl%d" data-etiqueta="%s" aria-label="%s" placeholder=""></div>\n'
+            % (esc(r), i, j, esc(r), esc(r))
             for j, r in enumerate(sec.get("lineas", [])))
         return '    <div class="campo">\n%s    </div>\n' % filas
     if tipo == "tabla":
@@ -281,10 +282,15 @@ def _campo(sec, i):
                 if c == 0 and f < len(rot) and rot[f]:
                     celdas.append('<td class="rotfila">%s</td>' % esc(rot[f]))
                 else:
-                    celdas.append('<td><input type="text" data-c="s%df%dc%d"></td>' % (i, f, c))
+                    et = "%s · %s" % (cols[c], (rot[f] if f < len(rot) and rot[f] else "fila %d" % (f + 1)))
+                    celdas.append('<td><input type="text" data-c="s%df%dc%d" data-etiqueta="%s" aria-label="%s"></td>'
+                                  % (i, f, c, esc(et), esc(et)))
             cuerpo += '        <tr>%s</tr>\n' % "".join(celdas)
-        return ('    <div class="campo envoltorio"><table class="tabla">\n'
-                '      <thead><tr>%s</tr></thead>\n      <tbody>\n%s      </tbody>\n'
+        import json as _j
+        abre = ('    <div class="campo envoltorio"><table class="tabla" data-forma="tabla" data-tabla="s%d" '
+                'data-columnas="%s" data-filas="%d">\n'
+                % (i, esc(_j.dumps(cols, ensure_ascii=False)), max(sec.get("filas", 6), len(rot))))
+        return (abre + '      <thead><tr>%s</tr></thead>\n      <tbody>\n%s      </tbody>\n'
                 '    </table></div>\n' % (th, cuerpo))
     alto = sec.get("alto", 4)
     ph = esc(sec.get("placeholder", ""))

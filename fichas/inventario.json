@@ -863,6 +863,39 @@
           "estado_galeria": "aprobada"
         },
         {
+          "id": "resultados-lanzamiento",
+          "nombre": "Resultados del lanzamiento",
+          "nivel": "3",
+          "para_quien": "Cuando el founder acaba de cerrar un lanzamiento (webinar, workshop o bootcamp) y hay que leerlo antes de armar el próximo.",
+          "eje": [
+            "venta",
+            "demanda"
+          ],
+          "resultado": "Un formulario con los números del embudo del lanzamiento, las llamadas una por una, las objeciones y la plata, listo para que Franco lo analice.",
+          "pasos": [
+            "Escribir el formato, las fechas, las plazas y el precio.",
+            "Cargar los números de cada paso del embudo con su fuente.",
+            "Anotar de dónde vino la gente.",
+            "Anotar cada llamada de venta con por qué compró o no.",
+            "Juntar las objeciones y los motivos de compra.",
+            "Escribir lo facturado, lo cobrado y lo que costó.",
+            "Linkear grabaciones y materiales."
+          ],
+          "completar": [
+            "Los números del embudo con su fuente",
+            "Las llamadas una por una",
+            "La plata y las grabaciones"
+          ],
+          "herramientas": [
+            "Grupo de WhatsApp o plataforma del evento",
+            "Agenda de llamadas",
+            "Grabaciones o transcripciones de las llamadas"
+          ],
+          "estado": "existe",
+          "evidencia": "Lola cerró El Salto (28 llamadas, 6 ventas) y The Momentum Club su webinar del 28/9 (400 leads, más de 20 llamadas) sin que quedaran escritos los números para que Franco los analice (Facu, 3/10).",
+          "estado_galeria": "aprobada"
+        },
+        {
           "id": "capitalizar-evento",
           "nombre": "Capitalizar un evento presencial",
           "nivel": "3",
@@ -1745,39 +1778,6 @@
           ],
           "estado": "existe",
           "evidencia": "El método de ordenar la información de clientes y sacar informes con IA para decidir con datos se le bajó a Custom Lab. Aaron usa el formulario de feedback a clientes como auditoría y las objeciones como material de remarketing. Sofía tiene que mandar las estadisticas documentadas antes de la sesión con Franco. Falta el módulo con los pasos y el pedido guardado.",
-          "estado_galeria": "aprobada"
-        },
-        {
-          "id": "resultados-lanzamiento",
-          "nombre": "Resultados del lanzamiento",
-          "nivel": "3",
-          "para_quien": "Cuando el founder acaba de cerrar un lanzamiento (webinar, workshop o bootcamp) y hay que leerlo antes de armar el próximo.",
-          "eje": [
-            "venta",
-            "demanda"
-          ],
-          "resultado": "Un formulario con los números del embudo del lanzamiento, las llamadas una por una, las objeciones y la plata, listo para que Franco lo analice.",
-          "pasos": [
-            "Escribir el formato, las fechas, las plazas y el precio.",
-            "Cargar los números de cada paso del embudo con su fuente.",
-            "Anotar de dónde vino la gente.",
-            "Anotar cada llamada de venta con por qué compró o no.",
-            "Juntar las objeciones y los motivos de compra.",
-            "Escribir lo facturado, lo cobrado y lo que costó.",
-            "Linkear grabaciones y materiales."
-          ],
-          "completar": [
-            "Los números del embudo con su fuente",
-            "Las llamadas una por una",
-            "La plata y las grabaciones"
-          ],
-          "herramientas": [
-            "Grupo de WhatsApp o plataforma del evento",
-            "Agenda de llamadas",
-            "Grabaciones o transcripciones de las llamadas"
-          ],
-          "estado": "existe",
-          "evidencia": "Lola cerró El Salto (28 llamadas, 6 ventas) y The Momentum Club su webinar del 28/9 (400 leads, más de 20 llamadas) sin que quedaran escritos los números para que Franco los analice (Facu, 3/10).",
           "estado_galeria": "aprobada"
         }
       ]
