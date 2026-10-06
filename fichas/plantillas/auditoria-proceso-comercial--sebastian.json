@@ -29,6 +29,26 @@
     },
     "7": {
       "consigna": "Grabá tus próximas dos llamadas de venta con Fathom, avisándole a la persona, o pasanos alguna que ya tengas grabada. Con eso revisamos juntos cómo la organizás: apertura, diagnóstico, propuesta, precio y cierre."
+    },
+    "2": {
+      "consigna": "Cada canal por el que hoy te llega alguien: redes, recomendación, la charla, la web, contactos propios. Y quién recibe cada consulta. Cuántas entran lo empezamos a medir desde ahora.",
+      "columnas": [
+        "El canal",
+        "Quién las recibe"
+      ]
+    },
+    "4": {
+      "nuestro": true,
+      "titulo": "La llamada de venta, como la hacemos en Cáscara",
+      "texto": [
+        "Esta parte te la bajamos nosotros. Es el formato que usamos para vender Founders, y el que después vas a enseñar en el cohort.",
+        "<b>Son dos llamadas.</b> La primera es de diagnóstico: preguntás y escuchás. La segunda es de cierre: presentás la propuesta en vivo, entre cinco y siete días después. La propuesta nunca se manda por chat.",
+        "<b>1 · El rapport.</b> Los primeros minutos son para la persona: cómo está, en qué anda, y la pregunta que abre todo, «¿por qué te interesó esto?». Ahí aparece el motivo real.",
+        "<b>2 · El diagnóstico.</b> Las preguntas que usamos: «¿Qué ofrecés hoy, a quién y a qué precio?», «¿Dónde te podemos ayudar más: contenido, ventas u operaciones?», «¿Tenés más tiempo o más dinero para invertir ahora?» y «¿Estás para enfocarte tres meses en esto?». La última califica: si no tiene tiempo para ejecutar, se lo decís.",
+        "<b>3 · La propuesta.</b> En vivo y en este orden: la promesa, el mecanismo (cómo lo vas a lograr), los bonus y recién al final el precio.",
+        "<b>4 · El cierre.</b> El precio se dice desde arriba y sin dudar. Si hay una objeción, se escucha entera y se contesta. Si te piden descuento, sacás alcance, nunca precio.",
+        "<b>Los números para planificar:</b> de cada dos conversaciones sale una llamada agendada, siete de cada diez agendados se presentan, y cerrás una de cada cuatro llamadas. Para diez clientes necesitás unas ciento quince conversaciones."
+      ]
     }
   }
 }
