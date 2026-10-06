@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 6 de octubre de 2026
+
+Martes en Madrid: Bianca ya tiene fecha para los anillos y los ingresos esperan tu link de agenda.
+
+- **Bianca: pop-up de los anillos el 23/10.** Llamada con Franco el 5/10: comunicación desde ya (semana del 5 al 12 sobre los anillos, anuncio del pop-up el lunes 12), 10 a 15% para la comunidad y tres fugas del drop anterior para cerrar. La pelota pasa a ella con el calendario para Franco; queda tuyo ver los números de los anillos.
+- **Ingresos.** Lara completó el onboarding, Delfina tuvo el suyo con Teo, y Naiara y A2 esperan el link de la Clarity Call que estaba vencido.
+
+**Para mirar antes de subir:** la ficha de Bianca. Torre publicada, versión 68.
+
 ## 5 de octubre de 2026
 
 Lunes de viaje: Seba publicó y presentó su oferta, Matías devolvió el ICP y Sharon cerró con Teo.

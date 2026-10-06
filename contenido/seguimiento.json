@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-05",
+  "actualizado": "2026-10-06",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -14,13 +14,17 @@
       "pelota": "Franco"
     },
     "bianca-antonini": {
-      "ultimo": "2026-09-30",
-      "que": "Grupal con Juana: pilar founder-led, contenido personal sin editar.",
+      "ultimo": "2026-10-05",
+      "que": "Llamada con Franco: pop-up de los anillos el 23/10, comunicación desde ya y tres fugas del drop anterior.",
       "proximo": null,
-      "paso": "Confirmar si se hizo la llamada con Franco del 29/9 y poner fecha al drop de octubre con la activación en Al Paso.",
+      "paso": "Bajar a calendario la semana del 5 al 12/10 y mandársela a Franco; anuncio del pop-up el lunes 12/10.",
       "carta": "La radiografía y el documento de Eclipse y los anillos, mandados el 14/09, esperando su respuesta.",
-      "pilar": "Oferta",
-      "pelota": "Franco"
+      "pilar": "Venta",
+      "pelota": "cliente",
+      "plata": {
+        "fecha": "2026-10-23",
+        "que": "Pop-up de lanzamiento de los anillos, con descuento para la comunidad."
+      }
     },
     "matias-morales": {
       "ultimo": "2026-10-05",

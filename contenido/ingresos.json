@@ -1,6 +1,6 @@
 {
   "regla": "Clientes de Founders que ya entraron y todavía no tienen ficha: la ficha se escribe después de la Clarity Call. El slug es el de la app (clientes.slug) y el del canal cf-; las cartas escritas para ellos usan este slug. Cuando se escribe la ficha, el cliente sale de esta lista.",
-  "actualizado": "2026-10-05",
+  "actualizado": "2026-10-06",
   "clientes": [
     {
       "slug": "rosario-sola",
@@ -26,7 +26,8 @@
       "start": "2026-09-25",
       "correo": "proyectonoiseit@gmail.com",
       "clarity": null,
-      "canal": "cf-lara-loiano"
+      "canal": "cf-lara-loiano",
+      "nota": "6/10: completó el formulario de onboarding y pide el link para la Clarity Call."
     },
     {
       "slug": "juan-cruz-galeano",
@@ -52,7 +53,7 @@
       "correo": "naiara@hungermedia.com.uy",
       "clarity": null,
       "canal": "cf-naiara-angeloff",
-      "nota": "4/10: terminando el formulario de onboarding; Facu le pidió coordinar con Aye la Clarity Call (5/10)."
+      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye le manda el link para la Clarity Call."
     },
     {
       "slug": "milagros-goico",
@@ -61,7 +62,7 @@
       "correo": "milagrosgoico@deadoslab.com",
       "clarity": null,
       "canal": "cf-milagros-goico",
-      "nota": "START en Cuentas 15/9; el onboarding con Teo fue el 29/9 (pregunta 54). 5/10: Candela preguntó en el canal cómo siguen."
+      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye les manda el link para la Clarity Call."
     },
     {
       "slug": "osmo-estudio",
@@ -78,7 +79,7 @@
       "correo": "delficorsalini@gmail.com",
       "clarity": null,
       "canal": "cf-delfina-corsalini",
-      "nota": "Onboarding con Teo el 5/10 14:00."
+      "nota": "Onboarding con Teo el 5/10: foco en rearmar la oferta (packs de piezas, margen erosionado), contenido propio y organizar el equipo de cinco. Sigue la Clarity Call."
     },
     {
       "slug": "marcelo-fernandez",
