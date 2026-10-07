@@ -1,0 +1,101 @@
+{
+  "modulo": "icp-mecanismo",
+  "slug": "sofia-guevara",
+  "founder": "Sofía Guevara",
+  "titulo": "La hoja de tu cliente ideal",
+  "bajada": "A quién le habla Altar: la persona que va a comprar las cápsulas y la que va a seguir tu historia. Qué le gusta, qué le falta y dónde está, con sus palabras. De acá salen los ángulos de tu contenido.",
+  "lista_cuando": "Las dos audiencias tienen nombre, gustos y lo que les falta, hay cinco conversaciones reales anotadas textuales y cada audiencia está escrita en una frase.",
+  "por_que_propia": "Forma B: Altar es una marca de producto que todavía no lanzó, sin clientas ni contenido publicado. La genérica pregunta por oficio, mecanismo, escalera de servicio y clientes que ya pagaron, que acá no aplican. Clarity Call del 7/10.",
+  "bajada_envio": {
+    "founder": "Sofía Guevara",
+    "porque": "En la Clarity Call quedó el norte de estos tres meses: que entiendas cómo comunicar y vender Altar, con tu marca personal adelante. Antes de decidir qué contenido subir, hay que saber a quién le hablás. Son dos audiencias: la que va a comprar las cápsulas y la que va a seguir tu historia y, por rebote, va a comprar la marca.",
+    "objetivo": "Las dos audiencias escritas, con cinco conversaciones reales que las respalden. Con esto vas a la llamada con Franco a trabajar ángulos y estrategia de contenido concreta.",
+    "mindset": "La narrativa y la estética ya las tenés. Esta hoja es para mirar del otro lado: quién está mirando. Escribí como te sale, sin curarlo. Lo que más vale son las frases reales de gente real."
+  },
+  "secciones": [
+    {
+      "cid": 0,
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "Altar es un concept store que lanza cápsulas de diseño inspiradas en los cuatro elementos. La primera es de indumentaria, y la matriz te deja crecer después a otras categorías y colaboraciones.",
+        "Al principio la marca es tu historia. Por eso lo primero es tu marca personal: vos como la creadora de Altar, contando por qué lo hacés, qué te estás jugando y cómo lo estás viviendo, lo bueno y lo difícil.",
+        "Para eso hay que saber a quién le hablás. Son dos audiencias que se tocan: la que compra la prenda y la que sigue tu proceso de crear una marca desde cero. Esta hoja es para escribirlas."
+      ],
+      "pregunta": "Algo de esto no te representa"
+    },
+    {
+      "cid": 8,
+      "nuestro": true,
+      "titulo": "Lo que ya nos mandaste",
+      "texto": [
+        "El manifiesto, las fotos de la campaña en Miro y el brandbook de Altar. Ya lo tenemos y es la base de esta hoja: la narrativa y la estética están. Lo que falta es del otro lado, a quién le hablan."
+      ]
+    },
+    {
+      "cid": 1,
+      "titulo": "Las dos audiencias",
+      "consigna": "Una fila por cada tipo de persona que imaginás. Arrancá por las dos: la que va a comprar la prenda y la que va a seguir tu historia (por ejemplo, diseñadoras o creativas que también quieren armar algo propio). Sumá las que te aparezcan. Escribilas como personas concretas: edad, a qué se dedica, dónde vive, qué marcas usa. Un gusto escrito como «le gusta el diseño» no sirve; escribilo como lo diría ella.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién es",
+        "Qué le interesa y qué consume",
+        "Qué le falta o le molesta de las marcas que compra hoy",
+        "Dónde está (cuentas que sigue, lugares, comunidades)",
+        "Por qué compraría Altar o te seguiría a vos"
+      ],
+      "filas": 5
+    },
+    {
+      "cid": 2,
+      "titulo": "Andá a preguntárselo a cinco",
+      "consigna": "Cinco personas reales que imaginás comprando Altar o siguiendo tu proceso: gente que ya preguntó por la marca, gente del atelier, clientas o colegas de tus trabajos en moda. Mostrales una prenda o tus referencias y preguntales qué les pasa con eso y qué les falta en lo que compran hoy. Anotá textual lo que contestaron, sin arreglarles la gramática. Quince minutos cada una alcanza.",
+      "campo": "tabla",
+      "columnas": [
+        "A quién",
+        "Qué audiencia es",
+        "Qué le mostraste o preguntaste",
+        "Qué contestó, textual"
+      ],
+      "filas": 5
+    },
+    {
+      "cid": 3,
+      "titulo": "Las marcas parecidas a Altar",
+      "consigna": "Tres a cinco marcas parecidas a Altar que tu clienta ya compra hoy. Por cada una: qué le gusta de esa marca, cuánto sale una prenda y qué le falta que Altar sí le da. Sirve para saber contra quién te compara y en qué precio te ubica.",
+      "campo": "tabla",
+      "columnas": [
+        "Marca",
+        "Qué le gusta a tu clienta de esa marca",
+        "Cuánto sale una prenda",
+        "Qué le falta que Altar le da"
+      ],
+      "filas": 5
+    },
+    {
+      "cid": 6,
+      "titulo": "Cada audiencia, en una frase",
+      "consigna": "Una frase por audiencia: quién es, qué busca y por qué Altar le habla a ella y no a cualquiera. Si la frase le sirve igual a cualquier persona que compra ropa, todavía no está.",
+      "campo": "lineas",
+      "lineas": [
+        "La que compra Altar",
+        "La que sigue tu historia"
+      ]
+    },
+    {
+      "cid": 7,
+      "nuestro": true,
+      "titulo": "Qué pasa con esto después",
+      "texto": [
+        "Con esta hoja devuelta vas a la llamada con Franco: de las dos audiencias salen los ángulos de comunicación y la estrategia de contenido para el lanzamiento.",
+        "Mientras tanto, la tarea de esta semana es grabar: una charla larga en horizontal, freestyle, respondiendo las preguntas que te harías a vos en este momento. Por qué decidiste hacer esto, qué te estás jugando, qué te está costando. Si te sirve, que alguien te las haga de costado y vos le contestás a esa persona. En la producción de fotos, grabá también a la modelo y al equipo: qué les pareció y por qué dijeron que sí."
+      ]
+    }
+  ],
+  "pasos": [
+    "Escribir las dos audiencias: la que compra la prenda y la que sigue tu historia, como personas concretas.",
+    "Hablar con cinco personas reales y anotar textual lo que contestaron.",
+    "Elegir tres a cinco marcas parecidas a Altar que tu clienta ya compra y anotar qué le falta a cada una.",
+    "Escribir cada audiencia en una frase."
+  ]
+}
