@@ -1,6 +1,6 @@
 {
   "regla": "Clientes de Founders que ya entraron y todavía no tienen ficha: la ficha se escribe después de la Clarity Call. El slug es el de la app (clientes.slug) y el del canal cf-; las cartas escritas para ellos usan este slug. Cuando se escribe la ficha, el cliente sale de esta lista.",
-  "actualizado": "2026-10-06",
+  "actualizado": "2026-10-07",
   "clientes": [
     {
       "slug": "rosario-sola",
@@ -8,7 +8,7 @@
       "start": "2026-09-23",
       "correo": "rosariosola@gmail.com",
       "clarity": "2026-09-29",
-      "nota": "Clarity hecha el 29/9. Devolvió el pasaporte digital el 30/9 (respuestas en el Project: clientes/rosario-sola-pasaporte-2026-09-30.md). Falta mandarle la carta de ICP (icp-mecanismo--rosario-sola) antes de la llamada con Franco del jueves 8/10 a las 10:00. Falta la ficha.",
+      "nota": "Clarity hecha el 29/9. Devolvió el pasaporte digital el 30/9 (respuestas en el Project: clientes/rosario-sola-pasaporte-2026-09-30.md). Falta mandarle la carta de ICP (icp-mecanismo--rosario-sola) antes de la llamada con Franco del jueves 8/10 a las 10:00. Falta la ficha. 6/10, grupal con Fede: todo pasa por su marca personal (reactiva la cuenta de 11.500 seguidores) y la comunidad sale de ahí; no vende productos este año.",
       "canal": "cf-rosario-sola"
     },
     {
@@ -18,7 +18,7 @@
       "correo": "satac.webdesigner@gmail.com",
       "clarity": null,
       "canal": "cf-mecha-studio",
-      "nota": "5/10: cerraron dos clientes el fin de semana y tienen otro posible cierre el miércoles; uno pide pieza audiovisual en Barcelona a inicios de noviembre."
+      "nota": "5/10: cerraron dos clientes el fin de semana y tienen otro posible cierre el miércoles; uno pide pieza audiovisual en Barcelona a inicios de noviembre. 6/10, grupal con Fede (Tiago y Samu): un solo servicio con estrategia, producción y edición; lanzan a fines de octubre y suben contenido todo octubre. Clarity de Tiago el 7/10 12:00."
     },
     {
       "slug": "lara-loiano",
@@ -44,7 +44,7 @@
       "correo": "beyourcontent@gmail.com",
       "clarity": null,
       "canal": "cf-lucila-prieto",
-      "nota": "5/10: completó los Founder Insights. Falta agendar la Clarity Call (Aye)."
+      "nota": "5/10: completó los Founder Insights. Falta agendar la Clarity Call (Aye). 6/10, grupal con Fede: documenta sus procesos como biblioteca; eso es su contenido y la base del infoproducto."
     },
     {
       "slug": "naiara-angeloff",
@@ -53,7 +53,7 @@
       "correo": "naiara@hungermedia.com.uy",
       "clarity": null,
       "canal": "cf-naiara-angeloff",
-      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye le manda el link para la Clarity Call."
+      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye le manda el link para la Clarity Call. 6/10, grupal con Fede: elegir clientes premium (chefs con marca personal) y vender solo branding. Clarity el 7/10 11:00."
     },
     {
       "slug": "milagros-goico",
@@ -70,7 +70,8 @@
       "start": "2026-10-01",
       "correo": "gonzalezivanac@gmail.com",
       "correo_alt": "info@osmoestudio.com.ar",
-      "clarity": null
+      "clarity": null,
+      "nota": "6/10, grupal con Fede (Ivana): un video selfie de 60 segundos por día."
     },
     {
       "slug": "delfina-corsalini",
@@ -103,7 +104,25 @@
       "start": "2026-10-05",
       "correo": "lmtzsifuentes@gmail.com",
       "clarity": null,
-      "nota": "Entró a Cuentas con START 5/10 (Discovery)."
+      "nota": "Entró a Cuentas con START 5/10 (Discovery). 6/10: primera grupal (marca de ropa desde cero); documenta el camino y separa su marca personal de la de ropa."
+    },
+    {
+      "slug": "camila-basso",
+      "nombre": "Camila Basso",
+      "start": "2026-10-05",
+      "correo": "camilabasso3644@gmail.com",
+      "clarity": null,
+      "canal": null,
+      "nota": "Fila propia en Cuentas como C. Founders (START 5/10): es ingreso nuevo, no la Camila del equipo de Aaron."
+    },
+    {
+      "slug": "luz-rodriguez-victoria-rios",
+      "nombre": "Luz Rodríguez y Victoria Ríos",
+      "start": "2026-10-06",
+      "correo": "luarmareacreativa@gmail.com",
+      "clarity": null,
+      "canal": "cf-luz-rodriguez-victoria-rios",
+      "nota": "Entraron a Cuentas el 6/10 (START 6/10). Archer les dio la bienvenida el 7/10."
     }
   ]
 }

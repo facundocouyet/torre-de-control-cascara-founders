@@ -73,6 +73,10 @@
       {
         "cuando": "1 oct",
         "que": "le piden a franco por slack una mano para cerrar dos presupuestos de eventos"
+      },
+      {
+        "cuando": "6 oct",
+        "que": "entran a la app; juan cruz deja el one-sheeter en el canal para facu y agenda una llamada para el martes 13/10"
       }
     ]
   },

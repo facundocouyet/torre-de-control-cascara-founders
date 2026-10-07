@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-06",
+  "actualizado": "2026-10-07",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -49,13 +49,13 @@
       }
     },
     "lucio-labate": {
-      "ultimo": "2026-09-30",
-      "que": "Llamada con Franco: la oferta pasa a Lanzamiento de marca, 6 semanas a 1.800 dólares.",
+      "ultimo": "2026-10-06",
+      "que": "Grupal con Fede: oferta de Lanzamiento de marca en PDF y una auditoría hecha.",
       "proximo": null,
-      "paso": "Franco le manda el documento de oferta y la escalera de valor; Lucio actualiza el one-sheeter y calcula su costo de entrega.",
+      "paso": "Abre la oferta por historias y prospecta en frío cada semana.",
       "carta": "La carta de Oferta.",
-      "pilar": "Oferta",
-      "pelota": "Franco"
+      "pilar": "Venta",
+      "pelota": "cliente"
     },
     "jose-david-fajardo": {
       "ultimo": "2026-09-30",
@@ -80,19 +80,19 @@
       }
     },
     "custom-lab": {
-      "ultimo": "2026-10-01",
-      "que": "Juan Cruz Aguirre le pidió a Franco por Slack ayuda con dos presupuestos (evento de una iglesia y evento de la ciudad), cada uno \"de 10\".",
-      "proximo": null,
-      "paso": "Franco los orienta: la iglesia tarda en confirmar y la ciudad pasó el deadline del 29/09. La reunión de contenido con Fede y la 1:1 siguen sin fecha.",
+      "ultimo": "2026-10-06",
+      "que": "Entraron a la app. Juan Cruz dejó el one-sheeter en el canal para Facu y agendó llamada para el martes 13/10.",
+      "proximo": "2026-10-13",
+      "paso": "Facu revisa el one-sheeter. La llamada del 13/10 (con quién, falta confirmar).",
       "carta": null,
-      "pilar": "Contenido",
-      "pelota": "Franco"
+      "pilar": "Oferta",
+      "pelota": "Facu"
     },
     "sebastian": {
-      "ultimo": "2026-10-05",
-      "que": "4/10: video de su historia en YouTube y cuatro shorts en trial. 5/10: presentó el Acelerador de Talleres a su lead y volvió a pedir los documentos.",
+      "ultimo": "2026-10-07",
+      "que": "6/10: grupal con Fede, landing de lista de espera con Teo antes de subir el video a YouTube. 7/10: pidió claridad en su canal; quiere priorizar la cohorte y siente poca dirección humana.",
       "proximo": null,
-      "paso": "Facu le devuelve la propuesta de talleres (precio por pieza, si va separada o única, frecuencia de jornadas, quién edita, replicación y permanencia), le manda los documentos que pidió el 2/10 y le contesta si sale el domingo sin landing.",
+      "paso": "Facu le contesta en el canal: fecha y contenido del lanzamiento de la cohorte, clases grabadas o en vivo, dónde manda a los interesados antes de la fecha y cómo entra la charla del 28.",
       "carta": "ICP y mecanismo, y Ángulos.",
       "pilar": "Venta",
       "pelota": "Facu",
@@ -205,8 +205,8 @@
       "pelota": "Teo"
     },
     "scarlett-montilla": {
-      "ultimo": "2026-09-30",
-      "que": "Grupal con Juana: separa texto y video en el feed. Debe el calendario y el one-pager a Franco.",
+      "ultimo": "2026-10-06",
+      "que": "Grupal con Fede: calendario del workshop con fecha; oferta hablada 100% para mujeres.",
       "proximo": "2026-10-09",
       "paso": "Mandarle a Franco el calendario y el one-pager; abrir el grupo de WhatsApp el 9/10.",
       "carta": null,
