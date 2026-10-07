@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 7 de octubre de 2026
+
+Miércoles de Clarity Calls: la grupal de Fede movió a varios y Seba pide que le bajes el lanzamiento vos.
+
+- **Seba pide claridad.** Grupal de Fede: landing de lista de espera con Teo antes de subir el video largo el fin de semana. A la madrugada escribió en su canal que su prioridad es la cohorte y que siente "poca dirección humana". La pelota queda en vos.
+- **Lucio, Scarlett y Custom Lab.** Lucio mostró la oferta en PDF y abre por historias; Scarlett arma el calendario del workshop; Custom Lab entró a la app, te dejó el one-sheeter y agendó una llamada el 13/10.
+- **Ingresos.** Camila Basso y Luz Rodríguez con Victoria Ríos entran a la lista; notas de la grupal en Rosario, Mecha, Osmo, Lucila, Naiara y Lorena.
+
+**Para mirar antes de subir:** las fichas de Seba y Custom Lab. Torre publicada, versión 70.
+
 ## 6 de octubre de 2026
 
 Martes en Madrid: Bianca ya tiene fecha para los anillos y los ingresos esperan tu link de agenda.
