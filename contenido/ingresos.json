@@ -1,6 +1,6 @@
 {
   "regla": "Clientes de Founders que ya entraron y todavía no tienen ficha: la ficha se escribe después de la Clarity Call. El slug es el de la app (clientes.slug) y el del canal cf-; las cartas escritas para ellos usan este slug. Cuando se escribe la ficha, el cliente sale de esta lista.",
-  "actualizado": "2026-10-07",
+  "actualizado": "2026-10-08",
   "clientes": [
     {
       "slug": "rosario-sola",
@@ -8,7 +8,7 @@
       "start": "2026-09-23",
       "correo": "rosariosola@gmail.com",
       "clarity": "2026-09-29",
-      "nota": "Clarity hecha el 29/9. Devolvió el pasaporte digital el 30/9 (respuestas en el Project: clientes/rosario-sola-pasaporte-2026-09-30.md). Falta mandarle la carta de ICP (icp-mecanismo--rosario-sola) antes de la llamada con Franco del jueves 8/10 a las 10:00. Falta la ficha. 6/10, grupal con Fede: todo pasa por su marca personal (reactiva la cuenta de 11.500 seguidores) y la comunidad sale de ahí; no vende productos este año.",
+      "nota": "Clarity hecha el 29/9. Devolvió el pasaporte digital el 30/9 (respuestas en el Project: clientes/rosario-sola-pasaporte-2026-09-30.md). Falta mandarle la carta de ICP (icp-mecanismo--rosario-sola) antes de la llamada con Franco del jueves 8/10 a las 10:00. Falta la ficha. 6/10, grupal con Fede: todo pasa por su marca personal (reactiva la cuenta de 11.500 seguidores) y la comunidad sale de ahí; no vende productos este año. 7/10, grupal de Juana: arranca con historias informales en la cuenta de 11.400. 8/10: Franco le dijo en su canal «Genial el one sheeter»; Aye coordina con ella para el 9/10.",
       "canal": "cf-rosario-sola"
     },
     {
@@ -16,9 +16,9 @@
       "nombre": "Samuel Tarancón",
       "start": "2026-09-23",
       "correo": "satac.webdesigner@gmail.com",
-      "clarity": null,
+      "clarity": "2026-10-07",
       "canal": "cf-mecha-studio",
-      "nota": "5/10: cerraron dos clientes el fin de semana y tienen otro posible cierre el miércoles; uno pide pieza audiovisual en Barcelona a inicios de noviembre. 6/10, grupal con Fede (Tiago y Samu): un solo servicio con estrategia, producción y edición; lanzan a fines de octubre y suben contenido todo octubre. Clarity de Tiago el 7/10 12:00."
+      "nota": "5/10: cerraron dos clientes el fin de semana y tienen otro posible cierre el miércoles; uno pide pieza audiovisual en Barcelona a inicios de noviembre. 6/10, grupal con Fede (Tiago y Samu): un solo servicio con estrategia, producción y edición; lanzan a fines de octubre y suben contenido todo octubre. Clarity de Tiago el 7/10 12:00. 7/10 Clarity Call de Tiago (Fathom 190580350): auditar procesos, después oferta, ICP y ángulos, lanzamiento y entrega escrita. Facu quedó en mandar la auditoría antes del 8/10 (Mecha la devuelve antes del 12/10); Tiago la reclamó el 8/10. Aye agenda Franco la semana que viene. Publican contenido tipo blog mientras tanto."
     },
     {
       "slug": "lara-loiano",
@@ -27,7 +27,7 @@
       "correo": "proyectonoiseit@gmail.com",
       "clarity": null,
       "canal": "cf-lara-loiano",
-      "nota": "6/10: completó el formulario de onboarding y pide el link para la Clarity Call."
+      "nota": "6/10: completó el formulario de onboarding y pide el link para la Clarity Call. Clarity Call el viernes 9/10 9:00."
     },
     {
       "slug": "juan-cruz-galeano",
@@ -44,25 +44,25 @@
       "correo": "beyourcontent@gmail.com",
       "clarity": null,
       "canal": "cf-lucila-prieto",
-      "nota": "5/10: completó los Founder Insights. Falta agendar la Clarity Call (Aye). 6/10, grupal con Fede: documenta sus procesos como biblioteca; eso es su contenido y la base del infoproducto."
+      "nota": "5/10: completó los Founder Insights. Falta agendar la Clarity Call (Aye). 6/10, grupal con Fede: documenta sus procesos como biblioteca; eso es su contenido y la base del infoproducto. Clarity Call el viernes 9/10 9:30."
     },
     {
       "slug": "naiara-angeloff",
       "nombre": "Naiara Angeloff",
       "start": "2026-09-28",
       "correo": "naiara@hungermedia.com.uy",
-      "clarity": null,
+      "clarity": "2026-10-07",
       "canal": "cf-naiara-angeloff",
-      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye le manda el link para la Clarity Call. 6/10, grupal con Fede: elegir clientes premium (chefs con marca personal) y vender solo branding. Clarity el 7/10 11:00."
+      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye le manda el link para la Clarity Call. 6/10, grupal con Fede: elegir clientes premium (chefs con marca personal) y vender solo branding. Clarity el 7/10 11:00. 7/10 Clarity Call (Fathom 190532699): vende fotos y entrega todo el proceso; seis clientes la saturan. Dirección: servicio de ticket alto en gastronomía y hotelería con equipo para producir. Facu quedó en mandar la auditoría de las últimas diez ventas y un desafío de contenido; después, Franco con oferta e ICP."
     },
     {
       "slug": "milagros-goico",
       "nombre": "Milagros Goico y Candela García (A2)",
       "start": "2026-09-15",
       "correo": "milagrosgoico@deadoslab.com",
-      "clarity": null,
+      "clarity": "2026-10-07",
       "canal": "cf-milagros-goico",
-      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye les manda el link para la Clarity Call."
+      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye les manda el link para la Clarity Call. 7/10 Clarity Call (Fathom 190492469): de a dos está llena con tickets bajos y todo por boca en boca; dirección: oferta de ticket alto (USD 1.500 a 3.000+) que venda estrategia, sale la gestión de pauta, Córdoba físico queda aparte. Facu quedó en mandar la auditoría de clientes y roles; Mili la reclamó el 8/10. Después, Franco con la oferta."
     },
     {
       "slug": "osmo-estudio",
@@ -80,7 +80,7 @@
       "correo": "delficorsalini@gmail.com",
       "clarity": null,
       "canal": "cf-delfina-corsalini",
-      "nota": "Onboarding con Teo el 5/10: foco en rearmar la oferta (packs de piezas, margen erosionado), contenido propio y organizar el equipo de cinco. Sigue la Clarity Call."
+      "nota": "Onboarding con Teo el 5/10: foco en rearmar la oferta (packs de piezas, margen erosionado), contenido propio y organizar el equipo de cinco. Sigue la Clarity Call. Clarity Call el viernes 9/10 14:30."
     },
     {
       "slug": "marcelo-fernandez",
@@ -123,6 +123,15 @@
       "clarity": null,
       "canal": "cf-luz-rodriguez-victoria-rios",
       "nota": "Entraron a Cuentas el 6/10 (START 6/10). Archer les dio la bienvenida el 7/10."
+    },
+    {
+      "slug": "said-espinosa",
+      "nombre": "Said Espinosa",
+      "start": "2026-10-07",
+      "correo": "said-espinosa@hotmail.com",
+      "clarity": null,
+      "canal": "cf-said-espinosa",
+      "nota": "8/10: onboarding con Aye; completa los Founder Insights y después agenda la Clarity Call. Tiene una agencia y hace todo, de la venta a la producción. Estuvo en la grupal de Procesos del 8/10."
     }
   ]
 }

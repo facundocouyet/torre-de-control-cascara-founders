@@ -12,7 +12,7 @@
     "pausada": "pausada",
     "completada": "completada"
   },
-  "actualizado": "2026-10-07",
+  "actualizado": "2026-10-08",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
@@ -122,6 +122,24 @@
       "activa": "icp-mecanismo--sofia-guevara",
       "siguiente": "angulos-desde-icp",
       "por_que": "Clarity Call del 7/10: Altar (marca de producto, sin lanzar). Las dos audiencias van antes de la llamada con Franco, que baja ángulos y estrategia de contenido."
+    },
+    "milagros-goico": {
+      "activa": "radiografia-360--milagros-goico",
+      "siguiente": "icp-mecanismo",
+      "por_que": "Clarity Call del 7/10: Facu quedó en mandarles la auditoría de clientes y roles; con eso van a la llamada con Franco por la oferta de ticket alto. Propuesta del agente: la hoja del punto A, después el ICP.",
+      "revision": "pendiente"
+    },
+    "naiara-angeloff": {
+      "activa": "radiografia-360--naiara-angeloff",
+      "siguiente": "icp-mecanismo",
+      "por_que": "Clarity Call del 7/10: Facu quedó en mandarle la auditoría de sus últimas diez ventas antes de la sesión con Franco por oferta y cliente ideal. Propuesta del agente: la hoja del punto A, después el ICP.",
+      "revision": "pendiente"
+    },
+    "samuel-tarancon": {
+      "activa": "radiografia-360--samuel-tarancon",
+      "siguiente": "icp-mecanismo",
+      "por_que": "Clarity Call del 7/10 (Tiago): Facu quedó en mandar la auditoría de negocio antes del 8/10 y Mecha la devuelve antes del 12/10, antes de Franco. Propuesta del agente: la hoja del punto A, después el ICP.",
+      "revision": "pendiente"
     }
   },
   "sin_carta": {

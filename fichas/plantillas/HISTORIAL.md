@@ -6,6 +6,7 @@
 ## 360 del negocio: punto A, cuello de botella y punto B · `radiografia-360`
 
 - **Cuándo va:** Se le asigna a todo founder en el primer mes, antes de tocar oferta o contenido.
+- **Versiones:** milagros-goico (liviana), naiara-angeloff (liviana), samuel-tarancon (liviana)
 - **Últimos cambios:**
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
@@ -28,13 +29,13 @@
 - **Cuándo va:** Cuando el comercial ya bajó a quién le vende y falta convertir esa definición en personas concretas con un dolor que se pueda nombrar.
 - **Cómo se personaliza:** La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10).
-- **Versiones:** agostina-marchesini (liviana), matias-morales (propia), rosario-sola (propia), sebastian (propia), sofia-galvis (propia), the-momentum-club (propia)
+- **Versiones:** agostina-marchesini (liviana), matias-morales (propia), rosario-sola (propia), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), the-momentum-club (propia)
 - **Últimos cambios:**
+  - 2026-10-07 · Sofía Guevara: carta de cliente ideal (Altar) asignada después de la Clarity Call (`33ae16b`)
   - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-10-03 · Sofía: lo del WhatsApp; carta de ICP más clara en la pregunta del dolor (todas las versiones) (`09702d7`)
   - 2026-10-03 · Agostina: lo del WhatsApp en la ficha y en sus cartas (precio, interesadas, sus cinco módulos) (`f215f2d`)
   - 2026-10-03 · Agostina: cartas propias de oferta, ICP y dolores, llamada de venta y producto (`703b0a1`)
-  - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
 ## One-sheeter de la oferta · `one-sheeter-oferta`
 
@@ -56,11 +57,11 @@
 - **Ojo:** Va después de oferta e ICP, nunca antes. No pide horas: el costo en plata (Facu, 4/10).
 - **Versiones:** sebastian (propia)
 - **Últimos cambios:**
+  - 2026-10-06 · Seba: hoja de oferta con costos por rubro; auditoría comercial con foco en seteo y llamada de venta; devolución con nombre del servicio (`be8f787`)
+  - 2026-10-06 · Seba: una sola hoja con escalera, costo, precio mínimo y recorrido del cliente; calendario de lanzamiento a la semana del 12/10 (`2801774`)
   - 2026-10-06 · Seba: devolución del Acelerador de Talleres y cartas en revisión (arranque del cliente y calendario de lanzamiento) (`8ff3697`)
   - 2026-10-04 · Precio y escalera sin horas; Momentum: oferta e ICP antes que precio (`924e88b`)
   - 2026-10-03 · Seba: las cartas que Facu le prometió el 2/10 (escalera, funnel del cohort, proceso comercial, editor, historias) (`7c23360`)
-  - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
-  - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
 
 ## Las primeras cinco llamadas con precio · `cinco-llamadas-con-precio`
 
@@ -72,8 +73,9 @@
 ## Profile funnel del perfil · `profile-funnel`
 
 - **Cuándo va:** Se le asigna a todo founder antes de que salga la primera pieza del tramo.
-- **Versiones:** lucio-labate (liviana), sol-boutmy (liviana)
+- **Versiones:** aaron-aiello (liviana), lucio-labate (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
+  - 2026-10-06 · Aaron: profile funnel personalizado, en paralelo al funnel de servicio (`e4d64da`)
   - 2026-09-25 · profile funnel: carta rehecha sobre el Profile Funnel V1 de Fede (`43e27d7`)
   - 2026-09-21 · Se terminan las hojas que faltaban y el documento de Qualita (`f6e7fc7`)
   - 2026-09-21 · Diez cartas escritas para cinco founders, y la variante liviana (`7140fe4`)
@@ -165,6 +167,16 @@
 - **Últimos cambios:**
   - 2026-09-24 · carta nueva: el webinar que agenda llamadas (`638afaa`)
 
+## Resultados del lanzamiento · `resultados-lanzamiento`
+
+- **Cuándo va:** Apenas cierra un lanzamiento (webinar, workshop o bootcamp), antes de rehacer la oferta con Franco.
+- **Cómo se personaliza:** La bajada con los números que ya se conocen del lanzamiento, para que vea que lo seguimos.
+- **Ojo:** Es un formulario: se completa en uno o dos días.
+- **Versiones:** lola-berutti (liviana), the-momentum-club (liviana)
+- **Últimos cambios:**
+  - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
+  - 2026-10-03 · Carta nueva: resultados del lanzamiento (Lola y Momentum); la cola de la app lleva siguiente, paralelas y después (`6189971`)
+
 ## Capitalizar un evento presencial · `capitalizar-evento`
 
 - **Cuándo va:** Cuando el founder da una charla, un taller o va a un evento y todo eso se termina el mismo día.
@@ -177,10 +189,11 @@
 - **Cuándo va:** Cuando el founder ya vende con un proceso comercial funcionando y está por abrir un canal que va a traer consultas de gente que no lo conoce.
 - **Versiones:** jose-david-fajardo (liviana), qualita (liviana), sebastian (liviana)
 - **Últimos cambios:**
+  - 2026-10-06 · Seba: auditoría comercial sin volumen por canal y con la llamada de venta de Cáscara escrita (`a4f22b8`)
+  - 2026-10-06 · Seba: hoja de oferta con costos por rubro; auditoría comercial con foco en seteo y llamada de venta; devolución con nombre del servicio (`be8f787`)
   - 2026-10-03 · Seba: las cartas que Facu le prometió el 2/10 (escalera, funnel del cohort, proceso comercial, editor, historias) (`7c23360`)
   - 2026-09-29 · José David: radiografía del primer mes (`763058b`)
   - 2026-09-24 · qualita: ajustes de Facu a proceso comercial y funnel de servicio (`3aff347`)
-  - 2026-09-24 · qualita: angulos reescrita, auditoria del metodo y del proceso comercial (`b2748ac`)
 
 ## Pipeline de siete campos · `pipeline-7-campos`
 
@@ -343,16 +356,6 @@
 - **Últimos cambios:**
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
-
-## Resultados del lanzamiento · `resultados-lanzamiento`
-
-- **Cuándo va:** Apenas cierra un lanzamiento (webinar, workshop o bootcamp), antes de rehacer la oferta con Franco.
-- **Cómo se personaliza:** La bajada con los números que ya se conocen del lanzamiento, para que vea que lo seguimos.
-- **Ojo:** Es un formulario: se completa en uno o dos días.
-- **Versiones:** lola-berutti (liviana), the-momentum-club (liviana)
-- **Últimos cambios:**
-  - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
-  - 2026-10-03 · Carta nueva: resultados del lanzamiento (Lola y Momentum); la cola de la app lleva siguiente, paralelas y después (`6189971`)
 
 ## Pasaporte digital · `pasaporte-digital`
 

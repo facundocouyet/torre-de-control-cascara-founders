@@ -1,0 +1,28 @@
+{
+  "modulo": "radiografia-360",
+  "slug": "milagros-goico",
+  "founder": "Mili y Cande (de a dos)",
+  "bajada_envio": {
+    "founder": "Mili y Cande (de a dos)",
+    "porque": "En la Clarity Call quedó a la vista que de a dos está llena y no crece: tickets bajos, mucha dedicación por cliente y todo entrando por boca en boca, así que llegan clientes que no pueden pagar más. Para armar la oferta nueva primero hay que ver los números reales de hoy, cliente por cliente.",
+    "objetivo": "Esta hoja completa con los clientes, lo que les cobran, lo que les entregan y cómo se reparten las horas entre las dos. Con eso Facu escribe la radiografía y van a la llamada con Franco a construir la oferta de ticket alto.",
+    "mindset": "Cuenten la semana real, la de la semana pasada. Si un cliente les come más horas de las que paga, anótenlo igual: ese dato es el que más sirve."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "La dirección es pasar a una oferta de ticket alto, entre USD 1.500 y 3.000 o más, que venda estrategia y resultado en lugar de entregables sueltos.",
+        "La oferta se arma sobre lo que a cada una le gusta hacer: Mili con la estrategia y la gestión, Cande con la creatividad, la producción y la edición.",
+        "La gestión de pauta sale del servicio: ustedes entregan los creativos con la estrategia y la pauta la lleva un especialista.",
+        "El espacio físico en Córdoba queda como proyecto aparte, para más adelante."
+      ]
+    }
+  ],
+  "ajustes": {
+    "3": {
+      "consigna": "Las horas reales de la semana pasada de cada una, repartidas entre vender, producir, entregar y administrar. En la última columna, qué rol podría hacer eso si no lo hacen ustedes (diseñador, CM, editor)."
+    }
+  }
+}

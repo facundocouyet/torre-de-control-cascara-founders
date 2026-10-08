@@ -1,0 +1,27 @@
+{
+  "modulo": "radiografia-360",
+  "slug": "samuel-tarancon",
+  "founder": "Tiago y Samuel (Mecha)",
+  "bajada_envio": {
+    "founder": "Tiago y Samuel (Mecha)",
+    "porque": "En la Clarity Call quedó claro que Mecha sabe hacer marketing para otros y todavía no lo aplicó a su propio negocio: faltan procesos escritos para el onboarding y la entrega, y una estrategia propia de contenido. El primer paso es mirar cómo trabajan hoy, para liberarles tiempo antes de definir la oferta.",
+    "objetivo": "Esta hoja completa antes del lunes 12/10, con los clientes, lo que cobran, lo que entregan y en qué se les van las horas a los dos. Con eso van a la llamada con Franco a definir la oferta, el cliente ideal y los ángulos para el lanzamiento.",
+    "mindset": "Escriban lo que pasa hoy, aunque esté desordenado. Lo que más tiempo les come es lo primero que se delega."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "El camino tiene cuatro pasos: auditar cómo trabajan hoy, definir la oferta y el cliente ideal, lanzar y después dejar escrita la entrega para que cada cliente viva lo mismo.",
+        "Mientras tanto, arrancan a publicar contenido orgánico tipo blog contando cómo construyen Mecha. Eso suma audiencia y práctica antes del lanzamiento.",
+        "Pásennos también los materiales que ya tienen: los PDF para clientes y la identidad del onboarding."
+      ]
+    }
+  ],
+  "ajustes": {
+    "3": {
+      "consigna": "Las horas reales de la semana pasada de cada uno, repartidas entre vender, producir, entregar y administrar. En la última columna, qué rol podría hacer eso si no lo hacen ustedes."
+    }
+  }
+}

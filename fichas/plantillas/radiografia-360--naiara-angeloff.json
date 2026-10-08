@@ -1,0 +1,28 @@
+{
+  "modulo": "radiografia-360",
+  "slug": "naiara-angeloff",
+  "founder": "Naiara Angeloff",
+  "bajada_envio": {
+    "founder": "Naiara Angeloff",
+    "porque": "En la Clarity Call quedó claro que hoy vendés fotos y entregables, cuando lo que hacés es todo el proceso: idea, foto, edición, copy y redes. Con seis clientes encima, el modelo no te deja crecer ni tener tiempo. Para armar el servicio de ticket alto primero hay que ver qué vendiste y cuánto te costó entregarlo.",
+    "objetivo": "Esta hoja completa con tus últimas diez ventas: qué entregaste, cuánto cobraste y cuánto trabajo te llevó. Con eso Facu ve qué clientes te rinden poco y qué se puede delegar, y llegás a la llamada con Franco con los números para definir la oferta y el cliente ideal.",
+    "mindset": "Anotá las ventas como fueron, aunque algunas te den vergüenza por el precio. Esa diferencia entre lo que cobrás y lo que entregás es justamente lo que vamos a cambiar."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "El nicho sigue siendo gastronomía y hotelería, apuntando a clientes con más presupuesto.",
+        "La venta pasa a ser una experiencia creativa y estratégica completa, con vos como socia del negocio del cliente.",
+        "Para delegar la producción armamos un equipo de confianza, así vos te quedás con la estrategia.",
+        "Tu marca personal es tu canal de venta: buscamos formatos que te resulten cómodos (voz en off, carruseles, detrás de escena)."
+      ]
+    }
+  ],
+  "ajustes": {
+    "0": {
+      "consigna": "Tus últimas diez ventas, una por fila: el cliente, qué le entregaste, cuánto cobraste y cuánto trabajo te llevó."
+    }
+  }
+}

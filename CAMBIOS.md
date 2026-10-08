@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 8 de octubre de 2026
+
+Las tres Clarity Calls del miércoles dejan su primera carta en revisión, y Aaron manda la oferta nueva.
+
+- **A2, Naiara y Mecha: la hoja del punto A, en revisión.** En las tres Clarity Calls quedaste en mandarles la auditoría de clientes, ventas y roles antes de Franco. Quedó como versión liviana de `radiografia-360` para cada uno, con lo que salió de la llamada arriba, y el ICP después. No entra a la app hasta que la apruebes vos o Aye.
+- **Aaron: oferta ARKHÉ reacondicionada.** La mandó en su canal con downsell, core, retainer y upsell, y pide feedback. Hito en la ficha y la pelota en vos.
+- **Ingresos.** Clarity hecha en A2, Naiara y Mecha; Said Espinosa entra (START 7/10); Lara, Lucila y Delfina con Clarity el viernes.
+
+**Para mirar antes de subir:** las tres cartas en `cartas/para/` (milagros-goico, naiara-angeloff, samuel-tarancon). Torre publicada, versión 71.
+
 ## 7 de octubre de 2026
 
 Miércoles de Clarity Calls: la grupal de Fede movió a varios y Seba pide que le bajes el lanzamiento vos.
