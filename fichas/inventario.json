@@ -8,15 +8,15 @@
           "id": "auditoria-de-clientes",
           "nombre": "Auditoría de clientes",
           "nivel": "troncal",
-          "para_quien": "Se asigna después de la Clarity Call, con lo que Facu le pidió en la llamada sobre sus clientes, antes de la llamada con Franco.",
+          "para_quien": "Después de la Clarity Call, antes de la llamada con Franco.",
           "eje": [
             "oferta"
           ],
-          "resultado": "Los clientes del founder escritos uno por uno: qué les vendió, a qué valor, cómo lo produce y cómo están hoy.",
+          "resultado": "Tus clientes escritos uno por uno: qué les vendiste, a qué valor, cómo lo producís y cómo están hoy.",
           "pasos": [
-            "Listar los clientes actuales y de los últimos meses, uno por fila.",
-            "Anotar qué les vendió, a qué valor, cómo lo produce y cómo están hoy.",
-            "Sumar quién trabaja con él y cuánto le paga, si tiene equipo."
+            "Listá tus clientes, los de ahora y los de los últimos meses, uno por fila.",
+            "Al lado de cada uno, qué le vendiste, a qué valor, cómo lo producís y cómo está hoy.",
+            "Si trabajás con alguien, sumá quién es, qué hace y cuánto le pagás."
           ],
           "completar": [
             "La tabla de clientes completa"
