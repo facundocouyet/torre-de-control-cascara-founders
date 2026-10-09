@@ -7,6 +7,8 @@
 
 - **Cuándo va:** Se asigna después de la Clarity Call, con lo que Facu le pidió en la llamada sobre sus clientes, antes de la llamada con Franco.
 - **Versiones:** delfina-corsalini (liviana), lara-loiano (liviana), lucila-prieto (liviana), milagros-goico (liviana), naiara-angeloff (liviana), said-espinosa (liviana), samuel-tarancon (liviana)
+- **Últimos cambios:**
+  - 2026-10-09 · Carta nueva: auditoría de clientes, simple, con lo que Facu pide en la Clarity (sin horas, sin punto A ni roadmap). Reemplaza la hoja del punto A en los siete ingresos; Sofía Guevara empieza de cero; sale el seteo de Seba (`78c2926`)
 
 ## 360 del negocio: punto A, cuello de botella y punto B · `radiografia-360`
 

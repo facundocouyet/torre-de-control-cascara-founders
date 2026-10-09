@@ -4,9 +4,9 @@
   "founder": "Lucila Prieto",
   "bajada_envio": {
     "founder": "Lucila Prieto",
-    "porque": "Es lo primero que te pedí en la Clarity Call para arrancar.",
-    "objetivo": "Tus clientes en la app antes de la llamada con Franco, a fin de la semana que viene.",
-    "mindset": "Escribilo como esté, sin ordenarlo de más: con eso alcanza."
+    "porque": "En la Clarity Call quedó claro que hoy producís y editás todo vos, y que vendés entregables sueltos a clientes que te piden «la chica de los videítos». Eso te deja sin tiempo para hacer crecer el negocio. Antes de rearmar la oferta hay que ver qué te deja cada cliente y cuánto te cuesta.",
+    "objetivo": "Esta carta completa con tus clientes de hoy: quiénes son, qué les vendiste, a qué ticket y por cuánto tiempo (si te sirve tu Excel por cliente, usalo tal cual). Con eso llegás ordenada a la llamada con Franco, hacia el final de la semana que viene, a definir la oferta.",
+    "mindset": "Anotá los clientes como son hoy, también el que te tiene renegando. La diferencia entre lo que cobrás y lo que te lleva es justo lo que vamos a cambiar."
   },
   "bloques_inicio": [
     {
@@ -14,6 +14,16 @@
       "titulo": "Lo que te pedí en la llamada",
       "texto": [
         "«Quiénes son, qué les vendiste y cómo, el ticket que le vendiste y por cuánto tiempo.»"
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "La oferta se separa en dos: la estrategia por un lado y la ejecución por otro, cada una con su ticket.",
+        "Para octubre: dejar armada la oferta, la entrega, el cliente ideal y el contenido que valida los ángulos, y cerrar uno o dos clientes con el modelo nuevo.",
+        "La edición se delega: armamos la búsqueda de editores y diseñadores para que vos te quedes con la estrategia.",
+        "Tu contenido ya está andando: lo usamos para documentar resultados de clientes, que es lo que después sostiene el infoproducto."
       ]
     }
   ],

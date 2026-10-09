@@ -3,10 +3,10 @@
   "slug": "lara-loiano",
   "founder": "Lara Loiano",
   "bajada_envio": {
-    "founder": "Lara Loiano",
-    "porque": "Es la primera carta que te prometí en la Clarity Call.",
-    "objetivo": "Tus clientes en la app antes de la llamada con Franco, a fin de la semana que viene.",
-    "mindset": "Escribilo como esté, sin ordenarlo de más: con eso alcanza."
+    "founder": "Lara Loiano (Noisy)",
+    "porque": "En la Clarity Call quedó claro que Noisy hace muchas cosas y vende la ejecución: el stand, el video, la pieza. Tu cabeza creativa queda adentro del precio sin cobrarse. Antes de armar la oferta de fidelización hay que ver dónde se te van el tiempo y la energía.",
+    "objetivo": "Esta carta completa con los clientes que tuviste: qué les vendiste, qué entregaste, a qué valor y cómo lo produjiste (vos sola o con freelancers). Con eso llegás a la llamada con Franco, hacia el final de la semana que viene, a definir la oferta.",
+    "mindset": "Escribí sin ordenar de más: después lo aterrizamos juntos. Lo que más energía te come es lo primero que se mira."
   },
   "bloques_inicio": [
     {
@@ -14,6 +14,16 @@
       "titulo": "Lo que te pedí en la llamada",
       "texto": [
         "«Qué clientes vendiste, qué entregables vendiste, a qué valores y cómo los producís. Y cómo es tu situación con estos clientes actualmente.»"
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "Los próximos tres meses son para rearmar los servicios y la oferta, la estrategia de marketing y contenido que la vende, y cómo se vende y se entrega.",
+        "El primer ángulo a validar es la fidelización a través de campañas creativas, con un resultado que se pueda medir.",
+        "El programa para freelancers queda para más adelante, como un escalón de la oferta.",
+        "Tu marca personal le da autoridad a la estrategia creativa: seguí creando contenido."
       ]
     }
   ],
