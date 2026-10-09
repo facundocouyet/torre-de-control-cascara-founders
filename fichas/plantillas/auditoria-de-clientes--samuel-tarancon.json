@@ -11,9 +11,9 @@
   "bloques_inicio": [
     {
       "nuestro": true,
-      "titulo": "Lo que te pedí en la llamada",
+      "titulo": "Lo que les pedí en la llamada",
       "texto": [
-        "Sus clientes, lo que les cobran y lo que les entregan."
+        "Los clientes que tienen hoy, lo que les cobran y lo que les entregan."
       ]
     },
     {
@@ -26,5 +26,46 @@
       ]
     }
   ],
-  "ajustes": {}
+  "ajustes": {
+    "0": {
+      "texto": [
+        "Lo que hablamos en la Clarity Call ya lo tenemos. Lo que falta son sus clientes, escritos uno por uno.",
+        "Se completa con lo que ya saben, tal como está hoy. Las conclusiones las sacamos nosotros."
+      ]
+    },
+    "1": {
+      "titulo": "Sus clientes",
+      "consigna": "Una fila por cliente, los de ahora y los de los últimos meses. Si de alguno no tienen un dato, déjenlo en blanco.",
+      "columnas": [
+        "Cliente",
+        "Qué le vendieron",
+        "A qué valor",
+        "Cómo lo producen",
+        "Cómo está hoy"
+      ]
+    },
+    "2": {
+      "titulo": "Quién trabaja con ustedes",
+      "consigna": "Si tienen equipo o freelancers, una fila por persona: qué hace y cuánto le pagan. Si no tienen, déjenlo vacío.",
+      "columnas": [
+        "Persona o rol",
+        "Qué hace",
+        "Cuánto le pagan"
+      ]
+    },
+    "3": {
+      "titulo": "Algo más que nos quieran contar",
+      "consigna": "Opcional: lo que les parezca importante de algún cliente y no entró en la tabla."
+    },
+    "4": {
+      "texto": [
+        "Lo cruzamos con lo que hablamos en la Clarity Call, y con eso llegan a la llamada con Franco con la lectura hecha para trabajar la oferta."
+      ]
+    }
+  },
+  "pasos": [
+    "Listen sus clientes, los de ahora y los de los últimos meses, uno por fila.",
+    "Al lado de cada uno, qué le vendieron, a qué valor, cómo lo producen y cómo está hoy.",
+    "Si trabajan con alguien más, sumen quién es, qué hace y cuánto le pagan."
+  ]
 }

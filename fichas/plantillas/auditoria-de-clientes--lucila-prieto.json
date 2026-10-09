@@ -29,7 +29,15 @@
   ],
   "ajustes": {
     "1": {
-      "consigna": "Una fila por cliente: quién es, qué le vendiste, el ticket, cómo lo producís y desde cuándo trabajan juntos. Si tenés tu Excel por cliente, podés pegarlo o resumirlo acá."
+      "consigna": "Una fila por cliente: quién es, qué le vendiste, el ticket, desde cuándo trabajan juntos, cómo lo producís y cómo está hoy. Si tenés tu Excel por cliente, podés pegarlo o resumirlo acá.",
+      "columnas": [
+        "Cliente",
+        "Qué le vendiste",
+        "Ticket",
+        "Desde cuándo",
+        "Cómo lo producís",
+        "Cómo está hoy"
+      ]
     }
   }
 }

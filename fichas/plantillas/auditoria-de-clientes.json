@@ -33,7 +33,7 @@
     {
       "cid": 2,
       "titulo": "Quién trabaja con vos",
-      "consigna": "Si tenés equipo o freelancers, una fila por persona: qué hace y cuánto le pagás. Si trabajás solo, dejalo vacío.",
+      "consigna": "Si tenés equipo o freelancers, una fila por persona: qué hace y cuánto le pagás. Si no tenés equipo, dejalo vacío.",
       "campo": "tabla",
       "columnas": [
         "Persona o rol",
@@ -55,7 +55,7 @@
       "cid": 4,
       "titulo": "Qué hacemos con esto",
       "texto": [
-        "Facu lo cruza con lo que hablamos en la Clarity Call, y con eso llegás a la llamada con Franco con la lectura hecha para trabajar la oferta."
+        "Lo cruzamos con lo que hablamos en la Clarity Call, y con eso llegás a la llamada con Franco con la lectura hecha para trabajar la oferta."
       ]
     }
   ]
