@@ -1,6 +1,6 @@
 {
   "regla": "Clientes de Founders que ya entraron y todavía no tienen ficha: la ficha se escribe después de la Clarity Call. El slug es el de la app (clientes.slug) y el del canal cf-; las cartas escritas para ellos usan este slug. Cuando se escribe la ficha, el cliente sale de esta lista.",
-  "actualizado": "2026-10-08",
+  "actualizado": "2026-10-09",
   "clientes": [
     {
       "slug": "rosario-sola",
@@ -8,7 +8,7 @@
       "start": "2026-09-23",
       "correo": "rosariosola@gmail.com",
       "clarity": "2026-09-29",
-      "nota": "Clarity hecha el 29/9. Devolvió el pasaporte digital el 30/9 (respuestas en el Project: clientes/rosario-sola-pasaporte-2026-09-30.md). Falta mandarle la carta de ICP (icp-mecanismo--rosario-sola) antes de la llamada con Franco del jueves 8/10 a las 10:00. Falta la ficha. 6/10, grupal con Fede: todo pasa por su marca personal (reactiva la cuenta de 11.500 seguidores) y la comunidad sale de ahí; no vende productos este año. 7/10, grupal de Juana: arranca con historias informales en la cuenta de 11.400. 8/10: Franco le dijo en su canal «Genial el one sheeter»; Aye coordina con ella para el 9/10.",
+      "nota": "Clarity hecha el 29/9. Devolvió el pasaporte digital el 30/9 (respuestas en el Project: clientes/rosario-sola-pasaporte-2026-09-30.md). Falta mandarle la carta de ICP (icp-mecanismo--rosario-sola) antes de la llamada con Franco del jueves 8/10 a las 10:00. Falta la ficha. 6/10, grupal con Fede: todo pasa por su marca personal (reactiva la cuenta de 11.500 seguidores) y la comunidad sale de ahí; no vende productos este año. 7/10, grupal de Juana: arranca con historias informales en la cuenta de 11.400. 8/10: Franco le dijo en su canal «Genial el one sheeter»; Aye coordina con ella para el 9/10. 9/10, seguimiento con Aye (Fathom 191398068): la llamada con Franco no se hizo el 8/10; pasa al martes 13/10 (hora falta confirmar). Quiere que Franco le ordene la escalera de valor; ve las clases de Teo de base de datos y completa la carta de ICP en la app.",
       "canal": "cf-rosario-sola"
     },
     {
@@ -25,9 +25,9 @@
       "nombre": "Lara Loiano",
       "start": "2026-09-25",
       "correo": "proyectonoiseit@gmail.com",
-      "clarity": null,
+      "clarity": "2026-10-09",
       "canal": "cf-lara-loiano",
-      "nota": "6/10: completó el formulario de onboarding y pide el link para la Clarity Call. Clarity Call el viernes 9/10 9:00."
+      "nota": "6/10: completó el formulario de onboarding y pide el link para la Clarity Call. Clarity Call el viernes 9/10 9:00. 9/10 Clarity Call (Fathom 191338114, Facu la corrió a las 10:30): rearmar servicios y oferta; primer ángulo, fidelización a través de campañas creativas; programa para freelancers más adelante. Franco a fin de la semana del 12/10. Hoja del punto A en revisión. Entró a las grabaciones el 9/10 (Teo)."
     },
     {
       "slug": "juan-cruz-galeano",
@@ -35,16 +35,17 @@
       "start": "2026-09-25",
       "correo": "jctgaleano@gmail.com",
       "clarity": null,
-      "canal": "cf-juan-cruz-galeano"
+      "canal": "cf-juan-cruz-galeano",
+      "nota": " 9/10: se pone al día el fin de semana con Skool y los Founder Insights; después agenda la Clarity (Aye)."
     },
     {
       "slug": "lucila-prieto",
       "nombre": "Lucila Prieto",
       "start": "2026-09-25",
       "correo": "beyourcontent@gmail.com",
-      "clarity": null,
+      "clarity": "2026-10-09",
       "canal": "cf-lucila-prieto",
-      "nota": "5/10: completó los Founder Insights. Falta agendar la Clarity Call (Aye). 6/10, grupal con Fede: documenta sus procesos como biblioteca; eso es su contenido y la base del infoproducto. Clarity Call el viernes 9/10 9:30."
+      "nota": "5/10: completó los Founder Insights. Falta agendar la Clarity Call (Aye). 6/10, grupal con Fede: documenta sus procesos como biblioteca; eso es su contenido y la base del infoproducto. Clarity Call el viernes 9/10 9:30. 9/10 Clarity Call (Fathom 191310026): estrategia y ejecución como dos tickets, delegar la edición, documentar casos; octubre para dejar armada la oferta y cerrar uno o dos clientes. Facu le pasa el formulario de búsqueda de editores y el tarifario interno; Franco a fin de la semana del 12/10. Hoja del punto A en revisión."
     },
     {
       "slug": "naiara-angeloff",
@@ -78,9 +79,9 @@
       "nombre": "Delfina Corsalini",
       "start": "2026-10-01",
       "correo": "delficorsalini@gmail.com",
-      "clarity": null,
+      "clarity": "2026-10-09",
       "canal": "cf-delfina-corsalini",
-      "nota": "Onboarding con Teo el 5/10: foco en rearmar la oferta (packs de piezas, margen erosionado), contenido propio y organizar el equipo de cinco. Sigue la Clarity Call. Clarity Call el viernes 9/10 14:30."
+      "nota": "Onboarding con Teo el 5/10: foco en rearmar la oferta (packs de piezas, margen erosionado), contenido propio y organizar el equipo de cinco. Sigue la Clarity Call. Clarity Call el viernes 9/10 14:30. 9/10 Clarity Call (Fathom 191479184): ciclos de 3 meses por adelantado, estrategia aparte (USD 2.000 a 3.000), cliente ideal y diferencial; contenido «cero influencer». Hoja del punto A en revisión; Franco sin fecha."
     },
     {
       "slug": "marcelo-fernandez",
@@ -96,7 +97,7 @@
       "start": "2026-10-05",
       "correo": "sguevaracelentano@gmail.com",
       "clarity": "2026-10-07",
-      "nota": "Francisca pidió su grupo el 30/9; sin fila en Cuentas (pregunta 73). 5/10: Cuentas ya tiene mail y START 5/10; onboarding con Teo el miércoles 7/10. 7/10: Clarity Call con Facu (Altar, concept store de cápsulas; marca personal primero). Mandó manifiesto, fotos de campaña y brandbook por Slack. Carta activa: cliente ideal."
+      "nota": "Francisca pidió su grupo el 30/9; sin fila en Cuentas (pregunta 73). 5/10: Cuentas ya tiene mail y START 5/10; onboarding con Teo el miércoles 7/10. 7/10: Clarity Call con Facu (Altar, concept store de cápsulas; marca personal primero). Mandó manifiesto, fotos de campaña y brandbook por Slack. Carta activa: cliente ideal. 9/10, con Facu y Aye (Fathom 191442851): se resetea el proceso desde el onboarding (Aye le mandó el Calendly); completa los Founder Insights y manda el cliente ideal y el contenido grabado la semana que viene. Sesión de 1 a 1,5 h con Juana sobre la dirección creativa de la campaña (sale el 19, falta confirmar el mes) y después sesión estratégica con Facu."
     },
     {
       "slug": "lorena-martinez",
@@ -129,9 +130,9 @@
       "nombre": "Said Espinosa",
       "start": "2026-10-07",
       "correo": "said-espinosa@hotmail.com",
-      "clarity": null,
+      "clarity": "2026-10-09",
       "canal": "cf-said-espinosa",
-      "nota": "8/10: onboarding con Aye; completa los Founder Insights y después agenda la Clarity Call. Tiene una agencia y hace todo, de la venta a la producción. Estuvo en la grupal de Procesos del 8/10."
+      "nota": "8/10: onboarding con Aye; completa los Founder Insights y después agenda la Clarity Call. Tiene una agencia y hace todo, de la venta a la producción. Estuvo en la grupal de Procesos del 8/10. 9/10 Clarity Call (Fathom 191358092): de contenido mensual a ciclos de 3 meses con estrategia primero; dos propuestas de noviembre (heladerías y asados) que manda para feedback; arranca por su marca personal. Franco hacia el 15/10. Hoja del punto A en revisión; la reclamó en su canal a la noche."
     }
   ]
 }

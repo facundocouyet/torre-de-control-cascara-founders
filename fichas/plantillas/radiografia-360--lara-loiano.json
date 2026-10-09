@@ -1,0 +1,31 @@
+{
+  "modulo": "radiografia-360",
+  "slug": "lara-loiano",
+  "founder": "Lara Loiano (Noisy)",
+  "bajada_envio": {
+    "founder": "Lara Loiano (Noisy)",
+    "porque": "En la Clarity Call quedó claro que Noisy hace muchas cosas y vende la ejecución: el stand, el video, la pieza. Tu cabeza creativa queda adentro del precio sin cobrarse. Antes de armar la oferta de fidelización hay que ver dónde se te van el tiempo y la energía.",
+    "objetivo": "Esta hoja completa con los clientes que tuviste: qué les vendiste, qué entregaste, a qué valor y cómo lo produjiste (vos sola o con freelancers). Con eso llegás a la llamada con Franco, hacia el final de la semana que viene, a definir la oferta.",
+    "mindset": "Escribí sin ordenar de más: después lo aterrizamos juntos. Lo que más energía te come es lo primero que se mira."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "Los próximos tres meses son para rearmar los servicios y la oferta, la estrategia de marketing y contenido que la vende, y cómo se vende y se entrega.",
+        "El primer ángulo a validar es la fidelización a través de campañas creativas, con un resultado que se pueda medir.",
+        "El programa para freelancers queda para más adelante, como un escalón de la oferta.",
+        "Tu marca personal le da autoridad a la estrategia creativa: seguí creando contenido."
+      ]
+    }
+  ],
+  "ajustes": {
+    "0": {
+      "consigna": "Los clientes que tuviste, uno por fila: qué les vendiste, qué entregaste, a qué valor y cómo lo produjiste (sola o con qué freelancers)."
+    },
+    "4": {
+      "consigna": "Contá también, sin filtro, cómo sería tu servicio ideal. Facu lo cruza con los números y después lo aterrizamos."
+    }
+  }
+}

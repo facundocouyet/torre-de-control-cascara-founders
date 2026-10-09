@@ -1,0 +1,28 @@
+{
+  "modulo": "radiografia-360",
+  "slug": "lucila-prieto",
+  "founder": "Lucila Prieto",
+  "bajada_envio": {
+    "founder": "Lucila Prieto",
+    "porque": "En la Clarity Call quedó claro que hoy producís y editás todo vos, y que vendés entregables sueltos a clientes que te piden «la chica de los videítos». Eso te deja sin tiempo para hacer crecer el negocio. Antes de rearmar la oferta hay que ver qué te deja cada cliente y cuánto te cuesta.",
+    "objetivo": "Esta hoja completa con tus clientes de hoy: quiénes son, qué les vendiste, a qué ticket y por cuánto tiempo, y cuántas horas te lleva cada uno (el Excel de horas y valor por hora que tenés sirve tal cual). Con eso llegás ordenada a la llamada con Franco, hacia el final de la semana que viene, a definir la oferta.",
+    "mindset": "Anotá los clientes como son hoy, también el que te tiene renegando. La diferencia entre lo que cobrás y lo que te lleva es justo lo que vamos a cambiar."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "La oferta se separa en dos: la estrategia por un lado y la ejecución por otro, cada una con su ticket.",
+        "Para octubre: dejar armada la oferta, la entrega, el cliente ideal y el contenido que valida los ángulos, y cerrar uno o dos clientes con el modelo nuevo.",
+        "La edición se delega: armamos la búsqueda de editores y diseñadores para que vos te quedes con la estrategia.",
+        "Tu contenido ya está andando: lo usamos para documentar resultados de clientes, que es lo que después sostiene el infoproducto."
+      ]
+    }
+  ],
+  "ajustes": {
+    "0": {
+      "consigna": "Tus clientes de hoy, uno por fila: quién es, qué le vendiste, a qué ticket y desde hace cuánto. Si tenés el Excel de horas por cliente, pegalo o resumilo acá."
+    }
+  }
+}

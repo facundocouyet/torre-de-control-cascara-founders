@@ -12,7 +12,7 @@
     "pausada": "pausada",
     "completada": "completada"
   },
-  "actualizado": "2026-10-08",
+  "actualizado": "2026-10-09",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
@@ -139,6 +139,30 @@
       "activa": "radiografia-360--samuel-tarancon",
       "siguiente": "icp-mecanismo",
       "por_que": "Clarity Call del 7/10 (Tiago): Facu quedó en mandar la auditoría de negocio antes del 8/10 y Mecha la devuelve antes del 12/10, antes de Franco. Propuesta del agente: la hoja del punto A, después el ICP.",
+      "revision": "pendiente"
+    },
+    "lucila-prieto": {
+      "activa": "radiografia-360--lucila-prieto",
+      "siguiente": "icp-mecanismo",
+      "por_que": "Clarity Call del 9/10: Facu quedó en mandar hoy por la app la auditoría de clientes (quién, qué, ticket, horas) antes de la llamada con Franco a fin de la semana del 12/10. Propuesta del agente: la hoja del punto A, después el ICP.",
+      "revision": "pendiente"
+    },
+    "lara-loiano": {
+      "activa": "radiografia-360--lara-loiano",
+      "siguiente": "icp-mecanismo",
+      "por_que": "Clarity Call del 9/10: la primera carta es la auditoría (clientes, entregables, valores y cómo los produce) antes de Franco a fin de la semana del 12/10. Propuesta del agente: la hoja del punto A, después el ICP.",
+      "revision": "pendiente"
+    },
+    "said-espinosa": {
+      "activa": "radiografia-360--said-espinosa",
+      "siguiente": "icp-mecanismo",
+      "por_que": "Clarity Call del 9/10: Facu quedó en dejar cargado hoy en la app el formulario de auditoría; Said ya lo reclamó en su canal. Franco hacia el 15/10 por la oferta. Propuesta del agente: la hoja del punto A, después el ICP.",
+      "revision": "pendiente"
+    },
+    "delfina-corsalini": {
+      "activa": "radiografia-360--delfina-corsalini",
+      "siguiente": "icp-mecanismo",
+      "por_que": "Clarity Call del 9/10: auditoría de clientes, equipo, roles y sueldos por la app, después oferta con Franco. Propuesta del agente: la hoja del punto A, después el ICP.",
       "revision": "pendiente"
     }
   },

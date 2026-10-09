@@ -1,0 +1,28 @@
+{
+  "modulo": "radiografia-360",
+  "slug": "said-espinosa",
+  "founder": "Said Espinosa",
+  "bajada_envio": {
+    "founder": "Said Espinosa",
+    "porque": "En la Clarity Call quedó claro que hoy vendés producción de contenido sin pasar por la estrategia, y que hacés todo vos: estrategia, entrevistas, grabación, posproducción y métricas. Antes de cobrar distinto hay que ver qué vendiste y cuánto te costó entregarlo.",
+    "objetivo": "Esta hoja completa con todo lo de tu clienta del estudio de yoga y con las dos propuestas que tenés abiertas (la cadena de heladerías y el restaurante de asados). Con eso llegás a la llamada con Franco, hacia el final de la semana que viene, a definir la oferta.",
+    "mindset": "Poné los números como son, aunque todavía no sepas cuánto cobrar. Justamente eso es lo que vamos a resolver."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "La oferta pasa de contenido mes a mes a ciclos de tres meses: auditoría y estrategia primero, producción después.",
+        "Para las dos marcas que lanzan en noviembre: branding, estrategia y una o dos jornadas de producción, en dos pagos. El community manager va aparte, solo si hace falta.",
+        "Mandá esas dos propuestas por el canal para que te demos feedback.",
+        "Arrancás por tu marca personal: contá el proceso y tu historia desde ya."
+      ]
+    }
+  ],
+  "ajustes": {
+    "0": {
+      "consigna": "Tus ventas, una por fila, empezando por el estudio de yoga y sumando las dos propuestas de noviembre: qué compró o qué le vas a ofrecer, cuánto pagó o cuánto pensás cobrar y por dónde llegó."
+    }
+  }
+}

@@ -6,8 +6,9 @@
 ## 360 del negocio: punto A, cuello de botella y punto B · `radiografia-360`
 
 - **Cuándo va:** Se le asigna a todo founder en el primer mes, antes de tocar oferta o contenido.
-- **Versiones:** milagros-goico (liviana), naiara-angeloff (liviana), samuel-tarancon (liviana)
+- **Versiones:** delfina-corsalini (liviana), lara-loiano (liviana), lucila-prieto (liviana), milagros-goico (liviana), naiara-angeloff (liviana), said-espinosa (liviana), samuel-tarancon (liviana)
 - **Últimos cambios:**
+  - 2026-10-08 · 8/10: hoja del punto A en revisión para A2, Naiara y Mecha; Aaron con oferta ARKHÉ; ingresos al día (Said Espinosa) (`132bb50`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
 ## Elegir la ventana y soltar el resto · `foco-y-ventana`

@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-08",
+  "actualizado": "2026-10-09",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -89,10 +89,10 @@
       "pelota": "Facu"
     },
     "sebastian": {
-      "ultimo": "2026-10-07",
-      "que": "6/10: grupal con Fede, landing de lista de espera con Teo antes de subir el video a YouTube. 7/10: pidió claridad en su canal; quiere priorizar la cohorte y siente poca dirección humana.",
-      "proximo": null,
-      "paso": "Facu le contesta en el canal: fecha y contenido del lanzamiento de la cohorte, clases grabadas o en vivo, dónde manda a los interesados antes de la fecha y cómo entra la charla del 28.",
+      "ultimo": "2026-10-09",
+      "que": "9/10: 1:1 con Facu. Cohort con clases en vivo y un video de onboarding pregrabado; los interesados van al DM y a llamada desde ya; done for you cerrado solo con FitPM.",
+      "proximo": "2026-10-13",
+      "paso": "Facu le manda el reseteo de la app y el Profile Funnel; Seba termina el curso y sube el video el 11/10; segunda llamada con Franco el 13 o 14/10 para cerrar fecha y calendario.",
       "carta": "ICP y mecanismo, y Ángulos.",
       "pilar": "Venta",
       "pelota": "Facu",

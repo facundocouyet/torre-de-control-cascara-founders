@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 9 de octubre de 2026
+
+Cuatro Clarity Calls y la 1:1 de Seba: los cuatro ingresos quedan con su hoja del punto A en revisión.
+
+- **Lucila, Lara, Said y Delfina: la hoja del punto A, en revisión.** En las cuatro Clarity Calls quedaste en subir hoy a la app la auditoría antes de la llamada con Franco. Quedó como versión liviana de `radiografia-360` para cada una, con lo que salió de la llamada arriba, y el ICP después. Said ya la pidió en su canal.
+- **Seba: 1:1 del 9/10.** El cohort va con clases en vivo y un video de onboarding pregrabado; los interesados van del DM a llamada desde ya; el done for you quedó con un solo cliente. Calendario y fecha los baja Franco el 13 o 14/10. Le debés el reseteo de la app y el Profile Funnel.
+- **Ingresos.** Rosario pasa la llamada con Franco al martes 13/10; Sofía Guevara resetea desde el onboarding, con sesión de Juana primero.
+
+**Para mirar antes de subir:** las cuatro cartas en `cartas/para/` (lucila-prieto, lara-loiano, said-espinosa, delfina-corsalini) y la fila de Seba en la torre.
+
 ## 8 de octubre de 2026
 
 Las tres Clarity Calls del miércoles dejan su primera carta en revisión, y Aaron manda la oferta nueva.

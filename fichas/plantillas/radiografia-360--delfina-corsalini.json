@@ -1,0 +1,28 @@
+{
+  "modulo": "radiografia-360",
+  "slug": "delfina-corsalini",
+  "founder": "Delfina Corsalini",
+  "bajada_envio": {
+    "founder": "Delfina Corsalini",
+    "porque": "En la Clarity Call quedó claro que vendés un servicio mensual estándar a clientes de ticket bajo, para quienes el marketing es un «nice to have», y que todo termina pasando por vos. Antes de cambiar los servicios hay que ver qué te deja cada cliente y cuánto te cuesta el equipo.",
+    "objetivo": "Esta hoja completa con tus clientes, lo que les vendés y a qué precio, y con tu equipo de cinco: rol de cada uno y cuánto cuesta. Con eso trabajamos la oferta con Franco: ciclos de tres meses cobrados por adelantado y la estrategia vendida aparte.",
+    "mindset": "Escribí lo que pasa hoy aunque esté desordenado. Poner límites arranca por ver en números dónde se te va el tiempo."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "Los servicios cambian: ciclos de tres meses cobrados por adelantado, como máximo en dos cuotas, y la estrategia se vende aparte de los entregables.",
+        "El orden es auditoría, después oferta, cliente ideal y diferencial, después ángulos y contenido.",
+        "Tu equipo puede sumarse a las llamadas grupales.",
+        "Para el contenido, cero influencer: mostrá tu trabajo y probá formatos hasta encontrar uno en el que estés cómoda."
+      ]
+    }
+  ],
+  "ajustes": {
+    "3": {
+      "consigna": "Tu equipo, una fila por persona: rol, qué hace en la semana, cuánto cuesta por mes y qué podría hacer que hoy hacés vos. Sumá tus propias horas de la semana pasada."
+    }
+  }
+}
