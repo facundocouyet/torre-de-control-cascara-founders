@@ -8,6 +8,7 @@
 - **Cuándo va:** Se le asigna a todo founder en el primer mes, antes de tocar oferta o contenido.
 - **Versiones:** delfina-corsalini (liviana), lara-loiano (liviana), lucila-prieto (liviana), milagros-goico (liviana), naiara-angeloff (liviana), said-espinosa (liviana), samuel-tarancon (liviana)
 - **Últimos cambios:**
+  - 2026-10-09 · 9/10: hoja del punto A en revisión para Lucila, Lara, Said y Delfina; 1:1 de Seba; Rosario y Sofía Guevara al día (`9991231`)
   - 2026-10-08 · 8/10: hoja del punto A en revisión para A2, Naiara y Mecha; Aaron con oferta ARKHÉ; ingresos al día (Said Espinosa) (`132bb50`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
@@ -74,7 +75,7 @@
 ## Profile funnel del perfil · `profile-funnel`
 
 - **Cuándo va:** Se le asigna a todo founder antes de que salga la primera pieza del tramo.
-- **Versiones:** aaron-aiello (liviana), lucio-labate (liviana), sol-boutmy (liviana)
+- **Versiones:** aaron-aiello (liviana), lucio-labate (liviana), sebastian (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
   - 2026-10-06 · Aaron: profile funnel personalizado, en paralelo al funnel de servicio (`e4d64da`)
   - 2026-09-25 · profile funnel: carta rehecha sobre el Profile Funnel V1 de Fede (`43e27d7`)
@@ -223,6 +224,7 @@
 ## Propuesta comercial con esqueleto fijo · `propuesta-comercial`
 
 - **Cuándo va:** Cuando el founder arma cada presupuesto de cero y tarda días en mandarlo.
+- **Versiones:** said-espinosa (liviana)
 - **Últimos cambios:**
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
@@ -236,7 +238,7 @@
 ## Onboarding a 48 horas y roadmap para el cliente · `onboarding-y-roadmap-cliente`
 
 - **Cuándo va:** Cuando la venta cae y a partir de ahí el founder improvisa.
-- **Versiones:** sebastian (liviana)
+- **Versiones:** said-espinosa (liviana), sebastian (liviana)
 - **Últimos cambios:**
   - 2026-10-06 · Seba: devolución del Acelerador de Talleres y cartas en revisión (arranque del cliente y calendario de lanzamiento) (`8ff3697`)
   - 2026-09-21 · El formulario de editores y el tarifario, como recurso fijo de la torre (`51cdb03`)
@@ -302,7 +304,7 @@
 ## Contratar la primera persona · `contratar-primer-rol`
 
 - **Cuándo va:** Cuando el founder llegó al techo de sus propias horas y lo que lo ocupa no necesita su criterio, sino su tiempo.
-- **Versiones:** sebastian (liviana), sol-boutmy (liviana)
+- **Versiones:** lucila-prieto (liviana), sebastian (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
   - 2026-10-03 · Seba: las cartas que Facu le prometió el 2/10 (escalera, funnel del cohort, proceso comercial, editor, historias) (`7c23360`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)

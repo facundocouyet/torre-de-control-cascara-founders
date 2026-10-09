@@ -1,0 +1,27 @@
+{
+  "modulo": "onboarding-y-roadmap-cliente",
+  "slug": "said-espinosa",
+  "founder": "Said Espinosa",
+  "bajada_envio": {
+    "founder": "Said Espinosa",
+    "porque": "En la Clarity Call quedé en bajarte un documento de onboarding: qué le preguntás a un cliente al arrancar, cómo le contás el servicio y qué resultado espera. Hoy hacés todo vos y cada cliente arranca distinto; con los dos de noviembre conviene que arranquen igual.",
+    "objetivo": "Las primeras 48 horas después de cada venta escritas y un roadmap con hitos para presentarle al cliente, listo antes de que arranquen la heladería y el restaurante de asados.",
+    "mindset": "El cliente compra más tranquilo cuando sabe qué va a pasar y cuándo. Lo que no se escribe se explica distinto cada vez."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que hablamos",
+      "texto": [
+        "En la primera llamada contás cómo funciona el servicio: fechas, etapas y el resultado que se espera.",
+        "Preguntás para entender qué quiere el cliente y le proponés lo que te imaginás, para que lo confirme.",
+        "El orden es branding, después estrategia de lanzamiento, después producción. Se cobra lo más posible por adelantado, como mucho en dos pagos."
+      ]
+    }
+  ],
+  "ajustes": {
+    "7": {
+      "consigna": "Corrélo con tu clienta del estudio de yoga y con los dos clientes de noviembre: fecha de la reunión, qué preguntó cada uno y qué hubo que corregir."
+    }
+  }
+}

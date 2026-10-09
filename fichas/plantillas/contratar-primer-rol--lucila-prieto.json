@@ -1,0 +1,23 @@
+{
+  "modulo": "contratar-primer-rol",
+  "slug": "lucila-prieto",
+  "founder": "Lucila Prieto",
+  "bajada_envio": {
+    "founder": "Lucila Prieto",
+    "porque": "Es lo que quedé en pasarte en la Clarity Call: el formulario para buscar editores y diseñadores y el tarifario de Cáscara. Hoy producís y editás todo vos, y mientras la edición siga en tus manos no queda tiempo para vender estrategia. Va en paralelo con la hoja del punto A.",
+    "objetivo": "La búsqueda publicada en tus historias o en un reel, contando que estás armando algo nuevo, con el formulario recibiendo postulaciones y un cliente elegido para la prueba paga.",
+    "mindset": "«Me la aguanto y sigo editando» es justo lo que vamos a cambiar. La primera pieza de otra persona va a salir distinta a la tuya, y eso está bien: se corrige con el brief, no volviendo a editar vos."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "La edición se delega para que vos te quedes con la estrategia, que es lo que vamos a vender aparte de la ejecución.",
+        "Tu contenido ya está andando: la búsqueda se anuncia ahí, contando que estás creando algo nuevo.",
+        "El tarifario de abajo es el que usamos en Cáscara: cruzalo con tu Excel de horas y valor por hora por cliente para ver qué podés pagar."
+      ]
+    }
+  ],
+  "ajustes": {}
+}

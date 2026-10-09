@@ -1,0 +1,28 @@
+{
+  "modulo": "profile-funnel",
+  "slug": "sebastian",
+  "founder": "Seba Martinez",
+  "bajada_envio": {
+    "founder": "Seba Martinez",
+    "porque": "Es lo que quedé en volver a mandarte en la 1:1 del 9/10. La cohorte ya tiene forma y desde ahora los interesados van de YouTube a Instagram, al DM y a llamada. Para eso el perfil tiene que contar tu historia y terminar en una conversación.",
+    "objetivo": "Las destacadas subidas y ordenadas este fin de semana, empezando por «mi historia», la bio con un solo CTA que lleva al DM y el video de YouTube del domingo 11/10 conectado al perfil.",
+    "mindset": "Lo que buscamos son conversaciones, no alcance. Un perfil que cuenta quién sos y adónde ir genera más DMs que un video que se viraliza."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que ya tenés",
+      "texto": [
+        "<b>El video de tu historia</b> salió en YouTube el 4/10: es la base de la destacada «mi historia».",
+        "<b>La bio</b> ya dice «Que te contraten por tu criterio, no por tu precio». La tercera línea es el CTA al DM.",
+        "<b>El cliente ideal</b> son los creativos que viven de sus servicios y quieren vender estrategia y no entregables: las destacadas les hablan a ellos.",
+        "<b>El Profile Funnel V1 de Fede</b> es la guía de referencia de esta hoja."
+      ]
+    }
+  ],
+  "ajustes": {
+    "3": {
+      "consigna": "Tres destacadas y en este orden. <b>Mi historia</b> primero: tu recorrido en 60 segundos, sacado del video de YouTube. <b>Proceso</b>: cómo es la cohorte (en vivo, con un video de onboarding y grupales cada semana). <b>Validación</b>: casos y mensajes de creativos con los que trabajaste. Cerrá cada una con el CTA al DM."
+    }
+  }
+}

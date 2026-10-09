@@ -75,16 +75,14 @@
       "por_que": "Devolvieron ángulos, auditoría comercial y funnel el 2/10; sigue el lanzamiento de cuatro semanas."
     },
     "sebastian": {
-      "activa": "precio-escalera",
-      "siguiente": null,
-      "en_paralelo": [
-        "auditoria-proceso-comercial",
-        "contratar-primer-rol"
-      ],
-      "por_que": "1:1 del 2/10 y devolución del 6/10: una sola hoja con la escalera, el costo, el precio mínimo y el recorrido del cliente (onboarding en web). En paralelo, el proceso comercial y el editor. El calendario de lanzamiento queda para la semana del 12/10.",
+      "activa": "profile-funnel--sebastian",
+      "siguiente": "calendario-lanzamiento",
+      "en_paralelo": [],
       "despues": [
-        "calendario-lanzamiento"
-      ]
+        "precio-escalera"
+      ],
+      "por_que": "1:1 del 9/10, reseteo de la app: queda el curso (lo arma Seba y lo manda por Slack), el contenido, el Profile Funnel para el fin de semana y el lanzamiento con Franco el 13 o 14/10. Salen de paralelo la auditoría del proceso comercial («no hay nada que estemos vendiendo») y contratar el primer rol. El proceso de seteo de DM a llamada se suma la semana del 12/10.",
+      "revision": "pendiente"
     },
     "sofia-galvis": {
       "activa": "angulos-desde-icp--sofia-galvis",
@@ -144,8 +142,11 @@
     "lucila-prieto": {
       "activa": "radiografia-360--lucila-prieto",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 9/10: Facu quedó en mandar hoy por la app la auditoría de clientes (quién, qué, ticket, horas) antes de la llamada con Franco a fin de la semana del 12/10. Propuesta del agente: la hoja del punto A, después el ICP.",
-      "revision": "pendiente"
+      "por_que": "Clarity Call del 9/10: Facu quedó en mandar hoy por la app la auditoría de clientes (quién, qué, ticket, horas) antes de la llamada con Franco a fin de la semana del 12/10. Propuesta del agente: la hoja del punto A, después el ICP. En paralelo, la búsqueda de editores con el formulario y el tarifario, que Facu le prometió.",
+      "revision": "pendiente",
+      "en_paralelo": [
+        "contratar-primer-rol--lucila-prieto"
+      ]
     },
     "lara-loiano": {
       "activa": "radiografia-360--lara-loiano",
@@ -156,8 +157,14 @@
     "said-espinosa": {
       "activa": "radiografia-360--said-espinosa",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 9/10: Facu quedó en dejar cargado hoy en la app el formulario de auditoría; Said ya lo reclamó en su canal. Franco hacia el 15/10 por la oferta. Propuesta del agente: la hoja del punto A, después el ICP.",
-      "revision": "pendiente"
+      "por_que": "Clarity Call del 9/10: Facu quedó en dejar cargado hoy en la app el formulario de auditoría; Said ya lo reclamó en su canal. Franco hacia el 15/10 por la oferta. Propuesta del agente: la hoja del punto A, después el ICP. En paralelo, las dos propuestas de noviembre (heladerías y asados) para feedback de Facu; después, el documento de onboarding que Facu le prometió.",
+      "revision": "pendiente",
+      "en_paralelo": [
+        "propuesta-comercial--said-espinosa"
+      ],
+      "despues": [
+        "onboarding-y-roadmap-cliente--said-espinosa"
+      ]
     },
     "delfina-corsalini": {
       "activa": "radiografia-360--delfina-corsalini",

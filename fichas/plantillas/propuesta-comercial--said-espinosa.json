@@ -1,0 +1,28 @@
+{
+  "modulo": "propuesta-comercial",
+  "slug": "said-espinosa",
+  "founder": "Said Espinosa",
+  "bajada_envio": {
+    "founder": "Said Espinosa",
+    "porque": "En la Clarity Call te llegaron dos clientes que lanzan en noviembre, la cadena de heladerías y el restaurante de asados, y dijiste que no sabés cómo cobrarles. Esta hoja ordena la propuesta para los dos con lo que hablamos, y te pedí que me la mandes para darte feedback.",
+    "objetivo": "Las dos propuestas armadas con el mismo esqueleto: branding, estrategia de lanzamiento y producción, en un solo número y en dos pagos del 50%. Me las mandás por tu canal antes de presentarlas.",
+    "mindset": "Primero se vende la estrategia y después la producción. El community manager va aparte, solo si lo piden."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Los números que hablamos",
+      "texto": [
+        "Branding: alrededor de USD 1.500, con un piso de 1.200 a 1.300 (el diseñador te cuesta entre 500 y 700).",
+        "Estrategia de lanzamiento: hasta USD 1.500.",
+        "Producción: una o dos jornadas.",
+        "Total aproximado de USD 4.000, cobrado en dos pagos del 50%. Community manager como extra de USD 300 a 400 por mes, solo si hace falta."
+      ]
+    }
+  ],
+  "ajustes": {
+    "4": {
+      "consigna": "Armá acá las dos propuestas, la de la heladería y la del restaurante de asados, con este esqueleto. Anotá qué preguntó cada cliente y qué pasó cuando se las presentaste."
+    }
+  }
+}
