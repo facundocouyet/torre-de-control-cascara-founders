@@ -1,0 +1,25 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "naiara-angeloff",
+  "founder": "Naiara Angeloff",
+  "bajada_envio": {
+    "founder": "Naiara Angeloff",
+    "porque": "Es la auditoría que Facu te prometió en la Clarity Call.",
+    "objetivo": "Tus clientes en la app antes de la llamada con Franco por la oferta y el cliente ideal.",
+    "mindset": "Escribilo como esté, sin ordenarlo de más: con eso alcanza."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que te pedí en la llamada",
+      "texto": [
+        "Tus últimas ventas: qué entregaste y cuánto cobraste en cada una."
+      ]
+    }
+  ],
+  "ajustes": {
+    "1": {
+      "consigna": "Una fila por cliente o por venta, las últimas diez: qué le entregaste, a qué valor, cómo lo produjiste y cómo está hoy."
+    }
+  }
+}

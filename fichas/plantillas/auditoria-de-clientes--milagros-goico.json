@@ -1,0 +1,21 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "milagros-goico",
+  "founder": "Mili y Cande (A2)",
+  "bajada_envio": {
+    "founder": "Mili y Cande (A2)",
+    "porque": "Es la auditoría que Facu les prometió en la Clarity Call.",
+    "objetivo": "Sus clientes en la app antes de la llamada con Franco por la oferta de ticket alto.",
+    "mindset": "Escribilo como esté, sin ordenarlo de más: con eso alcanza."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que te pedí en la llamada",
+      "texto": [
+        "Sus clientes, lo que les cobran y lo que les entregan, y cómo se reparten el trabajo entre las dos."
+      ]
+    }
+  ],
+  "ajustes": {}
+}

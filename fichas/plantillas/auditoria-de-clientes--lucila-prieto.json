@@ -1,0 +1,25 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "lucila-prieto",
+  "founder": "Lucila Prieto",
+  "bajada_envio": {
+    "founder": "Lucila Prieto",
+    "porque": "Es lo primero que te pedí en la Clarity Call para arrancar.",
+    "objetivo": "Tus clientes en la app antes de la llamada con Franco, a fin de la semana que viene.",
+    "mindset": "Escribilo como esté, sin ordenarlo de más: con eso alcanza."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que te pedí en la llamada",
+      "texto": [
+        "«Quiénes son, qué les vendiste y cómo, el ticket que le vendiste y por cuánto tiempo.»"
+      ]
+    }
+  ],
+  "ajustes": {
+    "1": {
+      "consigna": "Una fila por cliente: quién es, qué le vendiste, el ticket, cómo lo producís y desde cuándo trabajan juntos. Si tenés tu Excel por cliente, podés pegarlo o resumirlo acá."
+    }
+  }
+}

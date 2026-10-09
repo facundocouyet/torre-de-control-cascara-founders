@@ -1,0 +1,25 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "said-espinosa",
+  "founder": "Said Espinosa",
+  "bajada_envio": {
+    "founder": "Said Espinosa",
+    "porque": "Es el formulario que te dije que te dejaba cargado en la app.",
+    "objetivo": "Tus clientes en la app antes de la llamada con Franco, hacia el final de la semana que viene. La clienta del estudio de yoga, con todo lo que tengas.",
+    "mindset": "Escribilo como esté, sin ordenarlo de más: con eso alcanza."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que te pedí en la llamada",
+      "texto": [
+        "«Todos estos clientes: qué les vendiste, por qué, cómo te fue, si se cayó, qué pasó.»"
+      ]
+    }
+  ],
+  "ajustes": {
+    "1": {
+      "consigna": "Una fila por cliente, empezando por el estudio de yoga: qué le vendiste, a qué valor, cómo lo producís y qué pasó (si sigue, si se cayó y por qué)."
+    }
+  }
+}

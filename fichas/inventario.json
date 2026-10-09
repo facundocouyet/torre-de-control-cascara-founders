@@ -5,6 +5,38 @@
       "porque": "Los clientes llegan con muchos frentes abiertos y sin un punto A escrito, y sin eso cada llamada arranca discutiendo qué hay que hacer.",
       "modulos": [
         {
+          "id": "auditoria-de-clientes",
+          "nombre": "Auditoría de clientes",
+          "nivel": "troncal",
+          "para_quien": "Se asigna después de la Clarity Call, con lo que Facu le pidió en la llamada sobre sus clientes, antes de la llamada con Franco.",
+          "eje": [
+            "oferta"
+          ],
+          "resultado": "Los clientes del founder escritos uno por uno: qué les vendió, a qué valor, cómo lo produce y cómo están hoy.",
+          "pasos": [
+            "Listar los clientes actuales y de los últimos meses, uno por fila.",
+            "Anotar qué les vendió, a qué valor, cómo lo produce y cómo están hoy.",
+            "Sumar quién trabaja con él y cuánto le paga, si tiene equipo."
+          ],
+          "completar": [
+            "La tabla de clientes completa"
+          ],
+          "herramientas": [
+            "La planilla o el chat donde ya viven los clientes"
+          ],
+          "estado": "existe",
+          "evidencia": "Facu la pide en todas las Clarity Calls desde el 7/10 (A2, Naiara, Mecha, Lucila, Lara, Said, Delfina). Antecedente: la auditoría de clientes de The Momentum Club (22/9) y el esquema de clientes de BeMotion (25/9). Facu, 9/10: tiene que ser simple, sin horas, sin punto A ni roadmap.",
+          "tareas": [
+            {
+              "titulo": "Completar la tabla de clientes",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Con lo que ya sabés, tal como está hoy."
+            }
+          ],
+          "estado_galeria": "aprobada"
+        },
+        {
           "id": "radiografia-360",
           "nombre": "360 del negocio: punto A, cuello de botella y punto B",
           "nivel": "troncal",
@@ -1913,6 +1945,7 @@
     }
   ],
   "orden_sugerido": [
+    "auditoria-de-clientes",
     "radiografia-360",
     "foco-y-ventana",
     "sociedad-y-roles",

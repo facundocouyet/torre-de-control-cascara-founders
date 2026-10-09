@@ -1,0 +1,25 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "lara-loiano",
+  "founder": "Lara Loiano",
+  "bajada_envio": {
+    "founder": "Lara Loiano",
+    "porque": "Es la primera carta que te prometí en la Clarity Call.",
+    "objetivo": "Tus clientes en la app antes de la llamada con Franco, a fin de la semana que viene.",
+    "mindset": "Escribilo como esté, sin ordenarlo de más: con eso alcanza."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que te pedí en la llamada",
+      "texto": [
+        "«Qué clientes vendiste, qué entregables vendiste, a qué valores y cómo los producís. Y cómo es tu situación con estos clientes actualmente.»"
+      ]
+    }
+  ],
+  "ajustes": {
+    "1": {
+      "consigna": "Una fila por cliente: qué le vendiste, a qué valor, cómo lo produjiste (sola o con qué freelancers) y cómo está hoy la relación."
+    }
+  }
+}

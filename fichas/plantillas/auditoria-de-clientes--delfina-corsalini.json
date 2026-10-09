@@ -1,0 +1,21 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "delfina-corsalini",
+  "founder": "Delfina Corsalini",
+  "bajada_envio": {
+    "founder": "Delfina Corsalini",
+    "porque": "Es la carta de auditoría que te dije que te mandaba por la app.",
+    "objetivo": "Tus clientes y tu equipo en la app, para trabajar la oferta con Franco.",
+    "mindset": "Escribilo como esté, sin ordenarlo de más: con eso alcanza."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que te pedí en la llamada",
+      "texto": [
+        "Tus clientes (el nombre no hace falta), qué les vendés y qué les entregás; y de tu equipo, qué rol tiene cada uno, cómo está distribuido y cuánto les pagás."
+      ]
+    }
+  ],
+  "ajustes": {}
+}

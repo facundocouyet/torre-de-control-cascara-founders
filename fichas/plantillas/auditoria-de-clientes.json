@@ -1,0 +1,62 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "titulo": "Tus clientes, uno por uno",
+  "bajada": "Lo que te pedí en la Clarity Call: tus clientes escritos uno por uno, con qué les vendiste, a qué valor, cómo lo producís y cómo están hoy. Con eso llegamos a la llamada con Franco.",
+  "lista_cuando": "Están todos tus clientes, actuales y de los últimos meses, con lo que les vendiste y a qué valor.",
+  "completar": [
+    "La tabla de clientes completa"
+  ],
+  "secciones": [
+    {
+      "nuestro": true,
+      "cid": 0,
+      "titulo": "Lo que necesitamos",
+      "texto": [
+        "Lo que hablamos en la Clarity Call ya lo tenemos. Lo que falta son tus clientes, escritos uno por uno.",
+        "Se completa con lo que ya sabés, tal como está hoy. Las conclusiones las sacamos nosotros."
+      ]
+    },
+    {
+      "cid": 1,
+      "titulo": "Tus clientes",
+      "consigna": "Una fila por cliente, los de ahora y los de los últimos meses. El nombre no hace falta si preferís no ponerlo. Si de alguno no tenés un dato, dejalo en blanco.",
+      "campo": "tabla",
+      "columnas": [
+        "Cliente",
+        "Qué le vendiste",
+        "A qué valor",
+        "Cómo lo producís",
+        "Cómo está hoy"
+      ],
+      "filas": 10
+    },
+    {
+      "cid": 2,
+      "titulo": "Quién trabaja con vos",
+      "consigna": "Si tenés equipo o freelancers, una fila por persona: qué hace y cuánto le pagás. Si trabajás solo, dejalo vacío.",
+      "campo": "tabla",
+      "columnas": [
+        "Persona o rol",
+        "Qué hace",
+        "Cuánto le pagás"
+      ],
+      "filas": 5
+    },
+    {
+      "cid": 3,
+      "titulo": "Algo más que nos quieras contar",
+      "consigna": "Opcional: lo que te parezca importante de algún cliente y no entró en la tabla.",
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "..."
+    },
+    {
+      "nuestro": true,
+      "cid": 4,
+      "titulo": "Qué hacemos con esto",
+      "texto": [
+        "Facu lo cruza con lo que hablaron en la Clarity Call y llega a la llamada con Franco con la lectura hecha, para trabajar la oferta."
+      ]
+    }
+  ]
+}

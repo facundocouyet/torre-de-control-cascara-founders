@@ -3,13 +3,15 @@
 > Se arma solo con `python3 generador/historial_cartas.py`. Lo de uso y personalización sale de `fichas/plantillas/_uso.json`.
 > Regla: la genérica es la base. La versión de cada founder es **liviana** (solo `bajada_envio`, `ajustes` por `cid` y bloques nuestros) y hereda todo lo demás, así un cambio en la genérica le llega a todos. Una versión **propia** (con `secciones`) solo cuando el formulario tiene que ser otro, y lleva `por_que_propia`.
 
+## Auditoría de clientes · `auditoria-de-clientes`
+
+- **Cuándo va:** Se asigna después de la Clarity Call, con lo que Facu le pidió en la llamada sobre sus clientes, antes de la llamada con Franco.
+- **Versiones:** delfina-corsalini (liviana), lara-loiano (liviana), lucila-prieto (liviana), milagros-goico (liviana), naiara-angeloff (liviana), said-espinosa (liviana), samuel-tarancon (liviana)
+
 ## 360 del negocio: punto A, cuello de botella y punto B · `radiografia-360`
 
 - **Cuándo va:** Se le asigna a todo founder en el primer mes, antes de tocar oferta o contenido.
-- **Versiones:** delfina-corsalini (liviana), lara-loiano (liviana), lucila-prieto (liviana), milagros-goico (liviana), naiara-angeloff (liviana), said-espinosa (liviana), samuel-tarancon (liviana)
 - **Últimos cambios:**
-  - 2026-10-09 · 9/10: hoja del punto A en revisión para Lucila, Lara, Said y Delfina; 1:1 de Seba; Rosario y Sofía Guevara al día (`9991231`)
-  - 2026-10-08 · 8/10: hoja del punto A en revisión para A2, Naiara y Mecha; Aaron con oferta ARKHÉ; ingresos al día (Said Espinosa) (`132bb50`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
 ## Elegir la ventana y soltar el resto · `foco-y-ventana`
@@ -77,6 +79,7 @@
 - **Cuándo va:** Se le asigna a todo founder antes de que salga la primera pieza del tramo.
 - **Versiones:** aaron-aiello (liviana), lucio-labate (liviana), sebastian (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
+  - 2026-10-09 · 9/10: lo que Facu prometió en las Clarity y en la 1:1 de Seba, personalizado y en revisión (editores de Lucila, propuesta y onboarding de Said, Profile Funnel y reseteo de Seba) (`8ecffd1`)
   - 2026-10-06 · Aaron: profile funnel personalizado, en paralelo al funnel de servicio (`e4d64da`)
   - 2026-09-25 · profile funnel: carta rehecha sobre el Profile Funnel V1 de Fede (`43e27d7`)
   - 2026-09-21 · Se terminan las hojas que faltaban y el documento de Qualita (`f6e7fc7`)
@@ -226,6 +229,7 @@
 - **Cuándo va:** Cuando el founder arma cada presupuesto de cero y tarda días en mandarlo.
 - **Versiones:** said-espinosa (liviana)
 - **Últimos cambios:**
+  - 2026-10-09 · 9/10: lo que Facu prometió en las Clarity y en la 1:1 de Seba, personalizado y en revisión (editores de Lucila, propuesta y onboarding de Said, Profile Funnel y reseteo de Seba) (`8ecffd1`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
 ## Sumar un setter o un closer · `setter-closer`
@@ -240,6 +244,7 @@
 - **Cuándo va:** Cuando la venta cae y a partir de ahí el founder improvisa.
 - **Versiones:** said-espinosa (liviana), sebastian (liviana)
 - **Últimos cambios:**
+  - 2026-10-09 · 9/10: lo que Facu prometió en las Clarity y en la 1:1 de Seba, personalizado y en revisión (editores de Lucila, propuesta y onboarding de Said, Profile Funnel y reseteo de Seba) (`8ecffd1`)
   - 2026-10-06 · Seba: devolución del Acelerador de Talleres y cartas en revisión (arranque del cliente y calendario de lanzamiento) (`8ff3697`)
   - 2026-09-21 · El formulario de editores y el tarifario, como recurso fijo de la torre (`51cdb03`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
@@ -306,11 +311,11 @@
 - **Cuándo va:** Cuando el founder llegó al techo de sus propias horas y lo que lo ocupa no necesita su criterio, sino su tiempo.
 - **Versiones:** lucila-prieto (liviana), sebastian (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
+  - 2026-10-09 · 9/10: lo que Facu prometió en las Clarity y en la 1:1 de Seba, personalizado y en revisión (editores de Lucila, propuesta y onboarding de Said, Profile Funnel y reseteo de Seba) (`8ecffd1`)
   - 2026-10-03 · Seba: las cartas que Facu le prometió el 2/10 (escalera, funnel del cohort, proceso comercial, editor, historias) (`7c23360`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
   - 2026-09-26 · Sol mandó el esquema de clientes y el formulario de editores pasa al template (`0da652a`)
   - 2026-09-22 · El entregable es uno solo, y es el mismo en las cuarenta y una cartas (`ce1e355`)
-  - 2026-09-21 · Un chequeo que corta el build cuando algo se contradice (`ea5b8e7`)
 
 ## Delegar la producción sin perder calidad · `delegar-produccion`
 
