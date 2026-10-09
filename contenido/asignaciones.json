@@ -81,7 +81,8 @@
       "despues": [
         "precio-escalera"
       ],
-      "por_que": "1:1 del 9/10, reseteo de la app: queda el curso (lo arma Seba y lo manda por Slack), el contenido, el Profile Funnel para el fin de semana y el lanzamiento con Franco el 13 o 14/10. Salen de paralelo la auditoría del proceso comercial («no hay nada que estemos vendiendo») y contratar el primer rol."
+      "por_que": "1:1 del 9/10, reseteo de la app: queda el curso (lo arma Seba y lo manda por Slack), el contenido, el Profile Funnel para el fin de semana y el lanzamiento con Franco el 13 o 14/10. Salen de paralelo la auditoría del proceso comercial («no hay nada que estemos vendiendo») y contratar el primer rol.",
+      "inicio": "2026-10-09"
     },
     "sofia-galvis": {
       "activa": "angulos-desde-icp--sofia-galvis",
@@ -118,17 +119,20 @@
     "milagros-goico": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 7/10: Facu quedó en mandarles la auditoría de clientes y roles; con eso van a la llamada con Franco por la oferta de ticket alto. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)"
+      "por_que": "Clarity Call del 7/10: Facu quedó en mandarles la auditoría de clientes y roles; con eso van a la llamada con Franco por la oferta de ticket alto. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
+      "inicio": "2026-10-09"
     },
     "naiara-angeloff": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 7/10: Facu quedó en mandarle la auditoría de sus últimas diez ventas antes de la sesión con Franco por oferta y cliente ideal. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)"
+      "por_que": "Clarity Call del 7/10: Facu quedó en mandarle la auditoría de sus últimas diez ventas antes de la sesión con Franco por oferta y cliente ideal. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
+      "inicio": "2026-10-09"
     },
     "samuel-tarancon": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 7/10 (Tiago): Facu quedó en mandar la auditoría de negocio antes del 8/10 y Mecha la devuelve antes del 12/10, antes de Franco. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)"
+      "por_que": "Clarity Call del 7/10 (Tiago): Facu quedó en mandar la auditoría de negocio antes del 8/10 y Mecha la devuelve antes del 12/10, antes de Franco. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
+      "inicio": "2026-10-09"
     },
     "lucila-prieto": {
       "activa": "auditoria-de-clientes",
@@ -136,12 +140,14 @@
       "por_que": "Clarity Call del 9/10: Facu quedó en mandar hoy por la app la auditoría de clientes (quién, qué, ticket, horas) antes de la llamada con Franco a fin de la semana del 12/10. Después, el ICP. En paralelo, la búsqueda de editores con el formulario y el tarifario, que Facu le prometió. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
       "en_paralelo": [
         "contratar-primer-rol--lucila-prieto"
-      ]
+      ],
+      "inicio": "2026-10-09"
     },
     "lara-loiano": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 9/10: la primera carta es la auditoría (clientes, entregables, valores y cómo los produce) antes de Franco a fin de la semana del 12/10. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)"
+      "por_que": "Clarity Call del 9/10: la primera carta es la auditoría (clientes, entregables, valores y cómo los produce) antes de Franco a fin de la semana del 12/10. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
+      "inicio": "2026-10-09"
     },
     "said-espinosa": {
       "activa": "auditoria-de-clientes",
@@ -149,12 +155,14 @@
       "por_que": "Clarity Call del 9/10: Facu quedó en dejar cargado hoy en la app el formulario de auditoría; Said ya lo reclamó en su canal. Franco hacia el 15/10 por la oferta. Después, el ICP. En paralelo, las dos propuestas de noviembre (heladerías y asados) para feedback de Facu; después, el documento de onboarding que Facu le prometió. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
       "en_paralelo": [
         "propuesta-comercial--said-espinosa"
-      ]
+      ],
+      "inicio": "2026-10-09"
     },
     "delfina-corsalini": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 9/10: auditoría de clientes, equipo, roles y sueldos por la app, después oferta con Franco. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)"
+      "por_que": "Clarity Call del 9/10: auditoría de clientes, equipo, roles y sueldos por la app, después oferta con Franco. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
+      "inicio": "2026-10-09"
     }
   },
   "sin_carta": {
