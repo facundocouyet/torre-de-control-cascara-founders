@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 12 de octubre de 2026
+
+Fin de semana quieto por el hideout: la torre suma la auditoría de clientes que aprobaste el viernes y los ingresos quedan al día.
+
+- **Auditoría de clientes, en el mapa.** La carta nueva que reemplazó la hoja del punto A ya aparece en la torre publicada (versión 73), con su documento.
+- **Ingresos.** Juan Galeano reservó la Clarity para el viernes 16/10 13:00; A2 pasa a START 24/9 (Teo: el inicio es la firma del contrato); Sofía Guevara hizo el onboarding con Aye y hoy ve a Juana; Mecha pide que les confirmen «lo del 14».
+
+**Para mirar antes de subir:** `contenido/ingresos.json`.
+
 ## 9 de octubre de 2026
 
 Cuatro Clarity Calls y la 1:1 de Seba: los cuatro ingresos quedan con su hoja del punto A en revisión.
