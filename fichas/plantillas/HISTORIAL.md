@@ -40,11 +40,11 @@
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10).
 - **Versiones:** agostina-marchesini (liviana), matias-morales (propia), milagros-goico (liviana), rosario-sola (propia), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), the-momentum-club (propia)
 - **Últimos cambios:**
+  - 2026-10-13 · 13/10: cartas de Mecha y A2 en revisión (ICP, entrega repetible, delegar producción) (`2f0ea34`)
   - 2026-10-07 · Sofía Guevara: carta de cliente ideal (Altar) asignada después de la Clarity Call (`33ae16b`)
   - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-10-03 · Sofía: lo del WhatsApp; carta de ICP más clara en la pregunta del dolor (todas las versiones) (`09702d7`)
   - 2026-10-03 · Agostina: lo del WhatsApp en la ficha y en sus cartas (precio, interesadas, sus cinco módulos) (`f215f2d`)
-  - 2026-10-03 · Agostina: cartas propias de oferta, ICP y dolores, llamada de venta y producto (`703b0a1`)
 
 ## One-sheeter de la oferta · `one-sheeter-oferta`
 
@@ -277,7 +277,7 @@
 ## Productización del servicio · `proceso-entrega-repetible`
 
 - **Cuándo va:** Cuando cada cliente se entrega distinto, la propuesta se arma de cero cada vez y todo depende de que el founder esté arriba.
-- **Versiones:** aaron-aiello (liviana), samuel-tarancon (liviana)
+- **Versiones:** aaron-aiello (liviana)
 - **Últimos cambios:**
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-21 · La regla de Sebastian pasa a las cartas generales, y dos cartas se rehacen (`1eb6a8c`)
@@ -325,7 +325,6 @@
 ## Delegar la producción sin perder calidad · `delegar-produccion`
 
 - **Cuándo va:** Cuando el founder sigue editando o produciendo y por eso no tiene horas para lo de arriba.
-- **Versiones:** milagros-goico (liviana)
 - **Últimos cambios:**
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)

@@ -119,14 +119,10 @@
     "milagros-goico": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 7/10 (Mili y Cande): auditoría de clientes y roles, después ICP en un nicho que mida el marketing en ventas y la oferta de ticket alto con Franco; en paralelo, delegar la producción con brief (las colaboradoras les suman horas); después, la contrapropuesta a los clientes actuales. 13/10: Facu aprueba el orden. (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.)",
+      "por_que": "Clarity Call del 7/10 (Mili y Cande). Orden de Facu (13/10): auditoría, cliente ideal y de ahí la oferta de ticket alto con Franco. La auditoría sigue activa hasta ver sus respuestas (Facu le preguntó a Teo cómo acceder). (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.)",
       "inicio": "2026-10-09",
-      "en_paralelo": [
-        "delegar-produccion"
-      ],
       "despues": [
-        "one-sheeter-oferta",
-        "propuesta-comercial"
+        "one-sheeter-oferta"
       ],
       "revision": "pendiente"
     },
@@ -139,14 +135,11 @@
     "samuel-tarancon": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 7/10 (Tiago y Samuel): auditoría primero; después oferta, ICP y ángulos con Franco, lanzamiento de cuatro semanas y, en paralelo, el proceso de entrega (pidieron un onboarding único y procesos repetibles). 13/10: Facu aprueba el orden; la auditoría sigue activa hasta confirmar que se cargó (Tiago marcó la tarea hecha el 10/10 y en la app no hay respuestas). (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.)",
+      "por_que": "Clarity Call del 7/10 (Tiago y Samuel). Orden de Facu (13/10): auditoría, cliente ideal, oferta y desde ahí ángulos de comunicación. La auditoría sigue activa hasta ver sus respuestas (Tiago marcó la tarea hecha el 10/10 y en la app no aparecen; Facu le preguntó a Teo cómo acceder). (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.)",
       "inicio": "2026-10-09",
-      "en_paralelo": [
-        "proceso-entrega-repetible"
-      ],
       "despues": [
-        "angulos-desde-icp",
-        "calendario-lanzamiento"
+        "one-sheeter-oferta",
+        "angulos-desde-icp"
       ],
       "revision": "pendiente"
     },
