@@ -1,0 +1,21 @@
+{
+ "modulo": "proceso-entrega-repetible",
+ "slug": "samuel-tarancon",
+ "founder": "Tiago y Samuel (Mecha)",
+ "bajada_envio": {
+  "founder": "Tiago y Samuel (Mecha)",
+  "porque": "Es lo que pidieron en la Clarity Call: con los primeros clientes de Mecha adentro, terminar de pulir los procesos para que el onboarding sea único, la experiencia sea la misma de punta a punta y todo quede documentado y repetible. Facu lo dijo así: productizar es que no gasten tiempo armando una oferta nueva cada vez que venden algo.",
+  "objetivo": "La entrega de Mecha escrita etapa por etapa, con nombre, bordes y fechas, sobre los clientes que ya tienen. Corre en paralelo con el cliente ideal y llega lista para el lanzamiento.",
+  "mindset": "Arranquen por lo que ya hicieron: el onboarding con las preguntas iniciales y su identidad visual ya existe. Escriban cómo lo entregaron de verdad, no cómo les gustaría."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que ya nos contaron",
+   "texto": [
+    "Ya tienen definido el onboarding inicial, con las preguntas y la identidad visual. Pásennoslo junto con algún PDF que le hayan entregado a un cliente: con eso vemos cómo trabajan hoy.",
+    "La base de esta hoja son los clientes que cerraron con Mecha. Cada uno que pasa por el mismo recorrido es un caso más para el contenido del lanzamiento."
+   ]
+  }
+ ]
+}

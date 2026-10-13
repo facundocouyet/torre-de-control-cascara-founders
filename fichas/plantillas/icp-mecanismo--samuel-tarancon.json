@@ -1,0 +1,27 @@
+{
+ "modulo": "icp-mecanismo",
+ "slug": "samuel-tarancon",
+ "founder": "Tiago y Samuel (Mecha)",
+ "bajada_envio": {
+  "founder": "Tiago y Samuel (Mecha)",
+  "porque": "En la Clarity Call quedó el orden: con la auditoría de lo que tienen hoy, pasamos a la oferta, al cliente ideal y a los ángulos, y con eso bajamos un lanzamiento de cuatro semanas. Ustedes saben hacerlo para otros y todavía no lo aplicaron a Mecha. El primer paso es saber a quién le habla Mecha: qué marca les paga una campaña con estrategia, producción y edición, y qué le duele hoy.",
+  "objetivo": "El cliente ideal de Mecha escrito en personas concretas, con cinco conversaciones reales que lo respalden. Con esta hoja y la auditoría van a la llamada con Franco a cerrar la oferta y la escalera de valor.",
+  "mindset": "Ustedes quieren piezas que la gente se detenga a ver y campañas que conmuevan y conviertan. Eso tiene un comprador concreto: búsquenlo entre los clientes que ya cerraron y en los que les dijeron que no."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que quedó de la Clarity Call",
+   "texto": [
+    "Mecha vende un solo servicio: estrategia, producción y edición juntas, con jornadas de grabación para sacar piezas creativas bien producidas en lugar de volumen.",
+    "Lo que les falta es su propio marketing: qué oferta venden, a quién, con qué ángulos y en qué formato. Facu: «el foco es primero ustedes y después los clientes».",
+    "El lanzamiento va coordinado entre las marcas personales de ustedes dos y la marca de Mecha. Mientras tanto, contenido orgánico tipo blog: qué están haciendo, qué procesos, qué piensan."
+   ]
+  }
+ ],
+ "ajustes": {
+  "5": {
+   "consigna": "Los clientes que ya cerraron con Mecha y los de Visualux y KitchenProf de los últimos meses, con lo que compró cada uno, cuánto pagó y por qué los buscó. <b>Si ya los cargaron en la auditoría, tráiganlos de ahí y súmenle la última columna.</b> Sirve para ver cuáles se parecen al cliente de Mecha y cuáles corren en paralelo."
+  }
+ }
+}

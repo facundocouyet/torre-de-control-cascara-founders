@@ -1,0 +1,27 @@
+{
+ "modulo": "icp-mecanismo",
+ "slug": "milagros-goico",
+ "founder": "Mili y Cande (A2)",
+ "bajada_envio": {
+  "founder": "Mili y Cande (de a dos)",
+  "porque": "En la Clarity Call quedó que de a dos agarra lo que llega: clientes de boca en boca, mucho gastronómico de Córdoba, que pagan poco y piden todo. Para vender una oferta de USD 1.500 a 3.000 o más hay que elegir a quién: un cliente con plata para invertir y un negocio donde el marketing se mide en ventas, como un e-commerce, donde se puede construir un caso de éxito con números.",
+  "objetivo": "El cliente ideal de de a dos escrito en personas concretas, con cinco conversaciones reales que lo respalden. Con esta hoja y la auditoría van a la llamada con Franco a armar la oferta de ticket alto.",
+  "mindset": "Lo que vende es la estrategia y la creatividad de ustedes, y el entregable va adentro. Busquen al cliente que ya les compró eso aunque haya pagado poco: ese es el que hay que multiplicar."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que quedó de la Clarity Call",
+   "texto": [
+    "La oferta nueva vende estrategia y resultado, de USD 1.500 a 3.000 o más, con las soluciones que ya le dieron a muchos clientes adentro y adicionales según el caso.",
+    "La gestión de pauta sale del servicio: ustedes entregan los creativos y la estrategia, y la pauta la lleva un especialista.",
+    "El cliente que conviene es el que monetiza el marketing: si el contenido mejora, la venta sube y se puede medir. Facu: «eso es el caso de éxito que tenemos que buscar y es lo que te vende solo los próximos clientes»."
+   ]
+  }
+ ],
+ "ajustes": {
+  "5": {
+   "consigna": "Los clientes de los últimos meses, con lo que les compró cada uno, cuánto pagó y por qué los buscó. <b>Si ya los cargaron en la auditoría, tráiganlos de ahí y súmenle la última columna.</b> Marquen cuál les compró estrategia y cuál solo entregables: el primero es el que se parece al cliente nuevo."
+  }
+ }
+}

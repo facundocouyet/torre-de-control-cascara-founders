@@ -1,0 +1,21 @@
+{
+ "modulo": "delegar-produccion",
+ "slug": "milagros-goico",
+ "founder": "Mili y Cande (A2)",
+ "bajada_envio": {
+  "founder": "Mili y Cande (de a dos)",
+  "porque": "En la Clarity Call contaron que las colaboradoras les suman horas en lugar de sacárselas. Facu lo leyó como falta de herramientas: sin editing brief, sin tipografía, sin referencias, el trabajo vuelve. Para que ustedes tengan tiempo de armar la oferta nueva, lo que hoy producen tiene que salir de sus manos con un brief que lo sostenga.",
+  "objetivo": "Un primer traspaso con fecha, una tarjeta de brief que el equipo pueda usar sola y el costo por pieza escrito. Corre en paralelo con el cliente ideal.",
+  "mindset": "Arranquen por un solo cliente, el más rutinario. Cande sigue con lo que más disfruta, la cámara y la edición de lo que vale; lo repetido es lo primero que se delega."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que quedó de la Clarity Call",
+   "texto": [
+    "Hoy trabajan con una diseñadora por proyecto, una CM por cuenta y una tercera persona en la parte de anuncios. La pauta sale del servicio, así que ese rol se resuelve con la oferta nueva.",
+    "Lo que más le gusta a Mili es la estrategia y la gestión; a Cande, la cámara y la edición. El traspaso se arma para que cada una quede en lo suyo."
+   ]
+  }
+ ]
+}

@@ -5,9 +5,12 @@
 
 ## Auditoría de clientes · `auditoria-de-clientes`
 
-- **Cuándo va:** Se asigna después de la Clarity Call, con lo que Facu le pidió en la llamada sobre sus clientes, antes de la llamada con Franco.
+- **Cuándo va:** Después de la Clarity Call, antes de la llamada con Franco.
 - **Versiones:** delfina-corsalini (liviana), lara-loiano (liviana), lucila-prieto (liviana), milagros-goico (liviana), naiara-angeloff (liviana), said-espinosa (liviana), samuel-tarancon (liviana)
 - **Últimos cambios:**
+  - 2026-10-09 · Auditoría de clientes: revisadas las siete; A2 y Mecha en plural, Lucila con ticket y desde cuándo, cierre en primera persona (`f7c7f4f`)
+  - 2026-10-09 · Auditoría de clientes: los pasos le hablan al founder (vos), no sobre él (`2d9e7b8`)
+  - 2026-10-09 · Auditoría de clientes: vuelve el porqué completo y lo que quedó de cada Clarity, con el formulario simple (`51f5807`)
   - 2026-10-09 · Carta nueva: auditoría de clientes, simple, con lo que Facu pide en la Clarity (sin horas, sin punto A ni roadmap). Reemplaza la hoja del punto A en los siete ingresos; Sofía Guevara empieza de cero; sale el seteo de Seba (`78c2926`)
 
 ## 360 del negocio: punto A, cuello de botella y punto B · `radiografia-360`
@@ -35,7 +38,7 @@
 - **Cuándo va:** Cuando el comercial ya bajó a quién le vende y falta convertir esa definición en personas concretas con un dolor que se pueda nombrar.
 - **Cómo se personaliza:** La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10).
-- **Versiones:** agostina-marchesini (liviana), matias-morales (propia), rosario-sola (propia), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), the-momentum-club (propia)
+- **Versiones:** agostina-marchesini (liviana), matias-morales (propia), milagros-goico (liviana), rosario-sola (propia), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), the-momentum-club (propia)
 - **Últimos cambios:**
   - 2026-10-07 · Sofía Guevara: carta de cliente ideal (Altar) asignada después de la Clarity Call (`33ae16b`)
   - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
@@ -274,7 +277,7 @@
 ## Productización del servicio · `proceso-entrega-repetible`
 
 - **Cuándo va:** Cuando cada cliente se entrega distinto, la propuesta se arma de cero cada vez y todo depende de que el founder esté arriba.
-- **Versiones:** aaron-aiello (liviana)
+- **Versiones:** aaron-aiello (liviana), samuel-tarancon (liviana)
 - **Últimos cambios:**
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-21 · La regla de Sebastian pasa a las cartas generales, y dos cartas se rehacen (`1eb6a8c`)
@@ -322,6 +325,7 @@
 ## Delegar la producción sin perder calidad · `delegar-produccion`
 
 - **Cuándo va:** Cuando el founder sigue editando o produciendo y por eso no tiene horas para lo de arriba.
+- **Versiones:** milagros-goico (liviana)
 - **Últimos cambios:**
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
