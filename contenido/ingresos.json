@@ -1,6 +1,6 @@
 {
   "regla": "Clientes de Founders que ya entraron y todavía no tienen ficha: la ficha se escribe después de la Clarity Call. El slug es el de la app (clientes.slug) y el del canal cf-; las cartas escritas para ellos usan este slug. Cuando se escribe la ficha, el cliente sale de esta lista.",
-  "actualizado": "2026-10-12",
+  "actualizado": "2026-10-13",
   "clientes": [
     {
       "slug": "rosario-sola",
@@ -18,7 +18,7 @@
       "correo": "satac.webdesigner@gmail.com",
       "clarity": "2026-10-07",
       "canal": "cf-mecha-studio",
-      "nota": "5/10: cerraron dos clientes el fin de semana y tienen otro posible cierre el miércoles; uno pide pieza audiovisual en Barcelona a inicios de noviembre. 6/10, grupal con Fede (Tiago y Samu): un solo servicio con estrategia, producción y edición; lanzan a fines de octubre y suben contenido todo octubre. Clarity de Tiago el 7/10 12:00. 7/10 Clarity Call de Tiago (Fathom 190580350): auditar procesos, después oferta, ICP y ángulos, lanzamiento y entrega escrita. Facu quedó en mandar la auditoría antes del 8/10 (Mecha la devuelve antes del 12/10); Tiago la reclamó el 8/10. Aye agenda Franco la semana que viene. Publican contenido tipo blog mientras tanto. 9/10: Facu aprobó su auditoría de clientes (entra a la app con el push). 12/10: Samuel pide en el canal que les confirmen «lo del 14» (falta confirmar qué es)."
+      "nota": "5/10: cerraron dos clientes el fin de semana y tienen otro posible cierre el miércoles; uno pide pieza audiovisual en Barcelona a inicios de noviembre. 6/10, grupal con Fede (Tiago y Samu): un solo servicio con estrategia, producción y edición; lanzan a fines de octubre y suben contenido todo octubre. Clarity de Tiago el 7/10 12:00. 7/10 Clarity Call de Tiago (Fathom 190580350): auditar procesos, después oferta, ICP y ángulos, lanzamiento y entrega escrita. Facu quedó en mandar la auditoría antes del 8/10 (Mecha la devuelve antes del 12/10); Tiago la reclamó el 8/10. Aye agenda Franco la semana que viene. Publican contenido tipo blog mientras tanto. 9/10: Facu aprobó su auditoría de clientes (entra a la app con el push). 12/10: Samuel pide en el canal que les confirmen «lo del 14». 13/10: «lo del 14» es la grabación presencial del miércoles 14/10 en España (van en AVE; Cáscara pone equipos y lugar). Tiago marcó la auditoría hecha el 10/10 sin respuestas en la app (la tabla no cargaba; Teo la habilitó el 13/10). Cartas en revisión con orden aprobado por Facu: auditoría, cliente ideal, oferta y ángulos; entran con el push."
     },
     {
       "slug": "lara-loiano",
@@ -45,7 +45,7 @@
       "correo": "beyourcontent@gmail.com",
       "clarity": "2026-10-09",
       "canal": "cf-lucila-prieto",
-      "nota": "5/10: completó los Founder Insights. Falta agendar la Clarity Call (Aye). 6/10, grupal con Fede: documenta sus procesos como biblioteca; eso es su contenido y la base del infoproducto. Clarity Call el viernes 9/10 9:30. 9/10 Clarity Call (Fathom 191310026): estrategia y ejecución como dos tickets, delegar la edición, documentar casos; octubre para dejar armada la oferta y cerrar uno o dos clientes. Facu le pasa el formulario de búsqueda de editores y el tarifario interno; Franco a fin de la semana del 12/10. Hoja del punto A en revisión."
+      "nota": "5/10: completó los Founder Insights. Falta agendar la Clarity Call (Aye). 6/10, grupal con Fede: documenta sus procesos como biblioteca; eso es su contenido y la base del infoproducto. Clarity Call el viernes 9/10 9:30. 9/10 Clarity Call (Fathom 191310026): estrategia y ejecución como dos tickets, delegar la edición, documentar casos; octubre para dejar armada la oferta y cerrar uno o dos clientes. Facu le pasa el formulario de búsqueda de editores y el tarifario interno; Franco a fin de la semana del 12/10. Hoja del punto A en revisión. 12/10: mandó la auditoría de clientes a revisión (planilla de Google); Teo la pasa a la app."
     },
     {
       "slug": "naiara-angeloff",
@@ -63,7 +63,7 @@
       "correo": "milagrosgoico@deadoslab.com",
       "clarity": "2026-10-07",
       "canal": "cf-milagros-goico",
-      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye les manda el link para la Clarity Call. 7/10 Clarity Call (Fathom 190492469): de a dos está llena con tickets bajos y todo por boca en boca; dirección: oferta de ticket alto (USD 1.500 a 3.000+) que venda estrategia, sale la gestión de pauta, Córdoba físico queda aparte. Facu quedó en mandar la auditoría de clientes y roles; Mili la reclamó el 8/10. Después, Franco con la oferta. 12/10: Teo pasa el inicio en la app al 24/9, fecha de firma del contrato (regla: el START es la firma)."
+      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye les manda el link para la Clarity Call. 7/10 Clarity Call (Fathom 190492469): de a dos está llena con tickets bajos y todo por boca en boca; dirección: oferta de ticket alto (USD 1.500 a 3.000+) que venda estrategia, sale la gestión de pauta, Córdoba físico queda aparte. Facu quedó en mandar la auditoría de clientes y roles; Mili la reclamó el 8/10. Después, Franco con la oferta. 12/10: Teo pasa el inicio en la app al 24/9, fecha de firma del contrato (regla: el START es la firma). 13/10: cartas con orden aprobado por Facu (auditoría, cliente ideal, oferta, con delegar producción en paralelo); entran con el push. La tabla de la auditoría recién cargó el 13/10 (Teo)."
     },
     {
       "slug": "osmo-estudio",
@@ -71,8 +71,8 @@
       "start": "2026-10-01",
       "correo": "gonzalezivanac@gmail.com",
       "correo_alt": "info@osmoestudio.com.ar",
-      "clarity": null,
-      "nota": "6/10, grupal con Fede (Ivana): un video selfie de 60 segundos por día."
+      "clarity": "2026-10-13",
+      "nota": "6/10, grupal con Fede (Ivana): un video selfie de 60 segundos por día. Clarity Call de Ivana el martes 13/10 9:30 ART."
     },
     {
       "slug": "delfina-corsalini",
@@ -88,8 +88,8 @@
       "nombre": "Marcelo Fernandez",
       "start": "2026-10-02",
       "correo": "fernandezmarceloandres@gmail.com",
-      "clarity": null,
-      "nota": "Onboarding con Teo el 5/10 13:30."
+      "clarity": "2026-10-14",
+      "nota": "Onboarding con Teo el 5/10 13:30. 12/10: Marcelo y Lucas Matías Cassettai completaron los Founder Insights (Aye). Clarity Call el miércoles 14/10 9:30 ART (PLAY COURT)."
     },
     {
       "slug": "sofia-guevara",
@@ -97,7 +97,7 @@
       "start": "2026-10-05",
       "correo": "sguevaracelentano@gmail.com",
       "clarity": "2026-10-07",
-      "nota": "Francisca pidió su grupo el 30/9; sin fila en Cuentas (pregunta 73). 5/10: Cuentas ya tiene mail y START 5/10; onboarding con Teo el miércoles 7/10. 7/10: Clarity Call con Facu (Altar, concept store de cápsulas; marca personal primero). Mandó manifiesto, fotos de campaña y brandbook por Slack. Carta activa: cliente ideal. 9/10, con Facu y Aye (Fathom 191442851): se resetea el proceso desde el onboarding (Aye le mandó el Calendly); completa los Founder Insights y manda el cliente ideal y el contenido grabado la semana que viene. Sesión de 1 a 1,5 h con Juana sobre la dirección creativa de la campaña (sale el 19, falta confirmar el mes) y después sesión estratégica con Facu. 10/10: onboarding con Aye (Fathom 191572791): Founder Insights (19 secciones), sesión de dirección creativa con Juana (reservó lun 12/10 10:00 ART) y después Clarity con Facu. En la app no tiene carta asignada (Teo, 10/10); slug de la app: sofia-guevara-celentano."
+      "nota": "Francisca pidió su grupo el 30/9; sin fila en Cuentas (pregunta 73). 5/10: Cuentas ya tiene mail y START 5/10; onboarding con Teo el miércoles 7/10. 7/10: Clarity Call con Facu (Altar, concept store de cápsulas; marca personal primero). Mandó manifiesto, fotos de campaña y brandbook por Slack. Carta activa: cliente ideal. 9/10, con Facu y Aye (Fathom 191442851): se resetea el proceso desde el onboarding (Aye le mandó el Calendly); completa los Founder Insights y manda el cliente ideal y el contenido grabado la semana que viene. Sesión de 1 a 1,5 h con Juana sobre la dirección creativa de la campaña (sale el 19, falta confirmar el mes) y después sesión estratégica con Facu. 10/10: onboarding con Aye (Fathom 191572791): Founder Insights (19 secciones), sesión de dirección creativa con Juana (reservó lun 12/10 10:00 ART) y después Clarity con Facu. En la app no tiene carta asignada (Teo, 10/10); slug de la app: sofia-guevara-celentano. 13/10: la sesión con Juana pasó al jueves 15/10 13:00 ART (Juana lee antes lo que completó Sofía)."
     },
     {
       "slug": "lorena-martinez",
