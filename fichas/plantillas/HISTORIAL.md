@@ -325,7 +325,10 @@
 ## Delegar la producción sin perder calidad · `delegar-produccion`
 
 - **Cuándo va:** Cuando el founder sigue editando o produciendo y por eso no tiene horas para lo de arriba.
+- **Versiones:** milagros-goico (liviana)
 - **Últimos cambios:**
+  - 2026-10-13 · 13/10: Mecha y A2 sin paralelo; orden de Facu: auditoría, cliente ideal, oferta (Mecha sigue con ángulos) (`a416b0a`)
+  - 2026-10-13 · 13/10: cartas de Mecha y A2 en revisión (ICP, entrega repetible, delegar producción) (`2f0ea34`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
 

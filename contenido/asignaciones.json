@@ -119,12 +119,15 @@
     "milagros-goico": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 7/10 (Mili y Cande). Orden de Facu (13/10): auditoría, cliente ideal y de ahí la oferta de ticket alto con Franco. La auditoría sigue activa hasta ver sus respuestas (Facu le preguntó a Teo cómo acceder). (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.)",
+      "por_que": "Clarity Call del 7/10 (Mili y Cande). Orden de Facu (13/10): auditoría, cliente ideal y de ahí la oferta de ticket alto con Franco. En paralelo, delegar la producción con brief (las colaboradoras les suman horas; Facu, 13/10: «les va a servir»). La auditoría sigue activa hasta ver sus respuestas (Facu le preguntó a Teo cómo acceder). (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.)",
       "inicio": "2026-10-09",
       "despues": [
         "one-sheeter-oferta"
       ],
-      "revision": "pendiente"
+      "revision": "pendiente",
+      "en_paralelo": [
+        "delegar-produccion"
+      ]
     },
     "naiara-angeloff": {
       "activa": "auditoria-de-clientes",
