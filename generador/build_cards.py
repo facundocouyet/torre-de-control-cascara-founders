@@ -36,7 +36,7 @@ DUENOS=[
  ("facu","Facu","Negocio, estructura y números",
   "La mirada del negocio entero, la forma del servicio, el equipo y lo que dicen los números. Son las "
   "que decido yo y las que escribo yo.",
-  ["radiografia-360","foco-y-ventana","sociedad-y-roles",
+  ["radiografia-360","auditoria-de-clientes","foco-y-ventana","sociedad-y-roles",
    "alcance-por-escrito","proceso-entrega-repetible","auditoria-del-programa",
    "contratar-primer-rol","delegar-produccion","cadencia-y-duenos",
    "diario-administrativo","dashboard-embudo","informes-con-ia"]),
