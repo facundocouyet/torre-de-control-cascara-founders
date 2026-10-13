@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 13 de octubre de 2026
+
+Martes con cuatro llamadas de Founders: Seba sube el video y espera a Franco, y Mecha viene a grabar mañana.
+
+- **Seba.** Subió el video de YouTube con el link en la descripción; arma el formulario que califica antes de la llamada. La segunda llamada con Franco todavía no tiene fecha: la pelota pasa a Aye.
+- **Ingresos.** «Lo del 14» de Mecha es la grabación presencial del miércoles en España; Osmo tiene la Clarity hoy y Marcelo (PLAY COURT) mañana 9:30; la sesión de Sofía Guevara con Juana pasó al jueves 15.
+
+**Para mirar antes de subir:** la fila de Seba en la torre y `contenido/ingresos.json`.
+
 ## 12 de octubre de 2026
 
 Fin de semana quieto por el hideout: la torre suma la auditoría de clientes que aprobaste el viernes y los ingresos quedan al día.
