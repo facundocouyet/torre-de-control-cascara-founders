@@ -1,14 +1,14 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-13",
+  "actualizado": "2026-10-14",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
-      "ultimo": "2026-10-04",
-      "que": "4/10: Franco la agenda el jueves 8/10; ella eligió las 11:30 (falta el invite).",
-      "proximo": null,
-      "paso": "Franco le manda el invite del jueves 8/10 11:30 y trabajan oferta e ICP.",
+      "ultimo": "2026-10-14",
+      "que": "La llamada con Franco del 8/10 se cayó por el evento; Franco la agenda el jueves 15/10 19:00 España.",
+      "proximo": "2026-10-15",
+      "paso": "Llamada con Franco por la oferta del programa de 90 días y el lanzamiento.",
       "carta": "Oferta e ICP, que tiene que devolver completas antes de Franco.",
       "pilar": "Oferta",
       "pelota": "Franco"
@@ -49,8 +49,8 @@
       }
     },
     "lucio-labate": {
-      "ultimo": "2026-10-06",
-      "que": "Grupal con Fede: oferta de Lanzamiento de marca en PDF y una auditoría hecha.",
+      "ultimo": "2026-10-13",
+      "que": "Grupal de Fede: YouTube de 20 minutos sobre marcas con IA, publicado el viernes 17/10.",
       "proximo": null,
       "paso": "Abre la oferta por historias y prospecta en frío cada semana.",
       "carta": "La carta de Oferta.",
@@ -67,8 +67,8 @@
       "pelota": "cliente"
     },
     "aaron-aiello": {
-      "ultimo": "2026-10-08",
-      "que": "08/10: mandó la oferta ARKHÉ reacondicionada (downsell, core, retainer y upsell) y espera feedback; cierra el calendario del lanzamiento.",
+      "ultimo": "2026-10-13",
+      "que": "Grupal de Fede: video largo con sus versiones para el viernes 17/10.",
       "proximo": "2026-10-15",
       "paso": "Perfil, entrega, proceso comercial y calendario listos para lanzar.",
       "carta": "El pasaporte digital.",
@@ -80,17 +80,17 @@
       }
     },
     "custom-lab": {
-      "ultimo": "2026-10-06",
-      "que": "Entraron a la app. Juan Cruz dejó el one-sheeter en el canal para Facu y agendó llamada para el martes 13/10.",
-      "proximo": "2026-10-13",
-      "paso": "Facu revisa el one-sheeter. La llamada del 13/10 (con quién, falta confirmar).",
+      "ultimo": "2026-10-14",
+      "que": "No se conectaron a la llamada del 13/10 con Facu (la tenían 15:30); se reagenda. Cerraron un trabajo.",
+      "proximo": null,
+      "paso": "Reagendar la llamada con Facu; él revisa antes el one-sheeter.",
       "carta": null,
       "pilar": "Oferta",
-      "pelota": "Facu"
+      "pelota": "cliente"
     },
     "sebastian": {
       "ultimo": "2026-10-13",
-      "que": "13/10: subió el video de YouTube con link en la descripción; Facu le pidió sumar un formulario que califique antes de la llamada (contenido, marca personal activa, facturación, de dónde llegó, proyecto y qué lo frena). La segunda llamada con Franco todavía no está agendada.",
+      "que": "Grupal de Fede: lanzamiento a mediados de noviembre sin fecha fija; tiene que cerrar fecha y oferta con Franco.",
       "proximo": "2026-10-14",
       "paso": "Aye le agenda esta semana la segunda llamada con Franco (fecha y calendario); Seba suma las preguntas al formulario y pregunta en qué formato manda la oferta.",
       "carta": "ICP y mecanismo, y Ángulos.",
@@ -102,17 +102,17 @@
       }
     },
     "sol-boutmy": {
-      "ultimo": "2026-10-02",
-      "que": "Primera llamada con Franco: oferta, mecanismo, escalera y precio al 75% para validar.",
+      "ultimo": "2026-10-13",
+      "que": "1:1 del día 30: prueba de edición con Clara, oferta de estrategia B2B de USD 1.500 a 2.000 y programa B2C con workshop.",
       "proximo": null,
-      "paso": "Facu las ayuda a elegir editor y se agenda la 1:1 del día 30; ellas bajan la oferta con el feedback de clientes.",
-      "carta": "Contratar el primer rol y Oferta.",
+      "paso": "Facu les manda el resumen de la 1:1 y el editing brief; ellas escriben esta semana la oferta y el cliente ideal.",
+      "carta": "Cliente ideal y oferta (en revisión).",
       "pilar": "Oferta",
       "pelota": "Facu"
     },
     "lola-berutti": {
-      "ultimo": "2026-09-30",
-      "que": "30/09: cerró El Salto con 6 ventas a USD 1.500 en 28 llamadas (objetivo 10).",
+      "ultimo": "2026-10-13",
+      "que": "Cargó en la app el formulario de resultados del lanzamiento.",
       "proximo": null,
       "paso": "Completa en la app la carta de resultados del lanzamiento (arranca el lunes 5/10, Aye le avisa); con esos números Franco analiza y sigue el servicio.",
       "carta": null,

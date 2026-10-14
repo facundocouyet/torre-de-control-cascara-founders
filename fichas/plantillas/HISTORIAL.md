@@ -6,7 +6,7 @@
 ## Auditoría de clientes · `auditoria-de-clientes`
 
 - **Cuándo va:** Después de la Clarity Call, antes de la llamada con Franco.
-- **Versiones:** delfina-corsalini (liviana), lara-loiano (liviana), lucila-prieto (liviana), milagros-goico (liviana), naiara-angeloff (liviana), said-espinosa (liviana), samuel-tarancon (liviana)
+- **Versiones:** delfina-corsalini (liviana), lara-loiano (liviana), lucila-prieto (liviana), milagros-goico (liviana), naiara-angeloff (liviana), osmo (liviana), said-espinosa (liviana), samuel-tarancon (liviana)
 - **Últimos cambios:**
   - 2026-10-09 · Auditoría de clientes: revisadas las siete; A2 y Mecha en plural, Lucila con ticket y desde cuándo, cierre en primera persona (`f7c7f4f`)
   - 2026-10-09 · Auditoría de clientes: los pasos le hablan al founder (vos), no sobre él (`2d9e7b8`)
@@ -38,7 +38,7 @@
 - **Cuándo va:** Cuando el comercial ya bajó a quién le vende y falta convertir esa definición en personas concretas con un dolor que se pueda nombrar.
 - **Cómo se personaliza:** La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10).
-- **Versiones:** agostina-marchesini (liviana), matias-morales (propia), milagros-goico (liviana), rosario-sola (propia), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), the-momentum-club (propia)
+- **Versiones:** agostina-marchesini (liviana), matias-morales (propia), milagros-goico (liviana), osmo (liviana), rosario-sola (propia), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia)
 - **Últimos cambios:**
   - 2026-10-13 · 13/10: cartas de Mecha y A2 en revisión (ICP, entrega repetible, delegar producción) (`2f0ea34`)
   - 2026-10-07 · Sofía Guevara: carta de cliente ideal (Altar) asignada después de la Clarity Call (`33ae16b`)
@@ -327,6 +327,7 @@
 - **Cuándo va:** Cuando el founder sigue editando o produciendo y por eso no tiene horas para lo de arriba.
 - **Versiones:** milagros-goico (liviana)
 - **Últimos cambios:**
+  - 2026-10-13 · 13/10: A2 recupera delegar producción en paralelo (`44a9ca9`)
   - 2026-10-13 · 13/10: Mecha y A2 sin paralelo; orden de Facu: auditoría, cliente ideal, oferta (Mecha sigue con ángulos) (`a416b0a`)
   - 2026-10-13 · 13/10: cartas de Mecha y A2 en revisión (ICP, entrega repetible, delegar producción) (`2f0ea34`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)

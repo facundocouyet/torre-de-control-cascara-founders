@@ -12,7 +12,7 @@
     "pausada": "pausada",
     "completada": "completada"
   },
-  "actualizado": "2026-10-09",
+  "actualizado": "2026-10-14",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
@@ -91,9 +91,18 @@
       "por_que": "Devolvió oferta e ICP el 3/10: siguen los ángulos y, con Franco, el lanzamiento."
     },
     "sol-boutmy": {
-      "activa": "contratar-primer-rol",
-      "siguiente": "precio-escalera",
-      "por_que": "El cuello es la entrega: sacarse la edición."
+      "activa": "icp-mecanismo",
+      "siguiente": "one-sheeter-oferta",
+      "en_paralelo": [
+        "contratar-primer-rol"
+      ],
+      "despues": [
+        "calendario-lanzamiento",
+        "profile-funnel"
+      ],
+      "por_que": "1:1 del día 30 (13/10): orden de Facu, cliente ideal y oferta esta semana; calendario y fecha de lanzamiento la que viene; después profile funnel y estrategia de 4 semanas. Contratar el primer rol sigue en paralelo con la prueba de Clara.",
+      "inicio": "2026-10-14",
+      "revision": "pendiente"
     },
     "the-momentum-club": {
       "activa": "resultados-lanzamiento",
@@ -124,7 +133,6 @@
       "despues": [
         "one-sheeter-oferta"
       ],
-      "revision": "pendiente",
       "en_paralelo": [
         "delegar-produccion"
       ]
@@ -143,8 +151,7 @@
       "despues": [
         "one-sheeter-oferta",
         "angulos-desde-icp"
-      ],
-      "revision": "pendiente"
+      ]
     },
     "lucila-prieto": {
       "activa": "auditoria-de-clientes",
@@ -175,6 +182,17 @@
       "siguiente": "icp-mecanismo",
       "por_que": "Clarity Call del 9/10: auditoría de clientes, equipo, roles y sueldos por la app, después oferta con Franco. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
       "inicio": "2026-10-09"
+    },
+    "osmo": {
+      "activa": "auditoria-de-clientes",
+      "siguiente": "icp-mecanismo",
+      "despues": [
+        "one-sheeter-oferta",
+        "angulos-desde-icp"
+      ],
+      "por_que": "Clarity Call del 13/10 (Ivana): Facu quedó en mandar la info del servicio y del cliente actual y las preguntas del ICP, antes de Franco la semana que viene. Orden dicho: servicio y cliente actual, ICP, Franco, oferta, ángulos, contenido. Propuesta del agente para las cartas (Facu nombró los temas, no las cartas).",
+      "inicio": "2026-10-14",
+      "revision": "pendiente"
     }
   },
   "sin_carta": {

@@ -1,0 +1,22 @@
+{
+ "modulo": "auditoria-de-clientes",
+ "slug": "osmo",
+ "founder": "Ivana y Karina (Osmo Estudio)",
+ "bajada_envio": {
+  "founder": "Ivana y Karina (Osmo Estudio)",
+  "porque": "En la Clarity Call quedó que el norte de estos tres meses es traer consultas calificadas, y que hoy les entra de todo porque no hay un cliente ideal definido. Antes de definirlo, necesitamos ver qué venden hoy y cómo trabajan con el cliente que ya tienen: ahí está la experiencia que queremos poner adelante.",
+  "objetivo": "Esta carta completa antes de la llamada con Franco de la semana que viene: el servicio tal como lo dan hoy y la experiencia con su cliente actual.",
+  "mindset": "Escriban lo que pasa hoy, aunque parezca obvio para ustedes. Lo que para ustedes es rutina es lo que el cliente paga."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que quedó de la Clarity Call",
+   "texto": [
+    "La gestión aduanera compite por precio. Lo que las diferencia es la experiencia: consultoría, capacitación y auditorías como puerta de entrada, y la gestión se vende por privado y por LinkedIn.",
+    "La pauta en Meta queda en pausa hasta tener el mensaje calibrado. Facu: «Le ponés pauta a una comunicación fría y gastás un montón con pocos resultados».",
+    "Instagram para la historia humana, LinkedIn para lo profesional, y la edición la hace otra persona."
+   ]
+  }
+ ]
+}
