@@ -8,6 +8,7 @@
 - **Cuándo va:** Después de la Clarity Call, antes de la llamada con Franco.
 - **Versiones:** delfina-corsalini (liviana), lara-loiano (liviana), lucila-prieto (liviana), milagros-goico (liviana), naiara-angeloff (liviana), osmo (liviana), said-espinosa (liviana), samuel-tarancon (liviana)
 - **Últimos cambios:**
+  - 2026-10-14 · 14/10: se liberan las cartas de Mecha y A2 (✅ de Aye); Osmo y Sol con cartas en revisión; Sol día 30, Custom Lab sin conectarse, Sofía Galvis con Franco el 15/10, grupal de Fede (`a57f8ab`)
   - 2026-10-09 · Auditoría de clientes: revisadas las siete; A2 y Mecha en plural, Lucila con ticket y desde cuándo, cierre en primera persona (`f7c7f4f`)
   - 2026-10-09 · Auditoría de clientes: los pasos le hablan al founder (vos), no sobre él (`2d9e7b8`)
   - 2026-10-09 · Auditoría de clientes: vuelve el porqué completo y lo que quedó de cada Clarity, con el formulario simple (`51f5807`)
@@ -38,20 +39,20 @@
 - **Cuándo va:** Cuando el comercial ya bajó a quién le vende y falta convertir esa definición en personas concretas con un dolor que se pueda nombrar.
 - **Cómo se personaliza:** La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10).
-- **Versiones:** agostina-marchesini (liviana), matias-morales (propia), milagros-goico (liviana), osmo (liviana), rosario-sola (propia), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia)
+- **Versiones:** agostina-marchesini (liviana), matias-morales (propia), milagros-goico (liviana), osmo (liviana), rosario-sola (liviana), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia)
 - **Últimos cambios:**
+  - 2026-10-14 · 14/10: se liberan las cartas de Mecha y A2 (✅ de Aye); Osmo y Sol con cartas en revisión; Sol día 30, Custom Lab sin conectarse, Sofía Galvis con Franco el 15/10, grupal de Fede (`a57f8ab`)
   - 2026-10-13 · 13/10: cartas de Mecha y A2 en revisión (ICP, entrega repetible, delegar producción) (`2f0ea34`)
   - 2026-10-07 · Sofía Guevara: carta de cliente ideal (Altar) asignada después de la Clarity Call (`33ae16b`)
   - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-10-03 · Sofía: lo del WhatsApp; carta de ICP más clara en la pregunta del dolor (todas las versiones) (`09702d7`)
-  - 2026-10-03 · Agostina: lo del WhatsApp en la ficha y en sus cartas (precio, interesadas, sus cinco módulos) (`f215f2d`)
 
 ## One-sheeter de la oferta · `one-sheeter-oferta`
 
 - **Cuándo va:** Cuando la oferta vive en la cabeza del founder y cada conversación de venta la explica distinto.
 - **Cómo se personaliza:** Forma A (ya vende): la genérica con su bajada. Forma B (lanza algo nuevo o redirecciona): versión propia con preguntas de discovery, que la escribe Franco en su llamada (doc 22).
 - **Ojo:** No se piden horas: el costo se pone en plata (Facu, 4/10). Termina con NOVA y el one-sheeter que arma el founder.
-- **Versiones:** agostina-marchesini (liviana), lucio-labate (liviana), matias-morales (propia), sebastian (liviana), sofia-galvis (propia), sol-boutmy (liviana)
+- **Versiones:** agostina-marchesini (liviana), lucio-labate (liviana), matias-morales (propia), rosario-sola (liviana), sebastian (liviana), sofia-galvis (propia), sol-boutmy (liviana)
 - **Últimos cambios:**
   - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-10-04 · One-sheeter genérico: el costo sin horas (`81687f2`)
@@ -232,7 +233,7 @@
 ## Propuesta comercial con esqueleto fijo · `propuesta-comercial`
 
 - **Cuándo va:** Cuando el founder arma cada presupuesto de cero y tarda días en mandarlo.
-- **Versiones:** said-espinosa (liviana)
+- **Versiones:** rosario-sola (liviana), said-espinosa (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
   - 2026-10-09 · 9/10: lo que Facu prometió en las Clarity y en la 1:1 de Seba, personalizado y en revisión (editores de Lucila, propuesta y onboarding de Said, Profile Funnel y reseteo de Seba) (`8ecffd1`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)

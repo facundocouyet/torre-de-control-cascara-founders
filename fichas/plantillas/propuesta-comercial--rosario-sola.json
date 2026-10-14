@@ -1,0 +1,28 @@
+{
+ "modulo": "propuesta-comercial",
+ "slug": "rosario-sola",
+ "founder": "Rosario Solá",
+ "bajada_envio": {
+  "founder": "Rosario Solá",
+  "porque": "En paralelo al piloto con mamás, Franco quiere que salgan las primeras propuestas a marcas. Esta hoja te da el esqueleto para armarlas igual todas.",
+  "objetivo": "La propuesta para marcas armada y las primeras enviadas antes del 30/10. Se la mandás a Franco antes de que salga.",
+  "mindset": "La marca compra el insight sobre la mujer en el posparto, que es lo que vos sabés y ellas no. El producto de la marca entra contado desde la mujer."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que lleva la propuesta (Franco, 13/10)",
+   "texto": [
+    "Un insight sobre el posparto que la marca pueda abordar.",
+    "El beneficio del producto contado desde la mujer.",
+    "Una idea de activación o de contenido lista para publicar.",
+    "Una presentación de 45 minutos."
+   ]
+  }
+ ],
+ "ajustes": {
+  "4": {
+   "consigna": "Armá la primera propuesta para una marca real con este esqueleto. Anotá a qué marca va, cuándo la mandaste y qué te contestaron."
+  }
+ }
+}

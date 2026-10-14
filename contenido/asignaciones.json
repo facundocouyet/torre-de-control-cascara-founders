@@ -94,13 +94,13 @@
       "activa": "icp-mecanismo",
       "siguiente": "one-sheeter-oferta",
       "en_paralelo": [
-        "contratar-primer-rol"
+        "propuesta-comercial"
       ],
       "despues": [
         "calendario-lanzamiento",
         "profile-funnel"
       ],
-      "por_que": "1:1 del día 30 (13/10): orden de Facu, cliente ideal y oferta esta semana; calendario y fecha de lanzamiento la que viene; después profile funnel y estrategia de 4 semanas. Contratar el primer rol sigue en paralelo con la prueba de Clara.",
+      "por_que": "1:1 del día 30 (13/10) y Facu (14/10): el B2B queda ordenado con el esqueleto de propuesta (estrategia de 1.500 a 2.000, producción como upsell) y el foco va de lleno al programa B2C de contenido orgánico con workshop de lanzamiento (10 lugares). Cliente ideal y oferta del programa, después el calendario de cuatro semanas del workshop. Contratar el primer rol sale: la edición se resuelve con la prueba de Clara.",
       "inicio": "2026-10-14",
       "revision": "pendiente"
     },
@@ -121,9 +121,14 @@
       "por_que": "Sign off el 30/9: se cierra en la app."
     },
     "rosario-sola": {
-      "activa": "icp-mecanismo--rosario-sola",
+      "activa": "icp-mecanismo",
       "siguiente": "one-sheeter-oferta",
-      "por_que": "Ingresó el 29/9 y devolvió el pasaporte: el ICP va antes de Franco, el jueves 8/10 a las 10:00."
+      "en_paralelo": [
+        "propuesta-comercial"
+      ],
+      "por_que": "Llamada con Franco del 13/10: piloto personalizado con 3 a 5 mamás en posparto al 60–70% del precio final, solo habla hispana; en paralelo, propuestas a marcas antes del 30/10. Cliente ideal (mamás) primero, después la oferta del piloto; la propuesta a marcas va al lado.",
+      "inicio": "2026-10-14",
+      "revision": "pendiente"
     },
     "milagros-goico": {
       "activa": "auditoria-de-clientes",

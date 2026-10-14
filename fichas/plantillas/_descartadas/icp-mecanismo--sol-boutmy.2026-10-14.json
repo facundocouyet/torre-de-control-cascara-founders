@@ -1,0 +1,22 @@
+{
+ "modulo": "icp-mecanismo",
+ "slug": "sol-boutmy",
+ "founder": "Sol y Fede (BeMotion)",
+ "bajada_envio": {
+  "founder": "Sol y Fede (BeMotion)",
+  "porque": "En la 1:1 del día 30 quedó que la oferta principal de BeMotion pasa a ser la estrategia de contenido para marcas, y la producción queda como upsell. Hoy la estrategia ya la hacen, pero venden el contenido. Para escribir esa oferta primero hay que saber a quién se la venden: qué marca paga 1.500 o 2.000 dólares por una estrategia y qué le duele hoy.",
+  "objetivo": "El cliente ideal de la oferta de estrategia escrito en personas concretas, esta semana y junto con la oferta. Con las dos hojas armamos la semana que viene el calendario y la fecha del lanzamiento.",
+  "mindset": "Busquen en los clientes que ya tienen y en la propuesta de 3.000 dólares que no cerró: ahí está el comprador de la estrategia."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que quedó de la 1:1 del día 30",
+   "texto": [
+    "Facu: «Ustedes terminan haciendo la estrategia del contenido, pero no venden la estrategia, venden el contenido».",
+    "La oferta principal es estrategia de contenido para marcas, de 1.500 a 2.000 dólares, sin depender de la producción audiovisual. Toda consulta pasa por una llamada de venta y el PDF se manda después.",
+    "Mientras tanto se resuelve la edición: la prueba de tres meses con Clara arranca con el reel mensual de Techo."
+   ]
+  }
+ ]
+}
