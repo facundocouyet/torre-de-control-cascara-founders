@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 14 de octubre de 2026
+
+Salen a la app las cartas de Mecha y A2, y entran a revisión las de Osmo y Sol, que salen de las llamadas de ayer.
+
+- **Mecha y A2.** Aye les dio el ✅ en el hilo. Les saqué la marca de revisión y entran a la app con el push.
+- **Osmo y Sol, en revisión.** Osmo arranca con auditoría de clientes y después cliente ideal, las dos en versión liviana. Sol va con cliente ideal y después oferta, con contratar el primer rol en paralelo, en el orden que dijiste en su 1:1 del día 30. En `ingresos.json` Osmo pasa a llamarse `osmo`, que es el slug de la app.
+- **Fichas.** Sol (1:1 del día 30), Custom Lab (no se conectaron), Sofía Galvis (ve a Franco el jueves) y la grupal de Fede en Seba, Lucio, Aaron y Lola.
+
+**Para mirar antes de subir:** el hilo de `#servicio-founders` con las cartas de Osmo y Sol. Si las aprobás antes de pushear, avisame y les saco la revisión.
+
 ## 13 de octubre de 2026
 
 Martes con cuatro llamadas de Founders: Seba sube el video y espera a Franco, y Mecha viene a grabar mañana.
