@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-14",
+  "actualizado": "2026-10-15",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -58,13 +58,13 @@
       "pelota": "cliente"
     },
     "jose-david-fajardo": {
-      "ultimo": "2026-09-30",
-      "que": "30/09: pasó por la oficina y grabó contenido. 29/9: 1:1 del primer mes.",
+      "ultimo": "2026-10-15",
+      "que": "Mandó en su canal el update de la oferta, el paso a paso de la entrega y el doc de ICP e IFP actualizado; pregunta si agenda con Facu o con Franco.",
       "proximo": null,
-      "paso": "Devolver la auditoría del proceso comercial y trabajar la entrega.",
+      "paso": "Facu revisa la oferta y el ICP y le dice con quién agenda.",
       "carta": "Auditoría del proceso comercial.",
       "pilar": "Venta",
-      "pelota": "cliente"
+      "pelota": "Facu"
     },
     "aaron-aiello": {
       "ultimo": "2026-10-13",
@@ -89,13 +89,13 @@
       "pelota": "cliente"
     },
     "sebastian": {
-      "ultimo": "2026-10-13",
-      "que": "Grupal de Fede: lanzamiento a mediados de noviembre sin fecha fija; tiene que cerrar fecha y oferta con Franco.",
-      "proximo": "2026-10-14",
-      "paso": "Aye le agenda esta semana la segunda llamada con Franco (fecha y calendario); Seba suma las preguntas al formulario y pregunta en qué formato manda la oferta.",
+      "ultimo": "2026-10-15",
+      "que": "Compartió su programa con Franco y Facu (doc con comentarios); Franco ya tiene acceso. La llamada con Franco es mañana viernes 16/10.",
+      "proximo": "2026-10-16",
+      "paso": "Facu le devuelve el feedback del programa y la carta de oferta antes de la llamada con Franco del viernes 16/10.",
       "carta": "ICP y mecanismo, y Ángulos.",
       "pilar": "Venta",
-      "pelota": "Aye",
+      "pelota": "Facu",
       "plata": {
         "fecha": "2026-11-10",
         "que": "Abre la venta de la cohorte de 8 semanas (del 10 al 15/11)."
@@ -111,13 +111,13 @@
       "pelota": "Facu"
     },
     "lola-berutti": {
-      "ultimo": "2026-10-13",
-      "que": "Cargó en la app el formulario de resultados del lanzamiento.",
-      "proximo": null,
-      "paso": "Completa en la app la carta de resultados del lanzamiento (arranca el lunes 5/10, Aye le avisa); con esos números Franco analiza y sigue el servicio.",
+      "ultimo": "2026-10-15",
+      "que": "Reservó 1:1 con Facu para el viernes 16/10 10:00 ART. No encuentra en la app dónde ver lo que completó.",
+      "proximo": "2026-10-16",
+      "paso": "1:1 con Facu el viernes 16/10 10:00.",
       "carta": null,
       "pilar": "Venta",
-      "pelota": "cliente"
+      "pelota": "Facu"
     },
     "qualita": {
       "ultimo": "2026-10-02",
@@ -129,13 +129,13 @@
       "pelota": "Facu"
     },
     "the-momentum-club": {
-      "ultimo": "2026-09-30",
-      "que": "Webinar 28/9: 400 leads, +100 en vivo, +20 llamadas, 5 cierres pagados de 12 plazas al 30/9.",
-      "proximo": "2026-10-04",
-      "paso": "Completa en la app la carta de resultados del lanzamiento (arranca el lunes 5/10, Aye le avisa); con los números, Aye les agenda la oferta con Franco.",
+      "ultimo": "2026-10-15",
+      "que": "Natalia completó los documentos del análisis del lanzamiento. Franco: agendan primero con Facu para ordenarse y la semana que viene con él.",
+      "proximo": null,
+      "paso": "Agendar con Facu para ordenar el análisis del lanzamiento; después, Franco.",
       "carta": "Auditoría del programa.",
       "pilar": "Venta",
-      "pelota": "cliente",
+      "pelota": "Facu",
       "plata": {
         "fecha": "2026-10-04",
         "que": "Cierre de carrito: 5 de 12 plazas pagadas al 30/9, y hasta 5 más en privado."

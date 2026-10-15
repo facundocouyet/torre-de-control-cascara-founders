@@ -1,6 +1,6 @@
 {
   "regla": "Clientes de Founders que ya entraron y todavía no tienen ficha: la ficha se escribe después de la Clarity Call. El slug es el de la app (clientes.slug) y el del canal cf-; las cartas escritas para ellos usan este slug. Cuando se escribe la ficha, el cliente sale de esta lista.",
-  "actualizado": "2026-10-14",
+  "actualizado": "2026-10-15",
   "clientes": [
     {
       "slug": "rosario-sola",
@@ -8,7 +8,7 @@
       "start": "2026-09-23",
       "correo": "rosariosola@gmail.com",
       "clarity": "2026-09-29",
-      "nota": "Clarity hecha el 29/9. Devolvió el pasaporte digital el 30/9 (respuestas en el Project: clientes/rosario-sola-pasaporte-2026-09-30.md). Falta mandarle la carta de ICP (icp-mecanismo--rosario-sola) antes de la llamada con Franco del jueves 8/10 a las 10:00. Falta la ficha. 6/10, grupal con Fede: todo pasa por su marca personal (reactiva la cuenta de 11.500 seguidores) y la comunidad sale de ahí; no vende productos este año. 7/10, grupal de Juana: arranca con historias informales en la cuenta de 11.400. 8/10: Franco le dijo en su canal «Genial el one sheeter»; Aye coordina con ella para el 9/10. 9/10, seguimiento con Aye (Fathom 191398068): la llamada con Franco no se hizo el 8/10; pasa al martes 13/10 (hora falta confirmar). Quiere que Franco le ordene la escalera de valor; ve las clases de Teo de base de datos y completa la carta de ICP en la app. 12/10: Franco la agendó en su canal para el martes 13/10 a las 13:00 y Rosario confirmó. 13/10 con Franco (Fathom 192242621): mercado de habla hispana desde su marca de 11.000; piloto personalizado con 3 a 5 mamás al 60–70% del precio final, después lanzamiento público; en paralelo una propuesta para marcas (insight, beneficio, activación, presentación de 45 minutos). Ella arma las dos propuestas y se las manda a Franco; primeras propuestas a marcas antes del 30/10. Grupal de Fede del 13/10: retomó la cuenta con historias.",
+      "nota": "Clarity hecha el 29/9. Devolvió el pasaporte digital el 30/9 (respuestas en el Project: clientes/rosario-sola-pasaporte-2026-09-30.md). Falta mandarle la carta de ICP (icp-mecanismo--rosario-sola) antes de la llamada con Franco del jueves 8/10 a las 10:00. Falta la ficha. 6/10, grupal con Fede: todo pasa por su marca personal (reactiva la cuenta de 11.500 seguidores) y la comunidad sale de ahí; no vende productos este año. 7/10, grupal de Juana: arranca con historias informales en la cuenta de 11.400. 8/10: Franco le dijo en su canal «Genial el one sheeter»; Aye coordina con ella para el 9/10. 9/10, seguimiento con Aye (Fathom 191398068): la llamada con Franco no se hizo el 8/10; pasa al martes 13/10 (hora falta confirmar). Quiere que Franco le ordene la escalera de valor; ve las clases de Teo de base de datos y completa la carta de ICP en la app. 12/10: Franco la agendó en su canal para el martes 13/10 a las 13:00 y Rosario confirmó. 13/10 con Franco (Fathom 192242621): mercado de habla hispana desde su marca de 11.000; piloto personalizado con 3 a 5 mamás al 60–70% del precio final, después lanzamiento público; en paralelo una propuesta para marcas (insight, beneficio, activación, presentación de 45 minutos). Ella arma las dos propuestas y se las manda a Franco; primeras propuestas a marcas antes del 30/10. Grupal de Fede del 13/10: retomó la cuenta con historias. 15/10: le mandó a Franco en su canal el avance de la oferta para marcas (insight posparto por marca) y una landing con formularios para las madres; Franco: armar un MVP de la oferta que él audita y sumar un lead magnet de valor masivo.",
       "canal": "cf-rosario-sola"
     },
     {
@@ -63,7 +63,7 @@
       "correo": "milagrosgoico@deadoslab.com",
       "clarity": "2026-10-07",
       "canal": "cf-milagros-goico",
-      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye les manda el link para la Clarity Call. 7/10 Clarity Call (Fathom 190492469): de a dos está llena con tickets bajos y todo por boca en boca; dirección: oferta de ticket alto (USD 1.500 a 3.000+) que venda estrategia, sale la gestión de pauta, Córdoba físico queda aparte. Facu quedó en mandar la auditoría de clientes y roles; Mili la reclamó el 8/10. Después, Franco con la oferta. 12/10: Teo pasa el inicio en la app al 24/9, fecha de firma del contrato (regla: el START es la firma). 13/10: cartas con orden aprobado por Facu (auditoría, cliente ideal, oferta, con delegar producción en paralelo); entran con el push. La tabla de la auditoría recién cargó el 13/10 (Teo). 13/10 Aye aprobó las cartas en el hilo de #servicio-founders; se liberan el 14/10."
+      "nota": "5/10: el link de agenda de Facu estaba vencido; Facu lo renovó el 6/10 y Aye les manda el link para la Clarity Call. 7/10 Clarity Call (Fathom 190492469): de a dos está llena con tickets bajos y todo por boca en boca; dirección: oferta de ticket alto (USD 1.500 a 3.000+) que venda estrategia, sale la gestión de pauta, Córdoba físico queda aparte. Facu quedó en mandar la auditoría de clientes y roles; Mili la reclamó el 8/10. Después, Franco con la oferta. 12/10: Teo pasa el inicio en la app al 24/9, fecha de firma del contrato (regla: el START es la firma). 13/10: cartas con orden aprobado por Facu (auditoría, cliente ideal, oferta, con delegar producción en paralelo); entran con el push. La tabla de la auditoría recién cargó el 13/10 (Teo). 13/10 Aye aprobó las cartas en el hilo de #servicio-founders; se liberan el 14/10. 15/10: completaron la carta de auditoría de clientes y la mandaron a revisión; esperan cómo seguir (el aviso del cerebro cayó en #alarmas-operaciones-app por el slug del canal)."
     },
     {
       "slug": "osmo",
@@ -113,9 +113,9 @@
       "nombre": "Camila Basso",
       "start": "2026-10-05",
       "correo": "camilabasso3644@gmail.com",
-      "clarity": null,
+      "clarity": "2026-10-14",
       "canal": null,
-      "nota": "Fila propia en Cuentas como C. Founders (START 5/10): es ingreso nuevo, no la Camila del equipo de Aaron. Reservó 1:1 con Facu el miércoles 14/10 13:00 ART. Grupal de Fede del 13/10: se está mudando y no terminó el onboarding; esta semana storytelling de las prendas de invierno."
+      "nota": "Fila propia en Cuentas como C. Founders (START 5/10): es ingreso nuevo, no la Camila del equipo de Aaron. Reservó 1:1 con Facu el miércoles 14/10 13:00 ART. Grupal de Fede del 13/10: se está mudando y no terminó el onboarding; esta semana storytelling de las prendas de invierno. 14/10 Clarity con Facu (Fathom 192700469), cortada por internet: separada de la textil familiar, pasa de outdoor técnico a urbano versátil, marketing liderado por ella documentando el proceso, buscar el producto ganador antes de pauta. Facu le prometió narrativa, cliente ideal y estrategia de contenido orgánico; la primera carta vence a las 48 horas (16/10)."
     },
     {
       "slug": "luz-rodriguez-victoria-rios",
