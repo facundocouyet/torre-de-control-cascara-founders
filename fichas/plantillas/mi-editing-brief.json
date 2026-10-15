@@ -1,0 +1,193 @@
+{
+  "modulo": "mi-editing-brief",
+  "titulo": "La hoja de tu editing brief",
+  "bajada": "El documento que guarda cómo se ve, cómo suena y cómo se edita tu marca, y la tarjeta que recibe tu editor con cada pieza. Con los dos escritos, el editor decide solo y cada corrección señala qué criterio no se cumplió.",
+  "lista_cuando": "Tu editor recibió el brief y la tarjeta de una pieza real, la entregó, y tenés anotado cuántas vueltas tuvo y qué le agregaste al brief después.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "De la estrategia a la tarjeta del editor",
+      "texto": [
+        "En Cáscara un lanzamiento baja en este orden: qué se vende, a cuánto y cuándo cierra; la narrativa, con la pregunta central y el enemigo; el trabajo de cada una de las cuatro semanas; qué hace cada canal; las tarjetas de cada pieza; y recién al final, el editor. Cada paso necesita el anterior cerrado. Cuando nos salteamos uno lo pagamos en producción: guiones que llegan tarde, editores que adivinan, piezas que salen sin saber para qué.",
+        "El editing brief une las dos puntas. La tarjeta dice qué hacer con una pieza; el brief dice cómo se hacen todas. Se escribe una vez, el editor lo lee una vez y después resuelve solo el ritmo, el color, la música y la tipografía. Lo que cuesta armarlo se recupera en la primera semana de producción.",
+        "Esta carta va antes de la de delegar la producción: primero el criterio escrito, después el traspaso."
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "La narrativa, en una frase",
+      "consigna": "La idea que filtra todas tus piezas, escrita en una frase que tu editor pueda tener al lado mientras corta. Sale de tu oferta y de tus ángulos: qué estás contando con todo lo que publicás. El editor necesita saber qué cuenta la pieza antes de decidir un corte, y una frase bien escrita ordena más decisiones de montaje que cualquier lista de efectos.",
+      "ejemplo": {
+        "quien": "un founder del programa",
+        "texto": "Su brief arranca con una sola idea: documenta cómo el contenido le genera ventas, oportunidades y clientes. Toda pieza pasa por ese filtro, y la misma frase ordena la bio y las descripciones de YouTube."
+      },
+      "campo": "texto",
+      "alto": 2,
+      "placeholder": "Todo lo que publico cuenta…",
+      "cid": 1
+    },
+    {
+      "titulo": "El objetivo y a quién le habla",
+      "consigna": "A quién le habla tu marca, contra qué, y qué tiene que hacer o sentir quien termina de ver una pieza. El tono sale de ahí. Escribilo con las palabras de tu carta de cliente ideal, así el editor elige planos y música pensando en una persona concreta.",
+      "campo": "lineas",
+      "lineas": [
+        "A quién le habla",
+        "Contra qué (el enemigo)",
+        "Qué tiene que hacer o sentir al final",
+        "El tono, en tres palabras"
+      ],
+      "cid": 2
+    },
+    {
+      "titulo": "Las reglas de comunicación",
+      "consigna": "Pares de «esto no, esto sí», cada uno con su porqué. Son las que mantienen todas las piezas sonando a tu marca. Sacalas de piezas tuyas que corregiste: cada corrección que hiciste dos veces es una regla que faltaba escribir.",
+      "ejemplo": {
+        "quien": "el brief de Cáscara",
+        "texto": "«Hablar de obra en lugar de contenido.» «Una metáfora por pieza, como máximo.» «Cuando haya que vender, que parezca invitación.» Cada una con su porqué al lado, para que el editor la aplique en casos que el brief no previó."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Esto no",
+        "Esto sí",
+        "Por qué"
+      ],
+      "filas": 5,
+      "cid": 3
+    },
+    {
+      "titulo": "Las referencias, cada una con su lectura",
+      "consigna": "Links a piezas que existen, cada uno con lo que hay que mirar de esa pieza. Una referencia sin lectura obliga al editor a adivinar qué te gustó. Cinco o seis alcanzan, repartidas entre los formatos que más publicás.",
+      "ejemplo": {
+        "quien": "el brief de Cáscara",
+        "texto": "«Me gusta cómo cambian los formatos de tipografía, de italic a bold, en un mismo párrafo.» Esa es la lectura: le dice al editor qué tomar de la referencia."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Link",
+        "Qué hay que mirar",
+        "Para qué formato"
+      ],
+      "filas": 6,
+      "cid": 4
+    },
+    {
+      "titulo": "El ritmo y el montaje",
+      "consigna": "Cómo se corta: la duración de cada formato, cada cuánto cambia el plano, cómo entran los subtítulos y qué efectos se usan. Si grabás sin estudio, sumá desde dónde grabás y qué ángulo sale de cada lugar. Una regla que sirve en casi todas las marcas: grabar pensando en el montaje, con cada plano terminando en un gesto que habilita el siguiente.",
+      "ejemplo": {
+        "quien": "un founder del programa",
+        "texto": "Graba en tres contextos fijos: con la computadora, corriendo y en un café. Como no tiene estudio, el brief le dice al editor qué ángulo sale de cada lugar y de qué parte de su vida viene cada clip."
+      },
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Duración… cambio de plano… subtítulos… efectos… desde dónde grabo…",
+      "cid": 5
+    },
+    {
+      "titulo": "La tipografía y el color",
+      "consigna": "Qué letra va en títulos y en subtítulos, qué colores, qué fondos y qué look tiene la imagen. Cuatro líneas bien escritas alcanzan. Con esto resuelto, la marca se reconoce en tres segundos de video aunque cambie el editor.",
+      "ejemplo": {
+        "quien": "un founder del programa",
+        "texto": "Helvética bold en mayúscula para títulos, fina para subtítulos, blanco y negro, fondos blancos. Con eso le alcanza."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Tipografía de títulos",
+        "Tipografía de subtítulos",
+        "Colores y fondos",
+        "Look de la imagen (grano, LUT, filtro)"
+      ],
+      "cid": 6
+    },
+    {
+      "titulo": "La música y el sonido",
+      "consigna": "Una playlist o una carpeta lista para descargar, con las reglas de uso escritas. El editor elige de ahí y se ahorra la búsqueda. La regla que más se rompe va primera: la música nunca pisa la voz.",
+      "ejemplo": {
+        "quien": "el brief de Cáscara",
+        "texto": "Una playlist en Spotify y una carpeta de Artlist lista para descargar. El editor elige adentro de eso."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Link a la playlist o la carpeta",
+        "Volumen de la música contra la voz",
+        "Sonidos y efectos que se usan",
+        "Lo que queda afuera"
+      ],
+      "cid": 7
+    },
+    {
+      "titulo": "El entregable de cada formato",
+      "consigna": "Qué se entrega por cada formato que publicás: medida, duración, cortes y cómo se nombra el archivo. Una sola grabación alimenta varias salidas, así que escribilas todas: si un video largo sale con reducciones, portada y fotos fijas, va acá. Lo que no está escrito llega distinto cada semana.",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "Todo video largo sale con tres reducciones, portada de YouTube y stills, y se carga como dos tarjetas linkeadas: el largo y sus reducciones."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Formato",
+        "Medida y duración",
+        "Qué se entrega",
+        "Cómo se nombra el archivo"
+      ],
+      "filas": 5,
+      "cid": 8
+    },
+    {
+      "titulo": "El material, las fechas y quién aprueba",
+      "consigna": "Dónde está el crudo, dónde se entrega y quién da el sí. La fecha de entrega va separada de la de posteo: dejá 72 horas entre una y otra, así la corrección entra sin apuro. Una sola ronda de corrección por pieza, escrita en la tarjeta. Si un guion llega tarde, la pieza se corre de fecha y la edición conserva sus tiempos.",
+      "campo": "lineas",
+      "lineas": [
+        "Carpeta del crudo y del b-roll",
+        "Dónde se entrega",
+        "Margen entre entrega y posteo",
+        "Rondas de corrección",
+        "Quién aprueba"
+      ],
+      "cid": 9
+    },
+    {
+      "nuestro": true,
+      "titulo": "Un brief resuelto, para que veas a dónde va",
+      "texto": [
+        "Un founder del programa, con trabajo full time, sin equipo y una cuenta grande en Instagram, lanzó un programa de doce semanas en cuatro semanas. Así quedaron su brief y una de sus tarjetas.",
+        "<b>Narrativa:</b> lo que parece falta de disciplina es desalineación, y tiene solución. <b>Enemigo:</b> la motivación como motor, la dopamina instantánea y las soluciones sueltas.",
+        "<b>Ritmo y formatos:</b> historias documentales todos los días, dos o tres reels por semana con b-roll y una frase, un carrusel por semana y un video de YouTube cada dos semanas. La cantidad la puso su agenda, y el mes se ordenó alrededor de algo que ya iba a pasar en su vida: una carrera que corría ese mes.",
+        "<b>Destino de todo:</b> una lista de difusión de WhatsApp, que se empezó a llenar en la primera semana. El cierre fue por DM, de 45 a 60 minutos por día durante la semana de venta.",
+        "<b>La tarjeta del primer día de venta:</b> ángulo «cambio de era». Dos hooks: «Nos hicieron creer que todo es mental» y «Yo también pensaba que era falta de disciplina». Material: una selfie con la reflexión, un clip entrenando y un texto fuerte. CTA: «esto lo estoy desarrollando en WhatsApp».",
+        "<b>Y una tarjeta de un equipo con editor:</b> ocho placas de historias para el último día de venta, con la cuenta, el formato, la prioridad, la fecha de entrega (sábado), la de posteo (lunes) y el diseñador asignado. Le habla al diseñador por su nombre, da el ángulo en una línea («quedan 90 días de año»), dice a quién le habla (al que vio cuatro días de historias y no escribió), escribe el guion placa por placa y cierra con lo que queda afuera: el precio y la fecha del próximo lanzamiento."
+      ],
+      "cid": 10
+    },
+    {
+      "titulo": "La tarjeta de tu primera pieza",
+      "consigna": "Elegí una pieza real de tu calendario de este mes y escribí su tarjeta con el brief al lado. La tarjeta le habla a una persona con nombre: arranca con el ángulo en una línea, a quién le habla y qué tiene que hacer o sentir al final, y después el guion escrito, palabra por palabra en un reel y placa por placa en un carrusel. Cuatro reglas: cada referencia con su lectura, cada material con su ubicación, fecha de entrega separada de la de posteo, y la tarjeta escrita para el editor.",
+      "campo": "lineas",
+      "lineas": [
+        "Para quién (nombre del editor)",
+        "Ángulo en una línea",
+        "A quién le habla",
+        "Qué tiene que hacer o sentir al final",
+        "Guion o placas",
+        "Referencias con su lectura",
+        "Material y dónde está",
+        "Qué queda afuera",
+        "Fecha de entrega",
+        "Fecha de posteo"
+      ],
+      "cid": 11
+    },
+    {
+      "titulo": "La prueba: un brief real y cuántas vueltas tuvo",
+      "consigna": "Mandale a tu editor el brief y la tarjeta de la sección anterior, y dejá que produzca con eso solo, sin explicaciones por fuera. Contá cuántas vueltas tuvo la pieza hasta publicarse y anotá cada pregunta que te hizo: cada pregunta marca un agujero del brief, y se tapa escribiéndolo el mismo día. Repetilo con tres piezas. Cuando una sale en una sola vuelta, el brief está listo para la carta de delegar la producción.",
+      "campo": "tabla",
+      "columnas": [
+        "Pieza",
+        "Fecha en que mandaste el brief",
+        "Vueltas hasta publicar",
+        "Qué preguntó el editor",
+        "Qué agregaste al brief"
+      ],
+      "filas": 5,
+      "cid": 12
+    }
+  ]
+}

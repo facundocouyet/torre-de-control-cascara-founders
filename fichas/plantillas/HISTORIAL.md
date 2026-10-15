@@ -41,11 +41,11 @@
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10).
 - **Versiones:** agostina-marchesini (liviana), matias-morales (propia), milagros-goico (liviana), osmo (liviana), rosario-sola (liviana), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia)
 - **Últimos cambios:**
+  - 2026-10-14 · 14/10: Sol (B2B ordenado con propuesta, foco en el programa B2C con workshop) y Rosario (cliente ideal de mamás, oferta del piloto, propuesta a marcas) en revisión (`7b45753`)
   - 2026-10-14 · 14/10: se liberan las cartas de Mecha y A2 (✅ de Aye); Osmo y Sol con cartas en revisión; Sol día 30, Custom Lab sin conectarse, Sofía Galvis con Franco el 15/10, grupal de Fede (`a57f8ab`)
   - 2026-10-13 · 13/10: cartas de Mecha y A2 en revisión (ICP, entrega repetible, delegar producción) (`2f0ea34`)
   - 2026-10-07 · Sofía Guevara: carta de cliente ideal (Altar) asignada después de la Clarity Call (`33ae16b`)
   - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
-  - 2026-10-03 · Sofía: lo del WhatsApp; carta de ICP más clara en la pregunta del dolor (todas las versiones) (`09702d7`)
 
 ## One-sheeter de la oferta · `one-sheeter-oferta`
 
@@ -54,11 +54,11 @@
 - **Ojo:** No se piden horas: el costo se pone en plata (Facu, 4/10). Termina con NOVA y el one-sheeter que arma el founder.
 - **Versiones:** agostina-marchesini (liviana), lucio-labate (liviana), matias-morales (propia), rosario-sola (liviana), sebastian (liviana), sofia-galvis (propia), sol-boutmy (liviana)
 - **Últimos cambios:**
+  - 2026-10-14 · 14/10: Sol (B2B ordenado con propuesta, foco en el programa B2C con workshop) y Rosario (cliente ideal de mamás, oferta del piloto, propuesta a marcas) en revisión (`7b45753`)
   - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-10-04 · One-sheeter genérico: el costo sin horas (`81687f2`)
   - 2026-10-03 · Agostina: lo del WhatsApp en la ficha y en sus cartas (precio, interesadas, sus cinco módulos) (`f215f2d`)
   - 2026-10-03 · Agostina: cartas propias de oferta, ICP y dolores, llamada de venta y producto (`703b0a1`)
-  - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
 ## Precio y escalera de valor · `precio-escalera`
 
@@ -147,6 +147,11 @@
 - **Últimos cambios:**
   - 2026-09-27 · Carta nueva: Sumar un estratega creativo (`b9af657`)
 
+## Tu editing brief · `mi-editing-brief`
+
+- **Cuándo va:** Mes 2, antes de delegar la producción: cuando el founder ya tiene oferta y calendario y le pasa (o ya le pasó) la edición a otra persona.
+- **Criterio de los cambios:** 14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Carta nueva a partir de «Calendarios y Editing Brief Cáscara» de Segundo (6/10): los pasos de la oferta a la tarjeta del editor, qué lleva el brief (objetivo, referencias, ritmo, tipografía, música, entregable y deadline), un caso resuelto anonimizado y la prueba con un brief real y sus vueltas contadas. Dueño en el reparto de cards: Fede.
+
 ## Arquitectura minima de una comunidad · `arquitectura-comunidad`
 
 - **Cuándo va:** Cuando el founder tiene gente reunida en un grupo o una lista y adentro no pasa nada.
@@ -165,6 +170,7 @@
 ## Calendario de lanzamiento · `calendario-lanzamiento`
 
 - **Cuándo va:** Cuando el founder tiene un producto listo y ninguna fecha ni mecanica para venderlo.
+- **Criterio de los cambios:** 14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. El «Calendario de Historias de Lanzamiento» de Franco (6/10) entra como ejemplo: la consigna del día por día (cid 3) pide el CTA de cada día y un rol por día, y al final va un bloque nuestro (cid 8) con los 28 días, el evento del 15 al 19, la venta del 17 al 23 y las palabras clave por DM. Ningún cid existente cambió.
 - **Versiones:** bianca-antonini (liviana), scarlett-montilla (liviana), sebastian (liviana)
 - **Últimos cambios:**
   - 2026-10-06 · Seba: devolución del Acelerador de Talleres y cartas en revisión (arranque del cliente y calendario de lanzamiento) (`8ff3697`)
@@ -222,7 +228,9 @@
 ## La llamada de venta y el cierre · `llamada-de-venta`
 
 - **Cuándo va:** Cuando el founder abre bien las conversaciones y se le caen al final.
-- **Cómo se personaliza:** Bajada con en qué parte de la llamada se le cae la venta. El SOP sale del script de sales call de F3 (v3.0).
+- **Cómo se personaliza:** Bajada con en qué tramo de la llamada se le cae la venta.
+- **Ojo:** La versión de Agostina trae su propia guía de seis partes en bloques_inicio y queda arriba del guion nuevo: revisar si se recorta (falta confirmar).
+- **Criterio de los cambios:** 14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Las secciones siguen los ocho tramos y las preguntas del «Guion de Venta Cáscara Founders» de Franco (6/10), pasados a un founder que vende su servicio; los ocho reframes van como bloque nuestro para la planilla de objeciones, y se suman la objeción de pareja o socio y el seguimiento por WhatsApp de 24 a 48 h. Sin precios de Cáscara y sin la referencia al script de F3. Los cid 0 a 8 conservan su tema; lo nuevo entra con cid 9 a 14 y la planilla de objeciones suma la columna del reframe al final.
 - **Versiones:** agostina-marchesini (liviana)
 - **Últimos cambios:**
   - 2026-10-03 · Agostina: lo del WhatsApp en la ficha y en sus cartas (precio, interesadas, sus cinco módulos) (`f215f2d`)
@@ -235,12 +243,14 @@
 - **Cuándo va:** Cuando el founder arma cada presupuesto de cero y tarda días en mandarlo.
 - **Versiones:** rosario-sola (liviana), said-espinosa (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
+  - 2026-10-14 · 14/10: Sol (B2B ordenado con propuesta, foco en el programa B2C con workshop) y Rosario (cliente ideal de mamás, oferta del piloto, propuesta a marcas) en revisión (`7b45753`)
   - 2026-10-09 · 9/10: lo que Facu prometió en las Clarity y en la 1:1 de Seba, personalizado y en revisión (editores de Lucila, propuesta y onboarding de Said, Profile Funnel y reseteo de Seba) (`8ecffd1`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
 ## Sumar un setter o un closer · `setter-closer`
 
 - **Cuándo va:** Cuando el volumen de conversaciones pasa lo que el founder puede atender solo, o cuando el cierre se le escapa siempre en el mismo lugar.
+- **Criterio de los cambios:** 14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Entra el seguimiento por WhatsApp de 24 a 48 h del guion de Franco (6/10): en el scope del rol (cid 2) y como sección nueva con cid 8, antes de las primeras diez llamadas.
 - **Últimos cambios:**
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)

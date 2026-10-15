@@ -35,7 +35,7 @@
     },
     {
       "titulo": "El scope del rol, en números de actividad",
-      "consigna": "Escribí qué hace la persona todos los días, medido en cantidad. Actividad que se cuenta sin interpretación: conversaciones nuevas abiertas, llamadas agendadas, propuestas mandadas. Un rol sin número diario no se puede evaluar en la primera semana, que es cuando hay que evaluarlo.",
+      "consigna": "Escribí qué hace la persona todos los días, medido en cantidad. Actividad que se cuenta sin interpretación: conversaciones nuevas abiertas, llamadas agendadas, propuestas mandadas y seguimientos hechos a las 24 o 48 horas. Un rol sin número diario no se puede evaluar en la primera semana, que es cuando hay que evaluarlo.",
       "campo": "lineas",
       "lineas": [
         "Qué tarea hace",
@@ -100,6 +100,24 @@
       "alto": 4,
       "placeholder": "Esto lo decido yo: … Esto se decide solo cuando…",
       "cid": 6
+    },
+    {
+      "titulo": "El seguimiento por WhatsApp de las 24 a 48 horas",
+      "consigna": "Toda llamada que terminó en lo pienso tiene dueño y fecha: la persona del rol le escribe por WhatsApp entre 24 y 48 horas después. El mensaje tiene un solo objetivo, encontrar la objeción real: «Contame sinceramente, ¿qué te impide hoy tomar la decisión?». Con la respuesta separa si es confianza, plata, tiempo o consultarlo con alguien, y contesta con lo que ya está escrito en el guion para cada caso: un caso parecido, la pregunta de prioridades, cuánto pide el servicio por semana o hablarlo ahora con la fecha de cierre adelante. Cada seguimiento queda cargado en el pipeline el mismo día, con la objeción textual.",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "En nuestras llamadas el seguimiento arranca así: «Me acordé de vos y de lo que hablamos. Estuvimos con el equipo y estamos seguros de que te podemos ayudar. Contame sinceramente, ¿qué te impide hoy tomar la decisión?». Si es para consultarlo, la propuesta es hablarlo en ese momento, con los cupos del lanzamiento como fecha."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Fecha de la llamada",
+        "Fecha del seguimiento",
+        "Objeción real",
+        "Cómo terminó"
+      ],
+      "filas": 8,
+      "cid": 8
     },
     {
       "titulo": "Las primeras diez llamadas con la persona adentro",

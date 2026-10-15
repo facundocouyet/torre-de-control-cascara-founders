@@ -701,6 +701,71 @@
           "estado": "existe",
           "evidencia": "Sale del rol que Cáscara escribió para sus propios estrategas (Rol Estratega Creativo, abril 2026) y de la clase 10A del programa, que ya vive en la Library OnDemand de cada OS de cliente. Facu pidió pasarlo a carta el 27/9.",
           "estado_galeria": "aprobada"
+        },
+        {
+          "id": "mi-editing-brief",
+          "nombre": "Tu editing brief",
+          "nivel": "2",
+          "para_quien": "En el mes 2, cuando el founder ya tiene oferta y calendario y le va a pasar la edición a otra persona, o ya se la pasó y las piezas vuelven con muchas vueltas. Va antes de delegar la producción.",
+          "eje": [
+            "contenido",
+            "entrega"
+          ],
+          "resultado": "El editing brief escrito, con narrativa, reglas, referencias, ritmo, tipografía, música, entregables y fechas, y una pieza real producida con él y sus vueltas contadas.",
+          "pasos": [
+            "Escribir la narrativa en una frase y a quién le habla la marca.",
+            "Escribir las reglas de comunicación y las referencias, cada una con su lectura.",
+            "Dejar resueltos el ritmo, la tipografía, el color y la música.",
+            "Definir el entregable de cada formato, dónde vive el material, las fechas y quién aprueba.",
+            "Escribir la tarjeta de una pieza real con el brief al lado.",
+            "Mandar el brief y la tarjeta al editor, contar las vueltas y escribir en el brief la respuesta a cada pregunta que hizo."
+          ],
+          "completar": [
+            "El editing brief completo",
+            "La tarjeta de una pieza real",
+            "El registro de vueltas de tres piezas"
+          ],
+          "herramientas": [
+            "Notion (brief y tarjetas)",
+            "Google Drive para el material crudo",
+            "Spotify o Artlist para la música",
+            "Frame.io o Drive para las entregas"
+          ],
+          "estado": "existe",
+          "evidencia": "Sale del documento de Segundo (content ops, 6/10, en #servicio-founders): los nueve pasos de la oferta a la tarjeta del editor, tres lanzamientos reales de cuatro semanas y los dos editing briefs que se usan hoy, el de marca de Juana y el de marca personal de Franco. Facu aprobó usar ese material el 14/10.",
+          "tareas": [
+            {
+              "titulo": "Escribir la narrativa, a quién le habla y las reglas de comunicación",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Juntar las referencias con su lectura y resolver ritmo, tipografía, color y música",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Escribir el entregable de cada formato, el material, las fechas y quién aprueba",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Mandarle al editor el brief y la tarjeta de una pieza real, y contar las vueltas",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": "Cada pregunta del editor se escribe en el brief el mismo día."
+            },
+            {
+              "titulo": "Repetir la prueba con dos piezas más",
+              "semana": 3,
+              "frecuencia": "unica",
+              "descripcion": ""
+            }
+          ],
+          "estado_galeria": "aprobada"
         }
       ]
     },
@@ -801,7 +866,7 @@
             "Google Meet o Zoom para el workshop"
           ],
           "estado": "existe",
-          "evidencia": "El documento de lanzamiento con embudo, fecha, ángulos y calendario lo baja Franco caso por caso: Lola con workshop y comunidad de WhatsApp, Sofía con el calendario de cuatro semanas día por día, Matías con el roadmap de lanzamiento, Agostina con el calendario de historias de cuatro semanas, Nico con los cinco cupos y fecha de cierre. Andrea tiene las Onfire Sessions armadas y sin fecha. El formato quedó en cuatro semanas, que es el que usan Sofía, Agostina y Scarlett (grupo el 9/10, prueba de audiencia el 16/10, preventa el 23/10 y taller el 30/10); la versión de cuarenta y cinco días se reescribió el 2/10.",
+          "evidencia": "El documento de lanzamiento con embudo, fecha, ángulos y calendario lo baja Franco caso por caso: Lola con workshop y comunidad de WhatsApp, Sofía con el calendario de cuatro semanas día por día, Matías con el roadmap de lanzamiento, Agostina con el calendario de historias de cuatro semanas, Nico con los cinco cupos y fecha de cierre. Andrea tiene las Onfire Sessions armadas y sin fecha. El formato quedó en cuatro semanas, que es el que usan Sofía, Agostina y Scarlett (grupo el 9/10, prueba de audiencia el 16/10, preventa el 23/10 y taller el 30/10); la versión de cuarenta y cinco días se reescribió el 2/10. Desde el 14/10 la carta trae como ejemplo el calendario de historias de 28 días de Franco (6/10): un rol por día, un CTA por etapa, evento del día 15 al 19, venta del 17 al 23 y palabra clave por DM.",
           "tareas": [
             {
               "titulo": "Poner fecha y hora de apertura y de cierre, y avisarle al equipo",
@@ -826,6 +891,12 @@
               "semana": 1,
               "frecuencia": "unica",
               "descripcion": "Un día sin pieza cargada es un día que se cae."
+            },
+            {
+              "titulo": "Definir las palabras clave por DM y quién responde cada una",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Una para el registro, una para la oferta y una para los recursos de valor, con la respuesta escrita."
             },
             {
               "titulo": "Publicar la pieza del día y anotar lo que trajo",
@@ -1097,17 +1168,18 @@
           "eje": [
             "venta"
           ],
-          "resultado": "Un guion de llamada propio, cinco llamadas grabadas con su objeción anotada y el mecanismo de cierre definido.",
+          "resultado": "Un guion de llamada propio tramo por tramo, cinco llamadas grabadas con su objeción anotada y su seguimiento hecho, y el mecanismo de cierre definido.",
           "pasos": [
-            "Escribir el guion en cuatro tramos: contexto, dolor, costo de no avanzar y propuesta con precio.",
-            "Definir el cierre: cupos limitados, fecha y seña para reservar el lugar.",
+            "Escribir el guion tramo por tramo: marco, objetivo, visualización, check de realidad, costo de no avanzar, propuesta, temperatura y cierre.",
+            "Definir el cierre: cupos limitados, fecha y seña para reservar el lugar, cobrada adentro de la llamada.",
             "Dejar el downsell fuera de la comunicación y ofrecerlo solo adentro de la llamada cuando el freno es el precio.",
             "Grabar todas las llamadas y revisarlas con el mentor.",
-            "Anotar la objeción textual de cada llamada que no cerró.",
+            "Anotar la objeción textual de cada llamada que no cerró y el reframe que se probó.",
+            "Hacer el seguimiento por WhatsApp a las 24 o 48 horas de cada llamada que quedó abierta.",
             "Corregir el guion y el contenido con las objeciones que se repiten."
           ],
           "completar": [
-            "El guion de llamada en cuatro tramos",
+            "El guion de llamada tramo por tramo",
             "Las grabaciones de las llamadas subidas donde el mentor las vea",
             "La planilla de objeciones con la corrección aplicada"
           ],
@@ -1117,7 +1189,7 @@
             "Link de pago para la seña"
           ],
           "estado": "existe",
-          "evidencia": "El criterio completo se le bajó a Lola: encontrar el dolor, mostrar el costo de no avanzar, cupos limitados y seña, con la regla de vender una sola opción y el downsell solo adentro de la llamada. Franco revisa las tres llamadas grabadas de Lola. Nico tiene que agendar y grabar tres llamadas. Seba y José David registran la objeción de cada llamada que no cerró. Sofía pasó el discovery a llamada de treinta minutos sobre Miro o Canva.",
+          "evidencia": "El criterio completo se le bajó a Lola: encontrar el dolor, mostrar el costo de no avanzar, cupos limitados y seña, con la regla de vender una sola opción y el downsell solo adentro de la llamada. Franco revisa las tres llamadas grabadas de Lola. Nico tiene que agendar y grabar tres llamadas. Seba y José David registran la objeción de cada llamada que no cerró. Sofía pasó el discovery a llamada de treinta minutos sobre Miro o Canva. Desde el 14/10 la hoja sigue los tramos, las preguntas, los reframes y el seguimiento del guion de cierre que usa Cáscara (Franco, 6/10), pasados al servicio de cada founder.",
           "estado_galeria": "aprobada"
         },
         {
@@ -1166,6 +1238,7 @@
             "Escribir el scope: qué hace, con qué guion, cuántas conversaciones por día y qué reporta.",
             "Definir la compensación: fijo, comisión por cierre y cuando se paga.",
             "Reclutar, entrevistar y hacer una prueba paga sobre conversaciones reales.",
+            "Sumar al rol el seguimiento por WhatsApp a las 24 o 48 horas de cada llamada que quedó abierta.",
             "Correr las primeras diez llamadas escuchando las grabaciones y corrigiendo el guion."
           ],
           "completar": [
@@ -1179,7 +1252,7 @@
             "Pipeline en Notion o Airtable"
           ],
           "estado": "existe",
-          "evidencia": "Quedo pedido en la charla, para escribirlo con Francisca. Lola reconoce que el final de la llamada es su punto flojo y Franco define si entra un closer del equipo para la primera tanda. Lucca tiene que decidir si el paso siguiente es equipo comercial. Manu deriva ticket alto a él y el resto a Team Bruzzone, sin proceso escrito de quién precalifica.",
+          "evidencia": "Quedo pedido en la charla, para escribirlo con Francisca. Lola reconoce que el final de la llamada es su punto flojo y Franco define si entra un closer del equipo para la primera tanda. Lucca tiene que decidir si el paso siguiente es equipo comercial. Manu deriva ticket alto a él y el resto a Team Bruzzone, sin proceso escrito de quién precalifica. El seguimiento de 24 a 48 horas por WhatsApp sale del guion de cierre de Franco (6/10).",
           "estado_galeria": "aprobada"
         }
       ]
@@ -1982,6 +2055,7 @@
     "os-en-notion",
     "cadencia-y-duenos",
     "contratar-primer-rol",
+    "mi-editing-brief",
     "delegar-produccion",
     "estratega-creativo",
     "base-de-datos-unica",

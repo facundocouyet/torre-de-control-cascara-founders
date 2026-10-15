@@ -1,12 +1,22 @@
 {
   "modulo": "llamada-de-venta",
   "titulo": "La hoja de la llamada de venta",
-  "bajada": "El guion en cuatro tramos, el mecanismo de cierre definido y cinco llamadas grabadas con su objeción anotada. Con esto escrito, la venta deja de depender de cómo te salió la charla.",
-  "lista_cuando": "Hay cinco llamadas grabadas con el precio dicho en voz alta, cada una con su objeción textual escrita, y el guion ya corregido con las objeciones que se repitieron.",
+  "bajada": "El guion tramo por tramo con las preguntas escritas, el cierre definido, los reframes para las objeciones que más se repiten y cinco llamadas grabadas con su objeción anotada. Con esto escrito, la venta deja de depender de cómo te salió la charla.",
+  "lista_cuando": "Hay cinco llamadas grabadas con el precio dicho en voz alta, cada una con su objeción textual escrita y su seguimiento hecho a las 24 o 48 horas, y el guion ya corregido con las objeciones que se repitieron.",
   "secciones": [
     {
-      "titulo": "El guion en cuatro tramos",
-      "consigna": "Una fila por tramo: contexto, dolor, costo de no avanzar y propuesta con precio. En cada uno escribí qué tiene que quedar claro, qué preguntás y cuántos minutos le das. Con los cuatro tramos escritos alcanza media hora; una hora sin guion termina siempre en te mando la info.",
+      "nuestro": true,
+      "titulo": "Cómo está armada esta llamada",
+      "texto": [
+        "Es el guion que usamos en Cáscara para nuestras propias llamadas de cierre, pasado a tu servicio. Dura entre 40 y 45 minutos y tiene ocho tramos en orden: el marco, el objetivo, la visualización, el check de realidad, el costo de no avanzar, la propuesta, la temperatura y el cierre. Atrás vienen tres herramientas para cuando la llamada se traba: los reframes, la objeción de la pareja o el socio y el seguimiento de las 24 a 48 horas.",
+        "Dos reglas ordenan todo. La primera: el objetivo que la persona te dice con sus palabras es el eje de la llamada, y se repite textual hasta el final, sin parafrasearlo. En las preguntas de abajo aparece como <b>XYZ</b>. La segunda: el descubrimiento ocupa más de la mitad del tiempo. Si llegás a la propuesta sin un número, sin un plazo y sin un motivo para hacerlo ahora, volvé atrás.",
+        "Las preguntas están escritas casi textuales. Usalas así las primeras veces y después cambiá las palabras que no te salen naturales, manteniendo el orden."
+      ],
+      "cid": 9
+    },
+    {
+      "titulo": "El guion, tramo por tramo",
+      "consigna": "Una fila por tramo, en este orden: marco (2 minutos), objetivo (12 a 15), visualización (4), check de realidad (1), costo de no avanzar (5), propuesta (8), temperatura (5) y cierre (3). En cada uno escribí qué tiene que quedar claro y la pregunta con la que lo abrís. El marco se dice al arrancar y te da permiso para preguntar a fondo después: «Primero te voy a hacer unas preguntas para entender dónde estás. Si veo que te puedo ayudar, te muestro cómo trabajo, y si te cierra, vemos cómo seguir. ¿Te parece?».",
       "ejemplo": {
         "quien": "Lola",
         "texto": "Ella lo dijo así: es buena encontrando el dolor y diciendo cómo atacarlo, y el final, el che, lo vas a comprar, le cuesta. Las tres llamadas que tuvo se cayeron todas en el mismo lugar, al final."
@@ -18,20 +28,32 @@
         "Qué preguntás",
         "Minutos"
       ],
-      "filas": 5,
+      "filas": 8,
       "cid": 0
     },
     {
-      "titulo": "Las preguntas que encuentran el dolor",
-      "consigna": "Cinco preguntas escritas que hacen que la persona te cuente su problema con sus palabras. Van de lo general a lo concreto y terminan en un número: cuánto le cuesta hoy eso que le pasa. Mientras habla, anotá las frases textuales, porque son el copy de tu próxima propuesta y de tu próximo contenido.",
+      "titulo": "Las preguntas del objetivo y del dolor",
+      "consigna": "Es el tramo más largo y el que decide la llamada. Buscás tres cosas: un objetivo medible, hace cuánto lo persigue y por qué le importa hoy. Escribí tus preguntas en este orden, adaptadas a tu servicio: «¿Qué estás buscando, específicamente?», «¿Qué estás haciendo hoy para lograr XYZ?», «¿Hace cuánto lo venís haciendo así?», «Haciendo las cosas así, ¿creés que llegás a XYZ o sentís que tenés que cambiar algo?», «¿Por qué sentís que lo que hacés no te lleva a XYZ?» y «¿Qué hace que esto sea tan importante para vos hoy?». Mientras habla, anotá las frases textuales, porque son el copy de tu próxima propuesta y de tu próximo contenido.",
       "campo": "texto",
-      "alto": 5,
-      "placeholder": "Una pregunta por renglón.",
+      "alto": 6,
+      "placeholder": "Una pregunta por renglón, con tus palabras.",
       "cid": 1
     },
     {
+      "titulo": "La visualización y el check de realidad",
+      "consigna": "Primero la persona describe su vida con el objetivo cumplido: «Imaginá que trabajamos juntos y llegás a XYZ. ¿Cómo se ve ese cambio?», «¿Qué te podrías permitir que hoy no te permitís?» y «¿Cómo te haría sentir eso?». Si contesta con una palabra vaga, preguntá por esa palabra. Después, en un minuto, el check de realidad: con respeto y sin suavizar, que reconozca la distancia entre dónde está y dónde quiere estar. Escribí esa frase con tus palabras y con el XYZ de la persona adentro.",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "«Con todo el respeto: en la situación en la que estás hoy te falta la estructura para llegar a XYZ, y lo venís intentando hace un año. Sabés que hoy estás lejos, ¿verdad?» En nuestras llamadas el techo del founder es de estructura, y la frase lo nombra así."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Mis tres preguntas de visualización. Mi frase de check de realidad.",
+      "cid": 10
+    },
+    {
       "titulo": "El costo de no avanzar, con número",
-      "consigna": "Después del dolor va la cuenta: qué le cuesta seguir como está, en plata o en tiempo, armada con el número que la persona te dio dos minutos antes. Se dice una vez, tranquilo, y se deja el silencio. Si con lo que te contó no podés armar esa cuenta, volvé al tramo del dolor porque falta información.",
+      "consigna": "Es la otra cara de la visualización: qué pasa si no cambia nada. Preguntá «Si no hacés ningún cambio a partir de acá, ¿cómo se ve esto en seis meses, en un año?», después «¿Te vas a conformar con que esa sea tu realidad?» y cerrá con «¿Quién tiene el control de que hagas lo necesario?». Armá la cuenta en plata o en tiempo con el número que la persona te dio en el tramo del objetivo, decila una vez y dejá el silencio. Si con lo que te contó no podés armar esa cuenta, volvé al tramo del objetivo porque falta información.",
       "ejemplo": {
         "quien": "Lucca",
         "texto": "Entra como co-anfitrión a la cuenta de Airbnb del dueño, cobra el diez por ciento del bruto y el resultado se compara mes contra mes con un software. El dueño lo ve a los dos meses, y por eso las objeciones son cero."
@@ -43,7 +65,7 @@
     },
     {
       "titulo": "La propuesta: una sola opción, con precio",
-      "consigna": "Una sola opción arriba de la mesa, con el precio dicho en voz alta y el silencio después. Escribí acá el precio de lista, el de pago adelantado y en cuántas cuotas, con más de la mitad cobrada al arrancar. Tres opciones llevan a la persona a comparar en lugar de decidir.",
+      "consigna": "Una sola opción arriba de la mesa, y cada parte de la propuesta atada a algo que la persona dijo: lo que no podés atar a su XYZ, no lo digas. Sumá un solo caso, el más parecido a su situación, porque un caso cercano pesa más que tres lejanos. El precio se dice una vez, con el pago único primero, y después silencio. Escribí acá el precio de lista, el de pago adelantado y en cuántas cuotas, con más de la mitad cobrada al arrancar.",
       "ejemplo": {
         "quien": "Lucio",
         "texto": "La hipótesis de precio es dos mil a tres mil dólares la instalación del sistema de diseño con IA, más cuatrocientos a seiscientos mensuales de acompañamiento opcional. Las cinco llamadas del tramo son las que confirman o corrigen ese número."
@@ -54,8 +76,16 @@
       "cid": 3
     },
     {
+      "titulo": "La temperatura antes de pedir la venta",
+      "consigna": "Antes de pedir la venta, medí cómo está. Forzá la duda, porque siempre hay una y conviene que salga ahora: «¿Qué preguntas tenés sobre lo que vimos? Tomate diez segundos». Después: «¿Sentís que esto es lo que estás buscando?» y «¿Qué te hace estar tan seguro?». Si la notás tibia, pedile un número: «Del 1 al 10, ¿dónde estás? ¿Por qué un 7 y no un 3? ¿Y qué falta para el 10?». Se pide la venta con la duda resuelta.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Mis preguntas de temperatura, y qué hago si me dice menos de 8.",
+      "cid": 11
+    },
+    {
       "titulo": "El cierre: cupos, fecha y seña",
-      "consigna": "Qué reserva el lugar y hasta cuándo: cuántos cupos quedan, la fecha de cierre y el monto de la seña, con el link listo para mandar durante la llamada. La seña se cobra adentro de la llamada o ese mismo día. Con fecha y cupo escritos, la respuesta deja de ser lo pienso y te escribo.",
+      "consigna": "La venta se pide con una pregunta y se cobra adentro de la llamada: «De mi lado está todo claro y sé que te puedo ayudar. Si te parece, lo dejamos resuelto ahora: me decís qué medio de pago te queda más cómodo y te paso los datos. ¿Lo hacemos así?». Los datos de pago se mandan recién después del sí. Escribí qué reserva el lugar y hasta cuándo: cuántos cupos quedan, la fecha de cierre y el monto de la seña, con el link listo. Con fecha y cupo escritos, la respuesta deja de ser lo pienso y te escribo.",
       "ejemplo": {
         "quien": "Nico",
         "texto": "Cinco cupos y ticket de mil dólares, con la primera venta puesta al 10 de noviembre. Una sola venta, sin descuento y sin regalar el proceso, es lo que convierte la oferta en oferta."
@@ -95,18 +125,60 @@
       "cid": 6
     },
     {
+      "nuestro": true,
+      "titulo": "Los reframes, para tu planilla de objeciones",
+      "texto": [
+        "Un reframe sirve cuando una creencia de la persona le impide moverse de donde está. Tiene seis pasos: indagás hasta que lo vago se vuelva preciso, le mostrás que la entendés (entender es distinto de estar de acuerdo), pedís permiso («¿Puedo sugerirte algo?»), das el punto de vista nuevo con una analogía, chequeás que lo entendió («¿Me explico?») y cerrás con una comparación: «¿Cuál de las dos te aleja más de XYZ?».",
+        "Estos son los ocho que usamos, cada uno con la pregunta que lo abre. Aprendete tres o cuatro y dominalos: recitar los ocho suena a guion.",
+        "<b>«Lo tengo que pensar»</b> · la forma de decidir. «¿Dirías que la forma en que tomamos decisiones afecta los resultados que tenemos? ¿Estás dispuesto a que ese mismo proceso decida los resultados que vienen?»",
+        "<b>«Ahora no es el momento»</b> · las circunstancias. «Hay quienes actúan según las circunstancias y quienes actúan a pesar de ellas. ¿Cuál de las dos te aleja más de XYZ?»",
+        "<b>«¿Y si no funciona?»</b> · el riesgo. «¿Qué es más arriesgado: invertir en lo que te lleva a donde querés, o quedarte donde estás uno, tres, seis años más?»",
+        "<b>«No tengo la plata» o «no tengo el tiempo»</b> · síntoma o problema. «Que hoy no puedas hacer esto por no tener plata, ¿es el síntoma o el problema de raíz?»",
+        "<b>«No sé si voy a poder»</b> · la bicicleta. «¿Te caíste aprendiendo a andar en bici? ¿Por qué seguiste? Hacen falta dos cosas: un motivo fuerte, que ya tenés, y las ganas de hacer lo necesario.»",
+        "<b>«Me da miedo»</b> · el miedo como señal. «Esa incomodidad es la salida de la zona de confort. Lo que pasa adentro de la zona de confort ya lo conocés: lo venís viviendo hace [tiempo].»",
+        "<b>«Es mucha plata para mí»</b> · la certeza. «La duda viene de la falta de certeza, y la certeza viene de la experiencia. ¿Qué necesitás hacer hoy para que la próxima decisión te encuentre más seguro?»",
+        "<b>«Estoy viendo otras opciones»</b> · el compromiso. «Si las tres son buenas, ¿qué va a decidir el resultado: la opción que elijas, o vos y tu compromiso?»",
+        "Cuando una objeción entra en la planilla de abajo, anotá al lado qué reframe probaste y cómo reaccionó la persona. Con tres llamadas ya sabés cuáles te salen y cuáles no."
+      ],
+      "pregunta": "Los tres o cuatro reframes que vas a dominar primero",
+      "cid": 12
+    },
+    {
+      "titulo": "La objeción de la pareja o el socio",
+      "consigna": "Cuando la persona dice que lo decide con alguien más, son cuatro movimientos. Aislar: «Si [persona] estuviera acá y te apoyara al cien por ciento, ¿lo harías?»; si la respuesta tarda o duda, la objeción real es otra. Medir el apoyo: «¿Cómo se siente [persona] con lo que querés lograr?». Probar: «¿Y qué pasa si lo hablás y no te apoya?». Devolver la responsabilidad: «Al final del día, ¿de quién es la responsabilidad de ir atrás de tus objetivos?». Si igual necesita hablarlo, ofrecé una reserva: un paso chico que muestre compromiso y le deje el espacio para esa charla.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Mis cuatro preguntas, con mis palabras, y cuánto es la reserva.",
+      "cid": 13
+    },
+    {
       "titulo": "La planilla de objeciones",
-      "consigna": "Una fila por llamada que no cerró, con la objeción escrita tal como la dijo y el tramo donde se cayó. Cuando la misma objeción aparece tres veces, se corrige el guion y se hace contenido sobre ese tema. La frase textual sirve mucho más que tu interpretación de la frase.",
+      "consigna": "Una fila por llamada que no cerró, con la objeción escrita tal como la dijo, el tramo donde se cayó y el reframe que probaste. Cuando la misma objeción aparece tres veces, se corrige el guion y se hace contenido sobre ese tema. La frase textual sirve mucho más que tu interpretación de la frase.",
       "campo": "tabla",
       "columnas": [
         "Quién",
         "Fecha",
         "Objeción textual",
         "Tramo donde se cayó",
-        "Qué corregís"
+        "Qué corregís",
+        "Reframe que probaste"
       ],
       "filas": 10,
       "cid": 7
+    },
+    {
+      "titulo": "El seguimiento de las 24 a 48 horas",
+      "consigna": "La llamada que terminó en lo pienso se retoma por WhatsApp entre 24 y 48 horas después, con un solo objetivo: encontrar la objeción real y resolverla. Abrí cálido y directo («Me acordé de vos y de lo que hablamos, ¿tenés unos minutos?»), repetí que sabés que la podés ayudar y preguntá: «Contame sinceramente, ¿qué te impide hoy tomar la decisión?». Si es confianza, preguntá qué información la dejaría tranquila y mandale un caso. Si es plata, separá si falta la plata o si es una cuestión de prioridades. Si es tiempo, mostrale cuánto le pide tu servicio por semana. Si lo tiene que consultar, proponé hablarlo ahora y recordale la fecha de cierre.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Cuándo le escribiste",
+        "Objeción real",
+        "Qué le mandaste",
+        "Cómo terminó"
+      ],
+      "filas": 6,
+      "cid": 14
     },
     {
       "titulo": "Cinco llamadas con el precio arriba de la mesa",

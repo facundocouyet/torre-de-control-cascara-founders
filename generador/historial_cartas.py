@@ -37,6 +37,7 @@ for c in inv["categorias"]:
         out.append("- **Cuándo va:** %s" % (u.get("cuando") or m.get("para_quien", "")))
         if u.get("personalizar"): out.append("- **Cómo se personaliza:** %s" % u["personalizar"])
         if u.get("ojo"): out.append("- **Ojo:** %s" % u["ojo"])
+        if u.get("criterio"): out.append("- **Criterio de los cambios:** %s" % u["criterio"])
         vs = sorted(var.get(mid, []))
         if vs: out.append("- **Versiones:** " + ", ".join("%s (%s)" % (s, t) for s, t, _ in vs))
         paths = [os.path.join("fichas", "plantillas", mid + ".json")] + [p for _, _, p in vs]

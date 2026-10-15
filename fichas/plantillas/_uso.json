@@ -17,7 +17,9 @@
     "ojo": "Es un formulario: se completa en uno o dos días."
   },
   "llamada-de-venta": {
-    "personalizar": "Bajada con en qué parte de la llamada se le cae la venta. El SOP sale del script de sales call de F3 (v3.0)."
+    "personalizar": "Bajada con en qué tramo de la llamada se le cae la venta.",
+    "ojo": "La versión de Agostina trae su propia guía de seis partes en bloques_inicio y queda arriba del guion nuevo: revisar si se recorta (falta confirmar).",
+    "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Las secciones siguen los ocho tramos y las preguntas del «Guion de Venta Cáscara Founders» de Franco (6/10), pasados a un founder que vende su servicio; los ocho reframes van como bloque nuestro para la planilla de objeciones, y se suman la objeción de pareja o socio y el seguimiento por WhatsApp de 24 a 48 h. Sin precios de Cáscara y sin la referencia al script de F3. Los cid 0 a 8 conservan su tema; lo nuevo entra con cid 9 a 14 y la planilla de objeciones suma la columna del reframe al final."
   },
   "handraisers-historias": {
     "ojo": "Es más SOP que carta: no se manda como carta suelta. Carta = SOP + formulario + accionables (Facu, 3/10)."
@@ -25,5 +27,15 @@
   "angulos-desde-icp": {
     "cuando": "Después del ICP devuelto: sale de sus dolores y preguntas textuales.",
     "personalizar": "Bajada con lo que ya escribió en el ICP; las cartas de contenido llevan referencias y capturas reales (Facu, 3/10)."
+  },
+  "setter-closer": {
+    "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Entra el seguimiento por WhatsApp de 24 a 48 h del guion de Franco (6/10): en el scope del rol (cid 2) y como sección nueva con cid 8, antes de las primeras diez llamadas."
+  },
+  "calendario-lanzamiento": {
+    "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. El «Calendario de Historias de Lanzamiento» de Franco (6/10) entra como ejemplo: la consigna del día por día (cid 3) pide el CTA de cada día y un rol por día, y al final va un bloque nuestro (cid 8) con los 28 días, el evento del 15 al 19, la venta del 17 al 23 y las palabras clave por DM. Ningún cid existente cambió."
+  },
+  "mi-editing-brief": {
+    "cuando": "Mes 2, antes de delegar la producción: cuando el founder ya tiene oferta y calendario y le pasa (o ya le pasó) la edición a otra persona.",
+    "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Carta nueva a partir de «Calendarios y Editing Brief Cáscara» de Segundo (6/10): los pasos de la oferta a la tarjeta del editor, qué lleva el brief (objetivo, referencias, ritmo, tipografía, música, entregable y deadline), un caso resuelto anonimizado y la prueba con un brief real y sus vueltas contadas. Dueño en el reparto de cards: Fede."
   }
 }

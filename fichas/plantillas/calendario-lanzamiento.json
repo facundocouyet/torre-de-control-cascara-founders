@@ -48,7 +48,7 @@
     },
     {
       "titulo": "El calendario día por día",
-      "consigna": "Una fila por día, de la apertura al cierre: veintiocho filas. Cada día lleva la semana a la que pertenece, la pieza concreta, dónde sale y qué tiene que provocar. Un día sin pieza cargada es un día que se cae, así que las cuatro semanas se completan antes de arrancar.",
+      "consigna": "Una fila por día, de la apertura al cierre: veintiocho filas. Cada día lleva la semana a la que pertenece, la pieza concreta, dónde sale y qué tiene que provocar, con el CTA del día escrito en esa misma columna: ninguno, una encuesta, una caja de preguntas o la palabra clave por DM. Cada día cumple un solo rol, y el CTA cambia por etapa: el mismo durante toda la semana de registro y el mismo durante toda la venta. Un día sin pieza cargada es un día que se cae, así que las cuatro semanas se completan antes de arrancar. Al final de la hoja está el calendario de historias que usamos en Cáscara, para copiarle la lógica.",
       "ejemplo": {
         "quien": "Scarlett",
         "texto": "Su lanzamiento quedó en cuatro semanas con una fecha por semana: abre el grupo de WhatsApp el 9 de octubre, hace la prueba de audiencia el 16, la preventa el 23 y el taller presencial el 30. Cada semana tiene un solo trabajo y el calendario se lee de arriba abajo."
@@ -118,6 +118,19 @@
       ],
       "filas": 28,
       "cid": 7
+    },
+    {
+      "nuestro": true,
+      "titulo": "El calendario de historias que usamos en Cáscara",
+      "texto": [
+        "Es la plantilla con la que llegamos a un evento de lanzamiento en historias de Instagram: veintiocho días, un rol por día y un solo CTA por etapa. Las historias le hablan a la gente que ya te sigue y son las que convierten; el alcance nuevo lo traen los reels y los anuncios. Los CTA van por palabra clave por DM en lugar de link: rinde mucho más y abre una conversación que alguien puede seguir.",
+        "<b>Semana 1 · expectativa (días 1 a 7).</b> Se instala el problema y tu historia, sin nombrar el evento y sin vender. Un rol por día: el objetivo del mes con una pista de que viene algo, un día real de trabajo, tu historia personal a cámara, un resultado de cliente con número, un hand raiser de valor, un día de lifestyle con caja de preguntas y una reflexión que cierra con «el lunes les cuento algo». El único CTA es una palabra clave por DM para recibir un recurso gratis.",
+        "<b>Semana 2 · registro (días 8 a 14).</b> Se anuncia el evento y se llena la lista. Los roles: el anuncio, para quién es y para quién no, detrás del evento, prueba social, la objeción principal respondida a cámara, un recordatorio con cuenta regresiva y la última llamada. Toda historia de la semana termina en la misma palabra clave de registro, y el link llega por DM.",
+        "<b>Semana 3 · evento (días 15 a 21).</b> El evento corre del día 15 al 19. Los dos primeros días van sin oferta; la venta abre el tercer día, el 17, con qué incluye, para quién es, el precio y la fecha de cierre. Desde ahí el CTA pasa a la palabra clave de la oferta, y la atiende un setter. El fin de semana se repasa lo mejor del evento y se responden preguntas de la oferta a cámara.",
+        "<b>Semana 4 · cierre (días 22 a 28).</b> Últimas 48 horas el día 22 y cierre el 23, en tres tandas: mañana, tarde y última hora, con la última historia anunciando el cierre. El 24 se da la bienvenida en público y el seguimiento de llamadas pendientes y cuotas se hace por privado. Los últimos días muestran el arranque de los que entraron, y el 28 abre la lista de espera con su propia palabra clave.",
+        "Antes del día 1 definí las palabras clave (una para el registro, una para la oferta y una para los recursos de valor) y quién responde cada una, con la respuesta ya escrita. Si tu evento es más corto, mové las fechas y mantené la lógica: la venta abre a mitad del evento y el día después del cierre es de cobro."
+      ],
+      "cid": 8
     }
   ]
 }
