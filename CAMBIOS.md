@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 15 de octubre de 2026
+
+Las cartas genéricas suman el material del equipo y la torre pone la pelota en vos con cuatro clientes que devolvieron.
+
+- **Cartas genéricas.** Llamada de venta con el guion vigente de Franco, seguimiento de 24 a 48 horas en setter-closer, el calendario de historias de 28 días en el lanzamiento y la carta nueva «Mi editing brief» (de Segundo).
+- **Pelota en vos.** Seba (ve a Franco el viernes 16/10 y espera tu feedback del programa), José David (mandó oferta e ICP), The Momentum Club (completó el análisis del lanzamiento) y Lola (1:1 el viernes 10:00).
+- **Ingresos.** A2 completó la auditoría de clientes, Camila Basso tuvo la Clarity (cortada) y Rosario le mandó a Franco el avance de la oferta para marcas.
+
+**Para mirar antes de subir:** las cuatro genéricas y la carta nueva; la torre publicada no se actualizó hasta que las apruebes.
+
 ## 14 de octubre de 2026
 
 Salen a la app las cartas de Mecha y A2, y entran a revisión las de Osmo y Sol, que salen de las llamadas de ayer.
