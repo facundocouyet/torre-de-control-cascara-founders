@@ -1,0 +1,119 @@
+{
+ "modulo": "icp-mecanismo",
+ "slug": "camila-basso",
+ "founder": "Camila Basso",
+ "titulo": "La hoja de tu cliente ideal",
+ "bajada": "Quién compra BUCK de verdad, para qué usa la ropa y qué le falta en lo que compra hoy. Con sus palabras, no con lo que dice la pauta. De acá sale la narrativa de la marca y los ángulos de tu contenido.",
+ "lista_cuando": "Tenés a tus compradores reales mirados uno por uno, cinco conversaciones anotadas textuales, las marcas contra las que te comparan y tu cliente escrito en una frase.",
+ "por_que_propia": "Forma B: BUCK es una marca de producto, no de servicio. La genérica pregunta por oficio, mecanismo, escalera de servicio y clientes que pagaron un trabajo, que acá no aplican. Además sus datos de venta están torcidos por un producto de proveedor (el camisaco, 51% del margen), así que la carta la manda a hablar con compradores reales. Clarity Call del 14/10.",
+ "bajada_envio": {
+  "founder": "Camila Basso",
+  "porque": "En la Clarity quedó el camino: antes de poner más plata en pauta o en producción, hay que saber a quién le habla BUCK y contarlo con tu historia. Hoy la pauta se lleva 62 de cada 100 pesos de margen, y es nitro puesto en un auto que todavía no tiene rumbo. El primer paso es el cliente ideal.",
+  "objetivo": "Tu cliente ideal escrito con datos reales: quién te compró, para qué usa la ropa y contra qué marcas te compara. Con esto armamos la narrativa de BUCK y los ángulos de contenido para la colección de verano.",
+  "mindset": "Buena parte ya la escribiste en el onboarding: la ciudad y la escapada, The Outsiders Club, el que arma su propio plan. Esta hoja es para comprobarlo con gente real. No tiene que salir perfecta: lo tosco lo afilamos juntos."
+ },
+ "secciones": [
+  {
+   "cid": 0,
+   "nuestro": true,
+   "titulo": "Lo que quedó de la Clarity Call",
+   "texto": [
+    "BUCK nació adentro de la marca de tu viejo y se vendía sola porque tenía locales y estructura. Ahora es tuya y hay que armarle su propio motor.",
+    "Una marca chica no le gana a Adidas con una campaña gigante. Le gana con un nicho que conoce de memoria y con la historia de la persona que la hace. Primero el mensaje y la narrativa; la pauta viene después, para empujar lo que ya funciona.",
+    "Lo que buscamos en estos tres meses es el producto que encaja con tu cliente ideal: uno o dos productos muy funcionales que cuenten la idea de la marca, más que treinta modelos sueltos.",
+    "Y el contenido lo lidera tu historia. No como influencer: contando por qué hacés BUCK, lo que te costó y lo que estás armando."
+   ],
+   "pregunta": "Algo de esto no te representa"
+  },
+  {
+   "cid": 8,
+   "nuestro": true,
+   "titulo": "Lo que ya nos contaste",
+   "texto": [
+    "BUCK es ropa para el que vive en la ciudad y se escapa cuando puede: cómoda, de calidad, que sirve igual para ir a tomar algo que para una caminata. Sin streetwear que grite y sin tecnicismos. La comunidad tiene nombre: The Outsiders Club, la gente que arma su propio plan.",
+    "Escribiste a tu cliente como alguien de 20 a 35 años, de ciudad, estudiante, profesional joven, freelancer o creativo, que el jueves ya está pensando adónde irse el finde.",
+    "Los números: 59 prendas vendidas en cinco meses, casi siempre de a una. El camisaco, que es de proveedor, es la mitad del margen. La pauta en Meta se lleva 62 de cada 100 pesos de margen. Por eso los datos de la pauta no alcanzan para saber quién es tu cliente: hay que preguntarle."
+   ],
+   "pregunta": "Algo cambió desde que lo escribiste"
+  },
+  {
+   "cid": 1,
+   "titulo": "Quién te compró de verdad",
+   "consigna": "Abrí las órdenes de la tienda y mirá a tus compradores uno por uno. Separá los del camisaco de los que compraron una prenda tuya. Anotá lo que sepas de cada uno: de dónde es, cómo llegó (anuncio, Instagram, alguien que lo conoce) y, si sabés, para qué usa la ropa. Con diez filas alcanza.",
+   "campo": "tabla",
+   "columnas": [
+    "Quién (nombre o inicial, ciudad)",
+    "Qué compró",
+    "Cómo llegó",
+    "Para qué la usa, si lo sabés"
+   ],
+   "filas": 10
+  },
+  {
+   "cid": 2,
+   "titulo": "Andá a preguntárselo a cinco",
+   "consigna": "Escribile a cinco personas que te compraron, mejor si fue una prenda tuya y no el camisaco. Preguntales para qué la usan, por qué la eligieron y qué otra marca miraron antes. Anotá lo que contestaron textual, sin arreglarlo. Un audio de dos minutos de cada uno alcanza.",
+   "campo": "tabla",
+   "columnas": [
+    "A quién",
+    "Qué compró",
+    "Qué le preguntaste",
+    "Qué contestó, textual"
+   ],
+   "filas": 5
+  },
+  {
+   "cid": 3,
+   "titulo": "Las marcas contra las que te comparan",
+   "consigna": "Tres a cinco marcas que tu cliente ya compra, como Marta, Bellaco u On. Por cada una: qué le gusta de esa marca, cuánto sale una prenda y qué le falta que BUCK sí le da. Sirve para saber en qué lugar te pone tu cliente y en qué precio.",
+   "campo": "tabla",
+   "columnas": [
+    "Marca",
+    "Qué le gusta a tu cliente de esa marca",
+    "Cuánto sale una prenda",
+    "Qué le falta que BUCK le da"
+   ],
+   "filas": 5
+  },
+  {
+   "cid": 9,
+   "titulo": "Lo que llega para el verano",
+   "consigna": "Qué productos llegan, cuándo y cuántos. Lo necesitamos para planificar el contenido alrededor de cada llegada. Si una fecha no la sabés, poné la estimada.",
+   "campo": "tabla",
+   "columnas": [
+    "Producto",
+    "Cuántas unidades",
+    "Cuándo llega",
+    "Para quién lo pensaste"
+   ],
+   "filas": 6
+  },
+  {
+   "cid": 6,
+   "titulo": "Tu cliente, en una frase",
+   "consigna": "Una frase con quién es, qué busca y por qué BUCK le habla a esa persona y no a cualquiera que compra ropa. Y abajo, cuál de los productos que llegan le hablaría primero.",
+   "campo": "lineas",
+   "lineas": [
+    "Mi cliente es…",
+    "El producto que le hablaría primero"
+   ]
+  },
+  {
+   "cid": 7,
+   "nuestro": true,
+   "titulo": "Qué pasa con esto después",
+   "texto": [
+    "Con esta hoja armamos la narrativa de BUCK y los ángulos de comunicación para la colección de verano.",
+    "Mientras tanto, la tarea de esta semana es grabar tu historia. Elegí un lugar que te represente, poné el celular y contestá cuatro o cinco preguntas hablando como te sale, sin guion. Por ejemplo: por qué arrancaste BUCK, qué aprendiste creciendo en una marca de cincuenta años, qué te salió mal cuando te largaste sola, qué es The Outsiders Club y qué querés que sea BUCK en un año. Si te cuesta mirar a cámara, pedile a alguien que te haga las preguntas de costado y contestale a esa persona."
+   ]
+  }
+ ],
+ "pasos": [
+  "Mirar a tus compradores reales uno por uno, separando el camisaco.",
+  "Escribirles a cinco y anotar textual lo que contestaron.",
+  "Elegir las marcas contra las que te comparan y qué les falta.",
+  "Anotar qué llega para el verano y cuándo.",
+  "Escribir tu cliente en una frase.",
+  "Grabar tu historia, sin guion."
+ ]
+}

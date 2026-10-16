@@ -12,7 +12,7 @@
     "pausada": "pausada",
     "completada": "completada"
   },
-  "actualizado": "2026-10-14",
+  "actualizado": "2026-10-16",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
@@ -75,14 +75,18 @@
       "por_que": "Devolvieron ángulos, auditoría comercial y funnel el 2/10; sigue el lanzamiento de cuatro semanas."
     },
     "sebastian": {
-      "activa": "profile-funnel--sebastian",
+      "activa": "one-sheeter-oferta--sebastian",
       "siguiente": "calendario-lanzamiento",
-      "en_paralelo": [],
+      "en_paralelo": [
+        "profile-funnel--sebastian"
+      ],
       "despues": [
         "precio-escalera"
       ],
-      "por_que": "1:1 del 9/10, reseteo de la app: queda el curso (lo arma Seba y lo manda por Slack), el contenido, el Profile Funnel para el fin de semana y el lanzamiento con Franco el 13 o 14/10. Salen de paralelo la auditoría del proceso comercial («no hay nada que estemos vendiendo») y contratar el primer rol.",
-      "inicio": "2026-10-09"
+      "por_que": "15/10: Facu quiere que el borrador del programa sea la carta de oferta. La hoja trae el programa armado (onboarding y ocho semanas en tres bloques) y pide lo que falta para venderlo: nombre propio, promesa desde el Punto A y el Punto B, precio único, cupos, fechas y cuántas uno a uno sostiene. Va a la llamada con Franco del 16/10. El Profile Funnel sigue en paralelo.",
+      "inicio": "2026-10-16",
+      "revision": "pendiente",
+      "anterior": "profile-funnel--sebastian"
     },
     "sofia-galvis": {
       "activa": "angulos-desde-icp--sofia-galvis",
@@ -197,6 +201,17 @@
       ],
       "por_que": "Clarity Call del 13/10 (Ivana): Facu quedó en mandar la info del servicio y del cliente actual y las preguntas del ICP, antes de Franco la semana que viene. Orden dicho: servicio y cliente actual, ICP, Franco, oferta, ángulos, contenido. Propuesta del agente para las cartas (Facu nombró los temas, no las cartas).",
       "inicio": "2026-10-14",
+      "revision": "pendiente"
+    },
+    "camila-basso": {
+      "activa": "icp-mecanismo--camila-basso",
+      "siguiente": "angulos-desde-icp",
+      "en_paralelo": [],
+      "despues": [
+        "calendario-lanzamiento"
+      ],
+      "por_que": "Clarity Call del 14/10 (Fathom 192700469): Facu le prometió narrativa, cliente ideal y estrategia de contenido orgánico. Primero el cliente ideal con compradores reales (los datos de la pauta están torcidos por el camisaco de proveedor), las marcas contra las que la comparan y lo que llega para el verano; en la misma carta, grabar su historia sin guion. Después los ángulos y el calendario de la colección de verano.",
+      "inicio": "2026-10-16",
       "revision": "pendiente"
     }
   },
