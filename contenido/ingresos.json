@@ -1,6 +1,6 @@
 {
   "regla": "Clientes de Founders que ya entraron y todavía no tienen ficha: la ficha se escribe después de la Clarity Call. El slug es el de la app (clientes.slug) y el del canal cf-; las cartas escritas para ellos usan este slug. Cuando se escribe la ficha, el cliente sale de esta lista.",
-  "actualizado": "2026-10-15",
+  "actualizado": "2026-10-16",
   "clientes": [
     {
       "slug": "rosario-sola",
@@ -36,7 +36,7 @@
       "correo": "jctgaleano@gmail.com",
       "clarity": "2026-10-16",
       "canal": "cf-juan-cruz-galeano",
-      "nota": "9/10: se pone al día el fin de semana con Skool y los Founder Insights; después agenda la Clarity (Aye). 11/10: reservó la Clarity Call para el viernes 16/10 13:00 ART."
+      "nota": "9/10: se pone al día el fin de semana con Skool y los Founder Insights; después agenda la Clarity (Aye). 11/10: reservó la Clarity Call para el viernes 16/10 13:00 ART. 16/10: Facu le pidió mover la Clarity de hoy 13:00 por el pop-up de Barcelona (mañana, domingo o lunes); sin respuesta todavía."
     },
     {
       "slug": "lucila-prieto",
@@ -90,7 +90,7 @@
       "start": "2026-10-02",
       "correo": "fernandezmarceloandres@gmail.com",
       "clarity": "2026-10-14",
-      "nota": "Onboarding con Teo el 5/10 13:30. 12/10: Marcelo y Lucas Matías Cassettai completaron los Founder Insights (Aye). Clarity Call el miércoles 14/10 9:30 ART (PLAY COURT). La Clarity del 14/10 9:30 pasó al jueves 15/10 15:00 ART (Calendar)."
+      "nota": "Onboarding con Teo el 5/10 13:30. 12/10: Marcelo y Lucas Matías Cassettai completaron los Founder Insights (Aye). Clarity Call el miércoles 14/10 9:30 ART (PLAY COURT). La Clarity del 14/10 9:30 pasó al jueves 15/10 15:00 ART (Calendar). 15/10: Clarity Call hecha (Fathom 193210037): producto premium con un ciclo de venta de hasta un año; sprint de tres meses que arranca por la auditoría de clientes para definir el cliente ideal y los ángulos; la cancha de Chapu Nocioni se documenta como serie. Lucas en su canal: «todo OK». Auditoría propia en revisión (commit 3f4ecec)."
     },
     {
       "slug": "sofia-guevara",
