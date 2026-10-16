@@ -1,11 +1,90 @@
 {
- "modulo": "icp-mecanismo",
- "slug": "osmo",
- "founder": "Ivana y Karina (Osmo Estudio)",
- "bajada_envio": {
+  "modulo": "icp-mecanismo",
+  "slug": "osmo",
   "founder": "Ivana y Karina (Osmo Estudio)",
-  "porque": "Hoy les consultan desde importación de autos hasta exportación de frutillas, y por eso la comunicación sale fría. Facu: «¿Qué pasa si calibramos los clientes que te llegan?». Esta carta es ese paso: elegir a quién le hablan antes de la oferta con Franco.",
-  "objetivo": "Dos o tres nichos posibles con su dolor escrito en las palabras del cliente, respaldados por lo que ya les dicen sus clientes en mails, mensajes y llamadas. Con esto van a Franco a cerrar la oferta.",
-  "mindset": "Arranquen por el cliente que ya tienen: repuestos de maquinaria vial y agro. Qué lo hizo quedarse años es la primera pista."
- }
+  "nombre": "Su cliente ideal",
+  "por_que_propia": "La genérica arranca de lo que ya se cerró con el comercial (familias, escalera, subcategoría) y de los seguidores. Osmo llega a Franco antes de tener eso, con un solo cliente y pocas publicaciones. Facu, Clarity del 13/10: bajar opciones de nichos y la mayor cantidad de información del cliente ideal para que Franco trabaje la oferta.",
+  "titulo": "La hoja de su cliente ideal",
+  "bajada": "Dos o tres nichos posibles, qué le cuesta a cada uno y con qué palabras lo dice. De acá sale la oferta con Franco y después los ángulos del contenido.",
+  "lista_cuando": "Hay dos o tres nichos con quién decide y qué le duele, lo que no entiende el empresario está escrito, y cada nicho tiene su frase.",
+  "bajada_envio": {
+    "founder": "Ivana y Karina (Osmo Estudio)",
+    "porque": "Hoy les consultan desde importación de autos hasta exportación de frutillas, y por eso la comunicación sale fría. Facu: «¿Qué pasa si calibramos los clientes que te llegan?». Esta carta es ese paso: elegir a quién le hablan antes de la oferta con Franco.",
+    "objetivo": "Dos o tres nichos posibles con su dolor escrito en las palabras del cliente, respaldados por lo que ya les dicen sus clientes en mails, mensajes y llamadas. Con esto van a Franco a cerrar la oferta.",
+    "mindset": "Arranquen por el cliente que ya tienen: repuestos de maquinaria vial y agro. Qué lo hizo quedarse años es la primera pista."
+  },
+  "pasos": [
+    "Elijan dos o tres nichos posibles, empezando por el de su cliente de maquinaria.",
+    "De cada uno, quién decide contratar el estudio y qué le cuesta hoy.",
+    "Anoten lo que el empresario no entiende de importar o exportar, y cómo lo resuelven ustedes.",
+    "Copien las frases que ya les dijeron clientes y consultas, tal cual.",
+    "Escriban cada nicho en una frase."
+  ],
+  "secciones": [
+    {
+      "nuestro": true,
+      "cid": 0,
+      "titulo": "De dónde arrancamos",
+      "texto": [
+        "Buscan pymes que ya están en el circuito del comercio exterior y que dependen de importar o exportar para su operación diaria. Quien quiere traer algo de Alibaba por primera vez queda afuera.",
+        "La plata la da la regularidad y el volumen de operaciones del cliente, más que el rubro. Eso entra en la elección del nicho.",
+        "Quien decide contratar el estudio puede ser el dueño o puede ser otra persona. Saber quién es cambia dónde y cómo se le habla."
+      ],
+      "pregunta": "Algo de esto no las representa"
+    },
+    {
+      "cid": 1,
+      "titulo": "Los nichos posibles",
+      "consigna": "Una fila por nicho. Arranquen por repuestos de maquinaria vial y agro, y sumen uno o dos que les cierren por volumen y por gusto.",
+      "campo": "tabla",
+      "columnas": [
+        "Industria o tipo de empresa",
+        "Qué importa o exporta y cada cuánto",
+        "Quién decide contratar el estudio",
+        "Qué le duele hoy",
+        "Por qué les cierra a ustedes"
+      ],
+      "filas": 4
+    },
+    {
+      "cid": 13,
+      "titulo": "Lo que le cuesta al empresario",
+      "consigna": "Lo que un dueño de pyme no entiende de importar o exportar hoy, lo que le hace perder plata o tiempo, y cómo lo resuelven ustedes. De acá sale el contenido y la capacitación como puerta de entrada.",
+      "campo": "tabla",
+      "columnas": [
+        "Lo que no entiende o le sale mal",
+        "Lo que le cuesta (plata, tiempo, mercadería parada)",
+        "Cómo lo resuelven ustedes"
+      ],
+      "filas": 6
+    },
+    {
+      "cid": 3,
+      "titulo": "Lo que ya les dijeron",
+      "consigna": "Frases copiadas tal cual de su cliente, de las consultas, de mails, de LinkedIn o de WhatsApp. Sin corregirlas: esas palabras después son el título de las piezas.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "«...»"
+    },
+    {
+      "cid": 9,
+      "titulo": "Cada nicho, en una frase",
+      "consigna": "Una frase por nicho: quién es, en qué momento está y qué necesita resolver. Si la frase le sirve a cualquier empresa que importa, todavía no está.",
+      "campo": "lineas",
+      "lineas": [
+        "Nicho 1",
+        "Nicho 2",
+        "Nicho 3"
+      ]
+    },
+    {
+      "nuestro": true,
+      "cid": 12,
+      "titulo": "Qué pasa con esto después",
+      "texto": [
+        "Con esta hoja y la de su servicio van a la llamada con Franco: se elige el nicho y se arma la oferta, con la consultoría o la capacitación como puerta de entrada y la gestión arriba.",
+        "Después siguen los ángulos de comunicación y el contenido."
+      ]
+    }
+  ]
 }

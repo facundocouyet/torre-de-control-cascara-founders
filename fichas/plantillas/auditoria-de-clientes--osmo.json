@@ -1,22 +1,105 @@
 {
- "modulo": "auditoria-de-clientes",
- "slug": "osmo",
- "founder": "Ivana y Karina (Osmo Estudio)",
- "bajada_envio": {
+  "modulo": "auditoria-de-clientes",
+  "slug": "osmo",
   "founder": "Ivana y Karina (Osmo Estudio)",
-  "porque": "En la Clarity Call quedó que el norte de estos tres meses es traer consultas calificadas, y que hoy les entra de todo porque no hay un cliente ideal definido. Antes de definirlo, necesitamos ver qué venden hoy y cómo trabajan con el cliente que ya tienen: ahí está la experiencia que queremos poner adelante.",
-  "objetivo": "Esta carta completa antes de la llamada con Franco de la semana que viene: el servicio tal como lo dan hoy y la experiencia con su cliente actual.",
-  "mindset": "Escriban lo que pasa hoy, aunque parezca obvio para ustedes. Lo que para ustedes es rutina es lo que el cliente paga."
- },
- "bloques_inicio": [
-  {
-   "nuestro": true,
-   "titulo": "Lo que quedó de la Clarity Call",
-   "texto": [
-    "La gestión aduanera compite por precio. Lo que las diferencia es la experiencia: consultoría, capacitación y auditorías como puerta de entrada, y la gestión se vende por privado y por LinkedIn.",
-    "La pauta en Meta queda en pausa hasta tener el mensaje calibrado. Facu: «Le ponés pauta a una comunicación fría y gastás un montón con pocos resultados».",
-    "Instagram para la historia humana, LinkedIn para lo profesional, y la edición la hace otra persona."
-   ]
-  }
- ]
+  "nombre": "Su servicio y su cliente",
+  "por_que_propia": "Osmo tiene un solo cliente fijo y muchas consultas sueltas de rubros distintos, así que la tabla de clientes uno por uno queda vacía. En la Clarity del 13/10 Facu les prometió pedirles el servicio, la experiencia con su cliente actual y el cliente ideal: esta carta junta lo primero, con las consultas que les llegaron y lo que traen del corporativo.",
+  "titulo": "La hoja de su servicio y su cliente",
+  "bajada": "El servicio tal como lo dan hoy, el cliente que tienen hace años, las consultas que les llegaron y lo que traen de tantos años en el corporativo. Con eso Franco llega a la llamada con la data leída.",
+  "lista_cuando": "Está el servicio con cómo se cobra, el cliente de maquinaria contado, las consultas que llegaron y la experiencia del corporativo.",
+  "bajada_envio": {
+    "founder": "Ivana y Karina (Osmo Estudio)",
+    "porque": "En la Clarity Call quedó que el norte de estos tres meses es traer consultas calificadas, y que hoy les entra de todo porque no hay un cliente ideal definido. Antes de definirlo, necesitamos ver qué venden hoy y cómo trabajan con el cliente que ya tienen: ahí está la experiencia que queremos poner adelante.",
+    "objetivo": "Esta carta completa antes de la llamada con Franco: el servicio tal como lo dan hoy, la experiencia con su cliente actual y las consultas que les llegaron. Va junto con la hoja del cliente ideal.",
+    "mindset": "Escriban lo que pasa hoy, aunque parezca obvio para ustedes. Lo que para ustedes es rutina es lo que el cliente paga."
+  },
+  "pasos": [
+    "Escriban el servicio como lo dan hoy: qué incluye, cómo se cobra y qué hacen además de la gestión.",
+    "Cuenten la historia de su cliente de maquinaria: cómo llegó, qué le gestionan y por qué se quedó.",
+    "Repasen las consultas que les llegaron por Meta, LinkedIn y mailing, y anoten qué pasó con cada una.",
+    "Anoten lo que traen del corporativo: dónde trabajaron y qué aprendieron que hoy le sirve a una pyme."
+  ],
+  "secciones": [
+    {
+      "nuestro": true,
+      "cid": 0,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "La gestión aduanera compite por precio. Lo que las diferencia es la experiencia: consultoría, capacitación y auditorías como puerta de entrada, y la gestión se vende por privado y por LinkedIn.",
+        "La pauta en Meta queda en pausa hasta tener el mensaje calibrado. Facu: «Le ponés pauta a una comunicación fría y gastás un montón con pocos resultados».",
+        "Instagram para la historia humana, LinkedIn para lo profesional, y la edición la hace otra persona.",
+        "Los años atrás de un escritorio en multinacionales son justo lo que busca el cliente. Hoy no está contado en ningún lado."
+      ]
+    },
+    {
+      "cid": 10,
+      "titulo": "El servicio, tal como lo dan hoy",
+      "consigna": "Contalo como se lo explicarían a un cliente nuevo. Si algo hoy no lo hacen, dejalo en blanco.",
+      "campo": "lineas",
+      "lineas": [
+        "Qué incluye la gestión, de punta a punta",
+        "Cómo se cobra (por operación, abono, tarifario) y en qué rango",
+        "Qué hacen además de la gestión (consultoría, capacitación, auditoría)",
+        "Qué parte está automatizada y quién más trabaja con ustedes"
+      ]
+    },
+    {
+      "cid": 11,
+      "titulo": "Su cliente de maquinaria",
+      "consigna": "El cliente de repuestos de maquinaria vial y agro que tienen hace años. Es la primera pista del cliente ideal.",
+      "campo": "lineas",
+      "lineas": [
+        "Desde cuándo trabajan juntos y cómo llegó",
+        "Qué le gestionan y cuántas operaciones tiene por mes",
+        "Qué le resolvieron que otro estudio no",
+        "Por qué se quedó todos estos años",
+        "Cuánto les deja por mes, más o menos"
+      ]
+    },
+    {
+      "cid": 1,
+      "titulo": "Las consultas que les llegaron",
+      "consigna": "Las consultas de los últimos meses, por Meta, LinkedIn, mailing o recomendación. Sale de los mensajes y mails que ya tienen: con el rubro y qué pasó alcanza.",
+      "campo": "tabla",
+      "columnas": [
+        "Rubro o tipo de empresa",
+        "Qué pedía",
+        "Por dónde llegó",
+        "Qué pasó (cerró, se cayó, no era para ustedes)"
+      ],
+      "filas": 10,
+      "ejemplo": {
+        "quien": "Así se ve una fila",
+        "texto": "Exportadora de frutillas · exportar a Brasil por primera vez · campaña de Meta · no era para nosotras, quería el trámite más barato"
+      }
+    },
+    {
+      "cid": 12,
+      "titulo": "Lo que traen del corporativo",
+      "consigna": "Dónde trabajaron antes de Osmo y qué hacían. Es la autoridad que hoy no se ve en sus redes.",
+      "campo": "tabla",
+      "columnas": [
+        "Empresa o industria",
+        "Qué hacían ahí",
+        "Lo que aprendieron que hoy le sirve a una pyme"
+      ],
+      "filas": 5
+    },
+    {
+      "cid": 3,
+      "titulo": "Algo más que nos quieran contar",
+      "consigna": "Opcional: lo que les parezca importante del servicio o del mercado y no entró arriba.",
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "..."
+    },
+    {
+      "nuestro": true,
+      "cid": 4,
+      "titulo": "Qué hacemos con esto",
+      "texto": [
+        "Lo cruzamos con la hoja del cliente ideal. Con las dos, Franco llega a la llamada con la lectura hecha para armar la oferta: qué se vende como puerta de entrada y qué va arriba."
+      ]
+    }
+  ]
 }

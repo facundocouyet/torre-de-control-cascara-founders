@@ -192,15 +192,17 @@
       "inicio": "2026-10-09"
     },
     "osmo": {
-      "activa": "auditoria-de-clientes",
-      "siguiente": "icp-mecanismo",
+      "activa": "auditoria-de-clientes--osmo",
+      "siguiente": "one-sheeter-oferta",
       "despues": [
-        "one-sheeter-oferta",
         "angulos-desde-icp"
       ],
-      "por_que": "Clarity Call del 13/10 (Ivana): Facu quedó en mandar la info del servicio y del cliente actual y las preguntas del ICP, antes de Franco la semana que viene. Orden dicho: servicio y cliente actual, ICP, Franco, oferta, ángulos, contenido. Propuesta del agente para las cartas (Facu nombró los temas, no las cartas).",
-      "inicio": "2026-10-14",
-      "revision": "pendiente"
+      "por_que": "Clarity Call del 13/10 (Fathom 192211426). Facu: «les voy a bajar para que me den un poco más de información sobre su servicio, la experiencia con este cliente, que puedan bajar lo que se llama el cliente ideal», y la semana que viene Franco. 16/10, Facu: Osmo va primero, estaban trabadas. Las dos cartas salen juntas (servicio y cliente, cliente ideal), en versión propia porque tienen un solo cliente fijo. Después oferta con Franco y ángulos.",
+      "inicio": "2026-10-16",
+      "revision": "pendiente",
+      "en_paralelo": [
+        "icp-mecanismo--osmo"
+      ]
     },
     "camila-basso": {
       "activa": "pasaporte-digital--camila-basso",
