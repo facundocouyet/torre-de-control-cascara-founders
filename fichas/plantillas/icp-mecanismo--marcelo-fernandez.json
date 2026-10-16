@@ -1,0 +1,107 @@
+{
+  "modulo": "icp-mecanismo",
+  "slug": "marcelo-fernandez",
+  "founder": "Marcelo y Lucas (PLAY COURT)",
+  "nombre": "Su cliente ideal",
+  "por_que_propia": "PLAY COURT es una marca de producto (canchas y pisos deportivos), sin mecanismo, oficio ni escalera de servicio. Tiene dos públicos con compras distintas: clubes y municipios por un lado, familias con casa y parque por el otro. Facu, Clarity del 15/10: segmentar el cliente ideal con nombre propio y entrarle al padre por lo que quiere el hijo.",
+  "titulo": "La hoja de su cliente ideal",
+  "bajada": "Quién compra una cancha de PLAY COURT, por qué la quiere, qué lo frena y con qué palabras lo dice. De acá salen los ángulos del relanzamiento.",
+  "lista_cuando": "Los dos públicos tienen perfiles con nombre propio, está quién decide en un club o municipio, las frases que ya les dijeron y cada público en una frase.",
+  "bajada_envio": {
+    "founder": "Marcelo y Lucas (PLAY COURT)",
+    "porque": "En la Clarity Call quedó que el contenido tiene que entrarle a una persona concreta, no a «el que quiere una cancha». Facu: «Juan Carlos de Buenos Aires, ¿qué consume Juan Carlos?». Con la auditoría ya vemos quién les compró; esta hoja lo baja a personas.",
+    "objetivo": "Los dos públicos escritos como personas concretas, con lo que los mueve, lo que los frena y sus palabras. Con esto y la auditoría, Franco arma la oferta y salen los ángulos del relanzamiento.",
+    "mindset": "Piensen en las últimas personas que les compraron o les pidieron presupuesto. Lo que ya les dijeron en los chats vale más que lo que imaginamos."
+  },
+  "pasos": [
+    "Escriban los perfiles de los dos públicos con nombre propio: familias por un lado, clubes y municipios por el otro.",
+    "Anoten quién decide en un club o un municipio y cómo compra.",
+    "Copien frases tal cual de los chats, mails y presupuestos.",
+    "Anoten con qué canchas o marcas los comparan.",
+    "Escriban cada público en una frase."
+  ],
+  "secciones": [
+    {
+      "nuestro": true,
+      "cid": 0,
+      "titulo": "De dónde arrancamos",
+      "texto": [
+        "Dos públicos: clubes, municipios y secretarías de deporte, con proyectos de mediana y gran escala; y familias con casa y parque, donde los hijos hacen deporte o quieren un espacio para jugar con amigos.",
+        "Al padre se le entra por lo que quiere el hijo, y por lo que comparten juntos. El producto es la excusa: lo que se comunica es lo que pasa alrededor de la cancha.",
+        "La decisión de compra es larga, a veces de un año. Entender qué la frena es parte de esta hoja."
+      ],
+      "pregunta": "Algo de esto no los representa"
+    },
+    {
+      "cid": 1,
+      "titulo": "Los perfiles, con nombre propio",
+      "consigna": "Una fila por persona tipo. Escríbanla como alguien real: nombre, dónde vive, qué espacio tiene. Arranquen por la familia con chicos que hacen deporte y sumen las que les aparezcan (el adolescente que la quiere para sus amigos, el bar, el club de barrio).",
+      "campo": "tabla",
+      "columnas": [
+        "Quién es (nombre, edad, dónde vive)",
+        "Qué consume y a quién sigue",
+        "Por qué querría una cancha",
+        "Qué lo frena"
+      ],
+      "filas": 6,
+      "ejemplo": {
+        "quien": "Así se ve una fila",
+        "texto": "Juan Carlos, 45, country en Pilar, dos hijos que juegan al básquet · sigue a la NBA y a la Generación Dorada · quiere que los chicos dejen la pantalla y jueguen en casa · no sabe cuánto sale ni si entra en su parque"
+      }
+    },
+    {
+      "cid": 13,
+      "titulo": "Quién decide en un club o un municipio",
+      "consigna": "Del lado institucional, con lo que ya vivieron en los proyectos que entregaron.",
+      "campo": "tabla",
+      "columnas": [
+        "Tipo de institución",
+        "Quién decide",
+        "Cómo compra (presupuesto, licitación, comisión)",
+        "Cuánto tarda",
+        "Qué le importa"
+      ],
+      "filas": 4
+    },
+    {
+      "cid": 3,
+      "titulo": "Lo que ya les dijeron",
+      "consigna": "Frases copiadas tal cual de chats de WhatsApp, mails y presupuestos: por qué querían la cancha, qué dudas tenían, qué los frenó. Sin corregirlas: esas palabras después son el título de las piezas.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "«...»"
+    },
+    {
+      "cid": 14,
+      "titulo": "Con quién los comparan",
+      "consigna": "Las canchas, pisos o marcas que aparecen cuando alguien les pide presupuesto, y las que ustedes miran (por ejemplo, Clutch Basket).",
+      "campo": "tabla",
+      "columnas": [
+        "Marca o competidor",
+        "Qué tiene",
+        "A qué precio, más o menos",
+        "Qué tienen ustedes que ellos no"
+      ],
+      "filas": 4
+    },
+    {
+      "cid": 9,
+      "titulo": "Cada público, en una frase",
+      "consigna": "Una frase por público: quién es, en qué momento está y por qué quiere una cancha. Si la frase le sirve a cualquiera que vende pisos, todavía no está.",
+      "campo": "lineas",
+      "lineas": [
+        "Las familias",
+        "Los clubes y municipios"
+      ]
+    },
+    {
+      "nuestro": true,
+      "cid": 12,
+      "titulo": "Qué pasa con esto después",
+      "texto": [
+        "Con esta hoja y la auditoría, Franco arma la oferta: qué se vende a cada público y cómo se financia.",
+        "Después salen los ángulos del relanzamiento (el padre que compra por el hijo, los chicos lejos de la pantalla, la cancha con diseño propio) y el calendario de contenido."
+      ]
+    }
+  ]
+}
