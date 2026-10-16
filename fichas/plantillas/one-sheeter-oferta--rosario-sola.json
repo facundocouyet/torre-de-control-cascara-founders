@@ -2,23 +2,94 @@
  "modulo": "one-sheeter-oferta",
  "slug": "rosario-sola",
  "founder": "Rosario Solá",
- "bajada": "La oferta del acompañamiento posparto escrita: a quién, qué incluye, qué promete y a cuánto. Primero para el piloto con tres a cinco mamás.",
- "lista_cuando": "La hoja está completa, con el precio del piloto y el precio final escritos, y se la mandaste a Franco.",
+ "nombre": "El one-pager del Diagnóstico",
+ "por_que_propia": "Hoja de ruta de Franco del 13/10, confirmada por Rosario el 16/10: arranca por las marcas. El one-pager del Diagnóstico de Oportunidad Postparto es el paso 1 (20/10). La versión anterior, el piloto con mamás, quedó en _descartadas. La genérica pide NOVA y los últimos diez clientes; acá se pide solo lo que Franco marcó para el one-pager.",
+ "titulo": "La hoja del Diagnóstico de Oportunidad Postparto",
+ "bajada": "Lo que le proponés hoy a una marca, en una carilla: nombre, qué recibe, plazo, precio y el mensaje con el que lo ofrecés.",
+ "lista_cuando": "El Diagnóstico tiene nombre final, entregables, plazo, precio y mensaje en inglés, y la Fase 2 está escrita con su precio de referencia.",
  "bajada_envio": {
   "founder": "Rosario Solá",
-  "porque": "Franco te bajó la dirección: un programa personalizado en el posparto en lugar de guías en PDF, arrancando con un piloto. Ahora hay que escribirlo para poder venderlo: qué incluye, cómo es el recorrido y a cuánto.",
-  "objetivo": "La oferta del piloto escrita y enviada a Franco, para salir a vender los primeros tres a cinco lugares.",
-  "mindset": "El piloto se vende más barato para conseguir casos, no para validar si vale. Cuidá la experiencia de esas primeras mamás: son tus testimonios."
+  "porque": "En la hoja de ruta quedó el orden: las marcas pagan, las mamás prueban. Lo primero que le proponés a una marca es el Diagnóstico de Oportunidad Postparto a precio cerrado. Para salir a ofrecerlo hay que escribirlo.",
+  "objetivo": "El one-pager del Diagnóstico completo para el martes 20/10. Con eso armás la propuesta para la marca de infusiones y salís a los mini-diagnósticos.",
+  "mindset": "Regalás el qué, cobrás el cómo. El contenido muestra el insight; el plan para ejecutarlo es pago."
  },
- "bloques_inicio": [
+ "pasos": [
+  "Ponele nombre final al Diagnóstico.",
+  "Escribí qué recibe la marca, en cuánto tiempo y qué queda para la Fase 2.",
+  "Definí el precio de lista y la forma de pago.",
+  "Escribí la Fase 2 con su precio de referencia.",
+  "Redactá en inglés el mensaje con el que lo ofrecés.",
+  "Juntá todo en una carilla."
+ ],
+ "secciones": [
   {
    "nuestro": true,
-   "titulo": "Lo que ya está decidido con Franco",
+   "cid": 0,
+   "titulo": "Lo que ya está decidido",
    "texto": [
-    "Precio: las primeras tres a cinco pagan alrededor del 70% del precio final. El ejemplo de Franco: si el precio es 1.000, las primeras pagan entre 600 y 700. Con testimonios sube a 1.000 y después a 1.500.",
-    "La forma de pago puede cambiar el precio: en una cuota sale menos que en dos o tres.",
-    "Estructura: onboarding con una llamada uno a uno, formulario de diagnóstico y material grabado; recorrido por días de posparto; grupales de comunidad, uno a uno técnicas y un formulario de feedback cada quince días.",
-    "Franco: lo que más pesa es el equilibrio entre la experiencia y el resultado."
+    "Precio cerrado, dos semanas: 1 insight postparto que la marca tiene legitimidad para abordar, el beneficio del producto reescrito desde la mujer, 1 idea de activación y una presentación de 45 minutos.",
+    "La ejecución es la Fase 2 (Activación 40WA) y se vende con el diagnóstico en la mano.",
+    "Marcas de EE.UU., en inglés. Precio de referencia: USD 1.000 a 1.500. Si tres marcas dicen que sí sin pestañear, está barato."
+   ]
+  },
+  {
+   "cid": 13,
+   "titulo": "El Diagnóstico",
+   "consigna": "Con tus palabras, como se lo contarías a la marca.",
+   "campo": "lineas",
+   "lineas": [
+    "Nombre final",
+    "Qué recibe la marca",
+    "Plazo",
+    "Qué necesitás de la marca para hacerlo",
+    "Qué queda para la Fase 2"
+   ]
+  },
+  {
+   "cid": 7,
+   "titulo": "El precio y la forma de pago",
+   "consigna": "El precio de lista para una marca de EE.UU. y cómo se cobra. Si al primer caso le hacés un precio especial, escribí qué te da a cambio (testimonio y permiso para usarlo como caso).",
+   "campo": "lineas",
+   "lineas": [
+    "Precio de lista",
+    "Precio del primer caso y qué te da a cambio",
+    "Forma de pago",
+    "Cuánto se cobra al arrancar"
+   ]
+  },
+  {
+   "cid": 14,
+   "titulo": "La Fase 2: la Activación 40WA",
+   "consigna": "Lo que le ofrecés a la marca después del diagnóstico: el encuentro con madres reales, el contenido y el informe de aprendizajes. Con quién lo ejecutás y a cuánto.",
+   "campo": "lineas",
+   "lineas": [
+    "Qué incluye",
+    "Con quién lo ejecutás",
+    "Precio de referencia (más producción)"
+   ]
+  },
+  {
+   "cid": 15,
+   "titulo": "El mensaje con el que lo ofrecés",
+   "consigna": "En inglés, para el decisor de la marca: tres o cuatro líneas que acompañan el post del mini-diagnóstico.",
+   "campo": "texto",
+   "alto": 5,
+   "placeholder": "Hi ..."
+  },
+  {
+   "cid": 11,
+   "titulo": "Tu one-pager, en una carilla",
+   "consigna": "Juntá todo lo de arriba en una sola página y pegá el link.",
+   "campo": "texto",
+   "alto": 3,
+   "placeholder": "Link"
+  },
+  {
+   "nuestro": true,
+   "cid": 12,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Lo revisamos con Franco antes de que salga. Con el one-pager armás la propuesta para la marca de infusiones (30/10) y desde el 2/11 salís con dos mini-diagnósticos por semana."
    ]
   }
  ]

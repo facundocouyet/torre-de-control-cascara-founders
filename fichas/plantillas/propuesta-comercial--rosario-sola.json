@@ -4,25 +4,27 @@
  "founder": "Rosario Solá",
  "bajada_envio": {
   "founder": "Rosario Solá",
-  "porque": "En paralelo al piloto con mamás, Franco quiere que salgan las primeras propuestas a marcas. Esta hoja te da el esqueleto para armarlas igual todas.",
-  "objetivo": "La propuesta para marcas armada y las primeras enviadas antes del 30/10. Se la mandás a Franco antes de que salga.",
-  "mindset": "La marca compra el insight sobre la mujer en el posparto, que es lo que vos sabés y ellas no. El producto de la marca entra contado desde la mujer."
+  "porque": "La marca de infusiones es tu primera propuesta real. La hoja de ruta dice no esperar a que vuelva: llegás con una propuesta en dos fases y pueden contratar solo la primera.",
+  "objetivo": "La propuesta para la marca de infusiones lista para el viernes 30/10, con la Fase 1 y la Fase 2, y el mensaje proponiendo la llamada para la semana del 3/11. Antes de que salga la revisamos.",
+  "mindset": "La marca compra el insight sobre la mujer en el posparto, que es lo que vos sabés y ellas no. Tu idea de la degustación va como «lo que recomendaríamos», sin el detalle que les permitiría ejecutarla solos."
  },
  "bloques_inicio": [
   {
    "nuestro": true,
-   "titulo": "Lo que lleva la propuesta (Franco, 13/10)",
+   "titulo": "Lo que lleva la propuesta (hoja de ruta, 13/10)",
    "texto": [
-    "Un insight sobre el posparto que la marca pueda abordar.",
-    "El beneficio del producto contado desde la mujer.",
-    "Una idea de activación o de contenido lista para publicar.",
-    "Una presentación de 45 minutos."
+    "Fase 1: el Diagnóstico de Oportunidad Postparto a precio cerrado, con lo que escribiste en tu one-pager.",
+    "Fase 2: la degustación por necesidad como Activación 40WA, con precio de referencia (USD 2.500 a 5.000 más producción).",
+    "Pueden contratar solo la Fase 1."
    ]
   }
  ],
  "ajustes": {
+  "2": {
+   "consigna": "Fase 1 (Diagnóstico) y Fase 2 (Activación 40WA), con el entregable y el plazo de cada una."
+  },
   "4": {
-   "consigna": "Armá la primera propuesta para una marca real con este esqueleto. Anotá a qué marca va, cuándo la mandaste y qué te contestaron."
+   "consigna": "La propuesta para la marca de infusiones: cuándo la mandaste, qué día quedó la llamada y qué te contestaron."
   }
  }
 }

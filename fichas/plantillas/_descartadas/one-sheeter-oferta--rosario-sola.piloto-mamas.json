@@ -1,0 +1,25 @@
+{
+ "modulo": "one-sheeter-oferta",
+ "slug": "rosario-sola",
+ "founder": "Rosario Solá",
+ "bajada": "La oferta del acompañamiento posparto escrita: a quién, qué incluye, qué promete y a cuánto. Primero para el piloto con tres a cinco mamás.",
+ "lista_cuando": "La hoja está completa, con el precio del piloto y el precio final escritos, y se la mandaste a Franco.",
+ "bajada_envio": {
+  "founder": "Rosario Solá",
+  "porque": "Franco te bajó la dirección: un programa personalizado en el posparto en lugar de guías en PDF, arrancando con un piloto. Ahora hay que escribirlo para poder venderlo: qué incluye, cómo es el recorrido y a cuánto.",
+  "objetivo": "La oferta del piloto escrita y enviada a Franco, para salir a vender los primeros tres a cinco lugares.",
+  "mindset": "El piloto se vende más barato para conseguir casos, no para validar si vale. Cuidá la experiencia de esas primeras mamás: son tus testimonios."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que ya está decidido con Franco",
+   "texto": [
+    "Precio: las primeras tres a cinco pagan alrededor del 70% del precio final. El ejemplo de Franco: si el precio es 1.000, las primeras pagan entre 600 y 700. Con testimonios sube a 1.000 y después a 1.500.",
+    "La forma de pago puede cambiar el precio: en una cuota sale menos que en dos o tres.",
+    "Estructura: onboarding con una llamada uno a uno, formulario de diagnóstico y material grabado; recorrido por días de posparto; grupales de comunidad, uno a uno técnicas y un formulario de feedback cada quince días.",
+    "Franco: lo que más pesa es el equilibrio entre la experiencia y el resultado."
+   ]
+  }
+ ]
+}

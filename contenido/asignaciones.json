@@ -121,14 +121,14 @@
       "por_que": "Sign off el 30/9: se cierra en la app."
     },
     "rosario-sola": {
-      "activa": "icp-mecanismo",
-      "siguiente": "one-sheeter-oferta",
+      "activa": "one-sheeter-oferta--rosario-sola",
       "en_paralelo": [
-        "propuesta-comercial"
+        "propuesta-comercial--rosario-sola"
       ],
-      "por_que": "Llamada con Franco del 13/10: piloto personalizado con 3 a 5 mamás en posparto al 60–70% del precio final, solo habla hispana; en paralelo, propuestas a marcas antes del 30/10. Cliente ideal (mamás) primero, después la oferta del piloto; la propuesta a marcas va al lado.",
-      "inicio": "2026-10-14",
-      "revision": "pendiente"
+      "siguiente": "icp-mecanismo--rosario-sola",
+      "por_que": "Hoja de ruta de Franco del 13/10 («las marcas pagan, las mamás prueban»), confirmada por Rosario el 16/10: arranca por las marcas con las fechas. 20/10 one-pager del Diagnóstico, 30/10 propuesta a la marca de infusiones, desde 2/11 dos mini-diagnósticos por semana con la lista de marcas. Facu, 16/10: marcas de EE.UU. en inglés, Fase 1 sin ejecución, precio de lista desde el primer caso, nada gratis a mamás. Devolución rosario-sola-2026-10-16-hoja-de-ruta y llamada con Facu para aterrizar.",
+      "inicio": "2026-10-16",
+      "anterior": "pausada"
     },
     "milagros-goico": {
       "activa": "auditoria-de-clientes",
