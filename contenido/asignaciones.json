@@ -180,7 +180,10 @@
       "en_paralelo": [
         "propuesta-comercial--said-espinosa"
       ],
-      "inicio": "2026-10-09"
+      "inicio": "2026-10-09",
+      "despues": [
+        "onboarding-y-roadmap-cliente--said-espinosa"
+      ]
     },
     "delfina-corsalini": {
       "activa": "auditoria-de-clientes",
@@ -209,6 +212,16 @@
         "calendario-contenido"
       ],
       "por_que": "Clarity Call del 14/10 (Fathom 192700469): Facu le prometió narrativa, cliente ideal y estrategia de contenido orgánico. Facu, 16/10, done with you: 1) narrativa de BUCK (pasaporte adaptado a marca de ropa), 2) moodboard, que ya tiene y se actualiza en la misma carta, 3) ángulos de comunicación desde la narrativa, el cliente ideal y la conceptualización, 4) calendario de contenido de la colección de verano. El cliente ideal va en paralelo porque los ángulos lo necesitan.",
+      "inicio": "2026-10-16"
+    },
+    "marcelo-fernandez": {
+      "activa": "auditoria-de-clientes--marcelo-fernandez",
+      "siguiente": "icp-mecanismo",
+      "despues": [
+        "one-sheeter-oferta",
+        "calendario-lanzamiento"
+      ],
+      "por_que": "Clarity Call del 15/10 con Marcelo y Lucas (Fathom 193210037). Facu: «primero necesito auditar todo: juntar la base de datos de los clientes, casos de éxito, entender cuál es el cliente ideal»; la próxima llamada es con Franco, que analiza la data. Mes 1 bases y estrategia, después producir y relanzar. La auditoría suma las consultas que no cerraron (la decisión de compra tarda hasta un año) y los casos para mostrar (Crossover, Duki, Chapu).",
       "inicio": "2026-10-16",
       "revision": "pendiente"
     }

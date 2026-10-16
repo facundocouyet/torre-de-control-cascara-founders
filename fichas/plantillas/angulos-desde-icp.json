@@ -35,7 +35,7 @@
     },
     {
       "titulo": "De cada dolor, la pregunta que ya se hace",
-      "consigna": "Una fila por dolor. En la segunda columna, la pregunta tal como se la hace él —con signos de pregunta, en primera persona—. En la tercera, de dónde sabés que se la hace: un comentario, un mensaje, algo que te dijo alguien en las cinco conversaciones. Una pregunta sin origen es una que inventaste vos, y esas son las que después no funcionan.",
+      "consigna": "Una fila por dolor. En la segunda columna, la pregunta tal como se la hace él —con signos de pregunta, en primera persona—. En la tercera, de dónde sabés que se la hace: un comentario, un mensaje, algo que te dijo un cliente en una llamada. Una pregunta sin origen es una que inventaste vos, y esas son las que después no funcionan.",
       "campo": "tabla",
       "columnas": [
         "El dolor",

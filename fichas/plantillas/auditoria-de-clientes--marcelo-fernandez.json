@@ -1,0 +1,121 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "marcelo-fernandez",
+  "founder": "Marcelo y Lucas (PLAY COURT)",
+  "por_que_propia": "PLAY COURT vende proyectos de cancha, con decisiones de compra largas. Además de los clientes uno por uno, Facu pidió en la Clarity del 15/10 los casos de éxito y el material que ya tienen; se suman las consultas que no cerraron para ver por qué frenan. Todo sale de lo que ya tienen: chats, mails y presupuestos.",
+  "titulo": "Sus clientes y sus casos, uno por uno",
+  "bajada": "Lo que les pedí en la Clarity Call: los proyectos que entregaron, las consultas que quedaron en el camino y los casos que podemos mostrar. Con eso Franco llega a la llamada con la data leída.",
+  "lista_cuando": "Están los proyectos que entregaron, las consultas que no cerraron y los casos con material para mostrar.",
+  "bajada_envio": {
+    "founder": "Marcelo y Lucas (PLAY COURT)",
+    "porque": "En la Clarity Call quedó que el producto está, las oportunidades están (la Crossover, la cancha de Duki, la de Chapu) y desde la cuenta de PLAY COURT casi no se ve. Antes de armar el relanzamiento necesitamos ver a quién le vendieron, cómo llegó cada uno y por qué el que compra tarda tanto en decidir.",
+    "objetivo": "Esta carta completa antes de la llamada con Franco: los proyectos entregados, las consultas que no cerraron, los casos que se pueden mostrar y el material que ya tienen armado.",
+    "mindset": "Anótenlo como está hoy, aunque haya huecos. Lo que vendieron por intuición es justo la información que nos dice qué comunicar."
+  },
+  "pasos": [
+    "Listen los proyectos que entregaron, uno por fila: quién fue, qué cancha, a qué valor, cómo llegó y cuánto tardó en decidir.",
+    "Repasen los chats, mails y presupuestos que no cerraron y anoten qué les dijeron cuando frenaron.",
+    "Marquen los casos que podemos mostrar y qué material hay de cada uno.",
+    "Peguen los links del catálogo, la presentación de Chapu y lo que tengan de la financiación."
+  ],
+  "secciones": [
+    {
+      "nuestro": true,
+      "cid": 0,
+      "titulo": "Lo que les pedí en la llamada",
+      "texto": [
+        "«Juntar la base de datos de los clientes, los casos de éxito, entender cuál es el cliente ideal.» Lo que ya completaron en los Founder Insights lo tenemos: acá va lo que falta, más en detalle.",
+        "Venden proyectos, no metros: clubes, municipios y secretarías de deporte por un lado, y familias con casa y parque por el otro.",
+        "Primero se cuenta quiénes son y por qué se juntaron; después vienen las activaciones y los eventos.",
+        "La pauta va recién sobre un ángulo que ya trajo consultas orgánicas. La estrategia no depende de la marca personal."
+      ]
+    },
+    {
+      "cid": 1,
+      "titulo": "Los proyectos que entregaron",
+      "consigna": "Una fila por proyecto, los más recientes primero. El nombre no hace falta si prefieren no ponerlo: con «club de zona norte» o «familia en country» alcanza. Si de alguno no tienen un dato, déjenlo en blanco.",
+      "campo": "tabla",
+      "columnas": [
+        "Cliente (club, municipio, familia, bar)",
+        "Qué cancha y de qué talle",
+        "A qué valor",
+        "Cómo llegó",
+        "Cuánto tardó en decidir",
+        "Cómo está hoy"
+      ],
+      "filas": 12,
+      "ejemplo": {
+        "quien": "Así se ve una fila",
+        "texto": "Bar en Palermo · cancha de básquet con los colores de los Lakers, talle M · (valor) · nos vio en un evento · dos meses · funcionando, tenemos fotos"
+      }
+    },
+    {
+      "cid": 10,
+      "titulo": "Las consultas que no cerraron",
+      "consigna": "Los presupuestos que pasaron y quedaron en el camino. Sale de los chats de WhatsApp, los mails y los presupuestos que ya tienen: anoten lo que les dijeron cuando frenaron, con sus palabras si lo tienen.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién consultó",
+        "Qué pidió",
+        "Qué valor le pasaron",
+        "Qué les dijo cuando frenó",
+        "Cuándo fue"
+      ],
+      "filas": 8
+    },
+    {
+      "cid": 11,
+      "titulo": "Los casos que podemos mostrar",
+      "consigna": "Los proyectos o eventos que cuentan bien quiénes son: la Crossover, la cancha de Duki, la de Chapu, el bar de los Lakers, y los que ustedes elijan. De cada uno, qué tiene de especial y qué material hay.",
+      "campo": "tabla",
+      "columnas": [
+        "Caso",
+        "Qué tiene de especial",
+        "Qué material hay (fotos, video, prensa)",
+        "Link"
+      ],
+      "filas": 6
+    },
+    {
+      "cid": 2,
+      "titulo": "Quién trabaja con ustedes",
+      "consigna": "Una fila por persona o rol: fabricación, instalación, ventas, diseño, redes. Qué hace y cuánto le pagan, o cómo trabajan con esa persona.",
+      "campo": "tabla",
+      "columnas": [
+        "Persona o rol",
+        "Qué hace",
+        "Cuánto le pagan"
+      ],
+      "filas": 6
+    },
+    {
+      "cid": 12,
+      "titulo": "Lo que ya tienen armado",
+      "consigna": "Peguen los links: el catálogo con los talles, la presentación que le mandaron a Chapu, y lo que tengan de la financiación con los bancos (en cuántas cuotas y desde qué valor).",
+      "campo": "lineas",
+      "lineas": [
+        "Catálogo",
+        "Presentación de Chapu",
+        "Financiación",
+        "Otro"
+      ]
+    },
+    {
+      "cid": 3,
+      "titulo": "Algo más que nos quieran contar",
+      "consigna": "Opcional: lo que les parezca importante de algún cliente o de algún evento y no entró en las tablas.",
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "..."
+    },
+    {
+      "nuestro": true,
+      "cid": 4,
+      "titulo": "Qué hacemos con esto",
+      "texto": [
+        "Lo cruzamos con la Clarity Call y con los Founder Insights. Con eso Franco llega a la llamada con la lectura hecha: dónde está la oportunidad, a quién le hablamos primero y con qué oferta.",
+        "Después sigue el cliente ideal, y de ahí el calendario del relanzamiento."
+      ]
+    }
+  ]
+}
