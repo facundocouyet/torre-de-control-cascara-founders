@@ -107,15 +107,15 @@
       "cid": 6
     },
     {
-      "titulo": "Publicala y mandá el link a cinco personas",
-      "consigna": "Mandásela a cinco personas que entren en tu cliente ideal y miralas entrar desde el celular. Anotá dónde se detuvieron, qué no entendieron y cuántas completaron el formulario. Si de cinco no completó ninguna, el primer cambio es el título y el segundo es el botón. Desde ahí en adelante, visitas y formularios anotados todos los lunes.",
+      "titulo": "Publicala y mirá qué hace la gente",
+      "consigna": "Publicala, poné el link en la biografía y en tus historias, y a los siete días mirá los números: cuántas visitas, hasta dónde bajaron y cuántos dejaron sus datos. Si nadie completó el formulario, el primer cambio es el título y el segundo es el botón. Desde ahí en adelante, visitas y formularios anotados todos los lunes.",
       "ejemplo": {
         "quien": "José David",
         "texto": "Con dos cambios en el perfil le entraron cinco consultas. El cambio se midió por las consultas que entraron esa semana."
       },
       "campo": "texto",
       "alto": 4,
-      "placeholder": "A quién se la mandaste, dónde se trabó, cuántos formularios entraron.",
+      "placeholder": "Visitas, hasta dónde bajaron, cuántos formularios entraron, qué cambio primero.",
       "cid": 7
     }
   ]

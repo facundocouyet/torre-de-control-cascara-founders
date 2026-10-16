@@ -2,7 +2,7 @@
   "modulo": "profile-funnel",
   "titulo": "El perfil, armado desde tu historia",
   "bajada": "Cuando alguien llega a tu perfil no busca tips: quiere entender quién sos, qué aprendiste, cómo llegaste acá y qué ofrecés ahora. Esta hoja arranca por tu narrativa y de ahí saca los tres deliverables del perfil: el video principal de YouTube, las historias destacadas y la biografía de Instagram. Se hace antes de que salga la primera pieza del tramo.",
-  "lista_cuando": "Tu narrativa está escrita en los cuatro movimientos, los tres deliverables salen de ella, y tres personas de afuera miran el perfil y te dicen quién sos y qué ofrecés ahora, sin que vos les expliques nada.",
+  "lista_cuando": "Tu narrativa está escrita en los cuatro movimientos, los tres deliverables salen de ella, y alguien que no te conoce entiende en un minuto quién sos y qué ofrecés ahora.",
   "completar": [
     "La narrativa escrita en los cuatro movimientos",
     "El video de YouTube, las tres destacadas y la biografía armados desde esa narrativa",
@@ -122,12 +122,12 @@
     },
     {
       "cid": 8,
-      "titulo": "La prueba de afuera",
-      "consigna": "Mandale el perfil a tres personas que no sepan a qué te dedicás y hacéles una sola pregunta: «mirá esto un minuto y decime quién soy y qué ofrezco ahora». Anotá lo que te contestó cada una, textual, sin corregirlo y sin explicarles después. Si las tres dicen algo distinto, el perfil todavía no está: lo que hay que cambiar sale de lo que entendieron mal.",
+      "titulo": "Miralo como alguien de afuera",
+      "consigna": "Abrí tu perfil desde otra cuenta o sin sesión iniciada y miralo un minuto, como si no te conocieras. Contestá tres preguntas solo con lo que se ve en la pantalla, sin lo que sabés vos: quién es, qué ofrece ahora y qué hago si me interesa. Lo que no se entiende en ese minuto es lo que hay que corregir.",
       "campo": "tabla",
       "columnas": [
-        "Quién miró",
-        "Qué entendió, textual",
+        "La pregunta",
+        "Qué se entiende en un minuto",
         "Qué corrijo con eso"
       ],
       "filas": 3

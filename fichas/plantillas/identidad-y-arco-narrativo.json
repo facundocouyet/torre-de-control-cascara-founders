@@ -2,7 +2,7 @@
   "modulo": "identidad-y-arco-narrativo",
   "titulo": "La hoja de tu posición y tu arco narrativo",
   "bajada": "Queda escrito qué sabés, qué te importa y qué estás construyendo, qué perspectiva propia sale de ese cruce, cuál es el enemigo y cómo se cuenta tu arco. Después cada pieza y cada oferta se miden contra esta hoja.",
-  "lista_cuando": "Le contaste la frase de tu posición a tres personas, la entendieron sin que expliques tu rubro, y las tres últimas piezas que publicaste salen del mismo arco.",
+  "lista_cuando": "La frase de tu posición se entiende sin que expliques tu rubro, la podés decir sin leer, y las tres últimas piezas que publicaste salen del mismo arco.",
   "secciones": [
     {
       "titulo": "Las tres columnas",
@@ -109,11 +109,11 @@
       "cid": 7
     },
     {
-      "titulo": "Decila en voz alta tres veces",
-      "consigna": "Contale la posición y el arco a tres personas esta semana, y que una sea un cliente o alguien que te podría comprar. Sin pantalla, en una charla. Anotá en qué parte te pidieron que expliques más, qué tramo del arco tuviste que repetir y qué palabra usaron ellos para devolvértelo. Esa palabra entra a la hoja y reemplaza a la tuya.",
+      "titulo": "Decila en voz alta",
+      "consigna": "Grabate diciendo la posición y el arco en un audio o un video de dos minutos, sin leer, y escuchalo al día siguiente. Si querés devolución, traela a la grupal de creatividad con Juana. Anotá en qué parte te trabaste, qué tramo tuviste que repetir y qué palabra te salió más natural que la que escribiste: esa palabra entra a la hoja y reemplaza a la otra.",
       "campo": "texto",
       "alto": 4,
-      "placeholder": "Con quién la probé, dónde tuve que explicar de nuevo, qué palabra me devolvieron.",
+      "placeholder": "Dónde me trabé, qué tramo repetí, qué palabra me salió mejor.",
       "cid": 8
     }
   ]

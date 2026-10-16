@@ -1,11 +1,11 @@
 {
   "icp-mecanismo": {
     "personalizar": "La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».",
-    "ojo": "Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10)."
+    "ojo": "Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10). Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
   },
   "one-sheeter-oferta": {
     "personalizar": "Forma A (ya vende): la genérica con su bajada. Forma B (lanza algo nuevo o redirecciona): versión propia con preguntas de discovery, que la escribe Franco en su llamada (doc 22).",
-    "ojo": "No se piden horas: el costo se pone en plata (Facu, 4/10). Termina con NOVA y el one-sheeter que arma el founder."
+    "ojo": "No se piden horas: el costo se pone en plata (Facu, 4/10). Termina con NOVA y el one-sheeter que arma el founder. Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
   },
   "precio-escalera": {
     "personalizar": "La bajada con lo que cobra hoy y lo que se movió con Franco.",
@@ -37,5 +37,17 @@
   "mi-editing-brief": {
     "cuando": "Mes 2, antes de delegar la producción: cuando el founder ya tiene oferta y calendario y le pasa (o ya le pasó) la edición a otra persona.",
     "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Carta nueva a partir de «Calendarios y Editing Brief Cáscara» de Segundo (6/10): los pasos de la oferta a la tarjeta del editor, qué lleva el brief (objetivo, referencias, ritmo, tipografía, música, entregable y deadline), un caso resuelto anonimizado y la prueba con un brief real y sus vueltas contadas. Dueño en el reparto de cards: Fede."
+  },
+  "profile-funnel": {
+    "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
+  },
+  "landing-que-convierte": {
+    "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
+  },
+  "identidad-y-arco-narrativo": {
+    "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
+  },
+  "pasaporte-digital": {
+    "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
   }
 }

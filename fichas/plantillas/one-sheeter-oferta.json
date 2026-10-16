@@ -116,11 +116,11 @@
       "cid": 7
     },
     {
-      "titulo": "Probala en una conversación real",
-      "consigna": "Contásela a alguien que entre en el cliente ideal, con el precio arriba de la mesa. Anotá qué preguntó, dónde dudó y qué parte tuviste que explicar dos veces. Eso es lo que hay que reescribir.",
+      "titulo": "Probala en la próxima consulta",
+      "consigna": "No hace falta salir a buscar a nadie: usala en la próxima consulta o llamada de venta que ya tengas, con el precio arriba de la mesa. Anotá qué preguntó, dónde dudó y qué parte tuviste que explicar dos veces. Eso es lo que hay que reescribir. Si esta semana no entra ninguna consulta, traela a la grupal de estrategia con Fede.",
       "campo": "texto",
       "alto": 4,
-      "placeholder": "Con quién la probaste, qué objetó, qué cambiarías.",
+      "placeholder": "En qué consulta la usé, qué objetaron, qué cambiaría.",
       "cid": 8
     },
     {

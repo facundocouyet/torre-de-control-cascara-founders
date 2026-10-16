@@ -4,15 +4,14 @@
   "slug": "sebastian",
   "titulo": "La hoja de tu cliente ideal",
   "bajada": "Quién compra el programa, qué le duele y con qué palabras lo cuenta. Franco ya dejó las dos familias de público en la Discovery Call: esta hoja no las define de nuevo, las profundiza hasta que tengan nombre, dolor y una frase textual.",
-  "lista_cuando": "Le mandás la frase del alumno ideal a tres personas que te escribieron después del reel y las tres se reconocen sin que tengas que explicarla.",
+  "lista_cuando": "La frase del alumno ideal usa las palabras de la gente que te escribió después del reel, y no las tuyas.",
   "pasos": [
     "Listar los diez clientes que ya te pagaron por producción, con qué te compró cada uno y a cuánto.",
     "Escribir los oficios de las dos familias —filmmaker, fotógrafo, editor, diseñador, creador de UGC, el que colabora con marcas— con qué le duele a cada uno y la pregunta que le hacés para que te cuente ese dolor con sus palabras.",
-    "Salir a hacerle esa pregunta a cinco personas reales y anotar textual lo que contestaron.",
     "Cruzar eso con los comentarios del reel y con de dónde vino cada tanda de seguidores.",
     "Escribir el alumno ideal en una frase, con el momento en el que está, el problema y con cuánto cuenta.",
     "Escribir en una frase qué le pasa al alumno en las 8 semanas, con el número que se mueve.",
-    "Mandarle la frase del alumno ideal a tres personas y ajustarla con lo que te contesten."
+    "Revisar la frase del alumno ideal con las palabras que ya te escribieron y ajustarla."
   ],
   "bajada_envio": {
     "founder": "Sebastián Martínez",
@@ -59,23 +58,6 @@
       ],
       "filas": 7,
       "cid": 1
-    },
-    {
-      "titulo": "Andá a preguntárselo a cinco",
-      "consigna": "Cinco personas reales, de los perfiles de arriba, que ya te siguen o que te escribieron. Hacéles la pregunta de la tabla de arriba (si no sabés por dónde arrancar: «¿por qué me consultaste?», ahí aparece el dolor) y anotá textual lo que contestaron, sin arreglarles la gramática. Quince minutos cada una alcanza. Esto es lo que convierte los cuatro perfiles de una hipótesis en un dato, y es lo único de esta hoja que no podés resolver sentado.",
-      "ejemplo": {
-        "quien": "Aaron A.",
-        "texto": "Franco le planteó lo mismo: antes de inventar contenido, auditar a los clientes que ya tiene y preguntarles. El ángulo es mejorar el servicio, no pedir un testimonio, y así la gente contesta de verdad."
-      },
-      "campo": "tabla",
-      "columnas": [
-        "A quién",
-        "Qué perfil es",
-        "Qué le preguntaste",
-        "Qué contestó, textual"
-      ],
-      "filas": 5,
-      "cid": 2
     },
     {
       "titulo": "Lo que ya te dijeron sin que preguntes",
@@ -184,11 +166,11 @@
       "cid": 10
     },
     {
-      "titulo": "Probala con tres",
-      "consigna": "Mandale la frase del alumno ideal a tres de las cinco personas con las que hablaste y preguntales si se reconocen. Anotá qué contestó cada una, textual. Si una de las tres te pide que se la expliques, la frase todavía no está: volvé y ajustala con lo que te dijeron.",
+      "titulo": "Revisala con sus palabras",
+      "consigna": "Leé la frase del alumno ideal al lado de lo que ya te dijeron, más arriba. Si la frase usa palabras que ellos no usan, cambialas por las de ellos. Anotá qué cambiaste y por qué. No hace falta mandársela a nadie.",
       "campo": "texto",
-      "alto": 5,
-      "placeholder": "A quién se la mandé y qué me contestó…",
+      "alto": 4,
+      "placeholder": "Lo que cambié y de qué frase lo saqué…",
       "cid": 11
     },
     {

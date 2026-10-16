@@ -175,11 +175,10 @@
           "resultado": "El cliente ideal escrito con dolor y palabras propias, respaldado por cinco conversaciones reales, y las decisiones de posicionamiento confirmadas.",
           "pasos": [
             "Tomar las familias de público que bajó el comercial y bajarlas a perfiles con dolor y pregunta.",
-            "Hablar con cinco personas reales de esos perfiles y anotar textual lo que contestaron.",
             "Juntar las frases que ya te dijeron sin que preguntes, sin tocarles nada.",
             "Listar los clientes que ya te pagaron, para ver si ese negocio alimenta la escalera nueva.",
             "Confirmar o corregir la escalera, la subcategoría y quién queda afuera, que van escritos de nuestro lado.",
-            "Escribir el cliente ideal en una frase y probarla con tres de los cinco."
+            "Escribir el cliente ideal en una frase y revisarla con las palabras que ya te dijeron."
           ],
           "completar": [
             "La tabla de perfiles con dolor y pregunta",
@@ -206,10 +205,10 @@
               "descripcion": ""
             },
             {
-              "titulo": "Hablar con una persona real de esos perfiles y anotar lo que contestó",
+              "titulo": "Copiar textual lo que ya te dijeron en mensajes, comentarios y llamadas",
               "semana": 1,
-              "frecuencia": "diaria",
-              "descripcion": "Una por día hasta llegar a cinco."
+              "frecuencia": "unica",
+              "descripcion": "Cuatro o cinco frases, sin tocarlas. No hace falta escribirle a nadie."
             },
             {
               "titulo": "Listar los clientes que ya te pagaron y qué compraron",
@@ -218,7 +217,7 @@
               "descripcion": ""
             },
             {
-              "titulo": "Escribir el cliente ideal en una frase y probarla con tres de los cinco",
+              "titulo": "Escribir el cliente ideal en una frase y revisarla con sus palabras",
               "semana": 2,
               "frecuencia": "unica",
               "descripcion": ""
@@ -248,7 +247,7 @@
             "Listar qué incluye, qué queda afuera y qué necesita del cliente para que funcione.",
             "Cerrar los módulos de la oferta y decidir cuáles se venden juntos y cuáles por separado.",
             "Listar contra qué te comparan —los enemigos del nicho, incluido hacerlo solo o dejarlo para después— y tu ventaja sobre cada uno.",
-            "Pasar la hoja a una sola página presentable y probarla en una conversación real."
+            "Pasar la hoja a una sola página presentable y usarla en la próxima consulta."
           ],
           "completar": [
             "La carta de oferta completa, con el discovery devuelto",
@@ -294,7 +293,7 @@
               "descripcion": ""
             },
             {
-              "titulo": "Pasar la oferta a una hoja y probarla en una conversación real",
+              "titulo": "Pasar la oferta a una hoja y usarla en la próxima consulta",
               "semana": 3,
               "frecuencia": "unica",
               "descripcion": "Se anota qué entendió la otra persona y qué objetó."
@@ -395,12 +394,12 @@
             "Escribir la biografía de Instagram: quién sos, la síntesis de tu narrativa y el CTA.",
             "Anclar tres piezas (historia, proceso, validación) y archivar lo que no tiene conexión con la narrativa.",
             "Pasar la cuenta a profesional y revisar el link y el botón de contacto.",
-            "Mandar el perfil a tres personas de afuera y preguntarles qué entendieron."
+            "Mirar el perfil como alguien de afuera y corregir lo que no se entiende en un minuto."
           ],
           "completar": [
             "La narrativa escrita en los cuatro movimientos",
             "El guion del video de YouTube, los títulos de las tres destacadas y la biografía",
-            "La devolución de las tres personas que miraron el perfil"
+            "Lo que se entiende del perfil en un minuto, mirado desde afuera"
           ],
           "herramientas": [
             "Profile Funnel V1 de Fede (Notion)",

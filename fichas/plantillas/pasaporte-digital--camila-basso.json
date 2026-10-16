@@ -1,0 +1,45 @@
+{
+ "modulo": "pasaporte-digital",
+ "slug": "camila-basso",
+ "founder": "Camila Basso",
+ "bajada_envio": {
+  "founder": "Camila Basso",
+  "porque": "En la Clarity quedó que lo primero es la narrativa de BUCK: de dónde viene, qué es y por qué existe, contada por vos. Este es el formulario que usa el equipo creativo para eso, el mismo de La Cáscara, adaptado a una marca de ropa. Las preguntas de historia son tuyas y de BUCK a la vez, porque al principio la marca es tu historia.",
+  "objetivo": "El pasaporte de BUCK completo: tu historia, cómo funciona la marca, los productos que tiene y los que llegan, y cómo se ve y cómo suena. Con esto Juana y Fede arman la narrativa y la dirección visual de la colección de verano.",
+  "mindset": "Escribilo como te sale, sin pulirlo y sin buscar la respuesta linda. Lo que te costó, lo que hiciste mal y lo que estás aprendiendo es lo que hace que BUCK no se parezca a ninguna otra marca outdoor. Ordenarlo es trabajo nuestro."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Por qué este formulario",
+   "texto": [
+    "Esto es lo que el equipo creativo necesita para aterrizar la idea de BUCK: la historia, cómo funciona la marca, los productos y la estética, todo en un solo lugar.",
+    "Donde dice marca personal, pensalo como BUCK y vos: la marca y la persona que está atrás. Las preguntas de producto están adaptadas a una marca de ropa.",
+    "No hace falta completarlo de una: si alguna pregunta no la tenés resuelta, escribí eso mismo. También es información."
+   ]
+  }
+ ],
+ "ajustes": {
+  "7": {
+   "titulo": "Qué es BUCK y qué querés que sea",
+   "consigna": "Qué es BUCK hoy y qué querés que sea en un año: una marca de ropa, una comunidad como The Outsiders Club, experiencias, o una mezcla. Contá también qué lugar ocupás vos: la que diseña, la que cuenta, la que arma los planes."
+  },
+  "8": {
+   "titulo": "Los productos de BUCK",
+   "consigna": "Todo lo que vende BUCK hoy y lo que llega. Para cada producto: para qué se usa, a cuánto se vende, si es producción tuya o de proveedor y cuál se vendió mejor. Después lo que llega para el verano y el contenedor de térmicas, con fechas. Si algo no lo tenés resuelto, escribí eso mismo.",
+   "campo": "lineas",
+   "lineas": [
+    "Lo que vendés hoy: cada producto, para qué se usa y a cuánto",
+    "Cuáles son de producción tuya y cuáles de proveedor",
+    "El que más se vendió y por qué creés que pasó",
+    "Lo que llega para el verano: qué, cuántas unidades y cuándo",
+    "Las térmicas del contenedor: cuántas, cuándo y si van por mayor o en la tienda",
+    "El producto que mejor cuenta lo que es BUCK, y por qué",
+    "¿Con qué equipo contás para grabar y cuánto tiempo por semana le podés dedicar al contenido?"
+   ]
+  },
+  "9": {
+   "consigna": "Las tres preguntas que cierran el bloque de estrategia, pensadas para BUCK."
+  }
+ }
+}

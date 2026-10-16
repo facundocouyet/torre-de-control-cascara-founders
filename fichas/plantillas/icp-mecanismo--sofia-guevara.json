@@ -4,7 +4,7 @@
   "founder": "Sofía Guevara",
   "titulo": "La hoja de tu cliente ideal",
   "bajada": "A quién le habla Altar: la persona que va a comprar las cápsulas y la que va a seguir tu historia. Qué le gusta, qué le falta y dónde está, con sus palabras. De acá salen los ángulos de tu contenido.",
-  "lista_cuando": "Las dos audiencias tienen nombre, gustos y lo que les falta, hay cinco conversaciones reales anotadas textuales y cada audiencia está escrita en una frase.",
+  "lista_cuando": "Las dos audiencias tienen nombre, gustos y lo que les falta, están las marcas contra las que te comparan y cada audiencia está escrita en una frase.",
   "por_que_propia": "Forma B: Altar es una marca de producto que todavía no lanzó, sin clientas ni contenido publicado. La genérica pregunta por oficio, mecanismo, escalera de servicio y clientes que ya pagaron, que acá no aplican. Clarity Call del 7/10.",
   "bajada_envio": {
     "founder": "Sofía Guevara",
@@ -47,19 +47,6 @@
       "filas": 5
     },
     {
-      "cid": 2,
-      "titulo": "Andá a preguntárselo a cinco",
-      "consigna": "Cinco personas reales que imaginás comprando Altar o siguiendo tu proceso: gente que ya preguntó por la marca, gente del atelier, clientas o colegas de tus trabajos en moda. Mostrales una prenda o tus referencias y preguntales qué les pasa con eso y qué les falta en lo que compran hoy. Anotá textual lo que contestaron, sin arreglarles la gramática. Quince minutos cada una alcanza.",
-      "campo": "tabla",
-      "columnas": [
-        "A quién",
-        "Qué audiencia es",
-        "Qué le mostraste o preguntaste",
-        "Qué contestó, textual"
-      ],
-      "filas": 5
-    },
-    {
       "cid": 3,
       "titulo": "Las marcas parecidas a Altar",
       "consigna": "Tres a cinco marcas parecidas a Altar que tu clienta ya compra hoy. Por cada una: qué le gusta de esa marca, cuánto sale una prenda y qué le falta que Altar sí le da. Sirve para saber contra quién te compara y en qué precio te ubica.",
@@ -94,7 +81,6 @@
   ],
   "pasos": [
     "Escribir las dos audiencias: la que compra la prenda y la que sigue tu historia, como personas concretas.",
-    "Hablar con cinco personas reales y anotar textual lo que contestaron.",
     "Elegir tres a cinco marcas parecidas a Altar que tu clienta ya compra y anotar qué le falta a cada una.",
     "Escribir cada audiencia en una frase."
   ]

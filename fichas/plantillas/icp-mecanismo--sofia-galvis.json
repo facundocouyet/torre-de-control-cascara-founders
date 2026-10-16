@@ -4,7 +4,7 @@
   "founder": "Sofía Galvis Montoya",
   "titulo": "La hoja de tu cliente ideal",
   "bajada": "El cliente ideal del programa de educación que vas a lanzar —no el de la agencia—, con sus dolores y las palabras con las que él los cuenta. Es la primera mitad del documento de oferta que cerrás con Franco.",
-  "lista_cuando": "Los perfiles tienen dolor y no solo oficio, hay cinco conversaciones reales anotadas textuales, y la frase del cliente ideal se la mandaste a tres que se reconocieron sin que se la expliques.",
+  "lista_cuando": "Los perfiles tienen dolor y no solo oficio, las frases de tus clientes están copiadas textuales, y la frase del cliente ideal usa sus palabras y no las tuyas.",
   "bajada_envio": {
     "founder": "Sofía Galvis Montoya",
     "porque": "Vas por el día 82 de los noventa y el producto que escala existe como decisión y todavía no como documento. Lo dijiste vos: tu marca personal está vuelta a nada, y está vuelta a nada porque no hay qué comunicar hasta que el programa esté escrito. Esta hoja y la de ángulos son lo que llevás a la llamada con Franco.",
@@ -36,19 +36,6 @@
       ],
       "filas": 6,
       "cid": 1
-    },
-    {
-      "titulo": "Andá a preguntárselo a cinco",
-      "consigna": "Cinco personas reales de los perfiles de arriba, que ya te siguen o que te escribieron alguna vez. Hacéles la pregunta de la tabla de arriba (si no sabés por dónde arrancar: «¿por qué me consultaste?», ahí aparece el dolor) y anotá textual lo que contestaron, sin arreglarles la gramática. Quince minutos cada una alcanza. Esto es lo que convierte los perfiles de una hipótesis en un dato, y es lo único de esta carta que no se puede resolver desde el escritorio.",
-      "campo": "tabla",
-      "columnas": [
-        "A quién",
-        "Qué perfil es",
-        "Qué le preguntaste",
-        "Qué contestó, textual"
-      ],
-      "filas": 5,
-      "cid": 2
     },
     {
       "titulo": "Lo que ya te dijeron sin que preguntes",
@@ -138,10 +125,11 @@
       "cid": 10
     },
     {
-      "titulo": "Probala con tres",
-      "consigna": "Mandale la frase del cliente ideal a tres de las cinco personas con las que hablaste y preguntales si se reconocen. Anotá qué contestó cada una, textual. Si una de las tres te pide que se la expliques, la frase todavía no está: volvé y ajustala con lo que te dijeron.",
+      "titulo": "Revisala con sus palabras",
+      "consigna": "Leé la frase del cliente ideal al lado de lo que ya te dijeron, más arriba. Si la frase usa palabras que ellos no usan, cambialas por las de ellos. Anotá qué cambiaste y por qué. No hace falta mandársela a nadie.",
       "campo": "texto",
-      "alto": 5,
+      "alto": 4,
+      "placeholder": "Lo que cambié y de qué frase lo saqué…",
       "cid": 11
     },
     {
