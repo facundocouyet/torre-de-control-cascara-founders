@@ -200,15 +200,15 @@
       "revision": "pendiente"
     },
     "camila-basso": {
-      "activa": "icp-mecanismo--camila-basso",
+      "activa": "pasaporte-digital--camila-basso",
       "siguiente": "angulos-desde-icp",
       "en_paralelo": [
-        "pasaporte-digital--camila-basso"
+        "icp-mecanismo--camila-basso"
       ],
       "despues": [
-        "calendario-lanzamiento"
+        "calendario-contenido"
       ],
-      "por_que": "Clarity Call del 14/10 (Fathom 192700469): Facu le prometió narrativa, cliente ideal y estrategia de contenido orgánico. Primero el cliente ideal con compradores reales (los datos de la pauta están torcidos por el camisaco de proveedor), las marcas contra las que la comparan y lo que llega para el verano; en la misma carta, grabar su historia sin guion. Después los ángulos y el calendario de la colección de verano. En paralelo, el pasaporte de la marca (formulario del equipo creativo adaptado a BUCK: historia, productos, estética) para que Facu la ayude con la narrativa. Facu, 16/10: las cartas no piden escribirle a nadie.",
+      "por_que": "Clarity Call del 14/10 (Fathom 192700469): Facu le prometió narrativa, cliente ideal y estrategia de contenido orgánico. Facu, 16/10, done with you: 1) narrativa de BUCK (pasaporte adaptado a marca de ropa), 2) moodboard, que ya tiene y se actualiza en la misma carta, 3) ángulos de comunicación desde la narrativa, el cliente ideal y la conceptualización, 4) calendario de contenido de la colección de verano. El cliente ideal va en paralelo porque los ángulos lo necesitan.",
       "inicio": "2026-10-16",
       "revision": "pendiente"
     }

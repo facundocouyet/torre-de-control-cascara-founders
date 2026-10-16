@@ -9,7 +9,7 @@
  "bajada_envio": {
   "founder": "Camila Basso",
   "porque": "En la Clarity quedó el camino: antes de poner más plata en pauta o en producción, hay que saber a quién le habla BUCK y contarlo con tu historia. Hoy la pauta se lleva 62 de cada 100 pesos de margen, y es nitro puesto en un auto que todavía no tiene rumbo. El primer paso es el cliente ideal.",
-  "objetivo": "Tu cliente ideal escrito con datos reales: quién te compró, qué te dijeron y contra qué marcas te compara. Junto con el pasaporte de la marca, es lo que usamos para armar la narrativa de BUCK y los ángulos de contenido para la colección de verano.",
+  "objetivo": "Tu cliente ideal escrito con datos reales: quién te compró, qué te dijeron y contra qué marcas te compara. Con esto y la narrativa de BUCK bajás los ángulos de comunicación.",
   "mindset": "Buena parte ya la escribiste en el onboarding: la ciudad y la escapada, The Outsiders Club, el que arma su propio plan. Esta hoja es para comprobarlo con gente real. No tiene que salir perfecta: lo tosco lo afilamos juntos."
  },
  "secciones": [
@@ -89,7 +89,7 @@
    "nuestro": true,
    "titulo": "Qué pasa con esto después",
    "texto": [
-    "Con esta hoja y el pasaporte de la marca armamos la narrativa de BUCK y los ángulos de comunicación para la colección de verano.",
+    "Con esta hoja y la narrativa de BUCK, el paso siguiente es bajar los ángulos de comunicación, y después el calendario de contenido de la colección de verano. Lo armás vos con los pasos de cada carta, y lo revisamos juntas.",
     "Mientras tanto, la tarea de esta semana es grabar tu historia. Elegí un lugar que te represente, poné el celular y contestá cuatro o cinco preguntas hablando como te sale, sin guion. Por ejemplo: por qué arrancaste BUCK, qué aprendiste creciendo en una marca de cincuenta años, qué te salió mal cuando te largaste sola, qué es The Outsiders Club y qué querés que sea BUCK en un año. Si te cuesta mirar a cámara, pedile a alguien que te haga las preguntas de costado y contestale a esa persona."
    ]
   }
@@ -100,5 +100,6 @@
   "Elegir las marcas contra las que te comparan y qué les falta.",
   "Escribir tu cliente en una frase.",
   "Grabar tu historia, sin guion."
- ]
+ ],
+ "nombre": "Tu cliente ideal"
 }
