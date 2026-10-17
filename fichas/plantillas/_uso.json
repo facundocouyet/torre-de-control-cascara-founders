@@ -49,5 +49,9 @@
   },
   "pasaporte-digital": {
     "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
+  },
+  "calendario-en-notion": {
+    "cuando": "Cuando el founder ya sabe qué publicar y necesita el sistema para sostenerlo: junto con el calendario de contenido o de lanzamiento, y antes de sumar un editor.",
+    "criterio": "17/10 · Facu pidió el SOP del calendario de Notion de Cáscara para los founders, con el formato de la guía del editing brief (tarjetas tipo Notion, interactivas). Sale del calendario real de Cáscara y de la medición del calendario de un cliente. Dueño en el reparto de cards: Fede."
   }
 }

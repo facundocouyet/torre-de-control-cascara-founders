@@ -92,13 +92,14 @@
     },
     "sol-boutmy": {
       "activa": "icp-mecanismo",
-      "siguiente": "calendario-lanzamiento",
+      "siguiente": "calendario-en-notion",
       "en_paralelo": [
         "one-sheeter-oferta",
         "propuesta-comercial",
         "mi-editing-brief"
       ],
       "despues": [
+        "calendario-lanzamiento",
         "profile-funnel"
       ],
       "por_que": "1:1 del día 30 (13/10) y Facu (14/10): el B2B queda ordenado con el esqueleto de propuesta (estrategia de 1.500 a 2.000, producción como upsell) y el foco va de lleno al programa B2C de contenido orgánico con workshop de lanzamiento (10 lugares). Cliente ideal y oferta del programa, después el calendario de cuatro semanas del workshop. Contratar el primer rol sale: la edición se resuelve con la prueba de Clara. 17/10: la oferta del programa pasa a ir en paralelo al cliente ideal (Facu pidió las dos para la semana del 13/10), y se suma el editing brief de BeMotion (versión simple del SOP de Cáscara, con referencias) para la prueba con Clara.",

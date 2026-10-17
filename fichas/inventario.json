@@ -543,6 +543,65 @@
           "estado_galeria": "aprobada"
         },
         {
+          "id": "calendario-en-notion",
+          "nombre": "Tu calendario en Notion",
+          "nivel": "2",
+          "para_quien": "Cuando el founder ya sabe qué publicar y necesita un sistema para que las piezas no dependan de su memoria: tres calendarios, una tarjeta por pieza, estados, plantillas, vistas y medición. Va junto con el calendario de contenido o el de lanzamiento, y antes de sumar un editor.",
+          "eje": [
+            "contenido",
+            "entrega"
+          ],
+          "resultado": "Su calendario en Notion armado como el de Cáscara: propiedades, estados, plantillas por formato y vistas, el mes cargado en cuatro semanas, las jornadas fijas y la primera semana publicada y medida.",
+          "pasos": [
+            "Separar los tres calendarios: estrategia, contenido e historias.",
+            "Dividir el mes en cuatro semanas y definir las tres series fijas.",
+            "Armar la tarjeta con sus propiedades y los estados, y escribir quién mueve cada uno.",
+            "Crear una plantilla por formato y las vistas para planificar, revisar, editar y medir.",
+            "Fijar las tres jornadas y la revisión semanal en la agenda.",
+            "Mover la primera semana por los estados hasta publicarla y medirla."
+          ],
+          "completar": [
+            "Las cuentas y las tres series",
+            "El mes en cuatro semanas",
+            "Propiedades, estados, plantillas y vistas",
+            "Las jornadas y la regla de medición",
+            "El link al calendario con el mes cargado"
+          ],
+          "herramientas": [
+            "Notion (calendario, plantillas y vistas)",
+            "Google Drive o Frame.io para crudos y material listo"
+          ],
+          "estado": "existe",
+          "evidencia": "Sale del calendario de contenido de Cáscara en Notion (Calendarios 2026: estrategia y contenido, con sus propiedades, estados, plantillas y vistas), de la medición del calendario de un cliente (hipótesis, veredicto y engagement) y de la clase del calendario («tres calendarios, tres jornadas, tres series»). Facu, 17/10: SOP del calendario para los founders.",
+          "tareas": [
+            {
+              "titulo": "Separar los tres calendarios y armar la tarjeta con sus propiedades y estados",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Crear las plantillas por formato y las vistas",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Cargar el mes en cuatro semanas con las tres series",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Mover la primera semana por los estados y medir lo publicado",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": "Cada pieza sale con hipótesis y vuelve con veredicto."
+            }
+          ],
+          "estado_galeria": "aprobada"
+        },
+        {
           "id": "diez-piezas-y-lectura",
           "nombre": "Las diez piezas y su lectura",
           "nivel": "1",
