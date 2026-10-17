@@ -1,19 +1,19 @@
 {
  "modulo": "icp-mecanismo",
  "slug": "sol-boutmy",
- "founder": "Sol y Fede (BeMotion)",
+ "founder": "BeMotion (Sol y Fede)",
  "bajada_envio": {
-  "founder": "Sol y Fede (BeMotion)",
-  "porque": "En la 1:1 del día 30 quedaron dos frentes. El B2B se ordena: estrategia de contenido para marcas, con la producción como upsell. Y el foco grande pasa a ser un programa de contenido orgánico para la gente que sigue a Sol, lanzado con un workshop. Para vender ese programa primero hay que saber a quién se lo venden: quién de esa audiencia paga para aprender a hacer su propio contenido, en qué momento está y qué le duele hoy.",
+  "founder": "BeMotion (Sol y Fede)",
+  "porque": "En la 1:1 del día 30 quedaron dos frentes. El B2B se ordena: estrategia de contenido para marcas, con la producción como upsell. Y el foco grande pasa a ser un programa de contenido orgánico para la gente que las sigue a ustedes dos y a BeMotion, lanzado con un workshop. Para vender ese programa primero hay que saber a quién se lo venden: quién de esa audiencia paga para aprender a hacer su propio contenido, en qué momento está y qué le duele hoy.",
   "objetivo": "El cliente ideal del programa escrito en personas concretas, respaldado por lo que ya te dicen en mensajes, comentarios y llamadas. Con esto escribimos la oferta del programa y la fecha del workshop.",
-  "mindset": "Busquen en los mensajes que ya le llegan a Sol: quién le pregunta cómo hace sus videos, quién le pide consejos para su marca. Esa gente ya levantó la mano."
+  "mindset": "Busquen en los mensajes que ya les llegan a las dos y a BeMotion: quién pregunta cómo hacen sus videos, quién pide consejos para su marca. Esa gente ya levantó la mano."
  },
  "bloques_inicio": [
   {
    "nuestro": true,
    "titulo": "Lo que quedó de la 1:1 del día 30",
    "texto": [
-    "El programa de contenido orgánico monetiza la audiencia de Sol y les da caja rápido. Se lanza con un workshop de dos o tres días, y la meta es vender diez lugares en ese lanzamiento.",
+    "El programa de contenido orgánico monetiza la audiencia que ya tienen (la cuenta de Sol, la de Fede y la de BeMotion) y les da caja rápido. Se lanza con un workshop de dos o tres días, y la meta es vender diez lugares en ese lanzamiento.",
     "El B2B queda ordenado en paralelo: estrategia de contenido para marcas de 1.500 a 2.000 dólares, con la producción como upsell. Facu: «Ustedes terminan haciendo la estrategia del contenido, pero no venden la estrategia, venden el contenido».",
     "La edición sale de sus manos con la prueba de tres meses de Clara, que arranca con el reel mensual de Techo."
    ]
@@ -21,7 +21,7 @@
  ],
  "ajustes": {
   "5": {
-   "consigna": "Las personas que ya le escribieron a Sol para aprender a hacer contenido, o que le pidieron ayuda con su marca: quiénes son, qué preguntaron y si alguna vez pagaron por algo parecido. Si no hay diez, poné las que haya."
+   "consigna": "Las personas que ya les escribieron a ustedes o a BeMotion para aprender a hacer contenido, o que les pidieron ayuda con su marca: quiénes son, qué preguntaron y si alguna vez pagaron por algo parecido. Si no hay diez, pongan las que haya."
   }
  }
 }
