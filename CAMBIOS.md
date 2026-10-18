@@ -5,6 +5,17 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 18 de octubre de 2026
+
+La torre se pone al día con el sábado: Momentum relanza en enero, Seba tiene oferta cerrada con Franco y Galeano hizo la Clarity.
+
+- **The Momentum Club.** Relanzan en enero con escalera de tres niveles y el nivel 1 como oferta pública; lo vendido ahora es la beta. Pelota en vos: resetear sus cartas.
+- **Seba.** «Gira la Cámara» de 8 semanas a USD 997 los primeros 5; lanzamiento de 4 semanas desde el 26/10. Espera agenda con vos.
+- **Galeano.** Clarity del 17/10 cargada; su auditoría liviana (personas que acompañó y datos de audiencia) queda en revisión y no entra a la app hasta tu ok.
+- **Lola.** La 1:1 pasó al martes 20/10 10:00.
+
+**Para mirar antes de subir:** la carta `auditoria-de-clientes--juan-cruz-galeano` (en revisión).
+
 ## 15 de octubre de 2026
 
 Las cartas genéricas suman el material del equipo y la torre pone la pelota en vos con cuatro clientes que devolvieron.

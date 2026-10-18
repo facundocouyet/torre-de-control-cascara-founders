@@ -12,7 +12,7 @@
     "pausada": "pausada",
     "completada": "completada"
   },
-  "actualizado": "2026-10-16",
+  "actualizado": "2026-10-18",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
@@ -226,6 +226,13 @@
       ],
       "por_que": "Clarity Call del 15/10 con Marcelo y Lucas (Fathom 193210037). Facu: «primero necesito auditar todo: juntar la base de datos de los clientes, casos de éxito, entender cuál es el cliente ideal»; la próxima llamada es con Franco, que analiza la data. Mes 1 bases y estrategia, después producir y relanzar. La auditoría suma las consultas que no cerraron (la decisión de compra tarda hasta un año) y los casos para mostrar (Crossover, Duki, Chapu).",
       "inicio": "2026-10-16"
+    },
+    "juan-cruz-galeano": {
+      "activa": "auditoria-de-clientes",
+      "siguiente": "icp-mecanismo",
+      "por_que": "Clarity Call del 17/10 (Fathom 193715118): Facu quedó en mandarle la auditoría de negocio; con eso Franco define la oferta mínima la semana del 19/10. Después, el ICP. Propuesta del agente: Facu no nombró la carta, va la auditoría simple con sus clientes y los datos de audiencia.",
+      "inicio": "2026-10-19",
+      "revision": "pendiente"
     }
   },
   "sin_carta": {

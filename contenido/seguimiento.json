@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-15",
+  "actualizado": "2026-10-18",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -89,16 +89,16 @@
       "pelota": "cliente"
     },
     "sebastian": {
-      "ultimo": "2026-10-16",
-      "que": "Franco movió la llamada al sábado 17/10 10:30 Chile por el pop-up de Barcelona; invite enviado.",
-      "proximo": "2026-10-17",
-      "paso": "Facu le devuelve el feedback del programa y la carta de oferta antes de la llamada con Franco del viernes 16/10.",
+      "ultimo": "2026-10-17",
+      "que": "Franco cerró la oferta (Fathom 193711822): «Gira la Cámara», 8 semanas, dos grupales semanales de 60 minutos, 1:1 de onboarding y de mitad de programa, invitados; USD 997 los primeros 5 y después 1.200; sin downsell. Lanzamiento de 4 semanas desde el 26/10; el evento del 28/10 en Hub Providencia genera expectativa, no vende. Seba subió el cruce de su oferta con la de Franco y espera agenda con Facu.",
+      "proximo": "2026-10-26",
+      "paso": "Agendar la próxima llamada con Facu; arranca el lanzamiento el 26/10.",
       "carta": "ICP y mecanismo, y Ángulos.",
       "pilar": "Venta",
-      "pelota": "Franco",
+      "pelota": "Facu",
       "plata": {
-        "fecha": "2026-11-10",
-        "que": "Abre la venta de la cohorte de 8 semanas (del 10 al 15/11)."
+        "fecha": "2026-10-26",
+        "que": "Arranca el lanzamiento de 4 semanas de «Gira la Cámara» (USD 997 los primeros 5)."
       }
     },
     "sol-boutmy": {
@@ -111,10 +111,10 @@
       "pelota": "Facu"
     },
     "lola-berutti": {
-      "ultimo": "2026-10-15",
-      "que": "Reservó 1:1 con Facu para el viernes 16/10 10:00 ART. No encuentra en la app dónde ver lo que completó.",
-      "proximo": "2026-10-16",
-      "paso": "1:1 con Facu el viernes 16/10 10:00.",
+      "ultimo": "2026-10-17",
+      "que": "La 1:1 del sábado 17/10 no se hizo; reservó de nuevo para el martes 20/10 10:00 ART.",
+      "proximo": "2026-10-20",
+      "paso": "1:1 con Facu el martes 20/10 10:00 (Facu está volando a Buenos Aires).",
       "carta": null,
       "pilar": "Venta",
       "pelota": "Facu"
@@ -129,16 +129,16 @@
       "pelota": "Facu"
     },
     "the-momentum-club": {
-      "ultimo": "2026-10-16",
-      "que": "Israel: mandaron todas las tareas pendientes. La 1:1 con Facu de hoy pasa a mañana sábado 17/10 a las 16:30 (pedido de Natalia; Facu: «Si mañana a las 16:30 mejor»).",
-      "proximo": "2026-10-17",
-      "paso": "1:1 con Facu el sábado 17/10 para ordenar el análisis del lanzamiento; después, Franco.",
-      "carta": "Auditoría del programa.",
-      "pilar": "Venta",
+      "ultimo": "2026-10-17",
+      "que": "1:1 con Facu (Fathom 193716988): relanzan en enero con una escalera de tres niveles; la oferta pública es el nivel 1, grupal y escalable, y lo que vendieron ahora (14 ventas) queda como nivel 2 y 3 y sirve de beta. Ordenar el seguimiento de los 14 con CRM en Airtable y formularios por mes; departamento comercial por comisión. Facu resetea las cartas y acomoda la app.",
+      "proximo": "2026-10-23",
+      "paso": "Facu les resetea las cartas; la semana del 19/10 aterrizan la oferta del nivel 1 con Franco.",
+      "carta": "Reset de cartas (Facu).",
+      "pilar": "Oferta",
       "pelota": "Facu",
       "plata": {
-        "fecha": "2026-10-04",
-        "que": "Cierre de carrito: 5 de 12 plazas pagadas al 30/9, y hasta 5 más en privado."
+        "fecha": "2027-01-11",
+        "que": "Relanzamiento con el nivel 1 en enero (día a definir)."
       }
     },
     "ayelen-cerqueira": {

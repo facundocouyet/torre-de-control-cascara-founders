@@ -1,6 +1,6 @@
 {
   "regla": "Clientes de Founders que ya entraron y todavía no tienen ficha: la ficha se escribe después de la Clarity Call. El slug es el de la app (clientes.slug) y el del canal cf-; las cartas escritas para ellos usan este slug. Cuando se escribe la ficha, el cliente sale de esta lista.",
-  "actualizado": "2026-10-16",
+  "actualizado": "2026-10-18",
   "clientes": [
     {
       "slug": "rosario-sola",
@@ -18,7 +18,7 @@
       "correo": "satac.webdesigner@gmail.com",
       "clarity": "2026-10-07",
       "canal": "cf-mecha-studio",
-      "nota": "5/10: cerraron dos clientes el fin de semana y tienen otro posible cierre el miércoles; uno pide pieza audiovisual en Barcelona a inicios de noviembre. 6/10, grupal con Fede (Tiago y Samu): un solo servicio con estrategia, producción y edición; lanzan a fines de octubre y suben contenido todo octubre. Clarity de Tiago el 7/10 12:00. 7/10 Clarity Call de Tiago (Fathom 190580350): auditar procesos, después oferta, ICP y ángulos, lanzamiento y entrega escrita. Facu quedó en mandar la auditoría antes del 8/10 (Mecha la devuelve antes del 12/10); Tiago la reclamó el 8/10. Aye agenda Franco la semana que viene. Publican contenido tipo blog mientras tanto. 9/10: Facu aprobó su auditoría de clientes (entra a la app con el push). 12/10: Samuel pide en el canal que les confirmen «lo del 14». 13/10: «lo del 14» es la grabación presencial del miércoles 14/10 en España (van en AVE; Cáscara pone equipos y lugar). Tiago marcó la auditoría hecha el 10/10 sin respuestas en la app (la tabla no cargaba; Teo la habilitó el 13/10). Cartas en revisión con orden aprobado por Facu: auditoría, cliente ideal, oferta y ángulos; entran con el push. 13/10 grupal de Fede: lanzamiento de Mecha el 9/11 con contenido y oferta (validar con Franco); documentar «en 30 días lanzamos Mecha»; YouTube juntos presentando Mecha. 14/10 graban con Facu y Fede en España. 13/10 Aye aprobó en el hilo las cartas (auditoría, cliente ideal, oferta, ángulos); se liberan el 14/10."
+      "nota": "5/10: cerraron dos clientes el fin de semana y tienen otro posible cierre el miércoles; uno pide pieza audiovisual en Barcelona a inicios de noviembre. 6/10, grupal con Fede (Tiago y Samu): un solo servicio con estrategia, producción y edición; lanzan a fines de octubre y suben contenido todo octubre. Clarity de Tiago el 7/10 12:00. 7/10 Clarity Call de Tiago (Fathom 190580350): auditar procesos, después oferta, ICP y ángulos, lanzamiento y entrega escrita. Facu quedó en mandar la auditoría antes del 8/10 (Mecha la devuelve antes del 12/10); Tiago la reclamó el 8/10. Aye agenda Franco la semana que viene. Publican contenido tipo blog mientras tanto. 9/10: Facu aprobó su auditoría de clientes (entra a la app con el push). 12/10: Samuel pide en el canal que les confirmen «lo del 14». 13/10: «lo del 14» es la grabación presencial del miércoles 14/10 en España (van en AVE; Cáscara pone equipos y lugar). Tiago marcó la auditoría hecha el 10/10 sin respuestas en la app (la tabla no cargaba; Teo la habilitó el 13/10). Cartas en revisión con orden aprobado por Facu: auditoría, cliente ideal, oferta y ángulos; entran con el push. 13/10 grupal de Fede: lanzamiento de Mecha el 9/11 con contenido y oferta (validar con Franco); documentar «en 30 días lanzamos Mecha»; YouTube juntos presentando Mecha. 14/10 graban con Facu y Fede en España. 13/10 Aye aprobó en el hilo las cartas (auditoría, cliente ideal, oferta, ángulos); se liberan el 14/10. 17/10: Tiago pide ayuda con la bio y pregunta si arrancan las cartas de ICP y oferta; Aye: completarlas y después agendar con Franco. 18/10: publicaron el primer reel de Mecha y piden feedback."
     },
     {
       "slug": "lara-loiano",
@@ -34,9 +34,9 @@
       "nombre": "Juan Galeano",
       "start": "2026-09-25",
       "correo": "jctgaleano@gmail.com",
-      "clarity": "2026-10-16",
+      "clarity": "2026-10-17",
       "canal": "cf-juan-cruz-galeano",
-      "nota": "9/10: se pone al día el fin de semana con Skool y los Founder Insights; después agenda la Clarity (Aye). 11/10: reservó la Clarity Call para el viernes 16/10 13:00 ART. 16/10: Facu le pidió mover la Clarity de hoy 13:00 por el pop-up de Barcelona (mañana, domingo o lunes); sin respuesta todavía."
+      "nota": "9/10: se pone al día el fin de semana con Skool y los Founder Insights; después agenda la Clarity (Aye). 11/10: reservó la Clarity Call para el viernes 16/10 13:00 ART. 16/10: Facu le pidió mover la Clarity de hoy 13:00 por el pop-up de Barcelona (mañana, domingo o lunes); sin respuesta todavía. 17/10 Clarity Call (Fathom 193715118, se reprogramó al sábado): método propio de acompañamiento (estoicismo, budismo, mindfulness) sin nombre ni oferta; público de 30 a 40 con falta de claridad para decidir. Plan de 3 meses: oferta mínima, contenido y micro lanzamiento; el 1 a 1 queda para después. Facu manda la auditoría de negocio; Franco define la oferta la semana del 19/10. Contenido nuevo a prueba 10 a 15 días en su cuenta actual. Primera carta en revisión el 18/10 (vence el 19/10)."
     },
     {
       "slug": "lucila-prieto",
@@ -72,7 +72,7 @@
       "correo": "gonzalezivanac@gmail.com",
       "correo_alt": "info@osmoestudio.com.ar",
       "clarity": "2026-10-13",
-      "nota": "6/10, grupal con Fede (Ivana): un video selfie de 60 segundos por día. Clarity Call de Ivana el martes 13/10 9:30 ART. 13/10 Clarity Call (Fathom 192211426): el norte de los 3 meses es traer consultas calificadas; pausar Meta hasta calibrar el mensaje; vender experiencia (consultoría, capacitación, auditorías) como puerta de entrada y la gestión por privado y LinkedIn; Instagram para la historia, LinkedIn para lo profesional; la edición la hace otra persona. Facu quedó en mandar la info del servicio y del cliente actual y el ICP; después Franco la semana del 19/10 (lo agendan con Aye). Un solo cliente hoy (repuestos de maquinaria vial y agro). Cartas en revisión el 14/10.",
+      "nota": "6/10, grupal con Fede (Ivana): un video selfie de 60 segundos por día. Clarity Call de Ivana el martes 13/10 9:30 ART. 13/10 Clarity Call (Fathom 192211426): el norte de los 3 meses es traer consultas calificadas; pausar Meta hasta calibrar el mensaje; vender experiencia (consultoría, capacitación, auditorías) como puerta de entrada y la gestión por privado y LinkedIn; Instagram para la historia, LinkedIn para lo profesional; la edición la hace otra persona. Facu quedó en mandar la info del servicio y del cliente actual y el ICP; después Franco la semana del 19/10 (lo agendan con Aye). Un solo cliente hoy (repuestos de maquinaria vial y agro). Cartas en revisión el 14/10. 17/10: Facu les mandó en el canal el resumen de la Clarity y las dos cartas activas (servicio y cliente, y cliente ideal); Franco la coordina Aye.",
       "canal": "cf-osmo-estudio"
     },
     {
@@ -115,7 +115,7 @@
       "correo": "camilabasso3644@gmail.com",
       "clarity": "2026-10-14",
       "canal": null,
-      "nota": "Fila propia en Cuentas como C. Founders (START 5/10): es ingreso nuevo, no la Camila del equipo de Aaron. Reservó 1:1 con Facu el miércoles 14/10 13:00 ART. Grupal de Fede del 13/10: se está mudando y no terminó el onboarding; esta semana storytelling de las prendas de invierno. 14/10 Clarity con Facu (Fathom 192700469), cortada por internet: separada de la textil familiar, pasa de outdoor técnico a urbano versátil, marketing liderado por ella documentando el proceso, buscar el producto ganador antes de pauta. Facu le prometió narrativa, cliente ideal y estrategia de contenido orgánico; la primera carta vence a las 48 horas (16/10)."
+      "nota": "Fila propia en Cuentas como C. Founders (START 5/10): es ingreso nuevo, no la Camila del equipo de Aaron. Reservó 1:1 con Facu el miércoles 14/10 13:00 ART. Grupal de Fede del 13/10: se está mudando y no terminó el onboarding; esta semana storytelling de las prendas de invierno. 14/10 Clarity con Facu (Fathom 192700469), cortada por internet: separada de la textil familiar, pasa de outdoor técnico a urbano versátil, marketing liderado por ella documentando el proceso, buscar el producto ganador antes de pauta. Facu le prometió narrativa, cliente ideal y estrategia de contenido orgánico; la primera carta vence a las 48 horas (16/10). 16/10: la Clarity cortada se retoma el lunes 19/10 (hora sin fijar; Facu en `#cf-camila-basso`)."
     },
     {
       "slug": "luz-rodriguez-victoria-rios",
@@ -133,7 +133,7 @@
       "correo": "said-espinosa@hotmail.com",
       "clarity": "2026-10-09",
       "canal": "cf-said-espinosa",
-      "nota": "8/10: onboarding con Aye; completa los Founder Insights y después agenda la Clarity Call. Tiene una agencia y hace todo, de la venta a la producción. Estuvo en la grupal de Procesos del 8/10. 9/10 Clarity Call (Fathom 191358092): de contenido mensual a ciclos de 3 meses con estrategia primero; dos propuestas de noviembre (heladerías y asados) que manda para feedback; arranca por su marca personal. Franco hacia el 15/10. Hoja del punto A en revisión; la reclamó en su canal a la noche. 13/10: Aye avisa que a Said sigue sin aparecerle nada asignado en la app (Facu: «Reviso», 14/10)."
+      "nota": "8/10: onboarding con Aye; completa los Founder Insights y después agenda la Clarity Call. Tiene una agencia y hace todo, de la venta a la producción. Estuvo en la grupal de Procesos del 8/10. 9/10 Clarity Call (Fathom 191358092): de contenido mensual a ciclos de 3 meses con estrategia primero; dos propuestas de noviembre (heladerías y asados) que manda para feedback; arranca por su marca personal. Franco hacia el 15/10. Hoja del punto A en revisión; la reclamó en su canal a la noche. 13/10: Aye avisa que a Said sigue sin aparecerle nada asignado en la app (Facu: «Reviso», 14/10). 17/10: Facu le dejó la auditoría activa en la app; Said la completó y subió la propuesta del restaurante de asados (en pesos mexicanos); espera feedback de Facu para cerrar la de heladerías. Franco la coordina Aye."
     }
   ]
 }
