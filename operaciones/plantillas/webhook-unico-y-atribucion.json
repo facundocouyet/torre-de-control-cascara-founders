@@ -1,0 +1,105 @@
+{
+  "titulo": "La hoja de tu entrada única",
+  "bajada": "Cuando cada landing guarda en su propio lugar, la misma persona aparece tres veces y nadie sabe qué canal vende. Con una sola entrada, sumar un evento nuevo son minutos y cada venta se puede rastrear hasta el anuncio que la trajo.",
+  "lista_cuando": "Publicás una landing nueva y, sin tocar la base, las inscripciones entran ligadas a la persona y al evento, y a fin de mes sabés qué canal trajo cada venta.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo lo hacemos en Cáscara",
+      "texto": [
+        "Todas nuestras landings mandan a un solo webhook en Airtable. La automatización busca el evento por su nombre corto, busca a la persona por mail y se fija si ya estaba inscripta. Según eso crea a la persona, crea la inscripción o solo suma el dato nuevo. Sumar un evento son dos cosas: la fila en Eventos y la página que manda al webhook con su nombre corto.",
+        "Con todo en el mismo lugar cruzamos pauta, agendas y ventas. En el Bootcamp, ese cruce mostró una campaña que se llevaba más de la mitad de la inversión y no aparecía en el reporte de anuncios."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Una entrada, tres caminos, una persona</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">Entrada</div><div class=\"t\">Landing de evento · Landing de programa · Landing de marca</div><div class=\"s\">Cada una manda su nombre corto y su tipo.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">Webhook único</div><div class=\"t\">Decide por el tipo</div><div class=\"s\">Vacío: inscripción. b2c: lead de programa. b2b: lead de marca.</div></div><div class=\"fx-paso\"><div class=\"k\">Base</div><div class=\"t\">Una persona, todas sus fuentes</div><div class=\"s\">La inscripción queda ligada a la persona y al evento.</div></div></div></div><figure class=\"fx-shot\"><img src=\"../assets/operaciones/airtable-webhook-unico.jpg\" alt=\"Automatización con webhook único en Airtable\"><figcaption><b>El webhook del Bootcamp abierto.</b> Busca el evento, busca a la persona por mail, busca si ya estaba inscripta, y recién ahí crea lo que falta.</figcaption></figure>"
+    },
+    {
+      "titulo": "El inventario",
+      "consigna": "Todas las landings y formularios que tenés, activos o no, y a dónde manda cada uno hoy. Los que nadie sabe a dónde mandan son los primeros a revisar.",
+      "campo": "tabla",
+      "columnas": [
+        "Landing o formulario",
+        "A dónde manda hoy",
+        "Qué datos guarda",
+        "¿Sigue activa?"
+      ],
+      "filas": 8,
+      "cid": 0
+    },
+    {
+      "titulo": "Las tres tablas",
+      "consigna": "Personas (una por mail), eventos (uno por cada lanzamiento o encuentro) e inscripciones (cada vez que una persona se anota a un evento). Escribí qué guarda una fila de cada una y con qué se liga.",
+      "campo": "tabla",
+      "columnas": [
+        "Tabla",
+        "Qué guarda una fila",
+        "Con qué se liga"
+      ],
+      "filas_rotulo": [
+        "Personas",
+        "Eventos",
+        "Inscripciones"
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "Las reglas del webhook",
+      "consigna": "Para cada tipo de formulario, qué crea o actualiza el webhook y qué fuente le suma a la persona.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "El webhook mira el campo form_type: vacío es una inscripción a un evento, «b2c» es un lead de programa y «b2b» un lead de marca. Los tres terminan en la misma persona del Pipeline, con la fuente sumada."
+      },
+      "columnas": [
+        "Tipo de formulario",
+        "Qué crea o actualiza",
+        "Qué fuente suma"
+      ],
+      "filas": 4,
+      "cid": 2
+    },
+    {
+      "titulo": "Las landings pasadas al webhook",
+      "consigna": "Una por una. Cada landing manda su nombre corto y los UTM con los que llegó la persona. Se marca recién cuando la probaste desde afuera.",
+      "campo": "tabla",
+      "columnas": [
+        "Landing",
+        "Nombre corto",
+        "¿Manda los UTM?",
+        "Probada el"
+      ],
+      "filas": 6,
+      "cid": 3
+    },
+    {
+      "titulo": "El monitor",
+      "consigna": "Una landing puede dejar de mandar datos y nadie se entera hasta que faltan inscriptos. Definí qué se revisa, cada cuánto y a dónde avisa.",
+      "campo": "lineas",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "La landing de la consultoría tiene un agente que cada hora revisa si el sitio responde, si alguna automatización falló y si entraron mails mal escritos, y avisa por Slack."
+      },
+      "lineas": [
+        "Qué revisa",
+        "Cada cuánto",
+        "A dónde avisa",
+        "Quién lo atiende"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "El cruce canal → venta",
+      "consigna": "Una vez por mes, una fila por canal o anuncio. Si una campaña gasta y no aparece en el cruce, buscala antes de sacar conclusiones.",
+      "campo": "tabla",
+      "columnas": [
+        "Canal o anuncio",
+        "Inversión",
+        "Inscriptos",
+        "Agendas",
+        "Ventas"
+      ],
+      "filas": 6,
+      "cid": 5
+    }
+  ],
+  "modulo": "webhook-unico-y-atribucion"
+}

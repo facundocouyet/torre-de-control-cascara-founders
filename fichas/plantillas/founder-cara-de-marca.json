@@ -1,0 +1,53 @@
+{
+ "modulo": "founder-cara-de-marca",
+ "titulo": "La hoja de cómo aparecés",
+ "bajada": "La gente le compra a personas. Cómo aparecer sin depender de una producción. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Están definidos tus looks y tu set, y grabaste la prueba de 1 minuto.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Lo básico",
+   "texto": [],
+   "figura": "<table class=\"tabla-carta\"><thead><tr><th>Elemento</th><th>Qué hacer</th></tr></thead><tbody><tr><td>Vestuario</td><td>2 o 3 looks que respondan a tu posicionamiento. Repetir está bien: construye personaje.</td></tr><tr><td>Set</td><td>Un lugar fijo y reconocible. Fondo ordenado, con algo que hable de tu oficio.</td></tr><tr><td>Luz</td><td>De frente a una ventana.</td></tr><tr><td>Encuadre</td><td>Celular a la altura de los ojos. Horizontal para video largo, vertical para Stories y reels.</td></tr><tr><td>Sonido</td><td>Micrófono corbatero o un lugar sin eco. El audio se nota más que la imagen.</td></tr></tbody></table><p><strong>Ejemplo.</strong> Una directora creativa que lanza su marca de ropa aparece contando el porqué de cada cápsula. Su historia y su proceso generan la confianza que una foto de producto sola no genera.</p>"
+  },
+  {
+   "titulo": "Tu setup",
+   "consigna": "Cómo vas a aparecer, elemento por elemento.",
+   "campo": "lineas",
+   "lineas": [
+    "Tus 2 o 3 looks",
+    "Tu set",
+    "Tu luz",
+    "Tu encuadre",
+    "Tu sonido"
+   ],
+   "cid": 1
+  },
+  {
+   "titulo": "La prueba",
+   "consigna": "Grabá una prueba de 1 minuto con ese setup y pegá el link.",
+   "campo": "lineas",
+   "lineas": [
+    "Link a la prueba de 1 minuto"
+   ],
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Esperar a tener el equipo perfecto para empezar."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

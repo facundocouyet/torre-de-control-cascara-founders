@@ -1,0 +1,53 @@
+{
+ "modulo": "miedo-a-la-camara",
+ "titulo": "La hoja de tu escalera de cámara",
+ "bajada": "Una escalera de exposición progresiva. Nadie empieza cómodo. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Arrancaste por el escalón donde estás y subiste uno por semana.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "La escalera",
+   "texto": [],
+   "figura": "<table class=\"tabla-carta\"><thead><tr><th>Semana</th><th>Ejercicio</th></tr></thead><tbody><tr><td>1</td><td>Voz en off sobre imágenes de tu trabajo.</td></tr><tr><td>2</td><td>Tus manos haciendo: proceso, escritorio, herramientas.</td></tr><tr><td>3</td><td>Stories hablando a cámara 15 segundos, sin editar.</td></tr><tr><td>4</td><td>3 Stories a cámara por semana contando qué estás haciendo.</td></tr><tr><td>5</td><td>Un video de 3 a 5 minutos respondiendo una pregunta de un cliente.</td></tr></tbody></table><p><strong>Trucos.</strong></p><ul><li>Hablale a una persona concreta.</li><li>Grabá 3 tomas seguidas y quedate con la tercera: ya estás más suelto.</li><li>Llevá puntos clave, no un texto para leer.</li></ul>"
+  },
+  {
+   "titulo": "Dónde arrancás",
+   "consigna": "El escalón donde estás hoy y la fecha en que subís al siguiente.",
+   "campo": "lineas",
+   "lineas": [
+    "Escalón en el que arrancás",
+    "Fecha del próximo escalón"
+   ],
+   "cid": 1
+  },
+  {
+   "titulo": "Tu registro semanal",
+   "consigna": "Una fila por semana: qué grabaste y cómo te sentiste.",
+   "campo": "tabla",
+   "columnas": [
+    "Semana",
+    "Qué grabé (link)",
+    "Cómo me sentí"
+   ],
+   "filas": 5,
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Guionar palabra por palabra y leer. Se nota y te pone más rígido."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+  "titulo": "La hoja del recorrido de tu cliente",
+  "bajada": "Entre dos pasos, todo cliente se hace cuatro preguntas: qué sigue, cuándo, dónde y por dónde se habla. Cuando la respuesta llega antes que la pregunta, el cliente avanza tranquilo y vos dejás de contestar lo mismo diez veces.",
+  "lista_cuando": "Tu próximo cliente recorre el proceso entero sin preguntarte qué sigue, cuándo le llega algo ni dónde quedó lo que le mandaste.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo lo resolvemos en Cáscara",
+      "texto": [
+        "En Founders vimos un hueco concreto: entre la llamada con Facu y la llamada con Franco, los clientes nos escribían para preguntar cuál era el siguiente paso. Contamos cuántas veces pasaba, escribimos la respuesta una vez y ahora sale en cada cambio de paso.",
+        "Lo ordenamos con tres estructuras. <b>El mapa del cliente</b>: una página con todo el recorrido, que se manda el día uno. <b>Los mensajes puente</b>: uno por cada cambio de paso, escrito una vez y usado siempre. <b>Una casa y un canal</b>: un solo lugar para lo que entregamos y un solo canal para hablar."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Un cambio de paso en Founders</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">Paso A</div><div class=\"t\">Auditoría de clientes</div><div class=\"s\">El founder la completa y la manda.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">El entre</div><div class=\"t\">Cuatro preguntas</div><div class=\"s\">¿Qué sigue? ¿Cuándo? ¿Dónde? ¿Por dónde?</div></div><div class=\"fx-paso\"><div class=\"k\">Paso B</div><div class=\"t\">Carta de perfil de cliente</div><div class=\"s\">Llega en la fecha que ya se dijo.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">El mensaje puente de ese paso</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Qué sigue</div><div class=\"v\">Listo, recibimos tu auditoría de clientes. Lo próximo es tu carta de perfil de cliente.</div></div><div class=\"fila\"><div class=\"r\">Cuándo</div><div class=\"v\">Te llega el lunes, y Facu te devuelve la auditoría antes del jueves.</div></div><div class=\"fila\"><div class=\"r\">Dónde</div><div class=\"v\">Todo queda en tu app, en la sección Mis cartas.</div></div><div class=\"fila\"><div class=\"r\">Por dónde</div><div class=\"v\">Cualquier duda, por tu canal de Slack. Respondemos en el día.</div></div></div><p class=\"fx-pie\">Cuatro líneas, una por pregunta. Se escribe una vez y se copia cada vez que un cliente pasa por ese punto.</p></div>"
+    },
+    {
+      "titulo": "Las preguntas que ya te hicieron",
+      "consigna": "Abrí los chats de tus últimos tres clientes y copiá cada pregunta que te hicieron entre un paso y otro, tal cual la escribieron. Al lado, marcá a cuál de las cuatro corresponde: qué sigue, cuándo, dónde o por dónde. La que más se repite te dice qué estructura arreglar primero.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara Founders",
+        "texto": "«La grabación me pide acceso» es una pregunta de dónde: la resolvimos dejando cada llamada en la app con link abierto. «¿Cuándo me llega la carta?» es una de cuándo: se resuelve con un aviso de espera que dice la fecha antes de que pregunten."
+      },
+      "columnas": [
+        "Pregunta, tal cual llegó",
+        "Cliente",
+        "Entre qué pasos",
+        "Qué sigue, cuándo, dónde o por dónde"
+      ],
+      "filas": 8,
+      "cid": 0
+    },
+    {
+      "titulo": "El recorrido, de punta a punta",
+      "consigna": "Escribí cada paso que vive tu cliente desde que paga hasta que termina, en orden. Para cada uno: qué pasa, quién lo hace, cuánto dura y qué recibe el cliente al final. Si un paso depende de que el cliente te mande algo, va como paso aparte: ahí es donde más se traba.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Samuel",
+        "texto": "Su cliente ve en la app el roadmap con los entregables, un calendario con las reuniones y las fases del lanzamiento, y los documentos de cada llamada. El recorrido está escrito y el cliente lo consulta solo."
+      },
+      "columnas": [
+        "Paso",
+        "Qué pasa",
+        "Quién lo hace",
+        "Cuánto dura",
+        "Qué recibe el cliente"
+      ],
+      "filas": 8,
+      "cid": 1
+    },
+    {
+      "titulo": "Los mensajes puente",
+      "consigna": "Un mensaje por cada cambio de paso. Cada uno contesta las cuatro preguntas en cuatro líneas: qué sigue, cuándo pasa, dónde va a quedar y por dónde te escribe si tiene una duda. Se guarda como plantilla: la próxima vez se copia, se cambia el nombre y se manda.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara Founders",
+        "texto": "En el mail de confirmación de la consultoría van dos bloques numerados: 01, sumate al grupo de WhatsApp, que es el canal; 02, guardá los links de las tres llamadas, con día, hora y quién da cada una."
+      },
+      "columnas": [
+        "Cambio de paso",
+        "Qué sigue",
+        "Cuándo",
+        "Dónde",
+        "Por dónde"
+      ],
+      "filas": 6,
+      "cid": 2
+    },
+    {
+      "nuestro": true,
+      "titulo": "Un mensaje puente que ya usamos",
+      "texto": [
+        "Este es el mail que recibe cada persona que se anota a la consultoría en vivo. Confirma el lugar, dice qué hacer primero y deja los accesos con fecha y hora. Sale solo, apenas se completa el registro."
+      ],
+      "figura": "<div class=\"fx\"><div class=\"fx-par\"><figure class=\"fx-shot\"><img src=\"../assets/operaciones/mail-consultoria-1.jpg\" alt=\"Mail de confirmación de la consultoría en vivo de Cáscara Founders\"><figcaption><b>Arriba</b>, la confirmación con el nombre de la persona.</figcaption></figure><figure class=\"fx-shot\"><img src=\"../assets/operaciones/mail-consultoria-2.jpg\" alt=\"Bloques del mail: grupo de WhatsApp y links de las tres llamadas\"><figcaption><b>Abajo</b>, el canal primero y después los accesos de cada llamada.</figcaption></figure></div></div>"
+    },
+    {
+      "titulo": "El aviso de espera",
+      "consigna": "Hay pasos donde el cliente espera algo tuyo: una devolución, un documento, una revisión. Para cada uno escribí la fecha en la que le llega y mandala antes de que la pregunte. Si la fecha se corre, avisás vos primero.",
+      "campo": "tabla",
+      "columnas": [
+        "Qué espera el cliente",
+        "En qué paso",
+        "Cuándo le llega",
+        "Cómo se lo avisás"
+      ],
+      "filas": 5,
+      "cid": 3
+    },
+    {
+      "titulo": "Una casa y un canal",
+      "consigna": "La casa es el único lugar donde queda todo lo que entregás: documentos, grabaciones, calendario, entregables. El canal es el único medio por donde se habla. Escribí cuál es cada uno, qué entra ahí y qué hacés cuando un cliente te escribe por otro lado.",
+      "campo": "lineas",
+      "ejemplo": {
+        "quien": "Cáscara Founders",
+        "texto": "Pasamos la conversación uno a uno de WhatsApp a Slack para tener el contexto de cada founder documentado: en qué paso está, qué preguntó, qué se le contestó. Al principio cuesta, porque WhatsApp es más cómodo. Lo sostenemos porque cada pregunta queda a la vista del equipo y alimenta la app."
+      },
+      "lineas": [
+        "La casa",
+        "Qué queda ahí",
+        "El canal",
+        "En cuánto tiempo respondés",
+        "Qué hacés si te escriben por otro lado"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "El mapa del día uno",
+      "consigna": "Juntá todo en una página que el cliente recibe el primer día: los pasos en orden, qué recibe en cada uno, las fechas que ya sabés, la casa y el canal. Pegá acá el link o contá cómo lo vas a mandar.",
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "Link al mapa o cómo lo mandás.",
+      "cid": 5
+    },
+    {
+      "titulo": "Las preguntas que igual llegaron",
+      "consigna": "Durante el mes siguiente anotá cada pregunta que te siga llegando entre pasos. Cada una marca un mensaje que hay que corregir o uno que falta. La lista se tiene que achicar semana a semana.",
+      "campo": "tabla",
+      "columnas": [
+        "Semana",
+        "Pregunta",
+        "Mensaje que corregiste o sumaste"
+      ],
+      "filas": 6,
+      "cid": 6
+    }
+  ],
+  "modulo": "entre-pasos"
+}

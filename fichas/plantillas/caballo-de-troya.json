@@ -1,0 +1,55 @@
+{
+ "modulo": "caballo-de-troya",
+ "titulo": "La hoja de los códigos de tu rubro",
+ "bajada": "Romper los códigos de tu rubro sin perder credibilidad. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Tenés escrita la lista de códigos que mantenés y los que rompés, y salieron las 3 piezas de prueba.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Paso a paso",
+   "texto": [],
+   "figura": "<ol class=\"pasos\"><li>Listá los códigos de tu sector: cómo se viste, cómo habla, cómo se ve su contenido.</li><li>Elegí los códigos que mantenés porque te dan confianza (el caballo).</li><li>Elegí 1 o 2 que rompés para que se note tu personalidad (lo que va adentro).</li><li>Probalo en 3 piezas y mirá cómo reacciona tu audiencia.</li></ol><p><strong>Ejemplo.</strong> Un estudio aduanero mantiene el blazer, la camisa y la tipografía de su marca para transmitir seriedad, y rompe con el tono: humor, Stories sin guion y una forma relajada de explicar temas técnicos.</p>"
+  },
+  {
+   "titulo": "Los códigos de tu rubro",
+   "consigna": "Una fila por código: cómo se viste, cómo habla y cómo se ve el contenido de tu sector. Marcá cuáles mantenés y cuáles rompés.",
+   "campo": "tabla",
+   "columnas": [
+    "Código del rubro",
+    "¿Lo mantengo o lo rompo?",
+    "Cómo lo aplico"
+   ],
+   "filas": 8,
+   "cid": 1
+  },
+  {
+   "titulo": "Las 3 piezas de prueba",
+   "consigna": "Las tres piezas donde probás lo que rompés, y qué te devolvió la audiencia.",
+   "campo": "tabla",
+   "columnas": [
+    "Pieza",
+    "Qué código rompe",
+    "Qué devolvió la audiencia"
+   ],
+   "filas": 3,
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Romper todo a la vez. Si no queda nada reconocible, la audiencia deja de verte como experto."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

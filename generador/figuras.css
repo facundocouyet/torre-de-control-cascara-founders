@@ -1,0 +1,98 @@
+
+/* ---- figuras de los bloques nuestros (capturas, flujos, infografías) ----
+   Mismo sistema que la carta: tinta, papel, radio cero. El rojo va solo en la alerta. */
+.fx{margin-top:30px;max-width:100%}
+.fx-et,.nuestro p.fx-et{font-size:10px;line-height:1.4;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85;margin:0 0 12px;max-width:none}
+.fx-pie,.nuestro p.fx-pie{font-size:15px;line-height:1.5;color:#6A6A66;margin-top:12px;max-width:62ch}
+.fx-pie b{color:#171717}
+
+/* captura */
+.fx-shot{margin:30px 0 0}
+.fx-shot img{width:100%;height:auto;display:block;border:1px solid #171717;background:#FBFAF8}
+.fx-shot figcaption{font-size:15px;line-height:1.5;color:#6A6A66;margin-top:12px;max-width:62ch}
+.fx-shot figcaption b{color:#171717}
+.fx-par{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start}
+.fx-par .fx-shot{margin:0}
+
+/* flujo de pasos */
+.fx-flujo{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);border-top:2px solid #171717}
+.fx-paso{padding:16px 16px 18px 0;border-right:1px solid #DBD7D2;min-width:0}
+.fx-paso + .fx-paso{padding-left:16px}
+.fx-paso:last-child{border-right:0}
+.fx-paso .k{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.fx-paso .t{font-size:17px;font-weight:800;letter-spacing:-.02em;line-height:1.25;margin-top:8px}
+.fx-paso .s{font-size:14.5px;line-height:1.45;color:#6A6A66;margin-top:6px}
+.fx-paso.tinta{background:#171717;color:#ECEAE4;padding-left:16px}
+.fx-paso.tinta .k{color:#8E8E92}
+.fx-paso.tinta .s{color:#B9B6AF}
+
+/* el mensaje puente */
+.fx-msg{border:1px solid #171717;background:#FBFAF8}
+.fx-msg .fila{display:grid;grid-template-columns:118px minmax(0,1fr);gap:16px;padding:14px 18px;border-top:1px solid #DBD7D2}
+.fx-msg .fila:first-child{border-top:0}
+.fx-msg .r{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6A6A66;padding-top:5px}
+.fx-msg .v{font-family:"Redaction 10","Redaction","Exposure","Times New Roman",Times,serif;font-style:italic;
+  font-size:18px;line-height:1.45}
+
+/* línea de tiempo */
+.fx-linea{display:grid;grid-template-columns:repeat(var(--n,7),minmax(0,1fr));border-top:2px solid #171717}
+.fx-hito{position:relative;padding:18px 10px 0 0;min-width:0}
+.fx-hito::before{content:"";position:absolute;top:-7px;left:0;width:12px;height:12px;background:#ECEAE4;border:2px solid #171717}
+.fx-hito.lleno::before{background:#171717}
+.fx-hito.alerta::before{background:#FE1414;border-color:#FE1414}
+.fx-hito .d{font-size:20px;font-weight:800;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.fx-hito .q{font-size:13.5px;line-height:1.4;color:#6A6A66;margin-top:4px}
+.fx-hito.alerta .q{color:#171717}
+
+/* tabla de muestra (no se completa) */
+.fx-tabla{width:100%;border-collapse:collapse;font-size:15.5px;line-height:1.45}
+.fx-tabla th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66;
+  font-weight:400;padding:0 12px 10px 0;border-bottom:2px solid #171717;vertical-align:bottom}
+.fx-tabla td{padding:12px 12px 12px 0;border-bottom:1px solid #DBD7D2;vertical-align:top}
+.fx-tabla td:first-child{font-weight:700}
+.fx-tabla .gris{color:#6A6A66}
+.fx-scroll{overflow-x:auto}
+
+/* el pedido a la IA */
+.fx-pedido{border-left:3px solid #171717;background:#FBFAF8;padding:18px 22px}
+.fx-pedido .tx{font-size:17px;line-height:1.55;max-width:62ch}
+
+/* checklist de muestra */
+.fx-lista{border-top:2px solid #171717}
+.fx-lista div{display:grid;grid-template-columns:22px minmax(0,1fr);gap:14px;padding:12px 0;border-bottom:1px solid #DBD7D2;
+  font-size:16.5px;line-height:1.45}
+.fx-lista div::before{content:"";width:14px;height:14px;border:2px solid #6A6A66;margin-top:4px}
+
+/* tres columnas comparadas */
+.fx-tres{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:2px solid #171717}
+.fx-tres > div{padding:16px 16px 18px 0;border-right:1px solid #DBD7D2}
+.fx-tres > div + div{padding-left:16px}
+.fx-tres > div:last-child{border-right:0}
+.fx-tres .k{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85}
+.fx-tres .t{font-size:17px;font-weight:800;letter-spacing:-.02em;line-height:1.25;margin-top:8px}
+.fx-tres ul{margin:10px 0 0;padding:0;list-style:none}
+.fx-tres li{font-size:14.5px;line-height:1.45;color:#6A6A66;padding:5px 0;border-top:1px solid #DBD7D2}
+
+@media (max-width:640px){
+  .fx-par{grid-template-columns:1fr}
+  .fx-flujo{grid-auto-flow:row;grid-auto-columns:auto}
+  .fx-paso,.fx-paso + .fx-paso{padding:14px 0;border-right:0;border-bottom:1px solid #DBD7D2}
+  .fx-paso.tinta{padding:14px 16px}
+  .fx-msg .fila{grid-template-columns:1fr;gap:4px}
+  .fx-linea{grid-template-columns:1fr;border-top:0;border-left:2px solid #171717;padding-left:0}
+  .fx-hito{padding:0 0 16px 22px}
+  .fx-hito::before{top:4px;left:-7px}
+  .fx-tres{grid-template-columns:1fr}
+  .fx-tres > div,.fx-tres > div + div{padding:14px 0;border-right:0;border-bottom:1px solid #DBD7D2}
+  .fx-tabla{min-width:520px}
+}
+@media print{ .fx-shot,.fx-flujo,.fx-msg,.fx-linea{break-inside:avoid} }
+
+/* listas y tablas dentro de los bloques nuestros (cartas de Creatividad, 18/10) */
+.nuestro ol,.nuestro ul{font-size:18.5px;line-height:1.55;margin:16px 0 0;padding-left:1.3em;max-width:62ch}
+.nuestro li{margin:8px 0 0}
+.nuestro li::marker{color:#8E8B85}
+.nuestro a{color:#171717;text-decoration:underline;text-underline-offset:3px}
+.tabla-carta{display:block;overflow-x:auto;max-width:100%;border-collapse:collapse;margin:22px 0 0;font-size:15.5px;line-height:1.45}
+.tabla-carta th{text-align:left;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8E8B85;font-weight:400;padding:0 18px 8px 0;border-bottom:1px solid #171717}
+.tabla-carta td{vertical-align:top;padding:10px 18px 10px 0;border-bottom:1px solid #DBD7D2;min-width:120px}

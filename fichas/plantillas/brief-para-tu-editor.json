@@ -1,0 +1,48 @@
+{
+ "modulo": "brief-para-tu-editor",
+ "titulo": "La hoja del brief para tu editor",
+ "bajada": "Delegar la edición sin perder tu dirección creativa. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Armaste tu plantilla de brief y la usaste en la próxima entrega.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Qué tiene que tener",
+   "texto": [],
+   "figura": "<table class=\"tabla-carta\"><thead><tr><th>Campo</th><th>Qué completar</th></tr></thead><tbody><tr><td>Objetivo</td><td>Para qué es la pieza y qué tiene que lograr</td></tr><tr><td>Formato</td><td>Plataforma, duración, 16:9 o 9:16, video largo o reels</td></tr><tr><td>Material</td><td>Link a la carpeta, qué tomas usar, minutos clave</td></tr><tr><td>Hook</td><td>Cuál es la apertura elegida</td></tr><tr><td>Estructura</td><td>El orden de las partes</td></tr><tr><td>Estilo</td><td>Referencias, ritmo, subtítulos, kit de identidad</td></tr><tr><td>Sonido</td><td>Música, efectos, silencio</td></tr><tr><td>Textos y CTA</td><td>Qué aparece en pantalla y cómo cierra</td></tr><tr><td>Entrega</td><td>Fecha y cantidad de rondas de cambios</td></tr></tbody></table>"
+  },
+  {
+   "titulo": "Tu plantilla de brief",
+   "consigna": "Completala para la próxima pieza que mandás a editar.",
+   "campo": "lineas",
+   "lineas": [
+    "Objetivo",
+    "Formato",
+    "Material",
+    "Hook",
+    "Estructura",
+    "Estilo",
+    "Sonido",
+    "Textos y CTA",
+    "Entrega"
+   ],
+   "cid": 1
+  },
+  {
+   "nuestro": true,
+   "cid": 2,
+   "titulo": "El error más común",
+   "texto": [
+    "«Editalo como te parezca». Después no te gusta y perdés más tiempo que si lo hacías vos."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

@@ -159,6 +159,9 @@ textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
 }
 """
 
+# las figuras de los bloques nuestros: capturas, flujos e infografías (cartas de operaciones, 17/10)
+CSS += open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'figuras.css'), encoding='utf-8').read()
+
 JS = """
 (function(){
   var MOD=document.body.dataset.mod||'x';
@@ -373,6 +376,8 @@ def construir(m, categoria, pl=None, bajada=None):
             out.append('  <h2>%s</h2>' % esc(s["titulo"]))
             for par in (s.get("texto") or []):
                 out.append('  <p>%s</p>' % par)   # texto nuestro: el HTML va
+            if s.get("figura"):                    # infografía o captura: HTML libre, va tal cual
+                out.append(s["figura"])
             if s.get("pregunta"):
                 out.append('  <div class="devuelta"><div class="k">%s</div>' % esc(s["pregunta"]))
                 out.append(con_campo('    <div class="campo"><textarea data-c="s%s" rows="3"></textarea></div>' % i))

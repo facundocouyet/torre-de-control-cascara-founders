@@ -1,0 +1,56 @@
+{
+ "modulo": "direccion-de-arte-coleccion",
+ "titulo": "La hoja de arte de tu lanzamiento",
+ "bajada": "Que el lanzamiento se vea como una sola historia. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Completaste la tabla de arte y el plan por etapas de tu próximo lanzamiento.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Decisiones de arte y etapas",
+   "texto": [],
+   "figura": "<table class=\"tabla-carta\"><thead><tr><th>Elemento</th><th>Qué definir</th></tr></thead><tbody><tr><td>Concepto</td><td>De qué habla esta colección</td></tr><tr><td>Paleta y materiales</td><td>Colores, texturas, superficies</td></tr><tr><td>Casting y styling</td><td>Quién lo usa y cómo</td></tr><tr><td>Locación y objetos</td><td>Dónde sucede y qué hay en la escena</td></tr><tr><td>Luz</td><td>Natural o de estudio, dura o suave</td></tr></tbody></table><ol class=\"pasos\"><li><strong>Expectativa:</strong> la founder y su proceso, antes del producto.</li><li><strong>Revelación:</strong> detalles, fragmentos, pistas.</li><li><strong>Lanzamiento:</strong> la campaña completa.</li><li><strong>Después:</strong> clientes usándolo, backstage, lo que aprendiste.</li></ol>"
+  },
+  {
+   "titulo": "Las decisiones de arte",
+   "consigna": "Completá cada elemento para tu próximo lanzamiento.",
+   "campo": "lineas",
+   "lineas": [
+    "Concepto",
+    "Paleta y materiales",
+    "Casting y styling",
+    "Locación y objetos",
+    "Luz"
+   ],
+   "cid": 1
+  },
+  {
+   "titulo": "El plan por etapas",
+   "consigna": "Qué piezas van en cada etapa y con qué fecha.",
+   "campo": "tabla",
+   "columnas": [
+    "Etapa",
+    "Piezas",
+    "Fechas"
+   ],
+   "filas": 4,
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Mostrar el producto el día del lanzamiento sin haber construido el relato antes."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

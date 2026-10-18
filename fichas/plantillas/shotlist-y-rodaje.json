@@ -1,0 +1,47 @@
+{
+ "modulo": "shotlist-y-rodaje",
+ "titulo": "La hoja de tu shotlist",
+ "bajada": "Llegar a grabar sabiendo exactamente qué necesitás. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Armaste el shotlist de tu próxima grabación.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Paso a paso",
+   "texto": [],
+   "figura": "<ol class=\"pasos\"><li>Listá todas las tomas que necesitás.</li><li>Marcá las imprescindibles.</li><li>Ordená por locación (no por orden de la historia).</li><li>Tachá a medida que grabás.</li></ol><table class=\"tabla-carta\"><thead><tr><th>N°</th><th>Escena</th><th>Plano</th><th>Acción</th><th>Texto / voz</th><th>Formato</th></tr></thead><tbody><tr><td>1</td><td>Escritorio</td><td>Detalle</td><td>Manos bocetando</td><td>—</td><td>V</td></tr><tr><td>2</td><td>Escritorio</td><td>Medio</td><td>Founder a cámara</td><td>Hook</td><td>H</td></tr></tbody></table>"
+  },
+  {
+   "titulo": "Tu shotlist",
+   "consigna": "Una fila por toma, ordenadas por locación. Marcá las imprescindibles.",
+   "campo": "tabla",
+   "columnas": [
+    "N°",
+    "Escena / locación",
+    "Plano",
+    "Acción",
+    "Texto / voz",
+    "Formato (V/H)",
+    "Imprescindible"
+   ],
+   "filas": 12,
+   "cid": 1
+  },
+  {
+   "nuestro": true,
+   "cid": 2,
+   "titulo": "El error más común",
+   "texto": [
+    "Grabar «a ver qué sale» y descubrir en la edición que falta el plano clave."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

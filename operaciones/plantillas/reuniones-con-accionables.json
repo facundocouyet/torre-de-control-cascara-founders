@@ -1,0 +1,91 @@
+{
+  "titulo": "La hoja de tus reuniones",
+  "bajada": "Una reunión sin nada escrito al final se vuelve a hacer la semana siguiente. Con la grabación y la IA, sacar los accionables por persona lleva minutos y cada decisión queda donde el equipo la encuentra.",
+  "lista_cuando": "Cada reunión de la semana dejó accionables con nombre y fecha, y la siguiente arrancó revisándolos.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo lo hacemos en Cáscara",
+      "texto": [
+        "Grabamos las reuniones con Fathom. De cada grabación salen los accionables ordenados por persona y, cuando hace falta, los pedidos ya escritos para cada sistema. Las reuniones de dirección se convierten en un documento con los avances de cada área y quién hace qué.",
+        "Cada sesión de trabajo deja un documento fechado en el proyecto, y las decisiones quedan registradas. La próxima conversación arranca sabiendo qué se decidió y por qué."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">De la reunión al accionable</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">01</div><div class=\"t\">Reunión</div><div class=\"s\">Grabada.</div></div><div class=\"fx-paso\"><div class=\"k\">02</div><div class=\"t\">Transcripción</div><div class=\"s\">Sale sola.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">03</div><div class=\"t\">Accionables</div><div class=\"s\">Por persona, con fecha.</div></div><div class=\"fx-paso\"><div class=\"k\">04</div><div class=\"t\">Donde trabaja el equipo</div><div class=\"s\">Notion, Slack o la app.</div></div><div class=\"fx-paso\"><div class=\"k\">05</div><div class=\"t\">Próxima reunión</div><div class=\"s\">Arranca revisándolos.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">El pedido, para copiar</p><div class=\"fx-pedido\"><div class=\"tx\">Te paso la transcripción de la reunión de hoy. Sacá los accionables agrupados por persona, cada uno con fecha. Separá lo que se decidió de lo que quedó abierto. Si un accionable no tiene dueño, marcalo. Al final, en tres líneas, lo que hay que revisar al arrancar la próxima reunión.</div></div></div>"
+    },
+    {
+      "titulo": "El mapa de reuniones",
+      "consigna": "Todas las reuniones fijas: quién va, cada cuánto y qué se decide ahí. Una reunión que no decide nada se revisa.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "Tenemos escrito el mapa de las reuniones semanales: cuál existe, quién va y para qué se hace. Cada reunión tiene un motivo escrito al lado."
+      },
+      "columnas": [
+        "Reunión",
+        "Quién va",
+        "Cada cuánto",
+        "Qué se decide ahí"
+      ],
+      "filas": 6,
+      "cid": 0
+    },
+    {
+      "titulo": "La grabación",
+      "consigna": "Qué reuniones se graban, dónde quedan y quién saca los accionables.",
+      "campo": "lineas",
+      "lineas": [
+        "Con qué grabás",
+        "Qué reuniones se graban",
+        "Dónde quedan",
+        "Quién saca los accionables"
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "Los accionables de tu última reunión",
+      "consigna": "Tomá la última reunión que tuviste y sacá los accionables: uno por renglón, con nombre y fecha. Si alguno no tiene dueño, escribilo igual y marcalo: ahí está lo que se va a perder.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Persona · qué hace · para cuándo",
+      "cid": 2
+    },
+    {
+      "titulo": "Dónde viven los accionables",
+      "consigna": "Un accionable que queda en el documento de la reunión no se cumple. Definí a dónde va, quién lo carga y cómo se entera cada persona.",
+      "campo": "lineas",
+      "lineas": [
+        "Dónde se cargan",
+        "Quién los carga",
+        "Cómo se entera cada persona",
+        "Cuándo se revisan"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "El registro de decisiones",
+      "consigna": "Una decisión con consecuencia se escribe el día que se toma, con el por qué. Es lo que después le da contexto a la IA y a alguien nuevo del equipo.",
+      "campo": "tabla",
+      "columnas": [
+        "Fecha",
+        "Decisión",
+        "Por qué",
+        "Quién decidió"
+      ],
+      "filas": 6,
+      "cid": 4
+    },
+    {
+      "titulo": "La primera reunión con revisión",
+      "consigna": "La próxima reunión arranca con los accionables de la anterior. Anotá cómo fue.",
+      "campo": "lineas",
+      "lineas": [
+        "Fecha",
+        "Accionables revisados",
+        "Cumplidos",
+        "Qué se repite sin cumplirse"
+      ],
+      "cid": 5
+    }
+  ],
+  "modulo": "reuniones-con-accionables"
+}

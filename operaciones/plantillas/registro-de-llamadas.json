@@ -1,0 +1,83 @@
+{
+  "titulo": "La hoja de tus llamadas",
+  "bajada": "Una llamada que no se registra se pierde dos veces: se pierde la venta y se pierde lo que el cliente te dijo. Con el registro al día, en un mes sabés cuánto cerrás y qué objeción te frena.",
+  "lista_cuando": "Podés decir cuántas llamadas hiciste el mes pasado, cuántas cerraste y cuál fue la objeción que más se repitió, sin abrir ningún chat.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo lo hacemos en Cáscara",
+      "texto": [
+        "Cada llamada agendada entra sola al Tracker de Calls, y cada venta al Reporte de Venta con quién la cerró. Las llamadas se graban con Fathom y la grabación queda ligada a la persona.",
+        "Con eso, cuando cerramos un lanzamiento cruzamos qué anuncio trajo a cada persona, si agendó y si compró. Sin el registro de cada llamada ese cruce es imposible."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">El recorrido de una llamada</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">01</div><div class=\"t\">Agenda</div><div class=\"s\">Entra sola al registro.</div></div><div class=\"fx-paso\"><div class=\"k\">02</div><div class=\"t\">Llamada grabada</div><div class=\"s\">Con transcripción.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">03</div><div class=\"t\">Resultado</div><div class=\"s\">El mismo día, de una lista cerrada.</div></div><div class=\"fx-paso\"><div class=\"k\">04</div><div class=\"t\">Objeción</div><div class=\"s\">Con las palabras del cliente.</div></div><div class=\"fx-paso\"><div class=\"k\">05</div><div class=\"t\">Lectura</div><div class=\"s\">Una vez por semana.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">Cómo se ve una semana del registro</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Fecha</th><th>Persona</th><th>Resultado</th><th>Objeción, tal cual</th><th>Grabación</th></tr></thead><tbody><tr><td>14/10</td><td><span class='gris'>Nombre</span></td><td>Seguimiento</td><td><span class='gris'>«Lo tengo que hablar con mi socio.»</span></td><td><span class='gris'>link</span></td></tr><tr><td>15/10</td><td><span class='gris'>Nombre</span></td><td>Cerró</td><td><span class='gris'>—</span></td><td><span class='gris'>link</span></td></tr><tr><td>15/10</td><td><span class='gris'>Nombre</span></td><td>No se presentó</td><td><span class='gris'>—</span></td><td><span class='gris'>—</span></td></tr></tbody></table></div></div>"
+    },
+    {
+      "titulo": "Tus últimas diez llamadas",
+      "consigna": "De memoria y con lo que tengas, las últimas diez llamadas de venta. Lo que no recuerdes, dejalo vacío: el vacío también es un dato.",
+      "campo": "tabla",
+      "columnas": [
+        "Fecha",
+        "Persona",
+        "Resultado",
+        "Objeción principal",
+        "¿Hay grabación?"
+      ],
+      "filas": 10,
+      "cid": 0
+    },
+    {
+      "titulo": "Los resultados posibles",
+      "consigna": "Definí una lista cerrada para que todos carguen lo mismo. Con cuatro o cinco alcanza: cerró, seguimiento, no cerró, no se presentó. Para cada uno, qué pasa después.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "Usamos estados cerrados para la llamada y para la venta. Una llamada cargada como «lo pienso» en lugar de «seguimiento» desaparece de la lista de seguimientos de la semana."
+      },
+      "columnas": [
+        "Resultado",
+        "Qué significa",
+        "Qué pasa después"
+      ],
+      "filas": 5,
+      "cid": 1
+    },
+    {
+      "titulo": "La grabación",
+      "consigna": "Una llamada grabada se puede volver a escuchar, transcribir y analizar. Elegí la herramienta, dónde queda cada grabación y cómo se liga a la persona.",
+      "campo": "lineas",
+      "lineas": [
+        "Con qué grabás",
+        "Dónde queda la grabación",
+        "Cómo se liga a la persona",
+        "Quién la escucha y cuándo"
+      ],
+      "cid": 2
+    },
+    {
+      "titulo": "Las objeciones con las palabras del cliente",
+      "consigna": "Copiá las objeciones como las dijo el cliente, sin traducirlas. Esas frases después son guiones, respuestas y contenido.",
+      "campo": "tabla",
+      "columnas": [
+        "Objeción, tal cual",
+        "Cuántas veces apareció",
+        "Qué respondiste"
+      ],
+      "filas": 6,
+      "cid": 3
+    },
+    {
+      "titulo": "La lectura de la semana",
+      "consigna": "Una vez por semana, el mismo día, mirá el registro completo y escribí cuatro números y una decisión.",
+      "campo": "lineas",
+      "lineas": [
+        "Llamadas de la semana",
+        "Cierres",
+        "Objeción que más se repitió",
+        "Qué cambiás para la próxima semana"
+      ],
+      "cid": 4
+    }
+  ],
+  "modulo": "registro-de-llamadas"
+}

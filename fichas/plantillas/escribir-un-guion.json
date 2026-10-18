@@ -1,0 +1,53 @@
+{
+ "modulo": "escribir-un-guion",
+ "titulo": "La hoja de tu guion",
+ "bajada": "De una observación a una idea con punto de vista, antes de pensar en el formato. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Escribiste la primera serie de 4 guiones del mes con la ficha.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "La ficha, paso a paso",
+   "texto": [],
+   "figura": "<ol class=\"pasos\"><li><strong>Observación:</strong> algo concreto que viste, que te pasó o que te repiten tus clientes.</li><li><strong>Tensión:</strong> ¿qué se contradice?, ¿qué se da por sentado?, ¿qué pregunta incómoda aparece?</li><li><strong>Punto de vista:</strong> tu interpretación. Algo que solo podrías decir vos.</li><li><strong>Transformación:</strong> ¿qué querés que piense, sienta, converse o haga quien lo ve?</li><li><strong>Expresión:</strong> recién ahora, ¿qué forma necesita la idea? Video corto, texto, carrusel, imagen, conversación o una acción participativa.</li><li>Construí el prompt con la ficha y pensá con IA. La IA te ayuda a pensar mejor; el criterio es tuyo.</li></ol><table class=\"tabla-carta\"><thead><tr><th>Parte</th><th>Qué tiene</th></tr></thead><tbody><tr><td>Hook</td><td>El problema o la tensión, en los primeros 5 segundos</td></tr><tr><td>Desarrollo</td><td>Tu punto de vista, con un ejemplo concreto</td></tr><tr><td>Cierre</td><td>La transformación: qué se lleva quien lo vio, y el siguiente paso</td></tr></tbody></table><p><strong>Herramienta:</strong> la <a href=\"https://ficha-pensamiento-creativo.lovable.app/\" target=\"_blank\" rel=\"noopener\">ficha de pensamiento creativo</a>. La completás y te devuelve un prompt listo para pegar en Claude u otra IA.</p>"
+  },
+  {
+   "titulo": "Tu serie de 4 guiones",
+   "consigna": "La primera serie del mes, pasada por la ficha.",
+   "campo": "tabla",
+   "columnas": [
+    "Observación",
+    "Tensión",
+    "Punto de vista",
+    "Transformación",
+    "Formato"
+   ],
+   "filas": 4,
+   "cid": 1
+  },
+  {
+   "titulo": "Uno de los guiones, completo",
+   "consigna": "Hook, desarrollo y cierre del que más te convence.",
+   "campo": "texto",
+   "alto": 6,
+   "placeholder": "Hook… / Desarrollo… / Cierre…",
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Arrancar por el formato («quiero hacer un reel») en vez de por la idea. La idea manda."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

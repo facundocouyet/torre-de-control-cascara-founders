@@ -1,0 +1,107 @@
+{
+  "titulo": "La hoja de tu primera captura",
+  "bajada": "Todo lo que la gente te deja tiene que caer en un solo lugar, solo y con su origen. Es la base sobre la que después se construye todo lo demás: el seguimiento, la venta y los números.",
+  "lista_cuando": "Alguien completa tu formulario desde el celular y en menos de un minuto está en tu base, con su origen, y tiene en su bandeja un mensaje que le dice qué sigue.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo lo hacemos en Cáscara",
+      "texto": [
+        "Todas las personas viven en una sola tabla, el Pipeline: una fila por persona, identificada por su mail. Cada vez que alguien completa un formulario, la base busca ese mail. Si existe, le suma el dato nuevo; si no existe, crea la persona.",
+        "La columna Fuente acumula de dónde vino cada uno. Una persona que se anotó al Bootcamp y después a la consultoría tiene las dos fuentes en la misma fila, y así sabemos qué camino hizo antes de comprar."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Lo que pasa cuando alguien se anota</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">01</div><div class=\"t\">Formulario</div><div class=\"s\">Nombre, mail, WhatsApp, Instagram.</div></div><div class=\"fx-paso\"><div class=\"k\">02</div><div class=\"t\">Busca el mail</div><div class=\"s\">¿La persona ya está en la base?</div></div><div class=\"fx-paso tinta\"><div class=\"k\">03</div><div class=\"t\">Crea o suma</div><div class=\"s\">Persona nueva, o el dato nuevo en su fila.</div></div><div class=\"fx-paso\"><div class=\"k\">04</div><div class=\"t\">Mensaje</div><div class=\"s\">Le llega la confirmación con lo que sigue.</div></div></div></div><figure class=\"fx-shot\"><img src=\"../assets/operaciones/consultoria-form.jpg\" alt=\"Formulario de inscripción de la consultoría\"><figcaption><b>El formulario de la consultoría.</b> Cuatro campos y nada más. Lo demás se pregunta después, en un segundo formulario que confirma el lugar.</figcaption></figure>"
+    },
+    {
+      "titulo": "Por dónde te llegan hoy",
+      "consigna": "Una fila por cada lugar por donde alguien te contacta: mensajes de Instagram, WhatsApp, mail, formulario, recomendación. Al lado, qué dato te queda y dónde se guarda hoy. Si la respuesta es «en el chat», también va.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Osmo Estudio",
+        "texto": "Estaban unificando planillas de Excel en una sola base. Cuando la IA les dijo que era demasiada información, la salida fue pedirle que lo hiciera en bloques y avanzar de a uno."
+      },
+      "columnas": [
+        "Por dónde llega",
+        "Qué dato te deja",
+        "Dónde queda guardado",
+        "Cuántos por mes"
+      ],
+      "filas": 6,
+      "cid": 0
+    },
+    {
+      "titulo": "Tu tabla de personas",
+      "consigna": "Una fila por persona, con el mail como dato que la identifica. Los campos mínimos: nombre, mail, teléfono, de dónde vino, fecha y en qué etapa está. Escribí los campos y el formato de cada uno: las fechas en un formato, el origen elegido de una lista cerrada.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "Tenemos una sola tabla de personas para todo: el que se anota a un evento, el que agenda una llamada y el que compra son la misma fila. Las inscripciones a eventos van en una tabla aparte ligada a la persona."
+      },
+      "columnas": [
+        "Campo",
+        "Formato",
+        "¿Obligatorio?"
+      ],
+      "filas": 8,
+      "cid": 1
+    },
+    {
+      "titulo": "La landing",
+      "consigna": "Una página que habla de tu oferta: el problema que resolvés, cómo lo resolvés y qué tiene que hacer la persona. El portfolio va después, como recurso para cuando aparece la pregunta de con quién trabajaste. Escribí las piezas de tu landing.",
+      "campo": "lineas",
+      "ejemplo": {
+        "quien": "Lucio",
+        "texto": "Dudaba entre una landing tipo portfolio y una enfocada en la oferta. Con pocos contactos entrando, eligió la oferta: el portfolio queda como herramienta para resolver objeciones en la venta."
+      },
+      "lineas": [
+        "El título",
+        "El problema que resolvés",
+        "Cómo lo resolvés",
+        "Qué tiene que hacer la persona",
+        "Con qué la armás"
+      ],
+      "cid": 2
+    },
+    {
+      "titulo": "El formulario conectado",
+      "consigna": "Cada envío tiene que llegar a la tabla sin que copies nada. Escribí qué campos pide el formulario, a qué columna va cada uno y qué pasa si la persona ya existe. Pedí lo justo: cada campo de más baja cuántos lo completan.",
+      "campo": "tabla",
+      "columnas": [
+        "Campo del formulario",
+        "Columna de la base",
+        "Si la persona ya existe"
+      ],
+      "filas": 6,
+      "cid": 3
+    },
+    {
+      "titulo": "El mensaje que sale solo",
+      "consigna": "Apenas alguien completa el formulario le llega un mensaje que confirma y dice qué sigue, cuándo y por dónde. Escribilo completo, como lo va a leer.",
+      "campo": "texto",
+      "alto": 6,
+      "placeholder": "Asunto, saludo, qué sigue, cuándo, por dónde.",
+      "cid": 4
+    },
+    {
+      "nuestro": true,
+      "titulo": "Un mensaje que sale solo",
+      "texto": [
+        "Cada inscripto al Talent Hunt recibe al instante un mail con su propuesta en PDF, la carpeta de recursos y el link al desafío. Nadie del equipo lo manda a mano: lo dispara la misma automatización que guarda la inscripción."
+      ],
+      "figura": "<figure class=\"fx-shot\"><img src=\"../assets/operaciones/mail-talent-hunt.jpg\" alt=\"Mail automático de confirmación del Talent Hunt 0800\"><figcaption><b>El mail del Talent Hunt.</b> Nombre de la persona, el rol que eligió y los dos botones que necesita.</figcaption></figure>"
+    },
+    {
+      "titulo": "La prueba desde afuera",
+      "consigna": "Completá el formulario como si fueras un cliente, con un mail tuyo y desde el celular. Revisá que la fila aparezca, que el origen esté bien y que el mensaje llegue. Anotá lo que falló y cómo lo corregiste.",
+      "campo": "lineas",
+      "lineas": [
+        "¿Apareció la fila?",
+        "¿El origen está bien?",
+        "¿Llegó el mensaje? ¿En cuánto tiempo?",
+        "Qué corregiste"
+      ],
+      "cid": 5
+    }
+  ],
+  "modulo": "formulario-a-la-base"
+}

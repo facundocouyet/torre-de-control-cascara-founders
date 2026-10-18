@@ -1,0 +1,140 @@
+{
+  "titulo": "La hoja de la IA en tu negocio",
+  "bajada": "Usar la IA es una habilidad más, como editar o vender: se aprende practicando. Esta carta te deja con un proyecto que conoce tu negocio, un idioma preciso para pedirle cosas y tres tareas que ya no hacés a mano.",
+  "lista_cuando": "Le pedís algo a Claude sobre tu negocio y lo resuelve sin que le expliques de nuevo quién sos, qué vendés y cómo trabajás.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo la usamos en Cáscara",
+      "texto": [
+        "Tenemos un cerebro que lee todo lo que pasa: lo que nos escriben los founders por Slack, lo que se habla en las llamadas, lo que se decide en cada reunión. Cuando le preguntamos algo, ya lo sabe, porque se alimenta todo el tiempo.",
+        "Las landings, los mails, las apps y los informes que ves en el programa salen de ahí: una idea bien contada, el contexto cargado y la IA ejecutando. La landing de la consultoría se diseñó así: le pedimos cuatro variantes a la noche, a la mañana elegimos una y la terminamos juntos."
+      ],
+      "figura": "<figure class=\"fx-shot\"><img src=\"../assets/operaciones/consultoria-landing.jpg\" alt=\"Landing de la consultoría en vivo de Cáscara Founders\"><figcaption><b>La landing de la consultoría en vivo</b>, diseñada y publicada con Claude. Formulario conectado a la base, contador de inscriptos y mails automáticos.</figcaption></figure>"
+    },
+    {
+      "titulo": "Dónde estás hoy con la IA",
+      "consigna": "Marcá qué usás hoy y para qué. Si estás en cero, esta carta arranca de ahí. Al lado, escribí la tarea de tu semana que más te pesa y que sospechás que se podría hacer de otra forma.",
+      "campo": "lineas",
+      "ejemplo": {
+        "quien": "Juan Cruz",
+        "texto": "Llegó a la grupal en cero con lo informático. Instaló Claude, arrancó por la landing de su oferta y decidió ir por prueba y error, mandándole pedidos sin miedo."
+      },
+      "lineas": [
+        "Qué herramientas de IA usás hoy",
+        "Para qué las usás",
+        "Cuántas horas por semana",
+        "La tarea que más te pesa",
+        "Qué plan pagás y si te quedás sin uso"
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "El contexto de tu negocio",
+      "consigna": "Lo que cargás en el proyecto es lo que la IA sabe de vos. Lo mínimo: qué vendés y a quién, cómo trabajás con un cliente de punta a punta, tu tono, tus precios y tus casos. Listá qué documento cubre cada tema y si ya existe.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "Nuestro proyecto tiene la marca, el tono, los procesos de cada área, los SOPs y un documento fechado por cada sesión de trabajo. Una tarea nueva arranca con todo ese contexto adentro."
+      },
+      "columnas": [
+        "Tema",
+        "Documento que lo explica",
+        "¿Existe?",
+        "Dónde está"
+      ],
+      "filas": 7,
+      "cid": 1
+    },
+    {
+      "titulo": "Tu glosario",
+      "consigna": "Las palabras con las que nombrás tu trabajo. Cuanto más preciso el idioma, menos ida y vuelta: «más lindo» no le dice nada a nadie; «más aire entre bloques y el título a la izquierda», sí. Escribí diez palabras de tu oficio y qué significan en tu negocio.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "Si trabajás con video, «paneo horizontal de A a B en plano picado» es una instrucción que se puede ejecutar. Ese idioma se aprende practicando y mirando cómo trabaja tu rubro."
+      },
+      "columnas": [
+        "Palabra",
+        "Qué significa en tu negocio"
+      ],
+      "filas": 10,
+      "cid": 2
+    },
+    {
+      "nuestro": true,
+      "titulo": "Cómo pedirle las cosas",
+      "texto": [
+        "Tres hábitos que cambian el resultado y el uso que gastás."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Tres hábitos</p><div class=\"fx-tres\"><div><div class=\"k\">Preciso</div><div class=\"t\">Palabras justas</div><ul><li>Decí qué querés ver, no cómo te tiene que hacer sentir.</li><li>Pasale referencias: «que se parezca a esta página».</li><li>Una cosa por pedido cuando es delicada.</li></ul></div><div><div class=\"k\">En bloques</div><div class=\"t\">Cuando es mucho</div><ul><li>Si te dice que es demasiada información: «hacelo en los bloques que necesites, avisame y avanzo».</li><li>Planillas grandes, de a partes.</li><li>Revisás cada bloque antes del siguiente.</li></ul></div><div><div class=\"k\">Mientras dormís</div><div class=\"t\">Trabajo largo</div><ul><li>Pedí cuatro variantes antes de irte a dormir y elegí a la mañana.</li><li>Ponele una meta clara y dejalo trabajar hasta cumplirla.</li><li>Lo largo se arranca con el modelo más capaz.</li></ul></div></div></div><div class=\"fx\"><p class=\"fx-et\">Qué modelo para qué</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Tipo de tarea</th><th>Modelo</th><th>Por qué</th></tr></thead><tbody><tr><td>Arrancar algo nuevo o pesado</td><td>El más capaz</td><td><span class='gris'>La primera versión de una app, un sistema o un documento largo.</span></td></tr><tr><td>Iterar sobre algo que ya existe</td><td>El intermedio</td><td><span class='gris'>Ajustes, cambios y piezas sobre una base que ya está.</span></td></tr><tr><td>Tareas que se repiten y leen datos simples</td><td>El liviano</td><td><span class='gris'>Revisar un calendario o una planilla todos los días gasta mucho menos.</span></td></tr></tbody></table></div><p class=\"fx-pie\">Los nombres de los modelos cambian cada pocos meses; el criterio queda. Si cambiás de modelo en medio de una conversación larga, vuelve a leer todo y gasta más: conviene cambiar al arrancar un tramo nuevo.</p></div>"
+    },
+    {
+      "titulo": "Tres tareas de tu semana",
+      "consigna": "Elegí tres tareas que hacés todas las semanas a mano. Para cada una escribí qué le pedirías a la IA, qué le das para hacerla (archivos, datos, ejemplos) y cuánto tiempo te ahorra. Probá las tres esta semana.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Programó a Claude para que los domingos le arme el contenido de la semana para LinkedIn e Instagram y lo deje en estado «a probar». Ella lo revisa, deja comentarios, y cuando lo aprueba le pide que cree las imágenes."
+      },
+      "columnas": [
+        "Tarea",
+        "Qué le pedís",
+        "Qué le das",
+        "Tiempo que ahorra"
+      ],
+      "filas": 3,
+      "cid": 3
+    },
+    {
+      "titulo": "Qué modelo para qué",
+      "consigna": "Los modelos más capaces gastan más uso. Si los usás para leer una planilla todos los días, te quedás sin uso para lo importante. Escribí, para cada tipo de tarea tuya, con qué modelo la vas a correr.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Camila",
+        "texto": "Se quedaba sin uso a mitad de semana porque sus tareas programadas corrían con un modelo grande. La salida fue pasarlas a uno liviano y dejar el grande para el trabajo pesado."
+      },
+      "columnas": [
+        "Tipo de tarea",
+        "Modelo",
+        "Tus tareas de este tipo"
+      ],
+      "filas_rotulo": [
+        "Arrancar algo nuevo",
+        "Iterar lo que existe",
+        "Tareas que se repiten"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "Con qué se construye cada cosa",
+      "consigna": "Para una pieza, un documento o una landing simple, Claude alcanza. Cuando hay usuarios que se loguean, datos que se guardan y algo que tiene que funcionar todos los días, construí en Lovable con base de datos, y pedí la versión para el celular desde el primer mensaje. Listá lo que querés construir este trimestre y con qué.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Samuel",
+        "texto": "Armó con Claude la app donde sus clientes ven roadmap, calendario, guiones, storyboard, métricas y las grabaciones de las llamadas, con la base de datos en Supabase. Sus clientes le dijeron que ganaron claridad porque dejaron de usar varias herramientas para lo mismo."
+      },
+      "columnas": [
+        "Qué querés construir",
+        "Quién lo usa",
+        "¿Guarda datos o usuarios?",
+        "Con qué lo construís"
+      ],
+      "filas": 4,
+      "cid": 5
+    },
+    {
+      "titulo": "Lo que el proyecto aprende cada semana",
+      "consigna": "Un proyecto se vuelve útil cuando se alimenta. Definí qué entra cada semana (la llamada más importante, una decisión, un aprendizaje) y quién lo sube.",
+      "campo": "lineas",
+      "lineas": [
+        "Qué entra cada semana",
+        "Quién lo sube",
+        "Qué día",
+        "Dónde queda guardado"
+      ],
+      "cid": 6
+    }
+  ],
+  "modulo": "ia-en-la-operacion"
+}

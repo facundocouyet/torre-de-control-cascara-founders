@@ -1,0 +1,42 @@
+{
+ "modulo": "inventar-cuando-no-pasa-nada",
+ "titulo": "La hoja de tus provocaciones",
+ "bajada": "Las semanas sin novedades también tienen contenido. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Tenés una lista de 10 provocaciones en reserva.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Recursos para provocar historias",
+   "texto": [],
+   "figura": "<ul><li><strong>Desafío:</strong> «30 días haciendo X», «una semana sin Y».</li><li><strong>Experimento:</strong> «probé X y esto pasó».</li><li><strong>Hipótesis:</strong> «qué pasaría si…».</li><li><strong>Rediseño o reversión:</strong> tomá algo existente y hacé tu versión.</li><li><strong>Reto con la comunidad:</strong> pedí algo y respondé con contenido.</li><li><strong>Opinión:</strong> tu lectura sobre algo que pasó en tu rubro.</li><li><strong>Revisitar:</strong> volvé a un contenido viejo con lo que sabés hoy.</li></ul>"
+  },
+  {
+   "titulo": "Tus 10 provocaciones en reserva",
+   "consigna": "Diez ideas listas para las semanas vacías.",
+   "campo": "tabla",
+   "columnas": [
+    "Recurso",
+    "La idea en una línea"
+   ],
+   "filas": 10,
+   "cid": 1
+  },
+  {
+   "nuestro": true,
+   "cid": 2,
+   "titulo": "El error más común",
+   "texto": [
+    "Dejar de publicar porque «no pasa nada». Si no pasa nada, lo hacés pasar."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+  "titulo": "La hoja de tus tareas programadas",
+  "bajada": "Son tareas mínimas que sumadas te comen el día: revisar, avisar, dar accesos, copiar. Las que siguen siempre la misma regla las puede hacer una tarea programada, y a vos te llegan solo las que necesitan criterio.",
+  "lista_cuando": "Tres tareas corren solas hace una semana, sabés qué hizo cada una y nadie tuvo que hacerlas a mano.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo lo hacemos en Cáscara",
+      "texto": [
+        "Cuando entra un cliente nuevo a Founders, una tarea programada revisa cada dos horas, de lunes a viernes, si alguien completó el formulario de onboarding. Si encuentra uno, crea su espacio en Notion, le da acceso a Slack y lo suma a la comunidad. Con cinco clientes nuevos en una semana, eso es una tarde entera que nadie hace a mano.",
+        "Todas siguen la misma forma: detectar, disparar, informar. La tarea mira algo, hace lo que está escrito y avisa qué hizo. Lo que necesita criterio te llega a vos."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Detectar, disparar, informar</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Tarea</th><th>Detecta</th><th>Dispara</th><th>Informa</th></tr></thead><tbody><tr><td>Alta de cliente</td><td>Un formulario de onboarding nuevo</td><td>Espacio en Notion, acceso a Slack, alta en la comunidad</td><td>Aviso al equipo con el nombre del cliente</td></tr><tr><td>Calendario del día</td><td>Estados de las piezas de contenido</td><td>La lista de qué grabar y qué priorizar hoy</td><td>Un mensaje cada mañana</td></tr><tr><td>Cierre del mes</td><td>El último día del mes</td><td>Cuenta de piezas aprobadas por editor y nivel</td><td>El informe de pagos para revisar</td></tr></tbody></table></div></div><figure class=\"fx-shot\"><img src=\"../assets/operaciones/airtable-webhook-unico.jpg\" alt=\"Lista de automatizaciones en Airtable\"><figcaption><b>Algunas automatizaciones de nuestra base</b>: confirmaciones, mails pendientes, altas de clientes y recordatorios. A la derecha, una de ellas abierta, paso por paso.</figcaption></figure>"
+    },
+    {
+      "titulo": "Lo que repetís cada semana",
+      "consigna": "Todo lo que hacés más de una vez por semana y que sigue siempre la misma regla: revisar un calendario, avisar a alguien, copiar un dato, dar un acceso. Con el tiempo que te lleva cada uno.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "Revisar todos los días el calendario de contenido para saber qué grabar y qué priorizar: ahora una tarea lo revisa y lo deja escrito cada mañana."
+      },
+      "columnas": [
+        "Tarea",
+        "Cada cuánto",
+        "Cuánto tiempo te lleva",
+        "¿Sigue siempre la misma regla?"
+      ],
+      "filas": 8,
+      "cid": 0
+    },
+    {
+      "titulo": "Detectar, disparar, informar",
+      "consigna": "Elegí tres de la lista y escribilas en las tres partes. Si no podés escribir qué detecta, la tarea todavía depende de tu criterio y no se programa.",
+      "campo": "tabla",
+      "columnas": [
+        "Tarea",
+        "Qué detecta",
+        "Qué dispara",
+        "A quién le avisa y por dónde"
+      ],
+      "filas": 3,
+      "cid": 1
+    },
+    {
+      "titulo": "El modelo de cada tarea",
+      "consigna": "Una tarea que lee datos simples todos los días no necesita el modelo más capaz. Si no sabés cuál usar, preguntáselo: «decime cuál es el modelo más liviano que alcanza para esta tarea y pasala a ese».",
+      "campo": "tabla",
+      "columnas": [
+        "Tarea",
+        "Qué tiene que leer",
+        "Modelo",
+        "Cada cuánto corre"
+      ],
+      "filas": 3,
+      "cid": 2
+    },
+    {
+      "titulo": "La semana de prueba",
+      "consigna": "La primera semana mirá todo lo que hace cada tarea. Anotá lo que hizo, si estuvo bien y qué corregiste.",
+      "campo": "tabla",
+      "columnas": [
+        "Día",
+        "Qué hizo la tarea",
+        "¿Estuvo bien?",
+        "Qué corregiste"
+      ],
+      "filas": 5,
+      "cid": 3
+    },
+    {
+      "titulo": "Lo que sigue pasando por vos",
+      "consigna": "Hay decisiones que no se automatizan: aprobar un cambio, hablar con un cliente que se enfrió, decidir un precio. Escribilas, así la tarea sabe cuándo frenar y avisarte.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Una decisión por renglón.",
+      "cid": 4
+    }
+  ],
+  "modulo": "tareas-programadas"
+}

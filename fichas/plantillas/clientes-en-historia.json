@@ -1,0 +1,54 @@
+{
+ "modulo": "clientes-en-historia",
+ "titulo": "La hoja del registro de tus proyectos",
+ "bajada": "Tu mejor contenido ya está pasando: es lo que hacés todos los días. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Elegiste un proyecto actual y la carpeta de registro arrancó hoy.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Paso a paso",
+   "texto": [],
+   "figura": "<ol class=\"pasos\"><li>Primero, la entrega al cliente. La documentación la acompaña.</li><li>Mientras trabajás, registrá: fotos de proceso, capturas, audios, decisiones que tomaste.</li><li>Buscá el elemento humano o inesperado del proyecto. Ahí está la historia.</li><li>Acordá con el cliente que lo vas a mostrar, como parte del proyecto.</li><li>Contalo como historia, no como portfolio (usá la carta «Estructura de caso de cliente»).</li></ol><p><strong>Ejemplo.</strong> Una agencia gastronómica hace una campaña sobre la escasez de albahaca. La historia es el productor familiar con décadas en el oficio, el clima que arruinó la cosecha y cómo eso se volvió una campaña.</p>"
+  },
+  {
+   "titulo": "El proyecto",
+   "consigna": "El proyecto que elegís y dónde vive su registro.",
+   "campo": "lineas",
+   "lineas": [
+    "Proyecto y cliente",
+    "Link a la carpeta de registro",
+    "El elemento humano o inesperado"
+   ],
+   "cid": 1
+  },
+  {
+   "titulo": "Lo que vas registrando",
+   "consigna": "Una fila por registro: qué es y qué decisión muestra.",
+   "campo": "tabla",
+   "columnas": [
+    "Fecha",
+    "Registro (foto, captura, audio)",
+    "Qué decisión muestra"
+   ],
+   "filas": 8,
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Mostrar solo el resultado final. El proceso es lo que demuestra tu método."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "modulo": "research-semanal",
+ "titulo": "La hoja de tu sistema de research",
+ "bajada": "Tener ideas siempre, sin depender de la inspiración del día. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Tu tablero existe y los dos días están bloqueados en el calendario.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Cómo funciona",
+   "texto": [
+    "<strong>1 · Buscar, todos los días, sin presión.</strong> Desde la inspiración: entrás a Pinterest o Cosmos sin un objetivo y guardás todo lo que te frena. Desde la vida: una revista, un cartel, una vidriera, una película, una charla. Si algo te atrapó, sacale una foto. Todo va a un solo lugar: tu Blackhole.",
+    "<strong>2 · Día de escritura, uno por semana.</strong> Un día fijo para pensar y bajar guiones. Planificá en series de 4 videos: una serie cubre el mes. El mínimo es una idea desarrollada por semana. Tienen que estar escritos, no perfectos.",
+    "<strong>3 · Día de revolver, uno por semana.</strong> Abrís Blackhole junto a tus notas y guiones. Por cada referencia te preguntás qué te atrapó, por qué y en qué idea tuya encaja."
+   ],
+   "figura": "<table class=\"tabla-carta\"><thead><tr><th>Lo que viste</th><th>Lo que podés hacer</th></tr></thead><tbody><tr><td>Un reel con un ritmo de cortes que te encanta</td><td>Un carrusel donde cada slide es un corte</td></tr><tr><td>Un titular de revista que te atrapó</td><td>El hook de un video o la portada de un carrusel</td></tr><tr><td>Una tapa de disco</td><td>La portada de tu video largo</td></tr><tr><td>Una escena de película</td><td>Una pieza de ficción</td></tr></tbody></table><p><strong>La regla:</strong> extraé el mecanismo, no copies el formato.</p>"
+  },
+  {
+   "titulo": "Tu sistema",
+   "consigna": "Dónde guardás y qué días quedan bloqueados en tu calendario.",
+   "campo": "lineas",
+   "lineas": [
+    "Link a tu tablero de Blackhole",
+    "Tu día de escritura",
+    "Tu día de revolver"
+   ],
+   "cid": 1
+  },
+  {
+   "titulo": "Tus primeras referencias cruzadas",
+   "consigna": "Tres referencias guardadas esta semana y en qué idea tuya encajan.",
+   "campo": "tabla",
+   "columnas": [
+    "Referencia",
+    "Qué me atrapó y por qué",
+    "En qué idea mía encaja"
+   ],
+   "filas": 3,
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Guardar y nunca revolver. Una referencia que no cruzás con una idea es solo una colección."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

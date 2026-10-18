@@ -1,0 +1,103 @@
+{
+  "titulo": "La hoja de tu app y tu soporte",
+  "bajada": "Con varios clientes, la casa de cada uno tiene que ser un lugar propio, con su usuario. Y a medida que crecen los clientes y las apps, los errores también crecen: conviene que lleguen ordenados y que a vos te lleguen solo los que necesitan una decisión.",
+  "lista_cuando": "Tus clientes entran a su app con su usuario, encuentran todo sin preguntarte, y los errores llegan a un canal donde ya vienen filtrados.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo lo hacemos en Cáscara",
+      "texto": [
+        "La Founders App es nuestra casa: cada founder entra con su usuario y ve sus cartas, sus sesiones, sus grabaciones y lo que tiene que hacer esta semana. El equipo ve a todos los clientes y la galería de cartas que se asignan.",
+        "Los errores de las apps y las landings llegan solos a un canal de soporte y a una cola en Airtable. Un agente los lee, resuelve los de bajo riesgo y le pasa a una persona los que necesitan decisión. Siguen apareciendo problemas, pero los que llegan a nosotros vienen filtrados."
+      ],
+      "figura": "<figure class=\"fx-shot\"><img src=\"../assets/operaciones/founders-app-galeria.jpg\" alt=\"Galería de cartas de la Founders App\"><figcaption><b>La Founders App, del lado del equipo.</b> La galería de cartas por categoría y nivel: desde acá se asigna cada carta a cada founder.</figcaption></figure><div class=\"fx\"><p class=\"fx-et\">El soporte que se ordena solo</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">Llega</div><div class=\"t\">Error de una app o landing · Pedido del equipo</div><div class=\"s\">Solo, por el canal de soporte.</div></div><div class=\"fx-paso\"><div class=\"k\">Cola</div><div class=\"t\">Una fila por incidencia</div><div class=\"s\">Sin duplicados: el mismo error se suma al que ya está.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">Agente</div><div class=\"t\">Decide</div><div class=\"s\">Bajo riesgo: lo resuelve. Con criterio: escala.</div></div><div class=\"fx-paso\"><div class=\"k\">Persona</div><div class=\"t\">Aprueba lo que escaló</div><div class=\"s\">Y una vez por semana lee qué se repitió.</div></div></div></div>"
+    },
+    {
+      "titulo": "Las pantallas",
+      "consigna": "Pantalla por pantalla, qué ve el cliente y qué ve tu equipo. Empezá por lo que hoy te preguntan más: eso va en la primera pantalla.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Samuel",
+        "texto": "Su app tiene, del lado del cliente, el roadmap, el calendario, las piezas de contenido como se ven en el perfil, las métricas de la landing, los guiones, el storyboard y los documentos de cada llamada."
+      },
+      "columnas": [
+        "Pantalla",
+        "Qué ve el cliente",
+        "Qué ve tu equipo"
+      ],
+      "filas": 6,
+      "cid": 0
+    },
+    {
+      "titulo": "Los usuarios y los accesos",
+      "consigna": "Quién entra, cómo entra y qué puede ver o editar. Los accesos también pueden ser parte del servicio: hay cosas que se abren cuando el cliente avanza.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Para su programa de project managers quiere una app que conecte PMs con agencias. La idea que salió en la grupal: que las mejores oportunidades se abran cuando el alumno pasó las primeras etapas del programa."
+      },
+      "columnas": [
+        "Tipo de usuario",
+        "Cómo entra",
+        "Qué puede ver",
+        "Qué puede editar"
+      ],
+      "filas": 4,
+      "cid": 1
+    },
+    {
+      "titulo": "Dónde se guardan los datos",
+      "consigna": "Si la app guarda usuarios y datos, pedí desde el primer mensaje que lo haga sobre una base de datos. Así la información de cada cliente queda separada y después se conecta con tu Airtable o tu Notion.",
+      "campo": "lineas",
+      "lineas": [
+        "Base de datos",
+        "Qué tablas tiene",
+        "Con qué se sincroniza",
+        "Quién puede tocarla"
+      ],
+      "cid": 2
+    },
+    {
+      "titulo": "El feedback adentro de la app",
+      "consigna": "Un botón visible para que el cliente diga qué no funciona o qué se trabó, sin escribirte por WhatsApp.",
+      "campo": "lineas",
+      "lineas": [
+        "Dónde está el botón",
+        "Qué pregunta",
+        "A dónde llega",
+        "Quién lo lee y cada cuánto"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "La cola de soporte",
+      "consigna": "Cada tipo de incidencia, de dónde llega, si la resuelve el agente o una persona, y quién aprueba los cambios.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "Los cambios de código los aprueba solo el director de operaciones; las tareas de contenido o de equipo las puede aprobar la jefa de posproducción. El agente arranca con un solo intento de corrección por incidencia."
+      },
+      "columnas": [
+        "Tipo de incidencia",
+        "De dónde llega",
+        "La resuelve el agente o una persona",
+        "Quién aprueba"
+      ],
+      "filas": 6,
+      "cid": 4
+    },
+    {
+      "titulo": "Lo que se repitió",
+      "consigna": "Una vez por semana: lo que más se repitió y la mejora que sale de ahí.",
+      "campo": "tabla",
+      "columnas": [
+        "Semana",
+        "Lo que más se repitió",
+        "La mejora que sale de ahí"
+      ],
+      "filas": 4,
+      "cid": 5
+    }
+  ],
+  "modulo": "app-de-clientes-y-soporte"
+}

@@ -1,0 +1,101 @@
+{
+  "titulo": "La hoja del cierre del mes",
+  "bajada": "Si cada pieza dice quién la hizo, de qué nivel es y si está aprobada, el cierre del mes es un pedido de dos minutos. Y además te muestra cómo rinde cada persona del equipo.",
+  "lista_cuando": "El último día del mes corrés un pedido, revisás el resultado y sabés cuánto cobra cada persona, sin abrir los calendarios uno por uno.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo lo hacemos en Cáscara",
+      "texto": [
+        "En nuestros calendarios cada tarjeta tiene editor, nivel de edición, formato y estado. Un carrusel de nivel 1, que es foto y texto, no cuesta lo mismo que uno de nivel 3 con video o motion.",
+        "A fin de mes le pedimos a Claude, conectado a Notion, que cuente las piezas aprobadas de cada editor en cada calendario, las cruce con el tarifario y nos diga cuánto le corresponde a cada uno. El informe también muestra en qué nivel rinde mejor cada persona, y eso ordena a quién darle qué."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Los campos que hacen posible el cierre</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Pieza</th><th>Cliente</th><th>Editor</th><th>Nivel</th><th>Formato</th><th>Estado</th></tr></thead><tbody><tr><td><span class='gris'>Reel lanzamiento</span></td><td><span class='gris'>Cliente A</span></td><td>Editor 1</td><td>2</td><td>Reel</td><td>Aprobada</td></tr><tr><td><span class='gris'>Carrusel caso</span></td><td><span class='gris'>Cliente A</span></td><td>Editor 2</td><td>1</td><td>Carrusel</td><td>Aprobada</td></tr><tr><td><span class='gris'>Carrusel motion</span></td><td><span class='gris'>Cliente B</span></td><td>Editor 1</td><td>3</td><td>Carrusel</td><td>En corrección</td></tr></tbody></table></div><p class=\"fx-pie\">Solo cuentan las piezas en el estado que definiste para pagar. La que está en corrección entra el mes que se aprueba.</p></div><div class=\"fx\"><p class=\"fx-et\">El pedido, para copiar</p><div class=\"fx-pedido\"><div class=\"tx\">Estás conectado a Notion. En los calendarios de todos mis clientes, contá las piezas en estado <b>Aprobada</b> de este mes, agrupadas por editor y por nivel de edición. Cruzalas con el tarifario que te adjunto y decime cuánto le corresponde a cada editor, cuánto cambió contra el mes pasado y en qué nivel rinde mejor cada uno. Si una pieza no tiene editor o nivel, listala aparte.</div></div></div>"
+    },
+    {
+      "titulo": "Cómo cerrás el mes hoy",
+      "consigna": "Contá el proceso tal como es hoy, con el tiempo que te lleva y dónde aparecen los errores.",
+      "campo": "lineas",
+      "ejemplo": {
+        "quien": "Luz",
+        "texto": "Con varios clientes, el cierre era ir cliente por cliente contando reels y carruseles en Notion y repartirlos por editor. Notion sola no terminaba de hacer las cuentas."
+      },
+      "lineas": [
+        "Cuánto tiempo te lleva",
+        "De dónde sacás los datos",
+        "Dónde se equivoca",
+        "Cuántas personas cobran por pieza"
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "Los niveles de edición",
+      "consigna": "Del más simple al más complejo. Cada nivel se define por lo que incluye, para que nadie discuta en qué nivel cae una pieza.",
+      "campo": "tabla",
+      "columnas": [
+        "Nivel",
+        "Qué incluye",
+        "Ejemplo de pieza"
+      ],
+      "filas_rotulo": [
+        "Nivel 1",
+        "Nivel 2",
+        "Nivel 3"
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "El tarifario",
+      "consigna": "Cuánto se paga cada formato en cada nivel. Si hoy pagás distinto según la persona, escribilo igual: es lo primero que conviene ordenar.",
+      "campo": "tabla",
+      "columnas": [
+        "Formato",
+        "Nivel 1",
+        "Nivel 2",
+        "Nivel 3"
+      ],
+      "filas": 5,
+      "cid": 2
+    },
+    {
+      "titulo": "Los campos de cada pieza",
+      "consigna": "Sin estos campos el cierre vuelve a ser a mano. El estado que cuenta para pagar es uno solo: definí cuál.",
+      "campo": "tabla",
+      "columnas": [
+        "Campo",
+        "Opciones",
+        "Quién lo completa"
+      ],
+      "filas_rotulo": [
+        "Editor",
+        "Nivel",
+        "Formato",
+        "Estado",
+        "Cliente"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "Tu pedido de cierre",
+      "consigna": "Escribí el pedido que vas a correr cada fin de mes, con los nombres de tus calendarios, estados y niveles. Usá el de arriba como base.",
+      "campo": "texto",
+      "alto": 6,
+      "placeholder": "Tu pedido, listo para copiar.",
+      "cid": 4
+    },
+    {
+      "titulo": "La lectura del mes",
+      "consigna": "Con el resultado en la mano, una fila por persona. La última columna es la que cambia el mes siguiente.",
+      "campo": "tabla",
+      "columnas": [
+        "Persona",
+        "Piezas aprobadas",
+        "Nivel donde más rinde",
+        "Qué cambia el mes que viene"
+      ],
+      "filas": 5,
+      "cid": 5
+    }
+  ],
+  "modulo": "cierre-del-mes-equipo"
+}

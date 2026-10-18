@@ -1,0 +1,55 @@
+{
+ "modulo": "preparar-direccion-creativa",
+ "titulo": "La hoja para tu sesión de Dirección Creativa",
+ "bajada": "Llegá con material para que la sesión sea de decisiones. Carta de Creatividad, con Juana.",
+ "lista_cuando": "La carpeta está compartida por Slack al menos 48 horas antes de la sesión.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Paso a paso",
+   "texto": [],
+   "figura": "<ol class=\"pasos\"><li>Reuní tus activos de marca: brand book, logo, paleta, tipografías y moodboards que tengas.</li><li>Elegí 5 piezas tuyas que te representen y 3 que no. Al lado de cada una, escribí en una línea por qué.</li><li>Juntá entre 5 y 10 referencias de marcas que admirás, dentro y fuera de tu rubro.</li><li>Escribí en una sola frase qué querés que la gente piense de tu marca.</li><li>Anotá cuál es hoy tu mayor bloqueo creativo: qué no te sale, qué te frena, qué te aburre.</li><li>Subí todo a una carpeta y compartila por Slack.</li></ol>"
+  },
+  {
+   "titulo": "Tus piezas, las que te representan y las que no",
+   "consigna": "Cinco que te representan y tres que no, con el link y una línea de por qué.",
+   "campo": "tabla",
+   "columnas": [
+    "Pieza (link)",
+    "¿Te representa?",
+    "Por qué, en una línea"
+   ],
+   "filas": 8,
+   "cid": 1
+  },
+  {
+   "titulo": "Lo demás para la sesión",
+   "consigna": "Completá cada renglón con lo que tengas hoy.",
+   "campo": "lineas",
+   "lineas": [
+    "Link a la carpeta con tus activos de marca",
+    "Link a tus referencias (5 a 10)",
+    "Qué querés que la gente piense de tu marca, en una frase",
+    "Tu mayor bloqueo creativo hoy"
+   ],
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Llegar con «lo que tenga a mano» o mostrar solo lo que te gusta sin poder explicar por qué."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

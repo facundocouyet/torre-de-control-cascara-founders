@@ -18,7 +18,7 @@ DUENOS=[
   "así que son las que más se tocan cuando un founder no vende.",
   ["icp-mecanismo","one-sheeter-oferta","precio-escalera","cinco-llamadas-con-precio",
    "auditoria-proceso-comercial","funnel-de-servicio","pipeline-7-campos","prospeccion-y-recontacto","llamada-de-venta","propuesta-comercial","setter-closer",
-   "handraisers-historias","calendario-lanzamiento","webinar-de-venta","resultados-lanzamiento"]),
+   "handraisers-historias","calendario-lanzamiento","webinar-de-venta","resultados-lanzamiento","tablero-que-dispara-acciones"]),
  ("fede","Fede","Contenido y estrategia",
   "Perfil, ángulos, calendario y volumen. Son las que hacen que el founder tenga de dónde agarrarse "
   "para publicar sin improvisar cada semana.",
@@ -28,12 +28,14 @@ DUENOS=[
  ("juana","Juana","Identidad y dirección creativa",
   "Quién es la marca y cómo se ve. Son pocas y son las que más se notan cuando están mal hechas, "
   "porque todo lo demás se apoya arriba.",
-  ["pasaporte-digital","identidad-y-arco-narrativo","direccion-visual","narrativa-de-video"]),
+  ["pasaporte-digital","identidad-y-arco-narrativo","direccion-visual","narrativa-de-video",
+   "preparar-direccion-creativa","auditoria-creativa","estetica-y-estrategia","caballo-de-troya","kit-de-identidad","moodboard-estrategico","founder-cara-de-marca","miedo-a-la-camara","research-semanal","escribir-un-guion","primeros-cinco-segundos","clientes-en-historia","estructura-de-caso","historia-de-origen","formatos-poco-esfuerzo","formatos-de-ficcion","inventar-cuando-no-pasa-nada","casos-desde-tu-disciplina","bloqueo-creativo","brief-para-tu-editor","video-largo-con-celular","exprimir-una-produccion","shotlist-y-rodaje","checklist-antes-de-publicar","objetivo-a-concepto","direccion-de-arte-coleccion","tu-marca-mejor-cliente","criterio-creativo"]),
  ("teo","Teo","Sistemas, herramientas y automatización",
   "Con qué se arma cada cosa y dónde vive el dato. Vos no decidís qué servicio da el founder: decidís "
   "cómo queda instrumentado para que se repita sin que él esté encima.",
   ["onboarding-y-roadmap-cliente","ciclo-y-continuidad","os-en-notion","arquitectura-comunidad",
-   "base-de-datos-unica","captura-y-seguimiento","landing-que-convierte"]),
+   "base-de-datos-unica","captura-y-seguimiento","landing-que-convierte",
+   "entre-pasos","checkpoints-del-servicio","app-de-clientes-y-soporte","ia-en-la-operacion","formulario-a-la-base","tareas-programadas","webhook-unico-y-atribucion","registro-de-llamadas","venta-que-dispara-todo","lanzamiento-operado","cierre-del-mes-equipo","reuniones-con-accionables"]),
  ("facu","Facu","Negocio, estructura y números",
   "La mirada del negocio entero, la forma del servicio, el equipo y lo que dicen los números. Son las "
   "que decido yo y las que escribo yo.",

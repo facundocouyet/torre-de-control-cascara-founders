@@ -1,0 +1,84 @@
+{
+  "titulo": "La hoja de tus checkpoints",
+  "bajada": "Preguntar en momentos fijos te deja ver el problema cuando todavía se arregla. Lo que te dicen tus clientes también te dice qué mejorar en el servicio y de qué hablar en tu contenido.",
+  "lista_cuando": "Cada cliente tiene sus checkpoints en el calendario, sabés quién está en silencio esta semana y tenés escrito qué cambiaste el último mes con lo que te dijeron.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo lo hacemos en Cáscara",
+      "texto": [
+        "El avance de cada cliente lo medimos con formularios de cierre de etapa, no con los checks de la plataforma de cursos. Eso nos deja reordenar el programa sin perder el registro de dónde está cada uno.",
+        "Cada quince días hay un check-in. Y la señal más fuerte de que un cliente se está yendo es el silencio: el que no manda nada. Por eso la alerta salta cuando alguien pasa quince días en la misma etapa sin cerrarla. El sistema avisa; la llamada la hace una persona.",
+        "En la Founders App sumamos un lugar para que los founders nos digan qué no funciona o qué se trabó. Cada problema chico que aparece es una mejora del servicio."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Los checkpoints de un programa de 90 días</p><div class=\"fx-linea\" style=\"--n:7\"><div class=\"fx-hito lleno\"><div class=\"d\">0</div><div class=\"q\">Onboarding y formulario de arranque.</div></div><div class=\"fx-hito \"><div class=\"d\">15</div><div class=\"q\">Check-in: cómo arrancó, qué se trabó.</div></div><div class=\"fx-hito lleno\"><div class=\"d\">30</div><div class=\"q\">Check-in y cierre de la primera etapa.</div></div><div class=\"fx-hito alerta\"><div class=\"d\">45</div><div class=\"q\">Quince días sin cerrar etapa: alerta y llamada.</div></div><div class=\"fx-hito lleno\"><div class=\"d\">60</div><div class=\"q\">Check-in y cierre de etapa.</div></div><div class=\"fx-hito \"><div class=\"d\">75</div><div class=\"q\">Check-in: qué falta para cerrar.</div></div><div class=\"fx-hito lleno\"><div class=\"d\">90</div><div class=\"q\">Cierre e informe.</div></div></div><p class=\"fx-pie\">Cuadrado lleno: cierre de etapa con formulario. Vacío: check-in. <b>Rojo: la alerta</b>, que salta sola cuando no hay movimiento.</p></div>"
+    },
+    {
+      "titulo": "Lo que te enteraste tarde",
+      "consigna": "Pensá en los últimos clientes que se fueron, se enfriaron o terminaron mal. ¿Qué te dijeron al final que te hubiera servido saber antes? ¿Cuándo empezó?",
+      "campo": "tabla",
+      "columnas": [
+        "Cliente",
+        "Qué te enteraste al final",
+        "Cuándo empezó",
+        "Qué pregunta lo hubiera detectado"
+      ],
+      "filas": 4,
+      "cid": 0
+    },
+    {
+      "titulo": "Los momentos donde preguntás",
+      "consigna": "Hay dos tipos de checkpoint: el cierre de cada etapa (qué hizo, qué entregó) y el check-in periódico (cómo está, qué se trabó). Escribí los tuyos con qué querés saber en cada uno y si va por formulario o por llamada.",
+      "campo": "tabla",
+      "columnas": [
+        "Momento",
+        "Qué querés saber",
+        "Formulario o llamada"
+      ],
+      "filas": 7,
+      "cid": 1
+    },
+    {
+      "titulo": "Las preguntas fijas",
+      "consigna": "Entre tres y cinco preguntas que se repiten en todos los check-ins, para poder compararlas en el tiempo: una con número del 1 al 10, una abierta sobre lo que se trabó y una sobre lo que viene. Las preguntas que cambian cada vez no se pueden leer juntas.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara Founders",
+        "texto": "Preguntamos qué se trabó y qué no está funcionando. De ahí salieron arreglos concretos, como las grabaciones que pedían acceso: ahora quedan en la app con link abierto."
+      },
+      "columnas": [
+        "Pregunta",
+        "Tipo de respuesta",
+        "Para qué la usás"
+      ],
+      "filas": 5,
+      "cid": 2
+    },
+    {
+      "titulo": "La señal del cliente que se apaga",
+      "consigna": "El cliente con más riesgo es el que no manda nada. Definí cuánto silencio es demasiado y qué pasa cuando aparece. La alerta la puede dar una planilla o una tarea programada; la llamada la hace una persona.",
+      "campo": "lineas",
+      "lineas": [
+        "Días sin entregar que son alerta",
+        "Días sin responder que son alerta",
+        "Quién recibe la alerta",
+        "Qué hace esa persona en las 48 horas siguientes"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "Lo que cambiaste con lo que te dijeron",
+      "consigna": "Cada quince días leé las respuestas juntas. Anotá qué se repite y qué cambiás: en el servicio, en el material o en el contenido que publicás. Lo que se repite entre tus clientes es lo mismo que se pregunta tu audiencia.",
+      "campo": "tabla",
+      "columnas": [
+        "Quincena",
+        "Lo que se repitió",
+        "Qué cambiaste",
+        "¿Se lo contaste al cliente?"
+      ],
+      "filas": 6,
+      "cid": 4
+    }
+  ],
+  "modulo": "checkpoints-del-servicio"
+}

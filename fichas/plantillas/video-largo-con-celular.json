@@ -1,0 +1,46 @@
+{
+ "modulo": "video-largo-con-celular",
+ "titulo": "La hoja de tu video largo",
+ "bajada": "Una sola grabación que alimenta un video largo y varios reels. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Grabaste tu primer video largo respondiendo 3 de estas preguntas.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Setup y guía",
+   "texto": [
+    "<strong>Setup.</strong>"
+   ],
+   "figura": "<ul><li>Celular horizontal en trípode, a la altura de los ojos.</li><li>Lente principal (no gran angular). Limpiala antes.</li><li>Luz de ventana de frente.</li><li>Micrófono corbatero.</li><li>Modo avión y espacio libre en el celular.</li></ul><p><strong>Guía de preguntas.</strong></p><ul><li>¿Por qué empezaste con esto?</li><li>¿Qué estás haciendo esta semana y por qué?</li><li>¿Qué error ves todo el tiempo en tu rubro?</li><li>¿Qué aprendiste de un cliente difícil?</li><li>¿Qué te gustaría que la gente entienda de tu trabajo?</li></ul><p><strong>Después.</strong> Grabá entre 20 y 40 minutos en tono de conversación. Con el brief, el editor saca el video largo y entre 3 y 5 reels.</p>"
+  },
+  {
+   "titulo": "Tu grabación",
+   "consigna": "Las preguntas que elegís y el resultado.",
+   "campo": "lineas",
+   "lineas": [
+    "Pregunta 1",
+    "Pregunta 2",
+    "Pregunta 3",
+    "Link a la grabación",
+    "Reels que salieron"
+   ],
+   "cid": 1
+  },
+  {
+   "nuestro": true,
+   "cid": 2,
+   "titulo": "El error más común",
+   "texto": [
+    "Leer un texto. Este formato funciona porque suena a conversación."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

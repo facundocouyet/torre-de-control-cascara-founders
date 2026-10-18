@@ -1,0 +1,50 @@
+{
+ "modulo": "formatos-de-ficcion",
+ "titulo": "La hoja de tu pieza de ficción",
+ "bajada": "Contar un problema real con humor o drama, sin que parezca publicidad. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Escribiste un sketch o un POV sobre la queja más repetida de tus clientes.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Formatos y paso a paso",
+   "texto": [],
+   "figura": "<ul><li><strong>Sketch:</strong> la escena típica con un cliente, exagerada.</li><li><strong>POV:</strong> «POV: sos el cliente que pide cambios el viernes a las 19 h».</li><li><strong>Personaje recurrente:</strong> el cliente imaginario, tu versión de hace 5 años.</li><li><strong>Diálogo:</strong> dos versiones tuyas discutiendo una decisión.</li><li><strong>Falso documental:</strong> el detrás de escena dramatizado.</li><li><strong>Microficción en texto:</strong> una historia corta en carrusel o caption.</li></ul><ol class=\"pasos\"><li>Partí de una situación real que tu cliente reconozca al instante.</li><li>Exagerala hasta que dé risa o incomodidad.</li><li>Definí el remate o el giro.</li><li>Que tu punto de vista quede claro sin explicarlo.</li><li>Producción simple: el guion vale más que la cámara.</li></ol>"
+  },
+  {
+   "titulo": "La situación",
+   "consigna": "La queja más repetida de tus clientes y el formato que elegís.",
+   "campo": "lineas",
+   "lineas": [
+    "La queja o situación real",
+    "Formato (sketch, POV, personaje, diálogo, falso documental, microficción)",
+    "El remate o el giro"
+   ],
+   "cid": 1
+  },
+  {
+   "titulo": "El guion",
+   "consigna": "Escribí la pieza completa.",
+   "campo": "texto",
+   "alto": 6,
+   "placeholder": "Escena… / Diálogo… / Remate…",
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Que el chiste tape el mensaje. Si se ríen y no entienden qué hacés, no sirvió."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+  "titulo": "La hoja del circuito de la venta",
+  "bajada": "La atribución se captura en el momento, o no está: si el nombre del setter no viajó adentro del link, después no se reconstruye. Y una venta cargada una vez puede disparar todo lo que hoy alguien hace a mano.",
+  "lista_cuando": "Cargás una venta de prueba y, sin tocar nada más, sale el contrato, llegan los accesos, el equipo se entera y la venta queda atribuida a quien la agendó y a quien la cerró.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo lo hacemos en Cáscara",
+      "texto": [
+        "Cada setter tiene su link de Calendly por oferta, con un código entre paréntesis en el nombre del evento: R, M o V para la conjunta. El prospecto lo ve sin saber qué significa. Si la agenda entró por ese link, la atribución viaja adentro del link y queda en la base sin que nadie la escriba.",
+        "Cuando se carga la venta, sale el contrato por PandaDoc solo para los programas habilitados, y un candado evita que el mismo contrato salga dos veces. Lo sumamos después de un día en que salieron contratos repetidos: desde entonces cada envío deja marca."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">El circuito de una venta</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">01</div><div class=\"t\">Link de la setter</div><div class=\"s\">Con su código en el evento.</div></div><div class=\"fx-paso\"><div class=\"k\">02</div><div class=\"t\">Agenda</div><div class=\"s\">La atribución viaja en el link.</div></div><div class=\"fx-paso\"><div class=\"k\">03</div><div class=\"t\">Llamada</div><div class=\"s\">Grabada, con resultado.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">04</div><div class=\"t\">Venta cargada</div><div class=\"s\">Una vez, con quién cerró.</div></div><div class=\"fx-paso\"><div class=\"k\">05</div><div class=\"t\">Dispara</div><div class=\"s\">Contrato, accesos, aviso a entrega.</div></div></div></div><div class=\"fx\"><div class=\"fx-par\"><figure class=\"fx-shot\"><img src=\"../assets/operaciones/sop-setters-captura.jpg\" alt=\"Página del SOP de setters\"><figcaption><b>La regla del SOP</b>: lo que no viajó en el link, no pasó.</figcaption></figure><figure class=\"fx-shot\"><img src=\"../assets/operaciones/sop-setters-links.jpg\" alt=\"Página del SOP sobre la conversación compartida\"><figcaption><b>Cuando la conversación pasa de mano</b>: la regla para cuando hablaron las dos setters.</figcaption></figure></div></div>"
+    },
+    {
+      "titulo": "Lo que pasa hoy después de una venta",
+      "consigna": "Paso por paso, desde que el cliente dice que sí hasta que arranca. Quién hace cada cosa, cuánto tarda y qué se rompió alguna vez.",
+      "campo": "tabla",
+      "columnas": [
+        "Paso",
+        "Quién lo hace",
+        "Cuánto tarda",
+        "Qué se rompió alguna vez"
+      ],
+      "filas": 6,
+      "cid": 0
+    },
+    {
+      "titulo": "Un link por persona",
+      "consigna": "Un tipo de evento por persona y por oferta. El código va en el nombre del evento y no tiene que decir el nombre de nadie: el prospecto lo ve.",
+      "campo": "tabla",
+      "columnas": [
+        "Persona",
+        "Rol",
+        "Oferta",
+        "Código",
+        "Link"
+      ],
+      "filas": 6,
+      "cid": 1
+    },
+    {
+      "titulo": "Las reglas de atribución",
+      "consigna": "Escribí de quién es la agenda cuando entra por el link de alguien, cuando entra por la bio y cuando hablaron dos personas, y cómo se reparte la comisión en ese caso. Las escribe quien dirige el área comercial.",
+      "campo": "texto",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "La agenda es de quien mandó el link. Si entró por la bio es inbound y no cuenta para ningún setter. Cuando hablaron los dos, se manda el link conjunto y se liquida mitad y mitad."
+      },
+      "alto": 5,
+      "placeholder": "Una regla por renglón.",
+      "cid": 2
+    },
+    {
+      "titulo": "El reporte de venta",
+      "consigna": "Una fila por venta, ligada a la persona y a la llamada. Para cada campo, qué guarda y quién lo carga.",
+      "campo": "tabla",
+      "columnas": [
+        "Campo",
+        "Qué guarda",
+        "Quién lo carga"
+      ],
+      "filas_rotulo": [
+        "Persona",
+        "Programa",
+        "Monto",
+        "Forma de pago",
+        "Agendado por",
+        "Cerrado por",
+        "Fecha"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "Lo que dispara la venta",
+      "consigna": "Cada cosa que hoy alguien hace a mano después de vender: contrato, accesos, mensaje de bienvenida, aviso al equipo. Para cada una, con qué se dispara y cómo evitás que salga dos veces.",
+      "campo": "tabla",
+      "columnas": [
+        "Qué dispara",
+        "Con qué herramienta",
+        "Para qué programas",
+        "Cómo evitás que se duplique"
+      ],
+      "filas": 4,
+      "cid": 4
+    },
+    {
+      "titulo": "La prueba con una venta falsa",
+      "consigna": "Cargá una venta de prueba con tus datos y seguí todo el circuito. Anotá qué llegó y qué no.",
+      "campo": "lineas",
+      "lineas": [
+        "Qué venta de prueba cargaste",
+        "¿Salió el contrato?",
+        "¿Llegaron los accesos?",
+        "¿Se enteró el equipo?",
+        "Qué corregiste"
+      ],
+      "cid": 5
+    }
+  ],
+  "modulo": "venta-que-dispara-todo"
+}

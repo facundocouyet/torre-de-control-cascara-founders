@@ -1,0 +1,51 @@
+{
+ "modulo": "moodboard-estrategico",
+ "titulo": "La hoja de tu moodboard",
+ "bajada": "Referencias que responden a un objetivo, con criterio en cada una. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Tenés 12 referencias con una línea de criterio cada una y lo testeaste en la grupal.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Paso a paso",
+   "texto": [],
+   "figura": "<ol class=\"pasos\"><li>Escribí arriba de todo el objetivo: qué querés que sienta quien lo vea.</li><li>Juntá 30 referencias y quedate con 12.</li><li>Debajo de cada una anotá qué tomás de ella: la luz, el color, la composición, un gesto, una textura. «Me gusta» no vale.</li><li>Agrupá en bloques: luz, color, composición, personas, tipografía.</li><li>Testealo: mostráselo en la grupal sin explicar nada. ¿Adivinan el objetivo?</li></ol>"
+  },
+  {
+   "titulo": "El objetivo",
+   "consigna": "Qué querés que sienta quien vea este moodboard.",
+   "campo": "texto",
+   "alto": 2,
+   "placeholder": "Quiero que sienta…",
+   "cid": 1
+  },
+  {
+   "titulo": "Las 12 referencias",
+   "consigna": "Una fila por referencia: el link, qué tomás de ella y en qué bloque va.",
+   "campo": "tabla",
+   "columnas": [
+    "Referencia (link)",
+    "Qué tomo de ella",
+    "Bloque (luz, color, composición, personas, tipografía)"
+   ],
+   "filas": 12,
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Armarlo con referencias de un solo lugar o de tu propio rubro. Ahí todo se parece."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "modulo": "checklist-antes-de-publicar",
+ "titulo": "La hoja de tu checklist de publicación",
+ "bajada": "Los criterios de dirección creativa para revisar cualquier pieza. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Pasaste tus próximas 5 piezas por este checklist.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Las preguntas",
+   "texto": [],
+   "figura": "<ol class=\"pasos\"><li>¿Plantea un problema o despierta algo en los primeros 5 segundos?</li><li>¿Se entiende sin sonido?</li><li>¿Se reconoce como mía (kit de identidad)?</li><li>¿Tiene un punto de vista propio?</li><li>¿Responde al objetivo del mes?</li><li>¿El cierre o el CTA es claro?</li><li>¿El texto se lee bien en el celular?</li><li>¿Ortografía revisada?</li><li>¿Está en el formato correcto para la plataforma?</li></ol><p><strong>La regla.</strong> Si una respuesta es «no», se corrige antes de publicar.</p>"
+  },
+  {
+   "titulo": "Tus próximas 5 piezas",
+   "consigna": "Pasá cada pieza por las 9 preguntas y anotá qué corregiste.",
+   "campo": "tabla",
+   "columnas": [
+    "Pieza",
+    "Preguntas en «no»",
+    "Qué corregí"
+   ],
+   "filas": 5,
+   "cid": 1
+  },
+  {
+   "nuestro": true,
+   "cid": 2,
+   "titulo": "El error más común",
+   "texto": [
+    "Revisar solo que «se vea lindo»."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

@@ -1087,6 +1087,66 @@
           "estado": "existe",
           "evidencia": "La secuencia completa se le bajó a Agostina para el evento de Kaipi y la charla que ya dio. Seba tiene la charla del 28 de octubre en el Hub Providencia con registro de asistentes y extractos, y ya llevo cincuenta y cinco personas a un workshop propio. Andrea tiene que registrar la primera Onfire Session en video y foto.",
           "estado_galeria": "aprobada"
+        },
+        {
+          "id": "lanzamiento-operado",
+          "nombre": "La operación de un lanzamiento",
+          "nivel": "2",
+          "para_quien": "Cuando vas a abrir un evento, un desafío o un lanzamiento, y la inscripción, los mails y los links se resuelven sobre la marcha.",
+          "eje": [
+            "demanda"
+          ],
+          "resultado": "Un lanzamiento con la inscripción conectada a tu base, un mail que cuenta todo lo que va a pasar, un link con UTM por canal y el checklist corrido antes de abrir.",
+          "pasos": [
+            "Crear el evento en tu base con su nombre corto, fechas y links.",
+            "Conectar la inscripción para que cada persona quede ligada al evento y al canal por el que llegó.",
+            "Escribir el mail de confirmación con todo lo que va a pasar: canal, accesos, fechas y material.",
+            "Armar un link con UTM por canal y por persona que comparte.",
+            "Programar los recordatorios: días antes y el mismo día.",
+            "Correr el checklist antes de abrir, probando la inscripción desde afuera.",
+            "Registrar quién asistió a cada encuentro."
+          ],
+          "completar": [
+            "El evento en una fila",
+            "El mail de todo lo que va a pasar",
+            "Los links por canal y los recordatorios",
+            "El checklist y la asistencia"
+          ],
+          "herramientas": [
+            "Landing (Claude o Lovable)",
+            "Airtable o tu base",
+            "Resend, Mailchimp o tu herramienta de mails",
+            "Generador de UTMs"
+          ],
+          "evidencia": "Tabla Eventos + Inscripciones de Cáscara; Founders Bootcamp (links y UTMs, accesos y asistencia); Talent Hunt 0800 (mail con propuesta en PDF); consultoría en vivo (mails y recordatorios).",
+          "tareas": [
+            {
+              "titulo": "Crear el evento en la base",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Escribir el mail de confirmación",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Con canal, accesos y fechas."
+            },
+            {
+              "titulo": "Correr el checklist antes de abrir",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": "Desde el celular, con un mail nuevo."
+            },
+            {
+              "titulo": "Mirar inscripciones por canal",
+              "semana": 2,
+              "frecuencia": "diaria",
+              "descripcion": "Mientras la inscripción está abierta."
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
         }
       ]
     },
@@ -1312,6 +1372,148 @@
           "estado": "existe",
           "evidencia": "Quedo pedido en la charla, para escribirlo con Francisca. Lola reconoce que el final de la llamada es su punto flojo y Franco define si entra un closer del equipo para la primera tanda. Lucca tiene que decidir si el paso siguiente es equipo comercial. Manu deriva ticket alto a él y el resto a Team Bruzzone, sin proceso escrito de quién precalifica. El seguimiento de 24 a 48 horas por WhatsApp sale del guion de cierre de Franco (6/10).",
           "estado_galeria": "aprobada"
+        },
+        {
+          "id": "registro-de-llamadas",
+          "nombre": "Cada llamada queda registrada",
+          "nivel": "1",
+          "para_quien": "Cuando ya tenés llamadas de venta y el resultado de cada una queda en tu cabeza.",
+          "eje": [
+            "venta"
+          ],
+          "resultado": "Un registro con cada llamada de venta, su resultado, su objeción y su grabación, cargado el mismo día y leído una vez por semana.",
+          "pasos": [
+            "Grabar todas las llamadas de venta con una herramienta que transcriba.",
+            "Armar el registro de llamadas: una fila por llamada, ligada a la persona.",
+            "Definir una lista cerrada de resultados y cargar el de cada llamada el mismo día.",
+            "Anotar la objeción principal con las palabras del cliente.",
+            "Leer el registro una vez por semana: cuántas llamadas, cuántos cierres y qué objeción se repite."
+          ],
+          "completar": [
+            "Tus últimas diez llamadas",
+            "Los resultados posibles",
+            "La grabación y las objeciones",
+            "La lectura de la semana"
+          ],
+          "herramientas": [
+            "Fathom u otra grabadora con transcripción",
+            "Airtable, Notion o Sheets para el registro",
+            "Calendly o tu agenda"
+          ],
+          "evidencia": "Tracker de Calls y Reporte de Venta de Cáscara; llamadas grabadas con Fathom; el cruce del Bootcamp entre anuncios, agendas y ventas.",
+          "tareas": [
+            {
+              "titulo": "Conectar la grabadora a tu calendario",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Que grabe sola cada llamada de venta."
+            },
+            {
+              "titulo": "Cargar el resultado de cada llamada",
+              "semana": 1,
+              "frecuencia": "diaria",
+              "descripcion": "El mismo día de la llamada."
+            },
+            {
+              "titulo": "Leer el registro de la semana",
+              "semana": 2,
+              "frecuencia": "semanal",
+              "descripcion": ""
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "venta-que-dispara-todo",
+          "nombre": "La venta que dispara todo lo que sigue",
+          "nivel": "3",
+          "para_quien": "Cuando tenés setters o closers, vendés todas las semanas y después de cada venta alguien arma el contrato, da accesos y avisa a mano.",
+          "eje": [
+            "venta",
+            "entrega"
+          ],
+          "resultado": "Cada venta cargada una sola vez, con quién la agendó y quién la cerró, que dispara sola el contrato, los accesos y el aviso al equipo que entrega.",
+          "pasos": [
+            "Darle a cada setter y a cada closer su propio link de agenda, con un código por persona.",
+            "Escribir las reglas de atribución: de quién es la agenda y de quién es la venta.",
+            "Armar el reporte de venta: una fila por venta, ligada a la persona y a la llamada.",
+            "Conectar la venta al contrato, con una lista de programas habilitados y un candado contra duplicados.",
+            "Conectar la venta a los accesos y al aviso al equipo que entrega.",
+            "Leer la atribución una vez por mes y liquidar comisiones con esos datos."
+          ],
+          "completar": [
+            "Lo que pasa hoy después de una venta",
+            "Los links por persona y las reglas",
+            "El reporte de venta y lo que dispara",
+            "La prueba con una venta falsa"
+          ],
+          "herramientas": [
+            "Calendly (un tipo de evento por persona)",
+            "Airtable (registro de llamadas y reporte de venta)",
+            "PandaDoc o tu herramienta de firma",
+            "Zapier o las automatizaciones de tu base"
+          ],
+          "evidencia": "SOP de dos setters (códigos R/M/V, seis links), reglas de atribución de Francisca, contrato por PandaDoc con lista blanca y candado (incidente del 17/08).",
+          "tareas": [
+            {
+              "titulo": "Crear los links por persona",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Un tipo de evento por persona y por oferta."
+            },
+            {
+              "titulo": "Escribir las reglas de atribución",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Probar el circuito con una venta de prueba",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Liquidar comisiones con la base",
+              "semana": 4,
+              "frecuencia": "mensual",
+              "descripcion": ""
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "tablero-que-dispara-acciones",
+          "nombre": "El tablero que dispara acciones",
+          "nivel": "2",
+          "para_quien": "Cuando el founder ya vende y tiene llamadas, eventos o lanzamientos, y decide de memoria qué tocar cuando algo no anda.",
+          "eje": [
+            "venta",
+            "demanda"
+          ],
+          "resultado": "La limitación de hoy encontrada en orden fijo, seis números con su frecuencia y la acción que disparan cuando se rompen, y una decisión real pasada por los cinco filtros.",
+          "pasos": [
+            "Recorrer oferta, entrega, adquisición, cartera y datos en orden y quedarse con el primer paso caído.",
+            "Cargar los seis números con su valor de hoy y la referencia de Cáscara.",
+            "Escribir para cada número cuándo se rompe y qué acción dispara.",
+            "Fijar el día en que se mira cada uno y quién dispara la acción.",
+            "Pasar una decisión abierta por los cinco filtros."
+          ],
+          "completar": [
+            "La limitación de hoy",
+            "La tabla de números con su acción",
+            "El calendario de lectura",
+            "Una decisión por los cinco filtros"
+          ],
+          "herramientas": [
+            "La planilla o la base donde ya viven las ventas y las llamadas",
+            "Fathom para las llamadas"
+          ],
+          "evidencia": "Sistema operativo GP de Franco (16/10): diagnóstico por teoría de limitaciones, cinco filtros, tablero de data y benchmarks del Bootcamp Pentágono 2.0.",
+          "estado": "nueva",
+          "estado_galeria": ""
         }
       ]
     },
@@ -1578,6 +1780,162 @@
           "estado": "existe",
           "evidencia": "Sharon tiene que cerrar ciclo con cada cliente y presentar la continuidad por bloques de tres meses, en lugar de mensualidad abierta. Sol pasa del mensual contra entrega al proceso de tres meses cobrado por adelantado, con el criterio de salida escrito. Sofía empaqueto los tres meses con más del cincuenta por ciento cobrado al principio. Matías trabaja campanas con fecha de inicio y de final en lugar de retainers.",
           "estado_galeria": "aprobada"
+        },
+        {
+          "id": "entre-pasos",
+          "nombre": "Lo que pasa entre un paso y el siguiente",
+          "nivel": "troncal",
+          "para_quien": "A todo founder que entrega un servicio o un programa, en el primer mes y antes de sumar clientes nuevos.",
+          "eje": [
+            "entrega"
+          ],
+          "resultado": "El recorrido de tu cliente en una página, un mensaje escrito para cada cambio de paso, y un solo lugar y un solo canal para todo lo que entregás.",
+          "pasos": [
+            "Juntar las preguntas que te hicieron tus últimos clientes entre un paso y otro, tal cual llegaron.",
+            "Escribir el recorrido completo del cliente, del pago al cierre, con lo que pasa en cada paso.",
+            "Escribir el mensaje puente de cada cambio de paso: qué sigue, cuándo, dónde y por dónde.",
+            "Escribir la fecha de cada cosa que el cliente espera de vos y avisarla antes de que pregunte.",
+            "Elegir la casa (dónde queda todo lo que entregás) y el canal (por dónde se habla).",
+            "Mandar el mapa el día uno y anotar durante un mes cada pregunta que igual llegue."
+          ],
+          "completar": [
+            "Las preguntas de tus últimos clientes, clasificadas",
+            "El recorrido escrito y los mensajes puente",
+            "La casa y el canal elegidos"
+          ],
+          "herramientas": [
+            "Notion o la app donde vive tu cliente",
+            "WhatsApp, Slack o el canal que elijas",
+            "Plantillas de mensajes guardadas"
+          ],
+          "evidencia": "Clase de operaciones del 15/10 (el entre: mapa del cliente, mensajes puente, una casa y un canal). Caso propio: el hueco entre la llamada con Facu y la de Franco, y la migración de los founders a Slack.",
+          "tareas": [
+            {
+              "titulo": "Copiar las preguntas de tus últimos tres clientes",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Tal cual las escribieron, con entre qué pasos llegaron."
+            },
+            {
+              "titulo": "Mandar el mapa al próximo cliente que entre",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": "El día uno, junto con el mensaje de bienvenida."
+            },
+            {
+              "titulo": "Anotar las preguntas que igual llegan",
+              "semana": 2,
+              "frecuencia": "semanal",
+              "descripcion": "Una línea por pregunta, con el mensaje que la tendría que haber evitado."
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "checkpoints-del-servicio",
+          "nombre": "Los checkpoints de tu servicio",
+          "nivel": "2",
+          "para_quien": "Cuando ya tenés clientes adentro y te enterás de que algo no anda cuando el cliente está por irse.",
+          "eje": [
+            "entrega",
+            "contenido"
+          ],
+          "resultado": "Un calendario de checkpoints con su formulario, una regla para detectar al cliente que se apaga y un registro de lo que cambiaste en el servicio y en el contenido con lo que te dijeron.",
+          "pasos": [
+            "Marcar en el recorrido los momentos donde vas a preguntar: el cierre de cada etapa y cada quince días.",
+            "Armar un formulario corto para cada checkpoint, con preguntas que se puedan comparar en el tiempo.",
+            "Calendarizar los checkpoints de cada cliente desde el día que entra.",
+            "Definir la señal de alerta: cuánto silencio es demasiado y quién llama.",
+            "Leer las respuestas cada quince días y decidir qué cambia en el servicio o en el contenido.",
+            "Contarle al cliente qué cambiaste con lo que te dijo."
+          ],
+          "completar": [
+            "Lo que te enteraste tarde",
+            "Los momentos y las preguntas fijas",
+            "La señal de alerta",
+            "Lo que cambiaste"
+          ],
+          "herramientas": [
+            "Formularios (Tally, Typeform, Airtable o Google Forms)",
+            "Tu base de clientes",
+            "Calendario o tarea programada para los recordatorios"
+          ],
+          "evidencia": "Fases Programa de La Cáscara (cierre de etapa por formulario), check-ins de CSM a los 15/30/45/60/75 días, riesgo por 15 días sin moverse, formulario de feedback de la Founders App.",
+          "tareas": [
+            {
+              "titulo": "Armar el formulario del primer checkpoint",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Revisar qué checkpoints tocan esta semana",
+              "semana": 2,
+              "frecuencia": "semanal",
+              "descripcion": "Y a quién hay que escribirle."
+            },
+            {
+              "titulo": "Leer las respuestas del mes y anotar qué cambia",
+              "semana": 4,
+              "frecuencia": "mensual",
+              "descripcion": ""
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "app-de-clientes-y-soporte",
+          "nombre": "Tu app de clientes y el soporte que se ordena solo",
+          "nivel": "3",
+          "para_quien": "Cuando tenés varios clientes en simultáneo, entregás por varios lados y los errores y pedidos te llegan por WhatsApp.",
+          "eje": [
+            "entrega"
+          ],
+          "resultado": "Una app donde cada cliente ve su recorrido, sus entregables y sus grabaciones con su propio usuario, y un canal de soporte donde los errores llegan solos y un agente decide cuáles resuelve y cuáles escala.",
+          "pasos": [
+            "Escribir qué ve el cliente y qué ve tu equipo, pantalla por pantalla.",
+            "Construir la app con usuarios y base de datos, pensada para el celular desde el primer pedido.",
+            "Sumar adentro de la app un lugar para que el cliente diga qué no funciona.",
+            "Crear un canal de soporte donde lleguen los errores y los pedidos del equipo.",
+            "Escribir qué resuelve el agente solo y qué tiene que aprobar una persona.",
+            "Leer una vez por semana qué se repitió y qué mejora sale de ahí."
+          ],
+          "completar": [
+            "Las pantallas y los accesos",
+            "Dónde se guardan los datos",
+            "El feedback y la cola de soporte"
+          ],
+          "herramientas": [
+            "Lovable o Claude con Supabase",
+            "Slack (canal de soporte)",
+            "Airtable (cola de incidencias)",
+            "Claude (tarea programada del agente)"
+          ],
+          "evidencia": "Founders App (cartas, sesiones, grabaciones, feedback). Sistema de soporte: canal en Slack, cola de Incidencias en Airtable y agente programado. Grupal 15/10: la app de Samuel, la de Lola con niveles de acceso.",
+          "tareas": [
+            {
+              "titulo": "Escribir las pantallas del cliente y del equipo",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Crear el canal de soporte",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Leer el resumen semanal de incidencias",
+              "semana": 3,
+              "frecuencia": "semanal",
+              "descripcion": "Qué se repitió y qué mejora sale."
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
         }
       ]
     },
@@ -1776,6 +2134,109 @@
           "estado": "existe",
           "evidencia": "La plantilla de diario administrativo de Cáscara, con ingresos, egresos, explicación de cada movimiento, cierre mensual y pagos del uno al diez, se entregó a Sol Boutmy y ella tiene que hacer el cierre de septiembre con ese formato. Aaron tiene a Cami en operaciones y métricas. Sofía y Lucca manejan facturación mensual sin cierre escrito.",
           "estado_galeria": "aprobada"
+        },
+        {
+          "id": "cierre-del-mes-equipo",
+          "nombre": "El cierre del mes de tu equipo",
+          "nivel": "2",
+          "para_quien": "Cuando tenés editores, diseñadores o colaboradores que cobran por pieza y el fin de mes es una tarde de cuentas, cliente por cliente.",
+          "eje": [
+            "entrega"
+          ],
+          "resultado": "Un calendario donde cada pieza tiene editor, nivel, formato y estado, un tarifario por nivel y un cierre mensual que dice cuánto cobra cada persona y en qué rinde mejor.",
+          "pasos": [
+            "Definir los niveles de edición de tus piezas, del más simple al más complejo.",
+            "Armar el tarifario: cuánto se paga cada formato en cada nivel.",
+            "Sumar al calendario de cada cliente los campos editor, nivel, formato y estado.",
+            "Cerrar el mes contando solo las piezas aprobadas, por persona.",
+            "Pedirle a la IA el cálculo cruzando calendario y tarifario, y revisarlo.",
+            "Leer el cierre: quién hizo más, en qué nivel y dónde hubo fricción."
+          ],
+          "completar": [
+            "Los niveles y el tarifario",
+            "Los campos de cada pieza",
+            "El pedido de cierre y la lectura del mes"
+          ],
+          "herramientas": [
+            "Notion o Airtable (calendario de contenido)",
+            "El tarifario en PDF o en una tabla",
+            "Claude conectado a tu calendario"
+          ],
+          "evidencia": "Calendarios de Cáscara con editor, nivel de edición, formato y estado por tarjeta. Pedido de Luz en la grupal del 15/10: el cierre de fin de mes cliente por cliente.",
+          "tareas": [
+            {
+              "titulo": "Escribir los niveles y el tarifario",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Completar editor y nivel en las piezas",
+              "semana": 1,
+              "frecuencia": "semanal",
+              "descripcion": "En cada pieza que se aprueba."
+            },
+            {
+              "titulo": "Cerrar el mes",
+              "semana": 4,
+              "frecuencia": "mensual",
+              "descripcion": "Correr el pedido, revisar y pagar."
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "reuniones-con-accionables",
+          "nombre": "Cada reunión deja algo escrito",
+          "nivel": "3",
+          "para_quien": "Cuando tenés equipo, varias reuniones por semana y las decisiones se pierden entre una llamada y la siguiente.",
+          "eje": [
+            "entrega"
+          ],
+          "resultado": "Un mapa de reuniones con para qué sirve cada una, cada llamada grabada con sus accionables por persona y fecha, y un registro de decisiones que el equipo y la IA pueden consultar.",
+          "pasos": [
+            "Hacer el mapa de reuniones: cuáles existen, quién va, cada cuánto y qué se decide en cada una.",
+            "Grabar todas las reuniones de trabajo con una herramienta que transcriba.",
+            "Sacar de cada grabación los accionables por persona, con fecha.",
+            "Llevar los accionables al lugar donde el equipo trabaja.",
+            "Guardar cada decisión importante como documento fechado.",
+            "Abrir cada reunión revisando los accionables de la anterior."
+          ],
+          "completar": [
+            "El mapa de reuniones",
+            "Los accionables de la última reunión",
+            "El registro de decisiones"
+          ],
+          "herramientas": [
+            "Fathom",
+            "Claude (proyecto con los documentos)",
+            "Notion o Slack para los accionables",
+            "Google Calendar"
+          ],
+          "evidencia": "Mapa de reuniones semanales de Cáscara, grabación con Fathom, presentaciones de C-Level armadas desde la grabación, un documento fechado por sesión de trabajo en el proyecto.",
+          "tareas": [
+            {
+              "titulo": "Armar el mapa de reuniones",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Sacar los accionables de cada reunión",
+              "semana": 1,
+              "frecuencia": "semanal",
+              "descripcion": "El mismo día de la reunión."
+            },
+            {
+              "titulo": "Guardar las decisiones de la semana",
+              "semana": 2,
+              "frecuencia": "semanal",
+              "descripcion": ""
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
         }
       ]
     },
@@ -1942,6 +2403,215 @@
           "estado": "existe",
           "evidencia": "El método de ordenar la información de clientes y sacar informes con IA para decidir con datos se le bajó a Custom Lab. Aaron usa el formulario de feedback a clientes como auditoría y las objeciones como material de remarketing. Sofía tiene que mandar las estadisticas documentadas antes de la sesión con Franco. Falta el módulo con los pasos y el pedido guardado.",
           "estado_galeria": "aprobada"
+        },
+        {
+          "id": "ia-en-la-operacion",
+          "nombre": "La IA adentro de tu operación",
+          "nivel": "troncal",
+          "para_quien": "A todo founder en el primer mes, esté en cero con la IA o ya la use todos los días.",
+          "eje": [
+            "entrega",
+            "venta"
+          ],
+          "resultado": "Un proyecto en Claude con el contexto de tu negocio cargado, tres tareas de tu semana resueltas con IA y un criterio escrito de qué modelo y qué herramienta usar para cada cosa.",
+          "pasos": [
+            "Armar un proyecto en Claude y cargarle el contexto de tu negocio: oferta, clientes, tono y procesos.",
+            "Escribir el glosario de tu negocio: las palabras con las que nombrás cada cosa.",
+            "Elegir tres tareas de tu semana que hoy hacés a mano y resolverlas con IA.",
+            "Definir qué modelo usás para cada tipo de tarea, para no gastar el uso en lo simple.",
+            "Decidir con qué se construye cada cosa: Claude para pensar y armar piezas, Lovable cuando hay usuarios y datos.",
+            "Alimentar el proyecto cada semana con la llamada o la decisión más importante."
+          ],
+          "completar": [
+            "Dónde estás hoy con la IA",
+            "El contexto cargado y el glosario",
+            "Tres tareas resueltas y el criterio de modelos"
+          ],
+          "herramientas": [
+            "Claude (proyectos, memoria y tareas programadas)",
+            "Lovable con base de datos cuando hay usuarios",
+            "Fathom o la grabadora de llamadas que uses"
+          ],
+          "evidencia": "Grupal de operaciones del 15/10: Juan Cruz y Rosario arrancan en cero, Camila se queda sin uso por correr tareas con modelos grandes, Lola programa su contenido semanal, Samuel armó su app con Claude. Pedido explícito de una guía de bases.",
+          "tareas": [
+            {
+              "titulo": "Crear el proyecto y cargar el contexto",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Oferta, clientes, tono, precios y cómo trabajás."
+            },
+            {
+              "titulo": "Resolver una tarea de la semana con IA",
+              "semana": 1,
+              "frecuencia": "semanal",
+              "descripcion": "Anotá cuánto tiempo te ahorró."
+            },
+            {
+              "titulo": "Subir al proyecto la llamada o decisión más importante",
+              "semana": 2,
+              "frecuencia": "semanal",
+              "descripcion": "Una por semana alcanza."
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "formulario-a-la-base",
+          "nombre": "Cada formulario escribe en tu base",
+          "nivel": "1",
+          "para_quien": "Cuando la gente te escribe por varios lados y los datos quedan en chats, mails y planillas sueltas.",
+          "eje": [
+            "demanda",
+            "venta"
+          ],
+          "resultado": "Una landing simple con un formulario que guarda cada contacto en tu base, sin copiar nada, y un mensaje que le llega al instante con lo que sigue.",
+          "pasos": [
+            "Elegir dónde vive tu base y crear la tabla de personas, una fila por persona.",
+            "Armar una landing simple con Claude o Lovable, enfocada en tu oferta.",
+            "Conectar el formulario para que cada envío cree o actualice a la persona en la base.",
+            "Guardar en cada fila de dónde vino: qué landing, qué formulario, qué fecha.",
+            "Escribir el mensaje que sale apenas alguien completa el formulario.",
+            "Probarlo desde afuera con un mail tuyo y revisar que todo llegue."
+          ],
+          "completar": [
+            "Por dónde te llegan los contactos",
+            "La tabla de personas",
+            "La landing, el formulario y el mensaje",
+            "La prueba desde afuera"
+          ],
+          "herramientas": [
+            "Claude o Lovable para la landing",
+            "Airtable, Notion o Google Sheets como base",
+            "Zapier, Make o las automatizaciones de tu base"
+          ],
+          "evidencia": "Pipeline de Cáscara (una persona por mail, Fuente acumulada). Grupal 15/10: Lucio y Juan Cruz con la landing, Luz y Vicky sin base todavía, Osmo unificando Excels.",
+          "tareas": [
+            {
+              "titulo": "Crear la tabla de personas",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Con los campos mínimos y el mail como identificador."
+            },
+            {
+              "titulo": "Publicar la landing con el formulario conectado",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Revisar las filas nuevas y su origen",
+              "semana": 2,
+              "frecuencia": "semanal",
+              "descripcion": "Que cada una tenga de dónde vino."
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "tareas-programadas",
+          "nombre": "Tareas que corren solas",
+          "nivel": "2",
+          "para_quien": "Cuando ya tenés una base y procesos armados, y seguís revisando, avisando y copiando datos a mano todos los días.",
+          "eje": [
+            "entrega"
+          ],
+          "resultado": "Tres tareas programadas corriendo, cada una con qué detecta, qué dispara y a quién le avisa, y la lista escrita de lo que sigue pasando por vos.",
+          "pasos": [
+            "Listar las tareas repetitivas de tu semana y cuánto tiempo te llevan.",
+            "Elegir las que siguen siempre la misma regla.",
+            "Escribir cada una en tres partes: qué detecta, qué dispara y a quién le avisa.",
+            "Elegir el modelo más liviano que alcance para cada una.",
+            "Programarlas con día y hora, y mirar una semana lo que hacen.",
+            "Dejar escrito qué decisiones siguen pasando por vos."
+          ],
+          "completar": [
+            "Lo que repetís cada semana",
+            "Tres tareas en detectar, disparar, informar",
+            "La semana de prueba"
+          ],
+          "herramientas": [
+            "Claude (tareas programadas)",
+            "Tu base (Airtable, Notion)",
+            "Slack o WhatsApp para los avisos"
+          ],
+          "evidencia": "Alta automática de clientes de Founders (Notion, Slack, comunidad) cada dos horas; automatizaciones de la base (confirmaciones, recordatorios, mails pendientes); grupal 15/10.",
+          "tareas": [
+            {
+              "titulo": "Listar tus tareas repetitivas",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Con el tiempo que te lleva cada una."
+            },
+            {
+              "titulo": "Programar la primera tarea",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Revisar lo que hicieron las tareas",
+              "semana": 2,
+              "frecuencia": "semanal",
+              "descripcion": "Qué hicieron bien y qué corregiste."
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "webhook-unico-y-atribucion",
+          "nombre": "Una entrada para todos tus formularios",
+          "nivel": "3",
+          "para_quien": "Cuando tenés varias landings, eventos y pauta corriendo, y cada formulario guarda en un lugar distinto.",
+          "eje": [
+            "demanda",
+            "venta"
+          ],
+          "resultado": "Todas tus landings entrando por un solo webhook a la base, con evento, origen y UTM en cada inscripción, y un cruce mensual de qué canal trajo agendas y ventas.",
+          "pasos": [
+            "Hacer el inventario de tus landings y formularios y a dónde manda cada uno.",
+            "Armar las tres tablas: personas, eventos e inscripciones ligadas.",
+            "Armar un solo webhook que reciba todo y decida, según el tipo de formulario, qué crear.",
+            "Pasar cada landing al webhook con su nombre corto y sus UTM.",
+            "Sumar un monitor que avise si un formulario deja de llegar.",
+            "Cruzar una vez por mes canal, inscripción, agenda y venta."
+          ],
+          "completar": [
+            "El inventario de formularios",
+            "Las tablas y las reglas del webhook",
+            "El monitor y el cruce del mes"
+          ],
+          "herramientas": [
+            "Airtable (automatizaciones con webhook)",
+            "Lovable o tu constructor de landings",
+            "Administrador de anuncios de Meta",
+            "Claude para leer el cruce"
+          ],
+          "evidencia": "Webhook único de Cascara Base (form_type: inscripción, b2c, b2b), tabla Eventos e Inscripciones, monitor horario de la landing de la consultoría, cruce de pauta del Bootcamp.",
+          "tareas": [
+            {
+              "titulo": "Hacer el inventario de landings y formularios",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Pasar la primera landing al webhook",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": "Probada desde afuera."
+            },
+            {
+              "titulo": "Cruzar canal, agendas y ventas",
+              "semana": 4,
+              "frecuencia": "mensual",
+              "descripcion": ""
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": ""
         }
       ]
     },
@@ -2073,6 +2743,776 @@
           "estado_galeria": "aprobada"
         }
       ]
+    },
+    {
+      "nombre": "Creatividad",
+      "porque": "El contenido de los founders mejora cuando tienen criterio propio para pensar, dirigir y producir. Son las cartas de procedimiento de Juana: el founder elige la que responde a su bloqueo de la semana y lleva la tarea a la grupal de Creatividad.",
+      "modulos": [
+        {
+          "id": "preparar-direccion-creativa",
+          "nombre": "Preparate para tu sesión de Dirección Creativa",
+          "nivel": "1",
+          "para_quien": "Antes de tu sesión 1:1 de Dirección Creativa, después de completar el Founder Insights.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "La carpeta de la sesión lista 48 horas antes: activos, piezas con criterio, referencias, la frase de marca y el bloqueo.",
+          "pasos": [
+            "Reunir los activos de marca.",
+            "Elegir 5 piezas que te representan y 3 que no, con el porqué.",
+            "Juntar 5 a 10 referencias.",
+            "Escribir la frase de marca.",
+            "Nombrar el bloqueo creativo.",
+            "Compartir la carpeta por Slack."
+          ],
+          "completar": [
+            "La tabla de piezas con el porqué",
+            "La carpeta compartida 48 horas antes"
+          ],
+          "herramientas": [
+            "Google Drive o Notion",
+            "Slack"
+          ],
+          "evidencia": "Carta 01/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "auditoria-creativa",
+          "nombre": "Auditoría creativa de tu marca",
+          "nivel": "1",
+          "para_quien": "Al inicio del programa y cada vez que sientas que tu contenido «no te representa».",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "La brecha entre lo que querés transmitir y lo que transmitís, con 3 cambios concretos.",
+          "pasos": [
+            "Escribir las 3 palabras objetivo.",
+            "Mirar las últimas 12 publicaciones como alguien de afuera.",
+            "Sumar la lectura de la grupal.",
+            "Comparar las listas.",
+            "Detectar qué genera la brecha.",
+            "Definir 3 cambios."
+          ],
+          "completar": [
+            "Las tres listas de palabras",
+            "La tabla de la brecha con los 3 cambios"
+          ],
+          "herramientas": [
+            "Tu perfil de Instagram",
+            "La grupal de Creatividad"
+          ],
+          "evidencia": "Carta 02/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "estetica-y-estrategia",
+          "nombre": "Estética al servicio de la estrategia",
+          "nivel": "2",
+          "para_quien": "Cuando cambiás de oferta o de cliente ideal, o cuando tu estética no acompaña tu nuevo precio.",
+          "eje": [
+            "contenido",
+            "oferta"
+          ],
+          "resultado": "La emoción que necesita tu cliente traducida a 3 recursos visuales fijos, aplicados en las próximas 3 piezas.",
+          "pasos": [
+            "Definir la emoción o creencia del cliente.",
+            "Traducirla a recursos visuales.",
+            "Revisar la estética actual.",
+            "Elegir 3 recursos fijos."
+          ],
+          "completar": [
+            "La emoción y la lectura de tu estética",
+            "Los 3 recursos fijos"
+          ],
+          "herramientas": [
+            "Tu perfil",
+            "Canva o Figma"
+          ],
+          "evidencia": "Carta 03/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "caballo-de-troya",
+          "nombre": "El caballo de Troya visual",
+          "nivel": "3",
+          "para_quien": "Si tu sector es formal o muy uniforme y querés diferenciarte sin parecer poco serio.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "La lista de códigos que mantenés y los 1 o 2 que rompés, probados en 3 piezas.",
+          "pasos": [
+            "Listar los códigos del sector.",
+            "Elegir los que se mantienen.",
+            "Elegir 1 o 2 para romper.",
+            "Probar en 3 piezas."
+          ],
+          "completar": [
+            "La tabla de códigos",
+            "Las 3 piezas de prueba con su lectura"
+          ],
+          "herramientas": [
+            "Tu perfil y el de 3 referentes del rubro"
+          ],
+          "evidencia": "Carta 04/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "kit-de-identidad",
+          "nombre": "Kit mínimo de identidad para contenido",
+          "nivel": "1",
+          "para_quien": "Antes de delegar edición o diseño, o si cada pieza te sale distinta.",
+          "eje": [
+            "contenido",
+            "entrega"
+          ],
+          "resultado": "Un kit con tipografías, paleta, subtítulos, 3 plantillas y reglas de imagen, en una carpeta compartida.",
+          "pasos": [
+            "Definir tipografías.",
+            "Definir paleta con códigos.",
+            "Definir el estilo de subtítulos.",
+            "Armar 3 plantillas base.",
+            "Escribir las reglas de imagen.",
+            "Compartir la carpeta con quien edita o diseña."
+          ],
+          "completar": [
+            "El kit completo",
+            "El link compartido"
+          ],
+          "herramientas": [
+            "Canva o Figma",
+            "Slack"
+          ],
+          "evidencia": "Carta 05/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "moodboard-estrategico",
+          "nombre": "Moodboard estratégico",
+          "nivel": "2",
+          "para_quien": "Antes de una campaña, un shooting, un rebranding o una serie de contenido.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Un moodboard de 12 referencias con una línea de criterio por imagen, agrupado por bloques.",
+          "pasos": [
+            "Escribir el objetivo.",
+            "Juntar 30 referencias y quedarse con 12.",
+            "Anotar qué se toma de cada una.",
+            "Agrupar por bloques.",
+            "Testearlo en la grupal."
+          ],
+          "completar": [
+            "El objetivo",
+            "Las 12 referencias con criterio"
+          ],
+          "herramientas": [
+            "Pinterest, Cosmos o Figma"
+          ],
+          "evidencia": "Carta 06/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "founder-cara-de-marca",
+          "nombre": "El founder como cara de la marca",
+          "nivel": "2",
+          "para_quien": "Cuando tu marca personal es parte de la estrategia (casi siempre lo es).",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Looks, set, luz, encuadre y sonido definidos, con una prueba de 1 minuto grabada.",
+          "pasos": [
+            "Definir 2 o 3 looks.",
+            "Elegir un set fijo.",
+            "Resolver luz y encuadre.",
+            "Resolver el sonido.",
+            "Grabar una prueba de 1 minuto."
+          ],
+          "completar": [
+            "El setup completo",
+            "La prueba de 1 minuto"
+          ],
+          "herramientas": [
+            "Celular, trípode y micrófono corbatero"
+          ],
+          "evidencia": "Carta 07/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "miedo-a-la-camara",
+          "nombre": "Perderle el miedo a la cámara",
+          "nivel": "1",
+          "para_quien": "Si sabés que tenés que aparecer pero cada vez lo postergás.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Un escalón por semana subido, con el registro de lo que grabaste.",
+          "pasos": [
+            "Elegir el escalón de arranque.",
+            "Grabar el ejercicio de la semana.",
+            "Subir un escalón por semana.",
+            "Llevar el registro."
+          ],
+          "completar": [
+            "El escalón de arranque",
+            "El registro semanal"
+          ],
+          "herramientas": [
+            "Celular"
+          ],
+          "evidencia": "Carta 08/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "research-semanal",
+          "nombre": "Cómo hacer research: tu sistema semanal",
+          "nivel": "1",
+          "para_quien": "Siempre. Es la base de todas las demás cartas de ideas.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "El tablero de Blackhole creado y los días de escritura y de revolver bloqueados en el calendario.",
+          "pasos": [
+            "Crear el tablero en Blackhole.",
+            "Guardar todos los días.",
+            "Bloquear el día de escritura.",
+            "Bloquear el día de revolver.",
+            "Cruzar referencias con ideas."
+          ],
+          "completar": [
+            "El tablero y los dos días bloqueados",
+            "Las primeras 3 referencias cruzadas"
+          ],
+          "herramientas": [
+            "Blackhole",
+            "Pinterest o Cosmos",
+            "Google Calendar"
+          ],
+          "evidencia": "Carta 09/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "escribir-un-guion",
+          "nombre": "Cómo escribir un guion",
+          "nivel": "1",
+          "para_quien": "En tu día de escritura, o cada vez que tengas una observación que vale la pena.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "La primera serie de 4 guiones del mes escrita con la ficha.",
+          "pasos": [
+            "Partir de una observación.",
+            "Encontrar la tensión.",
+            "Escribir el punto de vista.",
+            "Definir la transformación.",
+            "Elegir la forma.",
+            "Pensar con IA."
+          ],
+          "completar": [
+            "La serie de 4 guiones",
+            "Un guion completo"
+          ],
+          "herramientas": [
+            "Ficha de pensamiento creativo (Lovable)",
+            "Claude"
+          ],
+          "evidencia": "Carta 10/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "primeros-cinco-segundos",
+          "nombre": "Los primeros 5 segundos",
+          "nivel": "1",
+          "para_quien": "En cada pieza. Es lo primero que se revisa de un guion.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Los hooks de tus últimas 3 piezas reescritos desde el dolor del espectador.",
+          "pasos": [
+            "Identificar el dolor.",
+            "Abrir con el dolor o su consecuencia.",
+            "Escribir 3 hooks por pieza.",
+            "Pensar el hook visual."
+          ],
+          "completar": [
+            "La tabla de hooks reescritos"
+          ],
+          "herramientas": [
+            "Tus últimas 3 piezas"
+          ],
+          "evidencia": "Carta 11/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "clientes-en-historia",
+          "nombre": "Convertir el trabajo con clientes en historia",
+          "nivel": "2",
+          "para_quien": "En cada proyecto con un cliente.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Una carpeta de registro de un proyecto actual, con el elemento humano identificado.",
+          "pasos": [
+            "Elegir un proyecto actual.",
+            "Registrar proceso y decisiones.",
+            "Encontrar el elemento humano.",
+            "Acordar con el cliente que se muestra.",
+            "Contarlo como historia."
+          ],
+          "completar": [
+            "La carpeta de registro",
+            "La tabla de registros"
+          ],
+          "herramientas": [
+            "Google Drive",
+            "Celular"
+          ],
+          "evidencia": "Carta 12/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "estructura-de-caso",
+          "nombre": "Estructura de caso de cliente",
+          "nivel": "2",
+          "para_quien": "Cuando terminás un proyecto o llegás a un resultado intermedio que vale la pena contar.",
+          "eje": [
+            "contenido",
+            "venta"
+          ],
+          "resultado": "Un caso escrito en 5 partes, listo para carrusel, video largo o Stories.",
+          "pasos": [
+            "Elegir el caso.",
+            "Escribir contexto y problema.",
+            "Escribir el proceso con las decisiones.",
+            "Escribir resultado y emoción.",
+            "Elegir formato y fecha."
+          ],
+          "completar": [
+            "El caso en 5 partes"
+          ],
+          "herramientas": [
+            "Notion o Google Docs"
+          ],
+          "evidencia": "Carta 13/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": "",
+          "duplica": "caso-documentado"
+        },
+        {
+          "id": "historia-de-origen",
+          "nombre": "Tu historia de origen",
+          "nivel": "2",
+          "para_quien": "Al lanzar o relanzar tu marca, o cuando sumás una oferta nueva.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Tu historia de origen en 5 puntos, grabada en formato largo horizontal.",
+          "pasos": [
+            "Escribir el punto de partida.",
+            "Escribir el quiebre.",
+            "Escribir el descubrimiento.",
+            "Escribir el hoy.",
+            "Escribir el puente.",
+            "Grabarlo en horizontal."
+          ],
+          "completar": [
+            "Los 5 puntos",
+            "El video grabado"
+          ],
+          "herramientas": [
+            "Celular, trípode y corbatero"
+          ],
+          "evidencia": "Carta 14/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "formatos-poco-esfuerzo",
+          "nombre": "Formatos de poco esfuerzo y mucho valor",
+          "nivel": "2",
+          "para_quien": "Para sostener la constancia en semanas cargadas.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Dos formatos de bajo esfuerzo probados durante 3 semanas y uno sumado fijo al calendario.",
+          "pasos": [
+            "Elegir 2 formatos.",
+            "Probarlos 3 semanas.",
+            "Medir guardados y compartidos.",
+            "Sumar el ganador al calendario."
+          ],
+          "completar": [
+            "Los 2 formatos",
+            "La tabla de las 3 semanas"
+          ],
+          "herramientas": [
+            "Instagram"
+          ],
+          "evidencia": "Carta 15/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": "",
+          "duplica": "formato-barato"
+        },
+        {
+          "id": "formatos-de-ficcion",
+          "nombre": "Formatos de ficción",
+          "nivel": "3",
+          "para_quien": "Cuando tu mensaje es repetido o técnico y necesitás otra forma de entrarle.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Un sketch o POV escrito sobre la queja más repetida de tus clientes.",
+          "pasos": [
+            "Elegir la situación real.",
+            "Exagerarla.",
+            "Definir el remate.",
+            "Dejar claro el punto de vista.",
+            "Producirlo simple."
+          ],
+          "completar": [
+            "La situación y el formato",
+            "El guion"
+          ],
+          "herramientas": [
+            "Celular"
+          ],
+          "evidencia": "Carta 16/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "inventar-cuando-no-pasa-nada",
+          "nombre": "Inventar cuando no pasa nada",
+          "nivel": "3",
+          "para_quien": "Cuando no hay lanzamientos, clientes nuevos ni nada «para contar».",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Una lista de 10 provocaciones en reserva para las semanas vacías.",
+          "pasos": [
+            "Repasar los 7 recursos.",
+            "Escribir 10 provocaciones.",
+            "Guardarlas en el calendario como reserva."
+          ],
+          "completar": [
+            "La lista de 10 provocaciones"
+          ],
+          "herramientas": [
+            "Notion"
+          ],
+          "evidencia": "Carta 17/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "casos-desde-tu-disciplina",
+          "nombre": "Crear casos desde tu disciplina",
+          "nivel": "3",
+          "para_quien": "Al lanzar una oferta nueva, al cambiar de rubro o cuando tus clientes piden confidencialidad.",
+          "eje": [
+            "contenido",
+            "venta"
+          ],
+          "resultado": "Un caso especulativo documentado en Stories mientras lo hacés.",
+          "pasos": [
+            "Elegir el caso.",
+            "Aplicar el método completo.",
+            "Mostrar proceso y decisiones.",
+            "Aclarar que es especulativo."
+          ],
+          "completar": [
+            "El caso elegido y cómo se documenta"
+          ],
+          "herramientas": [
+            "Instagram Stories"
+          ],
+          "evidencia": "Carta 18/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "bloqueo-creativo",
+          "nombre": "Protocolo de bloqueo creativo",
+          "nivel": "1",
+          "para_quien": "Cuando pasan días sin publicar y cada idea te parece mala.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "El protocolo guardado en el celular y usado la próxima vez que aparezca el bloqueo.",
+          "pasos": [
+            "Bajar la exigencia.",
+            "Elegir una referencia.",
+            "Responder una pregunta de clientes.",
+            "Contar el día.",
+            "Input fuera de pantalla."
+          ],
+          "completar": [
+            "El protocolo personalizado",
+            "El registro de uso"
+          ],
+          "herramientas": [
+            "Celular",
+            "Blackhole"
+          ],
+          "evidencia": "Carta 19/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "brief-para-tu-editor",
+          "nombre": "Brief para tu editor",
+          "nivel": "2",
+          "para_quien": "Cada vez que mandás material a editar.",
+          "eje": [
+            "contenido",
+            "entrega"
+          ],
+          "resultado": "Una plantilla de brief usada en la próxima entrega al editor.",
+          "pasos": [
+            "Definir objetivo y formato.",
+            "Pasar material y hook.",
+            "Escribir estructura y estilo.",
+            "Definir sonido, textos y CTA.",
+            "Fijar entrega y rondas."
+          ],
+          "completar": [
+            "La plantilla de brief completa"
+          ],
+          "herramientas": [
+            "Notion",
+            "Kit de identidad"
+          ],
+          "evidencia": "Carta 20/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": "",
+          "duplica": "mi-editing-brief"
+        },
+        {
+          "id": "video-largo-con-celular",
+          "nombre": "Grabar un video largo horizontal con el celular",
+          "nivel": "2",
+          "para_quien": "Una vez por semana o cada dos, según tu serie del mes.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Un primer video largo grabado respondiendo 3 preguntas, del que salen 3 a 5 reels.",
+          "pasos": [
+            "Armar el setup.",
+            "Elegir 3 preguntas.",
+            "Grabar 20 a 40 minutos.",
+            "Pasarlo al editor con el brief."
+          ],
+          "completar": [
+            "Las 3 preguntas y el link a la grabación"
+          ],
+          "herramientas": [
+            "Celular, trípode, corbatero"
+          ],
+          "evidencia": "Carta 21/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "exprimir-una-produccion",
+          "nombre": "Exprimir una producción",
+          "nivel": "3",
+          "para_quien": "Antes de cualquier shooting, rodaje o evento.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "La lista de entregables antes de la producción y el calendario de 3 a 4 semanas que sale de ella.",
+          "pasos": [
+            "Listar entregables por plataforma.",
+            "Asignar el backstage.",
+            "Agendar la entrevista a la founder.",
+            "Sumar tomas extra.",
+            "Armar el calendario posterior."
+          ],
+          "completar": [
+            "La tabla de entregables",
+            "El calendario posterior"
+          ],
+          "herramientas": [
+            "Notion"
+          ],
+          "evidencia": "Carta 22/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "shotlist-y-rodaje",
+          "nombre": "Shotlist y guion de rodaje",
+          "nivel": "3",
+          "para_quien": "Antes de cada rodaje, por chico que sea.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "El shotlist de la próxima grabación, ordenado por locación.",
+          "pasos": [
+            "Listar tomas.",
+            "Marcar imprescindibles.",
+            "Ordenar por locación.",
+            "Tachar mientras se graba."
+          ],
+          "completar": [
+            "El shotlist completo"
+          ],
+          "herramientas": [
+            "Notion o Google Sheets"
+          ],
+          "evidencia": "Carta 23/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "checklist-antes-de-publicar",
+          "nombre": "Checklist antes de publicar",
+          "nivel": "1",
+          "para_quien": "Antes de publicar una pieza propia o de aprobar una que te entrega el editor.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Las próximas 5 piezas pasadas por el checklist, con lo que se corrigió.",
+          "pasos": [
+            "Pasar cada pieza por las 9 preguntas.",
+            "Corregir lo que da «no».",
+            "Anotar qué se corrigió."
+          ],
+          "completar": [
+            "La tabla de las 5 piezas"
+          ],
+          "herramientas": [
+            "El kit de identidad"
+          ],
+          "evidencia": "Carta 24/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "objetivo-a-concepto",
+          "nombre": "Del objetivo al concepto creativo",
+          "nivel": "2",
+          "para_quien": "Antes de un lanzamiento, una campaña o una presentación importante.",
+          "eje": [
+            "contenido",
+            "demanda"
+          ],
+          "resultado": "El concepto del próximo lanzamiento en una frase, con su territorio visual y su bajada por formato.",
+          "pasos": [
+            "Fijar el objetivo.",
+            "Encontrar el insight.",
+            "Escribir el concepto.",
+            "Armar el territorio visual.",
+            "Bajarlo a cada formato.",
+            "Testearlo en 10 segundos."
+          ],
+          "completar": [
+            "El concepto en una frase",
+            "La bajada por formato"
+          ],
+          "herramientas": [
+            "Figma o Canva para el moodboard"
+          ],
+          "evidencia": "Carta 25/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "direccion-de-arte-coleccion",
+          "nombre": "Dirección de arte para lanzar una colección o un producto",
+          "nivel": "3",
+          "para_quien": "Al lanzar una colección, una cápsula o un producto físico.",
+          "eje": [
+            "contenido",
+            "demanda"
+          ],
+          "resultado": "La dirección de arte y el plan por etapas del próximo lanzamiento de producto.",
+          "pasos": [
+            "Definir concepto.",
+            "Definir paleta y materiales.",
+            "Definir casting, locación y luz.",
+            "Planificar las 4 etapas."
+          ],
+          "completar": [
+            "La tabla de arte",
+            "El plan por etapas"
+          ],
+          "herramientas": [
+            "Figma o Canva",
+            "Notion"
+          ],
+          "evidencia": "Carta 26/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "tu-marca-mejor-cliente",
+          "nombre": "Tu marca como tu mejor cliente",
+          "nivel": "3",
+          "para_quien": "Si vendés branding, contenido, producción o lanzamientos a otros.",
+          "eje": [
+            "contenido",
+            "venta"
+          ],
+          "resultado": "Tu marca tratada como un cliente durante un mes, con brief, fechas y el proceso documentado.",
+          "pasos": [
+            "Escribir el brief propio.",
+            "Agendar con fechas reales.",
+            "Documentar en Stories.",
+            "Mostrar antes y después.",
+            "Convertirlo en caso."
+          ],
+          "completar": [
+            "El brief",
+            "El cronograma"
+          ],
+          "herramientas": [
+            "Notion",
+            "Instagram Stories"
+          ],
+          "evidencia": "Carta 27/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "criterio-creativo",
+          "nombre": "El criterio creativo se entrena",
+          "nivel": "1",
+          "para_quien": "Siempre. Es la base de todo lo demás.",
+          "eje": [
+            "contenido"
+          ],
+          "resultado": "Diez minutos de entrenamiento sumados a tu día de revolver, con el registro de decisiones.",
+          "pasos": [
+            "Escribir por qué de cada referencia.",
+            "Analizar una pieza que no te gusta.",
+            "Consumir fuera del rubro.",
+            "Comparar piezas.",
+            "Decidir antes de pedir opinión.",
+            "Registrar decisiones."
+          ],
+          "completar": [
+            "El registro de decisiones"
+          ],
+          "herramientas": [
+            "Notion o una libreta"
+          ],
+          "evidencia": "Carta 28/28 de las Cartas de Creatividad de Juana (17/10/2026).",
+          "estado": "nueva",
+          "estado_galeria": ""
+        }
+      ]
     }
   ],
   "orden_sugerido": [
@@ -2123,7 +3563,45 @@
     "direccion-visual",
     "narrativa-de-video",
     "setter-closer",
-    "El criterio del orden: primero el diagnóstico y el foco, porque sin punto A escrito cada llamada arranca discutiendo qué hacer; después oferta, porque es el eje más bajo de los clientes y todo lo de abajo se apoya en la oferta escrita; después perfil, ángulos y calendario, que es la infraestructura de contenido que permite medir; recién ahí volumen y precio sobre la mesa, que es donde aparece la primera evidencia real; después lo comercial, que convierte esa evidencia en plata; después lanzamiento y comunidad, que necesitan audiencia calentada de antes; y al final entrega, operaciones y datos, que se asignan cuando ya hay clientes adentro que los justifiquen. La columna es la misma para todos; lo que cambia es por dónde se entra. El eje más bajo del puntaje adelanta su bloque, y el que llega con la entrega colapsada arranca por entrega y operaciones antes de tocar la oferta."
+    "El criterio del orden: primero el diagnóstico y el foco, porque sin punto A escrito cada llamada arranca discutiendo qué hacer; después oferta, porque es el eje más bajo de los clientes y todo lo de abajo se apoya en la oferta escrita; después perfil, ángulos y calendario, que es la infraestructura de contenido que permite medir; recién ahí volumen y precio sobre la mesa, que es donde aparece la primera evidencia real; después lo comercial, que convierte esa evidencia en plata; después lanzamiento y comunidad, que necesitan audiencia calentada de antes; y al final entrega, operaciones y datos, que se asignan cuando ya hay clientes adentro que los justifiquen. La columna es la misma para todos; lo que cambia es por dónde se entra. El eje más bajo del puntaje adelanta su bloque, y el que llega con la entrega colapsada arranca por entrega y operaciones antes de tocar la oferta.",
+    "entre-pasos",
+    "checkpoints-del-servicio",
+    "app-de-clientes-y-soporte",
+    "ia-en-la-operacion",
+    "formulario-a-la-base",
+    "tareas-programadas",
+    "webhook-unico-y-atribucion",
+    "registro-de-llamadas",
+    "venta-que-dispara-todo",
+    "lanzamiento-operado",
+    "cierre-del-mes-equipo",
+    "reuniones-con-accionables",
+    "preparar-direccion-creativa",
+    "auditoria-creativa",
+    "estetica-y-estrategia",
+    "caballo-de-troya",
+    "kit-de-identidad",
+    "moodboard-estrategico",
+    "founder-cara-de-marca",
+    "miedo-a-la-camara",
+    "research-semanal",
+    "escribir-un-guion",
+    "primeros-cinco-segundos",
+    "clientes-en-historia",
+    "historia-de-origen",
+    "formatos-de-ficcion",
+    "inventar-cuando-no-pasa-nada",
+    "casos-desde-tu-disciplina",
+    "bloqueo-creativo",
+    "video-largo-con-celular",
+    "exprimir-una-produccion",
+    "shotlist-y-rodaje",
+    "checklist-antes-de-publicar",
+    "objetivo-a-concepto",
+    "direccion-de-arte-coleccion",
+    "tu-marca-mejor-cliente",
+    "criterio-creativo",
+    "tablero-que-dispara-acciones"
   ],
   "notas": [
     "Los módulos están escritos: cada uno tiene su carta con los pasos, qué completar y qué herramientas, y su plantilla con las consignas y un ejemplo real de los clientes en cada bloque. Lo que antes se bajaba caso por caso en una llamada ahora se asigna y queda igual para todos.",

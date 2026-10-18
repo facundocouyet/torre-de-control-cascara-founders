@@ -1,0 +1,123 @@
+{
+  "titulo": "La hoja de la operación del lanzamiento",
+  "bajada": "La estrategia del lanzamiento dice qué contás y cuándo. Esta carta resuelve la parte operativa: que cada inscripto quede registrado con su origen, sepa qué va a pasar y llegue a cada encuentro.",
+  "lista_cuando": "Abrís la inscripción y cada persona que entra queda en tu base con su canal, recibe un mail con todo lo que va a pasar y sabés al final cuántos vinieron a cada encuentro.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Cómo lo operamos en Cáscara",
+      "texto": [
+        "Cada evento tiene una fila en la tabla Eventos, con su nombre corto. Cuando alguien se anota, la inscripción se guarda ligada a la persona y al evento, con los UTM del momento. La misma persona puede estar en el Bootcamp, en el Talent Hunt y en la consultoría, y sigue siendo una sola fila en la base.",
+        "Apenas se anota, recibe un mail con todo lo que va a pasar. En el Talent Hunt, además, le llega la propuesta completa en PDF: el concepto, el desafío paso a paso, qué vamos a evaluar y la fecha de entrega."
+      ],
+      "figura": "<figure class=\"fx-shot\"><img src=\"../assets/operaciones/airtable-eventos.jpg\" alt=\"Tabla Eventos en Airtable\"><figcaption><b>La tabla Eventos de nuestra base.</b> Una fila por evento, con sus inscripciones, sus recursos y los links de cada llamada. Los datos de las personas están tapados.</figcaption></figure><div class=\"fx\"><div class=\"fx-par\"><figure class=\"fx-shot\"><img src=\"../assets/operaciones/th-pdf-portada.jpg\" alt=\"Portada del PDF del Talent Hunt\"><figcaption><b>La propuesta en PDF</b> que recibe cada inscripto.</figcaption></figure><figure class=\"fx-shot\"><img src=\"../assets/operaciones/th-pdf-fecha.jpg\" alt=\"Página del PDF con la fecha límite\"><figcaption><b>La fecha de entrega</b>, dicha antes de que alguien la pregunte.</figcaption></figure></div></div>"
+    },
+    {
+      "titulo": "El evento en una fila",
+      "consigna": "Antes de abrir, el evento existe en tu base con todo lo que hace falta para operarlo. El nombre corto va sin espacios: es el que viaja en cada inscripción y en cada link.",
+      "campo": "lineas",
+      "lineas": [
+        "Nombre del evento",
+        "Nombre corto (sin espacios)",
+        "Fechas",
+        "Modalidad",
+        "Link del canal (grupo o comunidad)",
+        "Links de cada encuentro"
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "Qué te deja cada inscripción",
+      "consigna": "Pedí solo lo que vas a usar: para avisar, para calificar o para medir. Si un dato sirve para decidir a quién llamar, escribilo al lado.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara Founders",
+        "texto": "La inscripción a la consultoría pide nombre, mail, WhatsApp e Instagram. Después del registro, un segundo formulario sobre el proyecto confirma el lugar y nos dice a quién conviene llamar."
+      },
+      "columnas": [
+        "Dato",
+        "Para qué lo usás después"
+      ],
+      "filas": 6,
+      "cid": 1
+    },
+    {
+      "titulo": "El mail de todo lo que va a pasar",
+      "consigna": "Escribilo completo: la confirmación, qué hacer primero, el canal, los accesos con fecha y hora, y qué material va a recibir. Es el mensaje puente más importante del lanzamiento.",
+      "campo": "texto",
+      "alto": 8,
+      "placeholder": "Asunto, confirmación, 01 lo primero, 02 los accesos, 03 el material.",
+      "cid": 2
+    },
+    {
+      "titulo": "Los links por canal",
+      "consigna": "Un link distinto para cada lugar donde se comparte, así después sabés de dónde vino cada inscripto. Si comparten varias personas, cada una tiene el suyo.",
+      "campo": "tabla",
+      "columnas": [
+        "Canal",
+        "Quién lo comparte",
+        "utm_source",
+        "utm_medium",
+        "utm_content"
+      ],
+      "filas": 6,
+      "cid": 3
+    },
+    {
+      "nuestro": true,
+      "titulo": "La anatomía de un link",
+      "texto": [
+        "Cada parte del link responde una pregunta. El origen es la red o el lugar; el medio es el formato; la campaña es el evento; el contenido dice quién lo compartió o qué pieza fue."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Un link por canal y por persona</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Parte</th><th>Responde</th><th>Ejemplo</th></tr></thead><tbody><tr><td>utm_source</td><td>¿Dónde estaba la persona?</td><td>instagram</td></tr><tr><td>utm_medium</td><td>¿En qué formato lo vio?</td><td>historias</td></tr><tr><td>utm_campaign</td><td>¿Por qué evento?</td><td>consultoria</td></tr><tr><td>utm_content</td><td>¿Quién lo compartió o qué pieza?</td><td>teo</td></tr></tbody></table></div></div>"
+    },
+    {
+      "titulo": "Los recordatorios",
+      "consigna": "Los que salen solos antes y durante el evento. Para cada uno: cuándo sale, qué dice y por dónde.",
+      "campo": "tabla",
+      "columnas": [
+        "Cuándo sale",
+        "Qué dice",
+        "Por dónde"
+      ],
+      "filas": 5,
+      "cid": 4
+    },
+    {
+      "nuestro": true,
+      "titulo": "El checklist que corremos antes de abrir",
+      "texto": [],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Antes de abrir</p><div class=\"fx-lista\"><div>La inscripción probada desde el celular, con un mail que nunca se usó.</div><div>La persona aparece en la base con el evento y el canal correctos.</div><div>El mail de confirmación llega en menos de un minuto y no cae en spam.</div><div>Los links de cada encuentro están cargados y abren.</div><div>El link del grupo o la comunidad funciona.</div><div>Los recordatorios están programados con fecha y hora.</div><div>Hay un link por canal y por persona que comparte.</div><div>Está decidido cómo se registra la asistencia.</div></div></div>"
+    },
+    {
+      "titulo": "Tu checklist, probado",
+      "consigna": "Usá el de arriba como base y sumá lo propio de tu lanzamiento. Cada ítem se marca recién cuando alguien lo probó.",
+      "campo": "tabla",
+      "columnas": [
+        "Ítem",
+        "¿Probado?",
+        "Quién lo probó"
+      ],
+      "filas": 8,
+      "cid": 5
+    },
+    {
+      "titulo": "Quién estuvo",
+      "consigna": "La asistencia es el dato que más se pierde y el que más dice. Decidí cómo la registrás y qué hacés con los que no vinieron.",
+      "campo": "lineas",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "En los eventos de Founders la asistencia se registra con una página de entrada a la llamada: la persona deja su mail y queda marcada en la inscripción de ese evento."
+      },
+      "lineas": [
+        "Cómo registrás la asistencia",
+        "Inscriptos",
+        "Asistieron al primer encuentro",
+        "Asistieron al último",
+        "Qué hacés con los que no vinieron"
+      ],
+      "cid": 6
+    }
+  ],
+  "modulo": "lanzamiento-operado"
+}

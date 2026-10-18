@@ -1,0 +1,53 @@
+{
+ "modulo": "estetica-y-estrategia",
+ "titulo": "La hoja de tu estética",
+ "bajada": "El lenguaje visual se elige por lo que tu cliente necesita sentir para comprarte. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Elegiste tus 3 recursos visuales fijos y están aplicados en las próximas 3 piezas.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Paso a paso",
+   "texto": [],
+   "figura": "<ol class=\"pasos\"><li>Definí la emoción o la creencia que tu cliente necesita para elegirte: confianza, exactitud, deseo, cercanía, pertenencia.</li><li>Traducila a recursos visuales concretos (usá la tabla de abajo como punto de partida).</li><li>Revisá tu estética actual: ¿empuja hacia esa emoción o hacia otra?</li><li>Elegí 3 recursos visuales fijos que vas a sostener en todas las piezas.</li></ol><table class=\"tabla-carta\"><thead><tr><th>Necesito transmitir</th><th>Recursos visuales</th></tr></thead><tbody><tr><td>Exactitud / rigor</td><td>Gráficos, datos, diagramas, grillas, mucho orden y aire</td></tr><tr><td>Deseo</td><td>Textura, detalle, luz cuidada, ritmo lento</td></tr><tr><td>Cercanía</td><td>Cámara en mano, luz natural, imperfección, mirada a cámara</td></tr><tr><td>Autoridad</td><td>Planos estables, tipografía firme, paleta reducida</td></tr></tbody></table><p><strong>Ejemplo.</strong> Una consultora que deja de venderle a freelancers para venderle a dueños de pymes pasa a una estética de datos y diagramas que transmite exactitud, y suma fotos de los socios para que los números tengan cara.</p>"
+  },
+  {
+   "titulo": "La emoción",
+   "consigna": "Qué necesita sentir o creer tu cliente para elegirte, y si tu estética de hoy empuja hacia ahí.",
+   "campo": "lineas",
+   "lineas": [
+    "La emoción o creencia que necesita tu cliente",
+    "Hacia dónde empuja hoy tu estética"
+   ],
+   "cid": 1
+  },
+  {
+   "titulo": "Tus 3 recursos fijos",
+   "consigna": "Los tres recursos visuales que vas a sostener, y en qué piezas los aplicás primero.",
+   "campo": "tabla",
+   "columnas": [
+    "Recurso visual",
+    "Por qué empuja hacia esa emoción",
+    "Primeras 3 piezas donde va"
+   ],
+   "filas": 3,
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Copiar la estética de una marca que admirás pero que le vende otra cosa a otra gente."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

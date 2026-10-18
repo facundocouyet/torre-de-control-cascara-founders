@@ -1,0 +1,56 @@
+{
+ "modulo": "kit-de-identidad",
+ "titulo": "La hoja de tu kit de identidad",
+ "bajada": "Que cualquier pieza se reconozca como tuya sin leer tu nombre, y dejar de diseñar desde cero. Carta de Creatividad, con Juana.",
+ "lista_cuando": "El kit está armado en Canva o Figma y el link está compartido en Slack.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Qué tiene que incluir",
+   "texto": [],
+   "figura": "<ol class=\"pasos\"><li>Tipografías: una para títulos y una para texto, con tamaños definidos.</li><li>Paleta: 1 color principal, 1 de acento y 2 neutros, con sus códigos.</li><li>Estilo de subtítulos para video: tipografía, color, tamaño y posición.</li><li>3 plantillas base: portada de carrusel, placa de texto y portada de video largo.</li><li>Reglas de imagen: tipo de luz, encuadres que sí y que no, filtros.</li><li>Todo en una carpeta compartida con tu editor o diseñador.</li></ol>"
+  },
+  {
+   "titulo": "Tu kit",
+   "consigna": "Completá cada elemento con el dato exacto (nombre de la tipografía, código de color, link).",
+   "campo": "lineas",
+   "lineas": [
+    "Tipografía de títulos y tamaño",
+    "Tipografía de texto y tamaño",
+    "Color principal (código)",
+    "Color de acento (código)",
+    "Neutros (dos códigos)",
+    "Estilo de subtítulos",
+    "Reglas de imagen",
+    "Link a las 3 plantillas base"
+   ],
+   "cid": 1
+  },
+  {
+   "titulo": "Dónde vive",
+   "consigna": "El link al kit en Canva o Figma, compartido también por Slack.",
+   "campo": "lineas",
+   "lineas": [
+    "Link al kit"
+   ],
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Cambiar de estética cada semana porque te aburriste. La coherencia es lo que hace que te reconozcan."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "modulo": "bloqueo-creativo",
+ "titulo": "La hoja de tu protocolo de bloqueo",
+ "bajada": "Qué hacer cuando no sabés qué publicar. Carta de Creatividad, con Juana.",
+ "lista_cuando": "Tenés el protocolo en el celular y lo usaste la próxima vez.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Paso a paso",
+   "texto": [],
+   "figura": "<ol class=\"pasos\"><li>Bajá la exigencia: Stories informales, sin edición.</li><li>Abrí tu Blackhole y elegí una sola referencia.</li><li>Respondé una pregunta que te hacen seguido tus clientes.</li><li>Contá qué estás haciendo hoy, tal cual.</li><li>Si sigue el bloqueo: 20 minutos de input fuera de la pantalla (una revista, una caminata, una muestra) y volvé al paso 2.</li></ol><p><strong>La regla.</strong> Publicar algo imperfecto le gana a no publicar. Una cuenta inactiva se reactiva con conversación, no con una pieza perfecta.</p>"
+  },
+  {
+   "titulo": "Tu protocolo a mano",
+   "consigna": "Dejalo guardado en el celular y anotá lo tuyo.",
+   "campo": "lineas",
+   "lineas": [
+    "Dónde lo guardaste en el celular",
+    "Las 3 preguntas de clientes que tenés para responder",
+    "Tu input fuera de pantalla preferido"
+   ],
+   "cid": 1
+  },
+  {
+   "titulo": "La próxima vez que lo usaste",
+   "consigna": "Qué paso te destrabó.",
+   "campo": "tabla",
+   "columnas": [
+    "Fecha",
+    "Paso que usaste",
+    "Qué publicaste"
+   ],
+   "filas": 3,
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Esperar a tener la idea brillante para volver."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "modulo": "auditoria-creativa",
+ "titulo": "La hoja de tu auditoría creativa",
+ "bajada": "La distancia entre lo que querés comunicar y lo que la gente percibe es tu brecha. Carta de Creatividad, con Juana.",
+ "lista_cuando": "La tabla está completa y la trajiste a la grupal de Creatividad.",
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "Paso a paso",
+   "texto": [],
+   "figura": "<ol class=\"pasos\"><li>Escribí 3 palabras que querés que la gente asocie con tu marca.</li><li>Mirá tus últimas 12 publicaciones como si fueras alguien que no te conoce. Anotá las 3 palabras que realmente transmiten.</li><li>Mostrá tu perfil en la grupal de Creatividad y anotá las palabras que te devuelven los demás founders.</li><li>Compará las listas. La diferencia entre lo que querés y lo que transmitís es tu brecha.</li><li>Detectá qué la genera: color, tipografía, encuadre, tono de voz, temas, calidad de imagen.</li><li>Definí 3 cambios concretos para achicarla.</li></ol><table class=\"tabla-carta\"><thead><tr><th>Quiero transmitir</th><th>Hoy transmito</th><th>Qué lo genera</th><th>Qué cambio</th></tr></thead><tbody><tr><td>Estratégico</td><td>Lindo, prolijo</td><td>Solo muestro piezas terminadas</td><td>Mostrar proceso y decisiones</td></tr></tbody></table>"
+  },
+  {
+   "titulo": "Las palabras",
+   "consigna": "Las tuyas, las que transmiten tus últimas 12 publicaciones y las que te devolvieron en la grupal.",
+   "campo": "lineas",
+   "lineas": [
+    "Las 3 palabras que querés transmitir",
+    "Las 3 que transmiten tus últimas 12 publicaciones",
+    "Las que te devolvieron en la grupal"
+   ],
+   "cid": 1
+  },
+  {
+   "titulo": "Tu brecha y los 3 cambios",
+   "consigna": "Una fila por palabra que querés transmitir: qué transmitís hoy, qué lo genera y qué cambiás.",
+   "campo": "tabla",
+   "columnas": [
+    "Quiero transmitir",
+    "Hoy transmito",
+    "Qué lo genera",
+    "Qué cambio"
+   ],
+   "filas": 3,
+   "cid": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 3,
+   "titulo": "El error más común",
+   "texto": [
+    "Hacer la auditoría solo con tu mirada. Vos sabés lo que quisiste decir; la audiencia no."
+   ]
+  },
+  {
+   "nuestro": true,
+   "cid": 4,
+   "titulo": "Qué hacemos con esto",
+   "texto": [
+    "Traé la tarea resuelta a la grupal de Creatividad. Ahí la miramos con Juana y con el resto de los founders, y sale con los ajustes para aplicarla en tus próximas piezas."
+   ]
+  }
+ ]
+}
