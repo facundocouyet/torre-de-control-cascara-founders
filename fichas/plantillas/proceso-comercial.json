@@ -11,7 +11,7 @@
         "Es la base comercial de todo founder: el proceso de venta escrito en un solo lugar, con los números que lo miden. Se hace una vez y queda como manual de tu venta.",
         "Tiene cuatro fases, cada una con su entregable: cómo vendés hoy, tu camino de venta, a quién le das llamada y dónde vive cada contacto y cada llamada. Con la hoja completa seguís con la carta de tu camino: la venta B2C o la venta de servicios."
       ],
-      "figura": "<div class=\"fx\"><p class=\"fx-et\">Las cinco etapas de toda venta</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">01</div><div class=\"t\">Conversación</div><div class=\"s\">Alguien escribe o le escribís.</div></div><div class=\"fx-paso\"><div class=\"k\">02</div><div class=\"t\">Setting</div><div class=\"s\">Calificás y agendás.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">03</div><div class=\"t\">Llamada</div><div class=\"s\">Descubrís, proponés y pedís.</div></div><div class=\"fx-paso\"><div class=\"k\">04</div><div class=\"t\">Cierre</div><div class=\"s\">Seña, pago o contrato.</div></div><div class=\"fx-paso\"><div class=\"k\">05</div><div class=\"t\">Cobro</div><div class=\"s\">Lo que entra de verdad.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">El número de cada etapa</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Etapa</th><th>Qué se mide</th><th>Referencia de Cáscara</th></tr></thead><tbody><tr><td>Conversación</td><td>Conversaciones nuevas por semana</td><td><span class=\"gris\">la calibrás con tu meta de ventas</span></td></tr><tr><td>Setting</td><td>Agendas sobre conversaciones y cuántos se presentan</td><td><span class=\"gris\">se calibra en tus primeras dos semanas</span></td></tr><tr><td>Llamada</td><td>Cierres sobre llamadas hechas</td><td>45,8% de Francisca en el Bootcamp Pentágono</td></tr><tr><td>Cobro</td><td>Cobrado sobre vendido</td><td>74,1% en el Bootcamp Pentágono</td></tr></tbody></table></div></div>",
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Las cinco etapas de toda venta</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">01</div><div class=\"t\">Conversación</div><div class=\"s\">Alguien escribe o le escribís.</div></div><div class=\"fx-paso\"><div class=\"k\">02</div><div class=\"t\">Setting</div><div class=\"s\">Calificás y agendás.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">03</div><div class=\"t\">Llamada</div><div class=\"s\">Descubrís, proponés y pedís.</div></div><div class=\"fx-paso\"><div class=\"k\">04</div><div class=\"t\">Cierre</div><div class=\"s\">Seña, pago o contrato.</div></div><div class=\"fx-paso\"><div class=\"k\">05</div><div class=\"t\">Cobro</div><div class=\"s\">Lo que entra de verdad.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">El número de cada etapa</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Etapa</th><th>Qué se mide</th><th>Referencia de Cáscara</th></tr></thead><tbody><tr><td>Conversación</td><td>Conversaciones nuevas por semana</td><td><span class=\"gris\">la calibrás con tu meta de ventas</span></td></tr><tr><td>Setting</td><td>Agendas sobre conversaciones y cuántos se presentan</td><td><span class=\"gris\">se calibra en tus primeras dos semanas</span></td></tr><tr><td>Llamada</td><td>Cierres sobre llamadas hechas</td><td>45,8% en el Bootcamp Pentágono</td></tr><tr><td>Cobro</td><td>Cobrado sobre vendido</td><td>74,1% en el Bootcamp Pentágono</td></tr></tbody></table></div></div>",
       "cid": 100
     },
     {
@@ -148,7 +148,7 @@
       "titulo": "Fase 3 · A quién le das llamada",
       "texto": [
         "Calificar es decidir antes de la llamada si esa persona es para vos. Cada llamada con alguien que califica sube tu tasa de cierre y te devuelve la hora que le dedicás.",
-        "Así califica Francisca, closer de Cáscara. Se da la llamada cuando están los cuatro:",
+        "Así califica el equipo comercial de Cáscara. Se da la llamada cuando están los cuatro:",
         "<b>Un objetivo alineado</b> · lo que quiere lograr tiene relación directa con lo que vendés.",
         "<b>Un dolor que tu oferta resuelve</b> · algo concreto que hoy le cuesta, lo frustra o lo tiene frenado.",
         "<b>El resultado que quiere ver</b> · cómo se ve su situación cuando el problema está resuelto.",
@@ -305,7 +305,7 @@
       "nuestro": true,
       "titulo": "Qué hacemos con esto",
       "texto": [
-        "Con la hoja completa, Franco lee dónde se cae tu venta y el CSM te asigna la carta de tu camino. De las llamadas grabadas sacamos las objeciones que se repiten, que después son guion y contenido."
+        "Con la hoja completa, leemos dónde se cae tu venta y el CSM te asigna la carta de tu camino. De las llamadas grabadas sacamos las objeciones que se repiten, que después son guion y contenido."
       ],
       "cid": 105
     }

@@ -8,7 +8,7 @@
       "nuestro": true,
       "titulo": "Para qué sirve",
       "texto": [
-        "Es el manual de venta B2C: lo que hace quien abre las conversaciones, lo que hace quien cierra y lo que pasa entre los dos. Está armado con el proceso real con el que Cáscara vende La Cáscara, que lleva Francisca, nuestra closer, y con lo que medimos en cada lanzamiento con Franco.",
+        "Es el manual de venta B2C: lo que hace quien abre las conversaciones, lo que hace quien cierra y lo que pasa entre los dos. Está armado con el proceso real con el que Cáscara vende La Cáscara y con lo que medimos en cada lanzamiento.",
         "Tiene cinco fases en orden y cada una deja su entregable. Si hoy vendés solo, hacés las dos partes; el día que sumes a alguien, esta hoja es su manual. Va después de Tu proceso comercial, con los criterios de calificación que escribiste ahí."
       ],
       "figura": "<div class=\"fx\"><p class=\"fx-et\">Las cinco fases</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">01</div><div class=\"t\">Setting</div><div class=\"s\">Mensajes fijos, califica y agenda.</div></div><div class=\"fx-paso\"><div class=\"k\">02</div><div class=\"t\">Llamada</div><div class=\"s\">Guion de ocho tramos.</div></div><div class=\"fx-paso\"><div class=\"k\">03</div><div class=\"t\">Objeciones</div><div class=\"s\">Reframes y planilla.</div></div><div class=\"fx-paso\"><div class=\"k\">04</div><div class=\"t\">Cierre</div><div class=\"s\">Seña adentro de la llamada y seguimiento.</div></div><div class=\"fx-paso\"><div class=\"k\">05</div><div class=\"t\">Revisión</div><div class=\"s\">Dos llamadas por mes, escuchadas.</div></div></div></div>",
@@ -230,7 +230,7 @@
       "nuestro": true,
       "titulo": "Fase 5 · Grabar y revisar",
       "texto": [
-        "Todas las llamadas se graban. Dos por mes las escuchamos con vos, Franco o Francisca, y de ahí salen los cambios al guion y a los mensajes."
+        "Todas las llamadas se graban. Dos por mes las escuchamos con vos y de ahí salen los cambios al guion y a los mensajes."
       ],
       "cid": 105
     },
