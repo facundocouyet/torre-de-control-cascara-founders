@@ -169,5 +169,17 @@
   "tablero-que-dispara-acciones": {
     "personalizar": "La limitación precargada con lo que salió de la Clarity y la auditoría, y en la tabla los números que el founder ya pasó (por ejemplo, los de la carta de resultados del lanzamiento).",
     "ojo": "Los números de referencia son de Cáscara. Los de otros founders no se muestran. Los umbrales se calibran con Franco con los próximos dos lanzamientos."
+  },
+  "proceso-comercial": {
+    "personalizar": "La fase 1 precargada con lo que salió de la Clarity y la auditoría de clientes, y el camino sugerido en la fase 2 según cómo cobra hoy.",
+    "ojo": "Reemplaza a la auditoría del proceso comercial, al pipeline de siete campos y al registro de llamadas. Quien ya tiene alguna asignada la termina y sigue con esta desde la fase que le falte. El registro es de Teo y sigue vivo para la operación de Cáscara (Facu, 19/10)."
+  },
+  "venta-b2c": {
+    "personalizar": "Los siete mensajes y el guion con el XYZ del founder, y el cierre con sus cupos, fecha y seña.",
+    "ojo": "Va después de Tu proceso comercial y solo para camino B2C. Reemplaza a la llamada de venta y el cierre. Los ejemplos de setting son de Cáscara (Francisca). Los reframes de presión fuerte quedan afuera."
+  },
+  "venta-de-servicios": {
+    "personalizar": "Las preguntas de diagnóstico y la propuesta con el servicio y el precio de su oferta escrita.",
+    "ojo": "Va después de Tu proceso comercial y solo para camino servicios. Reemplaza al recontacto y la prospección y a la propuesta comercial. Se negocia el alcance; el precio de cada parte se sostiene."
   }
 }

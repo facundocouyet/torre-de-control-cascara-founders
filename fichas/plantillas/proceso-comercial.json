@@ -1,0 +1,313 @@
+{
+  "modulo": "proceso-comercial",
+  "titulo": "Tu proceso comercial",
+  "bajada": "Tu venta escrita en un solo lugar, tal como pasa hoy: por dónde entra cada consulta, a quién le das llamada, dónde vive cada contacto y cada llamada, y los números que la miden. Es la base de cualquier carta de venta y la hoja que le pasás a quien se sume a vender.",
+  "lista_cuando": "Alguien de afuera lee la hoja y sabe cómo vendés, qué camino seguís, a quién le das llamada y dónde está cada contacto; y hay una lectura semanal hecha con los números del pipeline y del registro.",
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Para qué sirve",
+      "texto": [
+        "Es la base comercial de todo founder: el proceso de venta escrito en un solo lugar, con los números que lo miden. Se hace una vez y queda como manual de tu venta.",
+        "Tiene cuatro fases, cada una con su entregable: cómo vendés hoy, tu camino de venta, a quién le das llamada y dónde vive cada contacto y cada llamada. Con la hoja completa seguís con la carta de tu camino: la venta B2C o la venta de servicios."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Las cinco etapas de toda venta</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">01</div><div class=\"t\">Conversación</div><div class=\"s\">Alguien escribe o le escribís.</div></div><div class=\"fx-paso\"><div class=\"k\">02</div><div class=\"t\">Setting</div><div class=\"s\">Calificás y agendás.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">03</div><div class=\"t\">Llamada</div><div class=\"s\">Descubrís, proponés y pedís.</div></div><div class=\"fx-paso\"><div class=\"k\">04</div><div class=\"t\">Cierre</div><div class=\"s\">Seña, pago o contrato.</div></div><div class=\"fx-paso\"><div class=\"k\">05</div><div class=\"t\">Cobro</div><div class=\"s\">Lo que entra de verdad.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">El número de cada etapa</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Etapa</th><th>Qué se mide</th><th>Referencia de Cáscara</th></tr></thead><tbody><tr><td>Conversación</td><td>Conversaciones nuevas por semana</td><td><span class=\"gris\">la calibrás con tu meta de ventas</span></td></tr><tr><td>Setting</td><td>Agendas sobre conversaciones y cuántos se presentan</td><td><span class=\"gris\">se calibra en tus primeras dos semanas</span></td></tr><tr><td>Llamada</td><td>Cierres sobre llamadas hechas</td><td>45,8% de Francisca en el Bootcamp Pentágono</td></tr><tr><td>Cobro</td><td>Cobrado sobre vendido</td><td>74,1% en el Bootcamp Pentágono</td></tr></tbody></table></div></div>",
+      "cid": 100
+    },
+    {
+      "nuestro": true,
+      "titulo": "Fase 1 · Cómo vendés hoy",
+      "texto": [
+        "No hay que armar nada ni ordenarlo. Queremos ver el proceso comercial tal como funciona hoy, con lo que anda y con lo que se hace de memoria.",
+        "Se hace antes de que el contenido empiece a traer consultas de gente que no los conoce. Si el proceso tiene un agujero, esas consultas se pierden ahí."
+      ],
+      "cid": 101
+    },
+    {
+      "cid": 0,
+      "titulo": "El camino de una consulta",
+      "consigna": "Paso por paso, desde que alguien escribe hasta que firma y paga. Quién hace cada paso, cuánto tarda más o menos y con qué lo hace: WhatsApp, mail, una planilla, un CRM.",
+      "ejemplo": {
+        "quien": "Qualita",
+        "texto": "Hoy el filtro de entrada lo hacen Rafa y Mati a mano: son ellos los que deciden, en la primera charla, si la empresa es para Qualita o no."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "El paso",
+        "Quién lo hace",
+        "Cuánto tarda",
+        "Con qué"
+      ],
+      "filas": 8
+    },
+    {
+      "cid": 1,
+      "titulo": "Por dónde entran las consultas",
+      "consigna": "Cada canal por el que hoy llega alguien: recomendación, eventos, redes, la web, contactos propios. Cuántas entran por mes más o menos, y quién las recibe.",
+      "ejemplo": {
+        "quien": "The Momentum Club",
+        "texto": "La venta nunca pasó por una llamada: webinar, link de pago, y los que dudan le escriben a Israel por Instagram. Ese privado es un canal, aunque nadie lo anote como tal."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "El canal",
+        "Cuántas por mes",
+        "Quién las recibe"
+      ],
+      "filas": 5
+    },
+    {
+      "cid": 2,
+      "titulo": "La primera respuesta",
+      "consigna": "Lo que pasa cuando alguien escribe por primera vez. Si hay un mensaje que se manda siempre, pegalo tal cual.",
+      "campo": "lineas",
+      "lineas": [
+        "Quién responde",
+        "En cuánto tiempo, en general",
+        "Qué se le dice",
+        "Qué se le pregunta para saber si es para ustedes"
+      ]
+    },
+    {
+      "cid": 3,
+      "titulo": "La reunión de venta",
+      "consigna": "Cómo es la reunión donde se vende. No hace falta que esté armada como guion: contá cómo sale en general.",
+      "campo": "lineas",
+      "lineas": [
+        "Cuánto dura",
+        "Quién la hace",
+        "Qué se muestra",
+        "En qué momento se habla de precio",
+        "Qué se manda después"
+      ]
+    },
+    {
+      "cid": 4,
+      "titulo": "La propuesta y el cierre",
+      "consigna": "Lo que pasa entre la reunión y la firma, que es donde más se enfría una venta.",
+      "campo": "lineas",
+      "lineas": [
+        "Cómo es la propuesta y cuánto tarda en salir",
+        "Cuánto tarda el cliente en decidir",
+        "Cómo se hace el seguimiento del que no contesta",
+        "Cómo se firma y cómo se cobra"
+      ]
+    },
+    {
+      "cid": 5,
+      "titulo": "Las últimas consultas, una por una",
+      "consigna": "Las diez o veinte últimas, con lo que haya. Si viven en un CRM o una planilla, alcanza con mandar la exportación y dejar esto vacío.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "De dónde vino",
+        "Cuándo entró",
+        "Hasta dónde llegó",
+        "Por qué se cerró o se cayó"
+      ],
+      "filas": 10
+    },
+    {
+      "cid": 6,
+      "titulo": "Llamadas de venta grabadas",
+      "consigna": "Cualquiera de las dos opciones sirve: grabar las próximas dos reuniones de venta, con Fathom o con lo que usen y avisándole al cliente, o pasarnos llamadas de venta que ya tengan grabadas. Es lo que más sirve de toda la hoja: sin eso vemos lo que ustedes creen que pasa en la reunión, y con eso vemos lo que pasa.",
+      "campo": "lineas",
+      "lineas": [
+        "Link de la primera llamada",
+        "Link de la segunda llamada"
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Fase 2 · Tu camino de venta",
+      "texto": [
+        "Toda venta recorre las mismas cinco etapas. Lo que cambia es dónde se cierra: en una llamada con link de pago, o en dos o tres reuniones con una propuesta escrita. Ese dato define tu camino y la carta que sigue."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Los dos caminos</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th></th><th>Venta B2C</th><th>Venta de servicios</th></tr></thead><tbody><tr><td>Qué se vende</td><td>Programa, infoproducto, membresía</td><td>Agencia, estudio, consultoría, producción</td></tr><tr><td>Dónde se cierra</td><td>En una llamada</td><td>En dos o tres reuniones</td></tr><tr><td>Quién decide</td><td>La persona, a veces con su pareja</td><td>Socios, gerencia, a veces compras</td></tr><tr><td>Con qué se cierra</td><td>Seña o pago adentro de la llamada</td><td>Propuesta, contrato y anticipo</td></tr><tr><td>Qué se negocia</td><td>Cupo y fecha</td><td>El alcance; el precio de cada parte se sostiene</td></tr><tr><td>Carta que sigue</td><td>La venta B2C, de punta a punta</td><td>La venta de servicios, de punta a punta</td></tr></tbody></table></div></div>",
+      "cid": 102
+    },
+    {
+      "titulo": "Tu camino",
+      "campo": "lineas",
+      "consigna": "Con lo que escribiste en la fase 1, contestá en una línea cada una. La primera es la que decide.",
+      "lineas": [
+        "¿Tu cliente paga en la llamada o espera una propuesta?",
+        "Ticket promedio",
+        "Quién decide la compra del otro lado",
+        "Cuántas reuniones hay entre la primera charla y el pago",
+        "Tu camino: B2C o servicios"
+      ],
+      "ejemplo": {
+        "quien": "The Momentum Club",
+        "texto": "Venden con webinar y link de pago, y los que dudan escriben por Instagram. Es camino B2C aunque la venta casi nunca pase por una llamada."
+      },
+      "cid": 7
+    },
+    {
+      "nuestro": true,
+      "titulo": "Fase 3 · A quién le das llamada",
+      "texto": [
+        "Calificar es decidir antes de la llamada si esa persona es para vos. Cada llamada con alguien que califica sube tu tasa de cierre y te devuelve la hora que le dedicás.",
+        "Así califica Francisca, closer de Cáscara. Se da la llamada cuando están los cuatro:",
+        "<b>Un objetivo alineado</b> · lo que quiere lograr tiene relación directa con lo que vendés.",
+        "<b>Un dolor que tu oferta resuelve</b> · algo concreto que hoy le cuesta, lo frustra o lo tiene frenado.",
+        "<b>El resultado que quiere ver</b> · cómo se ve su situación cuando el problema está resuelto.",
+        "<b>Importancia y urgencia</b> · siente que resolverlo es relevante y lo quiere resolver ahora.",
+        "Si falta uno, la conversación sigue por mensaje hasta que aparezca, o la persona va a tu contenido y vuelve cuando esté lista."
+      ],
+      "cid": 103
+    },
+    {
+      "titulo": "Tus cuatro preguntas para calificar",
+      "campo": "tabla",
+      "consigna": "Una fila por criterio: la pregunta con tus palabras, qué respuesta te dice que califica y qué hacés con quien todavía no califica.",
+      "columnas": [
+        "Criterio",
+        "Tu pregunta",
+        "Qué respuesta califica",
+        "Qué hacés si todavía no califica"
+      ],
+      "filas": 4,
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "«¿Y qué tan importante es para vos lograr eso? Si pasara en los próximos meses, ¿qué cambiaría para vos?» Es la pregunta del setter de Cáscara para medir la urgencia, antes de proponer la llamada."
+      },
+      "cid": 8
+    },
+    {
+      "nuestro": true,
+      "titulo": "Fase 4 · Dónde vive cada contacto y cada llamada",
+      "texto": [
+        "El pipeline guarda cada contacto con su próxima acción y su fecha. El registro guarda cada llamada con su resultado, su objeción y su grabación. Con los dos al día, una consulta queda a salvo de tu memoria y la lectura de la semana se hace en diez minutos."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">El recorrido de una llamada</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">01</div><div class=\"t\">Agenda</div><div class=\"s\">Entra sola al registro.</div></div><div class=\"fx-paso\"><div class=\"k\">02</div><div class=\"t\">Llamada grabada</div><div class=\"s\">Con transcripción.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">03</div><div class=\"t\">Resultado</div><div class=\"s\">El mismo día, de una lista cerrada.</div></div><div class=\"fx-paso\"><div class=\"k\">04</div><div class=\"t\">Objeción</div><div class=\"s\">Con las palabras del cliente.</div></div><div class=\"fx-paso\"><div class=\"k\">05</div><div class=\"t\">Lectura</div><div class=\"s\">Una vez por semana.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">Cómo se ve una semana del registro</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Fecha</th><th>Persona</th><th>Resultado</th><th>Objeción, tal cual</th><th>Grabación</th></tr></thead><tbody><tr><td>14/10</td><td><span class='gris'>Nombre</span></td><td>Seguimiento</td><td><span class='gris'>«Lo tengo que hablar con mi socio.»</span></td><td><span class='gris'>link</span></td></tr><tr><td>15/10</td><td><span class='gris'>Nombre</span></td><td>Cerró</td><td><span class='gris'>—</span></td><td><span class='gris'>link</span></td></tr><tr><td>15/10</td><td><span class='gris'>Nombre</span></td><td>No se presentó</td><td><span class='gris'>—</span></td><td><span class='gris'>—</span></td></tr></tbody></table></div></div>",
+      "cid": 104
+    },
+    {
+      "titulo": "Dónde vive tu pipeline hoy",
+      "consigna": "Listá cada lugar donde hoy hay un contacto: chats, Calendly, planillas, mails, la cabeza. Todo eso se vuelca a una sola base en la sección siguiente.",
+      "ejemplo": {
+        "quien": "Nicolás Lozada",
+        "texto": "Tenía las consultas repartidas entre el Calendly y los chats, y el primer accionable fue cargar todo el pipeline en una sola planilla antes de recontactar a nadie."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Dónde está",
+        "Cuántos contactos",
+        "Hace cuánto no lo mirás"
+      ],
+      "filas": 6,
+      "cid": 9
+    },
+    {
+      "titulo": "Los siete campos",
+      "consigna": "Armá la base con estos siete campos y no más: contacto, fuente, etapa, objeción, presupuesto, próxima acción y fecha. Un campo de más es un campo que nadie completa.",
+      "campo": "lineas",
+      "lineas": [
+        "Herramienta donde la armás (Notion, Airtable o planilla)",
+        "Link a la base",
+        "Cuántos contactos cargaste"
+      ],
+      "cid": 10
+    },
+    {
+      "titulo": "Las etapas con nombre propio",
+      "consigna": "Escribí las etapas de tu venta, de primer contacto a cerrado, con el nombre que usás vos. Cada etapa tiene que poder decirse con un hecho: 'agendó llamada', no 'interesado'.",
+      "ejemplo": {
+        "quien": "Bianca Antonini",
+        "texto": "Unificó su pipeline en una sola base de Notion con origen del contacto, compras y productos, porque la misma persona aparecía tres veces según por dónde había entrado."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Etapa",
+        "Qué tiene que haber pasado para estar acá"
+      ],
+      "filas": 6,
+      "cid": 11
+    },
+    {
+      "titulo": "La revisión de la semana",
+      "consigna": "Un día y una hora fijos para mover las próximas acciones vencidas. Ponelo en el calendario ahora.",
+      "campo": "lineas",
+      "lineas": [
+        "Día y hora de la revisión",
+        "Quién la hace"
+      ],
+      "cid": 12
+    },
+    {
+      "titulo": "Los resultados posibles",
+      "consigna": "Definí una lista cerrada para que todos carguen lo mismo. Con cuatro o cinco alcanza: cerró, seguimiento, no cerró, no se presentó. Para cada uno, qué pasa después.",
+      "campo": "tabla",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "Usamos estados cerrados para la llamada y para la venta. Una llamada cargada como «lo pienso» en lugar de «seguimiento» desaparece de la lista de seguimientos de la semana."
+      },
+      "columnas": [
+        "Resultado",
+        "Qué significa",
+        "Qué pasa después"
+      ],
+      "filas": 5,
+      "cid": 13
+    },
+    {
+      "titulo": "La grabación",
+      "consigna": "Una llamada grabada se puede volver a escuchar, transcribir y analizar. Elegí la herramienta, dónde queda cada grabación y cómo se liga a la persona.",
+      "campo": "lineas",
+      "lineas": [
+        "Con qué grabás",
+        "Dónde queda la grabación",
+        "Cómo se liga a la persona",
+        "Quién la escucha y cuándo"
+      ],
+      "cid": 14
+    },
+    {
+      "titulo": "Las objeciones con las palabras del cliente",
+      "consigna": "Copiá las objeciones como las dijo el cliente, sin traducirlas. Esas frases después son guiones, respuestas y contenido.",
+      "campo": "tabla",
+      "columnas": [
+        "Objeción, tal cual",
+        "Cuántas veces apareció",
+        "Qué respondiste"
+      ],
+      "filas": 6,
+      "cid": 15
+    },
+    {
+      "titulo": "La lectura de la semana",
+      "campo": "lineas",
+      "consigna": "Un día fijo por semana mirás el pipeline y el registro juntos y escribís estos números y una decisión. Son los mismos que después carga el tablero que dispara acciones.",
+      "lineas": [
+        "Conversaciones nuevas de la semana",
+        "Llamadas agendadas y cuántas se presentaron",
+        "Cierres y cuánto se cobró",
+        "Objeción que más se repitió",
+        "Próximas acciones vencidas que moviste",
+        "Qué cambiás para la próxima semana"
+      ],
+      "cid": 16
+    },
+    {
+      "titulo": "De dónde vino cada venta",
+      "consigna": "Una vez por mes, mirá de dónde vino cada venta cerrada. Es el dato que decide dónde ponés el contenido y el tiempo del mes siguiente.",
+      "campo": "tabla",
+      "columnas": [
+        "Venta",
+        "Fuente",
+        "Cuántos días tardó"
+      ],
+      "filas": 5,
+      "cid": 17
+    },
+    {
+      "nuestro": true,
+      "titulo": "Qué hacemos con esto",
+      "texto": [
+        "Con la hoja completa, Franco lee dónde se cae tu venta y el CSM te asigna la carta de tu camino. De las llamadas grabadas sacamos las objeciones que se repiten, que después son guion y contenido."
+      ],
+      "cid": 105
+    }
+  ]
+}

@@ -1155,6 +1155,101 @@
       "porque": "Varios casos tienen oferta, audiencia y nada que lleve de la conversación a la plata, y las llamadas se caen siempre en el mismo lugar.",
       "modulos": [
         {
+          "id": "proceso-comercial",
+          "nombre": "Tu proceso comercial",
+          "nivel": "troncal",
+          "para_quien": "Todo founder, después de la auditoría de clientes y antes de cualquier carta de venta o de abrir canales nuevos.",
+          "eje": [
+            "venta"
+          ],
+          "resultado": "El proceso de venta escrito tal como pasa hoy, el camino elegido (B2C o servicios), los criterios para dar llamada, el pipeline con próxima acción en cada contacto y el registro de llamadas con su lectura semanal.",
+          "pasos": [
+            "Escribir el camino de una consulta tal como pasa hoy, con las últimas consultas y dos llamadas grabadas.",
+            "Elegir el camino de venta: B2C o servicios.",
+            "Escribir las cuatro preguntas para calificar antes de dar llamada.",
+            "Volcar todos los contactos a un pipeline con próxima acción y fecha.",
+            "Registrar cada llamada con resultado, objeción y grabación, y hacer la lectura de la semana."
+          ],
+          "completar": [
+            "Cómo vendés hoy",
+            "Tu camino",
+            "Tus preguntas para calificar",
+            "El pipeline y el registro",
+            "La lectura de la semana"
+          ],
+          "herramientas": [
+            "Notion, Airtable o una planilla",
+            "Fathom para las llamadas"
+          ],
+          "evidencia": "Suma la auditoría del proceso comercial, el pipeline de siete campos y el registro de llamadas de Teo, con el criterio de calificación de Francisca (Procesos Comerciales Cáscara, 17/10). Facu, 19/10: menos cartas comerciales y más completas.",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "venta-b2c",
+          "nombre": "La venta B2C, de punta a punta",
+          "nivel": "1",
+          "para_quien": "Cuando el founder vende un programa, un infoproducto o una membresía que se cierra en una llamada, y ya tiene su proceso comercial escrito.",
+          "eje": [
+            "venta"
+          ],
+          "resultado": "Siete mensajes de setting, el guion de llamada propio, las objeciones con su reframe, el cierre con cupo, fecha y seña, el seguimiento hecho y cinco llamadas grabadas y revisadas.",
+          "pasos": [
+            "Escribir los siete mensajes de setting y medir una semana de conversaciones y agendas.",
+            "Escribir el guion de la llamada tramo por tramo.",
+            "Armar la planilla de objeciones con los reframes que te salen.",
+            "Definir el cierre con cupo, fecha y seña, el downsell y el seguimiento de 24 a 48 horas.",
+            "Hacer cinco llamadas grabadas con el precio dicho y revisar dos por mes."
+          ],
+          "completar": [
+            "Tus siete mensajes",
+            "El guion",
+            "La planilla de objeciones",
+            "El cierre y el seguimiento",
+            "Las grabaciones"
+          ],
+          "herramientas": [
+            "WhatsApp o Instagram para el setting",
+            "Fathom para las llamadas",
+            "Link de pago"
+          ],
+          "evidencia": "Absorbe la llamada de venta y el cierre. Suma el setting, los mensajes fijos y la calificación de Francisca (Procesos Comerciales Cáscara, 17/10), con sus llamadas grabadas como referencia. Facu, 19/10.",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
+          "id": "venta-de-servicios",
+          "nombre": "La venta de servicios, de punta a punta",
+          "nivel": "1",
+          "para_quien": "Cuando el founder vende un servicio que se cierra con propuesta (agencia, estudio, consultora o productora), con más de una persona decidiendo del otro lado.",
+          "eje": [
+            "venta"
+          ],
+          "resultado": "La base trabajándose con número diario, las preguntas de diagnóstico y su brief, la plantilla de propuesta, la presentación con su seguimiento y una venta real llevada hasta el kickoff.",
+          "pasos": [
+            "Juntar la base, ordenarla por cercanía y trabajarla con número diario.",
+            "Escribir las preguntas de diagnóstico y el brief que sale de la reunión.",
+            "Armar el esqueleto fijo de la propuesta.",
+            "Presentar en vivo, escribir las respuestas a las objeciones y hacer tres seguimientos con fecha.",
+            "Definir contrato, anticipo y kickoff, y correr una venta real de punta a punta."
+          ],
+          "completar": [
+            "La base y el número diario",
+            "Diagnóstico y brief",
+            "La propuesta",
+            "Objeciones y seguimiento",
+            "El cierre y la primera venta"
+          ],
+          "herramientas": [
+            "El pipeline de Tu proceso comercial",
+            "Google Slides o Canva para la propuesta",
+            "Fathom para las reuniones"
+          ],
+          "evidencia": "Absorbe el recontacto y la prospección y la propuesta comercial. Suma la reunión de diagnóstico, la presentación en vivo, la negociación por alcance y el paso al kickoff. Facu, 19/10.",
+          "estado": "nueva",
+          "estado_galeria": ""
+        },
+        {
           "id": "auditoria-proceso-comercial",
           "nombre": "Auditoría del proceso comercial",
           "nivel": "troncal",
@@ -1212,7 +1307,8 @@
               "descripcion": ""
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "absorbida_en": "proceso-comercial"
         },
         {
           "id": "pipeline-7-campos",
@@ -1244,7 +1340,8 @@
           ],
           "estado": "existe",
           "evidencia": "El pipeline de siete campos lo armó Teo con Andrea en Notion y se replico: Bianca unifica el suyo con origen del contacto, compras y productos; Matías arma la base con motivo y estado de cada contacto; Nico carga todo el pipeline en una planilla; Manu tiene la base de datos central de leads; Antonio anota cada contacto con fecha y tema; Lucca y Lucio anotan el canal de cada consulta.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "absorbida_en": "proceso-comercial"
         },
         {
           "id": "prospeccion-y-recontacto",
@@ -1276,7 +1373,8 @@
           ],
           "estado": "existe",
           "evidencia": "El recontacto sobre la base historica ya funcionó en Custom Lab y es su motor de ventas de corto plazo. Nico tiene que recontactar cinco personas por día y hacer veinte contactos nuevos por semana. José David junta y ordena la base de leads viejos. Lucca tiene que contactar veinte dueños por semana con un caso adelante. Matías arma la base para el lanzamiento. El pilar de venta pide cincuenta prospectos y veinte conversaciones abiertas.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "absorbida_en": "venta-de-servicios"
         },
         {
           "id": "llamada-de-venta",
@@ -1308,7 +1406,8 @@
           ],
           "estado": "existe",
           "evidencia": "El criterio completo se le bajó a Lola: encontrar el dolor, mostrar el costo de no avanzar, cupos limitados y seña, con la regla de vender una sola opción y el downsell solo adentro de la llamada. Franco revisa las tres llamadas grabadas de Lola. Nico tiene que agendar y grabar tres llamadas. Seba y José David registran la objeción de cada llamada que no cerró. Sofía pasó el discovery a llamada de treinta minutos sobre Miro o Canva. Desde el 14/10 la hoja sigue los tramos, las preguntas, los reframes y el seguimiento del guion de cierre que usa Cáscara (Franco, 6/10), pasados al servicio de cada founder.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "absorbida_en": "venta-b2c"
         },
         {
           "id": "propuesta-comercial",
@@ -1339,7 +1438,8 @@
           ],
           "estado": "existe",
           "evidencia": "El esqueleto está documentado y es el que Cáscara usa en todas sus propuestas. Sol tiene que presentar la oferta nueva con el precio nuevo en por lo menos una propuesta real. Sharon tiene que presentar la propuesta de Mars con precio. José David tiene que presentar diez propuestas con el resultado escrito en número. Matías cerró todas las propuestas que armó.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "absorbida_en": "venta-de-servicios"
         },
         {
           "id": "setter-closer",
@@ -1422,7 +1522,8 @@
             }
           ],
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "absorbida_en": "proceso-comercial"
         },
         {
           "id": "venta-que-dispara-todo",
@@ -3531,12 +3632,10 @@
     "formato-barato",
     "diez-piezas-y-lectura",
     "cinco-llamadas-con-precio",
-    "auditoria-proceso-comercial",
+    "proceso-comercial",
     "funnel-de-servicio",
-    "pipeline-7-campos",
-    "prospeccion-y-recontacto",
-    "llamada-de-venta",
-    "propuesta-comercial",
+    "venta-b2c",
+    "venta-de-servicios",
     "caso-documentado",
     "captura-y-seguimiento",
     "landing-que-convierte",
@@ -3571,7 +3670,6 @@
     "formulario-a-la-base",
     "tareas-programadas",
     "webhook-unico-y-atribucion",
-    "registro-de-llamadas",
     "venta-que-dispara-todo",
     "lanzamiento-operado",
     "cierre-del-mes-equipo",

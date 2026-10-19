@@ -17,7 +17,7 @@ DUENOS=[
   "Oferta, pricing, demanda pagada y todo lo comercial. Sos el que convierte la estrategia en plata, "
   "así que son las que más se tocan cuando un founder no vende.",
   ["icp-mecanismo","one-sheeter-oferta","precio-escalera","cinco-llamadas-con-precio",
-   "auditoria-proceso-comercial","funnel-de-servicio","pipeline-7-campos","prospeccion-y-recontacto","llamada-de-venta","propuesta-comercial","setter-closer",
+   "proceso-comercial","venta-b2c","venta-de-servicios","auditoria-proceso-comercial","funnel-de-servicio","pipeline-7-campos","prospeccion-y-recontacto","llamada-de-venta","propuesta-comercial","setter-closer",
    "handraisers-historias","calendario-lanzamiento","webinar-de-venta","resultados-lanzamiento","tablero-que-dispara-acciones"]),
  ("fede","Fede","Contenido y estrategia",
   "Perfil, ángulos, calendario y volumen. Son las que hacen que el founder tenga de dónde agarrarse "
