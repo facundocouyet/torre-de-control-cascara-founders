@@ -166,9 +166,9 @@
           "estado": "existe",
           "evidencia": "Agostina: la cabeza partida en dos entre el estudio con su socia y el proyecto propio, con la conversación de fondo pendiente. Sol Boutmy: Sol y Fede hacen lo mismo y las dos están adentro de la producción. Custom Lab: Piero en creativo y Juan en comercial, con el reparto sin escribir.",
           "estado_galeria": "aprobada",
-          "tipo": "carta",
-          "sops": [],
-          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
+          "tipo": "consultoria",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project).",
+          "nota_tipo": "Se trata en la Clarity Call y en las 1:1 cuando aparece (Facu, 21/10)."
         }
       ]
     },
@@ -3936,7 +3936,6 @@
   ],
   "orden_sugerido": [
     "auditoria-de-clientes",
-    "sociedad-y-roles",
     "icp-mecanismo",
     "one-sheeter-oferta",
     "profile-funnel",
