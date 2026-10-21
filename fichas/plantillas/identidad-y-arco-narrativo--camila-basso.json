@@ -1,0 +1,117 @@
+{
+  "modulo": "identidad-y-arco-narrativo",
+  "slug": "camila-basso",
+  "founder": "Camila Basso",
+  "nombre": "Tu historia y tu marca personal",
+  "titulo": "La hoja de tu historia y tu marca personal",
+  "bajada": "Tu historia contada por vos: cómo eras antes y cómo sos ahora, lo difícil, lo que creías, cómo evolucionaste y lo que defendés. Es la base de tu marca personal y del contenido de BUCK que vas a contar.",
+  "lista_cuando": "Están escritos tu antes y después, los momentos difíciles, las creencias, tu evolución, tus valores y qué tipo de marca personal querés construir.",
+  "por_que_propia": "Forma B. Facu, 21/10 (llamada con Camila): la narrativa se parte en dos; las preguntas personales del pasaporte de La Cáscara salen de «La narrativa de BUCK» y quedan acá, para ordenar su historia y su marca personal antes del contenido. Se usa el código de identidad y arco narrativo porque pasaporte-digital ya es su versión de BUCK.",
+  "bajada_envio": {
+    "founder": "Camila Basso",
+    "porque": "En la llamada del 21/10 quedó que antes de comunicar hay que ordenar tu historia. Estas preguntas son las que bajan la información que hoy está flotando por todos lados.",
+    "objetivo": "Tu historia escrita, con lo bueno y lo malo, para armar con eso y con la narrativa de BUCK la devolución de toda la narrativa.",
+    "mindset": "Buscá la respuesta verdadera, la linda no hace falta. Si algo no lo sabés todavía, escribilo así: también es información."
+  },
+  "secciones": [
+    {
+      "cid": 0,
+      "nuestro": true,
+      "titulo": "Cómo se completa esto",
+      "texto": [
+        "Son las preguntas que usamos en La Cáscara para que cada creativo baje su historia y su identidad. Acá hablás vos, Camila, y no BUCK.",
+        "Son las más difíciles de contestar: lo bueno y lo malo, lo que te costó y lo que creías. Escribilo como te sale, sin pulirlo. Si una pregunta no te representa o no sabés qué poner, escribí eso mismo y seguí.",
+        "Ordena lo que hoy está flotando por todos lados. Con esto y la narrativa de BUCK te mando una devolución en un solo documento."
+      ]
+    },
+    {
+      "titulo": "Estado antes y después de la transformación",
+      "consigna": "Describe cómo era tu vida antes de iniciar en tu área/oficio/profesión, qué problemas, miedos o frustraciones tenías y cómo es tu vida ahora después del cambio.",
+      "campo": "lineas",
+      "lineas": [
+        "Antes",
+        "Después"
+      ],
+      "cid": 1
+    },
+    {
+      "titulo": "Desafíos y obstáculos",
+      "consigna": "Las dificultades que enfrentaste son tan importantes como los logros ya que generan conexión emocional con tu audiencia.",
+      "campo": "lineas",
+      "lineas": [
+        "¿Cuáles fueron los momentos más difíciles en tu camino (personal y/o laboral) y cómo los superaste?",
+        "¿Qué lección o consejo de vida te ha servido más en tu camino? ¿Dónde o de quién la aprendiste?"
+      ],
+      "cid": 2
+    },
+    {
+      "titulo": "Creencias falsas",
+      "consigna": "Identificá las creencias erróneas que tenías al inicio y las que tienen ahora las personas a las que ayudás. Pueden ser de tu círculo cercano o de tus seguidores. Escribí las de la segunda pregunta en formato lista y de manera breve, para poder identificarlas fácilmente.",
+      "campo": "lineas",
+      "lineas": [
+        "¿Cuáles eran las creencias limitantes que te impedían avanzar?",
+        "¿Cuáles son las creencias limitantes que más comúnmente escuchás a tu alrededor o alrededor de tu profesión?",
+        "¿Por qué estas creencias son falsas?",
+        "¿Tu servicio hacia el mundo tiene que ver con ayudar a otro a darse cuenta de que estas creencias son falsas? (sí / no / tal vez, no lo sé aún)"
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "Tres escenas que definan tu sensibilidad",
+      "consigna": "Elegí 3 escenas de tu vida que definan tu sensibilidad o tu manera de mirar. Pueden ser escenas del día a día, un momento del día, una parte de tu casa, cualquier situación o atmósfera que represente tu estilo. Para cada una, describí: cómo aparece en tu estética actual, qué aporta a tu universo visual y qué simboliza de tu identidad.",
+      "campo": "lineas",
+      "lineas": [
+        "Escena 1",
+        "Escena 2",
+        "Escena 3"
+      ],
+      "cid": 4
+    },
+    {
+      "titulo": "Evolución personal",
+      "consigna": "Reflexionemos sobre tu transformación a lo largo del tiempo.",
+      "campo": "lineas",
+      "lineas": [
+        "¿Qué descubriste de tu forma de pensar, observar o sentir durante estos años?",
+        "¿Qué símbolo representa la evolución que atravesaste?",
+        "Si tu evolución fuera un capítulo, ¿cómo se llamaría?",
+        "¿Qué versión de vos se volvió más real con el tiempo?"
+      ],
+      "cid": 5
+    },
+    {
+      "titulo": "Opiniones, creencias y valores",
+      "consigna": "Los valores y las creencias en formato lista. La última es la que más gente saltea y la que más sirve después: describí tu creatividad como si fuera una persona, física e internamente.",
+      "campo": "lineas",
+      "lineas": [
+        "¿Cuáles son los valores más importantes que te representan?",
+        "¿Cuáles son las creencias o la filosofía de vida más fuertes que defendés en tu vida y en tu trabajo?",
+        "¿Qué tema difícil o desconocido te atrae pero aún no te animás a explorar?",
+        "Si tuvieras que describir a tu creatividad como si fuera una persona, ¿qué dirías de ella?"
+      ],
+      "cid": 6
+    },
+    {
+      "titulo": "Qué tipo de marca personal estás construyendo",
+      "consigna": "Podés elegir más de una. Las opciones son: enseñar y aportar conocimiento como experto en tu nicho; inspirar a otros a lanzarse en este mercado; mostrar tu trabajo a modo de portfolio para conseguir más clientes; o crear el día de mañana un negocio, agencia o marca para generar cultura alrededor de tu creación —y si es esta última, indicá cuál: agencia, infoproducto, curso o workshops, marca de ecommerce.",
+      "campo": "texto",
+      "alto": 4,
+      "cid": 7
+    },
+    {
+      "cid": 30,
+      "nuestro": true,
+      "titulo": "Qué pasa con esto después",
+      "texto": [
+        "Con tu historia y la de BUCK escritas, armamos la devolución de la narrativa completa y la llevás a la grupal de Juana, que es la que más trabaja la narrativa de las marcas. De ahí sale cómo hacer contenido con todo esto ordenado."
+      ]
+    }
+  ],
+  "pasos": [
+    "Escribir el antes y el después.",
+    "Contar los momentos difíciles y lo que aprendiste.",
+    "Escribir las creencias que te frenaban.",
+    "Contar cómo evolucionaste y qué valores defendés.",
+    "Escribir qué tipo de marca personal querés construir."
+  ]
+}

@@ -212,14 +212,13 @@
     },
     "camila-basso": {
       "activa": "pasaporte-digital--camila-basso",
-      "siguiente": "angulos-desde-icp",
-      "en_paralelo": [
-        "icp-mecanismo--camila-basso"
-      ],
+      "siguiente": "identidad-y-arco-narrativo--camila-basso",
       "despues": [
+        "icp-mecanismo--camila-basso",
+        "angulos-desde-icp",
         "calendario-contenido"
       ],
-      "por_que": "Clarity Call del 14/10 (Fathom 192700469): Facu le prometió narrativa, cliente ideal y estrategia de contenido orgánico. Facu, 16/10, done with you: 1) narrativa de BUCK (pasaporte adaptado a marca de ropa), 2) moodboard, que ya tiene y se actualiza en la misma carta, 3) ángulos de comunicación desde la narrativa, el cliente ideal y la conceptualización, 4) calendario de contenido de la colección de verano. El cliente ideal va en paralelo porque los ángulos lo necesitan.",
+      "por_que": "21/10, llamada con Facu: la narrativa se parte en dos. Activa «La narrativa de BUCK», que quedó solo con la marca (le falta el moodboard); sigue «Tu historia y tu marca personal», con las preguntas personales del pasaporte. Con las dos, Facu le da una devolución de toda la narrativa para trabajar con Juana. Después cliente ideal, ángulos y el calendario de la colección de verano. Grupales: Juana y Fede primero; la de Teo y la de Franco más adelante.",
       "inicio": "2026-10-16"
     },
     "marcelo-fernandez": {

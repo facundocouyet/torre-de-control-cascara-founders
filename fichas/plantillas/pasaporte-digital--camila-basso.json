@@ -1,165 +1,107 @@
 {
- "modulo": "pasaporte-digital",
- "slug": "camila-basso",
- "founder": "Camila Basso",
- "nombre": "La narrativa de BUCK",
- "titulo": "La hoja de la narrativa de BUCK",
- "bajada": "Tu historia y la de BUCK, cómo funciona la marca, sus productos y cómo suena, escritas en un solo lugar. Al final, el moodboard que ya tenés, actualizado. De acá salen los ángulos de comunicación.",
- "lista_cuando": "Está escrita la historia, qué es BUCK y qué querés que sea, los productos con lo que llega para el verano, cómo suena la marca y el moodboard actualizado con la dirección nueva.",
- "por_que_propia": "Forma B: Camila tiene una marca de producto y ya tiene moodboard (manual de marca, Figma y brief visual). Del pasaporte quedan la historia, la marca y el tono; las preguntas de marca personal pasan a BUCK, producto se arma para una marca de ropa y la parte visual se reemplaza por actualizar el moodboard que ya existe. Facu, 16/10: paso 1 narrativa, paso 2 moodboard, después ángulos y calendario. Done with you: lo hace ella con los pasos.",
- "bajada_envio": {
+  "modulo": "pasaporte-digital",
+  "slug": "camila-basso",
   "founder": "Camila Basso",
-  "porque": "En la Clarity quedó que lo primero es la narrativa de BUCK: de dónde viene, qué es y por qué existe, contada por vos. Sin eso, el contenido sale suelto y la pauta empuja algo que todavía no tiene rumbo.",
-  "objetivo": "La narrativa de BUCK escrita y el moodboard actualizado con la dirección nueva. Con eso y tu cliente ideal bajás los ángulos de comunicación y después el calendario de la colección de verano.",
-  "mindset": "Escribilo como te sale, sin pulirlo. Lo que te costó, lo que hiciste mal y lo que estás aprendiendo es lo que hace que BUCK no se parezca a ninguna otra marca. Lo tosco lo afilamos juntas."
- },
- "secciones": [
-  {
-   "cid": 0,
-   "nuestro": true,
-   "titulo": "Cómo se completa esto",
-   "texto": [
-    "Este es el formulario que usamos para bajar la narrativa de una marca: de dónde viene, qué es y por qué existe. Son las preguntas del pasaporte de La Cáscara, adaptadas a una marca de ropa.",
-    "Donde dice «vos», pensalo como vos y BUCK juntas: al principio la marca es tu historia.",
-    "Se completa de arriba a abajo. Primero la historia y la marca, después los productos y al final el moodboard, que ya tenés empezado. Ese orden importa: lo visual sale de lo que contaste antes.",
-    "No busques la respuesta linda, buscá la verdadera. Si algo no lo tenés resuelto, escribí eso mismo: también es información."
-   ]
+  "nombre": "La narrativa de BUCK",
+  "titulo": "La hoja de la narrativa de BUCK",
+  "bajada": "Qué es BUCK y qué querés que sea, sus productos, cómo suena y el moodboard actualizado con la dirección nueva, escritos en un solo lugar. De acá y de tu historia salen los ángulos de comunicación.",
+  "lista_cuando": "Está escrito qué es BUCK y qué querés que sea, los productos con lo que llega para el verano, cómo suena la marca y el moodboard actualizado.",
+  "por_que_propia": "Forma B: Camila tiene una marca de producto y ya tiene moodboard (manual de marca, Figma y brief visual). Del pasaporte quedan la historia, la marca y el tono; las preguntas de marca personal pasan a BUCK, producto se arma para una marca de ropa y la parte visual se reemplaza por actualizar el moodboard que ya existe. Facu, 16/10: paso 1 narrativa, paso 2 moodboard, después ángulos y calendario. Done with you: lo hace ella con los pasos. Facu, 21/10 (llamada con Camila): la narrativa se parte en dos; acá queda solo BUCK y las preguntas de su historia personal pasan a «Tu historia y tu marca personal».",
+  "bajada_envio": {
+    "founder": "Camila Basso",
+    "porque": "En la llamada del 21/10 ordenamos la narrativa en dos partes: BUCK por un lado y tu historia por otro. Esta hoja quedó solo con la marca, y lo que ya escribiste sigue acá.",
+    "objetivo": "El moodboard actualizado con la dirección nueva, la ciudad y la escapada, con el link pegado al final. Es lo único que te falta de esta hoja.",
+    "mindset": "Empezá por lo que ya tenés: el manual, el Figma y el brief. Marcá qué queda, qué sale y qué falta, sin rehacer nada de cero."
   },
-  {
-   "titulo": "Estado antes y después de la transformación",
-   "consigna": "Describe cómo era tu vida antes de iniciar en tu área/oficio/profesión, qué problemas, miedos o frustraciones tenías y cómo es tu vida ahora después del cambio.",
-   "campo": "lineas",
-   "lineas": [
-    "Antes",
-    "Después"
-   ],
-   "cid": 1
-  },
-  {
-   "titulo": "Desafíos y obstáculos",
-   "consigna": "Las dificultades que enfrentaste son tan importantes como los logros ya que generan conexión emocional con tu audiencia.",
-   "campo": "lineas",
-   "lineas": [
-    "¿Cuáles fueron los momentos más difíciles en tu camino (personal y/o laboral) y cómo los superaste?",
-    "¿Qué lección o consejo de vida te ha servido más en tu camino? ¿Dónde o de quién la aprendiste?"
-   ],
-   "cid": 2
-  },
-  {
-   "titulo": "Creencias falsas",
-   "consigna": "Identificá las creencias erróneas que tenías al inicio y las que tienen ahora las personas a las que ayudás. Pueden ser de tu círculo cercano o de tus seguidores. Escribí las de la segunda pregunta en formato lista y de manera breve, para poder identificarlas fácilmente.",
-   "campo": "lineas",
-   "lineas": [
-    "¿Cuáles eran las creencias limitantes que te impedían avanzar?",
-    "¿Cuáles son las creencias limitantes que más comúnmente escuchás a tu alrededor o alrededor de tu profesión?",
-    "¿Por qué estas creencias son falsas?",
-    "¿Tu servicio hacia el mundo tiene que ver con ayudar a otro a darse cuenta de que estas creencias son falsas? (sí / no / tal vez, no lo sé aún)"
-   ],
-   "cid": 3
-  },
-  {
-   "titulo": "Evolución personal",
-   "consigna": "Reflexionemos sobre tu transformación a lo largo del tiempo.",
-   "campo": "lineas",
-   "lineas": [
-    "¿Qué descubriste de tu forma de pensar, observar o sentir durante estos años?",
-    "¿Qué símbolo representa la evolución que atravesaste?",
-    "Si tu evolución fuera un capítulo, ¿cómo se llamaría?",
-    "¿Qué versión de vos se volvió más real con el tiempo?"
-   ],
-   "cid": 5
-  },
-  {
-   "titulo": "Opiniones, creencias y valores",
-   "consigna": "Los valores y las creencias en formato lista. La última es la que más gente saltea y la que más sirve después: describí tu creatividad como si fuera una persona, física e internamente.",
-   "campo": "lineas",
-   "lineas": [
-    "¿Cuáles son los valores más importantes que te representan?",
-    "¿Cuáles son las creencias o la filosofía de vida más fuertes que defendés en tu vida y en tu trabajo?",
-    "¿Qué tema difícil o desconocido te atrae pero aún no te animás a explorar?",
-    "Si tuvieras que describir a tu creatividad como si fuera una persona, ¿qué dirías de ella?"
-   ],
-   "cid": 6
-  },
-  {
-   "titulo": "Qué es BUCK y qué querés que sea",
-   "consigna": "Qué es BUCK hoy y qué querés que sea en un año: una marca de ropa, una comunidad como The Outsiders Club, planes y experiencias, o una mezcla. Contá también qué lugar ocupás vos: la que diseña, la que cuenta, la que arma los planes.",
-   "campo": "texto",
-   "alto": 4,
-   "cid": 7
-  },
-  {
-   "cid": 8,
-   "titulo": "Los productos de BUCK",
-   "consigna": "Todo lo que vende BUCK hoy y lo que llega. Si algo no lo tenés resuelto, escribí eso mismo.",
-   "campo": "lineas",
-   "lineas": [
-    "Lo que vendés hoy: cada producto, para qué se usa y a cuánto",
-    "Cuáles son de producción tuya y cuáles de proveedor",
-    "El que más se vendió y por qué creés que pasó",
-    "Lo que llega para el verano: qué, cuántas unidades y cuándo",
-    "Las térmicas del contenedor: cuántas, cuándo y si van por mayor o a la tienda",
-    "El producto que mejor cuenta lo que es BUCK, y por qué"
-   ]
-  },
-  {
-   "titulo": "Tu necesidad de hoy y tu diferencial",
-   "consigna": "Las tres preguntas que cierran el bloque de la marca, pensadas para BUCK.",
-   "campo": "lineas",
-   "lineas": [
-    "¿Cuál es tu principal necesidad en este momento en términos de marketing y contenido?",
-    "¿Qué aspecto del negocio te gustaría mejorar primero?",
-    "¿En qué te gustaría que tu marca personal sea diferente de otras en tu nicho? ¿Qué cosas de tu personalidad ves como diferencial para apalancarnos en ellas?"
-   ],
-   "cid": 9
-  },
-  {
-   "titulo": "La sensación como objetivo",
-   "consigna": "Una sola pregunta, y es la bisagra del pasaporte: de acá sale el tono de todo lo demás.",
-   "campo": "texto",
-   "alto": 3,
-   "placeholder": "¿Cómo te gustaría sentirte en un momento dado, sin importar las emociones que estés sintiendo en ese momento?",
-   "cid": 10
-  },
-  {
-   "titulo": "Cómo suena tu presencia digital",
-   "consigna": "El tono: íntima, directa, reflexiva, técnica, irónica, suave, firme o minimalista. Para elegir: ¿cómo hablás cuando sos vos? ¿qué tono te incomoda porque no sos vos? ¿cómo querés que la gente te lea? Después cinco palabras ancla —las que se repiten naturalmente cuando escribís—, tres frases que tu marca diría, y tres cosas que tu comunicación no va a ser. Esto último es lo que limpia la identidad.",
-   "campo": "lineas",
-   "lineas": [
-    "Mi voz escrita se siente…",
-    "Cinco palabras ancla",
-    "Tres frases que mi marca diría",
-    "Tres cosas que mi comunicación NO va a ser"
-   ],
-   "cid": 17
-  },
-  {
-   "cid": 21,
-   "titulo": "Tu moodboard, el que ya tenés",
-   "consigna": "Ya tenés el manual de marca, el tablero de Figma de BUCK y el brief visual. No hace falta empezar de cero: abrilos al lado de lo que escribiste arriba y actualizalos con la dirección nueva, la ciudad y la escapada en lugar del outdoor técnico. Anotá qué queda, qué sale y qué falta, y pegá el link del moodboard actualizado.",
-   "campo": "lineas",
-   "lineas": [
-    "Lo que queda del moodboard actual",
-    "Lo que sale, porque era de la etapa outdoor",
-    "Lo que falta sumar",
-    "El link del moodboard actualizado"
-   ]
-  },
-  {
-   "cid": 22,
-   "nuestro": true,
-   "titulo": "Qué pasa con esto después",
-   "texto": [
-    "Con la narrativa y el moodboard escritos, y con la hoja del cliente ideal, el paso siguiente es bajar los ángulos de comunicación: de qué le hablás a tu cliente, desde tu historia y desde lo que es BUCK. Después, el calendario de contenido de la colección de verano.",
-    "Lo armás vos con los pasos de cada carta, y lo revisamos juntas en las llamadas y en las grupales."
-   ]
-  }
- ],
- "pasos": [
-  "Escribir tu historia y la de BUCK: el antes y el después, lo difícil, lo que creías.",
-  "Escribir qué es BUCK y qué querés que sea.",
-  "Ordenar los productos: lo que vendés y lo que llega para el verano.",
-  "Escribir cómo suena la marca.",
-  "Actualizar el moodboard que ya tenés con la dirección nueva."
- ]
+  "secciones": [
+    {
+      "cid": 0,
+      "nuestro": true,
+      "titulo": "Cómo se completa esto",
+      "texto": [
+        "Esta hoja es solo de BUCK: qué es, qué querés que sea, sus productos, cómo suena y el moodboard. Tu historia personal tiene su propia carta, «Tu historia y tu marca personal».",
+        "Las secciones de la marca ya las completaste. Te queda el moodboard: abrí el manual de marca, el Figma y el brief visual al lado de lo que escribiste y actualizalos con la dirección nueva.",
+        "Con las dos cartas completas te mando una devolución de toda la narrativa en un solo documento, para que la trabajes también con Juana en su grupal."
+      ]
+    },
+    {
+      "titulo": "Qué es BUCK y qué querés que sea",
+      "consigna": "Qué es BUCK hoy y qué querés que sea en un año: una marca de ropa, una comunidad como The Outsiders Club, planes y experiencias, o una mezcla. Contá también qué lugar ocupás vos: la que diseña, la que cuenta, la que arma los planes.",
+      "campo": "texto",
+      "alto": 4,
+      "cid": 7
+    },
+    {
+      "cid": 8,
+      "titulo": "Los productos de BUCK",
+      "consigna": "Todo lo que vende BUCK hoy y lo que llega. Si algo no lo tenés resuelto, escribí eso mismo.",
+      "campo": "lineas",
+      "lineas": [
+        "Lo que vendés hoy: cada producto, para qué se usa y a cuánto",
+        "Cuáles son de producción tuya y cuáles de proveedor",
+        "El que más se vendió y por qué creés que pasó",
+        "Lo que llega para el verano: qué, cuántas unidades y cuándo",
+        "Las térmicas del contenedor: cuántas, cuándo y si van por mayor o a la tienda",
+        "El producto que mejor cuenta lo que es BUCK, y por qué"
+      ]
+    },
+    {
+      "titulo": "Tu necesidad de hoy y tu diferencial",
+      "consigna": "Las tres preguntas que cierran el bloque de la marca, pensadas para BUCK.",
+      "campo": "lineas",
+      "lineas": [
+        "¿Cuál es tu principal necesidad en este momento en términos de marketing y contenido?",
+        "¿Qué aspecto del negocio te gustaría mejorar primero?",
+        "¿En qué te gustaría que tu marca personal sea diferente de otras en tu nicho? ¿Qué cosas de tu personalidad ves como diferencial para apalancarnos en ellas?"
+      ],
+      "cid": 9
+    },
+    {
+      "titulo": "La sensación como objetivo",
+      "consigna": "Una sola pregunta, y es la bisagra del pasaporte: de acá sale el tono de todo lo demás.",
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "¿Cómo te gustaría sentirte en un momento dado, sin importar las emociones que estés sintiendo en ese momento?",
+      "cid": 10
+    },
+    {
+      "titulo": "Cómo suena tu presencia digital",
+      "consigna": "El tono: íntima, directa, reflexiva, técnica, irónica, suave, firme o minimalista. Para elegir: ¿cómo hablás cuando sos vos? ¿qué tono te incomoda porque no sos vos? ¿cómo querés que la gente te lea? Después cinco palabras ancla —las que se repiten naturalmente cuando escribís—, tres frases que tu marca diría, y tres cosas que tu comunicación no va a ser. Esto último es lo que limpia la identidad.",
+      "campo": "lineas",
+      "lineas": [
+        "Mi voz escrita se siente…",
+        "Cinco palabras ancla",
+        "Tres frases que mi marca diría",
+        "Tres cosas que mi comunicación NO va a ser"
+      ],
+      "cid": 17
+    },
+    {
+      "cid": 21,
+      "titulo": "Tu moodboard, el que ya tenés",
+      "consigna": "Ya tenés el manual de marca, el tablero de Figma de BUCK y el brief visual. No hace falta empezar de cero: abrilos al lado de lo que escribiste arriba y actualizalos con la dirección nueva, la ciudad y la escapada en lugar del outdoor técnico. Anotá qué queda, qué sale y qué falta, y pegá el link del moodboard actualizado.",
+      "campo": "lineas",
+      "lineas": [
+        "Lo que queda del moodboard actual",
+        "Lo que sale, porque era de la etapa outdoor",
+        "Lo que falta sumar",
+        "El link del moodboard actualizado"
+      ]
+    },
+    {
+      "cid": 22,
+      "nuestro": true,
+      "titulo": "Qué pasa con esto después",
+      "texto": [
+        "Con la narrativa y el moodboard escritos, y con la hoja del cliente ideal, el paso siguiente es bajar los ángulos de comunicación: de qué le hablás a tu cliente, desde tu historia y desde lo que es BUCK. Después, el calendario de contenido de la colección de verano.",
+        "Lo armás vos con los pasos de cada carta, y lo revisamos juntas en las llamadas y en las grupales."
+      ]
+    }
+  ],
+  "pasos": [
+    "Escribir qué es BUCK y qué querés que sea.",
+    "Ordenar los productos: lo que vendés y lo que llega para el verano.",
+    "Escribir cómo suena la marca.",
+    "Actualizar el moodboard que ya tenés con la dirección nueva."
+  ]
 }
