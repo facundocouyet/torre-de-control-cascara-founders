@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Miércoles 21 de octubre (tarde)
+
+Segunda pasada: la torre al día con lo que cerraste hoy con Seba y la llamada de Delfina con Franco.
+
+- **Seba en la torre.** La ficha y el seguimiento con la 1:1 de hoy: oferta cruzada, bootcamp del 16 al 18/11 y la pelota en él hasta el 26/10.
+- **Delfina Corsalini.** En ingresos, la llamada con Franco del 21/10: alto ticket que vende un resultado, packs como downsell y relanzamiento en enero.
+- **José David.** Pidió las tomas del video con Fede; Aye se las pide al equipo.
+
+**Para mirar antes de subir:** el seguimiento de José David y la nota de Delfina.
+
 ## 21 de octubre de 2026
 
 Volviste a Buenos Aires y la torre se pone al día con el lunes y el martes: entran dos ingresos y cuatro clientes te esperan a vos.
