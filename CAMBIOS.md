@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## 21 de octubre de 2026
+
+Volviste a Buenos Aires y la torre se pone al día con el lunes y el martes: entran dos ingresos y cuatro clientes te esperan a vos.
+
+- **Ingresos.** Tomás Visser (START 15/10) y Marcela Ospital (START 17/10) hicieron el onboarding con Teo el 19/10; los dos esperan la Clarity con vos.
+- **Pelota en vos.** Sofía Galvis (ya vio a Franco y pide agenda esta semana), The Momentum Club (esperan tu orden para agendar con Franco), Sol (piden fecha) y Seba (1:1 de hoy).
+- **Agos.** Franco y vos el jueves 22/10, a las 10:00 y a las 11:30.
+
+**Para mirar antes de subir:** nada en revisión; son `contenido/ingresos.json` y `contenido/seguimiento.json`.
+
 ## 18 de octubre de 2026
 
 La torre se pone al día con el sábado: Momentum relanza en enero, Seba tiene oferta cerrada con Franco y Galeano hizo la Clarity.
