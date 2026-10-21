@@ -21,7 +21,8 @@ J = lambda *p: json.load(open(os.path.join(B, *p), encoding="utf-8"))
 HOY = dt.date.today()
 # Facu, 21/10: días que fijó a mano. El 360 del negocio no es carta del founder: lo presenta Cáscara al cierre del mes 1.
 PISO = {"auditoria-de-clientes": 3, "icp-mecanismo": 3, "one-sheeter-oferta": 3, "profile-funnel": 7,
-        "angulos-desde-icp": 3, "calendario-contenido": 7}
+        "angulos-desde-icp": 3, "calendario-contenido": 7,
+        "estetica-y-estrategia": 3}
 FUERA = {"radiografia-360"}
 RITMO = (2, 3)  # cartas por semana
 
@@ -64,7 +65,7 @@ A = J("contenido", "asignaciones.json")["clientes"]
 
 cartas = {}
 for cid, m in MOD.items():
-    if m.get("absorbida_en") or m.get("duplica") or cid in FUERA: continue
+    if m.get("tipo", "carta") != "carta" or m.get("absorbida_en") or m.get("duplica") or cid in FUERA: continue
     cartas[cid] = {"nombre": m["nombre"], "nivel": m.get("nivel"), "dias": dias(cid)}
 
 roadmaps = {}

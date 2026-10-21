@@ -34,7 +34,10 @@
               "descripcion": "Con lo que ya sabés, tal como está hoy."
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "radiografia-360",
@@ -94,7 +97,10 @@
               "descripcion": ""
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "consultoria",
+          "nota_tipo": "Lo presenta Facu en la 1:1 de roadmap, la tercera llamada, al cierre del mes 1.",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "foco-y-ventana",
@@ -125,7 +131,10 @@
           ],
           "estado": "existe",
           "evidencia": "Agostina con el evento de Kaipi del 10 de octubre y la energía repartida en varias ventanas. Bianca con el lanzamiento de los anillos. Aaron con la voz primero y la oferta después. Sofía frenando la entrada de clientes nuevos hasta tener equipo.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "consultoria",
+          "nota_tipo": "Se dice en la Clarity Call y en las 1:1.",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "sociedad-y-roles",
@@ -156,7 +165,10 @@
           ],
           "estado": "existe",
           "evidencia": "Agostina: la cabeza partida en dos entre el estudio con su socia y el proyecto propio, con la conversación de fondo pendiente. Sol Boutmy: Sol y Fede hacen lo mismo y las dos están adentro de la producción. Custom Lab: Piero en creativo y Juan en comercial, con el reparto sin escribir.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         }
       ]
     },
@@ -229,7 +241,10 @@
               "descripcion": ""
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "one-sheeter-oferta",
@@ -305,7 +320,12 @@
               "descripcion": ""
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [
+            "precio-escalera"
+          ],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "precio-escalera",
@@ -337,7 +357,10 @@
           ],
           "estado": "existe",
           "evidencia": "Sofía tiene el paquete de tres meses a 4.000 de lista, 3.500 por adelantado y 3.800 en dos cuotas. Sol tiene el costo por dos como piso y el mínimo de mil dólares. Seba tiene el precio de hipotesis entre mil y mil quinientos. Lucio entre dos mil y tres mil la instalación. Lola ajusto el ticket de entrada de Workflow. Matías vendió al doble. Lucca tiene el diez por ciento fijo y margen para una escalera.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "sop",
+          "va_con": "one-sheeter-oferta",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "cinco-llamadas-con-precio",
@@ -369,7 +392,10 @@
           ],
           "estado": "existe",
           "evidencia": "La regla de validar con precio y nunca gratis está escrita en casi todos los paquetes. Seba dio la mentoría de cinco sesiones gratis a cuatro personas y quedó sin nada que leer. Aye corto la asesoría gratuita y pasa a cobrar el discovery. Lucio confirma el precio con las primeras cinco llamadas. Lola arrastra tres llamadas caidas al final.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "absorbida",
+          "absorbida_en": "proceso-comercial",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         }
       ]
     },
@@ -380,7 +406,7 @@
         {
           "id": "profile-funnel",
           "nombre": "Profile funnel del perfil",
-          "nivel": "1",
+          "nivel": "troncal",
           "para_quien": "Se le asigna a todo founder antes de que salga la primera pieza del tramo.",
           "eje": [
             "contenido",
@@ -410,7 +436,13 @@
           ],
           "estado": "existe",
           "evidencia": "El SOP con la lista de tareas ya se entregó a Sol Boutmy, a Lucio con destacadas, descripción, feed y archivo, y a Seba con destacadas de historia y archivo. Lucca tiene que rehacer destacadas y bio para que el B2B se entienda, Antonio pasar la cuenta a profesional, Agostina terminar las destacadas, Lola dejar el perfil armado antes de la primera pieza y Manu auditar destacadas e historias antes de sumar pauta.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [
+            "founder-cara-de-marca",
+            "miedo-a-la-camara"
+          ],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "angulos-desde-icp",
@@ -471,11 +503,14 @@
               "descripcion": ""
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "calendario-contenido",
-          "nombre": "Calendario de contenido de sesenta días",
+          "nombre": "Calendario de contenido: estrategia, creatividad y guiones",
           "nivel": "troncal",
           "para_quien": "Cuando el founder publica cuando le queda tiempo y la cadencia se cae sola.",
           "eje": [
@@ -540,7 +575,30 @@
               "descripcion": ""
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [
+            "research-semanal",
+            "escribir-un-guion",
+            "primeros-cinco-segundos",
+            "clientes-en-historia",
+            "historia-de-origen",
+            "formatos-de-ficcion",
+            "inventar-cuando-no-pasa-nada",
+            "casos-desde-tu-disciplina",
+            "exprimir-una-produccion",
+            "checklist-antes-de-publicar",
+            "shotlist-y-rodaje",
+            "video-largo-con-celular",
+            "bloqueo-creativo",
+            "tu-marca-mejor-cliente",
+            "caso-documentado",
+            "color-desde-log",
+            "narrativa-de-video",
+            "calendario-en-notion"
+          ],
+          "nombre_anterior": "Calendario de contenido de sesenta días",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "calendario-en-notion",
@@ -599,7 +657,10 @@
               "descripcion": "Cada pieza sale con hipótesis y vuelve con veredicto."
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "diez-piezas-y-lectura",
@@ -630,7 +691,10 @@
           ],
           "estado": "existe",
           "evidencia": "La regla de que menos de diez piezas no permite evaluar nada está escrita en casi todos los paquetes: Lucio, José David, Seba, Aaron, Antonio, Lucca, Sharon, Nico, Andrea, Aye y Scarlett. La auditoría de mejores y peores piezas la armó Sharon con la marca de ropa y quedó para replicar. Bianca tiene el criterio de analizar lo que funcionó y repetirlo. Falta el módulo con los pasos completos.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "absorbida",
+          "absorbida_en": "angulos-desde-icp",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "formato-barato",
@@ -661,7 +725,10 @@
           ],
           "estado": "existe",
           "evidencia": "Aaron tiene el formato de entrevista cruda con Cami preguntando desde atras de cámara. Lola se destrabo con el video horizontal largo con alguien preguntando y sin guion. Seba baja del video pulido plano por plano al orgánico de celular. Sharon tiene la regla de edición nivel uno sin pasar de veinte dólares por pieza. Lucio documenta el trabajo real en vivo con voz en off. Bianca graba la serie en capitulos sin producción.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "absorbida",
+          "absorbida_en": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "caso-documentado",
@@ -693,7 +760,10 @@
           ],
           "estado": "existe",
           "evidencia": "El criterio de Franco de documentar en lugar de crear se le bajó a Aaron con el cliente de consultoría que ya tiene. Lucca tiene que armar las tres fichas de casos con números antes y después del B2B. José David documenta en Notion sus tres ventas de tres mil dólares. Bianca tiene el dato de 236 clientas que recompraron. Sharon tiene el caso con ventas orgánicas que le ganaron a la pauta.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "color-desde-log",
@@ -724,7 +794,10 @@
           ],
           "estado": "existe",
           "evidencia": "Sale de la parte de color del SOP de Originals de Cáscara (Lumetri en tres pasos, LUT de conversión al 60%, look TC - ERA al 30%, grano de 35mm en Luz fuerte). Aaron la pidió el 26/9 para corregir su material grabado en LOG.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "estratega-creativo",
@@ -758,11 +831,14 @@
           ],
           "estado": "existe",
           "evidencia": "Sale del rol que Cáscara escribió para sus propios estrategas (Rol Estratega Creativo, abril 2026) y de la clase 10A del programa, que ya vive en la Library OnDemand de cada OS de cliente. Facu pidió pasarlo a carta el 27/9.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "mi-editing-brief",
-          "nombre": "Tu editing brief",
+          "nombre": "El brief de tu contenido",
           "nivel": "2",
           "para_quien": "En el mes 2, cuando el founder ya tiene oferta y calendario y le va a pasar la edición a otra persona, o ya se la pasó y las piezas vuelven con muchas vueltas. Va antes de delegar la producción.",
           "eje": [
@@ -823,7 +899,11 @@
               "descripcion": ""
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "nombre_anterior": "Tu editing brief",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         }
       ]
     },
@@ -861,12 +941,15 @@
           ],
           "estado": "existe",
           "evidencia": "El módulo de dinamicas de comunidad de Teo existe con la arquitectura minima escrita y se le bajó a Bianca. Bianca tiene que medir qué parte de las ventas de cada drop sale de la comunidad de WhatsApp. Lola tiene ciento sesenta PMs en un grupo esperando. Aye vende estrategia creativa para construcción de comunidades. José David vende la comunidad como método del resultado del e-commerce. Falta el módulo completo para marcas de producto.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "sop",
+          "va_con": "handraisers-historias",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "handraisers-historias",
           "nombre": "Historias con handraisers",
-          "nivel": "2",
+          "nivel": "troncal",
           "para_quien": "Cuando el founder publica y no tiene un mecanismo que convierta la atención en conversación.",
           "eje": [
             "demanda",
@@ -893,12 +976,17 @@
           ],
           "estado": "existe",
           "evidencia": "La estructura de la secuencia y un ejemplo de handraiser se le dejaron a Matías. Agostina configuró ManyChat y público el posteo con el link en los comentarios. Seba tiene la pregunta al final del video con palabra clave y automatización. El criterio de que el handraiser se sube cuando el contenido que lo alimenta todavía está caliente está escrito en el caso de Agostina.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [
+            "arquitectura-comunidad"
+          ],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "calendario-lanzamiento",
           "nombre": "Calendario de lanzamiento",
-          "nivel": "1",
+          "nivel": "troncal",
           "para_quien": "Cuando el founder tiene un producto listo y ninguna fecha ni mecanica para venderlo.",
           "eje": [
             "demanda",
@@ -987,11 +1075,18 @@
               "descripcion": ""
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [
+            "webinar-de-venta",
+            "lanzamiento-operado",
+            "capitalizar-evento"
+          ],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "webinar-de-venta",
-          "nombre": "El webinar que agenda llamadas",
+          "nombre": "Webinar, workshop o bootcamp",
           "nivel": "2",
           "para_quien": "Cuando el founder junta gente en vivo para vender y la venta se cierra ahí mismo con un link, sin llamada, sin lista y sin saber por qué no compró el que no compró.",
           "eje": [
@@ -1021,7 +1116,11 @@
           ],
           "estado": "existe",
           "evidencia": "La estructura la bajó Facu a The Momentum Club para el webinar del 28 de septiembre: historia, dolores y soluciones, primer CTA, alumno en vivo, QR a WhatsApp y preguntas con el QR a la vista, más los dos espacios de preguntas de los días siguientes y las llamadas grabadas. La parte operativa está probada en los eventos propios y la ordenó Franco para el workshop de Workflow: registro como diagnóstico, una sola puerta, chequeo del día, segmentos de seguimiento y la planilla con la objeción principal de cada persona.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "sop",
+          "va_con": "calendario-lanzamiento",
+          "nombre_anterior": "El webinar que agenda llamadas",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "resultados-lanzamiento",
@@ -1054,7 +1153,10 @@
           ],
           "estado": "existe",
           "evidencia": "Lola cerró El Salto (28 llamadas, 6 ventas) y The Momentum Club su webinar del 28/9 (400 leads, más de 20 llamadas) sin que quedaran escritos los números para que Franco los analice (Facu, 3/10).",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "capitalizar-evento",
@@ -1086,7 +1188,10 @@
           ],
           "estado": "existe",
           "evidencia": "La secuencia completa se le bajó a Agostina para el evento de Kaipi y la charla que ya dio. Seba tiene la charla del 28 de octubre en el Hub Providencia con registro de asistentes y extractos, y ya llevo cincuenta y cinco personas a un workshop propio. Andrea tiene que registrar la primera Onfire Session en video y foto.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "sop",
+          "va_con": "calendario-lanzamiento",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "lanzamiento-operado",
@@ -1146,7 +1251,10 @@
             }
           ],
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-lanzamiento",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         }
       ]
     },
@@ -1183,7 +1291,13 @@
           ],
           "evidencia": "Suma la auditoría del proceso comercial, el pipeline de siete campos y el registro de llamadas de Teo, con el criterio de calificación de Francisca (Procesos Comerciales Cáscara, 17/10). Facu, 19/10: menos cartas comerciales y más completas.",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "carta",
+          "sops": [
+            "venta-b2c",
+            "venta-de-servicios"
+          ],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "venta-b2c",
@@ -1215,7 +1329,10 @@
           ],
           "evidencia": "Absorbe la llamada de venta y el cierre. Suma el setting, los mensajes fijos y la calificación de Francisca (Procesos Comerciales Cáscara, 17/10), con sus llamadas grabadas como referencia. Facu, 19/10.",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "proceso-comercial",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "venta-de-servicios",
@@ -1247,7 +1364,10 @@
           ],
           "evidencia": "Absorbe el recontacto y la prospección y la propuesta comercial. Suma la reunión de diagnóstico, la presentación en vivo, la negociación por alcance y el paso al kickoff. Facu, 19/10.",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "proceso-comercial",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "auditoria-proceso-comercial",
@@ -1308,7 +1428,9 @@
             }
           ],
           "estado_galeria": "aprobada",
-          "absorbida_en": "proceso-comercial"
+          "absorbida_en": "proceso-comercial",
+          "tipo": "absorbida",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "pipeline-7-campos",
@@ -1341,7 +1463,9 @@
           "estado": "existe",
           "evidencia": "El pipeline de siete campos lo armó Teo con Andrea en Notion y se replico: Bianca unifica el suyo con origen del contacto, compras y productos; Matías arma la base con motivo y estado de cada contacto; Nico carga todo el pipeline en una planilla; Manu tiene la base de datos central de leads; Antonio anota cada contacto con fecha y tema; Lucca y Lucio anotan el canal de cada consulta.",
           "estado_galeria": "aprobada",
-          "absorbida_en": "proceso-comercial"
+          "absorbida_en": "proceso-comercial",
+          "tipo": "absorbida",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "prospeccion-y-recontacto",
@@ -1374,7 +1498,9 @@
           "estado": "existe",
           "evidencia": "El recontacto sobre la base historica ya funcionó en Custom Lab y es su motor de ventas de corto plazo. Nico tiene que recontactar cinco personas por día y hacer veinte contactos nuevos por semana. José David junta y ordena la base de leads viejos. Lucca tiene que contactar veinte dueños por semana con un caso adelante. Matías arma la base para el lanzamiento. El pilar de venta pide cincuenta prospectos y veinte conversaciones abiertas.",
           "estado_galeria": "aprobada",
-          "absorbida_en": "venta-de-servicios"
+          "absorbida_en": "venta-de-servicios",
+          "tipo": "absorbida",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "llamada-de-venta",
@@ -1407,7 +1533,9 @@
           "estado": "existe",
           "evidencia": "El criterio completo se le bajó a Lola: encontrar el dolor, mostrar el costo de no avanzar, cupos limitados y seña, con la regla de vender una sola opción y el downsell solo adentro de la llamada. Franco revisa las tres llamadas grabadas de Lola. Nico tiene que agendar y grabar tres llamadas. Seba y José David registran la objeción de cada llamada que no cerró. Sofía pasó el discovery a llamada de treinta minutos sobre Miro o Canva. Desde el 14/10 la hoja sigue los tramos, las preguntas, los reframes y el seguimiento del guion de cierre que usa Cáscara (Franco, 6/10), pasados al servicio de cada founder.",
           "estado_galeria": "aprobada",
-          "absorbida_en": "venta-b2c"
+          "absorbida_en": "venta-b2c",
+          "tipo": "absorbida",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "propuesta-comercial",
@@ -1439,7 +1567,9 @@
           "estado": "existe",
           "evidencia": "El esqueleto está documentado y es el que Cáscara usa en todas sus propuestas. Sol tiene que presentar la oferta nueva con el precio nuevo en por lo menos una propuesta real. Sharon tiene que presentar la propuesta de Mars con precio. José David tiene que presentar diez propuestas con el resultado escrito en número. Matías cerró todas las propuestas que armó.",
           "estado_galeria": "aprobada",
-          "absorbida_en": "venta-de-servicios"
+          "absorbida_en": "venta-de-servicios",
+          "tipo": "absorbida",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "setter-closer",
@@ -1471,7 +1601,12 @@
           ],
           "estado": "existe",
           "evidencia": "Quedo pedido en la charla, para escribirlo con Francisca. Lola reconoce que el final de la llamada es su punto flojo y Franco define si entra un closer del equipo para la primera tanda. Lucca tiene que decidir si el paso siguiente es equipo comercial. Manu deriva ticket alto a él y el resto a Team Bruzzone, sin proceso escrito de quién precalifica. El seguimiento de 24 a 48 horas por WhatsApp sale del guion de cierre de Franco (6/10).",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [
+            "venta-que-dispara-todo"
+          ],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "registro-de-llamadas",
@@ -1523,7 +1658,9 @@
           ],
           "estado": "nueva",
           "estado_galeria": "",
-          "absorbida_en": "proceso-comercial"
+          "absorbida_en": "proceso-comercial",
+          "tipo": "absorbida",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "venta-que-dispara-todo",
@@ -1583,7 +1720,10 @@
             }
           ],
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "setter-closer",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "tablero-que-dispara-acciones",
@@ -1614,7 +1754,10 @@
           ],
           "evidencia": "Sistema operativo GP de Franco (16/10): diagnóstico por teoría de limitaciones, cinco filtros, tablero de data y benchmarks del Bootcamp Pentágono 2.0.",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "consultoria",
+          "nota_tipo": "Es parte del mapa de acción de Franco que se presenta en la 1:1 de roadmap.",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         }
       ]
     },
@@ -1651,7 +1794,10 @@
           ],
           "estado": "existe",
           "evidencia": "El módulo de entrega de servicio de Teo existe con onboarding a 48 horas, presentación del roadmap e hitos con responsables, y se le bajó a Matías. Matías tiene que presentarle el roadmap a sus dos clientes. Sofía revisa cómo entrega Teo la parte educativa a quien compra un programa. Sol necesita el alcance y el arranque escritos antes de cada proceso de tres meses. En la charla quedó que cada cliente tiene que ver su propio roadmap.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "auditoria-del-programa",
@@ -1714,7 +1860,10 @@
               "descripcion": ""
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "funnel-de-servicio",
@@ -1786,7 +1935,12 @@
               "descripcion": ""
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [
+            "alcance-por-escrito"
+          ],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "proceso-entrega-repetible",
@@ -1816,7 +1970,10 @@
           ],
           "estado": "existe",
           "evidencia": "Sale del mismo módulo de Teo, con los pasos incompletos. Matías tiene que escribir el proceso de entrega de 9669 sobre ese módulo. Sol Boutmy arranca el tramo por estructura porque las dos socias siguen adentro de la ejecución. Sofía tiene el sistema de 90 días revisado y el servicio la tiene adentro de cada cuenta. Sharon tiene el modelo de entrega con tarjetas que ya corre en automatico. El pilar de entrega pide mapa de servicio con horas reales y proceso documentado.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "absorbida",
+          "absorbida_en": "funnel-de-servicio",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "alcance-por-escrito",
@@ -1848,11 +2005,14 @@
           ],
           "estado": "existe",
           "evidencia": "El criterio se le bajó a Sol Boutmy, con las tres formas de formalizarlo, y tiene que dejar el alcance por escrito antes de arrancar cada proceso de tres meses. Sharon definió que la pauta paga queda afuera del estándar y que coordina producción. Lola posiciona Workflow como distribuidora de PMs y no como responsable del proyecto del cliente, con la capacitación vendida aparte.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "sop",
+          "va_con": "funnel-de-servicio",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "ciclo-y-continuidad",
-          "nombre": "Cierre de ciclo y venta de continuidad",
+          "nombre": "Offboarding, renovación y upsell",
           "nivel": "2",
           "para_quien": "Cuando el founder tiene clientes en mensualidad abierta y ninguna conversación de renovación.",
           "eje": [
@@ -1880,7 +2040,11 @@
           ],
           "estado": "existe",
           "evidencia": "Sharon tiene que cerrar ciclo con cada cliente y presentar la continuidad por bloques de tres meses, en lugar de mensualidad abierta. Sol pasa del mensual contra entrega al proceso de tres meses cobrado por adelantado, con el criterio de salida escrito. Sofía empaqueto los tres meses con más del cincuenta por ciento cobrado al principio. Matías trabaja campanas con fecha de inicio y de final en lugar de retainers.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "nombre_anterior": "Cierre de ciclo y venta de continuidad",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "entre-pasos",
@@ -1931,7 +2095,10 @@
             }
           ],
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "consultoria",
+          "nota_tipo": "Es parte de la presentación del punto A al punto B y del roadmap.",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "checkpoints-del-servicio",
@@ -1984,7 +2151,10 @@
             }
           ],
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "app-de-clientes-y-soporte",
@@ -2036,7 +2206,10 @@
             }
           ],
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         }
       ]
     },
@@ -2072,7 +2245,10 @@
           ],
           "estado": "existe",
           "evidencia": "El template del OS de Cáscara se entregó a Sol Boutmy, con una página por cliente, el calendario adentro y los estados ya configurados para meter un editor. Andrea armó el pipeline en Notion con Teo. Nico tiene el calendario en Notion. Bianca unifica su pipeline en una sola base. Custom Lab mueve la visualización de datos a Notion o Airtable. José David documenta las ventas anteriores en Notion.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "cadencia-y-duenos",
@@ -2103,11 +2279,16 @@
           ],
           "estado": "existe",
           "evidencia": "La cadencia de planificación mensual de dos horas el último lunes y revisión de medio mes de treinta minutos por agente está escrita para Manu, junto con los estándares no negociables y sus consecuencias, y es justo lo que no se instaló en tres meses. Antonio tiene que definir quién va a ser el dueño del calendario de contenido. Sol revisa cada entrega del editor en la weekly. Aaron tiene a Cami en operaciones y métricas.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [
+            "reuniones-con-accionables"
+          ],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "contratar-primer-rol",
-          "nombre": "Contratar la primera persona",
+          "nombre": "Contratar a tu editor",
           "nivel": "2",
           "para_quien": "Cuando el founder llegó al techo de sus propias horas y lo que lo ocupa no necesita su criterio, sino su tiempo.",
           "eje": [
@@ -2172,7 +2353,11 @@
               "descripcion": ""
             }
           ],
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "nombre_anterior": "Contratar la primera persona",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "delegar-produccion",
@@ -2204,7 +2389,10 @@
           ],
           "estado": "existe",
           "evidencia": "La regla de empaquetar antes de delegar está escrita en varios paquetes. Sol Boutmy mide cuántos contenidos por mes los edita alguien que no sean ella ni Fede, y tiene el criterio de delegar la edición primero y progresivo. Sharon tiene el modelo de tarjetas con objetivo, formato y referencias, y la regla de edición nivel uno. Sofía delega un cliente al editor con brief. Agostina define que los guiones y las historias no se delegan.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "diario-administrativo",
@@ -2234,7 +2422,9 @@
           ],
           "estado": "existe",
           "evidencia": "La plantilla de diario administrativo de Cáscara, con ingresos, egresos, explicación de cada movimiento, cierre mensual y pagos del uno al diez, se entregó a Sol Boutmy y ella tiene que hacer el cierre de septiembre con ese formato. Aaron tiene a Cami en operaciones y métricas. Sofía y Lucca manejan facturación mensual sin cierre escrito.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "sop",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "cierre-del-mes-equipo",
@@ -2285,7 +2475,9 @@
             }
           ],
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "reuniones-con-accionables",
@@ -2337,7 +2529,64 @@
             }
           ],
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "cadencia-y-duenos",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
+        },
+        {
+          "id": "tareas-programadas",
+          "nombre": "Tareas que corren solas",
+          "nivel": "2",
+          "para_quien": "Cuando ya tenés una base y procesos armados, y seguís revisando, avisando y copiando datos a mano todos los días.",
+          "eje": [
+            "entrega"
+          ],
+          "resultado": "Tres tareas programadas corriendo, cada una con qué detecta, qué dispara y a quién le avisa, y la lista escrita de lo que sigue pasando por vos.",
+          "pasos": [
+            "Listar las tareas repetitivas de tu semana y cuánto tiempo te llevan.",
+            "Elegir las que siguen siempre la misma regla.",
+            "Escribir cada una en tres partes: qué detecta, qué dispara y a quién le avisa.",
+            "Elegir el modelo más liviano que alcance para cada una.",
+            "Programarlas con día y hora, y mirar una semana lo que hacen.",
+            "Dejar escrito qué decisiones siguen pasando por vos."
+          ],
+          "completar": [
+            "Lo que repetís cada semana",
+            "Tres tareas en detectar, disparar, informar",
+            "La semana de prueba"
+          ],
+          "herramientas": [
+            "Claude (tareas programadas)",
+            "Tu base (Airtable, Notion)",
+            "Slack o WhatsApp para los avisos"
+          ],
+          "evidencia": "Alta automática de clientes de Founders (Notion, Slack, comunidad) cada dos horas; automatizaciones de la base (confirmaciones, recordatorios, mails pendientes); grupal 15/10.",
+          "tareas": [
+            {
+              "titulo": "Listar tus tareas repetitivas",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": "Con el tiempo que te lleva cada una."
+            },
+            {
+              "titulo": "Programar la primera tarea",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Revisar lo que hicieron las tareas",
+              "semana": 2,
+              "frecuencia": "semanal",
+              "descripcion": "Qué hicieron bien y qué corregiste."
+            }
+          ],
+          "estado": "nueva",
+          "estado_galeria": "",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         }
       ]
     },
@@ -2375,11 +2624,14 @@
           ],
           "estado": "existe",
           "evidencia": "El criterio de que una herramienta guarda y otra muestra se le bajó a Custom Lab, con Supabase guardando y Notion o Airtable mostrando, para que la información se pueda mirar y filtrar sin depender de alguien técnico. Bianca unifica el pipeline en una sola base con origen del contacto, compras y productos, y es lo que le permite medir. Manu tiene la base central de leads sin confirmar que quedó implementada. José David necesita la base segmentada.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "captura-y-seguimiento",
-          "nombre": "Captura automatica y seguimiento por mail",
+          "nombre": "Cómo usamos ManyChat",
           "nivel": "3",
           "para_quien": "Cuando el contenido trae gente y esa gente se pierde porque nadie la registra ni le vuelve a escribir.",
           "eje": [
@@ -2407,7 +2659,10 @@
           ],
           "estado": "existe",
           "evidencia": "Cáscara le configuró a Bianca las automatizaciones de mail segmentadas por nivel de compra, con Risen y Claude. Agostina configuró ManyChat repartiendo el link desde los comentarios. Seba tiene la pregunta al final del video con palabra clave y la mentoría grabada como recurso de entrada. Nico tiene el mecanismo de recortes con captura de comentarios. Manu tiene las automatizaciones de captación de comentarios. Custom Lab captura mail en dos lugares.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "sop",
+          "nombre_anterior": "Captura automatica y seguimiento por mail",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "landing-que-convierte",
@@ -2439,7 +2694,10 @@
           ],
           "estado": "existe",
           "evidencia": "Los criterios están escritos en dos casos: Bianca con landing mobile first, formulario arriba de todo, captura de mail en dos lugares y WhatsApp visible, más el dominio en Hostinger conectado a Logoable; y Custom Lab con poco aire, llamado a la acción visible sin scrollear, imagen a la izquierda y texto a la derecha, y campo de proyecto obligatorio. Lola deja la landing de Workflow con casos y servicios. Falta el módulo único.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "dashboard-embudo",
@@ -2471,7 +2729,10 @@
           ],
           "estado": "existe",
           "evidencia": "La oferta del programa promete dashboard de métricas del embudo completo en el mes 3 y no existe el módulo. Bianca no mide qué parte de las ventas sale de la comunidad. Lucca nunca midio propiedades nuevas por canal. Seba mide conversaciones y llamadas en lugar de reproducciones. Nico, José David y Sofía tienen que presentar números de lanzamiento al cierre.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "informes-con-ia",
@@ -2503,7 +2764,10 @@
           ],
           "estado": "existe",
           "evidencia": "El método de ordenar la información de clientes y sacar informes con IA para decidir con datos se le bajó a Custom Lab. Aaron usa el formulario de feedback a clientes como auditoría y las objeciones como material de remarketing. Sofía tiene que mandar las estadisticas documentadas antes de la sesión con Franco. Falta el módulo con los pasos y el pedido guardado.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "absorbida",
+          "absorbida_en": "ia-en-la-operacion",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "ia-en-la-operacion",
@@ -2555,7 +2819,10 @@
             }
           ],
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "formulario-a-la-base",
@@ -2608,58 +2875,10 @@
             }
           ],
           "estado": "nueva",
-          "estado_galeria": ""
-        },
-        {
-          "id": "tareas-programadas",
-          "nombre": "Tareas que corren solas",
-          "nivel": "2",
-          "para_quien": "Cuando ya tenés una base y procesos armados, y seguís revisando, avisando y copiando datos a mano todos los días.",
-          "eje": [
-            "entrega"
-          ],
-          "resultado": "Tres tareas programadas corriendo, cada una con qué detecta, qué dispara y a quién le avisa, y la lista escrita de lo que sigue pasando por vos.",
-          "pasos": [
-            "Listar las tareas repetitivas de tu semana y cuánto tiempo te llevan.",
-            "Elegir las que siguen siempre la misma regla.",
-            "Escribir cada una en tres partes: qué detecta, qué dispara y a quién le avisa.",
-            "Elegir el modelo más liviano que alcance para cada una.",
-            "Programarlas con día y hora, y mirar una semana lo que hacen.",
-            "Dejar escrito qué decisiones siguen pasando por vos."
-          ],
-          "completar": [
-            "Lo que repetís cada semana",
-            "Tres tareas en detectar, disparar, informar",
-            "La semana de prueba"
-          ],
-          "herramientas": [
-            "Claude (tareas programadas)",
-            "Tu base (Airtable, Notion)",
-            "Slack o WhatsApp para los avisos"
-          ],
-          "evidencia": "Alta automática de clientes de Founders (Notion, Slack, comunidad) cada dos horas; automatizaciones de la base (confirmaciones, recordatorios, mails pendientes); grupal 15/10.",
-          "tareas": [
-            {
-              "titulo": "Listar tus tareas repetitivas",
-              "semana": 1,
-              "frecuencia": "unica",
-              "descripcion": "Con el tiempo que te lleva cada una."
-            },
-            {
-              "titulo": "Programar la primera tarea",
-              "semana": 1,
-              "frecuencia": "unica",
-              "descripcion": ""
-            },
-            {
-              "titulo": "Revisar lo que hicieron las tareas",
-              "semana": 2,
-              "frecuencia": "semanal",
-              "descripcion": "Qué hicieron bien y qué corregiste."
-            }
-          ],
-          "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "absorbida",
+          "absorbida_en": "base-de-datos-unica",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "webhook-unico-y-atribucion",
@@ -2712,7 +2931,10 @@
             }
           ],
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "absorbida",
+          "absorbida_en": "base-de-datos-unica",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         }
       ]
     },
@@ -2748,7 +2970,10 @@
           ],
           "estado": "existe",
           "evidencia": "El pasaporte digital es el entregable distintivo del caso de Aaron y Facu se lo manda en la primera semana. En la charla quedó pedido el pasaporte digital de nivel dos para los que entran a buscar su diferencial y no alcanza con los Founder Insights. Scarlett trabaja con los Founder Insights revisitados. Seba escribe el guion de la historia de origen.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "identidad-y-arco-narrativo",
@@ -2779,7 +3004,10 @@
           ],
           "estado": "existe",
           "evidencia": "El marco de Juana de experiencia, criterio, carácter, visión y obsesiones, con el arco narrativo que sale de la obsesión, se aplicó con Lola. Scarlett tiene el mapa de presencia y el hallazgo del burnout glorificado como enemigo. Sharon encontró que su recorrido de moda a diseño a tatuaje es un solo viaje. Matías trabajó la identidad de 9669 con Juana. Sharon cambia la estrategia propia todos los días. Falta el módulo escrito.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "absorbida",
+          "absorbida_en": "pasaporte-digital",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "direccion-visual",
@@ -2810,7 +3038,10 @@
           ],
           "estado": "existe",
           "evidencia": "Scarlett hizo el ajuste de identidad visual del 6 de agosto, hacia una estética más neutra y profesional. Bianca separa las dos cuentas: en la marca personal el proceso crudo y en Kie producto, estilo y clientas. Matías trabajo promesa, personalidad y estética de 9669 con Juana. Lola separa Workflow de su perfil personal. Seba deja Estudio Gama como productora interna.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "obsoleta",
+          "tipo": "eliminada",
+          "nota_tipo": "Se elimina (Facu, 21/10).",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "narrativa-de-video",
@@ -2841,7 +3072,10 @@
           ],
           "estado": "existe",
           "evidencia": "El marco de narrativa de Fede con cultura, oportunidad, prueba, producto y llamado a la acción, más el proceso de idea, estructura, narrativa, brief, grabar, editar, publicar y analizar, y el criterio de grabación a la manana con luz lateral y tres planos, se le bajaron a Andrea. Lucca tiene que grabar el video largo del modelo B2B. Antonio graba un video largo por semana con recortes. Nico tiene el mecanismo de recortes hacia el video largo. Bianca graba la serie en capitulos.",
-          "estado_galeria": "aprobada"
+          "estado_galeria": "aprobada",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         }
       ]
     },
@@ -2876,7 +3110,10 @@
           ],
           "evidencia": "Carta 01/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "consultoria",
+          "nota_tipo": "Pasa al onboarding.",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "auditoria-creativa",
@@ -2905,11 +3142,14 @@
           ],
           "evidencia": "Carta 02/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "carta",
+          "sops": [],
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "estetica-y-estrategia",
-          "nombre": "Estética al servicio de la estrategia",
+          "nombre": "La dirección creativa de tu marca",
           "nivel": "2",
           "para_quien": "Cuando cambiás de oferta o de cliente ideal, o cuando tu estética no acompaña tu nuevo precio.",
           "eje": [
@@ -2933,7 +3173,13 @@
           ],
           "evidencia": "Carta 03/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "carta",
+          "sops": [
+            "direccion-de-arte-coleccion"
+          ],
+          "nombre_anterior": "Estética al servicio de la estrategia",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "caballo-de-troya",
@@ -2959,7 +3205,10 @@
           ],
           "evidencia": "Carta 04/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "obsoleta",
+          "tipo": "eliminada",
+          "nota_tipo": "Queda como acción de Juana en las grupales (Facu, 21/10).",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "kit-de-identidad",
@@ -2989,7 +3238,10 @@
           ],
           "evidencia": "Carta 05/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "absorbida",
+          "absorbida_en": "mi-editing-brief",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "moodboard-estrategico",
@@ -3016,7 +3268,10 @@
           ],
           "evidencia": "Carta 06/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "absorbida",
+          "absorbida_en": "estetica-y-estrategia",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "founder-cara-de-marca",
@@ -3043,7 +3298,10 @@
           ],
           "evidencia": "Carta 07/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "profile-funnel",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "miedo-a-la-camara",
@@ -3069,7 +3327,10 @@
           ],
           "evidencia": "Carta 08/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "profile-funnel",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "research-semanal",
@@ -3098,7 +3359,10 @@
           ],
           "evidencia": "Carta 09/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "escribir-un-guion",
@@ -3127,7 +3391,10 @@
           ],
           "evidencia": "Carta 10/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "primeros-cinco-segundos",
@@ -3152,7 +3419,10 @@
           ],
           "evidencia": "Carta 11/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "clientes-en-historia",
@@ -3180,7 +3450,10 @@
           ],
           "evidencia": "Carta 12/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "estructura-de-caso",
@@ -3208,7 +3481,9 @@
           "evidencia": "Carta 13/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
           "estado_galeria": "",
-          "duplica": "caso-documentado"
+          "duplica": "caso-documentado",
+          "tipo": "duplicada",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "historia-de-origen",
@@ -3236,7 +3511,10 @@
           ],
           "evidencia": "Carta 14/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "formatos-poco-esfuerzo",
@@ -3263,7 +3541,9 @@
           "evidencia": "Carta 15/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
           "estado_galeria": "",
-          "duplica": "formato-barato"
+          "duplica": "formato-barato",
+          "tipo": "duplicada",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "formatos-de-ficcion",
@@ -3290,7 +3570,10 @@
           ],
           "evidencia": "Carta 16/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "inventar-cuando-no-pasa-nada",
@@ -3314,7 +3597,10 @@
           ],
           "evidencia": "Carta 17/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "casos-desde-tu-disciplina",
@@ -3340,7 +3626,10 @@
           ],
           "evidencia": "Carta 18/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "bloqueo-creativo",
@@ -3368,7 +3657,10 @@
           ],
           "evidencia": "Carta 19/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "brief-para-tu-editor",
@@ -3397,7 +3689,9 @@
           "evidencia": "Carta 20/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
           "estado_galeria": "",
-          "duplica": "mi-editing-brief"
+          "duplica": "mi-editing-brief",
+          "tipo": "duplicada",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "video-largo-con-celular",
@@ -3422,7 +3716,10 @@
           ],
           "evidencia": "Carta 21/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "exprimir-una-produccion",
@@ -3449,7 +3746,10 @@
           ],
           "evidencia": "Carta 22/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "shotlist-y-rodaje",
@@ -3474,7 +3774,10 @@
           ],
           "evidencia": "Carta 23/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "checklist-antes-de-publicar",
@@ -3498,7 +3801,10 @@
           ],
           "evidencia": "Carta 24/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "objetivo-a-concepto",
@@ -3527,7 +3833,10 @@
           ],
           "evidencia": "Carta 25/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "absorbida",
+          "absorbida_en": "estetica-y-estrategia",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "direccion-de-arte-coleccion",
@@ -3555,7 +3864,10 @@
           ],
           "evidencia": "Carta 26/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "estetica-y-estrategia",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "tu-marca-mejor-cliente",
@@ -3584,7 +3896,10 @@
           ],
           "evidencia": "Carta 27/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "calendario-contenido",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         },
         {
           "id": "criterio-creativo",
@@ -3611,43 +3926,30 @@
           ],
           "evidencia": "Carta 28/28 de las Cartas de Creatividad de Juana (17/10/2026).",
           "estado": "nueva",
-          "estado_galeria": ""
+          "estado_galeria": "",
+          "tipo": "sop",
+          "va_con": "arranque",
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
         }
       ]
     }
   ],
   "orden_sugerido": [
     "auditoria-de-clientes",
-    "radiografia-360",
-    "foco-y-ventana",
     "sociedad-y-roles",
     "icp-mecanismo",
     "one-sheeter-oferta",
-    "precio-escalera",
     "profile-funnel",
     "angulos-desde-icp",
     "calendario-contenido",
     "pasaporte-digital",
-    "identidad-y-arco-narrativo",
-    "formato-barato",
-    "diez-piezas-y-lectura",
-    "cinco-llamadas-con-precio",
     "proceso-comercial",
     "funnel-de-servicio",
-    "venta-b2c",
-    "venta-de-servicios",
-    "caso-documentado",
-    "captura-y-seguimiento",
     "landing-que-convierte",
     "calendario-lanzamiento",
-    "webinar-de-venta",
     "resultados-lanzamiento",
     "handraisers-historias",
-    "capitalizar-evento",
-    "arquitectura-comunidad",
     "onboarding-y-roadmap-cliente",
-    "proceso-entrega-repetible",
-    "alcance-por-escrito",
     "ciclo-y-continuidad",
     "os-en-notion",
     "cadencia-y-duenos",
@@ -3656,50 +3958,16 @@
     "delegar-produccion",
     "estratega-creativo",
     "base-de-datos-unica",
-    "diario-administrativo",
     "dashboard-embudo",
-    "informes-con-ia",
-    "direccion-visual",
-    "narrativa-de-video",
     "setter-closer",
-    "El criterio del orden: primero el diagnóstico y el foco, porque sin punto A escrito cada llamada arranca discutiendo qué hacer; después oferta, porque es el eje más bajo de los clientes y todo lo de abajo se apoya en la oferta escrita; después perfil, ángulos y calendario, que es la infraestructura de contenido que permite medir; recién ahí volumen y precio sobre la mesa, que es donde aparece la primera evidencia real; después lo comercial, que convierte esa evidencia en plata; después lanzamiento y comunidad, que necesitan audiencia calentada de antes; y al final entrega, operaciones y datos, que se asignan cuando ya hay clientes adentro que los justifiquen. La columna es la misma para todos; lo que cambia es por dónde se entra. El eje más bajo del puntaje adelanta su bloque, y el que llega con la entrega colapsada arranca por entrega y operaciones antes de tocar la oferta.",
-    "entre-pasos",
     "checkpoints-del-servicio",
     "app-de-clientes-y-soporte",
     "ia-en-la-operacion",
-    "formulario-a-la-base",
     "tareas-programadas",
-    "webhook-unico-y-atribucion",
-    "venta-que-dispara-todo",
-    "lanzamiento-operado",
-    "cierre-del-mes-equipo",
-    "reuniones-con-accionables",
-    "preparar-direccion-creativa",
     "auditoria-creativa",
     "estetica-y-estrategia",
-    "caballo-de-troya",
-    "kit-de-identidad",
-    "moodboard-estrategico",
-    "founder-cara-de-marca",
-    "miedo-a-la-camara",
-    "research-semanal",
-    "escribir-un-guion",
-    "primeros-cinco-segundos",
-    "clientes-en-historia",
-    "historia-de-origen",
-    "formatos-de-ficcion",
-    "inventar-cuando-no-pasa-nada",
-    "casos-desde-tu-disciplina",
-    "bloqueo-creativo",
-    "video-largo-con-celular",
-    "exprimir-una-produccion",
-    "shotlist-y-rodaje",
-    "checklist-antes-de-publicar",
-    "objetivo-a-concepto",
-    "direccion-de-arte-coleccion",
-    "tu-marca-mejor-cliente",
-    "criterio-creativo",
-    "tablero-que-dispara-acciones"
+    "auditoria-del-programa",
+    "El criterio del orden: primero el diagnóstico y el foco, porque sin punto A escrito cada llamada arranca discutiendo qué hacer; después oferta, porque es el eje más bajo de los clientes y todo lo de abajo se apoya en la oferta escrita; después perfil, ángulos y calendario, que es la infraestructura de contenido que permite medir; recién ahí volumen y precio sobre la mesa, que es donde aparece la primera evidencia real; después lo comercial, que convierte esa evidencia en plata; después lanzamiento y comunidad, que necesitan audiencia calentada de antes; y al final entrega, operaciones y datos, que se asignan cuando ya hay clientes adentro que los justifiquen. La columna es la misma para todos; lo que cambia es por dónde se entra. El eje más bajo del puntaje adelanta su bloque, y el que llega con la entrega colapsada arranca por entrega y operaciones antes de tocar la oferta."
   ],
   "notas": [
     "Los módulos están escritos: cada uno tiene su carta con los pasos, qué completar y qué herramientas, y su plantilla con las consignas y un ejemplo real de los clientes en cada bloque. Lo que antes se bajaba caso por caso en una llamada ahora se asigna y queda igual para todos.",
@@ -3714,5 +3982,45 @@
     "1": "Las que casi todos necesitan después de las troncales.",
     "2": "Se asignan según el cuello de cada caso.",
     "3": "Puntuales o add-on: se suman cuando el caso lo pide."
-  }
+  },
+  "tipos": {
+    "carta": "El founder la completa: tiene accionables, entra al roadmap y tiene días.",
+    "sop": "El founder lo lee y lo aplica, no se completa. Va pegado a una carta (va_con).",
+    "consultoria": "Lo dice o lo presenta el equipo en las llamadas. No se asigna.",
+    "absorbida": "Su contenido pasó a otra carta (absorbida_en). No se asigna a clientes nuevos.",
+    "eliminada": "Fuera del programa.",
+    "duplicada": "Duplica otra carta; falta elegir cuál queda."
+  },
+  "sops_por_escribir": [
+    {
+      "id": "herramientas-founders",
+      "nombre": "Las herramientas de Founders",
+      "va_con": "arranque",
+      "que": "Fathom, Slack, el agente y la tarea programada en Claude, y cómo eso completa documentos y hace de PM. Consultar a Teo si ya existe."
+    },
+    {
+      "id": "administracion-del-negocio",
+      "nombre": "Administración del negocio",
+      "va_con": null,
+      "que": "Junta el diario administrativo y el cierre del mes del equipo, como se hace con Delfi Ferro."
+    },
+    {
+      "id": "como-usa-teo-lovable",
+      "nombre": "Cómo usamos Lovable",
+      "va_con": "landing-que-convierte",
+      "que": "Pedírselo a Teo."
+    },
+    {
+      "id": "base-airtable-cascara",
+      "nombre": "La base de Cáscara en Airtable",
+      "va_con": "base-de-datos-unica",
+      "que": "Capturas del Airtable de Cáscara con nombres y números tapados, y una base genérica para duplicar."
+    },
+    {
+      "id": "contrato-de-servicio",
+      "nombre": "Contrato de servicio de ejemplo",
+      "va_con": "funnel-de-servicio",
+      "que": "Un contrato de Cáscara de ejemplo y una plantilla de contrato de servicio, dentro de Alcance por escrito."
+    }
+  ]
 }

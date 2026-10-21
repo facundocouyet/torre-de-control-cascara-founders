@@ -11,11 +11,6 @@
       "nivel": "troncal",
       "dias": 3
     },
-    "foco-y-ventana": {
-      "nombre": "Elegir la ventana y soltar el resto",
-      "nivel": "2",
-      "dias": 2
-    },
     "sociedad-y-roles": {
       "nombre": "Resolver la sociedad que frena",
       "nivel": "2",
@@ -31,19 +26,9 @@
       "nivel": "troncal",
       "dias": 3
     },
-    "precio-escalera": {
-      "nombre": "Precio y escalera de valor",
-      "nivel": "1",
-      "dias": 2
-    },
-    "cinco-llamadas-con-precio": {
-      "nombre": "Las primeras cinco llamadas con precio",
-      "nivel": "2",
-      "dias": 2
-    },
     "profile-funnel": {
       "nombre": "Profile funnel del perfil",
-      "nivel": "1",
+      "nivel": "troncal",
       "dias": 7
     },
     "angulos-desde-icp": {
@@ -52,34 +37,9 @@
       "dias": 3
     },
     "calendario-contenido": {
-      "nombre": "Calendario de contenido de sesenta días",
+      "nombre": "Calendario de contenido: estrategia, creatividad y guiones",
       "nivel": "troncal",
       "dias": 7
-    },
-    "calendario-en-notion": {
-      "nombre": "Tu calendario en Notion",
-      "nivel": "2",
-      "dias": 3
-    },
-    "diez-piezas-y-lectura": {
-      "nombre": "Las diez piezas y su lectura",
-      "nivel": "1",
-      "dias": 2
-    },
-    "formato-barato": {
-      "nombre": "El formato barato que se sostiene",
-      "nivel": "3",
-      "dias": 2
-    },
-    "caso-documentado": {
-      "nombre": "El caso documentado del cliente que ya tenés",
-      "nivel": "3",
-      "dias": 2
-    },
-    "color-desde-log": {
-      "nombre": "Color después del LOG",
-      "nivel": "3",
-      "dias": 2
     },
     "estratega-creativo": {
       "nombre": "Sumar un estratega creativo",
@@ -87,74 +47,34 @@
       "dias": 3
     },
     "mi-editing-brief": {
-      "nombre": "Tu editing brief",
+      "nombre": "El brief de tu contenido",
       "nivel": "2",
-      "dias": 2
-    },
-    "arquitectura-comunidad": {
-      "nombre": "Arquitectura minima de una comunidad",
-      "nivel": "3",
       "dias": 2
     },
     "handraisers-historias": {
       "nombre": "Historias con handraisers",
-      "nivel": "2",
+      "nivel": "troncal",
       "dias": 2
     },
     "calendario-lanzamiento": {
       "nombre": "Calendario de lanzamiento",
-      "nivel": "1",
+      "nivel": "troncal",
       "dias": 3
-    },
-    "webinar-de-venta": {
-      "nombre": "El webinar que agenda llamadas",
-      "nivel": "2",
-      "dias": 2
     },
     "resultados-lanzamiento": {
       "nombre": "Resultados del lanzamiento",
       "nivel": "3",
       "dias": 2
     },
-    "capitalizar-evento": {
-      "nombre": "Capitalizar un evento presencial",
-      "nivel": "3",
-      "dias": 2
-    },
-    "lanzamiento-operado": {
-      "nombre": "La operación de un lanzamiento",
-      "nivel": "2",
-      "dias": 3
-    },
     "proceso-comercial": {
       "nombre": "Tu proceso comercial",
       "nivel": "troncal",
-      "dias": 3
-    },
-    "venta-b2c": {
-      "nombre": "La venta B2C, de punta a punta",
-      "nivel": "1",
-      "dias": 3
-    },
-    "venta-de-servicios": {
-      "nombre": "La venta de servicios, de punta a punta",
-      "nivel": "1",
       "dias": 3
     },
     "setter-closer": {
       "nombre": "Sumar un setter o un closer",
       "nivel": "3",
       "dias": 2
-    },
-    "venta-que-dispara-todo": {
-      "nombre": "La venta que dispara todo lo que sigue",
-      "nivel": "3",
-      "dias": 3
-    },
-    "tablero-que-dispara-acciones": {
-      "nombre": "El tablero que dispara acciones",
-      "nivel": "2",
-      "dias": 3
     },
     "onboarding-y-roadmap-cliente": {
       "nombre": "Onboarding a 48 horas y roadmap para el cliente",
@@ -171,24 +91,9 @@
       "nivel": "troncal",
       "dias": 3
     },
-    "proceso-entrega-repetible": {
-      "nombre": "Productización del servicio",
-      "nivel": "2",
-      "dias": 2
-    },
-    "alcance-por-escrito": {
-      "nombre": "Alcance del servicio por escrito",
-      "nivel": "2",
-      "dias": 2
-    },
     "ciclo-y-continuidad": {
-      "nombre": "Cierre de ciclo y venta de continuidad",
+      "nombre": "Offboarding, renovación y upsell",
       "nivel": "2",
-      "dias": 2
-    },
-    "entre-pasos": {
-      "nombre": "Lo que pasa entre un paso y el siguiente",
-      "nivel": "troncal",
       "dias": 2
     },
     "checkpoints-del-servicio": {
@@ -212,7 +117,7 @@
       "dias": 2
     },
     "contratar-primer-rol": {
-      "nombre": "Contratar la primera persona",
+      "nombre": "Contratar a tu editor",
       "nivel": "2",
       "dias": 3
     },
@@ -221,29 +126,14 @@
       "nivel": "3",
       "dias": 2
     },
-    "diario-administrativo": {
-      "nombre": "Diario administrativo y cierre mensual",
-      "nivel": "3",
-      "dias": 2
-    },
-    "cierre-del-mes-equipo": {
-      "nombre": "El cierre del mes de tu equipo",
+    "tareas-programadas": {
+      "nombre": "Tareas que corren solas",
       "nivel": "2",
-      "dias": 2
-    },
-    "reuniones-con-accionables": {
-      "nombre": "Cada reunión deja algo escrito",
-      "nivel": "3",
       "dias": 2
     },
     "base-de-datos-unica": {
       "nombre": "Una sola base de datos, y para qué sirve",
       "nivel": "2",
-      "dias": 2
-    },
-    "captura-y-seguimiento": {
-      "nombre": "Captura automatica y seguimiento por mail",
-      "nivel": "3",
       "dias": 2
     },
     "landing-que-convierte": {
@@ -256,53 +146,13 @@
       "nivel": "3",
       "dias": 2
     },
-    "informes-con-ia": {
-      "nombre": "Leer el negocio con IA",
-      "nivel": "3",
-      "dias": 2
-    },
     "ia-en-la-operacion": {
       "nombre": "La IA adentro de tu operación",
       "nivel": "troncal",
       "dias": 2
     },
-    "formulario-a-la-base": {
-      "nombre": "Cada formulario escribe en tu base",
-      "nivel": "1",
-      "dias": 3
-    },
-    "tareas-programadas": {
-      "nombre": "Tareas que corren solas",
-      "nivel": "2",
-      "dias": 2
-    },
-    "webhook-unico-y-atribucion": {
-      "nombre": "Una entrada para todos tus formularios",
-      "nivel": "3",
-      "dias": 2
-    },
     "pasaporte-digital": {
       "nombre": "Pasaporte digital",
-      "nivel": "1",
-      "dias": 2
-    },
-    "identidad-y-arco-narrativo": {
-      "nombre": "Identidad y arco narrativo",
-      "nivel": "3",
-      "dias": 2
-    },
-    "direccion-visual": {
-      "nombre": "Dirección visual y separación de cuentas",
-      "nivel": "3",
-      "dias": 2
-    },
-    "narrativa-de-video": {
-      "nombre": "Narrativa y producción de video",
-      "nivel": "3",
-      "dias": 2
-    },
-    "preparar-direccion-creativa": {
-      "nombre": "Preparate para tu sesión de Dirección Creativa",
       "nivel": "1",
       "dias": 2
     },
@@ -312,119 +162,9 @@
       "dias": 2
     },
     "estetica-y-estrategia": {
-      "nombre": "Estética al servicio de la estrategia",
+      "nombre": "La dirección creativa de tu marca",
       "nivel": "2",
-      "dias": 2
-    },
-    "caballo-de-troya": {
-      "nombre": "El caballo de Troya visual",
-      "nivel": "3",
-      "dias": 2
-    },
-    "kit-de-identidad": {
-      "nombre": "Kit mínimo de identidad para contenido",
-      "nivel": "1",
-      "dias": 2
-    },
-    "moodboard-estrategico": {
-      "nombre": "Moodboard estratégico",
-      "nivel": "2",
-      "dias": 2
-    },
-    "founder-cara-de-marca": {
-      "nombre": "El founder como cara de la marca",
-      "nivel": "2",
-      "dias": 2
-    },
-    "miedo-a-la-camara": {
-      "nombre": "Perderle el miedo a la cámara",
-      "nivel": "1",
-      "dias": 2
-    },
-    "research-semanal": {
-      "nombre": "Cómo hacer research: tu sistema semanal",
-      "nivel": "1",
-      "dias": 2
-    },
-    "escribir-un-guion": {
-      "nombre": "Cómo escribir un guion",
-      "nivel": "1",
-      "dias": 2
-    },
-    "primeros-cinco-segundos": {
-      "nombre": "Los primeros 5 segundos",
-      "nivel": "1",
-      "dias": 1
-    },
-    "clientes-en-historia": {
-      "nombre": "Convertir el trabajo con clientes en historia",
-      "nivel": "2",
-      "dias": 2
-    },
-    "historia-de-origen": {
-      "nombre": "Tu historia de origen",
-      "nivel": "2",
-      "dias": 2
-    },
-    "formatos-de-ficcion": {
-      "nombre": "Formatos de ficción",
-      "nivel": "3",
-      "dias": 2
-    },
-    "inventar-cuando-no-pasa-nada": {
-      "nombre": "Inventar cuando no pasa nada",
-      "nivel": "3",
-      "dias": 1
-    },
-    "casos-desde-tu-disciplina": {
-      "nombre": "Crear casos desde tu disciplina",
-      "nivel": "3",
-      "dias": 1
-    },
-    "bloqueo-creativo": {
-      "nombre": "Protocolo de bloqueo creativo",
-      "nivel": "1",
-      "dias": 2
-    },
-    "video-largo-con-celular": {
-      "nombre": "Grabar un video largo horizontal con el celular",
-      "nivel": "2",
-      "dias": 1
-    },
-    "exprimir-una-produccion": {
-      "nombre": "Exprimir una producción",
-      "nivel": "3",
-      "dias": 2
-    },
-    "shotlist-y-rodaje": {
-      "nombre": "Shotlist y guion de rodaje",
-      "nivel": "3",
-      "dias": 1
-    },
-    "checklist-antes-de-publicar": {
-      "nombre": "Checklist antes de publicar",
-      "nivel": "1",
-      "dias": 1
-    },
-    "objetivo-a-concepto": {
-      "nombre": "Del objetivo al concepto creativo",
-      "nivel": "2",
-      "dias": 2
-    },
-    "direccion-de-arte-coleccion": {
-      "nombre": "Dirección de arte para lanzar una colección o un producto",
-      "nivel": "3",
-      "dias": 2
-    },
-    "tu-marca-mejor-cliente": {
-      "nombre": "Tu marca como tu mejor cliente",
-      "nivel": "3",
-      "dias": 2
-    },
-    "criterio-creativo": {
-      "nombre": "El criterio creativo se entrena",
-      "nivel": "1",
-      "dias": 1
+      "dias": 3
     }
   },
   "roadmaps": {

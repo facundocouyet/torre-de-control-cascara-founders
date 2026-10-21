@@ -8,11 +8,11 @@
 - **Cuándo va:** Después de la Clarity Call, antes de la llamada con Franco.
 - **Versiones:** delfina-corsalini (liviana), juan-cruz-galeano (liviana), lara-loiano (liviana), lucila-prieto (liviana), marcelo-fernandez (propia), milagros-goico (liviana), naiara-angeloff (liviana), osmo (propia), said-espinosa (liviana), samuel-tarancon (liviana)
 - **Últimos cambios:**
+  - 2026-10-18 · 18/10: Momentum relanza en enero (pelota Facu), Seba con oferta cerrada con Franco, Lola pasa al 20/10. Galeano: Clarity del 17/10 y auditoría liviana en revisión (`bfd5ba9`)
   - 2026-10-16 · Osmo primero (Facu 16/10): servicio y cliente + cliente ideal en versión propia, salen juntas antes de Franco. Said: la auditoría sin la fecha vieja de Franco (`e86326c`)
   - 2026-10-16 · 16/10: Camila liberada. PLAY COURT: auditoría propia desde la Clarity del 15/10 (proyectos, consultas que no cerraron, casos para mostrar), en revisión. Mecha: la auditoría sin la fecha vieja. Said: onboarding en cola. Las cartas de cliente ideal y ángulos ya no piden cinco conversaciones: sale de mensajes, comentarios y llamadas que ya tienen (`3f4ecec`)
   - 2026-10-14 · 14/10: se liberan las cartas de Mecha y A2 (✅ de Aye); Osmo y Sol con cartas en revisión; Sol día 30, Custom Lab sin conectarse, Sofía Galvis con Franco el 15/10, grupal de Fede (`a57f8ab`)
   - 2026-10-09 · Auditoría de clientes: revisadas las siete; A2 y Mecha en plural, Lucila con ticket y desde cuándo, cierre en primera persona (`f7c7f4f`)
-  - 2026-10-09 · Auditoría de clientes: los pasos le hablan al founder (vos), no sobre él (`2d9e7b8`)
 
 ## 360 del negocio: punto A, cuello de botella y punto B · `radiografia-360`
 
@@ -104,7 +104,7 @@
   - 2026-09-24 · qualita: el canal es Instagram, sin mencionar otro (`36909c1`)
   - 2026-09-24 · qualita: angulos reescrita, auditoria del metodo y del proceso comercial (`b2748ac`)
 
-## Calendario de contenido de sesenta días · `calendario-contenido`
+## Calendario de contenido: estrategia, creatividad y guiones · `calendario-contenido`
 
 - **Cuándo va:** Cuando el founder publica cuando le queda tiempo y la cadencia se cae sola.
 - **Versiones:** custom-lab (liviana)
@@ -155,7 +155,7 @@
 - **Últimos cambios:**
   - 2026-09-27 · Carta nueva: Sumar un estratega creativo (`b9af657`)
 
-## Tu editing brief · `mi-editing-brief`
+## El brief de tu contenido · `mi-editing-brief`
 
 - **Cuándo va:** Mes 2, antes de delegar la producción: cuando el founder ya tiene oferta y calendario y le pasa (o ya le pasó) la edición a otra persona.
 - **Criterio de los cambios:** 14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Carta nueva a partir de «Calendarios y Editing Brief Cáscara» de Segundo (6/10): los pasos de la oferta a la tarjeta del editor, qué lleva el brief (objetivo, referencias, ritmo, tipografía, música, entregable y deadline), un caso resuelto anonimizado y la prueba con un brief real y sus vueltas contadas. Dueño en el reparto de cards: Fede.
@@ -186,16 +186,19 @@
 - **Criterio de los cambios:** 14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. El «Calendario de Historias de Lanzamiento» de Franco (6/10) entra como ejemplo: la consigna del día por día (cid 3) pide el CTA de cada día y un rol por día, y al final va un bloque nuestro (cid 8) con los 28 días, el evento del 15 al 19, la venta del 17 al 23 y las palabras clave por DM. Ningún cid existente cambió.
 - **Versiones:** bianca-antonini (liviana), scarlett-montilla (liviana), sebastian (liviana)
 - **Últimos cambios:**
+  - 2026-10-21 · Seba (21/10): la app se resetea con lo que cerró Franco el 17/10. Activa el calendario de lanzamiento (26/10 al 22/11) con la oferta Gira la Cámara cargada; sigue el workshop de tres días (webinar de venta liviana); Profile Funnel en paralelo; después la venta B2C. Sale la escalera de precios. Ficha y seguimiento al día (`cf176a4`)
   - 2026-10-15 · Cartas con el material del equipo: llamada de venta con el guion de Franco, seguimiento de 24-48 h en setter-closer, calendario de historias de 28 días en el lanzamiento, y carta nueva Mi editing brief (doc de Segundo) (`c2833d2`)
   - 2026-10-06 · Seba: devolución del Acelerador de Talleres y cartas en revisión (arranque del cliente y calendario de lanzamiento) (`8ff3697`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
-  - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
 
-## El webinar que agenda llamadas · `webinar-de-venta`
+## Webinar, workshop o bootcamp · `webinar-de-venta`
 
 - **Cuándo va:** Cuando el founder junta gente en vivo para vender y la venta se cierra ahí mismo con un link, sin llamada, sin lista y sin saber por qué no compró el que no compró.
+- **Versiones:** sebastian (liviana)
 - **Últimos cambios:**
+  - 2026-10-21 · Seba: la carta del bootcamp con los cuatro días que se definieron en la 1:1 del 21/10 (`9820e08`)
+  - 2026-10-21 · Seba (21/10): la app se resetea con lo que cerró Franco el 17/10. Activa el calendario de lanzamiento (26/10 al 22/11) con la oferta Gira la Cámara cargada; sigue el workshop de tres días (webinar de venta liviana); Profile Funnel en paralelo; después la venta B2C. Sale la escalera de precios. Ficha y seguimiento al día (`cf176a4`)
   - 2026-09-24 · carta nueva: el webinar que agenda llamadas (`638afaa`)
 
 ## Resultados del lanzamiento · `resultados-lanzamiento`
@@ -214,6 +217,39 @@
 - **Últimos cambios:**
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
+
+## La operación de un lanzamiento · `lanzamiento-operado`
+
+- **Cuándo va:** Cuando vas a abrir un evento, un desafío o un lanzamiento, y la inscripción, los mails y los links se resuelven sobre la marcha.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Tu proceso comercial · `proceso-comercial`
+
+- **Cuándo va:** Todo founder, después de la auditoría de clientes y antes de cualquier carta de venta o de abrir canales nuevos.
+- **Cómo se personaliza:** La fase 1 precargada con lo que salió de la Clarity y la auditoría de clientes, y el camino sugerido en la fase 2 según cómo cobra hoy.
+- **Ojo:** Reemplaza a la auditoría del proceso comercial, al pipeline de siete campos y al registro de llamadas. Quien ya tiene alguna asignada la termina y sigue con esta desde la fase que le falte. El registro es de Teo y sigue vivo para la operación de Cáscara (Facu, 19/10).
+- **Últimos cambios:**
+  - 2026-10-19 · Saco los nombres de Francisca y Franco de las cartas comerciales nuevas y del tablero (Facu, 19/10): queda "el equipo comercial de Cáscara" y los números del Pentágono sin nombres (`fd00d05`)
+  - 2026-10-19 · Cartas comerciales grandes (Facu, 19/10): Tu proceso comercial (troncal), La venta B2C y La venta de servicios, de punta a punta (`1e9c002`)
+
+## La venta B2C, de punta a punta · `venta-b2c`
+
+- **Cuándo va:** Cuando el founder vende un programa, un infoproducto o una membresía que se cierra en una llamada, y ya tiene su proceso comercial escrito.
+- **Cómo se personaliza:** Los siete mensajes y el guion con el XYZ del founder, y el cierre con sus cupos, fecha y seña.
+- **Ojo:** Va después de Tu proceso comercial y solo para camino B2C. Reemplaza a la llamada de venta y el cierre. Los ejemplos de setting son de Cáscara (Francisca). Los reframes de presión fuerte quedan afuera.
+- **Últimos cambios:**
+  - 2026-10-19 · Saco los nombres de Francisca y Franco de las cartas comerciales nuevas y del tablero (Facu, 19/10): queda "el equipo comercial de Cáscara" y los números del Pentágono sin nombres (`fd00d05`)
+  - 2026-10-19 · Cartas comerciales grandes (Facu, 19/10): Tu proceso comercial (troncal), La venta B2C y La venta de servicios, de punta a punta (`1e9c002`)
+
+## La venta de servicios, de punta a punta · `venta-de-servicios`
+
+- **Cuándo va:** Cuando el founder vende un servicio que se cierra con propuesta (agencia, estudio, consultora o productora), con más de una persona decidiendo del otro lado.
+- **Cómo se personaliza:** Las preguntas de diagnóstico y la propuesta con el servicio y el precio de su oferta escrita.
+- **Ojo:** Va después de Tu proceso comercial y solo para camino servicios. Reemplaza al recontacto y la prospección y a la propuesta comercial. Se negocia el alcance; el precio de cada parte se sostiene.
+- **Últimos cambios:**
+  - 2026-10-19 · Saco los nombres de Francisca y Franco de las cartas comerciales nuevas y del tablero (Facu, 19/10): queda "el equipo comercial de Cáscara" y los números del Pentágono sin nombres (`fd00d05`)
+  - 2026-10-19 · Cartas comerciales grandes (Facu, 19/10): Tu proceso comercial (troncal), La venta B2C y La venta de servicios, de punta a punta (`1e9c002`)
 
 ## Auditoría del proceso comercial · `auditoria-proceso-comercial`
 
@@ -273,6 +309,27 @@
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
 
+## Cada llamada queda registrada · `registro-de-llamadas`
+
+- **Cuándo va:** Cuando ya tenés llamadas de venta y el resultado de cada una queda en tu cabeza.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## La venta que dispara todo lo que sigue · `venta-que-dispara-todo`
+
+- **Cuándo va:** Cuando tenés setters o closers, vendés todas las semanas y después de cada venta alguien arma el contrato, da accesos y avisa a mano.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## El tablero que dispara acciones · `tablero-que-dispara-acciones`
+
+- **Cuándo va:** Cuando el founder ya vende y tiene llamadas, eventos o lanzamientos, y decide de memoria qué tocar cuando algo no anda.
+- **Cómo se personaliza:** La limitación precargada con lo que salió de la Clarity y la auditoría, y en la tabla los números que el founder ya pasó (por ejemplo, los de la carta de resultados del lanzamiento).
+- **Ojo:** Los números de referencia son de Cáscara. Los de otros founders no se muestran. Los umbrales se calibran con Franco con los próximos dos lanzamientos.
+- **Últimos cambios:**
+  - 2026-10-19 · Saco los nombres de Francisca y Franco de las cartas comerciales nuevas y del tablero (Facu, 19/10): queda "el equipo comercial de Cáscara" y los números del Pentágono sin nombres (`fd00d05`)
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
 ## Onboarding a 48 horas y roadmap para el cliente · `onboarding-y-roadmap-cliente`
 
 - **Cuándo va:** Cuando la venta cae y a partir de ahí el founder improvisa.
@@ -320,12 +377,30 @@
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
 
-## Cierre de ciclo y venta de continuidad · `ciclo-y-continuidad`
+## Offboarding, renovación y upsell · `ciclo-y-continuidad`
 
 - **Cuándo va:** Cuando el founder tiene clientes en mensualidad abierta y ninguna conversación de renovación.
 - **Últimos cambios:**
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
+
+## Lo que pasa entre un paso y el siguiente · `entre-pasos`
+
+- **Cuándo va:** A todo founder que entrega un servicio o un programa, en el primer mes y antes de sumar clientes nuevos.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Los checkpoints de tu servicio · `checkpoints-del-servicio`
+
+- **Cuándo va:** Cuando ya tenés clientes adentro y te enterás de que algo no anda cuando el cliente está por irse.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Tu app de clientes y el soporte que se ordena solo · `app-de-clientes-y-soporte`
+
+- **Cuándo va:** Cuando tenés varios clientes en simultáneo, entregás por varios lados y los errores y pedidos te llegan por WhatsApp.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
 
 ## El OS del negocio en Notion · `os-en-notion`
 
@@ -340,7 +415,7 @@
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
 
-## Contratar la primera persona · `contratar-primer-rol`
+## Contratar a tu editor · `contratar-primer-rol`
 
 - **Cuándo va:** Cuando el founder llegó al techo de sus propias horas y lo que lo ocupa no necesita su criterio, sino su tiempo.
 - **Versiones:** lucila-prieto (liviana), sebastian (liviana), sol-boutmy (liviana)
@@ -368,6 +443,24 @@
 - **Últimos cambios:**
   - 2026-09-21 · Se terminan las hojas que faltaban y el documento de Qualita (`f6e7fc7`)
 
+## El cierre del mes de tu equipo · `cierre-del-mes-equipo`
+
+- **Cuándo va:** Cuando tenés editores, diseñadores o colaboradores que cobran por pieza y el fin de mes es una tarde de cuentas, cliente por cliente.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Cada reunión deja algo escrito · `reuniones-con-accionables`
+
+- **Cuándo va:** Cuando tenés equipo, varias reuniones por semana y las decisiones se pierden entre una llamada y la siguiente.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Tareas que corren solas · `tareas-programadas`
+
+- **Cuándo va:** Cuando ya tenés una base y procesos armados, y seguís revisando, avisando y copiando datos a mano todos los días.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
 ## Una sola base de datos, y para qué sirve · `base-de-datos-unica`
 
 - **Cuándo va:** Cuando la información de clientes y ventas vive en varios lugares y nadie la puede filtrar sin ayuda.
@@ -375,7 +468,7 @@
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
 
-## Captura automatica y seguimiento por mail · `captura-y-seguimiento`
+## Cómo usamos ManyChat · `captura-y-seguimiento`
 
 - **Cuándo va:** Cuando el contenido trae gente y esa gente se pierde porque nadie la registra ni le vuelve a escribir.
 - **Últimos cambios:**
@@ -405,23 +498,44 @@
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
 
+## La IA adentro de tu operación · `ia-en-la-operacion`
+
+- **Cuándo va:** A todo founder en el primer mes, esté en cero con la IA o ya la use todos los días.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Cada formulario escribe en tu base · `formulario-a-la-base`
+
+- **Cuándo va:** Cuando la gente te escribe por varios lados y los datos quedan en chats, mails y planillas sueltas.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Una entrada para todos tus formularios · `webhook-unico-y-atribucion`
+
+- **Cuándo va:** Cuando tenés varias landings, eventos y pauta corriendo, y cada formulario guarda en un lugar distinto.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
 ## Pasaporte digital · `pasaporte-digital`
 
 - **Cuándo va:** Cuando el founder necesita su diferencial en la comunicación y los Founder Insights no alcanzan.
 - **Ojo:** Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
 - **Versiones:** aaron-aiello (liviana), camila-basso (propia), rosario-sola (liviana)
 - **Últimos cambios:**
+  - 2026-10-21 · Camila: tareas propias en sus dos cartas de narrativa (la de BUCK heredaba las tareas personales del pasaporte) (`59c55ad`)
+  - 2026-10-21 · Camila (21/10): la narrativa se parte en dos. La narrativa de BUCK queda solo con la marca (falta el moodboard) y suma la carta Tu historia y tu marca personal con las preguntas personales del pasaporte. Orden: BUCK, su historia, cliente ideal, ángulos y calendario (`b635169`)
   - 2026-10-16 · Camila: narrativa de BUCK primero (pasaporte adaptado, con su moodboard), cliente ideal en paralelo, después ángulos y calendario. Done with you (`df7ccfb`)
   - 2026-10-16 · Las cartas no piden escribirle a nadie (regla de Facu 16/10). Camila: pasaporte de BUCK en paralelo al cliente ideal. Seba: la carta de oferta espera la llamada con Franco (`a4c9c2f`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
-  - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
-  - 2026-09-21 · El pasaporte digital pasa a tener las preguntas adentro (`ffac60c`)
 
 ## Identidad y arco narrativo · `identidad-y-arco-narrativo`
 
 - **Cuándo va:** Cuando el founder cambia de mensaje todas las semanas y nada se acumula.
 - **Ojo:** Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
+- **Versiones:** camila-basso (propia)
 - **Últimos cambios:**
+  - 2026-10-21 · Camila: tareas propias en sus dos cartas de narrativa (la de BUCK heredaba las tareas personales del pasaporte) (`59c55ad`)
+  - 2026-10-21 · Camila (21/10): la narrativa se parte en dos. La narrativa de BUCK queda solo con la marca (falta el moodboard) y suma la carta Tu historia y tu marca personal con las preguntas personales del pasaporte. Orden: BUCK, su historia, cliente ideal, ángulos y calendario (`b635169`)
   - 2026-10-16 · Las cartas no piden escribirle a nadie (regla de Facu 16/10). Camila: pasaporte de BUCK en paralelo al cliente ideal. Seba: la carta de oferta espera la llamada con Franco (`a4c9c2f`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
@@ -440,3 +554,199 @@
 - **Últimos cambios:**
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
+
+## Preparate para tu sesión de Dirección Creativa · `preparar-direccion-creativa`
+
+- **Cuándo va:** Antes de tu sesión 1:1 de Dirección Creativa, después de completar el Founder Insights.
+- **Criterio de los cambios:** 17/10 · Carta 01 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Auditoría creativa de tu marca · `auditoria-creativa`
+
+- **Cuándo va:** Al inicio del programa y cada vez que sientas que tu contenido «no te representa».
+- **Criterio de los cambios:** 17/10 · Carta 02 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. La versión de Juana pedía preguntarle a 3 personas de afuera; se reemplazó por la lectura en la grupal (las cartas no le piden al founder que le escriba a nadie).
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## La dirección creativa de tu marca · `estetica-y-estrategia`
+
+- **Cuándo va:** Cuando cambiás de oferta o de cliente ideal, o cuando tu estética no acompaña tu nuevo precio.
+- **Criterio de los cambios:** 17/10 · Carta 03 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## El caballo de Troya visual · `caballo-de-troya`
+
+- **Cuándo va:** Si tu sector es formal o muy uniforme y querés diferenciarte sin parecer poco serio.
+- **Criterio de los cambios:** 17/10 · Carta 04 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Kit mínimo de identidad para contenido · `kit-de-identidad`
+
+- **Cuándo va:** Antes de delegar edición o diseño, o si cada pieza te sale distinta.
+- **Criterio de los cambios:** 17/10 · Carta 05 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Moodboard estratégico · `moodboard-estrategico`
+
+- **Cuándo va:** Antes de una campaña, un shooting, un rebranding o una serie de contenido.
+- **Criterio de los cambios:** 17/10 · Carta 06 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## El founder como cara de la marca · `founder-cara-de-marca`
+
+- **Cuándo va:** Cuando tu marca personal es parte de la estrategia (casi siempre lo es).
+- **Criterio de los cambios:** 17/10 · Carta 07 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Perderle el miedo a la cámara · `miedo-a-la-camara`
+
+- **Cuándo va:** Si sabés que tenés que aparecer pero cada vez lo postergás.
+- **Criterio de los cambios:** 17/10 · Carta 08 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Cómo hacer research: tu sistema semanal · `research-semanal`
+
+- **Cuándo va:** Siempre. Es la base de todas las demás cartas de ideas.
+- **Criterio de los cambios:** 17/10 · Carta 09 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Cómo escribir un guion · `escribir-un-guion`
+
+- **Cuándo va:** En tu día de escritura, o cada vez que tengas una observación que vale la pena.
+- **Criterio de los cambios:** 17/10 · Carta 10 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Los primeros 5 segundos · `primeros-cinco-segundos`
+
+- **Cuándo va:** En cada pieza. Es lo primero que se revisa de un guion.
+- **Criterio de los cambios:** 17/10 · Carta 11 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Convertir el trabajo con clientes en historia · `clientes-en-historia`
+
+- **Cuándo va:** En cada proyecto con un cliente.
+- **Criterio de los cambios:** 17/10 · Carta 12 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Estructura de caso de cliente · `estructura-de-caso`
+
+- **Cuándo va:** Cuando terminás un proyecto o llegás a un resultado intermedio que vale la pena contar.
+- **Criterio de los cambios:** 17/10 · Carta 13 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. Duplica caso-documentado: Facu decide cuál queda.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Tu historia de origen · `historia-de-origen`
+
+- **Cuándo va:** Al lanzar o relanzar tu marca, o cuando sumás una oferta nueva.
+- **Criterio de los cambios:** 17/10 · Carta 14 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Formatos de poco esfuerzo y mucho valor · `formatos-poco-esfuerzo`
+
+- **Cuándo va:** Para sostener la constancia en semanas cargadas.
+- **Criterio de los cambios:** 17/10 · Carta 15 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. Duplica formato-barato: Facu decide cuál queda.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Formatos de ficción · `formatos-de-ficcion`
+
+- **Cuándo va:** Cuando tu mensaje es repetido o técnico y necesitás otra forma de entrarle.
+- **Criterio de los cambios:** 17/10 · Carta 16 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Inventar cuando no pasa nada · `inventar-cuando-no-pasa-nada`
+
+- **Cuándo va:** Cuando no hay lanzamientos, clientes nuevos ni nada «para contar».
+- **Criterio de los cambios:** 17/10 · Carta 17 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Crear casos desde tu disciplina · `casos-desde-tu-disciplina`
+
+- **Cuándo va:** Al lanzar una oferta nueva, al cambiar de rubro o cuando tus clientes piden confidencialidad.
+- **Criterio de los cambios:** 17/10 · Carta 18 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Protocolo de bloqueo creativo · `bloqueo-creativo`
+
+- **Cuándo va:** Cuando pasan días sin publicar y cada idea te parece mala.
+- **Criterio de los cambios:** 17/10 · Carta 19 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Brief para tu editor · `brief-para-tu-editor`
+
+- **Cuándo va:** Cada vez que mandás material a editar.
+- **Criterio de los cambios:** 17/10 · Carta 20 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. Duplica mi-editing-brief: Facu decide cuál queda.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Grabar un video largo horizontal con el celular · `video-largo-con-celular`
+
+- **Cuándo va:** Una vez por semana o cada dos, según tu serie del mes.
+- **Criterio de los cambios:** 17/10 · Carta 21 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Exprimir una producción · `exprimir-una-produccion`
+
+- **Cuándo va:** Antes de cualquier shooting, rodaje o evento.
+- **Criterio de los cambios:** 17/10 · Carta 22 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Shotlist y guion de rodaje · `shotlist-y-rodaje`
+
+- **Cuándo va:** Antes de cada rodaje, por chico que sea.
+- **Criterio de los cambios:** 17/10 · Carta 23 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Checklist antes de publicar · `checklist-antes-de-publicar`
+
+- **Cuándo va:** Antes de publicar una pieza propia o de aprobar una que te entrega el editor.
+- **Criterio de los cambios:** 17/10 · Carta 24 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Del objetivo al concepto creativo · `objetivo-a-concepto`
+
+- **Cuándo va:** Antes de un lanzamiento, una campaña o una presentación importante.
+- **Criterio de los cambios:** 17/10 · Carta 25 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Dirección de arte para lanzar una colección o un producto · `direccion-de-arte-coleccion`
+
+- **Cuándo va:** Al lanzar una colección, una cápsula o un producto físico.
+- **Criterio de los cambios:** 17/10 · Carta 26 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## Tu marca como tu mejor cliente · `tu-marca-mejor-cliente`
+
+- **Cuándo va:** Si vendés branding, contenido, producción o lanzamientos a otros.
+- **Criterio de los cambios:** 17/10 · Carta 27 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
+
+## El criterio creativo se entrena · `criterio-creativo`
+
+- **Cuándo va:** Siempre. Es la base de todo lo demás.
+- **Criterio de los cambios:** 17/10 · Carta 28 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
+- **Últimos cambios:**
+  - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
