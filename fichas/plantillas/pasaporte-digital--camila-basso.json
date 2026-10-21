@@ -103,5 +103,19 @@
     "Ordenar los productos: lo que vendés y lo que llega para el verano.",
     "Escribir cómo suena la marca.",
     "Actualizar el moodboard que ya tenés con la dirección nueva."
+  ],
+  "tareas": [
+    {
+      "titulo": "Qué es BUCK, los productos, tu necesidad y el tono, escritos",
+      "semana": 1,
+      "frecuencia": "unica",
+      "descripcion": "Ya lo completaste en la carta: repasalo y marcá esta tarea."
+    },
+    {
+      "titulo": "El moodboard actualizado con la dirección nueva",
+      "semana": 1,
+      "frecuencia": "unica",
+      "descripcion": "Qué queda, qué sale y qué falta, con el link del moodboard pegado en la última sección."
+    }
   ]
 }

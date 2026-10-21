@@ -113,5 +113,19 @@
     "Escribir las creencias que te frenaban.",
     "Contar cómo evolucionaste y qué valores defendés.",
     "Escribir qué tipo de marca personal querés construir."
+  ],
+  "tareas": [
+    {
+      "titulo": "Tu antes y después, los momentos difíciles y las creencias",
+      "semana": 1,
+      "frecuencia": "unica",
+      "descripcion": "Las tres primeras secciones de la carta."
+    },
+    {
+      "titulo": "Tus escenas, tu evolución, tus valores y tu marca personal",
+      "semana": 1,
+      "frecuencia": "unica",
+      "descripcion": "Las secciones que siguen, hasta el final de la carta."
+    }
   ]
 }
