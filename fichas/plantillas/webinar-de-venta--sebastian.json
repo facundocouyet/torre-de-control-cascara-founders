@@ -1,0 +1,22 @@
+{
+  "modulo": "webinar-de-venta",
+  "slug": "sebastian",
+  "founder": "Sebastián Martínez",
+  "bajada_envio": {
+    "founder": "Sebastián Martínez",
+    "porque": "La venta de «Gira la Cámara» abre con el workshop en vivo de tres días de la semana 4. La estructura narrativa la baja Franco y el contenido sale del programa que ya armaste.",
+    "objetivo": "El workshop escrito día por día, con una sola puerta al final, los días de venta de después y la llamada con el precio arriba de la mesa.",
+    "mindset": "El workshop enseña algo que sirve por sí solo y termina en una puerta: la llamada para entrar al programa."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Tu workshop",
+      "texto": [
+        "<b>Cuándo:</b> tres días en vivo en la semana 4 del lanzamiento, la del 16/11. El registro abre en la semana 3.",
+        "<b>Qué vende:</b> «Gira la Cámara» a USD 997 los primeros cinco, después USD 1.200, o tres cuotas de USD 480.",
+        "<b>Con qué se arma:</b> la estructura narrativa de Franco y el contenido de tu programa. La grabación queda como bono del programa."
+      ]
+    }
+  ]
+}

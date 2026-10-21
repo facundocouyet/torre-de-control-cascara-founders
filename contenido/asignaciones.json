@@ -75,14 +75,16 @@
       "por_que": "Devolvieron ángulos, auditoría comercial y funnel el 2/10; sigue el lanzamiento de cuatro semanas."
     },
     "sebastian": {
-      "activa": "profile-funnel--sebastian",
-      "siguiente": "calendario-lanzamiento",
-      "en_paralelo": [],
-      "despues": [
-        "precio-escalera"
+      "activa": "calendario-lanzamiento--sebastian",
+      "siguiente": "webinar-de-venta--sebastian",
+      "en_paralelo": [
+        "profile-funnel--sebastian"
       ],
-      "por_que": "1:1 del 9/10, reseteo de la app: queda el curso (lo arma Seba y lo manda por Slack), el contenido, el Profile Funnel para el fin de semana y el lanzamiento con Franco el 13 o 14/10. Salen de paralelo la auditoría del proceso comercial («no hay nada que estemos vendiendo») y contratar el primer rol. 16/10: la carta de oferta con su programa (one-sheeter forma B) está lista y espera la llamada con Franco del 16/10 antes de asignarse.",
-      "inicio": "2026-10-09"
+      "despues": [
+        "venta-b2c"
+      ],
+      "por_que": "21/10, reseteo de la app con lo que cerró Franco el 17/10: «Gira la Cámara», USD 997 los primeros cinco, lanzamiento del 26/10 al 22/11. Activa el calendario de lanzamiento; sigue el workshop de tres días de la semana 4; el Profile Funnel queda en paralelo; después la venta B2C para las llamadas. Sale la escalera de precios: el precio quedó cerrado y el downsell se descartó.",
+      "inicio": "2026-10-19"
     },
     "sofia-galvis": {
       "activa": "angulos-desde-icp--sofia-galvis",
