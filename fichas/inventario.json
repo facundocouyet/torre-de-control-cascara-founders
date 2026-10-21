@@ -913,7 +913,7 @@
       "modulos": [
         {
           "id": "arquitectura-comunidad",
-          "nombre": "Arquitectura minima de una comunidad",
+          "nombre": "Arquitectura mínima de una comunidad",
           "nivel": "3",
           "para_quien": "Cuando el founder tiene gente reunida en un grupo o una lista y adentro no pasa nada.",
           "eje": [
@@ -944,7 +944,8 @@
           "estado_galeria": "aprobada",
           "tipo": "sop",
           "va_con": "handraisers-historias",
-          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project).",
+          "nombre_anterior": "Arquitectura minima de una comunidad"
         },
         {
           "id": "handraisers-historias",
@@ -1867,7 +1868,7 @@
         },
         {
           "id": "funnel-de-servicio",
-          "nombre": "Funnel de servicio y escalera de valor",
+          "nombre": "Funnel de servicio",
           "nivel": "troncal",
           "para_quien": "Cuando el founder ya tiene cliente ideal, oferta y ángulos, y antes de salir a buscar más gente hay que ver qué pasa con el cliente después de que compra.",
           "eje": [
@@ -1940,7 +1941,8 @@
           "sops": [
             "alcance-por-escrito"
           ],
-          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project).",
+          "nombre_anterior": "Funnel de servicio y escalera de valor"
         },
         {
           "id": "proceso-entrega-repetible",
@@ -2252,7 +2254,7 @@
         },
         {
           "id": "cadencia-y-duenos",
-          "nombre": "Duenos y cadencia de revisión",
+          "nombre": "Dueños y cadencia de revisión",
           "nivel": "2",
           "para_quien": "Cuando el founder ya tiene equipo o colaboradores y las cosas salen cuando salen.",
           "eje": [
@@ -2284,7 +2286,8 @@
           "sops": [
             "reuniones-con-accionables"
           ],
-          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project)."
+          "reorganizacion": "Facu, 21/10: reorganización de las cartas (doc 40 del Project).",
+          "nombre_anterior": "Duenos y cadencia de revisión"
         },
         {
           "id": "contratar-primer-rol",

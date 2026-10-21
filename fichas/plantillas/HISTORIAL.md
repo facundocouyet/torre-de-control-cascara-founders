@@ -165,7 +165,7 @@
   - 2026-10-17 · Sol: editing brief de BeMotion (versión simple del SOP de Cáscara, con 8 referencias con portada de IG y la tarjeta de pieza para la prueba con Clara). Oferta del programa en paralelo al cliente ideal. Sigue en revisión (`b1ccac4`)
   - 2026-10-15 · Cartas con el material del equipo: llamada de venta con el guion de Franco, seguimiento de 24-48 h en setter-closer, calendario de historias de 28 días en el lanzamiento, y carta nueva Mi editing brief (doc de Segundo) (`c2833d2`)
 
-## Arquitectura minima de una comunidad · `arquitectura-comunidad`
+## Arquitectura mínima de una comunidad · `arquitectura-comunidad`
 
 - **Cuándo va:** Cuando el founder tiene gente reunida en un grupo o una lista y adentro no pasa nada.
 - **Últimos cambios:**
@@ -349,7 +349,7 @@
   - 2026-09-26 · Las cartas se sincronizan con la app de clientes (`661b600`)
   - 2026-09-22 · La auditoría del programa es un inventario, no una hoja de precio (`6aa6eb2`)
 
-## Funnel de servicio y escalera de valor · `funnel-de-servicio`
+## Funnel de servicio · `funnel-de-servicio`
 
 - **Cuándo va:** Cuando el founder ya tiene cliente ideal, oferta y ángulos, y antes de salir a buscar más gente hay que ver qué pasa con el cliente después de que compra.
 - **Versiones:** aaron-aiello (liviana), agostina-marchesini (liviana), qualita (propia), sebastian (liviana)
@@ -408,7 +408,7 @@
 - **Últimos cambios:**
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
-## Duenos y cadencia de revisión · `cadencia-y-duenos`
+## Dueños y cadencia de revisión · `cadencia-y-duenos`
 
 - **Cuándo va:** Cuando el founder ya tiene equipo o colaboradores y las cosas salen cuando salen.
 - **Últimos cambios:**

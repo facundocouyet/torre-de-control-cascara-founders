@@ -82,7 +82,7 @@
       "dias": 2
     },
     "funnel-de-servicio": {
-      "nombre": "Funnel de servicio y escalera de valor",
+      "nombre": "Funnel de servicio",
       "nivel": "troncal",
       "dias": 3
     },
@@ -107,7 +107,7 @@
       "dias": 2
     },
     "cadencia-y-duenos": {
-      "nombre": "Duenos y cadencia de revisión",
+      "nombre": "Dueños y cadencia de revisión",
       "nivel": "2",
       "dias": 2
     },
