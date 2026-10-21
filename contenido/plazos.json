@@ -1,0 +1,1465 @@
+{
+  "actualizado": "2026-10-21",
+  "regla": "Regla de duración (en semanas):\n  1. Si la carta (o la versión del founder) tiene `tareas`, dura lo que marca la semana más alta.\n  2. Si no, sale de lo que hay que completar: 1 campo = 1 semana, 2 o 3 = 2 semanas, 4 o más = 3.\n  3. `PISO` fija a mano las que pidan otra cosa (vacío por ahora).\nCada carta arranca un lunes y su deadline es el viernes de su última semana (ese día se manda a\nrevisión). La revisión entra entre el viernes y el lunes: la siguiente arranca el lunes siguiente.\nLas cartas en paralelo arrancan con la activa y no corren la fila.",
+  "cartas": {
+    "auditoria-de-clientes": {
+      "nombre": "Auditoría de clientes",
+      "nivel": "troncal",
+      "semanas": 1,
+      "fuente": "tareas"
+    },
+    "radiografia-360": {
+      "nombre": "360 del negocio: punto A, cuello de botella y punto B",
+      "nivel": "troncal",
+      "semanas": 2,
+      "fuente": "tareas"
+    },
+    "foco-y-ventana": {
+      "nombre": "Elegir la ventana y soltar el resto",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "sociedad-y-roles": {
+      "nombre": "Resolver la sociedad que frena",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "icp-mecanismo": {
+      "nombre": "ICP del mecanismo que vendés",
+      "nivel": "troncal",
+      "semanas": 2,
+      "fuente": "tareas"
+    },
+    "one-sheeter-oferta": {
+      "nombre": "One-sheeter de la oferta",
+      "nivel": "troncal",
+      "semanas": 3,
+      "fuente": "tareas"
+    },
+    "precio-escalera": {
+      "nombre": "Precio y escalera de valor",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "cinco-llamadas-con-precio": {
+      "nombre": "Las primeras cinco llamadas con precio",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "profile-funnel": {
+      "nombre": "Profile funnel del perfil",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "angulos-desde-icp": {
+      "nombre": "Ángulos de comunicación bajados del ICP",
+      "nivel": "troncal",
+      "semanas": 2,
+      "fuente": "tareas"
+    },
+    "calendario-contenido": {
+      "nombre": "Calendario de contenido de sesenta días",
+      "nivel": "troncal",
+      "semanas": 3,
+      "fuente": "tareas"
+    },
+    "calendario-en-notion": {
+      "nombre": "Tu calendario en Notion",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "tareas"
+    },
+    "diez-piezas-y-lectura": {
+      "nombre": "Las diez piezas y su lectura",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "formato-barato": {
+      "nombre": "El formato barato que se sostiene",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "caso-documentado": {
+      "nombre": "El caso documentado del cliente que ya tenés",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "color-desde-log": {
+      "nombre": "Color después del LOG",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "estratega-creativo": {
+      "nombre": "Sumar un estratega creativo",
+      "nivel": "2",
+      "semanas": 3,
+      "fuente": "estimada"
+    },
+    "mi-editing-brief": {
+      "nombre": "Tu editing brief",
+      "nivel": "2",
+      "semanas": 3,
+      "fuente": "tareas"
+    },
+    "arquitectura-comunidad": {
+      "nombre": "Arquitectura minima de una comunidad",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "handraisers-historias": {
+      "nombre": "Historias con handraisers",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "calendario-lanzamiento": {
+      "nombre": "Calendario de lanzamiento",
+      "nivel": "1",
+      "semanas": 4,
+      "fuente": "tareas"
+    },
+    "webinar-de-venta": {
+      "nombre": "El webinar que agenda llamadas",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "resultados-lanzamiento": {
+      "nombre": "Resultados del lanzamiento",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "capitalizar-evento": {
+      "nombre": "Capitalizar un evento presencial",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "lanzamiento-operado": {
+      "nombre": "La operación de un lanzamiento",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "tareas"
+    },
+    "proceso-comercial": {
+      "nombre": "Tu proceso comercial",
+      "nivel": "troncal",
+      "semanas": 3,
+      "fuente": "estimada"
+    },
+    "venta-b2c": {
+      "nombre": "La venta B2C, de punta a punta",
+      "nivel": "1",
+      "semanas": 3,
+      "fuente": "estimada"
+    },
+    "venta-de-servicios": {
+      "nombre": "La venta de servicios, de punta a punta",
+      "nivel": "1",
+      "semanas": 3,
+      "fuente": "estimada"
+    },
+    "setter-closer": {
+      "nombre": "Sumar un setter o un closer",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "venta-que-dispara-todo": {
+      "nombre": "La venta que dispara todo lo que sigue",
+      "nivel": "3",
+      "semanas": 4,
+      "fuente": "tareas"
+    },
+    "tablero-que-dispara-acciones": {
+      "nombre": "El tablero que dispara acciones",
+      "nivel": "2",
+      "semanas": 3,
+      "fuente": "estimada"
+    },
+    "onboarding-y-roadmap-cliente": {
+      "nombre": "Onboarding a 48 horas y roadmap para el cliente",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "auditoria-del-programa": {
+      "nombre": "Auditoría del programa que ya vendés",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "tareas"
+    },
+    "funnel-de-servicio": {
+      "nombre": "Funnel de servicio y escalera de valor",
+      "nivel": "troncal",
+      "semanas": 3,
+      "fuente": "tareas"
+    },
+    "proceso-entrega-repetible": {
+      "nombre": "Productización del servicio",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "alcance-por-escrito": {
+      "nombre": "Alcance del servicio por escrito",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "ciclo-y-continuidad": {
+      "nombre": "Cierre de ciclo y venta de continuidad",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "entre-pasos": {
+      "nombre": "Lo que pasa entre un paso y el siguiente",
+      "nivel": "troncal",
+      "semanas": 2,
+      "fuente": "tareas"
+    },
+    "checkpoints-del-servicio": {
+      "nombre": "Los checkpoints de tu servicio",
+      "nivel": "2",
+      "semanas": 4,
+      "fuente": "tareas"
+    },
+    "app-de-clientes-y-soporte": {
+      "nombre": "Tu app de clientes y el soporte que se ordena solo",
+      "nivel": "3",
+      "semanas": 3,
+      "fuente": "tareas"
+    },
+    "os-en-notion": {
+      "nombre": "El OS del negocio en Notion",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "cadencia-y-duenos": {
+      "nombre": "Duenos y cadencia de revisión",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "contratar-primer-rol": {
+      "nombre": "Contratar la primera persona",
+      "nivel": "2",
+      "semanas": 3,
+      "fuente": "tareas"
+    },
+    "delegar-produccion": {
+      "nombre": "Delegar la producción sin perder calidad",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "diario-administrativo": {
+      "nombre": "Diario administrativo y cierre mensual",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "cierre-del-mes-equipo": {
+      "nombre": "El cierre del mes de tu equipo",
+      "nivel": "2",
+      "semanas": 4,
+      "fuente": "tareas"
+    },
+    "reuniones-con-accionables": {
+      "nombre": "Cada reunión deja algo escrito",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "tareas"
+    },
+    "base-de-datos-unica": {
+      "nombre": "Una sola base de datos, y para qué sirve",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "captura-y-seguimiento": {
+      "nombre": "Captura automatica y seguimiento por mail",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "landing-que-convierte": {
+      "nombre": "La landing que recibe la demanda",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "dashboard-embudo": {
+      "nombre": "Dashboard del embudo",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "informes-con-ia": {
+      "nombre": "Leer el negocio con IA",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "ia-en-la-operacion": {
+      "nombre": "La IA adentro de tu operación",
+      "nivel": "troncal",
+      "semanas": 2,
+      "fuente": "tareas"
+    },
+    "formulario-a-la-base": {
+      "nombre": "Cada formulario escribe en tu base",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "tareas"
+    },
+    "tareas-programadas": {
+      "nombre": "Tareas que corren solas",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "tareas"
+    },
+    "webhook-unico-y-atribucion": {
+      "nombre": "Una entrada para todos tus formularios",
+      "nivel": "3",
+      "semanas": 4,
+      "fuente": "tareas"
+    },
+    "pasaporte-digital": {
+      "nombre": "Pasaporte digital",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "identidad-y-arco-narrativo": {
+      "nombre": "Identidad y arco narrativo",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "direccion-visual": {
+      "nombre": "Dirección visual y separación de cuentas",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "narrativa-de-video": {
+      "nombre": "Narrativa y producción de video",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "preparar-direccion-creativa": {
+      "nombre": "Preparate para tu sesión de Dirección Creativa",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "auditoria-creativa": {
+      "nombre": "Auditoría creativa de tu marca",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "estetica-y-estrategia": {
+      "nombre": "Estética al servicio de la estrategia",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "caballo-de-troya": {
+      "nombre": "El caballo de Troya visual",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "kit-de-identidad": {
+      "nombre": "Kit mínimo de identidad para contenido",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "moodboard-estrategico": {
+      "nombre": "Moodboard estratégico",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "founder-cara-de-marca": {
+      "nombre": "El founder como cara de la marca",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "miedo-a-la-camara": {
+      "nombre": "Perderle el miedo a la cámara",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "research-semanal": {
+      "nombre": "Cómo hacer research: tu sistema semanal",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "escribir-un-guion": {
+      "nombre": "Cómo escribir un guion",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "primeros-cinco-segundos": {
+      "nombre": "Los primeros 5 segundos",
+      "nivel": "1",
+      "semanas": 1,
+      "fuente": "estimada"
+    },
+    "clientes-en-historia": {
+      "nombre": "Convertir el trabajo con clientes en historia",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "historia-de-origen": {
+      "nombre": "Tu historia de origen",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "formatos-de-ficcion": {
+      "nombre": "Formatos de ficción",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "inventar-cuando-no-pasa-nada": {
+      "nombre": "Inventar cuando no pasa nada",
+      "nivel": "3",
+      "semanas": 1,
+      "fuente": "estimada"
+    },
+    "casos-desde-tu-disciplina": {
+      "nombre": "Crear casos desde tu disciplina",
+      "nivel": "3",
+      "semanas": 1,
+      "fuente": "estimada"
+    },
+    "bloqueo-creativo": {
+      "nombre": "Protocolo de bloqueo creativo",
+      "nivel": "1",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "video-largo-con-celular": {
+      "nombre": "Grabar un video largo horizontal con el celular",
+      "nivel": "2",
+      "semanas": 1,
+      "fuente": "estimada"
+    },
+    "exprimir-una-produccion": {
+      "nombre": "Exprimir una producción",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "shotlist-y-rodaje": {
+      "nombre": "Shotlist y guion de rodaje",
+      "nivel": "3",
+      "semanas": 1,
+      "fuente": "estimada"
+    },
+    "checklist-antes-de-publicar": {
+      "nombre": "Checklist antes de publicar",
+      "nivel": "1",
+      "semanas": 1,
+      "fuente": "estimada"
+    },
+    "objetivo-a-concepto": {
+      "nombre": "Del objetivo al concepto creativo",
+      "nivel": "2",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "direccion-de-arte-coleccion": {
+      "nombre": "Dirección de arte para lanzar una colección o un producto",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "tu-marca-mejor-cliente": {
+      "nombre": "Tu marca como tu mejor cliente",
+      "nivel": "3",
+      "semanas": 2,
+      "fuente": "estimada"
+    },
+    "criterio-creativo": {
+      "nombre": "El criterio creativo se entrena",
+      "nivel": "1",
+      "semanas": 1,
+      "fuente": "estimada"
+    }
+  },
+  "roadmaps": {
+    "aaron-aiello": {
+      "nombre": "Aaron Aiello",
+      "desde": "2026-08-01",
+      "dia": 82,
+      "dia_90": "2026-10-29",
+      "dias_restantes": 8,
+      "ultimo_deadline": "2026-12-04",
+      "margen": -36,
+      "cartas": [
+        {
+          "carta": "funnel-de-servicio",
+          "estado": "activa",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-11-06"
+        },
+        {
+          "carta": "calendario-lanzamiento",
+          "estado": "proxima",
+          "semanas": 4,
+          "fuente": "tareas",
+          "inicio": "2026-11-09",
+          "deadline": "2026-12-04"
+        },
+        {
+          "carta": "profile-funnel",
+          "estado": "paralelo",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-30"
+        }
+      ]
+    },
+    "agostina-marchesini": {
+      "nombre": "Agostina Marchesini Merayo",
+      "desde": "2026-07-23",
+      "dia": 91,
+      "dia_90": "2026-10-20",
+      "dias_restantes": -1,
+      "ultimo_deadline": "2027-01-08",
+      "margen": -80,
+      "cartas": [
+        {
+          "carta": "one-sheeter-oferta",
+          "estado": "activa",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-11-06"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-20"
+        },
+        {
+          "carta": "calendario-lanzamiento",
+          "estado": "proxima",
+          "semanas": 4,
+          "fuente": "tareas",
+          "inicio": "2026-11-23",
+          "deadline": "2026-12-18"
+        },
+        {
+          "carta": "funnel-de-servicio",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-12-21",
+          "deadline": "2027-01-08"
+        },
+        {
+          "carta": "llamada-de-venta",
+          "estado": "paralelo",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-30"
+        }
+      ]
+    },
+    "bianca-antonini": {
+      "nombre": "Bianca Antonini",
+      "desde": "2026-07-17",
+      "dia": 97,
+      "dia_90": "2026-10-14",
+      "dias_restantes": -7,
+      "ultimo_deadline": "2026-11-13",
+      "margen": -30,
+      "cartas": [
+        {
+          "carta": "calendario-lanzamiento",
+          "estado": "activa",
+          "semanas": 4,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-11-13"
+        }
+      ]
+    },
+    "custom-lab": {
+      "nombre": "Piero Medina y Juan — Custom Lab",
+      "desde": "2026-08-01",
+      "dia": 82,
+      "dia_90": "2026-10-29",
+      "dias_restantes": 8,
+      "ultimo_deadline": "2026-11-27",
+      "margen": -29,
+      "cartas": [
+        {
+          "carta": "calendario-contenido",
+          "estado": "activa",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-11-06"
+        },
+        {
+          "carta": "one-sheeter-oferta",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-27"
+        }
+      ]
+    },
+    "jose-david-fajardo": {
+      "nombre": "José David Fajardo Guaqueta",
+      "desde": "2026-08-01",
+      "dia": 82,
+      "dia_90": "2026-10-29",
+      "dias_restantes": 8,
+      "ultimo_deadline": "2026-11-20",
+      "margen": -22,
+      "cartas": [
+        {
+          "carta": "auditoria-proceso-comercial--jose-david-fajardo",
+          "estado": "activa",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-30"
+        },
+        {
+          "carta": "one-sheeter-oferta",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-11-02",
+          "deadline": "2026-11-20"
+        },
+        {
+          "carta": "proceso-entrega-repetible",
+          "estado": "paralelo",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-30"
+        }
+      ]
+    },
+    "lola-berutti": {
+      "nombre": "Lola Berutti",
+      "desde": "2026-08-14",
+      "dia": 69,
+      "dia_90": "2026-11-11",
+      "dias_restantes": 21,
+      "ultimo_deadline": "2026-11-13",
+      "margen": -2,
+      "cartas": [
+        {
+          "carta": "resultados-lanzamiento",
+          "estado": "activa",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-30"
+        },
+        {
+          "carta": "proceso-entrega-repetible",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-11-02",
+          "deadline": "2026-11-13"
+        }
+      ]
+    },
+    "lucio-labate": {
+      "nombre": "Lucio Labate",
+      "desde": "2026-07-24",
+      "dia": 90,
+      "dia_90": "2026-10-21",
+      "dias_restantes": 0,
+      "ultimo_deadline": "2026-11-20",
+      "margen": -30,
+      "cartas": [
+        {
+          "carta": "one-sheeter-oferta",
+          "estado": "activa",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-11-06"
+        },
+        {
+          "carta": "prospeccion-y-recontacto",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-20"
+        }
+      ]
+    },
+    "matias-morales": {
+      "nombre": "Matías Morales",
+      "desde": "2026-07-01",
+      "dia": 113,
+      "dia_90": "2026-09-28",
+      "dias_restantes": -23,
+      "ultimo_deadline": "2026-11-27",
+      "margen": -60,
+      "cartas": [
+        {
+          "carta": "icp-mecanismo",
+          "estado": "activa",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-30"
+        },
+        {
+          "carta": "angulos-desde-icp",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-11-02",
+          "deadline": "2026-11-13"
+        },
+        {
+          "carta": "proceso-entrega-repetible",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-11-16",
+          "deadline": "2026-11-27"
+        }
+      ]
+    },
+    "qualita": {
+      "nombre": "Qualita Studio · Rafa Lizarraga",
+      "desde": "2026-04-24",
+      "dia": 112,
+      "dia_90": "2026-09-29",
+      "dias_restantes": -22,
+      "ultimo_deadline": "2026-12-04",
+      "margen": -66,
+      "cartas": [
+        {
+          "carta": "calendario-lanzamiento",
+          "estado": "activa",
+          "semanas": 4,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-11-13"
+        },
+        {
+          "carta": "calendario-contenido",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-11-16",
+          "deadline": "2026-12-04"
+        }
+      ]
+    },
+    "sebastian": {
+      "nombre": "Sebastián Martínez",
+      "desde": "2026-09-01",
+      "dia": 51,
+      "dia_90": "2026-11-29",
+      "dias_restantes": 39,
+      "ultimo_deadline": "2027-02-26",
+      "margen": -89,
+      "cartas": [
+        {
+          "carta": "calendario-lanzamiento--sebastian",
+          "estado": "activa",
+          "semanas": 4,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-11-13"
+        },
+        {
+          "carta": "webinar-de-venta--sebastian",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-11-16",
+          "deadline": "2026-11-27"
+        },
+        {
+          "carta": "venta-b2c",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "estimada",
+          "inicio": "2026-11-30",
+          "deadline": "2026-12-18"
+        },
+        {
+          "carta": "venta-de-servicios",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "estimada",
+          "inicio": "2026-12-21",
+          "deadline": "2027-01-08"
+        },
+        {
+          "carta": "calendario-contenido",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2027-01-11",
+          "deadline": "2027-01-29"
+        },
+        {
+          "carta": "historia-de-origen",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2027-02-01",
+          "deadline": "2027-02-12"
+        },
+        {
+          "carta": "identidad-y-arco-narrativo",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2027-02-15",
+          "deadline": "2027-02-26"
+        },
+        {
+          "carta": "profile-funnel--sebastian",
+          "estado": "paralelo",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-30"
+        }
+      ]
+    },
+    "sofia-galvis": {
+      "nombre": "Sofía Galvis Montoya",
+      "desde": "2026-06-22",
+      "dia": 122,
+      "dia_90": "2026-09-19",
+      "dias_restantes": -32,
+      "ultimo_deadline": "2026-11-27",
+      "margen": -69,
+      "cartas": [
+        {
+          "carta": "angulos-desde-icp--sofia-galvis",
+          "estado": "activa",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-30"
+        },
+        {
+          "carta": "calendario-lanzamiento",
+          "estado": "proxima",
+          "semanas": 4,
+          "fuente": "tareas",
+          "inicio": "2026-11-02",
+          "deadline": "2026-11-27"
+        }
+      ]
+    },
+    "sol-boutmy": {
+      "nombre": "BeMotion (Sol y Fede)",
+      "desde": "2026-09-02",
+      "dia": 50,
+      "dia_90": "2026-11-30",
+      "dias_restantes": 40,
+      "ultimo_deadline": "2026-12-18",
+      "margen": -18,
+      "cartas": [
+        {
+          "carta": "icp-mecanismo",
+          "estado": "activa",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-23"
+        },
+        {
+          "carta": "calendario-en-notion",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-26",
+          "deadline": "2026-11-06"
+        },
+        {
+          "carta": "calendario-lanzamiento",
+          "estado": "proxima",
+          "semanas": 4,
+          "fuente": "tareas",
+          "inicio": "2026-11-09",
+          "deadline": "2026-12-04"
+        },
+        {
+          "carta": "profile-funnel",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-12-07",
+          "deadline": "2026-12-18"
+        },
+        {
+          "carta": "one-sheeter-oferta",
+          "estado": "paralelo",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-30"
+        },
+        {
+          "carta": "propuesta-comercial",
+          "estado": "paralelo",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-23"
+        },
+        {
+          "carta": "mi-editing-brief",
+          "estado": "paralelo",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-30"
+        }
+      ]
+    },
+    "the-momentum-club": {
+      "nombre": "Israel Barranco y Natalia Zabaleta",
+      "desde": "2026-09-16",
+      "dia": 36,
+      "dia_90": "2026-12-14",
+      "dias_restantes": 54,
+      "ultimo_deadline": "2026-12-04",
+      "margen": 10,
+      "cartas": [
+        {
+          "carta": "resultados-lanzamiento",
+          "estado": "activa",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-30"
+        },
+        {
+          "carta": "one-sheeter-oferta",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-11-02",
+          "deadline": "2026-11-20"
+        },
+        {
+          "carta": "precio-escalera",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-11-23",
+          "deadline": "2026-12-04"
+        },
+        {
+          "carta": "icp-mecanismo--the-momentum-club",
+          "estado": "paralelo",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-30"
+        }
+      ]
+    },
+    "rosario-sola": {
+      "nombre": "rosario-sola",
+      "desde": "2026-10-16",
+      "dia": null,
+      "dia_90": "2027-01-13",
+      "dias_restantes": 84,
+      "ultimo_deadline": "2026-11-13",
+      "margen": 61,
+      "cartas": [
+        {
+          "carta": "one-sheeter-oferta--rosario-sola",
+          "estado": "activa",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-30"
+        },
+        {
+          "carta": "icp-mecanismo--rosario-sola",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-11-02",
+          "deadline": "2026-11-13"
+        },
+        {
+          "carta": "propuesta-comercial--rosario-sola",
+          "estado": "paralelo",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-23"
+        }
+      ]
+    },
+    "milagros-goico": {
+      "nombre": "milagros-goico",
+      "desde": "2026-10-09",
+      "dia": null,
+      "dia_90": "2027-01-06",
+      "dias_restantes": 77,
+      "ultimo_deadline": "2026-11-13",
+      "margen": 54,
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes",
+          "estado": "activa",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-05",
+          "deadline": "2026-10-09"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-23"
+        },
+        {
+          "carta": "one-sheeter-oferta",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-10-26",
+          "deadline": "2026-11-13"
+        },
+        {
+          "carta": "delegar-produccion",
+          "estado": "paralelo",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-10-05",
+          "deadline": "2026-10-16"
+        }
+      ]
+    },
+    "naiara-angeloff": {
+      "nombre": "naiara-angeloff",
+      "desde": "2026-10-09",
+      "dia": null,
+      "dia_90": "2027-01-06",
+      "dias_restantes": 77,
+      "ultimo_deadline": "2026-10-23",
+      "margen": 75,
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes",
+          "estado": "activa",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-05",
+          "deadline": "2026-10-09"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-23"
+        }
+      ]
+    },
+    "samuel-tarancon": {
+      "nombre": "samuel-tarancon",
+      "desde": "2026-10-09",
+      "dia": null,
+      "dia_90": "2027-01-06",
+      "dias_restantes": 77,
+      "ultimo_deadline": "2026-11-27",
+      "margen": 40,
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes",
+          "estado": "activa",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-05",
+          "deadline": "2026-10-09"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-23"
+        },
+        {
+          "carta": "one-sheeter-oferta",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-10-26",
+          "deadline": "2026-11-13"
+        },
+        {
+          "carta": "angulos-desde-icp",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-11-16",
+          "deadline": "2026-11-27"
+        }
+      ]
+    },
+    "lucila-prieto": {
+      "nombre": "lucila-prieto",
+      "desde": "2026-10-09",
+      "dia": null,
+      "dia_90": "2027-01-06",
+      "dias_restantes": 77,
+      "ultimo_deadline": "2026-10-23",
+      "margen": 75,
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes",
+          "estado": "activa",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-05",
+          "deadline": "2026-10-09"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-23"
+        },
+        {
+          "carta": "contratar-primer-rol--lucila-prieto",
+          "estado": "paralelo",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-10-05",
+          "deadline": "2026-10-23"
+        }
+      ]
+    },
+    "lara-loiano": {
+      "nombre": "lara-loiano",
+      "desde": "2026-10-09",
+      "dia": null,
+      "dia_90": "2027-01-06",
+      "dias_restantes": 77,
+      "ultimo_deadline": "2026-10-23",
+      "margen": 75,
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes",
+          "estado": "activa",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-05",
+          "deadline": "2026-10-09"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-23"
+        }
+      ]
+    },
+    "said-espinosa": {
+      "nombre": "said-espinosa",
+      "desde": "2026-10-09",
+      "dia": null,
+      "dia_90": "2027-01-06",
+      "dias_restantes": 77,
+      "ultimo_deadline": "2026-11-06",
+      "margen": 61,
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes",
+          "estado": "activa",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-05",
+          "deadline": "2026-10-09"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-23"
+        },
+        {
+          "carta": "onboarding-y-roadmap-cliente--said-espinosa",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-10-26",
+          "deadline": "2026-11-06"
+        },
+        {
+          "carta": "propuesta-comercial--said-espinosa",
+          "estado": "paralelo",
+          "semanas": 2,
+          "fuente": "estimada",
+          "inicio": "2026-10-05",
+          "deadline": "2026-10-16"
+        }
+      ]
+    },
+    "delfina-corsalini": {
+      "nombre": "delfina-corsalini",
+      "desde": "2026-10-09",
+      "dia": null,
+      "dia_90": "2027-01-06",
+      "dias_restantes": 77,
+      "ultimo_deadline": "2026-10-23",
+      "margen": 75,
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes",
+          "estado": "activa",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-05",
+          "deadline": "2026-10-09"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-23"
+        }
+      ]
+    },
+    "osmo": {
+      "nombre": "osmo",
+      "desde": "2026-10-16",
+      "dia": null,
+      "dia_90": "2027-01-13",
+      "dias_restantes": 84,
+      "ultimo_deadline": "2026-11-20",
+      "margen": 54,
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes--osmo",
+          "estado": "activa",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-16"
+        },
+        {
+          "carta": "one-sheeter-oferta",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-11-06"
+        },
+        {
+          "carta": "angulos-desde-icp",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-20"
+        },
+        {
+          "carta": "icp-mecanismo--osmo",
+          "estado": "paralelo",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-23"
+        }
+      ]
+    },
+    "camila-basso": {
+      "nombre": "camila-basso",
+      "desde": "2026-10-16",
+      "dia": null,
+      "dia_90": "2027-01-13",
+      "dias_restantes": 84,
+      "ultimo_deadline": "2026-12-11",
+      "margen": 33,
+      "cartas": [
+        {
+          "carta": "pasaporte-digital--camila-basso",
+          "estado": "activa",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-16"
+        },
+        {
+          "carta": "identidad-y-arco-narrativo--camila-basso",
+          "estado": "proxima",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-23"
+        },
+        {
+          "carta": "icp-mecanismo--camila-basso",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-26",
+          "deadline": "2026-11-06"
+        },
+        {
+          "carta": "angulos-desde-icp",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-20"
+        },
+        {
+          "carta": "calendario-contenido",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-11-23",
+          "deadline": "2026-12-11"
+        }
+      ]
+    },
+    "marcelo-fernandez": {
+      "nombre": "marcelo-fernandez",
+      "desde": "2026-10-16",
+      "dia": null,
+      "dia_90": "2027-01-13",
+      "dias_restantes": 84,
+      "ultimo_deadline": "2027-01-01",
+      "margen": 12,
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes--marcelo-fernandez",
+          "estado": "activa",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-12",
+          "deadline": "2026-10-16"
+        },
+        {
+          "carta": "icp-mecanismo--marcelo-fernandez",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-30"
+        },
+        {
+          "carta": "one-sheeter-oferta",
+          "estado": "proxima",
+          "semanas": 3,
+          "fuente": "tareas",
+          "inicio": "2026-11-02",
+          "deadline": "2026-11-20"
+        },
+        {
+          "carta": "angulos-desde-icp",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-11-23",
+          "deadline": "2026-12-04"
+        },
+        {
+          "carta": "calendario-lanzamiento",
+          "estado": "proxima",
+          "semanas": 4,
+          "fuente": "tareas",
+          "inicio": "2026-12-07",
+          "deadline": "2027-01-01"
+        }
+      ]
+    },
+    "juan-cruz-galeano": {
+      "nombre": "juan-cruz-galeano",
+      "desde": "2026-10-19",
+      "dia": null,
+      "dia_90": "2027-01-16",
+      "dias_restantes": 87,
+      "ultimo_deadline": "2026-11-06",
+      "margen": 71,
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes",
+          "estado": "activa",
+          "semanas": 1,
+          "fuente": "tareas",
+          "inicio": "2026-10-19",
+          "deadline": "2026-10-23"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "semanas": 2,
+          "fuente": "tareas",
+          "inicio": "2026-10-26",
+          "deadline": "2026-11-06"
+        }
+      ]
+    }
+  }
+}
