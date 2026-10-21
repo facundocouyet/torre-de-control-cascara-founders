@@ -1,17 +1,17 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-18",
+  "actualizado": "2026-10-21",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
-      "ultimo": "2026-10-15",
-      "que": "Llamada con Franco (Fathom 193177362): la agencia duplicó ingresos con la mitad del esfuerzo tras delegar la edición. Franco desaconseja lanzar el producto ahora: primero sistematizar la agencia (procesos documentados, datos de clientes para mejorar la oferta).",
+      "ultimo": "2026-10-20",
+      "que": "Ya tuvo la reunión con Franco y pide agendar con Facu esta semana (`#cf-sofia-galvis`, 20/10).",
       "proximo": null,
       "paso": "Sistematizar la agencia y documentar procesos; el lanzamiento del programa se pospone. Cierre o extensión al 31/10 (falta confirmar).",
       "carta": "Oferta e ICP, que tiene que devolver completas antes de Franco.",
       "pilar": "Oferta",
-      "pelota": "cliente"
+      "pelota": "Facu"
     },
     "bianca-antonini": {
       "ultimo": "2026-10-15",
@@ -27,8 +27,8 @@
       }
     },
     "matias-morales": {
-      "ultimo": "2026-10-06",
-      "que": "Facu le devolvió el punto 02 del ICP: se abre a marca personal más allá de la música.",
+      "ultimo": "2026-10-20",
+      "que": "Compartió un video; Fede le devolvió feedback (subtítulos, arrancar con la frase fuerte, más luz) en `#cf-matias-morales`.",
       "proximo": null,
       "paso": "Hacer las cinco conversaciones (dos de su mundo, tres de afuera) y traer las respuestas textuales.",
       "carta": "ICP y mecanismo.",
@@ -36,13 +36,13 @@
       "pelota": "cliente"
     },
     "agostina-marchesini": {
-      "ultimo": "2026-10-16",
-      "que": "Se separó de su socia, contrató a It's Crear (Agos Sansone) para su contenido y quiere lanzar la mejora de The Room con Angie a principios de noviembre. Reservó el martes 20/10: Franco, Facu (10:30 ART) y Aye.",
-      "proximo": "2026-10-20",
-      "paso": "Llamadas del martes 20/10 con Franco y con Facu para definir pasos antes del 21/10.",
+      "ultimo": "2026-10-20",
+      "que": "Llamada con Aye el 20/10 (Fathom 194450234): nuevo estudio tras separarse de la socia, evalúa membresía con un equipo de 4 arquitectos contra mentoría 1:1. Completa las cartas de ICP, llamada de venta y funnel de servicio antes de Franco. Molesta por las reprogramaciones.",
+      "proximo": "2026-10-22",
+      "paso": "Franco jue 22/10 10:00 y Facu jue 22/10 11:30.",
       "carta": null,
       "pilar": "Venta",
-      "pelota": "Facu",
+      "pelota": "cliente",
       "plata": {
         "fecha": "2026-11-02",
         "que": "Lanzamiento de la mentoría con 2 lugares (fecha exacta a definir)."
@@ -58,13 +58,13 @@
       "pelota": "cliente"
     },
     "jose-david-fajardo": {
-      "ultimo": "2026-10-15",
-      "que": "Mandó en su canal el update de la oferta, el paso a paso de la entrega y el doc de ICP e IFP actualizado; pregunta si agenda con Facu o con Franco.",
-      "proximo": null,
+      "ultimo": "2026-10-20",
+      "que": "Llenó los forms de oferta y está con el de productizar el servicio; ve a Franco el 21/10 y pide los videos de la grabación en la oficina.",
+      "proximo": "2026-10-21",
       "paso": "Facu revisa la oferta y el ICP y le dice con quién agenda.",
       "carta": "Auditoría del proceso comercial.",
       "pilar": "Venta",
-      "pelota": "Facu"
+      "pelota": "Franco"
     },
     "aaron-aiello": {
       "ultimo": "2026-10-13",
@@ -80,8 +80,8 @@
       }
     },
     "custom-lab": {
-      "ultimo": "2026-10-14",
-      "que": "No se conectaron a la llamada del 13/10 con Facu (la tenían 15:30); se reagenda. Cerraron un trabajo.",
+      "ultimo": "2026-10-20",
+      "que": "Llamada con Franco el 20/10 14:30 ART (Juan Cruz en el canal). Aye les pasó la agenda de Facu para reagendar la 1:1 que no tomaron.",
       "proximo": null,
       "paso": "Reagendar la llamada con Facu; él revisa antes el one-sheeter.",
       "carta": null,
@@ -89,9 +89,9 @@
       "pelota": "cliente"
     },
     "sebastian": {
-      "ultimo": "2026-10-17",
-      "que": "Franco cerró la oferta (Fathom 193711822): «Gira la Cámara», 8 semanas, dos grupales semanales de 60 minutos, 1:1 de onboarding y de mitad de programa, invitados; USD 997 los primeros 5 y después 1.200; sin downsell. Lanzamiento de 4 semanas desde el 26/10; el evento del 28/10 en Hub Providencia genera expectativa, no vende. Seba subió el cruce de su oferta con la de Franco y espera agenda con Facu.",
-      "proximo": "2026-10-26",
+      "ultimo": "2026-10-21",
+      "que": "1:1 con Facu hoy 21/10 9:00 (reservada como Estudio Gama 21).",
+      "proximo": "2026-10-21",
       "paso": "Agendar la próxima llamada con Facu; arranca el lanzamiento el 26/10.",
       "carta": "ICP y mecanismo, y Ángulos.",
       "pilar": "Venta",
@@ -102,8 +102,8 @@
       }
     },
     "sol-boutmy": {
-      "ultimo": "2026-10-13",
-      "que": "1:1 del día 30: prueba de edición con Clara, oferta de estrategia B2B de USD 1.500 a 2.000 y programa B2C con workshop.",
+      "ultimo": "2026-10-20",
+      "que": "Federica: vienen bien y piden fecha para la próxima llamada (`#cf-sol-boutmy`, 20/10).",
       "proximo": null,
       "paso": "Facu les manda el resumen de la 1:1 y el editing brief; ellas escriben esta semana la oferta y el cliente ideal.",
       "carta": "Cliente ideal y oferta (en revisión).",
@@ -129,8 +129,8 @@
       "pelota": "Facu"
     },
     "the-momentum-club": {
-      "ultimo": "2026-10-17",
-      "que": "1:1 con Facu (Fathom 193716988): relanzan en enero con una escalera de tres niveles; la oferta pública es el nivel 1, grupal y escalable, y lo que vendieron ahora (14 ventas) queda como nivel 2 y 3 y sirve de beta. Ordenar el seguimiento de los 14 con CRM en Airtable y formularios por mes; departamento comercial por comisión. Facu resetea las cartas y acomoda la app.",
+      "ultimo": "2026-10-20",
+      "que": "Natalia: todo hecho y entregado (ICP con link de Drive; la app muestra One-sheeter, ICP y Precio con 0 respuestas porque lo completaron por fuera). Esperan que Facu ordene lo de la 1:1 del 17/10 para agendar con Franco (`#cf-the-momentum-club`, 20/10).",
       "proximo": "2026-10-23",
       "paso": "Facu les resetea las cartas; la semana del 19/10 aterrizan la oferta del nivel 1 con Franco.",
       "carta": "Reset de cartas (Facu).",
