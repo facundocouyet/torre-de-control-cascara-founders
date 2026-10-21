@@ -4,18 +4,20 @@
   "founder": "Sebastián Martínez",
   "bajada_envio": {
     "founder": "Sebastián Martínez",
-    "porque": "La venta de «Gira la Cámara» abre con el workshop en vivo de tres días de la semana 4. La estructura narrativa la baja Franco y el contenido sale del programa que ya armaste.",
+    "porque": "La venta de «Gira la Cámara» abre con el bootcamp online de tres días, del 16 al 18/11. Es tuyo, gratis y sin límite de gente, y es una muestra chica del programa.",
     "objetivo": "El workshop escrito día por día, con una sola puerta al final, los días de venta de después y la llamada con el precio arriba de la mesa.",
     "mindset": "El workshop enseña algo que sirve por sí solo y termina en una puerta: la llamada para entrar al programa."
   },
   "bloques_inicio": [
     {
       "nuestro": true,
-      "titulo": "Tu workshop",
+      "titulo": "Tu bootcamp",
       "texto": [
-        "<b>Cuándo:</b> tres días en vivo en la semana 4 del lanzamiento, la del 16/11. El registro abre en la semana 3.",
-        "<b>Qué vende:</b> «Gira la Cámara» a USD 997 los primeros cinco, después USD 1.200, o tres cuotas de USD 480.",
-        "<b>Con qué se arma:</b> la estructura narrativa de Franco y el contenido de tu programa. La grabación queda como bono del programa."
+        "<b>Día 1:</b> mentalidad e introducción a la identidad, con tu experiencia. Se cuenta el programa, sin abrir la venta.",
+        "<b>Día 2:</b> el sistema. Al final, Q&amp;A corto con el QR y se anuncian los primeros 5 lugares a USD 997.",
+        "<b>Día 3:</b> oferta, proceso comercial y propuestas. Cierra con el programa completo y la invitación a la llamada.",
+        "<b>Día 4:</b> sorpresa por el grupo de WhatsApp: Q&amp;A con el QR para los que se quedaron con dudas.",
+        "<b>Lo que necesita:</b> landing del bootcamp en un dominio de Gira la Cámara, el grupo de WhatsApp, el número laboral calentado y alguien en los DMs. La venta cierra el 22/11 a las 23:59."
       ]
     }
   ]
