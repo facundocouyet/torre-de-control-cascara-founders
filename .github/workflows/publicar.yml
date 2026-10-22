@@ -29,6 +29,11 @@ jobs:
         run: |
           chmod +x construir.sh
           ./construir.sh
+      - name: Armar los SOPs
+        run: |
+          python3 generador/build_sops.py
+          mkdir -p dist/cartas/sop
+          rsync -a cartas/sop/ dist/cartas/sop/
       - name: Revisar que la torre haya salido
         run: |
           test -f dist/index.html || { echo "no salio el index"; exit 1; }
