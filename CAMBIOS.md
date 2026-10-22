@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Jueves 22 de octubre
+
+La torre ya muestra la reorganización de cartas que hiciste ayer, y Tomás Visser tiene Clarity mañana.
+
+- **Cartas.** El mapa de la torre (versión 80) toma tus commits del 21/10: nombres nuevos, troncales y SOPs fuera de la galería.
+- **Ingresos.** Tomás Visser completó los Founder Insights y reservó la Clarity del viernes 9:00; Rosario tiene la 1:1 del día 30 el viernes 11:00; Mecha mandó un testimonio.
+
+**Para mirar antes de subir:** tus siete commits de cartas y plazos (la pestaña Roadmap de la app lee `contenido/plazos.json` del repo en vivo, así que los plazos nuevos llegan a la app con el push) y la nota de ingresos.
+
 ## Miércoles 21 de octubre (tarde)
 
 Segunda pasada: la torre al día con lo que cerraste hoy con Seba y la llamada de Delfina con Franco.
