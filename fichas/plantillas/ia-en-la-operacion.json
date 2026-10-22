@@ -1,7 +1,7 @@
 {
-  "titulo": "La hoja de la IA en tu negocio",
-  "bajada": "Usar la IA es una habilidad más, como editar o vender: se aprende practicando. Esta carta te deja con un proyecto que conoce tu negocio, un idioma preciso para pedirle cosas y tres tareas que ya no hacés a mano.",
-  "lista_cuando": "Le pedís algo a Claude sobre tu negocio y lo resuelve sin que le expliques de nuevo quién sos, qué vendés y cómo trabajás.",
+  "titulo": "La IA adentro de tu operación",
+  "bajada": "Usar la IA es una habilidad más, como editar o vender: se aprende practicando. Esta carta te deja con un proyecto que conoce tu negocio, un idioma preciso para pedirle cosas, tres tareas que ya no hacés a mano y un informe mensual del negocio que sale de tus propias bases.",
+  "lista_cuando": "Le pedís algo a Claude sobre tu negocio y lo resuelve sin que le expliques de nuevo quién sos, qué vendés y cómo trabajás, y corriste el informe del mes con tres decisiones escritas, cada una con dueño y fecha.",
   "secciones": [
     {
       "nuestro": true,
@@ -134,6 +134,55 @@
         "Dónde queda guardado"
       ],
       "cid": 6
+    },
+    {
+      "nuestro": true,
+      "titulo": "Leer el negocio con IA: el informe del mes",
+      "texto": [
+        "La IA también sirve para leer tu negocio. Una vez por mes le pasás tu base y te devuelve el informe: siempre las mismas preguntas, contestadas con número y comparadas con el mes anterior. Así lo armamos.",
+        "<b>Una exportación en un solo formato.</b> Una fila por cliente o por venta y una columna por dato. Una columna se queda si la podés llenar en ocho de cada diez filas. Si tus datos todavía viven en varios lugares, esto va después de la carta de la base única.",
+        "<b>Tres preguntas fijas.</b> Cada una se contesta con un número y puede cambiar una decisión tuya: cuántos volvieron a comprar, qué origen trae al que más paga, qué parte de las ventas salió de cada canal. Se dejan quietas tres meses como mínimo, porque el valor aparece cuando se comparan los meses entre sí.",
+        "<b>Un pedido guardado.</b> Qué archivo le pasás, qué contexto necesita, que conteste las tres preguntas con el número adelante, que compare con el mes anterior y que marque las tres filas más raras. Está terminado cuando otra persona lo puede correr sin preguntarte nada.",
+        "<b>Revisión a mano y tres decisiones.</b> Antes de creerle, los tres números más grandes se verifican contra la fuente. Ante la duda va el número más bajo, con la evidencia al lado. Y el informe cierra con tres decisiones, cada una con el número que la disparó, un solo dueño y una fecha con día."
+      ],
+      "cid": 7
+    },
+    {
+      "titulo": "Las tres preguntas fijas de tu informe",
+      "consigna": "Tres preguntas que el informe tiene que contestar todos los meses, en el orden en que las vas a leer, cada una con el número que la contesta y la decisión que cambia según la respuesta.",
+      "ejemplo": {
+        "quien": "Bianca Antonini",
+        "texto": "Sus tres preguntas del drop salieron solas: cuánta gente hay en la comunidad de WhatsApp, qué porcentaje de las ventas salió de ahí y cuántas de esas clientas eran recompra."
+      },
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Una pregunta por línea, cada una con el número que la contesta.",
+      "cid": 8
+    },
+    {
+      "titulo": "El pedido del informe, y dónde queda guardado",
+      "consigna": "Escribí el pedido completo una sola vez, con el formato de salida: un bloque por pregunta y un cierre de tres decisiones propuestas. Abajo, dónde queda guardado, qué día fijo del mes se corre y quién lo corre. Si el pedido queda en un lugar que solo vos conocés, el segundo mes no sale.",
+      "campo": "texto",
+      "alto": 6,
+      "placeholder": "Te paso la base de clientes de… Contestá estas tres preguntas… Devolvelo así… Guardado en… Se corre el día…",
+      "cid": 9
+    },
+    {
+      "titulo": "Las tres decisiones del primer informe",
+      "consigna": "Corré el informe con la base de este mes, revisá a mano los números grandes y cerralo con tres decisiones que se puedan hacer este mes: sacar un cliente, mover un precio, cortar un canal. Cada una con el número que la disparó, un dueño y una fecha.",
+      "ejemplo": {
+        "quien": "Sofía Galvis",
+        "texto": "De mirar la cartera entera salieron tres decisiones: sacar los clientes de UGC, sacar los que la obligaban a ir a grabar y repreciar al de edición que se quedaba. Pasó de facturar diez millones de pesos colombianos por mes a veinte."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Decisión",
+        "Qué número la disparó",
+        "Quién",
+        "Fecha"
+      ],
+      "filas": 3,
+      "cid": 10
     }
   ],
   "modulo": "ia-en-la-operacion"

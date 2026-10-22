@@ -1,25 +1,36 @@
 {
   "modulo": "proceso-comercial",
   "titulo": "Tu proceso comercial",
-  "bajada": "Tu venta escrita en un solo lugar, tal como pasa hoy: por dónde entra cada consulta, a quién le das llamada, dónde vive cada contacto y cada llamada, y los números que la miden. Es la base de cualquier carta de venta y la hoja que le pasás a quien se sume a vender.",
-  "lista_cuando": "Alguien de afuera lee la hoja y sabe cómo vendés, qué camino seguís, a quién le das llamada y dónde está cada contacto; y hay una lectura semanal hecha con los números del pipeline y del registro.",
+  "bajada": "La auditoría de tu departamento comercial tal como funciona hoy: cómo llegan los mensajes, qué se responde, a quién le das llamada y dónde vive cada contacto, más tus primeras cinco llamadas de venta grabadas, con la objeción de cada una y lo que corregís. Es la base de tu venta y la hoja que le pasás a quien se sume a vender.",
+  "lista_cuando": "Alguien de afuera lee la hoja y sabe cómo vendés, qué camino seguís, a quién le das llamada y dónde está cada contacto; las cinco llamadas están grabadas con su objeción textual y su corrección; y hay una lectura semanal hecha con los números del pipeline y del registro.",
   "secciones": [
     {
       "nuestro": true,
       "titulo": "Para qué sirve",
       "texto": [
-        "Es la base comercial de todo founder: el proceso de venta escrito en un solo lugar, con los números que lo miden. Se hace una vez y queda como manual de tu venta.",
-        "Tiene cuatro fases, cada una con su entregable: cómo vendés hoy, tu camino de venta, a quién le das llamada y dónde vive cada contacto y cada llamada. Con la hoja completa seguís con la carta de tu camino: la venta B2C o la venta de servicios."
+        "Es la auditoría del departamento comercial de hoy: cómo llegan los mensajes, qué se responde, quién da llamada y dónde vive cada contacto, con los números que lo miden. Se hace una vez y queda como manual de tu venta.",
+        "Tiene cuatro fases, cada una con su entregable: cómo vendés hoy, con tus primeras cinco llamadas grabadas; tu camino de venta; a quién le das llamada; y dónde vive cada contacto y cada llamada."
       ],
       "figura": "<div class=\"fx\"><p class=\"fx-et\">Las cinco etapas de toda venta</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">01</div><div class=\"t\">Conversación</div><div class=\"s\">Alguien escribe o le escribís.</div></div><div class=\"fx-paso\"><div class=\"k\">02</div><div class=\"t\">Setting</div><div class=\"s\">Calificás y agendás.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">03</div><div class=\"t\">Llamada</div><div class=\"s\">Descubrís, proponés y pedís.</div></div><div class=\"fx-paso\"><div class=\"k\">04</div><div class=\"t\">Cierre</div><div class=\"s\">Seña, pago o contrato.</div></div><div class=\"fx-paso\"><div class=\"k\">05</div><div class=\"t\">Cobro</div><div class=\"s\">Lo que entra de verdad.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">El número de cada etapa</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Etapa</th><th>Qué se mide</th><th>Referencia de Cáscara</th></tr></thead><tbody><tr><td>Conversación</td><td>Conversaciones nuevas por semana</td><td><span class=\"gris\">la calibrás con tu meta de ventas</span></td></tr><tr><td>Setting</td><td>Agendas sobre conversaciones y cuántos se presentan</td><td><span class=\"gris\">se calibra en tus primeras dos semanas</span></td></tr><tr><td>Llamada</td><td>Cierres sobre llamadas hechas</td><td>45,8% en el Bootcamp Pentágono</td></tr><tr><td>Cobro</td><td>Cobrado sobre vendido</td><td>74,1% en el Bootcamp Pentágono</td></tr></tbody></table></div></div>",
       "cid": 100
     },
     {
       "nuestro": true,
-      "titulo": "Fase 1 · Cómo vendés hoy",
+      "titulo": "Esta carta sale con dos SOPs",
       "texto": [
-        "No hay que armar nada ni ordenarlo. Queremos ver el proceso comercial tal como funciona hoy, con lo que anda y con lo que se hace de memoria.",
-        "Se hace antes de que el contenido empiece a traer consultas de gente que no los conoce. Si el proceso tiene un agujero, esas consultas se pierden ahí."
+        "La venta tiene dos caminos, y cada uno tiene su SOP con el workflow completo, de la primera conversación al cobro. No se completan: se leen y se aplican.",
+        "<b>La venta B2C, de punta a punta</b> · para programas, infoproductos y membresías: los mensajes de setting, el guion de la llamada, las objeciones con su respuesta, el cierre con cupo, fecha y seña, y el seguimiento.",
+        "<b>La venta de servicios, de punta a punta</b> · para agencias, estudios, consultoras y productoras: la base trabajada con un número diario, las preguntas de diagnóstico, la propuesta, la presentación y el seguimiento hasta el kickoff.",
+        "En la fase 2 elegís tu camino, y desde ahí trabajás con el SOP que corresponde. Esta carta muestra cómo vendés hoy; el SOP dice cómo se hace."
+      ],
+      "cid": 106
+    },
+    {
+      "nuestro": true,
+      "titulo": "Fase 1 · Tu departamento comercial hoy",
+      "texto": [
+        "No hay que armar nada ni ordenarlo. Queremos ver el proceso comercial tal como funciona hoy, con lo que anda y con lo que se hace de memoria, y con capturas reales de cómo llegan y cómo se contestan los mensajes.",
+        "Se hace antes de que el contenido empiece a traer consultas de gente que no te conoce. Si el proceso tiene un agujero, esas consultas se pierden ahí."
       ],
       "cid": 101
     },
@@ -59,13 +70,14 @@
     {
       "cid": 2,
       "titulo": "La primera respuesta",
-      "consigna": "Lo que pasa cuando alguien escribe por primera vez. Si hay un mensaje que se manda siempre, pegalo tal cual.",
+      "consigna": "Lo que pasa cuando alguien escribe por primera vez. Si hay un mensaje que se manda siempre, pegalo tal cual. Sacá capturas de cinco conversaciones reales de las últimas semanas, de punta a punta y con los nombres tapados, y dejalas en una carpeta: ahí se ve qué se responde de verdad.",
       "campo": "lineas",
       "lineas": [
         "Quién responde",
         "En cuánto tiempo, en general",
         "Qué se le dice",
-        "Qué se le pregunta para saber si es para ustedes"
+        "Qué se le pregunta para saber si es para ustedes",
+        "Link a la carpeta con las capturas"
       ]
     },
     {
@@ -108,22 +120,60 @@
       "filas": 10
     },
     {
+      "nuestro": true,
+      "titulo": "Tus primeras cinco llamadas de venta",
+      "texto": [
+        "Lo que más sirve de toda la hoja son las llamadas grabadas: con ellas vemos lo que pasa en la reunión, más allá de lo que creés que pasa. Pedimos las primeras cinco, grabadas con Fathom o con lo que uses y avisándole a la otra persona. Si ya tenés llamadas de venta grabadas, sirven igual.",
+        "Cómo se hacen. La oferta se presenta completa: la promesa con número y plazo, qué incluye, qué queda afuera, qué necesitás de la otra persona y cuánto sale. El precio se dice siempre, de arriba hacia abajo, empezando por el de lista, y sin versiones gratis: una llamada sin precio deja un feedback simpático y nada que leer.",
+        "Cómo se leen. De cada llamada se anota la objeción textual, como la dijo, y el minuto en que frenó: si las cinco frenan en el mismo lugar, ahí está el arreglo. Después se corrige una sola cosa, la que las cinco señalaron: si te frenaron por el resultado, la promesa; si te frenaron por el número, el precio o la forma de pago; si te dijeron que esto le sirve a otro, el cliente ideal."
+      ],
+      "cid": 108
+    },
+    {
       "cid": 6,
-      "titulo": "Llamadas de venta grabadas",
-      "consigna": "Cualquiera de las dos opciones sirve: grabar las próximas dos reuniones de venta, con Fathom o con lo que usen y avisándole al cliente, o pasarnos llamadas de venta que ya tengan grabadas. Es lo que más sirve de toda la hoja: sin eso vemos lo que ustedes creen que pasa en la reunión, y con eso vemos lo que pasa.",
+      "titulo": "Las cinco llamadas, grabadas",
+      "consigna": "El link de cada una de tus primeras cinco llamadas de venta, con la fecha. Cargalas a medida que pasan.",
       "campo": "lineas",
       "lineas": [
         "Link de la primera llamada",
-        "Link de la segunda llamada"
+        "Link de la segunda llamada",
+        "Link de la tercera llamada",
+        "Link de la cuarta llamada",
+        "Link de la quinta llamada"
       ]
+    },
+    {
+      "titulo": "La objeción de cada llamada",
+      "consigna": "Una fila por llamada, cargada el mismo día, con la objeción copiada tal cual la dijo: esa frase vale más que tu resumen, porque después es el copy de la propuesta. Anotá también el minuto en el que frenó y cómo terminó.",
+      "ejemplo": {
+        "quien": "Lola",
+        "texto": "Tuvo tres llamadas con gente que le escribió y a la que le mostró el programa. Las tres se cayeron en el mismo lugar: al final, donde había que preguntar si lo compraba. Escribir de antemano la frase del precio es lo que resuelve ese punto."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Llamada y fecha",
+        "Minuto donde frenó",
+        "La objeción, textual",
+        "Cómo terminó"
+      ],
+      "filas": 5,
+      "cid": 107
+    },
+    {
+      "titulo": "La corrección que sale de las cinco",
+      "consigna": "Leé las cinco filas juntas y escribí qué apareció más de dos veces. Después la corrección: una sola, la de la promesa, la del precio o la del cliente ideal, escrita completa para pegarla en tu oferta. La sexta llamada se hace con la corrección puesta, y es la que dice si funcionó.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Se repitió… Lo que corrijo es… y queda escrito así:",
+      "cid": 109
     },
     {
       "nuestro": true,
       "titulo": "Fase 2 · Tu camino de venta",
       "texto": [
-        "Toda venta recorre las mismas cinco etapas. Lo que cambia es dónde se cierra: en una llamada con link de pago, o en dos o tres reuniones con una propuesta escrita. Ese dato define tu camino y la carta que sigue."
+        "Toda venta recorre las mismas cinco etapas. Lo que cambia es dónde se cierra: en una llamada con link de pago, o en dos o tres reuniones con una propuesta escrita. Ese dato define tu camino y el SOP con el que seguís."
       ],
-      "figura": "<div class=\"fx\"><p class=\"fx-et\">Los dos caminos</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th></th><th>Venta B2C</th><th>Venta de servicios</th></tr></thead><tbody><tr><td>Qué se vende</td><td>Programa, infoproducto, membresía</td><td>Agencia, estudio, consultoría, producción</td></tr><tr><td>Dónde se cierra</td><td>En una llamada</td><td>En dos o tres reuniones</td></tr><tr><td>Quién decide</td><td>La persona, a veces con su pareja</td><td>Socios, gerencia, a veces compras</td></tr><tr><td>Con qué se cierra</td><td>Seña o pago adentro de la llamada</td><td>Propuesta, contrato y anticipo</td></tr><tr><td>Qué se negocia</td><td>Cupo y fecha</td><td>El alcance; el precio de cada parte se sostiene</td></tr><tr><td>Carta que sigue</td><td>La venta B2C, de punta a punta</td><td>La venta de servicios, de punta a punta</td></tr></tbody></table></div></div>",
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Los dos caminos</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th></th><th>Venta B2C</th><th>Venta de servicios</th></tr></thead><tbody><tr><td>Qué se vende</td><td>Programa, infoproducto, membresía</td><td>Agencia, estudio, consultoría, producción</td></tr><tr><td>Dónde se cierra</td><td>En una llamada</td><td>En dos o tres reuniones</td></tr><tr><td>Quién decide</td><td>La persona, a veces con su pareja</td><td>Socios, gerencia, a veces compras</td></tr><tr><td>Con qué se cierra</td><td>Seña o pago adentro de la llamada</td><td>Propuesta, contrato y anticipo</td></tr><tr><td>Qué se negocia</td><td>Cupo y fecha</td><td>El alcance; el precio de cada parte se sostiene</td></tr><tr><td>SOP que sigue</td><td>La venta B2C, de punta a punta</td><td>La venta de servicios, de punta a punta</td></tr></tbody></table></div></div>",
       "cid": 102
     },
     {
@@ -265,7 +315,7 @@
     },
     {
       "titulo": "Las objeciones con las palabras del cliente",
-      "consigna": "Copiá las objeciones como las dijo el cliente, sin traducirlas. Esas frases después son guiones, respuestas y contenido.",
+      "consigna": "Las objeciones que se repiten más allá de las cinco primeras llamadas, copiadas como las dijo el cliente, sin traducirlas. Esas frases después son guiones, respuestas y contenido.",
       "campo": "tabla",
       "columnas": [
         "Objeción, tal cual",
@@ -278,7 +328,7 @@
     {
       "titulo": "La lectura de la semana",
       "campo": "lineas",
-      "consigna": "Un día fijo por semana mirás el pipeline y el registro juntos y escribís estos números y una decisión. Son los mismos que después carga el tablero que dispara acciones.",
+      "consigna": "Un día fijo por semana mirás el pipeline y el registro juntos y escribís estos números y una decisión. Son los números que mirás con el equipo de Cáscara en tus llamadas de seguimiento.",
       "lineas": [
         "Conversaciones nuevas de la semana",
         "Llamadas agendadas y cuántas se presentaron",
@@ -305,7 +355,7 @@
       "nuestro": true,
       "titulo": "Qué hacemos con esto",
       "texto": [
-        "Con la hoja completa, leemos dónde se cae tu venta y el CSM te asigna la carta de tu camino. De las llamadas grabadas sacamos las objeciones que se repiten, que después son guion y contenido."
+        "Con la hoja completa, leemos dónde se cae tu venta y seguís con el SOP de tu camino. De las cinco llamadas grabadas sacamos las objeciones que se repiten, que después son guion y contenido."
       ],
       "cid": 105
     }

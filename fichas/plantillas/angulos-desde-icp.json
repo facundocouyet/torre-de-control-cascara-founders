@@ -1,15 +1,16 @@
 {
   "modulo": "angulos-desde-icp",
   "titulo": "La hoja de tus ángulos de comunicación",
-  "bajada": "Los dolores de tu cliente ideal convertidos en las preguntas que él ya se hace, con tu giro propio al lado. Es el material con el que entrás a la llamada de contenido: el calendario y los guiones se bajan ahí, no acá.",
-  "lista_cuando": "Cada dolor tiene su pregunta escrita en las palabras de tu cliente, y el giro propio está en una frase que puedas decir en voz alta sin leerla.",
+  "bajada": "Los dolores de tu cliente ideal convertidos en las preguntas que él ya se hace, con tu giro propio al lado, y después diez piezas publicadas contra esos ángulos con su lectura. El calendario y los guiones se bajan en la grupal de contenido y en la carta del calendario; acá se arma el material y se prueba.",
+  "lista_cuando": "Cada dolor tiene su pregunta escrita en las palabras de tu cliente, el giro propio está en una frase que podés decir sin leerla, y las diez piezas están publicadas y leídas, con la decisión sobre cada ángulo escrita.",
   "secciones": [
     {
       "nuestro": true,
       "titulo": "Esta carta va con la del cliente ideal",
       "texto": [
-        "Las dos se completan juntas y se devuelven juntas. En la del cliente ideal juntaste el material: los perfiles, los dolores, las frases textuales. Acá ese material se convierte en ángulos, que es lo que hace que una pieza arranque de algo y no de una hoja en blanco.",
-        "Un ángulo no es un tema. Un tema es «hablar de precios». Un ángulo es la pregunta que tu cliente ya se está haciendo sobre precios, contada desde tu experiencia. La diferencia es que el tema se le ocurre a cualquiera y el ángulo solo lo podés escribir vos."
+        "Las dos se completan juntas y se devuelven juntas. En la del cliente ideal juntaste el material: los perfiles, los dolores, las frases textuales. Acá ese material se convierte en ángulos, que es lo que hace que una pieza arranque de algo concreto.",
+        "Un tema es «hablar de precios». Un ángulo es la pregunta que tu cliente ya se está haciendo sobre precios, contada desde tu experiencia. El tema se le ocurre a cualquiera; el ángulo solo lo podés escribir vos.",
+        "La carta termina en la práctica: diez piezas publicadas contra los ángulos y una carilla que dice cuál se sostiene, cuál se corrige y cuál se descarta."
       ],
       "cid": 0
     },
@@ -27,7 +28,7 @@
         "Esta es la parte que más se traba, así que va con un ejemplo entero.",
         "El dolor: «me da vergüenza grabarme en público». Escrito así es un estado, y un estado no engancha porque el que lo tiene ya lo sabe.",
         "La pregunta que él ya se hace: «¿por qué puedo dirigir una producción de veinte personas y no puedo hablarle a mi propio celular?». Esa pregunta él se la hizo, no se la propusiste vos. Y la reconoce apenas la lee.",
-        "El giro propio: «lo que te frena no es la cámara, es que no tenés un motivo para estar ahí». Eso es lo que solo podés decir vos, porque lo viviste. Sin el giro, la pregunta la puede hacer cualquiera.",
+        "El giro propio: «lo que te frena es que todavía no tenés un motivo para estar ahí». Eso es lo que solo podés decir vos, porque lo viviste. Sin el giro, la pregunta la puede hacer cualquiera.",
         "La prueba de que un ángulo está bien: si se lo mostrás a una de las cinco personas con las que hablaste, te dice «esto me pasa» antes de que termines de explicarlo."
       ],
       "pregunta": "Cuál de tus dolores te parece el más difícil de pasar a pregunta",
@@ -78,8 +79,8 @@
       "nuestro": true,
       "titulo": "El cierre que te falta",
       "texto": [
-        "Lo que no está en esta carta y es a propósito: la tabla de ángulos ordenada por cercanía a la venta, el guion completo, el calendario del mes y las piezas publicadas.",
-        "No está porque es lo que se gana acompañado. Ordenar ángulos por intención de compra, decidir cuál va primero y bajar un guion que funcione es oficio de todos los días, y pedírtelo de tarea es tirarte por encima justo la parte donde alguien al lado te ahorra tres semanas. Eso se trabaja en la grupal de contenido.",
+        "Lo que no está en esta carta, y es a propósito: la tabla de ángulos ordenada por cercanía a la venta, el guion completo y el calendario del mes.",
+        "Ordenar ángulos por intención de compra, decidir cuál va primero y bajar un guion que funcione es oficio de todos los días, y se gana acompañado: ahí alguien al lado te ahorra tres semanas. Eso se trabaja en la grupal de contenido y se baja en la carta del calendario de contenido.",
         "Lo que sí te pedimos es el material: los dolores, las preguntas y tu giro. Con eso, la llamada arranca armando en vez de arrancar preguntando."
       ],
       "cid": 7
@@ -88,11 +89,56 @@
       "nuestro": true,
       "titulo": "Lo que se lleva a la grupal de contenido",
       "texto": [
-        "Con esta carta y la del cliente ideal devueltas, lo que sigue es la <b>grupal de contenido con Fede</b>: ahí se ordenan los ángulos por cercanía a la venta, se baja el guion del más fuerte y se arma el calendario del mes.",
-        "Llegá con las dos hojas completas y con una pregunta concreta. La grupal rinde distinto cuando llevás material: el que llega con las hojas se va con el calendario, y el que llega a contarlo de memoria se va con la tarea de hacer las hojas.",
-        "Y escuchá los casos de los demás. La mitad de lo que sirve en esa llamada sale de un problema que no era tuyo."
+        "Con esta carta y la del cliente ideal devueltas, lo que sigue es la <b>grupal de contenido</b>: ahí se ordenan los ángulos por cercanía a la venta, se baja el guion del más fuerte y se arma el calendario del mes.",
+        "Llegá con las dos hojas completas y con una pregunta concreta. El que llega con las hojas se va con el calendario, y el que llega a contarlo de memoria se va con la tarea de hacer las hojas.",
+        "Y escuchá los casos de los demás. La mitad de lo que sirve en esa llamada sale de un problema que era de otro."
       ],
       "cid": 8
+    },
+    {
+      "nuestro": true,
+      "titulo": "La práctica: diez piezas contra tus ángulos",
+      "texto": [
+        "Un ángulo se prueba publicándolo. Después de la grupal salen diez piezas, todas contra los ángulos que elegiste, y cada una se lee el día que sale. Diez es el piso: con menos, el contenido queda sin nada que evaluar, y si llegás a la fecha con ocho, se corren las fechas y se completan las diez.",
+        "Tres reglas que usamos en todos los casos. La expectativa de cada pieza se escribe antes de publicarla, porque es lo que después permite comparar. El eje se mantiene hasta la décima aunque las tres primeras rindan poco: los números de las primeras piezas hablan más del algoritmo que del mensaje. Y la lectura se hace por conversaciones: cuántas abrió cada pieza, sobre qué te escribieron y quién te escribió sin conocerte. El alcance y los guardados quedan como dato de contexto.",
+        "Al final, se comparan las tres mejores con las tres peores. Lo que tienen en común las de arriba (el gancho, el formato, si contás algo vivido o explicás una idea) es lo que se repite en las próximas. Un patrón cuenta cuando aparece en tres piezas o más."
+      ],
+      "cid": 9
+    },
+    {
+      "titulo": "Las diez piezas, con lo que devolvió cada una",
+      "consigna": "Una fila por pieza. La fecha, el ángulo y lo que esperás que pase se cargan antes de publicar; las conversaciones que abrió y sobre qué te escribieron, el mismo día que sale. Si las diez salieron y las conversaciones nuevas son cero, el arreglo está en el mensaje; si quedaron en seis, el arreglo está en el volumen.",
+      "ejemplo": {
+        "quien": "Sebastián",
+        "texto": "El reel del miedo a grabarse en público dejó mil ochocientos comentarios y unos siete mil seguidores nuevos, y los comentarios eran todos de la misma familia: gracias, me empujaste. Esa repetición es la lectura, más que el millón cuatrocientas mil vistas."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "N° y fecha",
+        "Ángulo",
+        "Qué esperás que pase",
+        "Conversaciones que abrió",
+        "Sobre qué te escribieron"
+      ],
+      "filas": 10,
+      "cid": 10
+    },
+    {
+      "titulo": "La carilla de lectura",
+      "consigna": "Con las diez filas cargadas, escribí lo que se repitió y la decisión sobre cada ángulo, con la palabra puesta: se sostiene, se corrige o se descarta. El que se corrige lleva qué cambia exactamente en la próxima pieza; el que se descarta, el motivo. Si de los mensajes salió un tema que no tenías previsto, entra como ángulo nuevo para el tramo que sigue.",
+      "ejemplo": {
+        "quien": "Nicolás Lozada",
+        "texto": "Las dos piezas que triplicaron o cuadruplicaron sus números fueron la de los diez días encerrado en la oficina y la de que subir los precios es un error. Las dos funcionan por lo mismo: cuentan experiencia vivida."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Lo que se repitió en tres piezas o más",
+        "El ángulo que se sostiene",
+        "El que se corrige, y qué cambia",
+        "El que se descarta, y por qué",
+        "El ángulo nuevo que salió de los mensajes"
+      ],
+      "cid": 11
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "modulo": "base-de-datos-unica",
   "titulo": "La hoja de tu base única",
-  "bajada": "Una sola base con tus contactos, su origen, qué compraron y cuánto pagaron, que podés filtrar vos sin pedirle nada a nadie. Es de donde salen las listas para vender y los números que después se presentan.",
-  "lista_cuando": "Podés contestar tres preguntas del negocio filtrando la base delante de alguien, sin abrir otra planilla ni escribirle a nadie.",
+  "bajada": "Una sola base con tus contactos, su origen, qué compraron y cuánto pagaron, que podés filtrar vos sin pedirle nada a nadie. Cada formulario escribe en esa misma base por una sola entrada, así la misma persona aparece una vez y cada venta se rastrea hasta el canal que la trajo.",
+  "lista_cuando": "Alguien completa uno de tus formularios desde el celular y en menos de un minuto está en tu base, con su origen y sin duplicarse, y podés contestar tres preguntas del negocio filtrando la base delante de alguien, sin abrir otra planilla.",
   "secciones": [
     {
       "titulo": "Las tres preguntas que hoy no podés contestar",
@@ -21,7 +21,7 @@
       "consigna": "Una fila por cada lugar donde hay información de clientes o de ventas: mensajes de Instagram, chats de WhatsApp, la tienda, planillas, formularios, y lo que está solamente en la cabeza de alguien. Poné la cantidad de registros aunque sea a ojo, porque eso ordena por dónde arrancar. Lo que está en una cabeza se escribe como fila igual.",
       "ejemplo": {
         "quien": "Sol Boutmy",
-        "texto": "Los calendarios de los seis clientes viven en Drive desde que dejaron Notion por los cuarenta dólares al mes, y cada movimiento de plata lo anota en un grupo de WhatsApp para que Fede esté al tanto. El hábito de registrar está, el formato es lo que falta."
+        "texto": "Los calendarios de los seis clientes viven en Drive desde que dejaron Notion por los cuarenta dólares al mes, y cada movimiento de plata lo anota en un grupo de WhatsApp para que su socia esté al tanto. El hábito de registrar está, el formato es lo que falta."
       },
       "campo": "tabla",
       "columnas": [
@@ -64,6 +64,64 @@
       "cid": 3
     },
     {
+      "nuestro": true,
+      "titulo": "Cómo lo hacemos en Cáscara: una base y una sola entrada",
+      "texto": [
+        "Todas las personas viven en una sola tabla, el Pipeline: una fila por persona, identificada por su mail. Cada vez que alguien completa un formulario, la base busca ese mail. Si existe, le suma el dato nuevo; si no existe, crea la persona. La columna Fuente acumula de dónde vino cada uno: el que se anotó al Bootcamp y después a la consultoría tiene las dos fuentes en la misma fila, y así sabemos qué camino hizo antes de comprar.",
+        "Todas nuestras landings mandan a un solo webhook en Airtable. La automatización mira el tipo de formulario (inscripción a un evento, lead de programa o lead de marca), busca a la persona por mail y se fija si ya estaba inscripta; según eso crea a la persona, crea la inscripción o solo suma el dato nuevo. Sumar un evento nuevo son dos cosas: la fila en Eventos y la página que manda al webhook con su nombre corto y sus UTM.",
+        "Con todo en el mismo lugar cruzamos pauta, agendas y ventas una vez por mes. En el Bootcamp, ese cruce mostró una campaña que se llevaba más de la mitad de la inversión y no aparecía en el reporte de anuncios. Y un monitor revisa cada hora que las landings respondan y que ninguna automatización haya fallado, porque un formulario que deja de mandar datos no avisa: te enterás cuando faltan inscriptos."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Lo que pasa cuando alguien se anota</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">01</div><div class=\"t\">Formulario</div><div class=\"s\">Nombre, mail, WhatsApp, Instagram.</div></div><div class=\"fx-paso\"><div class=\"k\">02</div><div class=\"t\">Busca el mail</div><div class=\"s\">¿La persona ya está en la base?</div></div><div class=\"fx-paso tinta\"><div class=\"k\">03</div><div class=\"t\">Crea o suma</div><div class=\"s\">Persona nueva, o el dato nuevo en su fila.</div></div><div class=\"fx-paso\"><div class=\"k\">04</div><div class=\"t\">Mensaje</div><div class=\"s\">Le llega la confirmación con lo que sigue.</div></div></div></div><figure class=\"fx-shot\"><img src=\"../assets/operaciones/consultoria-form.jpg\" alt=\"Formulario de inscripción de la consultoría\"><figcaption><b>El formulario de la consultoría.</b> Cuatro campos y nada más. Lo demás se pregunta después, en un segundo formulario que confirma el lugar.</figcaption></figure><div class=\"fx\"><p class=\"fx-et\">Una entrada, tres caminos, una persona</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">Entrada</div><div class=\"t\">Landing de evento · Landing de programa · Landing de marca</div><div class=\"s\">Cada una manda su nombre corto y su tipo.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">Webhook único</div><div class=\"t\">Decide por el tipo</div><div class=\"s\">Vacío: inscripción. b2c: lead de programa. b2b: lead de marca.</div></div><div class=\"fx-paso\"><div class=\"k\">Base</div><div class=\"t\">Una persona, todas sus fuentes</div><div class=\"s\">La inscripción queda ligada a la persona y al evento.</div></div></div></div><figure class=\"fx-shot\"><img src=\"../assets/operaciones/airtable-webhook-unico.jpg\" alt=\"Automatización con webhook único en Airtable\"><figcaption><b>El webhook del Bootcamp abierto.</b> Busca el evento, busca a la persona por mail, busca si ya estaba inscripta, y recién ahí crea lo que falta.</figcaption></figure>",
+      "cid": 8
+    },
+    {
+      "titulo": "Cada formulario, conectado a la base",
+      "consigna": "Una fila por cada landing o formulario que tenés, activo o no. Para cada uno: qué tipo de entrada es, qué crea o actualiza en la base y si manda el origen y los UTM con los que llegó la persona. Pedí lo justo: cada campo de más baja cuántos lo completan. Se marca como probado recién cuando lo completaste vos desde afuera. Los que nadie sabe a dónde mandan son los primeros a revisar.",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "El webhook mira el campo form_type: vacío es una inscripción a un evento, «b2c» es un lead de programa y «b2b» un lead de marca. Los tres terminan en la misma persona del Pipeline, con la fuente sumada."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Landing o formulario",
+        "Tipo de entrada",
+        "Qué crea o actualiza",
+        "¿Manda origen y UTM?",
+        "Probado el"
+      ],
+      "filas": 6,
+      "cid": 9
+    },
+    {
+      "nuestro": true,
+      "titulo": "Un mensaje que sale solo",
+      "texto": [
+        "Cada inscripto al Talent Hunt recibe al instante un mail con su propuesta en PDF, la carpeta de recursos y el link al desafío. Nadie del equipo lo manda a mano: lo dispara la misma automatización que guarda la inscripción."
+      ],
+      "figura": "<figure class=\"fx-shot\"><img src=\"../assets/operaciones/mail-talent-hunt.jpg\" alt=\"Mail automático de confirmación del Talent Hunt 0800\"><figcaption><b>El mail del Talent Hunt.</b> Nombre de la persona, el rol que eligió y los dos botones que necesita.</figcaption></figure>",
+      "cid": 12
+    },
+    {
+      "titulo": "El mensaje que sale solo",
+      "consigna": "Apenas alguien completa un formulario le llega un mensaje que confirma y dice qué sigue, cuándo y por dónde. Escribilo completo, como lo va a leer.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "Asunto, saludo, qué sigue, cuándo, por dónde.",
+      "cid": 10
+    },
+    {
+      "titulo": "La prueba desde afuera",
+      "consigna": "Completá cada formulario como si fueras un cliente, con un mail tuyo y desde el celular, y después otra vez con el mismo mail. Revisá que la fila aparezca una sola vez, que el origen esté bien y que el mensaje llegue. Anotá lo que falló y cómo lo corregiste.",
+      "campo": "lineas",
+      "lineas": [
+        "¿Apareció la fila, y una sola vez?",
+        "¿El origen y los UTM están bien?",
+        "¿Llegó el mensaje? ¿En cuánto tiempo?",
+        "Qué corregiste"
+      ],
+      "cid": 11
+    },
+    {
       "titulo": "El histórico cargado y los duplicados marcados",
       "consigna": "Volcá para atrás todo lo que tengas de los últimos dos años, aunque falten campos: una fila incompleta sirve más que un cliente ausente. Los duplicados se marcan con una etiqueta y se resuelven de a uno, sin borrar nada hasta estar seguro. Escribí cuántas filas entraron, cuántas quedaron marcadas y qué información quedó afuera para siempre.",
       "campo": "texto",
@@ -90,7 +148,7 @@
     },
     {
       "titulo": "Las tres vistas",
-      "consigna": "Una vista por cada pregunta de la primera sección, con el filtro escrito tal como quedó armado. La prueba de que la vista sirve es que alguien del equipo la abra, la lea y tome una decisión sin llamarte. Tres alcanzan: la cuarta vista sin pregunta atrás se llena de polvo.",
+      "consigna": "Una vista por cada pregunta de la primera sección, con el filtro escrito tal como quedó armado. La prueba de que la vista sirve es que alguien del equipo la abra, la lea y tome una decisión sin llamarte. Tres alcanzan: la cuarta vista sin pregunta atrás se llena de polvo. Si tenés pauta corriendo, una de las tres conviene que sea el cruce del mes: canal o anuncio, inversión, inscriptos, agendas y ventas.",
       "ejemplo": {
         "quien": "José David",
         "texto": "La base segmentada es parte de lo que le vende al e-commerce: devuelve información de audiencia y de producto, y es la que le permite mostrar un resultado medible en un contrato de tres meses."

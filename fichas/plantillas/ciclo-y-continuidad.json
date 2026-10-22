@@ -1,9 +1,22 @@
 {
   "modulo": "ciclo-y-continuidad",
-  "titulo": "La hoja de cierre de ciclo y continuidad",
-  "bajada": "Cada cliente con una fecha de cierre, un informe con los números del bloque y la propuesta de los tres meses que siguen, con precio y forma de pago.",
-  "lista_cuando": "Tenés la reunión de cierre hecha con cada cliente y anotado quién sigue, con qué objetivo y a qué precio.",
+  "titulo": "Offboarding, renovación y upsell",
+  "bajada": "Cada cliente con una fecha de cierre, un informe con los números del bloque, su caso de éxito escrito y la propuesta de lo que sigue: la renovación del mismo servicio o un escalón más arriba, con precio y forma de pago. Es la parte de la entrega donde se vende.",
+  "lista_cuando": "Tenés la reunión de cierre hecha con cada cliente, el caso de éxito del que terminó bien escrito, y anotado quién sigue, con qué (retainer o escalón nuevo), con qué objetivo y a qué precio.",
   "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Offboarding, retainer y upsell: tres cosas distintas",
+      "texto": [
+        "Esta carta junta la entrega y la venta, porque el final de un servicio es el momento en que más fácil se vende y en que más fácil se pierde un cliente. Pasan tres cosas distintas, y conviene nombrarlas por separado.",
+        "El <b>offboarding</b> es el cierre del ciclo. Se hace con todos los clientes, sigan o no: la reunión de cierre, el informe con los números del bloque, lo que quedó abierto y el caso de éxito. Un cliente que se va con su caso escrito te sigue vendiendo después.",
+        "El <b>retainer</b> es la continuidad mensual: el mismo servicio, por un bloque más de tres meses, con un objetivo nuevo. Se ofrece cuando lo que el cliente necesita es que lo mismo siga pasando, como el contenido de todos los meses.",
+        "El <b>upsell</b> es vender un escalón más: algo más grande que lo que compró, para el cliente que ya tuvo el resultado y quiere el siguiente. Sale de tu escalera de valor y de lo que el cliente te pidió durante el bloque.",
+        "El orden es siempre el mismo: primero el offboarding, con el informe y el caso, y recién después la propuesta, sea retainer o upsell. Con el resultado del bloque arriba de la mesa, la propuesta se discute sobre números."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Tres conversaciones distintas</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th></th><th>Offboarding</th><th>Retainer</th><th>Upsell</th></tr></thead><tbody><tr><td>Qué es</td><td>El cierre del ciclo</td><td>La continuidad mensual del mismo servicio</td><td>Vender un escalón más</td></tr><tr><td>Cuándo</td><td>Al terminar el bloque, siempre</td><td>Cuando el cliente necesita que lo mismo siga pasando</td><td>Cuando el cliente ya tuvo el resultado y quiere el siguiente</td></tr><tr><td>Qué se presenta</td><td>El informe del bloque y lo que queda abierto</td><td>El objetivo del bloque que sigue y su precio</td><td>El escalón nuevo, con su promesa y su precio</td></tr><tr><td>Qué queda</td><td>El caso de éxito y el testimonio</td><td>Un bloque nuevo firmado</td><td>Un producto nuevo vendido a un cliente que ya confía</td></tr></tbody></table></div></div>",
+      "cid": 9
+    },
     {
       "titulo": "Tus clientes y en qué mes de trabajo están",
       "consigna": "Todos los que te pagan hoy, desde cuándo, cuánto pagan por mes y la fecha en la que cierra su bloque de tres meses. Al que está en mensualidad abierta contale los meses desde el primero que trabajaron juntos y ponele fecha de cierre igual, aunque él todavía no la sepa. Mientras la fecha no esté escrita, la conversación de continuidad se corre sola todos los meses.",
@@ -68,37 +81,21 @@
       "cid": 4
     },
     {
-      "titulo": "La propuesta del bloque que sigue",
-      "consigna": "Objetivo macro, qué incluye, qué queda afuera, precio del bloque y forma de pago. El precio se dice desde arriba: primero el bloque completo, después las cuotas. Más de la mitad cobrada al arrancar, y el precio de pago adelantado siempre por debajo del precio de lista.",
-      "ejemplo": {
-        "quien": "Sofía Galvis",
-        "texto": "Rearmó el paquete de tres meses: cuatro mil dólares de lista, tres mil quinientos pagando por adelantado y tres mil ochocientos en dos cuotas, con más de la mitad cobrada al principio."
-      },
+      "titulo": "El caso de éxito del cliente que cierra",
+      "consigna": "Por cada cliente que termina bien, su caso en cinco líneas: de dónde arrancó, qué hicieron juntos, el número que se movió, una frase textual suya y dónde se va a publicar. La frase sale de lo que ya te dijo, en la reunión de cierre, por mensaje o en una llamada grabada. Se escribe la semana del cierre, que es cuando el resultado está fresco.",
       "campo": "lineas",
       "lineas": [
-        "Objetivo macro del bloque",
-        "Qué incluye",
-        "Qué queda afuera",
-        "Precio del bloque",
-        "Cómo se cobra"
+        "Cliente y punto de partida",
+        "Qué hicieron juntos",
+        "El número que se movió",
+        "Su frase, textual",
+        "Dónde se publica"
       ],
-      "cid": 5
-    },
-    {
-      "titulo": "El criterio de salida, escrito",
-      "consigna": "Dos frases: el bloque se entrega completo y el aviso de baja entra con un mes de anticipación. Van en la propuesta y en el contrato con la misma redacción. Escribilo ahora, en frío, que sale mejor que el día que el cliente lo pregunta.",
-      "ejemplo": {
-        "quien": "Cáscara",
-        "texto": "El contrato se replica igual para todos los clientes. Las condiciones de cierre y de salida están escritas con la misma redacción en todos, así la conversación nunca se improvisa."
-      },
-      "campo": "texto",
-      "alto": 3,
-      "placeholder": "El bloque se entrega completo. El aviso entra con…",
-      "cid": 6
+      "cid": 10
     },
     {
       "titulo": "Las reuniones de cierre, agendadas",
-      "consigna": "Una reunión por cliente, con día y hora, antes de que termine el bloque. Mandá la invitación hoy con el asunto puesto: cierre de ciclo y plan de los próximos tres meses. Una sola fecha dura por cliente, y si se corre, se corre una vez y se avisa.",
+      "consigna": "Una reunión por cliente, con día y hora, antes de que termine el bloque. Mandá la invitación hoy con el asunto puesto: cierre de ciclo y lo que sigue. Una sola fecha dura por cliente, y si se corre, se corre una vez y se avisa.",
       "ejemplo": {
         "quien": "Matías Morales",
         "texto": "Vende campañas con fecha de inicio y de final, con hitos y fechas presentados al cliente en el roadmap. Con eso la fecha de cierre queda puesta el día que se firma."
@@ -114,8 +111,49 @@
       "cid": 7
     },
     {
+      "titulo": "La propuesta del bloque que sigue",
+      "consigna": "Para el que sigue con el mismo servicio: objetivo macro, qué incluye, qué queda afuera, precio del bloque y forma de pago. El precio se dice desde arriba: primero el bloque completo, después las cuotas. Más de la mitad cobrada al arrancar, y el precio de pago adelantado siempre por debajo del precio de lista.",
+      "ejemplo": {
+        "quien": "Sofía Galvis",
+        "texto": "Rearmó el paquete de tres meses: cuatro mil dólares de lista, tres mil quinientos pagando por adelantado y tres mil ochocientos en dos cuotas, con más de la mitad cobrada al principio."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Objetivo macro del bloque",
+        "Qué incluye",
+        "Qué queda afuera",
+        "Precio del bloque",
+        "Cómo se cobra"
+      ],
+      "cid": 5
+    },
+    {
+      "titulo": "El escalón que le ofrecés al que ya tuvo el resultado",
+      "consigna": "El upsell, escrito antes de la reunión: qué es, a qué clientes de tu lista se lo ofrecés, qué promete y cuánto sale. Sale de tu escalera y de lo que los clientes te pidieron durante el bloque. Si todavía no existe, escribí qué te pidieron y lo armamos con vos.",
+      "campo": "lineas",
+      "lineas": [
+        "Qué es",
+        "A qué clientes se lo ofrecés",
+        "Qué promete",
+        "Precio y forma de pago"
+      ],
+      "cid": 11
+    },
+    {
+      "titulo": "El criterio de salida, escrito",
+      "consigna": "Dos frases: el bloque se entrega completo y el aviso de baja entra con un mes de anticipación. Van en la propuesta y en el contrato con la misma redacción. Escribilo ahora, en frío, que sale mejor que el día que el cliente lo pregunta.",
+      "ejemplo": {
+        "quien": "Cáscara",
+        "texto": "El contrato se replica igual para todos los clientes. Las condiciones de cierre y de salida están escritas con la misma redacción en todos, así la conversación nunca se improvisa."
+      },
+      "campo": "texto",
+      "alto": 3,
+      "placeholder": "El bloque se entrega completo. El aviso entra con…",
+      "cid": 6
+    },
+    {
       "titulo": "Lo que contestó cada uno",
-      "consigna": "Después de cada reunión, anotá si siguió, con qué objetivo, a qué precio y qué objetó. Las objeciones de los que no siguen valen igual que las firmas: son lo que corrige la propuesta del próximo. Con tres bloques firmados la continuidad deja de ser una intención.",
+      "consigna": "Después de cada reunión, anotá si siguió, con qué objetivo, a qué precio, qué objetó y si siguió con el mismo servicio o con un escalón nuevo. Las objeciones de los que no siguen valen igual que las firmas: son lo que corrige la propuesta del próximo.",
       "ejemplo": {
         "quien": "Sharon Palacio",
         "texto": "El tramo cierra con tres retainers de tres meses firmados, cada uno con su reunión de cierre donde se presenta todo lo entregado y se propone lo que sigue."
@@ -126,7 +164,8 @@
         "Siguió",
         "Objetivo del bloque nuevo",
         "Precio y forma de pago",
-        "Qué objetó"
+        "Qué objetó",
+        "Retainer o upsell"
       ],
       "filas": 8,
       "cid": 8

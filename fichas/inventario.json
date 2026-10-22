@@ -448,22 +448,26 @@
           "id": "angulos-desde-icp",
           "nombre": "Ángulos de comunicación bajados del ICP",
           "nivel": "troncal",
-          "para_quien": "Cuando el cliente ideal ya está escrito y cada pieza sigue arrancando de una hoja en blanco.",
+          "para_quien": "Cuando el cliente ideal ya está escrito, cada pieza sigue arrancando de una hoja en blanco y todavía no hay volumen publicado para saber qué funciona.",
           "eje": [
             "contenido"
           ],
-          "resultado": "Los dolores del cliente ideal convertidos en las preguntas que él ya se hace, con el giro propio al lado. Es el material con el que se entra a la llamada de contenido.",
+          "resultado": "Los dolores del cliente ideal convertidos en las preguntas que él ya se hace, con el giro propio al lado, y diez piezas publicadas contra esos ángulos con una carilla de lectura que dice cuál se sostiene, cuál se corrige y cuál se descarta.",
           "pasos": [
             "Traer los dolores con las palabras que usa él, no con las tuyas.",
             "Convertir cada dolor en la pregunta que él ya se hace, con el origen de dónde sabés que se la hace.",
             "Escribir tu giro propio: lo que decís vos sobre eso y no dice nadie más.",
             "Juntar las frases tuyas que ya generaron respuesta.",
-            "Devolverla junto con la del cliente ideal, antes de la llamada de contenido."
+            "Devolverla junto con la del cliente ideal, antes de la llamada de contenido.",
+            "Publicar diez piezas contra los ángulos, con la expectativa escrita antes y lo que devolvió cada una anotado el mismo día.",
+            "Escribir la carilla de lectura y decidir qué ángulo se sostiene, cuál se corrige y cuál se descarta."
           ],
           "completar": [
             "La tabla de dolores con su pregunta y su origen",
             "El giro propio escrito en dos o tres frases",
-            "Las frases tuyas que ya funcionaron"
+            "Las frases tuyas que ya funcionaron",
+            "Las diez piezas con lo que devolvió cada una",
+            "La carilla de lectura con la decisión sobre cada ángulo"
           ],
           "herramientas": [
             "Notion (base de ángulos e ideas)",
@@ -501,6 +505,18 @@
               "semana": 2,
               "frecuencia": "unica",
               "descripcion": ""
+            },
+            {
+              "titulo": "Publicar las diez piezas contra los ángulos y anotar lo que devuelve cada una",
+              "semana": 3,
+              "frecuencia": "semanal",
+              "descripcion": "La expectativa se escribe antes de publicar; las conversaciones, el día que sale."
+            },
+            {
+              "titulo": "Escribir la carilla de lectura con la decisión sobre cada ángulo",
+              "semana": 5,
+              "frecuencia": "unica",
+              "descripcion": ""
             }
           ],
           "estado_galeria": "aprobada",
@@ -516,18 +532,20 @@
           "eje": [
             "contenido"
           ],
-          "resultado": "Un calendario de sesenta días cargado, con cadencia semanal, formato y ángulo en cada tarjeta.",
+          "resultado": "Un calendario de sesenta días cargado, con cadencia semanal, formatos baratos que se sostienen y ángulo, formato y guion en cada tarjeta, más la jornada semanal de grabación agendada.",
           "pasos": [
             "Definir la cadencia real que puede sostener: cantidad de piezas por semana y día de publicación.",
-            "Elegir dos o tres formatos fijos y dejar una referencia y un ejemplo de cada uno.",
+            "Elegir dos o tres formatos fijos y baratos de producir, con una referencia y lo que cuesta cada uno.",
             "Cargar las tarjetas de sesenta días con objetivo, formato, ángulo y fecha.",
+            "Escribir el guion de cada tarjeta con el SOP Cómo escribir un guion, empezando por la primera.",
             "Reservar una jornada semanal fija de grabación y meterla en el calendario.",
             "Definir quién guiona, quién graba, quién edita y quién publica cada pieza.",
             "Revisar el calendario una vez por semana y mover solo lo que no salió."
           ],
           "completar": [
             "La cadencia semanal comprometida, con día y cantidad",
-            "Las tarjetas de sesenta días con ángulo y formato",
+            "Las tarjetas de sesenta días con ángulo, formato y guion",
+            "El guion de la primera tarjeta",
             "La jornada semanal de grabación agendada"
           ],
           "herramientas": [
@@ -545,7 +563,7 @@
               "descripcion": ""
             },
             {
-              "titulo": "Elegir dos o tres formatos fijos con una referencia de cada uno",
+              "titulo": "Elegir dos o tres formatos fijos y baratos, con una referencia de cada uno",
               "semana": 1,
               "frecuencia": "unica",
               "descripcion": ""
@@ -558,6 +576,12 @@
             },
             {
               "titulo": "Cargar las tarjetas de las próximas dos semanas con objetivo, formato, ángulo y fecha",
+              "semana": 2,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Escribir el guion de la primera tarjeta con el SOP de guion",
               "semana": 2,
               "frecuencia": "unica",
               "descripcion": ""
@@ -840,22 +864,23 @@
           "id": "mi-editing-brief",
           "nombre": "El brief de tu contenido",
           "nivel": "2",
-          "para_quien": "En el mes 2, cuando el founder ya tiene oferta y calendario y le va a pasar la edición a otra persona, o ya se la pasó y las piezas vuelven con muchas vueltas. Va antes de delegar la producción.",
+          "para_quien": "En el mes 2, cuando el founder ya tiene oferta y calendario y le va a pasar la edición o el diseño a otra persona, o ya se lo pasó y las piezas vuelven con muchas vueltas o salen cada una distinta. Va antes de delegar la producción.",
           "eje": [
             "contenido",
             "entrega"
           ],
-          "resultado": "El editing brief escrito, con narrativa, reglas, referencias, ritmo, tipografía, música, entregables y fechas, y una pieza real producida con él y sus vueltas contadas.",
+          "resultado": "El brief de contenido escrito, para quien edita y para quien diseña: narrativa, reglas, referencias, ritmo, el kit de identidad (tipografías, paleta con códigos, subtítulos, reglas de imagen y tres plantillas base), música, entregables y fechas, y una pieza real producida con él y sus vueltas contadas.",
           "pasos": [
             "Escribir la narrativa en una frase y a quién le habla la marca.",
             "Escribir las reglas de comunicación y las referencias, cada una con su lectura.",
-            "Dejar resueltos el ritmo, la tipografía, el color y la música.",
+            "Dejar resueltos el ritmo y la música, y armar el kit de identidad: tipografías, paleta con códigos, subtítulos, reglas de imagen y tres plantillas base en una carpeta compartida.",
             "Definir el entregable de cada formato, dónde vive el material, las fechas y quién aprueba.",
             "Escribir la tarjeta de una pieza real con el brief al lado.",
             "Mandar el brief y la tarjeta al editor, contar las vueltas y escribir en el brief la respuesta a cada pregunta que hizo."
           ],
           "completar": [
-            "El editing brief completo",
+            "El brief completo, con el kit de identidad",
+            "Las tres plantillas base y el link al kit",
             "La tarjeta de una pieza real",
             "El registro de vueltas de tres piezas"
           ],
@@ -877,6 +902,12 @@
             {
               "titulo": "Juntar las referencias con su lectura y resolver ritmo, tipografía, color y música",
               "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Armar el kit de identidad y las tres plantillas base, y compartir la carpeta",
+              "semana": 2,
               "frecuencia": "unica",
               "descripcion": ""
             },
@@ -1271,16 +1302,18 @@
           "eje": [
             "venta"
           ],
-          "resultado": "El proceso de venta escrito tal como pasa hoy, el camino elegido (B2C o servicios), los criterios para dar llamada, el pipeline con próxima acción en cada contacto y el registro de llamadas con su lectura semanal.",
+          "resultado": "La auditoría del departamento comercial de hoy: cómo llegan los mensajes (con capturas), qué se responde, quién da llamada y dónde vive cada contacto; las primeras cinco llamadas de venta grabadas, con la objeción textual de cada una y la corrección que sale; el camino elegido (B2C o servicios), los criterios para dar llamada, el pipeline y el registro de llamadas con su lectura semanal.",
           "pasos": [
-            "Escribir el camino de una consulta tal como pasa hoy, con las últimas consultas y dos llamadas grabadas.",
-            "Elegir el camino de venta: B2C o servicios.",
+            "Escribir el camino de una consulta tal como pasa hoy, con las últimas consultas y capturas de mensajes reales.",
+            "Grabar las primeras cinco llamadas de venta con el precio dicho, anotar la objeción textual de cada una y escribir la corrección.",
+            "Elegir el camino de venta, B2C o servicios, y seguir con su SOP.",
             "Escribir las cuatro preguntas para calificar antes de dar llamada.",
             "Volcar todos los contactos a un pipeline con próxima acción y fecha.",
             "Registrar cada llamada con resultado, objeción y grabación, y hacer la lectura de la semana."
           ],
           "completar": [
-            "Cómo vendés hoy",
+            "Cómo vendés hoy, con las capturas",
+            "Las cinco llamadas grabadas, con su objeción y la corrección",
             "Tu camino",
             "Tus preguntas para calificar",
             "El pipeline y el registro",
@@ -1875,16 +1908,20 @@
             "entrega",
             "oferta"
           ],
-          "resultado": "El recorrido del cliente después de la compra: qué recibe, qué resultado se lleva, dónde se traba la entrega y cómo se podría productizar, cómo arranca y qué escalones hay arriba y abajo de lo que se vende hoy.",
+          "resultado": "El recorrido del cliente después de la compra (qué recibe, qué resultado se lleva, dónde se traba la entrega y qué pasa cuando termina) y el servicio convertido en producto: un recorrido con etapas y entregables, con nombre, bordes y precio único. La escalera queda resumida, con el link a lo que se armó con el SOP de precio.",
           "pasos": [
             "Listar lo que se entrega y el resultado que deja cada cosa.",
             "Contar cómo arranca un cliente hasta su primer resultado.",
-            "Anotar dónde se traba hoy el servicio y cómo se podría productizar.",
-            "Contar qué pasa cuando termina el servicio.",
-            "Completar la escalera: lo que hay abajo, en el medio y arriba."
+            "Anotar dónde se traba hoy el servicio y qué pasa cuando termina.",
+            "Escribir el recorrido del producto etapa por etapa, con el entregable y el responsable de cada una.",
+            "Ponerle nombre, bordes y precio único: qué incluye, qué queda afuera, cuánto dura.",
+            "Resumir la escalera con el link a lo que se armó con el SOP Precio y escalera de valor."
           ],
           "completar": [
-            "La hoja completa"
+            "El recorrido del cliente después de la compra",
+            "El recorrido del producto, etapa por etapa",
+            "El nombre, los bordes y el precio",
+            "La escalera en resumen"
           ],
           "herramientas": [
             "Notion o la planilla donde viven los clientes",
@@ -1906,20 +1943,26 @@
               "descripcion": ""
             },
             {
-              "titulo": "Anotar dónde se traba hoy el servicio y cómo se podría productizar",
+              "titulo": "Anotar dónde se traba hoy el servicio y qué pasa cuando termina",
+              "semana": 1,
+              "frecuencia": "unica",
+              "descripcion": ""
+            },
+            {
+              "titulo": "Escribir el recorrido del producto etapa por etapa",
               "semana": 2,
               "frecuencia": "unica",
               "descripcion": ""
             },
             {
-              "titulo": "Contar qué pasa cuando termina el servicio",
+              "titulo": "Ponerle nombre, bordes y precio al producto",
               "semana": 2,
               "frecuencia": "unica",
               "descripcion": ""
             },
             {
-              "titulo": "Completar la escalera: lo que hay abajo, en el medio y arriba",
-              "semana": 2,
+              "titulo": "Resumir la escalera con el link a lo que armaste con el SOP de precio",
+              "semana": 3,
               "frecuencia": "unica",
               "descripcion": ""
             },
@@ -2016,24 +2059,26 @@
           "id": "ciclo-y-continuidad",
           "nombre": "Offboarding, renovación y upsell",
           "nivel": "2",
-          "para_quien": "Cuando el founder tiene clientes en mensualidad abierta y ninguna conversación de renovación.",
+          "para_quien": "Cuando el founder tiene clientes en mensualidad abierta, ninguna conversación de renovación y nada para ofrecerle al que ya tuvo el resultado.",
           "eje": [
             "entrega",
             "venta"
           ],
-          "resultado": "Cada cliente con su ciclo cerrado, su informe de resultados y la continuidad presentada por bloques de tres meses.",
+          "resultado": "Cada cliente con su ciclo cerrado, su informe de resultados y su caso de éxito, y la continuidad presentada: el retainer por bloques de tres meses o el escalón siguiente de upsell.",
           "pasos": [
             "Definir el ciclo: bloques de tres meses con objetivo macro y objetivo por mes.",
             "Armar el informe de cierre con lo que se hizo, los números y lo que queda abierto.",
+            "Escribir el caso de éxito de cada cliente que cierra.",
             "Agendar la reunión de cierre con cada cliente antes de que termine el bloque.",
-            "Presentar la continuidad del bloque siguiente con objetivo, alcance y precio.",
+            "Presentar la continuidad: el bloque siguiente con objetivo, alcance y precio, o el escalón de upsell.",
             "Escribir el criterio de salida: aviso con un mes y ciclo terminado.",
-            "Registrar qué clientes renovaron y con qué objetivo."
+            "Registrar qué clientes siguieron, con retainer o con upsell, y con qué objetivo."
           ],
           "completar": [
             "El calendario de ciclos de cada cliente con fecha de cierre",
             "El informe de cierre de cada ciclo",
-            "La propuesta de continuidad presentada"
+            "El caso de éxito del cliente que cierra",
+            "La propuesta de continuidad o de upsell presentada"
           ],
           "herramientas": [
             "Notion (OS del cliente con ciclos)",
@@ -2601,16 +2646,18 @@
           "id": "base-de-datos-unica",
           "nombre": "Una sola base de datos, y para qué sirve",
           "nivel": "2",
-          "para_quien": "Cuando la información de clientes y ventas vive en varios lugares y nadie la puede filtrar sin ayuda.",
+          "para_quien": "Cuando la información de clientes y ventas vive en varios lugares, cada formulario guarda en un lugar distinto y nadie la puede filtrar sin ayuda.",
           "eje": [
             "venta",
             "entrega"
           ],
-          "resultado": "Una base única con origen del contacto, compras y productos, que se puede filtrar sin depender de alguien técnico.",
+          "resultado": "Una base única con origen del contacto, compras y productos, que se puede filtrar sin depender de alguien técnico, con todos los formularios escribiendo en ella por una sola entrada: cada persona una sola vez, con su origen.",
           "pasos": [
             "Listar dónde vive hoy cada dato: mensajes, planillas, tienda, formularios y cabezas.",
             "Definir los campos minimos: contacto, origen, productos comprados, monto y fecha.",
             "Elegir la arquitectura: una herramienta guarda y otra muestra, de manera que se pueda mirar y filtrar.",
+            "Conectar cada formulario a la base por una sola entrada, que crea o actualiza a la persona por su mail y guarda su origen.",
+            "Escribir el mensaje que sale solo y probar cada formulario desde afuera.",
             "Volcar la información historica y marcar los duplicados.",
             "Definir quién carga cada dato y en qué momento.",
             "Armar tres vistas que respondan tres preguntas concretas del negocio."
@@ -2618,7 +2665,8 @@
           "completar": [
             "El mapa de dónde vive cada dato hoy",
             "La base con los campos minimos y el histórico cargado",
-            "Las tres vistas con las tres preguntas que responden"
+            "Las tres vistas con las tres preguntas que responden",
+            "Los formularios conectados a la base, probados desde afuera"
           ],
           "herramientas": [
             "Notion o Airtable para mostrar",
@@ -2781,19 +2829,21 @@
             "entrega",
             "venta"
           ],
-          "resultado": "Un proyecto en Claude con el contexto de tu negocio cargado, tres tareas de tu semana resueltas con IA y un criterio escrito de qué modelo y qué herramienta usar para cada cosa.",
+          "resultado": "Un proyecto en Claude con el contexto de tu negocio cargado, tres tareas de tu semana resueltas con IA, un criterio escrito de qué modelo y qué herramienta usar para cada cosa, y un informe mensual del negocio sacado de tus propias bases, con tres decisiones escritas al final.",
           "pasos": [
             "Armar un proyecto en Claude y cargarle el contexto de tu negocio: oferta, clientes, tono y procesos.",
             "Escribir el glosario de tu negocio: las palabras con las que nombrás cada cosa.",
             "Elegir tres tareas de tu semana que hoy hacés a mano y resolverlas con IA.",
             "Definir qué modelo usás para cada tipo de tarea, para no gastar el uso en lo simple.",
             "Decidir con qué se construye cada cosa: Claude para pensar y armar piezas, Lovable cuando hay usuarios y datos.",
-            "Alimentar el proyecto cada semana con la llamada o la decisión más importante."
+            "Alimentar el proyecto cada semana con la llamada o la decisión más importante.",
+            "Armar el informe del mes: tres preguntas fijas, un pedido guardado y tres decisiones con dueño y fecha."
           ],
           "completar": [
             "Dónde estás hoy con la IA",
             "El contexto cargado y el glosario",
-            "Tres tareas resueltas y el criterio de modelos"
+            "Tres tareas resueltas y el criterio de modelos",
+            "El informe del primer mes con sus tres decisiones"
           ],
           "herramientas": [
             "Claude (proyectos, memoria y tareas programadas)",
@@ -2819,6 +2869,12 @@
               "semana": 2,
               "frecuencia": "semanal",
               "descripcion": "Una por semana alcanza."
+            },
+            {
+              "titulo": "Correr el informe del mes y cerrar tres decisiones",
+              "semana": 4,
+              "frecuencia": "mensual",
+              "descripcion": "Con las mismas tres preguntas y el pedido guardado."
             }
           ],
           "estado": "nueva",
@@ -2949,23 +3005,23 @@
           "id": "pasaporte-digital",
           "nombre": "Pasaporte digital",
           "nivel": "1",
-          "para_quien": "Cuando el founder necesita su diferencial en la comunicación y los Founder Insights no alcanzan.",
+          "para_quien": "Cuando el founder necesita su diferencial en la comunicación y los Founder Insights no alcanzan, o cuando cambia de mensaje todas las semanas y nada se acumula.",
           "eje": [
             "contenido"
           ],
-          "resultado": "El formulario profundo completo, con la historia propia escrita y los ángulos que salen de ella.",
+          "resultado": "El pasaporte completo: la historia propia, la narrativa que sale de ella (lo que sabe, lo que le importa y lo que construye, la perspectiva propia, el enemigo, el arco narrativo y la posición en una frase) y la estética que se desprende de todo eso.",
           "pasos": [
-            "Completar el formulario profundo, respondiendo por la historia y no por el negocio.",
-            "Marcar los tres momentos que explican por qué hace lo que hace.",
-            "Sacar de ahí las obsesiones y lo que le importa, con las palabras propias.",
-            "Bajar los ángulos de comunicación que salen de esa historia, con una idea por ángulo.",
-            "Escribir el guion de la historia de origen.",
-            "Publicar la primera pieza con esa historia y leer qué contestó la gente."
+            "Completar la parte de historia con hechos de la propia vida: el antes y el después, los desafíos, las creencias y la evolución.",
+            "Escribir lo que sabe, lo que le importa y lo que está construyendo, en tres columnas.",
+            "Armar el arco narrativo en cinco tramos, cada uno con un hecho que lo pruebe.",
+            "Bajar la perspectiva propia, el enemigo y la posición a frases que se puedan decir de memoria.",
+            "Completar la parte visual: emoción, paleta, luz, ritmo, texturas, tono, temas y arquetipo.",
+            "Usar la hoja como filtro: cada pieza y cada oferta se mide contra la posición."
           ],
           "completar": [
-            "El formulario del pasaporte digital completo",
-            "Los tres momentos y las obsesiones escritas",
-            "El guion de la historia de origen"
+            "El pasaporte completo, de la historia a la estética",
+            "Las tres columnas y el arco narrativo",
+            "La posición en cuatro frases"
           ],
           "herramientas": [
             "Formulario de pasaporte digital de Cáscara",
@@ -3154,21 +3210,24 @@
           "id": "estetica-y-estrategia",
           "nombre": "La dirección creativa de tu marca",
           "nivel": "2",
-          "para_quien": "Cuando cambiás de oferta o de cliente ideal, o cuando tu estética no acompaña tu nuevo precio.",
+          "para_quien": "Cuando cambiás de oferta o de cliente ideal, cuando tu estética no acompaña tu nuevo precio, o antes de un lanzamiento, una campaña o un shooting.",
           "eje": [
             "contenido",
             "oferta"
           ],
-          "resultado": "La emoción que necesita tu cliente traducida a 3 recursos visuales fijos, aplicados en las próximas 3 piezas.",
+          "resultado": "La emoción que necesita tu cliente traducida a tres recursos visuales fijos, un moodboard de doce referencias con su criterio, y el concepto del próximo lanzamiento en una frase con su bajada por formato.",
           "pasos": [
-            "Definir la emoción o creencia del cliente.",
-            "Traducirla a recursos visuales.",
-            "Revisar la estética actual.",
-            "Elegir 3 recursos fijos."
+            "Definir la emoción o la creencia que tu cliente necesita para elegirte y traducirla a recursos visuales.",
+            "Revisar la estética actual y elegir tres recursos fijos.",
+            "Armar el moodboard: juntar treinta referencias, quedarse con doce y anotar qué se toma de cada una.",
+            "Escribir el concepto del próximo lanzamiento: objetivo, insight, concepto y territorio visual.",
+            "Bajar el concepto a cada formato y probar que se explica en diez segundos.",
+            "Si lo que se lanza es un producto físico, aplicar el SOP de dirección de arte."
           ],
           "completar": [
-            "La emoción y la lectura de tu estética",
-            "Los 3 recursos fijos"
+            "La emoción y los tres recursos fijos",
+            "Las doce referencias con su criterio",
+            "El concepto y su bajada por formato"
           ],
           "herramientas": [
             "Tu perfil",

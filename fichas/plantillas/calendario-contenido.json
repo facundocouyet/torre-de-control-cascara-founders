@@ -1,9 +1,19 @@
 {
   "modulo": "calendario-contenido",
-  "titulo": "La hoja del calendario de sesenta días",
-  "bajada": "Sesenta días de contenido cargados con fecha, ángulo, formato y dueño, más la jornada semanal de grabación agendada. Con esto la cadencia deja de depender del tiempo que sobra en la semana.",
-  "lista_cuando": "Cualquiera de tu equipo abre el calendario un lunes y sabe qué se graba, qué se edita y qué se publica esa semana sin preguntarte.",
+  "titulo": "Calendario de contenido: estrategia, creatividad y guiones",
+  "bajada": "Los ángulos que ya probaste bajados a sesenta días de contenido: la cadencia que podés sostener, los formatos fijos, las tarjetas con su ángulo y su guion, la jornada semanal de grabación y quién hace cada paso. Sale con los SOPs de guion, research y producción, para estudiar mientras la completás.",
+  "lista_cuando": "Cualquiera de tu equipo abre el calendario un lunes y sabe qué se graba, qué se edita y qué se publica esa semana sin preguntarte, y las tarjetas de las próximas dos semanas tienen su guion escrito.",
   "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Esta carta sale con sus SOPs",
+      "texto": [
+        "Es la carta grande del contenido y va después de la de ángulos. Acá se baja todo al calendario en este orden: la estrategia (qué ángulo sale cada semana y para qué), la creatividad (con qué formato) y el guion de cada tarjeta. Cada paso necesita el anterior cerrado: una tarjeta sin ángulo llega vacía a su fecha, y un guion sin formato se reescribe el día de grabación.",
+        "Con la carta te llegan los SOPs. No se completan: se leen y se aplican mientras armás el calendario. No hace falta leerlos todos antes de arrancar. Empezá por <b>Tu calendario en Notion</b>, <b>Cómo escribir un guion</b> y <b>Los primeros 5 segundos</b>, y el resto se abre cuando el calendario lo pide."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Los SOPs de esta carta</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>SOP</th><th>Para qué lo usás</th></tr></thead><tbody><tr><td>Cómo hacer research: tu sistema semanal</td><td>Juntar ideas toda la semana y tener de dónde sacar ángulos nuevos.</td></tr><tr><td>Cómo escribir un guion</td><td>Escribir el guion de cada tarjeta.</td></tr><tr><td>Los primeros 5 segundos</td><td>El gancho de cada pieza, desde el dolor del que la ve.</td></tr><tr><td>Convertir el trabajo con clientes en historia</td><td>Contar el trabajo con tus clientes como historia.</td></tr><tr><td>Tu historia de origen</td><td>Tu historia de origen, grabada en formato largo.</td></tr><tr><td>Formatos de ficción</td><td>Sketches y POV sobre las quejas de tus clientes.</td></tr><tr><td>Inventar cuando no pasa nada</td><td>Las semanas en que no pasa nada para contar.</td></tr><tr><td>Crear casos desde tu disciplina</td><td>Armar un caso propio cuando todavía no tenés clientes para mostrar.</td></tr><tr><td>Exprimir una producción</td><td>Sacar tres o cuatro semanas de piezas de una sola producción.</td></tr><tr><td>Checklist antes de publicar</td><td>Lo que se revisa en cada pieza antes de que salga.</td></tr><tr><td>Shotlist y guion de rodaje</td><td>Ordenar la jornada de grabación por locación.</td></tr><tr><td>Grabar un video largo horizontal con el celular</td><td>Un video largo con el celular, del que salen tres a cinco reels.</td></tr><tr><td>Protocolo de bloqueo creativo</td><td>Qué hacer el día que no sale nada.</td></tr><tr><td>Tu marca como tu mejor cliente</td><td>Tratar tu marca con el mismo brief y las mismas fechas que a un cliente.</td></tr><tr><td>El caso documentado del cliente que ya tenés</td><td>Fichas de caso con números antes y después.</td></tr><tr><td>Color después del LOG</td><td>Corregir el color de lo que grabás en LOG.</td></tr><tr><td>Narrativa y producción de video</td><td>El proceso completo de un video, de la idea al análisis.</td></tr><tr><td>Tu calendario en Notion</td><td>Armar este calendario en tu Notion, con propiedades, estados y vistas.</td></tr></tbody></table></div></div>",
+      "cid": 8
+    },
     {
       "titulo": "La cadencia que podés sostener",
       "consigna": "La cantidad de piezas por semana se fija por la peor semana del último mes, con el día y el horario de publicación puestos. El piso de este módulo son tres piezas por semana durante ocho semanas seguidas: veinticuatro piezas. Si el número que escribís acá ya lo incumpliste dos veces, bajalo una pieza y cerralo ahí.",
@@ -21,8 +31,18 @@
       "cid": 0
     },
     {
+      "nuestro": true,
+      "titulo": "El formato barato es el que se sostiene",
+      "texto": [
+        "Lo que vemos en casi todos los casos: el formato que se cae es el caro. La pieza más cruda suele ser la que mejor devuelve contra lo que costó, y la producción pulida es la que frena el volumen en la tercera semana.",
+        "Antes de elegir tus formatos, mirá tus últimas ocho piezas y anotá qué costó cada una (tus horas, la plata de edición y los días entre la grabación y la publicación) contra lo que devolvió. Tres formatos baratos que funcionan: la entrevista cruda con alguien que te pregunta desde atrás de cámara, el video largo sin guion, y el trabajo real filmado mientras pasa con voz en off encima.",
+        "Cada formato queda con un setup fijo, para que el día de grabación no se decida nada: el lugar, la cámara y la luz, cuánto dura la grabación, quién pregunta y cuántas piezas salen de una sola vez. Y con un techo de edición escrito: nivel uno es clipeo, subtítulos y color, con un costo por pieza fijo. Una sola regla para lo que no te gusta: se publica igual. La pieza que se guarda para mejorarla después no vuelve a salir."
+      ],
+      "cid": 9
+    },
+    {
       "titulo": "Los dos o tres formatos fijos",
-      "consigna": "Elegí dos o tres formatos y usá esos durante los sesenta días. Cada uno con una referencia mirable, propia o ajena, y con el tiempo real que tarda en producirse de punta a punta. El formato que tarda más de lo que te dura la semana se cambia por uno más barato, porque el que se cae siempre es el caro.",
+      "consigna": "Elegí dos o tres formatos y usá esos durante los sesenta días. Cada uno con una referencia mirable, propia o ajena, y con el tiempo real que tarda en producirse de punta a punta. El formato que tarda más de lo que te dura la semana se cambia por uno más barato.",
       "ejemplo": {
         "quien": "Sharon",
         "texto": "El compromiso quedó en edición nivel uno: clipeo, subtítulos, color y sale. El podcast lo había abandonado porque quería grabarlo con b-rolls encima, y ese formato nunca llegó a salir."
@@ -39,7 +59,7 @@
     },
     {
       "titulo": "Las tarjetas de los sesenta días",
-      "consigna": "Acá van las primeras diez tarjetas y el resto se carga con la misma estructura en la base de Notion, hasta completar los sesenta días. Cada tarjeta lleva fecha, ángulo del que sale, formato, qué querés que haga el que la ve y en qué estado está. Una tarjeta sin ángulo queda vacía cuando llega la fecha, así que se completa antes de cargarla.",
+      "consigna": "Acá van las primeras diez tarjetas y el resto se carga con la misma estructura en tu Notion, como explica el SOP <b>Tu calendario en Notion</b>, hasta completar los sesenta días. Cada tarjeta lleva fecha, ángulo del que sale, formato, qué querés que haga el que la ve, en qué estado está y el link a su guion. Una tarjeta sin ángulo queda vacía cuando llega la fecha, así que se completa antes de cargarla.",
       "ejemplo": {
         "quien": "Nicolás Lozada",
         "texto": "Tiene la base con cuarenta y cinco tarjetas ordenadas en cuatro fases. El calendario cargado de antemano es lo que le permitió publicar el video largo de su historia y sacarle ocho recortes sin improvisar."
@@ -50,10 +70,19 @@
         "Ángulo",
         "Formato",
         "Qué querés que haga el que la ve",
-        "Estado"
+        "Estado",
+        "Link al guion"
       ],
       "filas": 10,
       "cid": 2
+    },
+    {
+      "titulo": "El guion de tu primera tarjeta",
+      "consigna": "Elegí la primera tarjeta del calendario y escribí su guion completo con el SOP <b>Cómo escribir un guion</b> al lado: los primeros cinco segundos, el desarrollo y el cierre con lo que le pedís al que la ve. En un reel va palabra por palabra; en un carrusel, placa por placa. Es el que revisamos con vos, y el que sirve de molde para el resto de las tarjetas.",
+      "campo": "texto",
+      "alto": 10,
+      "placeholder": "Tarjeta: … Ángulo: … Primeros 5 segundos: … Desarrollo: … Cierre: …",
+      "cid": 10
     },
     {
       "titulo": "La jornada semanal de grabación",

@@ -1,16 +1,16 @@
 {
   "modulo": "pasaporte-digital",
   "titulo": "La hoja de tu pasaporte digital",
-  "bajada": "Tu historia, tu personalidad y tu estética escritas en un solo lugar, con las mismas preguntas que completa cualquiera que entra a La Cáscara. De acá salen los ángulos de contenido y la dirección visual: sin esto, las dos cosas se inventan.",
-  "lista_cuando": "El pasaporte está completo de punta a punta y devuelto, y de él se pueden leer tu historia de origen, tus tres temas, tu arquetipo y tu paleta sin tener que preguntarte nada más.",
+  "bajada": "Tu narrativa escrita en un solo lugar: tu historia, lo que sabés y lo que te importa, la posición que sale de ahí, el enemigo, tu arco y tu estética. De acá salen los ángulos de contenido y la dirección creativa, y cada pieza y cada oferta se miden contra esta hoja.",
+  "lista_cuando": "El pasaporte está completo de punta a punta y devuelto, tu posición entra en una frase que se entiende sin que expliques tu rubro, y de la hoja se pueden leer tu historia de origen, tu arco, tus tres temas, tu arquetipo y tu paleta sin tener que preguntarte nada más.",
   "secciones": [
     {
       "nuestro": true,
       "titulo": "Cómo se completa esto",
       "texto": [
-        "Son las preguntas del pasaporte de La Cáscara, las mismas que completa cualquiera que entra al programa. No las cambiamos: están probadas y el material que devuelven es el que después usa Fede para armar la estrategia de contenido y Juana para la dirección visual.",
-        "Se completa de arriba a abajo y de una sentada. Las primeras preguntas son de historia y las últimas de estética, y ese orden importa: lo visual sale de lo que contaste antes, no al revés.",
-        "No busques la respuesta correcta. Buscá la verdadera. Lo que quede a medias se nota después, cuando el contenido no se parece a vos."
+        "Son las preguntas del pasaporte de La Cáscara, las mismas que completa cualquiera que entra al programa, más la parte de narrativa que usamos en Founders. Están probadas, y el material que devuelven es el que después usa el equipo de Cáscara para armar tu estrategia de contenido y tu dirección creativa.",
+        "Se completa de arriba a abajo y en este orden: primero tu historia, después tu narrativa y al final tu estética. Lo visual sale de lo que contaste antes.",
+        "Buscá la respuesta verdadera, aunque sea menos linda. Lo que quede a medias se nota después, cuando el contenido deja de parecerse a vos."
       ],
       "cid": 0
     },
@@ -108,7 +108,7 @@
       "lineas": [
         "¿Cuál es tu principal necesidad en este momento en términos de marketing y contenido?",
         "¿Qué aspecto del negocio te gustaría mejorar primero?",
-        "¿En qué te gustaría que tu marca personal sea diferente de otras en tu nicho? ¿Qué cosas de tu personalidad ves como diferencial para apalancarnos en ellas?"
+        "¿En qué te gustaría que tu marca personal sea diferente de otras en tu nicho? ¿Qué cosas de tu personalidad ves como diferencial, para apoyarnos en ellas?"
       ],
       "cid": 9
     },
@@ -119,6 +119,71 @@
       "alto": 3,
       "placeholder": "¿Cómo te gustaría sentirte en un momento dado, sin importar las emociones que estés sintiendo en ese momento?",
       "cid": 10
+    },
+    {
+      "nuestro": true,
+      "titulo": "Tu narrativa: de tu historia a tu posición",
+      "texto": [
+        "Con tu historia escrita, esta parte la convierte en una posición. La armamos con el mismo marco en todos los casos: lo que sabés, lo que te importa y lo que estás construyendo. Donde se cruzan las tres aparece tu perspectiva propia, que es la lectura de tu rubro que a vos te resulta obvia y a los demás les suena discutible.",
+        "El <b>enemigo</b> es la idea instalada que tu trabajo viene a discutir: una creencia o una costumbre del mercado, nunca una persona ni un competidor. El <b>arco</b> es tu historia contada en cinco tramos, cada uno con un hecho tuyo que lo prueba. Y la <b>posición</b> es todo eso en una frase de doce palabras, que se entiende sin que expliques tu rubro.",
+        "Cuando está escrita, la hoja trabaja de filtro: antes de publicar una pieza o salir con una oferta, se mide contra tu posición y tu enemigo. Lo que no entra se cae antes de salir, y eso es lo que hace que el mensaje se acumule en lugar de cambiar cada semana."
+      ],
+      "cid": 21
+    },
+    {
+      "titulo": "Lo que sé, lo que me importa, lo que estoy construyendo",
+      "consigna": "Llenala de corrido, sin buscar la frase linda. En la primera columna van cosas que sabés hacer con horas encima, en la segunda lo que te importa aunque no te pague, y en la tercera lo que estás construyendo hoy. Cinco filas por columna como mínimo, y todo con hechos: años, clientes, trabajos, proyectos. Los adjetivos se sacan al final.",
+      "ejemplo": {
+        "quien": "Sharon Palacio",
+        "texto": "Al ponerlo en columnas apareció que su recorrido de moda a diseño a tatuaje es un solo viaje, y desde ahí el contenido propio deja de tener que elegir entre tres carreras."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Lo que sé",
+        "Lo que me importa",
+        "Lo que estoy construyendo"
+      ],
+      "filas": 6,
+      "cid": 22
+    },
+    {
+      "titulo": "Tu arco narrativo, tramo por tramo",
+      "consigna": "Tu historia en cinco tramos, armada desde lo que te obsesiona. Cada tramo lleva un hecho tuyo verificable en la última columna, con fecha o con número. El tramo sin hecho se cae, porque es el que después no vas a poder contar dos veces igual. Usá lo que ya escribiste en el antes y el después y en los desafíos.",
+      "ejemplo": {
+        "quien": "Sebastián Martínez",
+        "texto": "Viene del mundo corporativo y de la venta, se pasó a filmmaker, armó Estudio Gama 21 con Titi y terminó dirigiendo el contenido de Emilio Axis. El tramo con la prueba más fuerte es el del miedo a grabarse en público: un reel orgánico con un millón cuatrocientas mil vistas y mil ochocientos comentarios."
+      },
+      "campo": "tabla",
+      "columnas": [
+        "Tramo",
+        "Qué cuenta",
+        "El hecho tuyo que lo prueba"
+      ],
+      "filas_rotulo": [
+        "De dónde venís",
+        "Qué se rompió",
+        "Qué encontraste",
+        "Qué estás construyendo",
+        "Hacia dónde va"
+      ],
+      "filas": 5,
+      "cid": 23
+    },
+    {
+      "titulo": "Tu posición, en cuatro frases",
+      "consigna": "Cruzá las tres columnas y el arco, y bajalo a cuatro frases que puedas decir de memoria en una conversación. La perspectiva propia va en presente, sobre cómo funcionan las cosas en tu rubro, y sirve si alguien de tu industria la discutiría en una mesa. El enemigo es una idea, nunca una persona: si al leerlo en voz alta no te sube nada, seguí buscando. Estas frases van después al perfil, a la propuesta y a la primera línea de cada pieza.",
+      "ejemplo": {
+        "quien": "Scarlett Montilla",
+        "texto": "Lo que la indigna es que se glorifique el burnout como señal de mérito. Ese enemigo conecta derecho con construir a tu propio ritmo, que es lo que enseña su mentoría."
+      },
+      "campo": "lineas",
+      "lineas": [
+        "Lo que ves en tu rubro que otros no ven",
+        "El enemigo, en una frase",
+        "Lo que te obsesiona, en tres palabras",
+        "Tu posición, en una frase"
+      ],
+      "cid": 24
     },
     {
       "nuestro": true,
@@ -202,7 +267,7 @@
     },
     {
       "titulo": "Tu línea editorial: los tres temas",
-      "consigna": "Los tres pilares sobre los que se construye todo tu contenido. Tienen que responder: qué sé hacer, cómo lo hago, y quién soy cuando lo hago. Si un tema no responde a ninguna de las tres, no es un pilar: es un extra. Para encontrarlos: ¿qué querés que recuerden de vos? ¿qué podés repetir sin cansarte? ¿qué posiciona tu valor?",
+      "consigna": "Los tres pilares sobre los que se construye todo tu contenido. Tienen que responder: qué sé hacer, cómo lo hago, y quién soy cuando lo hago. Un tema que no responde a ninguna de las tres queda como extra. Para encontrarlos: ¿qué querés que recuerden de vos? ¿qué podés repetir sin cansarte? ¿qué posiciona tu valor? Usá las tres columnas de tu narrativa: los pilares casi siempre ya están ahí.",
       "campo": "lineas",
       "lineas": [
         "Tema 1",
@@ -213,7 +278,7 @@
     },
     {
       "titulo": "Tu arquetipo",
-      "consigna": "Uno solo, más un renglón explicando por qué. El Creador quiere hacer cosas nuevas y comparte procesos e ideas. El Sabio comparte conocimiento con claridad y estructura. El Explorador busca experiencias nuevas, movimiento y descubrimiento. El Cuidador acompaña y contiene, con tono cálido. El Visionario ve el futuro y propone formas nuevas. El Rebelde rompe reglas y dice verdades incómodas. El Guía orienta sin imponer y facilita el crecimiento de otros. El Héroe actúa e inspira desde el ejemplo, no desde la teoría. Para elegir: ¿qué rol ocupás cuando alguien te encuentra online? ¿qué esperan naturalmente de vos?",
+      "consigna": "Uno solo, más un renglón explicando por qué. El Creador quiere hacer cosas nuevas y comparte procesos e ideas. El Sabio comparte conocimiento con claridad y estructura. El Explorador busca experiencias nuevas, movimiento y descubrimiento. El Cuidador acompaña y contiene, con tono cálido. El Visionario ve el futuro y propone formas nuevas. El Rebelde rompe reglas y dice verdades incómodas. El Guía orienta sin imponer y facilita el crecimiento de otros. El Héroe actúa e inspira desde el ejemplo. Para elegir: ¿qué rol ocupás cuando alguien te encuentra online? ¿qué esperan naturalmente de vos?",
       "campo": "lineas",
       "lineas": [
         "El arquetipo",

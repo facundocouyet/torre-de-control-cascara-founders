@@ -1,15 +1,15 @@
 {
   "modulo": "mi-editing-brief",
-  "titulo": "La hoja de tu editing brief",
-  "bajada": "El documento que guarda cómo se ve, cómo suena y cómo se edita tu marca, y la tarjeta que recibe tu editor con cada pieza. Con los dos escritos, el editor decide solo y cada corrección señala qué criterio no se cumplió.",
-  "lista_cuando": "Tu editor recibió el brief y la tarjeta de una pieza real, la entregó, y tenés anotado cuántas vueltas tuvo y qué le agregaste al brief después.",
+  "titulo": "El brief de tu contenido",
+  "bajada": "El documento que guarda cómo se ve, cómo suena y cómo se edita tu marca, con el kit de identidad adentro, y la tarjeta que recibe tu editor o tu diseñador con cada pieza. Con los dos escritos, quien edita o diseña decide solo y cada corrección señala qué criterio no se cumplió.",
+  "lista_cuando": "Tu editor o tu diseñador recibió el brief, el kit y la tarjeta de una pieza real, la entregó, y tenés anotado cuántas vueltas tuvo y qué le agregaste al brief después.",
   "secciones": [
     {
       "nuestro": true,
       "titulo": "De la estrategia a la tarjeta del editor",
       "texto": [
         "En Cáscara un lanzamiento baja en este orden: qué se vende, a cuánto y cuándo cierra; la narrativa, con la pregunta central y el enemigo; el trabajo de cada una de las cuatro semanas; qué hace cada canal; las tarjetas de cada pieza; y recién al final, el editor. Cada paso necesita el anterior cerrado. Cuando nos salteamos uno lo pagamos en producción: guiones que llegan tarde, editores que adivinan, piezas que salen sin saber para qué.",
-        "El editing brief une las dos puntas. La tarjeta dice qué hacer con una pieza; el brief dice cómo se hacen todas. Se escribe una vez, el editor lo lee una vez y después resuelve solo el ritmo, el color, la música y la tipografía. Lo que cuesta armarlo se recupera en la primera semana de producción.",
+        "El brief une las dos puntas. La tarjeta dice qué hacer con una pieza; el brief dice cómo se hacen todas. Sirve igual para el editor de video (editing brief) y para quien diseña carruseles, placas y portadas (design brief): es el mismo documento, con el kit de identidad adentro. Se escribe una vez, se lee una vez y después quien edita resuelve solo el ritmo, el color, la música y la tipografía. Lo que cuesta armarlo se recupera en la primera semana de producción.",
         "Esta carta va antes de la de delegar la producción: primero el criterio escrito, después el traspaso."
       ],
       "cid": 0
@@ -83,8 +83,18 @@
       "cid": 5
     },
     {
-      "titulo": "La tipografía y el color",
-      "consigna": "Qué letra va en títulos y en subtítulos, qué colores, qué fondos y qué look tiene la imagen. Cuatro líneas bien escritas alcanzan. Con esto resuelto, la marca se reconoce en tres segundos de video aunque cambie el editor.",
+      "nuestro": true,
+      "titulo": "El kit mínimo de identidad",
+      "texto": [
+        "Es la parte del brief que hace que cualquier pieza se reconozca como tuya sin leer tu nombre, y que deja de diseñarse desde cero cada vez. Lleva seis cosas, y todas con el dato exacto: el nombre de la tipografía, el código del color, el link a la plantilla.",
+        "El error más común es cambiar de estética cada semana porque te aburriste. La coherencia es lo que hace que te reconozcan: el kit se cambia una vez por año, y con motivo."
+      ],
+      "figura": "<ol class=\"pasos\"><li>Tipografías: una para títulos y una para texto, con sus tamaños.</li><li>Paleta: un color principal, uno de acento y dos neutros, con sus códigos.</li><li>Estilo de subtítulos para video: tipografía, color, tamaño y posición.</li><li>Tres plantillas base: portada de carrusel, placa de texto y portada de video largo.</li><li>Reglas de imagen: tipo de luz, encuadres que sí y que no, filtros.</li><li>Todo en una carpeta de Canva o Figma, compartida con quien edita o diseña.</li></ol>",
+      "cid": 13
+    },
+    {
+      "titulo": "La tipografía, el color y la imagen",
+      "consigna": "Qué letra va en títulos y en subtítulos y en qué tamaño, qué colores con sus códigos, cómo entran los subtítulos en video y qué look tiene la imagen. Con esto resuelto, la marca se reconoce en tres segundos de video aunque cambie el editor.",
       "ejemplo": {
         "quien": "un founder del programa",
         "texto": "Helvética bold en mayúscula para títulos, fina para subtítulos, blanco y negro, fondos blancos. Con eso le alcanza."
@@ -94,9 +104,24 @@
         "Tipografía de títulos",
         "Tipografía de subtítulos",
         "Colores y fondos",
-        "Look de la imagen (grano, LUT, filtro)"
+        "Look de la imagen (grano, LUT, filtro)",
+        "Códigos de color: principal, acento y dos neutros",
+        "Subtítulos de video: letra, color, tamaño y posición",
+        "Reglas de imagen: luz, encuadres que sí y que no, filtros"
       ],
       "cid": 6
+    },
+    {
+      "titulo": "Las tres plantillas y dónde vive el kit",
+      "consigna": "Las tres plantillas base armadas en Canva o Figma con el kit aplicado, y el link a la carpeta que comparte todo con quien edita o diseña. Una plantilla que todavía no existe se anota igual, con la fecha en que la armás.",
+      "campo": "lineas",
+      "lineas": [
+        "Portada de carrusel (link)",
+        "Placa de texto (link)",
+        "Portada de video largo (link)",
+        "Carpeta del kit, compartida (link)"
+      ],
+      "cid": 14
     },
     {
       "titulo": "La música y el sonido",
@@ -159,10 +184,10 @@
     },
     {
       "titulo": "La tarjeta de tu primera pieza",
-      "consigna": "Elegí una pieza real de tu calendario de este mes y escribí su tarjeta con el brief al lado. La tarjeta le habla a una persona con nombre: arranca con el ángulo en una línea, a quién le habla y qué tiene que hacer o sentir al final, y después el guion escrito, palabra por palabra en un reel y placa por placa en un carrusel. Cuatro reglas: cada referencia con su lectura, cada material con su ubicación, fecha de entrega separada de la de posteo, y la tarjeta escrita para el editor.",
+      "consigna": "Elegí una pieza real de tu calendario de este mes y escribí su tarjeta con el brief al lado. La tarjeta le habla a una persona con nombre: arranca con el ángulo en una línea, a quién le habla y qué tiene que hacer o sentir al final, y después el guion escrito, palabra por palabra en un reel y placa por placa en un carrusel. Cuatro reglas: cada referencia con su lectura, cada material con su ubicación, fecha de entrega separada de la de posteo, y la tarjeta escrita para quien la recibe.",
       "campo": "lineas",
       "lineas": [
-        "Para quién (nombre del editor)",
+        "Para quién (nombre del editor o del diseñador)",
         "Ángulo en una línea",
         "A quién le habla",
         "Qué tiene que hacer o sentir al final",
@@ -177,7 +202,7 @@
     },
     {
       "titulo": "La prueba: un brief real y cuántas vueltas tuvo",
-      "consigna": "Mandale a tu editor el brief y la tarjeta de la sección anterior, y dejá que produzca con eso solo, sin explicaciones por fuera. Contá cuántas vueltas tuvo la pieza hasta publicarse y anotá cada pregunta que te hizo: cada pregunta marca un agujero del brief, y se tapa escribiéndolo el mismo día. Repetilo con tres piezas. Cuando una sale en una sola vuelta, el brief está listo para la carta de delegar la producción.",
+      "consigna": "Mandale a tu editor o a tu diseñador el brief y la tarjeta de la sección anterior, y dejá que produzca con eso solo, sin explicaciones por fuera. Contá cuántas vueltas tuvo la pieza hasta publicarse y anotá cada pregunta que te hizo: cada pregunta marca un agujero del brief, y se tapa escribiéndolo el mismo día. Repetilo con tres piezas. Cuando una sale en una sola vuelta, el brief está listo para la carta de delegar la producción.",
       "campo": "tabla",
       "columnas": [
         "Pieza",
