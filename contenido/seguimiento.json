@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-21",
+  "actualizado": "2026-10-22",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -36,16 +36,16 @@
       "pelota": "cliente"
     },
     "agostina-marchesini": {
-      "ultimo": "2026-10-20",
-      "que": "Llamada con Aye el 20/10 (Fathom 194450234): nuevo estudio tras separarse de la socia, evalúa membresía con un equipo de 4 arquitectos contra mentoría 1:1. Completa las cartas de ICP, llamada de venta y funnel de servicio antes de Franco. Molesta por las reprogramaciones.",
-      "proximo": "2026-10-22",
-      "paso": "Franco jue 22/10 10:00 y Facu jue 22/10 11:30.",
+      "ultimo": "2026-10-22",
+      "que": "1:1 con Facu el 22/10 (Fathom 195323192): cerró la sociedad con Ro y descarta la membresía de USD 97 con Agos Sansone y Angie; va por su mentoría grupal para arquitectos a USD 1.000 (dos grupales por semana y 1:1 cada quince días). Contrató a Agos Sansone para contenido y anuncios.",
+      "proximo": "2026-10-26",
+      "paso": "Define la oferta del programa este fin de semana; la semana del 26/10 Facu y Franco le arman el calendario de contenido de 4 semanas.",
       "carta": null,
-      "pilar": "Venta",
+      "pilar": "Oferta",
       "pelota": "cliente",
       "plata": {
-        "fecha": "2026-11-02",
-        "que": "Lanzamiento de la mentoría con 2 lugares (fecha exacta a definir)."
+        "fecha": "2026-11-30",
+        "que": "Workshop gratuito de lanzamiento a fines de noviembre (fecha exacta a definir); venta de la mentoría en diciembre."
       }
     },
     "lucio-labate": {

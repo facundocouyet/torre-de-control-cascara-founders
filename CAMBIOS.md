@@ -10,6 +10,8 @@ para saber qué estás subiendo, sin abrir los archivos.
 La torre ya muestra la reorganización de cartas que hiciste ayer, y Tomás Visser tiene Clarity mañana.
 
 - **Cartas.** El mapa de la torre (versión 80) toma tus commits del 21/10: nombres nuevos, troncales y SOPs fuera de la galería.
+- **Agos (tarde).** La 1:1 de hoy la puso en Oferta: mentoría grupal de USD 1.000 para arquitectos, workshop gratis a fines de noviembre y venta en diciembre. La pelota es de ella este finde.
+- **Said (tarde).** Su llamada con Franco de hoy quedó en su ingreso: paquete de USD 4.000 y venta en dos llamadas.
 - **Ingresos.** Tomás Visser completó los Founder Insights y reservó la Clarity del viernes 9:00; Rosario tiene la 1:1 del día 30 el viernes 11:00; Mecha mandó un testimonio.
 
 **Para mirar antes de subir:** tus siete commits de cartas y plazos (la pestaña Roadmap de la app lee `contenido/plazos.json` del repo en vivo, así que los plazos nuevos llegan a la app con el push) y la nota de ingresos.
