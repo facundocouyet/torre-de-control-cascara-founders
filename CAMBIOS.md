@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Viernes 23 de octubre
+
+Corrida de la mañana: entró la llamada de Franco con Lucila y se movió la de Mecha.
+
+- **Lucila Prieto con Franco (22/10).** Su ingreso suma la oferta nueva: diagnóstico de entrada, mentoría de 90 días y ejecución opcional; agenda con Facu la semana que viene.
+- **Mecha.** La llamada con Franco pasa al martes 27/10.
+
+**Para mirar antes de subir:** nada de la torre cambia a la vista; es solo `contenido/ingresos.json`.
+
 ## Jueves 22 de octubre
 
 La torre ya muestra la reorganización de cartas que hiciste ayer, y Tomás Visser tiene Clarity mañana.
