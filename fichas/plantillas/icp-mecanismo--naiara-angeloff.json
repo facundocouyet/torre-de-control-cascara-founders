@@ -1,0 +1,27 @@
+{
+ "modulo": "icp-mecanismo",
+ "slug": "naiara-angeloff",
+ "founder": "Naiara Angeloff",
+ "bajada_envio": {
+  "founder": "Naiara Angeloff",
+  "porque": "Tu auditoría muestra seis clientes gastronómicos fijos, de USD 600 a 875 por mes, todos con el mismo servicio (estrategia, contenido, Meta Ads y edición) y vos haciendo el 100%. En la Clarity quedó la dirección: un servicio de ticket alto en gastronomía y hotelería, con un equipo que produzca.",
+  "objetivo": "Tu cliente ideal para el servicio nuevo, escrito en personas concretas y con lo que ya te dicen tus clientes. Con esta carta y la auditoría vas a la llamada con Franco a armar la oferta.",
+  "mindset": "Mirá cuál de tus seis clientes te pagaría el doble por campañas que le den sentido al mes, y por qué. Ese es el que hay que multiplicar."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que quedó de la Clarity Call",
+   "texto": [
+    "El servicio nuevo es de ticket alto, para gastronomía y hotelería.",
+    "La producción la hace un equipo: vos quedás en la estrategia y en las campañas.",
+    "En la grupal con Fede salió el perfil: chefs y marcas con nombre propio."
+   ]
+  }
+ ],
+ "ajustes": {
+  "5": {
+   "consigna": "Tus clientes ya están en la auditoría: traelos de ahí y sumá por qué te eligió cada uno y cuál te pagaría más por un servicio premium."
+  }
+ }
+}

@@ -12,7 +12,7 @@
     "pausada": "pausada",
     "completada": "completada"
   },
-  "actualizado": "2026-10-18",
+  "actualizado": "2026-10-26",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
@@ -29,8 +29,11 @@
         "calendario-lanzamiento",
         "funnel-de-servicio"
       ],
-      "en_paralelo": "llamada-de-venta",
-      "por_que": "Reunión con Facu: ya tiene arquitectos consultando y está en llamadas de venta. Orden: oferta, ICP y dolores, fecha del lanzamiento y después el producto con sus ideas. La guía de llamada de venta va ya, en paralelo."
+      "en_paralelo": [
+        "proceso-comercial"
+      ],
+      "por_que": "Reunión con Facu: ya tiene arquitectos consultando y está en llamadas de venta. Orden: oferta, ICP y dolores, fecha del lanzamiento y después el producto con sus ideas. La guía de llamada de venta va ya, en paralelo.",
+      "revision": "pendiente"
     },
     "bianca-antonini": {
       "activa": "calendario-lanzamiento",
@@ -42,31 +45,36 @@
       "por_que": "El cuello es contenido: las 2 campañas y los 12 ángulos del 18/9 todavía no salieron."
     },
     "jose-david-fajardo": {
-      "activa": "auditoria-proceso-comercial--jose-david-fajardo",
+      "activa": "proceso-comercial",
       "siguiente": "one-sheeter-oferta",
       "en_paralelo": [
-        "proceso-entrega-repetible"
+        "funnel-de-servicio"
       ],
-      "por_que": "Vende bien y cierra en 24 h; le falta escribir la oferta y ordenar la entrega, que hoy le cuesta plata (regala la edición)."
+      "por_que": "Vende bien y cierra en 24 h; le falta escribir la oferta y ordenar la entrega, que hoy le cuesta plata (regala la edición).",
+      "anterior": "completada",
+      "revision": "pendiente"
     },
     "lola-berutti": {
       "activa": "resultados-lanzamiento",
-      "siguiente": "proceso-entrega-repetible",
-      "por_que": "Cerró El Salto con 6 ventas en 28 llamadas: primero el formulario con los números del lanzamiento para Franco, después el servicio y los objetivos del programa."
+      "siguiente": "funnel-de-servicio",
+      "por_que": "Cerró El Salto con 6 ventas en 28 llamadas: primero el formulario con los números del lanzamiento para Franco, después el servicio y los objetivos del programa.",
+      "revision": "pendiente"
     },
     "lucio-labate": {
       "activa": "one-sheeter-oferta",
-      "siguiente": "prospeccion-y-recontacto",
-      "por_que": "Oferta nueva con Franco el 30/9: Lanzamiento de marca, 6 semanas, USD 1.800."
+      "siguiente": "proceso-comercial",
+      "por_que": "Oferta nueva con Franco el 30/9: Lanzamiento de marca, 6 semanas, USD 1.800.",
+      "revision": "pendiente"
     },
     "matias-morales": {
       "activa": "icp-mecanismo",
       "anterior": "completada",
       "siguiente": "angulos-desde-icp",
       "despues": [
-        "proceso-entrega-repetible"
+        "funnel-de-servicio"
       ],
-      "por_que": "Devolvió la oferta completa el 30/9; falta el ICP para ir a Franco. Extiende hasta el 31/10."
+      "por_que": "Devolvió la oferta completa el 30/9; falta el ICP para ir a Franco. Extiende hasta el 31/10.",
+      "revision": "pendiente"
     },
     "qualita": {
       "activa": "calendario-lanzamiento",
@@ -98,10 +106,10 @@
     },
     "sol-boutmy": {
       "activa": "icp-mecanismo",
-      "siguiente": "calendario-en-notion",
+      "siguiente": "calendario-contenido",
       "en_paralelo": [
         "one-sheeter-oferta",
-        "propuesta-comercial",
+        "proceso-comercial",
         "mi-editing-brief"
       ],
       "despues": [
@@ -109,7 +117,8 @@
         "profile-funnel"
       ],
       "por_que": "1:1 del día 30 (13/10) y Facu (14/10): el B2B queda ordenado con el esqueleto de propuesta (estrategia de 1.500 a 2.000, producción como upsell) y el foco va de lleno al programa B2C de contenido orgánico con workshop de lanzamiento (10 lugares). Cliente ideal y oferta del programa, después el calendario de cuatro semanas del workshop. Contratar el primer rol sale: la edición se resuelve con la prueba de Clara. 17/10: la oferta del programa pasa a ir en paralelo al cliente ideal (Facu pidió las dos para la semana del 13/10), y se suma el editing brief de BeMotion (versión simple del SOP de Cáscara, con referencias) para la prueba con Clara.",
-      "inicio": "2026-10-14"
+      "inicio": "2026-10-14",
+      "revision": "pendiente"
     },
     "the-momentum-club": {
       "activa": "resultados-lanzamiento",
@@ -119,9 +128,7 @@
       ],
       "siguiente": "one-sheeter-oferta",
       "por_que": "Ya lanzaron: el formulario con los números del webinar para que Franco los analice; en cola, oferta e ICP para verlo con él.",
-      "despues": [
-        "precio-escalera"
-      ]
+      "revision": "pendiente"
     },
     "scarlett-montilla": {
       "cerrar": true,
@@ -130,12 +137,16 @@
     "rosario-sola": {
       "activa": "one-sheeter-oferta--rosario-sola",
       "en_paralelo": [
-        "propuesta-comercial--rosario-sola"
+        "profile-funnel"
       ],
       "siguiente": "icp-mecanismo--rosario-sola",
       "por_que": "Hoja de ruta de Franco del 13/10 («las marcas pagan, las mamás prueban»), confirmada por Rosario el 16/10: arranca por las marcas con las fechas. 20/10 one-pager del Diagnóstico, 30/10 propuesta a la marca de infusiones, desde 2/11 dos mini-diagnósticos por semana con la lista de marcas. Facu, 16/10: marcas de EE.UU. en inglés, Fase 1 sin ejecución, precio de lista desde el primer caso, nada gratis a mamás. Devolución rosario-sola-2026-10-16-hoja-de-ruta y llamada con Facu para aterrizar.",
       "inicio": "2026-10-16",
-      "anterior": "pausada"
+      "anterior": "pausada",
+      "despues": [
+        "proceso-comercial"
+      ],
+      "revision": "pendiente"
     },
     "milagros-goico": {
       "activa": "auditoria-de-clientes",
@@ -153,7 +164,8 @@
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
       "por_que": "Clarity Call del 7/10: Facu quedó en mandarle la auditoría de sus últimas diez ventas antes de la sesión con Franco por oferta y cliente ideal. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
-      "inicio": "2026-10-09"
+      "inicio": "2026-10-09",
+      "revision": "pendiente"
     },
     "samuel-tarancon": {
       "activa": "auditoria-de-clientes",
@@ -172,31 +184,35 @@
       "en_paralelo": [
         "contratar-primer-rol--lucila-prieto"
       ],
-      "inicio": "2026-10-09"
+      "inicio": "2026-10-09",
+      "revision": "pendiente"
     },
     "lara-loiano": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
       "por_que": "Clarity Call del 9/10: la primera carta es la auditoría (clientes, entregables, valores y cómo los produce) antes de Franco a fin de la semana del 12/10. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
-      "inicio": "2026-10-09"
+      "inicio": "2026-10-09",
+      "revision": "pendiente"
     },
     "said-espinosa": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
       "por_que": "Clarity Call del 9/10: Facu quedó en dejar cargado hoy en la app el formulario de auditoría; Said ya lo reclamó en su canal. Franco hacia el 15/10 por la oferta. Después, el ICP. En paralelo, las dos propuestas de noviembre (heladerías y asados) para feedback de Facu; después, el documento de onboarding que Facu le prometió. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
       "en_paralelo": [
-        "propuesta-comercial--said-espinosa"
+        "proceso-comercial"
       ],
       "inicio": "2026-10-09",
       "despues": [
         "onboarding-y-roadmap-cliente--said-espinosa"
-      ]
+      ],
+      "revision": "pendiente"
     },
     "delfina-corsalini": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
       "por_que": "Clarity Call del 9/10: auditoría de clientes, equipo, roles y sueldos por la app, después oferta con Franco. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
-      "inicio": "2026-10-09"
+      "inicio": "2026-10-09",
+      "revision": "pendiente"
     },
     "osmo": {
       "activa": "auditoria-de-clientes--osmo",

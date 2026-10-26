@@ -39,7 +39,7 @@
 - **Cuándo va:** Cuando el comercial ya bajó a quién le vende y falta convertir esa definición en personas concretas con un dolor que se pueda nombrar.
 - **Cómo se personaliza:** La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10). Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
-- **Versiones:** agostina-marchesini (liviana), camila-basso (propia), marcelo-fernandez (propia), matias-morales (propia), milagros-goico (liviana), osmo (propia), rosario-sola (propia), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia)
+- **Versiones:** agostina-marchesini (liviana), camila-basso (propia), delfina-corsalini (liviana), juan-cruz-galeano (liviana), lara-loiano (liviana), lucila-prieto (liviana), marcelo-fernandez (propia), matias-morales (propia), milagros-goico (liviana), naiara-angeloff (liviana), osmo (propia), rosario-sola (propia), said-espinosa (liviana), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia), tomas-visser (liviana)
 - **Últimos cambios:**
   - 2026-10-17 · BeMotion: el cliente es la agencia y son Sol y Fede (Facu 17/10). Nombre en ficha, panel y cartas; textos que hablaban solo de Sol pasan a las dos. Profile funnel al día con la 1:1 del 13/10. Editing brief convertido en guía y SOP: tres niveles, niveles de edición con ejemplos, cómo se brifea cada formato con tarjetas reales de Cáscara y Delfi Ferro, referencias con portada de IG (`6309e48`)
   - 2026-10-16 · Rosario: recorrido rehecho sobre la hoja de ruta de Franco (marcas primero). One-pager del Diagnóstico (20/10), propuesta a la marca de infusiones (30/10) y la lista de marcas de 40WA. Devolución en la app con sus cinco puntos. Las versiones de mamás quedan en _descartadas (`4e56459`)
@@ -84,7 +84,7 @@
 
 - **Cuándo va:** Se le asigna a todo founder antes de que salga la primera pieza del tramo.
 - **Ojo:** Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
-- **Versiones:** aaron-aiello (liviana), lucio-labate (liviana), sebastian (liviana), sol-boutmy (liviana)
+- **Versiones:** aaron-aiello (liviana), lucio-labate (liviana), rosario-sola (liviana), sebastian (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
   - 2026-10-17 · BeMotion: el cliente es la agencia y son Sol y Fede (Facu 17/10). Nombre en ficha, panel y cartas; textos que hablaban solo de Sol pasan a las dos. Profile funnel al día con la 1:1 del 13/10. Editing brief convertido en guía y SOP: tres niveles, niveles de edición con ejemplos, cómo se brifea cada formato con tarjetas reales de Cáscara y Delfi Ferro, referencias con portada de IG (`6309e48`)
   - 2026-10-16 · Las cartas no piden escribirle a nadie (regla de Facu 16/10). Camila: pasaporte de BUCK en paralelo al cliente ideal. Seba: la carta de oferta espera la llamada con Franco (`a4c9c2f`)
@@ -231,6 +231,7 @@
 - **Cuándo va:** Todo founder, después de la auditoría de clientes y antes de cualquier carta de venta o de abrir canales nuevos.
 - **Cómo se personaliza:** La fase 1 precargada con lo que salió de la Clarity y la auditoría de clientes, y el camino sugerido en la fase 2 según cómo cobra hoy.
 - **Ojo:** Reemplaza a la auditoría del proceso comercial, al pipeline de siete campos y al registro de llamadas. Quien ya tiene alguna asignada la termina y sigue con esta desde la fase que le falte. El registro es de Teo y sigue vivo para la operación de Cáscara (Facu, 19/10).
+- **Versiones:** agostina-marchesini (liviana), jose-david-fajardo (liviana), lucio-labate (liviana), rosario-sola (liviana), said-espinosa (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
   - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-19 · Saco los nombres de Francisca y Franco de las cartas comerciales nuevas y del tablero (Facu, 19/10): queda "el equipo comercial de Cáscara" y los números del Pentágono sin nombres (`fd00d05`)
@@ -355,7 +356,7 @@
 ## Funnel de servicio · `funnel-de-servicio`
 
 - **Cuándo va:** Cuando el founder ya tiene cliente ideal, oferta y ángulos, y antes de salir a buscar más gente hay que ver qué pasa con el cliente después de que compra.
-- **Versiones:** aaron-aiello (liviana), agostina-marchesini (liviana), qualita (propia), sebastian (liviana)
+- **Versiones:** aaron-aiello (liviana), agostina-marchesini (liviana), jose-david-fajardo (liviana), lola-berutti (liviana), matias-morales (liviana), qualita (propia), sebastian (liviana)
 - **Últimos cambios:**
   - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
@@ -528,11 +529,11 @@
 - **Ojo:** Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
 - **Versiones:** aaron-aiello (liviana), camila-basso (propia), rosario-sola (liviana), tomas-visser (liviana)
 - **Últimos cambios:**
+  - 2026-10-26 · Corrida 26/10: Tomás Visser con Pasaporte en revisión, Agos manda el one-sheeter, Rosario día 30, Santiago Guevara ingresa (`72b262f`)
   - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-21 · Camila: tareas propias en sus dos cartas de narrativa (la de BUCK heredaba las tareas personales del pasaporte) (`59c55ad`)
   - 2026-10-21 · Camila (21/10): la narrativa se parte en dos. La narrativa de BUCK queda solo con la marca (falta el moodboard) y suma la carta Tu historia y tu marca personal con las preguntas personales del pasaporte. Orden: BUCK, su historia, cliente ideal, ángulos y calendario (`b635169`)
   - 2026-10-16 · Camila: narrativa de BUCK primero (pasaporte adaptado, con su moodboard), cliente ideal en paralelo, después ángulos y calendario. Done with you (`df7ccfb`)
-  - 2026-10-16 · Las cartas no piden escribirle a nadie (regla de Facu 16/10). Camila: pasaporte de BUCK en paralelo al cliente ideal. Seba: la carta de oferta espera la llamada con Franco (`a4c9c2f`)
 
 ## Identidad y arco narrativo · `identidad-y-arco-narrativo`
 

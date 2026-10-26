@@ -1,0 +1,19 @@
+{
+ "modulo": "icp-mecanismo",
+ "slug": "lucila-prieto",
+ "founder": "Lucila Prieto",
+ "bajada_envio": {
+  "founder": "Lucila Prieto",
+  "porque": "Con Franco quedó el paso de agencia a consultora que vende resultados: diagnóstico de marca de entrada, mentoría de estrategia de 90 días como oferta principal y ejecución mensual opcional. Tu auditoría muestra cinco clientes locales de ARS 440.000 a 620.000, todos con el servicio completo y vos sola.",
+  "objetivo": "El cliente ideal de la mentoría de 90 días, escrito con personas reales y con lo que respondan tus clientes en la encuesta. Con esto llegás a la 1:1 conmigo y pasás a tus clientes al modelo nuevo antes de diciembre.",
+  "mindset": "Tu próximo cliente se parece al de hoy que más valora tu criterio. Buscalo primero en tu lista."
+ },
+ "ajustes": {
+  "3": {
+   "consigna": "Pegá acá lo que te respondieron tus clientes en la encuesta de unas diez preguntas que quedaste en mandarles, con sus palabras. Si todavía no la mandaste, mandala hoy y completá esta sección cuando vuelvan."
+  },
+  "5": {
+   "consigna": "Tus cinco clientes ya están en la auditoría: traelos y marcá cuál pasaría primero al modelo nuevo."
+  }
+ }
+}

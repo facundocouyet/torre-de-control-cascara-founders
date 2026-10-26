@@ -1,0 +1,16 @@
+{
+ "modulo": "icp-mecanismo",
+ "slug": "lara-loiano",
+ "founder": "Lara Loiano",
+ "bajada_envio": {
+  "founder": "Lara Loiano",
+  "porque": "En la Clarity quedó rearmar tus servicios y tu oferta, con la fidelización a través de campañas creativas como primer ángulo y el programa para freelancers para más adelante. Con la auditoría de clientes completa, esta carta define a quién le vendés el servicio nuevo.",
+  "objetivo": "Tu cliente ideal escrito en personas concretas, listo para la llamada con Franco.",
+  "mindset": "Arrancá por los clientes que más tiempo llevan con vos: ahí está la fidelización que querés vender."
+ },
+ "ajustes": {
+  "5": {
+   "consigna": "Tus clientes ya van a estar en la auditoría: traelos de ahí y sumá por qué te eligió cada uno."
+  }
+ }
+}

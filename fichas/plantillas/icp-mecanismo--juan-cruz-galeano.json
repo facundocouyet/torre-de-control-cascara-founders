@@ -1,0 +1,16 @@
+{
+ "modulo": "icp-mecanismo",
+ "slug": "juan-cruz-galeano",
+ "founder": "Juan Cruz Galeano",
+ "bajada_envio": {
+  "founder": "Juan Cruz Galeano",
+  "porque": "En la Clarity quedó que tu método (estoicismo, budismo y mindfulness aplicados a decidir) funciona y todavía no tiene nombre ni oferta, y que tu público son personas de 30 a 40 años que no tienen claridad para decidir. Con la auditoría de las personas que acompañaste, esta carta define a quién le vendés la oferta mínima.",
+  "objetivo": "Tu cliente ideal escrito con las palabras de las personas que acompañaste, para la llamada de oferta con Franco.",
+  "mindset": "El nombre del método sale de lo que te dicen ellos. Copiá sus frases tal cual."
+ },
+ "ajustes": {
+  "5": {
+   "consigna": "Las personas que acompañaste ya están en la auditoría: traelas y sumá qué te decían antes de empezar y qué cambió."
+  }
+ }
+}

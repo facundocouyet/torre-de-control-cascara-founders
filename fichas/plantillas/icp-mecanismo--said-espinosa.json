@@ -1,0 +1,19 @@
+{
+ "modulo": "icp-mecanismo",
+ "slug": "said-espinosa",
+ "founder": "Said Espinosa",
+ "bajada_envio": {
+  "founder": "Said Espinosa",
+  "porque": "Con Franco quedó subir tu paquete grande a un lanzamiento de marca más expansión de USD 4.000, vendido en dos llamadas. Tu auditoría muestra que hasta hoy vendías ciclos de un mes a 5.500 MXN y que dos de tus clientes se bajaron después del primer ciclo. Para sostener el precio nuevo hay que tener claro a quién se lo vendés.",
+  "objetivo": "Tu cliente ideal para el paquete de USD 4.000, con lo que respondan tus clientes en la encuesta. Con esta carta llegás a la próxima 1:1.",
+  "mindset": "Mirá a LIORA, YOGEE, Consuelo y la clienta que cerraste el 24/10: los que aceptan tres meses son los que hay que multiplicar."
+ },
+ "ajustes": {
+  "3": {
+   "consigna": "Pegá acá lo que te respondieron tus clientes en la encuesta de unas diez preguntas que quedaste en mandarles, con sus palabras. Si todavía no la mandaste, mandala hoy y completá esta sección cuando vuelvan."
+  },
+  "5": {
+   "consigna": "Tus clientes ya están en la auditoría: traelos y marcá quién aceptó o aceptaría trabajar tres meses."
+  }
+ }
+}

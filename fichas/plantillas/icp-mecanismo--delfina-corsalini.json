@@ -1,0 +1,19 @@
+{
+ "modulo": "icp-mecanismo",
+ "slug": "delfina-corsalini",
+ "founder": "Delfina Corsalini",
+ "bajada_envio": {
+  "founder": "Delfina Corsalini",
+  "porque": "Con Franco quedó pasar de packs de piezas a una oferta de alto ticket que vende un resultado, con los packs como downsell y un MVP al 75% del precio con 3 a 5 clientes. Tu auditoría muestra diez clientes de ARS 250.000 a 1.200.000 con servicios casi iguales, y vos misma escribiste que te cuesta poner límites y que la mayoría no respeta tiempos.",
+  "objetivo": "El cliente ideal de la oferta nueva, escrito en personas concretas y con lo que respondan tus clientes en la encuesta. Es lo que te pidió Franco antes del seguimiento conmigo.",
+  "mindset": "El cliente que respeta tus tiempos es el que valora el resultado. Buscalo en tu lista de hoy."
+ },
+ "ajustes": {
+  "3": {
+   "consigna": "Pegá acá lo que te respondieron tus clientes en la encuesta de unas diez preguntas que quedaste en mandarles, con sus palabras. Si todavía no la mandaste, mandala hoy y completá esta sección cuando vuelvan."
+  },
+  "8": {
+   "consigna": "Escribí también quién queda afuera de la oferta nueva: el cliente que pide piezas sueltas y corre los plazos. Ese pasa a los packs."
+  }
+ }
+}
