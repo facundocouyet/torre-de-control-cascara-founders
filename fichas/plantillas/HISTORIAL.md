@@ -98,17 +98,18 @@
 - **Cómo se personaliza:** Bajada con lo que ya escribió en el ICP; las cartas de contenido llevan referencias y capturas reales (Facu, 3/10).
 - **Versiones:** aaron-aiello (liviana), matias-morales (liviana), qualita (propia), sebastian (propia), sofia-galvis (liviana)
 - **Últimos cambios:**
+  - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-16 · 16/10: Camila liberada. PLAY COURT: auditoría propia desde la Clarity del 15/10 (proyectos, consultas que no cerraron, casos para mostrar), en revisión. Mecha: la auditoría sin la fecha vieja. Said: onboarding en cola. Las cartas de cliente ideal y ángulos ya no piden cinco conversaciones: sale de mensajes, comentarios y llamadas que ya tienen (`3f4ecec`)
   - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-09-24 · qualita: la carta de angulos se llama Angulos de comunicacion (`b7ac482`)
   - 2026-09-24 · qualita: el canal es Instagram, sin mencionar otro (`36909c1`)
-  - 2026-09-24 · qualita: angulos reescrita, auditoria del metodo y del proceso comercial (`b2748ac`)
 
 ## Calendario de contenido: estrategia, creatividad y guiones · `calendario-contenido`
 
 - **Cuándo va:** Cuando el founder publica cuando le queda tiempo y la cadencia se cae sola.
 - **Versiones:** custom-lab (liviana)
 - **Últimos cambios:**
+  - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
@@ -161,6 +162,7 @@
 - **Criterio de los cambios:** 14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Carta nueva a partir de «Calendarios y Editing Brief Cáscara» de Segundo (6/10): los pasos de la oferta a la tarjeta del editor, qué lleva el brief (objetivo, referencias, ritmo, tipografía, música, entregable y deadline), un caso resuelto anonimizado y la prueba con un brief real y sus vueltas contadas. Dueño en el reparto de cards: Fede.
 - **Versiones:** sol-boutmy (propia)
 - **Últimos cambios:**
+  - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-17 · BeMotion: el cliente es la agencia y son Sol y Fede (Facu 17/10). Nombre en ficha, panel y cartas; textos que hablaban solo de Sol pasan a las dos. Profile funnel al día con la 1:1 del 13/10. Editing brief convertido en guía y SOP: tres niveles, niveles de edición con ejemplos, cómo se brifea cada formato con tarjetas reales de Cáscara y Delfi Ferro, referencias con portada de IG (`6309e48`)
   - 2026-10-17 · Sol: editing brief de BeMotion (versión simple del SOP de Cáscara, con 8 referencias con portada de IG y la tarjeta de pieza para la prueba con Clara). Oferta del programa en paralelo al cliente ideal. Sigue en revisión (`b1ccac4`)
   - 2026-10-15 · Cartas con el material del equipo: llamada de venta con el guion de Franco, seguimiento de 24-48 h en setter-closer, calendario de historias de 28 días en el lanzamiento, y carta nueva Mi editing brief (doc de Segundo) (`c2833d2`)
@@ -230,6 +232,7 @@
 - **Cómo se personaliza:** La fase 1 precargada con lo que salió de la Clarity y la auditoría de clientes, y el camino sugerido en la fase 2 según cómo cobra hoy.
 - **Ojo:** Reemplaza a la auditoría del proceso comercial, al pipeline de siete campos y al registro de llamadas. Quien ya tiene alguna asignada la termina y sigue con esta desde la fase que le falte. El registro es de Teo y sigue vivo para la operación de Cáscara (Facu, 19/10).
 - **Últimos cambios:**
+  - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-19 · Saco los nombres de Francisca y Franco de las cartas comerciales nuevas y del tablero (Facu, 19/10): queda "el equipo comercial de Cáscara" y los números del Pentágono sin nombres (`fd00d05`)
   - 2026-10-19 · Cartas comerciales grandes (Facu, 19/10): Tu proceso comercial (troncal), La venta B2C y La venta de servicios, de punta a punta (`1e9c002`)
 
@@ -354,11 +357,11 @@
 - **Cuándo va:** Cuando el founder ya tiene cliente ideal, oferta y ángulos, y antes de salir a buscar más gente hay que ver qué pasa con el cliente después de que compra.
 - **Versiones:** aaron-aiello (liviana), agostina-marchesini (liviana), qualita (propia), sebastian (liviana)
 - **Últimos cambios:**
+  - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-10-03 · Seba: las cartas que Facu le prometió el 2/10 (escalera, funnel del cohort, proceso comercial, editor, historias) (`7c23360`)
   - 2026-10-03 · Agostina: lo del WhatsApp en la ficha y en sus cartas (precio, interesadas, sus cinco módulos) (`f215f2d`)
   - 2026-10-03 · Agostina: cartas propias de oferta, ICP y dolores, llamada de venta y producto (`703b0a1`)
-  - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
 ## Productización del servicio · `proceso-entrega-repetible`
 
@@ -379,8 +382,9 @@
 
 ## Offboarding, renovación y upsell · `ciclo-y-continuidad`
 
-- **Cuándo va:** Cuando el founder tiene clientes en mensualidad abierta y ninguna conversación de renovación.
+- **Cuándo va:** Cuando el founder tiene clientes en mensualidad abierta, ninguna conversación de renovación y nada para ofrecerle al que ya tuvo el resultado.
 - **Últimos cambios:**
+  - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
 
@@ -463,8 +467,9 @@
 
 ## Una sola base de datos, y para qué sirve · `base-de-datos-unica`
 
-- **Cuándo va:** Cuando la información de clientes y ventas vive en varios lugares y nadie la puede filtrar sin ayuda.
+- **Cuándo va:** Cuando la información de clientes y ventas vive en varios lugares, cada formulario guarda en un lugar distinto y nadie la puede filtrar sin ayuda.
 - **Últimos cambios:**
+  - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-09-21 · NOVA entra en la carta de oferta, y la de Sofi deja de preguntar por la agencia (`07fada8`)
   - 2026-09-15 · El rol de líder, el reparto de cards y el esquema v2 (`f5d691f`)
 
@@ -502,6 +507,7 @@
 
 - **Cuándo va:** A todo founder en el primer mes, esté en cero con la IA o ya la use todos los días.
 - **Últimos cambios:**
+  - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
 
 ## Cada formulario escribe en tu base · `formulario-a-la-base`
@@ -518,15 +524,15 @@
 
 ## Pasaporte digital · `pasaporte-digital`
 
-- **Cuándo va:** Cuando el founder necesita su diferencial en la comunicación y los Founder Insights no alcanzan.
+- **Cuándo va:** Cuando el founder necesita su diferencial en la comunicación y los Founder Insights no alcanzan, o cuando cambia de mensaje todas las semanas y nada se acumula.
 - **Ojo:** Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
-- **Versiones:** aaron-aiello (liviana), camila-basso (propia), rosario-sola (liviana)
+- **Versiones:** aaron-aiello (liviana), camila-basso (propia), rosario-sola (liviana), tomas-visser (liviana)
 - **Últimos cambios:**
+  - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-21 · Camila: tareas propias en sus dos cartas de narrativa (la de BUCK heredaba las tareas personales del pasaporte) (`59c55ad`)
   - 2026-10-21 · Camila (21/10): la narrativa se parte en dos. La narrativa de BUCK queda solo con la marca (falta el moodboard) y suma la carta Tu historia y tu marca personal con las preguntas personales del pasaporte. Orden: BUCK, su historia, cliente ideal, ángulos y calendario (`b635169`)
   - 2026-10-16 · Camila: narrativa de BUCK primero (pasaporte adaptado, con su moodboard), cliente ideal en paralelo, después ángulos y calendario. Done with you (`df7ccfb`)
   - 2026-10-16 · Las cartas no piden escribirle a nadie (regla de Facu 16/10). Camila: pasaporte de BUCK en paralelo al cliente ideal. Seba: la carta de oferta espera la llamada con Franco (`a4c9c2f`)
-  - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
 
 ## Identidad y arco narrativo · `identidad-y-arco-narrativo`
 
@@ -574,6 +580,7 @@
 - **Cuándo va:** Cuando cambiás de oferta o de cliente ideal, o cuando tu estética no acompaña tu nuevo precio.
 - **Criterio de los cambios:** 17/10 · Carta 03 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad.
 - **Últimos cambios:**
+  - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-18 · Cartas nuevas de Teo, Juana y Franco (17-18/10), revisadas con las reglas de Facu. Entran con estado nueva para revisarlas en la galería, sin asignar a nadie (`8b352ed`)
 
 ## El caballo de Troya visual · `caballo-de-troya`

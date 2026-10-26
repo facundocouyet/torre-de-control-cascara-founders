@@ -1,0 +1,24 @@
+{
+  "modulo": "pasaporte-digital",
+  "slug": "tomas-visser",
+  "founder": "Tomás Visser",
+  "bajada_envio": {
+    "founder": "Tomás Visser",
+    "porque": "En la Clarity Call quedó claro por dónde se arranca: tu marca personal, armada sobre tres pilares, el deporte (running, Hyrox), la gastronomía y la indumentaria, y un estilo de vida que discute lo que se da por hecho. Antes de pensar en la marca de producto o en el café que junte a la gente que corre, hace falta tu historia escrita: quién sos, qué te pasó y por qué vivís así. Los Founder Insights nos contaron dónde estás; esto nos cuenta a vos.",
+    "objetivo": "Tu pasaporte completo y mandado a revisión en tres días, junto con un video tuyo hablando sin guion, en un lugar donde estés cómodo. Con las dos cosas definimos la narrativa de la marca, el tono frente a cámara y la primera semana de contenido. La semana que viene va el cliente ideal: a quién le hablás y qué le duele.",
+    "mindset": "La marca personal es un activo de largo plazo: se construye primero la audiencia y después se monetiza. No hace falta que suene perfecto ni que el video salga lindo; sirve más cómo hablás cuando nadie te dirige. Escribilo como te sale: ordenarlo es trabajo nuestro."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó definido en la Clarity Call",
+      "texto": [
+        "Los próximos tres meses son para construir tu marca personal y aprender un proceso de contenido que puedas repetir sin que te pese.",
+        "Tres pilares: deporte, gastronomía e indumentaria. El perfil de Instagram funciona como embudo: el que llega tiene que entender en segundos quién sos y quedarse.",
+        "Primero audiencia, después plata. Las ideas de negocio (la marca de producto, un café que sea punto de encuentro para eventos deportivos) se validan con esa audiencia, por ejemplo con un desafío o un run club.",
+        "La producción se resuelve simple: una Osmo y un editor económico.",
+        "Facu lleva la estrategia de marca y Franco la oferta y la monetización; las 1:1 van alternadas. La próxima es con Franco."
+      ]
+    }
+  ]
+}

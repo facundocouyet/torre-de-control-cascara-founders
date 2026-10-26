@@ -238,6 +238,13 @@
       "por_que": "Clarity Call del 17/10 (Fathom 193715118): Facu quedó en mandarle la auditoría de negocio; con eso Franco define la oferta mínima la semana del 19/10. Después, el ICP. Propuesta del agente: Facu no nombró la carta, va la auditoría simple con sus clientes y los datos de audiencia.",
       "inicio": "2026-10-19",
       "revision": "pendiente"
+    },
+    "tomas-visser": {
+      "activa": "pasaporte-digital--tomas-visser",
+      "siguiente": "icp-mecanismo",
+      "por_que": "Clarity Call del 23/10 (Fathom 195693649): Facu quedó en mandarle el Pasaporte Digital y le pidió un video sin guion; la hoja de ruta que bajó es semana 1 identidad y narrativa, semana 2 audiencia ideal y dolores. La siguiente (ICP) es propuesta del agente con ese orden.",
+      "inicio": "2026-10-26",
+      "revision": "pendiente"
     }
   },
   "sin_carta": {
