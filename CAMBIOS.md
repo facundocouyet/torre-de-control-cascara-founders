@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Lunes 26 de octubre
+
+Corrida de la mañana: Tomás Visser ya tiene su primera carta esperando tu ok, y entra Santiago Guevara.
+
+- **Tomás Visser.** Pasaporte Digital personalizado con lo de la Clarity del 23/10 (tres pilares, audiencia antes que plata, video sin guion), en revisión: no entra a la app hasta que lo apruebes vos o Aye.
+- **Agos, Custom Lab y Momentum.** Agos mandó el one-sheeter a revisión y la pelota pasa a vos; Custom Lab suma la llamada con Aye del 24/10 (90 días, quedan 2 sesiones); Momentum corre su próximo paso al 30/10.
+- **Ingresos.** Rosario con la 1:1 del día 30, Said con la venta cerrada y la devolución de Franco, Mecha sin martes ni jueves para Franco, y Santiago Guevara como ingreso nuevo.
+
+**Para mirar antes de subir:** la carta de Tomás en `fichas/plantillas/pasaporte-digital--tomas-visser.json`.
+
 ## Viernes 23 de octubre
 
 Corrida de la mañana: entró la llamada de Franco con Lucila y se movió la de Mecha.
