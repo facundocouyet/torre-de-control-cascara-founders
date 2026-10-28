@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-22",
+  "actualizado": "2026-10-27",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -37,15 +37,15 @@
     },
     "agostina-marchesini": {
       "ultimo": "2026-10-26",
-      "que": "Mandó a revisión el one-sheeter de la oferta (madrugada del 26/10): promesa a 12 semanas, paso a paso de la entrega y precio en 3 cuotas de USD 667 que puso ella; le quedó sin resolver «Cómo se mide» (lo preguntó en su canal el 25/10).",
-      "proximo": "2026-10-30",
-      "paso": "Revisión del one-sheeter; esta semana Facu y Franco le arman el calendario de contenido de 4 semanas.",
+      "que": "Pidió en su canal (26/10) la oferta y los ángulos de contenido de cada semana: Facu le dijo que entre lunes y miércoles se los bajan, para que It's Crear escriba los guiones, grabe jueves y viernes y lance la mentoría grupal el 26/11. Aye le propuso bajar primero los ángulos y después coordinar llamada. Fin de octubre cargado de obra, puede correrse a la primera semana de noviembre.",
+      "proximo": "2026-10-28",
+      "paso": "Facu le devuelve el one-sheeter y le baja la oferta y los ángulos semanales antes del miércoles 28/10.",
       "carta": null,
       "pilar": "Oferta",
       "pelota": "Facu",
       "plata": {
-        "fecha": "2026-11-30",
-        "que": "Workshop gratuito de lanzamiento a fines de noviembre (fecha exacta a definir); venta de la mentoría en diciembre."
+        "fecha": "2026-11-26",
+        "que": "Lanzamiento de la mentoría grupal el 26/11; si no llega, enero o febrero."
       }
     },
     "lucio-labate": {
@@ -129,8 +129,8 @@
       "pelota": "Facu"
     },
     "the-momentum-club": {
-      "ultimo": "2026-10-20",
-      "que": "Natalia: todo hecho y entregado (ICP con link de Drive; la app muestra One-sheeter, ICP y Precio con 0 respuestas porque lo completaron por fuera). Esperan que Facu ordene lo de la 1:1 del 17/10 para agendar con Franco (`#cf-the-momentum-club`, 20/10).",
+      "ultimo": "2026-10-27",
+      "que": "Natalia pide agendar esta semana con Franco y avisa que Daiana no tiene acceso a la app (`#cf-the-momentum-club`, 27/10).",
       "proximo": "2026-10-30",
       "paso": "Facu les resetea las cartas y les ordena lo de la 1:1 del 17/10; después aterrizan la oferta del nivel 1 con Franco.",
       "carta": "Reset de cartas (Facu).",
