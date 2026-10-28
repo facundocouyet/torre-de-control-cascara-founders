@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Martes 27 de octubre
+
+Agos espera la oferta y los ángulos para lanzar el 26/11, y Momentum pide Franco.
+
+- **Agos con fecha nueva.** El próximo paso pasa al miércoles 28/10 (Facu le baja oferta y ángulos semanales) y la ventana de venta al 26/11, que es cuando lanza la mentoría grupal.
+- **The Momentum Club.** Natalia pide agendar con Franco esta semana y avisa que Daiana no tiene acceso a la app.
+
+**Para mirar antes de subir:** el seguimiento de Agos en la torre.
+
 ## Lunes 26 de octubre
 
 Corrida de la mañana: Tomás Visser ya tiene su primera carta esperando tu ok, y entra Santiago Guevara.
