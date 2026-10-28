@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-27",
+  "actualizado": "2026-10-28",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -36,16 +36,16 @@
       "pelota": "cliente"
     },
     "agostina-marchesini": {
-      "ultimo": "2026-10-26",
-      "que": "Pidió en su canal (26/10) la oferta y los ángulos de contenido de cada semana: Facu le dijo que entre lunes y miércoles se los bajan, para que It's Crear escriba los guiones, grabe jueves y viernes y lance la mentoría grupal el 26/11. Aye le propuso bajar primero los ángulos y después coordinar llamada. Fin de octubre cargado de obra, puede correrse a la primera semana de noviembre.",
-      "proximo": "2026-10-28",
-      "paso": "Facu le devuelve el one-sheeter y le baja la oferta y los ángulos semanales antes del miércoles 28/10.",
+      "ultimo": "2026-10-28",
+      "que": "28/10: Facu le devolvió en su canal el feedback de la oferta (cliente ideal: la que quiere abrir su estudio; promesa más acotada) y los ángulos de las cuatro semanas, tres piezas por semana, para que It's Crear arme los guiones. Aceptó su propuesta de fechas: graba el finde, empieza a subir el 9/11, workshop el jueves 3/12 y después llamadas de venta. Le pidió a Franco cerrar el precio (ella puso USD 2.000 de lista; para Facu es caro para un primer lanzamiento con 2 lugares).",
+      "proximo": "2026-11-09",
+      "paso": "Franco le cierra el precio de la mentoría; ella graba el finde y sube desde el 9/11.",
       "carta": null,
       "pilar": "Oferta",
-      "pelota": "Facu",
+      "pelota": "Franco",
       "plata": {
-        "fecha": "2026-11-26",
-        "que": "Lanzamiento de la mentoría grupal el 26/11; si no llega, enero o febrero."
+        "fecha": "2026-12-03",
+        "que": "Workshop del jueves 3/12 y llamadas de venta de la mentoría grupal después."
       }
     },
     "lucio-labate": {
@@ -58,13 +58,13 @@
       "pelota": "cliente"
     },
     "jose-david-fajardo": {
-      "ultimo": "2026-10-21",
-      "que": "Llenó los forms de oferta y está con el de productizar el servicio. El 21/10 pidió en su canal las tomas del video de YouTube que grabó con Fede en la oficina; Aye se las pide al equipo. La llamada con Franco del 21/10 no quedó en Fathom (falta confirmar).",
-      "proximo": "2026-10-21",
-      "paso": "Facu revisa la oferta y el ICP y le dice con quién agenda.",
+      "ultimo": "2026-10-27",
+      "que": "27/10: reservó 1:1 con Facu para el jueves 29/10 15:30. Llenó los forms de oferta y está con el de productizar el servicio; la llamada con Franco del 21/10 no quedó en Fathom (falta confirmar).",
+      "proximo": "2026-10-29",
+      "paso": "1:1 con Facu el jueves 29/10 15:30: revisar oferta y doc de ICP del 15/10.",
       "carta": "Auditoría del proceso comercial.",
       "pilar": "Venta",
-      "pelota": "Franco"
+      "pelota": "Facu"
     },
     "aaron-aiello": {
       "ultimo": "2026-10-13",
@@ -120,10 +120,10 @@
       "pelota": "Facu"
     },
     "qualita": {
-      "ultimo": "2026-10-02",
-      "que": "02/10: devolvieron las tres cartas (ángulos, auditoría comercial con llamada grabada, funnel y escalera). Pasaron a Slack.",
-      "proximo": null,
-      "paso": "Devolución nuestra y armar el lanzamiento de cuatro semanas.",
+      "ultimo": "2026-10-26",
+      "que": "26/10: Ana Gines reservó 1:1 con Facu para el jueves 29/10 12:00, con Rafa y Victoria invitados. Primer contacto desde que devolvieron las tres cartas el 2/10.",
+      "proximo": "2026-10-29",
+      "paso": "1:1 con Facu el jueves 29/10 12:00: devolución «comunicar el método» y lanzamiento de cuatro semanas.",
       "carta": "Calendario de lanzamiento.",
       "pilar": "Venta",
       "pelota": "Facu"
