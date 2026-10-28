@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Miércoles 28 de octubre
+
+Agos ya tiene su feedback y sus ángulos; Qualita y José David vuelven a aparecer con 1:1 para mañana.
+
+- **Agos.** Facu le devolvió la oferta y los ángulos de cuatro semanas; sube desde el 9/11, workshop el 3/12 y el precio lo cierra Franco. La pelota pasa a Franco.
+- **Qualita y José David.** Reservaron 1:1 con Facu para el jueves 29/10 (12:00 y 15:30); el inicio los muestra con fecha y Qualita deja de figurar sin próximo paso.
+
+**Para mirar antes de subir:** el seguimiento de Agos en el inicio.
+
 ## Martes 27 de octubre
 
 Agos espera la oferta y los ángulos para lanzar el 26/11, y Momentum pide Franco.
