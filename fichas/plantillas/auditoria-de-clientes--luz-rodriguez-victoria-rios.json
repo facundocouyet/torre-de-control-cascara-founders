@@ -1,0 +1,22 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "luz-rodriguez-victoria-rios",
+  "founder": "Luz Rodríguez y Victoria Ríos",
+  "bajada_envio": {
+    "founder": "Luz y Vicky",
+    "porque": "En la 1:1 del 28/10 quedó claro que Las Lúas crece hasta donde llega la ejecución diaria de cada cliente, y que el caso de Noe muestra lo que sí funciona: acompañar de punta a punta hasta que la identidad de marca se vuelve plata. Antes de armar la asesoría nueva hay que ver qué les deja hoy cada cliente.",
+    "objetivo": "Esta carta completa con sus clientes, lo que les venden, a qué precio y cuánto tiempo les lleva cada uno. Con eso van a la reunión con Franco de la semana que viene a cerrar la asesoría Done With You de tres meses.",
+    "mindset": "Escriban lo que pasa hoy aunque esté desordenado. Los números de hoy son los que ordenan la oferta de mañana."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la 1:1",
+      "texto": [
+        "Un solo objetivo para estos tres meses: pasar de ejecutar a asesorar.",
+        "La oferta de entrada es una asesoría grupal Done With You de tres meses para profesionales del movimiento de 30 a 50 años (pilates, fisio y parecidos) que quieren llevar su experiencia a un infoproducto. Arriba, los servicios Done For You y, más adelante, el growth partner.",
+        "El orden es auditoría y cliente ideal, después la oferta con Franco, después ángulos y calendario."
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-28",
+  "actualizado": "2026-10-29",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -89,13 +89,13 @@
       "pelota": "cliente"
     },
     "sebastian": {
-      "ultimo": "2026-10-21",
-      "que": "1:1 del 21/10 (Fathom 194780233): cruce de la oferta cerrado (Gira la Cámara · Cohort fundador, programa del 30/11 al 7/2, USD 997/1.200, WhatsApp) y el programa suma Profile Funnel, cliente ideal, oferta y proceso comercial. El workshop del 28/10 queda como contenido de autoridad; vende el bootcamp online del 16 al 18/11. Devolución con accionables y plantillas cargada.",
-      "proximo": "2026-10-26",
-      "paso": "Esta semana: charla del año pasado en YouTube, historias al formulario del 28/10, destacadas y video resumen, versión final del programa y calendario de las 4 semanas en Notion.",
+      "ultimo": "2026-10-29",
+      "que": "28/10: dio el workshop presencial (Juana: «fue mucha gente», con sponsors). 29/10: Juana le marca qué hacer con las historias y las conversaciones abiertas; Seba pregunta cómo sigue el acompañamiento en las semanas de lanzamiento porque no tiene llamada agendada.",
+      "proximo": "2026-10-30",
+      "paso": "Contestarle cómo es el acompañamiento del lanzamiento y darle fecha de 1:1.",
       "carta": "Calendario de lanzamiento activa; después el workshop y la venta B2C.",
       "pilar": "Venta",
-      "pelota": "cliente",
+      "pelota": "Facu",
       "plata": {
         "fecha": "2026-10-26",
         "que": "Arranca el lanzamiento de 4 semanas de «Gira la Cámara» (USD 997 los primeros 5)."
@@ -120,10 +120,10 @@
       "pelota": "Facu"
     },
     "qualita": {
-      "ultimo": "2026-10-26",
-      "que": "26/10: Ana Gines reservó 1:1 con Facu para el jueves 29/10 12:00, con Rafa y Victoria invitados. Primer contacto desde que devolvieron las tres cartas el 2/10.",
-      "proximo": "2026-10-29",
-      "paso": "1:1 con Facu el jueves 29/10 12:00: devolución «comunicar el método» y lanzamiento de cuatro semanas.",
+      "ultimo": "2026-10-29",
+      "que": "29/10: Facu les pidió en #cf-qualita pasar la 1:1 al viernes a la misma hora; quedó en el calendario el vie 30/10 12:00 con Ana, Rafa y Victoria.",
+      "proximo": "2026-10-30",
+      "paso": "1:1 con Facu el viernes 30/10 12:00: devolución «comunicar el método» y lanzamiento de cuatro semanas.",
       "carta": "Calendario de lanzamiento.",
       "pilar": "Venta",
       "pelota": "Facu"

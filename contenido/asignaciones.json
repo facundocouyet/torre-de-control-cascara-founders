@@ -12,7 +12,7 @@
     "pausada": "pausada",
     "completada": "completada"
   },
-  "actualizado": "2026-10-26",
+  "actualizado": "2026-10-29",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
@@ -260,6 +260,27 @@
       "siguiente": "icp-mecanismo",
       "por_que": "Clarity Call del 23/10 (Fathom 195693649): Facu quedó en mandarle el Pasaporte Digital y le pidió un video sin guion; la hoja de ruta que bajó es semana 1 identidad y narrativa, semana 2 audiencia ideal y dolores. La siguiente (ICP) es propuesta del agente con ese orden.",
       "inicio": "2026-10-26",
+      "revision": "pendiente"
+    },
+    "luz-rodriguez-victoria-rios": {
+      "activa": "auditoria-de-clientes",
+      "siguiente": "icp-mecanismo",
+      "por_que": "1:1 del 28/10 (Fathom 197207741): asesoría DWY de 3 meses para profesionales del movimiento de 30 a 50; Facu quedó en cargarles auditoría y cliente ideal antes de Franco la semana que viene.",
+      "inicio": "2026-10-29",
+      "revision": "pendiente"
+    },
+    "marcela-ospital": {
+      "activa": "auditoria-de-clientes",
+      "siguiente": "icp-mecanismo",
+      "por_que": "1:1 del 28/10 (Fathom 197336436): consultoría para arquitectos, entrada grupal de USD 1.000 y BIM arriba; Facu quedó en mandarle los formularios de auditoría antes de Franco la semana que viene.",
+      "inicio": "2026-10-29",
+      "revision": "pendiente"
+    },
+    "sofia-guevara": {
+      "activa": "icp-mecanismo",
+      "siguiente": "one-sheeter-oferta",
+      "por_que": "1:1 del 28/10 (Fathom 197247450): primero la consultoría creativa, Altar como portfolio; Facu quedó en asignarle cliente ideal y producto antes de Franco la semana que viene. La versión propia de Altar del 7/10 pasa a _descartadas.",
+      "inicio": "2026-10-29",
       "revision": "pendiente"
     }
   },

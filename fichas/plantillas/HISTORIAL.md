@@ -6,7 +6,7 @@
 ## Auditoría de clientes · `auditoria-de-clientes`
 
 - **Cuándo va:** Después de la Clarity Call, antes de la llamada con Franco.
-- **Versiones:** delfina-corsalini (liviana), juan-cruz-galeano (liviana), lara-loiano (liviana), lucila-prieto (liviana), marcelo-fernandez (propia), milagros-goico (liviana), naiara-angeloff (liviana), osmo (propia), said-espinosa (liviana), samuel-tarancon (liviana)
+- **Versiones:** delfina-corsalini (liviana), juan-cruz-galeano (liviana), lara-loiano (liviana), lucila-prieto (liviana), luz-rodriguez-victoria-rios (liviana), marcela-ospital (liviana), marcelo-fernandez (propia), milagros-goico (liviana), naiara-angeloff (liviana), osmo (propia), said-espinosa (liviana), samuel-tarancon (liviana)
 - **Últimos cambios:**
   - 2026-10-18 · 18/10: Momentum relanza en enero (pelota Facu), Seba con oferta cerrada con Franco, Lola pasa al 20/10. Galeano: Clarity del 17/10 y auditoría liviana en revisión (`bfd5ba9`)
   - 2026-10-16 · Osmo primero (Facu 16/10): servicio y cliente + cliente ideal en versión propia, salen juntas antes de Franco. Said: la auditoría sin la fecha vieja de Franco (`e86326c`)
@@ -39,13 +39,13 @@
 - **Cuándo va:** Cuando el comercial ya bajó a quién le vende y falta convertir esa definición en personas concretas con un dolor que se pueda nombrar.
 - **Cómo se personaliza:** La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10). Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
-- **Versiones:** agostina-marchesini (liviana), camila-basso (propia), delfina-corsalini (liviana), juan-cruz-galeano (liviana), lara-loiano (liviana), lucila-prieto (liviana), marcelo-fernandez (propia), matias-morales (propia), milagros-goico (liviana), naiara-angeloff (liviana), osmo (propia), rosario-sola (propia), said-espinosa (liviana), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia), tomas-visser (liviana)
+- **Versiones:** agostina-marchesini (liviana), camila-basso (propia), delfina-corsalini (liviana), juan-cruz-galeano (liviana), lara-loiano (liviana), lucila-prieto (liviana), luz-rodriguez-victoria-rios (liviana), marcela-ospital (liviana), marcelo-fernandez (propia), matias-morales (propia), milagros-goico (liviana), naiara-angeloff (liviana), osmo (propia), rosario-sola (propia), said-espinosa (liviana), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (liviana), sol-boutmy (liviana), the-momentum-club (propia), tomas-visser (liviana)
 - **Últimos cambios:**
+  - 2026-10-26 · Cartas para revisar 26/10: ICP de siete ingresos, proceso comercial y funnel de servicio en lugar de las absorbidas, Profile Funnel de Rosario (`d353b4a`)
   - 2026-10-17 · BeMotion: el cliente es la agencia y son Sol y Fede (Facu 17/10). Nombre en ficha, panel y cartas; textos que hablaban solo de Sol pasan a las dos. Profile funnel al día con la 1:1 del 13/10. Editing brief convertido en guía y SOP: tres niveles, niveles de edición con ejemplos, cómo se brifea cada formato con tarjetas reales de Cáscara y Delfi Ferro, referencias con portada de IG (`6309e48`)
   - 2026-10-16 · Rosario: recorrido rehecho sobre la hoja de ruta de Franco (marcas primero). One-pager del Diagnóstico (20/10), propuesta a la marca de infusiones (30/10) y la lista de marcas de 40WA. Devolución en la app con sus cinco puntos. Las versiones de mamás quedan en _descartadas (`4e56459`)
   - 2026-10-16 · PLAY COURT liberada (ok de Facu 16/10). Cliente ideal propio en cola: marca de producto, dos públicos (familias y clubes/municipios), sin mecanismo (`fd95b17`)
   - 2026-10-16 · Osmo primero (Facu 16/10): servicio y cliente + cliente ideal en versión propia, salen juntas antes de Franco. Said: la auditoría sin la fecha vieja de Franco (`e86326c`)
-  - 2026-10-16 · 16/10: Camila liberada. PLAY COURT: auditoría propia desde la Clarity del 15/10 (proyectos, consultas que no cerraron, casos para mostrar), en revisión. Mecha: la auditoría sin la fecha vieja. Said: onboarding en cola. Las cartas de cliente ideal y ángulos ya no piden cinco conversaciones: sale de mensajes, comentarios y llamadas que ya tienen (`3f4ecec`)
 
 ## One-sheeter de la oferta · `one-sheeter-oferta`
 
@@ -86,11 +86,11 @@
 - **Ojo:** Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
 - **Versiones:** aaron-aiello (liviana), lucio-labate (liviana), rosario-sola (liviana), sebastian (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
+  - 2026-10-26 · Cartas para revisar 26/10: ICP de siete ingresos, proceso comercial y funnel de servicio en lugar de las absorbidas, Profile Funnel de Rosario (`d353b4a`)
   - 2026-10-17 · BeMotion: el cliente es la agencia y son Sol y Fede (Facu 17/10). Nombre en ficha, panel y cartas; textos que hablaban solo de Sol pasan a las dos. Profile funnel al día con la 1:1 del 13/10. Editing brief convertido en guía y SOP: tres niveles, niveles de edición con ejemplos, cómo se brifea cada formato con tarjetas reales de Cáscara y Delfi Ferro, referencias con portada de IG (`6309e48`)
   - 2026-10-16 · Las cartas no piden escribirle a nadie (regla de Facu 16/10). Camila: pasaporte de BUCK en paralelo al cliente ideal. Seba: la carta de oferta espera la llamada con Franco (`a4c9c2f`)
   - 2026-10-09 · 9/10: lo que Facu prometió en las Clarity y en la 1:1 de Seba, personalizado y en revisión (editores de Lucila, propuesta y onboarding de Said, Profile Funnel y reseteo de Seba) (`8ecffd1`)
   - 2026-10-06 · Aaron: profile funnel personalizado, en paralelo al funnel de servicio (`e4d64da`)
-  - 2026-09-25 · profile funnel: carta rehecha sobre el Profile Funnel V1 de Fede (`43e27d7`)
 
 ## Ángulos de comunicación bajados del ICP · `angulos-desde-icp`
 
@@ -233,6 +233,7 @@
 - **Ojo:** Reemplaza a la auditoría del proceso comercial, al pipeline de siete campos y al registro de llamadas. Quien ya tiene alguna asignada la termina y sigue con esta desde la fase que le falte. El registro es de Teo y sigue vivo para la operación de Cáscara (Facu, 19/10).
 - **Versiones:** agostina-marchesini (liviana), jose-david-fajardo (liviana), lucio-labate (liviana), rosario-sola (liviana), said-espinosa (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
+  - 2026-10-26 · Cartas para revisar 26/10: ICP de siete ingresos, proceso comercial y funnel de servicio en lugar de las absorbidas, Profile Funnel de Rosario (`d353b4a`)
   - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-19 · Saco los nombres de Francisca y Franco de las cartas comerciales nuevas y del tablero (Facu, 19/10): queda "el equipo comercial de Cáscara" y los números del Pentágono sin nombres (`fd00d05`)
   - 2026-10-19 · Cartas comerciales grandes (Facu, 19/10): Tu proceso comercial (troncal), La venta B2C y La venta de servicios, de punta a punta (`1e9c002`)
@@ -358,11 +359,11 @@
 - **Cuándo va:** Cuando el founder ya tiene cliente ideal, oferta y ángulos, y antes de salir a buscar más gente hay que ver qué pasa con el cliente después de que compra.
 - **Versiones:** aaron-aiello (liviana), agostina-marchesini (liviana), jose-david-fajardo (liviana), lola-berutti (liviana), matias-morales (liviana), qualita (propia), sebastian (liviana)
 - **Últimos cambios:**
+  - 2026-10-26 · Cartas para revisar 26/10: ICP de siete ingresos, proceso comercial y funnel de servicio en lugar de las absorbidas, Profile Funnel de Rosario (`d353b4a`)
   - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-04 · Cartas: versiones livianas con ajustes por sección, revisión antes de la app, historial y uso de cada carta (`d08448c`)
   - 2026-10-03 · Seba: las cartas que Facu le prometió el 2/10 (escalera, funnel del cohort, proceso comercial, editor, historias) (`7c23360`)
   - 2026-10-03 · Agostina: lo del WhatsApp en la ficha y en sus cartas (precio, interesadas, sus cinco módulos) (`f215f2d`)
-  - 2026-10-03 · Agostina: cartas propias de oferta, ICP y dolores, llamada de venta y producto (`703b0a1`)
 
 ## Productización del servicio · `proceso-entrega-repetible`
 

@@ -1,0 +1,22 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "marcela-ospital",
+  "founder": "Marcela Ospital",
+  "bajada_envio": {
+    "founder": "Marcela",
+    "porque": "En la 1:1 del 28/10 quedó que tu experiencia está repartida en varias ofertas, la asesoría de proyectos y las casas modulares, y que la que escala es la consultoría para arquitectos: enseñarles tu proceso para especificar productos y llevar la obra sin errores de último momento.",
+    "objetivo": "Esta carta completa con los proyectos y clientes de los últimos años: qué les resolviste, cuánto cobraste y cuánto tiempo te llevó. Con eso vas a la reunión con Franco de la semana que viene a definir la consultoría y su precio.",
+    "mindset": "Escribí lo que pasó, con los números que tengas. El primer mes es para ordenar; el contenido viene después."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la 1:1",
+      "texto": [
+        "La oferta es una consultoría para arquitectos. Entrada grupal de ticket bajo (alrededor de USD 1.000) para generar volumen, y arriba servicios a medida, como la implementación de BIM.",
+        "El primer mes es auditoría y oferta; los dos siguientes, contenido y lanzamiento.",
+        "El contenido construye autoridad desde la empatía con los problemas de los arquitectos, en una cuenta enfocada solo en eso."
+      ]
+    }
+  ]
+}

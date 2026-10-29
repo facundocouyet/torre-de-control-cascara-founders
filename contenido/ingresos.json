@@ -1,6 +1,6 @@
 {
   "regla": "Clientes de Founders que ya entraron y todavía no tienen ficha: la ficha se escribe después de la Clarity Call. El slug es el de la app (clientes.slug) y el del canal cf-; las cartas escritas para ellos usan este slug. Cuando se escribe la ficha, el cliente sale de esta lista.",
-  "actualizado": "2026-10-23",
+  "actualizado": "2026-10-29",
   "clientes": [
     {
       "slug": "rosario-sola",
@@ -82,7 +82,7 @@
       "correo": "delficorsalini@gmail.com",
       "clarity": "2026-10-09",
       "canal": "cf-delfina-corsalini",
-      "nota": "Onboarding con Teo el 5/10: foco en rearmar la oferta (packs de piezas, margen erosionado), contenido propio y organizar el equipo de cinco. Sigue la Clarity Call. Clarity Call el viernes 9/10 14:30. 9/10 Clarity Call (Fathom 191479184): ciclos de 3 meses por adelantado, estrategia aparte (USD 2.000 a 3.000), cliente ideal y diferencial; contenido «cero influencer». Hoja del punto A en revisión. 21/10 llamada con Franco (Fathom 194948411): pasar de packs a una oferta de alto ticket que vende un resultado, los packs quedan como downsell, un filmmaker fijo en lugar de los de por proyecto, MVP al 75% del precio con 3 a 5 clientes y venta en dos llamadas; relanzamiento en enero. Ella completa el ICP, encuesta a sus clientes y agenda seguimiento con Facu; Franco le manda la presentación por Slack."
+      "nota": "Onboarding con Teo el 5/10: foco en rearmar la oferta (packs de piezas, margen erosionado), contenido propio y organizar el equipo de cinco. Sigue la Clarity Call. Clarity Call el viernes 9/10 14:30. 9/10 Clarity Call (Fathom 191479184): ciclos de 3 meses por adelantado, estrategia aparte (USD 2.000 a 3.000), cliente ideal y diferencial; contenido «cero influencer». Hoja del punto A en revisión. 21/10 llamada con Franco (Fathom 194948411): pasar de packs a una oferta de alto ticket que vende un resultado, los packs quedan como downsell, un filmmaker fijo en lugar de los de por proyecto, MVP al 75% del precio con 3 a 5 clientes y venta en dos llamadas; relanzamiento en enero. Ella completa el ICP, encuesta a sus clientes y agenda seguimiento con Facu; Franco le manda la presentación por Slack. 28/10 1:1 con Facu (Fathom 197177077): paquete estratégico de 3 meses (auditoría, estrategia y contenido) de USD 4.000 o más, medido en resultados de negocio; prueba la oferta con dos leads (una logística y una cafetería en Funes); marca personal arrancando por un video de su historia emprendedora; filmmaker fijo. Facu le pasa una plantilla de propuesta y le carga el ICP en la app; ella cierra la oferta con Franco la semana que viene."
     },
     {
       "slug": "marcelo-fernandez",
@@ -98,7 +98,7 @@
       "start": "2026-10-05",
       "correo": "sguevaracelentano@gmail.com",
       "clarity": "2026-10-07",
-      "nota": "Francisca pidió su grupo el 30/9; sin fila en Cuentas (pregunta 73). 5/10: Cuentas ya tiene mail y START 5/10; onboarding con Teo el miércoles 7/10. 7/10: Clarity Call con Facu (Altar, concept store de cápsulas; marca personal primero). Mandó manifiesto, fotos de campaña y brandbook por Slack. Carta activa: cliente ideal. 9/10, con Facu y Aye (Fathom 191442851): se resetea el proceso desde el onboarding (Aye le mandó el Calendly); completa los Founder Insights y manda el cliente ideal y el contenido grabado la semana que viene. Sesión de 1 a 1,5 h con Juana sobre la dirección creativa de la campaña (sale el 19, falta confirmar el mes) y después sesión estratégica con Facu. 10/10: onboarding con Aye (Fathom 191572791): Founder Insights (19 secciones), sesión de dirección creativa con Juana (reservó lun 12/10 10:00 ART) y después Clarity con Facu. En la app no tiene carta asignada (Teo, 10/10); slug de la app: sofia-guevara-celentano. 13/10: la sesión con Juana pasó al jueves 15/10 13:00 ART (Juana lee antes lo que completó Sofía). 13/10 grupal de Fede: la sesión de fotos de la primera colección es el lunes 20/10; prioridad conseguir editor y filmmaker para backstage. Completó la carta para Juana (13/10); sesión con Juana el jueves 15/10."
+      "nota": "Francisca pidió su grupo el 30/9; sin fila en Cuentas (pregunta 73). 5/10: Cuentas ya tiene mail y START 5/10; onboarding con Teo el miércoles 7/10. 7/10: Clarity Call con Facu (Altar, concept store de cápsulas; marca personal primero). Mandó manifiesto, fotos de campaña y brandbook por Slack. Carta activa: cliente ideal. 9/10, con Facu y Aye (Fathom 191442851): se resetea el proceso desde el onboarding (Aye le mandó el Calendly); completa los Founder Insights y manda el cliente ideal y el contenido grabado la semana que viene. Sesión de 1 a 1,5 h con Juana sobre la dirección creativa de la campaña (sale el 19, falta confirmar el mes) y después sesión estratégica con Facu. 10/10: onboarding con Aye (Fathom 191572791): Founder Insights (19 secciones), sesión de dirección creativa con Juana (reservó lun 12/10 10:00 ART) y después Clarity con Facu. En la app no tiene carta asignada (Teo, 10/10); slug de la app: sofia-guevara-celentano. 13/10: la sesión con Juana pasó al jueves 15/10 13:00 ART (Juana lee antes lo que completó Sofía). 13/10 grupal de Fede: la sesión de fotos de la primera colección es el lunes 20/10; prioridad conseguir editor y filmmaker para backstage. Completó la carta para Juana (13/10); sesión con Juana el jueves 15/10. 28/10 1:1 con Facu (Fathom 197247450): primero la consultoría creativa, en programa grupal de ticket bajo para juntar casos; Altar pasa a portfolio y MVP (10 productos a 10 clientas, sin más plata suya). Junta el material de sus consultorías y documenta Altar. Cliente ideal nuevo y producto en revisión; oferta con Franco la semana que viene."
     },
     {
       "slug": "lorena-martinez",
@@ -122,9 +122,9 @@
       "nombre": "Luz Rodríguez y Victoria Ríos",
       "start": "2026-10-06",
       "correo": "luarmareacreativa@gmail.com",
-      "clarity": null,
+      "clarity": "2026-10-28",
       "canal": "cf-luz-rodriguez-victoria-rios",
-      "nota": "Entraron a Cuentas el 6/10 (START 6/10). Archer les dio la bienvenida el 7/10. 12/10: onboarding con Teo (Fathom 191791079): Las Lúas, asesorías de 3 meses y edición con 6 editores; quieren pasar a un modelo de conocimiento. Siguen los Founder Insights y después la Clarity con Facu. Teo las sumó al canal y a la comunidad. 13/10: Victoria entró al canal y arrancó con Teo; Aye les pasó cómo reservar la Clarity desde la app al terminar el onboarding de Notion. Grupal de Fede: perfil, video de presentación entre las dos y un carrusel con la oferta para el viernes."
+      "nota": "Entraron a Cuentas el 6/10 (START 6/10). Archer les dio la bienvenida el 7/10. 12/10: onboarding con Teo (Fathom 191791079): Las Lúas, asesorías de 3 meses y edición con 6 editores; quieren pasar a un modelo de conocimiento. Siguen los Founder Insights y después la Clarity con Facu. Teo las sumó al canal y a la comunidad. 13/10: Victoria entró al canal y arrancó con Teo; Aye les pasó cómo reservar la Clarity desde la app al terminar el onboarding de Notion. Grupal de Fede: perfil, video de presentación entre las dos y un carrusel con la oferta para el viernes. 28/10 1:1 con Facu (Fathom 197207741): pasar de ejecutar a asesorar; asesoría grupal Done With You de 3 meses para profesionales del movimiento de 30 a 50 años, con DFY y growth partner arriba; Noe como caso. Auditoría de clientes y cliente ideal en revisión; oferta con Franco la semana que viene."
     },
     {
       "slug": "said-espinosa",
@@ -149,9 +149,9 @@
       "nombre": "Marcela Ospital",
       "start": "2026-10-17",
       "correo": "marcelaospital05@gmail.com",
-      "clarity": null,
-      "canal": "(falta confirmar)",
-      "nota": "Onboarding con Teo el 19/10 (Fathom 194082265): arquitecta, 30 años en la empresa familiar de materiales, impulsa Casaneo (casas modulares en Steel Frame) y quiere separar una consultoría para estudios y desarrolladoras. Sin oferta, precio ni proceso de entrega. Falta la Clarity con Facu y la ficha. Clarity con Facu el mar 27/10 13:00 ART."
+      "clarity": "2026-10-28",
+      "canal": "cf-marcela-ospital",
+      "nota": "Onboarding con Teo el 19/10 (Fathom 194082265): arquitecta, 30 años en la empresa familiar de materiales, impulsa Casaneo (casas modulares en Steel Frame) y quiere separar una consultoría para estudios y desarrolladoras. Sin oferta, precio ni proceso de entrega. Falta la Clarity con Facu y la ficha. Clarity con Facu el mar 27/10 13:00 ART. 28/10 Clarity con Facu (Fathom 197336436): consultoría para arquitectos, entrada grupal de unos USD 1.000 y servicios a medida (BIM) arriba; primer mes auditoría y oferta, después contenido en una cuenta enfocada. Facu le pasó en su canal la referencia instagram.com/minntoring. Auditoría y cliente ideal en revisión; oferta con Franco la semana que viene."
     },
     {
       "slug": "santiago-guevara",
@@ -161,6 +161,24 @@
       "clarity": null,
       "canal": "(falta confirmar)",
       "nota": "Onboarding con Aye el 24/10 (Fathom 196008246): 8 a 9 mil seguidores y clientes de alto nivel; quiere capitalizar su autoridad con un ecosistema de infoproductos porque su cuello es el tiempo. Ruta: Founder Insights en Notion, presentarse en Slack y agendar la Clarity con Facu desde la app. Falta la Clarity y la ficha."
+    },
+    {
+      "slug": "alejandra-ayala",
+      "nombre": "Alejandra Ayala",
+      "start": "2026-10-28",
+      "correo": "ayala.alesx@gmail.com",
+      "clarity": null,
+      "canal": "cf-alejandra-ayala",
+      "nota": "Alta del 28/10 (Teo en #operaciones-cáscara, 29/10): tarjeta y espacio en Notion, canal con bienvenida de Archer y cargada en la app. Según Teo, el mejor lead del lanzamiento: pagó USD 4.000 en dos pagos. Falta el onboarding, la Clarity con Facu y la ficha."
+    },
+    {
+      "slug": "gabriel-pacahuala",
+      "nombre": "Gabriel Pacahuala",
+      "start": "2026-10-26",
+      "correo": "founders@kross.club",
+      "clarity": null,
+      "canal": "cf-gabriel-pacahuala",
+      "nota": "Alta del 26/10 (Teo en #operaciones-cáscara, 29/10): espacio en Notion y canal creados el 29/10; ya figuraba en la app. Falta el onboarding, la Clarity con Facu y la ficha."
     }
   ]
 }
