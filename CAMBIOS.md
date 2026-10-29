@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Jueves 29 de octubre
+
+Las cuatro 1:1 de ayer ya tienen sus cartas listas para revisar, y entraron dos clientes nuevos.
+
+- **Cartas en revisión para Luz y Victoria, Marcela y Sofía Guevara.** Auditoría de clientes y cliente ideal para las dos primeras; cliente ideal nuevo (el de su consultoría creativa) y oferta para Sofía. No entran a la app hasta el ✅ en `#servicio-founders`.
+- **Altas de Alejandra Ayala y Gabriel Pacahuala.** Aparecen como ingresos sin ficha.
+- **Qualita pasa al viernes 30/10 y Seba pide cómo sigue.** Se ve en el inicio de la torre.
+
+**Para mirar antes de subir:** las tres cartas nuevas en `cartas/para/` y que el slug de Sofía en la app (`sofia-guevara-celentano`) tome su asignación.
+
 ## Miércoles 28 de octubre
 
 Agos ya tiene su feedback y sus ángulos; Qualita y José David vuelven a aparecer con 1:1 para mañana.
