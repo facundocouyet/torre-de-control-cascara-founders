@@ -208,11 +208,10 @@
       "revision": "pendiente"
     },
     "delfina-corsalini": {
-      "activa": "auditoria-de-clientes",
-      "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 9/10: auditoría de clientes, equipo, roles y sueldos por la app, después oferta con Franco. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
-      "inicio": "2026-10-09",
-      "revision": "pendiente"
+      "activa": "icp-mecanismo",
+      "por_que": "Clarity Call del 9/10: auditoría de clientes, equipo, roles y sueldos por la app, después oferta con Franco. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.) 29/10: Facu aprueba la auditoría (devolución cargada) y entra el ICP: su cliente ideal, el de lo que quiere vender ella. La oferta y el precio, con Franco la semana que viene.",
+      "inicio": "2026-10-29",
+      "anterior": "completada"
     },
     "osmo": {
       "activa": "auditoria-de-clientes--osmo",
@@ -227,14 +226,13 @@
       ]
     },
     "camila-basso": {
-      "activa": "pasaporte-digital--camila-basso",
-      "siguiente": "identidad-y-arco-narrativo--camila-basso",
+      "activa": "identidad-y-arco-narrativo--camila-basso",
+      "siguiente": "icp-mecanismo--camila-basso",
       "despues": [
-        "icp-mecanismo--camila-basso",
         "angulos-desde-icp",
         "calendario-contenido"
       ],
-      "por_que": "21/10, llamada con Facu: la narrativa se parte en dos. Activa «La narrativa de BUCK», que quedó solo con la marca (le falta el moodboard); sigue «Tu historia y tu marca personal», con las preguntas personales del pasaporte. Con las dos, Facu le da una devolución de toda la narrativa para trabajar con Juana. Después cliente ideal, ángulos y el calendario de la colección de verano. Grupales: Juana y Fede primero; la de Teo y la de Franco más adelante.",
+      "por_que": "21/10, llamada con Facu: la narrativa se parte en dos. Activa «La narrativa de BUCK», que quedó solo con la marca (le falta el moodboard); sigue «Tu historia y tu marca personal», con las preguntas personales del pasaporte. Con las dos, Facu le da una devolución de toda la narrativa para trabajar con Juana. Después cliente ideal, ángulos y el calendario de la colección de verano. Grupales: Juana y Fede primero; la de Teo y la de Franco más adelante. 29/10: Facu activó Tu historia desde el admin; BUCK queda en revisión.",
       "inicio": "2026-10-16"
     },
     "marcelo-fernandez": {
@@ -272,9 +270,8 @@
     "marcela-ospital": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "1:1 del 28/10 (Fathom 197336436): consultoría para arquitectos, entrada grupal de USD 1.000 y BIM arriba; Facu quedó en mandarle los formularios de auditoría antes de Franco la semana que viene.",
-      "inicio": "2026-10-29",
-      "revision": "pendiente"
+      "por_que": "1:1 del 28/10 (Fathom 197336436): consultoría para arquitectos, entrada grupal de USD 1.000 y BIM arriba; Facu quedó en mandarle los formularios de auditoría antes de Franco la semana que viene. 29/10: Facu aprueba; entra con el push.",
+      "inicio": "2026-10-29"
     },
     "sofia-guevara": {
       "activa": "icp-mecanismo",
