@@ -1,0 +1,23 @@
+{
+  "modulo": "proceso-comercial",
+  "slug": "osmo",
+  "founder": "Osmo Estudio",
+  "bajada_envio": {
+    "founder": "Ivi y Kari",
+    "porque": "En la sesión con Franco del 27/10 quedó cómo pasan de gestoría a consultora: un diagnóstico pago de entrada, el abono del Área de Comex Externa como núcleo y la venta que primero entiende y después cotiza. La meta de los 90 días son 3 PYMEs nuevas con abono.",
+    "objetivo": "Su proceso comercial armado: los 2 rubros elegidos, el filtro de 3 preguntas, el pipeline con sus etapas y la lista de las 150 empresas para contactar.",
+    "mindset": "Los rubros salen de donde ya operaron y de lo que hoy les consultan: alimentos aparece en tres de sus consultas abiertas."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó con Franco",
+      "texto": [
+        "Cliente ideal: PYME con 2 o más operaciones por mes, que importa insumos o exporta producción propia, que ya tiene despachante y no está conforme. Decide el dueño o el gerente de comex.",
+        "La venta: calificar con 3 preguntas, discovery de 30 minutos, el diagnóstico como primer paso pago, la propuesta en llamada y seguimiento a los 3, 7 y 14 días. Nunca un precio antes de una llamada.",
+        "El embudo de los 90 días: 150 empresas contactadas, 30 respuestas, 15 discovery, 6 diagnósticos y 3 abonos.",
+        "De dónde salen los primeros: su cliente histórico (que las presente a 2 empresas), su red corporativa y LinkedIn con 10 contactos por día. Meta vuelve después."
+      ]
+    }
+  ]
+}

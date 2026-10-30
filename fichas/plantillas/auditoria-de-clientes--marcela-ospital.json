@@ -5,7 +5,7 @@
   "bajada_envio": {
     "founder": "Marcela",
     "porque": "En la 1:1 del 28/10 quedó que tu experiencia está repartida en varias ofertas, la asesoría de proyectos y las casas modulares, y que la que escala es la consultoría para arquitectos: enseñarles tu proceso para especificar productos y llevar la obra sin errores de último momento.",
-    "objetivo": "Esta carta completa con los proyectos y clientes de los últimos años: qué les resolviste, cuánto cobraste y cuánto tiempo te llevó. Con eso vas a la reunión con Franco de la semana que viene a definir la consultoría y su precio.",
+    "objetivo": "Esta carta completa con tu experiencia: las obras y proyectos donde asesoraste o especificaste productos desde la empresa, aunque no los hayas cobrado como consultoría, y tu proceso paso a paso. Con eso vas a la reunión con Franco de la semana que viene a definir la consultoría y su precio.",
     "mindset": "Escribí lo que pasó, con los números que tengas. El primer mes es para ordenar; el contenido viene después."
   },
   "bloques_inicio": [
@@ -18,5 +18,34 @@
         "El contenido construye autoridad desde la empatía con los problemas de los arquitectos, en una cuenta enfocada solo en eso."
       ]
     }
-  ]
+  ],
+  "ajustes": {
+    "0": {
+      "texto": [
+        "Lo que hablamos en la 1:1 ya lo tenemos. Lo que falta es tu experiencia escrita, obra por obra.",
+        "Todavía no vendiste la consultoría como servicio, y está bien: lo que buscamos es lo que ya hacés desde la empresa. Las conclusiones las sacamos nosotros."
+      ]
+    },
+    "1": {
+      "titulo": "Las obras y proyectos donde asesoraste",
+      "consigna": "Una fila por obra o proyecto donde asesoraste o especificaste productos, de los últimos años. No hace falta que lo hayas cobrado. Si de alguno no tenés un dato, dejalo en blanco.",
+      "columnas": [
+        "Obra o proyecto",
+        "Para quién (arquitecto, estudio o constructora)",
+        "Qué le resolviste",
+        "Qué error evitaste",
+        "Cuánto tiempo te llevó"
+      ]
+    },
+    "2": {
+      "titulo": "Tu proceso paso a paso",
+      "consigna": "Contá qué hacés cuando arranca una obra, en orden: cómo revisás los planos, cómo escribís la narrativa o el estilo del proyecto, cómo armás el moodboard y cómo elegís los proveedores. Es lo que vamos a documentar para enseñarlo en la consultoría.",
+      "campo": "texto",
+      "alto": 8,
+      "placeholder": "..."
+    },
+    "3": {
+      "consigna": "Opcional: los arquitectos que hoy te consultan y qué te preguntan, o lo que te parezca importante y no entró arriba."
+    }
+  }
 }

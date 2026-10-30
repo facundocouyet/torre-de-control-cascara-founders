@@ -1,0 +1,60 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "juan-galeano",
+  "founder": "Juan Cruz Galeano",
+  "bajada_envio": {
+    "founder": "Juan Cruz",
+    "porque": "En la llamada con Franco del 27/10 quedó la oferta para validar tu método: un programa grupal de 4 semanas para 6 a 8 personas, con el ángulo «claridad para decidir tu 2027». Para ponerle precio y fecha, Franco necesita tus datos.",
+    "objetivo": "Esta carta completa: las personas que acompañaste y qué resultado tuvo cada una, los números de tu audiencia y lo que Franco te pidió. Con eso cierra el precio y la fecha del programa.",
+    "mindset": "Poné lo que tengas, aunque sean pocos casos. Con eso alcanza para arrancar."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó con Franco",
+      "texto": [
+        "El programa: 4 semanas para 6 a 8 personas, con una grupal por semana, práctica guiada diaria, una 1:1 de entrada y otra de cierre, y un grupo de WhatsApp.",
+        "El precio de lanzamiento es el 70% del precio final, para los primeros que entran.",
+        "El contenido baja a 1 o 2 TikToks por día y 1 o 2 videos de YouTube por semana, y todo lleva al grupo de WhatsApp del lanzamiento.",
+        "Una pieza con tu historia personal (el porqué de tu método), en carrusel o video, para ver con Fede."
+      ]
+    }
+  ],
+  "ajustes": {
+    "0": {
+      "titulo": "Lo que necesitamos",
+      "texto": [
+        "Lo que hablaste con Franco ya lo tenemos. Lo que falta son tus datos, para cerrar el precio y la fecha.",
+        "Completá con lo que ya sabés, tal como está hoy. Las conclusiones las sacamos nosotros."
+      ]
+    },
+    "1": {
+      "titulo": "Las personas que acompañaste",
+      "consigna": "Una fila por persona que acompañaste con tu método, haya pagado o no. El nombre no hace falta. Si de alguna no tenés un dato, dejalo en blanco.",
+      "columnas": [
+        "Persona",
+        "Qué buscaba",
+        "Cómo trabajaron",
+        "Si pagó, cuánto",
+        "Qué resultado tuvo"
+      ]
+    },
+    "2": {
+      "titulo": "Tu audiencia",
+      "consigna": "Seguidores en cada red, alcance de los últimos 30 días, las publicaciones que mejor anduvieron y los comentarios o mensajes que más se repiten. Una captura de las estadísticas también sirve.",
+      "campo": "texto",
+      "alto": 5,
+      "placeholder": "..."
+    },
+    "3": {
+      "titulo": "Lo que te pidió Franco",
+      "consigna": "Cuánto te costó la pauta que te trajo los 70 seguidores. Cuántas consultas de compra tuviste hasta hoy. Qué tan urgente es para vos facturar con esto. Cuántas horas por semana tenés para las sesiones.",
+      "alto": 5
+    },
+    "4": {
+      "texto": [
+        "Con esto Franco cierra el precio y la fecha del programa de 4 semanas, y armamos el lanzamiento."
+      ]
+    }
+  }
+}

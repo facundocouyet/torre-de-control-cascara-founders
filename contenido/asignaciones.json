@@ -12,7 +12,7 @@
     "pausada": "pausada",
     "completada": "completada"
   },
-  "actualizado": "2026-10-29",
+  "actualizado": "2026-10-30",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
@@ -214,16 +214,14 @@
       "anterior": "completada"
     },
     "osmo": {
-      "activa": "auditoria-de-clientes--osmo",
-      "siguiente": "one-sheeter-oferta",
+      "activa": "proceso-comercial",
+      "siguiente": "calendario-contenido",
       "despues": [
-        "angulos-desde-icp"
+        "one-sheeter-oferta"
       ],
-      "por_que": "Clarity Call del 13/10 (Fathom 192211426). Facu: «les voy a bajar para que me den un poco más de información sobre su servicio, la experiencia con este cliente, que puedan bajar lo que se llama el cliente ideal», y la semana que viene Franco. 16/10, Facu: Osmo va primero, estaban trabadas. Las dos cartas salen juntas (servicio y cliente, cliente ideal), en versión propia porque tienen un solo cliente fijo. Después oferta con Franco y ángulos.",
-      "inicio": "2026-10-16",
-      "en_paralelo": [
-        "icp-mecanismo--osmo"
-      ]
+      "por_que": "Clarity Call del 13/10 (Fathom 192211426). Facu: «les voy a bajar para que me den un poco más de información sobre su servicio, la experiencia con este cliente, que puedan bajar lo que se llama el cliente ideal», y la semana que viene Franco. 16/10, Facu: Osmo va primero, estaban trabadas. Las dos cartas salen juntas (servicio y cliente, cliente ideal), en versión propia porque tienen un solo cliente fijo. Después oferta con Franco y ángulos. 30/10: Facu aprueba «Su servicio y su cliente»; la sesión con Franco del 27/10 (Fathom 196854295) define cliente ideal y escalera (diagnóstico pago, abono Área de Comex Externa, capacitación). Siguen proceso comercial (2 rubros, filtro de 3 preguntas, pipeline, 150 empresas) y calendario de noviembre («Planificá tus importaciones 2027»); el one-sheeter, después de que Franco cierre el precio. ICP y ángulos salen de la fila: los cubrió Franco.",
+      "inicio": "2026-11-02",
+      "anterior": "completada"
     },
     "camila-basso": {
       "activa": "identidad-y-arco-narrativo--camila-basso",
@@ -246,13 +244,6 @@
       "por_que": "Clarity Call del 15/10 con Marcelo y Lucas (Fathom 193210037). Facu: «primero necesito auditar todo: juntar la base de datos de los clientes, casos de éxito, entender cuál es el cliente ideal»; la próxima llamada es con Franco, que analiza la data. Mes 1 bases y estrategia, después producir y relanzar. La auditoría suma las consultas que no cerraron (la decisión de compra tarda hasta un año) y los casos para mostrar (Crossover, Duki, Chapu).",
       "inicio": "2026-10-16"
     },
-    "juan-cruz-galeano": {
-      "activa": "auditoria-de-clientes",
-      "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 17/10 (Fathom 193715118): Facu quedó en mandarle la auditoría de negocio; con eso Franco define la oferta mínima la semana del 19/10. Después, el ICP. Propuesta del agente: Facu no nombró la carta, va la auditoría simple con sus clientes y los datos de audiencia.",
-      "inicio": "2026-10-19",
-      "revision": "pendiente"
-    },
     "tomas-visser": {
       "activa": "pasaporte-digital--tomas-visser",
       "siguiente": "icp-mecanismo",
@@ -270,7 +261,7 @@
     "marcela-ospital": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "1:1 del 28/10 (Fathom 197336436): consultoría para arquitectos, entrada grupal de USD 1.000 y BIM arriba; Facu quedó en mandarle los formularios de auditoría antes de Franco la semana que viene. 29/10: Facu aprueba; entra con el push.",
+      "por_que": "1:1 del 28/10 (Fathom 197336436): consultoría para arquitectos, entrada grupal de USD 1.000 y BIM arriba; Facu quedó en mandarle los formularios de auditoría antes de Franco la semana que viene. 29/10: Facu aprueba; entra con el push. 30/10: no tuvo clientes; la auditoría pasa a sus obras asesoradas y su proceso paso a paso.",
       "inicio": "2026-10-29"
     },
     "sofia-guevara": {
@@ -279,6 +270,15 @@
       "por_que": "1:1 del 28/10 (Fathom 197247450): primero la consultoría creativa, Altar como portfolio; Facu quedó en asignarle cliente ideal y producto antes de Franco la semana que viene. La versión propia de Altar del 7/10 pasa a _descartadas.",
       "inicio": "2026-10-29",
       "revision": "pendiente"
+    },
+    "juan-galeano": {
+      "activa": "auditoria-de-clientes",
+      "siguiente": "one-sheeter-oferta",
+      "por_que": "Clarity Call del 17/10 (Fathom 193715118): Facu quedó en mandarle la auditoría de negocio; con eso Franco define la oferta mínima la semana del 19/10. Después, el ICP. Propuesta del agente: Facu no nombró la carta, va la auditoría simple con sus clientes y los datos de audiencia. 30/10: Facu aprueba la auditoría ajustada a lo que pidió Franco el 27/10 (Fathom 196838128); sigue la hoja de la oferta del programa grupal de 4 semanas. El slug pasa a juan-galeano, que es el de la app (con el anterior el sync no lo asignaba).",
+      "inicio": "2026-10-30",
+      "despues": [
+        "icp-mecanismo"
+      ]
     }
   },
   "sin_carta": {
