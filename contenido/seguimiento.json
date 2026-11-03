@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-10-29",
+  "actualizado": "2026-11-03",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -49,12 +49,12 @@
       }
     },
     "lucio-labate": {
-      "ultimo": "2026-10-15",
-      "que": "Prospección en frío: mandó dos Looms (Fatto stw y Banvak) y sigue mandando.",
+      "ultimo": "2026-11-02",
+      "que": "2/11: Aye le mandó el mensaje de cierre del ciclo y el link de Teo para la charla de offboarding.",
       "proximo": null,
-      "paso": "Abre la oferta por historias y prospecta en frío cada semana.",
+      "paso": "Agenda el cierre con Teo.",
       "carta": "La carta de Oferta.",
-      "pilar": "Venta",
+      "pilar": "Cierre",
       "pelota": "cliente"
     },
     "jose-david-fajardo": {
@@ -89,10 +89,10 @@
       "pelota": "cliente"
     },
     "sebastian": {
-      "ultimo": "2026-10-29",
-      "que": "28/10: dio el workshop presencial (Juana: «fue mucha gente», con sponsors). 29/10: Juana le marca qué hacer con las historias y las conversaciones abiertas; Seba pregunta cómo sigue el acompañamiento en las semanas de lanzamiento porque no tiene llamada agendada.",
-      "proximo": "2026-10-30",
-      "paso": "Contestarle cómo es el acompañamiento del lanzamiento y darle fecha de 1:1.",
+      "ultimo": "2026-11-02",
+      "que": "2/11: dice que tenía entendido una llamada por semana y que la estrategia le está bajando el engagement; Facu le confirma que lo acompaña en el lanzamiento con más llamadas.",
+      "proximo": "2026-11-03",
+      "paso": "1:1 con Facu hoy 10:00: revisar su contenido y qué cambia esta semana.",
       "carta": "Calendario de lanzamiento activa; después el workshop y la venta B2C.",
       "pilar": "Venta",
       "pelota": "Facu",
