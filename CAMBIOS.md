@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Martes 3 de noviembre
+
+Delfina vendió con la oferta nueva, Lucio entra al cierre y Seba tiene 1:1 hoy.
+
+- **Seba con 1:1 hoy 10:00.** El seguimiento deja de decir «sin próximo paso»: quiere revisar su contenido porque siente que le baja el engagement.
+- **Lucio pasa al pilar Cierre.** Aye le mandó el mensaje de cierre y el link de Teo; la pelota queda en él para agendar.
+- **Ingresos.** Delfina cerró Punto Mercato por ARS 5.500.000; Said tiene 1:1 el viernes 6/11; Santiago Guevara completó los Founder Insights; Marcela mandó su carta a revisión; entra Daniel Urdaneta como Founders Group.
+
+**Para mirar antes de subir:** el seguimiento de Seba y Lucio en el inicio.
+
 ## Jueves 29 de octubre
 
 Las cuatro 1:1 de ayer ya tienen sus cartas listas para revisar, y entraron dos clientes nuevos.
