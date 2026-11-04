@@ -1,0 +1,22 @@
+{
+  "modulo": "icp-mecanismo",
+  "slug": "sofia-guevara",
+  "founder": "Sofía Guevara",
+  "bajada_envio": {
+    "founder": "Sofía",
+    "porque": "En la 1:1 del 28/10 cambió el orden: primero la consultoría creativa, que te da ingresos estables, y Altar pasa a ser tu portfolio en vivo y lo que documentás. La consultoría hoy son trabajos sueltos para clientes que llegan referidos, sin oferta escrita.",
+    "objetivo": "El cliente ideal de tu consultoría creativa escrito en personas concretas, a partir de las consultorías que ya hiciste. Con esto y el producto vas a la reunión con Franco de la semana que viene.",
+    "mindset": "Altar no se apura. Lo que paga Altar es la consultoría, y la consultoría arranca por saber a quién le resolvés qué."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la 1:1",
+      "texto": [
+        "La prioridad es lanzar la consultoría creativa en un mes: cliente ideal, producto, ángulos y un calendario de cuatro a cinco semanas.",
+        "Arranca como programa grupal de ticket bajo para juntar casos, y con esos casos se valida después el 1 a 1.",
+        "Altar va como MVP: diez productos a diez clientas, sin poner más plata tuya. Juntá el material de tus consultorías anteriores para esta carta."
+      ]
+    }
+  ]
+}

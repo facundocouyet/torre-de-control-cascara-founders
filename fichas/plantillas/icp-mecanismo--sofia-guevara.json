@@ -1,22 +1,143 @@
 {
-  "modulo": "icp-mecanismo",
-  "slug": "sofia-guevara",
-  "founder": "Sofía Guevara",
-  "bajada_envio": {
-    "founder": "Sofía",
-    "porque": "En la 1:1 del 28/10 cambió el orden: primero la consultoría creativa, que te da ingresos estables, y Altar pasa a ser tu portfolio en vivo y lo que documentás. La consultoría hoy son trabajos sueltos para clientes que llegan referidos, sin oferta escrita.",
-    "objetivo": "El cliente ideal de tu consultoría creativa escrito en personas concretas, a partir de las consultorías que ya hiciste. Con esto y el producto vas a la reunión con Franco de la semana que viene.",
-    "mindset": "Altar no se apura. Lo que paga Altar es la consultoría, y la consultoría arranca por saber a quién le resolvés qué."
+ "modulo": "icp-mecanismo",
+ "slug": "sofia-guevara",
+ "founder": "Sofía Guevara",
+ "titulo": "Tus consultorías y tu cliente ideal",
+ "bajada": "Juntamos la información con la que se arma tu oferta: lo que ya hiciste con tus clientes, a quién creés que le sirve tu consultoría y el material que vas grabando. Con esto vas a tu llamada de oferta.",
+ "lista_cuando": "Están contadas dos o tres consultorías que diste, tu valor está confirmado con tus palabras y la frase de tu cliente ideal está ajustada.",
+ "por_que_propia": "4/11: la genérica pedía seguidores, clientes que pagaron y frases textuales, y presuponía la llamada de oferta ya hecha. Se ajusta a lo que quedó en la 1:1 del 28/10 (Fathom 197247450): las consultorías como material del producto, el cliente ideal como hipótesis y la tarea de grabarse. Se prellena con lo que ya respondió en sus Founder Insights (Notion), para no pedirle dos veces lo mismo.",
+ "bajada_envio": {
+  "founder": "Sofía",
+  "porque": "En la 1:1 del 28/10 definimos el foco de estos meses: tu consultoría creativa, en formato grupal, con Altar como tu portfolio en vivo. Para armar esa oferta necesitamos juntar la información que solo tenés vos.",
+  "objetivo": "Dos o tres consultorías que ya diste contadas como proceso, tu valor confirmado y la frase de tu cliente ideal ajustada. Con eso vas a tu llamada de oferta.",
+  "mindset": "Escribí como te sale. Lo que importa es lo que hiciste y cómo lo pensás; lo que no tengas claro lo trabajamos en la llamada."
+ },
+ "secciones": [
+  {
+   "cid": 0,
+   "nuestro": true,
+   "titulo": "Cómo estamos armando tu oferta",
+   "texto": [
+    "<b>1. Juntamos la información</b> (esta carta): lo que ya hiciste con tus clientes, a quién creés que le sirve y el material que vas grabando.",
+    "<b>2. Tu llamada de oferta:</b> con esta carta completa definimos el formato de tu consultoría grupal, qué incluye, el precio y los primeros cinco lugares.",
+    "<b>3. Tus ángulos de comunicación:</b> cómo le contás a tu cliente ideal lo que le resolvés.",
+    "<b>4. Tu calendario de lanzamiento:</b> cuatro o cinco semanas, armado con lo que fuiste grabando.",
+    "<b>5. El lanzamiento</b> desde tu Instagram personal, con la meta de vender los primeros cinco lugares.",
+    "Altar sigue en paralelo, con el tiempo que te queda: es tu portfolio y lo que documentás."
+   ]
   },
-  "bloques_inicio": [
-    {
-      "nuestro": true,
-      "titulo": "Lo que quedó de la 1:1",
-      "texto": [
-        "La prioridad es lanzar la consultoría creativa en un mes: cliente ideal, producto, ángulos y un calendario de cuatro a cinco semanas.",
-        "Arranca como programa grupal de ticket bajo para juntar casos, y con esos casos se valida después el 1 a 1.",
-        "Altar va como MVP: diez productos a diez clientas, sin poner más plata tuya. Juntá el material de tus consultorías anteriores para esta carta."
-      ]
-    }
-  ]
+  {
+   "cid": 7,
+   "nuestro": true,
+   "titulo": "Lo que ya nos contaste",
+   "texto": [
+    "Mucho de lo que necesitamos ya lo escribiste en tus Founder Insights. No hace falta que lo repitas: lo usamos tal cual.",
+    "<b>Tu cliente ideal:</b> Luz, 35. Tiene una marca chica de diseño, moda o wellness que arrancó hace dos o tres años. Factura, tiene producto y clientes, pero siente que la marca no termina de ser lo que imaginaba. Hace de todo, vive resolviendo y viene postergando el rediseño hace un año.",
+    "<b>Lo que le duele:</b> su marca no la representa; está en modo supervivencia y no puede crear; pagó un rebranding y no cambió nada; tiene mil ideas y no sabe cuál ejecutar; no sabe cómo se hace lo que imagina.",
+    "<b>Lo que quiere:</b> que su marca se vea como lo que tiene en la cabeza, tener criterio propio y volver a disfrutar.",
+    "<b>Lo que la frena para comprarte:</b> que le impongas tu estilo, que todavía no tengas portfolio visible, que ya pagó un rebranding que no le sirvió, que sea un gasto estético y que la dejes sola para ejecutar.",
+    "<b>Tu consultoría hoy:</b> cuatro semanas, un documento de dirección creativa y dos sesiones de trabajo con la founder."
+   ]
+  },
+  {
+   "cid": 1,
+   "titulo": "Tus consultorías, contadas como proceso",
+   "consigna": "Lo único que no tenemos todavía. Dos o tres consultorías o proyectos donde hiciste dirección creativa para otra persona o marca (Furzai también vale). Acá no importa cuánto cobraste, cómo te llegó el cliente ni si hoy te representa: importa qué hiciste. Para cada una: qué te pidió, qué hiciste paso a paso y con qué se fue. De acá sale el contenido de tu consultoría grupal.",
+   "campo": "tabla",
+   "columnas": [
+    "Para quién (proyecto o rubro)",
+    "Qué te pidió",
+    "Qué hiciste, paso a paso",
+    "Con qué se fue"
+   ],
+   "filas": 3
+  },
+  {
+   "cid": 2,
+   "titulo": "Tu valor",
+   "consigna": "En tus Founder Insights escribiste lo que hacés mejor que la mayoría: ves el proyecto completo y lo traducís en algo material (concepto, universo, producto); leés a las personas, así la dirección creativa que entregás es de ellas y no tuya; y sabés cómo se hacen las cosas con las manos, del taller al material. Mirando las consultorías de arriba: ¿con qué valor se fue cada cliente? ¿Qué te agradecieron o te pidieron que repitas? Confirmá, ajustá o sumá en dos o tres frases.",
+   "campo": "texto",
+   "alto": 5
+  },
+  {
+   "cid": 3,
+   "titulo": "¿Hay otro perfil además de Luz?",
+   "consigna": "Luz ya está escrita. Si ves otro tipo de persona a la que le serviría tu consultoría, sumala acá: quién es, en qué momento está y qué le cuesta hoy. Si Luz es tu cliente, dejalo vacío.",
+   "campo": "tabla",
+   "columnas": [
+    "Quién es",
+    "En qué momento está",
+    "Qué le cuesta hoy"
+   ],
+   "filas": 2
+  },
+  {
+   "cid": 4,
+   "titulo": "Tu cliente ideal, en una frase",
+   "consigna": "Te dejamos una propuesta armada con tus palabras: «Founder de una marca chica de diseño, moda o wellness que ya factura, pero siente que su marca no se parece a lo que imaginaba: vive apagando incendios, decide todo en el momento y ya probó un rebranding que no cambió nada.» Ajustala hasta que suene a vos.",
+   "campo": "texto",
+   "alto": 3
+  },
+  {
+   "cid": 8,
+   "nuestro": true,
+   "titulo": "Por qué te pedimos que te grabes",
+   "texto": [
+    "Tu lanzamiento sale de documentar, más que de crear contenido desde cero. Lo que vivís todos los días con Altar ya es tu trabajo de directora creativa en acción: la sesión de fotos, una reunión, el taller, un molde. Eso muestra tu valor mejor que cualquier explicación, y es lo que después le vas a hacer a tus clientes.",
+    "Mientras armamos el resto del rompecabezas (tu cliente ideal, tu consultoría, los ángulos de comunicación), vos vas juntando material. Cuando lleguemos al calendario de lanzamiento de cuatro o cinco semanas, todo lo que grabaste entra ahí y el lanzamiento queda casi armado.",
+    "También es para que te vayas soltando a cámara. Está bien si después algo no lo usamos: lo que importa es empezar a grabar."
+   ]
+  },
+  {
+   "cid": 5,
+   "titulo": "Lo que grabaste esta semana",
+   "consigna": "Esta semana grabate dos veces, sin guion y sin introducción. Elegí una o dos preguntas y hablá: qué estás viviendo con Altar, qué decisión creativa tomaste y por qué, qué desafío tenés hoy. Sumá lo que ya tengas grabado de Altar (la sesión de fotos, reuniones, el taller). Pegá los links acá. No hace falta editar nada.",
+   "campo": "texto",
+   "alto": 4
+  },
+  {
+   "cid": 6,
+   "nuestro": true,
+   "titulo": "Qué pasa cuando la devolvés",
+   "texto": [
+    "La leemos y agendamos tu llamada de oferta. Ahí definimos el formato de tu consultoría grupal, qué incluye, el precio y cómo vendés los primeros cinco lugares.",
+    "Lo que hoy no tengas claro lo trabajamos en esa llamada."
+   ]
+  }
+ ],
+ "nombre": "Tus consultorías y tu cliente ideal",
+ "cuando": "Cuando ya está definido el foco (tu consultoría creativa en formato grupal) y falta juntar lo que hiciste con tus clientes para armar la oferta.",
+ "pasos": [
+  "Leer «Lo que ya nos contaste» y marcar si algo cambió.",
+  "Contar dos o tres consultorías como proceso: qué te pidieron, qué hiciste y con qué se fue cada cliente.",
+  "Confirmar tu valor mirando esas consultorías.",
+  "Sumar otro perfil si lo ves y ajustar la frase de tu cliente ideal.",
+  "Grabarte dos veces esta semana y pegar los links."
+ ],
+ "tareas": [
+  {
+   "titulo": "Contar dos o tres consultorías como proceso",
+   "semana": 1,
+   "frecuencia": "unica",
+   "descripcion": "Qué te pidieron, qué hiciste paso a paso y con qué se fue cada cliente. Furzai también vale."
+  },
+  {
+   "titulo": "Confirmar tu valor y ajustar la frase de tu cliente ideal",
+   "semana": 1,
+   "frecuencia": "unica",
+   "descripcion": "Ya está escrito con tus palabras; confirmá o corregí."
+  },
+  {
+   "titulo": "Grabarte dos veces y pegar los links",
+   "semana": 1,
+   "frecuencia": "unica",
+   "descripcion": "Sin guion. Es el material de tu calendario de lanzamiento; también vale lo que tengas grabado de Altar."
+  },
+  {
+   "titulo": "Pasar la carta a revisión",
+   "semana": 1,
+   "frecuencia": "unica",
+   "descripcion": ""
+  }
+ ]
 }

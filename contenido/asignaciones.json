@@ -12,7 +12,7 @@
     "pausada": "pausada",
     "completada": "completada"
   },
-  "actualizado": "2026-11-02",
+  "actualizado": "2026-11-04",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
@@ -265,7 +265,7 @@
     "sofia-guevara": {
       "activa": "icp-mecanismo",
       "siguiente": "one-sheeter-oferta",
-      "por_que": "1:1 del 28/10 (Fathom 197247450): primero la consultoría creativa, Altar como portfolio; Facu quedó en asignarle cliente ideal y producto antes de Franco la semana que viene. La versión propia de Altar del 7/10 pasa a _descartadas. 2/11: Facu aprueba; entra con el push.",
+      "por_que": "1:1 del 28/10 (Fathom 197247450): primero la consultoría creativa, Altar como portfolio; Facu quedó en asignarle cliente ideal y producto antes de Franco la semana que viene. La versión propia de Altar del 7/10 pasa a _descartadas. 2/11: Facu aprueba; entra con el push. 4/11: la carta se ajusta para su caso: consultorías como proceso, cliente ideal como hipótesis y grabarse; sale la genérica.",
       "inicio": "2026-11-02"
     },
     "juan-galeano": {

@@ -315,7 +315,7 @@ def construir(m, categoria, pl=None, bajada=None):
     out.append('  <p class="bajada">%s</p>' % ((pl or {}).get("bajada") or m.get("resultado", "")))
     out.append('  <div class="lista">')
     out.append('    <div><div class="et">Cuándo se asigna</div><div class="tx">%s</div></div>'
-               % esc(m.get("para_quien", "")))
+               % esc((pl or {}).get("cuando") or m.get("para_quien", "")))   # la variante puede pisar el cuándo
     if (pl or {}).get("lista_cuando"):
         out.append('    <div><div class="et">Está lista cuando</div><div class="tx">%s</div></div>'
                    % esc(pl["lista_cuando"]))
