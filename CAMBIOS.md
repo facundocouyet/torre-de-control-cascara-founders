@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Miércoles 4 de noviembre
+
+Seba ya tuvo su 1:1, Sofía Galvis pasó a mañana y se sumaron las llamadas de Franco con Camila y con Sol.
+
+- **Seba, después de la 1:1 del 3/11.** La pelota sigue en vos: le debés el calendario revisado con el formato orgánico; lo ven el jueves 5/11 12:00.
+- **Sofía Galvis, Lola y Momentum con fecha mañana.** Sofía movió la 1:1 al jueves 13:15 y llega con los Founder Insights; Lola el jueves 14:00; Momentum con Franco el jueves.
+- **Camila y Santiago Guevara.** Camila suma la llamada de Franco del drop de verano; Santiago reservó la Clarity del jueves 16:00 con otro correo.
+
+**Para mirar antes de subir:** el seguimiento de Sol (pelota pasa a Aye).
+
 ## Martes 3 de noviembre
 
 Delfina vendió con la oferta nueva, Lucio entra al cierre y Seba tiene 1:1 hoy.

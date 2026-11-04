@@ -1,17 +1,17 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-11-03",
+  "actualizado": "2026-11-04",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
-      "ultimo": "2026-10-20",
-      "que": "Ya tuvo la reunión con Franco y pide agendar con Facu esta semana (`#cf-sofia-galvis`, 20/10).",
-      "proximo": null,
-      "paso": "Sistematizar la agencia y documentar procesos; el lanzamiento del programa se pospone. Cierre o extensión al 31/10 (falta confirmar).",
+      "ultimo": "2026-11-04",
+      "que": "Onboarding del recorrido nuevo con Aye el 3/11 (Fathom 199124103): completa los Founder Insights del programa nuevo. Movió la 1:1 con Facu al jue 5/11 13:15.",
+      "proximo": "2026-11-05",
+      "paso": "Clarity con Facu el jue 5/11 13:15, con los Founder Insights completos; después roadmap y Franco.",
       "carta": "Oferta e ICP, que tiene que devolver completas antes de Franco.",
       "pilar": "Oferta",
-      "pelota": "Facu"
+      "pelota": "cliente"
     },
     "bianca-antonini": {
       "ultimo": "2026-10-15",
@@ -89,10 +89,10 @@
       "pelota": "cliente"
     },
     "sebastian": {
-      "ultimo": "2026-11-02",
-      "que": "2/11: dice que tenía entendido una llamada por semana y que la estrategia le está bajando el engagement; Facu le confirma que lo acompaña en el lanzamiento con más llamadas.",
-      "proximo": "2026-11-03",
-      "paso": "1:1 con Facu hoy 10:00: revisar su contenido y qué cambia esta semana.",
+      "ultimo": "2026-11-03",
+      "que": "1:1 con Facu del 3/11 (Fathom 199082153): siente la estrategia genérica y el engagement bajo; Facu explica que busca autoridad para el lanzamiento y el workshop se llenó (140–150 registros, 60 asistentes). El contenido pasa al formato orgánico y conversacional y al ángulo de la psicología del creativo.",
+      "proximo": "2026-11-05",
+      "paso": "Facu le manda el calendario revisado; Seba escribe el guion sobre el miedo a cobrar más y actualiza destacadas. Lo revisan el jue 5/11 12:00.",
       "carta": "Calendario de lanzamiento activa; después el workshop y la venta B2C.",
       "pilar": "Venta",
       "pelota": "Facu",
@@ -102,19 +102,19 @@
       }
     },
     "sol-boutmy": {
-      "ultimo": "2026-10-20",
-      "que": "Federica: vienen bien y piden fecha para la próxima llamada (`#cf-sol-boutmy`, 20/10).",
+      "ultimo": "2026-11-03",
+      "que": "Franco tuvo llamada con Sol el 3/11 (lo dice en `#servicio-founders`). Facu le pidió a Aye perseguirlas por WhatsApp: día 62 de 90, nada cargado en la app.",
       "proximo": null,
-      "paso": "Facu les manda el resumen de la 1:1 y el editing brief; ellas escriben esta semana la oferta y el cliente ideal.",
+      "paso": "Aye: recorrido por la app esta semana, cliente ideal cargado y una sola cuenta; preguntar por la prueba de edición con Clara.",
       "carta": "Cliente ideal y oferta (en revisión).",
       "pilar": "Oferta",
-      "pelota": "Facu"
+      "pelota": "Aye"
     },
     "lola-berutti": {
-      "ultimo": "2026-10-17",
-      "que": "La 1:1 del sábado 17/10 no se hizo; reservó de nuevo para el martes 20/10 10:00 ART.",
-      "proximo": "2026-10-20",
-      "paso": "1:1 con Facu el martes 20/10 10:00 (Facu está volando a Buenos Aires).",
+      "ultimo": "2026-11-02",
+      "que": "Reservó 1:1 con Facu para el jue 5/11 14:00 (encimada con All Areas).",
+      "proximo": "2026-11-05",
+      "paso": "1:1 con Facu el jue 5/11 14:00.",
       "carta": null,
       "pilar": "Venta",
       "pelota": "Facu"
@@ -129,13 +129,13 @@
       "pelota": "Facu"
     },
     "the-momentum-club": {
-      "ultimo": "2026-10-27",
-      "que": "Natalia pide agendar esta semana con Franco y avisa que Daiana no tiene acceso a la app (`#cf-the-momentum-club`, 27/10).",
-      "proximo": "2026-10-30",
-      "paso": "Facu les resetea las cartas y les ordena lo de la 1:1 del 17/10; después aterrizan la oferta del nivel 1 con Franco.",
+      "ultimo": "2026-11-04",
+      "que": "Franco les pregunta si hicieron los avances de la llamada del 29/10; Natalia pregunta si se mantiene la reunión del jue 5/11 16:30 de España (Aye en `#servicio-founders`, 4/11).",
+      "proximo": "2026-11-05",
+      "paso": "Reunión con Franco el jue 5/11 16:30 España (a confirmar por Franco). El reset de cartas sigue en Facu.",
       "carta": "Reset de cartas (Facu).",
       "pilar": "Oferta",
-      "pelota": "Facu",
+      "pelota": "Franco",
       "plata": {
         "fecha": "2027-01-11",
         "que": "Relanzamiento con el nivel 1 en enero (día a definir)."
