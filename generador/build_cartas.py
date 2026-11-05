@@ -97,6 +97,7 @@ textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
 .nuestro p{font-size:18.5px;line-height:1.55;margin:16px 0 0;max-width:62ch}
 .nuestro .devuelta{margin-top:26px;border-top:1px solid #DBD7D2;padding-top:18px}
 .nuestro .devuelta .k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.nuestro .devuelta .pb{font-size:15px;line-height:1.55;color:#6A6A66;margin:8px 0 0}
 
 .entregables{margin-top:26px}
 .cab{border-bottom:2px solid #171717;padding-bottom:12px}
@@ -380,6 +381,8 @@ def construir(m, categoria, pl=None, bajada=None):
                 out.append(s["figura"])
             if s.get("pregunta"):
                 out.append('  <div class="devuelta"><div class="k">%s</div>' % esc(s["pregunta"]))
+                if s.get("pregunta_bajada"):           # la bajada de la pregunta, en una línea abajo
+                    out.append('    <p class="pb">%s</p>' % esc(s["pregunta_bajada"]))
                 out.append(con_campo('    <div class="campo"><textarea data-c="s%s" rows="3"></textarea></div>' % i))
                 out.append('  </div>')
             out.append('</div>')

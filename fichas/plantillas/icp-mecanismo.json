@@ -12,8 +12,9 @@
         "Sirve para arrancar y no para vender. Describe un oficio y un momento, pero todavía no un dolor ni las palabras con las que esa persona lo cuenta. Lo que falta es bajarla a personas concretas, y eso es lo único que no podemos hacer nosotros: el material sale de tu gente.",
         "Cuando devuelvas esto, la próxima llamada audita y confirma en vez de volver a definir. Es la diferencia entre cerrar el cliente ideal de una vez y volver a empezarlo cada quince días."
       ],
-      "pregunta": "Algo de lo que quedó dicho ya no te representa",
-      "cid": 0
+      "pregunta": "¿Hay algo de lo que definimos sobre tu cliente ideal que hoy cambiarías?",
+      "cid": 0,
+      "pregunta_bajada": "Revisá la definición que trabajamos en la llamada comercial. Si hay algo que ya no representa a tu negocio o al cliente al que querés llegar, contanos qué cambiarías y por qué. Si sigue vigente, simplemente indicalo."
     },
     {
       "titulo": "Los perfiles y qué le duele a cada uno",
