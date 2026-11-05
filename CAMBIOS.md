@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Jueves 5 de noviembre
+
+Seguimiento al día de BeMotion, Seba y Mecha.
+
+- **BeMotion pasa a pelota tuya.** Aye las vio el 4/11: sienten zigzag en el día 62 y te piden el calendario de comunicación y los perfiles de editores.
+- **Seba ya tiene el calendario revisado.** Pelota en él hasta la 1:1 de hoy 12:00.
+- **Mecha suma lo de Franco del 4/11.** Lanzamiento del 1 al 10/12 con oferta de entrada.
+
+**Para mirar antes de subir:** el seguimiento de BeMotion.
+
 ## Miércoles 4 de noviembre
 
 Seba ya tuvo su 1:1, Sofía Galvis pasó a mañana y se sumaron las llamadas de Franco con Camila y con Sol.

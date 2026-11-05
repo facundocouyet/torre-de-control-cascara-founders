@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-11-04",
+  "actualizado": "2026-11-05",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -89,26 +89,26 @@
       "pelota": "cliente"
     },
     "sebastian": {
-      "ultimo": "2026-11-03",
-      "que": "1:1 con Facu del 3/11 (Fathom 199082153): siente la estrategia genérica y el engagement bajo; Facu explica que busca autoridad para el lanzamiento y el workshop se llenó (140–150 registros, 60 asistentes). El contenido pasa al formato orgánico y conversacional y al ángulo de la psicología del creativo.",
+      "ultimo": "2026-11-05",
+      "que": "Facu le mandó el calendario revisado en `#cf-sebastian` (5/11 8:37) y el tarifario de edición en Notion (4/11). Por DM (4/11): si enero queda justo, preventa ahora y arranque en febrero, como con Delfi Ferro.",
       "proximo": "2026-11-05",
-      "paso": "Facu le manda el calendario revisado; Seba escribe el guion sobre el miedo a cobrar más y actualiza destacadas. Lo revisan el jue 5/11 12:00.",
+      "paso": "Revisan el calendario y su guion del miedo a cobrar más hoy 12:00.",
       "carta": "Calendario de lanzamiento activa; después el workshop y la venta B2C.",
       "pilar": "Venta",
-      "pelota": "Facu",
+      "pelota": "cliente",
       "plata": {
         "fecha": "2026-10-26",
         "que": "Arranca el lanzamiento de 4 semanas de «Gira la Cámara» (USD 997 los primeros 5)."
       }
     },
     "sol-boutmy": {
-      "ultimo": "2026-11-03",
-      "que": "Franco tuvo llamada con Sol el 3/11 (lo dice en `#servicio-founders`). Facu le pidió a Aye perseguirlas por WhatsApp: día 62 de 90, nada cargado en la app.",
+      "ultimo": "2026-11-04",
+      "que": "Seguimiento con Aye del 4/11 (Fathom 199677336): sienten el recorrido en zigzag y que en el día 62 de 90 siguen definiendo; quedaron en completar el cliente ideal y mandarlo a revisión. Aye pide a Facu lo pendiente del calendario de comunicación y los perfiles de editores, a Franco no duplicar el ICP con los Founder Insights y a Teo evaluar 30 días de extensión (no se les prometió).",
       "proximo": null,
-      "paso": "Aye: recorrido por la app esta semana, cliente ideal cargado y una sola cuenta; preguntar por la prueba de edición con Clara.",
+      "paso": "Sol y Fede: completar el cliente ideal y mandarlo a revisión. Facu: calendario de comunicación y perfiles de editores.",
       "carta": "Cliente ideal y oferta (en revisión).",
       "pilar": "Oferta",
-      "pelota": "Aye"
+      "pelota": "Facu"
     },
     "lola-berutti": {
       "ultimo": "2026-11-02",
