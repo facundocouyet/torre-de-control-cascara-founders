@@ -12,7 +12,7 @@
     "pausada": "pausada",
     "completada": "completada"
   },
-  "actualizado": "2026-11-04",
+  "actualizado": "2026-11-06",
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
@@ -276,6 +276,13 @@
       "despues": [
         "icp-mecanismo"
       ]
+    },
+    "santiago-guevara": {
+      "activa": "pasaporte-digital--santiago-guevara",
+      "siguiente": "icp-mecanismo",
+      "por_que": "Clarity Call del 5/11 (Fathom 200292182): Facu quedó en mandarle el Pasaporte Digital (formulario de identidad de marca personal). La siguiente (ICP) es propuesta del agente con el orden de siempre; la oferta va con Franco la semana que viene.",
+      "inicio": "2026-11-09",
+      "revision": "pendiente"
     }
   },
   "sin_carta": {

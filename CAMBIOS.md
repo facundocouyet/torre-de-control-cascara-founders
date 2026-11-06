@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Viernes 6 de noviembre
+
+Entró la Clarity de Santiago Guevara y se pusieron al día cuatro clientes con las llamadas del jueves.
+
+- **Pasaporte Digital de Santiago Guevara, en revisión.** Versión liviana con lo de la Clarity del 5/11 (techo de 3 clientes, escuela de YouTube, curso en dos niveles). No entra a la app hasta el ok de Facu o Aye.
+- **Seguimiento de Sofía Galvis, Lola, Seba y Momentum.** Sofía pasa a Franco con el programa educativo primero; Lola apunta a febrero con downsell; la 1:1 de Seba pasó al 6/11; Momentum acorta el programa a 4 meses.
+
+**Para mirar antes de subir:** el texto del pasaporte de Santiago.
+
 ## Jueves 5 de noviembre
 
 Seguimiento al día de BeMotion, Seba y Mecha.

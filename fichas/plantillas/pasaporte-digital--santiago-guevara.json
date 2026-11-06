@@ -1,0 +1,25 @@
+{
+  "modulo": "pasaporte-digital",
+  "slug": "santiago-guevara",
+  "founder": "Santiago Guevara",
+  "bajada_envio": {
+    "founder": "Santiago Guevara",
+    "porque": "En la Clarity Call quedó claro dónde está el techo: la dirección creativa de YouTube uno a uno te deja en tres clientes, por más que cobres bien. Lo que viene es pasar de director creativo a empresario de YouTube, con una escuela en español y un programa propio. Para eso tu marca personal tiene que mostrar la autoridad que ya tenés, y eso arranca por tu historia escrita: quién sos, qué te trajo hasta acá y por qué querés formar a otros.",
+    "objetivo": "Tu pasaporte completo y mandado a revisión en tres días. Con eso definimos la narrativa de la marca y el tono del contenido documental que hablamos. En paralelo, juntá la documentación de tu herramienta de IA para la llamada de oferta con Franco de la semana que viene.",
+    "mindset": "La autoridad ya la tenés; falta que se vea. No hace falta que suene perfecto: sirve más cómo lo contás cuando nadie te dirige. Escribilo como te sale, ordenarlo es trabajo nuestro."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó definido en la Clarity Call",
+      "texto": [
+        "Hoy: dirección creativa de YouTube de punta a punta, tres clientes de alto perfil, USD 5.000 por mes en entretenimiento y 7.000 en corporativo. El modelo no pasa de tres clientes.",
+        "Hacia dónde: una escuela de YouTube en español que forme creativos, editores y estrategas, y que además sea cantera para tu propia agencia.",
+        "El producto en dos niveles: un curso de USD 1.500 a 2.000 para conseguir clientes de YouTube y armar el negocio, y un nivel técnico con tu herramienta de IA.",
+        "La marca personal pasa a un estilo documental: mostrar la vida de un director creativo de alto nivel, priorizando el impacto antes que la viralidad.",
+        "Con los clientes, la idea es ir de la tarifa fija al revenue share.",
+        "Facu lleva la marca; Franco, la oferta y el precio. La próxima es con Franco."
+      ]
+    }
+  ]
+}

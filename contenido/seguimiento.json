@@ -1,17 +1,17 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-11-05",
+  "actualizado": "2026-11-06",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
-      "ultimo": "2026-11-04",
-      "que": "Onboarding del recorrido nuevo con Aye el 3/11 (Fathom 199124103): completa los Founder Insights del programa nuevo. Movió la 1:1 con Facu al jue 5/11 13:15.",
-      "proximo": "2026-11-05",
-      "paso": "Clarity con Facu el jue 5/11 13:15, con los Founder Insights completos; después roadmap y Franco.",
-      "carta": "Oferta e ICP, que tiene que devolver completas antes de Franco.",
+      "ultimo": "2026-11-05",
+      "que": "1:1 con Facu del 5/11 (Fathom 200187739): el foco pasa al programa educativo; la agencia queda como fábrica de contenido que financia su marca personal, con un PM para la operación. Reactiva la marca personal con un video de YouTube de su historia. Lanzamiento a mediados de enero o febrero; la primera venta la hace ella.",
+      "proximo": null,
+      "paso": "Llamada con Franco para oferta, precio y calendario del programa; grabar el video de su historia.",
+      "carta": "Oferta, con el feedback de Facu.",
       "pilar": "Oferta",
-      "pelota": "cliente"
+      "pelota": "Franco"
     },
     "bianca-antonini": {
       "ultimo": "2026-10-15",
@@ -90,9 +90,9 @@
     },
     "sebastian": {
       "ultimo": "2026-11-05",
-      "que": "Facu le mandó el calendario revisado en `#cf-sebastian` (5/11 8:37) y el tarifario de edición en Notion (4/11). Por DM (4/11): si enero queda justo, preventa ahora y arranque en febrero, como con Delfi Ferro.",
-      "proximo": "2026-11-05",
-      "paso": "Revisan el calendario y su guion del miedo a cobrar más hoy 12:00.",
+      "que": "Facu le mandó el calendario revisado en `#cf-sebastian` (5/11 8:37) y el tarifario de edición en Notion (4/11). Por DM (4/11): si enero queda justo, preventa ahora y arranque en febrero, como con Delfi Ferro. La 1:1 del 5/11 12:00 pasó a hoy (Facu por DM: «puedo mañana mejor»).",
+      "proximo": "2026-11-06",
+      "paso": "Revisan el calendario y su guion del miedo a cobrar más (1:1 corrida al 6/11, sin hora en el calendario).",
       "carta": "Calendario de lanzamiento activa; después el workshop y la venta B2C.",
       "pilar": "Venta",
       "pelota": "cliente",
@@ -111,13 +111,13 @@
       "pelota": "Facu"
     },
     "lola-berutti": {
-      "ultimo": "2026-11-02",
-      "que": "Reservó 1:1 con Facu para el jue 5/11 14:00 (encimada con All Areas).",
-      "proximo": "2026-11-05",
-      "paso": "1:1 con Facu el jue 5/11 14:00.",
+      "ultimo": "2026-11-05",
+      "que": "1:1 con Facu del 5/11 (Fathom 200224629): vendió 10 cupos del programa de PM; la garantía de 7 pasantías no escala y pasa a un portal de empleo. Próximo lanzamiento en febrero, con embudo de contenido evergreen, el programa actualizado con IA y un downsell de USD 500 (clases grabadas) debajo del de 1.200 a 1.500.",
+      "proximo": null,
+      "paso": "Armar el embudo evergreen y el downsell para el lanzamiento de febrero.",
       "carta": null,
       "pilar": "Venta",
-      "pelota": "Facu"
+      "pelota": "cliente"
     },
     "qualita": {
       "ultimo": "2026-10-29",
@@ -129,13 +129,13 @@
       "pelota": "Facu"
     },
     "the-momentum-club": {
-      "ultimo": "2026-11-04",
-      "que": "Franco les pregunta si hicieron los avances de la llamada del 29/10; Natalia pregunta si se mantiene la reunión del jue 5/11 16:30 de España (Aye en `#servicio-founders`, 4/11).",
-      "proximo": "2026-11-05",
-      "paso": "Reunión con Franco el jue 5/11 16:30 España (a confirmar por Franco). El reset de cartas sigue en Facu.",
+      "ultimo": "2026-11-05",
+      "que": "Con Franco el 5/11 (Fathom 200285093, Israel y Natalia): el programa de artistas pasa de 6 a 4 meses, la venta entra en el mes 3 antes de la colección, una aceleradora de 60 días entre el programa y el mastermind, y una masterclass en vivo de Israel sobre su método de venta para validar y juntar leads.",
+      "proximo": null,
+      "paso": "Masterclass de Israel y ajuste del programa a 4 meses.",
       "carta": "Reset de cartas (Facu).",
       "pilar": "Oferta",
-      "pelota": "Franco",
+      "pelota": "cliente",
       "plata": {
         "fecha": "2027-01-11",
         "que": "Relanzamiento con el nivel 1 en enero (día a definir)."
