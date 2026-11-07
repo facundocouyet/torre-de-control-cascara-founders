@@ -1,4 +1,10 @@
 {
+  "_todas": {
+    "plazo": "Facu, 7/11: las cartas no fijan plazo exacto (ni «en tres días» ni una fecha). El objetivo dice qué tiene que estar completo para la próxima reunión: a cada reunión se llega con las cartas anteriores completas.",
+    "segunda_persona": "Facu, 7/11 (pasaporte de Santiago Guevara como modelo): todo lo que lee el founder va en vos y explica cómo se completa. La versión del founder pisa «cuando» (por qué se la asignamos ahora, en vos) y «pasos» (qué completa, en qué punto de la hoja y cómo, con su caso adentro), y el bloque de lo definido en la llamada va en vos («Hoy hacés…», «Hacia dónde vas…»). Nada de «el founder» ni infinitivos sueltos.",
+    "secciones_que_no_aplican": "Si una sección de la genérica da por hecho algo que en su caso todavía no pasó (por ejemplo, la llamada de oferta), se saca con ajustes {\"<cid>\": {\"ocultar\": true}} y se ajusta el bloque de arranque.",
+    "quien_arma": "Facu, 7/11: la estrategia la arma el founder y Cáscara la direcciona; las hojas son la base para llegar ahí una vez definidos oferta y cliente ideal. Las cartas no dicen que el equipo de Cáscara arma la estrategia."
+  },
   "icp-mecanismo": {
     "personalizar": "La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».",
     "ojo": "Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10). Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."

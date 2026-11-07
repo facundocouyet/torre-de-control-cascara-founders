@@ -28,6 +28,8 @@ for f in glob.glob(os.path.join(PL, "*--*.json")):
 out = ["# Historial de las cartas", "",
        "> Se arma solo con `python3 generador/historial_cartas.py`. Lo de uso y personalización sale de `fichas/plantillas/_uso.json`.",
        "> Regla: la genérica es la base. La versión de cada founder es **liviana** (solo `bajada_envio`, `ajustes` por `cid` y bloques nuestros) y hereda todo lo demás, así un cambio en la genérica le llega a todos. Una versión **propia** (con `secciones`) solo cuando el formulario tiene que ser otro, y lleva `por_que_propia`.", ""]
+if uso.get("_todas"):
+    out += ["## Reglas para todas las cartas", ""] + ["- %s" % v for v in uso["_todas"].values()] + [""]
 for c in inv["categorias"]:
     for m in c["modulos"]:
         mid = m["id"]

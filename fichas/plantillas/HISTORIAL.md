@@ -3,6 +3,13 @@
 > Se arma solo con `python3 generador/historial_cartas.py`. Lo de uso y personalización sale de `fichas/plantillas/_uso.json`.
 > Regla: la genérica es la base. La versión de cada founder es **liviana** (solo `bajada_envio`, `ajustes` por `cid` y bloques nuestros) y hereda todo lo demás, así un cambio en la genérica le llega a todos. Una versión **propia** (con `secciones`) solo cuando el formulario tiene que ser otro, y lleva `por_que_propia`.
 
+## Reglas para todas las cartas
+
+- Facu, 7/11: las cartas no fijan plazo exacto (ni «en tres días» ni una fecha). El objetivo dice qué tiene que estar completo para la próxima reunión: a cada reunión se llega con las cartas anteriores completas.
+- Facu, 7/11 (pasaporte de Santiago Guevara como modelo): todo lo que lee el founder va en vos y explica cómo se completa. La versión del founder pisa «cuando» (por qué se la asignamos ahora, en vos) y «pasos» (qué completa, en qué punto de la hoja y cómo, con su caso adentro), y el bloque de lo definido en la llamada va en vos («Hoy hacés…», «Hacia dónde vas…»). Nada de «el founder» ni infinitivos sueltos.
+- Si una sección de la genérica da por hecho algo que en su caso todavía no pasó (por ejemplo, la llamada de oferta), se saca con ajustes {"<cid>": {"ocultar": true}} y se ajusta el bloque de arranque.
+- Facu, 7/11: la estrategia la arma el founder y Cáscara la direcciona; las hojas son la base para llegar ahí una vez definidos oferta y cliente ideal. Las cartas no dicen que el equipo de Cáscara arma la estrategia.
+
 ## Auditoría de clientes · `auditoria-de-clientes`
 
 - **Cuándo va:** Después de la Clarity Call, antes de la llamada con Franco.
@@ -41,11 +48,11 @@
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10). Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
 - **Versiones:** agostina-marchesini (liviana), camila-basso (propia), daniel-urdaneta (liviana), delfina-corsalini (liviana), juan-galeano (liviana), lara-loiano (liviana), lucila-prieto (liviana), luz-rodriguez-victoria-rios (liviana), marcela-ospital (liviana), marcelo-fernandez (propia), matias-morales (propia), milagros-goico (liviana), naiara-angeloff (liviana), osmo (propia), rosario-sola (propia), said-espinosa (liviana), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia), tomas-visser (liviana)
 - **Últimos cambios:**
+  - 2026-11-07 · 7/11: cliente ideal de Daniel Urdaneta en revisión; BeMotion extiende un mes; 1:1 de Said (`30eab65`)
   - 2026-11-05 · 5/11: carta ICP, nueva pregunta para revisar la definición del cliente ideal (Aye) (`b071065`)
   - 2026-11-04 · 4/11: carta de Sofía Guevara ajustada y prellenada con sus Founder Insights (`14bc58d`)
   - 2026-10-29 · 30/10: Juan Cruz con auditoría (slug de la app), Marcela con su experiencia, devolución de Said, Osmo pasa a proceso comercial (`3c92663`)
   - 2026-10-29 · Corrida 29/10: cartas en revisión para Luz y Victoria, Marcela y Sofía Guevara (1:1 del 28/10); altas de Alejandra Ayala y Gabriel Pacahuala; Qualita pasa al 30/10, Seba pide cómo sigue (`fa2c155`)
-  - 2026-10-26 · Cartas para revisar 26/10: ICP de siete ingresos, proceso comercial y funnel de servicio en lugar de las absorbidas, Profile Funnel de Rosario (`d353b4a`)
 
 ## One-sheeter de la oferta · `one-sheeter-oferta`
 
@@ -531,11 +538,11 @@
 - **Ojo:** Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
 - **Versiones:** aaron-aiello (liviana), camila-basso (propia), rosario-sola (liviana), santiago-guevara (liviana), tomas-visser (liviana)
 - **Últimos cambios:**
+  - 2026-11-07 · Pasaporte: emojis del original, campos más grandes, la hoja como base de la estrategia (`8b3dcc6`)
+  - 2026-11-07 · Pasaporte: emojis e íconos del original, campos más grandes, la estrategia la arma el founder (`70ff79e`)
   - 2026-11-06 · 6/11: pasaporte de Santiago Guevara en revisión; seguimiento de Sofía Galvis, Lola, Seba y Momentum (`06ddd45`)
   - 2026-10-26 · Corrida 26/10: Tomás Visser con Pasaporte en revisión, Agos manda el one-sheeter, Rosario día 30, Santiago Guevara ingresa (`72b262f`)
   - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
-  - 2026-10-21 · Camila: tareas propias en sus dos cartas de narrativa (la de BUCK heredaba las tareas personales del pasaporte) (`59c55ad`)
-  - 2026-10-21 · Camila (21/10): la narrativa se parte en dos. La narrativa de BUCK queda solo con la marca (falta el moodboard) y suma la carta Tu historia y tu marca personal con las preguntas personales del pasaporte. Orden: BUCK, su historia, cliente ideal, ángulos y calendario (`b635169`)
 
 ## Identidad y arco narrativo · `identidad-y-arco-narrativo`
 

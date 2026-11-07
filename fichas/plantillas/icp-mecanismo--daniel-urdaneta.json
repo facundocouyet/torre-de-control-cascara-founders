@@ -4,8 +4,8 @@
   "founder": "Daniel Urdaneta",
   "bajada_envio": {
     "founder": "Daniel Urdaneta",
-    "porque": "En la 1:1 quedó dónde está el problema: tus clientes de Instagram te pagan USD 500 y 600 por mes por un trabajo hecho a mano de punta a punta, y eso no da margen. El paso es vender estrategia y resultados a USD 1.500 a 2.000, y para eso hace falta saber a quién. La hipótesis que salió es profesionales de servicios (abogados, médicos, psicólogos): necesitan clientes y tienen presupuesto para pagar por resultados.",
-    "objetivo": "Tu cliente ideal escrito, con sus dolores de fondo, en tres días. Con eso llegás a la llamada con Franco con una hipótesis concreta de cliente ideal y oferta para que te la baje a tierra.",
+    "porque": "En la 1:1 quedó dónde está el problema: tus clientes de Instagram te pagan USD 500 y 600 por mes por planificación y edición, y eso no da margen. El paso es vender estrategia y resultados a USD 1.500 a 2.000, y para eso hace falta saber a quién. La hipótesis que salió es profesionales de servicios (abogados, contadores, médicos, psicólogos): necesitan clientes y tienen presupuesto para pagar por resultados.",
+    "objetivo": "Tu cliente ideal escrito, con sus dolores de fondo, completo para tu próxima reunión. Es la base de la carta que sigue, la de oferta, y con las dos llegás a Franco con una hipótesis concreta para que te la baje a tierra.",
     "mindset": "Es una hipótesis, no una sentencia: la vas a probar uno o dos meses con contenido para ese nicho. Escribí lo que ya sabés de tus clientes actuales y de los profesionales que conocés, con sus palabras."
   },
   "bloques_inicio": [
@@ -13,13 +13,39 @@
       "nuestro": true,
       "titulo": "Lo que quedó definido en la 1:1",
       "texto": [
-        "Hoy: ghostwriting de LinkedIn para un cliente a USD 1.200 por mes y contenido de Instagram para dos clientes a USD 500 y 600.",
+        "Hoy: ghostwriting de LinkedIn para un cliente a USD 1.200 por mes, y planificación y edición de Instagram para dos clientes a USD 500 y 600.",
         "Hacia dónde: de la ejecución de ticket bajo a la estrategia de USD 1.500 a 2.000 por mes.",
-        "Nicho a probar: profesionales de servicios tradicionales (abogados, médicos, psicólogos).",
+        "Nicho a probar: profesionales de servicios tradicionales (abogados, contadores, médicos, psicólogos). E-commerce y agencias de marketing quedan afuera.",
         "Primero, mejorar el servicio de tus clientes actuales y documentar sus resultados como casos.",
-        "El contenido apunta a los miedos de fondo de ese cliente (que el negocio no crezca), más que a «no sé qué publicar».",
+        "El contenido apunta a los miedos de fondo de ese cliente (que el negocio no crezca), más que a «no sé qué publicar». Y no se frena: los videos que tenés editados salen.",
         "La próxima es con Franco: llegás con la hipótesis de cliente ideal, dolores y oferta."
       ]
     }
-  ]
+  ],
+  "cuando": "Te la asignamos ahora porque, para pasar a vender estrategia a USD 1.500 a 2.000, primero tenés que tener claro a quién le hablás. Todavía no pasaste por la llamada de oferta, así que esta carta la completás con la hipótesis que salió de la 1:1 y con lo que ya sabés de tus clientes.",
+  "pasos": [
+    "Arrancá por los perfiles (punto 02). Tomá el nicho a probar, profesionales que venden servicios (abogados, contadores, médicos, psicólogos), y para cada uno escribí de qué vive hoy, qué le duele de verdad y la pregunta que le harías para que te lo cuente con sus palabras. Pensá en el miedo de fondo (que el negocio no crezca, que no entre plata) más que en «no sé qué publicar».",
+    "Copiá las frases que ya te dijeron (punto 03): comentarios, DMs, mensajes de tus clientes actuales o de profesionales que conocés. Tal cual, sin tocarlas.",
+    "Mirá de dónde vino cada tanda de seguidores (punto 04). Con la serie de contenido de agosto alcanza: separá el video que hizo más vistas del que te trajo clientes.",
+    "Listá los clientes que ya te pagaron (punto 05): los tres de hoy, qué te compró cada uno, cuánto paga y por qué te buscó.",
+    "Escribí tu cliente ideal en una frase (punto 06), como una persona real: ponele nombre y cara. Después, qué le pasa cuando trabaja con vos (punto 07).",
+    "Revisá la frase contra las palabras que juntaste en el paso 2 (punto 08) y cambiá las tuyas por las de ellos. Con eso pasás a la carta de oferta."
+  ],
+  "ajustes": {
+    "0": {
+      "texto": [
+        "Tu caso arranca antes de la llamada de oferta: el a quién todavía es una hipótesis, y esta carta la ordena. Sale de la 1:1: profesionales que venden servicios, que necesitan clientes y tienen presupuesto para pagar por resultados.",
+        "La escalera de valor, la subcategoría y quién queda afuera se definen en la llamada de oferta, así que no están en esta hoja. Vos llegás con el cliente ideal y sus dolores escritos."
+      ]
+    },
+    "6": {
+      "ocultar": true
+    },
+    "7": {
+      "ocultar": true
+    },
+    "8": {
+      "ocultar": true
+    }
+  }
 }

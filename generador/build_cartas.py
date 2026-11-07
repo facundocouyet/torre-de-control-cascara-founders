@@ -524,6 +524,8 @@ if __name__ == "__main__":
             aj = pl.get("ajustes") or {}
             if aj:
                 secs = [dict(x, **aj.get(str(x.get("cid", k)), {})) for k, x in enumerate(secs)]
+                # una sección de la genérica que no aplica a su caso se saca con {"ocultar": true}
+                secs = [x for x in secs if not x.get("ocultar")]
             pl["secciones"] = (list(pl.get("bloques_inicio") or []) + secs
                                + list(pl.get("bloques_final") or []))
         if mid not in meta:
