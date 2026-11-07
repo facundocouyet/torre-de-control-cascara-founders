@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Devolución · Tu programa y tus 90 días</title>
+<style>
+  :root{--tinta:#171717;--papel:#ECEAE4;--papel2:#FBFAF8;--gris:#6A6A66;--gris2:#8E8B85;--tiza:#DBD7D2;--rojo:#FE1414}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--papel);color:var(--tinta);
+    font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;line-height:1.55}
+  .hoja{max-width:860px;margin:0 auto;padding:60px 26px 120px}
+  .caja{display:inline-flex;border:1px solid var(--gris2);padding:6px 12px;font-size:10px;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--gris)}
+  h1{font-size:clamp(38px,6.4vw,62px);font-weight:800;letter-spacing:-.035em;line-height:1.02;
+    margin:26px 0 0;max-width:17ch}
+  .bajada{font-size:19px;line-height:1.55;margin:20px 0 0;max-width:64ch}
+  .lista{margin-top:36px;border-top:1px solid var(--tinta);padding-top:19px;
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px 34px}
+  .lista .et{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2)}
+  .lista .tx{font-size:14.5px;line-height:1.5;margin-top:6px}
+  section{margin-top:58px;border-top:1px solid var(--tiza);padding-top:26px}
+  .n{font-size:10px;letter-spacing:.2em;color:var(--gris2)}
+  h2{font-size:clamp(25px,3.4vw,31px);font-weight:800;letter-spacing:-.028em;line-height:1.16;
+    margin:9px 0 0;max-width:26ch}
+  p{font-size:17px;line-height:1.6;margin:15px 0 0;max-width:66ch}
+  b{font-weight:700}
+  .paso{display:grid;grid-template-columns:44px minmax(0,1fr);gap:18px;
+    padding:17px 0;border-bottom:1px solid var(--tiza);align-items:baseline}
+  .paso:first-of-type{border-top:1px solid var(--tiza)}
+  .paso .k{font-size:22px;font-weight:800;letter-spacing:-.02em;color:var(--gris2)}
+  .paso b{display:block;font-size:17.5px;letter-spacing:-.015em;margin-bottom:5px}
+  .paso span{font-size:15.5px;line-height:1.55;color:var(--gris)}
+  .paso.cta{background:var(--papel2);margin:0 -14px;padding:17px 14px}
+  .paso.cta .k{color:var(--rojo)}
+  .dicho{border-left:3px solid var(--tinta);padding:3px 0 3px 22px;margin-top:26px}
+  .dicho .et{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2)}
+  .dicho p{font-family:"Redaction 10",Redaction,"Times New Roman",Times,serif;
+    font-size:19.5px;line-height:1.5;margin-top:9px}
+  .ojo{border:1px solid var(--tinta);padding:20px 22px;margin-top:28px}
+  .ojo .et{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2)}
+  .ojo p{margin-top:10px;font-size:16.5px}
+  .dos{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:26px;margin-top:26px}
+  .dos>div{border-top:2px solid var(--tinta);padding-top:13px}
+  .dos b{display:block;font-size:16.5px;letter-spacing:-.015em;margin-bottom:7px}
+  .dos p{font-size:15.5px;margin:0;color:var(--gris)}
+  .tabla-w{overflow-x:auto;margin-top:24px}
+  .tabla{width:100%;min-width:620px;border-collapse:collapse;font-size:15px}
+  .tabla th{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);font-weight:400;text-align:left;padding:0 14px 10px 0;border-bottom:1px solid var(--tinta)}
+  .tabla td{padding:13px 14px 13px 0;border-bottom:1px solid var(--tiza);vertical-align:top;line-height:1.5}
+  .tabla td:first-child{font-weight:700;width:20%}
+  .tabla td.hoy{color:var(--gris);width:28%}
+  .hueco{background:var(--papel2);border:1px dashed var(--gris2);padding:0 5px;white-space:nowrap}
+  .meses{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:26px}
+  .mes{background:var(--papel2);border:1px solid var(--tiza);padding:18px 18px 8px}
+  .mes .k{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2)}
+  .mes .t{font-size:19px;font-weight:800;letter-spacing:-.02em;margin-top:6px}
+  .mes ul{list-style:none;margin:12px 0 0;padding:0}
+  .mes li{font-size:14.5px;line-height:1.5;padding:9px 0;border-top:1px solid var(--tiza);color:var(--gris)}
+  .mes li b{color:var(--tinta)}
+  .mes.ahora{border-color:var(--tinta);background:#fff}
+  .mes.ahora .k{color:var(--rojo)}
+  footer{margin-top:66px;border-top:1px solid var(--tinta);padding-top:17px;
+    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gris2)}
+  @media print{body{background:#fff}.hoja{padding:0}section{break-inside:avoid}.tabla{min-width:0}}
+</style>
+</head>
+<body><div class="hoja">
+<div class="caja">Cáscara Founders · Devolución · 7/11</div>
+<h1>Tu programa y tus 90 días</h1>
+<p class="bajada">Sofi, esto es lo que sale de nuestra 1:1 del 5/11, de tu Founder Insights y de las cartas de oferta y cliente ideal que completaste en octubre: hacia dónde va cada parte de tu negocio, qué ajustaríamos de tu oferta antes de la llamada con Franco y tu roadmap hasta el lanzamiento.</p>
+<div class="lista">
+<div><div class="et">El foco</div><div class="tx">Tu programa educativo y tu marca personal. La agencia sigue, con vos como directora.</div></div>
+<div><div class="et">La meta</div><div class="tx">El programa vendido antes de que arranque en febrero, y tu marca personal publicando con un estilo que te guste.</div></div>
+<div><div class="et">Lo que sigue</div><div class="tx">El video de tu historia, un PM para la agencia y la llamada con Franco para cerrar la oferta.</div></div>
+</div>
+
+<section><div class="n">01</div><h2>Lo que decidimos el 5/11</h2>
+<p>Volviste con la agencia duplicada y con ganas de pasar noviembre puliendo procesos. Lo que vimos juntas es que lo que más mueve tu negocio es el programa: te apasiona treinta veces más, factura más que la agencia desde el primer lanzamiento y te saca del día a día.</p>
+<div class="dos">
+<div><b>El programa, primero</b><p>Toda la energía va a la oferta y a tu marca personal. Arranca en febrero y se vende desde ahora, con un grupo que vas nutriendo hasta el inicio.</p></div>
+<div><b>La agencia, como fábrica de contenido</b><p>Pocos clientes que muevan la vara, un PM que lleve la relación con ellos y vos como directora creativa. Además, te produce tu propio contenido y te deja casos para el programa.</p></div>
+<div><b>Una marca paraguas</b><p>El branding que estás cerrando con tu diseñadora es la marca madre, y el programa es lo que comunica. La agencia no se comunica en público: el Founder System lo seguís ofreciendo a quien vos elegís.</p></div>
+<div><b>Vos vendés el primero</b><p>El primer lanzamiento lo cerrás vos, para validar tu poder de venta. Con eso validado, después se suma un closer y vos solo llevás tráfico.</p></div>
+</div>
+<div class="dicho"><div class="et">Facu · 1:1 del 5/11</div><p>El desafío no está en que puedas vender o no. Está en priorizar tu contenido y entender que eso es lo que alimenta todo.</p></div>
+</section>
+
+<section><div class="n">02</div><h2>Tu oferta: lo que está muy bien</h2>
+<p>Leímos tus cartas de oferta y de cliente ideal de octubre junto con tu Founder Insights. Hay mucho material, y lo más valioso es que es tuyo.</p>
+<div class="dos">
+<div><b>Tu diferencial ya tiene nombre</b><p>«Creativos con estructura»: ni artistas sin sostén económico ni ambiciosos que solo piensan en plata. Es una posición clara y es tuya.</p></div>
+<div><b>Tenés una opinión que divide</b><p>«La creatividad sin estructura es mediocridad.» Eso es un título de video y un pilar de contenido. Lo mismo con las creencias que discutís: que vivir de la creatividad es vivir incómodo, o que ambición y libertad no conviven.</p></div>
+<div><b>La demanda ya existe</b><p>Te escriben seguido preguntando cómo empezaste, cómo conseguís clientes y si das asesorías. Diez conversaciones reales en tu carta lo muestran.</p></div>
+<div><b>Tu caso es la prueba</b><p>Pasaste de cero a veinte millones de pesos colombianos por mes en un año y medio, y duplicaste la agencia trabajando menos. Ningún cliente del Founder System se fue en el año.</p></div>
+</div>
+</section>
+
+<section><div class="n">03</div><h2>Tu oferta: lo que ajustaríamos antes de Franco</h2>
+<div class="paso"><div class="k">1</div><div><b>Un solo cliente ideal para el primer grupo</b><span>Hoy describís dos: el dueño de negocio que quiere hacer su contenido sin agencia, y el creativo que quiere vivir de su creatividad (la Sofi de hace unos años). Para el primer lanzamiento elegiría el segundo, el que ya cobra algo por su creatividad (community manager, UGC, editor, estratega) y quiere armar su negocio. Es a quien le hablás en tu propósito y es quien te escribe. El dueño de negocio queda para el Founder System.</span></div></div>
+<div class="paso"><div class="k">2</div><div><b>Un filtro de entrada</b><span>Vos misma lo escribiste: no querés alumnos que no sepan grabar ni de qué hablar, y varias consultas no tenían para pagar. El filtro: mayor de 24, ya monetiza algo con su creatividad y puede pagar el programa. El que todavía no llega, va a tu contenido gratis.</span></div></div>
+<div class="paso"><div class="k">3</div><div><b>Menos temas</b><span>Tu temario tiene seis bloques, entre ellos ads y ventas de e-commerce. Para el primero, quedate con lo que dominás y te piden: oferta y precio, contenido, conseguir clientes y el sistema para sostenerlo. Lo demás puede ser un bonus o la próxima versión.</span></div></div>
+<div class="paso"><div class="k">4</div><div><b>Una promesa que se pueda medir</b><span>«Vivir de tu creatividad» es el deseo, no la promesa. La promesa dice qué tiene resuelto el alumno al final: por ejemplo, su oferta armada, su contenido publicando y sus primeros clientes con precio. El número y el plazo se cierran con Franco.</span></div></div>
+<div class="paso"><div class="k">5</div><div><b>El precio y el pago</b><span>La referencia de la 1:1 es entre USD 1.200 y 1.500 por lugar, para unos diez lugares. Como nadie te pagó todavía el ciclo en un solo pago, armá dos precios: uno con descuento por pago completo y otro en cuotas, con la mitad al entrar.</span></div></div>
+<div class="paso"><div class="k">6</div><div><b>Tu prueba, juntada</b><span>Tenés unos veinte mensajes y audios de clientes en el teléfono. Guardalos en una carpeta y pedí dos o tres testimonios en video. Junto con tu historia, son la prueba del lanzamiento.</span></div></div>
+</section>
+
+<section><div class="n">04</div><h2>Tu agencia, con vos como directora</h2>
+<p>En tu Founder Insights escribiste que si a los 90 días todo valió la pena, la agencia es tu última preocupación y sigue rodando contigo como directora. Para eso no hace falta pasar noviembre en procesos: hace falta una persona.</p>
+<div class="dos">
+<div><b>Un PM</b><p>Que hable con los clientes, cuide las fechas, coordine a los editores y te deje la estrategia. No tiene que ser senior. Lola forma project managers y está buscando agencias para que sus alumnos hagan prácticas: te pasamos perfiles para entrevistar.</p></div>
+<div><b>Los procesos, de a poco</b><p>Los procesos los vas mejorando con el PM adentro, no antes. Para la agencia usá un Notion por cliente, como el tuyo: el SOP <a href="../cartas/sop/os-del-cliente-en-notion.html">El Notion de cada cliente</a> tiene el paso a paso.</p></div>
+<div><b>Los editing briefs</b><p>Lo que pediste del brief de edición y de diseño: Fede lo resolvió en el template del calendario de contenido, que es el que tenés en tu Notion: lo podés replicar con tus formatos.</p></div>
+<div><b>La auditoría de la agencia</b><p>Cuando esté el PM, la volvemos a mirar juntas como la primera vez y marcamos dos o tres cambios. Nada más.</p></div>
+</div>
+</section>
+
+<section><div class="n">05</div><h2>Tu roadmap hasta el lanzamiento</h2>
+<p>Del 2/11 al 31/1. Cada mes tiene un foco; lo que no entra en ese foco, espera.</p>
+<div class="meses">
+<div class="mes ahora"><div class="k">Noviembre</div><div class="t">La marca y la oferta</div><ul>
+<li><b>El video de tu historia</b> en YouTube, sin guion: por qué estás donde estás y qué estás armando.</li>
+<li><b>La marca paraguas</b> lista con tu diseñadora, y tu perfil contando lo que hacés.</li>
+<li><b>La llamada con Franco:</b> oferta, precio, fechas y cómo se lanza.</li>
+<li><b>El PM</b> entrevistado y sumado a la agencia.</li>
+<li><b>Contenido documental</b> tres días por semana: tu proceso de armar el programa.</li>
+</ul></div>
+<div class="mes"><div class="k">Diciembre</div><div class="t">La comunidad</div><ul>
+<li><b>El mastermind en Buenos Aires,</b> 4, 5 y 6 de diciembre: contenido y contactos.</li>
+<li><b>La lista de espera</b> del programa abierta y un grupo que vas nutriendo.</li>
+<li><b>La primera preventa</b> a los que ya te preguntaron.</li>
+<li><b>Tus testimonios</b> en una carpeta, con dos o tres en video.</li>
+</ul></div>
+<div class="mes"><div class="k">Enero</div><div class="t">El lanzamiento</div><ul>
+<li><b>La campaña de lanzamiento</b> con el calendario que armes con Franco.</li>
+<li><b>Las llamadas de venta,</b> las cerrás vos.</li>
+<li><b>Los diez lugares vendidos</b> antes del inicio de febrero.</li>
+<li><b>Tu viaje a la playa,</b> grabado y publicado como parte de la historia.</li>
+</ul></div>
+</div>
+</section>
+
+<section><div class="n">06</div><h2>Próximos pasos</h2>
+<div class="paso cta"><div class="k">1</div><div><b>Esta semana</b><span>Grabá y subí el video de tu historia a YouTube.</span></div></div>
+<div class="paso"><div class="k">2</div><div><b>Esta semana</b><span>Entrevistá los perfiles de PM que te pasamos y elegí uno.</span></div></div>
+<div class="paso"><div class="k">3</div><div><b>Antes de Franco</b><span>Completá en la app la carta de tu oferta: cliente ideal del primer grupo, promesa, recorrido, filtro y precios. Es la única carta de este tramo.</span></div></div>
+<div class="paso"><div class="k">4</div><div><b>La llamada con Franco</b><span>Cierran oferta, precio, fechas y el calendario del lanzamiento. Aye te ayuda a agendarla.</span></div></div>
+<div class="paso"><div class="k">5</div><div><b>Cuando esté el branding</b><span>Cargalo en tu Notion y ordenamos tu perfil con la marca nueva.</span></div></div>
+</section>
+
+<footer><span>Cáscara Founders</span><span>Sofía Galvis · Devolución de Facu · 7/11/2026</span></footer>
+</div></body></html>

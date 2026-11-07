@@ -87,9 +87,10 @@
       "inicio": "2026-10-19"
     },
     "sofia-galvis": {
-      "activa": "angulos-desde-icp--sofia-galvis",
-      "anterior": "completada",
-      "por_que": "Devolvió oferta e ICP el 3/10: siguen los ángulos y, con Franco, el lanzamiento. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: calendario-lanzamiento."
+      "activa": "one-sheeter-oferta--sofia-galvis",
+      "anterior": "pausada",
+      "por_que": "Devolvió oferta e ICP el 3/10: siguen los ángulos y, con Franco, el lanzamiento. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: calendario-lanzamiento. 7/11, Facu: ciclo nuevo 2/11–31/1 (programa educativo + marca personal; agencia con PM). Devolución sofia-galvis-2026-11-07-programa-y-90-dias con el feedback de oferta e ICP y el roadmap; ángulos sigue activa con la bajada nueva. Perfil y calendario de lanzamiento se escriben para ella después de la llamada con Franco. 7/11, Facu: se resetea el proceso. Una sola carta nueva con lo que le falta al programa para cerrarlo con Franco (one-sheeter del ciclo nuevo); ángulos de octubre queda pausada. Después, la estrategia de lanzamiento escrita para ella.",
+      "inicio": "2026-11-09"
     },
     "sol-boutmy": {
       "activa": "icp-mecanismo",

@@ -112,5 +112,59 @@
         "estado": "despues"
       }
     ]
+  },
+  "sofia-galvis": {
+    "objetivo": "Cerrar estos 90 días con tu programa lanzado y los lugares vendidos antes del inicio de febrero, tu marca personal publicando con un estilo que te guste y tu agencia funcionando con un PM y vos como directora.",
+    "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolviste en las anteriores y deja lista la que sigue. Por eso conviene hacerlas en este orden.",
+    "tramo_actual": 0,
+    "tramos": [
+      {
+        "cuando": "Mes 1 · noviembre",
+        "nombre": "La marca y la oferta",
+        "texto": "El video de tu historia, la marca paraguas, la oferta cerrada en la llamada de oferta y un PM en la agencia."
+      },
+      {
+        "cuando": "Mes 2 · diciembre",
+        "nombre": "La comunidad",
+        "texto": "El mastermind en Buenos Aires, la lista de espera y la primera preventa."
+      },
+      {
+        "cuando": "Mes 3 · enero",
+        "nombre": "El lanzamiento",
+        "texto": "La campaña, tus llamadas de venta y los lugares vendidos antes de febrero."
+      }
+    ],
+    "cartas": [
+      {
+        "id": "one-sheeter-oferta",
+        "para_que": "La primera versión de tu oferta, en octubre: el material de tu programa.",
+        "estado": "hecha"
+      },
+      {
+        "id": "icp-mecanismo",
+        "para_que": "Tus dos clientes posibles y las palabras con las que te escriben.",
+        "estado": "hecha"
+      },
+      {
+        "id": "one-sheeter-oferta",
+        "para_que": "Lo que le falta a tu programa para cerrarlo en la llamada de oferta: cliente ideal del primer grupo, promesa, recorrido y precios.",
+        "estado": "ahora"
+      },
+      {
+        "id": "angulos-desde-icp",
+        "para_que": "Tus ángulos de comunicación para el lanzamiento.",
+        "estado": "despues"
+      },
+      {
+        "id": "calendario-lanzamiento",
+        "para_que": "Las semanas de comunicación hasta vender los lugares del programa.",
+        "estado": "despues"
+      },
+      {
+        "id": "profile-funnel",
+        "para_que": "Tu perfil con la marca nueva: tu historia, lo que hacés y dónde anotarse.",
+        "estado": "despues"
+      }
+    ]
   }
 }
