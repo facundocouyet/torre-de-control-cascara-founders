@@ -1,0 +1,42 @@
+{
+ "modulo": "contratar-primer-rol",
+ "slug": "samuel-tarancon",
+ "founder": "Tiago y Samuel (Mecha)",
+ "bajada_envio": {
+  "founder": "Tiago y Samuel (Mecha)",
+  "porque": "En la llamada del 4/11 quedó el lanzamiento de Mecha del 1 al 10 de diciembre, con tres semanas de contenido antes: historias todos los días, el video de su historia y los carruseles. Entre sus dos marcas personales y Mecha, la edición es lo que hoy frena que eso salga, y la búsqueda en Connect to Wall no trajo a nadie.",
+  "objetivo": "Un editor elegido para su próxima reunión, con la búsqueda publicada en historias y una prueba paga hecha, para que el contenido del lanzamiento salga todos los días.",
+  "mindset": "El criterio ya lo tienen: producen para otros a un ritmo que pocos sostienen. Lo que se delega es la edición, no la dirección. El editor ejecuta su brief."
+ },
+ "cuando": "Se la asignamos ahora porque el contenido del lanzamiento arranca ya, y sin editor las historias y las piezas no salen al ritmo que pide la campaña.",
+ "pasos": [
+  "Separen lo que delegan de lo que les queda: de un lado, la edición de historias, reels y carruseles de las dos marcas y de Mecha; del otro, la estrategia, los guiones y la dirección.",
+  "Escriban el rol en media página: cuántas piezas por semana entre las tres cuentas, en qué nivel de edición y a quién le reporta.",
+  "Saquen su número con el tarifario de Cáscara que está en la hoja: piezas por semana, por el valor del nivel, por cuatro. Escriban de qué cliente sale esa plata todos los meses.",
+  "Dupliquen el formulario de editores que está en la hoja y cámbienle el nombre por el de Mecha.",
+  "Escriban sus tres historias y publíquenlas el mismo día, desde Mecha y desde sus dos cuentas, con el link del formulario y la fecha de cierre.",
+  "Elijan dos o tres postulantes y manden una prueba paga con material real del lanzamiento, por ejemplo una secuencia de historias y un reel. El que mejor siga el brief se queda."
+ ],
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que tiene que salir y lo que ya está en marcha",
+   "texto": [
+    "<b>Lo que tiene que salir.</b> El calendario de las tres semanas antes del lanzamiento, del 9 al 30 de noviembre: historias todos los días, el video de su historia como founders, el carrusel del mecanismo de Mecha y el de prueba social, y la documentación del lanzamiento para la comunidad de WhatsApp.",
+    "<b>Lo que ya está en marcha.</b> Publicaron la búsqueda en Connect to Wall y no se postuló nadie. Aye está revisando la comunidad de editores de Cáscara para pasarles perfiles: como su estilo es parecido al nuestro, de ahí puede salir el primero.",
+    "<b>Por qué esta carta igual.</b> Con los perfiles de Aye y su propia búsqueda van a tener de dónde elegir. Esta hoja es para elegir bien: el rol escrito, lo que pueden pagar todos los meses y una prueba paga antes de decidir."
+   ]
+  }
+ ],
+ "ajustes": {
+  "1": {
+   "consigna": "Dos columnas. A la izquierda lo que sale de sus manos: la edición de historias, reels y carruseles de Mecha y de sus dos cuentas. A la derecha lo que se queda con ustedes porque ahí su criterio es el producto: la estrategia, los guiones, la dirección y la relación con los clientes. Tres o cuatro líneas de cada lado alcanzan."
+  },
+  "2": {
+   "consigna": "El propósito del rol en una frase, tres a cinco responsabilidades, cuántas piezas entrega por semana entre las tres cuentas y en qué nivel, y a quién le reporta: a Tiago, a Samuel o a los dos. Media página alcanza."
+  },
+  "7": {
+   "consigna": "Escriban las tres, en orden. Van todas el mismo día, seguidas, desde Mecha y desde sus dos cuentas: una línea de qué muestran en cada una y qué piden. En la tercera va el link del formulario y la fecha de cierre de la convocatoria. Las historias de la búsqueda también son contenido del lanzamiento: muestran que Mecha está creciendo."
+  }
+ }
+}

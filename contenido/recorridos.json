@@ -166,5 +166,49 @@
         "estado": "despues"
       }
     ]
+  },
+  "samuel-tarancon": {
+    "objetivo": "Cerrar los 90 días con Mecha lanzado del 1 al 10 de diciembre, con su oferta de entrada vendida y el contenido saliendo todos los días con un editor en el equipo.",
+    "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolvieron en las anteriores y deja lista la que sigue.",
+    "tramo_actual": 1,
+    "tramos": [
+      {
+        "cuando": "Mes 1 · octubre",
+        "nombre": "La base",
+        "texto": "Sus clientes, sus procesos y el servicio de Mecha."
+      },
+      {
+        "cuando": "Mes 2 · noviembre",
+        "nombre": "El equipo y el contenido",
+        "texto": "Un editor en el equipo y las tres semanas de contenido antes del lanzamiento."
+      },
+      {
+        "cuando": "Mes 3 · diciembre",
+        "nombre": "El lanzamiento",
+        "texto": "Del 1 al 10 de diciembre: el evento digital, la venta pública y la privada."
+      }
+    ],
+    "cartas": [
+      {
+        "id": "auditoria-de-clientes",
+        "para_que": "Sus clientes y su servicio de hoy: la base de la oferta.",
+        "estado": "pausada"
+      },
+      {
+        "id": "contratar-primer-rol",
+        "para_que": "Un editor para que salgan las historias y el contenido del lanzamiento todos los días.",
+        "estado": "ahora"
+      },
+      {
+        "id": "one-sheeter-oferta",
+        "para_que": "La oferta de entrada de Mecha en una hoja, con precio.",
+        "estado": "despues"
+      },
+      {
+        "id": "calendario-lanzamiento",
+        "para_que": "Las tres semanas de contenido y los días de venta del lanzamiento.",
+        "estado": "despues"
+      }
+    ]
   }
 }
