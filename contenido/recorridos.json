@@ -254,5 +254,44 @@
         "estado": "despues"
       }
     ]
+  },
+  "sofia-guevara": {
+    "objetivo": "Cerrar los 90 días con tu consultoría creativa grupal lanzada desde tu Instagram personal y los primeros cinco lugares vendidos, con Altar documentado como tu portfolio en vivo.",
+    "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolviste en las anteriores y deja lista la que sigue. Por eso conviene hacerlas en este orden.",
+    "tramo_actual": 1,
+    "tramos": [
+      {
+        "cuando": "Mes 1 · octubre",
+        "nombre": "El foco",
+        "texto": "Tu consultoría creativa primero, como sostén de todo, y Altar como tu portfolio en vivo, a su ritmo."
+      },
+      {
+        "cuando": "Mes 2 · noviembre",
+        "nombre": "Tu consultoría",
+        "texto": "A quién le sirve, qué formato tiene, qué se lleva cada persona y a qué precio, mientras documentás el lanzamiento de Altar."
+      },
+      {
+        "cuando": "Mes 3 · diciembre",
+        "nombre": "El lanzamiento",
+        "texto": "Tus ángulos y el calendario de cuatro o cinco semanas, armado con lo que grabaste, para vender los primeros cinco lugares."
+      }
+    ],
+    "cartas": [
+      {
+        "id": "icp-mecanismo",
+        "para_que": "Tu cliente ideal y los perfiles a los que les sirve tu consultoría: con eso vas a la llamada de oferta.",
+        "estado": "hecha"
+      },
+      {
+        "id": "angulos-desde-icp",
+        "para_que": "Cómo le contás a tu cliente ideal lo que le resolvés, usando lo que vivís con Altar.",
+        "estado": "sigue"
+      },
+      {
+        "id": "calendario-lanzamiento",
+        "para_que": "Las cuatro o cinco semanas de lanzamiento desde tu Instagram personal, con el material que fuiste grabando.",
+        "estado": "despues"
+      }
+    ]
   }
 }

@@ -221,9 +221,8 @@
       "inicio": "2026-10-29"
     },
     "sofia-guevara": {
-      "activa": "icp-mecanismo",
-      "por_que": "1:1 del 28/10 (Fathom 197247450): primero la consultoría creativa, Altar como portfolio; Facu quedó en asignarle cliente ideal y producto antes de Franco la semana que viene. La versión propia de Altar del 7/10 pasa a _descartadas. 2/11: Facu aprueba; entra con el push. 4/11: la carta se ajusta para su caso: consultorías como proceso, cliente ideal como hipótesis y grabarse; sale la genérica. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta.",
-      "inicio": "2026-11-02"
+      "sin_carta": true,
+      "por_que": "1:1 del 28/10 (Fathom 197247450): primero la consultoría creativa, Altar como portfolio; Facu quedó en asignarle cliente ideal y producto antes de Franco la semana que viene. La versión propia de Altar del 7/10 pasa a _descartadas. 2/11: Facu aprueba; entra con el push. 4/11: la carta se ajusta para su caso: consultorías como proceso, cliente ideal como hipótesis y grabarse; sale la genérica. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta. 7/11, Facu: el 5/11 completó la versión genérica (la ajustada llegó después) y dos perfiles nuevos sirven. No se le pide nada más: la carta se cierra con lo que dio y lo que falta (sus consultorías contadas como proceso, formato y precio) sale en la llamada de oferta. Después, ángulos y calendario de lanzamiento escritos para ella, que junten Altar con la consultoría."
     },
     "juan-galeano": {
       "activa": "auditoria-de-clientes",
