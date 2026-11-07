@@ -9,6 +9,9 @@
 - Facu, 7/11 (pasaporte de Santiago Guevara como modelo): todo lo que lee el founder va en vos y explica cómo se completa. La versión del founder pisa «cuando» (por qué se la asignamos ahora, en vos) y «pasos» (qué completa, en qué punto de la hoja y cómo, con su caso adentro), y el bloque de lo definido en la llamada va en vos («Hoy hacés…», «Hacia dónde vas…»). Nada de «el founder» ni infinitivos sueltos.
 - Si una sección de la genérica da por hecho algo que en su caso todavía no pasó (por ejemplo, la llamada de oferta), se saca con ajustes {"<cid>": {"ocultar": true}} y se ajusta el bloque de arranque.
 - Facu, 7/11: la estrategia la arma el founder y Cáscara la direcciona; las hojas son la base para llegar ahí una vez definidos oferta y cliente ideal. Las cartas no dicen que el equipo de Cáscara arma la estrategia.
+- Facu, 7/11 (probado con Rosario Solá): toda carta de un founder abre con su recorrido, para ubicarlo en tiempo y espacio: el objetivo de sus 90 días, el tramo en el que está y la columna de cartas (hechas, esta, las que siguen), cada una con para qué sirve. Se escribe en contenido/recorridos.json y build_cartas.py lo pone arriba de todas las cartas de ese founder. Cuando se asigna una carta nueva, se actualizan los estados de su recorrido.
+- Facu, 7/11: a ningún cliente le llega una carta genérica, ni activa ni en cola: no le suma y da sensación de poca personalización. Solo se asigna una carta escrita para él (<modulo>--<slug>). Y si en una devolución ya le dimos lo que la carta le pide, la carta se saca. Si se queda sin carta activa, en asignaciones va "sin_carta": true (la activa pasa a completada en la app). sync_cartas.py no manda genéricas y revisar.py avisa si aparece una.
+- Facu, 7/11: el título de una carta es siempre el de la carta (el nombre del módulo en el inventario), también en las versiones de cada founder y en su recorrido. Lo personal va en la bajada, el porqué y los pasos, nunca en el título.
 
 ## Auditoría de clientes · `auditoria-de-clientes`
 
@@ -46,20 +49,20 @@
 - **Cuándo va:** Cuando el comercial ya bajó a quién le vende y falta convertir esa definición en personas concretas con un dolor que se pueda nombrar.
 - **Cómo se personaliza:** La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10). Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
-- **Versiones:** agostina-marchesini (liviana), camila-basso (propia), daniel-urdaneta (liviana), delfina-corsalini (liviana), juan-galeano (liviana), lara-loiano (liviana), lucila-prieto (liviana), luz-rodriguez-victoria-rios (liviana), marcela-ospital (liviana), marcelo-fernandez (propia), matias-morales (propia), milagros-goico (liviana), naiara-angeloff (liviana), osmo (propia), rosario-sola (propia), said-espinosa (liviana), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia), tomas-visser (liviana)
+- **Versiones:** agostina-marchesini (liviana), camila-basso (propia), daniel-urdaneta (liviana), delfina-corsalini (liviana), juan-galeano (liviana), lara-loiano (liviana), lucila-prieto (liviana), luz-rodriguez-victoria-rios (liviana), marcela-ospital (liviana), marcelo-fernandez (propia), matias-morales (propia), milagros-goico (liviana), naiara-angeloff (liviana), osmo (propia), rosario-sola (liviana), said-espinosa (liviana), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia), tomas-visser (liviana)
 - **Últimos cambios:**
+  - 2026-11-07 · Cartas sin plazo exacto y en vos; Daniel Urdaneta: cliente ideal antes de Franco (`0579bf9`)
   - 2026-11-07 · 7/11: cliente ideal de Daniel Urdaneta en revisión; BeMotion extiende un mes; 1:1 de Said (`30eab65`)
   - 2026-11-05 · 5/11: carta ICP, nueva pregunta para revisar la definición del cliente ideal (Aye) (`b071065`)
   - 2026-11-04 · 4/11: carta de Sofía Guevara ajustada y prellenada con sus Founder Insights (`14bc58d`)
   - 2026-10-29 · 30/10: Juan Cruz con auditoría (slug de la app), Marcela con su experiencia, devolución de Said, Osmo pasa a proceso comercial (`3c92663`)
-  - 2026-10-29 · Corrida 29/10: cartas en revisión para Luz y Victoria, Marcela y Sofía Guevara (1:1 del 28/10); altas de Alejandra Ayala y Gabriel Pacahuala; Qualita pasa al 30/10, Seba pide cómo sigue (`fa2c155`)
 
 ## One-sheeter de la oferta · `one-sheeter-oferta`
 
 - **Cuándo va:** Cuando la oferta vive en la cabeza del founder y cada conversación de venta la explica distinto.
 - **Cómo se personaliza:** Forma A (ya vende): la genérica con su bajada. Forma B (lanza algo nuevo o redirecciona): versión propia con preguntas de discovery, que la escribe Franco en su llamada (doc 22).
 - **Ojo:** No se piden horas: el costo se pone en plata (Facu, 4/10). Termina con NOVA y el one-sheeter que arma el founder. Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
-- **Versiones:** agostina-marchesini (liviana), lucio-labate (liviana), matias-morales (propia), rosario-sola (propia), sebastian (propia), sofia-galvis (propia), sol-boutmy (liviana)
+- **Versiones:** agostina-marchesini (liviana), lucio-labate (liviana), matias-morales (propia), rosario-sola (liviana), sebastian (propia), sofia-galvis (propia), sol-boutmy (liviana)
 - **Últimos cambios:**
   - 2026-10-17 · BeMotion: el cliente es la agencia y son Sol y Fede (Facu 17/10). Nombre en ficha, panel y cartas; textos que hablaban solo de Sol pasan a las dos. Profile funnel al día con la 1:1 del 13/10. Editing brief convertido en guía y SOP: tres niveles, niveles de edición con ejemplos, cómo se brifea cada formato con tarjetas reales de Cáscara y Delfi Ferro, referencias con portada de IG (`6309e48`)
   - 2026-10-16 · Rosario: recorrido rehecho sobre la hoja de ruta de Franco (marcas primero). One-pager del Diagnóstico (20/10), propuesta a la marca de infusiones (30/10) y la lista de marcas de 40WA. Devolución en la app con sus cinco puntos. Las versiones de mamás quedan en _descartadas (`4e56459`)
@@ -432,13 +435,13 @@
 ## Contratar a tu editor · `contratar-primer-rol`
 
 - **Cuándo va:** Cuando el founder llegó al techo de sus propias horas y lo que lo ocupa no necesita su criterio, sino su tiempo.
-- **Versiones:** lucila-prieto (liviana), sebastian (liviana), sol-boutmy (liviana)
+- **Versiones:** lucila-prieto (liviana), said-espinosa (liviana), sebastian (liviana), sol-boutmy (liviana)
 - **Últimos cambios:**
+  - 2026-11-07 · Said: devolución de propuestas y entrega del servicio, carta de editor en paralelo (`24fef0a`)
   - 2026-10-17 · BeMotion: el cliente es la agencia y son Sol y Fede (Facu 17/10). Nombre en ficha, panel y cartas; textos que hablaban solo de Sol pasan a las dos. Profile funnel al día con la 1:1 del 13/10. Editing brief convertido en guía y SOP: tres niveles, niveles de edición con ejemplos, cómo se brifea cada formato con tarjetas reales de Cáscara y Delfi Ferro, referencias con portada de IG (`6309e48`)
   - 2026-10-09 · 9/10: lo que Facu prometió en las Clarity y en la 1:1 de Seba, personalizado y en revisión (editores de Lucila, propuesta y onboarding de Said, Profile Funnel y reseteo de Seba) (`8ecffd1`)
   - 2026-10-03 · Seba: las cartas que Facu le prometió el 2/10 (escalera, funnel del cohort, proceso comercial, editor, historias) (`7c23360`)
   - 2026-10-02 · Cartas listas para la app: asignaciones, tareas por semana, calendario de lanzamiento a 4 semanas, 4 hojas nuevas, 6 versiones de cliente, ingresos y lectura de la app (`182c523`)
-  - 2026-09-26 · Sol mandó el esquema de clientes y el formulario de editores pasa al template (`0da652a`)
 
 ## Delegar la producción sin perder calidad · `delegar-produccion`
 
@@ -538,11 +541,11 @@
 - **Ojo:** Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
 - **Versiones:** aaron-aiello (liviana), camila-basso (propia), rosario-sola (liviana), santiago-guevara (liviana), tomas-visser (liviana)
 - **Últimos cambios:**
+  - 2026-11-07 · Cartas sin plazo exacto y en vos; Daniel Urdaneta: cliente ideal antes de Franco (`0579bf9`)
   - 2026-11-07 · Pasaporte: emojis del original, campos más grandes, la hoja como base de la estrategia (`8b3dcc6`)
   - 2026-11-07 · Pasaporte: emojis e íconos del original, campos más grandes, la estrategia la arma el founder (`70ff79e`)
   - 2026-11-06 · 6/11: pasaporte de Santiago Guevara en revisión; seguimiento de Sofía Galvis, Lola, Seba y Momentum (`06ddd45`)
   - 2026-10-26 · Corrida 26/10: Tomás Visser con Pasaporte en revisión, Agos manda el one-sheeter, Rosario día 30, Santiago Guevara ingresa (`72b262f`)
-  - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
 
 ## Identidad y arco narrativo · `identidad-y-arco-narrativo`
 

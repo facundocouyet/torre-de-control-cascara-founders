@@ -4,8 +4,105 @@
  "founder": "Rosario Solá",
  "bajada_envio": {
   "founder": "Rosario Solá",
-  "porque": "En la 1:1 del día 30 quedó la prioridad: el Profile Funnel de tu marca personal, con dos semanas de contenido. Vos sos la experta y 40 Weeks es la comunidad que te valida, así que tu perfil cuenta primero tu historia.",
-  "objetivo": "Tu perfil armado desde tu historia (el video, las destacadas y la bio), listo antes de la llamada con Franco y Fede del viernes 30/10.",
-  "mindset": "Contá con tus palabras la historia que te trajo a trabajar con madres en el postparto. Lo técnico viene después."
- }
+  "porque": "En tu mensaje del 25/10 ordenaste el camino: tu marca personal en @_rosariosola, el programa en @40weeksafter y el Programa Postparto como primer servicio. En la llamada de oferta quedó que el programa se valida con el grupo piloto y que las marcas vienen después. Para que eso funcione, la que llega a tus perfiles tiene que entender en un minuto quién sos, qué ofrecés y dónde anotarse.",
+  "objetivo": "Tus dos perfiles armados para tu próxima reunión: @_rosariosola desde tu historia (el video, las destacadas y la bio) y @40weeksafter como la vidriera del programa, con un solo lugar donde anotarse.",
+  "mindset": "Vos decidís qué parte de tu historia contás y cuándo. Escribila con tus palabras, como se la contarías a una amiga embarazada; lo técnico viene después."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Lo que ya está definido",
+   "texto": [
+    "<b>Tus dos decisiones, contestadas.</b> La estructura está bien: @_rosariosola es tu marca personal y @40weeksafter es el programa y sus experiencias. Y el orden es el programa para madres primero; las marcas llegan cuando tu marca personal y el piloto tengan resultados para mostrar.",
+    "<b>@_rosariosola es el canal principal.</b> Ahí construís la comunidad, conectás con embarazadas y contás cómo estás armando el programa. La comunidad que armás ahí es la que después se anota al programa.",
+    "<b>@40weeksafter es la vidriera.</b> Qué es el programa, cómo funciona, quiénes acompañan y lo que viven las primeras mamás. Más adelante, también los proyectos con marcas.",
+    "<b>El programa arranca con el grupo piloto</b> de cinco embarazadas, y el diseño lo terminás en la llamada de oferta. De ese piloto salen los testimonios de las destacadas.",
+    "<b>El contenido de estas semanas</b> es la serie que hablamos en la llamada de oferta: un voiceover por semana contando lo que avanzaste, lo que decidiste y lo que te costó.",
+    "<b>Con marcas, por ahora, solo la propuesta a Tesabi.</b> El evento de Bukebus pasa a febrero o marzo."
+   ]
+  }
+ ],
+ "cuando": "Te la asignamos ahora porque las dos cuentas ya tienen un rol claro y el piloto está por arrancar: cuando las primeras embarazadas lleguen a tu perfil, tienen que encontrar tu historia y un lugar donde anotarse.",
+ "pasos": [
+  "Arrancá por tu narrativa, en los cuatro movimientos. Usá lo que ya escribiste en el Pasaporte Digital: quién eras, qué aprendiste, el quiebre y qué hacés ahora. Contá lo que quieras contar; en la revisión te marcamos qué ajustar.",
+  "Armá el video de YouTube con esa narrativa entera. Puede ser el primer episodio de la serie, y el CTA del final lleva al mismo lugar que tu bio.",
+  "Ordená las tres destacadas de @_rosariosola: tu historia, el proceso de armar el programa y la validación, con los mensajes de mamás que ya recibiste.",
+  "Escribí la bio de @_rosariosola en tres líneas, con un solo CTA: el lugar donde una embarazada se anota al programa.",
+  "Elegí las tres piezas ancladas, archivá lo que no cuenta esta historia y resolvé lo técnico.",
+  "Pasá a @40weeksafter, en las secciones del final: su bio, sus tres destacadas y cómo se nombran las dos cuentas entre sí.",
+  "Mirá los dos perfiles como alguien de afuera, corregí lo que no se entiende y mandá la carta a revisión."
+ ],
+ "ajustes": {
+  "3": {
+   "consigna": "Tres destacadas en @_rosariosola y en este orden. <b>Historia</b>: fotos y videos de tus cuatro movimientos, para que se vea tu recorrido en 60 segundos. <b>Proceso</b>: cómo estás armando el Programa Postparto, con lo que vas mostrando en la serie semanal. <b>Validación</b>: los mensajes de mamás que te escribieron desde Baby Personal Box y, cuando arranque, lo que digan las del piloto. Para cada una anotá el título que le ponés y qué va adentro. Lo que hoy tenés en destacadas y no entra en estas tres, se archiva."
+  },
+  "4": {
+   "consigna": "Tres líneas y en este orden. La segunda es la más difícil: una sola frase que resuma tu narrativa y tu propósito, sacada del cuarto movimiento (por ejemplo, alrededor de los postpartos felices). La tercera es el CTA: el único lugar donde una embarazada se anota al programa. Es el mismo CTA de @40weeksafter. Leela en voz alta: si suena a marca y no a vos, reescribila."
+  },
+  "8": {
+   "ocultar": true
+  },
+  "9": {
+   "ocultar": true
+  }
+ },
+ "bloques_final": [
+  {
+   "cid": 20,
+   "titulo": "@40weeksafter · la biografía",
+   "consigna": "La bio de la vidriera del programa, en tres líneas. La primera dice qué es 40 Weeks After. La segunda, para quién es y qué resuelve en el postparto. La tercera es el CTA, el mismo lugar donde se anota la que llega desde tu perfil personal.",
+   "campo": "lineas",
+   "lineas": [
+    "Línea 1 · Qué es 40 Weeks After",
+    "Línea 2 · Para quién es y qué resuelve",
+    "Línea 3 · CTA: dónde anotarse (el mismo de tu perfil)"
+   ]
+  },
+  {
+   "cid": 21,
+   "titulo": "@40weeksafter · las destacadas",
+   "consigna": "Tres destacadas que respondan lo que pregunta una embarazada antes de anotarse. <b>El programa</b>: qué es, cuántas semanas dura y qué incluye (las meets con vos, con la psicóloga, la grupal y el grupo de WhatsApp). <b>Quiénes acompañan</b>: vos y las especialistas. <b>Las primeras mamás</b>: lo que vive el grupo piloto; mientras arranca, puede ser la convocatoria. Anotá el título y qué va adentro de cada una.",
+   "campo": "tabla",
+   "columnas": [
+    "Destacada",
+    "El título que le pongo",
+    "Qué va adentro"
+   ],
+   "filas_rotulo": [
+    "1 · El programa",
+    "2 · Quiénes acompañan",
+    "3 · Las primeras mamás"
+   ],
+   "filas": 3
+  },
+  {
+   "cid": 22,
+   "titulo": "Cómo se nombran las dos cuentas",
+   "consigna": "Tu perfil personal nombra a 40 Weeks (en la bio o en la destacada de proceso) y 40 Weeks te nombra a vos como la que está detrás. Anotá dónde menciona cada cuenta a la otra y cuál es el único lugar donde una mamá se anota al programa.",
+   "campo": "texto",
+   "alto": 4,
+   "placeholder": "En @_rosariosola nombro a 40 Weeks en… En @40weeksafter me nombran en… Las dos llevan a…"
+  },
+  {
+   "cid": 23,
+   "titulo": "Miralo como alguien de afuera",
+   "consigna": "Abrí tus dos perfiles desde otra cuenta o sin sesión iniciada y miralos un minuto, como si no te conocieras. Contestá las tres preguntas solo con lo que se ve en la pantalla: quién es, qué ofrece ahora y qué hago si me interesa. Lo que no se entiende en ese minuto es lo que hay que corregir.",
+   "campo": "tabla",
+   "columnas": [
+    "La pregunta",
+    "Qué se entiende en un minuto",
+    "Qué corrijo con eso"
+   ],
+   "filas": 3
+  },
+  {
+   "nuestro": true,
+   "cid": 24,
+   "titulo": "Qué hacemos nosotros con esto",
+   "texto": [
+    "Leemos tu narrativa y los dos perfiles con la hoja al lado y te devolvemos qué ajustar. Las palabras tienen que ser tuyas, porque la que llega después te va a escuchar hablar en el video y tiene que encontrar a la misma persona.",
+    "Y desde acá anotás quién se anota por cada perfil el día que se anota. Con ese registro sabemos qué cuenta trae a las mamás del programa."
+   ]
+  }
+ ]
 }

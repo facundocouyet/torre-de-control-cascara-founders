@@ -70,7 +70,7 @@ for cid, m in MOD.items():
 
 roadmaps = {}
 for slug, a in A.items():
-    if a.get("cerrar") or not a.get("activa"): continue
+    if a.get("cerrar") or a.get("sin_carta") or not a.get("activa"): continue
     c = app.get(slug, {})
     desde = c.get("desde") or a.get("inicio")   # sin ficha: la semana 1 de su primera carta (aprox. la Clarity Call)
     pausa = c.get("pausa") or 0

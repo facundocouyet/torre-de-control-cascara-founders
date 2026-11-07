@@ -16,8 +16,7 @@
   "clientes": {
     "aaron-aiello": {
       "activa": "funnel-de-servicio",
-      "siguiente": "calendario-lanzamiento",
-      "por_que": "La productización del servicio vence el 15/10 y el micro lanzamiento es el 15/11.",
+      "por_que": "La productización del servicio vence el 15/10 y el micro lanzamiento es el 15/11. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: calendario-lanzamiento.",
       "en_paralelo": [
         "profile-funnel"
       ]
@@ -26,13 +25,12 @@
       "activa": "one-sheeter-oferta",
       "siguiente": "icp-mecanismo",
       "despues": [
-        "calendario-lanzamiento",
         "funnel-de-servicio"
       ],
       "en_paralelo": [
         "proceso-comercial"
       ],
-      "por_que": "Reunión con Facu: ya tiene arquitectos consultando y está en llamadas de venta. Orden: oferta, ICP y dolores, fecha del lanzamiento y después el producto con sus ideas. La guía de llamada de venta va ya, en paralelo.",
+      "por_que": "Reunión con Facu: ya tiene arquitectos consultando y está en llamadas de venta. Orden: oferta, ICP y dolores, fecha del lanzamiento y después el producto con sus ideas. La guía de llamada de venta va ya, en paralelo. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: calendario-lanzamiento.",
       "revision": "pendiente"
     },
     "bianca-antonini": {
@@ -41,16 +39,14 @@
     },
     "custom-lab": {
       "activa": "calendario-contenido",
-      "siguiente": "one-sheeter-oferta",
-      "por_que": "El cuello es contenido: las 2 campañas y los 12 ángulos del 18/9 todavía no salieron."
+      "por_que": "El cuello es contenido: las 2 campañas y los 12 ángulos del 18/9 todavía no salieron. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta."
     },
     "jose-david-fajardo": {
       "activa": "proceso-comercial",
-      "siguiente": "one-sheeter-oferta",
       "en_paralelo": [
         "funnel-de-servicio"
       ],
-      "por_que": "Vende bien y cierra en 24 h; le falta escribir la oferta y ordenar la entrega, que hoy le cuesta plata (regala la edición).",
+      "por_que": "Vende bien y cierra en 24 h; le falta escribir la oferta y ordenar la entrega, que hoy le cuesta plata (regala la edición). 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta.",
       "anterior": "completada",
       "revision": "pendiente"
     },
@@ -77,10 +73,9 @@
       "revision": "pendiente"
     },
     "qualita": {
-      "activa": "calendario-lanzamiento",
       "anterior": "completada",
-      "siguiente": "calendario-contenido",
-      "por_que": "Devolvieron ángulos, auditoría comercial y funnel el 2/10; sigue el lanzamiento de cuatro semanas."
+      "por_que": "Devolvieron ángulos, auditoría comercial y funnel el 2/10; sigue el lanzamiento de cuatro semanas. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: calendario-contenido, calendario-lanzamiento (activa).",
+      "sin_carta": true
     },
     "sebastian": {
       "activa": "calendario-lanzamiento--sebastian",
@@ -88,35 +83,25 @@
       "en_paralelo": [
         "profile-funnel--sebastian"
       ],
-      "despues": [
-        "venta-b2c",
-        "venta-de-servicios",
-        "calendario-contenido",
-        "historia-de-origen",
-        "identidad-y-arco-narrativo"
-      ],
-      "por_que": "21/10, 1:1 con Facu: la oferta quedó cruzada y cerrada sobre su documento del 17/10. Activa el calendario de lanzamiento (26/10 al 22/11); sigue el bootcamp de 3 días (16 al 18/11); el Profile Funnel en paralelo (destacadas y video resumen esta semana). Después, la venta B2C para su propia venta y, como plantillas genéricas para que descargue y adapte a su programa, la venta de servicios, el calendario de contenido, la historia de origen e identidad y narrativa. Las de cliente ideal, oferta y ángulos van como link en la devolución, porque en la app se le asignaría su versión personalizada. Sale la escalera de precios.",
+      "por_que": "21/10, 1:1 con Facu: la oferta quedó cruzada y cerrada sobre su documento del 17/10. Activa el calendario de lanzamiento (26/10 al 22/11); sigue el bootcamp de 3 días (16 al 18/11); el Profile Funnel en paralelo (destacadas y video resumen esta semana). Después, la venta B2C para su propia venta y, como plantillas genéricas para que descargue y adapte a su programa, la venta de servicios, el calendario de contenido, la historia de origen e identidad y narrativa. Las de cliente ideal, oferta y ángulos van como link en la devolución, porque en la app se le asignaría su versión personalizada. Sale la escalera de precios. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: venta-b2c, venta-de-servicios, calendario-contenido, historia-de-origen, identidad-y-arco-narrativo.",
       "inicio": "2026-10-19"
     },
     "sofia-galvis": {
       "activa": "angulos-desde-icp--sofia-galvis",
       "anterior": "completada",
-      "siguiente": "calendario-lanzamiento",
-      "por_que": "Devolvió oferta e ICP el 3/10: siguen los ángulos y, con Franco, el lanzamiento."
+      "por_que": "Devolvió oferta e ICP el 3/10: siguen los ángulos y, con Franco, el lanzamiento. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: calendario-lanzamiento."
     },
     "sol-boutmy": {
       "activa": "icp-mecanismo",
-      "siguiente": "calendario-contenido",
       "en_paralelo": [
         "one-sheeter-oferta",
         "proceso-comercial",
         "mi-editing-brief"
       ],
       "despues": [
-        "calendario-lanzamiento",
         "profile-funnel"
       ],
-      "por_que": "1:1 del día 30 (13/10) y Facu (14/10): el B2B queda ordenado con el esqueleto de propuesta (estrategia de 1.500 a 2.000, producción como upsell) y el foco va de lleno al programa B2C de contenido orgánico con workshop de lanzamiento (10 lugares). Cliente ideal y oferta del programa, después el calendario de cuatro semanas del workshop. Contratar el primer rol sale: la edición se resuelve con la prueba de Clara. 17/10: la oferta del programa pasa a ir en paralelo al cliente ideal (Facu pidió las dos para la semana del 13/10), y se suma el editing brief de BeMotion (versión simple del SOP de Cáscara, con referencias) para la prueba con Clara.",
+      "por_que": "1:1 del día 30 (13/10) y Facu (14/10): el B2B queda ordenado con el esqueleto de propuesta (estrategia de 1.500 a 2.000, producción como upsell) y el foco va de lleno al programa B2C de contenido orgánico con workshop de lanzamiento (10 lugares). Cliente ideal y oferta del programa, después el calendario de cuatro semanas del workshop. Contratar el primer rol sale: la edición se resuelve con la prueba de Clara. 17/10: la oferta del programa pasa a ir en paralelo al cliente ideal (Facu pidió las dos para la semana del 13/10), y se suma el editing brief de BeMotion (versión simple del SOP de Cáscara, con referencias) para la prueba con Clara. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: calendario-contenido, calendario-lanzamiento.",
       "inicio": "2026-10-14",
       "revision": "pendiente"
     },
@@ -126,8 +111,7 @@
       "en_paralelo": [
         "icp-mecanismo--the-momentum-club"
       ],
-      "siguiente": "one-sheeter-oferta",
-      "por_que": "Ya lanzaron: el formulario con los números del webinar para que Franco los analice; en cola, oferta e ICP para verlo con él.",
+      "por_que": "Ya lanzaron: el formulario con los números del webinar para que Franco los analice; en cola, oferta e ICP para verlo con él. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta.",
       "revision": "pendiente"
     },
     "scarlett-montilla": {
@@ -135,27 +119,20 @@
       "por_que": "Sign off el 30/9: se cierra en la app."
     },
     "rosario-sola": {
-      "activa": "one-sheeter-oferta--rosario-sola",
-      "en_paralelo": [
-        "profile-funnel"
-      ],
-      "siguiente": "icp-mecanismo--rosario-sola",
-      "por_que": "Hoja de ruta de Franco del 13/10 («las marcas pagan, las mamás prueban»), confirmada por Rosario el 16/10: arranca por las marcas con las fechas. 20/10 one-pager del Diagnóstico, 30/10 propuesta a la marca de infusiones, desde 2/11 dos mini-diagnósticos por semana con la lista de marcas. Facu, 16/10: marcas de EE.UU. en inglés, Fase 1 sin ejecución, precio de lista desde el primer caso, nada gratis a mamás. Devolución rosario-sola-2026-10-16-hoja-de-ruta y llamada con Facu para aterrizar.",
-      "inicio": "2026-10-16",
+      "activa": "profile-funnel--rosario-sola",
+      "inicio": "2026-11-07",
       "anterior": "pausada",
       "despues": [
-        "proceso-comercial"
+        "one-sheeter-oferta--rosario-sola"
       ],
-      "revision": "pendiente"
+      "por_que": "Hoja de ruta de Franco del 13/10 («las marcas pagan, las mamás prueban»), confirmada por Rosario el 16/10: arranca por las marcas con las fechas. 20/10 one-pager del Diagnóstico, 30/10 propuesta a la marca de infusiones, desde 2/11 dos mini-diagnósticos por semana con la lista de marcas. Facu, 16/10: marcas de EE.UU. en inglés, Fase 1 sin ejecución, precio de lista desde el primer caso, nada gratis a mamás. Devolución rosario-sola-2026-10-16-hoja-de-ruta y llamada con Facu para aterrizar. 25/10: Rosario reordena: marca personal en @_rosariosola, el programa en @40weeksafter y el Programa Postparto para madres primero; Facu valida las dos cuentas el 26/10 y Franco el 30/10 (Fathom 198272606): piloto con 5 embarazadas, MVP con Franco, marcas después salvo Tesabi, Bukebus a feb/mar. 7/11: Facu le manda el profile funnel de las dos cuentas; el one-sheeter de marcas queda pausado y se rehace para el programa cuando cierre el MVP. 7/11, Facu: después del perfil, el cliente ideal del programa (la embarazada del piloto), la oferta del Programa Postparto, y con eso los ángulos y la estrategia de contenido del lanzamiento. Las hojas de marcas (ICP y one-pager del Diagnóstico) quedan en _descartadas. Ángulos y estrategia de contenido del lanzamiento quedan en su recorrido como próximas, sin abrir, hasta que se escriban para ella (Facu, 7/11: nunca cartas genéricas).",
+      "siguiente": "icp-mecanismo--rosario-sola"
     },
     "milagros-goico": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 7/10 (Mili y Cande). Orden de Facu (13/10): auditoría, cliente ideal y de ahí la oferta de ticket alto con Franco. En paralelo, delegar la producción con brief (las colaboradoras les suman horas; Facu, 13/10: «les va a servir»). La auditoría sigue activa hasta ver sus respuestas (Facu le preguntó a Teo cómo acceder). (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.)",
+      "por_que": "Clarity Call del 7/10 (Mili y Cande). Orden de Facu (13/10): auditoría, cliente ideal y de ahí la oferta de ticket alto con Franco. En paralelo, delegar la producción con brief (las colaboradoras les suman horas; Facu, 13/10: «les va a servir»). La auditoría sigue activa hasta ver sus respuestas (Facu le preguntó a Teo cómo acceder). (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.) 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta.",
       "inicio": "2026-10-09",
-      "despues": [
-        "one-sheeter-oferta"
-      ],
       "en_paralelo": [
         "delegar-produccion"
       ]
@@ -170,12 +147,8 @@
     "samuel-tarancon": {
       "activa": "auditoria-de-clientes",
       "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 7/10 (Tiago y Samuel). Orden de Facu (13/10): auditoría, cliente ideal, oferta y desde ahí ángulos de comunicación. La auditoría sigue activa hasta ver sus respuestas (Tiago marcó la tarea hecha el 10/10 y en la app no aparecen; Facu le preguntó a Teo cómo acceder). (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.)",
-      "inicio": "2026-10-09",
-      "despues": [
-        "one-sheeter-oferta",
-        "angulos-desde-icp"
-      ]
+      "por_que": "Clarity Call del 7/10 (Tiago y Samuel). Orden de Facu (13/10): auditoría, cliente ideal, oferta y desde ahí ángulos de comunicación. La auditoría sigue activa hasta ver sus respuestas (Tiago marcó la tarea hecha el 10/10 y en la app no aparecen; Facu le preguntó a Teo cómo acceder). (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.) 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta, angulos-desde-icp.",
+      "inicio": "2026-10-09"
     },
     "lucila-prieto": {
       "activa": "auditoria-de-clientes",
@@ -213,33 +186,20 @@
     },
     "osmo": {
       "activa": "proceso-comercial",
-      "siguiente": "calendario-contenido",
-      "despues": [
-        "one-sheeter-oferta"
-      ],
-      "por_que": "Clarity Call del 13/10 (Fathom 192211426). Facu: «les voy a bajar para que me den un poco más de información sobre su servicio, la experiencia con este cliente, que puedan bajar lo que se llama el cliente ideal», y la semana que viene Franco. 16/10, Facu: Osmo va primero, estaban trabadas. Las dos cartas salen juntas (servicio y cliente, cliente ideal), en versión propia porque tienen un solo cliente fijo. Después oferta con Franco y ángulos. 30/10: Facu aprueba «Su servicio y su cliente»; la sesión con Franco del 27/10 (Fathom 196854295) define cliente ideal y escalera (diagnóstico pago, abono Área de Comex Externa, capacitación). Siguen proceso comercial (2 rubros, filtro de 3 preguntas, pipeline, 150 empresas) y calendario de noviembre («Planificá tus importaciones 2027»); el one-sheeter, después de que Franco cierre el precio. ICP y ángulos salen de la fila: los cubrió Franco.",
+      "por_que": "Clarity Call del 13/10 (Fathom 192211426). Facu: «les voy a bajar para que me den un poco más de información sobre su servicio, la experiencia con este cliente, que puedan bajar lo que se llama el cliente ideal», y la semana que viene Franco. 16/10, Facu: Osmo va primero, estaban trabadas. Las dos cartas salen juntas (servicio y cliente, cliente ideal), en versión propia porque tienen un solo cliente fijo. Después oferta con Franco y ángulos. 30/10: Facu aprueba «Su servicio y su cliente»; la sesión con Franco del 27/10 (Fathom 196854295) define cliente ideal y escalera (diagnóstico pago, abono Área de Comex Externa, capacitación). Siguen proceso comercial (2 rubros, filtro de 3 preguntas, pipeline, 150 empresas) y calendario de noviembre («Planificá tus importaciones 2027»); el one-sheeter, después de que Franco cierre el precio. ICP y ángulos salen de la fila: los cubrió Franco. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: calendario-contenido, one-sheeter-oferta.",
       "inicio": "2026-11-02",
       "anterior": "completada"
     },
     "camila-basso": {
       "activa": "identidad-y-arco-narrativo--camila-basso",
       "siguiente": "icp-mecanismo--camila-basso",
-      "despues": [
-        "angulos-desde-icp",
-        "calendario-contenido"
-      ],
-      "por_que": "21/10, llamada con Facu: la narrativa se parte en dos. Activa «La narrativa de BUCK», que quedó solo con la marca (le falta el moodboard); sigue «Tu historia y tu marca personal», con las preguntas personales del pasaporte. Con las dos, Facu le da una devolución de toda la narrativa para trabajar con Juana. Después cliente ideal, ángulos y el calendario de la colección de verano. Grupales: Juana y Fede primero; la de Teo y la de Franco más adelante. 29/10: Facu activó Tu historia desde el admin; BUCK queda en revisión.",
+      "por_que": "21/10, llamada con Facu: la narrativa se parte en dos. Activa «La narrativa de BUCK», que quedó solo con la marca (le falta el moodboard); sigue «Tu historia y tu marca personal», con las preguntas personales del pasaporte. Con las dos, Facu le da una devolución de toda la narrativa para trabajar con Juana. Después cliente ideal, ángulos y el calendario de la colección de verano. Grupales: Juana y Fede primero; la de Teo y la de Franco más adelante. 29/10: Facu activó Tu historia desde el admin; BUCK queda en revisión. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: angulos-desde-icp, calendario-contenido.",
       "inicio": "2026-10-16"
     },
     "marcelo-fernandez": {
       "activa": "auditoria-de-clientes--marcelo-fernandez",
       "siguiente": "icp-mecanismo--marcelo-fernandez",
-      "despues": [
-        "one-sheeter-oferta",
-        "angulos-desde-icp",
-        "calendario-lanzamiento"
-      ],
-      "por_que": "Clarity Call del 15/10 con Marcelo y Lucas (Fathom 193210037). Facu: «primero necesito auditar todo: juntar la base de datos de los clientes, casos de éxito, entender cuál es el cliente ideal»; la próxima llamada es con Franco, que analiza la data. Mes 1 bases y estrategia, después producir y relanzar. La auditoría suma las consultas que no cerraron (la decisión de compra tarda hasta un año) y los casos para mostrar (Crossover, Duki, Chapu).",
+      "por_que": "Clarity Call del 15/10 con Marcelo y Lucas (Fathom 193210037). Facu: «primero necesito auditar todo: juntar la base de datos de los clientes, casos de éxito, entender cuál es el cliente ideal»; la próxima llamada es con Franco, que analiza la data. Mes 1 bases y estrategia, después producir y relanzar. La auditoría suma las consultas que no cerraron (la decisión de compra tarda hasta un año) y los casos para mostrar (Crossover, Duki, Chapu). 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta, angulos-desde-icp, calendario-lanzamiento.",
       "inicio": "2026-10-16"
     },
     "tomas-visser": {
@@ -262,14 +222,12 @@
     },
     "sofia-guevara": {
       "activa": "icp-mecanismo",
-      "siguiente": "one-sheeter-oferta",
-      "por_que": "1:1 del 28/10 (Fathom 197247450): primero la consultoría creativa, Altar como portfolio; Facu quedó en asignarle cliente ideal y producto antes de Franco la semana que viene. La versión propia de Altar del 7/10 pasa a _descartadas. 2/11: Facu aprueba; entra con el push. 4/11: la carta se ajusta para su caso: consultorías como proceso, cliente ideal como hipótesis y grabarse; sale la genérica.",
+      "por_que": "1:1 del 28/10 (Fathom 197247450): primero la consultoría creativa, Altar como portfolio; Facu quedó en asignarle cliente ideal y producto antes de Franco la semana que viene. La versión propia de Altar del 7/10 pasa a _descartadas. 2/11: Facu aprueba; entra con el push. 4/11: la carta se ajusta para su caso: consultorías como proceso, cliente ideal como hipótesis y grabarse; sale la genérica. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta.",
       "inicio": "2026-11-02"
     },
     "juan-galeano": {
       "activa": "auditoria-de-clientes",
-      "siguiente": "one-sheeter-oferta",
-      "por_que": "Clarity Call del 17/10 (Fathom 193715118): Facu quedó en mandarle la auditoría de negocio; con eso Franco define la oferta mínima la semana del 19/10. Después, el ICP. Propuesta del agente: Facu no nombró la carta, va la auditoría simple con sus clientes y los datos de audiencia. 30/10: Facu aprueba la auditoría ajustada a lo que pidió Franco el 27/10 (Fathom 196838128); sigue la hoja de la oferta del programa grupal de 4 semanas. El slug pasa a juan-galeano, que es el de la app (con el anterior el sync no lo asignaba).",
+      "por_que": "Clarity Call del 17/10 (Fathom 193715118): Facu quedó en mandarle la auditoría de negocio; con eso Franco define la oferta mínima la semana del 19/10. Después, el ICP. Propuesta del agente: Facu no nombró la carta, va la auditoría simple con sus clientes y los datos de audiencia. 30/10: Facu aprueba la auditoría ajustada a lo que pidió Franco el 27/10 (Fathom 196838128); sigue la hoja de la oferta del programa grupal de 4 semanas. El slug pasa a juan-galeano, que es el de la app (con el anterior el sync no lo asignaba). 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta.",
       "inicio": "2026-10-30",
       "despues": [
         "icp-mecanismo"
@@ -277,14 +235,12 @@
     },
     "santiago-guevara": {
       "activa": "pasaporte-digital--santiago-guevara",
-      "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 5/11 (Fathom 200292182): Facu quedó en mandarle el Pasaporte Digital (formulario de identidad de marca personal). La siguiente (ICP) es propuesta del agente con el orden de siempre; la oferta va con Franco la semana que viene.",
+      "por_que": "Clarity Call del 5/11 (Fathom 200292182): Facu quedó en mandarle el Pasaporte Digital (formulario de identidad de marca personal). La siguiente (ICP) es propuesta del agente con el orden de siempre; la oferta va con Franco la semana que viene. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: icp-mecanismo.",
       "inicio": "2026-11-09"
     },
     "daniel-urdaneta": {
       "activa": "icp-mecanismo--daniel-urdaneta",
-      "siguiente": "one-sheeter-oferta",
-      "por_que": "1:1 con Facu del 6/11 (Fathom 200535161): Facu quedó en asignarle tareas en la app para armar la hipótesis de cliente ideal y oferta antes de Franco. Orden propuesto por el agente: cliente ideal primero, oferta después.",
+      "por_que": "1:1 con Facu del 6/11 (Fathom 200535161): Facu quedó en asignarle tareas en la app para armar la hipótesis de cliente ideal y oferta antes de Franco. Orden propuesto por el agente: cliente ideal primero, oferta después. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta.",
       "inicio": "2026-11-09"
     }
   },

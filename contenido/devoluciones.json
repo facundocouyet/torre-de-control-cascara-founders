@@ -15,7 +15,7 @@
     {
       "codigo": "rosario-sola-2026-10-16-hoja-de-ruta",
       "cliente_slug": "rosario-sola",
-      "carta": "one-sheeter-oferta--rosario-sola",
+      "carta": "propuesta-comercial--rosario-sola",
       "titulo": "Tus cinco puntos sobre la hoja de ruta",
       "resumen": "Marcas de EE.UU. en inglés, cada cuenta con su rol, la ejecución en la Fase 2, precio de lista desde el primer caso y el producto para mamás en abril.",
       "fecha": "2026-10-16",
@@ -99,6 +99,17 @@
       "dada_por": "Facu",
       "archivo": "cartas/sop/os-del-cliente-en-notion.html",
       "contenido": "**Tu molde:** duplicá el OS que te compartimos (tres puntos → Duplicar), movelo a tu workspace, ponele tu marca y dejalo limpio: sin tarjetas de ejemplo, con las propiedades, los estados y la plantilla de la tarjeta. Ese molde se usa solamente para duplicar.\n\n**Un OS por cliente:** de tu molde sale «[Cliente] · OS». Cargás OnBoarding, Agenda, Administración, la estrategia en Contenido y el primer mes en el calendario, y lo compartís con el cliente con permiso para comentar.\n\n**Reacomodalo según lo que vendiste:** el recorrido de estados es el mismo; cambia cuáles usás y quién mueve cada uno. En Formato quedan solo las piezas que ese cliente compró.\n\n**Para LIORA:** «LIORA · OS» con la encuesta y el cliente ideal en OnBoarding, las sesiones en Agenda, la propuesta de MXN 44.000 y los pagos en Administración, el concepto en dos etapas en Contenido, y las tres piezas del espionaje (cámara oculta, expediente y la revelación) como las primeras tarjetas en Guionar.\n\nEl paso a paso completo está en el documento."
+    },
+    {
+      "codigo": "delfina-corsalini-2026-11-07-entregables-mercato",
+      "cliente_slug": "delfina-corsalini",
+      "carta": "auditoria-de-clientes--delfina-corsalini",
+      "titulo": "Los entregables de Mercato",
+      "resumen": "Lo que está muy bien en la propuesta que vendiste, lo que le falta, cómo se escribe cada entregable con cantidades, el punto B con tres números y lo que va por escrito antes de arrancar.",
+      "fecha": "2026-11-07",
+      "dada_por": "Facu",
+      "archivo": "devoluciones/delfina-corsalini-2026-11-07-entregables-mercato.html",
+      "contenido": "**Lo que está muy bien:** vendiste un ciclo de 3 meses por $5.500.000 con la estructura que armamos: punto A, auditoría con precio propio, estrategia, ejecución y cierre con continuidad. Que la estrategia arranque por a quién le vende cada local es exactamente el orden.\n\n**Lo que le falta:** el total de la propuesta dice $5.000.000 y cerraste en $5.500.000; solo la auditoría tiene precio; el punto B no tiene números; los entregables dicen qué pero no cuánto; y falta lo que queda afuera (pauta, merch, costos del evento) y las reglas del servicio (rondas, aprobación, pago, si se corre la apertura).\n\n**Cómo se escribe un entregable:** qué es, cuánto, cuándo, quién hace qué y cómo se aprueba. En el documento está la tabla de Mercato entregable por entregable con los huecos para completar.\n\n**El punto B:** miembros fundadores antes de la apertura, gente en la apertura y clientes que vuelven en los 30 días siguientes.\n\n**Próximo paso:** completar los huecos con lo que hablaste en la llamada y mandarle a la dueña la versión final como alcance acordado, para que la confirme antes de la semana 1."
     }
   ]
 }

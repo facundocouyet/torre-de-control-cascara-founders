@@ -1,0 +1,67 @@
+{
+  "_regla": "Facu, 7/11: toda carta de un founder abre con su recorrido, para ubicarlo en tiempo y espacio. El objetivo de sus 90 días, en qué tramo está y la columna de cartas (hechas, esta, las que siguen), cada una con para qué sirve. Una entrada por slug; build_cartas.py lo pone arriba de todas sus cartas y marca sola la que se está armando. Estados: hecha, pausada, ahora, sigue, despues. Sin fechas de entrega: los tramos dicen en qué momento del proceso está, no para cuándo.",
+  "rosario-sola": {
+    "objetivo": "Cerrar los 90 días con el Programa Postparto validado: el grupo piloto de cinco embarazadas acompañado y pagando su lugar, sus primeros testimonios, y tu marca personal contando todo el proceso.",
+    "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolviste en las anteriores y deja lista la que sigue. Por eso conviene hacerlas en este orden.",
+    "tramo_actual": 1,
+    "tramos": [
+      {
+        "cuando": "Mes 1 · septiembre y octubre",
+        "nombre": "La base",
+        "texto": "Tu historia, tu visión y la estructura: tu marca personal, 40 Weeks y el programa."
+      },
+      {
+        "cuando": "Mes 2 · noviembre",
+        "nombre": "La vidriera y la oferta",
+        "texto": "Tus perfiles cuentan quién sos, y el programa tiene cliente ideal, forma y precio."
+      },
+      {
+        "cuando": "Mes 3 · diciembre",
+        "nombre": "El piloto",
+        "texto": "Comunicás el lanzamiento, vendés los cinco lugares y arrancás con las primeras mamás."
+      }
+    ],
+    "cartas": [
+      {
+        "id": "pasaporte-digital",
+        "para_que": "Tu historia y tu identidad escritas: de ahí sale todo lo que contás.",
+        "estado": "hecha"
+      },
+      {
+        "id": "propuesta-comercial",
+        "para_que": "La propuesta de valor para marcas. Queda lista para cuando vuelvan, después del piloto.",
+        "estado": "hecha"
+      },
+      {
+        "id": "one-sheeter-oferta",
+        "para_que": "En pausa: primero va el programa para madres y las marcas llegan con sus resultados.",
+        "estado": "pausada"
+      },
+      {
+        "id": "profile-funnel",
+        "para_que": "Tus dos cuentas ordenadas: la que llega entiende quién sos, qué ofrecés y dónde anotarse.",
+        "estado": "ahora"
+      },
+      {
+        "id": "icp-mecanismo",
+        "para_que": "Tu cliente ideal del programa: qué le pasa en el postparto, qué teme y qué la hace decir que sí.",
+        "estado": "sigue"
+      },
+      {
+        "id": "one-sheeter-oferta",
+        "para_que": "La oferta del programa: qué incluye, cuánto dura, las microvictorias de cada etapa y el precio del piloto.",
+        "estado": "despues"
+      },
+      {
+        "id": "angulos-desde-icp",
+        "para_que": "De qué hablás en tu contenido para que lleguen las embarazadas que buscás, sacado de lo que les preocupa.",
+        "estado": "despues"
+      },
+      {
+        "id": "calendario-lanzamiento",
+        "para_que": "Las semanas de comunicación hasta abrir los cinco lugares del piloto, pieza por pieza.",
+        "estado": "despues"
+      }
+    ]
+  }
+}

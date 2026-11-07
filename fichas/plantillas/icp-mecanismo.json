@@ -38,18 +38,14 @@
       "cid": 3
     },
     {
-      "titulo": "De dónde vino cada tanda de seguidores",
-      "consigna": "Separá la pieza que hizo más vistas de la que trajo más seguidores. Casi nunca son la misma, y la segunda es la que te está marcando el segmento que paga. Con dos o tres piezas alcanza para ver el patrón.",
+      "cid": 13,
+      "titulo": "Tu audiencia, en capturas",
+      "consigna": "No hace falta que lo analices vos: mandanos capturas de las estadísticas de tu cuenta y las leemos con vos. En Instagram entrás a <b>Panel profesional → Estadísticas</b> y elegís los últimos 90 días. Sacá estas cuatro: <b>1)</b> tus seguidores: ubicaciones, edad y género. <b>2)</b> las cuentas alcanzadas, con el contenido que más alcance tuvo. <b>3)</b> la publicación que más seguidores te trajo (en cada publicación, «Ver estadísticas»). <b>4)</b> los días y horarios en que tus seguidores están más activos. Subilas a una carpeta de Drive y pegá el link acá. Si usás otra red además de Instagram, sumá las mismas de esa.",
       "campo": "lineas",
       "lineas": [
-        "Seguidores hoy",
-        "Mediana de vistas",
-        "La pieza de más vistas",
-        "Qué gente trajo",
-        "La pieza que más seguidores trajo",
-        "Qué gente trajo"
-      ],
-      "cid": 4
+        "Link a la carpeta con las capturas",
+        "Lo que más te sorprendió al verlas"
+      ]
     },
     {
       "titulo": "Los clientes que ya te pagaron",

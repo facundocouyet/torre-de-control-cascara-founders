@@ -248,7 +248,24 @@ def revisar_variantes():
             ojo('%s pide horas en una carta de oferta o precio' % os.path.basename(f)[:-5])
 
 
-for fn in (revisar_variantes, revisar_cartas, revisar_inventario, revisar_entregas, revisar_materiales,
+def revisar_genericas():
+    """Facu, 7/11: a ningún cliente le llega una carta genérica. Avisa cuáles de las asignadas
+    todavía no están escritas para ese cliente (la activa, o en la cola, que no entra a la app)."""
+    a = cargar(os.path.join('contenido', 'asignaciones.json'))
+    falta = {}
+    for slug, x in (a.get('clientes') or {}).items():
+        if not isinstance(x, dict) or x.get('cerrar') or x.get('sin_carta'): continue
+        def lista(v): return [v] if isinstance(v, str) else list(v or [])
+        for k in ('activa', 'siguiente', 'en_paralelo', 'despues'):
+            for cod in lista(x.get(k)):
+                if '--' in cod: continue
+                if not os.path.exists(R('fichas', 'plantillas', '%s--%s.json' % (cod, slug))):
+                    falta.setdefault(slug, []).append(('%s (activa)' % cod) if k == 'activa' else cod)
+    for slug, cods in falta.items():
+        ojo('%s tiene cartas sin escribir para él: %s' % (slug, ', '.join(cods)))
+
+
+for fn in (revisar_genericas, revisar_variantes, revisar_cartas, revisar_inventario, revisar_entregas, revisar_materiales,
            revisar_voz, revisar_cuentas, revisar_seguimiento, revisar_niveles):
     try: fn()
     except Exception as e: mal('%s reventó: %s' % (fn.__name__, e))

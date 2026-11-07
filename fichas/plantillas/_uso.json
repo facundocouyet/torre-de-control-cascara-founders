@@ -1,191 +1,194 @@
 {
-  "_todas": {
-    "plazo": "Facu, 7/11: las cartas no fijan plazo exacto (ni «en tres días» ni una fecha). El objetivo dice qué tiene que estar completo para la próxima reunión: a cada reunión se llega con las cartas anteriores completas.",
-    "segunda_persona": "Facu, 7/11 (pasaporte de Santiago Guevara como modelo): todo lo que lee el founder va en vos y explica cómo se completa. La versión del founder pisa «cuando» (por qué se la asignamos ahora, en vos) y «pasos» (qué completa, en qué punto de la hoja y cómo, con su caso adentro), y el bloque de lo definido en la llamada va en vos («Hoy hacés…», «Hacia dónde vas…»). Nada de «el founder» ni infinitivos sueltos.",
-    "secciones_que_no_aplican": "Si una sección de la genérica da por hecho algo que en su caso todavía no pasó (por ejemplo, la llamada de oferta), se saca con ajustes {\"<cid>\": {\"ocultar\": true}} y se ajusta el bloque de arranque.",
-    "quien_arma": "Facu, 7/11: la estrategia la arma el founder y Cáscara la direcciona; las hojas son la base para llegar ahí una vez definidos oferta y cliente ideal. Las cartas no dicen que el equipo de Cáscara arma la estrategia."
-  },
-  "icp-mecanismo": {
-    "personalizar": "La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».",
-    "ojo": "Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10). Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
-  },
-  "one-sheeter-oferta": {
-    "personalizar": "Forma A (ya vende): la genérica con su bajada. Forma B (lanza algo nuevo o redirecciona): versión propia con preguntas de discovery, que la escribe Franco en su llamada (doc 22).",
-    "ojo": "No se piden horas: el costo se pone en plata (Facu, 4/10). Termina con NOVA y el one-sheeter que arma el founder. Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
-  },
-  "precio-escalera": {
-    "personalizar": "La bajada con lo que cobra hoy y lo que se movió con Franco.",
-    "ojo": "Va después de oferta e ICP, nunca antes. No pide horas: el costo en plata (Facu, 4/10)."
-  },
-  "resultados-lanzamiento": {
-    "cuando": "Apenas cierra un lanzamiento (webinar, workshop o bootcamp), antes de rehacer la oferta con Franco.",
-    "personalizar": "La bajada con los números que ya se conocen del lanzamiento, para que vea que lo seguimos.",
-    "ojo": "Es un formulario: se completa en uno o dos días."
-  },
-  "llamada-de-venta": {
-    "personalizar": "Bajada con en qué tramo de la llamada se le cae la venta.",
-    "ojo": "La versión de Agostina trae su propia guía de seis partes en bloques_inicio y queda arriba del guion nuevo: revisar si se recorta (falta confirmar).",
-    "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Las secciones siguen los ocho tramos y las preguntas del «Guion de Venta Cáscara Founders» de Franco (6/10), pasados a un founder que vende su servicio; los ocho reframes van como bloque nuestro para la planilla de objeciones, y se suman la objeción de pareja o socio y el seguimiento por WhatsApp de 24 a 48 h. Sin precios de Cáscara y sin la referencia al script de F3. Los cid 0 a 8 conservan su tema; lo nuevo entra con cid 9 a 14 y la planilla de objeciones suma la columna del reframe al final."
-  },
-  "handraisers-historias": {
-    "ojo": "Es más SOP que carta: no se manda como carta suelta. Carta = SOP + formulario + accionables (Facu, 3/10)."
-  },
-  "angulos-desde-icp": {
-    "cuando": "Después del ICP devuelto: sale de sus dolores y preguntas textuales.",
-    "personalizar": "Bajada con lo que ya escribió en el ICP; las cartas de contenido llevan referencias y capturas reales (Facu, 3/10)."
-  },
-  "setter-closer": {
-    "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Entra el seguimiento por WhatsApp de 24 a 48 h del guion de Franco (6/10): en el scope del rol (cid 2) y como sección nueva con cid 8, antes de las primeras diez llamadas."
-  },
-  "calendario-lanzamiento": {
-    "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. El «Calendario de Historias de Lanzamiento» de Franco (6/10) entra como ejemplo: la consigna del día por día (cid 3) pide el CTA de cada día y un rol por día, y al final va un bloque nuestro (cid 8) con los 28 días, el evento del 15 al 19, la venta del 17 al 23 y las palabras clave por DM. Ningún cid existente cambió."
-  },
-  "mi-editing-brief": {
-    "cuando": "Mes 2, antes de delegar la producción: cuando el founder ya tiene oferta y calendario y le pasa (o ya le pasó) la edición a otra persona.",
-    "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Carta nueva a partir de «Calendarios y Editing Brief Cáscara» de Segundo (6/10): los pasos de la oferta a la tarjeta del editor, qué lleva el brief (objetivo, referencias, ritmo, tipografía, música, entregable y deadline), un caso resuelto anonimizado y la prueba con un brief real y sus vueltas contadas. Dueño en el reparto de cards: Fede."
-  },
-  "profile-funnel": {
-    "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
-  },
-  "landing-que-convierte": {
-    "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
-  },
-  "identidad-y-arco-narrativo": {
-    "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
-  },
-  "pasaporte-digital": {
-    "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
-  },
-  "calendario-en-notion": {
-    "cuando": "Cuando el founder ya sabe qué publicar y necesita el sistema para sostenerlo: junto con el calendario de contenido o de lanzamiento, y antes de sumar un editor.",
-    "criterio": "17/10 · Facu pidió el SOP del calendario de Notion de Cáscara para los founders, con el formato de la guía del editing brief (tarjetas tipo Notion, interactivas). Sale del calendario real de Cáscara y de la medición del calendario de un cliente. Dueño en el reparto de cards: Fede."
-  },
-  "preparar-direccion-creativa": {
-    "cuando": "Antes de tu sesión 1:1 de Dirección Creativa, después de completar el Founder Insights.",
-    "criterio": "17/10 · Carta 01 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "auditoria-creativa": {
-    "cuando": "Al inicio del programa y cada vez que sientas que tu contenido «no te representa».",
-    "criterio": "17/10 · Carta 02 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. La versión de Juana pedía preguntarle a 3 personas de afuera; se reemplazó por la lectura en la grupal (las cartas no le piden al founder que le escriba a nadie)."
-  },
-  "estetica-y-estrategia": {
-    "cuando": "Cuando cambiás de oferta o de cliente ideal, o cuando tu estética no acompaña tu nuevo precio.",
-    "criterio": "17/10 · Carta 03 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "caballo-de-troya": {
-    "cuando": "Si tu sector es formal o muy uniforme y querés diferenciarte sin parecer poco serio.",
-    "criterio": "17/10 · Carta 04 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "kit-de-identidad": {
-    "cuando": "Antes de delegar edición o diseño, o si cada pieza te sale distinta.",
-    "criterio": "17/10 · Carta 05 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "moodboard-estrategico": {
-    "cuando": "Antes de una campaña, un shooting, un rebranding o una serie de contenido.",
-    "criterio": "17/10 · Carta 06 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "founder-cara-de-marca": {
-    "cuando": "Cuando tu marca personal es parte de la estrategia (casi siempre lo es).",
-    "criterio": "17/10 · Carta 07 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "miedo-a-la-camara": {
-    "cuando": "Si sabés que tenés que aparecer pero cada vez lo postergás.",
-    "criterio": "17/10 · Carta 08 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "research-semanal": {
-    "cuando": "Siempre. Es la base de todas las demás cartas de ideas.",
-    "criterio": "17/10 · Carta 09 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "escribir-un-guion": {
-    "cuando": "En tu día de escritura, o cada vez que tengas una observación que vale la pena.",
-    "criterio": "17/10 · Carta 10 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "primeros-cinco-segundos": {
-    "cuando": "En cada pieza. Es lo primero que se revisa de un guion.",
-    "criterio": "17/10 · Carta 11 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "clientes-en-historia": {
-    "cuando": "En cada proyecto con un cliente.",
-    "criterio": "17/10 · Carta 12 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "estructura-de-caso": {
-    "cuando": "Cuando terminás un proyecto o llegás a un resultado intermedio que vale la pena contar.",
-    "criterio": "17/10 · Carta 13 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. Duplica caso-documentado: Facu decide cuál queda."
-  },
-  "historia-de-origen": {
-    "cuando": "Al lanzar o relanzar tu marca, o cuando sumás una oferta nueva.",
-    "criterio": "17/10 · Carta 14 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "formatos-poco-esfuerzo": {
-    "cuando": "Para sostener la constancia en semanas cargadas.",
-    "criterio": "17/10 · Carta 15 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. Duplica formato-barato: Facu decide cuál queda."
-  },
-  "formatos-de-ficcion": {
-    "cuando": "Cuando tu mensaje es repetido o técnico y necesitás otra forma de entrarle.",
-    "criterio": "17/10 · Carta 16 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "inventar-cuando-no-pasa-nada": {
-    "cuando": "Cuando no hay lanzamientos, clientes nuevos ni nada «para contar».",
-    "criterio": "17/10 · Carta 17 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "casos-desde-tu-disciplina": {
-    "cuando": "Al lanzar una oferta nueva, al cambiar de rubro o cuando tus clientes piden confidencialidad.",
-    "criterio": "17/10 · Carta 18 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "bloqueo-creativo": {
-    "cuando": "Cuando pasan días sin publicar y cada idea te parece mala.",
-    "criterio": "17/10 · Carta 19 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "brief-para-tu-editor": {
-    "cuando": "Cada vez que mandás material a editar.",
-    "criterio": "17/10 · Carta 20 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. Duplica mi-editing-brief: Facu decide cuál queda."
-  },
-  "video-largo-con-celular": {
-    "cuando": "Una vez por semana o cada dos, según tu serie del mes.",
-    "criterio": "17/10 · Carta 21 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "exprimir-una-produccion": {
-    "cuando": "Antes de cualquier shooting, rodaje o evento.",
-    "criterio": "17/10 · Carta 22 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "shotlist-y-rodaje": {
-    "cuando": "Antes de cada rodaje, por chico que sea.",
-    "criterio": "17/10 · Carta 23 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "checklist-antes-de-publicar": {
-    "cuando": "Antes de publicar una pieza propia o de aprobar una que te entrega el editor.",
-    "criterio": "17/10 · Carta 24 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "objetivo-a-concepto": {
-    "cuando": "Antes de un lanzamiento, una campaña o una presentación importante.",
-    "criterio": "17/10 · Carta 25 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "direccion-de-arte-coleccion": {
-    "cuando": "Al lanzar una colección, una cápsula o un producto físico.",
-    "criterio": "17/10 · Carta 26 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "tu-marca-mejor-cliente": {
-    "cuando": "Si vendés branding, contenido, producción o lanzamientos a otros.",
-    "criterio": "17/10 · Carta 27 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "criterio-creativo": {
-    "cuando": "Siempre. Es la base de todo lo demás.",
-    "criterio": "17/10 · Carta 28 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
-  },
-  "tablero-que-dispara-acciones": {
-    "personalizar": "La limitación precargada con lo que salió de la Clarity y la auditoría, y en la tabla los números que el founder ya pasó (por ejemplo, los de la carta de resultados del lanzamiento).",
-    "ojo": "Los números de referencia son de Cáscara. Los de otros founders no se muestran. Los umbrales se calibran con Franco con los próximos dos lanzamientos."
-  },
-  "proceso-comercial": {
-    "personalizar": "La fase 1 precargada con lo que salió de la Clarity y la auditoría de clientes, y el camino sugerido en la fase 2 según cómo cobra hoy.",
-    "ojo": "Reemplaza a la auditoría del proceso comercial, al pipeline de siete campos y al registro de llamadas. Quien ya tiene alguna asignada la termina y sigue con esta desde la fase que le falte. El registro es de Teo y sigue vivo para la operación de Cáscara (Facu, 19/10)."
-  },
-  "venta-b2c": {
-    "personalizar": "Los siete mensajes y el guion con el XYZ del founder, y el cierre con sus cupos, fecha y seña.",
-    "ojo": "Va después de Tu proceso comercial y solo para camino B2C. Reemplaza a la llamada de venta y el cierre. Los ejemplos de setting son de Cáscara (Francisca). Los reframes de presión fuerte quedan afuera."
-  },
-  "venta-de-servicios": {
-    "personalizar": "Las preguntas de diagnóstico y la propuesta con el servicio y el precio de su oferta escrita.",
-    "ojo": "Va después de Tu proceso comercial y solo para camino servicios. Reemplaza al recontacto y la prospección y a la propuesta comercial. Se negocia el alcance; el precio de cada parte se sostiene."
-  }
+ "_todas": {
+  "plazo": "Facu, 7/11: las cartas no fijan plazo exacto (ni «en tres días» ni una fecha). El objetivo dice qué tiene que estar completo para la próxima reunión: a cada reunión se llega con las cartas anteriores completas.",
+  "segunda_persona": "Facu, 7/11 (pasaporte de Santiago Guevara como modelo): todo lo que lee el founder va en vos y explica cómo se completa. La versión del founder pisa «cuando» (por qué se la asignamos ahora, en vos) y «pasos» (qué completa, en qué punto de la hoja y cómo, con su caso adentro), y el bloque de lo definido en la llamada va en vos («Hoy hacés…», «Hacia dónde vas…»). Nada de «el founder» ni infinitivos sueltos.",
+  "secciones_que_no_aplican": "Si una sección de la genérica da por hecho algo que en su caso todavía no pasó (por ejemplo, la llamada de oferta), se saca con ajustes {\"<cid>\": {\"ocultar\": true}} y se ajusta el bloque de arranque.",
+  "quien_arma": "Facu, 7/11: la estrategia la arma el founder y Cáscara la direcciona; las hojas son la base para llegar ahí una vez definidos oferta y cliente ideal. Las cartas no dicen que el equipo de Cáscara arma la estrategia.",
+  "recorrido": "Facu, 7/11 (probado con Rosario Solá): toda carta de un founder abre con su recorrido, para ubicarlo en tiempo y espacio: el objetivo de sus 90 días, el tramo en el que está y la columna de cartas (hechas, esta, las que siguen), cada una con para qué sirve. Se escribe en contenido/recorridos.json y build_cartas.py lo pone arriba de todas las cartas de ese founder. Cuando se asigna una carta nueva, se actualizan los estados de su recorrido.",
+  "nunca_genericas": "Facu, 7/11: a ningún cliente le llega una carta genérica, ni activa ni en cola: no le suma y da sensación de poca personalización. Solo se asigna una carta escrita para él (<modulo>--<slug>). Y si en una devolución ya le dimos lo que la carta le pide, la carta se saca. Si se queda sin carta activa, en asignaciones va \"sin_carta\": true (la activa pasa a completada en la app). sync_cartas.py no manda genéricas y revisar.py avisa si aparece una.",
+  "titulo": "Facu, 7/11: el título de una carta es siempre el de la carta (el nombre del módulo en el inventario), también en las versiones de cada founder y en su recorrido. Lo personal va en la bajada, el porqué y los pasos, nunca en el título."
+ },
+ "icp-mecanismo": {
+  "personalizar": "La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».",
+  "ojo": "Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10). Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
+ },
+ "one-sheeter-oferta": {
+  "personalizar": "Forma A (ya vende): la genérica con su bajada. Forma B (lanza algo nuevo o redirecciona): versión propia con preguntas de discovery, que la escribe Franco en su llamada (doc 22).",
+  "ojo": "No se piden horas: el costo se pone en plata (Facu, 4/10). Termina con NOVA y el one-sheeter que arma el founder. Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
+ },
+ "precio-escalera": {
+  "personalizar": "La bajada con lo que cobra hoy y lo que se movió con Franco.",
+  "ojo": "Va después de oferta e ICP, nunca antes. No pide horas: el costo en plata (Facu, 4/10)."
+ },
+ "resultados-lanzamiento": {
+  "cuando": "Apenas cierra un lanzamiento (webinar, workshop o bootcamp), antes de rehacer la oferta con Franco.",
+  "personalizar": "La bajada con los números que ya se conocen del lanzamiento, para que vea que lo seguimos.",
+  "ojo": "Es un formulario: se completa en uno o dos días."
+ },
+ "llamada-de-venta": {
+  "personalizar": "Bajada con en qué tramo de la llamada se le cae la venta.",
+  "ojo": "La versión de Agostina trae su propia guía de seis partes en bloques_inicio y queda arriba del guion nuevo: revisar si se recorta (falta confirmar).",
+  "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Las secciones siguen los ocho tramos y las preguntas del «Guion de Venta Cáscara Founders» de Franco (6/10), pasados a un founder que vende su servicio; los ocho reframes van como bloque nuestro para la planilla de objeciones, y se suman la objeción de pareja o socio y el seguimiento por WhatsApp de 24 a 48 h. Sin precios de Cáscara y sin la referencia al script de F3. Los cid 0 a 8 conservan su tema; lo nuevo entra con cid 9 a 14 y la planilla de objeciones suma la columna del reframe al final."
+ },
+ "handraisers-historias": {
+  "ojo": "Es más SOP que carta: no se manda como carta suelta. Carta = SOP + formulario + accionables (Facu, 3/10)."
+ },
+ "angulos-desde-icp": {
+  "cuando": "Después del ICP devuelto: sale de sus dolores y preguntas textuales.",
+  "personalizar": "Bajada con lo que ya escribió en el ICP; las cartas de contenido llevan referencias y capturas reales (Facu, 3/10)."
+ },
+ "setter-closer": {
+  "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Entra el seguimiento por WhatsApp de 24 a 48 h del guion de Franco (6/10): en el scope del rol (cid 2) y como sección nueva con cid 8, antes de las primeras diez llamadas."
+ },
+ "calendario-lanzamiento": {
+  "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. El «Calendario de Historias de Lanzamiento» de Franco (6/10) entra como ejemplo: la consigna del día por día (cid 3) pide el CTA de cada día y un rol por día, y al final va un bloque nuestro (cid 8) con los 28 días, el evento del 15 al 19, la venta del 17 al 23 y las palabras clave por DM. Ningún cid existente cambió."
+ },
+ "mi-editing-brief": {
+  "cuando": "Mes 2, antes de delegar la producción: cuando el founder ya tiene oferta y calendario y le pasa (o ya le pasó) la edición a otra persona.",
+  "criterio": "14/10 · material del equipo en #servicio-founders, aprobado por Facu el 14/10. Carta nueva a partir de «Calendarios y Editing Brief Cáscara» de Segundo (6/10): los pasos de la oferta a la tarjeta del editor, qué lleva el brief (objetivo, referencias, ritmo, tipografía, música, entregable y deadline), un caso resuelto anonimizado y la prueba con un brief real y sus vueltas contadas. Dueño en el reparto de cards: Fede."
+ },
+ "profile-funnel": {
+  "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
+ },
+ "landing-que-convierte": {
+  "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
+ },
+ "identidad-y-arco-narrativo": {
+  "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
+ },
+ "pasaporte-digital": {
+  "ojo": "Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas)."
+ },
+ "calendario-en-notion": {
+  "cuando": "Cuando el founder ya sabe qué publicar y necesita el sistema para sostenerlo: junto con el calendario de contenido o de lanzamiento, y antes de sumar un editor.",
+  "criterio": "17/10 · Facu pidió el SOP del calendario de Notion de Cáscara para los founders, con el formato de la guía del editing brief (tarjetas tipo Notion, interactivas). Sale del calendario real de Cáscara y de la medición del calendario de un cliente. Dueño en el reparto de cards: Fede."
+ },
+ "preparar-direccion-creativa": {
+  "cuando": "Antes de tu sesión 1:1 de Dirección Creativa, después de completar el Founder Insights.",
+  "criterio": "17/10 · Carta 01 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "auditoria-creativa": {
+  "cuando": "Al inicio del programa y cada vez que sientas que tu contenido «no te representa».",
+  "criterio": "17/10 · Carta 02 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. La versión de Juana pedía preguntarle a 3 personas de afuera; se reemplazó por la lectura en la grupal (las cartas no le piden al founder que le escriba a nadie)."
+ },
+ "estetica-y-estrategia": {
+  "cuando": "Cuando cambiás de oferta o de cliente ideal, o cuando tu estética no acompaña tu nuevo precio.",
+  "criterio": "17/10 · Carta 03 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "caballo-de-troya": {
+  "cuando": "Si tu sector es formal o muy uniforme y querés diferenciarte sin parecer poco serio.",
+  "criterio": "17/10 · Carta 04 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "kit-de-identidad": {
+  "cuando": "Antes de delegar edición o diseño, o si cada pieza te sale distinta.",
+  "criterio": "17/10 · Carta 05 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "moodboard-estrategico": {
+  "cuando": "Antes de una campaña, un shooting, un rebranding o una serie de contenido.",
+  "criterio": "17/10 · Carta 06 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "founder-cara-de-marca": {
+  "cuando": "Cuando tu marca personal es parte de la estrategia (casi siempre lo es).",
+  "criterio": "17/10 · Carta 07 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "miedo-a-la-camara": {
+  "cuando": "Si sabés que tenés que aparecer pero cada vez lo postergás.",
+  "criterio": "17/10 · Carta 08 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "research-semanal": {
+  "cuando": "Siempre. Es la base de todas las demás cartas de ideas.",
+  "criterio": "17/10 · Carta 09 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "escribir-un-guion": {
+  "cuando": "En tu día de escritura, o cada vez que tengas una observación que vale la pena.",
+  "criterio": "17/10 · Carta 10 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "primeros-cinco-segundos": {
+  "cuando": "En cada pieza. Es lo primero que se revisa de un guion.",
+  "criterio": "17/10 · Carta 11 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "clientes-en-historia": {
+  "cuando": "En cada proyecto con un cliente.",
+  "criterio": "17/10 · Carta 12 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "estructura-de-caso": {
+  "cuando": "Cuando terminás un proyecto o llegás a un resultado intermedio que vale la pena contar.",
+  "criterio": "17/10 · Carta 13 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. Duplica caso-documentado: Facu decide cuál queda."
+ },
+ "historia-de-origen": {
+  "cuando": "Al lanzar o relanzar tu marca, o cuando sumás una oferta nueva.",
+  "criterio": "17/10 · Carta 14 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "formatos-poco-esfuerzo": {
+  "cuando": "Para sostener la constancia en semanas cargadas.",
+  "criterio": "17/10 · Carta 15 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. Duplica formato-barato: Facu decide cuál queda."
+ },
+ "formatos-de-ficcion": {
+  "cuando": "Cuando tu mensaje es repetido o técnico y necesitás otra forma de entrarle.",
+  "criterio": "17/10 · Carta 16 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "inventar-cuando-no-pasa-nada": {
+  "cuando": "Cuando no hay lanzamientos, clientes nuevos ni nada «para contar».",
+  "criterio": "17/10 · Carta 17 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "casos-desde-tu-disciplina": {
+  "cuando": "Al lanzar una oferta nueva, al cambiar de rubro o cuando tus clientes piden confidencialidad.",
+  "criterio": "17/10 · Carta 18 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "bloqueo-creativo": {
+  "cuando": "Cuando pasan días sin publicar y cada idea te parece mala.",
+  "criterio": "17/10 · Carta 19 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "brief-para-tu-editor": {
+  "cuando": "Cada vez que mandás material a editar.",
+  "criterio": "17/10 · Carta 20 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad. Duplica mi-editing-brief: Facu decide cuál queda."
+ },
+ "video-largo-con-celular": {
+  "cuando": "Una vez por semana o cada dos, según tu serie del mes.",
+  "criterio": "17/10 · Carta 21 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "exprimir-una-produccion": {
+  "cuando": "Antes de cualquier shooting, rodaje o evento.",
+  "criterio": "17/10 · Carta 22 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "shotlist-y-rodaje": {
+  "cuando": "Antes de cada rodaje, por chico que sea.",
+  "criterio": "17/10 · Carta 23 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "checklist-antes-de-publicar": {
+  "cuando": "Antes de publicar una pieza propia o de aprobar una que te entrega el editor.",
+  "criterio": "17/10 · Carta 24 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "objetivo-a-concepto": {
+  "cuando": "Antes de un lanzamiento, una campaña o una presentación importante.",
+  "criterio": "17/10 · Carta 25 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "direccion-de-arte-coleccion": {
+  "cuando": "Al lanzar una colección, una cápsula o un producto físico.",
+  "criterio": "17/10 · Carta 26 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "tu-marca-mejor-cliente": {
+  "cuando": "Si vendés branding, contenido, producción o lanzamientos a otros.",
+  "criterio": "17/10 · Carta 27 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "criterio-creativo": {
+  "cuando": "Siempre. Es la base de todo lo demás.",
+  "criterio": "17/10 · Carta 28 de las 28 Cartas de Creatividad de Juana (PDF por DM a Facu). Dueña: Juana. Se lleva a la grupal de Creatividad."
+ },
+ "tablero-que-dispara-acciones": {
+  "personalizar": "La limitación precargada con lo que salió de la Clarity y la auditoría, y en la tabla los números que el founder ya pasó (por ejemplo, los de la carta de resultados del lanzamiento).",
+  "ojo": "Los números de referencia son de Cáscara. Los de otros founders no se muestran. Los umbrales se calibran con Franco con los próximos dos lanzamientos."
+ },
+ "proceso-comercial": {
+  "personalizar": "La fase 1 precargada con lo que salió de la Clarity y la auditoría de clientes, y el camino sugerido en la fase 2 según cómo cobra hoy.",
+  "ojo": "Reemplaza a la auditoría del proceso comercial, al pipeline de siete campos y al registro de llamadas. Quien ya tiene alguna asignada la termina y sigue con esta desde la fase que le falte. El registro es de Teo y sigue vivo para la operación de Cáscara (Facu, 19/10)."
+ },
+ "venta-b2c": {
+  "personalizar": "Los siete mensajes y el guion con el XYZ del founder, y el cierre con sus cupos, fecha y seña.",
+  "ojo": "Va después de Tu proceso comercial y solo para camino B2C. Reemplaza a la llamada de venta y el cierre. Los ejemplos de setting son de Cáscara (Francisca). Los reframes de presión fuerte quedan afuera."
+ },
+ "venta-de-servicios": {
+  "personalizar": "Las preguntas de diagnóstico y la propuesta con el servicio y el precio de su oferta escrita.",
+  "ojo": "Va después de Tu proceso comercial y solo para camino servicios. Reemplaza al recontacto y la prospección y a la propuesta comercial. Se negocia el alcance; el precio de cada parte se sostiene."
+ }
 }

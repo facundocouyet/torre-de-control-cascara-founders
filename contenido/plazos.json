@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21",
+  "actualizado": "2026-11-07",
   "regla": "Regla (Facu, 21/10: la carta es cuestión de días; lo ideal son 2 o 3 cartas por semana):\n  1. Duración en días hábiles según lo que hay que completar: 1 campo = 1 día, 2 o 3 = 2 días,\n     4 o más (o más de 5 tareas) = 3 días. `PISO` fija a mano las que pidan otra cosa.\n  2. Las tareas diarias o semanales son hábitos que siguen después de aprobada la carta:\n     no estiran el deadline.\n  3. La carta arranca un día hábil y su deadline es el último de sus días (ese día se manda a\n     revisión). Revisión en el día: la siguiente arranca el día hábil después del deadline.\n  4. Las en paralelo arrancan con la activa y no corren la fila.\n  5. Ritmo objetivo: 2 a 3 cartas por semana. El resumen dice hasta cuándo alcanza la fila\n     cargada y cuántas cartas faltan para cubrir hasta el día 90.",
   "ritmo_por_semana": [
     2,
@@ -44,7 +44,7 @@
     "mi-editing-brief": {
       "nombre": "El brief de tu contenido",
       "nivel": "2",
-      "dias": 2
+      "dias": 3
     },
     "handraisers-historias": {
       "nombre": "Historias con handraisers",
@@ -89,7 +89,7 @@
     "ciclo-y-continuidad": {
       "nombre": "Offboarding, renovación y upsell",
       "nivel": "2",
-      "dias": 2
+      "dias": 3
     },
     "checkpoints-del-servicio": {
       "nombre": "Los checkpoints de tu servicio",
@@ -129,7 +129,7 @@
     "base-de-datos-unica": {
       "nombre": "Una sola base de datos, y para qué sirve",
       "nivel": "2",
-      "dias": 2
+      "dias": 3
     },
     "landing-que-convierte": {
       "nombre": "La landing que recibe la demanda",
@@ -144,7 +144,7 @@
     "ia-en-la-operacion": {
       "nombre": "La IA adentro de tu operación",
       "nivel": "troncal",
-      "dias": 2
+      "dias": 3
     },
     "pasaporte-digital": {
       "nombre": "Pasaporte digital",
@@ -166,93 +166,79 @@
     "aaron-aiello": {
       "nombre": "Aaron Aiello",
       "desde": "2026-08-01",
-      "dia": 82,
+      "dia": 99,
       "dia_90": "2026-10-29",
-      "dias_restantes": 8,
-      "habiles_restantes": 6,
-      "fila_hasta": "2026-10-29",
-      "cartas_cargadas": 3,
+      "dias_restantes": -9,
+      "habiles_restantes": 0,
+      "fila_hasta": "2026-11-17",
+      "cartas_cargadas": 2,
       "faltan_cartas": null,
       "cartas": [
         {
           "carta": "funnel-de-servicio",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
-        },
-        {
-          "carta": "calendario-lanzamiento",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "profile-funnel",
           "estado": "paralelo",
           "dias": 7,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-29"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-17"
         }
       ]
     },
     "agostina-marchesini": {
       "nombre": "Agostina Marchesini Merayo",
       "desde": "2026-07-23",
-      "dia": 91,
+      "dia": 108,
       "dia_90": "2026-10-20",
-      "dias_restantes": -1,
+      "dias_restantes": -18,
       "habiles_restantes": 0,
-      "fila_hasta": "2026-11-05",
-      "cartas_cargadas": 5,
+      "fila_hasta": "2026-11-19",
+      "cartas_cargadas": 4,
       "faltan_cartas": null,
       "cartas": [
         {
           "carta": "one-sheeter-oferta",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "icp-mecanismo",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
-        },
-        {
-          "carta": "calendario-lanzamiento",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-29",
-          "deadline": "2026-11-02"
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
         },
         {
           "carta": "funnel-de-servicio",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-11-03",
-          "deadline": "2026-11-05"
+          "inicio": "2026-11-17",
+          "deadline": "2026-11-19"
         },
         {
-          "carta": "llamada-de-venta",
+          "carta": "proceso-comercial",
           "estado": "paralelo",
-          "dias": 2,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-22"
+          "dias": 3,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         }
       ]
     },
     "bianca-antonini": {
       "nombre": "Bianca Antonini",
       "desde": "2026-07-17",
-      "dia": 97,
+      "dia": 114,
       "dia_90": "2026-10-14",
-      "dias_restantes": -7,
+      "dias_restantes": -24,
       "habiles_restantes": 0,
-      "fila_hasta": "2026-10-23",
+      "fila_hasta": "2026-11-11",
       "cartas_cargadas": 1,
       "faltan_cartas": null,
       "cartas": [
@@ -260,113 +246,93 @@
           "carta": "calendario-lanzamiento",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         }
       ]
     },
     "custom-lab": {
       "nombre": "Piero Medina y Juan — Custom Lab",
       "desde": "2026-08-01",
-      "dia": 82,
+      "dia": 99,
       "dia_90": "2026-10-29",
-      "dias_restantes": 8,
-      "habiles_restantes": 6,
-      "fila_hasta": "2026-11-03",
-      "cartas_cargadas": 2,
+      "dias_restantes": -9,
+      "habiles_restantes": 0,
+      "fila_hasta": "2026-11-17",
+      "cartas_cargadas": 1,
       "faltan_cartas": null,
       "cartas": [
         {
           "carta": "calendario-contenido",
           "estado": "activa",
           "dias": 7,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-29"
-        },
-        {
-          "carta": "one-sheeter-oferta",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-30",
-          "deadline": "2026-11-03"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-17"
         }
       ]
     },
     "jose-david-fajardo": {
       "nombre": "José David Fajardo Guaqueta",
       "desde": "2026-08-01",
-      "dia": 82,
+      "dia": 99,
       "dia_90": "2026-10-29",
-      "dias_restantes": 8,
-      "habiles_restantes": 6,
-      "fila_hasta": "2026-10-27",
-      "cartas_cargadas": 3,
-      "faltan_cartas": [
-        1,
-        1
-      ],
+      "dias_restantes": -9,
+      "habiles_restantes": 0,
+      "fila_hasta": "2026-11-11",
+      "cartas_cargadas": 2,
+      "faltan_cartas": null,
       "cartas": [
         {
-          "carta": "auditoria-proceso-comercial--jose-david-fajardo",
+          "carta": "proceso-comercial",
           "estado": "activa",
-          "dias": 2,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-22"
-        },
-        {
-          "carta": "one-sheeter-oferta",
-          "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-23",
-          "deadline": "2026-10-27"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
-          "carta": "proceso-entrega-repetible",
+          "carta": "funnel-de-servicio",
           "estado": "paralelo",
-          "dias": 2,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-22"
+          "dias": 3,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         }
       ]
     },
     "lola-berutti": {
       "nombre": "Lola Berutti",
       "desde": "2026-08-14",
-      "dia": 69,
+      "dia": 86,
       "dia_90": "2026-11-11",
-      "dias_restantes": 21,
-      "habiles_restantes": 15,
-      "fila_hasta": "2026-10-26",
+      "dias_restantes": 4,
+      "habiles_restantes": 3,
+      "fila_hasta": "2026-11-13",
       "cartas_cargadas": 2,
-      "faltan_cartas": [
-        5,
-        7
-      ],
+      "faltan_cartas": null,
       "cartas": [
         {
           "carta": "resultados-lanzamiento",
           "estado": "activa",
           "dias": 2,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-22"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-10"
         },
         {
-          "carta": "proceso-entrega-repetible",
+          "carta": "funnel-de-servicio",
           "estado": "proxima",
-          "dias": 2,
-          "inicio": "2026-10-23",
-          "deadline": "2026-10-26"
+          "dias": 3,
+          "inicio": "2026-11-11",
+          "deadline": "2026-11-13"
         }
       ]
     },
     "lucio-labate": {
       "nombre": "Lucio Labate",
       "desde": "2026-07-24",
-      "dia": 90,
+      "dia": 107,
       "dia_90": "2026-10-21",
-      "dias_restantes": 0,
+      "dias_restantes": -17,
       "habiles_restantes": 0,
-      "fila_hasta": "2026-10-27",
+      "fila_hasta": "2026-11-16",
       "cartas_cargadas": 2,
       "faltan_cartas": null,
       "cartas": [
@@ -374,26 +340,26 @@
           "carta": "one-sheeter-oferta",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
-          "carta": "prospeccion-y-recontacto",
+          "carta": "proceso-comercial",
           "estado": "proxima",
-          "dias": 2,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-27"
+          "dias": 3,
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
         }
       ]
     },
     "matias-morales": {
       "nombre": "Matías Morales",
       "desde": "2026-07-01",
-      "dia": 113,
+      "dia": 130,
       "dia_90": "2026-09-28",
-      "dias_restantes": -23,
+      "dias_restantes": -40,
       "habiles_restantes": 0,
-      "fila_hasta": "2026-10-30",
+      "fila_hasta": "2026-11-19",
       "cartas_cargadas": 3,
       "faltan_cartas": null,
       "cartas": [
@@ -401,294 +367,197 @@
           "carta": "icp-mecanismo",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "angulos-desde-icp",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
         },
         {
-          "carta": "proceso-entrega-repetible",
+          "carta": "funnel-de-servicio",
           "estado": "proxima",
-          "dias": 2,
-          "inicio": "2026-10-29",
-          "deadline": "2026-10-30"
-        }
-      ]
-    },
-    "qualita": {
-      "nombre": "Qualita Studio · Rafa Lizarraga",
-      "desde": "2026-04-24",
-      "dia": 112,
-      "dia_90": "2026-09-29",
-      "dias_restantes": -22,
-      "habiles_restantes": 0,
-      "fila_hasta": "2026-11-03",
-      "cartas_cargadas": 2,
-      "faltan_cartas": null,
-      "cartas": [
-        {
-          "carta": "calendario-lanzamiento",
-          "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
-        },
-        {
-          "carta": "calendario-contenido",
-          "estado": "proxima",
-          "dias": 7,
-          "inicio": "2026-10-26",
-          "deadline": "2026-11-03"
+          "inicio": "2026-11-17",
+          "deadline": "2026-11-19"
         }
       ]
     },
     "sebastian": {
       "nombre": "Sebastián Martínez",
       "desde": "2026-09-01",
-      "dia": 51,
+      "dia": 68,
       "dia_90": "2026-11-29",
-      "dias_restantes": 39,
-      "habiles_restantes": 27,
-      "fila_hasta": "2026-11-19",
-      "cartas_cargadas": 8,
+      "dias_restantes": 22,
+      "habiles_restantes": 15,
+      "fila_hasta": "2026-11-17",
+      "cartas_cargadas": 3,
       "faltan_cartas": [
-        2,
-        4
+        3,
+        5
       ],
       "cartas": [
         {
           "carta": "calendario-lanzamiento--sebastian",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "webinar-de-venta--sebastian",
           "estado": "proxima",
           "dias": 2,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-27"
-        },
-        {
-          "carta": "venta-b2c",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-28",
-          "deadline": "2026-10-30"
-        },
-        {
-          "carta": "venta-de-servicios",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-11-02",
-          "deadline": "2026-11-04"
-        },
-        {
-          "carta": "calendario-contenido",
-          "estado": "proxima",
-          "dias": 7,
-          "inicio": "2026-11-05",
+          "inicio": "2026-11-12",
           "deadline": "2026-11-13"
-        },
-        {
-          "carta": "historia-de-origen",
-          "estado": "proxima",
-          "dias": 2,
-          "inicio": "2026-11-16",
-          "deadline": "2026-11-17"
-        },
-        {
-          "carta": "identidad-y-arco-narrativo",
-          "estado": "proxima",
-          "dias": 2,
-          "inicio": "2026-11-18",
-          "deadline": "2026-11-19"
         },
         {
           "carta": "profile-funnel--sebastian",
           "estado": "paralelo",
           "dias": 7,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-29"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-17"
         }
       ]
     },
     "sofia-galvis": {
       "nombre": "Sofía Galvis Montoya",
       "desde": "2026-06-22",
-      "dia": 122,
+      "dia": 139,
       "dia_90": "2026-09-19",
-      "dias_restantes": -32,
+      "dias_restantes": -49,
       "habiles_restantes": 0,
-      "fila_hasta": "2026-10-28",
-      "cartas_cargadas": 2,
+      "fila_hasta": "2026-11-11",
+      "cartas_cargadas": 1,
       "faltan_cartas": null,
       "cartas": [
         {
           "carta": "angulos-desde-icp--sofia-galvis",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
-        },
-        {
-          "carta": "calendario-lanzamiento",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         }
       ]
     },
     "sol-boutmy": {
       "nombre": "BeMotion (Sol y Fede)",
       "desde": "2026-09-02",
-      "dia": 50,
+      "dia": 67,
       "dia_90": "2026-11-30",
-      "dias_restantes": 40,
-      "habiles_restantes": 28,
-      "fila_hasta": "2026-11-11",
-      "cartas_cargadas": 7,
+      "dias_restantes": 23,
+      "habiles_restantes": 16,
+      "fila_hasta": "2026-11-20",
+      "cartas_cargadas": 5,
       "faltan_cartas": [
-        5,
-        8
+        2,
+        4
       ],
       "cartas": [
         {
           "carta": "icp-mecanismo",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
-        },
-        {
-          "carta": "calendario-en-notion",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
-        },
-        {
-          "carta": "calendario-lanzamiento",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-29",
-          "deadline": "2026-11-02"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "profile-funnel",
           "estado": "proxima",
           "dias": 7,
-          "inicio": "2026-11-03",
-          "deadline": "2026-11-11"
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-20"
         },
         {
           "carta": "one-sheeter-oferta",
           "estado": "paralelo",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
-          "carta": "propuesta-comercial",
+          "carta": "proceso-comercial",
           "estado": "paralelo",
-          "dias": 2,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-22"
+          "dias": 3,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "mi-editing-brief",
           "estado": "paralelo",
-          "dias": 2,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-22"
+          "dias": 3,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         }
       ]
     },
     "the-momentum-club": {
       "nombre": "Israel Barranco y Natalia Zabaleta",
       "desde": "2026-09-16",
-      "dia": 36,
+      "dia": 53,
       "dia_90": "2026-12-14",
-      "dias_restantes": 54,
-      "habiles_restantes": 38,
-      "fila_hasta": "2026-10-29",
-      "cartas_cargadas": 4,
+      "dias_restantes": 37,
+      "habiles_restantes": 26,
+      "fila_hasta": "2026-11-11",
+      "cartas_cargadas": 2,
       "faltan_cartas": [
-        13,
-        19
+        9,
+        14
       ],
       "cartas": [
         {
           "carta": "resultados-lanzamiento",
           "estado": "activa",
           "dias": 2,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-22"
-        },
-        {
-          "carta": "one-sheeter-oferta",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-23",
-          "deadline": "2026-10-27"
-        },
-        {
-          "carta": "precio-escalera",
-          "estado": "proxima",
-          "dias": 2,
-          "inicio": "2026-10-28",
-          "deadline": "2026-10-29"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-10"
         },
         {
           "carta": "icp-mecanismo--the-momentum-club",
           "estado": "paralelo",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         }
       ]
     },
     "rosario-sola": {
       "nombre": "rosario-sola",
-      "desde": "2026-10-16",
+      "desde": "2026-11-07",
       "dia": null,
-      "dia_90": "2027-01-13",
-      "dias_restantes": 84,
-      "habiles_restantes": 60,
-      "fila_hasta": "2026-10-28",
+      "dia_90": "2027-02-04",
+      "dias_restantes": 89,
+      "habiles_restantes": 64,
+      "fila_hasta": "2026-11-25",
       "cartas_cargadas": 3,
       "faltan_cartas": [
-        22,
-        33
+        20,
+        31
       ],
       "cartas": [
         {
-          "carta": "one-sheeter-oferta--rosario-sola",
+          "carta": "profile-funnel--rosario-sola",
           "estado": "activa",
-          "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "dias": 7,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-17"
         },
         {
           "carta": "icp-mecanismo--rosario-sola",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
+          "inicio": "2026-11-18",
+          "deadline": "2026-11-20"
         },
         {
-          "carta": "propuesta-comercial--rosario-sola",
-          "estado": "paralelo",
-          "dias": 2,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-22"
+          "carta": "one-sheeter-oferta--rosario-sola",
+          "estado": "proxima",
+          "dias": 3,
+          "inicio": "2026-11-23",
+          "deadline": "2026-11-25"
         }
       ]
     },
@@ -697,42 +566,35 @@
       "desde": "2026-10-09",
       "dia": null,
       "dia_90": "2027-01-06",
-      "dias_restantes": 77,
-      "habiles_restantes": 55,
-      "fila_hasta": "2026-11-02",
-      "cartas_cargadas": 4,
+      "dias_restantes": 60,
+      "habiles_restantes": 43,
+      "fila_hasta": "2026-11-16",
+      "cartas_cargadas": 3,
       "faltan_cartas": [
-        19,
-        28
+        15,
+        22
       ],
       "cartas": [
         {
           "carta": "auditoria-de-clientes",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "icp-mecanismo",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
-        },
-        {
-          "carta": "one-sheeter-oferta",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-29",
-          "deadline": "2026-11-02"
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
         },
         {
           "carta": "delegar-produccion",
           "estado": "paralelo",
           "dias": 2,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-22"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-10"
         }
       ]
     },
@@ -741,28 +603,28 @@
       "desde": "2026-10-09",
       "dia": null,
       "dia_90": "2027-01-06",
-      "dias_restantes": 77,
-      "habiles_restantes": 55,
-      "fila_hasta": "2026-10-28",
+      "dias_restantes": 60,
+      "habiles_restantes": 43,
+      "fila_hasta": "2026-11-16",
       "cartas_cargadas": 2,
       "faltan_cartas": [
-        20,
-        30
+        15,
+        22
       ],
       "cartas": [
         {
           "carta": "auditoria-de-clientes",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "icp-mecanismo",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
         }
       ]
     },
@@ -771,42 +633,28 @@
       "desde": "2026-10-09",
       "dia": null,
       "dia_90": "2027-01-06",
-      "dias_restantes": 77,
-      "habiles_restantes": 55,
-      "fila_hasta": "2026-11-05",
-      "cartas_cargadas": 4,
+      "dias_restantes": 60,
+      "habiles_restantes": 43,
+      "fila_hasta": "2026-11-16",
+      "cartas_cargadas": 2,
       "faltan_cartas": [
-        18,
-        26
+        15,
+        22
       ],
       "cartas": [
         {
           "carta": "auditoria-de-clientes",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "icp-mecanismo",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
-        },
-        {
-          "carta": "one-sheeter-oferta",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-29",
-          "deadline": "2026-11-02"
-        },
-        {
-          "carta": "angulos-desde-icp",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-11-03",
-          "deadline": "2026-11-05"
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
         }
       ]
     },
@@ -815,35 +663,35 @@
       "desde": "2026-10-09",
       "dia": null,
       "dia_90": "2027-01-06",
-      "dias_restantes": 77,
-      "habiles_restantes": 55,
-      "fila_hasta": "2026-10-28",
+      "dias_restantes": 60,
+      "habiles_restantes": 43,
+      "fila_hasta": "2026-11-16",
       "cartas_cargadas": 3,
       "faltan_cartas": [
-        20,
-        30
+        15,
+        22
       ],
       "cartas": [
         {
           "carta": "auditoria-de-clientes",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "icp-mecanismo",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
         },
         {
           "carta": "contratar-primer-rol--lucila-prieto",
           "estado": "paralelo",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         }
       ]
     },
@@ -852,113 +700,39 @@
       "desde": "2026-10-09",
       "dia": null,
       "dia_90": "2027-01-06",
-      "dias_restantes": 77,
-      "habiles_restantes": 55,
-      "fila_hasta": "2026-10-28",
+      "dias_restantes": 60,
+      "habiles_restantes": 43,
+      "fila_hasta": "2026-11-16",
       "cartas_cargadas": 2,
       "faltan_cartas": [
-        20,
-        30
+        15,
+        22
       ],
       "cartas": [
         {
           "carta": "auditoria-de-clientes",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "icp-mecanismo",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
         }
       ]
     },
     "said-espinosa": {
       "nombre": "said-espinosa",
-      "desde": "2026-10-09",
+      "desde": "2026-10-29",
       "dia": null,
-      "dia_90": "2027-01-06",
-      "dias_restantes": 77,
-      "habiles_restantes": 55,
-      "fila_hasta": "2026-10-30",
-      "cartas_cargadas": 4,
-      "faltan_cartas": [
-        19,
-        29
-      ],
-      "cartas": [
-        {
-          "carta": "auditoria-de-clientes",
-          "estado": "activa",
-          "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
-        },
-        {
-          "carta": "icp-mecanismo",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
-        },
-        {
-          "carta": "onboarding-y-roadmap-cliente--said-espinosa",
-          "estado": "proxima",
-          "dias": 2,
-          "inicio": "2026-10-29",
-          "deadline": "2026-10-30"
-        },
-        {
-          "carta": "propuesta-comercial--said-espinosa",
-          "estado": "paralelo",
-          "dias": 2,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-22"
-        }
-      ]
-    },
-    "delfina-corsalini": {
-      "nombre": "delfina-corsalini",
-      "desde": "2026-10-09",
-      "dia": null,
-      "dia_90": "2027-01-06",
-      "dias_restantes": 77,
-      "habiles_restantes": 55,
-      "fila_hasta": "2026-10-28",
-      "cartas_cargadas": 2,
-      "faltan_cartas": [
-        20,
-        30
-      ],
-      "cartas": [
-        {
-          "carta": "auditoria-de-clientes",
-          "estado": "activa",
-          "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
-        },
-        {
-          "carta": "icp-mecanismo",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
-        }
-      ]
-    },
-    "osmo": {
-      "nombre": "osmo",
-      "desde": "2026-10-16",
-      "dia": null,
-      "dia_90": "2027-01-13",
-      "dias_restantes": 84,
-      "habiles_restantes": 60,
-      "fila_hasta": "2026-11-02",
+      "dia_90": "2027-01-26",
+      "dias_restantes": 80,
+      "habiles_restantes": 57,
+      "fila_hasta": "2026-11-13",
       "cartas_cargadas": 4,
       "faltan_cartas": [
         21,
@@ -966,32 +740,78 @@
       ],
       "cartas": [
         {
-          "carta": "auditoria-de-clientes--osmo",
+          "carta": "icp-mecanismo",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
-          "carta": "one-sheeter-oferta",
+          "carta": "onboarding-y-roadmap-cliente--said-espinosa",
           "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
+          "dias": 2,
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-13"
         },
         {
-          "carta": "angulos-desde-icp",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-29",
-          "deadline": "2026-11-02"
-        },
-        {
-          "carta": "icp-mecanismo--osmo",
+          "carta": "proceso-comercial",
           "estado": "paralelo",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
+        },
+        {
+          "carta": "contratar-primer-rol",
+          "estado": "paralelo",
+          "dias": 3,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
+        }
+      ]
+    },
+    "delfina-corsalini": {
+      "nombre": "delfina-corsalini",
+      "desde": "2026-10-29",
+      "dia": null,
+      "dia_90": "2027-01-26",
+      "dias_restantes": 80,
+      "habiles_restantes": 57,
+      "fila_hasta": "2026-11-11",
+      "cartas_cargadas": 1,
+      "faltan_cartas": [
+        22,
+        32
+      ],
+      "cartas": [
+        {
+          "carta": "icp-mecanismo",
+          "estado": "activa",
+          "dias": 3,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
+        }
+      ]
+    },
+    "osmo": {
+      "nombre": "osmo",
+      "desde": "2026-11-02",
+      "dia": null,
+      "dia_90": "2027-01-30",
+      "dias_restantes": 84,
+      "habiles_restantes": 60,
+      "fila_hasta": "2026-11-11",
+      "cartas_cargadas": 1,
+      "faltan_cartas": [
+        23,
+        34
+      ],
+      "cartas": [
+        {
+          "carta": "proceso-comercial",
+          "estado": "activa",
+          "dias": 3,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         }
       ]
     },
@@ -1000,49 +820,28 @@
       "desde": "2026-10-16",
       "dia": null,
       "dia_90": "2027-01-13",
-      "dias_restantes": 84,
-      "habiles_restantes": 60,
-      "fila_hasta": "2026-11-12",
-      "cartas_cargadas": 5,
+      "dias_restantes": 67,
+      "habiles_restantes": 48,
+      "fila_hasta": "2026-11-13",
+      "cartas_cargadas": 2,
       "faltan_cartas": [
-        18,
+        17,
         26
       ],
       "cartas": [
         {
-          "carta": "pasaporte-digital--camila-basso",
+          "carta": "identidad-y-arco-narrativo--camila-basso",
           "estado": "activa",
           "dias": 2,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-22"
-        },
-        {
-          "carta": "identidad-y-arco-narrativo--camila-basso",
-          "estado": "proxima",
-          "dias": 2,
-          "inicio": "2026-10-23",
-          "deadline": "2026-10-26"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-10"
         },
         {
           "carta": "icp-mecanismo--camila-basso",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-27",
-          "deadline": "2026-10-29"
-        },
-        {
-          "carta": "angulos-desde-icp",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-30",
-          "deadline": "2026-11-03"
-        },
-        {
-          "carta": "calendario-contenido",
-          "estado": "proxima",
-          "dias": 7,
-          "inicio": "2026-11-04",
-          "deadline": "2026-11-12"
+          "inicio": "2026-11-11",
+          "deadline": "2026-11-13"
         }
       ]
     },
@@ -1051,79 +850,217 @@
       "desde": "2026-10-16",
       "dia": null,
       "dia_90": "2027-01-13",
-      "dias_restantes": 84,
-      "habiles_restantes": 60,
-      "fila_hasta": "2026-11-10",
-      "cartas_cargadas": 5,
+      "dias_restantes": 67,
+      "habiles_restantes": 48,
+      "fila_hasta": "2026-11-16",
+      "cartas_cargadas": 2,
       "faltan_cartas": [
-        18,
-        28
+        17,
+        25
       ],
       "cartas": [
         {
           "carta": "auditoria-de-clientes--marcelo-fernandez",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "icp-mecanismo--marcelo-fernandez",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
-        },
-        {
-          "carta": "one-sheeter-oferta",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-10-29",
-          "deadline": "2026-11-02"
-        },
-        {
-          "carta": "angulos-desde-icp",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-11-03",
-          "deadline": "2026-11-05"
-        },
-        {
-          "carta": "calendario-lanzamiento",
-          "estado": "proxima",
-          "dias": 3,
-          "inicio": "2026-11-06",
-          "deadline": "2026-11-10"
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
         }
       ]
     },
-    "juan-galeano": {
-      "nombre": "juan-galeano",
-      "desde": "2026-10-19",
+    "tomas-visser": {
+      "nombre": "tomas-visser",
+      "desde": "2026-11-02",
       "dia": null,
-      "dia_90": "2027-01-16",
-      "dias_restantes": 87,
-      "habiles_restantes": 62,
-      "fila_hasta": "2026-10-28",
+      "dia_90": "2027-01-30",
+      "dias_restantes": 84,
+      "habiles_restantes": 60,
+      "fila_hasta": "2026-11-13",
       "cartas_cargadas": 2,
       "faltan_cartas": [
-        23,
-        34
+        22,
+        33
+      ],
+      "cartas": [
+        {
+          "carta": "pasaporte-digital--tomas-visser",
+          "estado": "activa",
+          "dias": 2,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-10"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "dias": 3,
+          "inicio": "2026-11-11",
+          "deadline": "2026-11-13"
+        }
+      ]
+    },
+    "luz-rodriguez-victoria-rios": {
+      "nombre": "luz-rodriguez-victoria-rios",
+      "desde": "2026-11-02",
+      "dia": null,
+      "dia_90": "2027-01-30",
+      "dias_restantes": 84,
+      "habiles_restantes": 60,
+      "fila_hasta": "2026-11-16",
+      "cartas_cargadas": 2,
+      "faltan_cartas": [
+        22,
+        32
       ],
       "cartas": [
         {
           "carta": "auditoria-de-clientes",
           "estado": "activa",
           "dias": 3,
-          "inicio": "2026-10-21",
-          "deadline": "2026-10-23"
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         },
         {
           "carta": "icp-mecanismo",
           "estado": "proxima",
           "dias": 3,
-          "inicio": "2026-10-26",
-          "deadline": "2026-10-28"
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
+        }
+      ]
+    },
+    "marcela-ospital": {
+      "nombre": "marcela-ospital",
+      "desde": "2026-10-29",
+      "dia": null,
+      "dia_90": "2027-01-26",
+      "dias_restantes": 80,
+      "habiles_restantes": 57,
+      "fila_hasta": "2026-11-16",
+      "cartas_cargadas": 2,
+      "faltan_cartas": [
+        20,
+        31
+      ],
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes",
+          "estado": "activa",
+          "dias": 3,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "dias": 3,
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
+        }
+      ]
+    },
+    "sofia-guevara": {
+      "nombre": "sofia-guevara",
+      "desde": "2026-11-02",
+      "dia": null,
+      "dia_90": "2027-01-30",
+      "dias_restantes": 84,
+      "habiles_restantes": 60,
+      "fila_hasta": "2026-11-11",
+      "cartas_cargadas": 1,
+      "faltan_cartas": [
+        23,
+        34
+      ],
+      "cartas": [
+        {
+          "carta": "icp-mecanismo",
+          "estado": "activa",
+          "dias": 3,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
+        }
+      ]
+    },
+    "juan-galeano": {
+      "nombre": "juan-galeano",
+      "desde": "2026-10-30",
+      "dia": null,
+      "dia_90": "2027-01-27",
+      "dias_restantes": 81,
+      "habiles_restantes": 58,
+      "fila_hasta": "2026-11-16",
+      "cartas_cargadas": 2,
+      "faltan_cartas": [
+        21,
+        31
+      ],
+      "cartas": [
+        {
+          "carta": "auditoria-de-clientes",
+          "estado": "activa",
+          "dias": 3,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
+        },
+        {
+          "carta": "icp-mecanismo",
+          "estado": "proxima",
+          "dias": 3,
+          "inicio": "2026-11-12",
+          "deadline": "2026-11-16"
+        }
+      ]
+    },
+    "santiago-guevara": {
+      "nombre": "santiago-guevara",
+      "desde": "2026-11-09",
+      "dia": null,
+      "dia_90": "2027-02-06",
+      "dias_restantes": 91,
+      "habiles_restantes": 65,
+      "fila_hasta": "2026-11-10",
+      "cartas_cargadas": 1,
+      "faltan_cartas": [
+        25,
+        38
+      ],
+      "cartas": [
+        {
+          "carta": "pasaporte-digital--santiago-guevara",
+          "estado": "activa",
+          "dias": 2,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-10"
+        }
+      ]
+    },
+    "daniel-urdaneta": {
+      "nombre": "daniel-urdaneta",
+      "desde": "2026-11-09",
+      "dia": null,
+      "dia_90": "2027-02-06",
+      "dias_restantes": 91,
+      "habiles_restantes": 65,
+      "fila_hasta": "2026-11-11",
+      "cartas_cargadas": 1,
+      "faltan_cartas": [
+        25,
+        37
+      ],
+      "cartas": [
+        {
+          "carta": "icp-mecanismo--daniel-urdaneta",
+          "estado": "activa",
+          "dias": 3,
+          "inicio": "2026-11-09",
+          "deadline": "2026-11-11"
         }
       ]
     }

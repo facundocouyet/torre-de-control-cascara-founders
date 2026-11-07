@@ -2,95 +2,75 @@
  "modulo": "one-sheeter-oferta",
  "slug": "rosario-sola",
  "founder": "Rosario Solá",
- "nombre": "El one-pager del Diagnóstico",
- "por_que_propia": "Hoja de ruta de Franco del 13/10, confirmada por Rosario el 16/10: arranca por las marcas. El one-pager del Diagnóstico de Oportunidad Postparto es el paso 1 (20/10). La versión anterior, el piloto con mamás, quedó en _descartadas. La genérica pide NOVA y los últimos diez clientes; acá se pide solo lo que Franco marcó para el one-pager.",
- "titulo": "La hoja del Diagnóstico de Oportunidad Postparto",
- "bajada": "Lo que le proponés hoy a una marca, en una carilla: nombre, qué recibe, plazo, precio y el mensaje con el que lo ofrecés.",
- "lista_cuando": "El Diagnóstico tiene nombre final, entregables, plazo, precio y mensaje en inglés, y la Fase 2 está escrita con su precio de referencia.",
+ "por_que_propia": "Facu, 7/11: la oferta del Programa Postparto para el piloto de cinco embarazadas. Reemplaza el one-pager del Diagnóstico para marcas (pausado el 25/10; quedó en _descartadas). Toma la versión del piloto del 14/10 y lo que salió del 25/10 y de la llamada de oferta del 30/10.",
+ "bajada": "La oferta del Programa Postparto escrita en una carilla: a quién, qué incluye, qué le pasa a la mamá en cada etapa y a cuánto. Primero para el piloto de cinco embarazadas.",
+ "lista_cuando": "La hoja está completa, con el precio del piloto y el precio final escritos, y se la puede leer alguien que no te conoce y entender qué compra.",
  "bajada_envio": {
   "founder": "Rosario Solá",
-  "porque": "En la hoja de ruta quedó el orden: las marcas pagan, las mamás prueban. Lo primero que le proponés a una marca es el Diagnóstico de Oportunidad Postparto a precio cerrado. Para salir a ofrecerlo hay que escribirlo.",
-  "objetivo": "El one-pager del Diagnóstico completo para el martes 20/10. Con eso armás la propuesta para la marca de infusiones y salís a los mini-diagnósticos.",
-  "mindset": "Regalás el qué, cobrás el cómo. El contenido muestra el insight; el plan para ejecutarlo es pago."
+  "porque": "Con tu perfil ordenado y la embarazada del piloto escrita, falta lo que se vende: el programa con su recorrido, sus microvictorias y su precio. Es lo que vas a ofrecerles a las cinco embarazadas del piloto.",
+  "objetivo": "La oferta del piloto escrita para tu próxima reunión, para salir a vender los cinco lugares.",
+  "mindset": "El piloto se vende más barato para conseguir casos, no para probar si vale. Cuidá la experiencia de esas primeras mamás: son tus testimonios."
  },
+ "cuando": "Va después del cliente ideal porque la oferta se escribe para alguien: lo que le preocupa a la mamá es lo que el programa tiene que resolver, etapa por etapa.",
  "pasos": [
-  "Ponele nombre final al Diagnóstico.",
-  "Escribí qué recibe la marca, en cuánto tiempo y qué queda para la Fase 2.",
-  "Definí el precio de lista y la forma de pago.",
-  "Escribí la Fase 2 con su precio de referencia.",
-  "Redactá en inglés el mensaje con el que lo ofrecés.",
-  "Juntá todo en una carilla."
+  "Leé «Lo que ya está definido del programa» y arrancá desde ahí.",
+  "Traé de la carta del cliente ideal a las mamás que te consultaron y la frase de tu cliente ideal.",
+  "Escribí la promesa y cómo se mide, contada por lo que la mamá tiene resuelto en cada etapa.",
+  "Armá el paso a paso del programa, qué incluye, qué queda afuera y qué necesitás de cada mamá.",
+  "Poné el precio final y el del piloto, con la forma de pago.",
+  "Escribí con qué te comparan y tu NOVA en cuatro frases.",
+  "Juntá todo en una carilla, probala con una de las embarazadas y mandá la carta a revisión."
  ],
- "secciones": [
+ "bloques_inicio": [
   {
    "nuestro": true,
-   "cid": 0,
-   "titulo": "Lo que ya está decidido",
+   "titulo": "Lo que ya está definido del programa",
    "texto": [
-    "Precio cerrado, dos semanas: 1 insight postparto que la marca tiene legitimidad para abordar, el beneficio del producto reescrito desde la mujer, 1 idea de activación y una presentación de 45 minutos.",
-    "La ejecución es la Fase 2 (Activación 40WA) y se vende con el diagnóstico en la mano.",
-    "Marcas de EE.UU., en inglés. Precio de referencia: USD 1.000 a 1.500. Si tres marcas dicen que sí sin pestañear, está barato."
-   ]
-  },
-  {
-   "cid": 13,
-   "titulo": "El Diagnóstico",
-   "consigna": "Con tus palabras, como se lo contarías a la marca.",
-   "campo": "lineas",
-   "lineas": [
-    "Nombre final",
-    "Qué recibe la marca",
-    "Plazo",
-    "Qué necesitás de la marca para hacerlo",
-    "Qué queda para la Fase 2"
-   ]
-  },
-  {
-   "cid": 7,
-   "titulo": "El precio y la forma de pago",
-   "consigna": "El precio de lista para una marca de EE.UU. y cómo se cobra. Si al primer caso le hacés un precio especial, escribí qué te da a cambio (testimonio y permiso para usarlo como caso).",
-   "campo": "lineas",
-   "lineas": [
-    "Precio de lista",
-    "Precio del primer caso y qué te da a cambio",
-    "Forma de pago",
-    "Cuánto se cobra al arrancar"
-   ]
-  },
-  {
-   "cid": 14,
-   "titulo": "La Fase 2: la Activación 40WA",
-   "consigna": "Lo que le ofrecés a la marca después del diagnóstico: el encuentro con madres reales, el contenido y el informe de aprendizajes. Con quién lo ejecutás y a cuánto.",
-   "campo": "lineas",
-   "lineas": [
-    "Qué incluye",
-    "Con quién lo ejecutás",
-    "Precio de referencia (más producción)"
-   ]
-  },
-  {
-   "cid": 15,
-   "titulo": "El mensaje con el que lo ofrecés",
-   "consigna": "En inglés, para el decisor de la marca: tres o cuatro líneas que acompañan el post del mini-diagnóstico.",
-   "campo": "texto",
-   "alto": 5,
-   "placeholder": "Hi ..."
-  },
-  {
-   "cid": 11,
-   "titulo": "Tu one-pager, en una carilla",
-   "consigna": "Juntá todo lo de arriba en una sola página y pegá el link.",
-   "campo": "texto",
-   "alto": 3,
-   "placeholder": "Link"
-  },
-  {
-   "nuestro": true,
-   "cid": 12,
-   "titulo": "Qué hacemos con esto",
-   "texto": [
-    "Lo revisamos con Franco antes de que salga. Con el one-pager armás la propuesta para la marca de infusiones (30/10) y desde el 2/11 salís con dos mini-diagnósticos por semana."
+    "<b>Qué es.</b> Un acompañamiento personalizado en el postparto, como tener al lado a una amiga que sabe. Lo que la mamá compra es llegar acompañada y tener resuelto lo que la preocupa, no una cantidad de reuniones.",
+    "<b>Cómo lo imaginaste el 25/10.</b> Una meet semanal con vos, una con la psicóloga, una grupal con mamás en el mismo momento y un grupo de WhatsApp. En la llamada de oferta se trabajó otra versión: seis encuentros con vos, seis con la psicóloga, una grupal por mes y soporte por WhatsApp con horario. La duración y la cantidad de encuentros se cierran en esta hoja.",
+    "<b>Cómo se arma.</b> Por microvictorias: qué tiene resuelto la mamá en cada etapa, así ve el valor todo el tiempo y no solo al final. Cada entregable responde a algo que le preocupa, y los bonos responden a sus miedos antes de comprar.",
+    "<b>El precio del piloto.</b> Las cinco primeras pagan entre el 60 y el 70% del precio final; con los testimonios, sube. Pagando en una cuota sale menos que en cuotas. Nada gratis: el piloto se cobra."
    ]
   }
- ]
+ ],
+ "ajustes": {
+  "1": {
+   "titulo": "Las mamás que ya te consultaron",
+   "consigna": "Las mamás que te consultaron y las cinco embarazadas del piloto, con lo que te pidieron y si pagarían. Si ya lo completaste en la carta del cliente ideal, traelo de ahí: de acá salen el precio y lo que incluye el programa.",
+   "columnas": [
+    "Quién",
+    "Qué te pidió",
+    "¿Pagaría?",
+    "Por qué te eligió"
+   ]
+  },
+  "2": {
+   "consigna": "Traela de la carta del cliente ideal. Tiene que entrar el momento en el que está la mamá, lo que le preocupa y con cuánto cuenta para resolverlo."
+  },
+  "3": {
+   "titulo": "La promesa, por etapas",
+   "consigna": "Qué cambia en el postparto de la mamá si el programa funciona, escrito por lo que tiene resuelto en cada etapa. Tiene que depender de lo que vos y la psicóloga hacen adentro del programa: si depende de algo que no controlás, corregí la promesa."
+  },
+  "4": {
+   "consigna": "Cómo sabés que cada mamá avanza: por ejemplo, un formulario de feedback cada quince días, con las mismas preguntas. Anotá qué se mira, de dónde sale, quién lo carga y cada cuánto."
+  },
+  "5": {
+   "titulo": "El recorrido del programa",
+   "consigna": "Las etapas del acompañamiento, desde el onboarding hasta el cierre, con la microvictoria de cada una: qué tiene resuelto la mamá al terminar esa etapa. Sirve para que ella sepa qué va a pasar y para que vos sepas cuándo cumpliste."
+  },
+  "6": {
+   "consigna": "Lo que incluye el programa, lo que queda afuera (por ejemplo, la atención médica, que sigue con sus profesionales) y lo que necesitás de cada mamá para que funcione. Lo que queda afuera se escribe igual de claro que lo que entra.",
+   "titulo": "Qué incluye, qué queda afuera y qué necesitás de cada mamá"
+  },
+  "7": {
+   "consigna": "Poné cuánto te cuesta acompañar a una mamá (la psicóloga, las herramientas y lo que te llevás vos). El piso del precio es ese costo por dos. Después escribí el precio final, el del piloto (entre el 60 y el 70% del final) y la forma de pago, con más de la mitad al arrancar. Si todavía dudás, dejá las dos opciones: el precio se cierra en la llamada de oferta."
+  },
+  "8": {
+   "titulo": "Probala con una embarazada",
+   "consigna": "Contale la oferta a una de las embarazadas del piloto, con el precio arriba de la mesa. Anotá qué preguntó, dónde dudó y qué parte tuviste que explicar dos veces. Eso es lo que hay que reescribir."
+  },
+  "9": {
+   "consigna": "Con qué te compara una embarazada antes de elegirte: el curso de preparto, la puericultora, los grupos de mamás gratis, las cuentas de consejos, hacerlo sola o dejarlo para cuando nazca el bebé. Una fila por cada uno, con qué le ofrece y por qué vos lo resolvés mejor."
+  }
+ }
 }

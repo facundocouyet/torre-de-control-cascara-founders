@@ -2,70 +2,92 @@
  "modulo": "icp-mecanismo",
  "slug": "rosario-sola",
  "founder": "Rosario Solá",
- "nombre": "Las marcas de 40WA",
- "por_que_propia": "40WA es B2B: el cliente ideal es la marca, no la mamá. Rosario, 16/10: solo marcas de EE.UU., innovadoras, muchas chicas que ya facturan. Facu: conocer esas marcas y productos para estudiar por dónde llegarles. La versión de mamás quedó en _descartadas.",
- "titulo": "La hoja de las marcas de 40WA",
- "bajada": "Las marcas a las que les vas a hablar: qué producto tienen, qué insight postparto pueden abordar y quién decide. Es la lista de los mini-diagnósticos.",
- "lista_cuando": "Hay diez marcas con su producto, su insight y quién decide, y la marca ideal está escrita en una frase.",
+ "por_que_propia": "Facu, 7/11: el cliente ideal del Programa Postparto, la embarazada del piloto. Reemplaza la hoja de las marcas de 40WA (pausada con el one-sheeter de marcas el 25/10; quedó en _descartadas). Toma la versión de mamás del 14/10 y lo que salió del 25/10 y del 30/10.",
+ "bajada": "La mamá que compra tu programa: en qué momento está, qué le preocupa del postparto y con qué palabras lo cuenta ella.",
+ "lista_cuando": "Los perfiles tienen lo que les preocupa y no solo quiénes son, las frases de las mamás están copiadas textuales, y tu cliente ideal está escrito con sus palabras.",
  "bajada_envio": {
   "founder": "Rosario Solá",
-  "porque": "Desde el 2/11 salís con dos mini-diagnósticos por semana: un post sobre el producto de una marca y el mensaje al decisor. Para eso necesitás la lista armada, y nosotros necesitamos conocer esas marcas para ver por dónde llegarles.",
-  "objetivo": "Diez marcas de EE.UU. con su producto, el insight que pueden abordar y quién decide, listas antes del 2/11.",
-  "mindset": "Elegí marcas con un producto donde lo que cambia para la madre se pueda contar en un post. Si no se te ocurre el insight, esa marca todavía no va."
+  "porque": "Tus dos cuentas ya tienen su rol y el programa arranca con un piloto de cinco embarazadas. Antes de escribir la oferta hay que bajar a papel quién es la mamá que lo compra: en qué momento está, qué le preocupa del postparto y cómo lo cuenta ella.",
+  "objetivo": "La hoja completa con lo que ya te dicen las mamás, para tu próxima reunión. De acá sale la oferta del Programa Postparto, que es la carta que sigue.",
+  "mindset": "Lo que más vale son las palabras textuales de las mamás: los mensajes de Baby Personal Box, las respuestas a tus historias y lo que te cuentan las cinco embarazadas. Si una parte todavía no aplica, dejala en blanco y seguí."
  },
+ "cuando": "Te la asignamos después de tu perfil porque de acá sale la oferta del programa: quién es la mamá, qué teme y qué la hace decir que sí define qué incluye el programa y cómo se lo contás.",
  "pasos": [
-  "Listá diez marcas de EE.UU. que tenés en la mira.",
-  "De cada una, el producto, el insight postparto que podría abordar y quién decide.",
-  "Anotá frases de mamás que sirvan como evidencia.",
-  "Escribí la marca ideal en una frase."
+  "Leé «De dónde arrancamos» y contestá ahí si algo de esa definición ya no te representa.",
+  "Llená los perfiles: los tipos de mamá que te imaginás en el piloto, qué le preocupa a cada una y la pregunta que le hacés para que te lo cuente con sus palabras.",
+  "Copiá tal cual las frases que ya te dijeron las mamás, sin corregirlas.",
+  "Sacá cuatro capturas de las estadísticas de @_rosariosola, subilas a Drive y pegá el link: con eso vemos juntas quién te sigue hoy.",
+  "Listá las mamás que ya te consultaron y las cinco embarazadas del piloto, con lo que te pidieron.",
+  "Leé la subcategoría y quién queda afuera, y contanos qué parte no suena a vos.",
+  "Escribí tu cliente ideal y lo que le pasa en el programa, cada uno en una frase, revisalas con las palabras de ellas y mandá la carta a revisión."
  ],
- "secciones": [
-  {
-   "nuestro": true,
-   "cid": 0,
-   "titulo": "De dónde arrancamos",
+ "ajustes": {
+  "0": {
    "texto": [
-    "Las marcas pagan, las mamás prueban. Marcas de EE.UU., innovadoras, en inglés, desde 40WA.",
-    "Tu cuenta @_rosariosola es para las mamás: de ahí salen los insights y las invitadas a las activaciones."
+    "Esto no es una hoja en blanco. Ya está definido a quién le hablás: embarazadas de habla hispana que llegan por tu marca personal y quieren llegar acompañadas al postparto. El programa arranca con un piloto de cinco.",
+    "Esa definición sirve para arrancar, pero todavía no dice qué le preocupa a cada una ni con qué palabras lo cuenta. Eso sale de tu gente: los mensajes que te mandan, lo que te preguntan en las historias y lo que te dicen las embarazadas del piloto.",
+    "Cuando devuelvas esto, la próxima reunión confirma en vez de volver a definir, y se escribe la oferta del programa con esto adelante."
    ],
-   "pregunta": "Algo de esto no te representa"
+   "pregunta_bajada": "Si algo de esta definición ya no representa a la mamá a la que querés llegar, contanos qué cambiarías y por qué. Si sigue vigente, indicalo."
   },
-  {
-   "cid": 1,
-   "titulo": "Las marcas",
-   "consigna": "Una fila por marca, empezando por la de infusiones y por las que ya tenés en lista.",
-   "campo": "tabla",
+  "1": {
+   "titulo": "Los tipos de mamá y qué le preocupa a cada una",
+   "consigna": "Una fila por cada tipo de mamá que te imaginás en el piloto: por ejemplo, la primeriza, la que ya tuvo un postparto difícil, la que vuelve a trabajar, la que está lejos de su familia. Para cada una: en qué momento está, qué le preocupa de verdad, la pregunta que le hacés para que te lo cuente y por qué le serviría el programa. La pregunta es la columna que más rinde después: es la que se convierte en el gancho de una pieza. Escribí lo que le preocupa como lo diría ella a las tres de la mañana.",
    "columnas": [
-    "Marca",
-    "Producto",
-    "Qué cambia para la madre (el insight)",
-    "Quién decide (rol y dónde está)",
-    "Por qué ella"
+    "Tipo de mamá",
+    "En qué momento está",
+    "Qué le preocupa",
+    "La pregunta que le hacés para que te lo cuente",
+    "Por qué le serviría el programa"
    ],
-   "filas": 10
+   "filas": 5
   },
-  {
-   "cid": 3,
-   "titulo": "Lo que ya te dijeron las mamás",
-   "consigna": "Frases tal cual de mensajes, comentarios y de las embarazadas con las que estás en contacto. Son la evidencia que llevás a cada marca.",
-   "campo": "texto",
-   "alto": 5,
-   "placeholder": "«...»"
+  "3": {
+   "consigna": "Cuatro o cinco frases copiadas tal cual de mensajes, comentarios y respuestas a tus historias, de cuando tenías Baby Personal Box y de ahora. Estas frases después son el título de tus piezas y el copy de la oferta, así que la fidelidad importa más que la prolijidad."
   },
-  {
-   "cid": 9,
-   "titulo": "La marca ideal, en una frase",
-   "consigna": "Qué tipo de marca es, en qué momento está y por qué te necesita. Si la frase le sirve a cualquier marca de bebés, todavía no está.",
-   "campo": "texto",
-   "alto": 2
+  "5": {
+   "titulo": "Las mamás que ya te consultaron",
+   "consigna": "Las mamás que ya te consultaron o te pidieron ayuda, aunque no te hayan pagado, y las cinco embarazadas del piloto. De cada una: en qué momento estaba, qué te preguntó o te pidió, si pagaría por un acompañamiento y cómo llegó a vos.",
+   "columnas": [
+    "Quién",
+    "En qué momento estaba",
+    "Qué te preguntó o te pidió",
+    "¿Pagaría por acompañamiento?",
+    "Cómo llegó a vos"
+   ],
+   "filas": 8
   },
-  {
-   "nuestro": true,
-   "cid": 12,
-   "titulo": "Qué pasa con esto después",
+  "6": {
+   "ocultar": true
+  },
+  "7": {
    "texto": [
-    "Con la lista estudiamos cada marca y por dónde llegarle. Desde el 2/11 salen dos por semana: post desde 40WA y mensaje al decisor. Revisión de mitad de camino el 13/11."
+    "La categoría grande es la maternidad, y está llena de cuentas de consejos y de marcas que venden productos. Ahí competís contra todas.",
+    "Tu subcategoría es más angosta: <b>el postparto acompañado por alguien que ya lo atravesó</b>, con una psicóloga al lado y una tribu de mamás que están en el mismo momento. Es una marca personal en un lugar donde hoy hablan sobre todo las marcas.",
+    "Lo dejamos escrito porque es una decisión de posicionamiento. Lo que necesitamos de vos es saber si te suena tuyo cuando lo leés en voz alta."
    ]
+  },
+  "8": {
+   "texto": [
+    "Del piloto quedan afuera: la mamá que busca solo información, a la que acompaña tu contenido gratis; la que necesita atención médica o terapéutica, que va con sus profesionales; y las marcas, que entran por 40 Weeks más adelante.",
+    "Dejarlas afuera por escrito es lo que después te deja decir que sí rápido, y hace que tu contenido le hable a la mamá que buscás."
+   ]
+  },
+  "9": {
+   "consigna": "Una sola frase con el momento en el que está (de cuántas semanas, si es primeriza o no), lo que le preocupa hoy y con cuánto cuenta para resolverlo. Si la frase le sirve igual a cualquier mamá, todavía no está."
+  },
+  "10": {
+   "titulo": "Qué le pasa en el programa, en una frase",
+   "consigna": "Lo que le pasa a la mamá cuando entra, contado por las microvictorias: qué tiene resuelto en las primeras semanas y cómo llega al final del acompañamiento. Tiene que poder verse adentro del programa. Si depende de algo que no controlás, no es promesa."
+  },
+  "12": {
+   "texto": [
+    "Con esta hoja se escribe la oferta del Programa Postparto, que es la carta que sigue: qué incluye, cuánto dura, las microvictorias y el precio del piloto.",
+    "Después vienen tus ángulos de comunicación y la estrategia de contenido del lanzamiento, y las preguntas que escribiste en los perfiles son el gancho de esas piezas."
+   ]
+  },
+  "13": {
+   "consigna": "No hace falta que lo analices vos: mandanos capturas de las estadísticas de @_rosariosola y las leemos con vos. En Instagram entrás a <b>Panel profesional → Estadísticas</b> y elegís los últimos 90 días. Sacá estas cuatro: <b>1)</b> tus seguidores: ubicaciones, edad y género. <b>2)</b> las cuentas alcanzadas, con el contenido que más alcance tuvo. <b>3)</b> la publicación que más seguidores te trajo (en cada publicación, «Ver estadísticas»). <b>4)</b> los días y horarios en que tus seguidores están más activos. Subilas a una carpeta de Drive y pegá el link acá. Si @40weeksafter ya tiene movimiento, sumá las mismas de esa cuenta."
   }
- ]
+ }
 }

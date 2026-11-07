@@ -320,7 +320,7 @@ def construir(m, categoria, pl=None, bajada=None):
     out.append('  <div class="caja">Carta de módulo · %s</div>' % esc(categoria))
     if (pl or {}).get("icono"):                     # el ícono de la carta, como lo tiene el original
         out.append('  <div class="ico-carta">%s</div>' % esc(pl["icono"]))
-    out.append('  <h1>%s</h1>' % esc((pl or {}).get("nombre") or m["nombre"]))   # la variante puede renombrar la carta
+    out.append('  <h1>%s</h1>' % esc(m["nombre"]))   # Facu, 7/11: el título es siempre el de la carta, también en las variantes
     out.append('  <p class="bajada">%s</p>' % ((pl or {}).get("bajada") or m.get("resultado", "")))
     out.append('  <div class="lista">')
     out.append('    <div><div class="et">Cuándo se asigna</div><div class="tx">%s</div></div>'
@@ -438,7 +438,7 @@ def construir(m, categoria, pl=None, bajada=None):
 
 def render(m, categoria, pl=None, bajada=None):
     quien = (bajada or {}).get("founder")
-    tit = '%s · carta de módulo' % ((pl or {}).get("nombre") or m["nombre"]) + (' · %s' % quien if quien else '')
+    tit = '%s · carta de módulo' % m["nombre"] + (' · %s' % quien if quien else '')
     cuerpo = construir(m, categoria, pl, bajada)
     hay_campos = bool((pl or {}).get("secciones"))
     acciones = ''
@@ -465,6 +465,59 @@ def cargar_plantilla(raiz, mid):
     if not os.path.exists(p): return None
     return json.load(open(p, encoding='utf-8'))
 
+
+
+# ---------------------------------------------------------------- el recorrido del founder
+# Facu, 7/11: toda carta de un founder abre con su recorrido, para ubicarlo en tiempo y
+# espacio: el objetivo de sus 90 días, en qué tramo está y la columna de cartas (las
+# hechas, esta y las que siguen), cada una con para qué sirve. Vive en
+# contenido/recorridos.json, una entrada por slug; la carta que se está armando se marca sola.
+ESTADOS_REC = {"hecha": "Hecha", "pausada": "En pausa", "ahora": "En curso", "sigue": "Sigue", "despues": "Después"}
+
+def cargar_recorridos(raiz):
+    f = os.path.join(raiz, 'contenido', 'recorridos.json')
+    if not os.path.exists(f): return {}
+    d = json.load(open(f, encoding='utf-8'))
+    return {k: v for k, v in d.items() if not k.startswith('_')}
+
+NOMBRES = {}
+
+def bloque_recorrido(rec, mid):
+    """El bloque nuestro con el recorrido. `mid` es el módulo de la carta que se arma."""
+    filas = []
+    cs = rec.get("cartas") or []
+    # si el mismo módulo aparece dos veces (la oferta para marcas y la del programa),
+    # es «esta» la que está en curso; si ninguna lo está, la primera que no está hecha ni en pausa
+    cand = [k for k, c in enumerate(cs) if c.get("id") == mid]
+    idx = next((k for k in cand if cs[k].get("estado") == "ahora"), None)
+    if idx is None:
+        idx = next((k for k in cand if cs[k].get("estado") not in ("hecha", "pausada")), None)
+    for k, c in enumerate(cs):
+        esta = k == idx
+        est = "esta" if esta else c.get("estado", "sigue")
+        chip = "Esta carta" if esta else ESTADOS_REC.get(c.get("estado"), "Sigue")
+        filas.append('<li class="rec-c %s"><span class="rec-chip">%s</span>'
+                     '<span class="rec-t"><b>%s</b><span>%s</span></span></li>'
+                     % (est, esc(chip), esc(NOMBRES.get(c.get("id")) or c.get("nombre")), esc(c.get("para_que"))))
+    tramos = []
+    for k, tr in enumerate(rec.get("tramos") or []):
+        act = ' ahora' if k == rec.get("tramo_actual") else ''
+        tramos.append('<div class="rec-tramo%s"><div class="k">%s</div><div class="t">%s</div>'
+                      '<div class="s">%s</div></div>'
+                      % (act, esc(tr.get("cuando")), esc(tr.get("nombre")), esc(tr.get("texto"))))
+    fig = ''
+    if tramos:
+        fig += '<div class="rec-tramos">%s</div>' % ''.join(tramos)
+    if filas:
+        fig += ('<p class="rec-et">La columna de tus cartas</p><ol class="rec-cartas">%s</ol>'
+                % ''.join(filas))
+    texto = []
+    if rec.get("objetivo"):
+        texto.append('<b>El objetivo de tus 90 días.</b> ' + rec["objetivo"])
+    if rec.get("lectura"):
+        texto.append(rec["lectura"])
+    return {"nuestro": True, "titulo": rec.get("titulo") or "Dónde estás en tu proceso",
+            "texto": texto, "figura": fig}
 
 def variantes(raiz):
     """Las cartas escritas para un founder en particular.
@@ -501,6 +554,8 @@ if __name__ == "__main__":
     v = 0
     if variantes(RAIZ):
         os.makedirs(os.path.join(RAIZ, 'cartas', 'para'), exist_ok=True)
+    recorridos = cargar_recorridos(RAIZ)
+    NOMBRES.update({k: v[0]["nombre"] for k, v in meta.items()})
     for f in variantes(RAIZ):
         pl = json.load(open(f, encoding='utf-8'))
         mid = pl["modulo"]
@@ -528,6 +583,10 @@ if __name__ == "__main__":
                 secs = [x for x in secs if not x.get("ocultar")]
             pl["secciones"] = (list(pl.get("bloques_inicio") or []) + secs
                                + list(pl.get("bloques_final") or []))
+        # el recorrido va arriba de todo, en todas las cartas de ese founder
+        slug_rec = pl.get("slug") or os.path.basename(f).split('--')[1][:-5]
+        if slug_rec in recorridos and not pl.get("sin_recorrido"):
+            pl["secciones"] = [bloque_recorrido(recorridos[slug_rec], mid)] + list(pl.get("secciones") or [])
         if mid not in meta:
             print("m\u00f3dulo desconocido:", mid, "en", os.path.basename(f)); continue
         m, cat = meta[mid]

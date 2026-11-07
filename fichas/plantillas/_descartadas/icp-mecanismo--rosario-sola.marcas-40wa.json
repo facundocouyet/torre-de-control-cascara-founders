@@ -1,0 +1,71 @@
+{
+ "modulo": "icp-mecanismo",
+ "slug": "rosario-sola",
+ "founder": "Rosario Solá",
+ "nombre": "Las marcas de 40WA",
+ "por_que_propia": "40WA es B2B: el cliente ideal es la marca, no la mamá. Rosario, 16/10: solo marcas de EE.UU., innovadoras, muchas chicas que ya facturan. Facu: conocer esas marcas y productos para estudiar por dónde llegarles. La versión de mamás quedó en _descartadas.",
+ "titulo": "La hoja de las marcas de 40WA",
+ "bajada": "Las marcas a las que les vas a hablar: qué producto tienen, qué insight postparto pueden abordar y quién decide. Es la lista de los mini-diagnósticos.",
+ "lista_cuando": "Hay diez marcas con su producto, su insight y quién decide, y la marca ideal está escrita en una frase.",
+ "bajada_envio": {
+  "founder": "Rosario Solá",
+  "porque": "Desde el 2/11 salís con dos mini-diagnósticos por semana: un post sobre el producto de una marca y el mensaje al decisor. Para eso necesitás la lista armada, y nosotros necesitamos conocer esas marcas para ver por dónde llegarles.",
+  "objetivo": "Diez marcas de EE.UU. con su producto, el insight que pueden abordar y quién decide, listas antes del 2/11.",
+  "mindset": "Elegí marcas con un producto donde lo que cambia para la madre se pueda contar en un post. Si no se te ocurre el insight, esa marca todavía no va."
+ },
+ "pasos": [
+  "Listá diez marcas de EE.UU. que tenés en la mira.",
+  "De cada una, el producto, el insight postparto que podría abordar y quién decide.",
+  "Anotá frases de mamás que sirvan como evidencia.",
+  "Escribí la marca ideal en una frase."
+ ],
+ "secciones": [
+  {
+   "nuestro": true,
+   "cid": 0,
+   "titulo": "De dónde arrancamos",
+   "texto": [
+    "Las marcas pagan, las mamás prueban. Marcas de EE.UU., innovadoras, en inglés, desde 40WA.",
+    "Tu cuenta @_rosariosola es para las mamás: de ahí salen los insights y las invitadas a las activaciones."
+   ],
+   "pregunta": "Algo de esto no te representa"
+  },
+  {
+   "cid": 1,
+   "titulo": "Las marcas",
+   "consigna": "Una fila por marca, empezando por la de infusiones y por las que ya tenés en lista.",
+   "campo": "tabla",
+   "columnas": [
+    "Marca",
+    "Producto",
+    "Qué cambia para la madre (el insight)",
+    "Quién decide (rol y dónde está)",
+    "Por qué ella"
+   ],
+   "filas": 10
+  },
+  {
+   "cid": 3,
+   "titulo": "Lo que ya te dijeron las mamás",
+   "consigna": "Frases tal cual de mensajes, comentarios y de las embarazadas con las que estás en contacto. Son la evidencia que llevás a cada marca.",
+   "campo": "texto",
+   "alto": 5,
+   "placeholder": "«...»"
+  },
+  {
+   "cid": 9,
+   "titulo": "La marca ideal, en una frase",
+   "consigna": "Qué tipo de marca es, en qué momento está y por qué te necesita. Si la frase le sirve a cualquier marca de bebés, todavía no está.",
+   "campo": "texto",
+   "alto": 2
+  },
+  {
+   "nuestro": true,
+   "cid": 12,
+   "titulo": "Qué pasa con esto después",
+   "texto": [
+    "Con la lista estudiamos cada marca y por dónde llegarle. Desde el 2/11 salen dos por semana: post desde 40WA y mensaje al decisor. Revisión de mitad de camino el 13/11."
+   ]
+  }
+ ]
+}

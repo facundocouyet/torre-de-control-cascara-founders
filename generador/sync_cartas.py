@@ -76,7 +76,7 @@ def filas_del_repo():
         m, cat = base[mod]
         cod = "%s--%s" % (mod, slug)
         cartas.append({
-            "codigo": cod, "nombre": v.get("nombre") or m["nombre"], "categoria": cat,
+            "codigo": cod, "nombre": m["nombre"], "categoria": cat,
             "nivel": m.get("nivel"), "para_quien": v.get("founder", ""),
             "resultado": v.get("bajada") or m.get("resultado", ""),
             "pasos": v.get("pasos") or m.get("pasos", []), "herramientas": m.get("herramientas", []),
@@ -161,8 +161,9 @@ def asignar(ids):
     for slug, x in lista.items():
         if x.get("revision") == "pendiente":
             print("  en revisión, no entra todavía: %s" % slug); continue
-        if x.get("cerrar"):
-            # sign off: la activa pasa a completada y se saca la próxima
+        if x.get("cerrar") or x.get("sin_carta"):
+            # sign off, o "sin_carta" (Facu, 7/11: lo que pedía la carta ya se lo dimos en una
+            # devolución): la activa pasa a completada y se saca la próxima
             cid = clientes.get(slug)
             if cid:
                 for v in filas(cid, activa):
@@ -176,6 +177,8 @@ def asignar(ids):
         if not cid:
             print("  ojo: %s no está en clientes de la app; no se asigna" % slug); continue
         carta = carta_de(cod, slug)
+        if carta and not ids.get("%s--%s" % (cod, slug)) and "--" not in cod:
+            print("  ojo: la activa de %s es genérica (%s); hay que escribirla para este cliente" % (slug, cod))
         if not carta:
             print("  ojo: la carta %s no existe; %s queda sin asignar" % (cod, slug)); continue
         vigentes = filas(cid, activa)
@@ -193,6 +196,10 @@ def asignar(ids):
         def lista_de(v): return [v] if isinstance(v, str) else list(v or [])
         cola = []
         for cod_s in lista_de(x.get("siguiente")) + lista_de(x.get("en_paralelo")) + lista_de(x.get("despues")):
+            # Facu, 7/11: nunca una genérica. Si no está escrita para este cliente, no entra a la
+            # app: figura en su recorrido como próxima, sin abrirse, hasta que se escriba.
+            if not ids.get("%s--%s" % (cod_s, slug)) and "--" not in cod_s:
+                print("  genérica, no entra a la app (queda en el recorrido): %s → %s" % (slug, cod_s)); continue
             carta_s = carta_de(cod_s, slug)
             if not carta_s:
                 print("  ojo: la carta %s de la cola no existe para %s" % (cod_s, slug)); continue
@@ -247,8 +254,8 @@ def main():
             for slug, x in a.get("clientes", {}).items():
                 if x.get("revision") == "pendiente":
                     print("   en revisión %-17s → no entra hasta que Facu o Aye la aprueben" % slug); continue
-                if x.get("cerrar"):
-                    print("   cierra %-22s → activa a completada, sin próxima" % slug); continue
+                if x.get("cerrar") or x.get("sin_carta"):
+                    print("   %s %-22s → activa a completada, sin próxima" % ("cierra" if x.get("cerrar") else "sin carta", slug)); continue
                 cod = x.get("activa")
                 if not cod: continue
                 pars = x.get("en_paralelo") or []
