@@ -1,0 +1,32 @@
+{
+  "modulo": "contratar-primer-rol",
+  "slug": "said-espinosa",
+  "founder": "Said Espinosa",
+  "bajada_envio": {
+    "founder": "Said Espinosa",
+    "porque": "En la 1:1 del 6/11 quedó claro: estás cerrando clientes que piden producción, y si la edición la hacés vos, se frena tu propio contenido. Tenés mucho B-roll grabado y nadie que lo edite, y sin tu contenido al aire es difícil vender un ticket más alto.",
+    "objetivo": "La búsqueda publicada y una prueba paga hecha para tu próxima reunión. El editor arranca con tus tres piezas por semana y, cuando esté calibrado, suma la producción de tus clientes.",
+    "mindset": "Empezás por tu contenido porque es el que te trae los próximos clientes. El primer editor tiene que poder seguir un brief; lo demás se ajusta con el tiempo."
+  },
+  "cuando": "Te la asignamos ahora porque estás cerrando clientes que piden producción, y el tiempo de edición te saca de lo que hacés mejor: la estrategia y la venta.",
+  "pasos": [
+    "Separá lo que delegás de lo que te queda (punto 02). A la izquierda, la edición de tus reels y carruseles con el B-roll que ya tenés; a la derecha, la estrategia, los guiones y la relación con el cliente.",
+    "Escribí el rol en media página (punto 03): para qué está, tres a cinco responsabilidades, cuántas piezas entrega por semana y a quién le reporta (a vos o a Andrés).",
+    "Sacá tu número con el tarifario de Cáscara (punto 04): tres piezas por semana, por el valor del nivel que necesitás, por cuatro. Escribí de qué cliente sale esa plata todos los meses.",
+    "Duplicá en tu Notion el formulario de postulación que está en la hoja y cambiale el nombre por el de SENTIRE.",
+    "Escribí tus tres historias (punto 05) y publicalas el mismo día, con el link del formulario y la fecha de cierre de la búsqueda.",
+    "Elegí dos o tres postulantes y mandales una prueba paga con tu B-roll real: por ejemplo, un reel de 30 segundos con tu brief. El que mejor siga el brief es tu editor."
+  ],
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que hablamos el 6/11",
+      "texto": [
+        "Lo primero es tu contenido: tres piezas por semana. Un carrusel editado, un reel orgánico contando lo que están viviendo con los clientes y una pieza más.",
+        "El material ya existe: el B-roll que vienen grabando. El editor arranca por ahí.",
+        "Vender estrategias de contenido sin publicar contenido propio es cuesta arriba. Tu contenido es tu portfolio mientras juntás casos.",
+        "Cuando el editor esté calibrado con tu contenido, suma la producción de los clientes. Así las propuestas que vendés no te consumen en edición."
+      ]
+    }
+  ]
+}

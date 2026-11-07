@@ -77,6 +77,28 @@
       "dada_por": "Facu",
       "archivo": "devoluciones/qualita-2026-11-07-campana-cierre-de-anio.html",
       "contenido": "**La idea de la campaña:** «El año que viene lo ordenamos», la frase que dice todo dueño en diciembre y que Qualita viene a cumplir.\n\n**El protagonista:** la segunda generación (Relevo), con el fundador (Conducción) como contraparte en las escenas.\n\n**El puente con el mecanismo:** cada territorio del Miro (tiempo, control, legado y relevo, libertad) con su dolor de negocio y dónde entra Qualita.\n\n**El recorrido:** contenido que se siente propio → DUEÑO o 2027 → workshop de cierre de año, presencial en Buenos Aires y por streaming → llamada por privado → el mecanismo.\n\n**Las cuatro semanas:** el lado B, el problema de fondo, el workshop y la venta antes de las fiestas, con microficciones, La cabeza de un PyME, socios a cámara, carruseles y la charla con un cliente.\n\n**Lo que necesitamos de ustedes:** validar el protagonista y las fechas, y frases reales de dueños con nombre propio.\n\nEl documento completo tiene el calendario día por día y trece guiones de ejemplo, cada uno con el porqué."
+    },
+    {
+      "codigo": "said-espinosa-2026-11-07-propuestas-y-entrega",
+      "cliente_slug": "said-espinosa",
+      "carta": "onboarding-y-roadmap-cliente--said-espinosa",
+      "titulo": "Tus propuestas, y cómo entregar el servicio",
+      "resumen": "Lo que vemos en tus seis propuestas, cómo entregamos el servicio en Cáscara, el roadmap de 90 días, cómo arranca la entrega de LIORA, cómo cerrar Hogares con Vida y tu contenido con un editor.",
+      "fecha": "2026-11-07",
+      "dada_por": "Facu",
+      "archivo": "devoluciones/said-espinosa-2026-11-07-propuestas-y-entrega.html",
+      "contenido": "**Tus propuestas:** seis en un mes, dos cerradas y una aprobada, con la promesa adelante y una sola inversión desglosada por resultado. Lo que ajustaríamos: el precio frente a todo lo que incluye, las métricas que quedaron en [__] y quién produce lo que vendiste.\n\n**Cómo entregamos el servicio:** onboarding en 48 horas, brief con punto A, punto B y cliente ideal, ángulos, estrategia y calendario aprobados por escrito, producción con fecha fija, entrega en Notion y Drive, medición mensual y renovación en la semana 10.\n\n**El roadmap de 90 días:** semana 0 firma y onboarding · semana 1 brief y estrategia · semana 2 calendario y guiones · semanas 3 y 4 rodaje y publicación · mes 2 ajuste con datos · mes 3 medición y renovación.\n\n**LIORA:** el cliente ideal en dos momentos (la tarde y la noche), cuatro ángulos desde el concepto y tres guiones para la etapa de espionaje.\n\n**Hogares con Vida:** antes del 9/11, entrega completa, informe de cierre, propuesta de continuación y permiso para contarlo como caso.\n\n**Tu contenido:** tres piezas por semana con un editor; la carta Contratar a tu editor está en la app con el formulario y el tarifario.\n\nEl documento completo tiene la revisión de cada propuesta y los guiones de ejemplo."
+    },
+    {
+      "codigo": "said-espinosa-2026-11-07-notion-por-cliente",
+      "cliente_slug": "said-espinosa",
+      "carta": "onboarding-y-roadmap-cliente--said-espinosa",
+      "titulo": "El Notion de cada cliente",
+      "resumen": "Cómo duplicar el OS de Notion que te compartimos, armar tu molde y reacomodarlo para cada cliente, empezando por LIORA.",
+      "fecha": "2026-11-07",
+      "dada_por": "Facu",
+      "archivo": "cartas/sop/os-del-cliente-en-notion.html",
+      "contenido": "**Tu molde:** duplicá el OS que te compartimos (tres puntos → Duplicar), movelo a tu workspace, ponele tu marca y dejalo limpio: sin tarjetas de ejemplo, con las propiedades, los estados y la plantilla de la tarjeta. Ese molde se usa solamente para duplicar.\n\n**Un OS por cliente:** de tu molde sale «[Cliente] · OS». Cargás OnBoarding, Agenda, Administración, la estrategia en Contenido y el primer mes en el calendario, y lo compartís con el cliente con permiso para comentar.\n\n**Reacomodalo según lo que vendiste:** el recorrido de estados es el mismo; cambia cuáles usás y quién mueve cada uno. En Formato quedan solo las piezas que ese cliente compró.\n\n**Para LIORA:** «LIORA · OS» con la encuesta y el cliente ideal en OnBoarding, las sesiones en Agenda, la propuesta de MXN 44.000 y los pagos en Administración, el concepto en dos etapas en Contenido, y las tres piezas del espionaje (cámara oculta, expediente y la revelación) como las primeras tarjetas en Guionar.\n\nEl paso a paso completo está en el documento."
     }
   ]
 }

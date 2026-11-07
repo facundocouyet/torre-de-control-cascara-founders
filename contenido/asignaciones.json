@@ -195,17 +195,15 @@
       "revision": "pendiente"
     },
     "said-espinosa": {
-      "activa": "auditoria-de-clientes",
-      "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 9/10: Facu quedó en dejar cargado hoy en la app el formulario de auditoría; Said ya lo reclamó en su canal. Franco hacia el 15/10 por la oferta. Después, el ICP. En paralelo, las dos propuestas de noviembre (heladerías y asados) para feedback de Facu; después, el documento de onboarding que Facu le prometió. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
+      "activa": "icp-mecanismo",
+      "siguiente": "onboarding-y-roadmap-cliente--said-espinosa",
+      "por_que": "Clarity Call del 9/10: Facu quedó en dejar cargado hoy en la app el formulario de auditoría; Said ya lo reclamó en su canal. Franco hacia el 15/10 por la oferta. Después, el ICP. En paralelo, las dos propuestas de noviembre (heladerías y asados) para feedback de Facu; después, el documento de onboarding que Facu le prometió. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.) 29/10: Facu aprueba la auditoría (devolución cargada) y entra el ICP. 7/11: después de la 1:1 del 6/11 (Fathom 200746840), Facu suma en paralelo Contratar a tu editor, con el formulario y el tarifario, para que vuelva a publicar 3 piezas por semana; la devolución de sus propuestas baja cómo entregar el servicio.",
       "en_paralelo": [
-        "proceso-comercial"
+        "proceso-comercial",
+        "contratar-primer-rol"
       ],
-      "inicio": "2026-10-09",
-      "despues": [
-        "onboarding-y-roadmap-cliente--said-espinosa"
-      ],
-      "revision": "pendiente"
+      "inicio": "2026-10-29",
+      "anterior": "completada"
     },
     "delfina-corsalini": {
       "activa": "icp-mecanismo",
