@@ -63,5 +63,54 @@
         "estado": "despues"
       }
     ]
+  },
+  "delfina-corsalini": {
+    "objetivo": "Cerrar los 90 días con tu oferta por etapas con precios cerrados, tus primeros clientes con el modelo nuevo (Mercato es el primero), tu cartera separada en A, B y C con la propuesta nueva para enero, y tu marca personal contando lo que hacés.",
+    "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolviste en las anteriores y deja lista la que sigue. Por eso conviene hacerlas en este orden.",
+    "tramo_actual": 1,
+    "tramos": [
+      {
+        "cuando": "Mes 1 · octubre",
+        "nombre": "El diagnóstico",
+        "texto": "Tus clientes, tu equipo y lo que vendés hoy, y la oferta nueva por etapas."
+      },
+      {
+        "cuando": "Mes 2 · noviembre",
+        "nombre": "La oferta y tu cliente",
+        "texto": "A quién le vendés, a qué precio cada etapa, y los primeros clientes con el modelo nuevo."
+      },
+      {
+        "cuando": "Mes 3 · diciembre",
+        "nombre": "El relanzamiento",
+        "texto": "Tus clientes A y B reciben la propuesta nueva para enero, y tu perfil y el del estudio cuentan la misma solución."
+      }
+    ],
+    "cartas": [
+      {
+        "id": "auditoria-de-clientes",
+        "para_que": "Tus clientes, tus servicios y tu equipo en una tabla: de ahí salió la oferta nueva.",
+        "estado": "hecha"
+      },
+      {
+        "id": "icp-mecanismo",
+        "para_que": "A quién le vendés la oferta nueva y tu cartera separada en A, B y C.",
+        "estado": "ahora"
+      },
+      {
+        "id": "one-sheeter-oferta",
+        "para_que": "La oferta en tres etapas en una hoja, con los precios que se cierran en la llamada de oferta.",
+        "estado": "sigue"
+      },
+      {
+        "id": "profile-funnel",
+        "para_que": "Tu perfil y el del estudio contando una sola solución, con el video de tu historia.",
+        "estado": "despues"
+      },
+      {
+        "id": "proceso-comercial",
+        "para_que": "La venta en dos llamadas: la de diagnóstico y la de cierre, para cada lead que entra.",
+        "estado": "despues"
+      }
+    ]
   }
 }

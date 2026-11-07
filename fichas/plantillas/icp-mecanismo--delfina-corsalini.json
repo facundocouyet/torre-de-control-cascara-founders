@@ -4,16 +4,70 @@
  "founder": "Delfina Corsalini",
  "bajada_envio": {
   "founder": "Delfina Corsalini",
-  "porque": "Con Franco quedó pasar de packs de piezas a una oferta de alto ticket que vende un resultado, con los packs como downsell y un MVP al 75% del precio con 3 a 5 clientes. Tu auditoría muestra diez clientes de ARS 250.000 a 1.200.000 con servicios casi iguales, y vos misma escribiste que te cuesta poner límites y que la mayoría no respeta tiempos.",
-  "objetivo": "El cliente ideal de la oferta nueva, escrito en personas concretas y con lo que respondan tus clientes en la encuesta. Es lo que te pidió Franco antes del seguimiento conmigo.",
-  "mindset": "El cliente que respeta tus tiempos es el que valora el resultado. Buscalo en tu lista de hoy."
+  "porque": "En la sesión de oferta quedó a quién le querés vender: la empresa regional tradicional que sale a mostrarse. Y en nuestra 1:1, la oferta nueva por etapas, que ya probaste con Mercato. Para venderla sin volver a cobrar barato hay que bajar ese cliente a personas concretas: qué empresa es, qué le duele y con qué palabras lo cuenta.",
+  "objetivo": "Tu cliente ideal escrito en personas concretas y tu cartera separada en A, B y C, completos para la llamada de oferta. Con esto se cierran los precios de las etapas.",
+  "mindset": "Es tu cliente ideal, el de lo que querés vender vos, no el de los dos clientes nuevos. Mercato y la empresa de transporte son tu práctica; esta hoja es a quién vas a buscar."
  },
+ "cuando": "Te la asignamos después de la auditoría porque la oferta nueva necesita un cliente: la auditoría dice qué vendés hoy y a quién, y esta hoja dice a quién le vendés lo nuevo.",
+ "pasos": [
+  "Leé «De dónde arrancamos» y contanos ahí si algo de esa definición ya no te representa.",
+  "Llená los tipos de empresa: qué le duele a cada una y la pregunta que le hacés para que te lo cuente. Arrancá por los rubros que nombraste: agro, industria, alimentos y distribuidoras.",
+  "Pegá lo que te respondieron tus clientes en la encuesta. Si todavía no la mandaste, mandala y completá esta parte cuando vuelvan.",
+  "Sacá las capturas de las estadísticas de tu cuenta y la del estudio, subilas a Drive y pegá el link.",
+  "Traé tus clientes de la auditoría y separalos en A, B y C.",
+  "Leé la escalera, la subcategoría y quién queda afuera, y contanos qué parte no suena a vos.",
+  "Escribí tu cliente ideal y lo que hace tu oferta, cada uno en una frase, revisalas con las palabras de tus clientes y mandá la carta a revisión."
+ ],
  "ajustes": {
+  "0": {
+   "texto": [
+    "Esto no es una hoja en blanco. En la sesión de oferta quedó a quién le vendés: <b>la empresa regional tradicional que sale a mostrarse</b>. Agro, industria, alimentos, distribuidoras. Venden bien, recién entran a lo digital y tienen ferias, lanzamientos o eventos en agenda.",
+    "El filtro para que entre: decide el dueño o el gerente comercial, tiene un objetivo comercial que se puede medir (abrir mercado, una feria, un lanzamiento, sumar distribuidores), puede pagar la primera etapa antes de producir y se compromete a 90 días.",
+    "Lo que falta es bajarlo a personas concretas: qué les duele, cómo lo dicen y qué los hace pagar. Eso sale de tus clientes, de la encuesta y de las empresas de ese rubro que ya conocés."
+   ],
+   "pregunta_bajada": "Si algo de esta definición ya no representa al cliente al que querés llegar, contanos qué cambiarías y por qué. Si sigue vigente, indicalo."
+  },
+  "1": {
+   "titulo": "Los tipos de empresa y qué le duele a cada una",
+   "consigna": "Una fila por cada tipo de empresa al que le venderías la oferta nueva: los rubros que nombraste (agro, industria, alimentos, distribuidoras) o los que ya tocaste, como CEPRO o el cliente de cítricos. Para cada una: de qué vive hoy, qué le duele de verdad, la pregunta que le hacés para que te lo cuente con sus palabras y por qué le serviría tu oferta. La pregunta es la columna que más rinde después: es el gancho de tus piezas.",
+   "columnas": ["Tipo de empresa", "De qué vive hoy", "Qué le duele", "La pregunta que le hacés para que te lo cuente", "Por qué le serviría tu oferta"],
+   "filas": 5
+  },
   "3": {
-   "consigna": "Pegá acá lo que te respondieron tus clientes en la encuesta de unas diez preguntas que quedaste en mandarles, con sus palabras. Si todavía no la mandaste, mandala hoy y completá esta sección cuando vuelvan."
+   "consigna": "Pegá lo que te respondieron tus clientes en la encuesta que quedaste en mandarles, con sus palabras y sin corregirlas. Si todavía no la mandaste, mandala y completá esta parte cuando vuelvan. Estas frases después son el título de tus piezas y el copy de tus propuestas."
+  },
+  "5": {
+   "titulo": "Tu cartera, en A, B y C",
+   "consigna": "Traé tus clientes de la auditoría y poné cada uno en un grupo. <b>A</b>: buen fee, buen margen y pasan el filtro del cliente ideal; son los primeros en recibir la oferta nueva. <b>B</b>: rentables con un ajuste; reciben la propuesta nueva para enero. <b>C</b>: no rentables o no alineados; se cierran con aviso y de a uno. Anotá en la última columna en qué grupo va cada uno.",
+   "columnas": ["Quién", "Qué te compra", "Cuánto paga", "Por qué te buscó", "Grupo (A, B o C)"]
+  },
+  "6": {
+   "texto": [
+    "<b>Etapa 1 · Diagnóstico y estrategia de marca.</b> La puerta de entrada: auditoría de marca y negocio, el objetivo comercial de 90 días, el concepto creativo y el plan, presentado en una reunión. Pago único antes de producir, de USD 2.000 a 3.000, y se descuenta si pasa a la etapa 2.",
+    "<b>Etapa 2 · El ciclo de 90 días.</b> La ejecución del plan, con entregables definidos por el objetivo y no por cantidad, y una reunión de cierre del ciclo. Se cobra por trimestre y por adelantado. La referencia de nuestra 1:1 es USD 4.000 o más por ciclo.",
+    "<b>Etapa 3 · Activaciones y crecimiento.</b> Stands, ferias, eventos, pauta y web, por proyecto y con anticipo. Es donde está tu mayor diferencial.",
+    "Los packs de piezas que hoy vendés quedan como entrada para el que no califica."
+   ],
+   "pregunta": "Qué le cambiarías a esta escalera"
+  },
+  "7": {
+   "texto": [
+    "La categoría grande es la agencia de redes, y ahí te comparan pieza por pieza y gana el más barato.",
+    "Tu subcategoría es otra: <b>llevás la marca del Instagram al mundo físico</b>. Venís del diseño y los eventos, y casi ninguna agencia de redes sabe montar un stand o una activación. Para una empresa que sale a mostrarse en una feria o en un lanzamiento, eso es lo que la hace elegirte.",
+    "Lo dejamos escrito porque es una decisión de posicionamiento. Lo que necesitamos de vos es saber si te suena tuyo cuando lo leés en voz alta."
+   ]
   },
   "8": {
-   "consigna": "Escribí también quién queda afuera de la oferta nueva: el cliente que pide piezas sueltas y corre los plazos. Ese pasa a los packs."
+   "texto": [
+    "Quedan afuera de la oferta nueva: el negocio chico con poco presupuesto y poca conciencia de marketing, que pasa a los packs; el que dice «lo veo con mi socio y te aviso»; el que solo quiere «estar en redes» sin un objetivo comercial; el que pide arrancar con algo chico; y el que quiere ir mes a mes.",
+    "Dejarlos afuera por escrito es lo que te deja decir que sí rápido y poner límites desde la propuesta."
+   ]
+  },
+  "12": {
+   "texto": [
+    "Con esta hoja se cierran los precios de las tres etapas en la llamada de oferta, y tus clientes A son los primeros en recibir la propuesta nueva.",
+    "Después vienen tu perfil y el del estudio, para que cuenten la misma solución, y el video de tu historia como primera pieza."
+   ]
   }
  }
 }
