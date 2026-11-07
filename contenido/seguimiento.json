@@ -5,13 +5,13 @@
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
-      "ultimo": "2026-11-05",
-      "que": "1:1 con Facu del 5/11 (Fathom 200187739): el foco pasa al programa educativo; la agencia queda como fábrica de contenido que financia su marca personal, con un PM para la operación. Reactiva la marca personal con un video de YouTube de su historia. Lanzamiento a mediados de enero o febrero; la primera venta la hace ella.",
+      "ultimo": "2026-11-07",
+      "que": "7/11: Facu le reseteó el proceso (commit 5216169): devolución «Tu programa y tus 90 días» con lo decidido el 5/11, ajustes a la oferta y el roadmap hasta el lanzamiento de febrero, y una sola carta para este tramo con lo que le falta al programa para cerrarlo con Franco. PM: Facu habló con Lola, que le pasa 2 o 3 perfiles para entrevistar.",
       "proximo": null,
-      "paso": "Llamada con Franco para oferta, precio y calendario del programa; grabar el video de su historia.",
+      "paso": "Sofía: completar la carta del programa, agendar con Franco y grabar el video de su historia. Lola: pasarle los perfiles de PM.",
       "carta": "Oferta, con el feedback de Facu.",
       "pilar": "Oferta",
-      "pelota": "Franco"
+      "pelota": "cliente"
     },
     "bianca-antonini": {
       "ultimo": "2026-10-15",
