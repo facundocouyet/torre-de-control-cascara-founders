@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-11-06",
+  "actualizado": "2026-11-07",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -92,7 +92,7 @@
       "ultimo": "2026-11-05",
       "que": "Facu le mandó el calendario revisado en `#cf-sebastian` (5/11 8:37) y el tarifario de edición en Notion (4/11). Por DM (4/11): si enero queda justo, preventa ahora y arranque en febrero, como con Delfi Ferro. La 1:1 del 5/11 12:00 pasó a hoy (Facu por DM: «puedo mañana mejor»).",
       "proximo": "2026-11-06",
-      "paso": "Revisan el calendario y su guion del miedo a cobrar más (1:1 corrida al 6/11, sin hora en el calendario).",
+      "paso": "La 1:1 corrida al 6/11 no quedó en Fathom ni en el calendario (falta confirmar si se hizo). Revisan el calendario y su guion del miedo a cobrar más.",
       "carta": "Calendario de lanzamiento activa; después el workshop y la venta B2C.",
       "pilar": "Venta",
       "pelota": "cliente",
@@ -102,10 +102,10 @@
       }
     },
     "sol-boutmy": {
-      "ultimo": "2026-11-04",
-      "que": "Seguimiento con Aye del 4/11 (Fathom 199677336): sienten el recorrido en zigzag y que en el día 62 de 90 siguen definiendo; quedaron en completar el cliente ideal y mandarlo a revisión. Aye pide a Facu lo pendiente del calendario de comunicación y los perfiles de editores, a Franco no duplicar el ICP con los Founder Insights y a Teo evaluar 30 días de extensión (no se les prometió).",
+      "ultimo": "2026-11-06",
+      "que": "Facu con Aye (6/11, Fathom 200730923): BeMotion está trabado porque no contrató editor y eso frena la oferta nueva; Facu les extiende el programa un mes. Sienten confuso el onboarding (Notion, app, WhatsApp y Slack). Del 4/11: completan el cliente ideal y lo mandan a revisión; Aye pide a Facu el calendario de comunicación y los perfiles de editores.",
       "proximo": null,
-      "paso": "Sol y Fede: completar el cliente ideal y mandarlo a revisión. Facu: calendario de comunicación y perfiles de editores.",
+      "paso": "Facu: avisarles la extensión de un mes, el calendario de comunicación y los perfiles de editores. Sol y Fede: contratar editor y mandar el cliente ideal a revisión.",
       "carta": "Cliente ideal y oferta (en revisión).",
       "pilar": "Oferta",
       "pelota": "Facu"

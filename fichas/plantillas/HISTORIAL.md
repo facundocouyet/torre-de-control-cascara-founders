@@ -39,7 +39,7 @@
 - **Cuándo va:** Cuando el comercial ya bajó a quién le vende y falta convertir esa definición en personas concretas con un dolor que se pueda nombrar.
 - **Cómo se personaliza:** La bajada con el porqué de su caso y, si el producto todavía no existe, preguntas de discovery sobre a quién le vende hoy. La columna es «La pregunta que le hacés para que te cuente ese dolor», con la pista «¿por qué me consultaste?».
 - **Ojo:** Va antes que la de oferta o junto con ella. Oferta e ICP primero, precio después (Facu, 4/10). Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
-- **Versiones:** agostina-marchesini (liviana), camila-basso (propia), delfina-corsalini (liviana), juan-galeano (liviana), lara-loiano (liviana), lucila-prieto (liviana), luz-rodriguez-victoria-rios (liviana), marcela-ospital (liviana), marcelo-fernandez (propia), matias-morales (propia), milagros-goico (liviana), naiara-angeloff (liviana), osmo (propia), rosario-sola (propia), said-espinosa (liviana), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia), tomas-visser (liviana)
+- **Versiones:** agostina-marchesini (liviana), camila-basso (propia), daniel-urdaneta (liviana), delfina-corsalini (liviana), juan-galeano (liviana), lara-loiano (liviana), lucila-prieto (liviana), luz-rodriguez-victoria-rios (liviana), marcela-ospital (liviana), marcelo-fernandez (propia), matias-morales (propia), milagros-goico (liviana), naiara-angeloff (liviana), osmo (propia), rosario-sola (propia), said-espinosa (liviana), samuel-tarancon (liviana), sebastian (propia), sofia-galvis (propia), sofia-guevara (propia), sol-boutmy (liviana), the-momentum-club (propia), tomas-visser (liviana)
 - **Últimos cambios:**
   - 2026-11-05 · 5/11: carta ICP, nueva pregunta para revisar la definición del cliente ideal (Aye) (`b071065`)
   - 2026-11-04 · 4/11: carta de Sofía Guevara ajustada y prellenada con sus Founder Insights (`14bc58d`)
@@ -531,11 +531,11 @@
 - **Ojo:** Facu, 16/10: la carta no pide escribirle, preguntarle ni mandarle nada a nadie para completarla. Lo de afuera sale de lo que ya tiene el founder (mensajes, comentarios, reseñas, llamadas grabadas).
 - **Versiones:** aaron-aiello (liviana), camila-basso (propia), rosario-sola (liviana), santiago-guevara (liviana), tomas-visser (liviana)
 - **Últimos cambios:**
+  - 2026-11-06 · 6/11: pasaporte de Santiago Guevara en revisión; seguimiento de Sofía Galvis, Lola, Seba y Momentum (`06ddd45`)
   - 2026-10-26 · Corrida 26/10: Tomás Visser con Pasaporte en revisión, Agos manda el one-sheeter, Rosario día 30, Santiago Guevara ingresa (`72b262f`)
   - 2026-10-22 · Las 10 cartas que absorbieron a otras, reescritas (Facu, 21/10) (`52eab2a`)
   - 2026-10-21 · Camila: tareas propias en sus dos cartas de narrativa (la de BUCK heredaba las tareas personales del pasaporte) (`59c55ad`)
   - 2026-10-21 · Camila (21/10): la narrativa se parte en dos. La narrativa de BUCK queda solo con la marca (falta el moodboard) y suma la carta Tu historia y tu marca personal con las preguntas personales del pasaporte. Orden: BUCK, su historia, cliente ideal, ángulos y calendario (`b635169`)
-  - 2026-10-16 · Camila: narrativa de BUCK primero (pasaporte adaptado, con su moodboard), cliente ideal en paralelo, después ángulos y calendario. Done with you (`df7ccfb`)
 
 ## Identidad y arco narrativo · `identidad-y-arco-narrativo`
 

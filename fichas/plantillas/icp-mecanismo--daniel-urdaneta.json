@@ -1,0 +1,25 @@
+{
+  "modulo": "icp-mecanismo",
+  "slug": "daniel-urdaneta",
+  "founder": "Daniel Urdaneta",
+  "bajada_envio": {
+    "founder": "Daniel Urdaneta",
+    "porque": "En la 1:1 quedó dónde está el problema: tus clientes de Instagram te pagan USD 500 y 600 por mes por un trabajo hecho a mano de punta a punta, y eso no da margen. El paso es vender estrategia y resultados a USD 1.500 a 2.000, y para eso hace falta saber a quién. La hipótesis que salió es profesionales de servicios (abogados, médicos, psicólogos): necesitan clientes y tienen presupuesto para pagar por resultados.",
+    "objetivo": "Tu cliente ideal escrito, con sus dolores de fondo, en tres días. Con eso llegás a la llamada con Franco con una hipótesis concreta de cliente ideal y oferta para que te la baje a tierra.",
+    "mindset": "Es una hipótesis, no una sentencia: la vas a probar uno o dos meses con contenido para ese nicho. Escribí lo que ya sabés de tus clientes actuales y de los profesionales que conocés, con sus palabras."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó definido en la 1:1",
+      "texto": [
+        "Hoy: ghostwriting de LinkedIn para un cliente a USD 1.200 por mes y contenido de Instagram para dos clientes a USD 500 y 600.",
+        "Hacia dónde: de la ejecución de ticket bajo a la estrategia de USD 1.500 a 2.000 por mes.",
+        "Nicho a probar: profesionales de servicios tradicionales (abogados, médicos, psicólogos).",
+        "Primero, mejorar el servicio de tus clientes actuales y documentar sus resultados como casos.",
+        "El contenido apunta a los miedos de fondo de ese cliente (que el negocio no crezca), más que a «no sé qué publicar».",
+        "La próxima es con Franco: llegás con la hipótesis de cliente ideal, dolores y oferta."
+      ]
+    }
+  ]
+}

@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Sábado 7 de noviembre
+
+Pasada de sábado: lo que dejaron las 1:1 del viernes.
+
+- **Daniel Urdaneta con carta en revisión.** Cliente ideal liviano con lo de su 1:1 (de ejecución a USD 500–600 a estrategia a USD 1.500–2.000, nicho profesionales de servicios); después, oferta. No entra a la app hasta el ✅.
+- **BeMotion extiende un mes.** Lo decidiste con Aye el 6/11: queda escrito en su seguimiento, con la pelota en vos.
+- **Said.** Su ficha de ingreso suma la 1:1 del 6/11 y lo que le quedaste en pasar.
+
+**Para mirar antes de subir:** la carta de Daniel (`fichas/plantillas/icp-mecanismo--daniel-urdaneta.json`).
+
 ## Viernes 6 de noviembre
 
 Entró la Clarity de Santiago Guevara y se pusieron al día cuatro clientes con las llamadas del jueves.
