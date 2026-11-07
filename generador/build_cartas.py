@@ -75,17 +75,21 @@ section .consigna{font-size:18.5px;line-height:1.55;color:#6A6A66;margin:14px 0 
 textarea,input[type=text]{width:100%;font:inherit;font-size:18px;line-height:1.55;color:#171717;
   background:#FBFAF8;border:1px solid #DBD7D2;padding:14px 16px;border-radius:0;
   transition:border-color .15s}
-textarea{resize:vertical}
+textarea{resize:vertical;min-height:150px}
+.lin textarea,.tabla textarea{min-height:76px}
 textarea:focus,input[type=text]:focus{outline:none;border-color:#171717}
-.lin{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px 18px;align-items:center;
+.lin{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px 18px;align-items:start;
   border-top:1px solid #DBD7D2;padding:14px 0}
-.lin .rot{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66}
+.ico-carta{font-size:44px;line-height:1;margin:6px 0 14px}
+.ico-sec{font-size:22px;letter-spacing:.18em;line-height:1.3;margin:6px 0 2px}
+.lin .rot .ic{display:block;font-size:18px;letter-spacing:0;margin-bottom:6px}
+.lin .rot{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6A6A66;padding-top:17px}
 .tabla{width:100%;border-collapse:collapse;margin-top:6px}
 .tabla th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
   color:#6A6A66;font-weight:400;padding:0 10px 10px 0;border-bottom:2px solid #171717}
 .tabla td{padding:0;border-bottom:1px solid #DBD7D2}
-.tabla input{border:0;background:transparent;padding:12px 10px 12px 0}
-.tabla input:focus{background:#FBFAF8}
+.tabla input,.tabla textarea{border:0;background:transparent;padding:12px 10px 12px 0;resize:none}
+.tabla input:focus,.tabla textarea:focus{background:#FBFAF8}
 .tabla td.rotfila{font-size:17px;font-weight:700;letter-spacing:-.01em;padding:12px 18px 12px 0;white-space:nowrap}
 .envoltorio{overflow-x:auto}
 
@@ -269,10 +273,12 @@ def campo(sec, i):
 def _campo(sec, i):
     tipo = sec.get("campo", "texto")
     if tipo == "lineas":
+        ics = sec.get("iconos") or []                 # un ícono por línea, opcional
         filas = "".join(
-            '      <div class="lin"><span class="rot">%s</span>'
-            '<input type="text" data-c="s%dl%d" data-etiqueta="%s" aria-label="%s" placeholder=""></div>\n'
-            % (esc(r), i, j, esc(r), esc(r))
+            '      <div class="lin"><span class="rot">%s%s</span>'
+            '<textarea rows="2" data-c="s%dl%d" data-etiqueta="%s" aria-label="%s" placeholder=""></textarea></div>\n'
+            % (('<span class="ic">%s</span>' % esc(ics[j])) if j < len(ics) and ics[j] else "",
+               esc(r), i, j, esc(r), esc(r))
             for j, r in enumerate(sec.get("lineas", [])))
         return '    <div class="campo">\n%s    </div>\n' % filas
     if tipo == "tabla":
@@ -287,7 +293,7 @@ def _campo(sec, i):
                     celdas.append('<td class="rotfila">%s</td>' % esc(rot[f]))
                 else:
                     et = "%s · %s" % (cols[c], (rot[f] if f < len(rot) and rot[f] else "fila %d" % (f + 1)))
-                    celdas.append('<td><input type="text" data-c="s%df%dc%d" data-etiqueta="%s" aria-label="%s"></td>'
+                    celdas.append('<td><textarea rows="2" data-c="s%df%dc%d" data-etiqueta="%s" aria-label="%s"></textarea></td>'
                                   % (i, f, c, esc(et), esc(et)))
             cuerpo += '        <tr>%s</tr>\n' % "".join(celdas)
         import json as _j
@@ -312,6 +318,8 @@ def construir(m, categoria, pl=None, bajada=None):
     # ---- encabezado. Es el primer .slot: la bajada personalizada entra justo abajo.
     out.append('<header class="slot">')
     out.append('  <div class="caja">Carta de módulo · %s</div>' % esc(categoria))
+    if (pl or {}).get("icono"):                     # el ícono de la carta, como lo tiene el original
+        out.append('  <div class="ico-carta">%s</div>' % esc(pl["icono"]))
     out.append('  <h1>%s</h1>' % esc((pl or {}).get("nombre") or m["nombre"]))   # la variante puede renombrar la carta
     out.append('  <p class="bajada">%s</p>' % ((pl or {}).get("bajada") or m.get("resultado", "")))
     out.append('  <div class="lista">')
@@ -383,13 +391,15 @@ def construir(m, categoria, pl=None, bajada=None):
                 out.append('  <div class="devuelta"><div class="k">%s</div>' % esc(s["pregunta"]))
                 if s.get("pregunta_bajada"):           # la bajada de la pregunta, en una línea abajo
                     out.append('    <p class="pb">%s</p>' % esc(s["pregunta_bajada"]))
-                out.append(con_campo('    <div class="campo"><textarea data-c="s%s" rows="3"></textarea></div>' % i))
+                out.append(con_campo('    <div class="campo"><textarea data-c="s%s" rows="4"></textarea></div>' % i))
                 out.append('  </div>')
             out.append('</div>')
             continue
         n += 1
         out.append('<section class="trabajo" data-seccion="s%s" data-titulo="%s">' % (i, esc(s["titulo"])))
         out.append('  <div class="n">%02d</div>' % n)
+        if s.get("icono"):                         # emojis de la sección, como en el original
+            out.append('  <div class="ico-sec">%s</div>' % esc(s["icono"]))
         out.append('  <h2>%s</h2>' % esc(s["titulo"]))
         out.append('  <p class="consigna">%s</p>' % s["consigna"])   # idem
         ej = s.get("ejemplo") or {}
@@ -508,6 +518,7 @@ if __name__ == "__main__":
             pl.setdefault("titulo", base.get("titulo"))
             pl.setdefault("bajada", base.get("bajada"))
             pl.setdefault("lista_cuando", base.get("lista_cuando"))
+            pl.setdefault("icono", base.get("icono"))
             # la personalización va por sección: "ajustes": {"<cid>": {"consigna": …, "ejemplo": …}}
             # pisa solo esas claves de la sección genérica; el resto sigue a la genérica
             aj = pl.get("ajustes") or {}

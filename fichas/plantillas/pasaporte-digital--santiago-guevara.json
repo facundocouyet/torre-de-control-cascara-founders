@@ -5,21 +5,31 @@
   "bajada_envio": {
     "founder": "Santiago Guevara",
     "porque": "En la Clarity Call quedó claro dónde está el techo: la dirección creativa de YouTube uno a uno te deja en tres clientes, por más que cobres bien. Lo que viene es pasar de director creativo a empresario de YouTube, con una escuela en español y un programa propio. Para eso tu marca personal tiene que mostrar la autoridad que ya tenés, y eso arranca por tu historia escrita: quién sos, qué te trajo hasta acá y por qué querés formar a otros.",
-    "objetivo": "Tu pasaporte completo y mandado a revisión en tres días. Con eso definimos la narrativa de la marca y el tono del contenido documental que hablamos. En paralelo, juntá la documentación de tu herramienta de IA para la llamada de oferta con Franco de la semana que viene.",
-    "mindset": "La autoridad ya la tenés; falta que se vea. No hace falta que suene perfecto: sirve más cómo lo contás cuando nadie te dirige. Escribilo como te sale, ordenarlo es trabajo nuestro."
+    "objetivo": "Tu pasaporte completo y mandado a revisión en tres días. Con eso armás la narrativa de tu marca y el tono del contenido documental que hablamos, y nosotros te marcamos la dirección. En paralelo, juntá la documentación de tu herramienta de IA para la llamada de oferta con Franco de la semana que viene.",
+    "mindset": "La autoridad ya la tenés; falta que se vea. No hace falta que suene perfecto: sirve más cómo lo contás cuando nadie te dirige. Escribilo como te sale; en la revisión te marcamos qué ajustar."
   },
   "bloques_inicio": [
     {
       "nuestro": true,
       "titulo": "Lo que quedó definido en la Clarity Call",
       "texto": [
-        "Hoy: dirección creativa de YouTube de punta a punta, tres clientes de alto perfil, USD 5.000 por mes en entretenimiento y 7.000 en corporativo. El modelo no pasa de tres clientes.",
-        "Hacia dónde: una escuela de YouTube en español que forme creativos, editores y estrategas, y que además sea cantera para tu propia agencia.",
-        "El producto en dos niveles: un curso de USD 1.500 a 2.000 para conseguir clientes de YouTube y armar el negocio, y un nivel técnico con tu herramienta de IA.",
-        "La marca personal pasa a un estilo documental: mostrar la vida de un director creativo de alto nivel, priorizando el impacto antes que la viralidad.",
-        "Con los clientes, la idea es ir de la tarifa fija al revenue share.",
-        "Facu lleva la marca; Franco, la oferta y el precio. La próxima es con Franco."
+        "Hoy hacés dirección creativa de YouTube de punta a punta para tres clientes de alto perfil, a USD 5.000 por mes en entretenimiento y 7.000 en corporativo. Ese modelo tiene techo en tres clientes.",
+        "Hacia dónde vas: una escuela de YouTube en español que forme creativos, editores y estrategas, y que además sea cantera para tu propia agencia.",
+        "Tu producto, en dos niveles: un curso de USD 1.500 a 2.000 para conseguir clientes de YouTube y armar el negocio, y un nivel técnico con tu herramienta de IA.",
+        "Tu marca personal pasa a un estilo documental: mostrar tu vida como director creativo de alto nivel, con el impacto por delante de la viralidad.",
+        "Con tus clientes, la idea es pasar de la tarifa fija al revenue share.",
+        "La marca la trabajás con Facu; la oferta y el precio, en la próxima llamada, que es la de oferta."
       ]
     }
+  ],
+  "cuando": "Te la asignamos ahora porque tu marca personal tiene que mostrar la autoridad que ya tenés, y para eso primero necesitamos tu historia y tu diferencial escritos en un solo lugar. De esta hoja sale la narrativa de tu marca y el tono del contenido documental.",
+  "pasos": [
+    "Arrancá por tu historia (puntos 02 a 07). Contá cómo era tu vida antes de dedicarte a YouTube y cómo es hoy, los momentos más difíciles, lo que creías al principio y lo que aprendiste. Todo con hechos: años, clientes, proyectos, cifras. Escribilo como lo contarías en una charla; en la revisión te marcamos qué ajustar.",
+    "Respondé la parte operativa (puntos 08 a 11): qué tipo de marca estás construyendo, qué productos te imaginás vendiendo (acá entran la escuela y tu herramienta de IA), con qué equipo y en qué plataforma, y qué sensación querés dejar en quien te ve.",
+    "Llená las tres columnas (punto 12): en la primera lo que sabés hacer con horas encima, en la segunda lo que te importa aunque no te pague, y en la tercera lo que estás construyendo hoy. Cinco filas por columna como mínimo.",
+    "Armá tu arco en cinco tramos (punto 13): de dónde venís, qué se rompió, qué encontraste, qué estás construyendo y hacia dónde vas. Cada tramo lleva un hecho tuyo que lo prueba, con fecha o número. Sacalos de lo que ya escribiste en el paso 1.",
+    "Bajá todo a cuatro frases (punto 14): lo que ves en tu rubro que otros no ven, el enemigo, lo que te obsesiona y tu posición. Tienen que salirte de memoria, porque después van al perfil y a la primera línea de cada pieza.",
+    "Recién ahí, la parte visual (puntos 15 a 23): emoción, paleta, luz, ritmo, texturas, moodboard, tono, temas y arquetipo. Pensala para el contenido documental que hablamos en la Clarity.",
+    "Bajá el documento completo con el botón del final y mandalo a revisión. Con eso armás la narrativa de tu marca y tu estrategia de contenido, con nosotros marcándote la dirección en cada revisión. De ahí en adelante, cada pieza y cada oferta se miden contra tu posición."
   ]
 }
