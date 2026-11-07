@@ -210,5 +210,49 @@
         "estado": "despues"
       }
     ]
+  },
+  "naiara-angeloff": {
+    "objetivo": "Cerrar los 90 días con tu escalera de oferta con precios validados, tus seis clientes con la propuesta nueva para enero, la edición y la subida en manos de Angie, y al menos un cliente de alto ticket.",
+    "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolviste en las anteriores y deja lista la que sigue. Por eso conviene hacerlas en este orden.",
+    "tramo_actual": 1,
+    "tramos": [
+      {
+        "cuando": "Mes 1 · octubre",
+        "nombre": "El diagnóstico",
+        "texto": "Tus clientes, lo que vendés y lo que te cuesta entregarlo, y la sesión de oferta con el modelo nuevo."
+      },
+      {
+        "cuando": "Mes 2 · noviembre",
+        "nombre": "Tu cliente y tu escalera",
+        "texto": "De cuál de tus clientes querés diez, lo que dicen de vos, los precios a validar y la Sesión de Temporada para tus clientes."
+      },
+      {
+        "cuando": "Mes 3 · diciembre",
+        "nombre": "La transición",
+        "texto": "La propuesta de enero para tus seis clientes, tu equipo tomando la edición y la subida, y el primer cliente de alto ticket."
+      }
+    ],
+    "cartas": [
+      {
+        "id": "auditoria-de-clientes",
+        "para_que": "Tus clientes, lo que te compran y cuánto te cuesta entregarlo: de ahí salió la sesión de oferta.",
+        "estado": "hecha"
+      },
+      {
+        "id": "icp-mecanismo",
+        "para_que": "De cuál de tus clientes querés diez, lo que dicen de vos y tu forma única de hacer las cosas.",
+        "estado": "ahora"
+      },
+      {
+        "id": "one-sheeter-oferta",
+        "para_que": "Tu escalera en una hoja, para presentarla en llamada, con el mensaje del aumento de enero.",
+        "estado": "sigue"
+      },
+      {
+        "id": "delegar-produccion",
+        "para_que": "El brief fijo para que Angie tome la edición y la subida, y vos te quedes con la dirección.",
+        "estado": "despues"
+      }
+    ]
   }
 }

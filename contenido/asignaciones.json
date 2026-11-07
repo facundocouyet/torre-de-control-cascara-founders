@@ -139,11 +139,10 @@
       ]
     },
     "naiara-angeloff": {
-      "activa": "auditoria-de-clientes",
-      "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 7/10: Facu quedó en mandarle la auditoría de sus últimas diez ventas antes de la sesión con Franco por oferta y cliente ideal. Después, el ICP. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.)",
-      "inicio": "2026-10-09",
-      "revision": "pendiente"
+      "activa": "icp-mecanismo--naiara-angeloff",
+      "anterior": "completada",
+      "inicio": "2026-11-09",
+      "por_que": "Facu, 7/11: la auditoría quedó revisada el 28/10 y la sesión de oferta fue el 30/10. Carta de cliente ideal reescrita sobre esa sesión, con el formulario para sus clientes. Precios a validar. Próxima 1:1 con Facu para cerrar precios y el mensaje de enero."
     },
     "samuel-tarancon": {
       "activa": "contratar-primer-rol--samuel-tarancon",

@@ -2,26 +2,125 @@
  "modulo": "icp-mecanismo",
  "slug": "naiara-angeloff",
  "founder": "Naiara Angeloff",
+ "por_que_propia": "Facu, 7/11: reescrita sobre la sesión de oferta del 30/10 (presentación hunger-media-sesion y grabación). Reemplaza la versión armada con la Clarity (hotelería, chefs con nombre propio), que ya no corresponde. Suma el formulario para sus clientes que quedó pedido en la sesión y no estaba escrito. Precios a validar.",
+ "bajada": "De cuál de tus clientes querés diez, qué le duele, qué dicen de vos y cuál es tu forma única de hacer las cosas. La escalera y lo que sale de tu oferta ya quedaron en la sesión de oferta: están escritos acá para que los confirmes.",
+ "lista_cuando": "Elegiste de cuál de tus clientes querés diez, tus seis clientes tienen al lado qué les ofrecés en enero, las respuestas del formulario están pegadas textuales y tu cliente ideal y tu forma única de hacer las cosas entran en una frase cada una.",
  "bajada_envio": {
   "founder": "Naiara Angeloff",
-  "porque": "Tu auditoría muestra seis clientes gastronómicos fijos, de USD 600 a 875 por mes, todos con el mismo servicio (estrategia, contenido, Meta Ads y edición) y vos haciendo el 100%. En la Clarity quedó la dirección: un servicio de ticket alto en gastronomía y hotelería, con un equipo que produzca.",
-  "objetivo": "Tu cliente ideal para el servicio nuevo, escrito en personas concretas y con lo que ya te dicen tus clientes. Con esta carta y la auditoría vas a la llamada con Franco a armar la oferta.",
-  "mindset": "Mirá cuál de tus seis clientes te pagaría el doble por campañas que le den sentido al mes, y por qué. Ese es el que hay que multiplicar."
+  "porque": "En la sesión de oferta quedó el modelo nuevo: dejás de vender videos, historias y pauta sueltos y vendés una escalera, con vos en la estrategia y la dirección de arte. Para que esa escalera se venda falta lo que solo sale de vos y de tus clientes: de cuál querés diez, qué te dicen que hacés distinto y qué le ofrecés a cada uno en enero.",
+  "objetivo": "Tu cliente ideal elegido, las respuestas de tus clientes juntadas y tus seis clientes con su propuesta de enero, para cerrar en la próxima 1:1 los precios y el mensaje del aumento.",
+  "mindset": "Dijiste que no sabés qué hacés diferente. Tus clientes sí lo saben: hace años que te eligen. Esta hoja es para escucharlos y escribirlo con sus palabras."
  },
+ "cuando": "Va ahora porque la auditoría y la sesión de oferta ya están: sabemos qué vendés, a quién y qué cambia. Lo que falta para pasar al modelo nuevo es elegir a quién se lo vendés primero y qué dicen tus clientes de vos.",
+ "pasos": [
+  "Mandá primero el formulario a tus seis clientes: está abajo, listo para copiar. Las respuestas tardan unos días y la mitad de esta hoja se apoya en ellas.",
+  "Leé «Lo que quedó de la sesión de oferta» y elegí de cuál de tus clientes querés diez.",
+  "Llená los tipos de cliente, con lo que le duele a cada uno.",
+  "Completá tus seis clientes con cuánto paga, cuánto tiempo te lleva y qué le ofrecés en enero.",
+  "Leé la escalera, tu diferencial y lo que sale de tu oferta, y contanos qué no suena a vos.",
+  "Cuando vuelvan las respuestas, pegalas textuales y escribí tu cliente ideal y tu forma única de hacer las cosas, cada una en una frase.",
+  "Mandá la carta a revisión antes de la próxima 1:1."
+ ],
  "bloques_inicio": [
   {
    "nuestro": true,
-   "titulo": "Lo que quedó de la Clarity Call",
+   "titulo": "Lo que quedó de la sesión de oferta",
    "texto": [
-    "El servicio nuevo es de ticket alto, para gastronomía y hotelería.",
-    "La producción la hace un equipo: vos quedás en la estrategia y en las campañas.",
-    "En la grupal con Fede salió el perfil: chefs y marcas con nombre propio."
+    "<b>El cambio.</b> Dejás de vender entregables sueltos (videos, historias diarias, pauta) y vendés una promesa: criterio y producción en un solo servicio. Mientras el producto sea «manejo de redes», te comparan por precio.",
+    "<b>La escalera.</b> Una entrada, una Temporada de Contenido de 90 días y una dirección creativa anual a medida. Los precios se validan con tus primeros clientes y después suben. Está escrita más abajo para que la confirmes.",
+    "<b>Tu equipo.</b> Vos te quedás con la estrategia, la dirección de arte y foto, la relación con el cliente y la venta. Edición, subida, historias con tu calendario y reportes pasan a Angie y al equipo, con un brief fijo por pieza.",
+    "<b>Tus seis clientes.</b> En noviembre, una Sesión de Temporada para fiestas y verano. Es caja antes del verano y la mejor excusa para mostrarles el servicio nuevo. En enero, la propuesta nueva con el precio nuevo.",
+    "<b>Los clientes nuevos.</b> Nada en frío: primero tus clientes actuales y la gente que ya te escribió este año.",
+    "<b>Tu contenido.</b> Documentar, no crear: un carrusel por semana con lo que hiciste para cada cliente, el detrás de escena y el antes y después. Sin hablar a cámara si no querés."
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "El formulario para tus clientes",
+   "texto": [
+    "Armalo en Google Forms con estas preguntas y mandáselo a tus seis clientes por WhatsApp. Si alguno prefiere, se lo podés preguntar en una llamada de diez minutos y anotar lo que te dice.",
+    "<b>El mensaje para mandarlo:</b> «Hola! Estoy revisando cómo trabajamos para mejorar el servicio el año que viene. Te dejo un formulario corto, son cinco minutos. Me sirve muchísimo que me digas lo que pensás, lo bueno y lo que no.»",
+    "<b>1.</b> ¿Cómo llegaste a trabajar con Hunger Media? ¿Quién te habló de nosotros?",
+    "<b>2.</b> ¿Por qué nos elegiste y no a otra agencia o a otro fotógrafo?",
+    "<b>3.</b> Si tuvieras que quedarte con una sola cosa de trabajar con nosotros, ¿cuál sería?",
+    "<b>4.</b> ¿Qué cambió en tu marca o en tu negocio desde que trabajamos juntos? Si tenés un dato, mejor: ventas, consultas, pedidos, gente que te dice algo de tus fotos.",
+    "<b>5.</b> ¿Qué te gustaría que hiciéramos mejor o distinto?",
+    "<b>6.</b> ¿Qué te gustaría resolver de tu comunicación el año que viene?",
+    "<b>7.</b> Si nos recomendaras a otra marca, ¿cómo nos describirías en una frase?",
+    "<b>8.</b> ¿Qué otra marca de comida o gastronomía conocés que debería trabajar con nosotros?",
+    "Las preguntas 2, 3 y 7 son tu diferencial dicho por ellos. La 6 es lo que va en la propuesta de enero. La 8 es tu primer referido pedido a propósito."
    ]
   }
  ],
  "ajustes": {
+  "0": {
+   "titulo": "De cuál de tus clientes querés diez",
+   "texto": [
+    "Esto no es una hoja en blanco. En la sesión de oferta aparecieron dos caminos. Por un lado, <b>las marcas de alimentos con historia y varios puntos de venta</b>, como Molino Guido o Santa Paula, que necesitan foto de producto para packaging, web, PedidosYa y góndola. Por otro, <b>los restaurantes con dos locales o más</b>, como La Cocina de Pedro, que necesitan campañas y no solo promos.",
+    "Nuestra hipótesis es la primera: ahí tu ojo para el producto vale más y el trabajo no depende de que estés todos los días. Pero el cliente ideal sale de tu cartera y lo elegís vos. Si te quedás con los restaurantes, la escalera funciona igual."
+   ],
+   "pregunta": "De cuál de tus clientes querés diez iguales, y por qué",
+   "pregunta_bajada": "Nombrá al cliente y contá en dos o tres líneas qué tiene que lo hace el modelo: cómo trabaja con vos, cuánto paga, si te deja proponer."
+  },
+  "1": {
+   "titulo": "Los tipos de cliente y qué le duele a cada uno",
+   "consigna": "Una fila por cada tipo de cliente al que le venderías la escalera: marca de alimentos con historia, restaurante con varios locales, catering, o el que veas. Para cada uno: de qué vive hoy, qué le duele de su comunicación, la pregunta que le hacés para que te lo cuente con sus palabras y por qué le serviría tu servicio. La pregunta es la columna que más rinde después: es el gancho de tus carruseles.",
+   "columnas": ["Tipo de cliente", "De qué vive hoy", "Qué le duele", "La pregunta que le hacés para que te lo cuente", "Por qué le serviría tu servicio"],
+   "filas": 4
+  },
+  "3": {
+   "titulo": "Lo que te respondieron tus clientes",
+   "consigna": "Pegá las respuestas del formulario tal cual, sin corregirlas, con el nombre del cliente al lado. Si alguno te contestó por audio o en una llamada, escribí lo que te dijo con sus palabras. Estas frases después son el título de tus piezas y el copy de tu propuesta de enero."
+  },
+  "13": {"ocultar": true},
   "5": {
-   "consigna": "Tus clientes ya están en la auditoría: traelos de ahí y sumá por qué te eligió cada uno y cuál te pagaría más por un servicio premium."
+   "titulo": "Tus seis clientes y qué le ofrecés en enero",
+   "consigna": "Tus clientes ya están en la auditoría: traelos de ahí. Sumá cuánto tiempo te lleva cada uno por semana y qué le proponés en enero: la Temporada, una Sesión de Marca o seguir como está hasta que entre un cliente nuevo. El que paga menos y más tiempo te consume es el primero en pasar al precio nuevo. Ninguno se suelta antes de que entre el primer cliente nuevo.",
+   "columnas": ["Cliente", "Qué te compra hoy", "Cuánto paga por mes", "Cuánto tiempo te lleva por semana", "Qué le ofrecés en enero"],
+   "filas": 6
+  },
+  "6": {
+   "titulo": "Tu escalera",
+   "texto": [
+    "<b>Entrada · Sesión de Marca.</b> Concepto y dirección de arte, una jornada de estilismo, foto y video, y un banco de imágenes para packaging, web, PedidosYa y redes. Proyecto cerrado. Es lo que hoy ya te compran por jornada, bien empaquetado: la puerta para que después pasen a la Temporada.",
+    "<b>Núcleo · Temporada de Contenido de 90 días.</b> La estrategia y las campañas del trimestre, una producción por mes, el calendario, la edición y la publicación con tu equipo, y un reporte con reunión mensual. Se cobra por mes, con tres meses de mínimo.",
+    "<b>Socia · Dirección creativa anual.</b> Para el que terminó una Temporada: el plan de campañas del año, las producciones y los lanzamientos. A medida, después del primer caso.",
+    "<b>Los precios, a validar.</b> La referencia de la sesión de oferta es de USD 1.000 a 1.800 la entrada y USD 1.400 por mes la Temporada. Se validan con tus primeros tres a cinco clientes y después suben. La regla: la Temporada no puede valer menos que lo que hoy cobrás por un mes de redes más una sesión, porque incluye las dos cosas. Para cerrarlos, calculá cuánto te cuesta una jornada: la estilista, Angie y tus horas."
+   ],
+   "pregunta": "Qué le cambiarías a esta escalera, y cuánto te cuesta hoy una jornada"
+  },
+  "7": {
+   "titulo": "Tu diferencial: vender el ojo, no la foto",
+   "texto": [
+    "La categoría grande es la agencia de redes, y ahí te comparan contra cualquiera por precio. Tu lugar es otro: <b>la dirección creativa de marcas de comida</b>. Ocho años solo en gastronomía, clientes desde 2019 en un rubro donde las agencias rotan cada pocos meses, Starbucks eligiéndote para su foto de producto, y acceso a cocinas, fábricas y productores que nadie ve.",
+    "Hoy ese ojo lo cobrás cuando vendés una jornada de estilismo y lo regalás cuando lo metés adentro de un abono de redes. La escalera es para cobrarlo siempre.",
+    "Lo dejamos escrito porque es una decisión de posicionamiento. Lo que necesitamos de vos es saber si te suena tuyo cuando lo leés en voz alta."
+   ],
+   "pregunta": "Leelo en voz alta: qué parte no suena a vos"
+  },
+  "8": {
+   "titulo": "Lo que sale de tu oferta",
+   "texto": [
+    "<b>Los videos sueltos y la media jornada barata.</b> No se vende nada por debajo de una Sesión de Marca.",
+    "<b>Las historias diarias de promos.</b> Las sube el equipo del cliente con tu calendario, o las hace tu equipo dentro de la Temporada. Es lo que más te satura y menos rinde.",
+    "<b>La pauta suelta.</b> La pauta acompaña al contenido que ya funciona; sola no tracciona. Va aparte o la maneja un especialista con tus piezas.",
+    "Queda afuera de la escalera el cliente que solo quiere estar en redes, sin un objetivo para el trimestre, y el que te pide la promo del martes. Lo que no incluís también te posiciona."
+   ],
+   "pregunta": "Algo de esto que todavía no te animás a sacar, y por qué"
+  },
+  "9": {
+   "consigna": "Una sola frase con quién es, en qué momento está y qué necesita resolver de su comunicación. Usá el cliente que elegiste arriba como modelo. Si la frase le sirve igual a un restaurante de un local que a una marca con góndola, todavía no está."
+  },
+  "10": {
+   "titulo": "Tu forma única de hacer las cosas",
+   "consigna": "Tu mecanismo único, en una frase: cómo ves la comida, a tus clientes y lo que querés lograr con ellos. Escribí primero tu versión, sin mirar el formulario. Después leé lo que contestaron tus clientes en las preguntas 2, 3 y 7, y reescribila juntando las dos. No tiene que ser un proceso complejo: es tu forma de mirar, dicha de modo que un cliente la entienda."
+  },
+  "11": {"ocultar": true},
+  "12": {
+   "texto": [
+    "Con esta hoja y las respuestas de tus clientes, en la próxima 1:1 cerramos los precios de la escalera, a quién le ofrecés la Temporada primero y el mensaje del aumento de enero para tus seis clientes.",
+    "Después viene la oferta en una hoja, para presentarla en llamada y no por mail, y el brief fijo para que Angie tome la edición y la subida."
+   ]
   }
  }
 }
