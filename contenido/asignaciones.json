@@ -221,10 +221,10 @@
       "inicio": "2026-11-02"
     },
     "marcela-ospital": {
-      "activa": "auditoria-de-clientes",
-      "siguiente": "icp-mecanismo",
-      "por_que": "1:1 del 28/10 (Fathom 197336436): consultoría para arquitectos, entrada grupal de USD 1.000 y BIM arriba; Facu quedó en mandarle los formularios de auditoría antes de Franco la semana que viene. 29/10: Facu aprueba; entra con el push. 30/10: no tuvo clientes; la auditoría pasa a sus obras asesoradas y su proceso paso a paso.",
-      "inicio": "2026-10-29"
+      "activa": "one-sheeter-oferta",
+      "anterior": "completada",
+      "por_que": "Facu, 11/11: la auditoría quedó aprobada el 7/11 y la sesión de oferta fue el 5/11 (Fathom 200192969): especificación de obra 1:1 para constructoras y estudios, fee por lo que deja en la obra, tres pilotos antes del 30/11. Su one-sheeter es la página que pidió el 8/11, con la guía para armarla en Claude. Sale de la cola el cliente ideal genérico: el para quién ya quedó en la sesión de oferta.",
+      "inicio": "2026-11-09"
     },
     "sofia-guevara": {
       "sin_carta": true,

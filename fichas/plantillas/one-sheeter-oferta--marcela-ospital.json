@@ -1,0 +1,107 @@
+{
+  "modulo": "one-sheeter-oferta",
+  "slug": "marcela-ospital",
+  "founder": "Marcela Ospital",
+  "por_que_propia": "Facu, 11/11: su one-sheeter es la página que pidió el 8/11 (tarea de la sesión de oferta del 5/11, para el viernes 13). Lleva la guía de 4 pasos y el texto para pegar en Claude, armado con la sesión de oferta y su auditoría. Reemplaza el cliente ideal genérico de la cola: el para quién ya quedó definido en la sesión de oferta.",
+  "bajada": "Tu página: qué hacés, qué entregás, en cuánto tiempo y cuánto cuesta. La armás en Claude con el texto de abajo y es lo que mandás a los cinco de tu lista para los pilotos.",
+  "lista_cuando": "Tu página está publicada y el link está acá, junto con tus cinco para el piloto y la cuenta de tu precio.",
+  "cuando": "Después de la sesión de oferta, antes de proponer los pilotos.",
+  "bajada_envio": {
+    "founder": "Marce",
+    "porque": "En la sesión de oferta del 5/11 quedó definido qué vendés: especificación de obra 1:1 para constructoras y estudios con una obra en etapa de proyecto, cobrada por lo que dejás en la obra. Para salir a proponer los tres pilotos te falta la página que los presenta, y es lo que nos pediste el 8/11.",
+    "objetivo": "Tu página publicada, con el link acá, antes del viernes 13. Con la página, tu lista de cinco y la cuenta de tu precio, salís a proponer los pilotos para cerrar tres antes del 30/11.",
+    "mindset": "El texto ya está escrito con lo que contaste en tu auditoría. Vos completás tres datos, lo pegás en Claude y le pedís los cambios como se los pedirías a una persona."
+  },
+  "pasos": [
+    "Completá los tres datos que faltan: cuántas semanas te lleva una especificación, tu WhatsApp y tu mail.",
+    "Abrí claude.ai, empezá un chat nuevo y pegá el texto de abajo con tus datos. Claude te arma la página y la ves al costado.",
+    "Pedile los cambios que quieras y, si tenés fotos de la obra de Fincas de San Vicente, adjuntalas en el chat y pedile que las ponga en el caso.",
+    "Cuando te guste, tocá «Publicar» arriba a la derecha, copiá el link y pegalo acá. Antes de mandarla a tu lista la revisamos."
+  ],
+  "secciones": [
+    {
+      "nuestro": true,
+      "cid": 0,
+      "titulo": "Lo que quedó de tu sesión de oferta",
+      "texto": [
+        "Vendés una sola cosa: especificación de obra 1:1, para constructoras y estudios con una obra en etapa de proyecto. El programa grupal para arquitectos queda para 2027, cuando tengas casos.",
+        "Cobrás por lo que dejás en la obra: el valor es los metros cuadrados por la suma del ahorro en costo y la mejora en el precio de venta. Tu fee es un fijo por obra, entre el 15 y el 20% de ese valor, mitad al firmar y mitad al entregar. Si te piden bajar el precio, se baja el alcance.",
+        "Antes del 30/11 cerrás tres obras piloto con tu red, a precio piloto a cambio de documentar el caso.",
+        "En tu auditoría ya están los candidatos: desarrolladores y constructoras con obras en proyecto, como Aconif, la obra Le Bois en Pilar o los arquitectos que te consultan todo el tiempo. Y tu caso para mostrar es la casa de Fincas de San Vicente."
+      ]
+    },
+    {
+      "nuestro": true,
+      "cid": 1,
+      "titulo": "El texto para pegar en Claude",
+      "texto": [
+        "Copiá todo desde «Armame una página…» hasta el final y reemplazá lo que está entre corchetes.",
+        "Armame una página web de una sola página para mi servicio de especificación de obra. Es para mandarla por WhatsApp a arquitectos y constructoras, así que tiene que verse muy bien en el celular. Estética sobria, de estudio de arquitectura: mucho blanco, tipografía elegante, sin colores fuertes ni adornos. Escrita en español rioplatense, cercana y profesional. No uses la palabra «vanguardia». Usá este contenido, en este orden:",
+        "<b>Arriba.</b> Título: Especificación de obra para que tu proyecto cueste menos y se venda mejor. Bajada: Entro en la etapa de proyecto y especifico todas las terminaciones según el lenguaje de la obra. Treinta años del otro lado del mostrador, ahora al servicio de tu proyecto. Botón: Hablemos de tu obra (abre WhatsApp: [tu número con código de país]).",
+        "<b>El problema.</b> Las terminaciones se suelen definir tarde, a las apuradas y según lo que ofrece cada proveedor. La fábrica especifica para vender su marca. Yo especifico para tu proyecto: para que cada elección baje el costo y suba el valor de venta.",
+        "<b>Qué hago.</b> Entro cuando la obra está en etapa de proyecto. Leo los planos y el lenguaje que el arquitecto le quiere dar a la obra, analizo productos, tendencias y costos según el público y la zona, y te propongo la paleta y los espacios intervenidos. Te entrego la especificación completa, lista para presupuestar y comprar.",
+        "<b>Cómo trabajamos.</b> 1) Me pasás los planos y leo el lenguaje de la obra. 2) Analizo productos, tendencias y costos según el público al que va dirigida y la zona. 3) Te presento la paleta de colores y los espacios intervenidos, con montajes de fotos. 4) Te entrego la especificación de todas las terminaciones, con alternativas y costos.",
+        "<b>Qué te llevás.</b> La especificación de todas las terminaciones de la obra, la paleta del proyecto, la lista de proveedores y una estimación del ahorro y de la mejora en el precio de venta.",
+        "<b>Un caso.</b> Casa en Fincas de San Vicente, con un estudio de arquitectura: definimos todos los materiales de terminaciones interiores y exteriores junto al comitente, con montajes de fotos de cada propuesta. Tres meses de trabajo.",
+        "<b>Cuánto lleva.</b> [cuántas semanas te lleva una especificación completa] desde la primera reunión.",
+        "<b>Cuánto cuesta.</b> Fee fijo por obra, desde USD 3.000. Se calcula según los metros cuadrados y lo que la especificación deja en la obra. 50% al arrancar y 50% al entregar. Más chico, abajo: Este año trabajo con tres estudios a precio piloto.",
+        "<b>Por qué yo.</b> Arquitecta (UBA) con máster en BIM. Treinta años en la empresa familiar de materiales de construcción, asesorando a arquitectos y constructoras en terminaciones. Viajo todo el tiempo a las ferias de Milán, Bolonia, San Pablo y China, y traduzco esas tendencias a obras reales, con mi criterio de «poco y bueno». Puedo desarrollar productos exclusivos para tu obra con mis proveedores.",
+        "<b>Cierre.</b> Título: ¿Tenés una obra en etapa de proyecto? Botón: Escribime por WhatsApp (mismo número de arriba). Debajo: [tu mail] · Instagram @arquitectamarcelaospital. Que todo entre en una sola página, sin menú, y que el botón de WhatsApp quede siempre a mano."
+      ]
+    },
+    {
+      "cid": 2,
+      "titulo": "Los tres datos que faltan",
+      "consigna": "Son los que van entre corchetes en el texto de arriba.",
+      "campo": "lineas",
+      "lineas": [
+        "Cuántas semanas te lleva una especificación completa",
+        "Tu WhatsApp, con código de país",
+        "Tu mail"
+      ]
+    },
+    {
+      "cid": 3,
+      "titulo": "La cuenta de tu precio",
+      "consigna": "Hacela con una obra donde ya especificaste. Si el número cambia, cambia el fee, no la lógica. Ejemplo de la sesión: un edificio de 2.000 m² por USD 10 por m² (5 de ahorro y 5 de mejora de precio) son USD 20.000 de valor, y tu fee va de USD 3.000 a 4.000.",
+      "campo": "lineas",
+      "lineas": [
+        "La obra",
+        "Metros cuadrados",
+        "Ahorro en costo por m²",
+        "Mejora en el precio de venta por m²",
+        "Valor total que dejaste",
+        "Tu fee (15 a 20% de ese valor)"
+      ]
+    },
+    {
+      "cid": 4,
+      "titulo": "Tus cinco para el piloto",
+      "consigna": "Arquitectos, estudios o constructoras de tu red con una obra en etapa de proyecto. Cuando les escribas, usá el mensaje de la sesión de oferta y mandales el link de tu página.",
+      "campo": "tabla",
+      "columnas": [
+        "Quién",
+        "Qué obra tiene en proyecto",
+        "Cuándo le escribís",
+        "Qué respondió"
+      ],
+      "filas": 5
+    },
+    {
+      "cid": 5,
+      "titulo": "El link de tu página",
+      "consigna": "Pegá acá el link que te da Claude al publicar.",
+      "campo": "texto",
+      "alto": 2,
+      "placeholder": "https://…"
+    },
+    {
+      "nuestro": true,
+      "cid": 6,
+      "titulo": "Qué hacemos con esto",
+      "texto": [
+        "Revisamos tu página antes de que la mandes y te devolvemos los ajustes por tu canal. Con la página aprobada, la lista y la cuenta del precio, salís a proponer los pilotos."
+      ]
+    }
+  ]
+}

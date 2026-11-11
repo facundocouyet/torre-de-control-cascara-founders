@@ -342,5 +342,49 @@
         "estado": "despues"
       }
     ]
+  },
+  "marcela-ospital": {
+    "objetivo": "Cerrar los 90 días con tu servicio de especificación de obra en la calle, tres obras piloto cerradas y documentadas, y tu cuenta relanzada con tu historia.",
+    "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolviste en las anteriores y deja lista la que sigue. Por eso conviene hacerlas en este orden.",
+    "tramo_actual": 2,
+    "tramos": [
+      {
+        "cuando": "Mes 1 · octubre y noviembre",
+        "nombre": "El diagnóstico",
+        "texto": "Tus obras, tu proceso y la sesión de oferta que definió qué vendés y cómo lo cobrás."
+      },
+      {
+        "cuando": "Mes 2 · noviembre y diciembre",
+        "nombre": "Tus pilotos",
+        "texto": "Tu página, tus cinco, las tres obras piloto, y tu cuenta limpia con el video de tu historia."
+      },
+      {
+        "cuando": "Mes 3 · diciembre y enero",
+        "nombre": "Tu contenido",
+        "texto": "Los pilotos documentados y el contenido sin guion con tus cuatro temas."
+      }
+    ],
+    "cartas": [
+      {
+        "id": "auditoria-de-clientes",
+        "para_que": "Tus obras y tu proceso: de ahí salió la sesión de oferta.",
+        "estado": "hecha"
+      },
+      {
+        "id": "one-sheeter-oferta",
+        "para_que": "Tu página, tus cinco para el piloto y la cuenta de tu precio.",
+        "estado": "ahora"
+      },
+      {
+        "id": "historia-de-origen",
+        "para_que": "El video de tu historia para relanzar la cuenta: treinta años del otro lado del mostrador.",
+        "estado": "despues"
+      },
+      {
+        "id": "caso-documentado",
+        "para_que": "Cada piloto contado: qué elegiste, por qué y cuánto dejó en la obra.",
+        "estado": "despues"
+      }
+    ]
   }
 }
