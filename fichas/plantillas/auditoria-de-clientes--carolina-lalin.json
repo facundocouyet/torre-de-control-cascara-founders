@@ -1,0 +1,82 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "carolina-lalin",
+  "founder": "Carolina Lalin",
+  "bajada": "Lo que te pedí en la Clarity Call: tus clientes uno por uno, las propuestas que les mandaste, tu equipo y cómo entregás el servicio. Con eso llegamos a la llamada de oferta con la lectura hecha.",
+  "cuando": "Después de la Clarity Call, antes de la llamada de oferta.",
+  "lista_cuando": "Están tus clientes con lo que les vendiste y a qué valor, tu equipo, cómo entregás el servicio, y las propuestas en PDF están en Slack.",
+  "pasos": [
+    "Listá tus clientes, los de ahora y los de los últimos meses, con lo que les vendiste, a qué valor y lo que les prometiste.",
+    "Juntá las propuestas que les mandaste y pasalas en PDF por Slack, así vemos cómo las armás.",
+    "Anotá quién trabaja con vos, qué hace, cuánto tiempo te da y cuánto le pagás.",
+    "Contá cómo es el trabajo con un cliente desde que firma, paso por paso, y qué hace cada uno en cada paso."
+  ],
+  "bajada_envio": {
+    "founder": "Caro",
+    "porque": "En la Clarity Call quedó claro que tu estética y tu criterio son el diferencial, pero hoy los estás vendiendo como gestión de redes, por mes y armando una propuesta distinta para cada cliente. Eso te deja en la operación, con clientes que no pueden sumar contenido y con todo pasando por vos. Antes de rearmar la oferta hay que ver qué le vendiste a cada cliente, a qué valor, cómo lo entregás y quién te ayuda.",
+    "objetivo": "Esta carta completa con tus clientes de hoy, tu equipo y cómo entregás el servicio, y las propuestas que mandaste en PDF por Slack. Con eso vas a la llamada de oferta de la semana que viene a definir el servicio nuevo.",
+    "mindset": "Contalo como funciona hoy, también lo que no te gusta. De acá sale qué clientes te sirven, cuáles no y cómo hacer la transición sin que se te caiga la facturación."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que te pedí en la llamada",
+      "texto": [
+        "«Contame qué cliente tenés, qué le vendiste, qué le entregaste, qué situaciones tuviste con el cliente, qué promesas le hiciste.»",
+        "«Que me mandes las propuestas: quiero ver cómo las estás armando.»",
+        "Y cómo funciona el equipo: qué perfiles tenés y cómo se involucra cada uno en lo que entregás."
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "Dejás de vender redes por mes. Vendés tu criterio: un proceso con principio y fin, de tres meses o más, con la dirección creativa, la estrategia de contenido y la ejecución adentro, cobrado de una o en cuotas.",
+        "La oferta nueva resuelve el dolor más fuerte de un nicho que depende del contenido para vender. Hay indicios en arquitectos, diseño e interiorismo, y en marcas como Palacio Duhau. Lo definimos con lo que salga de esta carta.",
+        "Los clientes que no te sirven se van soltando en una transición que cuide tu facturación.",
+        "Vos quedás como directora creativa. La ejecución la toma el equipo, y lo ordenamos también.",
+        "El contenido se sostiene con tres pilares: tu arte, los problemas de tu cliente ideal y tu proceso documentado. El orden es auditoría, cliente ideal, oferta y después el contenido del relanzamiento."
+      ]
+    }
+  ],
+  "ajustes": {
+    "0": {
+      "texto": [
+        "Lo que hablamos en la Clarity Call ya lo tenemos. Lo que falta es tu negocio de hoy escrito: tus clientes, tu equipo y cómo entregás.",
+        "Se completa con lo que ya sabés, tal como está hoy. Las conclusiones las sacamos nosotros."
+      ]
+    },
+    "1": {
+      "consigna": "Una fila por cliente, los de ahora y los de los últimos meses. Si preferís no poner el nombre, el rubro alcanza. Si de alguno no tenés un dato, dejalo en blanco. Las propuestas que les mandaste, en PDF, pasalas por Slack.",
+      "columnas": [
+        "Cliente o rubro",
+        "Qué le vendiste",
+        "A qué valor por mes",
+        "Desde cuándo",
+        "Qué le prometiste",
+        "Cómo está hoy"
+      ]
+    },
+    "2": {
+      "consigna": "Una fila por persona que trabaja con vos: qué hace, cuántas horas o días te da y cuánto le pagás.",
+      "columnas": [
+        "Persona o rol",
+        "Qué hace",
+        "Cuánto tiempo te da",
+        "Cuánto le pagás"
+      ]
+    },
+    "3": {
+      "titulo": "Cómo entregás tu servicio hoy",
+      "consigna": "Contá cómo es el trabajo con un cliente desde que firma: qué reuniones tienen, qué le presentás y cuándo, cómo se arma y se aprueba el contenido, y qué hace cada persona del equipo en cada paso. Sumá, si querés, lo que te parezca importante de algún cliente y no entró en la tabla.",
+      "campo": "texto",
+      "alto": 8,
+      "placeholder": "..."
+    },
+    "4": {
+      "texto": [
+        "Lo cruzamos con lo que hablamos en la Clarity Call. Con eso llegás a la llamada de oferta con la lectura hecha: qué clientes te sirven, qué servicio hay que vender y a quién."
+      ]
+    }
+  }
+}

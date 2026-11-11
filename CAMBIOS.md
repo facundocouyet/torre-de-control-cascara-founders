@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Martes 10 de noviembre
+
+Seguimiento al día con lo que se decidió en Servicio del 9/11 y la 1:1 de Seba.
+
+- **Cierres y renovaciones en el inicio.** Qualita y Agos pasan a Cierre con la pelota en vos (devolución final y sign-off); Bianca pasa a Cierre con Franco; Lola y Seba con Franco; José David y Momentum con vos.
+- **Seba corre el bootcamp al 19 al 21/11.** La plata y el próximo paso (reunión con Franco el mié 11/11) quedan con la fecha nueva.
+
+**Para mirar antes de subir:** `contenido/seguimiento.json`.
+
 ## Sábado 7 de noviembre
 
 Pasada de sábado: lo que dejaron las 1:1 del viernes.

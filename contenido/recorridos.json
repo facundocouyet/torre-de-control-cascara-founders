@@ -293,5 +293,54 @@
         "estado": "despues"
       }
     ]
+  },
+  "carolina-lalin": {
+    "objetivo": "Cerrar los 90 días con tu servicio nuevo, con principio y fin y a un ticket que valga tu criterio, tu equipo ordenado para que vos quedes en la dirección creativa, y el relanzamiento con el contenido que lo vende.",
+    "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolviste en las anteriores y deja lista la que sigue. Por eso conviene hacerlas en este orden.",
+    "tramo_actual": 1,
+    "tramos": [
+      {
+        "cuando": "Mes 1 · noviembre",
+        "nombre": "El diagnóstico",
+        "texto": "Tus clientes, lo que les vendés, cómo lo entregás y quién te ayuda, y la llamada de oferta para definir el servicio nuevo."
+      },
+      {
+        "cuando": "Mes 2 · diciembre",
+        "nombre": "Tu cliente y tu servicio",
+        "texto": "A quién le resolvés el dolor más fuerte, el servicio nuevo en una hoja y el equipo ordenado para entregarlo."
+      },
+      {
+        "cuando": "Mes 3 · enero",
+        "nombre": "El relanzamiento",
+        "texto": "Tus ángulos y el contenido con tus tres pilares, y la oferta nueva presentada a tus clientes y a los nuevos."
+      }
+    ],
+    "cartas": [
+      {
+        "id": "auditoria-de-clientes",
+        "para_que": "Tus clientes, lo que les vendiste, tu equipo y cómo entregás: con eso vas a la llamada de oferta.",
+        "estado": "ahora"
+      },
+      {
+        "id": "icp-mecanismo",
+        "para_que": "A quién le resolvés el dolor más fuerte y tu forma única de hacerlo.",
+        "estado": "sigue"
+      },
+      {
+        "id": "one-sheeter-oferta",
+        "para_que": "Tu servicio nuevo en una hoja: qué incluye, cuánto dura y a qué valor, para presentarlo en llamada.",
+        "estado": "despues"
+      },
+      {
+        "id": "contratar-primer-rol",
+        "para_que": "La persona que toma la edición y la producción, para que vos quedes en la dirección creativa.",
+        "estado": "despues"
+      },
+      {
+        "id": "angulos-desde-icp",
+        "para_que": "Cómo le contás a tu cliente ideal lo que le resolvés, con tus tres pilares de contenido.",
+        "estado": "despues"
+      }
+    ]
   }
 }

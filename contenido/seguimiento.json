@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-11-07",
+  "actualizado": "2026-11-10",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -14,43 +14,39 @@
       "pelota": "cliente"
     },
     "bianca-antonini": {
-      "ultimo": "2026-10-15",
-      "que": "Devolvió los pendientes en la app (mecanismo de lanzamiento, posicionarse como referente) y reservó 1:1 con Facu el miércoles 21/10 10:00 ART, antes del pop-up del 23/10.",
-      "proximo": "2026-10-21",
-      "paso": "1:1 con Facu el 21/10: números de los anillos y lo que mandó, antes del pop-up.",
+      "ultimo": "2026-11-09",
+      "que": "9/11: Servicio: Franco hace la conversación de cierre y la renovación; le escribió y espera respuesta.",
+      "proximo": null,
+      "paso": "Franco: llamada de cierre y renovación.",
       "carta": "La radiografía y el documento de Eclipse y los anillos, mandados el 14/09, esperando su respuesta.",
-      "pilar": "Venta",
-      "pelota": "Facu",
-      "plata": {
-        "fecha": "2026-10-23",
-        "que": "Pop-up de lanzamiento de los anillos, con descuento para la comunidad."
-      }
+      "pilar": "Cierre",
+      "pelota": "Franco"
     },
     "matias-morales": {
-      "ultimo": "2026-10-20",
-      "que": "Compartió un video; Fede le devolvió feedback (subtítulos, arrancar con la frase fuerte, más luz) en `#cf-matias-morales`.",
+      "ultimo": "2026-11-09",
+      "que": "9/11: Servicio: Facu le replanteó su visión en la 1:1; vendió clientes casi al doble de lo que presupuestaba. Va a cierre con opción de un retainer chico.",
       "proximo": null,
-      "paso": "Hacer las cinco conversaciones (dos de su mundo, tres de afuera) y traer las respuestas textuales.",
+      "paso": "Matías: bajar la visión (Facu le preguntó el 9/11). Facu: cierre con opción de retainer acotado.",
       "carta": "ICP y mecanismo.",
       "pilar": "Oferta",
       "pelota": "cliente"
     },
     "agostina-marchesini": {
-      "ultimo": "2026-10-28",
-      "que": "28/10: Facu le devolvió en su canal el feedback de la oferta (cliente ideal: la que quiere abrir su estudio; promesa más acotada) y los ángulos de las cuatro semanas, tres piezas por semana, para que It's Crear arme los guiones. Aceptó su propuesta de fechas: graba el finde, empieza a subir el 9/11, workshop el jueves 3/12 y después llamadas de venta. Le pidió a Franco cerrar el precio (ella puso USD 2.000 de lista; para Facu es caro para un primer lanzamiento con 2 lugares).",
-      "proximo": "2026-11-09",
-      "paso": "Franco le cierra el precio de la mentoría; ella graba el finde y sube desde el 9/11.",
+      "ultimo": "2026-11-09",
+      "que": "9/11: Servicio (Fathom 201223924): se cierra el proceso; Facu le baja la estrategia de lanzamiento y la oferta y la invita a volver a trabajar en febrero. Sin extensión.",
+      "proximo": null,
+      "paso": "Facu: mandarle el cierre con la estrategia de lanzamiento y oferta.",
       "carta": null,
-      "pilar": "Oferta",
-      "pelota": "Franco",
+      "pilar": "Cierre",
+      "pelota": "Facu",
       "plata": {
         "fecha": "2026-12-03",
         "que": "Workshop del jueves 3/12 y llamadas de venta de la mentoría grupal después."
       }
     },
     "lucio-labate": {
-      "ultimo": "2026-11-02",
-      "que": "2/11: Aye le mandó el mensaje de cierre del ciclo y el link de Teo para la charla de offboarding.",
+      "ultimo": "2026-11-09",
+      "que": "9/11: Servicio: cierre hecho; Aye quiere que Teo lo entreviste para registrar qué tipo de cliente no conviene.",
       "proximo": null,
       "paso": "Agenda el cierre con Teo.",
       "carta": "La carta de Oferta.",
@@ -58,52 +54,52 @@
       "pelota": "cliente"
     },
     "jose-david-fajardo": {
-      "ultimo": "2026-10-27",
-      "que": "27/10: reservó 1:1 con Facu para el jueves 29/10 15:30. Llenó los forms de oferta y está con el de productizar el servicio; la llamada con Franco del 21/10 no quedó en Fathom (falta confirmar).",
-      "proximo": "2026-10-29",
-      "paso": "1:1 con Facu el jueves 29/10 15:30: revisar oferta y doc de ICP del 15/10.",
+      "ultimo": "2026-11-09",
+      "que": "9/11: Servicio: día ~101; Facu ve un retainer de tres meses, falta mejorar la entrega. La llamada de la semana pasada no se dio.",
+      "proximo": null,
+      "paso": "Facu: agendar la llamada y plantear el retainer de tres meses (Facu le escribió el 9/11).",
       "carta": "Auditoría del proceso comercial.",
       "pilar": "Venta",
       "pelota": "Facu"
     },
     "aaron-aiello": {
-      "ultimo": "2026-10-13",
-      "que": "Grupal de Fede: video largo con sus versiones para el viernes 17/10.",
-      "proximo": "2026-10-15",
-      "paso": "Perfil, entrega, proceso comercial y calendario listos para lanzar.",
+      "ultimo": "2026-11-09",
+      "que": "9/11: Servicio: desaparecido hace dos o tres semanas, tapado con un cliente nuevo; Juana le escribió para agendar y Facu también (9/11).",
+      "proximo": null,
+      "paso": "Aaron: agendar llamada.",
       "carta": "El pasaporte digital.",
       "pilar": "Oferta",
-      "pelota": "Facu",
+      "pelota": "cliente",
       "plata": {
         "fecha": "2026-11-15",
         "que": "Micro lanzamiento de la consultoría de 90 días."
       }
     },
     "custom-lab": {
-      "ultimo": "2026-10-24",
-      "que": "Juan Cruz con Aye el 24/10 (Fathom 196005892): el programa se extiende de 60 a 90 días por las llamadas corridas y le quedan 2 sesiones. Cuello: un solo editor que además hace logística; Aye le propuso delegar.",
+      "ultimo": "2026-11-09",
+      "que": "9/11: Servicio: usan las dos sesiones que les quedan y se define al final; sin extensión ni upsell.",
       "proximo": null,
-      "paso": "Reagendar la llamada con Facu; él revisa antes el one-sheeter.",
+      "paso": "Custom Lab: agendar la próxima sesión (Aye los presiona).",
       "carta": null,
       "pilar": "Oferta",
       "pelota": "cliente"
     },
     "sebastian": {
-      "ultimo": "2026-11-07",
-      "que": "7/11: Facu le contestó en #cf-sebastian punto por punto su respuesta al calendario revisado: acuerdo con lo de la semana, landing del bootcamp que guarde los registros (con la de la consultoría como modelo), testimonios del workshop del 28/10, charla con Titi «De filmar por encargo a cobrar por criterio» con cortes para la semana de registros, historias atadas a cada pieza, y cómo trabajamos (estrategia y plan; los guiones son ejemplos). La 1:1 del 5/11 no se hizo. Bitácora interna en el Project (clientes/seba-martinez-bitacora-2026-11-07.md): 10 llamadas hechas, le vendieron 12, cierre el 30/11.",
-      "proximo": "2026-11-09",
-      "paso": "1:1 el lunes 9/11, antes de abrir registros (Seba pasa horarios). Bootcamp del 16 al 18/11. Fijar una sola fecha de cierre (30/11) y usar las 2 llamadas que quedan: el 9/11 y la semana de venta.",
+      "ultimo": "2026-11-09",
+      "que": "9/11: 1:1 con Facu (Fathom 201004911): el bootcamp pasa al 19 al 21/11 para llegar con el contenido de lanzamiento; todo el contenido apunta a FOMO del bootcamp; prioridades: landing, número de WhatsApp y destacadas.",
+      "proximo": "2026-11-11",
+      "paso": "Seba: landing, WhatsApp y destacadas. Facu y Franco: reunión con Seba el mié 11/11 para plan comercial, contenido y venta.",
       "carta": "Calendario de lanzamiento activa; después el workshop y la venta B2C.",
       "pilar": "Venta",
-      "pelota": "cliente",
+      "pelota": "Franco",
       "plata": {
-        "fecha": "2026-11-16",
-        "que": "Bootcamp online de «Gira la Cámara» (16 al 18/11) que abre la venta del cohort hasta el 22/11."
+        "fecha": "2026-11-19",
+        "que": "Bootcamp online de «Gira la Cámara» (19 al 21/11) que abre la venta del cohort."
       }
     },
     "sol-boutmy": {
-      "ultimo": "2026-11-07",
-      "que": "7/11: Facu les avisó en #cf-sol-boutmy que se extiende la consultoría (sin fecha de fin escrita) y que quiere ayudarlas con el editor para sacarles ese tiempo; agendan la semana que viene y Facu les deja cosas para revisar el finde. Del 6/11 (Facu con Aye): trabados sin editor, onboarding confuso en cuatro herramientas.",
+      "ultimo": "2026-11-09",
+      "que": "9/11: Servicio: BeMotion con extensión excepcional de un mes; Facu les escribió para verse esta semana.",
       "proximo": null,
       "paso": "Facu: dejarles el calendario de comunicación y los perfiles de editores, y agendar la llamada de la semana que viene. Sol y Fede: mandar el cliente ideal a revisión.",
       "carta": "Cliente ideal y oferta (en revisión).",
@@ -111,31 +107,31 @@
       "pelota": "Facu"
     },
     "lola-berutti": {
-      "ultimo": "2026-11-05",
-      "que": "1:1 con Facu del 5/11 (Fathom 200224629): vendió 10 cupos del programa de PM; la garantía de 7 pasantías no escala y pasa a un portal de empleo. Próximo lanzamiento en febrero, con embudo de contenido evergreen, el programa actualizado con IA y un downsell de USD 500 (clases grabadas) debajo del de 1.200 a 1.500.",
+      "ultimo": "2026-11-09",
+      "que": "9/11: Servicio: Facu cree que renueva; nuevo lanzamiento a fines de enero o principios de febrero.",
       "proximo": null,
-      "paso": "Armar el embudo evergreen y el downsell para el lanzamiento de febrero.",
+      "paso": "Franco: propuesta de renovación para el lanzamiento de febrero.",
       "carta": null,
       "pilar": "Venta",
-      "pelota": "cliente"
+      "pelota": "Franco"
     },
     "qualita": {
-      "ultimo": "2026-11-07",
-      "que": "7/11: Facu les devolvió el Miro de Ana («Universo audiencia y sistema creativo») con la campaña de diciembre, cierre de año (devolución en la app, commit 02b2904): falta elegir protagonista (Conducción, Relevo o el vínculo), el puente entre los territorios y el mecanismo, frases textuales de clientes y el tamaño de la PyME arquetipo. Los 90 días desde la retoma (20/8) se cumplen cerca del 18/11.",
+      "ultimo": "2026-11-09",
+      "que": "9/11: Servicio (Fathom 201223924): Facu cierra con la devolución de la campaña creativa y el sign-off; sin extensión ni upsell por ahora.",
       "proximo": null,
-      "paso": "Qualita: validar el protagonista, las fechas y mandar frases reales de dueños. Facu: decidir cierre o renovación cerca del 18/11. (Ana: contestada el 7/11 en #cf-qualita: estrategia Facu y Ana, Rafa en negocio y presupuesto, todo por Slack con el Miro como madre, por entregables.)",
+      "paso": "Facu: terminar la devolución estratégica esta semana o a principio de la que viene y hacer el sign-off.",
       "carta": "Devolución: campaña de diciembre, cierre de año.",
-      "pilar": "Venta",
-      "pelota": "cliente"
+      "pilar": "Cierre",
+      "pelota": "Facu"
     },
     "the-momentum-club": {
-      "ultimo": "2026-11-05",
-      "que": "Con Franco el 5/11 (Fathom 200285093, Israel y Natalia): el programa de artistas pasa de 6 a 4 meses, la venta entra en el mes 3 antes de la colección, una aceleradora de 60 días entre el programa y el mastermind, y una masterclass en vivo de Israel sobre su método de venta para validar y juntar leads.",
+      "ultimo": "2026-11-09",
+      "que": "10/11: Israel mandó en su canal la propuesta del club por niveles (falta la aceleradora) y pide feedback. Van 55 de 90 días.",
       "proximo": null,
-      "paso": "Masterclass de Israel y ajuste del programa a 4 meses.",
+      "paso": "Facu: devolverles la propuesta y agendar la sesión de esta semana.",
       "carta": "Reset de cartas (Facu).",
       "pilar": "Oferta",
-      "pelota": "cliente",
+      "pelota": "Facu",
       "plata": {
         "fecha": "2027-01-11",
         "que": "Relanzamiento con el nivel 1 en enero (día a definir)."
