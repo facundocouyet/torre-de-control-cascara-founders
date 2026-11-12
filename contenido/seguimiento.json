@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-11-10",
+  "actualizado": "2026-11-12",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -85,23 +85,23 @@
       "pelota": "cliente"
     },
     "sebastian": {
-      "ultimo": "2026-11-09",
-      "que": "9/11: 1:1 con Facu (Fathom 201004911): el bootcamp pasa al 19 al 21/11 para llegar con el contenido de lanzamiento; todo el contenido apunta a FOMO del bootcamp; prioridades: landing, número de WhatsApp y destacadas.",
-      "proximo": "2026-11-11",
-      "paso": "Seba: landing, WhatsApp y destacadas. Facu y Franco: reunión con Seba el mié 11/11 para plan comercial, contenido y venta.",
+      "ultimo": "2026-11-12",
+      "que": "12/11: 1:1 con Facu (Fathom 202406160): el CTA de la landing pasa a link directo al grupo de WhatsApp; Stories y grupo con narrativa diaria; pauta de USD 5 a 10 por día para traer el 30 a 40% de los registros; objetivo 10 a 15 cupos en el primer cohort.",
+      "proximo": "2026-11-19",
+      "paso": "Seba: landing con el link al grupo, Stories diarias y la pauta andando antes del bootcamp del 19 al 21/11.",
       "carta": "Calendario de lanzamiento activa; después el workshop y la venta B2C.",
       "pilar": "Venta",
-      "pelota": "Franco",
+      "pelota": "cliente",
       "plata": {
         "fecha": "2026-11-19",
         "que": "Bootcamp online de «Gira la Cámara» (19 al 21/11) que abre la venta del cohort."
       }
     },
     "sol-boutmy": {
-      "ultimo": "2026-11-09",
-      "que": "9/11: Servicio: BeMotion con extensión excepcional de un mes; Facu les escribió para verse esta semana.",
-      "proximo": null,
-      "paso": "Facu: dejarles el calendario de comunicación y los perfiles de editores, y agendar la llamada de la semana que viene. Sol y Fede: mandar el cliente ideal a revisión.",
+      "ultimo": "2026-11-11",
+      "que": "11/11: Federica agradece lo que Facu tomó de lo charlado con Aye y reservó 1:1 con Facu para hoy 12/11 15:30.",
+      "proximo": "2026-11-12",
+      "paso": "Facu: llevar a la 1:1 de hoy el calendario de comunicación y los perfiles de editores. Sol y Fede: mandar el cliente ideal a revisión.",
       "carta": "Cliente ideal y oferta (en revisión).",
       "pilar": "Oferta",
       "pelota": "Facu"
@@ -116,19 +116,19 @@
       "pelota": "Franco"
     },
     "qualita": {
-      "ultimo": "2026-11-09",
-      "que": "9/11: Servicio (Fathom 201223924): Facu cierra con la devolución de la campaña creativa y el sign-off; sin extensión ni upsell por ahora.",
+      "ultimo": "2026-11-11",
+      "que": "11/11: Ana leyó la devolución de la campaña, valida el protagonista y mandó las frases de clientes sacadas de reuniones y WhatsApp (`#cf-qualita`); confirma fechas.",
       "proximo": null,
-      "paso": "Facu: terminar la devolución estratégica esta semana o a principio de la que viene y hacer el sign-off.",
+      "paso": "Facu: tomar las frases de Ana y bajar la ejecución de la campaña; después el sign-off. Ana: confirmar fechas.",
       "carta": "Devolución: campaña de diciembre, cierre de año.",
       "pilar": "Cierre",
       "pelota": "Facu"
     },
     "the-momentum-club": {
-      "ultimo": "2026-11-09",
-      "que": "10/11: Israel mandó en su canal la propuesta del club por niveles (falta la aceleradora) y pide feedback. Van 55 de 90 días.",
-      "proximo": null,
-      "paso": "Facu: devolverles la propuesta y agendar la sesión de esta semana.",
+      "ultimo": "2026-11-11",
+      "que": "11/11: Natalia reagendó la sesión con Facu para hoy 12/11 13:30 ART (17:30 España). Van 57 de 90 días.",
+      "proximo": "2026-11-12",
+      "paso": "Facu: devolverles en la sesión de hoy la propuesta del club por niveles.",
       "carta": "Reset de cartas (Facu).",
       "pilar": "Oferta",
       "pelota": "Facu",
