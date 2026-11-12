@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Jueves 12 de noviembre
+
+Seguimiento al día con la 1:1 de Seba de hoy y lo que se movió ayer en los canales.
+
+- **Seba con la pelota.** La 1:1 de las 8:00 dejó la landing apuntando al grupo de WhatsApp, Stories diarias y pauta chica; el próximo hito es el bootcamp del 19/11.
+- **Qualita, Momentum y BeMotion.** Qualita validó la devolución y mandó las frases; Momentum y BeMotion tienen sesión con vos hoy (13:30 y 15:30).
+
+**Para mirar antes de subir:** el inicio de la torre, que Seba ya no figure esperando a Franco.
+
 ## Martes 10 de noviembre
 
 Seguimiento al día con lo que se decidió en Servicio del 9/11 y la 1:1 de Seba.
