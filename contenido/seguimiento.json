@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-11-12",
+  "actualizado": "2026-11-13",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -98,10 +98,10 @@
       }
     },
     "sol-boutmy": {
-      "ultimo": "2026-11-11",
-      "que": "11/11: Federica agradece lo que Facu tomó de lo charlado con Aye y reservó 1:1 con Facu para hoy 12/11 15:30.",
-      "proximo": "2026-11-12",
-      "paso": "Facu: llevar a la 1:1 de hoy el calendario de comunicación y los perfiles de editores. Sol y Fede: mandar el cliente ideal a revisión.",
+      "ultimo": "2026-11-12",
+      "que": "12/11: Facu corrió la 1:1 de las 15:30 por agenda; quedó hoy 13/11 9:30 con Fede (Sol - Fede - Cáscara).",
+      "proximo": "2026-11-13",
+      "paso": "Facu y Fede: 1:1 de hoy 9:30 con el calendario de comunicación y los perfiles de editores.",
       "carta": "Cliente ideal y oferta (en revisión).",
       "pilar": "Oferta",
       "pelota": "Facu"
@@ -125,13 +125,13 @@
       "pelota": "Facu"
     },
     "the-momentum-club": {
-      "ultimo": "2026-11-11",
-      "que": "11/11: Natalia reagendó la sesión con Facu para hoy 12/11 13:30 ART (17:30 España). Van 57 de 90 días.",
-      "proximo": "2026-11-12",
-      "paso": "Facu: devolverles en la sesión de hoy la propuesta del club por niveles.",
+      "ultimo": "2026-11-12",
+      "que": "12/11: 1:1 con Facu (Fathom 202582172): relanzan un programa más corto para artistas con garantía de satisfacción, escalera Programa base → Acelerador → Mastermind y un setter para las ventas entrantes; Israel queda como mentor y Natalia en operaciones. Van 58 de 90 días.",
+      "proximo": "2026-11-19",
+      "paso": "Momentum: bajar el programa corto, la garantía y la escalera, y definir el setter.",
       "carta": "Reset de cartas (Facu).",
       "pilar": "Oferta",
-      "pelota": "Facu",
+      "pelota": "cliente",
       "plata": {
         "fecha": "2027-01-11",
         "que": "Relanzamiento con el nivel 1 en enero (día a definir)."
