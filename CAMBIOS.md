@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Viernes 13 de noviembre
+
+Las tres 1:1 de ayer quedaron cargadas en la torre.
+
+- **Momentum con la pelota.** Relanzan un programa corto para artistas con garantía, escalera y setter; próximo paso de ellos.
+- **BeMotion pasa a hoy.** La 1:1 de ayer se corrió a hoy 9:30 con Fede.
+- **Ingresos al día.** A2 con su oferta nueva de campañas creativas, Gabriel con la Clarity hecha (primera carta vence el 14/11) y Alejandra con turno hoy 15:00.
+
+**Para mirar antes de subir:** que Momentum y BeMotion se vean bien en el inicio de la torre.
+
 ## Jueves 12 de noviembre
 
 Seguimiento al día con la 1:1 de Seba de hoy y lo que se movió ayer en los canales.
