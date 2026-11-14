@@ -386,5 +386,78 @@
         "estado": "despues"
       }
     ]
+  },
+  "gabriel-pacahuala": {
+    "objetivo": "Cerrar los 90 días con Kross Atlas validado: tu cliente ideal escrito, una oferta calibrada con precio, los ángulos probados con contenido y los primeros dueños de marca adentro.",
+    "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolviste en las anteriores y deja lista la que sigue. Por eso conviene hacerlas en este orden.",
+    "tramo_actual": 1,
+    "tramos": [
+      {
+        "cuando": "Mes 1 · noviembre",
+        "nombre": "El diagnóstico",
+        "texto": "Tus clientes del CRM, tus dos ofertas y tus canales, y la llamada de oferta para calibrar la oferta de Atlas."
+      },
+      {
+        "cuando": "Mes 2 · diciembre",
+        "nombre": "Tu cliente y tu oferta",
+        "texto": "El dueño de marca que querés en Atlas, con sus miedos de verdad, y la oferta en una hoja."
+      },
+      {
+        "cuando": "Mes 3 · enero",
+        "nombre": "La validación",
+        "texto": "Los ángulos probados con contenido desde tu cuenta, las primeras tiendas piloto y los datos de las ventas para ajustar."
+      }
+    ],
+    "cartas": [
+      {
+        "id": "auditoria-de-clientes",
+        "para_que": "Tus clientes, tus ofertas y tus canales: con eso vas a la llamada de oferta.",
+        "estado": "ahora"
+      },
+      {
+        "id": "icp-mecanismo",
+        "para_que": "El dueño de marca que querés en Atlas y tu forma única de resolverle la experiencia de compra.",
+        "estado": "sigue"
+      },
+      {
+        "id": "one-sheeter-oferta",
+        "para_que": "Kross Atlas en una hoja: qué incluye, a quién y a qué precio.",
+        "estado": "despues"
+      },
+      {
+        "id": "angulos-desde-icp",
+        "para_que": "Los ángulos para probar con contenido, salidos de los miedos de tu cliente ideal.",
+        "estado": "despues"
+      }
+    ]
+  },
+  "sol-boutmy": {
+    "objetivo": "Cerrar el proceso con la oferta de 90 días saliendo a la venta: el equipo ordenado, la campaña de beMOTION producida y publicada antes del 18/12, y uno o dos lugares vendidos.",
+    "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolvieron en las anteriores y deja lista la que sigue.",
+    "tramo_actual": 1,
+    "tramos": [
+      {
+        "cuando": "Septiembre y octubre",
+        "nombre": "Las bases",
+        "texto": "La oferta dividida, el sistema de operaciones en Notion y la presentación."
+      },
+      {
+        "cuando": "Noviembre y diciembre",
+        "nombre": "La campaña",
+        "texto": "Viole ordenada, la campaña escrita, la jornada de producción y la publicación antes del 18/12."
+      },
+      {
+        "cuando": "Enero y febrero",
+        "nombre": "La venta",
+        "texto": "Las llamadas de los 90 días y la segunda campaña sobre lo que ya se publicó."
+      }
+    ],
+    "cartas": [
+      {
+        "id": "tu-marca-mejor-cliente",
+        "para_que": "Lo que queda por resolver, el SOP de Viole y su campaña escrita sobre nuestro ejemplo.",
+        "estado": "ahora"
+      }
+    ]
   }
 }

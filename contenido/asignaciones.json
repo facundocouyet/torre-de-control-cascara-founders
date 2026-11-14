@@ -47,6 +47,12 @@
       "activa": "calendario-contenido",
       "por_que": "El cuello es contenido: las 2 campañas y los 12 ángulos del 18/9 todavía no salieron. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta."
     },
+    "gabriel-pacahuala": {
+      "activa": "auditoria-de-clientes",
+      "siguiente": "icp-mecanismo",
+      "por_que": "Clarity Call del 12/11 (Fathom 202529403): el CRM factura unos USD 8.000 por mes por referidos y financia Kross Atlas, que hay que validar en 90 días con dueños de marca. Facu quedó en mandarle la auditoría de clientes, ofertas y canales; después, la llamada con Franco para calibrar la oferta y el cliente ideal.",
+      "inicio": "2026-11-09"
+    },
     "jose-david-fajardo": {
       "activa": "proceso-comercial",
       "en_paralelo": [
@@ -99,18 +105,11 @@
       "inicio": "2026-11-09"
     },
     "sol-boutmy": {
-      "activa": "icp-mecanismo",
-      "en_paralelo": [
-        "one-sheeter-oferta",
-        "proceso-comercial",
-        "mi-editing-brief"
-      ],
-      "despues": [
-        "profile-funnel"
-      ],
-      "por_que": "1:1 del día 30 (13/10) y Facu (14/10): el B2B queda ordenado con el esqueleto de propuesta (estrategia de 1.500 a 2.000, producción como upsell) y el foco va de lleno al programa B2C de contenido orgánico con workshop de lanzamiento (10 lugares). Cliente ideal y oferta del programa, después el calendario de cuatro semanas del workshop. Contratar el primer rol sale: la edición se resuelve con la prueba de Clara. 17/10: la oferta del programa pasa a ir en paralelo al cliente ideal (Facu pidió las dos para la semana del 13/10), y se suma el editing brief de BeMotion (versión simple del SOP de Cáscara, con referencias) para la prueba con Clara. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: calendario-contenido, calendario-lanzamiento.",
-      "inicio": "2026-10-14",
-      "revision": "pendiente"
+      "activa": "tu-marca-mejor-cliente",
+      "en_paralelo": [],
+      "despues": [],
+      "por_que": "1:1 del día 30 (13/10) y Facu (14/10): el B2B queda ordenado con el esqueleto de propuesta (estrategia de 1.500 a 2.000, producción como upsell) y el foco va de lleno al programa B2C de contenido orgánico con workshop de lanzamiento (10 lugares). Cliente ideal y oferta del programa, después el calendario de cuatro semanas del workshop. Contratar el primer rol sale: la edición se resuelve con la prueba de Clara. 17/10: la oferta del programa pasa a ir en paralelo al cliente ideal (Facu pidió las dos para la semana del 13/10), y se suma el editing brief de BeMotion (versión simple del SOP de Cáscara, con referencias) para la prueba con Clara. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: calendario-contenido, calendario-lanzamiento. 14/11, Facu, después de la llamada del 13/11: una sola carta, la campaña de beMOTION. Resume lo que queda por resolver con fechas, el SOP del rol de Viole (gestión de clientes y seguimiento, sin la estrategia) y un ejemplo de campaña armado por nosotros (cliente ideal de los 90 días, ángulos, jornada y calendario) para que escriban la suya. La devolución de la presentación ya salió por Slack. Se sacan las demás.",
+      "inicio": "2026-11-16"
     },
     "the-momentum-club": {
       "activa": "resultados-lanzamiento",

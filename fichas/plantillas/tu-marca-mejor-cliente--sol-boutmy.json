@@ -1,0 +1,118 @@
+{
+ "modulo": "tu-marca-mejor-cliente",
+ "slug": "sol-boutmy",
+ "founder": "BeMotion (Sol y Fede)",
+ "bajada": "Lo que queda por resolver, cómo se ordena el trabajo con Viole y un ejemplo de campaña armado con todo lo que sabemos de ustedes, para que escriban la suya y salgan a producirla.",
+ "cuando": "Después de la llamada del 13/11, con la presentación ya devuelta por Slack.",
+ "lista_cuando": "La campaña está escrita y armada en su Notion, con la fecha de la jornada, y la semana con Viole ya arrancó.",
+ "pasos": [
+  "Ajusten la presentación con la devolución que les mandamos por Slack.",
+  "Arranquen la semana con Viole como dice el SOP de abajo.",
+  "Escriban su campaña y ármenla en su Notion como en el ejemplo, con la fecha de la jornada.",
+  "Peguen el link del calendario y mándenla a revisión antes del 22/11."
+ ],
+ "bajada_envio": {
+  "founder": "BeMotion (Sol y Fede)",
+  "porque": "En la llamada del 13/11 quedó claro que el mes 1 está resuelto y que lo que falta es la comunicación de beMOTION. Esta carta junta lo que queda por hacer, cómo se ordena el trabajo con Viole y un ejemplo de campaña para que escriban la de ustedes.",
+  "objetivo": "La campaña de beMOTION escrita en noviembre, producida en una jornada a fines de noviembre o principios de diciembre y publicada antes del 18/12, para vender uno o dos lugares de los 90 días.",
+  "mindset": "beMOTION es clienta de beMOTION: si tienen el mejor editor, va para ustedes. Esta es la primera de varias campañas, y lo que se publique ahora se acumula para enero y febrero."
+ },
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Dónde están y qué falta",
+   "texto": [
+    "<b>Lo que ya está:</b> la oferta dividida en tres niveles, el sistema de operaciones en Notion con los estados de cada pieza, la presentación nueva en camino y Viole adentro del equipo.",
+    "<b>Lo que falta es la comunicación de beMOTION.</b> Hoy el valor de lo que hacen está guardado como portfolio. La campaña es lo que lo convierte en resultados que una dueña de marca mira antes de comprar.",
+    "<b>El orden:</b> las bases listas, el equipo listo, la estrategia lista, y a producir y publicar. Después viene lo comercial."
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "Los accionables, con fecha",
+   "texto": [],
+   "figura": "<div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Qué</th><th>Quién</th><th>Para cuándo</th></tr></thead><tbody><tr><td>Ajustar la presentación con la devolución de Slack: una sola oferta, los 90 días al 75% con los primeros clientes y el sprint como plan B</td><td class=\"gris\">Sol y Fede</td><td class=\"gris\">Semana del 16/11</td></tr><tr><td>Arrancar la weekly y el reporte del viernes con Viole, como dice el SOP de abajo</td><td class=\"gris\">Fede con Viole</td><td class=\"gris\">Desde el lunes 16/11</td></tr><tr><td>Escribir su campaña y armarla en su Notion como en el ejemplo, con el link a revisión</td><td class=\"gris\">Sol y Fede</td><td class=\"gris\">22/11</td></tr><tr><td>Ponerle fecha a la jornada de producción</td><td class=\"gris\">Sol y Fede</td><td class=\"gris\">Antes del 22/11, para grabar entre el 26/11 y el 3/12</td></tr><tr><td>Publicar la campaña, con Viole moviendo las tarjetas</td><td class=\"gris\">Todo el equipo</td><td class=\"gris\">Del 30/11 al 18/12</td></tr><tr><td>Para las vacaciones: el 2027 que sueñan, el retro planning y el presupuesto que van a invertir en ustedes</td><td class=\"gris\">Sol y Fede</td><td class=\"gris\">Antes de enero</td></tr></tbody></table></div>"
+  },
+  {
+   "nuestro": true,
+   "titulo": "El rol de Viole, ordenado",
+   "texto": [
+    "<b>Qué es el rol.</b> Gestión de clientes y seguimiento del contenido. La estrategia queda con ustedes, porque es mucha responsabilidad para un perfil junior en período de prueba. Lo que Viole asegura es que cada pieza tenga responsable y fecha, y que salga cuando tiene que salir.",
+    "<b>Dónde se ordena todo.</b> En el calendario de Notion que ya armaron, con sus estados: idea, guion, producción, edición, aprobación interna, aprobación del cliente, programado y publicado. Viole mira que cada tarjeta esté en su estado real y empuja la que se quedó quieta.",
+    "<b>La semana, en tres momentos:</b>"
+   ],
+   "figura": "<div class=\"fx\"><div class=\"fx-flujo\"><div class=\"fx-paso tinta\"><div class=\"k\">Lunes</div><div class=\"t\">La weekly interna</div><div class=\"s\">30 a 45 minutos con ustedes. Cuenta por cuenta: qué salió, qué está trabado, qué sale esta semana y qué necesita una decisión. Se cierra con responsables y fechas.</div></div><div class=\"fx-paso\"><div class=\"k\">Martes a jueves</div><div class=\"t\">El seguimiento</div><div class=\"s\">Abre el calendario a la mañana y a la tarde. Persigue las entregas, pasa las piezas a aprobación interna, las manda al cliente y deja programado lo aprobado.</div></div><div class=\"fx-paso\"><div class=\"k\">Viernes</div><div class=\"t\">El reporte</div><div class=\"s\">Una página por cuenta: lo planificado contra lo publicado, lo que se trabó y por qué, los números de la semana y lo que necesita de ustedes.</div></div></div></div>"
+  },
+  {
+   "nuestro": true,
+   "titulo": "Las weeklies, los reportes y lo que resuelve sola",
+   "texto": [
+    "<b>Las weeklies con los clientes.</b> Viole arma la agenda y toma las notas; ustedes llevan la conversación. Las notas quedan en la página del cliente el mismo día.",
+    "<b>El informe del mes.</b> Sale de los cuatro reportes de los viernes, y es parte de lo que venden en los 90 días: reunión mensual e informe.",
+    "<b>Resuelve sola</b> un editor atrasado, una corrección dentro del alcance o un cambio de horario. <b>Les sube</b> un cambio de estrategia, un pedido fuera del alcance o un cliente disconforme.",
+    "<b>beMOTION, su cuenta número uno.</b> La campaña entra al mismo calendario, con las mismas tarjetas, y Viole la sigue como la de cualquier cliente.",
+    "<b>Cómo crece.</b> Se la capacita con este sistema durante el período de prueba. A futuro, el rol se paga por cantidad de cuentas, y lo revisamos juntos cuando llegue el momento."
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "El cliente ideal de los 90 días",
+   "texto": [
+    "<b>Quién:</b> marcas con su fundadora o fundador al frente, que ya venden y tienen un lanzamiento o una temporada por delante. Moda, deco, gastronomía: el tipo de marca con el que ya trabajaron.",
+    "<b>Qué le pasa:</b> sube contenido y no comunica. Tiene redes activas, pero la marca no se parece a lo que es. Ustedes ya lo escribieron en la presentación: marcas que quieren dejar de subir contenido y empezar a comunicar.",
+    "<b>Cómo lo resuelven:</b> identidad en movimiento. Estrategia, jornadas en terreno donde pasan las historias de la marca y 90 días de contenido producido.",
+    "<b>Con qué se queda:</b> su próximo lanzamiento convertido en ventas y comunidad, la estrategia escrita, el calendario y un banco de piezas con su identidad.",
+    "<b>El momento:</b> en Uruguay, la marca que decide en diciembre arranca en marzo. La campaña vende los 90 días para llegar a marzo con el contenido hecho."
+   ]
+  },
+  {
+   "nuestro": true,
+   "titulo": "Un ejemplo de campaña: así la haríamos nosotros",
+   "texto": [
+    "<b>Todo lo de contenido que sigue es a modo de ejemplo.</b> Es una referencia para que puedan ir avanzando. Más adelante lo vamos a trabajar mucho más en profundidad, con una estrategia de lanzamiento.",
+    "<b>El concepto:</b> «beMOTION, clienta de beMOTION». La narrativa es una sola: este mes hicimos con nuestra marca lo que hacemos con cada marca. Tres semanas: quiénes son y qué cambió, cómo lo hacen, y la invitación.",
+    "<b>Los ángulos, en dos niveles.</b> El nivel 1 es el dolor del negocio: lo que se ve en las redes o en los números. El nivel 2 es el dolor de la persona que tiene ese negocio: lo que le pasa a la fundadora cuando vive eso. Con el nivel 1 la marca se reconoce; con el nivel 2 la persona escribe. Cada pieza nombra el primero y le habla al segundo."
+   ],
+   "figura": "<div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Ángulo</th><th>Nivel 1 · el dolor del negocio</th><th>Nivel 2 · el dolor de la persona</th></tr></thead><tbody><tr><td>Subir contenido no es comunicar</td><td class=\"gris\">Publican seguido y las redes no traen consultas ni ventas.</td><td>Siente que pone tiempo y plata en una cuenta que no la representa, y le cuesta mostrarla.</td></tr><tr><td>La identidad se encuentra en movimiento</td><td class=\"gris\">La marca se ve igual que la de al lado.</td><td>Lo que hace especial a su marca, que es ella, su historia y su forma de hacer, no aparece en ningún lado.</td></tr><tr><td>Criterio antes que volumen</td><td class=\"gris\">Producen mucho, sin plan, y nada se mide.</td><td>Vive corriendo detrás del próximo posteo, cansada y sin saber qué funciona.</td></tr><tr><td>Dos amigas desde el jardín</td><td class=\"gris\">Probaron agencias que nunca entendieron el negocio.</td><td>Le da miedo soltar su marca en manos de alguien que la trate como un cliente más.</td></tr><tr><td>Una marca, antes y después</td><td class=\"gris\">No tienen pruebas de que el contenido venda.</td><td>Duda si vale la pena invertir; necesita ver a alguien como ella que ya lo logró.</td></tr><tr><td>Llegar a marzo con la marca en movimiento</td><td class=\"gris\">Cada temporada el contenido se arma a último momento.</td><td>Arranca cada temporada a las corridas, con la sensación de llegar siempre tarde.</td></tr></tbody></table></div>"
+  },
+  {
+   "nuestro": true,
+   "titulo": "Cómo lo aterrizamos en Notion",
+   "texto": [
+    "Así lo hacemos nosotros con cada campaña, y se arma en el calendario de Notion que ustedes ya tienen, con sus estados.",
+    "<b>La jornada:</b> un solo día. Se graba la charla entre ustedes dos, de 15 a 20 minutos, sobre por qué subir contenido no es comunicar, que después da los cortes. También el detrás de escena de ustedes trabajando en terreno con una marca, una microficción corta (la fundadora que sube contenido sin rumbo y el día que cambia), las fotos para los carruseles y, si se puede, el testimonio de una clienta."
+   ],
+   "figura": "<style>\n.bm-nt{background:#fff;border:1px solid #E3E2DE;box-shadow:0 1px 3px rgba(0,0,0,.06);font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif;color:#37352F;font-size:14px;line-height:1.55;margin-top:22px;max-width:100%}\n.bm-nt .bar{display:flex;gap:6px;align-items:center;padding:8px 12px;border-bottom:1px solid #EDECE9;font-size:12px;color:#9B9A97}\n.bm-nt .bar i{width:9px;height:9px;border-radius:50%;background:#E3E2DE;display:inline-block}\n.bm-nt .bd{padding:18px 22px 22px}\n.bm-nt h4{font-size:22px;font-weight:700;margin:0 0 12px;line-height:1.2;color:#37352F}\n.bm-nt .pr{display:grid;grid-template-columns:150px minmax(0,1fr);gap:6px 10px;font-size:13px;margin-bottom:14px}\n.bm-nt .pr .l{color:#9B9A97}\n.bm-ch{display:inline-block;padding:1px 7px;border-radius:3px;font-size:12px;margin-right:4px;font-style:normal}\n.bm-r{background:#FBE4E4;color:#93413F}.bm-b{background:#DDEBF1;color:#28546A}.bm-g{background:#DDEDEA;color:#2B593F}\n.bm-y{background:#FBF3DB;color:#7C5D1A}.bm-p{background:#EAE4F2;color:#5A3D7A}.bm-n{background:#EBECED;color:#37352F}\n.bm-nt .tb{display:flex;flex-wrap:wrap;gap:16px;border-bottom:1px solid #EDECE9;margin:6px 0 12px;font-size:13px;color:#9B9A97}\n.bm-nt .tb span{padding-bottom:6px}.bm-nt .tb span.on{color:#37352F;border-bottom:2px solid #37352F}\n.bm-nt h5{font-size:15px;font-weight:700;margin:14px 0 4px;color:#37352F}\n.bm-nt .q{border-left:3px solid #37352F;padding-left:12px;margin:6px 0}\n.bm-nt table{border-collapse:collapse;width:100%;font-size:13px;margin:6px 0}\n.bm-nt td{border:1px solid #EDECE9;padding:6px 8px;vertical-align:top}\n.bm-nt tr:first-child td{background:#F7F6F3;font-weight:600}\n.bm-nt ol{margin:4px 0 4px 20px;padding:0}.bm-nt li{margin:3px 0}\n.bm-sc{overflow-x:auto;margin-top:22px}\n.bm-cal{min-width:660px;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border:1px solid #E3E2DE;background:#fff;font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif}\n.bm-cal .t{grid-column:1/-1;padding:9px 10px;font-size:14px;font-weight:700;color:#37352F;border-bottom:1px solid #EDECE9}\n.bm-cal .h{font-size:11px;color:#9B9A97;padding:5px 6px;border-bottom:1px solid #EDECE9;border-right:1px solid #EDECE9}\n.bm-cal .d{min-height:86px;border-right:1px solid #EDECE9;border-bottom:1px solid #EDECE9;padding:4px 4px 6px;font-size:11px;color:#9B9A97}\n.bm-cal .h:nth-child(7n+1),.bm-cal .d:nth-child(7n+1){border-right:0}\n.bm-cal .c{display:block;background:#fff;border:1px solid #E3E2DE;border-radius:3px;padding:4px 5px;margin-top:4px;color:#37352F;font-size:11.5px;line-height:1.3;box-shadow:0 1px 2px rgba(0,0,0,.05)}\n.bm-cal .c .bm-ch{font-size:10.5px;margin-top:3px;padding:0 5px}\n.bm-cal .c.jor{background:#37352F;color:#fff;border-color:#37352F}\n.bm-cap{font-size:14px;color:#6A6A66;margin-top:10px;line-height:1.5;max-width:62ch}\n</style><div class=\"fx\"><div class=\"fx-flujo\"><div class=\"fx-paso tinta\"><div class=\"k\">1 · Estrategia</div><div class=\"t\">La campaña es una tarjeta</div><div class=\"s\">En el calendario de estrategia: concepto, narrativa, ángulos, fecha de la jornada y fechas de publicación.</div></div><div class=\"fx-paso\"><div class=\"k\">2 · Semanas</div><div class=\"t\">La narrativa, partida en tres</div><div class=\"s\">Contexto, mecanismo y venta. Cada semana tiene un foco y el CTA va recién en la tercera.</div></div><div class=\"fx-paso\"><div class=\"k\">3 · Ángulos</div><div class=\"t\">Cada ángulo da dos o tres piezas</div><div class=\"s\">Un reel, un carrusel o un corte del video largo, según lo que pida el ángulo.</div></div><div class=\"fx-paso\"><div class=\"k\">4 · Contenido</div><div class=\"t\">Una tarjeta por pieza</div><div class=\"s\">Con el ángulo y sus dos niveles adentro, responsable, fechas y estado. Viole las mueve.</div></div></div></div><div class=\"bm-nt\"><div class=\"bar\"><i></i><i></i><i></i>&nbsp;Calendario de estrategia</div><div class=\"bd\"><h4>🧭 Campaña · beMOTION, clienta de beMOTION</h4><div class=\"pr\"><div class=\"l\">Tipo</div><div><span class=\"bm-ch bm-p\">Campaña</span></div><div class=\"l\">Jornada</div><div>Jueves 26/11 · 10 a 17 h</div><div class=\"l\">Publicación</div><div>30/11 → 18/12</div><div class=\"l\">Oferta</div><div><span class=\"bm-ch bm-b\">90 días</span></div><div class=\"l\">Objetivo</div><div>Uno o dos lugares vendidos</div><div class=\"l\">Estado</div><div><span class=\"bm-ch bm-g\">Calendarizada</span></div></div><div class=\"tb\"><span class=\"on\">Narrativa</span><span>Ángulos</span><span>Jornada</span><span>Resultados</span></div><h5>La narrativa</h5><div class=\"q\">Este mes hicimos con nuestra marca lo que hacemos con cada marca.</div><table><tr><td>Semana</td><td>Foco</td><td>Ángulos que se activan</td></tr><tr><td>1 · 30/11</td><td>Contexto</td><td>Dos amigas desde el jardín · Subir contenido no es comunicar</td></tr><tr><td>2 · 7/12</td><td>Mecanismo</td><td>La identidad se encuentra en movimiento · Criterio antes que volumen · Una marca, antes y después</td></tr><tr><td>3 · 14/12</td><td>Venta</td><td>Llegar a marzo con la marca en movimiento</td></tr></table></div></div><div class=\"bm-sc\"><div class=\"bm-cal\"><div class=\"t\">🗓️ Calendario de contenido · beMOTION · noviembre y diciembre</div><div class=\"h\">Lun</div><div class=\"h\">Mar</div><div class=\"h\">Mié</div><div class=\"h\">Jue</div><div class=\"h\">Vie</div><div class=\"h\">Sáb</div><div class=\"h\">Dom</div><div class=\"d\">23<span class=\"c\">🧭 Campaña cargada<br><i class=\"bm-ch bm-g\">Calendarizada</i></span></div><div class=\"d\">24<span class=\"c\">⏱ Historias · «este mes, beMOTION es clienta»<br><i class=\"bm-ch bm-g\">Programado</i></span></div><div class=\"d\">25</div><div class=\"d\">26<span class=\"c jor\">🎬 Jornada de grabación<br><i class=\"bm-ch bm-y\">Producción</i></span></div><div class=\"d\">27<span class=\"c\">⏱ Historias · detrás de la jornada<br><i class=\"bm-ch bm-n\">Publicado</i></span></div><div class=\"d\">28</div><div class=\"d\">29</div><div class=\"d\">30<span class=\"c\">🎥 Reel · Dos amigas desde el jardín<br><i class=\"bm-ch bm-y\">Aprobación interna</i></span></div><div class=\"d\">1</div><div class=\"d\">2<span class=\"c\">🎠 Carrusel · Subir contenido no es comunicar<br><i class=\"bm-ch bm-b\">Edición</i></span></div><div class=\"d\">3</div><div class=\"d\">4<span class=\"c\">📀 Video largo · la charla<br><i class=\"bm-ch bm-b\">Edición</i></span></div><div class=\"d\">5</div><div class=\"d\">6</div><div class=\"d\">7<span class=\"c\">🎥 Reel · Identidad en movimiento<br><i class=\"bm-ch bm-r\">Guion</i></span></div><div class=\"d\">8</div><div class=\"d\">9<span class=\"c\">✂️ Corte · la charla<br><i class=\"bm-ch bm-n\">Idea</i></span></div><div class=\"d\">10</div><div class=\"d\">11<span class=\"c\">🎠 Carrusel · El caso, antes y después<br><i class=\"bm-ch bm-r\">Guion</i></span></div><div class=\"d\">12</div><div class=\"d\">13</div><div class=\"d\">14<span class=\"c\">🎥 Reel · La microficción<br><i class=\"bm-ch bm-n\">Idea</i></span></div><div class=\"d\">15</div><div class=\"d\">16<span class=\"c\">🎠 Carrusel · Qué incluyen los 90 días<br><i class=\"bm-ch bm-n\">Idea</i></span></div><div class=\"d\">17<span class=\"c\">⏱ Historias · MOVIMIENTO<br><i class=\"bm-ch bm-n\">Idea</i></span></div><div class=\"d\">18<span class=\"c\">📞 Cierre · llamadas<br><i class=\"bm-ch bm-n\">Idea</i></span></div><div class=\"d\">19</div><div class=\"d\">20</div></div></div><p class=\"bm-cap\"><b>La vista por cuenta</b>, filtrada por beMOTION y ordenada por fecha de publicación. Los estados son los de su calendario: así se ve de un vistazo qué está en guion, qué en edición y qué falta aprobar.</p><div class=\"bm-nt\"><div class=\"bar\"><i></i><i></i><i></i>&nbsp;Calendario de contenido</div><div class=\"bd\"><h4>🎠 Carrusel · Subir contenido no es comunicar</h4><div class=\"pr\"><div class=\"l\">Semana</div><div>1 · Contexto</div><div class=\"l\">Ángulo</div><div>Subir contenido no es comunicar</div><div class=\"l\">Nivel 1 · el negocio</div><div>Publican seguido y las redes no traen consultas</div><div class=\"l\">Nivel 2 · la persona</div><div>Una cuenta que no la representa y le cuesta mostrar</div><div class=\"l\">Responsable</div><div>Sol</div><div class=\"l\">Fecha de publicación</div><div>2/12</div><div class=\"l\">Estado</div><div><span class=\"bm-ch bm-b\">Edición</span></div></div><div class=\"tb\"><span class=\"on\">Placas</span><span>Referencias</span><span>Feedback</span><span>Copy</span></div><ol><li><b>Portada:</b> Subir contenido no es comunicar.</li><li>Publicás todos los días y las redes no traen consultas.</li><li>El tema está en otro lado: la cuenta no se parece a tu marca.</li><li>Lo que hace única a tu marca sos vos, tu historia y tu forma de hacer. Eso es lo que hay que mostrar.</li><li>Así trabajamos: identidad en movimiento. Vamos a donde pasan tus historias.</li><li><b>CTA:</b> guardalo y mandáselo a esa amiga que sube contenido sin parar.</li></ol></div></div><p class=\"bm-cap\"><b>Cada tarjeta lleva su ángulo y sus dos niveles.</b> El nivel 1 va en la portada, para que la marca se reconozca; el nivel 2 va en el desarrollo, que es donde la persona se siente hablada.</p><p class=\"fx-pie\"><b>Mínimo por semana:</b> dos reels, un carrusel y un video largo o un corte de la charla. <b>Sol, en su cuenta:</b> una pieza por semana con el pilar técnico, aporte de valor sobre estrategia de contenido, que lleve a la cuenta de beMOTION. <b>Si diciembre no cierra,</b> la misma campaña vuelve en enero o febrero con lo publicado como base.</p>"
+  }
+ ],
+ "ajustes": {
+  "0": {
+   "ocultar": true
+  },
+  "1": {
+   "titulo": "Su campaña: concepto, narrativa y ángulos",
+   "consigna": "Con el ejemplo de arriba como guía, escriban la de ustedes: el concepto, la historia de cada semana y los ángulos que quieren probar, cada uno con sus dos niveles. Cambien lo que no les suene propio.",
+   "alto": 8,
+   "placeholder": "Concepto… / Narrativa… / Ángulo: nivel 1, el negocio… nivel 2, la persona…"
+  },
+  "2": {
+   "titulo": "Su campaña en Notion",
+   "consigna": "Ármenla en su calendario de Notion como en el ejemplo: la tarjeta de la campaña, la jornada con fecha y las piezas de las tres semanas, cada una con su ángulo. Peguen el link acá.",
+   "campo": "texto",
+   "alto": 2,
+   "placeholder": "https://notion.so/…",
+   "columnas": null,
+   "filas": null
+  },
+  "3": {
+   "texto": [
+    "Esperar a tener la estrategia perfecta para empezar a publicar. La primera campaña es para salir; la segunda sale mejor porque la primera ya está publicada."
+   ]
+  },
+  "4": {
+   "texto": [
+    "Mándenla a revisión cuando esté escrita. La miramos con ustedes, la ajustamos y de ahí va a la jornada. Lo que salga de la campaña se documenta como caso."
+   ]
+  }
+ }
+}

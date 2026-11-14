@@ -1,0 +1,77 @@
+{
+  "modulo": "auditoria-de-clientes",
+  "slug": "gabriel-pacahuala",
+  "founder": "Gabriel Pacahuala (Kross)",
+  "bajada": "Lo que quedó de la Clarity Call: tus clientes del CRM, tus dos ofertas y de dónde te llega cada cliente. Con eso vas a la llamada de oferta con la lectura hecha.",
+  "cuando": "Después de la Clarity Call, antes de la llamada de oferta.",
+  "lista_cuando": "Están tus clientes del CRM con lo que te pagan y cómo llegaron, tus dos ofertas con su precio, y tus canales y tu equipo contados.",
+  "pasos": [
+    "Elegí entre 10 y 15 tiendas del CRM que representen bien a tus clientes y completá una fila por cada una.",
+    "Escribí tus dos ofertas, Kross Club y Kross Atlas: a quién, a qué precio y qué incluye cada una.",
+    "Contá de dónde te llega cada cliente hoy, qué canales probaste y quién del equipo hace qué.",
+    "Mandala a revisión y agendá la llamada de oferta desde la app."
+  ],
+  "bajada_envio": {
+    "founder": "Gabriel",
+    "porque": "En la Clarity Call quedó claro que el mensaje de Kross ya está validado y que el CRM paga las cuentas, unos USD 8.000 por mes, todo por referidos. Lo que hay que validar ahora es Kross Atlas para dueños de marca, y antes de salir con contenido hay que ver a quién le estás vendiendo hoy, qué le cobrás y por dónde te llega.",
+    "objetivo": "Esta carta completa con tus clientes del CRM, tus dos ofertas y tus canales. Con eso agendás la llamada de oferta para calibrar la oferta de Atlas.",
+    "mindset": "Contalo como funciona hoy, con números aunque sean aproximados. De acá salen el cliente ideal de Atlas y los ángulos que vamos a probar con contenido."
+  },
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó de la Clarity Call",
+      "texto": [
+        "Trabajamos en un ciclo de cuatro pasos: el cliente ideal con sus miedos de verdad (no solo datos), la auditoría de la oferta, la validación con contenido y los datos de las ventas para ajustar.",
+        "Probar ángulos no quema la marca: se prueban de a uno, con contenido o con anuncios chicos, y se queda lo que responde.",
+        "El CRM se sostiene como está y financia el proyecto. Atlas va a dueños de marca apasionados por su producto que no tienen las herramientas digitales, y los próximos tres meses son para validarlo.",
+        "Tu equipo ya está listo para producir, así que el contenido no es el cuello de botella. Lo que falta es saber a quién y con qué oferta."
+      ]
+    }
+  ],
+  "ajustes": {
+    "0": {
+      "texto": [
+        "Lo que contaste en los Founder Insights y en la Clarity Call ya lo tenemos. Lo que falta son tus clientes, tus ofertas y tus canales, escritos.",
+        "Se completa con lo que ya sabés, tal como está hoy. Las conclusiones las sacamos nosotros."
+      ]
+    },
+    "1": {
+      "titulo": "Tus clientes del CRM",
+      "consigna": "Entre 10 y 15 tiendas que representen bien a tus clientes de hoy, y si tenés alguna marca propia (no dropshipping), sumala. El nombre no hace falta si preferís no ponerlo. Si de alguna no tenés un dato, dejalo en blanco.",
+      "columnas": [
+        "Tienda o marca",
+        "Qué vende y si es marca propia o dropshipping",
+        "Cuánto te paga por mes",
+        "Desde cuándo",
+        "Cómo llegó",
+        "Qué cambió desde que usa Kross"
+      ],
+      "filas": 15
+    },
+    "2": {
+      "titulo": "Tus ofertas",
+      "consigna": "Una fila por oferta: Kross Club (el CRM), Kross Atlas y cualquier otra que vendas o quieras vender. Si Atlas todavía no tiene precio, escribí el que te imaginás.",
+      "columnas": [
+        "Oferta",
+        "A quién se la vendés",
+        "Precio y forma de pago",
+        "Qué incluye",
+        "Cuántos clientes tiene hoy"
+      ],
+      "filas": 3
+    },
+    "3": {
+      "titulo": "Tus canales y tu equipo",
+      "consigna": "De dónde te llega cada cliente hoy (referidos, de qué clientes, alguna otra vía), qué canales probaste y qué pasó, y quién del equipo hace qué: diseño, film, desarrollo, ventas.",
+      "campo": "texto",
+      "alto": 8,
+      "placeholder": "..."
+    },
+    "4": {
+      "texto": [
+        "Lo cruzamos con lo que hablamos en la Clarity Call. Con eso vas a la llamada de oferta a calibrar la oferta de Atlas, y de ahí sale el cliente ideal para los ángulos de contenido."
+      ]
+    }
+  }
+}

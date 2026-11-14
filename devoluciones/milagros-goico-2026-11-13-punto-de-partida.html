@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Devolución · Punto de Partida, de evento a caso</title>
+<style>
+  :root{--tinta:#171717;--papel:#ECEAE4;--papel2:#FBFAF8;--gris:#6A6A66;--gris2:#8E8B85;--tiza:#DBD7D2;--rojo:#FE1414}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--papel);color:var(--tinta);font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+  .hoja{max-width:860px;margin:0 auto;padding:60px 26px 120px}
+  .caja{display:inline-flex;border:1px solid var(--gris2);padding:6px 12px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris)}
+  h1{font-size:clamp(38px,6.4vw,62px);font-weight:800;letter-spacing:-.035em;line-height:1.02;margin:26px 0 0;max-width:17ch}
+  .bajada{font-size:19px;line-height:1.55;margin:20px 0 0;max-width:64ch}
+  .lista{margin-top:36px;border-top:1px solid var(--tinta);padding-top:19px;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px 34px}
+  .lista .et,.et{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2)}
+  .lista .tx{font-size:14.5px;line-height:1.5;margin-top:6px}
+  section{margin-top:58px;border-top:1px solid var(--tiza);padding-top:26px}
+  .n{font-size:10px;letter-spacing:.2em;color:var(--gris2)}
+  h2{font-size:clamp(25px,3.4vw,31px);font-weight:800;letter-spacing:-.028em;line-height:1.16;margin:9px 0 0;max-width:26ch}
+  h3{font-size:19px;font-weight:800;letter-spacing:-.02em;margin:34px 0 0}
+  p{font-size:17px;line-height:1.6;margin:15px 0 0;max-width:66ch}
+  b{font-weight:700}
+  .paso{display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;padding:17px 0;border-bottom:1px solid var(--tiza);align-items:baseline}
+  .paso:first-of-type{border-top:1px solid var(--tiza)}
+  .paso .k{font-size:17px;line-height:1.2;font-weight:800;letter-spacing:-.02em;color:var(--gris2)}
+  .paso>div>b{display:block;font-size:17.5px;letter-spacing:-.015em;margin-bottom:5px}
+  .paso span{font-size:15.5px;line-height:1.55;color:var(--gris)}
+  .paso.cta{background:var(--papel2);margin:0 -14px;padding:17px 14px}
+  .paso.cta .k{color:var(--rojo)}
+  .ojo{border:1px solid var(--tinta);padding:20px 22px;margin-top:28px}
+  .ojo p{margin-top:10px;font-size:16.5px}
+  .dos{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:26px;margin-top:26px}
+  .dos>div{border-top:2px solid var(--tinta);padding-top:13px;min-width:0}
+  .dos b{display:block;font-size:16.5px;letter-spacing:-.015em;margin-bottom:7px}
+  .dos p{font-size:15.5px;margin:0;color:var(--gris)}
+  .copy{background:var(--papel2);border-left:3px solid var(--tinta);padding:14px 18px;margin-top:14px;font-size:15.5px;line-height:1.55;white-space:pre-wrap}
+  .copy .et{display:block;margin-bottom:6px}
+  .tabla{width:100%;border-collapse:collapse;margin-top:24px;font-size:15px}
+  .tw{overflow-x:auto}
+  .tabla th{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);font-weight:400;text-align:left;padding:0 12px 10px 0;border-bottom:1px solid var(--tinta)}
+  .tabla td{padding:13px 12px 13px 0;border-bottom:1px solid var(--tiza);vertical-align:top;line-height:1.5}
+  .tabla td span{color:var(--gris)}
+  .ad{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:24px;margin-top:30px;padding-top:22px;border-top:1px solid var(--tiza);align-items:start}
+  .ad img{width:100%;height:auto;display:block;border:1px solid var(--tiza)}
+  .ad h4{font-size:17px;margin:0;letter-spacing:-.015em}
+  .ad p{font-size:15.5px;margin-top:8px}
+  code{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:var(--papel2);padding:2px 5px;word-break:break-all}
+  footer{margin-top:66px;border-top:1px solid var(--tinta);padding-top:17px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gris2)}
+  @media(max-width:600px){.paso{grid-template-columns:1fr;gap:4px}.ad{grid-template-columns:1fr}.ad img{max-width:260px}}
+  @media print{body{background:#fff}.hoja{padding:0}section{break-inside:avoid}}
+</style>
+</head>
+<body><div class="hoja">
+<div class="caja">Cáscara Founders · Devolución · 13/11</div>
+<h1>Punto de Partida: de evento a caso</h1>
+<p class="bajada">Mili, Cande: acá está lo que quedó de la llamada del 12/11, la devolución de la propuesta de Garita, lo que le sumaríamos para que el evento sea su primer caso del servicio nuevo, y la estructura de propuesta para venderlo a los próximos clientes.</p>
+<div class="lista"><div><div class="et">El servicio</div><div class="tx">Campañas creativas con una activación adentro: estrategia, idea, evento, contenido y medición.</div></div><div><div class="et">El primer caso</div><div class="tx">Punto de Partida con Garita, en diciembre, documentado de punta a punta.</div></div><div><div class="et">Esta semana</div><div class="tx">Fecha confirmada, permiso para documentarlo, la medición escrita y el video de la idea.</div></div></div>
+<section><div class="n">01</div><h2>Lo que quedó de la llamada</h2>
+<div class="paso"><div class="k">La oferta</div><div><b>Ustedes no hacen redes</b><span>Hacen campañas creativas: entran a una marca, bajan una estrategia y una idea, la llevan a una activación (un evento, un workshop, una experiencia) y crean todo el contenido de antes, durante y después. Crean excusas para que la comunicación de la marca no sea aburrida. Eso es lo que disfrutan y lo que mejor les sale.</span></div></div>
+<div class="paso"><div class="k">El cliente</div><div><b>El que ya tiene un motor</b><span>Una marca que ya vende y le da valor al marketing: no la que las contrata para tener Instagram, sino la que quiere un resultado y les da libertad para crear. El que recién arranca no paga una campaña.</span></div></div>
+<div class="paso"><div class="k">La transición</div><div><b>Sumar, no reemplazar</b><span>A los clientes de hoy no se les cambia el abono de un día para el otro: se les ofrece la campaña como algo más, empezando por los que ya la piden (Garita, Explorer, CHUII). Las primeras salen más baratas, porque lo que necesitan ahora son casos.</span></div></div>
+<div class="paso"><div class="k">El orden</div><div><b>Primero armado, después contado</b><span>La propuesta de Garita y la medición, el cliente ideal y la oferta, el rebranding alineado con eso, y recién con todo listo, el relanzamiento de deados con el caso documentado.</span></div></div>
+<div class="paso"><div class="k">Los miedos</div><div><b>Se prueban, no se suponen</b><span>Dejar de producir o de vivir el día a día de una marca son supuestos. Ser dueñas de un estudio creativo no es dejar de crear: es dirigir la creatividad. Lo prueban con Garita y deciden con lo que pase.</span></div></div>
+</section>
+<section><div class="n">02</div><h2>La propuesta de Garita: lo que está muy bien</h2>
+<p>Es una propuesta de agencia grande. Se entiende la idea en una línea y todo lo demás baja de ahí.</p>
+<div class="dos"><div><b>La idea y el manifiesto</b><p>«No se trata de encontrar algo en lo que seas bueno, sino de descubrir algo que te haga bien» va contra la cultura del rendimiento sin ser solemne. Es una posición, no un evento más de bienestar.</p></div><div><b>Los cinco territorios</b><p>Challenge, Balance, Play, Reset y Discover ordenan la experiencia, las marcas y el contenido a la vez. Cada spot ya es una serie de piezas.</p></div><div><b>La película</b><p>Tres pacientes que no saben qué les gusta y el giro del terapeuta es el tipo de idea que se comparte. Tiene humor, tiene la tensión del público y se corta sola en teasers.</p></div><div><b>Las reglas</b><p>Pocos aliados y relevantes, claims validados, seguridad, accesibilidad y responsabilidades por escrito. Eso es lo que hace que una marca confíe en ustedes para algo grande.</p></div></div>
+</section>
+<section><div class="n">03</div><h2>Lo que le sumaríamos para que sea su caso</h2>
+<p>Hoy la propuesta está pensada para que el evento salga bien. Para que además les venda el servicio a los próximos clientes, le faltan tres cosas: el resultado de Garita en números, cómo se mide, y ustedes adentro de la historia.</p>
+<div class="paso"><div class="k">1 · El objetivo</div><div><b>Qué gana Garita, en números</b><span>Antes de la fecha, escriban con Garita qué quiere sacar del evento y cuánto: por ejemplo, personas nuevas que conocen el café, inscriptos a una lista para la próxima edición, seguidores nuevos, ventas del día, aliados que quieren volver. Dos o tres números, no diez.</span></div></div>
+<div class="paso"><div class="k">2 · La medición</div><div><b>Cada paso, contado</b><span>El recorrido ya está: inscripción, asistencia, spots, muro y encuesta. Sumen un número en cada paso: inscriptos, asistentes, participación por spot, respuestas a la encuesta, anotados para la próxima edición, alcance y contenidos publicados. Con eso arman el informe final, que es lo que hace que las vuelvan a contratar.</span></div></div>
+<div class="paso"><div class="k">3 · Ustedes adentro</div><div><b>Caso, no logo</b><span>El logo no les trae clientes. Pídanle a Garita por escrito el permiso para documentar todo el proceso y contarlo como caso, y publicar en colaboración las piezas clave. Ese es el pago por el trabajo que hoy hacen gratis.</span></div></div>
+<div class="paso"><div class="k">4 · El contenido de ustedes</div><div><b>Contar la idea antes</b><span>Una charla de las dos en YouTube contando la idea, el proceso y el objetivo, y de ahí las reducciones para Instagram en colaboración con sus cuentas personales. En el día, una activación para los creadores invitados que deje contenido sobre ustedes, y después el recap con los números.</span></div></div>
+<div class="paso"><div class="k">5 · La versión para Garita</div><div><b>Más corta</b><span>El documento es una base interna muy buena. Para presentarlo a Garita, sáquenle una versión de cinco o seis páginas: la idea, la experiencia, la comunicación, los aliados, la medición y los próximos pasos.</span></div></div>
+<div class="paso cta"><div class="k">6 · El calendario</div><div><b>Confirmar la fecha ya</b><span>Si el evento es el 5/12, el T-21 de su cronograma es el 14/11 y la película tiene que estar el 21/11. Confirmen la fecha esta semana y, si no llegan con todo, recorten: la película y el registro primero, lo demás después.</span></div></div>
+</section>
+<section><div class="n">04</div><h2>La estructura de propuesta para los próximos clientes</h2>
+<p>Es la que usan para ofrecer una campaña a CHUII, a Explorer o a cualquier cliente nuevo. Garita es la primera que se arma así.</p>
+<div class="paso"><div class="k">1</div><div><b>El objetivo del cliente</b><span>Qué quiere lograr la marca, en números, y en cuánto tiempo.</span></div></div>
+<div class="paso"><div class="k">2</div><div><b>La gran idea</b><span>El concepto en una frase y por qué le habla a su público.</span></div></div>
+<div class="paso"><div class="k">3</div><div><b>La activación</b><span>El evento, workshop o experiencia: qué pasa, dónde y para quién.</span></div></div>
+<div class="paso"><div class="k">4</div><div><b>La comunicación</b><span>Las fases de antes, durante y después, con las piezas de cada una.</span></div></div>
+<div class="paso"><div class="k">5</div><div><b>Los aliados</b><span>Qué marcas suman, qué aportan y qué se llevan.</span></div></div>
+<div class="paso"><div class="k">6</div><div><b>Cómo lo medimos</b><span>Los números de cada paso y la fecha del informe final.</span></div></div>
+<div class="paso"><div class="k">7</div><div><b>Qué entregamos</b><span>Lo que incluye la campaña y lo que queda afuera (pauta, producción del día, costos del evento).</span></div></div>
+<div class="paso"><div class="k">8</div><div><b>Inversión</b><span>El honorario de ustedes, la forma de pago y el presupuesto del evento por separado.</span></div></div>
+<div class="paso"><div class="k">9</div><div><b>Roles y calendario</b><span>Quién hace qué, quién aprueba y las fechas clave.</span></div></div>
+<div class="copy"><span class="et">El informe final (lo que se presenta después)</span>Lo que nos propusimos · Lo que pasó, en números · Lo que se publicó y cómo anduvo · Lo que dijo la gente · Lo que aprendimos · La próxima campaña</div>
+</section>
+<section><div class="n">05</div><h2>Lo que sigue</h2>
+<div class="paso cta"><div class="k">Esta semana</div><div><b>Garita</b><span>Fecha confirmada, el objetivo en números, el permiso para documentarlo como caso y la versión corta de la propuesta.</span></div></div>
+<div class="paso"><div class="k">Esta semana</div><div><b>El video de la idea</b><span>La charla de las dos para YouTube, como dijeron, y las primeras reducciones.</span></div></div>
+<div class="paso"><div class="k">Próxima llamada</div><div><b>La propuesta y el contenido</b><span>Trabajamos juntos la propuesta final de Garita y el plan de contenido alrededor del evento.</span></div></div>
+<div class="paso"><div class="k">Después</div><div><b>Cliente ideal, oferta y rebranding</b><span>Con Garita andando, escribimos a quién le venden campañas, la oferta con su precio, y alineamos el manual de marca nuevo con eso.</span></div></div>
+<div class="paso"><div class="k">Con el caso</div><div><b>El relanzamiento de deados</b><span>El evento documentado, sus caras en la comunicación y la campaña ofrecida a los clientes de hoy y a los nuevos.</span></div></div>
+</section>
+<footer><span>Cáscara Founders</span><span>deados · Devolución de Facu · 13/11/2026</span></footer>
+</div></body></html>
