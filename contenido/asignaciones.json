@@ -173,14 +173,10 @@
       "revision": "pendiente"
     },
     "said-espinosa": {
-      "activa": "icp-mecanismo",
-      "siguiente": "onboarding-y-roadmap-cliente--said-espinosa",
-      "por_que": "Clarity Call del 9/10: Facu quedó en dejar cargado hoy en la app el formulario de auditoría; Said ya lo reclamó en su canal. Franco hacia el 15/10 por la oferta. Después, el ICP. En paralelo, las dos propuestas de noviembre (heladerías y asados) para feedback de Facu; después, el documento de onboarding que Facu le prometió. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.) 29/10: Facu aprueba la auditoría (devolución cargada) y entra el ICP. 7/11: después de la 1:1 del 6/11 (Fathom 200746840), Facu suma en paralelo Contratar a tu editor, con el formulario y el tarifario, para que vuelva a publicar 3 piezas por semana; la devolución de sus propuestas baja cómo entregar el servicio.",
-      "en_paralelo": [
-        "proceso-comercial",
-        "contratar-primer-rol"
-      ],
-      "inicio": "2026-10-29",
+      "activa": "contratar-primer-rol",
+      "siguiente": "proceso-comercial",
+      "por_que": "Clarity Call del 9/10: Facu quedó en dejar cargado hoy en la app el formulario de auditoría; Said ya lo reclamó en su canal. Franco hacia el 15/10 por la oferta. Después, el ICP. En paralelo, las dos propuestas de noviembre (heladerías y asados) para feedback de Facu; después, el documento de onboarding que Facu le prometió. (9/10, Facu: simple, lo que pidió de sus clientes en la llamada; sin horas, sin punto A ni roadmap.) 29/10: Facu aprueba la auditoría (devolución cargada) y entra el ICP. 7/11: después de la 1:1 del 6/11 (Fathom 200746840), Facu suma en paralelo Contratar a tu editor, con el formulario y el tarifario, para que vuelva a publicar 3 piezas por semana; la devolución de sus propuestas baja cómo entregar el servicio. 14/11: la app había cerrado al 0% Contratar a tu editor y el onboarding el 9/11 (Said avisó el 12/11 que no le aparecía); Facu la reactivó desde el admin. Queda activa la del editor y sigue el proceso comercial; el ICP quedó aprobado (se ve aplicado en la estrategia de Liora).",
+      "inicio": "2026-11-16",
       "anterior": "completada"
     },
     "delfina-corsalini": {

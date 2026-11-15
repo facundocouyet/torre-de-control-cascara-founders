@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Devolución · Tu auditoría, leída</title>
+<style>
+  :root{--tinta:#171717;--papel:#ECEAE4;--papel2:#FBFAF8;--gris:#6A6A66;--gris2:#8E8B85;--tiza:#DBD7D2;--rojo:#FE1414}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--papel);color:var(--tinta);font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+  .hoja{max-width:860px;margin:0 auto;padding:60px 26px 120px}
+  .caja{display:inline-flex;border:1px solid var(--gris2);padding:6px 12px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris)}
+  h1{font-size:clamp(38px,6.4vw,62px);font-weight:800;letter-spacing:-.035em;line-height:1.02;margin:26px 0 0;max-width:17ch}
+  .bajada{font-size:19px;line-height:1.55;margin:20px 0 0;max-width:64ch}
+  .lista{margin-top:36px;border-top:1px solid var(--tinta);padding-top:19px;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px 34px}
+  .lista .et,.et{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2)}
+  .lista .tx{font-size:14.5px;line-height:1.5;margin-top:6px}
+  section{margin-top:58px;border-top:1px solid var(--tiza);padding-top:26px}
+  .n{font-size:10px;letter-spacing:.2em;color:var(--gris2)}
+  h2{font-size:clamp(25px,3.4vw,31px);font-weight:800;letter-spacing:-.028em;line-height:1.16;margin:9px 0 0;max-width:26ch}
+  h3{font-size:19px;font-weight:800;letter-spacing:-.02em;margin:34px 0 0}
+  p{font-size:17px;line-height:1.6;margin:15px 0 0;max-width:66ch}
+  b{font-weight:700}
+  .paso{display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;padding:17px 0;border-bottom:1px solid var(--tiza);align-items:baseline}
+  .paso:first-of-type{border-top:1px solid var(--tiza)}
+  .paso .k{font-size:17px;line-height:1.2;font-weight:800;letter-spacing:-.02em;color:var(--gris2)}
+  .paso>div>b{display:block;font-size:17.5px;letter-spacing:-.015em;margin-bottom:5px}
+  .paso span{font-size:15.5px;line-height:1.55;color:var(--gris)}
+  .paso.cta{background:var(--papel2);margin:0 -14px;padding:17px 14px}
+  .paso.cta .k{color:var(--rojo)}
+  .ojo{border:1px solid var(--tinta);padding:20px 22px;margin-top:28px}
+  .ojo p{margin-top:10px;font-size:16.5px}
+  .dos{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:26px;margin-top:26px}
+  .dos>div{border-top:2px solid var(--tinta);padding-top:13px;min-width:0}
+  .dos b{display:block;font-size:16.5px;letter-spacing:-.015em;margin-bottom:7px}
+  .dos p{font-size:15.5px;margin:0;color:var(--gris)}
+  .copy{background:var(--papel2);border-left:3px solid var(--tinta);padding:14px 18px;margin-top:14px;font-size:15.5px;line-height:1.55;white-space:pre-wrap}
+  .copy .et{display:block;margin-bottom:6px}
+  .tabla{width:100%;border-collapse:collapse;margin-top:24px;font-size:15px}
+  .tw{overflow-x:auto}
+  .tabla th{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);font-weight:400;text-align:left;padding:0 12px 10px 0;border-bottom:1px solid var(--tinta)}
+  .tabla td{padding:13px 12px 13px 0;border-bottom:1px solid var(--tiza);vertical-align:top;line-height:1.5}
+  .tabla td span{color:var(--gris)}
+  .ad{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:24px;margin-top:30px;padding-top:22px;border-top:1px solid var(--tiza);align-items:start}
+  .ad img{width:100%;height:auto;display:block;border:1px solid var(--tiza)}
+  .ad h4{font-size:17px;margin:0;letter-spacing:-.015em}
+  .ad p{font-size:15.5px;margin-top:8px}
+  code{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:var(--papel2);padding:2px 5px;word-break:break-all}
+  footer{margin-top:66px;border-top:1px solid var(--tinta);padding-top:17px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gris2)}
+  @media(max-width:600px){.paso{grid-template-columns:1fr;gap:4px}.ad{grid-template-columns:1fr}.ad img{max-width:260px}}
+  @media print{body{background:#fff}.hoja{padding:0}section{break-inside:avoid}}
+</style>
+</head>
+<body><div class="hoja">
+<div class="caja">Cáscara Founders · Devolución · 14/11</div>
+<h1>Tu auditoría, leída</h1>
+<p class="bajada">Caro: leí todo lo que completaste en la app y las seis propuestas que mandaste. Acá está lo que muestran tus números, lo que está muy bien de tus propuestas, lo que cambiaríamos, y lo que llevamos a la llamada de oferta para definir tu servicio nuevo.</p>
+<div class="lista"><div><div class="et">Lo que encontramos</div><div class="tx">Las marcas de lujo pagan varias veces más y te desgastan menos que las marcas chicas.</div></div><div><div class="et">El cambio</div><div class="tx">Del fee mensual por cantidad de posteos a un proyecto de 3 meses con resultado y precio único.</div></div><div><div class="et">Esta semana</div><div class="tx">La llamada de oferta, con esta devolución leída.</div></div></div>
+<section><div class="n">01</div><h2>Lo que quedó de la Clarity Call</h2>
+<div class="paso"><div class="k">El problema</div><div><b>Estás atrapada en la ejecución</b><span>El modelo de fee mensual te deja corriendo atrás de clientes que no siempre valoran el marketing, y tu equipo es operativo: la dirección creativa depende toda de vos.</span></div></div>
+<div class="paso"><div class="k">El cambio</div><div><b>Proyectos con principio y fin</b><span>Pasar del fee mensual a proyectos de alcance fijo, orientados a un resultado, con un precio único por el proyecto completo y opciones de pago.</span></div></div>
+<div class="paso"><div class="k">El servicio</div><div><b>Estrategia y ejecución, juntas</b><span>Dirección creativa, estrategia de contenido y de marketing, más producción, edición y pauta. Controlar la ejecución es lo que te permite prometer un resultado.</span></div></div>
+<div class="paso"><div class="k">El contenido</div><div><b>Tres pilares</b><span>Tu arte, para mostrar tu criterio; el negocio de tu cliente, con sus problemas y cómo los resolvés; y la confianza, mostrando cómo trabajás y tu día a día.</span></div></div>
+<div class="paso"><div class="k">El orden</div><div><b>Auditoría, oferta, relanzamiento</b><span>Primero esta auditoría, después la llamada de oferta con el cliente ideal y el servicio nuevo, y con eso la estrategia de contenido para relanzar.</span></div></div>
+</section>
+<section><div class="n">02</div><h2>Lo que muestran tus números</h2>
+<p>Ordenamos tus clientes por lo que pagan y por lo que te piden. El dato más fuerte no está en ningún cliente suelto, sino en la comparación.</p>
+<div class="tw"><table class="tabla"><thead><tr><th>Cliente</th><th>Qué es</th><th>Lo que pesa</th><th>Lo que te pide</th></tr></thead><tbody><tr><td><b>Palacio Duhau</b><br><span>2 años</span></td><td><span>Hotel de lujo, tres cuentas y LinkedIn</span></td><td><b>La mitad de lo que facturás</b></td><td><span>Curaduría, sentido y estrategia; el contenido lo hace otro estudio</span></td></tr><tr><td><b>Reserva Alto Agrelo</b><br><span>1 año</span></td><td><span>Real estate de lujo, los mismos dueños</span></td><td><b>Con Duhau, más de 6 de cada 10 pesos</b></td><td><span>Relación directa con el director y los brokers; correr atrás del contenido</span></td></tr><tr><td><b>Mirador</b><br><span>3 meses</span></td><td><span>Muebles y objetos, 30 años de historia</span></td><td><span>Menos de un cuarto de Duhau</span></td><td><span>Instagram, ads y una sesión bimestral que no alcanza</span></td></tr><tr><td><b>Nanda</b><br><span>1 mes</span></td><td><span>Marca de aromas por abrir local</span></td><td><span>Un séptimo de Duhau</span></td><td><span>Quiere todo con poco equipo y poco presupuesto</span></td></tr><tr><td><b>Wild Forest</b><br><span>4 años</span></td><td><span>Muebles a medida</span></td><td><span>Un octavo de Duhau</span></td><td><span>De las que más tiempo llevan, con muchas correcciones, y no acepta el aumento</span></td></tr><tr><td><b>Yeyé</b><br><span>3 meses</span></td><td><span>Zapatos de autor</span></td><td><span>Un octavo de Duhau</span></td><td><span>Marca hermosa que no puede invertir más</span></td></tr><tr><td><b>Mentorías</b></td><td><span>Tres procesos de diseño y arquitectura</span></td><td><span>Lo de una marca chica, entre las tres</span></td><td><span>Avanzan mucho y una sigue con branding</span></td></tr></tbody></table></div>
+<div class="dos"><div><b>Las marcas de lujo pagan y respetan tu criterio</b><p>Duhau y Alto Agrelo son más de 6 de cada 10 pesos que entran. Te contratan por la estética y el sentido que le das a todo, no por la cantidad de posteos.</p></div><div><b>Las marcas chicas pagan poco y piden mucho</b><p>Entre las cuatro no llegan a lo que paga Duhau, y son las que más horas, correcciones y desgaste te llevan. Ninguna puede crecer el fee.</p></div><div><b>El riesgo</b><p>Depender de un solo grupo para la mitad de tu facturación. Si Duhau cambia de agencia, el estudio queda en otro lugar de un día para el otro.</p></div><div><b>La oportunidad</b><p>Ya querés tomar la comunicación del Hotel Casa Duhau cuando esté terminado. Lo de lujo ya funciona: hay que convertirlo en el servicio y salir a buscar más.</p></div></div>
+</section>
+<section><div class="n">03</div><h2>Tus propuestas</h2>
+<p>Leí las seis. Se ven muy bien y tienen tu estética: eso ya vende. Lo que cambiaríamos es lo que venden.</p>
+<div class="dos"><div><b>Lo que está muy bien</b><p>El diseño, el «no incluye» escrito (en Duhau y Alto Agrelo), el arranque con un mes de estrategia antes de gestionar, las dos etapas de Nanda, Yeyé y Mirador, y los logos de las marcas que confiaron en vos.</p></div><div><b>Lo que cambiaríamos</b><p>Hoy venden cantidad: posteos por mes, canales sueltos con su precio y un fee que se ajusta por inflación. Así te comparan con cualquier community manager y la discusión termina en el precio.</p></div></div>
+<div class="paso"><div class="k">1</div><div><b>Un resultado, no un paquete</b><span>Que la propuesta abra con lo que la marca logra en 3 meses, en sus palabras, y después cómo lo hacés. Los posteos son el medio, no lo que se compra.</span></div></div>
+<div class="paso"><div class="k">2</div><div><b>Un proyecto con principio y fin</b><span>Tres meses con fases y entregables, y al final un informe y la propuesta del ciclo siguiente. Se renueva porque funcionó, no por inercia.</span></div></div>
+<div class="paso"><div class="k">3</div><div><b>Un precio único</b><span>El valor del proyecto completo en una lámina, con pago anticipado o en cuotas, en lugar de precios por canal que invitan a sacar partes.</span></div></div>
+<div class="paso"><div class="k">4</div><div><b>Contarlo en positivo</b><span>«No gestionamos redes: acompañamos marcas» explica lo que no sos. Arrancá por lo que sos y lo que hacés distinto.</span></div></div>
+<div class="paso"><div class="k">5</div><div><b>El contrato, siempre</b><span>Lo dejaste de mandar con los últimos clientes. Alcance, aprobaciones, plazos y qué queda afuera por escrito es lo que te protege del cliente que pide de todo.</span></div></div>
+</section>
+<section><div class="n">04</div><h2>Tu equipo y tu entrega</h2>
+<div class="dos"><div><b>Agostina</b><p>Es prolija y le tenés confianza, pero su horario libre hace que no sepas cuándo está trabajando. Hace falta ordenar cómo trabaja: un horario de respuesta, una revisión semanal y el calendario como único lugar donde vive todo.</p></div><div><b>Florencia</b><p>Su estilo de diseño te gusta, pero es operativa: hace lo que le pasás. Está bien para ese rol, siempre que el brief llegue completo. La creatividad la ponés vos.</p></div><div><b>Tu proceso</b><p>Llamada, propuesta, seña, brief, estrategia, key visual y presentación mensual del feed para aprobar. Ya está armado: es la base del proceso del servicio nuevo.</p></div><div><b>Lo que te queda a vos</b><p>La estrategia, la relación con los dueños, las sesiones de contenido y la dirección creativa. Todo lo demás tiene que poder salir sin vos.</p></div></div>
+</section>
+<section><div class="n">05</div><h2>Lo que llevamos a la llamada de oferta</h2>
+<p>En la Clarity apareció un nicho: arquitectos e interioristas, con la masterclass que vendiste y tus mentorías como prueba. Tus números muestran otro: marcas de lujo, en hospitalidad y real estate. Puede que sean el mismo cliente visto desde dos lados: marcas de alto valor donde la estética es el producto.</p>
+<div class="copy"><span class="et">Las preguntas para la llamada</span>¿El cliente ideal son las marcas de lujo, los estudios de arquitectura e interiorismo, o las dos con el mismo servicio? · ¿Qué resultado concreto promete el proyecto de 3 meses? · ¿Qué pasa con las marcas chicas de hoy: se renuevan con el servicio nuevo, pasan a un formato más chico o se cierran? · ¿Cuánto vale el proyecto completo y cómo se paga? · ¿Qué lugar ocupa la mentoría: un producto aparte o la puerta de entrada?</div>
+</section>
+<section><div class="n">06</div><h2>Lo que sigue</h2>
+<div class="paso cta"><div class="k">Esta semana</div><div><b>La llamada de oferta</b><span>Agendala desde la app y llegá con esta devolución leída. Ahí definimos el cliente ideal y el servicio nuevo con su precio.</span></div></div>
+<div class="paso"><div class="k">Después</div><div><b>Tu cliente ideal y tu servicio en una hoja</b><span>Con lo que salga de la llamada, el cliente ideal en dos niveles y el servicio nuevo listo para presentar.</span></div></div>
+<div class="paso"><div class="k">Diciembre</div><div><b>El primer cliente con el formato nuevo</b><span>Proponérselo a uno de los clientes de hoy o a un cliente nuevo, con la propuesta rearmada.</span></div></div>
+</section>
+<footer><span>Cáscara Founders</span><span>Carolina Lalin · Devolución de Facu · 14/11/2026</span></footer>
+</div></body></html>
