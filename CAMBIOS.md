@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Lunes 16 de noviembre
+
+La torre se puso al día con lo que trabajaste el finde: Qualita, BeMotion y Agos ya no esperan por vos.
+
+- **Qualita y BeMotion con la pelota.** Qualita tiene la ejecución de la campaña con las frases de Ana; Sol y Fede, la carta de la campaña para escribir antes del 22/11.
+- **Agos a sign off.** Pasa a Aye y sale de la ventana de venta del 3/12 (lanza en marzo).
+- **Marcelo con la 1:1 cargada.** Crossover del 22/11 en La Bombonerita y cancha de Chapu Nocioni como prioridad.
+
+**Para mirar antes de subir:** que Agos aparezca en cierre y sin fecha de plata en el inicio.
+
 ## Viernes 13 de noviembre
 
 Las tres 1:1 de ayer quedaron cargadas en la torre.

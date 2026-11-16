@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-11-13",
+  "actualizado": "2026-11-16",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -32,17 +32,13 @@
       "pelota": "cliente"
     },
     "agostina-marchesini": {
-      "ultimo": "2026-11-09",
-      "que": "9/11: Servicio (Fathom 201223924): se cierra el proceso; Facu le baja la estrategia de lanzamiento y la oferta y la invita a volver a trabajar en febrero. Sin extensión.",
+      "ultimo": "2026-11-14",
+      "que": "14/11: Facu le pasó a Aye el estado de sign off: cierra el proceso, lanza su mentoría en marzo y desde ahora sube contenido para juntar audiencia. Aye la tiene en cuenta para marzo.",
       "proximo": null,
-      "paso": "Facu: mandarle el cierre con la estrategia de lanzamiento y oferta.",
+      "paso": "Aye: sign off.",
       "carta": null,
       "pilar": "Cierre",
-      "pelota": "Facu",
-      "plata": {
-        "fecha": "2026-12-03",
-        "que": "Workshop del jueves 3/12 y llamadas de venta de la mentoría grupal después."
-      }
+      "pelota": "Aye"
     },
     "lucio-labate": {
       "ultimo": "2026-11-09",
@@ -98,13 +94,13 @@
       }
     },
     "sol-boutmy": {
-      "ultimo": "2026-11-12",
-      "que": "12/11: Facu corrió la 1:1 de las 15:30 por agenda; quedó hoy 13/11 9:30 con Fede (Sol - Fede - Cáscara).",
-      "proximo": "2026-11-13",
-      "paso": "Facu y Fede: 1:1 de hoy 9:30 con el calendario de comunicación y los perfiles de editores.",
-      "carta": "Cliente ideal y oferta (en revisión).",
+      "ultimo": "2026-11-14",
+      "que": "13/11: 1:1 con Facu y Fede (Fathom 202891516): campaña de contenido de las fundadoras para vender 1 o 2 contratos de ticket alto que paguen editor y liberen a Viole para clientes. 13–14/11: Facu les devolvió la propuesta (presentar solo el servicio de 90 días) y les dejó en la app la carta de la campaña con accionables y ejemplo en Notion.",
+      "proximo": "2026-11-22",
+      "paso": "Sol y Fede: escribir la campaña antes del 22/11 para grabar a fines de noviembre.",
+      "carta": "Tu marca, tu mejor cliente (activa).",
       "pilar": "Oferta",
-      "pelota": "Facu"
+      "pelota": "cliente"
     },
     "lola-berutti": {
       "ultimo": "2026-11-09",
@@ -116,13 +112,13 @@
       "pelota": "Franco"
     },
     "qualita": {
-      "ultimo": "2026-11-11",
-      "que": "11/11: Ana leyó la devolución de la campaña, valida el protagonista y mandó las frases de clientes sacadas de reuniones y WhatsApp (`#cf-qualita`); confirma fechas.",
+      "ultimo": "2026-11-14",
+      "que": "14/11: Facu le bajó a Ana la ejecución de la campaña con sus frases ubicadas semana por semana (`#cf-qualita`) y le pasó a Aye el estado de sign off: no renueva, sigue manual hasta terminar la campaña de diciembre, sin cartas en la app.",
       "proximo": null,
-      "paso": "Facu: tomar las frases de Ana y bajar la ejecución de la campaña; después el sign-off. Ana: confirmar fechas.",
+      "paso": "Ana y Rafa: ejecutar la campaña de diciembre. Aye: sign off.",
       "carta": "Devolución: campaña de diciembre, cierre de año.",
       "pilar": "Cierre",
-      "pelota": "Facu"
+      "pelota": "cliente"
     },
     "the-momentum-club": {
       "ultimo": "2026-11-12",
