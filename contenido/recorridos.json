@@ -390,7 +390,7 @@
   "gabriel-pacahuala": {
     "objetivo": "Cerrar los 90 días con Kross Atlas validado: tu cliente ideal escrito, una oferta calibrada con precio, los ángulos probados con contenido y los primeros dueños de marca adentro.",
     "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolviste en las anteriores y deja lista la que sigue. Por eso conviene hacerlas en este orden.",
-    "tramo_actual": 1,
+    "tramo_actual": 0,
     "tramos": [
       {
         "cuando": "Mes 1 · noviembre",
