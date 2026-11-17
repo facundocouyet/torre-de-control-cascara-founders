@@ -5,6 +5,16 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Martes 17 de noviembre
+
+La torre toma tus respuestas a Aye de anoche: tres clientes pasan a cierre y Lola sigue.
+
+- **Matías, Custom Lab y Aaron a cierre con Aye.** Matías no sigue, Custom Lab no puede pagar continuidad y Aaron cierra sin entregas pendientes.
+- **Lola sigue en diciembre** con un ciclo nuevo; Agos queda archivada, no borrada.
+- **Notas de ingresos al día.** Gabriel reclama el link pendiente, Naiara pide correr su 1:1, Osmo con la carta comercial para la llamada de hoy, Las Lúas, Delfina y Carolina ya agendan con Franco.
+
+**Para mirar antes de subir:** el inicio de la torre, que Matías, Custom Lab y Aaron aparezcan en Cierre.
+
 ## Lunes 16 de noviembre
 
 La torre se puso al día con lo que trabajaste el finde: Qualita, BeMotion y Agos ya no esperan por vos.
