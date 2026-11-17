@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-11-16",
+  "actualizado": "2026-11-17",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -23,19 +23,19 @@
       "pelota": "Franco"
     },
     "matias-morales": {
-      "ultimo": "2026-11-09",
-      "que": "9/11: Servicio: Facu le replanteó su visión en la 1:1; vendió clientes casi al doble de lo que presupuestaba. Va a cierre con opción de un retainer chico.",
+      "ultimo": "2026-11-16",
+      "que": "16/11: Facu en #servicio-founders: no va a seguir; Aye se junta con él para cerrar definiciones.",
       "proximo": null,
-      "paso": "Matías: bajar la visión (Facu le preguntó el 9/11). Facu: cierre con opción de retainer acotado.",
+      "paso": "Aye: reunión de cierre con Matías.",
       "carta": "ICP y mecanismo.",
-      "pilar": "Oferta",
-      "pelota": "cliente"
+      "pilar": "Cierre",
+      "pelota": "Aye"
     },
     "agostina-marchesini": {
-      "ultimo": "2026-11-14",
-      "que": "14/11: Facu le pasó a Aye el estado de sign off: cierra el proceso, lanza su mentoría en marzo y desde ahora sube contenido para juntar audiencia. Aye la tiene en cuenta para marzo.",
+      "ultimo": "2026-11-16",
+      "que": "16/11: Facu en #servicio-founders: el perfil no se elimina, se archiva (consulta para Teo). Cierra y lanza su mentoría en marzo.",
       "proximo": null,
-      "paso": "Aye: sign off.",
+      "paso": "Teo: archivar el perfil en la app; Aye: mensaje de cierre.",
       "carta": null,
       "pilar": "Cierre",
       "pelota": "Aye"
@@ -59,26 +59,22 @@
       "pelota": "Facu"
     },
     "aaron-aiello": {
-      "ultimo": "2026-11-09",
-      "que": "9/11: Servicio: desaparecido hace dos o tres semanas, tapado con un cliente nuevo; Juana le escribió para agendar y Facu también (9/11).",
+      "ultimo": "2026-11-16",
+      "que": "16/11: Facu en #servicio-founders: cierre administrativo, sin entregas pendientes.",
       "proximo": null,
-      "paso": "Aaron: agendar llamada.",
+      "paso": "Aye: cierre administrativo.",
       "carta": "El pasaporte digital.",
-      "pilar": "Oferta",
-      "pelota": "cliente",
-      "plata": {
-        "fecha": "2026-11-15",
-        "que": "Micro lanzamiento de la consultoría de 90 días."
-      }
+      "pilar": "Cierre",
+      "pelota": "Aye"
     },
     "custom-lab": {
-      "ultimo": "2026-11-09",
-      "que": "9/11: Servicio: usan las dos sesiones que les quedan y se define al final; sin extensión ni upsell.",
+      "ultimo": "2026-11-16",
+      "que": "16/11: Facu en #servicio-founders: no van a poder pagar una continuidad; va a cierre.",
       "proximo": null,
-      "paso": "Custom Lab: agendar la próxima sesión (Aye los presiona).",
+      "paso": "Aye: cierre de Custom Lab.",
       "carta": null,
-      "pilar": "Oferta",
-      "pelota": "cliente"
+      "pilar": "Cierre",
+      "pelota": "Aye"
     },
     "sebastian": {
       "ultimo": "2026-11-12",
@@ -103,10 +99,10 @@
       "pelota": "cliente"
     },
     "lola-berutti": {
-      "ultimo": "2026-11-09",
-      "que": "9/11: Servicio: Facu cree que renueva; nuevo lanzamiento a fines de enero o principios de febrero.",
+      "ultimo": "2026-11-16",
+      "que": "16/11: Facu en #servicio-founders: sigue en diciembre con un ciclo nuevo.",
       "proximo": null,
-      "paso": "Franco: propuesta de renovación para el lanzamiento de febrero.",
+      "paso": "Aye y Franco: armar el ciclo nuevo de diciembre.",
       "carta": null,
       "pilar": "Venta",
       "pelota": "Franco"
