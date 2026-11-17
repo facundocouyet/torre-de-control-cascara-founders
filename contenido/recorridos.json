@@ -212,7 +212,7 @@
     ]
   },
   "naiara-angeloff": {
-    "objetivo": "Cerrar los 90 días con tu escalera de oferta con precios validados, tus seis clientes con la propuesta nueva para enero, la edición y la subida en manos de Angie, y al menos un cliente de alto ticket.",
+    "objetivo": "Cerrar los 90 días con tu escalera de oferta con precios validados, tus seis clientes con la propuesta nueva para enero, la edición y la subida en manos de tus editores, y al menos un cliente de alto ticket.",
     "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolviste en las anteriores y deja lista la que sigue. Por eso conviene hacerlas en este orden.",
     "tramo_actual": 1,
     "tramos": [
@@ -250,8 +250,8 @@
       },
       {
         "id": "delegar-produccion",
-        "para_que": "El brief fijo para que Angie tome la edición y la subida, y vos te quedes con la dirección.",
-        "estado": "despues"
+        "para_que": "La tarjeta de Notion y el brief de cada cliente para que tus editores tomen la edición y la subida, y vos te quedes con la dirección.",
+        "estado": "ahora"
       }
     ]
   },

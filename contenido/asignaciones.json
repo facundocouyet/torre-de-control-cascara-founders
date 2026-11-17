@@ -145,9 +145,12 @@
     },
     "naiara-angeloff": {
       "activa": "icp-mecanismo--naiara-angeloff",
+      "en_paralelo": [
+        "delegar-produccion"
+      ],
       "anterior": "completada",
       "inicio": "2026-11-09",
-      "por_que": "Facu, 7/11: la auditoría quedó revisada el 28/10 y la sesión de oferta fue el 30/10. Carta de cliente ideal reescrita sobre esa sesión, con el formulario para sus clientes. Precios a validar. Próxima 1:1 con Facu para cerrar precios y el mensaje de enero."
+      "por_que": "Facu, 7/11: la auditoría quedó revisada el 28/10 y la sesión de oferta fue el 30/10. Carta de cliente ideal reescrita sobre esa sesión, con el formulario para sus clientes. Precios a validar. Próxima 1:1 con Facu para cerrar precios y el mensaje de enero. 17/11, Facu: cerró con editores para sus videos y los de sus clientes y pidió la tarjeta de Notion del brief (16/11); entra en paralelo delegar-produccion, escrita para ella con la tarjeta de ejemplo (Santa Paula) y el brief fijo por cliente."
     },
     "samuel-tarancon": {
       "activa": "contratar-primer-rol--samuel-tarancon",

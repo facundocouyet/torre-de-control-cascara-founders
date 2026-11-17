@@ -413,7 +413,8 @@ def construir(m, categoria, pl=None, bajada=None):
     # ---- el entregable. Es uno solo y es el mismo en todas las cartas: este
     # documento completo y devuelto. Lo que cada módulo produce sigue estando
     # en el inventario, pero acá no se lista: al founder se le pide una cosa.
-    if secciones:
+    # una carta que es toda SOP (solo bloques nuestros, sin nada para completar) no lleva entregable (Facu, 17/11)
+    if any(not s.get("nuestro") for s in secciones):
         n += 1
         out.append('<section>')
         out.append('  <div class="n">%02d</div>' % n)

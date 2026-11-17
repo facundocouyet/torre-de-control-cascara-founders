@@ -1,0 +1,89 @@
+{
+ "modulo": "delegar-produccion",
+ "slug": "naiara-angeloff",
+ "founder": "Naiara Angeloff",
+ "bajada_envio": {
+  "founder": "Nai",
+  "porque": "Cerraste con editores para tus videos y los de tus clientes. En tu auditoría todo pasaba por vos en los seis clientes, y lo que más tiempo te lleva es la edición y la subida. Nos contaste que te cuesta confiar porque otras veces delegaste y no se cumplió: lo que hace que se cumpla es que cada pedido esté escrito en una tarjeta, no en un mensaje suelto.",
+  "objetivo": "Que tus editores trabajen con la tarjeta de Notion y el brief de cada cliente, con el mismo sistema que usamos nosotros. No hay nada para completar: lo que te pase en el traspaso lo vemos en la llamada.",
+  "mindset": "Arrancá por un cliente, el más rutinario. Vos te quedás con la estrategia, el guion y la aprobación; la edición y la subida pasan a los chicos."
+ },
+ "pasos": [
+  "Duplicá la tarjeta de ejemplo en tu calendario de Notion.",
+  "Armá el brief fijo del primer cliente que pasa a tus editores.",
+  "Mandales el primer pedido con la tarjeta, no por WhatsApp.",
+  "Traé a la llamada cómo te fue: qué volvió con corrección y qué le sumaste al brief."
+ ],
+ "bloques_inicio": [
+  {
+   "nuestro": true,
+   "titulo": "Cómo lo hacemos nosotros en Notion",
+   "texto": [
+    "Cada pieza es una tarjeta en un calendario de Notion, con un estado que avanza de izquierda a derecha. Nadie edita una pieza sin tarjeta, y las correcciones se escriben en la tarjeta, no por WhatsApp: así el editor aprende de cada corrección y no la repite."
+   ],
+   "figura": "<div class=\"fx\"><div class=\"fx-flujo\"><div class=\"fx-paso tinta\"><div class=\"k\">1 · Vos</div><div class=\"t\">Idea y guion</div><div class=\"s\">Cargás la tarjeta con el objetivo, la estructura y la referencia. Sin tarjeta no se edita nada.</div></div><div class=\"fx-paso\"><div class=\"k\">2 · Grabación</div><div class=\"t\">El crudo, en su carpeta</div><div class=\"s\">El material va siempre a la misma carpeta del cliente, y el link queda en la tarjeta.</div></div><div class=\"fx-paso\"><div class=\"k\">3 · Editores</div><div class=\"t\">Edición y corrección</div><div class=\"s\">Editan con la tarjeta y el brief del cliente. La corrección la escribís en la tarjeta y la aplican ellos.</div></div><div class=\"fx-paso\"><div class=\"k\">4 · Vos aprobás</div><div class=\"t\">Ellos suben</div><div class=\"s\">Pasás la tarjeta a Aprobada y la suben en la fecha. Tu trabajo ahí es mirar, no tocar el archivo.</div></div></div></div><p class=\"na-cap\"><b>Los estados del calendario:</b> <i class=\"na-ch na-n\">Idea</i><i class=\"na-ch na-r\">Guion</i><i class=\"na-ch na-y\">Grabación</i><i class=\"na-ch na-b\">Edición</i><i class=\"na-ch na-p\">Corrección</i><i class=\"na-ch na-g\">Aprobada</i><i class=\"na-ch na-n\">Publicada</i>. Una vista por cliente, ordenada por fecha de publicación, te dice de un vistazo qué está trabado y dónde.</p>"
+  },
+  {
+   "nuestro": true,
+   "titulo": "La tarjeta, con un ejemplo tuyo",
+   "texto": [
+    "Esta es la tarjeta que recibe el editor con cada pieza. Copiala tal cual en tu Notion: las propiedades de arriba son las columnas del calendario, y adentro va el brief de esa pieza."
+   ],
+   "figura": "<style>\n.na-nt{background:#fff;border:1px solid #E3E2DE;box-shadow:0 1px 3px rgba(0,0,0,.06);font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif;color:#37352F;font-size:14px;line-height:1.55;margin-top:22px;max-width:100%}\n.na-nt .bar{display:flex;gap:6px;align-items:center;padding:8px 12px;border-bottom:1px solid #EDECE9;font-size:12px;color:#9B9A97}\n.na-nt .bar i{width:9px;height:9px;border-radius:50%;background:#E3E2DE;display:inline-block}\n.na-nt .bd{padding:18px 22px 22px}\n.na-nt h4{font-size:22px;font-weight:700;margin:0 0 12px;line-height:1.2;color:#37352F}\n.na-nt .pr{display:grid;grid-template-columns:150px minmax(0,1fr);gap:6px 10px;font-size:13px;margin-bottom:14px}\n.na-nt .pr .l{color:#9B9A97}\n.na-ch{display:inline-block;padding:1px 7px;border-radius:3px;font-size:12px;margin-right:4px;font-style:normal}\n.na-r{background:#FBE4E4;color:#93413F}.na-b{background:#DDEBF1;color:#28546A}.na-g{background:#DDEDEA;color:#2B593F}\n.na-y{background:#FBF3DB;color:#7C5D1A}.na-p{background:#EAE4F2;color:#5A3D7A}.na-n{background:#EBECED;color:#37352F}\n.na-nt .tb{display:flex;flex-wrap:wrap;gap:16px;border-bottom:1px solid #EDECE9;margin:6px 0 12px;font-size:13px;color:#9B9A97}\n.na-nt .tb span{padding-bottom:6px}.na-nt .tb span.on{color:#37352F;border-bottom:2px solid #37352F}\n.na-nt h5{font-size:15px;font-weight:700;margin:14px 0 4px;color:#37352F}\n.na-nt .q{border-left:3px solid #37352F;padding-left:12px;margin:6px 0}\n.na-nt table{border-collapse:collapse;width:100%;font-size:13px;margin:6px 0}\n.na-nt td{border:1px solid #EDECE9;padding:6px 8px;vertical-align:top}\n.na-nt tr:first-child td{background:#F7F6F3;font-weight:600}\n.na-nt .ck{margin:4px 0;padding:0;list-style:none}\n.na-nt .ck li{margin:4px 0;padding-left:24px;position:relative}\n.na-nt .ck li::before{content:\"\";position:absolute;left:0;top:4px;width:13px;height:13px;border:1.5px solid #9B9A97;border-radius:3px}\n.na-nt a{color:#37352F;text-decoration:underline;text-decoration-color:#C7C6C3}\n.na-cap{font-size:14px;color:#6A6A66;margin-top:10px;line-height:1.5;max-width:62ch}\n@media(max-width:600px){.na-nt .pr{grid-template-columns:1fr}.na-nt .pr .l{margin-top:6px}}\n</style><div class=\"na-nt\"><div class=\"bar\"><i></i><i></i><i></i>&nbsp;Calendario de contenido · Santa Paula</div><div class=\"bd\"><h4>🎥 Reel · Así se hacen los sorrentinos del domingo</h4><div class=\"pr\"><div class=\"l\">Cliente</div><div>Santa Paula · fábrica de pastas</div><div class=\"l\">Objetivo</div><div>Que pidan la caja de pastas del finde</div><div class=\"l\">Formato</div><div><span class=\"na-ch na-n\">Reel 9:16</span> 30 a 45 segundos</div><div class=\"l\">Nivel de edición</div><div><span class=\"na-ch na-b\">Nivel 2</span> cortes, subtítulos, color y música</div><div class=\"l\">Crudo</div><div><a>Drive / Santa Paula / 2026-11 / amasado</a></div><div class=\"l\">Brief del cliente</div><div><a>📘 Brief · Santa Paula</a></div><div class=\"l\">Edita</div><div>Tu editor</div><div class=\"l\">Aprueba</div><div>Nai</div><div class=\"l\">Entrega</div><div>Miércoles 10 h</div><div class=\"l\">Publicación</div><div>Viernes 18 h</div><div class=\"l\">Estado</div><div><span class=\"na-ch na-b\">Edición</span></div></div><div class=\"tb\"><span class=\"on\">Brief</span><span>Referencias</span><span>Correcciones</span><span>Copy</span></div><h5>Qué tiene que pasar</h5><div class=\"q\">El que lo ve el viernes a la tarde piensa en el almuerzo del domingo y pide la caja.</div><h5>La estructura</h5><table><tr><td>Tiempo</td><td>Qué se ve</td><td>Texto en pantalla</td></tr><tr><td>0 a 3 s</td><td>Las manos cerrando un sorrentino, plano cerrado</td><td>Así se hacen los sorrentinos que vas a comer el domingo</td></tr><tr><td>3 a 25 s</td><td>El amasado, el relleno y el corte, en planos cortos</td><td>Masa del día · relleno casero</td></tr><tr><td>25 a 40 s</td><td>La caja armada sobre el mostrador</td><td>La caja del finde, para cuatro</td></tr><tr><td>Cierre</td><td>Placa final del cliente</td><td>Pedila por WhatsApp hasta el sábado 12 h</td></tr></table><h5>Referencia</h5><p style=\"margin:2px 0\">El reel de ñoquis de septiembre: el mismo ritmo y la misma música. <a>link a la pieza</a></p><h5>Antes de entregar</h5><ul class=\"ck\"><li>Subtítulos con la tipografía y los colores del brief</li><li>Música de la carpeta del cliente, sin voz encima del texto</li><li>Placa final con el logo y el WhatsApp</li><li>Archivo nombrado SP_reel_sorrentinos_v1, subido a la carpeta de entregas</li><li>Tarjeta pasada a Corrección</li></ul></div></div><p class=\"na-cap\"><b>Es un ejemplo:</b> lo de Santa Paula está inventado para mostrar cómo se completa. Fijate que el objetivo es de negocio, que la pieza venda la caja, como quedó en la grupal del 6/11: «llenar más mesas», no un concepto de marca.</p>"
+  },
+  {
+   "nuestro": true,
+   "titulo": "El brief fijo de cada cliente",
+   "texto": [
+    "La tipografía, los colores, la música y la placa final no cambian de una pieza a otra. Van en una página por cliente, y la tarjeta solo dice lo propio de esa pieza."
+   ],
+   "figura": "<div class=\"na-nt\"><div class=\"bar\"><i></i><i></i><i></i>&nbsp;Clientes · Santa Paula</div><div class=\"bd\"><h4>📘 Brief · Santa Paula</h4><div class=\"pr\"><div class=\"l\">Qué vende</div><div>Pastas frescas para llevar, y la caja del finde</div><div class=\"l\">A quién le habla</div><div>Familias del barrio que comen pasta el domingo</div><div class=\"l\">Tono</div><div>Casero, cálido, de mostrador</div><div class=\"l\">Tipografía</div><div>La del logo en placas; subtítulos en sans, blancos con sombra</div><div class=\"l\">Colores</div><div>Los tres del cliente, con su código</div><div class=\"l\">Música</div><div>Carpeta del cliente, nunca tendencias con voz</div><div class=\"l\">Placa final</div><div>Logo, WhatsApp y horario</div><div class=\"l\">Nunca</div><div>Comida fría, planos generales sin producto, texto que tape la masa</div><div class=\"l\">Piezas que sí</div><div><a>los tres reels que mejor funcionaron</a></div></div></div></div><p class=\"na-cap\"><b>Una página por cliente.</b> Lo que no cambia de una pieza a otra se escribe una sola vez acá, y cada tarjeta la linkea. Así el pedido de cada pieza queda corto y el editor no adivina.</p>"
+  },
+  {
+   "nuestro": true,
+   "titulo": "El traspaso, semana por semana",
+   "texto": [
+    "Lo que hace que delegar se cumpla es ir de a poco y con fecha: una pieza, después un cliente entero, después el siguiente. Cada paso arranca cuando el anterior salió publicado sin que lo tengas que tocar."
+   ],
+   "figura": "<div class=\"fx fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Cuándo</th><th>Qué pasa a los editores</th><th>Qué hacés vos</th></tr></thead><tbody><tr><td>Semana 1</td><td>Una pieza de un solo cliente, el más rutinario: el formato se repite y el material llega ordenado.</td><td class=\"gris\">Armás la tarjeta y el brief, y corregís en la tarjeta.</td></tr><tr><td>Semana 2</td><td>Todas las piezas de ese cliente, con la subida incluida.</td><td class=\"gris\">Aprobás. Si algo vuelve dos veces, es una regla que falta en el brief.</td></tr><tr><td>Semana 3</td><td>Un segundo cliente, con su propio brief.</td><td class=\"gris\">Lo mismo, y mirás si el primero ya sale sin que lo toques.</td></tr><tr><td>Fin de mes</td><td>Los clientes que salieron bien en las semanas anteriores.</td><td class=\"gris\">Te quedás con la estrategia, el guion y la aprobación.</td></tr></tbody></table></div><div class=\"fx\"><div class=\"fx-tres\"><div><div class=\"k\">La revisión</div><div class=\"t\">Un día fijo</div><ul><li>Entregan siempre el mismo día y a la misma hora.</li><li>La corrección va escrita en la tarjeta y la aplica quien editó.</li><li>Por WhatsApp, solo el aviso de que está lista.</li></ul></div><div><div class=\"k\">El costo</div><div class=\"t\">Que te quede margen</div><ul><li>Lo que te cobran por pieza, por las piezas del mes de cada cliente.</li><li>Tiene que entrar en lo que te paga cada uno y dejarte margen.</li><li>Si no entra, se ajusta en la propuesta de enero o se baja el nivel de edición.</li></ul></div><div><div class=\"k\">El número</div><div class=\"t\">Lo que medimos</div><ul><li>Cuántas piezas salieron en el mes.</li><li>Cuántas editó otra persona.</li><li>Cuántas volvieron con corrección.</li></ul></div></div></div><p class=\"fx-pie\"><b>Si de veinte piezas otra persona editó tres,</b> el traspaso arrancó y todavía no cambió tu semana. El objetivo es que al cierre de diciembre la mayoría salga sin pasar por tus manos.</p>"
+  },
+  {
+   "nuestro": true,
+   "titulo": "Lo que te queda de esto",
+   "texto": [
+    "Con dos meses de piezas que editó otra persona y lo que pasó con las ventas del cliente, tenés el caso de antes y después que quedó en la grupal del 6/11. Es el mismo material, contado para vender tu servicio nuevo."
+   ]
+  }
+ ],
+ "ajustes": {
+  "0": {
+   "ocultar": true
+  },
+  "1": {
+   "ocultar": true
+  },
+  "2": {
+   "ocultar": true
+  },
+  "3": {
+   "ocultar": true
+  },
+  "4": {
+   "ocultar": true
+  },
+  "5": {
+   "ocultar": true
+  },
+  "6": {
+   "ocultar": true
+  },
+  "7": {
+   "ocultar": true
+  },
+  "8": {
+   "ocultar": true
+  }
+ },
+ "cuando": "Cerraste con editores y querés que tomen la edición y la subida de tus clientes.",
+ "lista_cuando": "Tus editores recibieron la primera tarjeta y el brief del cliente, y lo vemos juntos en la llamada."
+}
