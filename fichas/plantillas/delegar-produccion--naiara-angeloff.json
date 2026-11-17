@@ -78,12 +78,18 @@
    "ocultar": true
   },
   "7": {
-   "ocultar": true
+   "titulo": "Lo que querés ver en la llamada",
+   "consigna": "Opcional. Si en el traspaso te surge una duda, algo que volvió mal o una pieza que querés que miremos, anotalo acá y lo vemos en la llamada.",
+   "campo": "texto",
+   "alto": 4,
+   "placeholder": "Quiero ver…",
+   "ejemplo": null
   },
   "8": {
    "ocultar": true
   }
  },
  "cuando": "Cerraste con editores y querés que tomen la edición y la subida de tus clientes.",
- "lista_cuando": "Tus editores recibieron la primera tarjeta y el brief del cliente, y lo vemos juntos en la llamada."
+ "lista_cuando": "Tus editores recibieron la primera tarjeta y el brief del cliente, y lo vemos juntos en la llamada.",
+ "sin_entregable": true
 }

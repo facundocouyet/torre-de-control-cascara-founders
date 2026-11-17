@@ -414,7 +414,7 @@ def construir(m, categoria, pl=None, bajada=None):
     # documento completo y devuelto. Lo que cada módulo produce sigue estando
     # en el inventario, pero acá no se lista: al founder se le pide una cosa.
     # una carta que es toda SOP (solo bloques nuestros, sin nada para completar) no lleva entregable (Facu, 17/11)
-    if any(not s.get("nuestro") for s in secciones):
+    if any(not s.get("nuestro") for s in secciones) and not (pl or {}).get("sin_entregable"):
         n += 1
         out.append('<section>')
         out.append('  <div class="n">%02d</div>' % n)
