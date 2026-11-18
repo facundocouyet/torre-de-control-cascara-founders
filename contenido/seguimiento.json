@@ -1,7 +1,7 @@
 {
   "regla": "El ritmo es una alerta de seguimiento, no un juicio sobre el resultado. Al día: hubo contacto en los últimos 14 días y hay un próximo paso (una reunión con fecha o una carta que está completando). Sin próximo paso: hay noticias, pero no hay reunión agendada ni carta abierta. Sin noticias: pasaron más de 14 días sin saber nada. Los que están en sign off van aparte, en cierre.",
   "dias_sin_noticias": 14,
-  "actualizado": "2026-11-17",
+  "actualizado": "2026-11-18",
   "campos": "pilar: en qué pilar de la columna está parado (Oferta, Contenido, Demanda, Venta, Entrega o Cierre). pelota: quién tiene que mover ahora (Facu, Franco, Teo, Aye, Fede, Juana o cliente). plata: si lanza o abre una ventana de venta, la fecha y qué pasa. Los actualiza el pulso cada mañana.",
   "clientes": {
     "sofia-galvis": {
@@ -77,13 +77,13 @@
       "pelota": "Aye"
     },
     "sebastian": {
-      "ultimo": "2026-11-12",
-      "que": "12/11: 1:1 con Facu (Fathom 202406160): el CTA de la landing pasa a link directo al grupo de WhatsApp; Stories y grupo con narrativa diaria; pauta de USD 5 a 10 por día para traer el 30 a 40% de los registros; objetivo 10 a 15 cupos en el primer cohort.",
+      "ultimo": "2026-11-18",
+      "que": "18/11 (DM a Facu, 9:11): tiene 35 a 40 inscriptos a un día del bootcamp, lo ve poco (para el HUB de Providencia juntó 120 con un video) y pide revisar la estrategia hoy para generar más registros.",
       "proximo": "2026-11-19",
-      "paso": "Seba: landing con el link al grupo, Stories diarias y la pauta andando antes del bootcamp del 19 al 21/11.",
+      "paso": "Facu: revisar con Seba hoy cómo empujar registros antes del bootcamp del 19 al 21/11.",
       "carta": "Calendario de lanzamiento activa; después el workshop y la venta B2C.",
       "pilar": "Venta",
-      "pelota": "cliente",
+      "pelota": "Facu",
       "plata": {
         "fecha": "2026-11-19",
         "que": "Bootcamp online de «Gira la Cámara» (19 al 21/11) que abre la venta del cohort."
