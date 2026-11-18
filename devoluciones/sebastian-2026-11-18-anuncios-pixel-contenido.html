@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SOP · Los anuncios prendidos hoy</title>
+<style>
+  :root{--tinta:#171717;--papel:#ECEAE4;--papel2:#FBFAF8;--gris:#6A6A66;--gris2:#8E8B85;--tiza:#DBD7D2;--rojo:#FE1414}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--papel);color:var(--tinta);font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+  .hoja{max-width:860px;margin:0 auto;padding:60px 26px 120px}
+  .caja{display:inline-flex;border:1px solid var(--gris2);padding:6px 12px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris)}
+  h1{font-size:clamp(38px,6.4vw,62px);font-weight:800;letter-spacing:-.035em;line-height:1.02;margin:26px 0 0;max-width:17ch}
+  .bajada{font-size:19px;line-height:1.55;margin:20px 0 0;max-width:64ch}
+  .lista{margin-top:36px;border-top:1px solid var(--tinta);padding-top:19px;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px 34px}
+  .lista .et,.et{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2)}
+  .lista .tx{font-size:14.5px;line-height:1.5;margin-top:6px}
+  section{margin-top:58px;border-top:1px solid var(--tiza);padding-top:26px}
+  .n{font-size:10px;letter-spacing:.2em;color:var(--gris2)}
+  h2{font-size:clamp(25px,3.4vw,31px);font-weight:800;letter-spacing:-.028em;line-height:1.16;margin:9px 0 0;max-width:26ch}
+  h3{font-size:19px;font-weight:800;letter-spacing:-.02em;margin:34px 0 0}
+  p{font-size:17px;line-height:1.6;margin:15px 0 0;max-width:66ch}
+  b{font-weight:700}
+  .paso{display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;padding:17px 0;border-bottom:1px solid var(--tiza);align-items:baseline}
+  .paso:first-of-type{border-top:1px solid var(--tiza)}
+  .paso .k{font-size:17px;line-height:1.2;font-weight:800;letter-spacing:-.02em;color:var(--gris2)}
+  .paso>div>b{display:block;font-size:17.5px;letter-spacing:-.015em;margin-bottom:5px}
+  .paso span{font-size:15.5px;line-height:1.55;color:var(--gris)}
+  .paso.cta{background:var(--papel2);margin:0 -14px;padding:17px 14px}
+  .paso.cta .k{color:var(--rojo)}
+  .ojo{border:1px solid var(--tinta);padding:20px 22px;margin-top:28px}
+  .ojo p{margin-top:10px;font-size:16.5px}
+  .dos{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:26px;margin-top:26px}
+  .dos>div{border-top:2px solid var(--tinta);padding-top:13px;min-width:0}
+  .dos b{display:block;font-size:16.5px;letter-spacing:-.015em;margin-bottom:7px}
+  .dos p{font-size:15.5px;margin:0;color:var(--gris)}
+  .copy{background:var(--papel2);border-left:3px solid var(--tinta);padding:14px 18px;margin-top:14px;font-size:15.5px;line-height:1.55;white-space:pre-wrap}
+  .copy .et{display:block;margin-bottom:6px}
+  .tabla{width:100%;border-collapse:collapse;margin-top:24px;font-size:15px}
+  .tw{overflow-x:auto}
+  .tabla th{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);font-weight:400;text-align:left;padding:0 12px 10px 0;border-bottom:1px solid var(--tinta)}
+  .tabla td{padding:13px 12px 13px 0;border-bottom:1px solid var(--tiza);vertical-align:top;line-height:1.5}
+  .tabla td span{color:var(--gris)}
+  .ad{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:24px;margin-top:30px;padding-top:22px;border-top:1px solid var(--tiza);align-items:start}
+  .ad img{width:100%;height:auto;display:block;border:1px solid var(--tiza)}
+  .ad h4{font-size:17px;margin:0;letter-spacing:-.015em}
+  .ad p{font-size:15.5px;margin-top:8px}
+  code{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:var(--papel2);padding:2px 5px;word-break:break-all}
+  footer{margin-top:66px;border-top:1px solid var(--tinta);padding-top:17px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gris2)}
+  @media(max-width:600px){.paso{grid-template-columns:1fr;gap:4px}.ad{grid-template-columns:1fr}.ad img{max-width:260px}}
+  @media print{body{background:#fff}.hoja{padding:0}section{break-inside:avoid}}
+
+  pre{background:var(--tinta);color:#ECEAE4;padding:16px 18px;overflow-x:auto;font-size:12.5px;line-height:1.5;margin-top:14px;font-family:ui-monospace,Menlo,monospace;white-space:pre}
+  .num{font-size:44px;font-weight:800;letter-spacing:-.04em;line-height:1}
+  .kp{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:18px;margin-top:24px}
+  .kp>div{border-top:2px solid var(--tinta);padding-top:12px;min-width:0}
+  .kp .et{display:block;margin-top:6px}
+  .chk{list-style:none;padding:0;margin:18px 0 0;border-top:1px solid var(--tinta)}
+  .chk li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:12px;padding:11px 0;border-bottom:1px solid var(--tiza);font-size:16px;line-height:1.5}
+  .chk li::before{content:"";width:14px;height:14px;border:2px solid var(--gris);margin-top:5px}
+  h3 .h{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);font-weight:400;margin-right:8px}
+</style>
+</head>
+<body><div class="hoja">
+<div class="caja">Cáscara Founders · SOP · 18/11</div>
+<h1>Los anuncios prendidos hoy</h1>
+<p class="bajada">Seba: el objetivo de hoy es uno solo, dejar la pauta corriendo. Acá tenés el pixel, la configuración de los anuncios paso a paso y lo que publicás mañana. Es la misma estructura que usamos en Cáscara para La Revolución del Ocio, en chico.</p>
+<div class="lista"><div><div class="et">Hoy</div><div class="tx">Pixel instalado y probado, y la campaña de registro publicada.</div></div><div><div class="et">Mañana, jueves 19</div><div class="tx">Un reel con palabra clave, un carrusel, historias y el mensaje del grupo.</div></div><div><div class="et">Hasta el 22</div><div class="tx">Una pieza por día con ManyChat, la pauta empujando y mensajes uno a uno.</div></div></div>
+<section><div class="n">01</div><h2>Lo que dicen tus registros</h2>
+<div class="kp"><div><div class="num">38</div><span class="et">registros reales al 18/11</span></div><div><div class="num">20</div><span class="et">el 12/11, en cuatro horas</span></div><div><div class="num">29</div><span class="et">vinieron por ManyChat</span></div><div><div class="num">2</div><span class="et">del mail a 190 personas</span></div></div>
+<p>El 12/11 lo prueba: una pieza con palabra clave más ManyChat trae registros. Desde ese día entran de 2 a 6 por día porque no hubo otra pieza igual ni pauta. Lo que hacemos hasta el 22 es repetir eso todos los días y amplificarlo con anuncios.</p>
+</section>
+<section><div class="n">02</div><h2>Antes de prender: el pixel</h2>
+<p>Sin pixel, Meta optimiza a clics. Con el pixel marcando el registro, busca gente parecida a la que se registra. Son cinco pasos y se hace en media hora.</p>
+<div class="paso"><div class="k">1</div><div><b>Crealo en tu Business Manager</b><span>Administrador de eventos → Conectar orígenes de datos → Web → nombre «Gira la Cámara» → URL giralacamara.com → instalar el código manualmente. Copiá el ID (15 o 16 cifras). Tiene que estar en el mismo Business Manager que tu cuenta publicitaria.</span></div></div>
+<div class="paso"><div class="k">2</div><div><b>Pegá el código base en todas las páginas</b><span>Dentro del &lt;head&gt;. Con código o Lovable, en el index.html; con Webflow, Framer, WordPress o Wix, en Configuración → Código personalizado → Head. Reemplazá TU_ID_DE_PIXEL.</span></div></div>
+<pre>&lt;!-- Meta Pixel Code --&gt;
+&lt;script&gt;
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version=&#x27;2.0&#x27;;
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,&#x27;script&#x27;,
+&#x27;https://connect.facebook.net/en_US/fbevents.js&#x27;);
+fbq(&#x27;init&#x27;, &#x27;TU_ID_DE_PIXEL&#x27;);
+fbq(&#x27;track&#x27;, &#x27;PageView&#x27;);
+&lt;/script&gt;
+&lt;!-- End Meta Pixel Code --&gt;</pre>
+<div class="paso"><div class="k">3</div><div><b>Marcá el registro</b><span>En la página de gracias (la que tiene el botón «Entrar al grupo»), además del código base, va esto:</span></div></div>
+<pre>&lt;script&gt;
+  fbq(&#x27;track&#x27;, &#x27;CompleteRegistration&#x27;);
+&lt;/script&gt;</pre>
+<p>Si el gracias aparece en la misma página del formulario, el evento va en el código que corre cuando el envío salió bien:</p>
+<pre>// justo después de que el formulario se guardó bien
+fbq(&#x27;track&#x27;, &#x27;CompleteRegistration&#x27;);</pre>
+<div class="paso"><div class="k">4</div><div><b>Verificá el dominio</b><span>Configuración del negocio → Seguridad de la marca → Dominios → agregar giralacamara.com (meta-etiqueta en el &lt;head&gt; o registro TXT en el DNS). Después, en el Administrador de eventos, dejá CompleteRegistration como evento prioritario.</span></div></div>
+<div class="paso cta"><div class="k">5</div><div><b>Probalo</b><span>Extensión Meta Pixel Helper en Chrome, un registro de prueba, y en Administrador de eventos → Probar eventos tienen que aparecer PageView y CompleteRegistration. Borrá la fila de prueba de tu base.</span></div></div>
+</section>
+<section><div class="n">03</div><h2>Los anuncios, paso a paso</h2>
+<p>Una campaña, tres conjuntos y dos o tres anuncios. Todo en el Administrador de anuncios, desde la cuenta conectada a tu Instagram.</p>
+<h3><span class="h">Campaña</span>La campaña</h3>
+<div class="tw"><table class="tabla"><thead><tr><th>Campo</th><th>Qué poner</th></tr></thead><tbody><tr><td><b>Objetivo</b></td><td><span>Clientes potenciales</span></td></tr><tr><td><b>Nombre</b></td><td><span>GLC · Registro bootcamp · nov</span></td></tr><tr><td><b>Presupuesto de la campaña (Advantage)</b></td><td><span>Apagado: el presupuesto va en cada conjunto, así controlás cuánto gasta cada público</span></td></tr><tr><td><b>Pruebas A/B</b></td><td><span>Apagado</span></td></tr></tbody></table></div>
+<h3><span class="h">Conjuntos</span>Los tres conjuntos</h3>
+<p>En los tres, lo mismo: ubicación de la conversión <b>Sitio web</b>, pixel <b>Gira la Cámara</b>, evento <b>Completar registro</b>; fechas de hoy al lunes 23 a las 19 h; ubicación Chile; ubicaciones Advantage+.</p>
+<div class="tw"><table class="tabla"><thead><tr><th>Conjunto</th><th>Público</th><th>Presupuesto por día</th></tr></thead><tbody><tr><td><b>1 · Tibios</b></td><td><span>Público personalizado → Cuenta de Instagram → personas que interactuaron con tu cuenta en los últimos 365 días</span></td><td><span>USD 7</span></td></tr><tr><td><b>2 · Vieron tus videos</b></td><td><span>Público personalizado → Interacción con video → vieron el 50% de tus reels en los últimos 365 días</span></td><td><span>USD 5</span></td></tr><tr><td><b>3 · Nuevos</b></td><td><span>Chile, 22 a 45 años, público Advantage+ con sugerencias: producción audiovisual, filmmaking, fotografía, edición de video, marketing digital, emprendimiento</span></td><td><span>USD 7</span></td></tr></tbody></table></div>
+<div class="paso"><div class="k">Después</div><div><b>El cuarto conjunto, desde el viernes</b><span>Cuando el pixel junte visitas: «Visitaron giralacamara.com y no se registraron, 30 días». Es el público más barato de los últimos días.</span></div></div>
+<h3><span class="h">Anuncios</span>Los anuncios</h3>
+<div class="tw"><table class="tabla"><thead><tr><th>Anuncio</th><th>Qué es</th><th>Cómo se carga</th></tr></thead><tbody><tr><td><b>video12-a</b></td><td><span>El video del 12/11, el que trajo 20 registros en cuatro horas, con su gancho original y el texto «Bootcamp gratis · 23, 24 y 25 de noviembre» sobre el video</span></td><td><span>Anuncio nuevo: subí el archivo del video, no el posteo</span></td></tr><tr><td><b>video12-b</b></td><td><span>El mismo video con otro gancho en los primeros 3 segundos: «¿Sigues cobrando por hora?» o la frase que más te comentaron</span></td><td><span>Anuncio nuevo con el archivo editado</span></td></tr><tr><td><b>estatica-fecha</b></td><td><span>Una imagen 4:5 con «Gira la Cámara · Bootcamp gratis · 23, 24 y 25 de noviembre · 19 h»</span></td><td><span>Anuncio nuevo con imagen</span></td></tr><tr><td><b>reel-jueves</b></td><td><span>El reel que publicás mañana, si en orgánico rinde</span></td><td><span>Se suma el viernes, subido de cero con el texto del anuncio</span></td></tr></tbody></table></div>
+<p><b>Siempre de cero, no potenciando el orgánico.</b> Tus reels dicen «Comenta BOOTCAMP», y el anuncio tiene que mandar a la web: si se potencia el posteo, la gente comenta en vez de hacer clic. Subiendo el archivo controlás el texto, el botón, los primeros segundos y los parámetros, y los comentarios de la pauta no se mezclan con tu orgánico.</p>
+<p>En cada anuncio: identidad con tu página y tu Instagram, botón <b>Registrarte</b>, URL <b>giralacamara.com</b>, y en «Parámetros de URL» esto, así en tu base aparece qué anuncio trajo a cada uno:</p>
+<pre>origen=meta-{{ad.name}}&amp;utm_source={{site_source_name}}&amp;utm_campaign={{campaign.name}}&amp;utm_term={{adset.name}}&amp;utm_content={{ad.name}}</pre>
+<div class="copy"><span class="et">Texto principal</span>Tu trabajo ya es bueno. Que se note en lo que cobras.
+
+3 días en vivo y gratis, 23, 24 y 25 de noviembre a las 19:00 (Chile). Para filmmakers, fotógrafos y creativos que venden servicios y quieren dejar de cobrar por hora.
+
+Inscríbete y entra al grupo, ahí van los links de cada día 👇</div>
+<div class="copy"><span class="et">Título</span>Bootcamp gratis · 23, 24 y 25 de noviembre</div>
+<div class="paso cta"><div class="k">Cómo se lee</div><div><b>Cada dos días, no antes</b><span>Mirá el costo por registro de cada anuncio. El que cuesta el doble que el resto, se pausa y su plata va a los otros. Si después de USD 15 gastados un conjunto no trajo ningún registro, cambiale el creativo. El Follow Me Ad queda para después del bootcamp: estos días todo va al registro.</span></div></div>
+</section>
+<section><div class="n">04</div><h2>Mañana, jueves 19: lo que publicás</h2>
+<p>El material sale de tus propios registrados. Les preguntaste qué quieren estar vendiendo en seis meses y qué te quieren preguntar: uno de cada tres respondió algo mensual o recurrente, y las preguntas se repiten. Eso es contenido que le habla exacto a tu cliente.</p>
+<h3><span class="h">Reel</span>«Cómo perder el miedo a vender humo»</h3>
+<p>Es una pregunta textual de uno de tus registrados. Hablado a cámara, 30 a 45 segundos, con palabra clave y ManyChat, el formato del 12/11.</p>
+<div class="copy"><span class="et">Guion</span>Gancho (0 a 3 s): «Uno de los creativos que se anotó al bootcamp me preguntó cómo perder el miedo a vender humo.»
+
+Desarrollo: «Vender humo es prometer algo que no sabes cómo vas a entregar. Si tu trabajo ya es bueno, el problema es otro: no lo explicas. Cuando puedes contar paso a paso qué haces, cuánto tarda y qué se lleva tu cliente, dejas de sentir que vendes humo, porque estás vendiendo un proceso.»
+
+Cierre: «De eso es el día 2 del bootcamp. Es gratis, el 23, 24 y 25 de noviembre. Comenta BOOTCAMP y te mando el link.»</div>
+<h3><span class="h">Carrusel</span>«Le pregunté a 38 creativos qué quieren vender en 6 meses»</h3>
+<div class="copy"><span class="et">Placas</span>1 · Le pregunté a 38 creativos qué quieren estar vendiendo en seis meses.
+2 · Uno de cada tres respondió lo mismo: algo mensual. «Más servicios recurrentes». «Un ingreso recurrente». «Tres clientes mensuales».
+3 · Hoy la mayoría cobra por proyecto o por hora. Y 10 de los 38 todavía no cobran.
+4 · El salto de cobrar por proyecto a tener clientes mensuales es armar un servicio, con nombre, alcance y precio.
+5 · Eso armamos en el bootcamp: 23, 24 y 25 de noviembre, en vivo y gratis.
+6 · Comenta BOOTCAMP y te mando el link.</div>
+<h3><span class="h">Historias</span>Modo narrador, cinco o seis</h3>
+<div class="tw"><table class="tabla"><thead><tr><th>#</th><th>Qué va</th></tr></thead><tbody><tr><td><b>1</b></td><td><span>A cámara: «Faltan 4 días para el bootcamp y ya somos más de 40». Sticker de link a giralacamara.com/?origen=ig-historias</span></td></tr><tr><td><b>2</b></td><td><span>Encuesta: «¿Cómo cobras hoy?» Por hora · Por proyecto · Fee mensual · Todavía no cobro</span></td></tr><tr><td><b>3</b></td><td><span>Responder a cámara una pregunta de los registrados: «¿Cómo calcular precios de la forma más eficiente?». Cerrar con «esto lo vemos el día 1»</span></td></tr><tr><td><b>4</b></td><td><span>Detrás de escena: armando las clases del bootcamp</span></td></tr><tr><td><b>5</b></td><td><span>Cuadro de preguntas: «¿Qué le preguntarías a alguien que ya vive de su creatividad?»</span></td></tr><tr><td><b>6</b></td><td><span>Cierre con la fecha y la palabra clave: «Responde BOOTCAMP a esta historia y te mando el link»</span></td></tr></tbody></table></div>
+<h3><span class="h">Grupo</span>El mensaje del día en el grupo</h3>
+<div class="copy"><span class="et">Mensaje</span>Faltan 4 días para el bootcamp 🎬
+Hoy subí un video respondiendo una pregunta que me hicieron varios de ustedes: cómo perder el miedo a vender humo. Te lo dejo acá 👇 [link]
+Es lo que vamos a trabajar el día 2. Si tienes una pregunta que quieras que responda en vivo, escríbemela por privado.</div>
+<h3><span class="h">Uno a uno</span>Los mensajes directos</h3>
+<p>El mail a 190 personas trajo dos registros. A esa misma base, y a la de tus workshops y el HUB, escribile por WhatsApp con nombre, de a diez o quince por día:</p>
+<div class="copy"><span class="et">Mensaje</span>Hola [nombre]! Te escribo porque estuviste en [el workshop / el HUB]. El 23, 24 y 25 hago un bootcamp gratis y en vivo sobre cómo dejar de cobrar por hora y armar un servicio mensual. Creo que te sirve. Te dejo el link para anotarte: giralacamara.com/?origen=wsp-directo</div>
+</section>
+<section><div class="n">05</div><h2>Cada link con su origen</h2>
+<p>Tu formulario ya guarda el origen. Para que sirva, cada canal lleva el suyo, siempre escrito igual:</p>
+<div class="tw"><table class="tabla"><thead><tr><th>Dónde</th><th>Link</th></tr></thead><tbody><tr><td><b>Bio</b></td><td><span>giralacamara.com/?origen=ig-bio</span></td></tr><tr><td><b>Historias</b></td><td><span>giralacamara.com/?origen=ig-historias</span></td></tr><tr><td><b>ManyChat</b></td><td><span>giralacamara.com/?origen=manychat-bootcamp</span></td></tr><tr><td><b>WhatsApp uno a uno</b></td><td><span>giralacamara.com/?origen=wsp-directo</span></td></tr><tr><td><b>Grupo y referidos</b></td><td><span>giralacamara.com/?origen=referido</span></td></tr><tr><td><b>Anuncios</b></td><td><span>Con los parámetros de URL de arriba</span></td></tr></tbody></table></div>
+</section>
+<section><div class="n">06</div><h2>El checklist de hoy</h2><ul class="chk"><li>Pixel creado, código base en todas las páginas y CompleteRegistration en el gracias</li><li>Probado con Pixel Helper y en Probar eventos; fila de prueba borrada</li><li>Dominio verificado</li><li>Campaña de Clientes potenciales con los tres conjuntos, optimizando a Completar registro</li><li>Anuncios video12-a, video12-b y estatica-fecha, subidos de cero con sus parámetros de URL</li><li>Campaña publicada</li><li>Reel y carrusel de mañana grabados o armados</li><li>Bio y ManyChat con su origen</li></ul></section>
+<footer><span>Cáscara Founders · Seba Martínez</span><span>SOP · 18/11/2026</span></footer>
+</div></body>
+</html>
