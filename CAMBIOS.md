@@ -5,6 +5,15 @@ para saber qué estás subiendo, sin abrir los archivos.
 
 ---
 
+## Miércoles 18 de noviembre
+
+Seba llega al bootcamp con menos inscriptos de los que quería y la pelota vuelve a Facu.
+
+- **Seba con la pelota en Facu.** Escribió hoy que tiene 35 a 40 inscriptos y pide revisar la estrategia antes del bootcamp del 19 al 21/11; en el inicio de la torre figura así.
+- **Notas de ingresos al día.** Sofía Guevara (MVP grupal de 4 semanas), Camila (landing de preventa), Alejandra Ayala (Franco con Hotel Condal), Osmo (1:1 corrida) y el alta de Infinity Crew.
+
+**Para mirar antes de subir:** que Infinity Crew figure bien como ingreso sin START.
+
 ## Martes 17 de noviembre
 
 La torre toma tus respuestas a Aye de anoche: tres clientes pasan a cierre y Lola sigue.
