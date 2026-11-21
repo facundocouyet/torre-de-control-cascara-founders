@@ -1,0 +1,135 @@
+{
+  "modulo": "prospeccion-y-recontacto",
+  "slug": "osmo",
+  "founder": "Osmo Estudio",
+  "por_que_propia": "Escrita entera para Osmo después de la llamada del 20/11 (Fathom 205399646): cliente ideal en dos niveles, la charla de diciembre y la prospección que ya están haciendo.",
+  "titulo": "Su cliente ideal y la charla de diciembre",
+  "bajada": "El cliente ideal en dos niveles, a quién ir con nombre y apellido, cómo hablar en los videos, la charla del 10 al 15 de diciembre y el mail y la llamada para la prospección que ya están haciendo.",
+  "cuando": "Después de la llamada del 20/11, para que trabajen esta semana y lleguen a la sesión de oferta con el cliente ideal claro.",
+  "lista_cuando": "Las preguntas del cliente ideal están respondidas con casos reales, hay diez empresas con nombre y la charla tiene tema y fecha.",
+  "pasos": [
+    "Respondan las preguntas del cliente ideal con casos reales.",
+    "Elijan del registro diez a quince empresas concretas y pongan qué problema creen que tiene cada una.",
+    "Ivi: mandá por Slack el recorrido del cliente, como esté.",
+    "Escriban el tema y la fecha de la charla, entre el 10 y el 15/12.",
+    "Sigan con los videos y la prospección, con el tono de la llamada."
+  ],
+  "bajada_envio": {
+    "founder": "Ivi y Kari",
+    "porque": "En la llamada del 20/11 quedó claro que el primer paso está dado: eligieron el nicho y la narrativa cambió. Lo que falta es conocer mucho mejor al cliente ideal, y con eso terminar la oferta y armar la charla de diciembre.",
+    "objetivo": "El cliente ideal respondido con casos reales para la sesión de oferta de la semana que viene, y la charla con tema y fecha entre el 10 y el 15/12.",
+    "mindset": "La información la tienen ustedes: son años de experiencia. Hablen como hablaron en la llamada, directo y con datos reales."
+  },
+  "secciones": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó en la llamada del 20/11",
+      "texto": [
+        "El primer paso ya está: dejaron de ser una consultora general, eligieron un nicho y la narrativa cambió. El video de «qué proyectás para el 2027» se movió, sumó seguidores y ya hablan desde lo que le pasa al dueño y no solo desde lo técnico. Así se sigue.",
+        "Lo que falta es conocer mucho mejor al cliente ideal. Con eso se termina la oferta, salen los ángulos y se arma la charla de diciembre, que es lo que va a vender su contenido de acá a fin de año. Cada video, cada historia y cada mensaje de diciembre llevan a esa charla.",
+        "Las preguntas de esta carta son las que les prometí en la llamada para orientar el cliente ideal. Respóndanlas con casos reales: la información la tienen ustedes, por años de experiencia."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">El camino hasta febrero</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">Semana del 23/11</div><div class=\"t\">Cliente ideal y oferta</div><div class=\"s\">Responden las preguntas de esta carta y mandan por Slack el recorrido del cliente. Con eso, la sesión de oferta.</div></div><div class=\"fx-paso\"><div class=\"k\">Hasta el 10/12</div><div class=\"t\">La charla armada</div><div class=\"s\">Tema, estructura, fecha y la invitación. El contenido de esas semanas vende la charla.</div></div><div class=\"fx-paso\"><div class=\"k\">10 al 15/12</div><div class=\"t\">La primera charla</div><div class=\"s\">Digital, de dos o tres horas. No importa si vienen 3, 5 o 10: lo que se prueba es la mecánica.</div></div><div class=\"fx-paso\"><div class=\"k\">15/12 al 4/1</div><div class=\"t\">Pausa</div><div class=\"s\">No se lanza nada. Se lee lo que dejó la charla.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">Fin de enero o principios de febrero</div><div class=\"t\">El lanzamiento</div><div class=\"s\">Una charla más grande, con lo aprendido, que abre la venta del programa o la consultoría.</div></div></div></div>"
+    },
+    {
+      "nuestro": true,
+      "titulo": "El cliente ideal, en dos niveles",
+      "texto": [
+        "El nivel 1 es lo que le pasa al negocio. El nivel 2 es lo que le pasa a la persona que lo dirige. Con el nivel 1 la empresa se reconoce; con el nivel 2 el dueño escribe, porque ve el video tirado en el sillón y piensa: «ese soy yo».",
+        "Estos son los que salieron en la llamada, varios con sus palabras. Las preguntas del final los completan con casos reales."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Los dolores, en los dos niveles</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Situación</th><th>Nivel 1 · lo que le pasa al negocio</th><th>Nivel 2 · lo que le pasa al dueño</th></tr></thead><tbody><tr><td>Sin información para decidir</td><td class=\"gris\">No sabe cuánto le cuesta de verdad importar: fletes, depósito, demoras y gestión no están en ningún lado.</td><td class=\"gris\">Decide a ciegas y se entera del sobrecosto cuando ya lo pagó.</td></tr><tr><td>Una administración que no sabe comex</td><td class=\"gris\">El equipo administrativo hace lo que puede, sin conocer el proceso completo.</td><td class=\"gris\">No lo sabe resolver él y tampoco lo puede capacitar.</td></tr><tr><td>La mercadería parada</td><td class=\"gris\">La carga queda esperando la intervención de SENASA o ANMAT, con días de depósito que nadie tenía en el costo.</td><td class=\"gris\">Si no entra la mercadería no vende, y si no vende no paga sueldos.</td></tr><tr><td>El cambio normativo</td><td class=\"gris\">Cambia una regla y la operación se traba sin plan B.</td><td class=\"gris\">No tiene cintura para reaccionar y siente que siempre llega tarde.</td></tr><tr><td>El agotamiento</td><td class=\"gris\">Horas de gestión que no se ven en el cierre de ejercicio.</td><td class=\"gris\">El cansancio de apagar incendios todos los días, que nadie le reconoce.</td></tr></tbody></table></div></div>"
+    },
+    {
+      "nuestro": true,
+      "titulo": "El otro ángulo: la oportunidad",
+      "texto": [
+        "Además de lo que duele, la gente persigue oportunidades. Hablen del negocio que se abre para quien domina el comercio exterior, no solo de lo que ustedes hacen."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">El ángulo de la oportunidad</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">La pregunta</div><div class=\"v\">¿Por qué importar o exportar es un buen negocio hoy, para quien sabe hacerlo?</div></div><div class=\"fila\"><div class=\"r\">De dónde sale</div><div class=\"v\">La apertura de las importaciones, traer un producto o una marca de afuera que acá no existe, exportar por primera vez lo que ya producen.</div></div><div class=\"fila\"><div class=\"r\">Cómo se dice</div><div class=\"v\">Primero el negocio que se abre, después lo que pierde el que lo hace mal. Ustedes son las que saben cómo se hace bien.</div></div></div></div>"
+    },
+    {
+      "nuestro": true,
+      "titulo": "A quién, con nombre y apellido",
+      "texto": [
+        "<b>Pymes, de mediana para abajo.</b> Las multinacionales quedan afuera: deciden en la casa matriz y entran por referencias. El mejor caso es una empresa que lo tiene desordenado y está empezando, porque ahí el cambio se nota más.",
+        "<b>El tamaño se mide por facturación</b>, no por cantidad de empleados.",
+        "<b>Alimentos primero.</b> Con el decreto de este año, los alimentos para consumo humano pasan por SENASA (lo contó Kari en la llamada). Farmacéutica y ANMAT, después.",
+        "<b>Diez a quince empresas concretas.</b> Salen del registro de ANMAT y SENASA que ya bajaron, filtradas por tamaño. A cada una le ponen qué problema creen que tiene: con eso el cliente ideal deja de ser un perfil y pasa a tener nombre."
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Cómo hablar en los videos",
+      "texto": [
+        "Más directo. Estos dueños no tienen tiempo y tienen problemas todo el día: no les llama la atención un mensaje suave. Ivi, en la llamada dijiste «no entiendo por qué no le dedican el tiempo necesario al proceso»: así es como hay que hablar en cámara.",
+        "Un problema real del mercado, con datos reales, contado en guiones cortos: el problema, lo que cuesta, cómo se resuelve. Sin nombrar a nadie, pero sin esquivar el tema."
+      ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "La charla de diciembre",
+      "texto": [
+        "Un solo encuentro, digital, de dos o tres horas, entre el 10 y el 15 de diciembre. Vende dos cosas: cómo hacer negocios con el comercio exterior y qué pierden los que lo hacen mal. Va nichada en alimentos, que es lo que tienen fresco y comprobado.",
+        "La charla es la puerta de entrada: el que viene les deja sus datos y de ahí sale la base de su cliente ideal. Adentro se puede vender lo que corresponda a cada uno: el diagnóstico, la capacitación o la consultoría para su empresa."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Una estructura posible</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">Parte 1</div><div class=\"t\">El ABC, en repaso</div><div class=\"s\">Qué hay que tener para importar o exportar bien: inscripción, organismos que intervienen y documentación. Corto: es para nivelar.</div></div><div class=\"fx-paso\"><div class=\"k\">Parte 2</div><div class=\"t\">Lo que se pierde</div><div class=\"s\">El dolor financiero y el operativo: casos reales de sobrecostos, cargas paradas y multas, con números.</div></div><div class=\"fx-paso\"><div class=\"k\">Parte 3</div><div class=\"t\">El negocio que se abre</div><div class=\"s\">Cómo usar el comex a favor del negocio: la oportunidad de la apertura, con ejemplos de alimentos.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">Cierre</div><div class=\"t\">La puerta siguiente</div><div class=\"s\">Lo que venden al final: el diagnóstico de sus operaciones, a precio de entrada. El precio lo cierran en la sesión de oferta.</div></div></div><p class=\"fx-pie\">Es un punto de partida: tema y título los cierran ustedes. Lo vemos con la oferta.</p></div>"
+    },
+    {
+      "nuestro": true,
+      "titulo": "La prospección, mientras tanto",
+      "texto": [
+        "El llamado a las empresas del registro de ANMAT sigue: es volumen y es conocer al cliente ideal de primera mano. Este es el mail para escribirles, y el guion para cuando alguien acepta la llamada. Desde diciembre, el pedido final pasa a ser la invitación a la charla."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">El mail</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Asunto</div><div class=\"v\">¿Tu importación 2027 pasa por SENASA o ANMAT?</div></div><div class=\"fila\"><div class=\"r\">Mensaje</div><div class=\"v\">Hola [nombre], ¿cómo estás?<br><br>Somos Osmo Estudio Aduanero. Trabajamos con pymes de alimentos que importan insumos, envases o maquinaria, y vemos siempre lo mismo: la mercadería que queda parada esperando la intervención de SENASA o ANMAT, con días de depósito que nadie tenía en el costo.<br><br>Para planificar las importaciones de 2027 revisamos tus últimas tres operaciones y te decimos dónde se te puede trabar la próxima y qué papeles pide cada producto.<br><br>¿Te sirve una llamada de 20 minutos esta semana o la próxima para ver si aplica a tu caso?</div></div><div class=\"fila\"><div class=\"r\">Desde diciembre</div><div class=\"v\">El último párrafo cambia por la invitación a la charla: «El [día] damos una charla online sobre esto. ¿Te paso el link?»</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">La llamada</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">1 · Apertura · 2 min</div><div class=\"t\">Para qué es la llamada</div><div class=\"s\">«La idea es entender cómo importan hoy y ver si les podemos servir.» Quiénes son, en una frase.</div></div><div class=\"fx-paso\"><div class=\"k\">2 · Calificar · 5 min</div><div class=\"t\">Sus preguntas</div><div class=\"s\">¿Son importadores o exportadores registrados? ¿Cuántas operaciones hacen por mes? ¿Qué productos y de qué origen? ¿Quién lleva hoy el comercio exterior?</div></div><div class=\"fx-paso\"><div class=\"k\">3 · El dolor · 8 min</div><div class=\"t\">La última que se trabó</div><div class=\"s\">¿Qué pasó, cuántos días estuvo parada y cuánto les costó? ¿Qué les pasó a ustedes con eso? Anoten las frases textuales: son el nivel 2.</div></div><div class=\"fx-paso\"><div class=\"k\">4 · Quién decide · 2 min</div><div class=\"t\">Todos en la mesa</div><div class=\"s\">¿Quién más participa de esta decisión?</div></div><div class=\"fx-paso tinta\"><div class=\"k\">5 · Cierre · 3 min</div><div class=\"t\">El paso siguiente con fecha</div><div class=\"s\">La propuesta se presenta en una segunda llamada, o la invitación a la charla. La fecha queda en la agenda antes de cortar.</div></div></div></div>"
+    },
+    {
+      "titulo": "El cliente ideal, con sus casos",
+      "consigna": "Respondan con casos reales, aunque sean de su etapa corporativa. Cuanto más concreto, mejor: nombres de productos, días, plata.",
+      "campo": "lineas",
+      "lineas": [
+        "La operación con SENASA o ANMAT más difícil que hicieron: para qué empresa, qué producto, de qué origen y qué se trabó",
+        "¿Por qué las contratan a ustedes y no lo resuelve cualquiera?",
+        "¿Qué le pasó al dueño cuando se le trabó una operación? Lo que dijo, con sus palabras",
+        "Un caso de alguien que lo hizo mal: qué perdió",
+        "¿Qué negocio ven que se abre hoy para quien sabe importar o exportar alimentos?",
+        "¿Cuánto factura, más o menos, la empresa a la que mejor le pueden servir?"
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "Las diez a quince empresas",
+      "consigna": "Del registro que ya bajaron, filtradas por tamaño. Una fila por empresa.",
+      "campo": "tabla",
+      "columnas": [
+        "Empresa",
+        "Qué importa o exporta",
+        "Tamaño, por facturación",
+        "Qué problema creemos que tiene"
+      ],
+      "filas": 10,
+      "cid": 1
+    },
+    {
+      "titulo": "La charla",
+      "consigna": "Lo que tengan hasta ahora. Lo terminamos de cerrar juntas con la oferta.",
+      "campo": "lineas",
+      "lineas": [
+        "El tema y un título posible",
+        "La fecha, entre el 10 y el 15/12",
+        "A quién se la mandan además de redes (su base, el registro, contactos)",
+        "Qué venden al final"
+      ],
+      "cid": 2
+    },
+    {
+      "titulo": "El recorrido del cliente",
+      "consigna": "Ivi, lo que armaste de todos los puntos donde el cliente toca a Osmo y los entregables de cada uno. Pegá el link o mandalo por Slack sin ordenarlo: lo procesamos nosotros.",
+      "campo": "lineas",
+      "lineas": [
+        "El link del documento o la carpeta"
+      ],
+      "cid": 3
+    }
+  ]
+}

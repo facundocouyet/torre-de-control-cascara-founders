@@ -53,6 +53,7 @@ CSS = CSS_CARTAS + """
 .md code{font-size:.9em;background:#FBFAF8;border:1px solid #DBD7D2;padding:1px 5px}
 .md a,.nuestro p a{color:#171717}
 .md hr{border:0;border-top:1px solid #DBD7D2;margin:30px 0 0}
+.md pre.cod{background:#171717;color:#ECEAE4;padding:16px 18px;overflow-x:auto;font-size:12.5px;line-height:1.5;margin:16px 0 0;font-family:ui-monospace,Menlo,monospace;white-space:pre;max-width:100%}
 
 /* el índice */
 .cat{margin-top:56px}
@@ -125,11 +126,13 @@ def md_bloques(txt):
     """Markdown chico, sin dependencias: párrafos, ###, listas, citas, ---,
     y HTML suelto (una línea que empieza con <) que pasa tal cual."""
     out, par, lista, tipo_l = [], [], [], None
+    inicio = [1]
     def cerrar():
         nonlocal par, lista, tipo_l
         if par: out.append('<p>%s</p>' % inline(' '.join(par))); par = []
         if lista:
-            out.append('<%s>%s</%s>' % (tipo_l, ''.join('<li>%s</li>' % inline(x) for x in lista), tipo_l))
+            st = ' start="%d"' % inicio[0] if tipo_l == 'ol' and inicio[0] != 1 else ''
+            out.append('<%s%s>%s</%s>' % (tipo_l, st, ''.join('<li>%s</li>' % inline(x) for x in lista), tipo_l))
             lista, tipo_l = [], None
     for l in txt.split('\n'):
         s = l.strip()
@@ -144,6 +147,7 @@ def md_bloques(txt):
             t = 'ul' if re.match(r'^[-*+]', s) else 'ol'
             if par: cerrar()
             if tipo_l and tipo_l != t: cerrar()
+            if not lista: inicio[0] = int(re.match(r'^(\d+)', s).group(1)) if t == 'ol' else 1
             tipo_l = t; lista.append(m.group(1)); continue
         if lista and l.startswith((' ', '\t')): lista[-1] += ' ' + s; continue
         if lista: cerrar()
