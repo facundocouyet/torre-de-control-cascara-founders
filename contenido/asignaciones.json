@@ -144,16 +144,13 @@
       ]
     },
     "naiara-angeloff": {
-      "activa": "icp-mecanismo--naiara-angeloff",
-      "en_paralelo": [
-        "delegar-produccion"
-      ],
-      "anterior": "completada",
+      "activa": "delegar-produccion",
+      "anterior": "sigue-activa",
       "inicio": "2026-11-09",
       "por_que": "Facu, 7/11: la auditoría quedó revisada el 28/10 y la sesión de oferta fue el 30/10. Carta de cliente ideal reescrita sobre esa sesión, con el formulario para sus clientes. Precios a validar. Próxima 1:1 con Facu para cerrar precios y el mensaje de enero. 17/11, Facu: cerró con editores para sus videos y los de sus clientes y pidió la tarjeta de Notion del brief (16/11); entra en paralelo delegar-produccion, escrita para ella con la tarjeta de ejemplo (Santa Paula) y el brief fijo por cliente."
     },
     "samuel-tarancon": {
-      "activa": "contratar-primer-rol--samuel-tarancon",
+      "activa": "contratar-primer-rol--samuel-tarancon 23/11: Nai no veía la carta de delegar (la app la tenía como próxima). Pasa a activa junto con la de cliente ideal, que sigue activa: «anterior» no es completada, así que la sync no la cierra.",
       "por_que": "Clarity Call del 7/10 (Tiago y Samuel). Orden de Facu (13/10): auditoría, cliente ideal, oferta y desde ahí ángulos de comunicación. La auditoría sigue activa hasta ver sus respuestas (Tiago marcó la tarea hecha el 10/10 y en la app no aparecen; Facu le preguntó a Teo cómo acceder). (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.) 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta, angulos-desde-icp. 7/11, Facu: entra la carta del editor (contratar-primer-rol--samuel-tarancon) para que salgan las historias y el contenido del lanzamiento del 1 al 10/12 que bajó Franco el 4/11 (Fathom 199652117). La auditoría queda pausada; el cliente ideal sale de la cola porque Franco ya lo definió en esa llamada.",
       "inicio": "2026-11-09",
       "anterior": "pausada"
@@ -195,10 +192,10 @@
       "anterior": "completada"
     },
     "camila-basso": {
-      "activa": "identidad-y-arco-narrativo--camila-basso",
-      "siguiente": "icp-mecanismo--camila-basso",
-      "por_que": "21/10, llamada con Facu: la narrativa se parte en dos. Activa «La narrativa de BUCK», que quedó solo con la marca (le falta el moodboard); sigue «Tu historia y tu marca personal», con las preguntas personales del pasaporte. Con las dos, Facu le da una devolución de toda la narrativa para trabajar con Juana. Después cliente ideal, ángulos y el calendario de la colección de verano. Grupales: Juana y Fede primero; la de Teo y la de Franco más adelante. 29/10: Facu activó Tu historia desde el admin; BUCK queda en revisión. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: angulos-desde-icp, calendario-contenido.",
-      "inicio": "2026-10-16"
+      "activa": "calendario-lanzamiento--camila-basso",
+      "anterior": "completada",
+      "por_que": "21/10, llamada con Facu: la narrativa se parte en dos. Activa «La narrativa de BUCK», que quedó solo con la marca (le falta el moodboard); sigue «Tu historia y tu marca personal», con las preguntas personales del pasaporte. Con las dos, Facu le da una devolución de toda la narrativa para trabajar con Juana. Después cliente ideal, ángulos y el calendario de la colección de verano. Grupales: Juana y Fede primero; la de Teo y la de Franco más adelante. 29/10: Facu activó Tu historia desde el admin; BUCK queda en revisión. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: angulos-desde-icp, calendario-contenido. 23/11, después de la 1:1 del 17/11 (Fathom 204151012): Tu historia queda completada (Facu: «no le des pelota») y entra «El drop de verano, paso a paso», escrita para ella: la preventa de la sesión del 3/11 con fechas (lista desde el 23/11, vidriera 30/11, preventa 10 y 11/12, lanzamiento 12/12), los mensajes, el gancho del video de versatilidad, la búsqueda del creativo para Connect Wall y el cliente ideal en preguntas cortas (la carta de ICP sale de la fila).",
+      "inicio": "2026-11-23"
     },
     "marcelo-fernandez": {
       "activa": "auditoria-de-clientes--marcelo-fernandez",
