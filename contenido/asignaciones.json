@@ -38,10 +38,10 @@
       "por_que": "Está con Franco en la estrategia del lanzamiento. La siguiente la define Facu después de verla (ya tiene el pipeline armado)."
     },
     "carolina-lalin": {
-      "activa": "auditoria-de-clientes",
-      "siguiente": "icp-mecanismo",
-      "por_que": "Clarity Call del 10/11 (Fathom 201573739): Facu quedó en mandarle la auditoría de sus clientes, las propuestas en PDF por Slack, el equipo y cómo entrega el servicio, para ir la semana que viene a la llamada con Franco a definir la oferta. Después, el cliente ideal.",
-      "inicio": "2026-11-09"
+      "activa": "contratar-primer-rol",
+      "anterior": "completada",
+      "por_que": "Clarity Call del 10/11 (Fathom 201573739): Facu quedó en mandarle la auditoría de sus clientes, las propuestas en PDF por Slack, el equipo y cómo entrega el servicio, para ir la semana que viene a la llamada con Franco a definir la oferta. Después, el cliente ideal. 20/11, sesión de oferta (Fathom 205373566): proceso de 3 meses (dirección, producción, escala) a USD 4.500 en un pago, 5.000 en dos y 5.500 en tres; cliente ideal, marcas premium de hospitalidad y diseño; búsquedas de editor y estratega creativo en Connect Wall y la comunidad, con Teo para los filtros. 23/11: mandó la propuesta nueva en PDF; Facu le deja la devolución (tu propuesta, leída) y la carta para contratar a los dos perfiles, que ella pidió el 20/11. El cliente ideal sale de la fila: lo definió la sesión de oferta. Llamada con Facu el 24/11 para la transición de sus clientes actuales.",
+      "inicio": "2026-11-23"
     },
     "custom-lab": {
       "activa": "calendario-contenido",

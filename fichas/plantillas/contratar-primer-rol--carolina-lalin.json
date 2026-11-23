@@ -1,0 +1,59 @@
+{
+  "modulo": "contratar-primer-rol",
+  "slug": "carolina-lalin",
+  "founder": "Carolina Lalin",
+  "bajada_envio": {
+    "founder": "Caro",
+    "porque": "En la sesión de oferta del 20/11 quedó claro: para vender el proceso de tres meses y salir de la ejecución te faltan dos perfiles, un editor de video y alguien que eleve lo creativo con tu criterio.",
+    "objetivo": "Las dos búsquedas publicadas esta semana en la Connect Wall y en la comunidad, y las primeras pruebas pagas hechas antes de fin de mes.",
+    "mindset": "Vos dirigís y el equipo ejecuta. El primer perfil no tiene que ser perfecto: tiene que poder seguir tu dirección."
+  },
+  "cuando": "Después de la sesión de oferta del 20/11, para tener el equipo listo antes de vender el proceso nuevo.",
+  "pasos": [
+    "Separá lo que delegás de lo que te queda (punto 02).",
+    "Escribí los dos roles en media página cada uno (punto 03): tenés un borrador de cada uno arriba.",
+    "Sacá el número que podés sostener para el editor con el tarifario de Cáscara (punto 04).",
+    "Duplicá el formulario de postulación y cambiale el nombre por el de tu estudio.",
+    "Publicá las dos búsquedas en la Connect Wall y en la comunidad, con el video selfie como filtro.",
+    "Elegí dos o tres de cada búsqueda y mandales una prueba paga con material real."
+  ],
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "titulo": "Lo que quedó en la sesión de oferta",
+      "texto": [
+        "Vendés un proceso de tres meses: dirección el primer mes, producción y escala los dos siguientes. Para entregarlo sin que todo pase por vos, tu equipo queda así:"
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Tu equipo</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Quién</th><th>Qué hace</th><th>Qué cambia</th></tr></thead><tbody><tr><td>Vos</td><td class=\"gris\">Diagnóstico, dirección creativa, propuestas y venta.</td><td class=\"gris\">Salís de la ejecución diaria.</td></tr><tr><td>Agostina</td><td class=\"gris\">Calendarios, programación y pauta.</td><td class=\"gris\">Horarios y entregas claras.</td></tr><tr><td>Florencia</td><td class=\"gris\">Diseño gráfico, prolijo y fiel a tu estética.</td><td class=\"gris\">Recibe un brief completo y la dirección del perfil creativo.</td></tr><tr><td>Editor/a de video</td><td class=\"gris\">Edita lo que se produce en cada jornada.</td><td class=\"gris\">Lo buscás ahora.</td></tr><tr><td>Estratega creativo/a</td><td class=\"gris\">Propone ideas y ángulos dentro de tu dirección, y baja la estrategia a piezas.</td><td class=\"gris\">Lo buscás ahora.</td></tr></tbody></table></div></div>"
+    },
+    {
+      "nuestro": true,
+      "titulo": "Los dos roles, en borrador",
+      "texto": [
+        "Los armamos con lo que nos contaste. Ajustalos a tu forma de trabajar y pegalos en el punto 03."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Editor/a de video</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Para qué está</div><div class=\"v\">Editar el contenido de las jornadas de producción de los clientes del estudio, con la estética de Caro Lalin Studio.</div></div><div class=\"fila\"><div class=\"r\">Qué hace</div><div class=\"v\">Edita reels y piezas de video desde el material de cada jornada; sigue el brief y la referencia de cada marca; entrega con una ronda de corrección.</div></div><div class=\"fila\"><div class=\"r\">Qué entrega</div><div class=\"v\">Las piezas del mes de cada cliente, en las fechas del calendario.</div></div><div class=\"fila\"><div class=\"r\">A quién reporta</div><div class=\"v\">A Caro, y en el día a día a Agostina, que lleva el calendario.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">Estratega creativo/a</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Para qué está</div><div class=\"v\">Que la dirección creativa de Caro se convierta en ideas, ángulos y guiones para cada marca, sin que todo pase por ella.</div></div><div class=\"fila\"><div class=\"r\">Qué hace</div><div class=\"v\">Propone conceptos y piezas dentro de la dirección de cada cliente; escribe guiones y copies; prepara las jornadas de producción; guía a Florencia y al editor en lo creativo.</div></div><div class=\"fila\"><div class=\"r\">Qué entrega</div><div class=\"v\">La propuesta creativa del mes de cada cliente, para aprobar con Caro antes de producir.</div></div><div class=\"fila\"><div class=\"r\">A quién reporta</div><div class=\"v\">A Caro.</div></div></div><p class=\"fx-pie\">Lo que pagar por el estratega lo vemos con Teo: depende de cuántas cuentas lleve y de las horas.</p></div>"
+    },
+    {
+      "nuestro": true,
+      "titulo": "Dónde y cómo se publica",
+      "texto": [
+        "La búsqueda va donde están los creativos que ya trabajan con nuestro método."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">El recorrido de la búsqueda</p><div class=\"fx-lista\"><div>La búsqueda en la Connect Wall, con el rol escrito y el formulario.</div><div>El mismo aviso en la comunidad de Cáscara.</div><div>Un video selfie de un minuto como primer filtro: quién es, qué hizo y por qué le interesa.</div><div>Entrevista con los que pasen, y una prueba paga con material real de un cliente.</div><div>Con Teo, en la sesión de los jueves: los filtros, las preguntas de la entrevista y cómo se arma la prueba.</div></div></div>"
+    }
+  ],
+  "ajustes": {
+    "2": {
+      "titulo": "Los dos roles, escritos antes de buscar",
+      "consigna": "Uno por rol: propósito en una frase, tres a cinco responsabilidades, qué entrega por mes y a quién le reporta. Podés partir de los borradores de arriba.",
+      "alto": 10
+    },
+    "6": {
+      "ocultar": true
+    },
+    "7": {
+      "ocultar": true
+    }
+  }
+}

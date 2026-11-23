@@ -319,22 +319,22 @@
       {
         "id": "auditoria-de-clientes",
         "para_que": "Tus clientes, lo que les vendiste, tu equipo y cómo entregás: con eso vas a la llamada de oferta.",
-        "estado": "ahora"
+        "estado": "hecha"
       },
       {
         "id": "icp-mecanismo",
-        "para_que": "A quién le resolvés el dolor más fuerte y tu forma única de hacerlo.",
-        "estado": "sigue"
+        "para_que": "Tu cliente ideal: lo definimos en la sesión de oferta del 20/11.",
+        "estado": "hecha"
       },
       {
         "id": "one-sheeter-oferta",
-        "para_que": "Tu servicio nuevo en una hoja: qué incluye, cuánto dura y a qué valor, para presentarlo en llamada.",
-        "estado": "despues"
+        "para_que": "Tu propuesta nueva, ya escrita: con la devolución del 23/11 la dejás lista para presentar.",
+        "estado": "hecha"
       },
       {
         "id": "contratar-primer-rol",
-        "para_que": "La persona que toma la edición y la producción, para que vos quedes en la dirección creativa.",
-        "estado": "despues"
+        "para_que": "El editor y el estratega creativo, para que vos quedes en la dirección creativa.",
+        "estado": "ahora"
       },
       {
         "id": "angulos-desde-icp",

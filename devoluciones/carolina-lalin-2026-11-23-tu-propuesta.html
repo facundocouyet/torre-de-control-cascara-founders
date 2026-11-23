@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Devolución · Tu propuesta, leída</title>
+<style>
+  :root{--tinta:#171717;--papel:#ECEAE4;--papel2:#FBFAF8;--gris:#6A6A66;--gris2:#8E8B85;--tiza:#DBD7D2;--rojo:#FE1414}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--papel);color:var(--tinta);font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+  .hoja{max-width:860px;margin:0 auto;padding:60px 26px 120px}
+  .caja{display:inline-flex;border:1px solid var(--gris2);padding:6px 12px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris)}
+  h1{font-size:clamp(38px,6.4vw,62px);font-weight:800;letter-spacing:-.035em;line-height:1.02;margin:26px 0 0;max-width:17ch}
+  .bajada{font-size:19px;line-height:1.55;margin:20px 0 0;max-width:64ch}
+  .lista{margin-top:36px;border-top:1px solid var(--tinta);padding-top:19px;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px 34px}
+  .lista .et,.et{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2)}
+  .lista .tx{font-size:14.5px;line-height:1.5;margin-top:6px}
+  section{margin-top:58px;border-top:1px solid var(--tiza);padding-top:26px}
+  .n{font-size:10px;letter-spacing:.2em;color:var(--gris2)}
+  h2{font-size:clamp(25px,3.4vw,31px);font-weight:800;letter-spacing:-.028em;line-height:1.16;margin:9px 0 0;max-width:26ch}
+  h3{font-size:19px;font-weight:800;letter-spacing:-.02em;margin:34px 0 0}
+  p{font-size:17px;line-height:1.6;margin:15px 0 0;max-width:66ch}
+  b{font-weight:700}
+  .paso{display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;padding:17px 0;border-bottom:1px solid var(--tiza);align-items:baseline}
+  .paso:first-of-type{border-top:1px solid var(--tiza)}
+  .paso .k{font-size:17px;line-height:1.2;font-weight:800;letter-spacing:-.02em;color:var(--gris2)}
+  .paso>div>b{display:block;font-size:17.5px;letter-spacing:-.015em;margin-bottom:5px}
+  .paso span{font-size:15.5px;line-height:1.55;color:var(--gris)}
+  .paso.cta{background:var(--papel2);margin:0 -14px;padding:17px 14px}
+  .paso.cta .k{color:var(--rojo)}
+  .ojo{border:1px solid var(--tinta);padding:20px 22px;margin-top:28px}
+  .ojo p{margin-top:10px;font-size:16.5px}
+  .dos{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:26px;margin-top:26px}
+  .dos>div{border-top:2px solid var(--tinta);padding-top:13px;min-width:0}
+  .dos b{display:block;font-size:16.5px;letter-spacing:-.015em;margin-bottom:7px}
+  .dos p{font-size:15.5px;margin:0;color:var(--gris)}
+  .copy{background:var(--papel2);border-left:3px solid var(--tinta);padding:14px 18px;margin-top:14px;font-size:15.5px;line-height:1.55;white-space:pre-wrap}
+  .copy .et{display:block;margin-bottom:6px}
+  .tabla{width:100%;border-collapse:collapse;margin-top:24px;font-size:15px}
+  .tw{overflow-x:auto}
+  .tabla th{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);font-weight:400;text-align:left;padding:0 12px 10px 0;border-bottom:1px solid var(--tinta)}
+  .tabla td{padding:13px 12px 13px 0;border-bottom:1px solid var(--tiza);vertical-align:top;line-height:1.5}
+  .tabla td span{color:var(--gris)}
+  .ad{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:24px;margin-top:30px;padding-top:22px;border-top:1px solid var(--tiza);align-items:start}
+  .ad img{width:100%;height:auto;display:block;border:1px solid var(--tiza)}
+  .ad h4{font-size:17px;margin:0;letter-spacing:-.015em}
+  .ad p{font-size:15.5px;margin-top:8px}
+  code{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:var(--papel2);padding:2px 5px;word-break:break-all}
+  footer{margin-top:66px;border-top:1px solid var(--tinta);padding-top:17px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gris2)}
+  @media(max-width:600px){.paso{grid-template-columns:1fr;gap:4px}.ad{grid-template-columns:1fr}.ad img{max-width:260px}}
+  @media print{body{background:#fff}.hoja{padding:0}section{break-inside:avoid}}
+</style>
+</head>
+<body><div class="hoja">
+<div class="caja">Cáscara Founders · Devolución · 23/11</div>
+<h1>Tu propuesta, leída</h1>
+<p class="bajada">Caro: leí la propuesta nueva. Está muy bien: es el proceso de la sesión del 20/11, con tu estética y en un documento que ya se puede presentar. Acá va lo que funciona, los ajustes antes de mandarla y lo que vemos mañana en la llamada.</p>
+<div class="lista"><div><div class="et">Lo que funciona</div><div class="tx">Se vende el proceso entero, con precio único y tu historia de París adelante.</div></div><div><div class="et">Lo que ajustaría</div><div class="tx">Para quién es, qué pasa en el mes 3 y las cantidades de cada mes.</div></div><div><div class="et">Mañana</div><div class="tx">Tus dudas, la transición de tus clientes actuales y el equipo.</div></div></div>
+<section><div class="n">01</div><h2>Lo que está muy bien</h2>
+<div class="paso"><div class="k">La oferta</div><div><b>Se contrata el proceso entero</b><span>Dirección y ejecución juntas, con el precio único y las tres formas de pago tal cual las definimos. Es el cambio más importante respecto de tus propuestas anteriores.</span></div></div>
+<div class="paso"><div class="k">Tu diferencial</div><div><b>París, adelante</b><span>«Quién soy» cuenta tu formación en marketing de lujo, que antes no aparecía en ningún lado. Es lo que te separa de cualquier estudio de redes.</span></div></div>
+<div class="paso"><div class="k">El mecanismo</div><div><b>Los tres principios del lujo</b><span>Narrativa antes que producto, coherencia en cada punto de contacto y valor percibido antes que precio. Explica cómo pensás sin hablar de posteos.</span></div></div>
+<div class="paso"><div class="k">Las reglas</div><div><b>Lo que no incluye y las condiciones, escritos</b><span>Producción, pauta y moderación quedan afuera; la reserva es con el primer pago y el contrato llega después. Escrito antes, se evitan las conversaciones incómodas.</span></div></div>
+</section>
+<section><div class="n">02</div><h2>Lo que ajustaría antes de presentarla</h2>
+<div class="paso"><div class="k">1 · Para quién</div><div><b>Sumá una página de para quién es</b><span>Marcas premium de hospitalidad y diseño (hoteles boutique, restaurantes, estudios de interiorismo, joyería) que quieren verse y venderse como marcas de lujo. Y para quién no es: quien no tiene presupuesto para producir o solo quiere «redes lindas». Filtrar sube el valor de lo que vendés.</span></div></div>
+<div class="paso"><div class="k">2 · El mes 3</div><div><b>Que se vea qué se produce</b><span>Hoy se llama «Ajuste y cierre» y parece que el último mes es solo un informe. Es el mes de escalar: más de lo que funcionó en contenido, publicaciones y pauta, y además la lectura de resultados y el plan para seguir.</span></div></div>
+<div class="paso"><div class="k">3 · Las cantidades</div><div><b>Un número o un rango por mes</b><span>Cuántas jornadas de producción, cuántas piezas e historias. Poné lo que tu equipo puede sostener; un rango alcanza. Sin número, cada cliente va a pedir más.</span></div></div>
+<div class="paso"><div class="k">4 · El objetivo</div><div><b>Un resultado que se mida</b><span>En el diagnóstico del mes 1 se fija un objetivo medible con el cliente (consultas, reservas o ventas), y el informe final lo lee. Nombralo en la propuesta: es lo que justifica el proceso.</span></div></div>
+<div class="paso"><div class="k">5 · Tus clientes</div><div><b>Menos nombres, más caso</b><span>Veintinueve marcas es mucho y mezcla rubros. Quedate con las que encajan con tu cliente ideal, como Palacio Duhau, Duhau Pâtisserie, Gioia y Reserva Alto Agrelo, y sumá un caso con resultado: dos años con Palacio Duhau, con lo que movió.</span></div></div>
+<div class="paso"><div class="k">6 · En positivo</div><div><b>Contalo por lo que es</b><span>«No hacemos piezas sueltas» y «una marca de lujo no se construye con soluciones sueltas» se leen mejor dichos en positivo: «Dirigimos la comunicación completa» y «Una marca de lujo se construye con un proceso, con principio y final».</span></div></div>
+<div class="paso"><div class="k">7 · Detalles</div><div><b>Antes de mandarla</b><span>«Cómo trabajamos» habla de cuatro momentos y numera tres (la dirección quedó sin número). Dice «diagnotico». Y el encabezado alterna @CARO.LALIN.STUDIO y @CARO.LALIN.ESTUDIO: dejá el que corresponde en todas las páginas.</span></div></div>
+</section>
+<section><div class="n">03</div><h2>Para la llamada de mañana</h2>
+<div class="paso"><div class="k">Tus dudas</div><div><b>Traelas anotadas</b><span>Las de los detalles que no sabés cómo adaptar: las resolvemos sobre la propuesta.</span></div></div>
+<div class="paso"><div class="k">Tus clientes actuales</div><div><b>Quién pasa primero al formato nuevo</b><span>Los premium, cuando renuevan, con un precio partner si hace falta. Los que no encajan, con un cierre prolijo y con fecha. Cada uno que entra libera a uno que sale.</span></div></div>
+<div class="paso"><div class="k">Tu equipo</div><div><b>Las dos búsquedas</b><span>Te dejamos en la app la carta para contratar al editor y al estratega creativo, con los dos roles en borrador. Con Teo, los jueves, los filtros y la prueba.</span></div></div>
+</section>
+<footer><span>Cáscara Founders</span><span>Carolina Lalin · Devolución de Facu · 23/11/2026</span></footer>
+</div></body></html>
