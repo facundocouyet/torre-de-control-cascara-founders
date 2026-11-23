@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SOP · Gira la Cámara: vender, cobrar y entregar</title>
+<style>
+  :root{--tinta:#171717;--papel:#ECEAE4;--papel2:#FBFAF8;--gris:#6A6A66;--gris2:#8E8B85;--tiza:#DBD7D2;--rojo:#FE1414}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--papel);color:var(--tinta);font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+  .hoja{max-width:860px;margin:0 auto;padding:60px 26px 120px}
+  .caja{display:inline-flex;border:1px solid var(--gris2);padding:6px 12px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris)}
+  h1{font-size:clamp(38px,6.4vw,62px);font-weight:800;letter-spacing:-.035em;line-height:1.02;margin:26px 0 0;max-width:17ch}
+  .bajada{font-size:19px;line-height:1.55;margin:20px 0 0;max-width:64ch}
+  .lista{margin-top:36px;border-top:1px solid var(--tinta);padding-top:19px;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px 34px}
+  .lista .et,.et{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2)}
+  .lista .tx{font-size:14.5px;line-height:1.5;margin-top:6px}
+  section{margin-top:58px;border-top:1px solid var(--tiza);padding-top:26px}
+  .n{font-size:10px;letter-spacing:.2em;color:var(--gris2)}
+  h2{font-size:clamp(25px,3.4vw,31px);font-weight:800;letter-spacing:-.028em;line-height:1.16;margin:9px 0 0;max-width:26ch}
+  h3{font-size:19px;font-weight:800;letter-spacing:-.02em;margin:34px 0 0}
+  p{font-size:17px;line-height:1.6;margin:15px 0 0;max-width:66ch}
+  b{font-weight:700}
+  .paso{display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;padding:17px 0;border-bottom:1px solid var(--tiza);align-items:baseline}
+  .paso:first-of-type{border-top:1px solid var(--tiza)}
+  .paso .k{font-size:17px;line-height:1.2;font-weight:800;letter-spacing:-.02em;color:var(--gris2)}
+  .paso>div>b{display:block;font-size:17.5px;letter-spacing:-.015em;margin-bottom:5px}
+  .paso span{font-size:15.5px;line-height:1.55;color:var(--gris)}
+  .paso.cta{background:var(--papel2);margin:0 -14px;padding:17px 14px}
+  .paso.cta .k{color:var(--rojo)}
+  .ojo{border:1px solid var(--tinta);padding:20px 22px;margin-top:28px}
+  .ojo p{margin-top:10px;font-size:16.5px}
+  .dos{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:26px;margin-top:26px}
+  .dos>div{border-top:2px solid var(--tinta);padding-top:13px;min-width:0}
+  .dos b{display:block;font-size:16.5px;letter-spacing:-.015em;margin-bottom:7px}
+  .dos p{font-size:15.5px;margin:0;color:var(--gris)}
+  .copy{background:var(--papel2);border-left:3px solid var(--tinta);padding:14px 18px;margin-top:14px;font-size:15.5px;line-height:1.55;white-space:pre-wrap}
+  .copy .et{display:block;margin-bottom:6px}
+  .tabla{width:100%;border-collapse:collapse;margin-top:24px;font-size:15px}
+  .tw{overflow-x:auto}
+  .tabla th{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);font-weight:400;text-align:left;padding:0 12px 10px 0;border-bottom:1px solid var(--tinta)}
+  .tabla td{padding:13px 12px 13px 0;border-bottom:1px solid var(--tiza);vertical-align:top;line-height:1.5}
+  .tabla td span{color:var(--gris)}
+  .ad{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:24px;margin-top:30px;padding-top:22px;border-top:1px solid var(--tiza);align-items:start}
+  .ad img{width:100%;height:auto;display:block;border:1px solid var(--tiza)}
+  .ad h4{font-size:17px;margin:0;letter-spacing:-.015em}
+  .ad p{font-size:15.5px;margin-top:8px}
+  code{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:var(--papel2);padding:2px 5px;word-break:break-all}
+  footer{margin-top:66px;border-top:1px solid var(--tinta);padding-top:17px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gris2)}
+  @media(max-width:600px){.paso{grid-template-columns:1fr;gap:4px}.ad{grid-template-columns:1fr}.ad img{max-width:260px}}
+  @media print{body{background:#fff}.hoja{padding:0}section{break-inside:avoid}}
+
+  pre{background:var(--tinta);color:#ECEAE4;padding:16px 18px;overflow-x:auto;font-size:12.5px;line-height:1.5;margin-top:14px;font-family:ui-monospace,Menlo,monospace;white-space:pre}
+  .num{font-size:44px;font-weight:800;letter-spacing:-.04em;line-height:1}
+  .kp{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:18px;margin-top:24px}
+  .kp>div{border-top:2px solid var(--tinta);padding-top:12px;min-width:0}
+  .kp .et{display:block;margin-top:6px}
+  .chk{list-style:none;padding:0;margin:18px 0 0;border-top:1px solid var(--tinta)}
+  .chk li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:12px;padding:11px 0;border-bottom:1px solid var(--tiza);font-size:16px;line-height:1.5}
+  .chk li::before{content:"";width:14px;height:14px;border:2px solid var(--gris);margin-top:5px}
+  h3 .h{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);font-weight:400;margin-right:8px}
+</style>
+</head>
+<body><div class="hoja">
+<div class="caja">Cáscara Founders · SOP · 23/11</div>
+<h1>Gira la Cámara: vender, cobrar y entregar</h1>
+<p class="bajada">Seba: acá está todo junto para los días que vienen. Lo que dicen tus 172 registros, los precios y las cuotas, cómo es la llamada de venta, cómo cobrar, el programa armado con lo que hablamos y nuestras recomendaciones, los impuestos y lo que queda por resolver, con fecha.</p>
+<div class="lista"><div><div class="et">Hoy y mañana</div><div class="tx">El bootcamp, los mensajes a tus registrados con prioridad, los medios de pago abiertos y la llamada con tu contador.</div></div><div><div class="et">Desde el día 3</div><div class="tx">Llamadas de venta, cobro en el momento y bienvenida el mismo día, hasta el cierre.</div></div><div><div class="et">El programa</div><div class="tx">Del 30/11 al 7/2, con pausa del 21/12 al 3/1, como quedó el 21/10.</div></div></div>
+<section><div class="n">01</div><h2>Dónde estás: tus registros</h2>
+<div class="kp"><div><div class="num">172</div><span class="et">registros al 23/11</span></div><div><div class="num">88</div><span class="et">llegaron por los anuncios</span></div><div><div class="num">84</div><span class="et">cobran por proyecto o con fee mensual</span></div><div><div class="num">40</div><span class="et">todavía no cobran</span></div></div>
+<p>Pasaste de 38 a 172 en cinco días, desde que se prendió la pauta: 28 el jueves, 34 el viernes, 17 el sábado, 39 el domingo y 15 hoy hasta las 16. El anuncio que más trae es video12-b, con 52. ManyChat trajo 44 y tu Instagram 27. El 94% es de Chile.</p>
+<div class="tw"><table class="tabla"><thead><tr><th>Prioridad</th><th>Quiénes</th><th>Cuántos</th><th>Qué hacés</th></tr></thead><tbody><tr><td><b>A</b></td><td><span>Creativos que ya cobran: filmmakers, fotógrafos, diseñadores, editores e ilustradores</span></td><td><span>71 (30 te dejaron una pregunta)</span></td><td><span>Les escribís vos antes del día 3, empezando por los que preguntaron. Son tu cliente ideal</span></td></tr><tr><td><b>B</b></td><td><span>Ya cobran, con un oficio más amplio: marketing, comunicación u otro</span></td><td><span>61</span></td><td><span>Segundo. Muchos venden servicios creativos con otro nombre: la llamada lo aclara</span></td></tr><tr><td><b>C</b></td><td><span>Todavía no cobran</span></td><td><span>40</span></td><td><span>Llamada solo si tienen un servicio definido. Si no, todavía no es para ellos: los invitás al próximo cohort</span></td></tr></tbody></table></div>
+<p>Te pasamos tu planilla con una columna de prioridad, para que filtres y escribas en orden.</p>
+<p><b>Qué quieren.</b> A seis meses, la mayoría quiere vender un servicio mensual o recurrente, o asesorías. <b>Qué preguntan:</b> cómo conseguir clientes y hablarles, cómo vender sin sentir que venden humo y qué publicar. Es exactamente lo que cubren tus tres días y tu programa: usá sus palabras en la llamada.</p>
+<p><b>Qué esperar.</b> De cada 100 registrados, unos 60 entran al menos a un día. En nuestros eventos gratis vendimos alrededor de una venta cada 100 registrados en la ventana del evento; vos tenés una audiencia más chica y más cercana, y la venta es por llamada. La primera edición se mide en lugares vendidos, no en registros: el objetivo que definimos el 12/11 son 10 lugares. Para llegar, cada uno de los A tiene que recibir un mensaje tuyo antes del día 3.</p>
+</section>
+<section><div class="n">02</div><h2>Los precios, las cuotas y los aumentos</h2>
+<p>Es un repaso de lo que quedó definido el 21/10. No cambia nada.</p>
+<div class="tw"><table class="tabla"><thead><tr><th>Qué</th><th>Cómo quedó</th></tr></thead><tbody><tr><td><b>Los primeros 5 lugares</b></td><td><span>USD 997</span></td></tr><tr><td><b>Desde el sexto lugar</b></td><td><span>USD 1.200</span></td></tr><tr><td><b>En cuotas</b></td><td><span>3 cuotas de USD 480, con recargo para que convenga pagar de contado</span></td></tr><tr><td><b>Downsell</b></td><td><span>No hay</span></td></tr><tr><td><b>Hasta cuándo</b></td><td><span>Hasta el cierre de la venta. Era el 22/11 a las 23:59; con el bootcamp corrido al 23, 24 y 25, la fecha la confirmamos con vos</span></td></tr><tr><td><b>Próximo cohort</b></td><td><span>En febrero, desde USD 1.500, en formato evergreen con lo que aprendas de este</span></td></tr></tbody></table></div>
+<div class="paso"><div class="k">Regla 1</div><div><b>El precio es final</b><span>Para una persona incluye el IVA (ver el punto de impuestos). Fijalo en pesos y en USDT antes del día 3 y no lo cambies durante la venta.</span></div></div>
+<div class="paso"><div class="k">Regla 2</div><div><b>El aumento se anuncia y se cumple</b><span>En el grupo del bootcamp, el contador de lugares: «quedan 3 de los 5 lugares con precio promocional». Cuando se completan los 5, avisás que el precio pasa a 1.200. Al que llega después, le ofrecés las cuotas, no el precio de los primeros.</span></div></div>
+<div class="paso cta"><div class="k">Regla 3</div><div><b>Son 15 lugares</b><span>Es lo que comunicás: 15 lugares en total, y los primeros 5 con precio promocional. El objetivo que definimos el 12/11 sigue siendo 10: con 10, está cumplido.</span></div></div>
+</section>
+<section><div class="n">03</div><h2>Cómo lo contás en el bootcamp: días 2 y 3</h2>
+<p>Un solo mensaje, igual en los dos días, en el grupo y en cada llamada: <b>son 15 lugares, y los primeros 5 entran con un precio promocional.</b> El número exacto y las cuotas, en la llamada, después de ver si el programa le sirve a esa persona.</p>
+<h3><span class="h">Día 2</span>El cierre del día 2: se abre la conversación</h3>
+<p>En las slides de Gira la Cámara, después del ejercicio del calendario. Dos minutos, sin precio.</p>
+<pre>«Muchos me preguntaron después del Hub y de la masterclass si había algo más largo. Lo hay: se llama Gira la Cámara, son ocho semanas en grupo chico, y lo que hicimos ayer y hoy es la primera parte.
+
+Abro 15 lugares. Los primeros 5 entran con un precio promocional.
+
+Si querés saber si es para vos, escaneá el QR y escribime. No es para inscribirte hoy: es para que conversemos.»</pre>
+<div class="paso cta"><div class="k">Después</div><div><b>Treinta segundos de silencio con el QR</b><span>Titi pega el link del WhatsApp en el chat. A los que escriben esa noche, les proponés la llamada para el día siguiente.</span></div></div>
+<h3><span class="h">Día 3</span>La oferta del día 3: se invita a la llamada</h3>
+<p>En el bloque de la oferta, después del recap. Contás el programa (los tres bloques, qué se lleva cada uno y el formato) y cerrás así:</p>
+<pre>«Son 15 lugares. Los primeros 5 tienen un precio promocional, y ya quedan [X].
+
+El precio y las cuotas te los cuento en una llamada, porque primero quiero ver si esto te sirve a vos. Escaneá el QR y agendemos.
+
+La venta cierra el [fecha de cierre].»</pre>
+<div class="paso cta"><div class="k">Después</div><div><b>El QR en pantalla durante todo el Q&A</b><span>Como en el día 1. Titi responde en el chat y propone la llamada a cada uno que pregunta por el programa.</span></div></div>
+<h3><span class="h">Grupo</span>En el grupo de WhatsApp, cada noche</h3>
+<pre>«Hoy cerramos el día [2 o 3] del bootcamp. Gira la Cámara: 15 lugares, y quedan [X] de los 5 con precio promocional. Si querés conversar, escribime acá: [link de WhatsApp]»</pre>
+<div class="paso cta"><div class="k">Regla</div><div><b>El contador siempre dice la verdad</b><span>Actualizalo con cada venta y nunca digas que quedan menos de los que quedan. Cuando se completan los 5 promocionales, avisás que el precio pasa a 1.200. Cuando se completan los 15, cerrás y abrís una lista de espera para febrero.</span></div></div>
+</section>
+<section><div class="n">04</div><h2>La llamada de venta</h2>
+<p>Es una conversación para entender si podés ayudar a esa persona, no una presentación. Hablás menos de la mitad del tiempo, y el precio aparece recién al final, conectado a lo que te contó.</p>
+<h3><span class="h">Antes</span>De la conversación a la llamada</h3>
+<div class="paso"><div class="k">1</div><div><b>Respondé rápido</b><span>Al que escribe por el QR o por DM, en minutos. Una o dos preguntas: qué hace y qué quiere resolver. Lo demás ya está en su registro.</span></div></div>
+<div class="paso"><div class="k">2</div><div><b>La llamada dentro de las 48 horas</b><span>Bloqueá tu agenda desde el día 3 hasta el cierre con espacios de 40 minutos. Le pasás dos horarios concretos, no un «cuándo podés».</span></div></div>
+<div class="paso cta"><div class="k">3</div><div><b>El recordatorio</b><span>El mismo día, dos horas antes, con el link. Durante el bootcamp, que Titi responda los DMs y proponga la llamada.</span></div></div>
+<h3><span class="h">Durante</span>La llamada, en 40 minutos</h3>
+<div class="tw"><table class="tabla"><thead><tr><th>Momento</th><th>Cuánto</th><th>Qué hacés</th></tr></thead><tbody><tr><td><b>1 · Conexión</b></td><td><span>3 min</span></td><td><span>Cómo llegó y qué le quedó del bootcamp. Escuchá: ahí aparece su palabra para el problema</span></td></tr><tr><td><b>2 · Situación</b></td><td><span>5 min</span></td><td><span>Qué hace, a quién le vende y cómo cobra hoy. Confirmá lo del registro en vez de preguntarlo de cero</span></td></tr><tr><td><b>3 · Problema</b></td><td><span>5 min</span></td><td><span>Qué le pasa: le piden descuento, vende proyectos sueltos, no sabe qué publicar. Pedile un ejemplo de la última vez</span></td></tr><tr><td><b>4 · Consecuencia</b></td><td><span>3 min</span></td><td><span>«Si en seis meses seguís igual, ¿qué pasa?»</span></td></tr><tr><td><b>5 · Urgencia</b></td><td><span>1 min</span></td><td><span>«Del 1 al 10, ¿qué tan urgente es resolverlo?» Si dice menos de 7: «¿qué tendría que pasar para que sea un 10?»</span></td></tr><tr><td><b>6 · Nutrición</b></td><td><span>1 min</span></td><td><span>«¿Hace cuánto me seguís?» Te dice cuánta confianza ya hay</span></td></tr><tr><td><b>7 · El programa</b></td><td><span>8 min</span></td><td><span>Contalo con sus palabras: los tres bloques, conectados a lo que te dijo. Solo lo que le sirve a él</span></td></tr><tr><td><b>8 · El precio</b></td><td><span>2 min</span></td><td><span>Decilo una vez, con el lugar fundador si queda, y quedate callado. El primero que habla después del precio es él</span></td></tr><tr><td><b>9 · Las dudas</b></td><td><span>5 min</span></td><td><span>Preguntá qué hay detrás de cada duda antes de responder</span></td></tr><tr><td><b>10 · El cierre</b></td><td><span>2 min</span></td><td><span>Si dice que sí, el mensaje con los medios de pago en ese momento. Si dice que no, agradecé, dejá la puerta abierta y anotá por qué</span></td></tr></tbody></table></div>
+<h3><span class="h">Dudas</span>Las que más vas a escuchar</h3>
+<div class="tw"><table class="tabla"><thead><tr><th>Lo que dice</th><th>Qué hay detrás</th><th>Qué respondés</th></tr></thead><tbody><tr><td><b>«Es caro»</b></td><td><span>Casi nunca es el precio: duda si lo va a usar o si vale la pena</span></td><td><span>«¿Qué tendría que pasar para que sientas que valió la pena?» Volvé a lo que se lleva y ofrecé las cuotas</span></td></tr><tr><td><b>«Es diciembre»</b></td><td><span>Teme que las fiestas lo corten</span></td><td><span>Arranca el 30/11, con pausa del 21/12 al 3/1 para las fiestas. Los 997 son solo para los primeros 5</span></td></tr><tr><td><b>«Lo tengo que pensar»</b></td><td><span>Falta una respuesta</span></td><td><span>«¿Qué es lo que tenés que pensar?» Resolvelo en la llamada. Si necesita tiempo, una fecha concreta antes del cierre</span></td></tr><tr><td><b>«No tengo tiempo»</b></td><td><span>Teme no poder seguir el ritmo</span></td><td><span>Dos horas por semana en vivo, grabadas, y el desafío es sobre su propio trabajo</span></td></tr><tr><td><b>«Todavía no cobro»</b></td><td><span>Puede no ser para él todavía</span></td><td><span>Si no tiene un servicio definido, decíselo y invitalo al próximo cohort. Vender a quien no le sirve te cuesta el testimonio</span></td></tr></tbody></table></div>
+<h3><span class="h">Después</span>El seguimiento</h3>
+<p>El que compró: bienvenida el mismo día. El que no: un mensaje a las 24 horas con lo que charlaron, y uno más antes del cierre. Todo anotado en tu planilla: quién tuvo llamada, qué dijo y en qué quedó.</p>
+</section>
+<section><div class="n">05</div><h2>Los medios de este lanzamiento</h2>
+<div class="tw"><table class="tabla"><thead><tr><th>Medio</th><th>Para quién</th><th>Costo</th><th>Cuándo tenés la plata</th></tr></thead><tbody><tr><td><b>USDT en Binance</b></td><td><span>El que ya tiene dólares digitales, de Chile o de cualquier país. Es la forma más simple de cobrarle a alguien de afuera</span></td><td><span>Casi nada para recibir. Al pasarlo a pesos, la comisión del cambio</span></td><td><span>En minutos, en USDT. A pesos, cuando lo cambiás</span></td></tr><tr><td><b>Link de Flow o de Mercado Pago</b></td><td><span>El que paga con tarjeta o débito. Es el único de los tres que permite cuotas con tarjeta</span></td><td><span>Flow: 3,19% + IVA, o 2,89% + IVA si esperás un poco más. Mercado Pago: miralo en tu cuenta, depende del plazo</span></td><td><span>Flow: al día hábil siguiente, o a los tres días</span></td></tr><tr><td><b>Global66 · cuenta empresa</b></td><td><span>El que paga desde otro país. Con GlobalPay le cobrás en su moneda en México, Perú, Colombia o Argentina; y con la cuenta en dólares, el que transfiere desde cualquier lado</span></td><td><span>La cuenta es gratis. Cada cobro tiene un costo que depende del país: lo ves en la plataforma antes de cobrar</span></td><td><span>En segundos en tu billetera de Global66. Para usarla en Chile, la cambiás a pesos y la pasás a la cuenta de Gama 21</span></td></tr><tr><td><b>Transferencia a Gama 21</b></td><td><span>El que prefiere transferir desde su banco</span></td><td><span>Sin comisión</span></td><td><span>En el momento. Pedí siempre el comprobante</span></td></tr></tbody></table></div>
+<p>De los dos links, uno solo: si ya tenés Flow o Mercado Pago activo a nombre de Gama 21, ese. Si no tenés ninguno, Flow, porque tiene suscripciones con cargo automático para las cuotas.</p>
+<h3><span class="h">Global66</span>Cómo se cobra con Global66</h3>
+<div class="paso"><div class="k">1</div><div><b>La cuenta empresa, a nombre de Gama 21</b><span>Se abre online en pocos minutos. Te da una cuenta en pesos, dólares y euros, sin costo de mantenimiento.</span></div></div>
+<div class="paso"><div class="k">2</div><div><b>El botón GlobalPay</b><span>Para el que paga desde México, Perú, Colombia o Argentina: elige su moneda y su medio de pago local, o transfiere. Generás el link desde la plataforma y lo mandás por WhatsApp.</span></div></div>
+<div class="paso"><div class="k">3</div><div><b>La cuenta en dólares</b><span>Para el que está en otro país o tiene dólares en el banco: le pasás los datos de tu cuenta en dólares y transfiere como si fuera local.</span></div></div>
+<div class="paso cta"><div class="k">4</div><div><b>A pesos, cuando lo necesites</b><span>Desde la plataforma cambiás a pesos y transferís a la cuenta de Gama 21. Es una venta más de Gama 21: lleva su boleta, en pesos, al dólar del día en que cobraste.</span></div></div>
+<h3><span class="h">USDT</span>Cómo se cobra en USDT</h3>
+<div class="paso"><div class="k">1</div><div><b>Tu cuenta de Binance, verificada</b><span>Con la verificación de identidad completa. Desde la app: Billetera → Depositar → USDT. Elegí una sola red y quedate con esa: TRC20 (Tron) es la más barata y la más usada en Latinoamérica.</span></div></div>
+<div class="paso"><div class="k">2</div><div><b>La dirección y la red, juntas</b><span>Siempre mandá la dirección junto con el nombre de la red. Si el comprador envía por otra red, la plata se puede perder. Pedile que primero mande un monto chico de prueba si nunca le pagó a nadie en USDT.</span></div></div>
+<div class="paso"><div class="k">3</div><div><b>El precio en USDT</b><span>USD 997 son 997 USDT, porque el USDT vale un dólar. Las cuotas, 480 USDT cada una.</span></div></div>
+<div class="paso"><div class="k">4</div><div><b>Confirmá que llegó</b><span>En Binance → Billetera → Historial. Con eso, la bienvenida.</span></div></div>
+<div class="paso cta"><div class="k">5</div><div><b>Pasarlo a pesos</b><span>En Binance P2P, vendiendo a una persona que te transfiere a la cuenta de Gama 21, o en un exchange chileno como Buda o Notbank. Cambiá de a montos que necesites: mientras está en USDT, sigue siendo dólares.</span></div></div>
+<p>Ojo con dos cosas. Binance no está inscripto en el registro de la CMF; Buda y Notbank tienen la inscripción en trámite. Y no dejes saldos grandes en ningún exchange más tiempo del necesario.</p>
+</section>
+<section><div class="n">06</div><h2>Lo que dejás listo antes del día 3</h2>
+<div class="paso"><div class="k">1</div><div><b>La cuenta de pago a nombre de Gama 21</b><span>Flow o Mercado Pago con el RUT y la cuenta bancaria de la empresa, no la tuya personal. Las plataformas chilenas piden el inicio de actividades vigente en el SII. Si tu giro no incluye capacitación o cursos, tu contador lo agrega.</span></div></div>
+<div class="paso"><div class="k">2</div><div><b>El precio fijo, en pesos y en USDT</b><span>Pasá los USD 997 y las cuotas de USD 480 a pesos al dólar de hoy, redondeá y anotalo junto al valor en USDT. Ese número no se mueve durante la venta.</span></div></div>
+<div class="paso"><div class="k">3</div><div><b>Dos links</b><span>Uno por el pago completo y otro por la primera cuota. En Flow, la cuota va como suscripción de tres cobros mensuales; en Mercado Pago, un link por cuota.</span></div></div>
+<div class="paso"><div class="k">4</div><div><b>Un pago de prueba de cada medio</b><span>Un monto chico por el link (y reembolsalo), una transferencia, un cobro de Global66 y unos pocos USDT desde otra cuenta. Así sabés cómo se ve cada confirmación.</span></div></div>
+<div class="paso"><div class="k">5</div><div><b>Una llamada con tu contador</b><span>Antes del miércoles, media hora con tu contador en Chile para cerrar cuatro cosas: que el giro de Gama 21 cubra capacitación o cursos, cómo emitís la boleta de cada pago (también los de USDT y Global66), en qué régimen está la empresa y cómo registrar lo que entra en dólares y en cripto. Llevale este SOP.</span></div></div>
+<div class="paso cta"><div class="k">6</div><div><b>El mensaje con los medios de pago, ya escrito</b><span>Lo pegás en el WhatsApp durante la llamada.</span></div></div>
+</section>
+<section><div class="n">07</div><h2>Cómo se cobra en la llamada</h2>
+<div class="paso"><div class="k">1</div><div><b>Cuando dice que sí, el mensaje en el momento</b><span>Con la persona todavía en la llamada. Esperá el pago o el comprobante antes de cortar: el «después lo pago» es el que no paga.</span></div></div>
+<div class="paso"><div class="k">2</div><div><b>La confirmación, el mismo día</b><span>La bienvenida con cuándo arranca, cómo entra al grupo y la primera tarea.</span></div></div>
+<div class="paso"><div class="k">3</div><div><b>El documento</b><span>Una boleta por cada pago, también si paga en USDT: va en pesos, al dólar del día en que cobraste. Si tiene empresa y te pide factura, factura.</span></div></div>
+<div class="paso cta"><div class="k">4</div><div><b>Tu planilla de ventas</b><span>Una fila por venta: nombre, fecha, monto, medio (USDT, link, Global66 o transferencia), cuota 1, 2 o 3, el dólar del día y si emitiste la boleta.</span></div></div>
+<pre>Genial, [nombre]. Para asegurar tu lugar en Gira la Cámara tenés estas formas:
+
+1) Con tarjeta o débito, también en cuotas: [link]
+2) Transferencia: Estudio Gama 21 · RUT [RUT] · [banco] · Cuenta corriente [n.°] · [mail]
+3) En USDT: [monto] USDT a la dirección [dirección] · red TRC20 (solo esa red)
+4) Si estás fuera de Chile: [link de GlobalPay] o transferencia a la cuenta en dólares de Gama 21
+
+Mandame el comprobante por acá y te paso la bienvenida y el acceso al grupo.</pre>
+<h3><span class="h">Cuotas</span>Las tres cuotas</h3>
+<p>La primera se paga en la llamada. Las otras dos, con el cargo automático de Flow, con un link el mismo día de cada mes, o por el mismo medio con el que pagó la primera. Dos días antes, un recordatorio corto por WhatsApp.</p>
+</section>
+<section><div class="n">08</div><h2>El servicio, armado</h2>
+<p>Es lo que cerramos el 21/10, ordenado en una sola tabla. Al final, nuestras recomendaciones: si alguna no te cierra, la charlamos.</p>
+<div class="tw"><table class="tabla"><thead><tr><th>Tema</th><th>Cómo queda</th></tr></thead><tbody><tr><td><b>Nombre</b></td><td><span>Gira la Cámara · Cohort fundador</span></td></tr><tr><td><b>La promesa</b></td><td><span>Prometés lo que el programa controla: lo que cada uno sale haciendo, no los clientes que va a conseguir</span></td></tr><tr><td><b>Para quién es</b></td><td><span>Creativos que ya venden servicios (filmmakers, fotógrafos, diseñadores, editores) y quieren que los elijan por su criterio y no por su precio</span></td></tr><tr><td><b>Para quién no es</b></td><td><span>El que busca un curso de cámara o crecer en seguidores, y el que todavía no tiene un servicio para vender</span></td></tr><tr><td><b>Fechas</b></td><td><span>Onboarding desde el 23/11 y programa del 30/11 al 7/2, con pausa del 21/12 al 3/1. Este cohort arranca todo junto el mismo día. Con el bootcamp corrido, el onboarding lo confirmamos con vos</span></td></tr><tr><td><b>Grupales</b></td><td><span>Dos por semana, de 60 minutos y grabadas: una de teoría y otra de práctica sobre el desafío</span></td></tr><tr><td><b>Uno a uno</b></td><td><span>Onboarding, un check-in entre las semanas 4 y 6, y el off-boarding. Al que se atrasa, el check-in que haga falta</span></td></tr><tr><td><b>Invitados</b></td><td><span>Semanas 4 y 5: personas que viven del contenido o que venden sus servicios con su marca personal</span></td></tr><tr><td><b>Dónde vive</b></td><td><span>Skool, en este orden: un video tuyo de mentalidad, las 5 clases piloto, los 3 días del bootcamp y cada grupal apenas termina. Un grupo privado de WhatsApp del cohort</span></td></tr><tr><td><b>Bonus</b></td><td><span>Las 5 clases piloto y el bootcamp de 3 días, grabados</span></td></tr></tbody></table></div>
+<h3><span class="h">Recorrido</span>El recorrido del programa</h3>
+<div class="tw"><table class="tabla"><thead><tr><th>Cuándo</th><th>Qué se trabaja</th><th>Con qué sale cada uno</th></tr></thead><tbody><tr><td><b>Desde el arranque</b></td><td><span>Tu secuencia: identidad, sistema y presencia. Primero, tu video de mentalidad</span></td><td><span>Su diferencial y su historia</span></td></tr><tr><td><b>Semana 2</b></td><td><span>Bio y destacadas, apenas pierden el miedo a grabarse: el Profile Funnel. El primer video sale esta semana</span></td><td><span>Su perfil armado y su primer video</span></td></tr><tr><td><b>Semanas 4 y 5</b></td><td><span>Cliente ideal y oferta, simple: a quién le venden, qué promesa y qué precio. Con invitados</span></td><td><span>La hoja de su cliente ideal y su oferta</span></td></tr><tr><td><b>Semanas 6 a 8</b></td><td><span>Ángulos y calendario: sus guiones ordenados con los ángulos de su cliente ideal</span></td><td><span>Su propio mini lanzamiento de tres o cuatro semanas</span></td></tr><tr><td><b>El cierre</b></td><td><span>El proceso comercial: cómo llevar una conversación a una llamada, cómo es la llamada y cómo presentar el precio</span></td><td><span>Su propuesta, lista para enviar</span></td></tr><tr><td><b>Off-boarding</b></td><td><span>Qué logró cada uno y qué sigue</span></td><td><span>La opción de seguir con vos en una consultoría uno a uno</span></td></tr></tbody></table></div>
+<h3><span class="h">Recomendaciones</span>Lo que sumamos</h3>
+<div class="paso"><div class="k">1</div><div><b>Los guiones se revisan en vivo</b><span>Los traen a la grupal y el feedback a uno le sirve a todos. Sale la palabra «aprobados».</span></div></div>
+<div class="paso"><div class="k">2</div><div><b>Medí quién mandó la propuesta</b><span>Anotalo semana a semana. En el off-boarding es lo que te explica por qué alguien tuvo o no tuvo resultado.</span></div></div>
+<div class="paso"><div class="k">3</div><div><b>Los testimonios, desde la semana 2 (recomendación)</b><span>Cuando publican su primer video, pedí una captura y dos líneas. En el cierre, un video corto. Es lo que vende el cohort de febrero.</span></div></div>
+<div class="paso"><div class="k">4</div><div><b>El off-boarding abre lo que sigue</b><span>La consultoría uno a uno con vos, o el lugar en el cohort de febrero.</span></div></div>
+<div class="paso cta"><div class="k">5</div><div><b>Con Teo, lo operativo</b><span>Los pagos, Skool y el tablero de seguimiento de alumnos. Agendalo esta semana.</span></div></div>
+</section>
+<section><div class="n">09</div><h2>Los impuestos en Chile, en simple</h2>
+<p>Son tres cosas: el IVA, que se paga todos los meses sobre lo que vendés; el impuesto a la renta, que se paga una vez por año sobre lo que gana Gama 21; y lo propio de cobrar en cripto. Todo se registra en pesos.</p>
+<h3><span class="h">IVA</span>El IVA, todos los meses</h3>
+<p>Desde 2023 casi todos los servicios pagan IVA del 19%. Si vendés como Gama 21, Gira la Cámara lleva IVA. La exención de educación es para colegios, institutos y organismos de capacitación inscriptos, así que no aplica a un programa como este.</p>
+<div class="tw"><table class="tabla"><thead><tr><th>A quién le vendés</th><th>Qué precio decís</th><th>Qué emitís</th></tr></thead><tbody><tr><td><b>A una persona</b></td><td><span>El precio final, con el IVA incluido: al consumidor siempre se le informa el precio total. De los USD 997, unos 159 son IVA y te quedan unos 838</span></td><td><span>Boleta electrónica por cada pago</span></td></tr><tr><td><b>A una empresa (un estudio o una productora con RUT)</b></td><td><span>El neto más IVA: USD 997 más 19%, unos 1.186. La empresa recupera ese IVA, así que para ella el costo sigue siendo 997</span></td><td><span>Factura electrónica</span></td></tr></tbody></table></div>
+<p>Se declara en el formulario 29, hasta el 20 del mes siguiente. Pagás el IVA de tus ventas menos el IVA de tus compras del giro: la comisión de Flow o de Mercado Pago viene con factura y su IVA se descuenta.</p>
+<h3><span class="h">Renta</span>El impuesto a la renta, una vez por año</h3>
+<p>Gama 21 paga impuesto de primera categoría sobre su utilidad: lo que vendió menos lo que gastó para venderlo (pauta, editores, plataformas, herramientas). La tasa depende del régimen: 25% en el régimen Pro Pyme y 27% en el general, con rebajas transitorias que tu contador te confirma. Se declara en abril, en el formulario 22. Por eso conviene guardar la factura o el comprobante de cada gasto desde hoy.</p>
+<p>Lo que después retirás de la empresa para vos tributa en tu impuesto personal, el global complementario, que sube a medida que ganás más y descuenta lo que ya pagó la empresa.</p>
+<h3><span class="h">Cripto</span>Lo propio de cobrar en USDT</h3>
+<p>El USDT no es moneda en Chile: el SII lo trata como un activo digital. Cuando cobrás 997 USDT, la venta se registra en pesos al dólar de ese día y lleva su boleta e IVA, como cualquier otra. Si después lo cambiás a pesos a un dólar distinto, esa diferencia es ganancia o pérdida de Gama 21. Y los exchanges que operan en Chile informan las operaciones de sus usuarios al SII: todo lo que entra por cripto tiene que estar en tu planilla de ventas. Lo mismo con Global66: es una empresa chilena, pide tu RUT, y lo que pasás a tu banco queda registrado.</p>
+<h3><span class="h">Otra forma</span>Si no vendés como empresa</h3>
+<p>Como persona natural, con boleta de honorarios, no lleva IVA, pero tiene una retención del 15,25% en 2026. Para este lanzamiento, mejor Gama 21.</p>
+<p>Para esta semana alcanza con esto: precio final con IVA incluido a personas, neto más IVA a empresas, una boleta o factura por cada pago y la planilla al día. Lo demás lo cerrás en la llamada con tu contador antes del miércoles.</p>
+</section>
+<section><div class="n">10</div><h2>El segundo lanzamiento: cobrar en cualquier país</h2>
+<p>Con lo que entre en este lanzamiento, el próximo paso es una empresa en Estados Unidos, una LLC, para tener una pasarela que le cobre a cualquier persona, de cualquier país, con tarjeta. Hay dos caminos.</p>
+<div class="tw"><table class="tabla"><thead><tr><th>Camino</th><th>Qué es</th><th>Costo</th></tr></thead><tbody><tr><td><b>LLC + Stripe</b></td><td><span>La pasarela más usada del mundo. Stripe no abre cuentas a empresas chilenas, por eso hace falta la LLC. Se puede armar con Stripe Atlas</span></td><td><span>Atlas: USD 500 al abrir, más el agente registrado (USD 100 a 300 por año) y el impuesto anual de Delaware. Stripe cobra 2,9% + USD 0,30 por venta</span></td></tr><tr><td><b>LLC + Whop</b></td><td><span>Una plataforma para vender programas y comunidades con la pasarela adentro. En Chile acepta Webpay, Mercado Pago y cuotas con tarjeta de 3, 6 y 12 meses</span></td><td><span>Tarjeta: 2,7% + USD 0,30, más 1,5% si es extranjera. Webpay o Mercado Pago: 4,9% + USD 0,30. Cuotas: 2,9% + USD 0,30</span></td></tr></tbody></table></div>
+<p>Antes de abrir la LLC, una charla con un contador que conozca los dos países: vivís en Chile y Chile cobra impuestos sobre lo que ganás en cualquier parte, así que hay que ver cómo se declara lo que entra por la empresa de Estados Unidos.</p>
+</section>
+<section><div class="n">11</div><h2>Lo que queda por resolver</h2>
+<div class="tw"><table class="tabla"><thead><tr><th>Cuándo</th><th>Qué</th><th>Quién</th></tr></thead><tbody><tr><td><b>Hoy, 23/11</b></td><td><span>Bootcamp día 1. El QR con un motivo: «mandame tu frase y te la devuelvo». Recordatorios al grupo y por mail. La pauta termina a las 19:00: no prendas otra para la venta, la venta es por mensaje y llamada</span></td><td><span>Vos y Titi</span></td></tr><tr><td><b>Mañana, 24/11</b></td><td><span>Abrir los medios de pago (Flow o Mercado Pago, Global66 y Binance) y hacer un pago de prueba de cada uno. Fijar el precio en pesos y en USDT. La llamada con tu contador</span></td><td><span>Vos</span></td></tr><tr><td><b>Mañana, 24/11</b></td><td><span>Escribirles a los 71 de prioridad A, empezando por los 30 que te dejaron una pregunta. Ajustar los días 2 y 3 con el mensaje de los 15 lugares y los 5 promocionales, y la fecha de cierre</span></td><td><span>Vos</span></td></tr><tr><td><b>Miércoles, 25/11</b></td><td><span>Día 3 con la oferta y el QR a la llamada. Tu agenda abierta hasta el cierre</span></td><td><span>Vos</span></td></tr><tr><td><b>Desde el día 3 hasta el cierre</b></td><td><span>Llamadas de venta, cobro en el momento, bienvenida y planilla al día. Seguimiento a las 24 horas a los que no compraron</span></td><td><span>Vos y Titi</span></td></tr><tr><td><b>El cierre</b></td><td><span>Cierre de la venta en la fecha que confirmemos. Aviso al grupo cuando se completen los 5 lugares promocionales, y cierre cuando se completen los 15</span></td><td><span>Vos</span></td></tr><tr><td><b>Antes del arranque</b></td><td><span>Onboarding uno a uno. Skool, grupo del cohort y tablero de seguimiento listos</span></td><td><span>Vos con Teo</span></td></tr><tr><td><b>30/11</b></td><td><span>Arranca el programa, como quedó el 21/10</span></td><td><span>Vos</span></td></tr></tbody></table></div>
+<h3><span class="h">Decisiones</span>Lo que tenés que confirmar</h3>
+<ul><li>La fecha de cierre de la venta: era el 22/11, antes de que el bootcamp pasara al 23, 24 y 25.</li><li>El onboarding: estaba desde el 23/11 y hoy es el día 1 del bootcamp.</li><li>Quién responde los mensajes durante el bootcamp y la semana de venta.</li></ul>
+</section>
+<footer><span>Cáscara Founders</span><span>Seba Martínez · SOP · 23/11/2026</span></footer>
+</div></body></html>
