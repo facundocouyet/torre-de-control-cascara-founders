@@ -1,36 +1,19 @@
 {
   "modulo": "contratar-primer-rol",
-  "titulo": "La hoja de tu primera contratación",
-  "bajada": "El rol escrito antes de salir a buscar, la búsqueda publicada con un formulario que recibe las postulaciones, y una prueba paga sobre trabajo real. Con el tarifario de Cáscara para saber qué pagar.",
-  "lista_cuando": "El formulario está publicado con su link circulando en historias, y hay postulaciones adentro para elegir.",
+  "titulo": "Tu primera contratación: editor o perfil creativo",
+  "bajada": "Los roles escritos, la búsqueda publicada con tres historias que hacen levantar la mano, el formulario de Cáscara recibiendo postulaciones y una prueba paga sobre trabajo real. Con el tarifario de Cáscara para saber qué pagar.",
+  "lista_cuando": "Las historias están publicadas con el link del formulario y hay postulaciones adentro para elegir.",
+  "sin_entregable": true,
   "secciones": [
     {
       "nuestro": true,
-      "titulo": "Lo primero que se delega es lo que no necesita tu criterio",
+      "cid": 0,
+      "titulo": "Los roles, ya escritos",
       "texto": [
-        "No hace falta que midas tu semana hora por hora: casi nadie la tiene medida y la cuenta termina hecha de memoria, que siempre da la mitad. Lo que sí sabés sin medir nada es qué parte de tu trabajo podría hacer otro sin que el resultado cambie.",
-        "Esa es la que se delega primero. En la mayoría de los casos es la edición: se lleva horas, es repetitiva, y el criterio que aporta es el tuyo en el brief, no el de quien la ejecuta.",
-        "Contratar por cansancio termina cubriendo lo que más te molesta en vez de lo que más te libera. No es lo mismo."
+        "Antes de salir a buscar, el rol tiene que estar escrito, porque es lo que va en las historias y en el aviso. Estos son los dos que más se buscan en el programa: el editor, que saca la edición de tus manos, y el perfil creativo, que baja tu dirección a ideas y guiones.",
+        "Tomá el que necesitás tal como está. Si algo no coincide con cómo trabajás, lo ajustamos en la llamada."
       ],
-      "cid": 0
-    },
-    {
-      "titulo": "Qué delegás y qué te queda",
-      "consigna": "Dos columnas. A la izquierda lo que sale de tus manos, a la derecha lo que se queda con vos porque ahí tu criterio es el producto. Tres o cuatro líneas de cada lado alcanzan.",
-      "campo": "tabla",
-      "columnas": [
-        "Lo que delego",
-        "Lo que me queda a mí"
-      ],
-      "filas": 4,
-      "cid": 1
-    },
-    {
-      "titulo": "El rol, escrito antes de buscar",
-      "consigna": "Propósito del rol en una frase, tres a cinco responsabilidades, qué entrega por semana y a quién le reporta. Media página alcanza. Si no entra en media página, el rol todavía no está definido y la búsqueda va a traer gente que no encaja.",
-      "campo": "texto",
-      "alto": 8,
-      "cid": 2
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Editor/a de video</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Para qué está</div><div class=\"v\">Editar el contenido que producís vos o tu equipo, con tu estética, para que la edición deje de pasar por tus manos.</div></div><div class=\"fila\"><div class=\"r\">Qué hace</div><div class=\"v\">Edita reels y piezas de video desde el material grabado; sigue el brief y las referencias de cada pieza; entrega con una ronda de corrección.</div></div><div class=\"fila\"><div class=\"r\">Qué entrega</div><div class=\"v\">Las piezas de la semana, en las fechas del calendario.</div></div><div class=\"fila\"><div class=\"r\">A quién reporta</div><div class=\"v\">A vos, o a quien lleve el calendario.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">Perfil creativo</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Para qué está</div><div class=\"v\">Que tu dirección creativa se convierta en ideas, ángulos y guiones sin que todo pase por vos.</div></div><div class=\"fila\"><div class=\"r\">Qué hace</div><div class=\"v\">Propone conceptos y piezas dentro de tu dirección; escribe guiones y copies; prepara las grabaciones; le baja el brief al editor.</div></div><div class=\"fila\"><div class=\"r\">Qué entrega</div><div class=\"v\">La propuesta creativa del mes, para aprobar con vos antes de producir.</div></div><div class=\"fila\"><div class=\"r\">A quién reporta</div><div class=\"v\">A vos.</div></div></div></div>"
     },
     {
       "nuestro": true,
@@ -40,61 +23,43 @@
         "<b>Short form, hasta 59 segundos:</b> fast reel 12 dólares · simple 25 · avanzado 40 · pro 80.<br><b>Long form, hasta 15 minutos:</b> simple 80 · avanzado 120 · pro 170 (con la intro incluida), más un adicional por minuto extra.<br><b>Podcast, hasta 40 minutos:</b> simple 120 · avanzado 150.<br><b>Clases o charlas de una hora:</b> simple 50 · avanzado 80.<br><b>Adaptaciones y reducciones:</b> simple 12 · avanzada 20.",
         "El detalle completo, con la descripción de cada nivel y los adicionales, está acá: <a href=\"https://app.notion.com/p/Tarifario-P-blico-Edici-n-de-video-382511e68cad80d384ebcc37db03e73c?source=copy_link\" target=\"_blank\" rel=\"noopener\"><b>Tarifario público de edición de video</b></a>. Abrilo antes de fijar tu número.",
         "Para sacar tu número: cuántas piezas por semana necesitás, por el valor del nivel que te sirve, por cuatro. Cinco piezas simples por semana son unos quinientos dólares al mes; si son fast reels, doscientos cuarenta.",
-        "Dos cosas que conviene dejar dichas desde el principio: los presupuestos incluyen hasta tres rondas de corrección, y la urgencia se cobra aparte. Escribirlo antes evita la conversación incómoda después."
+        "Dos cosas que conviene dejar dichas desde el principio: los presupuestos incluyen hasta tres rondas de corrección, y la urgencia se cobra aparte. Escribirlo antes evita la conversación incómoda después.",
+        "El perfil creativo no se paga por pieza: va con un fijo mensual que depende de cuántas cuentas lleve y de las horas. Ese número lo vemos con Teo."
       ],
       "cid": 3
     },
     {
-      "titulo": "El número que podés sostener todos los meses",
-      "consigna": "Contratá con el negocio de hoy: la cifra que podés pagar doce meses seguidos aunque no entre un cliente nuevo. Escribí de qué cliente sale esa plata y el día de pago.",
-      "campo": "lineas",
-      "lineas": [
-        "Cuántas piezas por semana necesito",
-        "De qué nivel",
-        "Cuánto da al mes",
-        "De qué cliente sale esa plata",
-        "Día de pago"
-      ],
-      "cid": 4
-    },
-    {
       "nuestro": true,
+      "cid": 5,
       "titulo": "El formulario, listo para duplicar",
       "texto": [
-        "No armes un formulario de cero. Usá el nuestro: es el mismo con el que Cáscara recibe editores y ya está probado en volumen.",
-        "Acá está, listo para duplicar en tu Notion: <a href=\"https://flowery-beryllium-0df.notion.site/Editors-Hiring-Form-EHF-template-c63511e68cad8385b60081e03aefdb20\" target=\"_blank\" rel=\"noopener\"><b>Editors Hiring Form</b></a>. Trae todo armado: datos de contacto, portfolio, el nivel de edición en el que se ubica cada uno —con las tres descripciones escritas para que no se sobrevalúen—, herramientas, disponibilidad semanal y pretensión por pieza.",
-        "Duplicalo, cambiale el nombre y listo. Las postulaciones caen solas en una base y quedan ahí para comparar. Ese link, el tuyo, es el que va en tus historias."
+        "No armes un formulario de cero. Usá el de Cáscara: es el mismo con el que recibimos editores y ya está probado en volumen. Acá está, listo para duplicar en tu Notion: <a href=\"https://flowery-beryllium-0df.notion.site/Editors-Hiring-Form-EHF-template-c63511e68cad8385b60081e03aefdb20\" target=\"_blank\" rel=\"noopener\"><b>Editors Hiring Form</b></a>.",
+        "Trae todo armado: datos de contacto, portfolio, el nivel de edición en el que se ubica cada uno —con las tres descripciones escritas para que no se sobrevalúen—, herramientas, disponibilidad semanal y pretensión por pieza.",
+        "Hacé una copia por búsqueda. La del editor queda como está. Para el perfil creativo, cambiá la pregunta del nivel de edición por un link a ideas, guiones o campañas que haya hecho, y sacá la pretensión por pieza.",
+        "Las postulaciones caen solas en una base y quedan ahí para comparar. Ese link es el que va en tus historias."
       ],
-      "pregunta": "¿Querés que te lo mandemos duplicado o preferís armarlo vos con estos campos?",
-      "cid": 5
+      "pregunta": "¿Querés que te lo mandemos duplicado o preferís armarlo vos con estos campos?"
     },
     {
       "nuestro": true,
+      "cid": 6,
       "titulo": "Cómo se publica: el handraiser",
       "texto": [
-        "Un aviso suelto no trae postulaciones. Lo que trae gente es una secuencia corta de historias que termina en una acción concreta, que es lo que en Cáscara llamamos un handraiser: alguien levanta la mano y ahí empieza la conversación.",
-        "<b>Las tres historias van el mismo día, una atrás de la otra.</b><br>· <b>Primera</b> — selfie contando el momento real: «estoy editando yo y así no escalo». Sin pedir nada todavía. Esto es lo que hace que la gente escuche.<br>· <b>Segunda</b> — qué buscás, concreto: qué tipo de piezas, cuántas por semana, con qué nivel. Y una encuesta o una caja de preguntas para que la gente toque.<br>· <b>Tercera</b> — el link del formulario, con la fecha de cierre de la convocatoria.",
-        "Van seguidas y el mismo día porque las historias duran veinticuatro horas: si las repartís en tres días, cada una la ve una audiencia distinta y la secuencia se corta. Juntas se leen como una sola cosa.",
-        "Va en tu cuenta personal, que es la que tiene tráfico, no en la de la marca. Y el link va en las tres, porque la gente entra en cualquiera de ellas.",
+        "Un aviso suelto no trae postulaciones. Lo que trae gente es una secuencia corta de historias que termina en una acción concreta: un handraiser, alguien levanta la mano y ahí empieza la conversación.",
+        "Son tres historias por búsqueda, el mismo día y una atrás de la otra, porque duran veinticuatro horas: si las repartís, cada una la ve una audiencia distinta y la secuencia se corta. Si buscás los dos perfiles, primero uno y dos o tres días después el otro. Van en tu cuenta personal, que es la que tiene tráfico, y el link va en las tres.",
+        "Las dejamos escritas. Cambiá las palabras para que suenen a vos, completá lo que está entre corchetes y poné la fecha de cierre: una semana después de publicar.",
         "Después, a los que levantaron la mano se les escribe por privado. Ahí se conversa, no en el formulario."
       ],
-      "cid": 6
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">La búsqueda del editor</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Historia 1 · selfie</div><div class=\"v\">Vos en el momento real, contándolo: «Llegó el momento de armar equipo: esta semana abro una búsqueda». Sin pedir nada todavía.</div></div><div class=\"fila\"><div class=\"r\">Historia 2 · qué buscás</div><div class=\"v\">«Busco editor/a de video para [tu tipo de contenido]: [cuántas] piezas por semana, con brief y referencias de cada una». Con una encuesta: «¿Editás o conocés a alguien?» · «Yo» · «Te paso a alguien».</div></div><div class=\"fila\"><div class=\"r\">Historia 3 · el link</div><div class=\"v\">«Postulate acá hasta el [fecha de cierre]. En el formulario te pido un video selfie de un minuto». El link del formulario en el sticker.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">La búsqueda del perfil creativo</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Historia 1 · selfie</div><div class=\"v\">El mismo arranque, en otro momento real: grabando, dirigiendo o armando una propuesta. «Busco a alguien que piense conmigo lo creativo».</div></div><div class=\"fila\"><div class=\"r\">Historia 2 · qué buscás</div><div class=\"v\">«Busco [estratega creativo/a, guionista]: alguien que proponga ideas, ángulos y guiones para [tu rubro], con mi dirección». Con una caja de preguntas para que te escriban.</div></div><div class=\"fila\"><div class=\"r\">Historia 3 · el link</div><div class=\"v\">«Postulate acá hasta el [fecha de cierre], con ideas, guiones o campañas que hayas hecho». El link de ese formulario en el sticker.</div></div></div><p class=\"fx-pie\">Además de las historias: la búsqueda en la Connect Wall y en la comunidad de Cáscara. Los filtros y la prueba los repasás con Teo en la sesión de los jueves.</p></div>"
     },
     {
-      "titulo": "Tus tres historias",
-      "consigna": "Escribí las tres, en orden. Van todas el mismo día, seguidas: una línea de qué mostrás en cada una y qué pedís. En la tercera va el link del formulario y la fecha de cierre de la convocatoria.",
-      "campo": "tabla",
-      "columnas": [
-        "Qué mostrás",
-        "Qué pedís"
-      ],
-      "filas": 3,
-      "filas_rotulo": [
-        "Primera",
-        "Segunda",
-        "Tercera"
-      ],
-      "cid": 7
+      "cid": 7,
+      "titulo": "Tus historias, antes de subirlas",
+      "consigna": "Opcional. Si querés que las miremos antes de publicarlas, pegá acá cómo te quedaron y te las devolvemos.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Historia 1…",
+      "ejemplo": null
     },
     {
       "nuestro": true,

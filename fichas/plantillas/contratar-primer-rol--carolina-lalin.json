@@ -33,28 +33,12 @@
       "texto": [
         "Los armamos con lo que nos contaste en la sesión de oferta. Son los que van en las historias, en la Connect Wall y en la comunidad: no hace falta que los reescribas."
       ],
-      "figura": "<div class=\"fx\"><p class=\"fx-et\">Editor/a de video</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Para qué está</div><div class=\"v\">Editar el contenido de las jornadas de producción de los clientes del estudio, con la estética de Caro Lalin Studio.</div></div><div class=\"fila\"><div class=\"r\">Qué hace</div><div class=\"v\">Edita reels y piezas de video desde el material de cada jornada; sigue el brief y la referencia de cada marca; entrega con una ronda de corrección.</div></div><div class=\"fila\"><div class=\"r\">Qué entrega</div><div class=\"v\">Las piezas del mes de cada cliente, en las fechas del calendario.</div></div><div class=\"fila\"><div class=\"r\">A quién reporta</div><div class=\"v\">A Caro, y en el día a día a Agostina, que lleva el calendario.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">Estratega creativo/a</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Para qué está</div><div class=\"v\">Que la dirección creativa de Caro se convierta en ideas, ángulos y guiones para cada marca, sin que todo pase por ella.</div></div><div class=\"fila\"><div class=\"r\">Qué hace</div><div class=\"v\">Propone conceptos y piezas dentro de la dirección de cada cliente; escribe guiones y copies; prepara las jornadas de producción; guía a Florencia y al editor en lo creativo.</div></div><div class=\"fila\"><div class=\"r\">Qué entrega</div><div class=\"v\">La propuesta creativa del mes de cada cliente, para aprobar con Caro antes de producir.</div></div><div class=\"fila\"><div class=\"r\">A quién reporta</div><div class=\"v\">A Caro.</div></div></div><p class=\"fx-pie\">Lo que pagar por el estratega lo vemos con Teo: depende de cuántas cuentas lleve y de las horas.</p></div>"
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Editor/a de video</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Para qué está</div><div class=\"v\">Editar el contenido de las jornadas de producción de los clientes del estudio, con la estética de Caro Lalin Studio.</div></div><div class=\"fila\"><div class=\"r\">Qué hace</div><div class=\"v\">Edita reels y piezas de video desde el material de cada jornada; sigue el brief y la referencia de cada marca; entrega con una ronda de corrección.</div></div><div class=\"fila\"><div class=\"r\">Qué entrega</div><div class=\"v\">Las piezas del mes de cada cliente, en las fechas del calendario.</div></div><div class=\"fila\"><div class=\"r\">A quién reporta</div><div class=\"v\">A Caro, y en el día a día a Agostina, que lleva el calendario.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">Estratega creativo/a</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Para qué está</div><div class=\"v\">Que la dirección creativa de Caro se convierta en ideas, ángulos y guiones para cada marca, sin que todo pase por ella.</div></div><div class=\"fila\"><div class=\"r\">Qué hace</div><div class=\"v\">Propone conceptos y piezas dentro de la dirección de cada cliente; escribe guiones y copies; prepara las jornadas de producción; guía a Florencia y al editor en lo creativo.</div></div><div class=\"fila\"><div class=\"r\">Qué entrega</div><div class=\"v\">La propuesta creativa del mes de cada cliente, para aprobar con Caro antes de producir.</div></div><div class=\"fila\"><div class=\"r\">A quién reporta</div><div class=\"v\">A Caro.</div></div></div></div>"
     }
   ],
   "ajustes": {
     "0": {
       "ocultar": true
-    },
-    "1": {
-      "ocultar": true
-    },
-    "2": {
-      "ocultar": true
-    },
-    "4": {
-      "ocultar": true
-    },
-    "5": {
-      "texto": [
-        "No armes un formulario de cero. Usá el de Cáscara: es el mismo con el que recibimos editores y ya está probado en volumen. Acá está, listo para duplicar en tu Notion: <a href=\"https://flowery-beryllium-0df.notion.site/Editors-Hiring-Form-EHF-template-c63511e68cad8385b60081e03aefdb20\" target=\"_blank\" rel=\"noopener\"><b>Editors Hiring Form</b></a>.",
-        "Duplicalo dos veces, una copia por búsqueda. La del editor queda como está. En la del estratega, cambiá la pregunta del nivel de edición por un link a ideas, guiones o campañas que haya hecho, y sacá la pretensión por pieza.",
-        "Las postulaciones caen solas en una base y quedan ahí para comparar. Esos dos links son los que van en tus historias."
-      ]
     },
     "6": {
       "texto": [
@@ -63,14 +47,6 @@
         "Las dejamos escritas. Cambiá las palabras para que suenen a vos y poné la fecha de cierre: una semana después de publicar."
       ],
       "figura": "<div class=\"fx\"><p class=\"fx-et\">La búsqueda del editor</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Historia 1 · selfie</div><div class=\"v\">Vos en el estudio o en una jornada, contando el momento real: «El estudio está creciendo y llegó el momento de armar equipo. Esta semana abro dos búsquedas». Sin pedir nada todavía.</div></div><div class=\"fila\"><div class=\"r\">Historia 2 · qué buscás</div><div class=\"v\">«Busco editor/a de video para reels de marcas de hospitalidad y diseño, con mucho cuidado estético. Varias piezas por semana, con brief y referencia de cada marca». Con una encuesta: «¿Editás o conocés a alguien?» · «Yo» · «Te paso a alguien».</div></div><div class=\"fila\"><div class=\"r\">Historia 3 · el link</div><div class=\"v\">«Postulate acá hasta el [fecha de cierre]. En el formulario te pido un video selfie de un minuto». El link del formulario en el sticker.</div></div></div></div><div class=\"fx\"><p class=\"fx-et\">La búsqueda del estratega</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Historia 1 · selfie</div><div class=\"v\">El mismo arranque, en otro momento real: dirigiendo una jornada o armando una propuesta. «La segunda búsqueda es para alguien que piense conmigo lo creativo».</div></div><div class=\"fila\"><div class=\"r\">Historia 2 · qué buscás</div><div class=\"v\">«Busco estratega creativo/a: alguien que proponga ideas, ángulos y guiones para marcas premium, con mi dirección, y que guíe al equipo en lo creativo». Con una caja de preguntas para que te escriban.</div></div><div class=\"fila\"><div class=\"r\">Historia 3 · el link</div><div class=\"v\">«Postulate acá hasta el [fecha de cierre], con ideas, guiones o campañas que hayas hecho». El link del formulario del estratega en el sticker.</div></div></div><p class=\"fx-pie\">Además de las historias: las dos búsquedas en la Connect Wall y en la comunidad de Cáscara. Los filtros y la prueba los repasás con Teo en la sesión de los jueves.</p></div>"
-    },
-    "7": {
-      "titulo": "Tus historias, antes de subirlas",
-      "consigna": "Opcional. Si querés que las miremos antes de publicarlas, pegá acá cómo te quedaron y te las devolvemos.",
-      "campo": "texto",
-      "alto": 4,
-      "placeholder": "Historia 1…",
-      "ejemplo": null
     }
   }
 }

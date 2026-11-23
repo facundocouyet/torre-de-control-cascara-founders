@@ -575,6 +575,7 @@ if __name__ == "__main__":
             pl.setdefault("bajada", base.get("bajada"))
             pl.setdefault("lista_cuando", base.get("lista_cuando"))
             pl.setdefault("icono", base.get("icono"))
+            pl.setdefault("sin_entregable", base.get("sin_entregable"))
             # la personalización va por sección: "ajustes": {"<cid>": {"consigna": …, "ejemplo": …}}
             # pisa solo esas claves de la sección genérica; el resto sigue a la genérica
             aj = pl.get("ajustes") or {}

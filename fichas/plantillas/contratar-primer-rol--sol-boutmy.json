@@ -10,7 +10,8 @@
     "objetivo": "El editor adentro antes del 30 de septiembre, con un cliente de prueba ya delegado. La fecha dura es el 3 de octubre: contenido de un cliente real editado por otra persona y publicado.",
     "mindset": "Lo incómodo de esto no es contratar, es soltar. La primera entrega de otra persona va a salir distinta a la tuya, y eso no significa que salió mal. Elegí para la prueba uno de los clientes que hoy no te entusiasma, justamente para que la comparación no te duela, y revisá contra el calendario de Notion en la weekly en vez de volver a editar vos."
   },
-  "bloques_inicio": [
+  "estado_galeria": "aprobada",
+  "secciones": [
     {
       "nuestro": true,
       "titulo": "Lo que ya mandaste",
@@ -27,7 +28,121 @@
         "La edición es lo primero que sale porque es lo que menos necesita el criterio de ustedes. La estrategia, la relación con el cliente y la propuesta sí lo necesitan. Cortar y musicalizar, no.",
         "Y sale progresivo, no de golpe: un cliente de prueba, una entrega revisada, y de ahí se amplía. La carta de abajo es el paso a paso de eso."
       ]
+    },
+    {
+      "nuestro": true,
+      "titulo": "Lo primero que se delega es lo que no necesita tu criterio",
+      "texto": [
+        "No hace falta que midas tu semana hora por hora: casi nadie la tiene medida y la cuenta termina hecha de memoria, que siempre da la mitad. Lo que sí sabés sin medir nada es qué parte de tu trabajo podría hacer otro sin que el resultado cambie.",
+        "Esa es la que se delega primero. En la mayoría de los casos es la edición: se lleva horas, es repetitiva, y el criterio que aporta es el tuyo en el brief, no el de quien la ejecuta.",
+        "Contratar por cansancio termina cubriendo lo que más te molesta en vez de lo que más te libera. No es lo mismo."
+      ],
+      "cid": 0
+    },
+    {
+      "titulo": "Qué delegás y qué te queda",
+      "consigna": "Dos columnas. A la izquierda lo que sale de tus manos, a la derecha lo que se queda con vos porque ahí tu criterio es el producto. Tres o cuatro líneas de cada lado alcanzan.",
+      "campo": "tabla",
+      "columnas": [
+        "Lo que delego",
+        "Lo que me queda a mí"
+      ],
+      "filas": 4,
+      "cid": 1
+    },
+    {
+      "titulo": "El rol, escrito antes de buscar",
+      "consigna": "Propósito del rol en una frase, tres a cinco responsabilidades, qué entrega por semana y a quién le reporta. Media página alcanza. Si no entra en media página, el rol todavía no está definido y la búsqueda va a traer gente que no encaja.",
+      "campo": "texto",
+      "alto": 8,
+      "cid": 2
+    },
+    {
+      "nuestro": true,
+      "titulo": "Qué pagar: el tarifario de Cáscara",
+      "texto": [
+        "Estos son los números con los que trabajamos nosotros, para que hagas la cuenta con una referencia real en vez de adivinar. Se cobra <b>por pieza</b>, no por hora, y el nivel lo marca la complejidad, no la persona.",
+        "<b>Short form, hasta 59 segundos:</b> fast reel 12 dólares · simple 25 · avanzado 40 · pro 80.<br><b>Long form, hasta 15 minutos:</b> simple 80 · avanzado 120 · pro 170 (con la intro incluida), más un adicional por minuto extra.<br><b>Podcast, hasta 40 minutos:</b> simple 120 · avanzado 150.<br><b>Clases o charlas de una hora:</b> simple 50 · avanzado 80.<br><b>Adaptaciones y reducciones:</b> simple 12 · avanzada 20.",
+        "El detalle completo, con la descripción de cada nivel y los adicionales, está acá: <a href=\"https://app.notion.com/p/Tarifario-P-blico-Edici-n-de-video-382511e68cad80d384ebcc37db03e73c?source=copy_link\" target=\"_blank\" rel=\"noopener\"><b>Tarifario público de edición de video</b></a>. Abrilo antes de fijar tu número.",
+        "Para sacar tu número: cuántas piezas por semana necesitás, por el valor del nivel que te sirve, por cuatro. Cinco piezas simples por semana son unos quinientos dólares al mes; si son fast reels, doscientos cuarenta.",
+        "Dos cosas que conviene dejar dichas desde el principio: los presupuestos incluyen hasta tres rondas de corrección, y la urgencia se cobra aparte. Escribirlo antes evita la conversación incómoda después."
+      ],
+      "cid": 3
+    },
+    {
+      "titulo": "El número que podés sostener todos los meses",
+      "consigna": "Contratá con el negocio de hoy: la cifra que podés pagar doce meses seguidos aunque no entre un cliente nuevo. Escribí de qué cliente sale esa plata y el día de pago.",
+      "campo": "lineas",
+      "lineas": [
+        "Cuántas piezas por semana necesito",
+        "De qué nivel",
+        "Cuánto da al mes",
+        "De qué cliente sale esa plata",
+        "Día de pago"
+      ],
+      "cid": 4
+    },
+    {
+      "nuestro": true,
+      "titulo": "El formulario, listo para duplicar",
+      "texto": [
+        "No armes un formulario de cero. Usá el nuestro: es el mismo con el que Cáscara recibe editores y ya está probado en volumen.",
+        "Acá está, listo para duplicar en tu Notion: <a href=\"https://flowery-beryllium-0df.notion.site/Editors-Hiring-Form-EHF-template-c63511e68cad8385b60081e03aefdb20\" target=\"_blank\" rel=\"noopener\"><b>Editors Hiring Form</b></a>. Trae todo armado: datos de contacto, portfolio, el nivel de edición en el que se ubica cada uno —con las tres descripciones escritas para que no se sobrevalúen—, herramientas, disponibilidad semanal y pretensión por pieza.",
+        "Duplicalo, cambiale el nombre y listo. Las postulaciones caen solas en una base y quedan ahí para comparar. Ese link, el tuyo, es el que va en tus historias."
+      ],
+      "pregunta": "¿Querés que te lo mandemos duplicado o preferís armarlo vos con estos campos?",
+      "cid": 5
+    },
+    {
+      "nuestro": true,
+      "titulo": "Cómo se publica: el handraiser",
+      "texto": [
+        "Un aviso suelto no trae postulaciones. Lo que trae gente es una secuencia corta de historias que termina en una acción concreta, que es lo que en Cáscara llamamos un handraiser: alguien levanta la mano y ahí empieza la conversación.",
+        "<b>Las tres historias van el mismo día, una atrás de la otra.</b><br>· <b>Primera</b> — selfie contando el momento real: «estoy editando yo y así no escalo». Sin pedir nada todavía. Esto es lo que hace que la gente escuche.<br>· <b>Segunda</b> — qué buscás, concreto: qué tipo de piezas, cuántas por semana, con qué nivel. Y una encuesta o una caja de preguntas para que la gente toque.<br>· <b>Tercera</b> — el link del formulario, con la fecha de cierre de la convocatoria.",
+        "Van seguidas y el mismo día porque las historias duran veinticuatro horas: si las repartís en tres días, cada una la ve una audiencia distinta y la secuencia se corta. Juntas se leen como una sola cosa.",
+        "Va en tu cuenta personal, que es la que tiene tráfico, no en la de la marca. Y el link va en las tres, porque la gente entra en cualquiera de ellas.",
+        "Después, a los que levantaron la mano se les escribe por privado. Ahí se conversa, no en el formulario."
+      ],
+      "cid": 6
+    },
+    {
+      "titulo": "Tus tres historias",
+      "consigna": "Escribí las tres, en orden. Van todas el mismo día, seguidas: una línea de qué mostrás en cada una y qué pedís. En la tercera va el link del formulario y la fecha de cierre de la convocatoria.",
+      "campo": "tabla",
+      "columnas": [
+        "Qué mostrás",
+        "Qué pedís"
+      ],
+      "filas": 3,
+      "filas_rotulo": [
+        "Primera",
+        "Segunda",
+        "Tercera"
+      ],
+      "cid": 7
+    },
+    {
+      "nuestro": true,
+      "titulo": "La prueba se paga, siempre",
+      "texto": [
+        "De los que se postulen, elegí dos o tres y mandales trabajo real de un cliente. No un ejercicio inventado: trabajo que ibas a hacer igual.",
+        "Se paga, siempre, aunque no quede. Una prueba gratis te trae a los que no tienen trabajo, y una prueba paga te trae a los que sí lo tienen y te eligen igual. Es la diferencia entre elegir vos y que te elijan a vos.",
+        "Fecha de entrega corta, de dos o tres días, y lo que vas a mirar decidilo antes de mandarla: si respetó el brief, si entregó en fecha y cómo respondió a la primera corrección. Eso último es lo que más te dice de cómo va a ser trabajar con esa persona.",
+        "La responsabilidad entra después, no antes: primero un cliente, después el resto."
+      ],
+      "cid": 8
+    },
+    {
+      "nuestro": true,
+      "titulo": "Cómo se le da trabajo, y cómo se lo retiene",
+      "texto": [
+        "El primer mes, entregas chicas y revisión en una reunión fija por semana. Lo que vuelve con corrección se corrige con el brief, no con la persona: si tres piezas volvieron por lo mismo, lo que falla es cómo estás pidiendo.",
+        "Pasados dos o tres meses de continuidad, si funciona, conviene proponerle un <b>fijo mensual más el valor de las piezas</b>. El fijo no es por más trabajo: es por disponibilidad y por prioridad. Es la forma más barata de retener a alguien bueno antes de que lo levante otro, y te asegura que cuando tenés urgencia, esa persona está.",
+        "El acuerdo no hace falta que lo escribas acá. Contámelo en la próxima llamada."
+      ],
+      "cid": 9
     }
   ],
-  "estado_galeria": "aprobada"
+  "titulo": "La hoja de tu primera contratación",
+  "hoja_congelada": "Copia de la hoja de contratar-primer-rol anterior al estándar del 23/11 (tiene respuestas o bloques escritos contra esa hoja)."
 }
