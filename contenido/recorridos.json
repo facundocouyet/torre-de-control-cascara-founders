@@ -346,7 +346,7 @@
   "marcela-ospital": {
     "objetivo": "Cerrar los 90 días con tu servicio de especificación de obra en la calle, tres obras piloto cerradas y documentadas, y tu cuenta relanzada con tu historia.",
     "lectura": "Cada carta es un paso de este recorrido: se completa con lo que resolviste en las anteriores y deja lista la que sigue. Por eso conviene hacerlas en este orden.",
-    "tramo_actual": 2,
+    "tramo_actual": 1,
     "tramos": [
       {
         "cuando": "Mes 1 · octubre y noviembre",
@@ -373,12 +373,12 @@
       {
         "id": "one-sheeter-oferta",
         "para_que": "Tu página, tus cinco para el piloto y la cuenta de tu precio.",
-        "estado": "ahora"
+        "estado": "hecha"
       },
       {
         "id": "historia-de-origen",
-        "para_que": "El video de tu historia para relanzar la cuenta: treinta años del otro lado del mostrador.",
-        "estado": "despues"
+        "para_que": "Tus pilotos cobrando, tu servicio escrito y tu primer contenido: el video de tu historia.",
+        "estado": "ahora"
       },
       {
         "id": "caso-documentado",

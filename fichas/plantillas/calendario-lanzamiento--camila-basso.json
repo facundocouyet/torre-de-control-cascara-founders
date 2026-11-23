@@ -4,7 +4,7 @@
   "founder": "Camila Basso",
   "por_que_propia": "Escrita entera para BUCK después de la 1:1 del 17/11 (Fathom 204151012): el paso a paso de la preventa de la sesión de estrategia del 3/11, con fechas, más el cliente ideal en preguntas cortas y la búsqueda del creativo.",
   "titulo": "El drop de verano, paso a paso",
-  "bajada": "La lista de espera, la vidriera, la preventa de 48 horas y el lanzamiento, con fechas y los mensajes escritos. Más el cliente ideal en preguntas cortas y la búsqueda del creativo lista para publicar.",
+  "bajada": "La lista de espera, la vidriera, la preventa de 48 horas y el lanzamiento, con fechas y los mensajes escritos. Más el borrador de tu cliente ideal para corregir y la búsqueda del creativo lista para publicar.",
   "cuando": "Después de la llamada del 17/11, para destrabar la preventa del verano.",
   "lista_cuando": "El flujo de VERANO está activo en ManyChat, la lista de espera está abierta, las fechas del drop están confirmadas y la búsqueda del creativo está publicada.",
   "pasos": [
@@ -12,7 +12,7 @@
     "Armá el flujo de VERANO en ManyChat y abrí la lista esta semana: cada video termina con «Escribí VERANO y entrás primero».",
     "Sacá las fotos de producto con la producción de fotos del mes.",
     "Publicá la búsqueda del creativo en Connect Wall.",
-    "Respondé las preguntas del cliente ideal."
+    "Corregí el borrador de tu cliente ideal."
   ],
   "bajada_envio": {
     "founder": "Cami",
@@ -28,7 +28,7 @@
         "La prioridad uno es el tráfico: volumen de contenido desde la cuenta de BUCK, a tu ritmo. Lo cinematográfico queda para una sesión por campaña, que además te da el lookbook.",
         "La preventa va primero porque trae la plata antes de lanzar, y es la forma de probar qué prenda vende más sin poner una fortuna. Acá está el paso a paso que te prometí, con fechas.",
         "El creativo lo buscamos juntos: al final de la carta te dejo la búsqueda escrita para publicar en Connect Wall.",
-        "Y el cliente ideal sale de preguntas cortas, sobre lo que ya sabés de quien te compra. La carta de tu historia queda cerrada: no hace falta que la termines."
+        "Y el cliente ideal lo armamos nosotros con lo que ya nos contaste: vos solo lo corregís. La carta de identidad y arco narrativo queda cerrada: no hace falta que la termines."
       ],
       "figura": "<div class=\"fx\"><p class=\"fx-et\">El drop, en cuatro tramos</p><div class=\"fx-flujo\"><div class=\"fx-paso\"><div class=\"k\">23 al 29/11</div><div class=\"t\">Abrís la lista</div><div class=\"s\">El proceso de la colección en video, y cada uno termina con «Escribí VERANO y entrás primero». Fotos de producto, prenda por prenda.</div></div><div class=\"fx-paso\"><div class=\"k\">30/11 al 6/12</div><div class=\"t\">La vidriera</div><div class=\"s\">Las prendas en tu web, sin precio y con la fecha de la preventa. Una prenda, tres planes. A la lista le llega el link.</div></div><div class=\"fx-paso\"><div class=\"k\">10 y 11/12</div><div class=\"t\">Preventa de 48 horas</div><div class=\"s\">Solo para la lista, con un regalo por reservar. Anotás qué se reserva primero.</div></div><div class=\"fx-paso tinta\"><div class=\"k\">Desde el 12/12</div><div class=\"t\">Lanzamiento abierto</div><div class=\"s\">La colección para todos, con el look completo. Hasta Navidad, «Regalale un plan».</div></div></div><p class=\"fx-pie\">Las fechas son una propuesta y las confirmás vos. Si el suéter que falta se atrasa, se corre la preventa; la lista arranca igual.</p></div>"
     },
@@ -39,7 +39,7 @@
         "Para abrir la lista no necesitás la landing. El que escribe VERANO queda anotado y recibe el aviso primero. La vidriera llega en el tramo 2.",
         "Con ManyChat la respuesta sale sola, también a la madrugada, y cada persona queda guardada con su WhatsApp. Abajo está cómo se arma."
       ],
-      "figura": "<div class=\"fx\"><p class=\"fx-et\">La respuesta a VERANO</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Te escriben</div><div class=\"v\">«VERANO»</div></div><div class=\"fila\"><div class=\"r\">Respondés</div><div class=\"v\">¡Ya estás adentro! 🙌 Sos de las primeras personas en ver la colección de verano de BUCK, y antes que nadie te va a llegar el link para reservar, con un regalo por ser de la lista.</div></div><div class=\"fila\"><div class=\"r\">Preguntás</div><div class=\"v\">¿A qué WhatsApp te aviso el día de la preventa? · ¿Qué prenda te gustó más de lo que viste?</div></div><div class=\"fila\"><div class=\"r\">Y queda</div><div class=\"v\">Con la etiqueta «lista-verano», su WhatsApp y la prenda que le gustó. Esa es tu lista de espera.</div></div></div></div>"
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">La respuesta a VERANO</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Te escriben</div><div class=\"v\">«VERANO»</div></div><div class=\"fila\"><div class=\"r\">Respondés</div><div class=\"v\">¡Bienvenido al club! 🙌 Ya estás en la lista del verano de BUCK: antes que nadie te va a llegar el link para reservar, con un regalo por ser de la lista.</div></div><div class=\"fila\"><div class=\"r\">Preguntás</div><div class=\"v\">¿A qué WhatsApp te aviso el día de la preventa? · ¿Qué prenda te gustó más de lo que viste?</div></div><div class=\"fila\"><div class=\"r\">Y queda</div><div class=\"v\">Con la etiqueta «lista-verano», su WhatsApp y la prenda que le gustó. Esa es tu lista de espera.</div></div></div></div>"
     },
     {
       "nuestro": true,
@@ -60,7 +60,7 @@
         "<b>La preventa:</b> 48 horas, solo para la lista, con un regalo por reservar (el envío, un accesorio o algo de la marca). El regalo cuida la marca mejor que un descuento.",
         "<b>El lanzamiento:</b> remera y buzo como conjunto, con un beneficio por llevar dos. Hasta Navidad, la guía de regalos «Regalale un plan»."
       ],
-      "figura": "<div class=\"fx\"><p class=\"fx-et\">Los mensajes a la lista</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">9/12 · Aviso</div><div class=\"v\">Por WhatsApp: mañana a las 10 abre la preventa de verano, solo para la lista. Tenés 48 horas para reservar, y por ser de las primeras te llevás [el regalo]. Te mando el link acá.</div></div><div class=\"fila\"><div class=\"r\">10/12 · Apertura</div><div class=\"v\">Abrimos 🔥 Este es tu link para reservar la colección de verano: [link]. Está abierta hasta mañana a la noche.</div></div><div class=\"fila\"><div class=\"r\">11/12 · Último día</div><div class=\"v\">Hoy a la noche cierra la preventa. Las prendas que más se están reservando son [las dos primeras]. [link]</div></div><div class=\"fila\"><div class=\"r\">12/12 · Gracias</div><div class=\"v\">Gracias por ser parte del club. Desde hoy la colección está abierta para todos.</div></div></div><p class=\"fx-pie\">Lo que se reserva primero es tu candidato a producto bandera. Anotalo.</p></div>"
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Los mensajes a la lista</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">9/12 · Aviso</div><div class=\"v\">Por WhatsApp: mañana a las 10 abre la preventa de verano, solo para la lista. Tenés 48 horas para reservar, y por ser de las primeras te llevás [el regalo]. Te mando el link acá.</div></div><div class=\"fila\"><div class=\"r\">10/12 · Apertura</div><div class=\"v\">Abrimos 🔥 Este es tu link para reservar la colección de verano: [link]. Está abierta hasta mañana a la noche.</div></div><div class=\"fila\"><div class=\"r\">11/12 · Último día</div><div class=\"v\">Hoy a la noche cierra la preventa. Las prendas que más se están reservando son [las dos primeras]. [link]</div></div><div class=\"fila\"><div class=\"r\">12/12 · Gracias</div><div class=\"v\">Gracias por ser parte del club. Desde hoy la colección está abierta para todos. Buen viaje y buen día.</div></div></div><p class=\"fx-pie\">Lo que se reserva primero es tu candidato a producto bandera. Anotalo.</p></div>"
     },
     {
       "nuestro": true,
@@ -68,7 +68,7 @@
       "texto": [
         "La idea de «una prenda, todas tus personalidades» está buenísima y va justo con el drop. Juana te está mirando el video; acá va lo que le suma."
       ],
-      "figura": "<div class=\"fx\"><p class=\"fx-et\">El gancho</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Qué le falta</div><div class=\"v\">El video muestra el buzo en distintos lugares, pero no dice por qué mirarlo. El gancho es la idea dicha en los primeros dos segundos, escrita en pantalla.</div></div><div class=\"fila\"><div class=\"r\">Ejemplos</div><div class=\"v\">«Un buzo. Todas tus versiones.» · «Jueves en la oficina, sábado en la ruta. El mismo buzo.» · «Cuántos planes entran en una prenda.»</div></div><div class=\"fila\"><div class=\"r\">El cierre</div><div class=\"v\">Siempre lo mismo: «Escribí VERANO y entrás primero».</div></div></div></div>"
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">El gancho</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Qué le falta</div><div class=\"v\">El video muestra el buzo en distintos lugares, pero no dice por qué mirarlo. El gancho es la idea dicha en los primeros dos segundos, escrita en pantalla.</div></div><div class=\"fila\"><div class=\"r\">Ejemplos</div><div class=\"v\">«De la oficina al mate. El mismo buzo.» · «Un buzo. Todas tus versiones.» · «Jueves en la oficina, sábado en la ruta.»</div></div><div class=\"fila\"><div class=\"r\">El cierre</div><div class=\"v\">Siempre lo mismo: «Escribí VERANO y entrás primero».</div></div></div></div>"
     },
     {
       "nuestro": true,
@@ -76,7 +76,19 @@
       "texto": [
         "Copiala en Connect Wall tal cual o ajustale lo que quieras. Lo que buscás es alguien que produzca, no que te arme la estrategia: esa la seguimos armando nosotros con vos."
       ],
-      "figura": "<div class=\"fx\"><p class=\"fx-et\">Para Connect Wall</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">El título</div><div class=\"v\">BUCK busca creativo/a para contenido de marca</div></div><div class=\"fila\"><div class=\"r\">La búsqueda</div><div class=\"v\">BUCK es una marca de ropa de Mar del Plata para la gente que vive en la ciudad y se escapa cuando puede. Buscamos a alguien creativo que produzca: ideas que no copien a nadie, carruseles, edición de reels y textos con humor e historias que conecten con nuestra comunidad, The Outsiders Club. La estrategia la ponemos nosotros; vos ponés la idea y la hacés. Referencia del tono: lo que hace Bomba con sus microficciones.</div></div><div class=\"fila\"><div class=\"r\">Qué pedimos</div><div class=\"v\">Que nos mandes dos o tres piezas tuyas y una idea para BUCK en tres líneas. Con los que más nos gusten, una prueba paga.</div></div></div></div>"
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Para Connect Wall</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">El título</div><div class=\"v\">BUCK busca creativo/a para contenido de marca</div></div><div class=\"fila\"><div class=\"r\">La búsqueda</div><div class=\"v\">BUCK es una marca de ropa de Mar del Plata para la gente que vive en la ciudad y se escapa cuando puede. Buscamos a alguien creativo que produzca: ideas que no copien a nadie, carruseles, edición de reels e historias con humor y cultura en las que nuestra comunidad, The Outsiders Club, se sienta identificada. La estrategia la ponemos nosotros; vos proponés la idea, la consultás y la hacés. Referencia del tono: lo que hace Bomba con sus microficciones. Puede ser remoto.</div></div><div class=\"fila\"><div class=\"r\">Qué pedimos</div><div class=\"v\">Que nos mandes dos o tres piezas tuyas y una idea para BUCK en tres líneas. Con los que más nos gusten, una prueba paga.</div></div></div></div>"
+    },
+    {
+      "nuestro": true,
+      "titulo": "Tu cliente ideal, en borrador",
+      "texto": [
+        "Lo armamos con lo que ya nos contaste en tu pasaporte. Es un borrador: corregí lo que no sea así.",
+        "<b>Quién es:</b> tiene entre 20 y 35 años y vive en la ciudad. Estudia, trabaja en relación de dependencia o es freelancer o creativo.",
+        "<b>Cómo vive:</b> camina la ciudad, anda en bici, va al gym o juega a algo por placer. Café, plaza y asado con amigos. El jueves ya está pensando adónde irse el finde.",
+        "<b>Qué busca:</b> pocas prendas que le sirvan para todo, de la oficina al mate y de la ciudad a la escapada. Cómodas y de calidad, sin streetwear que grite ni ropa técnica de montaña.",
+        "<b>Lo que le pasa con la ropa:</b> lo urbano es todo igual y lo técnico no se usa en la ciudad.",
+        "<b>Lo que le pasa a la persona:</b> quiere salir de la rutina y armar su propio plan, y que la ropa lo acompañe sin pensar qué ponerse."
+      ]
     },
     {
       "titulo": "Las fechas de tu drop",
@@ -91,27 +103,25 @@
       "cid": 0
     },
     {
-      "titulo": "Tu cliente ideal, con lo que ya sabés",
-      "consigna": "Respuestas cortas, con lo que te dijeron de verdad. No hace falta que salga perfecto.",
+      "titulo": "Tu cliente ideal, corregido",
+      "consigna": "Respuestas cortas. Lo que te dijeron, copialo textual.",
       "campo": "lineas",
       "lineas": [
-        "Las últimas cinco personas que te compraron: quiénes son, qué hacen, de dónde son",
-        "Lo que te dijeron cuando les llegó la prenda o cuando te escribieron, textual",
-        "Qué les molesta de la ropa que compran hoy",
-        "Para qué planes usan BUCK",
-        "Qué otras marcas usan",
-        "Por qué te eligen a vos"
+        "Qué le cambiarías al borrador de arriba",
+        "Lo que te dijeron quienes te compraron, textual (mensajes, comentarios o en persona)",
+        "Qué les molesta de la ropa que encuentran hoy",
+        "Por qué te eligen a vos y no a otra marca"
       ],
       "cid": 1
     },
     {
-      "titulo": "La lista de espera, semana a semana",
-      "consigna": "Actualizalo cada viernes hasta la preventa.",
+      "titulo": "La lista, antes de la preventa",
+      "consigna": "Completalo el 9/12, el día antes de abrir la preventa.",
       "campo": "lineas",
       "lineas": [
-        "¿El flujo de ManyChat está activo? ¿Lo probaste desde otra cuenta?",
-        "Cuántos se sumaron esta semana",
-        "Qué prenda preguntan más",
+        "¿El flujo de VERANO está activo y lo probaste desde otra cuenta?",
+        "Cuántas personas hay en la lista",
+        "Qué prenda pidieron más",
         "Qué video trajo más VERANO"
       ],
       "cid": 2
