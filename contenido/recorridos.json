@@ -323,13 +323,13 @@
       },
       {
         "id": "icp-mecanismo",
-        "para_que": "Tu cliente ideal: lo definimos en la sesión de oferta del 20/11.",
-        "estado": "hecha"
+        "para_que": "Tu cliente ideal con tus palabras y qué le proponés a cada cliente actual, con el análisis del 24/11 como base.",
+        "estado": "ahora"
       },
       {
         "id": "one-sheeter-oferta",
-        "para_que": "Tu propuesta nueva, ya escrita: con la devolución del 23/11 la dejás lista para presentar.",
-        "estado": "hecha"
+        "para_que": "Tu escalera (una experiencia, un mes y la campaña de tres meses) en un documento, lista para mandar.",
+        "estado": "sigue"
       },
       {
         "id": "contratar-primer-rol",

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Análisis · A quién le vendés y qué</title>
+<style>
+  :root{--tinta:#171717;--papel:#ECEAE4;--papel2:#FBFAF8;--gris:#6A6A66;--gris2:#8E8B85;--tiza:#DBD7D2;--rojo:#FE1414}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--papel);color:var(--tinta);font-family:"Helvetica Now Display","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+  .hoja{max-width:860px;margin:0 auto;padding:60px 26px 120px}
+  .caja{display:inline-flex;border:1px solid var(--gris2);padding:6px 12px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris)}
+  h1{font-size:clamp(38px,6.4vw,62px);font-weight:800;letter-spacing:-.035em;line-height:1.02;margin:26px 0 0;max-width:17ch}
+  .bajada{font-size:19px;line-height:1.55;margin:20px 0 0;max-width:64ch}
+  .lista{margin-top:36px;border-top:1px solid var(--tinta);padding-top:19px;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px 34px}
+  .lista .et,.et{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2)}
+  .lista .tx{font-size:14.5px;line-height:1.5;margin-top:6px}
+  section{margin-top:58px;border-top:1px solid var(--tiza);padding-top:26px}
+  .n{font-size:10px;letter-spacing:.2em;color:var(--gris2)}
+  h2{font-size:clamp(25px,3.4vw,31px);font-weight:800;letter-spacing:-.028em;line-height:1.16;margin:9px 0 0;max-width:26ch}
+  h3{font-size:19px;font-weight:800;letter-spacing:-.02em;margin:34px 0 0}
+  p{font-size:17px;line-height:1.6;margin:15px 0 0;max-width:66ch}
+  b{font-weight:700}
+  .paso{display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;padding:17px 0;border-bottom:1px solid var(--tiza);align-items:baseline}
+  .paso:first-of-type{border-top:1px solid var(--tiza)}
+  .paso .k{font-size:17px;line-height:1.2;font-weight:800;letter-spacing:-.02em;color:var(--gris2)}
+  .paso>div>b{display:block;font-size:17.5px;letter-spacing:-.015em;margin-bottom:5px}
+  .paso span{font-size:15.5px;line-height:1.55;color:var(--gris)}
+  .paso.cta{background:var(--papel2);margin:0 -14px;padding:17px 14px}
+  .paso.cta .k{color:var(--rojo)}
+  .ojo{border:1px solid var(--tinta);padding:20px 22px;margin-top:28px}
+  .ojo p{margin-top:10px;font-size:16.5px}
+  .dos{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:26px;margin-top:26px}
+  .dos>div{border-top:2px solid var(--tinta);padding-top:13px;min-width:0}
+  .dos b{display:block;font-size:16.5px;letter-spacing:-.015em;margin-bottom:7px}
+  .dos p{font-size:15.5px;margin:0;color:var(--gris)}
+  .copy{background:var(--papel2);border-left:3px solid var(--tinta);padding:14px 18px;margin-top:14px;font-size:15.5px;line-height:1.55;white-space:pre-wrap}
+  .copy .et{display:block;margin-bottom:6px}
+  .tabla{width:100%;border-collapse:collapse;margin-top:24px;font-size:15px}
+  .tw{overflow-x:auto}
+  .tabla th{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris2);font-weight:400;text-align:left;padding:0 12px 10px 0;border-bottom:1px solid var(--tinta)}
+  .tabla td{padding:13px 12px 13px 0;border-bottom:1px solid var(--tiza);vertical-align:top;line-height:1.5}
+  .tabla td span{color:var(--gris)}
+  .ad{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:24px;margin-top:30px;padding-top:22px;border-top:1px solid var(--tiza);align-items:start}
+  .ad img{width:100%;height:auto;display:block;border:1px solid var(--tiza)}
+  .ad h4{font-size:17px;margin:0;letter-spacing:-.015em}
+  .ad p{font-size:15.5px;margin-top:8px}
+  code{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:var(--papel2);padding:2px 5px;word-break:break-all}
+  footer{margin-top:66px;border-top:1px solid var(--tinta);padding-top:17px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gris2)}
+  @media(max-width:600px){.paso{grid-template-columns:1fr;gap:4px}.ad{grid-template-columns:1fr}.ad img{max-width:260px}}
+  @media print{body{background:#fff}.hoja{padding:0}section{break-inside:avoid}}
+</style>
+</head>
+<body><div class="hoja">
+<div class="caja">Cáscara Founders · Análisis · 24/11</div>
+<h1>A quién le vendés y qué</h1>
+<p class="bajada">Caro: es el análisis que te prometí en la llamada. Con lo que ya sabemos de tus clientes, tu equipo y tu propuesta, más lo que está pasando en el mercado: a quién le sirve lo que hacés, qué le vendés a cada uno, cómo arrancar y qué hacemos con cada cliente actual. En la app te dejo dos cartas para que lo termines con tus palabras.</p>
+<div class="lista"><div><div class="et">El cambio</div><div class="tx">De las redes mensuales a las experiencias: las diseñás, las producís y creás el contenido que las cuenta.</div></div><div><div class="et">A quién</div><div class="tx">Hoteles boutique, hoteles de lujo y marcas personales de lujo que se animan a mostrarse.</div></div><div><div class="et">Cómo arrancar</div><div class="tx">Una experiencia, un mes con un evento documentado o la campaña de tres meses.</div></div></div>
+<section><div class="n">01</div><h2>Lo que vemos</h2>
+<div class="paso"><div class="k">Lo que ya funciona</div><div><b>Te contratan por tu criterio</b><span>Las marcas de lujo son más de la mitad de lo que facturás y respetan tu mirada. Lo que te compran es el sentido y la estética de todo, no la cantidad de posteos. Ahí está tu servicio.</span></div></div>
+<div class="paso"><div class="k">Lo que te traba</div><div><b>Las redes mensuales te dejan en la operativa</b><span>Corrés atrás del contenido que no te mandan, de las producciones que se postergan y de las correcciones. Y cuando no hay ventas, el cliente lo vive como un gasto.</span></div></div>
+<div class="paso"><div class="k">Lo que más te gusta</div><div><b>Las experiencias</b><span>Es lo que te entusiasmó de la llamada, y es lo que el mercado está pidiendo: una excusa para que la gente se acerque a la marca, y contenido distinto que sale de esa excusa.</span></div></div>
+<div class="paso"><div class="k">El cruce</div><div><b>Vendés resultados que no controlás</b><span>Si la web no vende o los precios no acompañan, ninguna comunicación lo arregla. Por eso tu servicio promete lo que vos controlás: la experiencia, la gente que va, el contenido que la cuenta y lo que eso mueve.</span></div></div>
+</section>
+<section><div class="n">02</div><h2>Lo que dice el mercado</h2>
+<div class="paso"><div class="k">Hoteles</div><div><b>De lugares a experiencias</b><span>Las tendencias de hospitalidad 2026 ponen las experiencias en el centro: el hotel como lugar de encuentro, con propuestas armadas con socios locales, con la gastronomía y alrededor de fechas. La estadía es la plataforma, no el producto. Y la experiencia es también algo que el hotel le puede vender a sus huéspedes y a su base de clientes.</span></div></div>
+<div class="paso"><div class="k">Hoteles boutique</div><div><b>Dependen de Booking</b><span>La mayoría de sus reservas llegan por Booking y las otras plataformas, que se quedan con una parte de cada una. Y el huésped que llega por ahí es de la plataforma, no del hotel: no vuelve directo. Lo que buscan es que los conozcan por lo que son, reservas directas y una base propia. En Cáscara hay founders trabajando el embudo de reservas para hoteles boutique: lo tuyo es la otra mitad, la experiencia y el contenido que hacen que alguien quiera ir.</span></div></div>
+<div class="paso"><div class="k">Cómo funciona</div><div><b>La gente participa, no solo mira</b><span>Lo que más se recuerda son las experiencias donde la persona hace algo: un taller con el chef, una clase con un artesano, un encuentro con una marca aliada. Arrancan chicas y crecen cuando funcionan.</span></div></div>
+<div class="paso"><div class="k">Cómo se cobra</div><div><b>Por proyecto, no por pieza</b><span>Las marcas buscan estudios chicos que entiendan su negocio, y el cobro por cantidad de entregables va quedando atrás frente a proyectos con objetivo, hitos y entregables definidos. Es lo que ya cerraste en la sesión de oferta.</span></div></div>
+</section>
+<section><div class="n">03</div><h2>A quién le sirve, y qué le vendés a cada uno</h2>
+<p>Son tres clientes ideales con el mismo mecanismo: diseñás la experiencia, la producís y creás el contenido que la cuenta. Cambia lo que le resolvés a cada uno.</p>
+<div class="tw"><table class="tabla"><thead><tr><th></th><th>Hotel boutique</th><th>Hotel de lujo</th><th>Marca personal de lujo</th></tr></thead><tbody><tr><td>Qué le duele</td><td>Depende de Booking y no tiene base propia</td><td>Tiene chef, espacios y servicios increíbles que solo usa el huésped que ya está</td><td>Hace un trabajo muy bueno y su contenido no lo muestra</td></tr><tr><td>Qué sos para él</td><td>La que le arma experiencias que traen huéspedes directos</td><td>Su agencia de activaciones: diseñás experiencias que el hotel le vende a sus huéspedes y a su base de clientes</td><td>Su productora de experiencias, que además crea el contenido</td></tr><tr><td>Un ejemplo</td><td>Una cena de temporada con un productor local, contada antes, durante y después</td><td>Una clase de cocina con el chef para diez personas, comunicada a la base de clientes del hotel</td><td>Una visita de obra, un taller o una cena, producida y documentada</td></tr><tr><td>Quién decide</td><td>El dueño o quien lleva la marca</td><td>La persona de marketing o de experiencia del huésped, con autonomía para decidir</td><td>La persona, que se tiene que animar a mostrarse</td></tr><tr><td>Cómo se mide</td><td>Reservas directas, registros a su base y gente en la experiencia</td><td>Experiencias vendidas, lo que facturaron y contactos nuevos</td><td>Gente en el evento, consultas y ventas de sus servicios</td></tr></tbody></table></div>
+<div class="paso"><div class="k">Para quién no es</div><div><b>El que busca redes lindas todos los meses</b><span>Tampoco el que no puede producir, el que tiene un problema de negocio (precio, web, producto) que la comunicación no resuelve, y el negocio tan grande que decide lento y te deja esperando. Esos no te dejan llegar al resultado.</span></div></div>
+</section>
+<section><div class="n">04</div><h2>Cómo arrancar: tu escalera</h2>
+<p>No hace falta que el primer paso sea la campaña de tres meses. Una experiencia sola es la forma más rápida de que te conozcan por esto, de validarlo y de tener el caso para mostrar.</p>
+<div class="tw"><table class="tabla"><thead><tr><th>Escalón</th><th>Qué es</th><th>Para qué sirve</th></tr></thead><tbody><tr><td>Una experiencia</td><td>Una activación diseñada, producida y documentada</td><td>La puerta de entrada: el cliente prueba con poco riesgo y vos sumás un caso</td></tr><tr><td>Un mes</td><td>La estrategia y un evento documentado, con el contenido que sale de él</td><td>Para el que quiere más que un evento y todavía no se anima a tres meses</td></tr><tr><td>La campaña de tres meses</td><td>Lo que cerraste en la sesión de oferta: dirección, producción y escala, con una activación por mes y el informe al final</td><td>Tu servicio principal: el cliente sale con resultados medidos y la propuesta para seguir</td></tr></tbody></table></div>
+<div class="paso"><div class="k">El precio</div><div><b>Los dos primeros escalones</b><span>La campaña de tres meses ya tiene precio. El de una experiencia y el del mes los cerramos en la sesión de oferta, con lo que escribas en tus cartas.</span></div></div>
+</section>
+<section><div class="n">05</div><h2>Tus clientes actuales, uno por uno</h2>
+<p>Nada se corta de un día para el otro: la estructura se sostiene mientras entran los nuevos. Cada cliente que pasa al formato nuevo o que cierra te libera tiempo para el siguiente.</p>
+<div class="tw"><table class="tabla"><thead><tr><th>Cliente</th><th>Cómo lo vemos</th><th>Qué le proponés</th></tr></thead><tbody><tr><td>Palacio Duhau</td><td>Te da estructura y portfolio, pero no es tu cliente ideal: es un negocio muy grande, decide lento y te deja en la operativa (tres semanas esperando una producción para LinkedIn)</td><td>Sigue como está mientras sostiene la estructura. Si le proponés algo, que sea una experiencia puntual con su chef, como proyecto aparte</td></tr><tr><td>Reserva Alto Agrelo</td><td>Lujo y relación directa con el director. Hoy te traba que no producen</td><td>Al renovar, el formato nuevo: arrancar con el mes y un evento documentado, con la producción en tus manos</td></tr><tr><td>Nanda</td><td>Está por abrir en Alcorta: un lanzamiento real</td><td>La primera candidata: la experiencia de inauguración, o la campaña de apertura completa</td></tr><tr><td>Mirador</td><td>30 años de historia, pero el problema es de negocio: precios, web, mayorista y minorista mezclados</td><td>Solo con condiciones: canales separados y la web dentro del plan. Si no, cierre prolijo y con fecha</td></tr><tr><td>Wild Forest</td><td>Más de cuatro años, el fee más bajo y no acepta el aumento</td><td>Cierre prolijo y con fecha, o pasa entero a Agostina sin tu tiempo</td></tr><tr><td>Yeyé</td><td>Marca hermosa que no puede invertir más</td><td>Tu mentoría en vez de la gestión: le das las herramientas y lo ejecuta ella</td></tr></tbody></table></div>
+</section>
+<section><div class="n">06</div><h2>Tu equipo: cómo cobra un editor</h2>
+<div class="paso"><div class="k">Para arrancar</div><div><b>Freelance, por pieza y atado a la cuenta</b><span>Con el tarifario de Cáscara como referencia: el costo entra en el precio de cada experiencia o campaña, así nunca pagás un fijo que no te cubre un cliente.</span></div></div>
+<div class="paso"><div class="k">Cuando el volumen es regular</div><div><b>Un fijo mensual</b><span>Cuando hay trabajo todos los meses, conviene un fijo más el valor de las piezas: asegura disponibilidad y prioridad. Así lo hicimos nosotros.</span></div></div>
+<div class="paso"><div class="k">La búsqueda</div><div><b>Amplia, con prueba paga</b><span>Buscá creativos y filmmakers, no solo editores: un buen filmmaker edita y un creativo propone ideas para las experiencias. Las historias con el formulario, como está en tu carta, y una prueba paga con crudos reales.</span></div></div>
+</section>
+<section><div class="n">07</div><h2>Lo que sigue</h2>
+<div class="paso"><div class="k">Esta semana</div><div><b>Tus dos cartas</b><span>En la app: tu cliente ideal y tu oferta, con este análisis como base. Lo que no tengas claro lo cerramos en la sesión de oferta.</span></div></div>
+<div class="paso"><div class="k">Esta semana</div><div><b>La búsqueda publicada</b><span>Tus historias con el formulario y la Connect Wall.</span></div></div>
+<div class="paso"><div class="k">La semana que viene</div><div><b>Las primeras propuestas</b><span>Nanda primero, y Alto Agrelo cuando renueve. Y la sesión para cerrar la oferta y la estrategia del contenido con el que contás este cambio.</span></div></div>
+</section>
+<footer><span>Cáscara Founders</span><span>Carolina Lalin · Análisis de Facu · 24/11/2026</span></footer>
+</div></body></html>

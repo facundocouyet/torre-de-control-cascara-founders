@@ -1,0 +1,152 @@
+{
+  "modulo": "icp-mecanismo",
+  "slug": "carolina-lalin",
+  "founder": "Carolina Lalin",
+  "bajada_envio": {
+    "founder": "Caro",
+    "porque": "En la sesión de oferta del 20/11 quedó tu servicio nuevo. En la llamada de hoy lo bajamos a tierra: a quién le sirve de verdad y qué le proponés a cada cliente que ya tenés. Te dejamos el análisis como base.",
+    "objetivo": "Que elijas por cuál de tus tres clientes ideales arrancás, lo describas con tus palabras y con sus dolores en los dos niveles, y decidas qué le proponés a cada uno de tus clientes actuales.",
+    "mindset": "Conocés este mercado desde adentro. Escribí lo que ves: lo que no tengas claro lo cerramos en la sesión de oferta."
+  },
+  "cuando": "Después de la sesión de oferta del 20/11 y antes de la carta de tu oferta, que se arma con lo que escribas acá.",
+  "pasos": [
+    "Leé lo que ya sabemos de vos y tus tres clientes ideales.",
+    "Elegí por cuál arrancás y describilo con tus palabras.",
+    "Escribí sus dolores en los dos niveles: lo que le pasa a la marca y lo que le pasa a quien decide.",
+    "Decidí qué le proponés a cada cliente actual y cuándo se lo planteás.",
+    "Mandá la carta a revisión y seguí con la de tu oferta."
+  ],
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "cid": 30,
+      "titulo": "Lo que ya sabemos de vos",
+      "texto": [
+        "Sale de tu auditoría, de la sesión de oferta del 20/11 y de la llamada de hoy. No hace falta que lo cuentes de nuevo."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Tu punto de partida</p><div class=\"fx-lista\"><div>Más de la mitad de lo que facturás viene de marcas de lujo, y te contratan por tu criterio: el sentido y la estética de todo, no la cantidad de posteos.</div><div>Tu equipo: Agostina en community y pauta, Florencia en diseño. Vos, en la dirección creativa.</div><div>Lo que hoy te traba: producciones que se postergan, contenido que no llega, correcciones y clientes que viven las redes como un gasto cuando no hay ventas.</div><div>Tu servicio nuevo, de la sesión de oferta del 20/11: una campaña de tres meses (dirección, producción y escala) con precio único.</div><div>Lo que más te entusiasmó de la llamada de hoy: las experiencias.</div></div></div>"
+    },
+    {
+      "nuestro": true,
+      "cid": 31,
+      "titulo": "Tus tres clientes ideales",
+      "texto": [
+        "El mecanismo es el mismo para los tres: diseñás la experiencia, la producís y creás el contenido que la cuenta. Cambia lo que le resolvés a cada uno.",
+        "Los tres pueden convivir, pero para salir a vender conviene arrancar por uno: el que más rápido te da un caso para mostrar."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Lo que proponemos</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th></th><th>Hotel boutique</th><th>Hotel de lujo</th><th>Marca personal de lujo</th></tr></thead><tbody><tr><td>Qué le duele</td><td class=\"gris\">Depende de Booking y no tiene base propia</td><td class=\"gris\">Tiene chef, espacios y servicios que solo usa el huésped que ya está</td><td class=\"gris\">Hace un trabajo muy bueno y su contenido no lo muestra</td></tr><tr><td>Qué sos para él</td><td class=\"gris\">La que le arma experiencias que traen huéspedes directos</td><td class=\"gris\">Su agencia de activaciones: experiencias que el hotel le vende a sus huéspedes y a su base de clientes</td><td class=\"gris\">Su productora de experiencias, que además crea el contenido</td></tr><tr><td>Quién decide</td><td class=\"gris\">El dueño o quien lleva la marca</td><td class=\"gris\">Marketing o experiencia del huésped, con autonomía para decidir</td><td class=\"gris\">La persona, que se anima a mostrarse</td></tr><tr><td>Cómo se mide</td><td class=\"gris\">Reservas directas, registros a su base, gente en la experiencia</td><td class=\"gris\">Experiencias vendidas, lo que facturaron, contactos nuevos</td><td class=\"gris\">Gente en el evento, consultas y ventas</td></tr></tbody></table></div><p class=\"fx-pie\">Para quién no es: el que busca redes lindas todos los meses, el que no puede producir, el que tiene un problema de negocio que la comunicación no resuelve y el negocio tan grande que decide lento.</p></div>"
+    },
+    {
+      "nuestro": true,
+      "cid": 32,
+      "titulo": "El dolor, en dos niveles",
+      "texto": [
+        "Cada dolor se escribe dos veces. El <b>nivel 1</b> es lo que le pasa a la marca: las reservas, las consultas, la gente que va o no va. El <b>nivel 2</b> es lo que le pasa a la persona que decide: lo que siente y lo que le preocupa.",
+        "Con el nivel 1 la marca se reconoce; con el nivel 2 te contrata. El nivel 2 casi siempre está en lo que tus clientes ya te dijeron en reuniones: escribilo con sus palabras."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Un ejemplo, para que se entienda</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Situación</th><th>Nivel 1 · lo que le pasa a la marca</th><th>Nivel 2 · lo que le pasa a quien decide</th></tr></thead><tbody><tr><td>Un hotel boutique</td><td class=\"gris\">Sus reservas llegan por Booking, deja una comisión en cada una y el huésped no vuelve directo</td><td class=\"gris\">«Siento que trabajo para Booking»</td></tr><tr><td>Un hotel de lujo</td><td class=\"gris\">Tiene un chef y espacios increíbles que solo conocen los que ya se alojan</td><td class=\"gris\">«Tenemos todo para hacer algo distinto y nadie se entera»</td></tr></tbody></table></div><p class=\"fx-pie\">Son ejemplos para mostrar la diferencia entre los niveles. Los de tu cliente ideal los escribís vos.</p></div>"
+    },
+    {
+      "cid": 40,
+      "titulo": "Tu cliente ideal, descripto",
+      "consigna": "El que elegiste para arrancar, como si lo estuvieras viendo. Si te ayuda, pensá en uno real.",
+      "campo": "lineas",
+      "lineas": [
+        "Por cuál de los tres arrancás y por qué",
+        "En qué momento está: apertura, relanzamiento, temporada",
+        "Quién te contrata y quién decide",
+        "Qué tiene hoy: equipo que publica, presupuesto de producción",
+        "Cómo te llega: de dónde vinieron tus mejores clientes",
+        "Tres marcas reales que sean exactamente esto"
+      ]
+    },
+    {
+      "cid": 41,
+      "titulo": "Sus dolores, en dos niveles",
+      "consigna": "Tres situaciones que vive hoy. Para cada una, lo que le pasa a la marca y lo que le pasa a quien decide. Si un cliente ya te lo dijo, usá sus palabras.",
+      "campo": "tabla",
+      "columnas": [
+        "La situación",
+        "Nivel 1 · lo que le pasa a la marca",
+        "Nivel 2 · lo que le pasa a quien decide"
+      ],
+      "filas": 3
+    },
+    {
+      "nuestro": true,
+      "cid": 33,
+      "titulo": "Tus clientes actuales, uno por uno",
+      "texto": [
+        "Nada se corta de un día para el otro: la estructura se sostiene mientras entran los nuevos. Cada cliente que pasa al formato nuevo o que cierra te libera tiempo para el siguiente.",
+        "Esta es nuestra propuesta para cada uno. Vos los conocés: decidí abajo."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Lo que vemos y lo que proponemos</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Cliente</th><th>Lo que vemos</th><th>Nuestra propuesta</th></tr></thead><tbody><tr><td>Palacio Duhau</td><td class=\"gris\">Te da estructura y portfolio. No es tu cliente ideal: es muy grande, decide lento y te deja en la operativa</td><td class=\"gris\">Sigue como está. Si le proponés algo, una experiencia puntual con su chef, aparte</td></tr><tr><td>Reserva Alto Agrelo</td><td class=\"gris\">Lujo y relación directa con el director. No producen</td><td class=\"gris\">Al renovar, el mes con un evento documentado, con la producción en tus manos</td></tr><tr><td>Nanda</td><td class=\"gris\">Abre en Alcorta: un lanzamiento real</td><td class=\"gris\">La experiencia de inauguración, o la campaña de apertura completa</td></tr><tr><td>Mirador</td><td class=\"gris\">El problema es de negocio: precios, web, canales mezclados</td><td class=\"gris\">Solo con condiciones. Si no, cierre prolijo y con fecha</td></tr><tr><td>Wild Forest</td><td class=\"gris\">Muchos años y no acepta el aumento</td><td class=\"gris\">Cierre con fecha, o pasa entero a Agostina</td></tr><tr><td>Yeyé</td><td class=\"gris\">Marca hermosa que no puede invertir más</td><td class=\"gris\">Tu mentoría en vez de la gestión</td></tr></tbody></table></div></div>"
+    },
+    {
+      "cid": 42,
+      "titulo": "Qué le proponés a cada uno",
+      "consigna": "Para cada cliente: qué le proponés (sigue igual, una experiencia, el mes, la campaña de tres meses, mentoría o cierre) y cuándo se lo planteás.",
+      "campo": "tabla",
+      "columnas": [
+        "Cliente",
+        "Qué le proponés",
+        "Cuándo se lo planteás"
+      ],
+      "filas_rotulo": [
+        "Palacio Duhau",
+        "Reserva Alto Agrelo",
+        "Nanda",
+        "Mirador",
+        "Wild Forest",
+        "Yeyé"
+      ]
+    },
+    {
+      "nuestro": true,
+      "cid": 34,
+      "titulo": "Lo que sigue",
+      "texto": [
+        "Con tu cliente ideal elegido, seguís con la carta de tu oferta: tu escalera escrita en un documento, lista para mandar.",
+        "Si algo no lo tenés claro, dejalo como lo tengas: lo cerramos en la sesión de oferta."
+      ]
+    }
+  ],
+  "ajustes": {
+    "0": {
+      "ocultar": true
+    },
+    "1": {
+      "ocultar": true
+    },
+    "3": {
+      "ocultar": true
+    },
+    "5": {
+      "ocultar": true
+    },
+    "6": {
+      "ocultar": true
+    },
+    "7": {
+      "ocultar": true
+    },
+    "8": {
+      "ocultar": true
+    },
+    "9": {
+      "ocultar": true
+    },
+    "10": {
+      "ocultar": true
+    },
+    "11": {
+      "ocultar": true
+    },
+    "12": {
+      "ocultar": true
+    },
+    "13": {
+      "ocultar": true
+    }
+  }
+}

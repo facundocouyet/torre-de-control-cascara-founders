@@ -38,9 +38,10 @@
       "por_que": "Está con Franco en la estrategia del lanzamiento. La siguiente la define Facu después de verla (ya tiene el pipeline armado)."
     },
     "carolina-lalin": {
-      "activa": "contratar-primer-rol",
-      "anterior": "completada",
-      "por_que": "Clarity Call del 10/11 (Fathom 201573739): Facu quedó en mandarle la auditoría de sus clientes, las propuestas en PDF por Slack, el equipo y cómo entrega el servicio, para ir la semana que viene a la llamada con Franco a definir la oferta. Después, el cliente ideal. 20/11, sesión de oferta (Fathom 205373566): proceso de 3 meses (dirección, producción, escala) a USD 4.500 en un pago, 5.000 en dos y 5.500 en tres; cliente ideal, marcas premium de hospitalidad y diseño; búsquedas de editor y estratega creativo en Connect Wall y la comunidad, con Teo para los filtros. 23/11: mandó la propuesta nueva en PDF; Facu le deja la devolución (tu propuesta, leída) y la carta para contratar a los dos perfiles, que ella pidió el 20/11. El cliente ideal sale de la fila: lo definió la sesión de oferta. Llamada con Facu el 24/11 para la transición de sus clientes actuales.",
+      "activa": "icp-mecanismo--carolina-lalin",
+      "siguiente": "one-sheeter-oferta--carolina-lalin",
+      "anterior": "sigue-activa",
+      "por_que": "Clarity Call del 10/11 (Fathom 201573739): Facu quedó en mandarle la auditoría de sus clientes, las propuestas en PDF por Slack, el equipo y cómo entrega el servicio, para ir la semana que viene a la llamada con Franco a definir la oferta. Después, el cliente ideal. 20/11, sesión de oferta (Fathom 205373566): proceso de 3 meses (dirección, producción, escala) a USD 4.500 en un pago, 5.000 en dos y 5.500 en tres; cliente ideal, marcas premium de hospitalidad y diseño; búsquedas de editor y estratega creativo en Connect Wall y la comunidad, con Teo para los filtros. 23/11: mandó la propuesta nueva en PDF; Facu le deja la devolución (tu propuesta, leída) y la carta para contratar a los dos perfiles, que ella pidió el 20/11. El cliente ideal sale de la fila: lo definió la sesión de oferta. Llamada con Facu el 24/11 para la transición de sus clientes actuales. 24/11 (Fathom 206414369): Facu le deja el análisis «A quién le vendés y qué» y dos cartas escritas para ella, cliente ideal (activa) y oferta (siguiente). Contratar sigue activa: «anterior» es sigue-activa.",
       "inicio": "2026-11-23"
     },
     "custom-lab": {
@@ -150,7 +151,7 @@
       "por_que": "Facu, 7/11: la auditoría quedó revisada el 28/10 y la sesión de oferta fue el 30/10. Carta de cliente ideal reescrita sobre esa sesión, con el formulario para sus clientes. Precios a validar. Próxima 1:1 con Facu para cerrar precios y el mensaje de enero. 17/11, Facu: cerró con editores para sus videos y los de sus clientes y pidió la tarjeta de Notion del brief (16/11); entra en paralelo delegar-produccion, escrita para ella con la tarjeta de ejemplo (Santa Paula) y el brief fijo por cliente."
     },
     "samuel-tarancon": {
-      "activa": "contratar-primer-rol--samuel-tarancon 23/11: Nai no veía la carta de delegar (la app la tenía como próxima). Pasa a activa junto con la de cliente ideal, que sigue activa: «anterior» no es completada, así que la sync no la cierra.",
+      "activa": "contratar-primer-rol--samuel-tarancon",
       "por_que": "Clarity Call del 7/10 (Tiago y Samuel). Orden de Facu (13/10): auditoría, cliente ideal, oferta y desde ahí ángulos de comunicación. La auditoría sigue activa hasta ver sus respuestas (Tiago marcó la tarea hecha el 10/10 y en la app no aparecen; Facu le preguntó a Teo cómo acceder). (9/10, Facu: auditoría simple, sin horas, sin punto A ni roadmap.) 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: one-sheeter-oferta, angulos-desde-icp. 7/11, Facu: entra la carta del editor (contratar-primer-rol--samuel-tarancon) para que salgan las historias y el contenido del lanzamiento del 1 al 10/12 que bajó Franco el 4/11 (Fathom 199652117). La auditoría queda pausada; el cliente ideal sale de la cola porque Franco ya lo definió en esa llamada.",
       "inicio": "2026-11-09",
       "anterior": "pausada"

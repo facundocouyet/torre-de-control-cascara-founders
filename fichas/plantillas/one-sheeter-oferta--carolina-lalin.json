@@ -1,0 +1,95 @@
+{
+  "modulo": "one-sheeter-oferta",
+  "slug": "carolina-lalin",
+  "founder": "Carolina Lalin",
+  "bajada_envio": {
+    "founder": "Caro",
+    "porque": "En la sesión de oferta cerraste la campaña de tres meses y su precio. Con el análisis del 24/11 se suman dos escalones para arrancar: una experiencia y un mes con un evento documentado. Falta escribirlo para mandarlo.",
+    "objetivo": "Que tengas tu oferta en un documento, lista para mandar a Nanda, a Alto Agrelo y a las marcas nuevas.",
+    "mindset": "Vendés criterio y experiencias, no posteos. Contalo por lo que dirigís."
+  },
+  "cuando": "Después de tu cliente ideal. Con este documento presentás la propuesta a tus primeros clientes.",
+  "pasos": [
+    "Leé tu escalera y cómo se cuenta para cada cliente.",
+    "Armá tu oferta en un documento.",
+    "Pegá el link y mandá la carta a revisión."
+  ],
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "cid": 30,
+      "titulo": "Tu escalera",
+      "texto": [
+        "La campaña de tres meses es tu servicio principal y ya tiene precio. Los dos escalones de abajo son para arrancar: el cliente prueba con poco riesgo y vos sumás casos. Su precio lo cerramos en la sesión de oferta."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">De la experiencia a la campaña</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Escalón</th><th>Qué es</th><th>Para qué sirve</th></tr></thead><tbody><tr><td>Una experiencia</td><td class=\"gris\">Una activación diseñada, producida y documentada</td><td class=\"gris\">La puerta de entrada: el cliente prueba con poco riesgo y vos sumás un caso</td></tr><tr><td>Un mes</td><td class=\"gris\">La estrategia y un evento documentado, con el contenido que sale de él</td><td class=\"gris\">Para el que quiere más que un evento y todavía no se anima a tres meses</td></tr><tr><td>La campaña de tres meses</td><td class=\"gris\">Dirección, producción y escala, con una activación por mes y el informe al final</td><td class=\"gris\">Tu servicio principal, con el precio que cerraste en la sesión de oferta</td></tr></tbody></table></div></div>"
+    },
+    {
+      "nuestro": true,
+      "cid": 31,
+      "titulo": "Cómo se cuenta",
+      "texto": [
+        "El cliente compra la experiencia, la creatividad y el porqué de cada cosa. Vos no publicás: das los lineamientos y capacitás a quien publica adentro. Y prometés lo que controlás: la gente que va, el contenido que la cuenta y lo que eso mueve."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">En una línea, según a quién le hablás</p><div class=\"fx-msg\"><div class=\"fila\"><div class=\"r\">Para un hotel de lujo</div><div class=\"v\">«Soy tu agencia de activaciones: diseño las experiencias que le vendés a tus huéspedes y a tu base, las produzco y las cuento.»</div></div><div class=\"fila\"><div class=\"r\">Para un hotel boutique</div><div class=\"v\">«Te armo experiencias que hacen que la gente te elija a vos y reserve directo.»</div></div><div class=\"fila\"><div class=\"r\">Para una marca personal</div><div class=\"v\">«Soy tu productora de experiencias, y además creo el contenido.»</div></div></div></div>"
+    },
+    {
+      "cid": 40,
+      "titulo": "Tu oferta, en un documento",
+      "consigna": "Armala en un documento (Google Docs, Notion o PDF), de una o dos carillas, como se la mandarías a un cliente: tus tres escalones, qué incluye cada uno, cómo se mide, qué necesitás del cliente y qué queda afuera. Si te sale, sumá la primera propuesta para Nanda. Pegá el link acá.",
+      "campo": "texto",
+      "alto": 2,
+      "placeholder": "Link a tu documento"
+    },
+    {
+      "nuestro": true,
+      "cid": 32,
+      "titulo": "Lo que sigue",
+      "texto": [
+        "Con el documento listo, lo revisamos y lo cerramos en la sesión de oferta. Después, las primeras propuestas: Nanda y Alto Agrelo cuando renueve.",
+        "Si algo no lo tenés claro, escribí lo que tengas."
+      ]
+    }
+  ],
+  "ajustes": {
+    "0": {
+      "ocultar": true
+    },
+    "1": {
+      "ocultar": true
+    },
+    "2": {
+      "ocultar": true
+    },
+    "3": {
+      "ocultar": true
+    },
+    "4": {
+      "ocultar": true
+    },
+    "5": {
+      "ocultar": true
+    },
+    "6": {
+      "ocultar": true
+    },
+    "7": {
+      "ocultar": true
+    },
+    "8": {
+      "ocultar": true
+    },
+    "9": {
+      "ocultar": true
+    },
+    "10": {
+      "ocultar": true
+    },
+    "11": {
+      "ocultar": true
+    },
+    "12": {
+      "ocultar": true
+    }
+  }
+}
