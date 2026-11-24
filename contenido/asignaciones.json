@@ -234,9 +234,10 @@
       ]
     },
     "santiago-guevara": {
-      "activa": "pasaporte-digital--santiago-guevara",
-      "por_que": "Clarity Call del 5/11 (Fathom 200292182): Facu quedó en mandarle el Pasaporte Digital (formulario de identidad de marca personal). La siguiente (ICP) es propuesta del agente con el orden de siempre; la oferta va con Franco la semana que viene. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: icp-mecanismo.",
-      "inicio": "2026-11-09"
+      "activa": "icp-mecanismo--santiago-guevara",
+      "por_que": "Clarity Call del 5/11 (Fathom 200292182): Facu quedó en mandarle el Pasaporte Digital (formulario de identidad de marca personal). La siguiente (ICP) es propuesta del agente con el orden de siempre; la oferta va con Franco la semana que viene. 7/11, Facu: sin cartas genéricas; lo que pedían ya se lo dimos en las devoluciones o se escribe para él cuando toque. Se sacaron: icp-mecanismo. 24/11, Facu: entra el cliente ideal escrito para él (Clarity 5/11, Pasaporte y llamada con Fede del 12/11), con la oferta en borrador adentro para la sesión de oferta; así no hace falta una segunda carta activa. El Pasaporte queda completado.",
+      "inicio": "2026-11-24",
+      "anterior": "completada"
     },
     "daniel-urdaneta": {
       "activa": "icp-mecanismo--daniel-urdaneta",

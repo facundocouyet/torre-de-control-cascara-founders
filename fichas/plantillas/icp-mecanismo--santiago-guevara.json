@@ -1,0 +1,154 @@
+{
+  "modulo": "icp-mecanismo",
+  "slug": "santiago-guevara",
+  "founder": "Santiago Guevara",
+  "bajada_envio": {
+    "founder": "Santi",
+    "porque": "En la Clarity del 5/11 quedó el norte: tu techo son tres clientes y tu autoridad no la estás capitalizando. Con tu Pasaporte ya tenemos tu voz. Ahora falta lo más importante antes de la sesión de oferta: a quién le hablás y qué le resolvés.",
+    "objetivo": "Que describas a tu cliente ideal con tus palabras, con sus dolores en los dos niveles, y que llegues a la sesión de oferta con una primera idea de la solución y el formato.",
+    "mindset": "Nadie conoce mejor que vos a la gente que te escribe. No busques la respuesta perfecta: escribí lo que ves, y lo que no tengas claro lo resolvemos juntos en la sesión de oferta."
+  },
+  "cuando": "Después de tu Pasaporte Digital y antes de la sesión de oferta, que es la que cierra el producto, el precio y la fecha.",
+  "pasos": [
+    "Leé lo que ya sabemos de vos y desde dónde mirar.",
+    "Describí a tu cliente ideal: quién es, qué edad tiene, en qué contexto está y qué consume.",
+    "Escribí sus dolores en los dos niveles: lo que le pasa a su canal o a su trabajo, y lo que le pasa a él.",
+    "Contá qué solución le darías y en qué formato. Si no lo tenés claro, dejalo en blanco: lo vemos en la sesión de oferta.",
+    "Mandá la carta a revisión y agendá la sesión de oferta esta semana."
+  ],
+  "bloques_inicio": [
+    {
+      "nuestro": true,
+      "cid": 30,
+      "titulo": "Lo que ya sabemos de vos",
+      "texto": [
+        "Esto sale de tu Clarity del 5/11 con Facu, de tu Pasaporte Digital y de tu llamada de contenido del 12/11 con Fede. No te pedimos que lo cuentes de nuevo."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Tu punto de partida</p><div class=\"fx-lista\"><div>Dirigís la parte creativa de tres canales de creadores de más de 10 millones de suscriptores, y ese es tu techo: cada video te lleva horas de idea, estructura y corrección.</div><div>En dos años generaste más de 2.000 millones de visitas, solo en YouTube.</div><div>Tu asesoría 1:1 de tres horas se vende sola: cada vez que abrís tres cupos en tu comunidad, se llenan. Y casi nadie sabe que existe.</div><div>Tenés una comunidad de 1.200 a 1.300 personas en tu canal de difusión de Instagram, armada con tres reels.</div><div>Te escribe gente de todos los niveles: desde el que todavía no abrió su canal hasta el que tiene 40 millones de suscriptores. Y te siguen preguntando «¿y la formación para cuándo?».</div><div>Lo que mejor te funciona en Instagram: «recreando ideas que vendí» y «así es la vida de un director creativo». Tus historias las ven entre 1.500 y 2.000 personas.</div><div>Tu posición, en tus palabras: «Hacerse viral es una ciencia exacta: si entiendo por qué explotó un video, lo puedo repetir en cualquier canal y en cualquier nicho».</div></div></div>"
+    },
+    {
+      "nuestro": true,
+      "cid": 31,
+      "titulo": "Desde dónde mirar",
+      "texto": [
+        "Hoy te escriben dos tipos de personas muy distintas: <b>los que hacen su propio canal</b> y quieren crecer, y <b>los que trabajan detrás de cámara</b> (editores, guionistas, estrategas) y quieren pasar de ejecutar a dirigir.",
+        "Las dos llamadas los miraron desde lados distintos. En la Clarity hablamos de una escuela de YouTube para los que trabajan detrás de cámara, que además te puede dar equipo. En tu llamada con Fede salió que el que te va a comprar probablemente es un creador que todavía no tiene ni mil suscriptores, que es también el que hoy compra tu asesoría. Vos los conocés mejor que nadie: contanos cuál es.",
+        "El cliente ideal es al que más le servís y el que más te sirve a vos. Elegí uno para describir. El otro no queda afuera: entra por su propio escalón."
+      ]
+    },
+    {
+      "nuestro": true,
+      "cid": 32,
+      "titulo": "El dolor, en dos niveles",
+      "texto": [
+        "Cada dolor se escribe dos veces. El <b>nivel 1</b> es lo que le pasa a su canal o a su trabajo: los números, la plata, el tiempo. El <b>nivel 2</b> es lo que le pasa a él como persona: lo que siente, lo que piensa a la noche, lo que no le cuenta a nadie.",
+        "Con el nivel 1 se reconoce; con el nivel 2 te escribe, porque ve tu video y piensa: «ese soy yo». El nivel 2 casi siempre está en los mensajes que ya te mandaron: copialo con sus palabras."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">Un ejemplo, para que se entienda</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Situación</th><th>Nivel 1 · lo que le pasa a su canal o a su trabajo</th><th>Nivel 2 · lo que le pasa a él</th></tr></thead><tbody><tr><td>Un creador que sube seguido</td><td class=\"gris\">Sube dos videos por semana hace un año y no pasa de 2.000 visitas</td><td class=\"gris\">«Siento que estoy perdiendo el tiempo y que esto es pura suerte»</td></tr><tr><td>Un editor que trabaja para canales chicos</td><td class=\"gris\">Cobra por video, entrega y le piden la tercera corrección</td><td class=\"gris\">«Si no entiendo por qué un video funciona, voy a ser editor toda la vida»</td></tr></tbody></table></div><p class=\"fx-pie\">Son ejemplos para mostrar la diferencia entre los niveles. Los de tu cliente ideal los escribís vos.</p></div>"
+    },
+    {
+      "cid": 40,
+      "titulo": "Tu cliente ideal, descripto",
+      "consigna": "Una persona concreta, como si la estuvieras viendo. Si te ayuda, pensá en alguien real que ya te escribió.",
+      "campo": "lineas",
+      "lineas": [
+        "Quién es y a qué se dedica hoy",
+        "Qué edad tiene",
+        "En qué contexto está: dónde vive, qué tiene hoy (canal, clientes, ingresos) y en qué momento está",
+        "Qué consume: qué canales y creadores mira, qué cursos o podcasts sigue",
+        "Dónde está y dónde te encuentra",
+        "Qué quiere lograr en un año"
+      ]
+    },
+    {
+      "cid": 41,
+      "titulo": "Sus dolores, en dos niveles",
+      "consigna": "Tres o cuatro situaciones que vive hoy. Para cada una, lo que le pasa a su canal o a su trabajo, y lo que le pasa a él. Si alguien ya te lo escribió, copiá sus palabras tal cual.",
+      "campo": "tabla",
+      "columnas": [
+        "La situación",
+        "Nivel 1 · lo que le pasa a su canal o a su trabajo",
+        "Nivel 2 · lo que le pasa a él"
+      ],
+      "filas": 4
+    },
+    {
+      "nuestro": true,
+      "cid": 33,
+      "titulo": "De acá, a tu oferta",
+      "texto": [
+        "Con el cliente ideal claro, la oferta sale casi sola: es la solución a esos dolores, en un formato que puedas sostener. Contanos lo que imaginás.",
+        "<b>Si no lo tenés claro, no te preocupes.</b> Dejalo en blanco o escribí lo que tengas: lo resolvemos en la sesión de oferta, que es justamente para eso."
+      ]
+    },
+    {
+      "cid": 42,
+      "titulo": "Qué solución le darías",
+      "consigna": "Qué le resolvés y con qué sale cuando termina. Contalo como se lo dirías a él.",
+      "campo": "texto",
+      "alto": 4,
+      "placeholder": "Le resuelvo… y sale con…"
+    },
+    {
+      "cid": 43,
+      "titulo": "En qué formato",
+      "consigna": "Lo que imaginás hoy. Puede cambiar en la sesión de oferta.",
+      "campo": "lineas",
+      "lineas": [
+        "Uno a uno, grupal, grabado o una mezcla",
+        "Cuánto dura",
+        "Cómo se entrega: llamadas, plataforma, comunidad",
+        "Qué se lleva al terminar",
+        "Cuánto te imaginás que vale"
+      ]
+    },
+    {
+      "nuestro": true,
+      "cid": 34,
+      "titulo": "Lo que hablamos en la Clarity, para comparar",
+      "texto": [
+        "Leelo después de escribir lo tuyo, no antes. Es lo que salió de la Clarity del 5/11 y de tu llamada con Fede del 12/11, y es el punto de partida de la sesión de oferta.",
+        "El lanzamiento, como lo hablaste con Fede: un evento de tres días que funciona como prueba del programa (la idea y el guion, la grabación, y la publicación con el análisis), con una serie de dos videos en YouTube que lleva gente al evento (tu historia, «cómo conseguí 2.000 millones de visitas con cero seguidores», y tu método), y tus historias de todos los días mostrando lo que hacés. La fecha sale de la sesión de oferta y el contenido se arma hacia atrás."
+      ],
+      "figura": "<div class=\"fx\"><p class=\"fx-et\">La escalera que hablamos</p><div class=\"fx-scroll\"><table class=\"fx-tabla\"><thead><tr><th>Escalón</th><th>Para quién</th><th>Qué es</th><th>Estado</th></tr></thead><tbody><tr><td>La asesoría</td><td class=\"gris\">El creador que no crece</td><td class=\"gris\">Tres horas sobre su canal. Como lo hablaste con Fede: un video previo con la teoría, para que la llamada sea práctica, y que salga con algo hecho, como sus cuatro ideas del mes trabajadas con vos</td><td class=\"gris\">Ya se vende. Con el entregable, sube el precio</td></tr><tr><td>El programa (nivel 1)</td><td class=\"gris\">Tu cliente ideal</td><td class=\"gris\">Lo que imaginaste con Fede: acceso a tu clon de YouTube y llamadas grupales con vos. Lo que vale no es la información, es el acceso a vos, a tus sistemas y a tu feedback. En la Clarity, para los que trabajan detrás de cámara, con una salida concreta: una propuesta enviada o su primer cliente</td><td class=\"gris\">A cerrar en la sesión de oferta. Referencia de la Clarity: entre USD 1.500 y 2.000</td></tr><tr><td>El nivel 2</td><td class=\"gris\">El que ya vende y está saturado</td><td class=\"gris\">Más técnico, con tu cerebro de YouTube como herramienta</td><td class=\"gris\">Después del primer cohort</td></tr><tr><td>La dirección creativa</td><td class=\"gris\">Creadores grandes y empresarios que entran a YouTube</td><td class=\"gris\">Tu servicio de hoy, hasta tres clientes. A futuro, con participación en lo que generan los videos</td><td class=\"gris\">Funciona. No es parte de este tramo</td></tr></tbody></table></div></div>"
+    }
+  ],
+  "ajustes": {
+    "0": {
+      "ocultar": true
+    },
+    "1": {
+      "ocultar": true
+    },
+    "3": {
+      "ocultar": true
+    },
+    "5": {
+      "ocultar": true
+    },
+    "6": {
+      "ocultar": true
+    },
+    "7": {
+      "ocultar": true
+    },
+    "8": {
+      "ocultar": true
+    },
+    "9": {
+      "ocultar": true
+    },
+    "10": {
+      "ocultar": true
+    },
+    "11": {
+      "ocultar": true
+    },
+    "12": {
+      "ocultar": true
+    },
+    "13": {
+      "ocultar": true
+    }
+  }
+}
